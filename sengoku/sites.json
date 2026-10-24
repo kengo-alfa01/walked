@@ -390,10 +390,11 @@
     ],
     "municipalityCode": "19201",
     "region": "山梨県甲府市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000085600.html",
-    "historySource": "https://www.city.kofu.yamanashi.jp/",
-    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+    "historySource": "https://yumura.org/attractions/yumurayama/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-katsuyama-tsuru",
@@ -647,10 +648,11 @@
     ],
     "municipalityCode": "14205",
     "region": "神奈川県藤沢市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000135700.html",
-    "historySource": "https://www.city.fujisawa.kanagawa.jp/",
-    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+    "historySource": "https://fujisawa-miyu.net/f/summer-fujisawasyuku/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-koyabe",
@@ -2932,5 +2934,21 @@
     "historySource": "",
     "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
     "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-akatsuka",
+    "name": "赤塚城跡",
+    "point": [
+      139.643515,
+      35.784545
+    ],
+    "municipalityCode": "13119",
+    "region": "東京都板橋区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000352200.html",
+    "historySource": "https://www.city.itabashi.tokyo.jp/1014983/1015442/1015448/1015450/1015799.html",
+    "note": "板橋区公式資料は千葉氏の居城と説明。個々の人物カードは人物との個別の結びつきが確認できるまで保留。",
+    "coordinateVerification": "published_poi",
+    "sourceAddress": "東京都板橋区赤塚5-35"
   }
 ]
