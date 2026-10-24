@@ -1,12 +1,14 @@
-# WALKED 戦国データ仕様 (v1)
+# 戦国時代コレクション — 人物候補マスター
 
-実データは史跡の場所・人物との関連性・出典を検証してから投入します。配布版の JSON は空配列から開始します。
+`people.json` は **史跡確認前の候補リスト** です。実在性・同名人物・表記・時代・属性は `verification: needs_review` として未検証扱いです。史跡との関連付けも未開始です。したがって、掲載人数は歴史人物の確定人数ではありません。
 
-- `people.json`: `[ { "id": "p-001", "name": "人物名", "group": "所属・勢力", "source": "https://..." } ]`
-- `sites.json`: `[ { "id": "site-001", "name": "史跡名", "point": [139.0, 35.0], "municipalityCode": "13209", "evidence": "本人との関係の説明", "source": "https://...", "evidenceType": "direct" } ]`
-- `cards.json`: `[ { "id": "card-001", "personId": "p-001", "siteId": "site-001", "title": "発見後に読む題名", "summary": "独自の解説文", "source": "https://..." } ]`
+- `id` 安定識別子（表示名を変更しても維持）
+- `name` 仮の代表表記
+- `group` 当面の調査カテゴリ。所属勢力が生涯にわたって一意とは限りません。
+- `aliases` 同一人として統合した呼称の候補
+- `verification` needs_review / verified / rejected
+- `siteResearch` not_started / in_progress / complete
+- `source` 人物の基礎情報を確認した個別史料URL。空なら未検証。
+- `sites.json`, `cards.json` は史跡の一次資料・文化財台帳等と照合してから投入。
 
-IDは公開後に変更しないこと。緯度経度は `[経度, 緯度]`。地理学的に代表点が属する町丁・字全域が獲得範囲。
-`evidenceType` は `direct`（直接の史実）/`later`（後世の顕彰）/`tradition`（伝承）とする。
-Googleタイムラインの点と史跡代表点が同じ境界ポリゴンにある場合だけ獲得。記録点間を直線補間しない。
-全国の町丁データ取得と獲得判定の完全連携は現段階では未完成。町田・相模原以外の読込済み境界についてのみ部分対応。
+データはゲーム『信長の野望』の収録名簿・画像を複製したものではありません。候補から史料で検証し、誤った人物名・重複を修正します。
