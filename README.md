@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/33915341/README.md)
+[README.md](https://github.com/user-attachments/files/33915704/README.md)[README.md](https://github.com/user-attachments/files/33915703/README.md)[README.md](https://github.com/user-attachments/files/33915700/README.md)[README.md](https://github.com/user-attachments/files/33915698/README.md)[README.md](https://github.com/user-attachments/files/33915695/README.md)
 # WALKED v0.3.1（町田市・市区町村・都道府県フィルタ）
 
 ## 使い方
@@ -40,6 +40,110 @@ OpenStreetMap公式タイルサーバーが403で拒否したため、日本全�
 - 町田市境界が未読込の場合、以前の市区町村レイヤーを残さず、空の状態を表示します。
 - GoogleタイムラインからGPSを取り込む際、町田市にある点は町田市全体と該当町丁の両方を記録します。詳細境界データを読み込んでからインポートしてください。
 - 以前の取り込みで町丁の情報が保存されていない場合は、タイムラインJSONをもう一度取り込んでください。以前のデータを削除する必要はありません。
-# WALKED v0.6.2
 
-史跡・寺社など150地点の所在地候補データ。歴史カード116枚。新規50地点のうち歴史カードが確定したのは1地点・2枚のみ。詳しくは UPDATE-v0.6.2.md を参照。
+
+## v0.3.5 GoogleタイムラインJSON対応修正
+- iPhoneからエクスポートしたタイムラインの配列形式（`[{ "visit": ... }, { "timelinePath": ... }]`）に対応。
+- `geo:緯度,経度` 文字列から訪問地点と移動経路のGPS点を抽出。
+- `durationMinutesOffsetFromStartTime` を位置情報の日時として加算。
+- 他のJSON形式への対応と既存の訪問・手動登録・地図フィルタは維持。
+- JSONファイルはブラウザ内で処理され、WALKEDのサーバーにはアップロードされません。
+- GPS点の間の経路は推測しません。
+
+
+[README.md](https://github.com/user-attachments/files/33915697/README.md)
+# WALKED v0.3.7 — 町田市の町丁境界データ修正
+
+## 原因
+旧版で指定していた Geoshape のURLが間違っていました。正しい2020年版のTopoJSONは次です。
+https://geoshape.ex.nii.ac.jp/ka/topojson/2020/13/r2ka13209.topojson
+
+## GitHub Pages に適用する方法
+1. このZIPを解凍。
+2. GitHubの `walked` リポジトリに `index.html` をアップロードして既存ファイルを置き換える。
+3. `.github/workflows/bundle-machida.yml` を同じフォルダ構造で追加する（GitHubでファイル新規作成時にファイル名を `.github/workflows/bundle-machida.yml` と入力して内容を貼り付けてもよい）。
+4. GitHubの Actions で `Bundle Machida boundaries` を選択して `Run workflow` を実行する。最初のpushで自動実行されることもある。
+5. Actionsの実行が緑色の成功になり、リポジトリ直下に `machida-boundaries.topojson` が追加されたことを確認する。
+6. SafariでWALKEDを開き直す。町田市モードで町名・丁目の区域が表示される。
+7. 境界の取得前に取り込んだタイムラインJSONは再度取り込む。すでに記録済みの市区町村データは消去不要。
+
+GitHub ActionsからGeoshapeへの通信が失敗した場合は、ファイルは作成されません。その場合はActionsログのエラーを確認してください。
+
+## 補足
+- 地図の町丁境界はe-Stat 令和2年国勢調査のデータをGeoshape/CODHが加工したもの。195区域が掲載されています。細分割区域や複数パーツを含むため、実際に読み込むポリゴン数はファイル次第です。
+- 出典: 『国勢調査町丁・字等別境界データセット』（CODH作成）「令和2年国勢調査町丁・字等別境界データ」（e-Stat）を加工 doi:10.20676/00000450 / CC BY 4.0
+- WALKEDにアップロードするのは公開境界ファイルだけです。Googleタイムラインの個人データはGitHubにはアップロードしないでください。
+- タイムラインの読み取り・GPS座標の市区町村照合はブラウザ内で行われます。
+
+
+[Uploading# WALKED v0.3.8 — 相模原市 詳細境界追加
+
+町田市の町丁・字に加え、相模原市の緑区（14151）・中央区（14152）・南区（14153）の町丁・字別制覇を追加します。既存の記録は同じlocalStorageキーで維持されます。市区町村の訪問済みとは独立した塗り分けです。
+
+## GitHubでの更新
+
+1. `index.html` をリポジトリ最上位の既存ファイルと置き換える。
+2. `.github/workflows/bundle-sagamihara.yml` を**このパスのまま**作成する（リポジトリ最上位へ直接置かない）。
+3. GitHub → Actions → **Bundle Sagamihara boundaries** → Run workflow → main → Run workflow。
+4. Code画面に `sagamihara-14151.topojson`、`sagamihara-14152.topojson`、`sagamihara-14153.topojson` が生成されたことを確認する。
+5. iPhoneのSafariでWALKEDを開き、「相模原市」フィルタをタップ。既存のGoogleタイムラインJSONを再取り込みすると詳細町丁に反映される。
+
+注意：GitHub Actionsでの実際の取得成功は未検証。公開元の2020年版町丁・字境界を参照し、コードとURLは3区それぞれ別です。
+ README.md…]()
+
+
+[U# WALKED v0.3.9 — 町田／相模原 統合フィルタ
+
+- フィルタは「町田／相模原」「市区町村」「都道府県」の3つ。
+- 町田市の制覇済み町丁・字は緑、相模原市（緑区・中央区・南区）は青で表示。
+- 未制覇区域は両市とも薄い灰色。凡例で市の色を表示。
+- 町田市・相模原市の詳細探索率は統合表示で集計。過去の訪問記録のキー（m: / s:）を保持。
+- 各市の詳細制覇は市区町村レベルとは独立。
+- 境界ファイルは既存の `machida-boundaries.topojson` と `sagamihara-14151.topojson`, `sagamihara-14152.topojson`, `sagamihara-14153.topojson` を読み込みます。
+
+## GitHub Pages への更新
+
+リポジトリ直下の `index.html` を差し替えてください。`bundle-sagamihara.yml` がまだなければ `.github/workflows/` に追加し、Actionsから `Bundle Sagamihara boundaries` を実行してください。町田市の既存境界ファイルはそのまま使います。制覇記録を削除する必要はありません。
+
+## 留意点
+
+境界ファイルはGitHub上で生成済みである必要があります。今回のZIPには境界データ自体は含まれません。Googleタイムラインの履歴を細かい町丁に再判定したい場合は、境界取得後にJSONを再取り込みしてください。
+ploading README.md…]()
+
+
+[Uploading READ# WALKED v0.4.0 — 歴史図鑑（初期版）
+
+GitHubのリポジトリ直下に `index.html` と **`history.json`** の両方をアップロードしてください。既存の境界データ（町田・相模原）はそのまま使用します。
+
+- 地図の町丁・字を制覇すると、関連する歴史項目が「歴史図鑑」で読めるようになります。
+- 未発見の項目は内容とタイトルを伏せます。
+- 既存のGPS履歴・制覇済み状態を使用し、記録の削除や再取り込みは原則不要です。ただし、詳細町丁が未登録の場合は、境界を読み込んだ状態で過去のJSONを再取り込みしてください。
+- 町田市・相模原市の既存の境界ファイルは維持してください。
+- 歴史図鑑データは同一オリジンから読み込まれます。GitHub Pages公開後に動作を確認してください。
+- 歴史項目は自治体の公開文化財資料をもとにした第1弾です。所在地の記述や町丁境界の改訂により獲得条件がずれる可能性があります。
+
+歴史データは位置履歴と結合して端末内でのみ判定します。歴史JSONにはユーザーの位置情報は含みません。
+ME.md…]()
+
+
+[Uploadin# WALKED v0.5.0 (全国詳細・現在地表示)
+
+前版v0.4.0の制覇記録・歴史図鑑・町田／相模原表示を維持し、以下を追加。
+
+- 全国詳細フィルタ: ズーム11以上で表示中の市区町村だけ町丁字TopoJSONを取得。最大6市区町村/画面。IndexedDBにキャッシュ。
+- 現在地へ: 地図右上でGPSによるセンタリングと青い現在地マーカー表示。制覇は登録しない。
+- 設定: 未発見の史跡ピンを表示する設定を保存。人物・史跡データは未選定のため、現時点で未発見ピンは表示されない。
+- タイムライン: 全国詳細境界を最大30市区町村ずつ判定（既存の町田・相模原とは独立）。経路の推測補完はしない。
+
+## 公開方法
+既存のGitHub Pagesリポジトリの `index.html` を差し替え。既存の `history.json`、町田／相模原の境界ファイル、ワークフローは残すこと。過去データを消さずにアップグレードできる。
+
+## 重要な制約
+全国詳細データは外部CODH/e-StatサーバーのCORS・可用性に依存する。読み込めない地域は、`town-data/13201.topojson` のように市区町村コード5桁のファイルをGitHubへ配置すると優先して使われる。ファイル名例はコード13201=八王子市。全国の詳細を一括で内蔵・保証する版ではない。
+
+一回のタイムライン取込みで全国詳細判定する自治体数は最大30。対象外の市区町村の詳細判定は別の期間の履歴を再取り込みするか、市区町村別データを配置して再解析する必要がある。国勢調査の町丁・字区域は住所境界とは完全に一致しない場合がある。
+
+現行v0.4.0の歴史図鑑はそのまま維持し、追加の歴史人物やカードの選定は行っていない。人物別の史跡コレクションは後続版で追加する。
+
+データ出典: CODH「国勢調査町丁・字等別境界データセット」(e-Stat 2020年、CC BY 4.0), https://geoshape.ex.nii.ac.jp/ka/ 。
+g README.md…]()
