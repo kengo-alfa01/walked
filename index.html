@@ -263,6 +263,18 @@ let newHistoryCards=0;for(let i=0;i<pts.length;i++){const x=pts[i],id=match(x.p)
  let detailsChecked=0,detailsUnavailable=0;
  const work=[...grouped.entries()].filter(([code])=>!([MACHIDA_CODE,...SAGAMIHARA_WARDS].includes(code))).slice(0,30);
  for(const [code,points] of work){try{const ff=await loadTownForCode(code);for(const point of points){const matchTown=ff.find(f=>geomContains(point.p,f.geometry));if(matchTown){const id=keyForMode(matchTown,'nationwideDetail');mark(id,point.source,point.t)}}detailsChecked++}catch(e){detailsUnavailable++}}
+ // Historical cards must be evaluated AFTER municipal town polygons have loaded.
+ // Limit work to municipalities actually present in imported Timeline points.
+ const historicalCodes=new Set(sengokuSites.map(site=>site.municipalityCode));
+ for(const [code,points] of grouped){
+  if(!historicalCodes.has(code))continue;
+  try{
+   if(code===MACHIDA_CODE && !state.machida.length)await loadMachida();
+   else if(SAGAMIHARA_WARDS.includes(code)&&!state.sagamihara.length)await loadSagamihara();
+   else if(code!==MACHIDA_CODE&&!SAGAMIHARA_WARDS.includes(code)&&!state.nationCache.has(code))await loadTownForCode(code);
+   for(const point of points)newHistoryCards+=acquireSengokuByPoint(point.p,point.t);
+  }catch(error){console.warn('歴史区域境界の読み込み失敗',code,error)}
+ }
  repaint();persist();let added=Object.keys(state.visited).length-before;state.busy=false;$('summary').innerHTML='<p><strong>前回の取り込み結果</strong></p><p>位置情報：'+pts.length.toLocaleString()+'点<br>国内の行政区域に一致：'+matched.toLocaleString()+'点<br>新規制覇：<strong>'+added+'区域</strong><br>全国町丁判定：'+detailsChecked+'市区町村（失敗 '+detailsUnavailable+'）'+(grouped.size>30?' ※一度に最大30市区町村まで':'')+'</p><p>※GPS点の間は補間していません。通過した区域でもGPS点がなければ未制覇になります。</p>';status('✅ 読み込み完了。新たに'+added+'区域を制覇しました。歴史カード '+newHistoryCards+'枚を発見しました。');}
 $('jsonFile').addEventListener('change',async e=>{let f=e.target.files?.[0];if(!f)return;try{status('JSONを読み取り中…');let data=JSON.parse(await f.text()),pts=extract(data);if(!pts.length){status('⚠️ このJSONから緯度経度を取り出せませんでした。実データの形式に合わせた調整が必要です。');return}if(pts.length>500000){if(!confirm(pts.length+'地点あります。処理が重くなる可能性があります。続けますか？'))return}await processRecords(pts)}catch(err){status('⚠️ JSON読み込みエラー：'+err.message)}finally{e.target.value=''}});
 $('locate').onclick=()=>{if(!navigator.geolocation)return status('位置情報機能が使えません');status('現在地を取得中…');navigator.geolocation.getCurrentPosition(p=>{let xy=[p.coords.longitude,p.coords.latitude];map.setView([xy[1],xy[0]],11);const id=match(xy);if(id){let finalId=id;if(id===MACHIDA_CODE&&state.machida.length){const sub=state.machida.find(f=>geomContains(xy,f.geometry));if(sub){finalId=keyForMode(sub,'machida');mark(id,'現在地',new Date().toISOString())}}mark(finalId,'現在地',new Date().toISOString());if(state.sagamihara.length){const sub=state.sagamihara.find(f=>geomContains(xy,f.geometry));if(sub)mark(keyForMode(sub,'sagamihara'),'現在地',new Date().toISOString())}repaint();persist();status('📍 '+(finalId.startsWith(MACHIDA_PREFIX)?labelFor(state.machidaById.get(finalId),'machida'):finalId.startsWith(SAGAMIHARA_PREFIX)?labelFor(state.sagamiharaById.get(finalId),'sagamihara'):title(state.featureById.get(id)))+'を登録しました')}else status('現在地に一致する市区町村が見つかりませんでした')},err=>status('位置取得失敗：'+err.message),{enableHighAccuracy:true,timeout:20000,maximumAge:0})};
