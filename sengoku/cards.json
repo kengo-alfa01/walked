@@ -538,5 +538,205 @@
     "source": "https://www.city.nagano.nagano.jp/n151100/contents/p006083.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0055",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-ozawa",
+    "title": "小沢城跡に刻まれた歴史",
+    "summary": "小沢城は多摩丘陵の城跡で、戦国期の武蔵国境の攻防を考える手掛かりになる。",
+    "source": "https://www.city.kawasaki.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0056",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-masugata",
+    "title": "桝形城跡に刻まれた歴史",
+    "summary": "桝形城は多摩丘陵に残る城跡。後北条氏の城郭網との関係は史料精査を要する。",
+    "source": "https://www.city.kawasaki.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0057",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-kosugi-goten",
+    "title": "小杉御殿跡に刻まれた歴史",
+    "summary": "小杉御殿は江戸時代初期に徳川将軍家の往来に用いられた施設で、家康期の交通政策に関わる。",
+    "source": "https://www.city.kawasaki.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0058",
+    "personId": "sg-c594233cb2b7",
+    "siteId": "sg-site-chigasaki",
+    "title": "茅ヶ崎城跡に刻まれた歴史",
+    "summary": "茅ヶ崎城は横浜北部に残る中世城郭。特定人物による築城・利用の詳細は確認が必要。",
+    "source": "https://www.city.yokohama.lg.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0059",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-oba",
+    "title": "大庭城跡に刻まれた歴史",
+    "summary": "相模の要地に位置する大庭城は戦国期の城郭として知られる。早雲本人との直接の関わりは検証対象。",
+    "source": "https://www.city.fujisawa.kanagawa.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0060",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-fujisawa-goten",
+    "title": "藤沢御殿跡に刻まれた歴史",
+    "summary": "藤沢御殿は家康が東海道沿いの往来に利用したとされる御殿跡。",
+    "source": "https://www.city.fujisawa.kanagawa.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0061",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-koyabe",
+    "title": "小矢部城跡に刻まれた歴史",
+    "summary": "三浦半島に残る小矢部城跡。後北条氏との個別の関係は追加調査が必要。",
+    "source": "https://www.city.yokosuka.kanagawa.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0062",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-oyabe",
+    "title": "大矢部城跡に刻まれた歴史",
+    "summary": "三浦半島南部に残る城跡。戦国武将との直接的な関係は追加検証する。",
+    "source": "https://www.city.yokosuka.kanagawa.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0063",
+    "personId": "sg-7c350c62d250",
+    "siteId": "sg-site-shakujii",
+    "title": "石神井城跡に刻まれた歴史",
+    "summary": "石神井城は豊島氏の拠点で、太田道灌との戦いをめぐる中世武蔵の重要地点。",
+    "source": "https://www.city.nerima.tokyo.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0064",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-takatsuki",
+    "title": "高月城跡に刻まれた歴史",
+    "summary": "滝山城の近隣にある高月城。氏照との直接の結び付きは資料確認が必要。",
+    "source": "https://www.city.hachioji.tokyo.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0065",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-karakai",
+    "title": "辛垣城跡に刻まれた歴史",
+    "summary": "辛垣城は青梅に残る山城跡で、後北条勢力の西多摩への展開を考える候補地。",
+    "source": "https://www.city.ome.tokyo.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0066",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-yamura",
+    "title": "谷村城跡に刻まれた歴史",
+    "summary": "谷村城は郡内地域の政治・軍事拠点となった城跡。家康期との関連は引き続き精査する。",
+    "source": "https://www.city.tsuru.yamanashi.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0067",
+    "personId": "sg-e00b2631eded",
+    "siteId": "sg-site-nomi",
+    "title": "能見城跡に刻まれた歴史",
+    "summary": "新府城近傍の能見城跡。武田勝頼との個別の関係は史料の検証が必要。",
+    "source": "https://www.city.nirasaki.lg.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0068",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-hakusan",
+    "title": "白山城跡に刻まれた歴史",
+    "summary": "白山城は韮崎の山城で、武田氏の地域支配との関係を調べる史跡。信玄本人との関連は要確認。",
+    "source": "https://www.city.nirasaki.lg.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0069",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-takeda-hachimangu",
+    "title": "武田八幡宮に刻まれた歴史",
+    "summary": "武田家の氏神として崇敬された神社。現存する本殿は信玄による再建とされる。",
+    "source": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/jinjya_bukkaku/4320.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0070",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-ganjoji",
+    "title": "願成寺に刻まれた歴史",
+    "summary": "願成寺は甲斐武田氏の始祖とされる武田信義の菩提寺。信玄本人との直接の関係は未確認。",
+    "source": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/jinjya_bukkaku/4323.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0071",
+    "personId": "sg-98514cee0056",
+    "siteId": "sg-site-chozenji",
+    "title": "長禅寺に刻まれた歴史",
+    "summary": "甲府の長禅寺は武田信虎の菩提寺として知られる。",
+    "source": "https://www.city.kofu.yamanashi.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0072",
+    "personId": "sg-e00b2631eded",
+    "siteId": "sg-site-komamiya",
+    "title": "駒宮砦跡に刻まれた歴史",
+    "summary": "駒宮砦跡は大月に残る山地の軍事遺構。勝頼本人との関係は追加検証を要する。",
+    "source": "https://www.city.otsuki.yamanashi.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0073",
+    "personId": "sg-c654b6b73e86",
+    "siteId": "sg-site-odano",
+    "title": "小田野城跡に刻まれた歴史",
+    "summary": "小田野城は武田信昌と跡部景家の抗争に関連して語られる史跡。",
+    "source": "https://www.city.yamanashi.yamanashi.jp/site/cultural-assets/1672.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0074",
+    "personId": "sg-c654b6b73e86",
+    "siteId": "sg-site-jokyoji",
+    "title": "浄居寺城跡に刻まれた歴史",
+    "summary": "浄居寺城跡は山梨の中世山城。信昌との関連や城の役割は追加検証を要する。",
+    "source": "https://www.city.yamanashi.yamanashi.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
   }
 ]
