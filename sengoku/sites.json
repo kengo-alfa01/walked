@@ -2966,5 +2966,21 @@
     "coordinateVerification": "published_poi",
     "researchStatus": "person_verified",
     "note": "平塚市博物館資料が徳川家康の宿所と確認。公開歴史地名データ代表座標は跡地の厳密な境界を保証しない。"
+  },
+  {
+    "id": "sg-site-jofukuji-castle-entry",
+    "name": "浄福寺城跡（浄福寺側入口）",
+    "point": [
+      139.248489,
+      35.669819
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市下恩方町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000434600.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/003/p005289.html",
+    "coordinateVerification": "published_poi_at_access_temple",
+    "researchStatus": "person_verified",
+    "note": "座標は浄福寺（下恩方町3259）の代表点。城の主郭・史跡範囲を指す座標ではない。八王子市は城跡を寺の裏山一帯と説明し、氏照の入城先には諸説ある。"
   }
 ]
