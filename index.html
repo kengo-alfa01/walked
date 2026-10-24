@@ -157,7 +157,7 @@ async function loadTownForCode(code){
    const remote='https://geoshape.ex.nii.ac.jp/ka/topojson/2020/'+code.slice(0,2)+'/r2ka'+code+'.topojson';
    for(const link of [url,remote]){try{const ctrl=new AbortController(),tm=setTimeout(()=>ctrl.abort(),9500);let res;try{res=await fetch(link,{signal:ctrl.signal})}finally{clearTimeout(tm)}if(res.ok){doc=await res.json();break}}catch{}}
   }
-  if(!doc)throw Error(code+'の町丁境界を取得できません（通信・配信元の制約）');
+  if(!doc)throw Error(code+'の町丁境界を取得できません。八王子市(13201)の場合、GitHub Actions「Bundle Hachioji boundaries」で town-data/13201.topojson を生成してください（通信・配信元の制約）。');
   const features=normalizeMachida(doc);
   if(!features.length)throw Error(code+' の区域データが空です');
   features.forEach(f=>{f.properties={...f.properties,WALKED_MUNICIPAL_CODE:code};const id=keyForMode(f,'nationwideDetail');state.nationById.set(id,f)});
