@@ -1,0 +1,352 @@
+[
+  {
+    "testSiteNumber": 151,
+    "siteId": "sg-site-nrct-130000172000",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000172000.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 152,
+    "siteId": "sg-site-nrct-130000172700",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000172700.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 153,
+    "siteId": "sg-site-nrct-130000174800",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000174800.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 154,
+    "siteId": "sg-site-nrct-130000175200",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000175200.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 155,
+    "siteId": "sg-site-nrct-130000427700",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000427700.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 156,
+    "siteId": "sg-site-nrct-130000346800",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000346800.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 157,
+    "siteId": "sg-site-nrct-130000350100",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000350100.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 158,
+    "siteId": "sg-site-nrct-130000350800",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000350800.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 159,
+    "siteId": "sg-site-nrct-130000428700",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000428700.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 160,
+    "siteId": "sg-site-nrct-130000428500",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000428500.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 161,
+    "siteId": "sg-site-nrct-130000429300",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000429300.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 162,
+    "siteId": "sg-site-nrct-130000329700",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000329700.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 163,
+    "siteId": "sg-site-nrct-130000329800",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000329800.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 164,
+    "siteId": "sg-site-nrct-130000378400",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000378400.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 165,
+    "siteId": "sg-site-nrct-130000378600",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000378600.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 166,
+    "siteId": "sg-site-nrct-130000381100",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000381100.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 167,
+    "siteId": "sg-site-nrct-140000060600",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000060600.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 168,
+    "siteId": "sg-site-nrct-140000059000",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000059000.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 169,
+    "siteId": "sg-site-nrct-140000022400",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000022400.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 170,
+    "siteId": "sg-site-nrct-140000021500",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000021500.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 171,
+    "siteId": "sg-site-nrct-140000021200",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000021200.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 172,
+    "siteId": "sg-site-nrct-190000022200",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000022200.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 173,
+    "siteId": "sg-site-nrct-190000023000",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000023000.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 174,
+    "siteId": "sg-site-nrct-190000023100",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000023100.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 175,
+    "siteId": "sg-site-nrct-190000020400",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000020400.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 176,
+    "siteId": "sg-site-nrct-190000050100",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000050100.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 177,
+    "siteId": "sg-site-nrct-190000050400",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000050400.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 178,
+    "siteId": "sg-site-nrct-190000050300",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000050300.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 179,
+    "siteId": "sg-site-nrct-190000050700",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000050700.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 180,
+    "siteId": "sg-site-nrct-190000051000",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000051000.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 181,
+    "siteId": "sg-site-nrct-190000051400",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000051400.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 182,
+    "siteId": "sg-site-nrct-190000051800",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000051800.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 183,
+    "siteId": "sg-site-nrct-190000052800",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000052800.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 184,
+    "siteId": "sg-site-nrct-190000058900",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000058900.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 185,
+    "siteId": "sg-site-nrct-190000059200",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000059200.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 186,
+    "siteId": "sg-site-nrct-190000059800",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000059800.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 187,
+    "siteId": "sg-site-nrct-190000061100",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000061100.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 188,
+    "siteId": "sg-site-nrct-190000061700",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000061700.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 189,
+    "siteId": "sg-site-nrct-190000098900",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000098900.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 190,
+    "siteId": "sg-site-nrct-190000099000",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000099000.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 191,
+    "siteId": "sg-site-nrct-190000099200",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000099200.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 192,
+    "siteId": "sg-site-nrct-190000100300",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000100300.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 193,
+    "siteId": "sg-site-nrct-190000101800",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000101800.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 194,
+    "siteId": "sg-site-nrct-190000104700",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000104700.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 195,
+    "siteId": "sg-site-nrct-190000105400",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000105400.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 196,
+    "siteId": "sg-site-nrct-190000106400",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000106400.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 197,
+    "siteId": "sg-site-nrct-190000109900",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000109900.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 198,
+    "siteId": "sg-site-nrct-190000110900",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000110900.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 199,
+    "siteId": "sg-site-nrct-190000111000",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000111000.html",
+    "verifiedHistoricalSource": null
+  },
+  {
+    "testSiteNumber": 200,
+    "siteId": "sg-site-nrct-190000141200",
+    "status": "needs_historical_link",
+    "geographicSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000141200.html",
+    "verifiedHistoricalSource": null
+  }
+]
