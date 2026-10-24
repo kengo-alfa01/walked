@@ -1398,7 +1398,9 @@
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000348700.html",
     "historySource": "https://www.city.ota.tokyo.jp/",
     "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。",
-    "municipalityAudit": "2026-10-25 corrected based on published location information"
+    "municipalityAudit": "v0.6.5: Source confirms Shinagawa (13109); polygon mismatch still unexplained. Do not alter point/code without boundary inspection.",
+    "boundaryAudit": "unresolved_polygon_mismatch",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000348700.html"
   },
   {
     "id": "sg-site-nrct-130000022400",
@@ -2227,7 +2229,11 @@
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000427700.html",
     "historySource": "",
     "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
-    "researchStatus": "needs_historical_link"
+    "researchStatus": "needs_historical_link",
+    "boundaryAudit": "unresolved_polygon_mismatch",
+    "municipalityAudit": "v0.6.5: Source confirms Hachioji (13201); large archaeological zone / polygon coverage needs examination. Not Sengoku period (Heian-era kiln complex).",
+    "municipalityAuditSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/monogatari/p026821.html",
+    "historicalScope": "out_of_sengoku_scope_review"
   },
   {
     "id": "sg-site-nrct-130000346800",
@@ -2386,13 +2392,15 @@
       139.541,
       35.692692
     ],
-    "municipalityCode": "13208",
-    "region": "東京都",
+    "municipalityCode": "13204",
+    "region": "東京都三鷹市",
     "verification": "site_verified_person_pending",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000381100.html",
     "historySource": "",
     "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
-    "researchStatus": "needs_historical_link"
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "v0.6.5: CODH source address confirms 東京都三鷹市; prior code 13208 incorrect",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000381100.html"
   },
   {
     "id": "sg-site-nrct-140000060600",
@@ -2446,13 +2454,15 @@
       139.58339,
       35.60738
     ],
-    "municipalityCode": "14136",
-    "region": "神奈川県",
+    "municipalityCode": "14135",
+    "region": "神奈川県川崎市多摩区",
     "verification": "site_verified_person_pending",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000021500.html",
     "historySource": "",
     "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
-    "researchStatus": "needs_historical_link"
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "v0.6.5: CODH source address confirms 神奈川県川崎市多摩区; prior code 14136 incorrect",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000021500.html"
   },
   {
     "id": "sg-site-nrct-140000021200",
@@ -2491,13 +2501,15 @@
       138.885031,
       35.588192
     ],
-    "municipalityCode": "19204",
-    "region": "山梨県",
+    "municipalityCode": "19206",
+    "region": "山梨県大月市",
     "verification": "site_verified_person_pending",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000023000.html",
     "historySource": "",
     "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
-    "researchStatus": "needs_historical_link"
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "v0.6.5: CODH source address confirms 山梨県大月市; prior code 19204 incorrect",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000023000.html"
   },
   {
     "id": "sg-site-nrct-190000023100",
@@ -2506,13 +2518,15 @@
       138.864898,
       35.588988
     ],
-    "municipalityCode": "19204",
-    "region": "山梨県",
+    "municipalityCode": "19206",
+    "region": "山梨県大月市",
     "verification": "site_verified_person_pending",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000023100.html",
     "historySource": "",
     "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
-    "researchStatus": "needs_historical_link"
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "v0.6.5: CODH source address confirms 山梨県大月市; prior code 19204 incorrect",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000023100.html"
   },
   {
     "id": "sg-site-nrct-190000020400",
@@ -2671,13 +2685,15 @@
       138.695007,
       35.776985
     ],
-    "municipalityCode": "19213",
-    "region": "山梨県",
+    "municipalityCode": "19205",
+    "region": "山梨県山梨市",
     "verification": "site_verified_person_pending",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000059200.html",
     "historySource": "",
     "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
-    "researchStatus": "needs_historical_link"
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "v0.6.5: CODH source address confirms 山梨県山梨市; prior code 19213 incorrect",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000059200.html"
   },
   {
     "id": "sg-site-nrct-190000059800",
