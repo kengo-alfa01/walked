@@ -1,0 +1,43 @@
+name: Bundle Sagamihara boundaries
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/bundle-sagamihara.yml'
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and validate Sagamihara 2020 town boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          for code in 14151 14152 14153; do
+            curl --fail --location --retry 4 --connect-timeout 20 --max-time 120 \
+              "https://geoshape.ex.nii.ac.jp/ka/topojson/2020/14/r2ka${code}.topojson" \
+              -o "sagamihara-${code}.topojson"
+          done
+          python3 - <<'PYTHON'
+          import json,os
+          for code in ['14151','14152','14153']:
+              p=f'sagamihara-{code}.topojson'
+              with open(p,encoding='utf8') as f: data=json.load(f)
+              assert data.get('type')=='Topology',f'{p} not TopoJSON'
+              geoms=sum(len(o.get('geometries',[])) for o in data.get('objects',{}).values())
+              assert geoms>=30, f'{p}: too few town shapes: {geoms}'
+              print(p,geoms,os.path.getsize(p))
+          PYTHON
+      - name: Commit boundaries into site
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sagamihara-14151.topojson sagamihara-14152.topojson sagamihara-14153.topojson
+          if ! git diff --cached --quiet; then
+            git commit -m 'Bundle Sagamihara town boundaries'
+            git push
+          fi
