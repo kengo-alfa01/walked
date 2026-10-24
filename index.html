@@ -412,7 +412,7 @@ $('runSengokuTest').onclick=async()=>{
    ['14151','14152','14153'].includes(code)?state.sagamihara:state.nationCache.get(code)||[];
   if(!candidates.length){result.textContent='⚠️ この地点の町丁境界が未取得です。地図側の境界データの読込後に再試行してください。実際の記録に変更はありません。';return}
   const polygonFound=candidates.some(f=>geomContains(site.point,f.geometry));
-  if(!polygonFound){result.textContent='⚠️ 地点の座標が指定自治体の町丁境界内にありません。自治体コードまたは位置を要確認です。（記録は変更していません）';return}
+  if(!polygonFound){result.textContent=(site.boundaryAudit==='unresolved_polygon_mismatch'?'⚠️ 公開資料では自治体コード・座標の対応を確認済みですが、読み込んだ町丁ポリゴンに地点が含まれていません。境界の欠落・範囲・代表点の差異を調査中です。カード獲得判定は保留します。（記録は変更していません）':'⚠️ 地点の座標が指定自治体の町丁境界内にありません。自治体コードまたは位置を要確認です。（記録は変更していません）');return}
   const matched=matchedSengokuCardsAtPoint(site.point);
   const newlyMatched=matched.ids.filter(id=>!ownsSengokuCard(id));
   const affectedPeople=new Set(sengokuCards.filter(c=>matched.ids.includes(c.id)).map(c=>c.personId));
