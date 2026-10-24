@@ -1,0 +1,46 @@
+name: Bundle Sengoku town boundaries
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/bundle-sengoku-towns.yml'
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch verified town boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p town-data
+          for item in '14204:14' '14206:14' '19201:19'; do
+            code="${item%%:*}"
+            prefecture="${item##*:}"
+            curl --fail --location --retry 4 --retry-delay 3 --connect-timeout 20 --max-time 150 \
+              "https://geoshape.ex.nii.ac.jp/ka/topojson/2020/${prefecture}/r2ka${code}.topojson" \
+              -o "town-data/${code}.topojson"
+          done
+          python3 - <<'PYCODE'
+          import json, pathlib
+          for code in ('14204','14206','19201'):
+              p=pathlib.Path(f'town-data/{code}.topojson')
+              data=json.loads(p.read_text(encoding='utf-8'))
+              assert data.get('type')=='Topology',code
+              count=sum(len(x.get('geometries',[])) for x in data.get('objects',{}).values())
+              assert count>10,(code,count)
+              print(code,count,p.stat().st_size)
+          PYCODE
+      - name: Commit local boundary copies
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add town-data/14204.topojson town-data/14206.topojson town-data/19201.topojson
+          if ! git diff --cached --quiet; then
+            git commit -m 'Bundle Sengoku town boundaries'
+            git push
+          fi
