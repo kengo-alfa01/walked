@@ -411,11 +411,13 @@ $('runSengokuTest').onclick=async()=>{
   const candidates=code==='13209'?state.machida:
    ['14151','14152','14153'].includes(code)?state.sagamihara:state.nationCache.get(code)||[];
   if(!candidates.length){result.textContent='⚠️ この地点の町丁境界が未取得です。地図側の境界データの読込後に再試行してください。実際の記録に変更はありません。';return}
+  const polygonFound=candidates.some(f=>geomContains(site.point,f.geometry));
+  if(!polygonFound){result.textContent='⚠️ 地点の座標が指定自治体の町丁境界内にありません。自治体コードまたは位置を要確認です。（記録は変更していません）';return}
   const matched=matchedSengokuCardsAtPoint(site.point);
   const newlyMatched=matched.ids.filter(id=>!ownsSengokuCard(id));
   const affectedPeople=new Set(sengokuCards.filter(c=>matched.ids.includes(c.id)).map(c=>c.personId));
   // Do not expose unrevealed names or card details. No state mutation/persistence.
-  result.textContent=`🧪 疑似通過テスト結果\n獲得判定に一致：${matched.ids.length}枚\n未獲得から新たに獲得する想定：${newlyMatched.length}枚\n関連人物：${affectedPeople.size}人\n実際の獲得数・地図・バックアップは変更していません。`;
+  result.textContent=`🧪 疑似通過テスト結果\n町丁境界：取得成功\n史跡地点：判定実行済み\n獲得判定に一致：${matched.ids.length}枚\n未獲得から新たに獲得する想定：${newlyMatched.length}枚\n関連人物：${affectedPeople.size}人${matched.ids.length===0?'\n※この地点は人物の史実確認待ち（歴史カード未公開）か、町丁の照合が一致していません。':''}\n実際の獲得数・地図・バックアップは変更していません。`;
  }catch(e){result.textContent='⚠️ 判定できませんでした：'+e.message+'（記録は変更していません）'}
  finally{button.disabled=false}
 };
