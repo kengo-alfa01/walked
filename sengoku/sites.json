@@ -278,5 +278,285 @@
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000168700.html",
     "historySource": "https://www.city.shizuoka.lg.jp/s6725/p009496.html",
     "note": "徳川家康が居城として整備した駿府城。"
+  },
+  {
+    "id": "sg-site-sounji",
+    "name": "早雲寺",
+    "point": [
+      139.103561,
+      35.230217
+    ],
+    "municipalityCode": "14382",
+    "region": "神奈川県箱根町",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000207800.html",
+    "historySource": "https://www.hakone.or.jp/594",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-kawamura",
+    "name": "河村城跡",
+    "point": [
+      139.077409,
+      35.355366
+    ],
+    "municipalityCode": "14364",
+    "region": "神奈川県山北町",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000199400.html",
+    "historySource": "https://www.town.yamakita.kanagawa.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-okazaki-sagami",
+    "name": "岡崎城跡",
+    "point": [
+      139.312391,
+      35.378569
+    ],
+    "municipalityCode": "14214",
+    "region": "神奈川県伊勢原市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000174700.html",
+    "historySource": "https://www.city.isehara.kanagawa.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-yusaka",
+    "name": "湯坂城跡",
+    "point": [
+      139.09476,
+      35.23102
+    ],
+    "municipalityCode": "14382",
+    "region": "神奈川県箱根町",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000208000.html",
+    "historySource": "https://www.hakone.or.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-iwadono",
+    "name": "岩殿城跡",
+    "point": [
+      138.949603,
+      35.621656
+    ],
+    "municipalityCode": "19206",
+    "region": "山梨県大月市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000024400.html",
+    "historySource": "https://www.city.otsuki.yamanashi.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-erinji",
+    "name": "恵林寺",
+    "point": [
+      138.713669,
+      35.730755
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県甲州市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000057100.html",
+    "historySource": "https://www.city.koshu.yamanashi.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-kai-zenkoji",
+    "name": "甲斐善光寺",
+    "point": [
+      138.592606,
+      35.666664
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000088300.html",
+    "historySource": "https://www.city.kofu.yamanashi.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-yumura",
+    "name": "湯村山城跡",
+    "point": [
+      138.552261,
+      35.684227
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000085600.html",
+    "historySource": "https://www.city.kofu.yamanashi.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-katsuyama-tsuru",
+    "name": "勝山城跡（都留）",
+    "point": [
+      138.904086,
+      35.554395
+    ],
+    "municipalityCode": "19204",
+    "region": "山梨県都留市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000038400.html",
+    "historySource": "https://www.city.tsuru.yamanashi.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-hosenji",
+    "name": "法泉寺",
+    "point": [
+      138.559326,
+      35.686039
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000084700.html",
+    "historySource": "https://www.city.kofu.yamanashi.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-sekisuiji",
+    "name": "積翠寺",
+    "point": [
+      138.591904,
+      35.702633
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000084100.html",
+    "historySource": "https://www.city.kofu.yamanashi.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-jindaiji",
+    "name": "深大寺城跡",
+    "point": [
+      139.551157,
+      35.664392
+    ],
+    "municipalityCode": "13208",
+    "region": "東京都調布市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000381200.html",
+    "historySource": "https://www.syougai.metro.tokyo.lg.jp/bunkazai/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-kawagoe",
+    "name": "川越城跡",
+    "point": [
+      139.491683,
+      35.924396
+    ],
+    "municipalityCode": "11201",
+    "region": "埼玉県川越市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000103200.html",
+    "historySource": "https://www.city.kawagoe.saitama.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-musashi-matsuyama",
+    "name": "武蔵松山城跡",
+    "point": [
+      139.421053,
+      36.036729
+    ],
+    "municipalityCode": "11347",
+    "region": "埼玉県吉見町",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000165400.html",
+    "historySource": "https://www.town.yoshimi.saitama.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-sugaya",
+    "name": "菅谷館跡",
+    "point": [
+      139.32274,
+      36.03507
+    ],
+    "municipalityCode": "11342",
+    "region": "埼玉県嵐山町",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000170900.html",
+    "historySource": "https://www.ranzan-shiseki.spec.ed.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-ueda",
+    "name": "上田城跡",
+    "point": [
+      138.24493,
+      36.404504
+    ],
+    "municipalityCode": "20203",
+    "region": "長野県上田市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000076900.html",
+    "historySource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "note": "史跡の代表点。"
+  },
+  {
+    "id": "sg-site-takato",
+    "name": "高遠城跡",
+    "point": [
+      138.062363,
+      35.83316
+    ],
+    "municipalityCode": "20209",
+    "region": "長野県伊那市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000136900.html",
+    "historySource": "https://www.inacity.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-komoro",
+    "name": "小諸城跡",
+    "point": [
+      138.417462,
+      36.327162
+    ],
+    "municipalityCode": "20208",
+    "region": "長野県小諸市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000050400.html",
+    "historySource": "https://www.city.komoro.lg.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-kawanakajima",
+    "name": "川中島八幡原古戦場",
+    "point": [
+      138.185797,
+      36.591284
+    ],
+    "municipalityCode": "20201",
+    "region": "長野県長野市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000324200.html",
+    "historySource": "https://www.city.nagano.nagano.jp/n150800/contents/p002956.html",
+    "note": "史跡の代表点。"
+  },
+  {
+    "id": "sg-site-matsushiro",
+    "name": "松代城跡（海津城）",
+    "point": [
+      138.19617,
+      36.566361
+    ],
+    "municipalityCode": "20201",
+    "region": "長野県長野市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000325300.html",
+    "historySource": "https://www.city.nagano.nagano.jp/n151100/contents/p006083.html",
+    "note": "史跡の代表点。"
   }
 ]
