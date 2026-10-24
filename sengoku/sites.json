@@ -1392,12 +1392,13 @@
       139.709732,
       35.626762
     ],
-    "municipalityCode": "13111",
-    "region": "東京都大田区",
+    "municipalityCode": "13109",
+    "region": "東京都品川区",
     "verification": "review_needed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000348700.html",
     "historySource": "https://www.city.ota.tokyo.jp/",
-    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。",
+    "municipalityAudit": "2026-10-25 corrected based on published location information"
   },
   {
     "id": "sg-site-nrct-130000022400",
@@ -1691,13 +1692,14 @@
       139.560501,
       35.520432
     ],
-    "municipalityCode": "14109",
-    "region": "神奈川県",
+    "municipalityCode": "14118",
+    "region": "神奈川県横浜市都筑区",
     "verification": "site_verified_person_pending",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000123400.html",
     "historySource": "",
     "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
-    "researchStatus": "needs_historical_link"
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "2026-10-25 corrected based on published location information"
   },
   {
     "id": "sg-site-nrct-140000135500",
@@ -2078,16 +2080,18 @@
     "id": "sg-site-nrct-190000032500",
     "name": "富士御室浅間神社",
     "point": [
-      138.727363,
-      35.360625
+      138.7459888889,
+      35.5104369444
     ],
     "municipalityCode": "19430",
-    "region": "山梨県",
-    "verification": "site_verified_person_pending",
-    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000032500.html",
-    "historySource": "",
+    "region": "山梨県南都留郡富士河口湖町",
+    "verification": "reviewed",
+    "coordinateSource": "https://jmapps.ne.jp/kokugakuin/det.html?data_id=53936",
+    "historySource": "https://www.yamanashi-jinjacho.or.jp/intro/search/detail/7150",
     "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
-    "researchStatus": "needs_historical_link"
+    "researchStatus": "needs_historical_link",
+    "sitePositionNote": "現在参拝可能な里宮の代表地点を使用。旧来の富士山二合目本宮と区別する。",
+    "municipalityAudit": "2026-10-25 corrected based on published location information"
   },
   {
     "id": "sg-site-nrct-190000035200",
@@ -2141,13 +2145,14 @@
       138.83471,
       35.540045
     ],
-    "municipalityCode": "19204",
-    "region": "山梨県",
+    "municipalityCode": "19423",
+    "region": "山梨県南都留郡西桂町",
     "verification": "site_verified_person_pending",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000030300.html",
     "historySource": "",
     "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
-    "researchStatus": "needs_historical_link"
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "2026-10-25 corrected based on published location information"
   },
   {
     "id": "sg-site-nrct-130000172000",
