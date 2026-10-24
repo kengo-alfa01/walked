@@ -208,5 +208,135 @@
     "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0022",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-kozukue",
+    "title": "小机の支城網",
+    "summary": "小机城は後北条氏による関東支配の城郭ネットワークの一部。",
+    "source": "https://www.pref.kanagawa.jp/documents/8040/r4kouza4.pdf",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0023",
+    "personId": "sg-025ab3a6ee3f",
+    "siteId": "sg-site-tsukui",
+    "title": "甲斐との境を守る",
+    "summary": "津久井城は後北条氏が甲斐方面に備えた要衝。",
+    "source": "https://www.pref.kanagawa.jp/documents/95200/r02zuroku2.pdf",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0024",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-misaki",
+    "title": "三浦半島の制圧",
+    "summary": "三浦氏の拠点だった三崎城は早雲の三浦攻略後、後北条氏の城となった。",
+    "source": "https://www.city.miura.kanagawa.jp/soshiki/kankoshokoka/kankoshokoka_kanko/kankoukaisetsuban/kankokaisetsuban_miuraichizoku/10015.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0025",
+    "personId": "sg-6f3368f015f6",
+    "siteId": "sg-site-hachigata",
+    "title": "北関東防衛の拠点",
+    "summary": "氏邦は鉢形城を整備し北関東支配の拠点とした。",
+    "source": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0026",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-hachigata",
+    "title": "氏邦と鉢形城",
+    "summary": "氏康の子氏邦が鉢形城主となり後北条の北方戦略を担った。",
+    "source": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0027",
+    "personId": "sg-37fdfb0d52c1",
+    "siteId": "sg-site-oshi",
+    "title": "忍城の水攻め",
+    "summary": "小田原攻めに際して三成らの軍勢が忍城を包囲し水攻めを実施。",
+    "source": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0028",
+    "personId": "sg-aa0ce003dbd8",
+    "siteId": "sg-site-iwatsuki",
+    "title": "岩槻城主の戦略",
+    "summary": "太田資正は岩槻城主として関東の諸勢力と対峙した。",
+    "source": "https://www.city.saitama.lg.jp/004/005/006/013/002/p078002_d/fil/sinshoujiguruwatohisaizud.pdf",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0029",
+    "personId": "sg-df4ede094a85",
+    "siteId": "sg-site-minowa",
+    "title": "箕輪城の近世化",
+    "summary": "現在残る城跡は井伊直政在城当時の姿に近いとされる。",
+    "source": "https://www.city.takasaki.gunma.jp/site/sightseeing/6449.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0030",
+    "personId": "sg-98514cee0056",
+    "siteId": "sg-site-katsunuma",
+    "title": "甲斐武田一門の館",
+    "summary": "信虎の弟の勝沼信友が勝沼を拠点とした。",
+    "source": "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_kanseiban_.pdf",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0031",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-katsunuma",
+    "title": "勝沼氏の終焉",
+    "summary": "勝沼氏の信元は信玄の命令により処断されたと伝わる。",
+    "source": "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_kanseiban_.pdf",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0032",
+    "personId": "sg-025ab3a6ee3f",
+    "siteId": "sg-site-yamanaka",
+    "title": "箱根西方の防備",
+    "summary": "後北条氏が小田原城の西方を防衛する拠点として山中城を築いた。",
+    "source": "https://www.city.mishima.shizuoka.jp/page/3516.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0033",
+    "personId": "sg-f47391608dbb",
+    "siteId": "sg-site-yamanaka",
+    "title": "小田原攻めの前哨戦",
+    "summary": "豊臣方の大軍が山中城を攻め、短時間で落城した。",
+    "source": "https://www.city.mishima.shizuoka.jp/page/3516.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0034",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-sunpu",
+    "title": "大御所の駿府",
+    "summary": "家康は大御所期に駿府城を整備し政治と外交の拠点とした。",
+    "source": "https://www.city.shizuoka.lg.jp/s6725/p009496.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
   }
 ]
