@@ -343,11 +343,14 @@
     "id": "sg-card-0035",
     "personId": "sg-c594233cb2b7",
     "siteId": "sg-site-sounji",
-    "title": "後北条の菩提寺",
-    "summary": "氏綱が父・宗瑞の菩提を弔うために創建したと伝わる寺院。",
-    "source": "https://www.hakone.or.jp/594",
-    "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "title": "二代目が建立した菩提寺",
+    "summary": "1521年、北条氏綱は父・早雲の遺言に従い早雲寺を建立した。後北条氏の菩提寺として五代の墓などが伝わる。",
+    "source": "https://www.hakone.or.jp/529?gana=member",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "reviewEvidence": "箱根町観光協会の寺院説明に、1521年の氏綱による創建が明記されている。",
+    "reviewedOn": "2026-10-25",
+    "reviewMethod": "official_source_comparison"
   },
   {
     "id": "sg-card-0036",
@@ -403,11 +406,14 @@
     "id": "sg-card-0041",
     "personId": "sg-4c0c12460efa",
     "siteId": "sg-site-kai-zenkoji",
-    "title": "善光寺如来の遷座",
-    "summary": "武田信玄は川中島合戦期に信濃善光寺の本尊を甲府へ移したとされる。",
-    "source": "https://www.city.kofu.yamanashi.jp/",
-    "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "title": "甲府に移された善光寺の本尊",
+    "summary": "武田信玄は川中島の戦いによる戦火を懸念し、信濃善光寺の本尊や寺宝を甲府へ移したと伝わる。甲斐善光寺は信玄による創建とされる。",
+    "source": "https://kofu-tourism.com/spot/index.php?p=17",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "reviewEvidence": "甲府市観光協会の甲斐善光寺案内に、信玄の創建と本尊の移動が明記されている。",
+    "reviewedOn": "2026-10-25",
+    "reviewMethod": "official_source_comparison"
   },
   {
     "id": "sg-card-0042",
@@ -503,11 +509,14 @@
     "id": "sg-card-0051",
     "personId": "sg-e00b2631eded",
     "siteId": "sg-site-takato",
-    "title": "高遠の攻防",
-    "summary": "武田氏が拠点とした高遠城は、1582年の織田軍の甲州征伐で激戦地となった。",
-    "source": "https://www.inacity.jp/",
-    "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "title": "勝頼が守った信濃の要衝",
+    "summary": "武田勝頼は信玄の四男として高遠城主を務めた。のちに城主となった仁科盛信は1582年、織田軍の攻撃に抵抗して高遠城で最期を迎えた。",
+    "source": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "reviewEvidence": "伊那市公式解説に勝頼が高遠城主だった経歴と1582年の攻防が明記されている。",
+    "reviewedOn": "2026-10-25",
+    "reviewMethod": "official_source_comparison"
   },
   {
     "id": "sg-card-0052",
@@ -623,11 +632,14 @@
     "id": "sg-card-0063",
     "personId": "sg-7c350c62d250",
     "siteId": "sg-site-shakujii",
-    "title": "石神井城跡に刻まれた歴史",
-    "summary": "石神井城は豊島氏の拠点で、太田道灌との戦いをめぐる中世武蔵の重要地点。",
-    "source": "https://www.city.nerima.tokyo.jp/",
-    "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "title": "道灌に攻められた豊島氏の城",
+    "summary": "豊島氏の城館だった石神井城は、1477年に太田道灌勢の攻撃で落城したと伝わる。現地には主郭とされる土塁や空堀が残る。",
+    "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/rekishiwoshiru/rekishibunkazai/isekihogo/shakujii.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "reviewEvidence": "練馬区公式の遺跡解説に豊島氏の城館であること、1477年の太田道灌勢による攻撃が記載される。",
+    "reviewedOn": "2026-10-25",
+    "reviewMethod": "official_source_comparison"
   },
   {
     "id": "sg-card-0064",
