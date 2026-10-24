@@ -1,0 +1,1019 @@
+{
+  "schemaVersion": 1,
+  "title": "戦国人物100人・優先史跡調査リスト",
+  "status": "provisional_not_site_verified",
+  "notes": [
+    "100人は人物名を選定した段階。史跡の実在・所在地・人物との関連は未検証。",
+    "優先順位は郷土性・調査効率を基準としており、歴史的重要性の序列ではない。",
+    "元500人マスターに別名重複・要再検証レコードが存在するため、本リストは人名の同一性確認後に確定する。"
+  ],
+  "summaryByRegion": {
+    "神奈川・東京／後北条と武蔵相模": 27,
+    "山梨・長野／武田と真田": 31,
+    "関東広域／上杉・里見ほか": 18,
+    "周辺勢力／徳川・奥州": 12,
+    "全国の著名人物を補完": 12
+  },
+  "people": [
+    {
+      "personId": "sg-4cb1a557e060",
+      "name": "北条早雲",
+      "priority": 1,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-c594233cb2b7",
+      "name": "北条氏綱",
+      "priority": 2,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-22f595e1c616",
+      "name": "北条氏康",
+      "priority": 3,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-025ab3a6ee3f",
+      "name": "北条氏政",
+      "priority": 4,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-3e72ce5a7fa9",
+      "name": "北条氏直",
+      "priority": 5,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-fc948f16832f",
+      "name": "北条氏照",
+      "priority": 6,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-6f3368f015f6",
+      "name": "北条氏邦",
+      "priority": 7,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-cf72a6b13a40",
+      "name": "北条氏規",
+      "priority": 8,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-0c72d1fa0136",
+      "name": "北条氏繁",
+      "priority": 9,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-71b96e15ed0a",
+      "name": "北条氏秀",
+      "priority": 10,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-d6513d734bbf",
+      "name": "北条氏尭",
+      "priority": 11,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-a77cd1aa75f3",
+      "name": "北条綱成",
+      "priority": 12,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-a07ea793c09c",
+      "name": "北条綱高",
+      "priority": 13,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-441ed16c3222",
+      "name": "北条綱房",
+      "priority": 14,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-1ebd0b00f6fd",
+      "name": "北条幻庵",
+      "priority": 15,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-e54f758d5d22",
+      "name": "北条氏盛",
+      "priority": 16,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-9cfa3bf8ad01",
+      "name": "北条氏勝",
+      "priority": 17,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-99581b4f9ae1",
+      "name": "北条氏忠",
+      "priority": 18,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-abb08f8ee8cc",
+      "name": "北条氏光",
+      "priority": 19,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-7c350c62d250",
+      "name": "太田道灌",
+      "priority": 20,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-aa0ce003dbd8",
+      "name": "太田資正",
+      "priority": 21,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-1acb0108f371",
+      "name": "太田資頼",
+      "priority": 22,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-f618438b949a",
+      "name": "太田康資",
+      "priority": 23,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-310004b33386",
+      "name": "太田資高",
+      "priority": 24,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-8949512dd667",
+      "name": "太田資宗",
+      "priority": 25,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-dd39621fcd57",
+      "name": "太田資清",
+      "priority": 26,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-a4d1badcfbc0",
+      "name": "太田資康",
+      "priority": 27,
+      "regionFocus": "神奈川・東京／後北条と武蔵相模",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-4c0c12460efa",
+      "name": "武田信玄",
+      "priority": 28,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-98514cee0056",
+      "name": "武田信虎",
+      "priority": 29,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-e00b2631eded",
+      "name": "武田勝頼",
+      "priority": 30,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-41b77a0780ed",
+      "name": "武田義信",
+      "priority": 31,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-c091a1f2c530",
+      "name": "武田信繁",
+      "priority": 32,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-307b4f851434",
+      "name": "武田信廉",
+      "priority": 33,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-b954c8e058a4",
+      "name": "武田信勝",
+      "priority": 34,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-e4928acc7266",
+      "name": "武田信豊",
+      "priority": 35,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-2e13ffa28911",
+      "name": "武田信友",
+      "priority": 36,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-8f323dd9c724",
+      "name": "武田信実",
+      "priority": 37,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-c654b6b73e86",
+      "name": "武田信昌",
+      "priority": 38,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-0733a0cc33be",
+      "name": "武田信縄",
+      "priority": 39,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-f510c1a0d1ab",
+      "name": "山県昌景",
+      "priority": 40,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-e701cb97b4d9",
+      "name": "馬場信春",
+      "priority": 41,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-ff02145e28fa",
+      "name": "高坂昌信",
+      "priority": 42,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-6568a3b2fdc7",
+      "name": "内藤昌豊",
+      "priority": 43,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-09b6ad013f33",
+      "name": "甘利虎泰",
+      "priority": 44,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-2f138553e92d",
+      "name": "甘利昌忠",
+      "priority": 45,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-81b0fa4344a5",
+      "name": "板垣信方",
+      "priority": 46,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-99d4f7ed55ff",
+      "name": "板垣信憲",
+      "priority": 47,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-4b1bb1adec6b",
+      "name": "飯富虎昌",
+      "priority": 48,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-4e02f0802b16",
+      "name": "原虎胤",
+      "priority": 49,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-ddb19dc05456",
+      "name": "原昌胤",
+      "priority": 50,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-0cab63b42163",
+      "name": "小山田信茂",
+      "priority": 51,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-4a50a0d6cd1c",
+      "name": "小山田信有",
+      "priority": 52,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-720d103a4a5b",
+      "name": "穴山梅雪",
+      "priority": 53,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-08d6b6e09d7c",
+      "name": "穴山信友",
+      "priority": 54,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-c3abf75d711c",
+      "name": "真田幸隆",
+      "priority": 55,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-61b29c703206",
+      "name": "真田昌幸",
+      "priority": 56,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-53d7309718ae",
+      "name": "真田信之",
+      "priority": 57,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-b9bb61125a1b",
+      "name": "真田信繁",
+      "priority": 58,
+      "regionFocus": "山梨・長野／武田と真田",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-ee846a9ff8ae",
+      "name": "上杉憲政",
+      "priority": 59,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-b3e7eb14e624",
+      "name": "上杉定正",
+      "priority": 60,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-d0ec52a93fa3",
+      "name": "上杉顕定",
+      "priority": 61,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-27a0e44acb89",
+      "name": "上杉朝定",
+      "priority": 62,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-cc16ffc52c66",
+      "name": "長尾景春",
+      "priority": 63,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-eaa02904ef84",
+      "name": "長尾景仲",
+      "priority": 64,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-dc8c550d8769",
+      "name": "上杉謙信",
+      "priority": 65,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-334f0ad961e2",
+      "name": "上杉景勝",
+      "priority": 66,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-ea87da1feaf2",
+      "name": "上杉景虎",
+      "priority": 67,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-6ffcd3b19007",
+      "name": "長尾為景",
+      "priority": 68,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-2f68ae7810d0",
+      "name": "長尾政景",
+      "priority": 69,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-1a91ae29cb5a",
+      "name": "直江兼続",
+      "priority": 70,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-a8cfe1245acb",
+      "name": "柿崎景家",
+      "priority": 71,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-29c3bc68aa37",
+      "name": "里見義堯",
+      "priority": 72,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-17496a5d9dfa",
+      "name": "里見義弘",
+      "priority": 73,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-4f700b581dac",
+      "name": "里見義頼",
+      "priority": 74,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-4a0d5b7e8da9",
+      "name": "里見義康",
+      "priority": 75,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-716da198ebfb",
+      "name": "里見実堯",
+      "priority": 76,
+      "regionFocus": "関東広域／上杉・里見ほか",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-a7bb09927601",
+      "name": "徳川家康",
+      "priority": 77,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-451ea10bcb24",
+      "name": "徳川秀忠",
+      "priority": 78,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-af4aa93fd365",
+      "name": "本多忠勝",
+      "priority": 79,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-df4ede094a85",
+      "name": "井伊直政",
+      "priority": 80,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-4d159b56655e",
+      "name": "酒井忠次",
+      "priority": 81,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-6708a912a215",
+      "name": "榊原康政",
+      "priority": 82,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-31e0e85d7a10",
+      "name": "伊達政宗",
+      "priority": 83,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-004af7fd6f69",
+      "name": "伊達輝宗",
+      "priority": 84,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-cb4753dc7bdd",
+      "name": "伊達晴宗",
+      "priority": 85,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-6e7c2701582a",
+      "name": "伊達稙宗",
+      "priority": 86,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-c33de3cf7739",
+      "name": "伊達成実",
+      "priority": 87,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-e04b78ac874d",
+      "name": "最上義光",
+      "priority": 88,
+      "regionFocus": "周辺勢力／徳川・奥州",
+      "selectionReason": "地域優先の史跡調査候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-6eaf66c3d7c8",
+      "name": "織田信長",
+      "priority": 89,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-f47391608dbb",
+      "name": "豊臣秀吉",
+      "priority": 90,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-a94db8113d4e",
+      "name": "明智光秀",
+      "priority": 91,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-37fdfb0d52c1",
+      "name": "石田三成",
+      "priority": 92,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-0b974357bac7",
+      "name": "加藤清正",
+      "priority": 93,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-98139e31efb2",
+      "name": "毛利元就",
+      "priority": 94,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-281d92dc2e0f",
+      "name": "長宗我部元親",
+      "priority": 95,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-148daf4e23ca",
+      "name": "島津貴久",
+      "priority": 96,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-fa0a6f0c8900",
+      "name": "島津義久",
+      "priority": 97,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-819c365a83e4",
+      "name": "島津義弘",
+      "priority": 98,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-41b3835895a3",
+      "name": "島津家久",
+      "priority": 99,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    },
+    {
+      "personId": "sg-0dde8259f8df",
+      "name": "豊臣秀長",
+      "priority": 100,
+      "regionFocus": "全国の著名人物を補完",
+      "selectionReason": "著名人物としての補完候補",
+      "siteVerification": "not_started",
+      "confirmedSiteCount": null,
+      "eligibleForCards": false
+    }
+  ]
+}
