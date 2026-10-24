@@ -1,0 +1,41 @@
+name: Bundle Sengoku boundary fixes
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get corrected towns
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p town-data
+          for code in 13109 14118 19423 19430; do
+            prefecture="${code:0:2}"
+            if [ -s "town-data/${code}.topojson" ]; then echo "Already present: ${code}"; continue; fi
+            curl --fail --location --retry 4 --retry-delay 3 --connect-timeout 20 --max-time 150 \
+              "https://geoshape.ex.nii.ac.jp/ka/topojson/2020/${prefecture}/r2ka${code}.topojson" \
+              -o "town-data/${code}.topojson"
+          done
+          python3 - <<'PYCODE'
+          import json,pathlib
+          for code in ['13109','14118','19423','19430']:
+              path=pathlib.Path(f'town-data/{code}.topojson')
+              d=json.loads(path.read_text())
+              assert d.get('type')=='Topology',code
+              assert sum(len(v.get('geometries',[])) for v in d.get('objects',{}).values())>0,code
+              print(code,path.stat().st_size)
+          PYCODE
+      - name: Commit boundaries
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add town-data/*.topojson
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add corrected Sengoku boundary files'
+            git push
+          fi
