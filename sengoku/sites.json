@@ -317,10 +317,11 @@
     ],
     "municipalityCode": "14214",
     "region": "神奈川県伊勢原市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000174700.html",
-    "historySource": "https://www.city.isehara.kanagawa.jp/",
-    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+    "historySource": "https://www.city.yokosuka.kanagawa.jp/2120/culture_info/miura_ichizoku/outline4.html",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-yusaka",
@@ -359,10 +360,11 @@
     ],
     "municipalityCode": "19213",
     "region": "山梨県甲州市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000057100.html",
-    "historySource": "https://www.city.koshu.yamanashi.jp/",
-    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+    "historySource": "https://www.city.koshu.yamanashi.jp/iju/54things/articles/no-139.html",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-kai-zenkoji",
@@ -444,10 +446,11 @@
     ],
     "municipalityCode": "13208",
     "region": "東京都調布市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000381200.html",
-    "historySource": "https://www.syougai.metro.tokyo.lg.jp/bunkazai/",
-    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+    "historySource": "https://www.city.chofu.lg.jp/100200/p073026.html",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-kawagoe",
@@ -458,10 +461,11 @@
     ],
     "municipalityCode": "11201",
     "region": "埼玉県川越市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000103200.html",
-    "historySource": "https://www.city.kawagoe.saitama.jp/",
-    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+    "historySource": "https://www.city.sayama.saitama.jp/manabu/dentou/minwa_densyo/kasiwabara_chiku/siroyamanohanasi.html",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-musashi-matsuyama",
@@ -472,10 +476,11 @@
     ],
     "municipalityCode": "11347",
     "region": "埼玉県吉見町",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000165400.html",
-    "historySource": "https://www.town.yoshimi.saitama.jp/",
-    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+    "historySource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-sugaya",
@@ -571,10 +576,11 @@
     ],
     "municipalityCode": "14135",
     "region": "神奈川県川崎市多摩区",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000022500.html",
-    "historySource": "https://www.city.kawasaki.jp/",
-    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+    "historySource": "https://www.city.kawasaki.jp/880/page/0000000108.html",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-masugata",
@@ -950,10 +956,11 @@
     ],
     "municipalityCode": "14210",
     "region": "神奈川県三浦市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000127400.html",
-    "historySource": "https://www.city.miura.kanagawa.jp/",
-    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+    "historySource": "https://ch.kanagawa-museum.jp/dm/gohojyo/relation/d_houjyo_01.html",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-oba-jinja",
