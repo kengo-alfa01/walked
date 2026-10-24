@@ -1,0 +1,42 @@
+name: Bundle Sengoku 150 town boundaries
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and validate municipal boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p town-data
+          for item in '13101:13' '13104:13' '13118:13' '13119:13' '13121:13' '13122:13' '13201:13' '13222:13' '14109:14' '14131:14' '14133:14' '14136:14' '14201:14' '14204:14' '14205:14' '14217:14' '14364:14' '14382:14' '14401:14' '19204:19' '19206:19' '19212:19' '19430:19'; do
+            code="${item%%:*}"
+            prefecture="${item##*:}"
+            if [ -s "town-data/${code}.topojson" ]; then echo "Already present: ${code}"; continue; fi
+            curl --fail --location --retry 4 --retry-delay 3 --connect-timeout 20 --max-time 150 \
+              "https://geoshape.ex.nii.ac.jp/ka/topojson/2020/${prefecture}/r2ka${code}.topojson" \
+              -o "town-data/${code}.topojson"
+          done
+          python3 - <<'PYCODE'
+          import json,pathlib
+          for code in ['13101', '13104', '13118', '13119', '13121', '13122', '13201', '13222', '14109', '14131', '14133', '14136', '14201', '14204', '14205', '14217', '14364', '14382', '14401', '19204', '19206', '19212', '19430']:
+              path=pathlib.Path(f'town-data/{code}.topojson')
+              data=json.loads(path.read_text(encoding='utf-8'))
+              assert data.get('type')=='Topology',code
+              assert sum(len(v.get('geometries',[])) for v in data.get('objects',{}).values())>0,code
+              print(code,path.stat().st_size)
+          PYCODE
+      - name: Commit boundaries
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add town-data/*.topojson
+          if ! git diff --cached --quiet; then
+            git commit -m 'Bundle Sengoku 150 town boundaries'
+            git push
+          fi
