@@ -1138,5 +1138,25 @@
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000348700.html",
     "verification": "review_needed",
     "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0115",
+    "personId": "sg-7c350c62d250",
+    "siteId": "sg-site-nrct-130000022400",
+    "title": "江戸に築かれた城",
+    "summary": "太田道灌が15世紀半ばに江戸城を築いた。現在の城郭遺構は後世の改修を多く含む。",
+    "source": "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/kioku/edojo.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0116",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-nrct-130000022400",
+    "title": "関東への入部",
+    "summary": "1590年に家康が江戸城を居城とし、のちに幕府の中枢となる城郭へ発展した。",
+    "source": "https://kunishitei.bunka.go.jp/heritage/detail/401/723",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
   }
 ]
