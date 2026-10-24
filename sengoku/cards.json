@@ -738,5 +738,405 @@
     "source": "https://www.city.yamanashi.yamanashi.jp/",
     "verification": "review_needed",
     "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0075",
+    "personId": "sg-1ebd0b00f6fd",
+    "siteId": "sg-site-sannomaru",
+    "title": "三の丸遺跡に刻まれた歴史",
+    "summary": "三の丸遺跡の所在は歴史地名データで確認できる。北条幻庵本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000060500.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0076",
+    "personId": "sg-1ebd0b00f6fd",
+    "siteId": "sg-site-unshoin",
+    "title": "雲松院に刻まれた歴史",
+    "summary": "雲松院の所在は歴史地名データで確認できる。北条幻庵本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000057300.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0077",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-kawashiri-iseki",
+    "title": "川尻遺跡に刻まれた歴史",
+    "summary": "川尻遺跡の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000160200.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0078",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-komatsu",
+    "title": "小松城跡に刻まれた歴史",
+    "summary": "小松城跡の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000160600.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0079",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-nuta",
+    "title": "怒田城跡に刻まれた歴史",
+    "summary": "怒田城跡の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000118900.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0080",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-sahara",
+    "title": "佐原城跡に刻まれた歴史",
+    "summary": "佐原城跡の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000119400.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0081",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-kinugasa",
+    "title": "衣笠城跡に刻まれた歴史",
+    "summary": "衣笠城跡の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121700.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0082",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-arai",
+    "title": "新井城跡に刻まれた歴史",
+    "summary": "新井城跡の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000127400.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0083",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-oba-jinja",
+    "title": "大庭神社に刻まれた歴史",
+    "summary": "大庭神社の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000136700.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0084",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-yagurasawa",
+    "title": "矢倉沢関所跡に刻まれた歴史",
+    "summary": "矢倉沢関所跡の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000205300.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0085",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-numata-sagami",
+    "title": "沼田城跡に刻まれた歴史",
+    "summary": "沼田城跡の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000203100.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0086",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-ashigara",
+    "title": "足柄城跡に刻まれた歴史",
+    "summary": "足柄城跡の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000205200.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0087",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-hakone-jinja",
+    "title": "箱根神社に刻まれた歴史",
+    "summary": "箱根神社の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000208800.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0088",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-inaridai",
+    "title": "稲荷台地遺跡に刻まれた歴史",
+    "summary": "稲荷台地遺跡の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000136800.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0089",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-manshoji",
+    "title": "満昌寺に刻まれた歴史",
+    "summary": "満昌寺の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121000.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0090",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-daichinji",
+    "title": "大椿寺に刻まれた歴史",
+    "summary": "大椿寺の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000128100.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0091",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-honzui",
+    "title": "本瑞寺に刻まれた歴史",
+    "summary": "本瑞寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000128900.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0092",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-seiunji",
+    "title": "清雲寺に刻まれた歴史",
+    "summary": "清雲寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121300.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0093",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-sokenin",
+    "title": "宗賢院に刻まれた歴史",
+    "summary": "宗賢院の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000136500.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0094",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-tokoji",
+    "title": "東光寺に刻まれた歴史",
+    "summary": "東光寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000176100.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0095",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-kofukuji",
+    "title": "広福寺に刻まれた歴史",
+    "summary": "広福寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000022800.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0096",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-myorakuji",
+    "title": "妙楽寺に刻まれた歴史",
+    "summary": "妙楽寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000021600.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0097",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-ozenji",
+    "title": "王禅寺に刻まれた歴史",
+    "summary": "王禅寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000023500.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0098",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-jorakuji",
+    "title": "浄楽寺に刻まれた歴史",
+    "summary": "浄楽寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000122200.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0099",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-shogenji",
+    "title": "正眼寺に刻まれた歴史",
+    "summary": "正眼寺の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000207900.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0100",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-chosenin",
+    "title": "長泉院に刻まれた歴史",
+    "summary": "長泉院の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000202800.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0101",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-daimyoji",
+    "title": "大明寺に刻まれた歴史",
+    "summary": "大明寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000120500.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0102",
+    "personId": "sg-1ebd0b00f6fd",
+    "siteId": "sg-site-saneji",
+    "title": "三会寺に刻まれた歴史",
+    "summary": "三会寺の所在は歴史地名データで確認できる。北条幻庵本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000057100.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0103",
+    "personId": "sg-7c350c62d250",
+    "siteId": "sg-site-shimura",
+    "title": "志村城跡に刻まれた歴史",
+    "summary": "志村城跡の所在は歴史地名データで確認できる。太田道灌本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000350600.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0104",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-katakura",
+    "title": "片倉城跡に刻まれた歴史",
+    "summary": "片倉城跡の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000427900.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0105",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-narahara",
+    "title": "楢原遺跡に刻まれた歴史",
+    "summary": "楢原遺跡の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000432400.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0106",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-sokanji",
+    "title": "宗関寺に刻まれた歴史",
+    "summary": "宗関寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000433700.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0107",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-entsuji",
+    "title": "円通寺に刻まれた歴史",
+    "summary": "円通寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000431700.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0108",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-horenji",
+    "title": "法蓮寺に刻まれた歴史",
+    "summary": "法蓮寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000432200.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0109",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-shorinji",
+    "title": "少林寺に刻まれた歴史",
+    "summary": "少林寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000429900.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0110",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-kaizenji",
+    "title": "海禅寺に刻まれた歴史",
+    "summary": "海禅寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000464500.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0111",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-hoshoji",
+    "title": "宝生寺に刻まれた歴史",
+    "summary": "宝生寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000434400.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0112",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-ryukoji",
+    "title": "龍光寺に刻まれた歴史",
+    "summary": "龍光寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000429200.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0113",
+    "personId": "sg-7c350c62d250",
+    "siteId": "sg-site-chiseiji",
+    "title": "智清寺に刻まれた歴史",
+    "summary": "智清寺の所在は歴史地名データで確認できる。太田道灌本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000349600.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0114",
+    "personId": "sg-7c350c62d250",
+    "siteId": "sg-site-anyoin",
+    "title": "安養院に刻まれた歴史",
+    "summary": "安養院の所在は歴史地名データで確認できる。太田道灌本人との関係は追加調査中であり、史実として確定していない。",
+    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000348700.html",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
   }
 ]
