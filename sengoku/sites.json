@@ -68,5 +68,75 @@
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000033100.html",
     "historySource": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
     "note": "北条早雲が拠点とした城跡。"
+  },
+  {
+    "id": "sg-site-ishigakiyama",
+    "name": "石垣山城跡",
+    "point": [
+      139.127337,
+      35.235484
+    ],
+    "municipalityCode": "14206",
+    "region": "神奈川県小田原市",
+    "verification": "reviewed",
+    "coordinateSource": "https://www.nightview.info/detail/ishigakiyama_history_park/",
+    "historySource": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-ishigakiyama.html",
+    "note": "歴史公園付近の代表点。指定史跡全域を表すものではない。"
+  },
+  {
+    "id": "sg-site-takiyama",
+    "name": "滝山城跡",
+    "point": [
+      139.328166,
+      35.701799
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000431400.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "note": "歴史地名POIの代表点。史跡全体の範囲ではない。"
+  },
+  {
+    "id": "sg-site-tamanawa",
+    "name": "玉縄城跡",
+    "point": [
+      139.507838,
+      35.35448
+    ],
+    "municipalityCode": "14204",
+    "region": "神奈川県鎌倉市",
+    "verification": "reviewed",
+    "coordinateSource": "https://heritagemap.nabunken.go.jp/statistic/151082-%E7%8E%89%E7%B8%84%E5%9F%8E%E8%B7%A1.html",
+    "historySource": "https://www.city.kamakura.kanagawa.jp/rekibun/sengoku.html",
+    "note": "奈文研掲載の調査地点付近。広い城域全体の代表点とは限らない。"
+  },
+  {
+    "id": "sg-site-yougai",
+    "name": "要害山城跡",
+    "point": [
+      138.598345,
+      35.703075
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000084000.html",
+    "historySource": "https://online.bunka.go.jp/heritages/detail/138304",
+    "note": "城跡の代表点。信玄出生の地との伝承は断定しない。"
+  },
+  {
+    "id": "sg-site-kofu",
+    "name": "甲府城跡",
+    "point": [
+      138.571391,
+      35.665369
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000071300.html",
+    "historySource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
+    "note": "甲府城跡の代表点。築城過程には諸説がある。"
   }
 ]
