@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "sg-site-odawara",
+    "name": "小田原城跡",
+    "point": [
+      139.1534559,
+      35.2510296
+    ],
+    "municipalityCode": "14206",
+    "region": "神奈川県小田原市",
+    "verification": "reviewed",
+    "coordinateSource": "https://mapfan.com/spots/SC3WQ%2CJ%2CB",
+    "historySource": "https://odawaracastle.com/history/hojo-godai/",
+    "note": "現在の城址公園の代表点。戦国期の総構全域を示すものではない。"
+  },
+  {
+    "id": "sg-site-hachioji",
+    "name": "八王子城跡",
+    "point": [
+      139.256515,
+      35.652617
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000433500.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "note": "城跡の代表点。広範な指定史跡全体とは一致しない。"
+  },
+  {
+    "id": "sg-site-tsutsujigasaki",
+    "name": "武田氏館跡",
+    "point": [
+      138.5775,
+      35.6869
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "reviewed",
+    "coordinateSource": "https://openhistory.wiki/ja/w/%E8%BA%91%E8%BA%85%E3%83%B6%E5%B4%8E%E9%A4%A8",
+    "historySource": "https://www.kobushi-br.org/kobushi_info/16618",
+    "note": "後世創建の武田神社境内付近にある武田氏館跡。"
+  },
+  {
+    "id": "sg-site-shinpu",
+    "name": "新府城跡",
+    "point": [
+      138.42524,
+      35.735151
+    ],
+    "municipalityCode": "19207",
+    "region": "山梨県韮崎市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000156100.html",
+    "historySource": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/meisho_kyuseki/6562.html",
+    "note": "武田勝頼の築城した城跡。"
+  },
+  {
+    "id": "sg-site-nirayama",
+    "name": "韮山城跡",
+    "point": [
+      138.955578,
+      35.053648
+    ],
+    "municipalityCode": "22225",
+    "region": "静岡県伊豆の国市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000033100.html",
+    "historySource": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "note": "北条早雲が拠点とした城跡。"
+  }
+]

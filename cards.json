@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "id": "sg-card-0001",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-odawara",
+    "title": "関東への進出",
+    "summary": "関東支配へつながる拠点",
+    "source": "https://odawaracastle.com/history/hojo-godai/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0002",
+    "personId": "sg-c594233cb2b7",
+    "siteId": "sg-site-odawara",
+    "title": "小田原を拠点に",
+    "summary": "後北条氏の拠点整備",
+    "source": "https://odawaracastle.com/history/hojo-godai/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0003",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-odawara",
+    "title": "関東支配の中心",
+    "summary": "後北条氏の領国統治",
+    "source": "https://odawaracastle.com/history/hojo-godai/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0004",
+    "personId": "sg-025ab3a6ee3f",
+    "siteId": "sg-site-odawara",
+    "title": "小田原での攻防",
+    "summary": "後北条氏の対外戦争",
+    "source": "https://odawaracastle.com/history/hojo-godai/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0005",
+    "personId": "sg-3e72ce5a7fa9",
+    "siteId": "sg-site-odawara",
+    "title": "小田原合戦",
+    "summary": "後北条氏の最終局面",
+    "source": "https://odawaracastle.com/history/hojo-godai/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0006",
+    "personId": "sg-f47391608dbb",
+    "siteId": "sg-site-odawara",
+    "title": "小田原攻め",
+    "summary": "1590年の小田原合戦",
+    "source": "https://odawaracastle.com/history/hojo-godai/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0007",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-hachioji",
+    "title": "八王子城の築城",
+    "summary": "氏照の築いた戦国山城",
+    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0008",
+    "personId": "sg-98514cee0056",
+    "siteId": "sg-site-tsutsujigasaki",
+    "title": "甲斐の新たな居館",
+    "summary": "武田氏館の築造",
+    "source": "https://www.kobushi-br.org/kobushi_info/16618",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0009",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-tsutsujigasaki",
+    "title": "甲斐の拠点",
+    "summary": "信玄の政務を担った居館",
+    "source": "https://www.kobushi-br.org/kobushi_info/16618",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0010",
+    "personId": "sg-e00b2631eded",
+    "siteId": "sg-site-tsutsujigasaki",
+    "title": "武田氏三代の居館",
+    "summary": "新府への移転以前の拠点",
+    "source": "https://www.kobushi-br.org/kobushi_info/16618",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0011",
+    "personId": "sg-e00b2631eded",
+    "siteId": "sg-site-shinpu",
+    "title": "新府城の築城",
+    "summary": "武田氏最後の新しい本拠地",
+    "source": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/meisho_kyuseki/6562.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0012",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-nirayama",
+    "title": "伊豆の拠点",
+    "summary": "伊豆進出後の本拠",
+    "source": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  }
+]
