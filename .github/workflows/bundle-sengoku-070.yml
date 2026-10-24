@@ -1,0 +1,38 @@
+name: Bundle Sengoku v0.7.0 towns
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and validate town boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p town-data
+          code=13119
+          curl --fail --location --retry 4 --retry-delay 3 --connect-timeout 20 --max-time 150 \
+            "https://geoshape.ex.nii.ac.jp/ka/topojson/2020/13/r2ka${code}.topojson" \
+            -o "town-data/${code}.topojson"
+          python3 - <<'PYCODE'
+          import json
+          with open('town-data/13119.topojson',encoding='utf-8') as f: data=json.load(f)
+          assert data['type']=='Topology'
+          assert any(obj.get('geometries') for obj in data['objects'].values())
+          PYCODE
+      - name: Commit validated boundary
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add town-data/13119.topojson
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add Itabashi boundary for Sengoku'
+            git push
+          else
+            echo 'No changes to commit'
+          fi
