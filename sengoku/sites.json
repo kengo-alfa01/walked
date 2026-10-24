@@ -346,9 +346,9 @@
     ],
     "municipalityCode": "19206",
     "region": "山梨県大月市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000024400.html",
-    "historySource": "https://www.city.otsuki.yamanashi.jp/",
+    "historySource": "https://www.city.otsuki.yamanashi.jp/gatewaycity/lp/",
     "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
   },
   {
@@ -633,9 +633,9 @@
     ],
     "municipalityCode": "14205",
     "region": "神奈川県藤沢市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000136300.html",
-    "historySource": "https://www.city.fujisawa.kanagawa.jp/",
+    "historySource": "https://www.city.fujisawa.kanagawa.jp/bunkazai/obajyou.html",
     "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
   },
   {
@@ -1293,9 +1293,9 @@
     ],
     "municipalityCode": "13201",
     "region": "東京都八王子市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000433700.html",
-    "historySource": "https://www.city.hachioji.tokyo.jp/",
+    "historySource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/001/p031207_d/fil/3syou.pdf",
     "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
   },
   {
