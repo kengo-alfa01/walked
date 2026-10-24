@@ -4,14 +4,15 @@
     "name": "石垣山一夜城",
     "prefecture": "神奈川",
     "cityHint": "小田原",
-    "status": "research_needed",
-    "publication": "blocked",
+    "status": "already_registered",
+    "publication": "existing_site",
     "coordinates": null,
     "municipalityCode": null,
     "linkedPersonIds": [],
     "evidenceUrl": "",
-    "note": "既存地点との同一性、戦国期の年代、人物の関係、公式資料上の正確な座標・町丁を個別に調査する。名称末尾「周辺」は重複検査対象。",
-    "duplicateNameWithExisting": false
+    "note": "既存地点のため新規登録せず、異なる史実カードを追加。",
+    "duplicateNameWithExisting": false,
+    "linkedSiteId": "sg-site-ishigakiyama"
   },
   {
     "queueId": "sg-lead-202",
@@ -102,14 +103,15 @@
     "name": "小机城周辺",
     "prefecture": "神奈川",
     "cityHint": "横浜",
-    "status": "research_needed",
-    "publication": "blocked",
+    "status": "already_registered",
+    "publication": "existing_site",
     "coordinates": null,
     "municipalityCode": null,
     "linkedPersonIds": [],
     "evidenceUrl": "",
-    "note": "既存地点との同一性、戦国期の年代、人物の関係、公式資料上の正確な座標・町丁を個別に調査する。名称末尾「周辺」は重複検査対象。",
-    "duplicateNameWithExisting": false
+    "note": "既存地点のため新規登録せず、人物別カードを追加。",
+    "duplicateNameWithExisting": false,
+    "linkedSiteId": "sg-site-kozukue"
   },
   {
     "queueId": "sg-lead-209",
@@ -228,14 +230,15 @@
     "name": "浄福寺城跡",
     "prefecture": "東京",
     "cityHint": "八王子",
-    "status": "research_needed",
-    "publication": "blocked",
+    "status": "confirmed_at_entrance",
+    "publication": "registered",
     "coordinates": null,
     "municipalityCode": null,
     "linkedPersonIds": [],
     "evidenceUrl": "",
-    "note": "既存地点との同一性、戦国期の年代、人物の関係、公式資料上の正確な座標・町丁を個別に調査する。名称末尾「周辺」は重複検査対象。",
-    "duplicateNameWithExisting": false
+    "note": "寺の代表座標であり山城主郭とは異なる。",
+    "duplicateNameWithExisting": false,
+    "linkedSiteId": "sg-site-jofukuji-castle-entry"
   },
   {
     "queueId": "sg-lead-218",
