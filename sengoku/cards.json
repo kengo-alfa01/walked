@@ -601,10 +601,10 @@
     "id": "sg-card-0057",
     "personId": "sg-a7bb09927601",
     "siteId": "sg-site-kosugi-goten",
-    "title": "小杉御殿跡に刻まれた歴史",
-    "summary": "小杉御殿は江戸時代初期に徳川将軍家の往来に用いられた施設で、家康期の交通政策に関わる。",
-    "source": "https://www.city.kawasaki.jp/",
-    "verification": "review_needed",
+    "title": "将軍の旅路にあった御殿",
+    "summary": "小杉御殿は1608年、二代将軍秀忠が家康の送迎のために建てさせた仮御殿を始まりとする。家康も鷹狩りの際に利用したと川崎市の資料にある。戦国の終わりから江戸初期へ続く交通の足跡だ。",
+    "source": "https://www.city.kawasaki.jp/170/cmsfiles/contents/0000155/155498/ieyasu.pdf",
+    "verification": "reviewed",
     "unlockRule": "same_town_polygon"
   },
   {
@@ -1228,6 +1228,16 @@
     "title": "願文に残された祈り",
     "summary": "武田信玄が娘の安産を祈った願文が伝わり、戦国大名と富士山信仰のつながりを今に伝える。",
     "source": "https://www.fujisan-kyokai.jp/areaguide/2498",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0119",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-nakahara-goten",
+    "title": "鷹狩りから生まれた政治の拠点",
+    "summary": "家康は関東入部の後、鷹狩りなどの際に平塚の中原御殿を使用した。慶長元年（1596）に造営された御殿は宿泊所であるとともに、政治・軍事面でも機能したと平塚市の資料は伝える。",
+    "source": "https://www.city.hiratsuka.kanagawa.jp/press/page02_e00001_02234.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon"
   }
