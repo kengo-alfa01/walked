@@ -1240,5 +1240,45 @@
     "source": "https://www.city.hiratsuka.kanagawa.jp/press/page02_e00001_02234.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0120",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-jofukuji-castle-entry",
+    "title": "氏照の初期拠点をめぐる議論",
+    "summary": "この城は16世紀前半に大石氏の拠点となり、後に北条氏照の支配下に置かれた。氏照が最初に入った城は、浄福寺城とする説と滝山城とする説があり、確定していない。八王子城築城後も防衛上の役割を担ったと考えられる。",
+    "source": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/003/p005289.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0121",
+    "personId": "sg-1ebd0b00f6fd",
+    "siteId": "sg-site-kozukue",
+    "title": "小机領と一門の長老",
+    "summary": "小机周辺は北条幻庵が管轄する「小机領」となったと考えられている。幻庵自身の子や養子らが城主を務め、一門の後見人として北条氏の関東支配を支えた。",
+    "source": "https://www.city.yokohama.lg.jp/koyoko/2025/0922/0922-ys/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0122",
+    "personId": "sg-1a1371852d91",
+    "siteId": "sg-site-kozukue",
+    "title": "若くして小机を任された一門",
+    "summary": "北条氏堯は小机城の二代城主に就き、北条幻庵が後見役となった。江戸方面や鎌倉街道を押さえる城の重要性は大きかったが、氏堯は若くして世を去った。",
+    "source": "https://www.city.yokohama.lg.jp/koyoko/2025/0922/0922-ys/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0123",
+    "personId": "sg-f47391608dbb",
+    "siteId": "sg-site-ishigakiyama",
+    "title": "一夜で生まれた城という伝説",
+    "summary": "石垣山には「一夜で城が現れた」とする伝承が残る。しかし実際の築城には1590年春から約80日を要したと小田原市は説明する。秀吉はここで茶会を開き、側室や茶人、勅使も迎えた。伝説と史実を見比べられる場所だ。",
+    "source": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
   }
 ]
