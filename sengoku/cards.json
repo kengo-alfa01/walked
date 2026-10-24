@@ -338,5 +338,205 @@
     "source": "https://www.city.shizuoka.lg.jp/s6725/p009496.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0035",
+    "personId": "sg-c594233cb2b7",
+    "siteId": "sg-site-sounji",
+    "title": "後北条の菩提寺",
+    "summary": "氏綱が父・宗瑞の菩提を弔うために創建したと伝わる寺院。",
+    "source": "https://www.hakone.or.jp/594",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0036",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-kawamura",
+    "title": "国境の防衛線",
+    "summary": "河村城は戦国期に後北条氏の城郭網の一角として用いられた。",
+    "source": "https://www.town.yamakita.kanagawa.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0037",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-okazaki-sagami",
+    "title": "相模平定への道",
+    "summary": "三浦氏の城として知られる岡崎城は、伊勢宗瑞の相模進出と関わる。",
+    "source": "https://www.city.isehara.kanagawa.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0038",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-yusaka",
+    "title": "箱根の守り",
+    "summary": "箱根湯本の山道沿いに残る中世山城で、後北条氏期の箱根防備との関係が語られる。",
+    "source": "https://www.hakone.or.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0039",
+    "personId": "sg-0cab63b42163",
+    "siteId": "sg-site-iwadono",
+    "title": "郡内を守る山城",
+    "summary": "岩殿山の城は、郡内を拠点とした小山田氏と武田氏末期の情勢を知る手掛かりとなる。",
+    "source": "https://www.city.otsuki.yamanashi.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0040",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-erinji",
+    "title": "菩提寺の記憶",
+    "summary": "恵林寺は武田信玄ゆかりの寺院として知られ、武田氏滅亡後もその記憶を伝える。",
+    "source": "https://www.city.koshu.yamanashi.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0041",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-kai-zenkoji",
+    "title": "善光寺如来の遷座",
+    "summary": "武田信玄は川中島合戦期に信濃善光寺の本尊を甲府へ移したとされる。",
+    "source": "https://www.city.kofu.yamanashi.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0042",
+    "personId": "sg-98514cee0056",
+    "siteId": "sg-site-yumura",
+    "title": "甲府を見渡す山城",
+    "summary": "湯村山城は甲府盆地西部の防御に関わる山城で、武田氏時代の城郭とされる。",
+    "source": "https://www.city.kofu.yamanashi.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0043",
+    "personId": "sg-0cab63b42163",
+    "siteId": "sg-site-katsuyama-tsuru",
+    "title": "郡内領の城",
+    "summary": "郡内の城郭・勝山城は小山田氏の領域を考える上での史跡となっている。",
+    "source": "https://www.city.tsuru.yamanashi.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0044",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-hosenji",
+    "title": "甲斐に残る墓所伝承",
+    "summary": "法泉寺には武田信玄の墓所と伝える場所があり、信玄の死と弔いにまつわる記憶を伝える。",
+    "source": "https://www.city.kofu.yamanashi.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0045",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-sekisuiji",
+    "title": "誕生の地の伝承",
+    "summary": "武田信玄は積翠寺周辺の要害山麓で生まれたと伝えられている。",
+    "source": "https://www.city.kofu.yamanashi.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0046",
+    "personId": "sg-27a0e44acb89",
+    "siteId": "sg-site-jindaiji",
+    "title": "江戸城を巡る攻防",
+    "summary": "深大寺城は、扇谷上杉氏が後北条氏に対抗するため整備した城跡とされる。",
+    "source": "https://www.syougai.metro.tokyo.lg.jp/bunkazai/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0047",
+    "personId": "sg-a77cd1aa75f3",
+    "siteId": "sg-site-kawagoe",
+    "title": "河越の戦い",
+    "summary": "河越城は1546年の戦いの舞台となり、北条綱成が籠城したと伝わる。",
+    "source": "https://www.city.kawagoe.saitama.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0048",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-musashi-matsuyama",
+    "title": "武蔵の争奪戦",
+    "summary": "武蔵松山城は武田・北条・上杉の勢力が争った重要な山城である。",
+    "source": "https://www.town.yoshimi.saitama.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0049",
+    "personId": "sg-22f595e1c616",
+    "siteId": "sg-site-sugaya",
+    "title": "比企の城郭ネットワーク",
+    "summary": "菅谷館跡は中世の城館遺構で、戦国期に拡張された城郭として知られる。",
+    "source": "https://www.ranzan-shiseki.spec.ed.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0050",
+    "personId": "sg-61b29c703206",
+    "siteId": "sg-site-ueda",
+    "title": "上田での籠城",
+    "summary": "昌幸は1583年に築城を始め、徳川軍を迎え撃つ拠点にした。",
+    "source": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0051",
+    "personId": "sg-e00b2631eded",
+    "siteId": "sg-site-takato",
+    "title": "高遠の攻防",
+    "summary": "武田氏が拠点とした高遠城は、1582年の織田軍の甲州征伐で激戦地となった。",
+    "source": "https://www.inacity.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0052",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-komoro",
+    "title": "小諸城の戦国から近世へ",
+    "summary": "小諸城は戦国期から近世にかけて東信濃の拠点となり、徳川方の進出にも関わった。",
+    "source": "https://www.city.komoro.lg.jp/",
+    "verification": "review_needed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0053",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-kawanakajima",
+    "title": "川中島の対陣",
+    "summary": "1561年の川中島の戦いは、この八幡原周辺を主な舞台として伝えられる。",
+    "source": "https://www.city.nagano.nagano.jp/n150800/contents/p002956.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0054",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-matsushiro",
+    "title": "北信濃の前線基地",
+    "summary": "松代城の前身である海津城は、信玄が川中島合戦期に築城したとされる。",
+    "source": "https://www.city.nagano.nagano.jp/n151100/contents/p006083.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
   }
 ]
