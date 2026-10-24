@@ -1400,7 +1400,8 @@
     "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。",
     "municipalityAudit": "v0.6.5: Source confirms Shinagawa (13109); polygon mismatch still unexplained. Do not alter point/code without boundary inspection.",
     "boundaryAudit": "unresolved_polygon_mismatch",
-    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000348700.html"
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000348700.html",
+    "catalogEligibility": "boundary_pending"
   },
   {
     "id": "sg-site-nrct-130000022400",
@@ -2229,11 +2230,12 @@
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000427700.html",
     "historySource": "",
     "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
-    "researchStatus": "needs_historical_link",
+    "researchStatus": "out_of_scope_pending",
     "boundaryAudit": "unresolved_polygon_mismatch",
     "municipalityAudit": "v0.6.5: Source confirms Hachioji (13201); large archaeological zone / polygon coverage needs examination. Not Sengoku period (Heian-era kiln complex).",
     "municipalityAuditSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/monogatari/p026821.html",
-    "historicalScope": "out_of_sengoku_scope_review"
+    "historicalScope": "out_of_sengoku_scope_review",
+    "catalogEligibility": "boundary_pending"
   },
   {
     "id": "sg-site-nrct-130000346800",
