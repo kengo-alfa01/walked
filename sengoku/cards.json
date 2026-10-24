@@ -1158,5 +1158,25 @@
     "source": "https://kunishitei.bunka.go.jp/heritage/detail/401/723",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0117",
+    "personId": "sg-98514cee0056",
+    "siteId": "sg-site-nrct-190000032500",
+    "title": "信仰と修復",
+    "summary": "大永5年（1525）、武田信虎による社殿修理の伝承が神社庁所載の由緒に記されている。史料の性質は神社の由緒であり、同時代の一次史料と同等ではない。",
+    "source": "https://www.yamanashi-jinjacho.or.jp/intro/search/detail/7150",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0118",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-nrct-190000032500",
+    "title": "願文に残された祈り",
+    "summary": "武田信玄が娘の安産を祈った願文が伝わり、戦国大名と富士山信仰のつながりを今に伝える。",
+    "source": "https://www.fujisan-kyokai.jp/areaguide/2498",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
   }
 ]
