@@ -1,0 +1,45 @@
+name: Bundle Sengoku 100 town boundaries
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and validate boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p town-data
+          for item in '13111:13' '13119:13' '13201:13' '13205:13' '14109:14' '14118:14' '14135:14' '14136:14' '14137:14' '14151:14' '14201:14' '14205:14' '14210:14' '14211:14' '14217:14' '14382:14'; do
+            code="${item%%:*}"
+            prefecture="${item##*:}"
+            if [ -s "town-data/${code}.topojson" ]; then
+              echo "Already present: ${code}"
+              continue
+            fi
+            curl --fail --location --retry 4 --retry-delay 3 --connect-timeout 20 --max-time 150 \
+              "https://geoshape.ex.nii.ac.jp/ka/topojson/2020/${prefecture}/r2ka${code}.topojson" \
+              -o "town-data/${code}.topojson"
+          done
+          python3 - <<'PYCODE'
+          import json,pathlib
+          for code in ['13111', '13119', '13201', '13205', '14109', '14118', '14135', '14136', '14137', '14151', '14201', '14205', '14210', '14211', '14217', '14382']:
+              path=pathlib.Path(f'town-data/{code}.topojson')
+              data=json.loads(path.read_text(encoding='utf-8'))
+              assert data.get('type')=='Topology',code
+              assert sum(len(v.get('geometries',[])) for v in data.get('objects',{}).values())>0,code
+              print(code,path.stat().st_size)
+          PYCODE
+      - name: Commit boundaries
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add town-data/*.topojson
+          if ! git diff --cached --quiet; then
+            git commit -m 'Bundle Sengoku 100 town boundaries'
+            git push
+          fi
