@@ -43,16 +43,50 @@ async function loadMachida(){const urls=['https://geoshape.ex.nii.ac.jp/ka/geojs
 async function loadPrefectures(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@main/data/topojson/prefectures.topojson';const r=await fetch(url);if(!r.ok)throw Error('HTTP '+r.status);const t=await r.json();state.prefFeatures=topojson.feature(t,t.objects.prefectures||Object.values(t.objects)[0]).features;state.prefFeatures.forEach(f=>state.prefById.set(PREF_PREFIX+key(f),f));if(state.mode==='prefecture')changeMode('prefecture')}catch(e){status('都道府県境界の読込失敗：'+e.message)}}
 async function boundaries(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@main/data/topojson/municipalities.topojson';let res=await fetch(url);if(!res.ok)throw Error('行政区域データ HTTP '+res.status);const topo=await res.json();const obj=topo.objects.municipalities||Object.values(topo.objects)[0];state.features=topojson.feature(topo,obj).features;state.features.forEach(f=>state.featureById.set(key(f),f));changeMode(state.mode==='machida'&&!state.machida.length?'municipal':state.mode);$('loading').remove();updateStats();status('地図の準備完了。地域をタップして登録、またはタイムラインJSONを読み込んでください。');if(state.pending){const p=state.pending;state.pending=null;await processRecords(p)}}catch(err){$('loading').textContent='境界データの取得に失敗しました';status('⚠️ '+err.message+'。ネット接続とGitHub Pages公開を確認してください。')}}
 function coordinate(v){if(v==null)return null;if(typeof v==='object'){if(v.latLng)return coordinate(v.latLng);if(v.point)return coordinate(v.point);if(v.latitudeE7!=null&&v.longitudeE7!=null)return [v.longitudeE7/1e7,v.latitudeE7/1e7];if(v.latE7!=null&&v.lngE7!=null)return [v.lngE7/1e7,v.latE7/1e7];if(v.latitude!=null&&v.longitude!=null)return [Number(v.longitude),Number(v.latitude)];return null}if(typeof v==='string'){let m=v.match(/(-?\d+(?:\.\d+)?)\s*°?\s*,\s*(-?\d+(?:\.\d+)?)/);if(m)return [Number(m[2]),Number(m[1])]}return null}
-function extract(doc){let out=[],add=(v,t,source)=>{const p=coordinate(v);if(p&&p[0]>=122&&p[0]<=155&&p[1]>=20&&p[1]<=47&&Number.isFinite(p[0]))out.push({p,t:t||null,source})};let segments=doc.semanticSegments||doc.timelineObjects||[];for(const s of segments){let t=s.startTime||s.duration?.startTimestamp||null;if(s.visit){add(s.visit.topCandidate?.placeLocation?.latLng||s.visit.topCandidate?.placeLocation||s.visit.centerLatE7!=null&&{latE7:s.visit.centerLatE7,lngE7:s.visit.centerLngE7},t,'訪問')}
-if(s.placeVisit){add(s.placeVisit.location?.latitudeE7!=null?s.placeVisit.location:null,t,'訪問')}
-if(s.activity){add(s.activity.start?.latLng||s.activity.start,t,'移動');add(s.activity.end?.latLng||s.activity.end,s.endTime||t,'移動')}
-if(s.activitySegment){add(s.activitySegment.startLocation,t,'移動');add(s.activitySegment.endLocation,s.duration?.endTimestamp||t,'移動');for(const q of (s.activitySegment.simplifiedRawPath?.points||[]))add(q,q.timestamp||t,'経路')}
-for(const q of s.timelinePath||[])add(q.point||q,q.time||t,'経路')}
-// Legacy raw coordinates, if available (not guaranteed by iOS exports).
-for(const q of doc.locations||[])add(q,q.timestampMs?new Date(Number(q.timestampMs)).toISOString():q.timestamp,'GPS');
-// Raw signals can be extremely noisy: include only high confidence readings.
-for(const q of doc.rawSignals||[]){const pos=q.position;if(pos&&Number(pos.accuracyMeters??9999)<=150)add(pos.LatLng||pos.latLng||pos,q.timestamp||pos.timestamp,'GPS')}
-return out}
+function extract(doc){
+  const out=[];
+  const add=(v,t,source)=>{
+    const p=coordinate(v);
+    if(p&&Number.isFinite(p[0])&&Number.isFinite(p[1])&&p[0]>=122&&p[0]<=155&&p[1]>=20&&p[1]<=47){
+      out.push({p,t:t||null,source});
+    }
+  };
+  // iPhone Google Maps Timeline exports can have an array at the root.
+  // Other exports use semanticSegments or timelineObjects as object properties.
+  const segments=Array.isArray(doc)?doc:(doc.semanticSegments||doc.timelineObjects||[]);
+  for(const s of segments){
+    if(!s||typeof s!=='object')continue;
+    const t=s.startTime||s.duration?.startTimestamp||null;
+    if(s.visit){
+      add(s.visit.topCandidate?.placeLocation||s.visit.centerLatE7!=null&&{latE7:s.visit.centerLatE7,lngE7:s.visit.centerLngE7},t,'訪問');
+    }
+    if(s.placeVisit){add(s.placeVisit.location,t,'訪問');}
+    if(s.activity){
+      add(s.activity.start?.latLng||s.activity.start,t,'移動');
+      add(s.activity.end?.latLng||s.activity.end,s.endTime||t,'移動');
+    }
+    if(s.activitySegment){
+      add(s.activitySegment.startLocation,t,'移動');
+      add(s.activitySegment.endLocation,s.duration?.endTimestamp||t,'移動');
+      for(const q of s.activitySegment.simplifiedRawPath?.points||[])add(q,q.timestamp||t,'経路');
+    }
+    for(const q of s.timelinePath||[]){
+      const minutes=Number(q.durationMinutesOffsetFromStartTime);
+      const qt=Number.isFinite(minutes)&&t&&!Number.isNaN(Date.parse(t))
+        ?new Date(Date.parse(t)+minutes*60000).toISOString()
+        :(q.time||t);
+      add(q.point||q,qt,'経路');
+    }
+  }
+  if(!Array.isArray(doc)){
+    for(const q of doc.locations||[])add(q,q.timestampMs?new Date(Number(q.timestampMs)).toISOString():q.timestamp,'GPS');
+    for(const q of doc.rawSignals||[]){
+      const pos=q.position;
+      if(pos&&Number(pos.accuracyMeters??9999)<=150)add(pos.LatLng||pos.latLng||pos,q.timestamp||pos.timestamp,'GPS');
+    }
+  }
+  return out;
+}
 // Bounding box + ray casting; supports GeoJSON Polygons with holes and MultiPolygons.
 function ringContains(pt,ring){let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){let a=ring[i],b=ring[j];if((a[1]>pt[1])!==(b[1]>pt[1])&&pt[0]<(b[0]-a[0])*(pt[1]-a[1])/(b[1]-a[1])+a[0])inside=!inside}return inside}
 function geomContains(pt,geom){if(!geom)return false;let polygons=geom.type==='Polygon'?[geom.coordinates]:geom.type==='MultiPolygon'?geom.coordinates:[];return polygons.some(poly=>poly.length&&ringContains(pt,poly[0])&&!poly.slice(1).some(h=>ringContains(pt,h)))}
