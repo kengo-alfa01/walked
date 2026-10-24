@@ -1,0 +1,42 @@
+name: Bundle Machida boundaries
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/bundle-machida.yml'
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and validate authentic 2020 town boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 4 --connect-timeout 20 --max-time 120 \
+            'https://geoshape.ex.nii.ac.jp/ka/topojson/2020/13/r2ka13209.topojson' \
+            -o machida-boundaries.topojson
+          python3 - <<'PYTHON'
+          import json,os
+          p='machida-boundaries.topojson'
+          with open(p,encoding='utf-8') as f: data=json.load(f)
+          assert data.get('type')=='Topology', 'Not TopoJSON'
+          objects=data.get('objects',{})
+          assert objects, 'No TopoJSON objects'
+          geoms=sum(len(o.get('geometries',[])) for o in objects.values())
+          assert geoms>=100, f'Too few town boundaries: {geoms}'
+          print('Verified:',geoms,'boundaries,',os.path.getsize(p),'bytes')
+          PYTHON
+      - name: Commit downloaded source data into site
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add machida-boundaries.topojson
+          if ! git diff --cached --quiet; then
+            git commit -m 'Bundle verified Machida town boundaries'
+            git push
+          fi
