@@ -1,0 +1,42 @@
+name: Bundle Sengoku expanded town boundaries
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and validate town boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p town-data
+          for item in '10202:10' '11110:11' '11206:11' '11362:11' '14109:14' '14210:14' '19213:19' '22101:22' '22206:22'; do
+            code="${item%%:*}"
+            prefecture="${item##*:}"
+            curl --fail --location --retry 4 --retry-delay 3 --connect-timeout 20 --max-time 150 \
+              "https://geoshape.ex.nii.ac.jp/ka/topojson/2020/${prefecture}/r2ka${code}.topojson" \
+              -o "town-data/${code}.topojson"
+          done
+          python3 - <<'PYCODE'
+          import json, pathlib
+          for code in ['10202', '11110', '11206', '11362', '14109', '14210', '19213', '22101', '22206']:
+              path = pathlib.Path(f'town-data/{code}.topojson')
+              data = json.loads(path.read_text(encoding='utf-8'))
+              assert data.get('type') == 'Topology', code
+              geometries = sum(len(v.get('geometries', [])) for v in data.get('objects', {}).values())
+              assert geometries > 0, (code, geometries)
+              print(code, geometries, path.stat().st_size)
+          PYCODE
+      - name: Commit bundled boundaries
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add town-data/*.topojson
+          if ! git diff --cached --quiet; then
+            git commit -m 'Bundle Sengoku expanded town boundaries'
+            git push
+          fi
