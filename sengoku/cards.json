@@ -390,11 +390,13 @@
     "id": "sg-card-0039",
     "personId": "sg-0cab63b42163",
     "siteId": "sg-site-iwadono",
-    "title": "郡内を守る山城",
-    "summary": "岩殿山の城は、郡内を拠点とした小山田氏と武田氏末期の情勢を知る手掛かりとなる。",
-    "source": "https://www.city.otsuki.yamanashi.jp/",
-    "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "title": "郡内を守った山城",
+    "summary": "山梨県大月市は、岩殿城を小山田信茂が築いた城として紹介している。切り立った地形を利用した要害は、武田氏の領国と関東を結ぶ郡内の防衛に関わる拠点だった。",
+    "source": "https://www.city.otsuki.yamanashi.jp/gatewaycity/lp/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "reviewNote": "自治体公式資料で人物・史跡の関係を確認。現在地と歴史上の所在地の区別に注意。",
+    "reviewDate": "2026-10-25"
   },
   {
     "id": "sg-card-0040",
@@ -616,11 +618,13 @@
     "id": "sg-card-0059",
     "personId": "sg-4cb1a557e060",
     "siteId": "sg-site-oba",
-    "title": "大庭城跡に刻まれた歴史",
-    "summary": "相模の要地に位置する大庭城は戦国期の城郭として知られる。早雲本人との直接の関わりは検証対象。",
-    "source": "https://www.city.fujisawa.kanagawa.jp/",
-    "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "title": "永正九年の落城",
+    "summary": "藤沢市の文化財資料によると、大庭城は15世紀末に扇谷上杉氏が築き、永正9年（1512）に伊勢宗瑞（北条早雲）が攻略した。城址公園には土塁や空堀が残り、城下には落城をめぐる伝説も伝わる。",
+    "source": "https://www.city.fujisawa.kanagawa.jp/bunkazai/obajyou.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "reviewNote": "自治体公式資料で人物・史跡の関係を確認。現在地と歴史上の所在地の区別に注意。",
+    "reviewDate": "2026-10-25"
   },
   {
     "id": "sg-card-0060",
@@ -1093,11 +1097,13 @@
     "id": "sg-card-0106",
     "personId": "sg-fc948f16832f",
     "siteId": "sg-site-sokanji",
-    "title": "宗関寺に刻まれた歴史",
-    "summary": "宗関寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
-    "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000433700.html",
-    "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "title": "後世に継がれた氏照の記憶",
+    "summary": "八王子市の保存活用計画によれば、宗関寺は北条氏照が永禄7年（1564）に再興したと伝えられる。八王子城落城で焼失したのち再興され、元禄2年（1689）には氏照百回忌の鐘が奉納された。なお現在地への移転は明治時代である。",
+    "source": "https://www.city.hachioji.tokyo.jp/kankobunka/003/001/p031207_d/fil/3syou.pdf",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "reviewNote": "自治体公式資料で人物・史跡の関係を確認。現在地と歴史上の所在地の区別に注意。",
+    "reviewDate": "2026-10-25"
   },
   {
     "id": "sg-card-0107",
