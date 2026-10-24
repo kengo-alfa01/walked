@@ -606,10 +606,10 @@
     ],
     "municipalityCode": "14133",
     "region": "神奈川県川崎市中原区",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000016300.html",
-    "historySource": "https://www.city.kawasaki.jp/",
-    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+    "historySource": "https://www.city.kawasaki.jp/170/cmsfiles/contents/0000155/155498/ieyasu.pdf",
+    "note": "川崎市公式資料で将軍家による御殿利用を確認。公開地理データは代表地点。"
   },
   {
     "id": "sg-site-chigasaki",
@@ -2950,5 +2950,21 @@
     "note": "板橋区公式資料は千葉氏の居城と説明。個々の人物カードは人物との個別の結びつきが確認できるまで保留。",
     "coordinateVerification": "published_poi",
     "sourceAddress": "東京都板橋区赤塚5-35"
+  },
+  {
+    "id": "sg-site-nakahara-goten",
+    "name": "中原御殿跡",
+    "point": [
+      139.330568,
+      35.343872
+    ],
+    "municipalityCode": "14203",
+    "region": "神奈川県平塚市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000182700.html",
+    "historySource": "https://www.city.hiratsuka.kanagawa.jp/press/page02_e00001_02139.html",
+    "coordinateVerification": "published_poi",
+    "researchStatus": "person_verified",
+    "note": "平塚市博物館資料が徳川家康の宿所と確認。公開歴史地名データ代表座標は跡地の厳密な境界を保証しない。"
   }
 ]
