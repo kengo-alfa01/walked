@@ -429,11 +429,14 @@
     "id": "sg-card-0042",
     "personId": "sg-98514cee0056",
     "siteId": "sg-site-yumura",
-    "title": "甲府を見渡す山城",
-    "summary": "湯村山城は甲府盆地西部の防御に関わる山城で、武田氏時代の城郭とされる。",
-    "source": "https://www.city.kofu.yamanashi.jp/",
-    "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "title": "甲府を守る見張りの城",
+    "summary": "甲府盆地を見下ろす湯村山城。湯村温泉の歴史解説は『高白斎記』により1523年に武田信虎が築いたと紹介している。遺構には土塁・堀切が残る。",
+    "source": "https://yumura.org/attractions/yumurayama/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "reviewedOn": "2026-10-25",
+    "reviewMethod": "official_or_regional_historical_material",
+    "reviewEvidence": "湯村温泉公式の湯村山城解説に武田信虎と1523年の築城が記載。史料名も明示されている。"
   },
   {
     "id": "sg-card-0043",
@@ -630,11 +633,14 @@
     "id": "sg-card-0060",
     "personId": "sg-a7bb09927601",
     "siteId": "sg-site-fujisawa-goten",
-    "title": "藤沢御殿跡に刻まれた歴史",
-    "summary": "藤沢御殿は家康が東海道沿いの往来に利用したとされる御殿跡。",
-    "source": "https://www.city.fujisawa.kanagawa.jp/",
-    "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "title": "関東を行き交った家康の御殿",
+    "summary": "関東移封後の徳川家康は、藤沢御殿を宿泊拠点として利用した。藤沢市の歴史資料によると1600年に利用記録があり、その後の将軍たちにも受け継がれた。",
+    "source": "https://fujisawa-miyu.net/f/summer-fujisawasyuku/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "reviewedOn": "2026-10-25",
+    "reviewMethod": "official_or_regional_historical_material",
+    "reviewEvidence": "藤沢市の電子博物館解説は藤沢御殿の設置推定時期と徳川家康の利用記録を説明する。"
   },
   {
     "id": "sg-card-0061",
