@@ -118,5 +118,95 @@
     "source": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0013",
+    "personId": "sg-f47391608dbb",
+    "siteId": "sg-site-ishigakiyama",
+    "title": "小田原合戦の陣城",
+    "summary": "1590年の攻略拠点。",
+    "source": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-ishigakiyama.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0014",
+    "personId": "sg-fc948f16832f",
+    "siteId": "sg-site-takiyama",
+    "title": "滝山城の防衛",
+    "summary": "武田勢との戦いと城郭整備。",
+    "source": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0015",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-takiyama",
+    "title": "滝山城攻め",
+    "summary": "1569年の滝山城に関わる攻防。",
+    "source": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0016",
+    "personId": "sg-4cb1a557e060",
+    "siteId": "sg-site-tamanawa",
+    "title": "鎌倉方面への進出",
+    "summary": "1512年の築城と関東経営。",
+    "source": "https://www.city.kamakura.kanagawa.jp/rekibun/sengoku.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0017",
+    "personId": "sg-a77cd1aa75f3",
+    "siteId": "sg-site-tamanawa",
+    "title": "玉縄城と北条氏",
+    "summary": "玉縄城を担った武将。",
+    "source": "https://www.city.kamakura.kanagawa.jp/rekibun/sengoku.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0018",
+    "personId": "sg-98514cee0056",
+    "siteId": "sg-site-yougai",
+    "title": "甲府の詰城",
+    "summary": "武田氏館を守る山城の築城。",
+    "source": "https://online.bunka.go.jp/heritages/detail/138304",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0019",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-yougai",
+    "title": "武田家の防衛拠点",
+    "summary": "要害山は信玄の出生地と伝えられる。",
+    "source": "https://online.bunka.go.jp/heritages/detail/138304",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0020",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-kofu",
+    "title": "甲府城築城のはじまり",
+    "summary": "武田氏滅亡後の甲府城築城過程。",
+    "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
+  },
+  {
+    "id": "sg-card-0021",
+    "personId": "sg-5d169413d357",
+    "siteId": "sg-site-kofu",
+    "title": "甲府城の完成",
+    "summary": "豊臣政権期の築城整備。",
+    "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon"
   }
 ]
