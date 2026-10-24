@@ -410,13 +410,16 @@
     "name": "赤塚城跡",
     "prefecture": "東京",
     "cityHint": "板橋",
-    "status": "research_needed",
-    "publication": "blocked",
-    "coordinates": null,
-    "municipalityCode": null,
+    "status": "location_verified",
+    "publication": "site_only",
+    "coordinates": [
+      139.643515,
+      35.784545
+    ],
+    "municipalityCode": "13119",
     "linkedPersonIds": [],
-    "evidenceUrl": "",
-    "note": "既存地点との同一性、戦国期の年代、人物の関係、公式資料上の正確な座標・町丁を個別に調査する。名称末尾「周辺」は重複検査対象。",
+    "evidenceUrl": "https://www.city.itabashi.tokyo.jp/1014983/1015442/1015448/1015450/1015799.html",
+    "note": "地点と戦国期千葉氏の城館であることを板橋区公式で確認。人物カードは要追加史料。",
     "duplicateNameWithExisting": false
   },
   {
