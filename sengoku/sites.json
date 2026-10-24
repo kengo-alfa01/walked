@@ -288,10 +288,11 @@
     ],
     "municipalityCode": "14382",
     "region": "神奈川県箱根町",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000207800.html",
-    "historySource": "https://www.hakone.or.jp/594",
-    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+    "historySource": "https://www.hakone.or.jp/529?gana=member",
+    "note": "史跡の代表点。町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-kawamura",
@@ -372,10 +373,11 @@
     ],
     "municipalityCode": "19201",
     "region": "山梨県甲府市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000088300.html",
-    "historySource": "https://www.city.kofu.yamanashi.jp/",
-    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+    "historySource": "https://kofu-tourism.com/spot/index.php?p=17",
+    "note": "史跡の代表点。町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-yumura",
@@ -512,10 +514,11 @@
     ],
     "municipalityCode": "20209",
     "region": "長野県伊那市",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000136900.html",
-    "historySource": "https://www.inacity.jp/",
-    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+    "historySource": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
+    "note": "史跡の代表点。町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-komoro",
@@ -680,10 +683,11 @@
     ],
     "municipalityCode": "13120",
     "region": "東京都練馬区",
-    "verification": "review_needed",
+    "verification": "reviewed",
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000346500.html",
-    "historySource": "https://www.city.nerima.tokyo.jp/",
-    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+    "historySource": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/rekishiwoshiru/rekishibunkazai/isekihogo/shakujii.html",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。座標・町丁境界の正確さは別途確認対象。",
+    "historyReviewOn": "2026-10-25"
   },
   {
     "id": "sg-site-takatsuki",
