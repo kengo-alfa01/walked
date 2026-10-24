@@ -1,0 +1,37 @@
+name: Bundle Sengoku v0.7.1 Hiratsuka boundaries
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and validate Hiratsuka town boundary
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p town-data
+          curl --fail --location --retry 4 --retry-delay 3 --connect-timeout 20 --max-time 150 \
+            'https://geoshape.ex.nii.ac.jp/ka/topojson/2020/14/r2ka14203.topojson' \
+            -o 'town-data/14203.topojson'
+          python3 - <<'PYCODE'
+          import json
+          with open('town-data/14203.topojson',encoding='utf-8') as f: obj=json.load(f)
+          assert obj['type']=='Topology'
+          assert any(x.get('geometries') for x in obj['objects'].values())
+          PYCODE
+      - name: Commit boundary
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add town-data/14203.topojson
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add Hiratsuka Sengoku boundary'
+            git push
+          else
+            echo 'No changes to commit'
+          fi
