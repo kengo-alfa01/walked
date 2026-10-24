@@ -437,7 +437,7 @@ async function loadSengoku(){try{
  sengokuPeople=people;sengokuSites=sites;sengokuCards=cards;
  const eligible=cards.filter(eligibleSengokuCard).length;
  const legacy=Object.keys(sengokuFound).filter(id=>!cards.some(c=>c.id===id&&eligibleSengokuCard(c))).length;
- $('sengokuQuality').textContent=`調査候補 ${sites.length}地点／既存ラベルに基づく公開対象 ${eligible}枚／精査待ち ${cards.length-eligible}枚`+(legacy?`（過去の暫定獲得記録 ${legacy}枚は保存・集計保留）`:'');
+ $('sengokuQuality').textContent=`登録地点 ${sites.length}件／公開対象カード ${eligible}枚／精査待ちカード ${cards.length-eligible}枚`+(legacy?`（過去の暫定獲得記録 ${legacy}枚は保存・集計保留）`:'');
  refreshSengokuTestSites();renderSengoku();refreshSengokuPins();
  }catch(e){$('sengokuCount').textContent='戦国データの読み込み失敗';console.error(e)}
 }
