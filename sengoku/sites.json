@@ -138,5 +138,145 @@
     "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000071300.html",
     "historySource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
     "note": "甲府城跡の代表点。築城過程には諸説がある。"
+  },
+  {
+    "id": "sg-site-kozukue",
+    "name": "小机城跡",
+    "point": [
+      139.594124,
+      35.51236
+    ],
+    "municipalityCode": "14109",
+    "region": "神奈川県横浜市港北区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000057400.html",
+    "historySource": "https://www.pref.kanagawa.jp/documents/8040/r4kouza4.pdf",
+    "note": "後北条氏の支城。関連人物を特定するには追加調査が必要。"
+  },
+  {
+    "id": "sg-site-tsukui",
+    "name": "津久井城跡",
+    "point": [
+      139.278755,
+      35.583275
+    ],
+    "municipalityCode": "14151",
+    "region": "神奈川県相模原市緑区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000159000.html",
+    "historySource": "https://www.pref.kanagawa.jp/documents/95200/r02zuroku2.pdf",
+    "note": "相模と甲斐の境を守る後北条氏支城。"
+  },
+  {
+    "id": "sg-site-misaki",
+    "name": "三崎城跡",
+    "point": [
+      139.621665,
+      35.143924
+    ],
+    "municipalityCode": "14210",
+    "region": "神奈川県三浦市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000129200.html",
+    "historySource": "https://www.city.miura.kanagawa.jp/soshiki/kankoshokoka/kankoshokoka_kanko/kankoukaisetsuban/kankokaisetsuban_miuraichizoku/10015.html",
+    "note": "北条早雲による三浦氏攻略と関係。"
+  },
+  {
+    "id": "sg-site-hachigata",
+    "name": "鉢形城跡",
+    "point": [
+      139.193361,
+      36.107315
+    ],
+    "municipalityCode": "11362",
+    "region": "埼玉県大里郡寄居町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000238300.html",
+    "historySource": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
+    "note": "長尾景春の築城伝承と北条氏邦の整備。"
+  },
+  {
+    "id": "sg-site-oshi",
+    "name": "忍城跡",
+    "point": [
+      139.454862,
+      36.136906
+    ],
+    "municipalityCode": "11206",
+    "region": "埼玉県行田市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000272700.html",
+    "historySource": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
+    "note": "忍城水攻め、石田三成らの包囲と関係。"
+  },
+  {
+    "id": "sg-site-iwatsuki",
+    "name": "岩槻城跡",
+    "point": [
+      139.701428,
+      35.95593
+    ],
+    "municipalityCode": "11110",
+    "region": "埼玉県さいたま市岩槻区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000306900.html",
+    "historySource": "https://www.city.saitama.lg.jp/004/005/006/013/002/p078002_d/fil/sinshoujiguruwatohisaizud.pdf",
+    "note": "太田資正の居城。"
+  },
+  {
+    "id": "sg-site-minowa",
+    "name": "箕輪城跡",
+    "point": [
+      138.951932,
+      36.404195
+    ],
+    "municipalityCode": "10202",
+    "region": "群馬県高崎市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/10/100000109300.html",
+    "historySource": "https://www.city.takasaki.gunma.jp/site/sightseeing/6449.html",
+    "note": "長野氏、井伊直政の時代に使用された城。"
+  },
+  {
+    "id": "sg-site-katsunuma",
+    "name": "勝沼氏館跡",
+    "point": [
+      138.731754,
+      35.659884
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県甲州市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000050000.html",
+    "historySource": "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_kanseiban_.pdf",
+    "note": "武田信虎の弟勝沼信友の居館。信玄の時代に勝沼氏が滅亡。"
+  },
+  {
+    "id": "sg-site-yamanaka",
+    "name": "山中城跡",
+    "point": [
+      138.994284,
+      35.156622
+    ],
+    "municipalityCode": "22206",
+    "region": "静岡県三島市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000026000.html",
+    "historySource": "https://www.city.mishima.shizuoka.jp/page/3516.html",
+    "note": "後北条氏が西方防備のため築城した山城。"
+  },
+  {
+    "id": "sg-site-sunpu",
+    "name": "駿府城跡",
+    "point": [
+      138.383163,
+      34.979285
+    ],
+    "municipalityCode": "22101",
+    "region": "静岡県静岡市葵区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000168700.html",
+    "historySource": "https://www.city.shizuoka.lg.jp/s6725/p009496.html",
+    "note": "徳川家康が居城として整備した駿府城。"
   }
 ]
