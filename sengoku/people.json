@@ -5017,5 +5017,45 @@
     "siteResearch": "not_started",
     "source": "",
     "notes": ""
+  },
+  {
+    "id": "sg-added-maeda-toshiie",
+    "name": "前田利家",
+    "group": "織田・豊臣・尾張",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "notes": "追加カードに対応する人物。個別史実は各カードの出典を参照。"
+  },
+  {
+    "id": "sg-added-nishina-morinobu",
+    "name": "仁科盛信",
+    "group": "武田・甲斐・信濃",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
+    "notes": "追加カードに対応する人物。個別史実は各カードの出典を参照。"
+  },
+  {
+    "id": "sg-added-matsuda-yasunaga",
+    "name": "松田康長",
+    "group": "北条・関東",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.city.mishima.shizuoka.jp/page/2145.html",
+    "notes": "追加カードに対応する人物。個別史実は各カードの出典を参照。"
+  },
+  {
+    "id": "sg-added-mamiya-yasutoshi",
+    "name": "間宮康俊",
+    "group": "北条・関東",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/4805.pdf",
+    "notes": "追加カードに対応する人物。個別史実は各カードの出典を参照。"
   }
 ]
