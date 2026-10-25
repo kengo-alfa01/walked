@@ -2354,5 +2354,450 @@
     "yearEvidence": "municipal_history_record",
     "verification": "reviewed",
     "source": "https://www.city.katsushika.lg.jp/history/history/2-3-1-112.html"
+  },
+  {
+    "id": "link-sg-site-erinji--sg-e00b2631eded",
+    "siteId": "sg-site-erinji",
+    "personId": "sg-e00b2631eded",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.yamanashi-kankou.jp.id200959.cas.iijcdn.jp/special/shingen-ko/yukarinochi.html",
+    "eventYears": [
+      1576
+    ]
+  },
+  {
+    "id": "link-sg-site-fukasawa--sg-4c0c12460efa",
+    "siteId": "sg-site-fukasawa",
+    "personId": "sg-4c0c12460efa",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.gotemba.lg.jp/museum/muse-cat-004/693.html",
+    "eventYears": [
+      1571
+    ]
+  },
+  {
+    "id": "link-sg-site-fukasawa--sg-a77cd1aa75f3",
+    "siteId": "sg-site-fukasawa",
+    "personId": "sg-a77cd1aa75f3",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.gotemba.lg.jp/museum/muse-cat-004/693.html",
+    "eventYears": [
+      1571
+    ]
+  },
+  {
+    "id": "link-sg-site-gifu--sg-163274b0bfdf",
+    "siteId": "sg-site-gifu",
+    "personId": "sg-163274b0bfdf",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "eventYears": [
+      1576
+    ]
+  },
+  {
+    "id": "link-sg-site-gifu--sg-532f50203751",
+    "siteId": "sg-site-gifu",
+    "personId": "sg-532f50203751",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.gifu.lg.jp/info/syoukai/1006141/1006147.html",
+    "eventYears": [
+      1600
+    ]
+  },
+  {
+    "id": "link-sg-site-gifu--sg-6666c05e6264",
+    "siteId": "sg-site-gifu",
+    "personId": "sg-6666c05e6264",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "eventYears": [
+      1582
+    ]
+  },
+  {
+    "id": "link-sg-site-gifu--sg-6eaf66c3d7c8",
+    "siteId": "sg-site-gifu",
+    "personId": "sg-6eaf66c3d7c8",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "eventYears": [
+      1567
+    ]
+  },
+  {
+    "id": "link-sg-site-gifu--sg-person-saito-dosan",
+    "siteId": "sg-site-gifu",
+    "personId": "sg-person-saito-dosan",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "eventYears": [
+      1539
+    ]
+  },
+  {
+    "id": "link-sg-site-gifu--sg-person-saito-tatsuoki",
+    "siteId": "sg-site-gifu",
+    "personId": "sg-person-saito-tatsuoki",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "eventYears": [
+      1561
+    ]
+  },
+  {
+    "id": "link-sg-site-jindaiji--sg-b3e7eb14e624",
+    "siteId": "sg-site-jindaiji",
+    "personId": "sg-b3e7eb14e624",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.chofu.lg.jp/100200/p073026.html",
+    "eventYears": [
+      1490
+    ]
+  },
+  {
+    "id": "link-sg-site-makabe--sg-researched-098-makabe-hisamoto",
+    "siteId": "sg-site-makabe",
+    "personId": "sg-researched-098-makabe-hisamoto",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "unverified",
+    "verification": "reviewed",
+    "source": "https://www.city.sakuragawa.lg.jp/temporary/page006693.html",
+    "eventYears": []
+  },
+  {
+    "id": "link-sg-site-masuyama--sg-dc8c550d8769",
+    "siteId": "sg-site-masuyama",
+    "personId": "sg-dc8c550d8769",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.tonami.lg.jp/photop/9602p/?print=page",
+    "eventYears": [
+      1560
+    ]
+  },
+  {
+    "id": "link-sg-site-nagashino--sg-a7bb09927601",
+    "siteId": "sg-site-nagashino",
+    "personId": "sg-a7bb09927601",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/nagashinojyoato.html",
+    "eventYears": [
+      1573
+    ]
+  },
+  {
+    "id": "link-sg-site-nagashino--sg-e00b2631eded",
+    "siteId": "sg-site-nagashino",
+    "personId": "sg-e00b2631eded",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/nagashinojyoato.html",
+    "eventYears": [
+      1575
+    ]
+  },
+  {
+    "id": "link-sg-site-nagashino--sg-person-suganuma-motonari",
+    "siteId": "sg-site-nagashino",
+    "personId": "sg-person-suganuma-motonari",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/nagashinojyoato.html",
+    "eventYears": [
+      1508
+    ]
+  },
+  {
+    "id": "link-sg-site-nerima-castle--sg-7c350c62d250",
+    "siteId": "sg-site-nerima-castle",
+    "personId": "sg-7c350c62d250",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.nerima-archives.jp/column/3438/",
+    "eventYears": [
+      1477
+    ]
+  },
+  {
+    "id": "link-sg-site-nrct-130000183500--sg-person-ushigome-katsuyuki",
+    "siteId": "sg-site-nrct-130000183500",
+    "personId": "sg-person-ushigome-katsuyuki",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://kotobank.jp/word/宗参寺-3043639",
+    "eventYears": [
+      1544
+    ]
+  },
+  {
+    "id": "link-sg-site-nrct-130000329700--sg-6b9dfe775421",
+    "siteId": "sg-site-nrct-130000329700",
+    "personId": "sg-6b9dfe775421",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://setagayadigitalmuseum.jp/collection/21755/detail/296529168/",
+    "eventYears": [
+      1633
+    ]
+  },
+  {
+    "id": "link-sg-site-nrct-130000329800--sg-person-oba-nobuhisa",
+    "siteId": "sg-site-nrct-130000329800",
+    "personId": "sg-person-oba-nobuhisa",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "unverified",
+    "verification": "reviewed",
+    "source": "https://museum.bunka.go.jp/wp-content/uploads/2022/12/d00138265.html",
+    "eventYears": []
+  },
+  {
+    "id": "link-sg-site-nrct-130000368700--sg-c594233cb2b7",
+    "siteId": "sg-site-nrct-130000368700",
+    "personId": "sg-c594233cb2b7",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.katsushika.lg.jp/history/history/2-2-3-100.html",
+    "eventYears": [
+      1538
+    ]
+  },
+  {
+    "id": "link-sg-site-nrct-190000017600--sg-person-kato-kagetada-uenohara",
+    "siteId": "sg-site-nrct-190000017600",
+    "personId": "sg-person-kato-kagetada-uenohara",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.yamanashi-jinjacho.or.jp/intro/search/detail/8089",
+    "eventYears": [
+      1566
+    ]
+  },
+  {
+    "id": "link-sg-site-nrct-190000050300--sg-e00b2631eded",
+    "siteId": "sg-site-nrct-190000050300",
+    "personId": "sg-e00b2631eded",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.daizenji.org/engi.html",
+    "eventYears": [
+      1582
+    ]
+  },
+  {
+    "id": "link-sg-site-nrct-190000052800--sg-a7bb09927601",
+    "siteId": "sg-site-nrct-190000052800",
+    "personId": "sg-a7bb09927601",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "unverified",
+    "verification": "reviewed",
+    "source": "https://www.city.koshu.yamanashi.jp/docs/2017051600118/",
+    "eventYears": []
+  },
+  {
+    "id": "link-sg-site-nrct-190000052800--sg-e00b2631eded",
+    "siteId": "sg-site-nrct-190000052800",
+    "personId": "sg-e00b2631eded",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.yamanashi-kankou.jp/kankou/spot/p1_4543.html",
+    "eventYears": [
+      1582
+    ]
+  },
+  {
+    "id": "link-sg-site-nrct-190000059800--sg-4c0c12460efa",
+    "siteId": "sg-site-nrct-190000059800",
+    "personId": "sg-4c0c12460efa",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "unverified",
+    "verification": "reviewed",
+    "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0010.html",
+    "eventYears": []
+  },
+  {
+    "id": "link-sg-site-nrct-190000061100--sg-c654b6b73e86",
+    "siteId": "sg-site-nrct-190000061100",
+    "personId": "sg-c654b6b73e86",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "unverified",
+    "verification": "reviewed",
+    "source": "https://www.yamanashishi-kankou.com/learn-culture/",
+    "eventYears": []
+  },
+  {
+    "id": "link-sg-site-nrct-190000100300--sg-person-takeda-nobushige-15c",
+    "siteId": "sg-site-nrct-190000100300",
+    "personId": "sg-person-takeda-nobushige-15c",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "unverified",
+    "verification": "reviewed",
+    "source": "https://kotobank.jp/word/%E6%AD%A6%E7%94%B0%E4%BF%A1%E9%87%8D%E9%A4%A8%E8%B7%A1-3057274",
+    "eventYears": []
+  },
+  {
+    "id": "link-sg-site-ooga--sg-person-toki-yoriaki",
+    "siteId": "sg-site-ooga",
+    "personId": "sg-person-toki-yoriaki",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.yamagata.gifu.jp/site/oogajoato/17183.html",
+    "eventYears": [
+      1535,
+      1543
+    ]
+  },
+  {
+    "id": "link-sg-site-shinshiro--sg-person-okudaira-nobumasa",
+    "siteId": "sg-site-shinshiro",
+    "personId": "sg-person-okudaira-nobumasa",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/shinshirojyoato.html",
+    "eventYears": [
+      1576
+    ]
+  },
+  {
+    "id": "link-sg-site-suwahara--sg-a7bb09927601",
+    "siteId": "sg-site-suwahara",
+    "personId": "sg-a7bb09927601",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/kuni-01.html",
+    "eventYears": [
+      1575
+    ]
+  },
+  {
+    "id": "link-sg-site-suwahara--sg-e00b2631eded",
+    "siteId": "sg-site-suwahara",
+    "personId": "sg-e00b2631eded",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/kuni-01.html",
+    "eventYears": [
+      1573
+    ]
+  },
+  {
+    "id": "link-sg-site-suwahara--sg-e701cb97b4d9",
+    "siteId": "sg-site-suwahara",
+    "personId": "sg-e701cb97b4d9",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/kuni-01.html",
+    "eventYears": [
+      1573
+    ]
+  },
+  {
+    "id": "link-sg-site-takatenjin--sg-a7bb09927601",
+    "siteId": "sg-site-takatenjin",
+    "personId": "sg-a7bb09927601",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/10239.html",
+    "eventYears": [
+      1578
+    ]
+  },
+  {
+    "id": "link-sg-site-takatenjin--sg-e00b2631eded",
+    "siteId": "sg-site-takatenjin",
+    "personId": "sg-e00b2631eded",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/8328.html",
+    "eventYears": [
+      1574
+    ]
+  },
+  {
+    "id": "link-sg-site-takatenjin--sg-person-okabe-motonobu",
+    "siteId": "sg-site-takatenjin",
+    "personId": "sg-person-okabe-motonobu",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "derived_from_dated_cards",
+    "verification": "reviewed",
+    "source": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/8328.html",
+    "eventYears": [
+      1579,
+      1581
+    ]
   }
 ]
