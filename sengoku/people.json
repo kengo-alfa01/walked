@@ -5057,5 +5057,17 @@
     "siteResearch": "documented",
     "source": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/4805.pdf",
     "notes": "追加カードに対応する人物。個別史実は各カードの出典を参照。"
+  },
+  {
+    "id": "sg-added-sanjo-lady",
+    "name": "三条夫人",
+    "group": "文化・宗教・女性",
+    "aliases": [
+      "三条の方"
+    ],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0010.html",
+    "notes": "甲府市円光院にゆかり。"
   }
 ]
