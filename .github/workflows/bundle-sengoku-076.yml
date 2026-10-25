@@ -1,0 +1,40 @@
+name: Bundle Sengoku v0.7.6 town boundaries
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and validate new municipal boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p town-data
+          curl --fail --location --retry 4 --retry-delay 3 --connect-timeout 20 --max-time 150 'https://geoshape.ex.nii.ac.jp/ka/topojson/2020/13/r2ka13205.topojson' -o 'town-data/13205.topojson'
+          curl --fail --location --retry 4 --retry-delay 3 --connect-timeout 20 --max-time 150 'https://geoshape.ex.nii.ac.jp/ka/topojson/2020/11/r2ka11342.topojson' -o 'town-data/11342.topojson'
+          curl --fail --location --retry 4 --retry-delay 3 --connect-timeout 20 --max-time 150 'https://geoshape.ex.nii.ac.jp/ka/topojson/2020/19/r2ka19209.topojson' -o 'town-data/19209.topojson'
+          python3 - <<'PYCODE'
+          import json
+          obj=json.load(open('town-data/13205.topojson',encoding='utf-8'))
+          assert obj['type']=='Topology' and any(v.get('geometries') for v in obj['objects'].values())
+          obj=json.load(open('town-data/11342.topojson',encoding='utf-8'))
+          assert obj['type']=='Topology' and any(v.get('geometries') for v in obj['objects'].values())
+          obj=json.load(open('town-data/19209.topojson',encoding='utf-8'))
+          assert obj['type']=='Topology' and any(v.get('geometries') for v in obj['objects'].values())
+          PYCODE
+      - name: Commit boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add town-data/13205.topojson town-data/11342.topojson town-data/19209.topojson
+          if ! git diff --cached --quiet; then
+            git commit -m 'Bundle v0.7.6 new town boundaries'
+            git push
+          else
+            echo 'No changes to commit'
+          fi
