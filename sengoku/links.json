@@ -35,9 +35,13 @@
     "personId": "sg-025ab3a6ee3f",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://odawaracastle.com/history/hojo-godai/"
+    "source": "https://odawaracastle.com/history/hojo-godai/",
+    "eventYears": [
+      1569,
+      1590
+    ]
   },
   {
     "id": "link-sg-site-odawara--sg-3e72ce5a7fa9",
@@ -45,9 +49,13 @@
     "personId": "sg-3e72ce5a7fa9",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://odawaracastle.com/history/hojo-godai/"
+    "source": "https://odawaracastle.com/history/hojo-godai/",
+    "eventYears": [
+      1582,
+      1590
+    ]
   },
   {
     "id": "link-sg-site-odawara--sg-f47391608dbb",
@@ -55,9 +63,12 @@
     "personId": "sg-f47391608dbb",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://odawaracastle.com/history/hojo-godai/"
+    "source": "https://odawaracastle.com/history/hojo-godai/",
+    "eventYears": [
+      1590
+    ]
   },
   {
     "id": "link-sg-site-hachioji--sg-fc948f16832f",
@@ -65,9 +76,12 @@
     "personId": "sg-fc948f16832f",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYears": [
+      1590
+    ]
   },
   {
     "id": "link-sg-site-tsutsujigasaki--sg-98514cee0056",
@@ -105,9 +119,13 @@
     "personId": "sg-e00b2631eded",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/meisho_kyuseki/6562.html"
+    "source": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/meisho_kyuseki/6562.html",
+    "eventYears": [
+      1581,
+      1582
+    ]
   },
   {
     "id": "link-sg-site-nirayama--sg-4cb1a557e060",
@@ -145,9 +163,12 @@
     "personId": "sg-4c0c12460efa",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
+    "source": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "eventYears": [
+      1569
+    ]
   },
   {
     "id": "link-sg-site-tamanawa--sg-4cb1a557e060",
@@ -465,9 +486,12 @@
     "personId": "sg-a77cd1aa75f3",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.sayama.saitama.jp/manabu/dentou/minwa_densyo/kasiwabara_chiku/siroyamanohanasi.html"
+    "source": "https://www.city.sayama.saitama.jp/manabu/dentou/minwa_densyo/kasiwabara_chiku/siroyamanohanasi.html",
+    "eventYears": [
+      1546
+    ]
   },
   {
     "id": "link-sg-site-musashi-matsuyama--sg-4c0c12460efa",
@@ -495,9 +519,13 @@
     "personId": "sg-61b29c703206",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+    "source": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "eventYears": [
+      1583,
+      1585
+    ]
   },
   {
     "id": "link-sg-site-takato--sg-e00b2631eded",
@@ -1225,9 +1253,12 @@
     "personId": "sg-a7bb09927601",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/sinnpu/1497.html"
+    "source": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/sinnpu/1497.html",
+    "eventYears": [
+      1582
+    ]
   },
   {
     "id": "link-sg-site-takiyama--sg-e00b2631eded",
@@ -1245,9 +1276,12 @@
     "personId": "sg-334f0ad961e2",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYears": [
+      1590
+    ]
   },
   {
     "id": "link-sg-site-takeda-hachimangu--sg-e00b2631eded",
@@ -1285,9 +1319,12 @@
     "personId": "sg-a7bb09927601",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html"
+    "source": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
+    "eventYears": [
+      1583
+    ]
   },
   {
     "id": "link-sg-site-ueda--sg-334f0ad961e2",
@@ -1295,9 +1332,12 @@
     "personId": "sg-334f0ad961e2",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html"
+    "source": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
+    "eventYears": [
+      1585
+    ]
   },
   {
     "id": "link-sg-site-ueda--sg-53d7309718ae",
@@ -1315,9 +1355,12 @@
     "personId": "sg-b9bb61125a1b",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html"
+    "source": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
+    "eventYears": [
+      1600
+    ]
   },
   {
     "id": "link-sg-site-oshi--sg-3e72ce5a7fa9",
@@ -1355,9 +1398,12 @@
     "personId": "sg-7c350c62d250",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf"
+    "source": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf",
+    "eventYears": [
+      1457
+    ]
   },
   {
     "id": "link-sg-site-kawagoe--sg-c594233cb2b7",
@@ -1365,9 +1411,12 @@
     "personId": "sg-c594233cb2b7",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.kawagoe.saitama.jp/kurashi/bunka/1003787/1003798/1003828/1003875/1003876.html"
+    "source": "https://www.city.kawagoe.saitama.jp/kurashi/bunka/1003787/1003798/1003828/1003875/1003876.html",
+    "eventYears": [
+      1537
+    ]
   },
   {
     "id": "link-sg-site-kawagoe--sg-22f595e1c616",
@@ -1375,9 +1424,12 @@
     "personId": "sg-22f595e1c616",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.kawagoe.saitama.jp/shisei/mayor/1018956.html"
+    "source": "https://www.city.kawagoe.saitama.jp/shisei/mayor/1018956.html",
+    "eventYears": [
+      1546
+    ]
   },
   {
     "id": "link-sg-site-kawagoe--sg-27a0e44acb89",
@@ -1395,9 +1447,12 @@
     "personId": "sg-ee846a9ff8ae",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf"
+    "source": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf",
+    "eventYears": [
+      1546
+    ]
   },
   {
     "id": "link-sg-site-kawagoe--sg-025ab3a6ee3f",
@@ -1405,9 +1460,12 @@
     "personId": "sg-025ab3a6ee3f",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf"
+    "source": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf",
+    "eventYears": [
+      1576
+    ]
   },
   {
     "id": "link-sg-site-hachigata--sg-cc16ffc52c66",
@@ -1445,9 +1503,12 @@
     "personId": "sg-f47391608dbb",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYears": [
+      1590
+    ]
   },
   {
     "id": "link-sg-site-hachioji--sg-025ab3a6ee3f",
@@ -1455,9 +1516,12 @@
     "personId": "sg-025ab3a6ee3f",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYears": [
+      1590
+    ]
   },
   {
     "id": "link-sg-site-ueda--sg-451ea10bcb24",
@@ -1465,9 +1529,12 @@
     "personId": "sg-451ea10bcb24",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+    "source": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "eventYears": [
+      1600
+    ]
   },
   {
     "id": "link-sg-site-oshi--sg-f47391608dbb",
@@ -1485,9 +1552,12 @@
     "personId": "sg-4c0c12460efa",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html"
+    "source": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "eventYears": [
+      1569
+    ]
   },
   {
     "id": "link-sg-site-odawara--sg-dc8c550d8769",
@@ -1495,9 +1565,12 @@
     "personId": "sg-dc8c550d8769",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.odawara.kanagawa.jp/public/detail/11079/"
+    "source": "https://www.city.odawara.kanagawa.jp/public/detail/11079/",
+    "eventYears": [
+      1561
+    ]
   },
   {
     "id": "link-sg-site-yamanaka--sg-22f595e1c616",
@@ -1535,9 +1608,12 @@
     "personId": "sg-4f1942dd8d61",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://odawaracastle.com/history/nenpyo/"
+    "source": "https://odawaracastle.com/history/nenpyo/",
+    "eventYears": [
+      1590
+    ]
   },
   {
     "id": "link-sg-site-hachioji--sg-added-maeda-toshiie",
@@ -1545,9 +1621,12 @@
     "personId": "sg-added-maeda-toshiie",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYears": [
+      1590
+    ]
   },
   {
     "id": "link-sg-site-takato--sg-4c0c12460efa",
@@ -1735,9 +1814,12 @@
     "personId": "sg-reviewed-1c74f86254a2",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf"
+    "source": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
+    "eventYears": [
+      1457
+    ]
   },
   {
     "id": "link-sg-site-tomyoji-kawagoe--sg-22f595e1c616",
@@ -1765,8 +1847,11 @@
     "personId": "sg-reviewed-60f6420feed4",
     "relatedYear": null,
     "relatedYearEnd": null,
-    "yearEvidence": "unverified",
+    "yearEvidence": "derived_from_dated_cards",
     "verification": "reviewed",
-    "source": "https://www.city.ueda.nagano.jp/soshiki/osiroseibi/96661.html"
+    "source": "https://www.city.ueda.nagano.jp/soshiki/osiroseibi/96661.html",
+    "eventYears": [
+      1626
+    ]
   }
 ]

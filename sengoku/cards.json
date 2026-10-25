@@ -56,8 +56,10 @@
     "source": "https://odawaracastle.com/history/hojo-godai/",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/hojo-godai/"
   },
   {
     "id": "sg-card-0006",
@@ -68,8 +70,10 @@
     "source": "https://odawaracastle.com/history/hojo-godai/",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/hojo-godai/"
   },
   {
     "id": "sg-card-0007",
@@ -128,8 +132,10 @@
     "source": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/meisho_kyuseki/6562.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1581,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/3/1344.html"
   },
   {
     "id": "sg-card-0012",
@@ -176,8 +182,10 @@
     "source": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1569,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
   },
   {
     "id": "sg-card-0016",
@@ -589,8 +597,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
     "historicalCaution": "夜戦の軍勢数は伝承に由来し確定しない",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1546,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
   },
   {
     "id": "sg-card-0048",
@@ -1543,8 +1553,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/sinnpu/1497.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1582,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/3/1344.html"
   },
   {
     "id": "sg-card-0125",
@@ -1558,8 +1570,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/sinnpu/1497.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1581,
+    "eventYearEnd": 1582,
+    "yearEvidence": "confirmed_event_range",
+    "yearSource": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/3/1344.html"
   },
   {
     "id": "sg-card-0126",
@@ -1603,8 +1617,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
   },
   {
     "id": "sg-card-0129",
@@ -1618,8 +1634,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
   },
   {
     "id": "sg-card-0130",
@@ -1678,8 +1696,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1583,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0134",
@@ -1723,8 +1743,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1600,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0137",
@@ -1798,8 +1820,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/uploaded/attachment/50626.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1583,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-v074-001",
@@ -1813,8 +1837,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1457,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
   },
   {
     "id": "sg-card-v074-002",
@@ -1828,8 +1854,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/kurashi/bunka/1003787/1003798/1003828/1003875/1003876.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1537,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
   },
   {
     "id": "sg-card-v074-003",
@@ -1843,8 +1871,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/shisei/mayor/1018956.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1546,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
   },
   {
     "id": "sg-card-v074-004",
@@ -1873,8 +1903,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1546,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
   },
   {
     "id": "sg-card-v074-006",
@@ -1888,8 +1920,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1576,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
   },
   {
     "id": "sg-card-v074-007",
@@ -1948,8 +1982,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
   },
   {
     "id": "sg-card-v074-011",
@@ -1963,8 +1999,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
   },
   {
     "id": "sg-card-v074-012",
@@ -1978,8 +2016,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1600,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-v074-013",
@@ -2008,8 +2048,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1569,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/hojo-godai/"
   },
   {
     "id": "sg-card-v074-015",
@@ -2023,8 +2065,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public/detail/11079/",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1561,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/hojo-godai/"
   },
   {
     "id": "sg-card-v074-016",
@@ -2113,8 +2157,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1582,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/hojo-godai/"
   },
   {
     "id": "sg-card-0163",
@@ -2128,8 +2174,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/hojo-godai/"
   },
   {
     "id": "sg-card-0164",
@@ -2158,8 +2206,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://odawaracastle.com/history/nenpyo/",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/hojo-godai/"
   },
   {
     "id": "sg-card-0166",
@@ -2173,8 +2223,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
   },
   {
     "id": "sg-card-0167",
@@ -2188,8 +2240,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
   },
   {
     "id": "sg-card-0168",
@@ -2203,8 +2257,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
   },
   {
     "id": "sg-card-0169",
@@ -2218,8 +2274,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1583,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0170",
@@ -2233,8 +2291,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1585,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0171",
@@ -2248,8 +2308,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1585,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0172",
@@ -2263,8 +2325,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1600,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0173",
@@ -2278,8 +2342,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1600,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0174",
@@ -2788,8 +2854,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/hojo-godai/"
   },
   {
     "id": "sg-card-0208",
@@ -2863,8 +2931,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
   },
   {
     "id": "sg-card-0213",
@@ -2908,8 +2978,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1457,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
   },
   {
     "id": "sg-card-0216",
@@ -2938,8 +3010,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1537,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
   },
   {
     "id": "sg-card-0218",
@@ -2968,8 +3042,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/shisei/mayor/1018956.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1546,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
   },
   {
     "id": "sg-card-0220",
@@ -3028,8 +3104,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1569,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
   },
   {
     "id": "sg-card-0224",
@@ -3088,8 +3166,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
   },
   {
     "id": "sg-card-0228",
@@ -3103,8 +3183,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1583,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0229",
@@ -3163,8 +3245,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/osiroseibi/96661.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1626,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0233",
@@ -3178,8 +3262,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1600,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0234",
@@ -3223,8 +3309,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1569,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/hojo-godai/"
   },
   {
     "id": "sg-card-0237",
@@ -3238,7 +3326,9 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/hojo-godai/"
   }
 ]
