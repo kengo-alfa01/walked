@@ -5069,5 +5069,25 @@
     "siteResearch": "documented",
     "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0010.html",
     "notes": "甲府市円光院にゆかり。"
+  },
+  {
+    "id": "sg-reviewed-1c74f86254a2",
+    "name": "太田道真",
+    "group": "北条・関東",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
+    "notes": "太田道灌の父。河越城の築城に関わる。"
+  },
+  {
+    "id": "sg-reviewed-60f6420feed4",
+    "name": "仙石忠政",
+    "group": "豊臣政権・関ヶ原",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "notes": "破城された上田城を江戸初期に復興。戦国時代の城のその後を扱う。"
   }
 ]
