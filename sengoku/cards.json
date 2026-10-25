@@ -7,7 +7,9 @@
     "summary": "関東支配へつながる拠点",
     "source": "https://odawaracastle.com/history/hojo-godai/",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0002",
@@ -17,7 +19,9 @@
     "summary": "後北条氏の拠点整備",
     "source": "https://odawaracastle.com/history/hojo-godai/",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0003",
@@ -27,7 +31,9 @@
     "summary": "後北条氏の領国統治",
     "source": "https://odawaracastle.com/history/hojo-godai/",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0004",
@@ -37,7 +43,9 @@
     "summary": "後北条氏の対外戦争",
     "source": "https://odawaracastle.com/history/hojo-godai/",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0005",
@@ -47,7 +55,9 @@
     "summary": "後北条氏の最終局面",
     "source": "https://odawaracastle.com/history/hojo-godai/",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0006",
@@ -57,7 +67,9 @@
     "summary": "1590年の小田原合戦",
     "source": "https://odawaracastle.com/history/hojo-godai/",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0007",
@@ -67,7 +79,9 @@
     "summary": "氏照の築いた戦国山城",
     "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0008",
@@ -77,7 +91,9 @@
     "summary": "武田氏館の築造",
     "source": "https://www.kobushi-br.org/kobushi_info/16618",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0009",
@@ -87,7 +103,9 @@
     "summary": "信玄の政務を担った居館",
     "source": "https://www.kobushi-br.org/kobushi_info/16618",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0010",
@@ -97,7 +115,9 @@
     "summary": "新府への移転以前の拠点",
     "source": "https://www.kobushi-br.org/kobushi_info/16618",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0011",
@@ -107,7 +127,9 @@
     "summary": "武田氏最後の新しい本拠地",
     "source": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/meisho_kyuseki/6562.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0012",
@@ -117,7 +139,9 @@
     "summary": "伊豆進出後の本拠",
     "source": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0013",
@@ -127,7 +151,9 @@
     "summary": "1590年の攻略拠点。",
     "source": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-ishigakiyama.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0014",
@@ -137,7 +163,9 @@
     "summary": "武田勢との戦いと城郭整備。",
     "source": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0015",
@@ -147,7 +175,9 @@
     "summary": "1569年の滝山城に関わる攻防。",
     "source": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0016",
@@ -157,7 +187,9 @@
     "summary": "1512年の築城と関東経営。",
     "source": "https://www.city.kamakura.kanagawa.jp/rekibun/sengoku.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0017",
@@ -167,7 +199,9 @@
     "summary": "玉縄城を担った武将。",
     "source": "https://www.city.kamakura.kanagawa.jp/rekibun/sengoku.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0018",
@@ -177,7 +211,9 @@
     "summary": "武田氏館を守る山城の築城。",
     "source": "https://online.bunka.go.jp/heritages/detail/138304",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0019",
@@ -187,7 +223,9 @@
     "summary": "要害山は信玄の出生地と伝えられる。",
     "source": "https://online.bunka.go.jp/heritages/detail/138304",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0020",
@@ -197,7 +235,9 @@
     "summary": "武田氏滅亡後の甲府城築城過程。",
     "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0021",
@@ -207,7 +247,9 @@
     "summary": "豊臣政権期の築城整備。",
     "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0022",
@@ -217,7 +259,9 @@
     "summary": "小机城は後北条氏による関東支配の城郭ネットワークの一部。",
     "source": "https://www.pref.kanagawa.jp/documents/8040/r4kouza4.pdf",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0023",
@@ -227,7 +271,9 @@
     "summary": "津久井城は後北条氏が甲斐方面に備えた要衝。",
     "source": "https://www.pref.kanagawa.jp/documents/95200/r02zuroku2.pdf",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0024",
@@ -237,7 +283,9 @@
     "summary": "三浦氏の拠点だった三崎城は早雲の三浦攻略後、後北条氏の城となった。",
     "source": "https://www.city.miura.kanagawa.jp/soshiki/kankoshokoka/kankoshokoka_kanko/kankoukaisetsuban/kankokaisetsuban_miuraichizoku/10015.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0025",
@@ -247,7 +295,9 @@
     "summary": "氏邦は鉢形城を整備し北関東支配の拠点とした。",
     "source": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0026",
@@ -257,7 +307,9 @@
     "summary": "氏康の子氏邦が鉢形城主となり後北条の北方戦略を担った。",
     "source": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0027",
@@ -267,7 +319,9 @@
     "summary": "小田原攻めに際して三成らの軍勢が忍城を包囲し水攻めを実施。",
     "source": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0028",
@@ -277,7 +331,9 @@
     "summary": "太田資正は岩槻城主として関東の諸勢力と対峙した。",
     "source": "https://www.city.saitama.lg.jp/004/005/006/013/002/p078002_d/fil/sinshoujiguruwatohisaizud.pdf",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0029",
@@ -287,7 +343,9 @@
     "summary": "現在残る城跡は井伊直政在城当時の姿に近いとされる。",
     "source": "https://www.city.takasaki.gunma.jp/site/sightseeing/6449.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0030",
@@ -297,7 +355,9 @@
     "summary": "信虎の弟の勝沼信友が勝沼を拠点とした。",
     "source": "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_kanseiban_.pdf",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0031",
@@ -307,7 +367,9 @@
     "summary": "勝沼氏の信元は信玄の命令により処断されたと伝わる。",
     "source": "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_kanseiban_.pdf",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0032",
@@ -317,7 +379,9 @@
     "summary": "後北条氏が小田原城の西方を防衛する拠点として山中城を築いた。",
     "source": "https://www.city.mishima.shizuoka.jp/page/3516.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0033",
@@ -327,7 +391,9 @@
     "summary": "豊臣方の大軍が山中城を攻め、短時間で落城した。",
     "source": "https://www.city.mishima.shizuoka.jp/page/3516.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0034",
@@ -337,7 +403,9 @@
     "summary": "家康は大御所期に駿府城を整備し政治と外交の拠点とした。",
     "source": "https://www.city.shizuoka.lg.jp/s6725/p009496.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0035",
@@ -350,7 +418,9 @@
     "unlockRule": "same_town_polygon",
     "reviewEvidence": "箱根町観光協会の寺院説明に、1521年の氏綱による創建が明記されている。",
     "reviewedOn": "2026-10-25",
-    "reviewMethod": "official_source_comparison"
+    "reviewMethod": "official_source_comparison",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0036",
@@ -360,7 +430,9 @@
     "summary": "河村城は戦国期に後北条氏の城郭網の一角として用いられた。",
     "source": "https://www.town.yamakita.kanagawa.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0037",
@@ -374,7 +446,9 @@
     "reviewEvidence": "横須賀市の三浦氏年表に岡崎城の落城、伊勢宗瑞・氏綱、三浦義同の退却を記載",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
-    "historicalCaution": "記載は市の年表に基づく"
+    "historicalCaution": "記載は市の年表に基づく",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0038",
@@ -384,7 +458,9 @@
     "summary": "箱根湯本の山道沿いに残る中世山城で、後北条氏期の箱根防備との関係が語られる。",
     "source": "https://www.hakone.or.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0039",
@@ -396,7 +472,9 @@
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
     "reviewNote": "自治体公式資料で人物・史跡の関係を確認。現在地と歴史上の所在地の区別に注意。",
-    "reviewDate": "2026-10-25"
+    "reviewDate": "2026-10-25",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0040",
@@ -410,7 +488,9 @@
     "reviewEvidence": "甲州市が信玄と恵林寺の関係、1564年の菩提寺指定を明記",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
-    "historicalCaution": "伝説を断定しない"
+    "historicalCaution": "伝説を断定しない",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0041",
@@ -423,7 +503,9 @@
     "unlockRule": "same_town_polygon",
     "reviewEvidence": "甲府市観光協会の甲斐善光寺案内に、信玄の創建と本尊の移動が明記されている。",
     "reviewedOn": "2026-10-25",
-    "reviewMethod": "official_source_comparison"
+    "reviewMethod": "official_source_comparison",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0042",
@@ -436,7 +518,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_or_regional_historical_material",
-    "reviewEvidence": "湯村温泉公式の湯村山城解説に武田信虎と1523年の築城が記載。史料名も明示されている。"
+    "reviewEvidence": "湯村温泉公式の湯村山城解説に武田信虎と1523年の築城が記載。史料名も明示されている。",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0043",
@@ -446,7 +530,9 @@
     "summary": "郡内の城郭・勝山城は小山田氏の領域を考える上での史跡となっている。",
     "source": "https://www.city.tsuru.yamanashi.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0044",
@@ -458,7 +544,9 @@
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
-    "reviewMethod": "municipal_designated_historic_site"
+    "reviewMethod": "municipal_designated_historic_site",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0045",
@@ -468,7 +556,9 @@
     "summary": "武田信玄は積翠寺周辺の要害山麓で生まれたと伝えられている。",
     "source": "https://www.city.kofu.yamanashi.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0046",
@@ -482,7 +572,9 @@
     "reviewEvidence": "調布市の国史跡説明が1537年の上杉朝定による再興と遺構の評価を明記",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
-    "historicalCaution": "発掘の成果と文献を区別"
+    "historicalCaution": "発掘の成果と文献を区別",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0047",
@@ -496,7 +588,9 @@
     "reviewEvidence": "狭山市公式の伝承紹介で北条綱成が守る河越城を上杉勢が包囲したと記載",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
-    "historicalCaution": "夜戦の軍勢数は伝承に由来し確定しない"
+    "historicalCaution": "夜戦の軍勢数は伝承に由来し確定しない",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0048",
@@ -510,7 +604,9 @@
     "reviewEvidence": "川越市歴史年表に1563年の武田信玄・北条氏康による松山城攻略を明記",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
-    "historicalCaution": "武蔵松山城の代表点を既存のまま使用"
+    "historicalCaution": "武蔵松山城の代表点を既存のまま使用",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0049",
@@ -520,7 +616,9 @@
     "summary": "菅谷館跡は中世の城館遺構で、戦国期に拡張された城郭として知られる。",
     "source": "https://www.ranzan-shiseki.spec.ed.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0050",
@@ -530,7 +628,9 @@
     "summary": "昌幸は1583年に築城を始め、徳川軍を迎え撃つ拠点にした。",
     "source": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0051",
@@ -543,7 +643,9 @@
     "unlockRule": "same_town_polygon",
     "reviewEvidence": "伊那市公式解説に勝頼が高遠城主だった経歴と1582年の攻防が明記されている。",
     "reviewedOn": "2026-10-25",
-    "reviewMethod": "official_source_comparison"
+    "reviewMethod": "official_source_comparison",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0052",
@@ -553,7 +655,9 @@
     "summary": "小諸城は戦国期から近世にかけて東信濃の拠点となり、徳川方の進出にも関わった。",
     "source": "https://www.city.komoro.lg.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0053",
@@ -563,7 +667,9 @@
     "summary": "1561年の川中島の戦いは、この八幡原周辺を主な舞台として伝えられる。",
     "source": "https://www.city.nagano.nagano.jp/n150800/contents/p002956.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0054",
@@ -573,7 +679,9 @@
     "summary": "松代城の前身である海津城は、信玄が川中島合戦期に築城したとされる。",
     "source": "https://www.city.nagano.nagano.jp/n151100/contents/p006083.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0055",
@@ -587,7 +695,9 @@
     "reviewEvidence": "川崎市教育委員会が小沢原合戦と北条氏康初陣の伝承を紹介",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
-    "historicalCaution": "初陣は市の説明に従い伝承表現"
+    "historicalCaution": "初陣は市の説明に従い伝承表現",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0056",
@@ -597,7 +707,9 @@
     "summary": "桝形城は多摩丘陵に残る城跡。後北条氏の城郭網との関係は史料精査を要する。",
     "source": "https://www.city.kawasaki.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0057",
@@ -607,7 +719,9 @@
     "summary": "小杉御殿は1608年、二代将軍秀忠が家康の送迎のために建てさせた仮御殿を始まりとする。家康も鷹狩りの際に利用したと川崎市の資料にある。戦国の終わりから江戸初期へ続く交通の足跡だ。",
     "source": "https://www.city.kawasaki.jp/170/cmsfiles/contents/0000155/155498/ieyasu.pdf",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0058",
@@ -617,7 +731,9 @@
     "summary": "茅ヶ崎城は横浜北部に残る中世城郭。特定人物による築城・利用の詳細は確認が必要。",
     "source": "https://www.city.yokohama.lg.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0059",
@@ -629,7 +745,9 @@
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
     "reviewNote": "自治体公式資料で人物・史跡の関係を確認。現在地と歴史上の所在地の区別に注意。",
-    "reviewDate": "2026-10-25"
+    "reviewDate": "2026-10-25",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0060",
@@ -642,7 +760,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_or_regional_historical_material",
-    "reviewEvidence": "藤沢市の電子博物館解説は藤沢御殿の設置推定時期と徳川家康の利用記録を説明する。"
+    "reviewEvidence": "藤沢市の電子博物館解説は藤沢御殿の設置推定時期と徳川家康の利用記録を説明する。",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0061",
@@ -652,7 +772,9 @@
     "summary": "三浦半島に残る小矢部城跡。後北条氏との個別の関係は追加調査が必要。",
     "source": "https://www.city.yokosuka.kanagawa.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0062",
@@ -662,7 +784,9 @@
     "summary": "三浦半島南部に残る城跡。戦国武将との直接的な関係は追加検証する。",
     "source": "https://www.city.yokosuka.kanagawa.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0063",
@@ -675,7 +799,9 @@
     "unlockRule": "same_town_polygon",
     "reviewEvidence": "練馬区公式の遺跡解説に豊島氏の城館であること、1477年の太田道灌勢による攻撃が記載される。",
     "reviewedOn": "2026-10-25",
-    "reviewMethod": "official_source_comparison"
+    "reviewMethod": "official_source_comparison",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0064",
@@ -685,7 +811,9 @@
     "summary": "滝山城の近隣にある高月城。氏照との直接の結び付きは資料確認が必要。",
     "source": "https://www.city.hachioji.tokyo.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0065",
@@ -697,7 +825,9 @@
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
-    "reviewMethod": "municipal_cultural_property_news"
+    "reviewMethod": "municipal_cultural_property_news",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0066",
@@ -707,7 +837,9 @@
     "summary": "谷村城は郡内地域の政治・軍事拠点となった城跡。家康期との関連は引き続き精査する。",
     "source": "https://www.city.tsuru.yamanashi.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0067",
@@ -717,7 +849,9 @@
     "summary": "新府城近傍の能見城跡。武田勝頼との個別の関係は史料の検証が必要。",
     "source": "https://www.city.nirasaki.lg.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0068",
@@ -727,7 +861,9 @@
     "summary": "白山城は韮崎の山城で、武田氏の地域支配との関係を調べる史跡。信玄本人との関連は要確認。",
     "source": "https://www.city.nirasaki.lg.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0069",
@@ -737,7 +873,9 @@
     "summary": "武田家の氏神として崇敬された神社。現存する本殿は信玄による再建とされる。",
     "source": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/jinjya_bukkaku/4320.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0070",
@@ -747,7 +885,9 @@
     "summary": "願成寺は甲斐武田氏の始祖とされる武田信義の菩提寺。信玄本人との直接の関係は未確認。",
     "source": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/jinjya_bukkaku/4323.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0071",
@@ -757,7 +897,9 @@
     "summary": "甲府の長禅寺は武田信虎の菩提寺として知られる。",
     "source": "https://www.city.kofu.yamanashi.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0072",
@@ -767,7 +909,9 @@
     "summary": "駒宮砦跡は大月に残る山地の軍事遺構。勝頼本人との関係は追加検証を要する。",
     "source": "https://www.city.otsuki.yamanashi.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0073",
@@ -777,7 +921,9 @@
     "summary": "小田野城は武田信昌と跡部景家の抗争に関連して語られる史跡。",
     "source": "https://www.city.yamanashi.yamanashi.jp/site/cultural-assets/1672.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0074",
@@ -787,7 +933,9 @@
     "summary": "浄居寺城跡は山梨の中世山城。信昌との関連や城の役割は追加検証を要する。",
     "source": "https://www.city.yamanashi.yamanashi.jp/",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0075",
@@ -797,7 +945,9 @@
     "summary": "三の丸遺跡の所在は歴史地名データで確認できる。北条幻庵本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000060500.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0076",
@@ -807,7 +957,9 @@
     "summary": "雲松院の所在は歴史地名データで確認できる。北条幻庵本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000057300.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0077",
@@ -817,7 +969,9 @@
     "summary": "川尻遺跡の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000160200.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0078",
@@ -827,7 +981,9 @@
     "summary": "小松城跡の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000160600.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0079",
@@ -837,7 +993,9 @@
     "summary": "怒田城跡の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000118900.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0080",
@@ -847,7 +1005,9 @@
     "summary": "佐原城跡の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000119400.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0081",
@@ -857,7 +1017,9 @@
     "summary": "衣笠城跡の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121700.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0082",
@@ -871,7 +1033,9 @@
     "reviewEvidence": "神奈川県立歴史博物館の人物解説が1516年の新井城攻略と三浦氏滅亡を記載",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
-    "historicalCaution": "伊勢宗瑞／北条早雲は同一人として説明"
+    "historicalCaution": "伊勢宗瑞／北条早雲は同一人として説明",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0083",
@@ -881,7 +1045,9 @@
     "summary": "大庭神社の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000136700.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0084",
@@ -891,7 +1057,9 @@
     "summary": "矢倉沢関所跡の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000205300.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0085",
@@ -901,7 +1069,9 @@
     "summary": "沼田城跡の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000203100.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0086",
@@ -911,7 +1081,9 @@
     "summary": "足柄城跡の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000205200.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0087",
@@ -921,7 +1093,9 @@
     "summary": "箱根神社の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000208800.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0088",
@@ -931,7 +1105,9 @@
     "summary": "稲荷台地遺跡の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000136800.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0089",
@@ -941,7 +1117,9 @@
     "summary": "満昌寺の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121000.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0090",
@@ -951,7 +1129,9 @@
     "summary": "大椿寺の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000128100.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0091",
@@ -961,7 +1141,9 @@
     "summary": "本瑞寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000128900.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0092",
@@ -971,7 +1153,9 @@
     "summary": "清雲寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121300.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0093",
@@ -981,7 +1165,9 @@
     "summary": "宗賢院の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000136500.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0094",
@@ -991,7 +1177,9 @@
     "summary": "東光寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000176100.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0095",
@@ -1001,7 +1189,9 @@
     "summary": "広福寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000022800.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0096",
@@ -1011,7 +1201,9 @@
     "summary": "妙楽寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000021600.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0097",
@@ -1021,7 +1213,9 @@
     "summary": "王禅寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000023500.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0098",
@@ -1031,7 +1225,9 @@
     "summary": "浄楽寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000122200.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0099",
@@ -1041,7 +1237,9 @@
     "summary": "正眼寺の所在は歴史地名データで確認できる。北条早雲本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000207900.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0100",
@@ -1051,7 +1249,9 @@
     "summary": "長泉院の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000202800.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0101",
@@ -1061,7 +1261,9 @@
     "summary": "大明寺の所在は歴史地名データで確認できる。北条氏康本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000120500.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0102",
@@ -1071,7 +1273,9 @@
     "summary": "三会寺の所在は歴史地名データで確認できる。北条幻庵本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000057100.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0103",
@@ -1081,7 +1285,9 @@
     "summary": "志村城跡の所在は歴史地名データで確認できる。太田道灌本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000350600.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0104",
@@ -1091,7 +1297,9 @@
     "summary": "片倉城跡の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000427900.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0105",
@@ -1101,7 +1309,9 @@
     "summary": "楢原遺跡の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000432400.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0106",
@@ -1113,7 +1323,9 @@
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
     "reviewNote": "自治体公式資料で人物・史跡の関係を確認。現在地と歴史上の所在地の区別に注意。",
-    "reviewDate": "2026-10-25"
+    "reviewDate": "2026-10-25",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0107",
@@ -1123,7 +1335,9 @@
     "summary": "円通寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000431700.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0108",
@@ -1133,7 +1347,9 @@
     "summary": "法蓮寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000432200.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0109",
@@ -1143,7 +1359,9 @@
     "summary": "少林寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000429900.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0110",
@@ -1153,7 +1371,9 @@
     "summary": "海禅寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000464500.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0111",
@@ -1163,7 +1383,9 @@
     "summary": "宝生寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000434400.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0112",
@@ -1173,7 +1395,9 @@
     "summary": "龍光寺の所在は歴史地名データで確認できる。北条氏照本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000429200.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0113",
@@ -1183,7 +1407,9 @@
     "summary": "智清寺の所在は歴史地名データで確認できる。太田道灌本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000349600.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0114",
@@ -1193,7 +1419,9 @@
     "summary": "安養院の所在は歴史地名データで確認できる。太田道灌本人との関係は追加調査中であり、史実として確定していない。",
     "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000348700.html",
     "verification": "review_needed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0115",
@@ -1203,7 +1431,9 @@
     "summary": "太田道灌が15世紀半ばに江戸城を築いた。現在の城郭遺構は後世の改修を多く含む。",
     "source": "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/kioku/edojo.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0116",
@@ -1213,7 +1443,9 @@
     "summary": "1590年に家康が江戸城を居城とし、のちに幕府の中枢となる城郭へ発展した。",
     "source": "https://kunishitei.bunka.go.jp/heritage/detail/401/723",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0117",
@@ -1223,7 +1455,9 @@
     "summary": "大永5年（1525）、武田信虎による社殿修理の伝承が神社庁所載の由緒に記されている。史料の性質は神社の由緒であり、同時代の一次史料と同等ではない。",
     "source": "https://www.yamanashi-jinjacho.or.jp/intro/search/detail/7150",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0118",
@@ -1233,7 +1467,9 @@
     "summary": "武田信玄が娘の安産を祈った願文が伝わり、戦国大名と富士山信仰のつながりを今に伝える。",
     "source": "https://www.fujisan-kyokai.jp/areaguide/2498",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0119",
@@ -1243,7 +1479,9 @@
     "summary": "家康は関東入部の後、鷹狩りなどの際に平塚の中原御殿を使用した。慶長元年（1596）に造営された御殿は宿泊所であるとともに、政治・軍事面でも機能したと平塚市の資料は伝える。",
     "source": "https://www.city.hiratsuka.kanagawa.jp/press/page02_e00001_02234.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0120",
@@ -1253,7 +1491,9 @@
     "summary": "この城は16世紀前半に大石氏の拠点となり、後に北条氏照の支配下に置かれた。氏照が最初に入った城は、浄福寺城とする説と滝山城とする説があり、確定していない。八王子城築城後も防衛上の役割を担ったと考えられる。",
     "source": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/003/p005289.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0121",
@@ -1263,7 +1503,9 @@
     "summary": "小机周辺は北条幻庵が管轄する「小机領」となったと考えられている。幻庵自身の子や養子らが城主を務め、一門の後見人として北条氏の関東支配を支えた。",
     "source": "https://www.city.yokohama.lg.jp/koyoko/2025/0922/0922-ys/",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0122",
@@ -1273,7 +1515,9 @@
     "summary": "北条氏堯は小机城の二代城主に就き、北条幻庵が後見役となった。江戸方面や鎌倉街道を押さえる城の重要性は大きかったが、氏堯は若くして世を去った。",
     "source": "https://www.city.yokohama.lg.jp/koyoko/2025/0922/0922-ys/",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0123",
@@ -1283,7 +1527,9 @@
     "summary": "石垣山には「一夜で城が現れた」とする伝承が残る。しかし実際の築城には1590年春から約80日を要したと小田原市は説明する。秀吉はここで茶会を開き、側室や茶人、勅使も迎えた。伝説と史実を見比べられる場所だ。",
     "source": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
     "verification": "reviewed",
-    "unlockRule": "same_town_polygon"
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0124",
@@ -1296,7 +1542,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/sinnpu/1497.html"
+    "reviewEvidence": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/sinnpu/1497.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0125",
@@ -1309,7 +1557,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/sinnpu/1497.html"
+    "reviewEvidence": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/sinnpu/1497.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0126",
@@ -1322,7 +1572,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0127",
@@ -1335,7 +1587,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0128",
@@ -1348,7 +1602,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0129",
@@ -1361,7 +1617,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0130",
@@ -1374,7 +1632,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/2/1354.html"
+    "reviewEvidence": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/2/1354.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0131",
@@ -1387,7 +1647,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p17445.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p17445.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0132",
@@ -1400,7 +1662,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p17445.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p17445.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0133",
@@ -1413,7 +1677,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0134",
@@ -1426,7 +1692,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0135",
@@ -1439,7 +1707,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0136",
@@ -1452,7 +1722,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0137",
@@ -1465,7 +1737,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2261.html"
+    "reviewEvidence": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2261.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0138",
@@ -1478,7 +1752,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html"
+    "reviewEvidence": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0139",
@@ -1491,7 +1767,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13142"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13142",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0140",
@@ -1504,7 +1782,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/ki-20150144.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/ki-20150144.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0141",
@@ -1517,7 +1797,9 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/uploaded/attachment/50626.pdf"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/uploaded/attachment/50626.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-001",
@@ -1530,7 +1812,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-002",
@@ -1543,7 +1827,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/kurashi/bunka/1003787/1003798/1003828/1003875/1003876.html"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/kurashi/bunka/1003787/1003798/1003828/1003875/1003876.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-003",
@@ -1556,7 +1842,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/shisei/mayor/1018956.html"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/shisei/mayor/1018956.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-004",
@@ -1569,7 +1857,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/dai1-07.pdf"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/dai1-07.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-005",
@@ -1582,7 +1872,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-006",
@@ -1595,7 +1887,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/008/341/keikakusho5.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-007",
@@ -1608,7 +1902,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.town.yorii.saitama.jp/map/hacigatajoumeisho-map.html"
+    "reviewEvidence": "https://www.town.yorii.saitama.jp/map/hacigatajoumeisho-map.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-008",
@@ -1621,7 +1917,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html"
+    "reviewEvidence": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-009",
@@ -1634,7 +1932,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html"
+    "reviewEvidence": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-010",
@@ -1647,7 +1947,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-011",
@@ -1660,7 +1962,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-012",
@@ -1673,7 +1977,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-013",
@@ -1686,7 +1992,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html"
+    "reviewEvidence": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-014",
@@ -1699,7 +2007,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-015",
@@ -1712,7 +2022,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public/detail/11079/"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public/detail/11079/",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-016",
@@ -1725,7 +2037,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.mishima.shizuoka.jp/page/1542.html"
+    "reviewEvidence": "https://www.city.mishima.shizuoka.jp/page/1542.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-017",
@@ -1738,7 +2052,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p17445.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p17445.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-v074-018",
@@ -1751,7 +2067,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kofu.yamanashi.jp/toshikekaku/kofujo/documents/minamiguchisyukeikeikaku.pdf"
+    "reviewEvidence": "https://www.city.kofu.yamanashi.jp/toshikekaku/kofujo/documents/minamiguchisyukeikeikaku.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0160",
@@ -1764,7 +2082,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/"
+    "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0161",
@@ -1777,7 +2097,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/"
+    "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0162",
@@ -1790,7 +2112,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/"
+    "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0163",
@@ -1803,7 +2127,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/"
+    "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0164",
@@ -1816,7 +2142,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/"
+    "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0165",
@@ -1829,7 +2157,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://odawaracastle.com/history/nenpyo/"
+    "reviewEvidence": "https://odawaracastle.com/history/nenpyo/",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0166",
@@ -1842,7 +2172,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0167",
@@ -1855,7 +2187,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0168",
@@ -1868,7 +2202,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0169",
@@ -1881,7 +2217,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0170",
@@ -1894,7 +2232,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0171",
@@ -1907,7 +2247,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0172",
@@ -1920,7 +2262,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0173",
@@ -1933,7 +2277,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0174",
@@ -1946,7 +2292,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0175",
@@ -1959,7 +2307,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html"
+    "reviewEvidence": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0176",
@@ -1972,7 +2322,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html"
+    "reviewEvidence": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0177",
@@ -1985,7 +2337,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html"
+    "reviewEvidence": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0178",
@@ -1998,7 +2352,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html"
+    "reviewEvidence": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0179",
@@ -2011,7 +2367,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html"
+    "reviewEvidence": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0180",
@@ -2024,7 +2382,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html"
+    "reviewEvidence": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0181",
@@ -2037,7 +2397,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html"
+    "reviewEvidence": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0182",
@@ -2050,7 +2412,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html"
+    "reviewEvidence": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0183",
@@ -2063,7 +2427,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.mishima.shizuoka.jp/page/1542.html"
+    "reviewEvidence": "https://www.city.mishima.shizuoka.jp/page/1542.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0184",
@@ -2076,7 +2442,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.mishima.shizuoka.jp/page/2145.html"
+    "reviewEvidence": "https://www.city.mishima.shizuoka.jp/page/2145.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0185",
@@ -2089,7 +2457,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/4805.pdf"
+    "reviewEvidence": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/4805.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0186",
@@ -2102,7 +2472,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0187",
@@ -2115,7 +2487,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0188",
@@ -2128,7 +2502,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0189",
@@ -2141,7 +2517,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html"
+    "reviewEvidence": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0190",
@@ -2154,7 +2532,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html"
+    "reviewEvidence": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0191",
@@ -2167,7 +2547,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html"
+    "reviewEvidence": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0192",
@@ -2180,7 +2562,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://adeac.jp/nagano-city/top/13story/story3.html"
+    "reviewEvidence": "https://adeac.jp/nagano-city/top/13story/story3.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0193",
@@ -2193,7 +2577,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://adeac.jp/nagano-city/top/13story/story3.html"
+    "reviewEvidence": "https://adeac.jp/nagano-city/top/13story/story3.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0194",
@@ -2206,7 +2592,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://adeac.jp/nagano-city/top/13story/story3.html"
+    "reviewEvidence": "https://adeac.jp/nagano-city/top/13story/story3.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0195",
@@ -2219,7 +2607,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0004.html"
+    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0004.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0196",
@@ -2232,7 +2622,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.tobunken.go.jp/materials/nenki/249015.html"
+    "reviewEvidence": "https://www.tobunken.go.jp/materials/nenki/249015.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0197",
@@ -2245,7 +2637,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0010.html"
+    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0010.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0198",
@@ -2258,7 +2652,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://kofu-tourism.com/feature/index.php?p=feature-222"
+    "reviewEvidence": "https://kofu-tourism.com/feature/index.php?p=feature-222",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0199",
@@ -2271,7 +2667,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ome.tokyo.jp/site/provincial-history-museum/2956.html"
+    "reviewEvidence": "https://www.city.ome.tokyo.jp/site/provincial-history-museum/2956.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0200",
@@ -2284,7 +2682,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ome.tokyo.jp/site/provincial-history-museum/2956.html"
+    "reviewEvidence": "https://www.city.ome.tokyo.jp/site/provincial-history-museum/2956.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0201",
@@ -2297,7 +2697,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html"
+    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0202",
@@ -2310,7 +2712,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html"
+    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0203",
@@ -2323,7 +2727,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html"
+    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0204",
@@ -2336,7 +2742,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0205",
@@ -2349,7 +2757,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0206",
@@ -2362,7 +2772,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0207",
@@ -2375,7 +2787,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0208",
@@ -2388,7 +2802,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0209",
@@ -2401,7 +2817,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0210",
@@ -2414,7 +2832,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0211",
@@ -2427,7 +2847,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0212",
@@ -2440,7 +2862,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0213",
@@ -2453,7 +2877,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html"
+    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0214",
@@ -2466,7 +2892,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html"
+    "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0215",
@@ -2479,7 +2907,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0216",
@@ -2492,7 +2922,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0217",
@@ -2505,7 +2937,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0218",
@@ -2518,7 +2952,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0219",
@@ -2531,7 +2967,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/shisei/mayor/1018956.html"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/shisei/mayor/1018956.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0220",
@@ -2544,7 +2982,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0221",
@@ -2557,7 +2997,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf"
+    "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0222",
@@ -2570,7 +3012,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0223",
@@ -2583,7 +3027,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0224",
@@ -2596,7 +3042,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0225",
@@ -2609,7 +3057,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/monogatari/p026907.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/monogatari/p026907.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0226",
@@ -2622,7 +3072,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0227",
@@ -2635,7 +3087,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+    "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0228",
@@ -2648,7 +3102,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0229",
@@ -2661,7 +3117,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0230",
@@ -2674,7 +3132,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0231",
@@ -2687,7 +3147,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0232",
@@ -2700,7 +3162,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/osiroseibi/96661.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/osiroseibi/96661.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0233",
@@ -2713,7 +3177,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+    "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0234",
@@ -2726,7 +3192,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0235",
@@ -2739,7 +3207,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0236",
@@ -2752,7 +3222,9 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "eventYear": null,
+    "eventYearEnd": null
   },
   {
     "id": "sg-card-0237",
@@ -2765,6 +3237,8 @@
     "unlockRule": "same_town_polygon",
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
-    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html"
+    "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "eventYear": null,
+    "eventYearEnd": null
   }
 ]
