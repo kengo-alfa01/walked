@@ -4,12 +4,16 @@
     "personId": "sg-4cb1a557e060",
     "siteId": "sg-site-odawara",
     "title": "関東への進出",
-    "summary": "関東支配へつながる拠点",
-    "source": "https://odawaracastle.com/history/hojo-godai/",
+    "summary": "伊勢宗瑞（後の北条早雲）は15世紀末から16世紀初めにかけて小田原城を手に入れ、後北条氏の関東進出の基礎を築いた。従来は1495年の奪取と説明されてきたが、確定的な取得年は分からない。小田原市の文化財解説や現存文書の解釈に基づき、1496年以降、1501年までに取得した可能性がある。",
+    "source": "https://www.odawara-digital-museum.jp/point/detail/115/",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1496,
+    "eventYearEnd": 1501,
+    "yearEvidence": "documented_range_not_exact_acquisition_date",
+    "yearSource": "https://www.odawara-digital-museum.jp/point/detail/115/",
+    "yearScopeNote": "取得年の断定不可。小田原市デジタルミュージアムは1496年以降、熱海市が紹介する文書の解説は1501年までに支配した可能性を示す。1496～1501年は資料から推定した範囲であり、その全期間にわたる出来事を意味しない。1495年説も残る。",
+    "chronologyReviewedOn": "2026-10-25"
   },
   {
     "id": "sg-card-0002",
@@ -20,8 +24,10 @@
     "source": "https://odawaracastle.com/history/hojo-godai/",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1518,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0003",
@@ -44,8 +50,11 @@
     "source": "https://odawaracastle.com/history/hojo-godai/",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "yearEvidence": "confirmed_siege_year",
+    "yearScopeNote": "小田原攻めを描く年。その他の対外戦争も扱う広義のカードであるため、カード全体の年代を1590年に限定しない。"
   },
   {
     "id": "sg-card-0005",
@@ -84,8 +93,10 @@
     "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1582,
+    "eventYearEnd": 1587,
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/takaosann/p026874.html",
+    "yearEvidence": "confirmed_event_year_range"
   },
   {
     "id": "sg-card-0008",
@@ -96,8 +107,10 @@
     "source": "https://www.kobushi-br.org/kobushi_info/16618",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1519,
+    "eventYearEnd": null,
+    "yearSource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0009",
@@ -120,8 +133,10 @@
     "source": "https://www.kobushi-br.org/kobushi_info/16618",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1581,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/sinnpu/1497.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0011",
@@ -146,8 +161,10 @@
     "source": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1493,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0013",
@@ -158,8 +175,10 @@
     "source": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-ishigakiyama.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-ishigakiyama.html"
   },
   {
     "id": "sg-card-0014",
@@ -170,8 +189,10 @@
     "source": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1569,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0015",
@@ -196,20 +217,26 @@
     "source": "https://www.city.kamakura.kanagawa.jp/rekibun/sengoku.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1512,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.kamakura.kanagawa.jp/treasury/documents/maibun1.pdf",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0017",
     "personId": "sg-a77cd1aa75f3",
     "siteId": "sg-site-tamanawa",
     "title": "玉縄城と北条氏",
-    "summary": "玉縄城を担った武将。",
-    "source": "https://www.city.kamakura.kanagawa.jp/rekibun/sengoku.html",
+    "summary": "北条綱成は三代玉縄城主として、1542年頃から1572年まで城を担ったとされる。1546年には川越合戦でも活躍した。玉縄城の統治と遠方への出陣は別の出来事であり、在城を示す連続した記録という意味ではない。",
+    "source": "https://sitereports.nabunken.go.jp/files/attach/49/49182/129236_1_%E9%8E%8C%E5%80%89%E5%B8%82%E5%9F%8B%E8%94%B5%E6%96%87%E5%8C%96%E8%B2%A1%E7%B7%8A%E6%80%A5%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1542,
+    "eventYearEnd": 1572,
+    "yearEvidence": "estimated_tenure_historical_research",
+    "yearSource": "https://sitereports.nabunken.go.jp/files/attach/49/49182/129236_1_%E9%8E%8C%E5%80%89%E5%B8%82%E5%9F%8B%E8%94%B5%E6%96%87%E5%8C%96%E8%B2%A1%E7%B7%8A%E6%80%A5%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+    "yearScopeNote": "1542年頃～1572年は玉縄城主としての推定在任期間。川越合戦（1546年）だけを扱う年ではない。",
+    "chronologyReviewedOn": "2026-10-25"
   },
   {
     "id": "sg-card-0018",
@@ -220,20 +247,25 @@
     "source": "https://online.bunka.go.jp/heritages/detail/138304",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1520,
+    "eventYearEnd": null,
+    "yearSource": "https://www.pref.yamanashi.jp/documents/102964/kofujoseibi_pub2.pdf",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0019",
     "personId": "sg-4c0c12460efa",
     "siteId": "sg-site-yougai",
     "title": "武田家の防衛拠点",
-    "summary": "要害山は信玄の出生地と伝えられる。",
+    "summary": "1521年、駿河勢が甲斐に侵攻した際、身重の大井夫人が要害山城に避難し、後の武田信玄を産んだと伝わる。ただし、麓の積翠寺を出生場所とする説もある。出生地の伝承と、要害山が信虎の築いた詰城だった事実は区別して考えたい。",
     "source": "https://online.bunka.go.jp/heritages/detail/138304",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1521,
+    "eventYearEnd": null,
+    "yearEvidence": "birth_tradition_local_heritage",
+    "yearSource": "https://www.yamanashi-kankou.jp/special/shingen-ko/yukarinochi.html",
+    "yearScopeNote": "1521年は晴信（のちの信玄）の出生年。要害山城内での出生と伝わるが、麓の積翠寺での出生説もある。出生場所を史実として断定しない。"
   },
   {
     "id": "sg-card-0020",
@@ -256,8 +288,10 @@
     "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1594,
+    "eventYearEnd": null,
+    "yearSource": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/kuroganemon2010.html",
+    "yearEvidence": "estimated_completion_year"
   },
   {
     "id": "sg-card-0022",
@@ -292,20 +326,25 @@
     "source": "https://www.city.miura.kanagawa.jp/soshiki/kankoshokoka/kankoshokoka_kanko/kankoukaisetsuban/kankokaisetsuban_miuraichizoku/10015.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1516,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "yearEvidence": "confirmed_regional_event_year"
   },
   {
     "id": "sg-card-0025",
     "personId": "sg-6f3368f015f6",
     "siteId": "sg-site-hachigata",
     "title": "北関東防衛の拠点",
-    "summary": "氏邦は鉢形城を整備し北関東支配の拠点とした。",
+    "summary": "北条氏邦は鉢形城を拠点として北関東を守った。1590年、豊臣方の包囲を受けて籠城し、城兵の助命を条件として6月14日に城を開いた。",
     "source": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "castle_siege_and_surrender",
+    "yearSource": "https://www.town.yorii.saitama.jp/map/hacigatajoumeisho-map.html",
+    "yearScopeNote": "1590年は北条氏邦が鉢形城で籠城し6月14日に開城した年。城の整備・拡充すべてが1590年に行われた意味ではない。"
   },
   {
     "id": "sg-card-0026",
@@ -328,32 +367,40 @@
     "source": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/syogai_gakusyu/shakai_kyoiku_shogai_gakushu/gyoda_kyodokaryta/3754.html"
   },
   {
     "id": "sg-card-0028",
     "personId": "sg-aa0ce003dbd8",
     "siteId": "sg-site-iwatsuki",
     "title": "岩槻城主の戦略",
-    "summary": "太田資正は岩槻城主として関東の諸勢力と対峙した。",
+    "summary": "岩付城をめぐる関東の勢力争いの中、1564年、太田資正は息子の氏資によって城から追放された。氏資は後北条氏側につき、父子は異なる道を歩む。城主の交代には外敵との戦いだけでなく、一族内部の政治判断も深く関わっていた。",
     "source": "https://www.city.saitama.lg.jp/004/005/006/013/002/p078002_d/fil/sinshoujiguruwatohisaizud.pdf",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1564,
+    "eventYearEnd": null,
+    "yearEvidence": "clan_succession_and_exile_official_museum",
+    "yearSource": "https://www.city.saitama.lg.jp/004/005/004/005/008/shihakukaisetsu/p113258.html",
+    "yearScopeNote": "1564年は太田資正が嫡男氏資によって岩付城から追放された年。資正の生涯全体や岩付城在任期間を示す年ではない。"
   },
   {
     "id": "sg-card-0029",
     "personId": "sg-df4ede094a85",
     "siteId": "sg-site-minowa",
     "title": "箕輪城の近世化",
-    "summary": "現在残る城跡は井伊直政在城当時の姿に近いとされる。",
+    "summary": "徳川家康の関東入国後、井伊直政は1590年に箕輪城へ入り12万石を領した。1598年に高崎へ拠点を移すまでに整えた城の構造が、発掘された門跡や堀などに残る。",
     "source": "https://www.city.takasaki.gunma.jp/site/sightseeing/6449.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": 1598,
+    "yearEvidence": "castle_lord_tenure_range",
+    "yearSource": "https://www.city.takasaki.gunma.jp/site/cultural-assets/6450.html",
+    "yearScopeNote": "1590〜1598年は井伊直政が箕輪城を拠点とした期間。1598年に城を高崎へ移した。期間中に同じ工事を続けたという意味ではない。"
   },
   {
     "id": "sg-card-0030",
@@ -372,12 +419,15 @@
     "personId": "sg-4c0c12460efa",
     "siteId": "sg-site-katsunuma",
     "title": "勝沼氏の終焉",
-    "summary": "勝沼氏の信元は信玄の命令により処断されたと伝わる。",
+    "summary": "武田信玄の叔父・勝沼信友の子である信元は勝沼氏を継いだが、1560年に武田家によって滅ぼされた。反逆が理由だったという説明は『甲陽軍鑑』に由来し、史料の性格に注意が必要だ。",
     "source": "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_kanseiban_.pdf",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1560,
+    "eventYearEnd": null,
+    "yearEvidence": "clan_downfall_year_later_chronicle",
+    "yearSource": "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_1shou.pdf",
+    "yearScopeNote": "甲州市の歴史資料は勝沼信元が1560年に滅ぼされたと記す。反逆の具体的事情は『甲陽軍鑑』の記述に基づき、確定史実として扱わない。"
   },
   {
     "id": "sg-card-0032",
@@ -400,8 +450,10 @@
     "source": "https://www.city.mishima.shizuoka.jp/page/3516.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.mishima.shizuoka.jp/page/3516.html"
   },
   {
     "id": "sg-card-0034",
@@ -412,8 +464,10 @@
     "source": "https://www.city.shizuoka.lg.jp/s6725/p009496.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1607,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.shizuoka.lg.jp/s6725/p009496.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0035",
@@ -427,8 +481,10 @@
     "reviewEvidence": "箱根町観光協会の寺院説明に、1521年の氏綱による創建が明記されている。",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1521,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.hakone.or.jp/529?gana=member"
   },
   {
     "id": "sg-card-0036",
@@ -455,8 +511,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
     "historicalCaution": "記載は市の年表に基づく",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1512,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.yokosuka.kanagawa.jp/2120/culture_info/miura_ichizoku/outline4.html"
   },
   {
     "id": "sg-card-0038",
@@ -475,14 +533,18 @@
     "personId": "sg-0cab63b42163",
     "siteId": "sg-site-iwadono",
     "title": "郡内を守った山城",
-    "summary": "山梨県大月市は、岩殿城を小山田信茂が築いた城として紹介している。切り立った地形を利用した要害は、武田氏の領国と関東を結ぶ郡内の防衛に関わる拠点だった。",
-    "source": "https://www.city.otsuki.yamanashi.jp/gatewaycity/lp/",
+    "summary": "1582年、織田軍の侵攻を受けて武田勝頼は新府城を離れ、小山田信茂が関わる岩殿城方面へ向かった。しかし途中で信茂との協力関係が崩れ、勝頼は岩殿城へ入れなかった。なお、岩殿城の築城者や築城年は分かっておらず、信茂自身が築いたと断定することはできない。",
+    "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0017.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "reviewNote": "自治体公式資料で人物・史跡の関係を確認。現在地と歴史上の所在地の区別に注意。",
+    "reviewNote": "以前の「信茂が築城した」という記述を撤回。県文化財は築城者・年を不明とする。1582年の武田氏滅亡過程は甲州市資料で確認。",
     "reviewDate": "2026-10-25",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1582,
+    "eventYearEnd": null,
+    "yearEvidence": "recorded_fall_of_takeda_period",
+    "yearSource": "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_1shou.pdf",
+    "yearScopeNote": "1582年は武田勝頼が新府城を退いて岩殿城方面を目指した年。岩殿城を小山田信茂が築いた年ではない。築城者・築城年は山梨県文化財資料で不明。",
+    "chronologyReviewedOn": "2026-10-25"
   },
   {
     "id": "sg-card-0040",
@@ -497,8 +559,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
     "historicalCaution": "伝説を断定しない",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1564,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_2shou.pdf"
   },
   {
     "id": "sg-card-0041",
@@ -512,8 +576,10 @@
     "reviewEvidence": "甲府市観光協会の甲斐善光寺案内に、信玄の創建と本尊の移動が明記されている。",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1558,
+    "eventYearEnd": null,
+    "yearSource": "https://www.ktr.mlit.go.jp/ktr_content/content/000021712.pdf",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0042",
@@ -527,8 +593,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_or_regional_historical_material",
     "reviewEvidence": "湯村温泉公式の湯村山城解説に武田信虎と1523年の築城が記載。史料名も明示されている。",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1523,
+    "eventYearEnd": null,
+    "yearEvidence": "dated_historical_record_cited_by_source",
+    "yearSource": "https://yumura.org/attractions/yumurayama/"
   },
   {
     "id": "sg-card-0043",
@@ -553,8 +621,11 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "municipal_designated_historic_site",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1582,
+    "eventYearEnd": null,
+    "yearSource": "https://kofu-tourism.com/spot/index.php?p=33",
+    "yearEvidence": "person_death_year_memorial_tradition",
+    "yearScopeNote": "1582年は勝頼の没年。法泉寺の埋葬・供養は没後の伝承であり、勝頼が1582年に同寺を訪れたという意味ではない。"
   },
   {
     "id": "sg-card-0045",
@@ -565,8 +636,11 @@
     "source": "https://www.city.kofu.yamanashi.jp/",
     "verification": "review_needed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1521,
+    "eventYearEnd": null,
+    "yearSource": "https://www.yamanashi-kankou.jp/rekitabi/jisha/spot/003.html",
+    "yearEvidence": "traditional_birth_year",
+    "yearScopeNote": "1521年は信玄の生年。積翠寺で出生したという伝承の年代であり出生地の確定史実という意味ではない。"
   },
   {
     "id": "sg-card-0046",
@@ -581,8 +655,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
     "historicalCaution": "発掘の成果と文献を区別",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1537,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.chofu.lg.jp/100200/p073026.html"
   },
   {
     "id": "sg-card-0047",
@@ -615,8 +691,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
     "historicalCaution": "武蔵松山城の代表点を既存のまま使用",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1563,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
   },
   {
     "id": "sg-card-0049",
@@ -639,8 +717,10 @@
     "source": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1583,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0051",
@@ -654,8 +734,11 @@
     "reviewEvidence": "伊那市公式解説に勝頼が高遠城主だった経歴と1582年の攻防が明記されている。",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1562,
+    "eventYearEnd": null,
+    "yearSource": "https://kawanakajima.nagano.jp/character/takeda-katsuyori/",
+    "yearEvidence": "person_castle_appointment_year",
+    "yearScopeNote": "長野市の解説による1562年の勝頼高遠城主就任。本文で触れる1582年の城攻防とは別の出来事。"
   },
   {
     "id": "sg-card-0052",
@@ -678,8 +761,10 @@
     "source": "https://www.city.nagano.nagano.jp/n150800/contents/p002956.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1561,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.nagano.nagano.jp/n150800/contents/p002956.html"
   },
   {
     "id": "sg-card-0054",
@@ -690,8 +775,11 @@
     "source": "https://www.city.nagano.nagano.jp/n151100/contents/p006083.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1560,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.nagano.nagano.jp/n151100/contents/p006083.html",
+    "yearEvidence": "historical_foundation_year_traditionally_attributed",
+    "yearScopeNote": "海津城の起源として長野市が示す1560年。実際の築城年には不確実性あり。"
   },
   {
     "id": "sg-card-0055",
@@ -706,8 +794,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
     "historicalCaution": "初陣は市の説明に従い伝承表現",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1530,
+    "eventYearEnd": null,
+    "yearEvidence": "dated_tradition",
+    "yearSource": "https://www.city.kawasaki.jp/880/page/0000000108.html"
   },
   {
     "id": "sg-card-0056",
@@ -730,8 +820,11 @@
     "source": "https://www.city.kawasaki.jp/170/cmsfiles/contents/0000155/155498/ieyasu.pdf",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1608,
+    "eventYearEnd": null,
+    "yearSource": "https://kbz.or.jp/public/historyguide/03.php",
+    "yearEvidence": "site_context_year_not_person_visit",
+    "yearScopeNote": "1608年は小杉御殿が建てられた年で、家康のその年の訪問を証明するものではない。"
   },
   {
     "id": "sg-card-0058",
@@ -756,8 +849,10 @@
     "unlockRule": "same_town_polygon",
     "reviewNote": "自治体公式資料で人物・史跡の関係を確認。現在地と歴史上の所在地の区別に注意。",
     "reviewDate": "2026-10-25",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1512,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.fujisawa.kanagawa.jp/bunkazai/obajyou.html"
   },
   {
     "id": "sg-card-0060",
@@ -771,8 +866,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_or_regional_historical_material",
     "reviewEvidence": "藤沢市の電子博物館解説は藤沢御殿の設置推定時期と徳川家康の利用記録を説明する。",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1600,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.fujisawa.kanagawa.jp/kouhou/sumafo/khf-s231125/sisei03_s.html"
   },
   {
     "id": "sg-card-0061",
@@ -810,8 +907,10 @@
     "reviewEvidence": "練馬区公式の遺跡解説に豊島氏の城館であること、1477年の太田道灌勢による攻撃が記載される。",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1477,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/rekishiwoshiru/rekishibunkazai/isekihogo/shakujii.html"
   },
   {
     "id": "sg-card-0064",
@@ -836,8 +935,10 @@
     "unlockRule": "same_town_polygon",
     "reviewedOn": "2026-10-25",
     "reviewMethod": "municipal_cultural_property_news",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1563,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ome.tokyo.jp/uploaded/attachment/72908.pdf"
   },
   {
     "id": "sg-card-0066",
@@ -884,8 +985,10 @@
     "source": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/jinjya_bukkaku/4320.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1541,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/3/1339.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0070",
@@ -897,7 +1000,11 @@
     "verification": "review_needed",
     "unlockRule": "same_town_polygon",
     "eventYear": null,
-    "eventYearEnd": null
+    "eventYearEnd": null,
+    "associationEvidenceStatus": "context_confirmed_person_unproven",
+    "associationEvidenceNote": "韮崎市の文化財資料は武田信義による中興と菩提所の伝承を記すが、登録人物がこの史跡で活動した記録は当該資料から確認できない。",
+    "associationEvidenceSource": "https://www.city.nirasaki.lg.jp/bunka_kanko_sports/bunka/3/2672.html",
+    "associationReviewedOn": "2026-10-25"
   },
   {
     "id": "sg-card-0071",
@@ -1029,7 +1136,11 @@
     "verification": "review_needed",
     "unlockRule": "same_town_polygon",
     "eventYear": null,
-    "eventYearEnd": null
+    "eventYearEnd": null,
+    "associationEvidenceStatus": "context_confirmed_person_unproven",
+    "associationEvidenceNote": "横須賀市の文化財資料では11～12世紀の三浦一族と1180年の戦いを記述。登録人物の活動との直接関係はこの資料では確認できない。1180年を登録人物のイベント年に転用しない。",
+    "associationEvidenceSource": "https://www.city.yokosuka.kanagawa.jp/8120/bunkazai/shi47.html",
+    "associationReviewedOn": "2026-10-25"
   },
   {
     "id": "sg-card-0082",
@@ -1044,8 +1155,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_source_comparison",
     "historicalCaution": "伊勢宗瑞／北条早雲は同一人として説明",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1516,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://ch.kanagawa-museum.jp/dm/gohojyo/relation/d_houjyo_01.html"
   },
   {
     "id": "sg-card-0083",
@@ -1081,7 +1194,11 @@
     "verification": "review_needed",
     "unlockRule": "same_town_polygon",
     "eventYear": null,
-    "eventYearEnd": null
+    "eventYearEnd": null,
+    "associationEvidenceStatus": "place_name_collision_hold",
+    "associationEvidenceNote": "登録siteIdは相模の沼田城跡。沼田市公式資料の群馬県沼田城（1532、1578、1580等）は別地点のため流用禁止。登録人物との関係は元資料に記載なし。",
+    "associationEvidenceSource": "https://www.city.numata.gunma.jp/kanko/1004186/1004286/sanada/1001161.html",
+    "associationReviewedOn": "2026-10-25"
   },
   {
     "id": "sg-card-0086",
@@ -1309,7 +1426,11 @@
     "verification": "review_needed",
     "unlockRule": "same_town_polygon",
     "eventYear": null,
-    "eventYearEnd": null
+    "eventYearEnd": null,
+    "associationEvidenceStatus": "regional_context_only",
+    "associationEvidenceNote": "八王子市は地域全体で多くの城や氏照の活動を説明するが、引用資料のみでは片倉城における氏照本人の個別の出来事と年を断定できない。",
+    "associationEvidenceSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/monogatari/p026907.html",
+    "associationReviewedOn": "2026-10-25"
   },
   {
     "id": "sg-card-0105",
@@ -1334,8 +1455,10 @@
     "unlockRule": "same_town_polygon",
     "reviewNote": "自治体公式資料で人物・史跡の関係を確認。現在地と歴史上の所在地の区別に注意。",
     "reviewDate": "2026-10-25",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1564,
+    "eventYearEnd": null,
+    "yearEvidence": "dated_tradition",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/001/p031207_d/fil/3syou.pdf"
   },
   {
     "id": "sg-card-0107",
@@ -1442,8 +1565,10 @@
     "source": "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/kioku/edojo.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1456,
+    "eventYearEnd": 1457,
+    "yearEvidence": "confirmed_event_year_range",
+    "yearSource": "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/kioku/edojo.html"
   },
   {
     "id": "sg-card-0116",
@@ -1454,8 +1579,10 @@
     "source": "https://kunishitei.bunka.go.jp/heritage/detail/401/723",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://kunishitei.bunka.go.jp/heritage/detail/401/723"
   },
   {
     "id": "sg-card-0117",
@@ -1466,8 +1593,10 @@
     "source": "https://www.yamanashi-jinjacho.or.jp/intro/search/detail/7150",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1525,
+    "eventYearEnd": null,
+    "yearEvidence": "dated_tradition",
+    "yearSource": "https://www.yamanashi-jinjacho.or.jp/intro/search/detail/7150"
   },
   {
     "id": "sg-card-0118",
@@ -1478,8 +1607,11 @@
     "source": "https://www.fujisan-kyokai.jp/areaguide/2498",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1557,
+    "eventYearEnd": 1566,
+    "yearSource": "https://www.pref.yamanashi.jp/bunka/bunkazaihogo/bunkazai_data/yamanashinobunkazai_wc0002.html",
+    "yearEvidence": "two_document_dates_range_not_continuous_event",
+    "yearScopeNote": "1557年と1566年の独立した2通の安産祈願文書が現存する。期間中ずっと継続して祈願したという意味ではない。"
   },
   {
     "id": "sg-card-0119",
@@ -1490,8 +1622,10 @@
     "source": "https://www.city.hiratsuka.kanagawa.jp/press/page02_e00001_02234.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1596,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hiratsuka.kanagawa.jp/press/page02_e00001_02234.html"
   },
   {
     "id": "sg-card-0120",
@@ -1538,8 +1672,10 @@
     "source": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html"
   },
   {
     "id": "sg-card-0124",
@@ -1587,8 +1723,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1569,
+    "eventYearEnd": null,
+    "yearEvidence": "dated_tradition",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
   },
   {
     "id": "sg-card-0127",
@@ -1602,8 +1740,11 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1569,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "yearEvidence": "tradition_battle_year",
+    "yearScopeNote": "1569年は滝山城への侵攻年。家臣の武勇譚は後世の軍記に由来し、史実として確定していない。"
   },
   {
     "id": "sg-card-0128",
@@ -1651,8 +1792,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/2/1354.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1582,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/2/1354.html"
   },
   {
     "id": "sg-card-0131",
@@ -1666,8 +1809,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p17445.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1524,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p17445.html"
   },
   {
     "id": "sg-card-0132",
@@ -1681,8 +1826,11 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p17445.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1478,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/bunkazai/bunya12000.files/0026_20231205.pdf",
+    "yearEvidence": "confirmed_campaign_year",
+    "yearScopeNote": "1478年に太田道灌が小机要害を攻めたという文献記録を横浜市が紹介。"
   },
   {
     "id": "sg-card-0133",
@@ -1713,8 +1861,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1585,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0135",
@@ -1728,8 +1878,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1600,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0136",
@@ -1760,8 +1912,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2261.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2261.html"
   },
   {
     "id": "sg-card-0138",
@@ -1775,8 +1929,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html"
   },
   {
     "id": "sg-card-0139",
@@ -1805,8 +1961,10 @@
     "reviewedOn": "2026-10-25",
     "reviewMethod": "official_municipal_source",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/ki-20150144.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/nenpyo/"
   },
   {
     "id": "sg-card-0141",
@@ -1888,8 +2046,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/dai1-07.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1537,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/dai1-07.pdf"
   },
   {
     "id": "sg-card-v074-005",
@@ -1937,8 +2097,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.town.yorii.saitama.jp/map/hacigatajoumeisho-map.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1476,
+    "eventYearEnd": null,
+    "yearEvidence": "dated_tradition",
+    "yearSource": "https://www.town.yorii.saitama.jp/map/hacigatajoumeisho-map.html"
   },
   {
     "id": "sg-card-v074-008",
@@ -1952,8 +2114,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html"
   },
   {
     "id": "sg-card-v074-009",
@@ -1967,8 +2131,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html"
   },
   {
     "id": "sg-card-v074-010",
@@ -2033,8 +2199,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html"
   },
   {
     "id": "sg-card-v074-014",
@@ -2097,8 +2265,10 @@
     "reviewMethod": "municipal_official_source",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p17445.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p17445.html"
   },
   {
     "id": "sg-card-v074-018",
@@ -2135,15 +2305,18 @@
     "personId": "sg-025ab3a6ee3f",
     "siteId": "sg-site-odawara",
     "title": "二度の小田原攻撃",
-    "summary": "氏政の当主時代、小田原は1561年に上杉謙信、1569年には武田信玄による攻撃を受けた。互いに名将と呼ばれる二人を相手にした城の歴史が残る。",
+    "summary": "四代当主北条氏政の時代、小田原城は1561年に上杉謙信、1569年には武田信玄の攻撃を受けた。いずれも城を守り抜いたが、これは一つの長期包囲戦ではなく、8年を隔てた二つの軍事事件である。",
     "source": "https://odawaracastle.com/history/hojo-godai/",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1561,
+    "eventYearEnd": 1569,
+    "yearEvidence": "two_documented_sieges_not_continuous",
+    "yearSource": "https://odawaracastle.com/history/nenpyo/",
+    "yearScopeNote": "1561年の上杉謙信による小田原攻めと1569年の武田信玄による小田原攻めの二件。1561〜1569年に連続して包囲されたという意味ではない。"
   },
   {
     "id": "sg-card-0162",
@@ -2191,8 +2364,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://odawaracastle.com/history/hojo-godai/",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://odawaracastle.com/history/nenpyo/"
   },
   {
     "id": "sg-card-0165",
@@ -2359,8 +2534,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1601,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0175",
@@ -2374,8 +2551,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1476,
+    "eventYearEnd": null,
+    "yearEvidence": "dated_tradition",
+    "yearSource": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html"
   },
   {
     "id": "sg-card-0176",
@@ -2404,8 +2583,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html"
   },
   {
     "id": "sg-card-0178",
@@ -2419,8 +2600,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.ktr.mlit.go.jp/arajo/arajo00557.html"
   },
   {
     "id": "sg-card-0179",
@@ -2449,8 +2632,11 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1562,
+    "eventYearEnd": null,
+    "yearSource": "https://kawanakajima.nagano.jp/character/takeda-katsuyori/",
+    "yearEvidence": "confirmed_person_castle_year",
+    "yearScopeNote": "長野市の歴史解説は勝頼が1562年に高遠城主となったとする。"
   },
   {
     "id": "sg-card-0181",
@@ -2464,8 +2650,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1582,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html"
   },
   {
     "id": "sg-card-0182",
@@ -2479,8 +2667,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1582,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html"
   },
   {
     "id": "sg-card-0183",
@@ -2509,8 +2699,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.mishima.shizuoka.jp/page/2145.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.mishima.shizuoka.jp/page/2145.html"
   },
   {
     "id": "sg-card-0185",
@@ -2524,8 +2716,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/4805.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.mishima.shizuoka.jp/page/1203.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0186",
@@ -2539,8 +2733,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0187",
@@ -2554,8 +2750,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0188",
@@ -2569,23 +2767,29 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-ishigakiyama.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0189",
     "personId": "sg-da093dc1cd41",
     "siteId": "sg-site-kofu",
     "title": "家康の甲斐支配",
-    "summary": "1582年に徳川家康が甲斐へ入ると平岩親吉が城代となった。さらに1601年には家康の命で再び城代となり、甲府を支えた。",
+    "summary": "武田氏の滅亡と本能寺の変が起きた1582年、徳川家康は甲斐を領し、平岩親吉を城代に置いた。その後の豊臣政権期に城は整備され、関ヶ原合戦後の1601年、親吉は家康の命で再び城代となる。二度の就任の間には政権交代があった。",
     "source": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1582,
+    "eventYearEnd": 1601,
+    "yearEvidence": "two_distinct_officially_dated_appointments",
+    "yearSource": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
+    "yearScopeNote": "1582年の城代就任と1601年の再任は別々の出来事で、1582～1601年に連続在職したという意味ではない。また現在の石垣を備えた甲府城の築城時期とは区別。",
+    "chronologyReviewedOn": "2026-10-25"
   },
   {
     "id": "sg-card-0190",
@@ -2599,8 +2803,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1591,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html"
   },
   {
     "id": "sg-card-0191",
@@ -2614,8 +2820,11 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1593,
+    "eventYearEnd": null,
+    "yearSource": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
+    "yearEvidence": "first_event_year_multi_period_card",
+    "yearScopeNote": "1593年は浅野家の甲府城領有開始。本文は1597・1600年にも触れるため年表では開始年として扱う。"
   },
   {
     "id": "sg-card-0192",
@@ -2629,23 +2838,28 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://adeac.jp/nagano-city/top/13story/story3.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1561,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://adeac.jp/nagano-city/top/13story/story3.html"
   },
   {
     "id": "sg-card-0193",
     "personId": "sg-dc8c550d8769",
     "siteId": "sg-site-kawanakajima",
     "title": "信濃国衆を助ける戦い",
-    "summary": "信濃へ進出する武田信玄に対し、上杉謙信は領地を追われた北信濃の国衆を支援した。川中島の合戦は単なる二人の名将の対決ではなかった。",
+    "summary": "1561年の第4次川中島合戦で、上杉謙信と武田信玄は八幡原で激突した。謙信は北信濃の国衆を支援しており、戦いは両将の個人的な勝負ではなかった。一騎討ちの逸話は伝承として残る。",
     "source": "https://adeac.jp/nagano-city/top/13story/story3.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://adeac.jp/nagano-city/top/13story/story3.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1561,
+    "eventYearEnd": null,
+    "yearEvidence": "battle_year_official_city_history",
+    "yearSource": "https://adeac.jp/nagano-city/top/13story/story3.html",
+    "yearScopeNote": "1561年は八幡原で激戦となった第4次川中島合戦の年。信玄と謙信の一騎討ちは伝承であり史実として確定していない。"
   },
   {
     "id": "sg-card-0194",
@@ -2659,8 +2873,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://adeac.jp/nagano-city/top/13story/story3.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1561,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.nagano.nagano.jp/n150800/contents/p002956.html",
+    "yearEvidence": "tradition_dated_to_battle_year"
   },
   {
     "id": "sg-card-0195",
@@ -2674,8 +2890,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0004.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1574,
+    "eventYearEnd": null,
+    "yearSource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0004.html",
+    "yearEvidence": "confirmed_biographical_year"
   },
   {
     "id": "sg-card-0196",
@@ -2689,8 +2907,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.tobunken.go.jp/materials/nenki/249015.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1574,
+    "eventYearEnd": null,
+    "yearSource": "https://kunishitei.bunka.go.jp/heritage/detail/201/1150",
+    "yearEvidence": "dated_artifact_year"
   },
   {
     "id": "sg-card-0197",
@@ -2704,8 +2924,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0010.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1570,
+    "eventYearEnd": null,
+    "yearSource": "https://www.enkoin.org/enkoin.html",
+    "yearEvidence": "confirmed_biographical_year"
   },
   {
     "id": "sg-card-0198",
@@ -2719,23 +2941,29 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://kofu-tourism.com/feature/index.php?p=feature-222",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1560,
+    "eventYearEnd": null,
+    "yearSource": "https://kofu-tourism.com/feature/index.php?p=feature-222",
+    "yearEvidence": "temple_relocation_year",
+    "yearScopeNote": "甲府市観光協会が紹介する信玄による寺院移転の年。後の円光院への改称時期とは分けて扱う。"
   },
   {
     "id": "sg-card-0199",
     "personId": "sg-fc948f16832f",
     "siteId": "sg-site-katsunuma-ome",
     "title": "多摩西部の城を治める",
-    "summary": "青梅の勝沼城は、三田氏の滅亡後、北条氏照の管轄下に入った。現在の堀や土塁には北条氏による改修の痕跡があると考えられる。",
+    "summary": "青梅一帯を支配した三田氏は1561〜1563年頃に北条氏に滅ぼされた。勝沼城はその後、北条氏照の管轄下に入った。現在残る城の構造には北条氏による改修の痕跡が考えられる。",
     "source": "https://www.city.ome.tokyo.jp/site/provincial-history-museum/2956.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ome.tokyo.jp/site/provincial-history-museum/2956.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1561,
+    "eventYearEnd": 1563,
+    "yearEvidence": "regional_clan_fall_period",
+    "yearSource": "https://www.city.ome.tokyo.jp/site/provincial-history-museum/2956.html",
+    "yearScopeNote": "1561〜1563年頃に三田氏が滅び、勝沼城が北条氏照の管轄に入った。移管日が特定されたことを意味しない。"
   },
   {
     "id": "sg-card-0200",
@@ -2749,8 +2977,11 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ome.tokyo.jp/site/provincial-history-museum/2956.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1561,
+    "eventYearEnd": 1563,
+    "yearSource": "https://www.city.ome.tokyo.jp/site/provincial-history-museum/2956.html",
+    "yearEvidence": "historical_event_year_range",
+    "yearScopeNote": "三田氏の滅亡時期は1561〜1563年ごろとされ、年を一点に確定しない。"
   },
   {
     "id": "sg-card-0201",
@@ -2764,8 +2995,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1519,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html"
   },
   {
     "id": "sg-card-0202",
@@ -2794,8 +3027,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1581,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/sinnpu/1497.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0204",
@@ -2824,8 +3059,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-odawarazyou.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1518,
+    "eventYearEnd": null,
+    "yearSource": "https://odawaracastle.com/history/nenpyo/",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0206",
@@ -2886,8 +3123,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-ishigakiyama.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0210",
@@ -2901,23 +3140,28 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html"
   },
   {
     "id": "sg-card-0211",
     "personId": "sg-fc948f16832f",
     "siteId": "sg-site-hachioji",
     "title": "巨大山城を築く意図",
-    "summary": "氏照の八王子城は尾根や谷を利用する複雑な山城だった。本拠の小田原城を守る支城網の一角を担っていた。",
+    "summary": "北条氏照は天正年間に八王子城の造営を進め、1584〜1587年の間に滝山城から居城を移したとする説が有力だ。谷と尾根を巧みに利用した大規模な山城は、1590年の落城時にもなお未完成だったと考えられている。",
     "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
     "verification": "reviewed",
     "unlockRule": "same_town_polygon",
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1584,
+    "eventYearEnd": 1587,
+    "yearEvidence": "residence_transfer_estimated_range",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "yearScopeNote": "1584〜1587年は北条氏照が滝山城から八王子城へ居城を移したとする有力説の期間。築城の着工年・完成年を確定したものではない。"
   },
   {
     "id": "sg-card-0212",
@@ -2948,8 +3192,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1582,
+    "eventYearEnd": null,
+    "yearSource": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/rekisi.html",
+    "yearEvidence": "confirmed_transition_year"
   },
   {
     "id": "sg-card-0214",
@@ -2963,8 +3209,10 @@
     "reviewMethod": "official-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1594,
+    "eventYearEnd": null,
+    "yearSource": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/kuroganemon2010.html",
+    "yearEvidence": "estimated_completion_year"
   },
   {
     "id": "sg-card-0215",
@@ -2995,8 +3243,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1457,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html",
+    "yearEvidence": "confirmed_foundation_year"
   },
   {
     "id": "sg-card-0217",
@@ -3027,8 +3277,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1545,
+    "eventYearEnd": 1546,
+    "yearSource": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/dai1-07.pdf",
+    "yearEvidence": "confirmed_event_year_range"
   },
   {
     "id": "sg-card-0219",
@@ -3059,8 +3311,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1546,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0221",
@@ -3074,8 +3328,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1546,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf"
   },
   {
     "id": "sg-card-0222",
@@ -3121,8 +3377,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1584,
+    "eventYearEnd": 1587,
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "yearEvidence": "estimated_event_year_range"
   },
   {
     "id": "sg-card-0225",
@@ -3151,8 +3409,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
   },
   {
     "id": "sg-card-0227",
@@ -3200,8 +3460,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1585,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html"
   },
   {
     "id": "sg-card-0230",
@@ -3215,8 +3477,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1585,
+    "eventYearEnd": null,
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "yearEvidence": "confirmed_event_year"
   },
   {
     "id": "sg-card-0231",
@@ -3230,8 +3494,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1601,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
   },
   {
     "id": "sg-card-0232",
@@ -3279,8 +3545,10 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1523,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html"
   },
   {
     "id": "sg-card-0235",
@@ -3294,8 +3562,11 @@
     "reviewMethod": "municipal-source-specific-claim",
     "reviewedOn": "2026-10-25",
     "reviewEvidence": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
-    "eventYear": null,
-    "eventYearEnd": null
+    "eventYear": 1518,
+    "eventYearEnd": null,
+    "yearSource": "https://odawara-digital-museum.jp/history/",
+    "yearEvidence": "confirmed_oldest_surviving_document_year",
+    "yearScopeNote": "確認されている最古の虎朱印状は1518年。氏綱が最初に朱印を使った年と断定しない。"
   },
   {
     "id": "sg-card-0236",
@@ -3330,5 +3601,978 @@
     "eventYearEnd": null,
     "yearEvidence": "confirmed_event_year",
     "yearSource": "https://odawaracastle.com/history/hojo-godai/"
+  },
+  {
+    "id": "sg-card-0238",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-sunpu",
+    "title": "最初の駿府城築城",
+    "summary": "徳川家康は1585年に駿府城の築城を始めた。大御所として再び城を築き直す1607年よりも前、家康が駿府を拠点とした時代の出来事である。",
+    "source": "https://www.city.shizuoka.lg.jp/s6725/s005255.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1585,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.shizuoka.lg.jp/s6725/s005255.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.5"
+  },
+  {
+    "id": "sg-card-0239",
+    "personId": "sg-researched-095-nakamura-kazuuji",
+    "siteId": "sg-site-sunpu",
+    "title": "豊臣方の駿府城主",
+    "summary": "1590年、徳川家康が関東へ移されると、豊臣方の中村一氏が駿府城主になった。駿府城は家康の不在期にも、重要な城として使われ続けた。",
+    "source": "https://www.city.shizuoka.lg.jp/s6725/s005255.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.shizuoka.lg.jp/s6725/s005255.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.5"
+  },
+  {
+    "id": "sg-card-0240",
+    "personId": "sg-researched-095-tokugawa-yorinobu",
+    "siteId": "sg-site-sunpu",
+    "title": "若き駿府藩主",
+    "summary": "徳川家康の十男・頼宣は1609年から1619年まで駿河・遠江50万石を領し、駿府城を居城とする藩主だった。家康の大御所政治と同じ城で過ごした若い大名の歴史である。",
+    "source": "https://www.city.shizuoka.lg.jp/s6725/p009496.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1609,
+    "eventYearEnd": 1619,
+    "yearEvidence": "documented_term",
+    "yearSource": "https://www.city.shizuoka.lg.jp/s6725/p009496.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.5"
+  },
+  {
+    "id": "sg-card-0241",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-minowa",
+    "title": "西上野の堅城が落ちた年",
+    "summary": "1566年、長野氏の本拠だった箕輪城は武田信玄によって攻略された。箕輪城はその後も西上野をめぐる諸勢力の拠点となった。",
+    "source": "https://www.city.takasaki.gunma.jp/site/cultural-assets/6450.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1566,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.takasaki.gunma.jp/site/cultural-assets/6450.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.5"
+  },
+  {
+    "id": "sg-card-0242",
+    "personId": "sg-df4ede094a85",
+    "siteId": "sg-site-minowa",
+    "title": "箕輪から出された黒印状",
+    "summary": "1596年4月18日、箕輪城主だった井伊直政は領内の村々へ検地に関する黒印状を出した。高崎市に残る文書から、城主としての領国支配をうかがうことができる。",
+    "source": "https://www.city.takasaki.gunma.jp/site/cultural-assets/2045.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1596,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.takasaki.gunma.jp/site/cultural-assets/2045.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.5"
+  },
+  {
+    "id": "sg-card-0243",
+    "personId": "sg-researched-095-nagano-narimori",
+    "siteId": "sg-site-minowa",
+    "title": "箕輪城最後の抵抗",
+    "summary": "1566年、武田信玄の攻撃を受けた箕輪城は落城し、城主長野業盛は命を落とした。自害や埋葬に関する具体的な話には、後世の軍記に基づく伝承も含まれる。",
+    "source": "https://www.city.takasaki.gunma.jp/site/cultural-assets/5565.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1566,
+    "eventYearEnd": null,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.takasaki.gunma.jp/site/cultural-assets/5565.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.5"
+  },
+  {
+    "id": "sg-card-0244",
+    "personId": "sg-researched-096-mori-tadamasa",
+    "siteId": "sg-site-matsushiro",
+    "title": "待城へ変わった年",
+    "summary": "1600年、森忠政が海津城の城主となり、城の呼び名が「待城」に改められたと長野市の沿革に記される。城の名前の変遷にも、領主交代の歴史が刻まれている。",
+    "source": "https://www.city.nagano.nagano.jp/n151100/contents/p006083.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1600,
+    "eventYearEnd": null,
+    "yearEvidence": "official_source_event_year",
+    "yearSource": "https://www.city.nagano.nagano.jp/n151100/contents/p006083.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.6"
+  },
+  {
+    "id": "sg-card-0245",
+    "personId": "sg-53d7309718ae",
+    "siteId": "sg-site-matsushiro",
+    "title": "上田から松代への移封",
+    "summary": "1622年、真田信之は上田から松代への移封を命じられた。長野市誌によると同年10月に城の引き渡しが行われ、真田家による松代統治が始まった。",
+    "source": "https://adeac.jp/nagano-city/texthtml/d100030/ct00000003/ht000170",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1622,
+    "eventYearEnd": null,
+    "yearEvidence": "official_source_event_year",
+    "yearSource": "https://adeac.jp/nagano-city/texthtml/d100030/ct00000003/ht000170",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.6"
+  },
+  {
+    "id": "sg-card-0246",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-nrct-130000022400",
+    "title": "江戸城の大改修が始まる",
+    "summary": "1590年に江戸城へ入った徳川家康は、1603年に征夷大将軍となった後、江戸城の本格的な改修を開始した。千代田区によると二の丸・三の丸などが整えられ、城は大きく姿を変えていく。",
+    "source": "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/kioku/edojo.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1603,
+    "eventYearEnd": null,
+    "yearEvidence": "official_source_event_year",
+    "yearSource": "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/kioku/edojo.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.6"
+  },
+  {
+    "id": "sg-card-0247",
+    "personId": "sg-researched-096-sengoku-hidehisa",
+    "siteId": "sg-site-komoro",
+    "title": "再起をかけた小諸入封",
+    "summary": "1590年、仙石秀久は小田原攻めでの軍功を認められ、小諸五万石を与えられた。小諸市は、その後の大改修と城下町整備が現在に残る小諸城の基礎になったと説明する。",
+    "source": "https://www.city.komoro.lg.jp/citypromotion/places/6084.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1590,
+    "eventYearEnd": null,
+    "yearEvidence": "official_source_event_year",
+    "yearSource": "https://www.city.komoro.lg.jp/citypromotion/places/6084.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.6"
+  },
+  {
+    "id": "sg-card-0248",
+    "personId": "sg-researched-096-hoshina-masamitsu",
+    "siteId": "sg-site-takato",
+    "title": "高遠藩の初代藩主",
+    "summary": "1600年、保科正光が高遠の藩主となった。伊那市の歴代藩主一覧には、正光の就任年が1600年、退任年が1631年と記載されている。",
+    "source": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1600,
+    "eventYearEnd": null,
+    "yearEvidence": "official_source_event_year",
+    "yearSource": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.6"
+  },
+  {
+    "id": "sg-card-0249",
+    "personId": "sg-researched-096-narita-ujinaga",
+    "siteId": "sg-site-oshi",
+    "title": "父から受け継いだ忍城",
+    "summary": "1566年、成田氏長は父・長泰との不和を経て家督を継ぎ、忍城主となった。行田市が公開する氏長の古文書解説に、城主交代の経緯が記録されている。",
+    "source": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1566,
+    "eventYearEnd": null,
+    "yearEvidence": "official_source_event_year",
+    "yearSource": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.6"
+  },
+  {
+    "id": "sg-card-0250",
+    "personId": "sg-researched-096-narita-ujinaga",
+    "siteId": "sg-site-oshi",
+    "title": "忍城下が焼かれた年",
+    "summary": "1574年、上杉謙信の軍勢が忍城下を焼いた。行田市の文化財解説では、成田氏長が北条氏の側についた後に起きた出来事として記されている。",
+    "source": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1574,
+    "eventYearEnd": null,
+    "yearEvidence": "official_source_event_year",
+    "yearSource": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.6"
+  },
+  {
+    "id": "sg-card-0251",
+    "personId": "sg-451ea10bcb24",
+    "siteId": "sg-site-komoro",
+    "title": "上田へ向かう軍の拠点",
+    "summary": "1600年、関ヶ原へ向かう徳川秀忠の軍勢は小諸城に入った。こもろ観光局の城史は、その後の上田城攻めと関ヶ原への遅参を関連付けて説明している。",
+    "source": "https://www.komoro-tour.jp/spot/castle/history/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1600,
+    "eventYearEnd": null,
+    "yearEvidence": "official_source_event_year",
+    "yearSource": "https://www.komoro-tour.jp/spot/castle/history/",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.6"
+  },
+  {
+    "id": "sg-card-0252",
+    "personId": "sg-researched-097-iwamatsu-iezumi",
+    "siteId": "sg-site-kanayama-ota",
+    "title": "尾根に築いた守り",
+    "summary": "1469年、岩松家純の命により金山城が築かれたと太田市は解説している。城は尾根を利用した堅固な山城へと発展した。",
+    "source": "https://www.city.ota.gunma.jp/page/4378.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1469,
+    "eventYearEnd": null,
+    "yearEvidence": "municipal_history_attributed_construction",
+    "yearSource": "https://www.city.ota.gunma.jp/page/4378.html",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.7"
+  },
+  {
+    "id": "sg-card-0253",
+    "personId": "sg-researched-097-yokose-narishige",
+    "siteId": "sg-site-kanayama-ota",
+    "title": "金山城での攻防",
+    "summary": "1574年、太田市の金山城年表によると由良成繁は金山城で上杉軍と戦った。上杉軍による度重なる圧力の中で城を守った時期の記録である。",
+    "source": "https://www.city.ota.gunma.jp/page/4142.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1574,
+    "eventYearEnd": null,
+    "yearEvidence": "municipal_chronology_circa_year",
+    "yearSource": "https://www.city.ota.gunma.jp/page/4142.html",
+    "yearScopeNote": "太田市年表の「この頃」の記述。合戦の正確な日付を意味しない。",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.7"
+  },
+  {
+    "id": "sg-card-0254",
+    "personId": "sg-researched-097-yokose-narishige",
+    "siteId": "sg-site-kanayama-ota",
+    "title": "氏族の名を変えた年",
+    "summary": "1565年ごろ横瀬成繁は由良へと改姓したと太田市の金山城略年表に記されている。城主一族の変遷を示す出来事。",
+    "source": "https://www.city.ota.gunma.jp/page/4142.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1565,
+    "eventYearEnd": null,
+    "yearEvidence": "municipal_chronology_circa_year",
+    "yearSource": "https://www.city.ota.gunma.jp/page/4142.html",
+    "yearScopeNote": "改姓は「この頃」と記載。場所は金山城主の人物史を扱うもので城内で改姓を宣言したと断定しない。",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.7"
+  },
+  {
+    "id": "sg-card-0255",
+    "personId": "sg-researched-097-yoda-nobushige",
+    "siteId": "sg-site-tomono-saku",
+    "title": "佐久の城館を攻略",
+    "summary": "佐久市の城山公園の解説は、1583年に依田信蕃が野沢城と前山城を攻略したと説明する。ただし別の発掘調査資料には1582年という記述もあり、攻略年について資料間に相違がある。",
+    "source": "https://www.city.saku.nagano.jp/kanko/kanko/spot/meisho_shiseki/tomonojoseki.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1582,
+    "eventYearEnd": 1583,
+    "yearEvidence": "conflicting_municipal_sources_range",
+    "yearSource": "https://www.city.saku.nagano.jp/kanko/kanko/spot/meisho_shiseki/tomonojoseki.html",
+    "yearScopeNote": "市観光解説1583年、発掘調査報告書1582年。確定年ではなく資料間の幅として登録。",
+    "reviewMethod": "official-municipal-source-specific-claim",
+    "reviewedOn": "2026-10-25",
+    "release": "v0.9.7"
+  },
+  {
+    "id": "sg-card-0256",
+    "personId": "sg-a77cd1aa75f3",
+    "siteId": "sg-site-fukasawa",
+    "title": "境目の城を守る",
+    "summary": "北条綱成は1571年、武田信玄軍に包囲された深沢城を守り、開城した。築城については今川氏説も伝わるが、御殿場市は1569年に後北条氏が築いた可能性が高いと説明する。",
+    "source": "https://www.city.gotemba.lg.jp/museum/muse-cat-004/693.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1571,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.gotemba.lg.jp/museum/muse-cat-004/693.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0257",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-fukasawa",
+    "title": "駿河の境目をめぐる攻防",
+    "summary": "1571年、武田信玄は深沢城を包囲し、後北条方の北条綱成が開城した。城の現在の遺構には後世の改修の可能性も指摘されるため、すべてを武田氏の築城技術と断定できない。",
+    "source": "https://www.city.gotemba.lg.jp/museum/muse-cat-004/693.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1571,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.gotemba.lg.jp/museum/muse-cat-004/693.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0258",
+    "personId": "sg-e00b2631eded",
+    "siteId": "sg-site-nagashino",
+    "title": "長篠城をめぐる攻防",
+    "summary": "1575年、武田勝頼の軍勢は長篠城を攻撃した。新城市の公式解説によると、城は奥平貞昌（信昌）が守り、織田・徳川の援軍が設楽原へ進出した。",
+    "source": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/nagashinojyoato.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1575,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/nagashinojyoato.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0259",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-nagashino",
+    "title": "防衛拠点の奪回と備え",
+    "summary": "徳川家康は1573年に長篠城を奪回し、1575年には奥平貞昌（信昌）を城主として武田軍の侵攻に備えたと新城市は説明している。",
+    "source": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/nagashinojyoato.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1573,
+    "yearEvidence": "selected_event_year_source_detailed",
+    "yearSource": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/nagashinojyoato.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0260",
+    "personId": "sg-e00b2631eded",
+    "siteId": "sg-site-suwahara",
+    "title": "遠江の戦略拠点",
+    "summary": "島田市の公式解説では、諏訪原城は1573年、武田勝頼が馬場信春に命じて築いたとされる。ただし、現在残る遺構の一部には徳川氏による改修の可能性がある。",
+    "source": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/kuni-01.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1573,
+    "yearEvidence": "municipal_attribution_with_archaeological_caveat",
+    "yearSource": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/kuni-01.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0261",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-suwahara",
+    "title": "城の支配が移る",
+    "summary": "島田市の公式解説によれば、1575年に徳川家康が諏訪原城を攻め落とし、その後は牧野城として使用された。現存遺構の改修時期にはなお検討の余地がある。",
+    "source": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/kuni-01.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1575,
+    "yearEvidence": "confirmed_event_year",
+    "yearSource": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/kuni-01.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0262",
+    "personId": "sg-person-okudaira-nobumasa",
+    "siteId": "sg-site-shinshiro",
+    "title": "新たな城の築城",
+    "summary": "新城市によると奥平信昌は長篠城の戦いの後、1576年に新城城の初代城主となった。なお発掘で確認された遺構は主に江戸時代のもの。",
+    "source": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/shinshirojyoato.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1576,
+    "yearEvidence": "municipal_documented_event_or_qualified_attribution",
+    "yearSource": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/shinshirojyoato.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0263",
+    "personId": "sg-6eaf66c3d7c8",
+    "siteId": "sg-site-gifu",
+    "title": "美濃の新拠点",
+    "summary": "1567年に織田信長は稲葉山城を手中に収め、岐阜城と改称して本拠を移した。岐阜市によれば1576年に安土へ移るまで拠点とした。",
+    "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1567,
+    "yearEvidence": "municipal_documented_event_or_qualified_attribution",
+    "yearSource": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0264",
+    "personId": "sg-e00b2631eded",
+    "siteId": "sg-site-takatenjin",
+    "title": "遠江の要衝を攻める",
+    "summary": "掛川市の年表によれば1574年、武田勝頼の軍勢が高天神城を包囲し、同年6月に開城した。",
+    "source": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/8328.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1574,
+    "yearEvidence": "municipal_documented_event_or_qualified_attribution",
+    "yearSource": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/8328.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0265",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-takatenjin",
+    "title": "高天神をめぐる再攻勢",
+    "summary": "掛川市の年表は、1578年に徳川家康が高天神城奪還のため横須賀城を築き、1581年に高天神城を奪還したと記す。",
+    "source": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/10239.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1578,
+    "yearEvidence": "municipal_documented_event_or_qualified_attribution",
+    "yearSource": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/10239.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0266",
+    "personId": "sg-dc8c550d8769",
+    "siteId": "sg-site-masuyama",
+    "title": "越中への進軍",
+    "summary": "砺波市の史跡紹介によると1560年、上杉謙信が越中へ侵攻した際、神保長職は富山城から増山城に移った。",
+    "source": "https://www.city.tonami.lg.jp/photop/9602p/?print=page",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1560,
+    "yearEvidence": "municipal_documented_event_or_qualified_attribution",
+    "yearSource": "https://www.city.tonami.lg.jp/photop/9602p/?print=page",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0267",
+    "personId": "sg-person-toki-yoriaki",
+    "siteId": "sg-site-ooga",
+    "title": "守護拠点の移転",
+    "summary": "山県市によると1535年の洪水後、美濃守護土岐頼芸は大桑に政治機能を移し、城と城下町を整備したとされる。",
+    "source": "https://www.city.yamagata.gifu.jp/site/oogajoato/17183.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1535,
+    "yearEvidence": "municipal_documented_event_or_qualified_attribution",
+    "yearSource": "https://www.city.yamagata.gifu.jp/site/oogajoato/17183.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0268",
+    "personId": "sg-person-saito-dosan",
+    "siteId": "sg-site-gifu",
+    "title": "稲葉山を拠点に",
+    "summary": "岐阜市の城主解説では、斎藤道三の稲葉山城主期間は1539年から1554年とされる。道三は稲葉山城と井口の城下町を整え、美濃における勢力を築いた。",
+    "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1539,
+    "yearEvidence": "municipal_castle_lord_period_start",
+    "yearSource": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0269",
+    "personId": "sg-person-saito-tatsuoki",
+    "siteId": "sg-site-gifu",
+    "title": "若き城主の継承",
+    "summary": "岐阜市の公式解説によると、1561年に斎藤義龍が死去し、子の龍興が稲葉山城主を継いだ。城主期間は1567年までとされる。",
+    "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1561,
+    "yearEvidence": "municipal_castle_lord_succession",
+    "yearSource": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0270",
+    "personId": "sg-163274b0bfdf",
+    "siteId": "sg-site-gifu",
+    "title": "信忠の岐阜城",
+    "summary": "岐阜市は織田信忠の岐阜城主期間を1576年から1582年と説明する。一方、1575年に家督を譲られたとの記述もあり、家督相続と城主期間の開始は区別する必要がある。",
+    "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1576,
+    "yearEvidence": "municipal_castle_lord_period_start",
+    "yearSource": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0271",
+    "personId": "sg-6666c05e6264",
+    "siteId": "sg-site-gifu",
+    "title": "次の岐阜城主",
+    "summary": "岐阜市によると、織田信孝は1582年から1583年にかけて岐阜城主となった。織田家の家督をめぐる政治情勢の中で、美濃と岐阜城を与えられた。",
+    "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1582,
+    "yearEvidence": "municipal_castle_lord_period_start",
+    "yearSource": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0272",
+    "personId": "sg-532f50203751",
+    "siteId": "sg-site-gifu",
+    "title": "岐阜城の攻防",
+    "summary": "岐阜市の歴史解説によると、1600年、岐阜城主の織田秀信は関ヶ原の戦いに際して西軍に属し、東軍の攻撃を受けて岐阜城は落城した。",
+    "source": "https://www.city.gifu.lg.jp/info/syoukai/1006141/1006147.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1600,
+    "yearEvidence": "municipal_chronology",
+    "yearSource": "https://www.city.gifu.lg.jp/info/syoukai/1006141/1006147.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0273",
+    "personId": "sg-person-okabe-motonobu",
+    "siteId": "sg-site-takatenjin",
+    "title": "高天神の城番",
+    "summary": "掛川市が示す史料年表によると、1579年6月14日、武田勝頼は岡部元信に高天神城の城番を命じたとされる。実際に城に入った時期には別の記録もあり、任命と着任を区別する。",
+    "source": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/8328.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1579,
+    "yearEvidence": "documented_appointment_not_arrival",
+    "yearSource": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/8328.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0274",
+    "personId": "sg-person-okabe-motonobu",
+    "siteId": "sg-site-takatenjin",
+    "title": "高天神城の最終局面",
+    "summary": "掛川市の史料年表では、1581年3月22日に岡部元信ら城内の軍勢が出撃し、高天神城が落城したとされる。城の攻防とその経過は複数の史料に依拠している。",
+    "source": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/8328.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1581,
+    "yearEvidence": "municipal_chronology",
+    "yearSource": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/8328.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0275",
+    "personId": "sg-person-suganuma-motonari",
+    "siteId": "sg-site-nagashino",
+    "title": "長篠城の築城",
+    "summary": "新城市は、1508年に菅沼元成が長篠城を築いたと説明する。築城年代は市の文化財解説に基づく。",
+    "source": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/nagashinojyoato.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1508,
+    "yearEvidence": "municipal_castle_foundation",
+    "yearSource": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/nagashinojyoato.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0276",
+    "personId": "sg-e701cb97b4d9",
+    "siteId": "sg-site-suwahara",
+    "title": "築城を託された家臣",
+    "summary": "島田市は、1573年に武田勝頼が馬場信春に諏訪原城の築城を命じたと説明する。現在見られる遺構の一部には、後の徳川氏による改修の可能性がある。",
+    "source": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/kuni-01.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1573,
+    "yearEvidence": "municipal_construction_order",
+    "yearSource": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/kuni-01.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0277",
+    "personId": "sg-person-toki-yoriaki",
+    "siteId": "sg-site-ooga",
+    "title": "大桑城をめぐる争い",
+    "summary": "山県市の公式解説では、1543年に大桑城をめぐって斎藤道三との戦いが起こり、城は落城したとされる。頼芸が美濃から追われた時期と、城が落ちた年は区別する。",
+    "source": "https://www.city.yamagata.gifu.jp/site/oogajoato/17183.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1543,
+    "yearEvidence": "municipal_chronology",
+    "yearSource": "https://www.city.yamagata.gifu.jp/site/oogajoato/17183.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0278",
+    "personId": "sg-researched-097-iwamatsu-iezumi",
+    "siteId": "sg-site-kanayama-ota",
+    "title": "金山城への入城",
+    "summary": "太田市の城郭年表によると、1477年に岩松家純は一族を伴い、五十子陣を退いて金山城へ入った。1469年の築城記録とは別の出来事である。",
+    "source": "https://www.city.ota.gunma.jp/page/4142.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1477,
+    "yearEvidence": "municipal_chronology",
+    "yearSource": "https://www.city.ota.gunma.jp/page/4142.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0279",
+    "personId": "sg-researched-098-makabe-hisamoto",
+    "siteId": "sg-site-makabe",
+    "title": "戦国期の真壁氏",
+    "summary": "真壁城は常陸国真壁地方の真壁氏の居城だった。桜川市の公式解説では、戦国時代の真壁久幹は佐竹氏と関係を結んだ真壁氏の武将として紹介されている。「夜叉真壁」という呼称の逸話は史実の出来事と区別して扱う。",
+    "source": "https://www.city.sakuragawa.lg.jp/temporary/page006693.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "yearEvidence": "broad_sengoku_period_no_exact_year",
+    "yearSource": "https://www.city.sakuragawa.lg.jp/temporary/page006693.html",
+    "yearScopeNote": "史跡・人物の関係を紹介するカードで、単一の出来事の発生年は資料で確認できないため年を設定しない。",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0280",
+    "personId": "sg-e00b2631eded",
+    "siteId": "sg-site-nrct-190000052800",
+    "title": "天目山麓の終幕",
+    "summary": "天正10年（1582年）3月、武田勝頼は甲斐国田野で最期を迎えた。景徳院はその後、勝頼らを弔うために建立された寺院であり、現存の墓標そのものを1582年建立のものとは扱わない。",
+    "source": "https://www.yamanashi-kankou.jp/kankou/spot/p1_4543.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1582,
+    "yearEvidence": "prefectural_official_event_year",
+    "yearSource": "https://www.yamanashi-kankou.jp/kankou/spot/p1_4543.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0281",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-nrct-190000052800",
+    "title": "勝頼を弔う寺院",
+    "summary": "甲州市教育委員会によると、徳川家康の命によって武田勝頼親子と家臣の慰霊のため景徳院が創建された。1582年は勝頼の最期の年であり、寺院の創建年と同一視しない。",
+    "source": "https://www.city.koshu.yamanashi.jp/docs/2017051600118/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "yearEvidence": "founding_year_not_confirmed",
+    "yearSource": "https://www.city.koshu.yamanashi.jp/docs/2017051600118/",
+    "chronologyReviewedOn": "2026-10-25",
+    "yearScopeNote": "史跡と人物の関連は公的資料で確認できるが、創建年は参照資料から特定せず年を空欄とした。"
+  },
+  {
+    "id": "sg-card-0282",
+    "personId": "sg-6b9dfe775421",
+    "siteId": "sg-site-nrct-130000329700",
+    "title": "井伊家の菩提寺へ",
+    "summary": "寛永10年（1633年）、世田谷が彦根藩の所領となったことに伴い、井伊直孝の井伊家は弘徳院を菩提寺と定めた。豪徳寺という名称への改称は直孝没後の1659年であり、1633年と区別する。",
+    "source": "https://setagayadigitalmuseum.jp/collection/21755/detail/296529168/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1633,
+    "yearEvidence": "municipal_museum_chronology",
+    "yearSource": "https://setagayadigitalmuseum.jp/collection/21755/detail/296529168/",
+    "chronologyReviewedOn": "2026-10-25",
+    "yearScopeNote": "戦国期の後に当たる江戸初期のカード。ゲームの時代フィルタが戦国期限定なら非表示にすること。"
+  },
+  {
+    "id": "sg-card-0283",
+    "personId": "sg-researched-099-chiba-yoritane",
+    "siteId": "sg-site-akatsuka",
+    "title": "武蔵千葉氏の拠点",
+    "summary": "15世紀半ば、千葉自胤らは下総での戦乱を経て武蔵へ移り、赤塚城を拠点とした。板橋区公式資料は自胤を赤塚城に結びつけている。",
+    "source": "https://www.city.itabashi.tokyo.jp/bousai/kougai/taiki/1053637/1006054.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "chronologyReviewedOn": "2026-10-25",
+    "yearScopeNote": "具体的事象年の裏付けがないためeventYearを設定していない。"
+  },
+  {
+    "id": "sg-card-0284",
+    "personId": "sg-98514cee0056",
+    "siteId": "sg-site-unpoji-koshu",
+    "title": "寺院の再興",
+    "summary": "山梨県の文化財解説によると、室町末期に諸堂を焼失した雲峰寺は武田信虎によって復興され、庫裏はその再建期の遺構とされる。火災年や個々の建築年を断定しない。",
+    "source": "https://www.pref.yamanashi.jp/bunka/bunkazaihogo/bunkazai_data/yamanashinobunkazai_kb0023.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "chronologyReviewedOn": "2026-10-25",
+    "yearScopeNote": "具体的事象年の裏付けがないためeventYearを設定していない。"
+  },
+  {
+    "id": "sg-card-0285",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-unpoji-koshu",
+    "title": "武田家に伝わる軍旗",
+    "summary": "雲峰寺は武田家ゆかりの軍旗類を所蔵する。県指定文化財「孫子の旗」は武田軍の軍旗として記録されており、武田信玄の時代を知る資料の一つである。旗の制作年や信玄本人による使用は断定しない。",
+    "source": "https://www.pref.yamanashi.jp/bunka/bunkazaihogo/bunkazai_data/yamanashinobunkazai_rc0003.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "chronologyReviewedOn": "2026-10-25",
+    "yearScopeNote": "具体的事象年の裏付けがないためeventYearを設定していない。"
+  },
+  {
+    "id": "sg-card-0286",
+    "personId": "sg-c594233cb2b7",
+    "siteId": "sg-site-nrct-130000368700",
+    "title": "川筋の要衝を掌握",
+    "summary": "天文7年（1538）2月、北条氏綱は上杉方が守っていた葛西城を攻略した。城は河川交通を押さえる軍事拠点となった。葛飾区史の記述に基づく。",
+    "source": "https://www.city.katsushika.lg.jp/history/history/2-2-3-100.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1538,
+    "yearSource": "https://www.city.katsushika.lg.jp/history/history/2-2-3-100.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0287",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-erinji",
+    "title": "造像年代を伝える墨書",
+    "summary": "恵林寺所蔵の「武田不動尊」は信玄の姿をモデルにしたと伝わる像で、内部調査によって元亀3年（1572）4月の年記と仏師・康住の銘が確認された。信玄自身が制作を指示したかは伝承として区別する。",
+    "source": "https://www.city.koshu.yamanashi.jp/docs/2021031600012/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1572,
+    "yearSource": "https://www.city.koshu.yamanashi.jp/docs/2021031600012/",
+    "yearScopeNote": "墨書で確認された制作年月を採用。信玄本人の制作指示は未立証の伝承。",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0288",
+    "personId": "sg-e00b2631eded",
+    "siteId": "sg-site-erinji",
+    "title": "菩提寺で営まれた本葬",
+    "summary": "天正4年（1576）4月、武田勝頼が施主となり恵林寺で武田信玄の本葬が営まれた。信玄の没年とは異なる儀礼の年として記録する。",
+    "source": "https://www.yamanashi-kankou.jp.id200959.cas.iijcdn.jp/special/shingen-ko/yukarinochi.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1576,
+    "yearSource": "https://www.yamanashi-kankou.jp.id200959.cas.iijcdn.jp/special/shingen-ko/yukarinochi.html",
+    "yearScopeNote": "葬儀実施年であり死亡年ではない。",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0289",
+    "personId": "sg-e00b2631eded",
+    "siteId": "sg-site-nrct-190000050300",
+    "title": "再起を願った一夜",
+    "summary": "天正10年（1582年）3月3日、武田勝頼は新府城を離れて岩殿城を目指す途中、大善寺に立ち寄り、祈願して一夜を明かしたと寺の縁起に伝わる。寺伝に基づく記録として扱い、当日の詳細すべてを確定史実とはしない。",
+    "source": "https://www.daizenji.org/engi.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1582,
+    "yearSource": "https://www.daizenji.org/engi.html",
+    "yearEvidence": "temple_tradition_corrob_prefectural_route",
+    "yearScopeNote": "寺伝による3月3日の滞在。山梨県の歴史文化資料も勝頼一行の立寄りに言及。",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0290",
+    "personId": "sg-b3e7eb14e624",
+    "siteId": "sg-site-jindaiji",
+    "title": "深大寺城の初期築城",
+    "summary": "扇谷上杉定正は15世紀末、山内上杉氏への対抗のため深大寺城を築造したとされる。調布市の文化財解説は1490年前後を第1期とし、古い空堀の段階に対応させている。正確な築城年は断定しない。",
+    "source": "https://www.city.chofu.lg.jp/100200/p073026.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1490,
+    "eventYearEnd": null,
+    "yearEvidence": "circa",
+    "yearScopeNote": "1490年前後の推定であり、確定年ではない。",
+    "yearSource": "https://www.city.chofu.lg.jp/100200/p073026.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0291",
+    "personId": "sg-27a0e44acb89",
+    "siteId": "sg-site-jindaiji",
+    "title": "深大寺城の再興",
+    "summary": "扇谷上杉朝定は1537年、後北条氏の勢力拡大に対抗するため深大寺城を再興した。調布市の発掘・文献解説では、第2期の空堀がこの再興段階に当たるとされる。",
+    "source": "https://www.city.chofu.lg.jp/100200/p073026.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1537,
+    "eventYearEnd": null,
+    "yearEvidence": "documentary_and_archaeological",
+    "yearSource": "https://www.city.chofu.lg.jp/100200/p073026.html",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0292",
+    "personId": "sg-4c0c12460efa",
+    "siteId": "sg-site-nrct-190000059800",
+    "title": "甲斐の金山と領国経済",
+    "summary": "黒川金山は15世紀末から17世紀にかけて稼働した甲斐の金山で、16世紀に採掘が盛んになった。武田信玄の時代の領国経済と結びつけて語られるが、信玄が金山を直接経営したと断定できる記録は確認されていない。金の産出や利用は、考古資料と地域史料を区別して考える必要がある。",
+    "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0010.html",
+    "secondarySource": "https://www.pref.yamanashi.jp/maizou-bnk/topics/401_500/0469.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "yearEvidence": "broad_operational_period",
+    "eventYear": null,
+    "yearScopeNote": "史跡の稼働年代は15世紀末～17世紀。特定の年や武田信玄による直接経営を意味しない。",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0293",
+    "personId": "sg-person-ushigome-katsuyuki",
+    "siteId": "sg-site-nrct-130000183500",
+    "title": "牛込氏の菩提寺建立",
+    "summary": "宗参寺は、牛込（大胡）重行の一周忌供養のため、嫡男の牛込勝行が1544年に建立したと伝えられる。寺の由緒を伝える歴史地名資料に基づく記述であり、当時の建物がそのまま現存するという意味ではない。",
+    "source": "https://kotobank.jp/word/宗参寺-3043639",
+    "secondarySource": "https://www.city.shinjuku.lg.jp/kanko/file02_00002.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1544,
+    "yearEvidence": "temple_tradition_in_historical_toponymy",
+    "yearScopeNote": "建立年と建立者は歴史地名資料が引用する寺社書上などの寺伝に基づく。"
+  },
+  {
+    "id": "sg-card-0294",
+    "personId": "sg-person-oba-nobuhisa",
+    "siteId": "sg-site-nrct-130000329800",
+    "title": "大場氏の世田谷移住",
+    "summary": "世田谷吉良氏の重臣とされる大場信久とその子が、天正年間の初め頃、現在の世田谷代官屋敷の敷地へ居所を移したと伝えられる。現在残る主屋は18世紀に建てられたもので、戦国期の建物ではない。",
+    "source": "https://museum.bunka.go.jp/wp-content/uploads/2022/12/d00138265.html",
+    "secondarySource": "https://setagayadigitalmuseum.jp/kyoudo/daikan/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "yearEvidence": "traditional_approximate_period",
+    "yearScopeNote": "天正初め頃との伝承で正確な転居年は特定しない。現存建物の建築は1737年頃。"
+  },
+  {
+    "id": "sg-card-0295",
+    "personId": "sg-c654b6b73e86",
+    "siteId": "sg-site-nrct-190000061100",
+    "title": "武田信昌の菩提寺",
+    "summary": "永昌院は武田信昌の菩提寺として伝わり、境内にはその墓が残る。山梨県内の観光・文化財紹介で確認できるが、墓の建立年を信昌の没年と同一視しない。",
+    "source": "https://www.yamanashishi-kankou.com/learn-culture/",
+    "secondarySource": "https://www.yamanashi-kankou.jp/rekitabi/jisha/spot/039.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "yearEvidence": "historical_association_without_precise_event_date",
+    "yearScopeNote": "寺と人物の関連は確認できるが、墓石の造立年・出来事の年は未特定。"
+  },
+  {
+    "id": "sg-card-0296",
+    "personId": "sg-person-kato-kagetada-uenohara",
+    "siteId": "sg-site-nrct-190000017600",
+    "title": "社殿の再営",
+    "summary": "上野原の牛倉神社は、社伝によれば永禄9年（1566）に加藤丹後守景忠が再営したとされる。創建時期は不明であり、現在の社殿がこの時に建てられた建物と同一という意味ではない。",
+    "source": "https://www.yamanashi-jinjacho.or.jp/intro/search/detail/8089",
+    "secondarySource": "https://kotobank.jp/word/%E7%89%9B%E5%80%89%E7%A5%9E%E7%A4%BE-3056821",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1566,
+    "yearEvidence": "shrine_tradition_and_later_records",
+    "yearScopeNote": "神社庁の由緒に永禄9年再営と記載。史料は伝承・棟札写を含み、現存社殿の造営年ではない。",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0297",
+    "personId": "sg-person-takeda-nobushige-15c",
+    "siteId": "sg-site-nrct-190000100300",
+    "title": "甲斐守護の居館伝承",
+    "summary": "現在の笛吹市石和町小石和に残る武田信重館跡は、甲斐守護・武田信重の館があった場所と伝えられる。『甲斐国志』は周囲の堀や土塁の伝承を記し、周辺には館を中心とした集落の痕跡を示す地名が伝わる。館の築造年は確定していない。",
+    "source": "https://kotobank.jp/word/%E6%AD%A6%E7%94%B0%E4%BF%A1%E9%87%8D%E9%A4%A8%E8%B7%A1-3057274",
+    "secondarySource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000100300.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "yearEvidence": "historical_toponym_and_later_compilation",
+    "yearScopeNote": "日本歴史地名大系に記載された館跡の伝承。年代の確定なし。",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0298",
+    "personId": "sg-person-kira-yoriyasu",
+    "siteId": "sg-site-nrct-140000016100",
+    "title": "泉澤寺の現在地での再興",
+    "summary": "戦国時代の吉良氏の菩提所であった泉澤寺は、もと多摩郡烏山に置かれていたが、焼失後、吉良頼康により現在の川崎市中原区上小田中の地で再興された。川崎市の文化財案内は天文19年（1550）と記す一方、同市の泉澤寺文書解説は天文18年（1549）と記しており、再興年には資料間の差がある。",
+    "source": "https://www.city.kawasaki.jp/880/page/0000000056.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": null,
+    "yearEvidence": "official_sources_disagree_1549_1550",
+    "yearScopeNote": "市の二つのページに年号差があるため、出来事の年は暫定未設定。",
+    "chronologyReviewedOn": "2026-10-25",
+    "secondarySource": "https://www.city.kawasaki.jp/880/page/0000000720.html"
+  },
+  {
+    "id": "sg-card-0299",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-nrct-140000016100",
+    "title": "泉澤寺への寺領寄進",
+    "summary": "泉澤寺について、浄土宗の寺院事典は天正20年（1592）に徳川家康から朱印地20石を与えられたと記している。これは泉澤寺の再興より後の出来事で、現在の本堂が当時から残るという意味ではない。",
+    "source": "https://jodoshuzensho.jp/daijiten/index.php/%E6%B3%89%E6%B2%A2%E5%AF%BA",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1592,
+    "yearEvidence": "denominational_historical_reference",
+    "yearScopeNote": "寺院事典に1592年の朱印地寄進が記載。",
+    "chronologyReviewedOn": "2026-10-25",
+    "secondarySource": "https://www.city.kawasaki.jp/880/page/0000000720.html"
+  },
+  {
+    "id": "sg-card-0300",
+    "personId": "sg-a7bb09927601",
+    "siteId": "sg-site-nrct-130000177100",
+    "title": "善國寺の創建",
+    "summary": "新宿区の観光振興協会によれば、善國寺は徳川家康の命を受けて文禄4年（1595）に日本橋馬喰町付近で創建された。現在の神楽坂に移ったのは後世であり、1595年に現在地で創建したという意味ではない。",
+    "source": "https://www.kanko-shinjuku.jp/spot/vi-100/article_2796.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1595,
+    "yearEvidence": "official_tourism_history",
+    "yearScopeNote": "創建年と現在地への移転時期を明確に区別。",
+    "chronologyReviewedOn": "2026-10-25",
+    "secondarySource": "https://www.gotokyo.org/jp/spot/1000/index.html"
+  },
+  {
+    "id": "sg-card-0301",
+    "personId": "sg-5d169413d357",
+    "siteId": "sg-site-nrct-130000369700",
+    "title": "葛西神社に残る浅野長吉の書状",
+    "summary": "葛飾区史によると、天正18年（1590）、浅野長吉（のちの浅野長政）は葛西地域の香取宮（現在の葛西神社）に対する朱印状の取り次ぎに関与し、同社には長吉の書状が伝わる。書状は当時の地域寺社と政権との関係を示す資料である。",
+    "source": "https://www.city.katsushika.lg.jp/history/history/2-3-1-112.html",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1590,
+    "yearEvidence": "municipal_history_record",
+    "yearScopeNote": "現在の葛西神社と当時の香取宮を区別した表現。",
+    "chronologyReviewedOn": "2026-10-25"
+  },
+  {
+    "id": "sg-card-0302",
+    "personId": "sg-7c350c62d250",
+    "siteId": "sg-site-nerima-castle",
+    "title": "文明九年の城攻め",
+    "summary": "文明9年（1477年）、太田道灌は豊島氏の練馬城を攻め、周辺での戦闘へつながった。豊島氏をめぐる伝承・史料解釈には諸説があるため、落城の詳細や関係者の生死は断定しない。",
+    "source": "https://www.nerima-archives.jp/column/3438/",
+    "verification": "reviewed",
+    "unlockRule": "same_town_polygon",
+    "eventYear": 1477,
+    "yearSource": "https://www.nerima-archives.jp/column/3438/",
+    "chronologyReviewedOn": "2026-10-25",
+    "sourceLicenseNote": "歴史記述は確認資料に基づく独自要約。地理座標は練馬区CC BY 4.0のCSVによる。"
   }
 ]
