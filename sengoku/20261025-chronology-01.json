@@ -1,0 +1,472 @@
+{
+  "updates": {
+    "cards": [
+      {
+        "id": "sg-card-0005",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://odawaracastle.com/history/hojo-godai/"
+      },
+      {
+        "id": "sg-card-0006",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://odawaracastle.com/history/hojo-godai/"
+      },
+      {
+        "id": "sg-card-0011",
+        "eventYear": 1581,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/3/1344.html"
+      },
+      {
+        "id": "sg-card-0015",
+        "eventYear": 1569,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
+      },
+      {
+        "id": "sg-card-0047",
+        "eventYear": 1546,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
+      },
+      {
+        "id": "sg-card-0124",
+        "eventYear": 1582,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/3/1344.html"
+      },
+      {
+        "id": "sg-card-0125",
+        "eventYear": 1581,
+        "eventYearEnd": 1582,
+        "yearEvidence": "confirmed_event_range",
+        "yearSource": "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/3/1344.html"
+      },
+      {
+        "id": "sg-card-0128",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+      },
+      {
+        "id": "sg-card-0129",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+      },
+      {
+        "id": "sg-card-0133",
+        "eventYear": 1583,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-0136",
+        "eventYear": 1600,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-0141",
+        "eventYear": 1583,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-0162",
+        "eventYear": 1582,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://odawaracastle.com/history/hojo-godai/"
+      },
+      {
+        "id": "sg-card-0163",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://odawaracastle.com/history/hojo-godai/"
+      },
+      {
+        "id": "sg-card-0165",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://odawaracastle.com/history/hojo-godai/"
+      },
+      {
+        "id": "sg-card-0166",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+      },
+      {
+        "id": "sg-card-0167",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+      },
+      {
+        "id": "sg-card-0168",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+      },
+      {
+        "id": "sg-card-0169",
+        "eventYear": 1583,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-0170",
+        "eventYear": 1585,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-0171",
+        "eventYear": 1585,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-0172",
+        "eventYear": 1600,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-0173",
+        "eventYear": 1600,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-0207",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://odawaracastle.com/history/hojo-godai/"
+      },
+      {
+        "id": "sg-card-0212",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+      },
+      {
+        "id": "sg-card-0215",
+        "eventYear": 1457,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
+      },
+      {
+        "id": "sg-card-0217",
+        "eventYear": 1537,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
+      },
+      {
+        "id": "sg-card-0219",
+        "eventYear": 1546,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
+      },
+      {
+        "id": "sg-card-0223",
+        "eventYear": 1569,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
+      },
+      {
+        "id": "sg-card-0227",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+      },
+      {
+        "id": "sg-card-0228",
+        "eventYear": 1583,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-0232",
+        "eventYear": 1626,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-0233",
+        "eventYear": 1600,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-0236",
+        "eventYear": 1569,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://odawaracastle.com/history/hojo-godai/"
+      },
+      {
+        "id": "sg-card-0237",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://odawaracastle.com/history/hojo-godai/"
+      },
+      {
+        "id": "sg-card-v074-001",
+        "eventYear": 1457,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
+      },
+      {
+        "id": "sg-card-v074-002",
+        "eventYear": 1537,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
+      },
+      {
+        "id": "sg-card-v074-003",
+        "eventYear": 1546,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
+      },
+      {
+        "id": "sg-card-v074-005",
+        "eventYear": 1546,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
+      },
+      {
+        "id": "sg-card-v074-006",
+        "eventYear": 1576,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html"
+      },
+      {
+        "id": "sg-card-v074-010",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+      },
+      {
+        "id": "sg-card-v074-011",
+        "eventYear": 1590,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
+      },
+      {
+        "id": "sg-card-v074-012",
+        "eventYear": 1600,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html"
+      },
+      {
+        "id": "sg-card-v074-014",
+        "eventYear": 1569,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://odawaracastle.com/history/hojo-godai/"
+      },
+      {
+        "id": "sg-card-v074-015",
+        "eventYear": 1561,
+        "yearEvidence": "confirmed_event_year",
+        "yearSource": "https://odawaracastle.com/history/hojo-godai/"
+      }
+    ],
+    "links": [
+      {
+        "id": "link-sg-site-odawara--sg-025ab3a6ee3f",
+        "eventYears": [
+          1569,
+          1590
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-odawara--sg-3e72ce5a7fa9",
+        "eventYears": [
+          1582,
+          1590
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-odawara--sg-f47391608dbb",
+        "eventYears": [
+          1590
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-hachioji--sg-fc948f16832f",
+        "eventYears": [
+          1590
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-shinpu--sg-e00b2631eded",
+        "eventYears": [
+          1581,
+          1582
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-takiyama--sg-4c0c12460efa",
+        "eventYears": [
+          1569
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-kawagoe--sg-a77cd1aa75f3",
+        "eventYears": [
+          1546
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-ueda--sg-61b29c703206",
+        "eventYears": [
+          1583,
+          1585
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-shinpu--sg-a7bb09927601",
+        "eventYears": [
+          1582
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-hachioji--sg-334f0ad961e2",
+        "eventYears": [
+          1590
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-ueda--sg-a7bb09927601",
+        "eventYears": [
+          1583
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-ueda--sg-334f0ad961e2",
+        "eventYears": [
+          1585
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-ueda--sg-b9bb61125a1b",
+        "eventYears": [
+          1600
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-kawagoe--sg-7c350c62d250",
+        "eventYears": [
+          1457
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-kawagoe--sg-c594233cb2b7",
+        "eventYears": [
+          1537
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-kawagoe--sg-22f595e1c616",
+        "eventYears": [
+          1546
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-kawagoe--sg-ee846a9ff8ae",
+        "eventYears": [
+          1546
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-kawagoe--sg-025ab3a6ee3f",
+        "eventYears": [
+          1576
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-hachioji--sg-f47391608dbb",
+        "eventYears": [
+          1590
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-hachioji--sg-025ab3a6ee3f",
+        "eventYears": [
+          1590
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-ueda--sg-451ea10bcb24",
+        "eventYears": [
+          1600
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-odawara--sg-4c0c12460efa",
+        "eventYears": [
+          1569
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-odawara--sg-dc8c550d8769",
+        "eventYears": [
+          1561
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-odawara--sg-4f1942dd8d61",
+        "eventYears": [
+          1590
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-hachioji--sg-added-maeda-toshiie",
+        "eventYears": [
+          1590
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-kawagoe--sg-reviewed-1c74f86254a2",
+        "eventYears": [
+          1457
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      },
+      {
+        "id": "link-sg-site-ueda--sg-reviewed-60f6420feed4",
+        "eventYears": [
+          1626
+        ],
+        "yearEvidence": "derived_from_dated_cards"
+      }
+    ]
+  }
+}
