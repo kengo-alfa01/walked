@@ -3064,5 +3064,21 @@
     "coordinateVerification": "published_point",
     "researchStatus": "site_verified_person_pending",
     "note": "新規地点。史実の直接人物リンクを確認していない場合はカード未発行。町丁判定はGitHub Actions生成後に実機確認。"
+  },
+  {
+    "id": "sg-site-tomyoji-kawagoe",
+    "name": "東明寺・川越合戦跡",
+    "point": [
+      139.484827,
+      35.9286264
+    ],
+    "municipalityCode": "11201",
+    "region": "埼玉県川越市志多町付近",
+    "verification": "reviewed",
+    "researchStatus": "person_verified",
+    "coordinateSource": "https://mapfan.com/spots/SWQY%2CJ%2C8YJR0",
+    "coordinateVerification": "modern_temple_map_point",
+    "historySource": "https://www.city.kawagoe.saitama.jp/shisei/toshikei/1010554/1010635/1010678/1010684/1010688.html",
+    "note": "市の史跡案内と現存寺院の現代地図座標を別々に照合。史実の河越夜戦の細部は再検討があり、夜間奇襲などを確定史実としない。実機での町丁一致は未確認。"
   }
 ]
