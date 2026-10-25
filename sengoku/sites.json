@@ -2984,5 +2984,85 @@
     "coordinateVerification": "published_poi_at_access_temple",
     "researchStatus": "person_verified",
     "note": "座標は浄福寺（下恩方町3259）の代表点。城の主郭・史跡範囲を指す座標ではない。八王子市は城跡を寺の裏山一帯と説明し、氏照の入城先には諸説ある。"
+  },
+  {
+    "id": "sg-site-daisenji-kofu",
+    "name": "大泉寺",
+    "point": [
+      138.580048,
+      35.675903
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市古府中町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000083100.html",
+    "historySource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0004.html",
+    "coordinateVerification": "published_point",
+    "researchStatus": "person_verified",
+    "note": "新規地点。史実の直接人物リンクを確認していない場合はカード未発行。町丁判定はGitHub Actions生成後に実機確認。"
+  },
+  {
+    "id": "sg-site-enko-in-kofu",
+    "name": "円光院",
+    "point": [
+      138.586563,
+      35.682869
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市岩窪町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000083400.html",
+    "historySource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0010.html",
+    "coordinateVerification": "published_point",
+    "researchStatus": "person_verified",
+    "note": "新規地点。史実の直接人物リンクを確認していない場合はカード未発行。町丁判定はGitHub Actions生成後に実機確認。"
+  },
+  {
+    "id": "sg-site-katsunuma-ome",
+    "name": "勝沼城跡（青梅）",
+    "point": [
+      139.2744,
+      35.7954222
+    ],
+    "municipalityCode": "13205",
+    "region": "東京都青梅市東青梅",
+    "verification": "reviewed",
+    "coordinateSource": "https://ja.wikipedia.org/wiki/%E5%8B%9D%E6%B2%BC%E5%9F%8E",
+    "historySource": "https://www.city.ome.tokyo.jp/site/provincial-history-museum/2956.html",
+    "coordinateVerification": "secondary_point_check_required",
+    "researchStatus": "person_verified",
+    "note": "新規地点。史実の直接人物リンクを確認していない場合はカード未発行。町丁判定はGitHub Actions生成後に実機確認。"
+  },
+  {
+    "id": "sg-site-sugiyama-ranzan",
+    "name": "杉山城跡",
+    "point": [
+      139.312093,
+      36.062639
+    ],
+    "municipalityCode": "11342",
+    "region": "埼玉県比企郡嵐山町",
+    "verification": "site_verified",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000172700.html",
+    "historySource": "https://www.ranzan-kanko.jp/castle",
+    "coordinateVerification": "published_point",
+    "researchStatus": "site_verified_person_pending",
+    "note": "新規地点。史実の直接人物リンクを確認していない場合はカード未発行。町丁判定はGitHub Actions生成後に実機確認。"
+  },
+  {
+    "id": "sg-site-yato-hokuto",
+    "name": "谷戸城跡",
+    "point": [
+      138.386016,
+      35.856665
+    ],
+    "municipalityCode": "19209",
+    "region": "山梨県北杜市大泉町谷戸",
+    "verification": "site_verified",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000142500.html",
+    "historySource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0009.html",
+    "coordinateVerification": "published_point",
+    "researchStatus": "site_verified_person_pending",
+    "note": "新規地点。史実の直接人物リンクを確認していない場合はカード未発行。町丁判定はGitHub Actions生成後に実機確認。"
   }
 ]
