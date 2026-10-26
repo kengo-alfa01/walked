@@ -1,5 +1,5 @@
 {
-  "scope": "22 people with partial field-specific content review, including 17 independently rewritten biographies; zero all-field historical audits",
+  "scope": "34 people with partial field-specific content review; 29 independently rewritten biographies; zero all-field historical audits. Delta 612 to 624: twelve added people, twelve biography content checks.",
   "people": {
     "551": {
       "biography": "尾張を統一し、美濃を攻略して京都へ進出した戦国大名。足利義昭を追放するなど天下統一を進めたが、1582年、本能寺で明智光秀の襲撃を受けて自刃した。",
@@ -407,6 +407,255 @@
       "masterEvidenceSha256": "558762a8cf2b42691a3423bac1acbc14e47fbe9a67ae837ee58615f3aab3467d",
       "additionalBirthCandidates": [
         1593
+      ]
+    },
+    "1442": {
+      "biography": "徳川家康に仕えた武将。関ヶ原の戦いに先立つ伏見城の戦いで守備に当たり、落城時に命を落とした。後世、元忠らの自刃と結び付けられた血天井の伝承が各地の寺に残る。",
+      "sources": [
+        "https://id.ndl.go.jp/auth/ndlna/00800190",
+        "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/nenpyou/htmlsheet/toshi20.html"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified",
+        "birth": "verified",
+        "death": "verified"
+      },
+      "note": "NDL典拠で1539-1600と通称彦右衛門、本姓平を確認。本姓「平」を通称として扱わない。血天井は京都市が紹介する伝承として限定。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "d4180e4e637e22d7d4475229c551f649d3b39921dfc36fd51653e1e4c461709f",
+      "verifiedAliases": [
+        "彦右衛門"
+      ]
+    },
+    "1469": {
+      "biography": "摂津の茨木城主。織田信長に帰順し、その死後は羽柴秀吉方として賤ヶ岳の戦いに加わった。大岩山砦を守る中で佐久間盛政の攻撃を受け、1583年に没した。",
+      "sources": [
+        "https://www.city.taketa.oita.jp/bunka_rekishi_kanko/yugakukan/arekore/13112.html",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000342461&page=ref_view"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified",
+        "death": "verified"
+      },
+      "note": "竹田市歴史文化館の解説を本文確認。茨木城主就任年は資料間で異なるため略歴に採らない。誕生年1542は今回未照合。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "644d6323eaff03d65333d0c45ba9bc1b730aa28736f3ac1d1ae56ba836b29b66"
+    },
+    "1487": {
+      "biography": "上野の箕輪城を拠点とした長野氏の武将。高崎市の解説では、業政の時代に武田信玄の攻撃をたびたび防いだとされる。業正とも表記され、箕輪城をめぐる地域史に名を残す。",
+      "sources": [
+        "https://www.city.takasaki.gunma.jp/site/sightseeing/6449.html",
+        "https://www.city.takasaki.gunma.jp/site/cultural-assets/6450.html"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified",
+        "birth": "disputed",
+        "identity": "partially_verified"
+      },
+      "note": "高崎市は「業政」表記を用いる。1491／1499の生年は選択しない。1566年の箕輪落城を業正本人の戦死年と混同しない。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "71fb48d5db9f3c03e56bc4f9b4f598bab875f12acb0bd59fa92e65e22e69f87e",
+      "verifiedAliases": [
+        "長野業政"
+      ]
+    },
+    "1493": {
+      "biography": "豊臣方の武将として駿府城主となり、駿河の支配を担った。1590年に徳川家康が関東へ移った後の駿府を治め、豊臣政権下の地域支配を伝える文書にもその名が残る。",
+      "sources": [
+        "https://www.city.shizuoka.lg.jp/s6725/s005255.html",
+        "https://jmapps.ne.jp/shizuokalg/det.html?data_id=2175"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "note": "静岡市の城遺構案内で1590年の入城を本文確認。博物館の秀次朱印状は一氏宛の資料。生年不詳を推測で補わない。既存カード1枚との関係を参照用から採用人物へ戻す。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "50cfc2339735b61d2cdfec8e024e0c6ca851fc43c38458e1f752780f10315d34"
+    },
+    "1502": {
+      "biography": "蒲生氏や森氏に仕えた武将で、九右衛門とも呼ばれた。森忠政のもとで活動したが、1603年、院庄で同じ家中の井戸宇右衛門と争い命を落としたと伝わる。",
+      "sources": [
+        "https://ja.wikipedia.org/wiki/%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B1%B1%E4%B8%89%E9%83%8E",
+        "https://ja.wikipedia.org/w/index.php?oldid=110835962"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified",
+        "birth": "disputed",
+        "death": "secondary_source_checked"
+      },
+      "note": "Wikipedia本文を確認した二次資料による要約。NDLレファレンス候補の本文取得は未達。1572／1576を統合しない。出雲阿国の夫・歌舞伎の祖という伝承は事績として断定しない。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "3ed3f5e322db42829130db0bab8217f8b50d7bd00a43407d21cc16caa6c4756b",
+      "verifiedAliases": [
+        "九右衛門",
+        "宗円",
+        "織田九右衛門"
+      ]
+    },
+    "1510": {
+      "biography": "佐賀藩の初代藩主。鍋島家に伝来した高級な色絵磁器などを菩提寺の高伝寺へ寄進した。佐賀藩主家と肥前の磁器文化の結び付きを示す資料が現在も伝えられている。",
+      "sources": [
+        "https://www.pref.saga.lg.jp/kiji0031597/index.html"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified",
+        "birth": "verified",
+        "death": "verified"
+      },
+      "note": "佐賀県の文化財解説で初代藩主、1580-1657、高伝寺への寄進を本文確認。城拡張・分封の元略歴は市計画の追加精査対象として保持し、新略歴へ未照合で転記しない。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "2d41072bafab1c11da2f0fc7e45085f86e99b98a9b7d1f479dbf80e8ccb2b8a5"
+    },
+    "1535": {
+      "biography": "徳川家康の信任を受け、川越の喜多院の中興に尽くした天台宗の僧。北院を喜多院へ改め、江戸の上野には寛永寺を創建した。徳川将軍家の仏教政策に関わった人物として知られる。",
+      "sources": [
+        "https://www.city.kawagoe.saitama.jp/kurashi/bunka/1003787/1003798/1003884/1003885/1003895.html",
+        "https://www.city.kawagoe.saitama.jp/kanko/k-spots/1011583/1011584.html"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified",
+        "birth": "disputed",
+        "identity": "partially_verified"
+      },
+      "note": "川越市の解説で喜多院中興・寛永寺創建を確認。天海＝明智光秀という伝説は採用しない。1536は疑問符付きの従来説として保持し、確定年にしない。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "3028c2b3e87f842f822aa5d8ad52c02865dbae2df637c03b71c6dc9fcbe793a1",
+      "verifiedAliases": [
+        "天海"
+      ]
+    },
+    "1556": {
+      "biography": "島津氏に仕え、大口の地頭を務めた武将。地域では武勇と知略に優れた人物として顕彰されている。没後、幕末に創建された忠元神社の祭神となり、現在もその名が伝えられる。",
+      "sources": [
+        "https://www.kagojinjacho.or.jp/shrine-search/area-airaisa/%E4%BC%8A%E4%BD%90%E5%B8%82/884/"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "note": "鹿児島県神社庁の由緒本文を確認。伊佐市の人物解説はメンテナンス画面へ転送されたため今回の本文確認に数えない。神社由緒による評価と事実を区別。生没年の独立照合は継続。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "ab53068483b21ad4e22edfed9c05abe15134004ea1f537583002d90932e5c510"
+    },
+    "1631": {
+      "biography": "丹波の八上城を拠点とした武将。明智光秀の丹波攻略に抵抗したが、1579年に降伏した。亀岡市の史跡解説では、その後に安土へ送られて処刑されたと伝えられる。",
+      "sources": [
+        "https://www.city.kameoka.kyoto.jp/site/kirin/1264.html",
+        "https://www.city.kameoka.kyoto.jp/site/kirin/1287.html"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "note": "亀岡市の史跡解説に即した事績。降伏から処刑までの伝承の細部や光秀の母との人質交換説は採用しない。生年不詳を維持。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "0e4e9b6936271757a2b072f5b3fd17200d9564fe792e6f3a9969d1b9156aee0e"
+    },
+    "1640": {
+      "biography": "徳川家康に仕え、本能寺の変後の伊賀越えに同行した武将。一般に正成を指すが、半蔵は子の正就や正重にも継承された通称である。伊賀越えでの具体的な活躍には史料上の議論がある。",
+      "sources": [
+        "https://www.bunka.pref.mie.lg.jp/rekishi/kenshi/asp/Q_A/detail124.html",
+        "https://www.human.mie-u.ac.jp/kenkyu/ken-prj/iga/kouza/2025/2025-7.html"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified",
+        "identity": "provisional_masanari_not_all_hanzo_holders",
+        "death": "verified"
+      },
+      "note": "戦国人物の服部半蔵を通常の服部正成として暫定同定。三重県の解説自体が伊賀越えでの具体的活躍を史料上未確認と注意するため忍者集団を率いた英雄譚を断定しない。同県資料の「天文十二年（1542）」は和暦・西暦が不整合のため、生年は候補にとどめる。半蔵正就・正重とは別人物。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "474dc11e1473357659109b5e11ec05391f6a28e5c41517696f556a4893bcface",
+      "verifiedAliases": [
+        "服部正成"
+      ],
+      "additionalBirthCandidates": [
+        1542
+      ],
+      "confirmedDeathValue": 1596
+    },
+    "1651": {
+      "biography": "徳川将軍家に仕えた朱子学者で、信勝・道春とも称した。将軍への学問の講義に加え、外交や制度を検討するための調査にも関わり、江戸幕府の学問と行政を支えた。",
+      "sources": [
+        "https://www.tamagawa.ac.jp/museum/archive/2009/207.html",
+        "https://www.archives.go.jp/exhibition/jousetsu_25_6.html"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified",
+        "birth": "verified",
+        "death": "verified",
+        "identity": "partially_verified"
+      },
+      "note": "玉川大学教育博物館と国立公文書館で1583-1657と事績を確認。原本の「未確認」をゲーム用の独立要約へ補充。原本は変更しない。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "41d3eb6de809422ef37e231ee072def57737f9fd9cfb8669c4b7ca5a3ab27885",
+      "verifiedAliases": [
+        "林信勝",
+        "林道春"
+      ]
+    },
+    "1890": {
+      "biography": "徳川家康の嫡男で岡崎城主となった武将。徳川信康とも呼ばれる。1579年に遠江の二俣城で自刃し、没後に描かれた肖像画が、岡崎市指定の文化財として伝えられている。",
+      "sources": [
+        "https://www.city.okazaki.lg.jp/bunka/torikumi_bunka/1004568/1004592/1004640/1011712.html",
+        "https://www.city.hamamatsu.shizuoka.jp/bunkazai/news/documents/hutamatatobayama.html"
+      ],
+      "fieldStatus": {
+        "name": "verified",
+        "biography": "verified",
+        "sourceRelevance": "partially_verified",
+        "birth": "verified",
+        "death": "verified",
+        "identity": "partially_verified"
+      },
+      "note": "岡崎市の「徳川信康像」と浜松市の「松平信康」の解説で人物を照合。旧データの徳川信康・松平信康の2 IDを継承先1人へ対応。自刃の動機を単一説に決めない。",
+      "reviewedOn": "2026-10-26",
+      "reviewBatch": "selection-delta-612-to-624",
+      "method": "Read cited source text; original 50-100-character factual summary. Independent content check is partial; full alias, historical identity and commercial reuse review remains open.",
+      "masterEvidenceSha256": "400ebb02d350e10b51d1b444703c896209c506b220373856cb9b1d8b718a3c50",
+      "verifiedAliases": [
+        "徳川信康"
       ]
     }
   },

@@ -882,8 +882,8 @@
   {
     "oldId": "sg-9fbc26efe075",
     "oldName": "徳川信康",
-    "newId": null,
-    "status": "not_in_selected_master",
+    "newId": "sg-627bbb0204ca",
+    "status": "mapped_selected",
     "referenceArchive": false,
     "historicalIdentityStatus": "unverified",
     "cardCount": 0,
@@ -962,8 +962,8 @@
   {
     "oldId": "sg-627bbb0204ca",
     "oldName": "松平信康",
-    "newId": null,
-    "status": "excluded_by_H",
+    "newId": "sg-627bbb0204ca",
+    "status": "mapped_selected",
     "referenceArchive": false,
     "historicalIdentityStatus": "unverified",
     "cardCount": 0,
@@ -1302,8 +1302,8 @@
   {
     "oldId": "sg-76cf3b1e8681",
     "oldName": "鳥居元忠",
-    "newId": null,
-    "status": "excluded_by_H",
+    "newId": "sg-76cf3b1e8681",
+    "status": "mapped_selected",
     "referenceArchive": false,
     "historicalIdentityStatus": "unverified",
     "cardCount": 0,
@@ -4202,8 +4202,8 @@
   {
     "oldId": "sg-0e4dd744efcf",
     "oldName": "新納忠元",
-    "newId": null,
-    "status": "excluded_by_H",
+    "newId": "sg-0e4dd744efcf",
+    "status": "mapped_selected",
     "referenceArchive": false,
     "historicalIdentityStatus": "unverified",
     "cardCount": 0,
@@ -4782,8 +4782,8 @@
   {
     "oldId": "sg-f2c2e2122e74",
     "oldName": "南光坊天海",
-    "newId": null,
-    "status": "excluded_by_H",
+    "newId": "sg-f2c2e2122e74",
+    "status": "mapped_selected",
     "referenceArchive": false,
     "historicalIdentityStatus": "unverified",
     "cardCount": 0,
@@ -5072,9 +5072,9 @@
   {
     "oldId": "sg-researched-095-nakamura-kazuuji",
     "oldName": "中村一氏",
-    "newId": null,
-    "status": "excluded_by_H",
-    "referenceArchive": true,
+    "newId": "sg-researched-095-nakamura-kazuuji",
+    "status": "mapped_selected",
+    "referenceArchive": false,
     "historicalIdentityStatus": "unverified",
     "cardCount": 1,
     "linkCount": 1

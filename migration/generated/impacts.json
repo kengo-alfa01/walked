@@ -2147,7 +2147,7 @@
     "siteId": "sg-site-sunpu",
     "oldPersonId": "sg-researched-095-nakamura-kazuuji",
     "newPersonId": "sg-researched-095-nakamura-kazuuji",
-    "action": "legacy_archive",
+    "action": "unchanged_selected",
     "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
   },
   {
@@ -4316,7 +4316,7 @@
     "siteId": "sg-site-sunpu",
     "oldPersonId": "sg-researched-095-nakamura-kazuuji",
     "newPersonId": "sg-researched-095-nakamura-kazuuji",
-    "action": "legacy_archive",
+    "action": "unchanged_selected",
     "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
   },
   {

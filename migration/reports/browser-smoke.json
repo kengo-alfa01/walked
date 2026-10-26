@@ -4,7 +4,7 @@
       "label": "small",
       "width": 320,
       "engine": "Playwright WebKit Linux; not iOS",
-      "renderedPeople": 612,
+      "renderedPeople": 624,
       "horizontalOverflow": false,
       "aliasSearch": "pass",
       "acquisition": {
@@ -22,7 +22,7 @@
       "label": "iPhone-SE-width",
       "width": 375,
       "engine": "Playwright WebKit Linux; not iOS",
-      "renderedPeople": 612,
+      "renderedPeople": 624,
       "horizontalOverflow": false,
       "aliasSearch": "pass",
       "acquisition": {
@@ -40,7 +40,7 @@
       "label": "iPhone16-Safari-like",
       "width": 393,
       "engine": "Playwright WebKit Linux; not iOS",
-      "renderedPeople": 612,
+      "renderedPeople": 624,
       "horizontalOverflow": false,
       "aliasSearch": "pass",
       "acquisition": {
@@ -58,7 +58,7 @@
       "label": "iPhone16-Chrome-UA",
       "width": 393,
       "engine": "Playwright WebKit Linux; not iOS",
-      "renderedPeople": 612,
+      "renderedPeople": 624,
       "horizontalOverflow": false,
       "aliasSearch": "pass",
       "acquisition": {
@@ -76,7 +76,7 @@
       "label": "large-phone",
       "width": 430,
       "engine": "Playwright WebKit Linux; not iOS",
-      "renderedPeople": 612,
+      "renderedPeople": 624,
       "horizontalOverflow": false,
       "aliasSearch": "pass",
       "acquisition": {

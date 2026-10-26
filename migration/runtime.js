@@ -3,6 +3,7 @@
 'use strict';
 const normalize=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').toLocaleLowerCase('ja');
 function matches(person,query){const q=normalize(query);return !q||[person.name,person.reading,person.group,...(person.aliases||[]),...(person.aliasCandidates||[])].some(s=>normalize(s).includes(q));}
+function yearLabel(date){return date.status==='verified'&&Number.isInteger(date.value)&&String(date.value)!==date.raw?date.value+'（資料確認／正本：'+date.raw+'）':date.raw;}
 function validate(data){
  const {people,archive,sites,links,cards}=data;
  for(const rows of [people,archive,sites,links,cards]){
@@ -32,6 +33,6 @@ function restore(data){
  // Keep unknown/future card IDs too; displaying them remains subject to eligibility.
  return {visited,found};
 }
-root.WalkedMigration={normalize,matches,validate,backup,restore};
+root.WalkedMigration={normalize,matches,yearLabel,validate,backup,restore};
 if(typeof module!=='undefined')module.exports=root.WalkedMigration;
 })(typeof globalThis!=='undefined'?globalThis:this);

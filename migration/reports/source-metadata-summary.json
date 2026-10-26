@@ -1,8 +1,8 @@
 {
-  "uniqueUrlsAttempted": 1331,
-  "http200": 1331,
+  "uniqueUrlsAttempted": 1358,
+  "http200": 1358,
   "unavailableOrNon200": 0,
-  "peopleCovered": 612,
+  "peopleCovered": 624,
   "sharedWikipediaArticleGroups": 0,
   "historicallyVerifiedByThisAudit": 0,
   "note": "An unavailable URL may be a transient timeout, network or encoding issue. It is not evidence the source or person does not exist."

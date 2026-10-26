@@ -422,6 +422,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://id.ndl.go.jp/auth/ndlna/00800190",
+      "status": 200,
+      "finalUrl": "https://id.ndl.go.jp/auth/ndlna/00800190",
+      "contentType": "text/html; charset=utf-8",
+      "title": "鳥居, 元忠, 1539-1600 - Web NDL Authorities",
+      "sampleSha256": "7114943f301822c0dcefefc8c0ba7ed4435a6d315c2b0e2a8aa31891d5bc4596",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://id.ndl.go.jp/auth/ndlna/00839597",
       "status": 200,
       "finalUrl": "https://id.ndl.go.jp/auth/ndlna/00839597",
@@ -3002,6 +3012,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/w/index.php?oldid=110059274",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=110059274",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "新納忠元 - Wikipedia",
+      "sampleSha256": "cc36c2f27f48826022a00d32e1bab3d084959cb262a3bc6c6d816a09b05ae7b8",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/w/index.php?oldid=110090023",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=110090023",
@@ -3602,6 +3622,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/w/index.php?oldid=110620281",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=110620281",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "長野業正 - Wikipedia",
+      "sampleSha256": "bf7a412cd5c7c97700f7890804a2af2b50079dd7f678f24bdaed340eb63038b9",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/w/index.php?oldid=110630079",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=110630079",
@@ -4002,6 +4032,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/w/index.php?oldid=110835962",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=110835962",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "名古屋山三郎 - Wikipedia",
+      "sampleSha256": "39a4afd837771243e3ae45ed24d4fdd68875d652a5b355c6707acc76fb5d3fdf",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/w/index.php?oldid=110859850",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=110859850",
@@ -4178,6 +4218,16 @@
       "contentType": "text/html; charset=UTF-8",
       "title": "荒木村重 - Wikipedia",
       "sampleSha256": "f72ae5843b9eb2fbc129be3aa52c7cc452bfc4b169e5d31ce3eeb2695aebd247",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/index.php?oldid=110955313",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=110955313",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "松平信康 - Wikipedia",
+      "sampleSha256": "9e4b03261d5088f0754e028437b8a3381abeb79db4e1185ca38df92721e35171",
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     },
@@ -4522,6 +4572,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/w/index.php?oldid=111110404",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=111110404",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "中川清秀 - Wikipedia",
+      "sampleSha256": "1ef1f650ddac48e573c3e12082fb3478c2432c5144ace321c1cc64fb6ceed122",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/w/index.php?oldid=111110649",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=111110649",
@@ -4722,6 +4782,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/w/index.php?oldid=111156567",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=111156567",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "天海 - Wikipedia",
+      "sampleSha256": "75ac462d3b1dfd249a5d5d89e2f566b8c62a33f5cbae85c42e098b4bf1002dc0",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/w/index.php?oldid=111160352",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=111160352",
@@ -4768,6 +4838,16 @@
       "contentType": "text/html; charset=UTF-8",
       "title": "小出吉親 - Wikipedia",
       "sampleSha256": "41dc6a443dc8964bde55e27bb63cce39c01b3ccf7309030c1bb188259abe56ca",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/index.php?oldid=111178397",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=111178397",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "波多野秀治 - Wikipedia",
+      "sampleSha256": "7ea3531f62e69a4b1a7e6234c7aa3d9fbec5bc3555d4b56691cf1d277bb5d9cd",
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     },
@@ -5022,6 +5102,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/w/index.php?oldid=111256897",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=111256897",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "林羅山 - Wikipedia",
+      "sampleSha256": "f2e1a0b366480365c46a35716c9c940bccb68bd6d7b9ea4db9e1a7a4e77dfb70",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/w/index.php?oldid=111266015",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=111266015",
@@ -5138,6 +5228,16 @@
       "contentType": "text/html; charset=UTF-8",
       "title": "木下延俊 - Wikipedia",
       "sampleSha256": "dcd28360315e092b3fd8d7c0218bc0eeeae68877e4b37ca1b60df8cd34b20d05",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/index.php?oldid=111291804",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=111291804",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "鍋島勝茂 - Wikipedia",
+      "sampleSha256": "63846f4a95209dea32e710aa47aedf9c9562dbb3d48a846e4f43e13aed9afd02",
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     },
@@ -5632,6 +5732,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/w/index.php?oldid=111419063",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=111419063",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "鳥居元忠 - Wikipedia",
+      "sampleSha256": "11fae69363145a5ac2eaa98f9cc236544a004ef0da33cd025a15350e85b592f9",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/w/index.php?oldid=111420502",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=111420502",
@@ -5953,6 +6063,16 @@
       "contentType": "text/html; charset=UTF-8",
       "title": "立花道雪 - Wikipedia",
       "sampleSha256": "a3198848424253296fc9380f9c87ce4bcda38e4320b6a6c98ea25e5b63cdb826",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
+      "url": "https://ja.wikipedia.org/w/index.php?oldid=111476124",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/w/index.php?oldid=111476124",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "中村一氏 - Wikipedia",
+      "sampleSha256": "57594b66c9b85e0f78d60f7fd89e48ba61170204e202fa77fd03a1a5d0ea6e43",
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     },
@@ -6727,12 +6847,32 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B7%9D%E6%B8%85%E7%A7%80",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B7%9D%E6%B8%85%E7%A7%80",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "中川清秀 - Wikipedia",
+      "sampleSha256": "066b39aed431d9025956a62ef775dcad945206dac807ecdf1b6cc4c8c97eb941",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B7%9D%E7%A7%80%E6%88%90",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B7%9D%E7%A7%80%E6%88%90",
       "contentType": "text/html; charset=UTF-8",
       "title": "中川秀成 - Wikipedia",
       "sampleSha256": "3e0956c56ed62264debf872f4365ceb560a057782cd59530f0dbd4a1beab3780",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E6%9D%91%E4%B8%80%E6%B0%8F",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E6%9D%91%E4%B8%80%E6%B0%8F",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "中村一氏 - Wikipedia",
+      "sampleSha256": "04c5c7457e27777a521a1e777525e0bfae3c3b3d26af0fce24d6b87f1e63151d",
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     },
@@ -7747,6 +7887,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/wiki/%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B1%B1%E4%B8%89%E9%83%8E",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/wiki/%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B1%B1%E4%B8%89%E9%83%8E",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "名古屋山三郎 - Wikipedia",
+      "sampleSha256": "6970f0f245b0f2c4ba61eaf5cb3eefc447ec118e64eb9659e0ab47d96e1747fa",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E6%83%9F%E6%94%BF",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E6%83%9F%E6%94%BF",
@@ -8173,6 +8323,16 @@
       "contentType": "text/html; charset=UTF-8",
       "title": "大須賀忠政 - Wikipedia",
       "sampleSha256": "17d0d4f0a9c3a89f42b299161444bec7eed38f2a503d3c6cf024b1b51f369d5f",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E6%B5%B7",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E6%B5%B7",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "天海 - Wikipedia",
+      "sampleSha256": "39b4f15f64f70052a9bdb9add3ef1f2632a7d4d1878e61d79fd2d52d52f3c818",
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     },
@@ -9417,6 +9577,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E7%B4%8D%E5%BF%A0%E5%85%83",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E7%B4%8D%E5%BF%A0%E5%85%83",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "新納忠元 - Wikipedia",
+      "sampleSha256": "e0ac3263164b226429b729133cf32e29f097dc62aa8e90c406efcc9d7f271d10",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%A0%B9%E9%87%8E%E5%90%89%E6%98%8E",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%A0%B9%E9%87%8E%E5%90%89%E6%98%8E",
@@ -9947,6 +10117,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E5%B9%B3%E4%BF%A1%E5%BA%B7",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E5%B9%B3%E4%BF%A1%E5%BA%B7",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "松平信康 - Wikipedia",
+      "sampleSha256": "29d5122ae09c7e85e4738afa7d4aec1dd8a37d06271ce663702f6794385a491e",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E5%B9%B3%E4%BF%A1%E7%B6%B1",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E5%B9%B3%E4%BF%A1%E7%B6%B1",
@@ -10133,6 +10313,16 @@
       "contentType": "text/html; charset=UTF-8",
       "title": "林秀貞 - Wikipedia",
       "sampleSha256": "7283574b95705f21feac19890798c806af4b6ca14cd1ee583397467e41dc147c",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%9E%97%E7%BE%85%E5%B1%B1",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/wiki/%E6%9E%97%E7%BE%85%E5%B1%B1",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "林羅山 - Wikipedia",
+      "sampleSha256": "a8db197616c3ff4eaa8224ae1a5d50173b7c29cbfba40a4761a43f50a1fc1477",
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     },
@@ -10693,6 +10883,16 @@
       "contentType": "text/html; charset=UTF-8",
       "title": "河野晴通 - Wikipedia",
       "sampleSha256": "d1f298e71ed18eef63cc93e061d7aee038ddfc2b30a61019219c05c8c5aa372d",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%B3%A2%E5%A4%9A%E9%87%8E%E7%A7%80%E6%B2%BB",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/wiki/%E6%B3%A2%E5%A4%9A%E9%87%8E%E7%A7%80%E6%B2%BB",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "波多野秀治 - Wikipedia",
+      "sampleSha256": "1815fec512a6ec601a8e23a7bbe3ef06b99e1bd61e033e961479d16c3a5bd610",
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     },
@@ -12447,6 +12647,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://ja.wikipedia.org/wiki/%E9%8D%8B%E5%B3%B6%E5%8B%9D%E8%8C%82",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/wiki/%E9%8D%8B%E5%B3%B6%E5%8B%9D%E8%8C%82",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "鍋島勝茂 - Wikipedia",
+      "sampleSha256": "d9a33106fbaef40b2791df9127d476265bf95cd1bc6598cdc5f3093a2053c211",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://ja.wikipedia.org/wiki/%E9%8D%8B%E5%B3%B6%E7%9B%B4%E8%8C%82",
       "status": 200,
       "finalUrl": "https://ja.wikipedia.org/wiki/%E9%8D%8B%E5%B3%B6%E7%9B%B4%E8%8C%82",
@@ -12523,6 +12733,16 @@
       "contentType": "text/html; charset=UTF-8",
       "title": "長野具藤 - Wikipedia",
       "sampleSha256": "8be714db153f69ecc8d6a227fa45ef5c07e56bc64846047b5eedbaa39ecfcc75",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E9%95%B7%E9%87%8E%E6%A5%AD%E6%AD%A3",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/wiki/%E9%95%B7%E9%87%8E%E6%A5%AD%E6%AD%A3",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "長野業正 - Wikipedia",
+      "sampleSha256": "cc4b34792f2e2dcf0818a4c23711f7b4a06d8e2ebff67c32aead387bbd0e4cf7",
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     },
@@ -12623,6 +12843,16 @@
       "contentType": "text/html; charset=UTF-8",
       "title": "高橋紹運 - Wikipedia",
       "sampleSha256": "67f82bacd2b10ff2577b4db44ac70b1c08fbcc70c207258f34b4237e3713a4af",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E9%B3%A5%E5%B1%85%E5%85%83%E5%BF%A0",
+      "status": 200,
+      "finalUrl": "https://ja.wikipedia.org/wiki/%E9%B3%A5%E5%B1%85%E5%85%83%E5%BF%A0",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "鳥居元忠 - Wikipedia",
+      "sampleSha256": "2897bac330c0847130aeb1f1fe2d164a2c1de0f0d0db0281e11be3394433a4fc",
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     },
@@ -12797,12 +13027,32 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://kotobank.jp/word/%E4%B8%AD%E5%B7%9D%E6%B8%85%E7%A7%80-17215",
+      "status": 200,
+      "finalUrl": "https://kotobank.jp/word/%E4%B8%AD%E5%B7%9D%E6%B8%85%E7%A7%80-17215",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "中川清秀(なかがわきよひで)とは？ 意味や使い方 - コトバンク",
+      "sampleSha256": "e59fd72aa431ebf8cd4da6363ed11b9a09c6dc64155604a2f13247a0ba3717e4",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://kotobank.jp/word/%E4%B8%AD%E5%B7%9D%E7%A7%80%E6%88%90-1096313",
       "status": 200,
       "finalUrl": "https://kotobank.jp/word/%E4%B8%AD%E5%B7%9D%E7%A7%80%E6%88%90-1096313",
       "contentType": "text/html; charset=UTF-8",
       "title": "中川秀成(なかがわ ひでなり)とは？ 意味や使い方 - コトバンク",
       "sampleSha256": "6653da72564dc47fa3dba321d68f06276060d489128cfb02408f351420172595",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
+      "url": "https://kotobank.jp/word/%E4%B8%AD%E6%9D%91%E4%B8%80%E6%B0%8F-1097346",
+      "status": 200,
+      "finalUrl": "https://kotobank.jp/word/%E4%B8%AD%E6%9D%91%E4%B8%80%E6%B0%8F-1097346",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "中村一氏(なかむらかずうじ)とは？ 意味や使い方 - コトバンク",
+      "sampleSha256": "bd5399e02d294c58d204f29328417c0729e0503b0834909829c9eac15fea838a",
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     },
@@ -13117,6 +13367,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://kotobank.jp/word/%E9%B3%A5%E5%B1%85%E5%85%83%E5%BF%A0-106352",
+      "status": 200,
+      "finalUrl": "https://kotobank.jp/word/%E9%B3%A5%E5%B1%85%E5%85%83%E5%BF%A0-106352",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "鳥居元忠(トリイモトタダ)とは？ 意味や使い方 - コトバンク",
+      "sampleSha256": "015c3097e714e6fb9d9aea51ee1cd9872297b5fb324584c1f37a8ab985db4846",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://kotobank.jp/word/%E9%BB%92%E7%94%B0%E9%95%B7%E6%94%BF-16434",
       "status": 200,
       "finalUrl": "https://kotobank.jp/word/%E9%BB%92%E7%94%B0%E9%95%B7%E6%94%BF-16434",
@@ -13287,6 +13547,16 @@
       "assessment": "http_only_not_fact_checked"
     },
     {
+      "url": "https://www.pref.saga.lg.jp/kiji0031597/index.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.saga.lg.jp/kiji0031597/index.html",
+      "contentType": "text/html",
+      "title": "国指定（美術工芸品の部）04 / 佐賀県",
+      "sampleSha256": "ebe18253651329c28028024364eab055507281c53d298fca9b1918a92b3f8fd3",
+      "truncatedAt2MB": false,
+      "assessment": "http_only_not_fact_checked"
+    },
+    {
       "url": "https://www.town.kitahiroshima.lg.jp/site/bunkazai/1709.html",
       "status": 200,
       "finalUrl": "https://www.town.kitahiroshima.lg.jp/site/bunkazai/1709.html",
@@ -13316,5 +13586,6 @@
       "truncatedAt2MB": false,
       "assessment": "http_only_not_fact_checked"
     }
-  ]
+  ],
+  "deltaAddedUrlCount": 27
 }

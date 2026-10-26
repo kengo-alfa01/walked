@@ -369,7 +369,8 @@
     "token": "信濃守",
     "personIds": [
       "sg-8df0e8922f50",
-      "sg-master-1429"
+      "sg-master-1429",
+      "sg-master-1487"
     ],
     "status": "candidate_only_do_not_merge"
   },
@@ -1246,6 +1247,7 @@
     "token": "彦右衛門",
     "personIds": [
       "sg-248aba9a5613",
+      "sg-76cf3b1e8681",
       "sg-b3ad604d8563"
     ],
     "status": "candidate_only_do_not_merge"
@@ -1572,8 +1574,17 @@
     "status": "candidate_only_do_not_merge"
   },
   {
+    "token": "次郎三郎",
+    "personIds": [
+      "sg-627bbb0204ca",
+      "sg-c3abf75d711c"
+    ],
+    "status": "candidate_only_do_not_merge"
+  },
+  {
     "token": "次郎四郎",
     "personIds": [
+      "sg-0e4dd744efcf",
       "sg-master-1618",
       "sg-master-1619"
     ],
@@ -1650,6 +1661,14 @@
     "personIds": [
       "sg-master-1412",
       "sg-person-saito-tatsuoki"
+    ],
+    "status": "candidate_only_do_not_merge"
+  },
+  {
+    "token": "清秀",
+    "personIds": [
+      "sg-master-1469",
+      "sg-master-1705"
     ],
     "status": "candidate_only_do_not_merge"
   },
@@ -1826,6 +1845,7 @@
   {
     "token": "竹千代",
     "personIds": [
+      "sg-627bbb0204ca",
       "sg-65a881d7f9ee",
       "sg-a7bb09927601",
       "sg-master-1120"
@@ -2040,7 +2060,8 @@
     "token": "虎之助",
     "personIds": [
       "sg-0b974357bac7",
-      "sg-master-0642"
+      "sg-master-0642",
+      "sg-master-1469"
     ],
     "status": "candidate_only_do_not_merge"
   },
@@ -2234,6 +2255,14 @@
     "personIds": [
       "sg-0b974357bac7",
       "sg-master-1262"
+    ],
+    "status": "candidate_only_do_not_merge"
+  },
+  {
+    "token": "鬼武蔵",
+    "personIds": [
+      "sg-0e4dd744efcf",
+      "sg-master-2034"
     ],
     "status": "candidate_only_do_not_merge"
   },

@@ -87,7 +87,7 @@ sg-34f06a046de4,藤堂高吉,,excluded_by_H,False,unverified,0,0
 sg-a7bb09927601,徳川家康,sg-a7bb09927601,mapped_selected,False,unverified,19,16
 sg-451ea10bcb24,徳川秀忠,sg-451ea10bcb24,mapped_selected,False,unverified,3,2
 sg-65a881d7f9ee,徳川家光,sg-65a881d7f9ee,mapped_selected,False,unverified,0,0
-sg-9fbc26efe075,徳川信康,,not_in_selected_master,False,unverified,0,0
+sg-9fbc26efe075,徳川信康,sg-627bbb0204ca,mapped_selected,False,unverified,0,0
 sg-cb38a5c52b3b,徳川家忠,,not_in_selected_master,False,unverified,0,0
 sg-35fe4d7cd4ff,松平広忠,,excluded_by_H,False,unverified,0,0
 sg-8de97e693360,松平清康,,excluded_by_H,False,unverified,0,0
@@ -95,7 +95,7 @@ sg-b6b2009c6e0e,松平信定,,not_in_selected_master,False,unverified,0,0
 sg-4f5048f93e77,松平信忠,,not_in_selected_master,False,unverified,0,0
 sg-da0119c4781d,松平忠輝,sg-da0119c4781d,mapped_selected,False,unverified,0,0
 sg-09eb74bf4159,松平忠吉,sg-09eb74bf4159,mapped_selected,False,unverified,0,0
-sg-627bbb0204ca,松平信康,,excluded_by_H,False,unverified,0,0
+sg-627bbb0204ca,松平信康,sg-627bbb0204ca,mapped_selected,False,unverified,0,0
 sg-5b38718f87ac,松平定勝,sg-5b38718f87ac,mapped_selected,False,unverified,0,0
 sg-49c57b83437f,松平家忠,,not_in_selected_master,False,unverified,0,0
 sg-6be1c9b51574,松平忠直,sg-6be1c9b51574,mapped_selected,False,unverified,0,0
@@ -129,7 +129,7 @@ sg-40a90e24b432,大久保忠佐,sg-40a90e24b432,mapped_selected,False,unverified
 sg-f8dec1480db8,大久保忠隣,sg-f8dec1480db8,mapped_selected,False,unverified,0,0
 sg-fa8d6bece07a,大久保長安,sg-fa8d6bece07a,mapped_selected,False,unverified,0,0
 sg-fc144126f311,大久保彦左衛門,,not_in_selected_master,False,unverified,0,0
-sg-76cf3b1e8681,鳥居元忠,,excluded_by_H,False,unverified,0,0
+sg-76cf3b1e8681,鳥居元忠,sg-76cf3b1e8681,mapped_selected,False,unverified,0,0
 sg-474c069f792d,鳥居忠政,,not_in_selected_master,False,unverified,0,0
 sg-4eec198d6fde,鳥居忠広,,not_in_selected_master,False,unverified,0,0
 sg-1a2dce388544,鳥居忠吉,,not_in_selected_master,False,unverified,0,0
@@ -419,7 +419,7 @@ sg-4a548c017d9f,島津立久,,not_in_selected_master,False,unverified,0,0
 sg-ce1225658cc4,島津忠治,,not_in_selected_master,False,unverified,0,0
 sg-1af439b7ead0,島津実久,,excluded_by_H,False,unverified,0,0
 sg-fad3ecbe9034,島津運久,,not_in_selected_master,False,unverified,0,0
-sg-0e4dd744efcf,新納忠元,,excluded_by_H,False,unverified,0,0
+sg-0e4dd744efcf,新納忠元,sg-0e4dd744efcf,mapped_selected,False,unverified,0,0
 sg-d2ee88d18e52,新納忠勝,,not_in_selected_master,False,unverified,0,0
 sg-e6708641127f,新納忠増,,not_in_selected_master,False,unverified,0,0
 sg-d0a66b4917e2,新納忠堯,,not_in_selected_master,False,unverified,0,0
@@ -477,7 +477,7 @@ sg-03e56112522a,俵屋宗達,,not_in_selected_master,False,unverified,0,0
 sg-40551a6423db,出雲阿国,,excluded_by_H,False,unverified,0,0
 sg-08b50cb7da6f,曲直瀬道三,,not_in_selected_master,False,unverified,0,0
 sg-e9c5a93dfa66,曲直瀬玄朔,,not_in_selected_master,False,unverified,0,0
-sg-f2c2e2122e74,南光坊天海,,excluded_by_H,False,unverified,0,0
+sg-f2c2e2122e74,南光坊天海,sg-f2c2e2122e74,mapped_selected,False,unverified,0,0
 sg-05043bacf949,金地院崇伝,,not_in_selected_master,False,unverified,0,0
 sg-109ae0f4414d,顕如,sg-109ae0f4414d,mapped_selected,False,unverified,0,0
 sg-388af5de1320,教如,sg-388af5de1320,mapped_selected,False,unverified,0,0
@@ -506,7 +506,7 @@ sg-added-mamiya-yasutoshi,間宮康俊,,excluded_by_H,True,unverified,1,1
 sg-added-sanjo-lady,三条夫人,,not_in_selected_master,True,unverified,1,1
 sg-reviewed-1c74f86254a2,太田道真,,not_in_selected_master,True,unverified,1,1
 sg-reviewed-60f6420feed4,仙石忠政,,excluded_by_H,True,unverified,1,1
-sg-researched-095-nakamura-kazuuji,中村一氏,,excluded_by_H,True,unverified,1,1
+sg-researched-095-nakamura-kazuuji,中村一氏,sg-researched-095-nakamura-kazuuji,mapped_selected,False,unverified,1,1
 sg-researched-095-tokugawa-yorinobu,徳川頼宣,,excluded_by_H,True,unverified,1,1
 sg-researched-095-nagano-narimori,長野業盛,,excluded_by_H,True,unverified,1,1
 sg-researched-096-mori-tadamasa,森忠政,sg-researched-096-mori-tadamasa,mapped_selected,False,unverified,1,1

@@ -237,7 +237,7 @@ cards,sg-card-0235,sg-site-odawara,sg-c594233cb2b7,sg-c594233cb2b7,unchanged_sel
 cards,sg-card-0236,sg-site-odawara,sg-025ab3a6ee3f,sg-025ab3a6ee3f,unchanged_selected,preserve_id_content_acquisition; legacy people excluded from new master
 cards,sg-card-0237,sg-site-odawara,sg-3e72ce5a7fa9,sg-3e72ce5a7fa9,unchanged_selected,preserve_id_content_acquisition; legacy people excluded from new master
 cards,sg-card-0238,sg-site-sunpu,sg-a7bb09927601,sg-a7bb09927601,unchanged_selected,preserve_id_content_acquisition; legacy people excluded from new master
-cards,sg-card-0239,sg-site-sunpu,sg-researched-095-nakamura-kazuuji,sg-researched-095-nakamura-kazuuji,legacy_archive,preserve_id_content_acquisition; legacy people excluded from new master
+cards,sg-card-0239,sg-site-sunpu,sg-researched-095-nakamura-kazuuji,sg-researched-095-nakamura-kazuuji,unchanged_selected,preserve_id_content_acquisition; legacy people excluded from new master
 cards,sg-card-0240,sg-site-sunpu,sg-researched-095-tokugawa-yorinobu,sg-researched-095-tokugawa-yorinobu,legacy_archive,preserve_id_content_acquisition; legacy people excluded from new master
 cards,sg-card-0241,sg-site-minowa,sg-4c0c12460efa,sg-4c0c12460efa,unchanged_selected,preserve_id_content_acquisition; legacy people excluded from new master
 cards,sg-card-0242,sg-site-minowa,sg-df4ede094a85,sg-df4ede094a85,unchanged_selected,preserve_id_content_acquisition; legacy people excluded from new master
@@ -478,7 +478,7 @@ links,link-sg-site-kawagoe--sg-reviewed-1c74f86254a2,sg-site-kawagoe,sg-reviewed
 links,link-sg-site-tomyoji-kawagoe--sg-22f595e1c616,sg-site-tomyoji-kawagoe,sg-22f595e1c616,sg-22f595e1c616,unchanged_selected,preserve_id_content_acquisition; legacy people excluded from new master
 links,link-sg-site-tomyoji-kawagoe--sg-27a0e44acb89,sg-site-tomyoji-kawagoe,sg-27a0e44acb89,sg-27a0e44acb89,legacy_archive,preserve_id_content_acquisition; legacy people excluded from new master
 links,link-sg-site-ueda--sg-reviewed-60f6420feed4,sg-site-ueda,sg-reviewed-60f6420feed4,sg-reviewed-60f6420feed4,legacy_archive,preserve_id_content_acquisition; legacy people excluded from new master
-links,link-sg-site-sunpu--sg-researched-095-nakamura-kazuuji,sg-site-sunpu,sg-researched-095-nakamura-kazuuji,sg-researched-095-nakamura-kazuuji,legacy_archive,preserve_id_content_acquisition; legacy people excluded from new master
+links,link-sg-site-sunpu--sg-researched-095-nakamura-kazuuji,sg-site-sunpu,sg-researched-095-nakamura-kazuuji,sg-researched-095-nakamura-kazuuji,unchanged_selected,preserve_id_content_acquisition; legacy people excluded from new master
 links,link-sg-site-sunpu--sg-researched-095-tokugawa-yorinobu,sg-site-sunpu,sg-researched-095-tokugawa-yorinobu,sg-researched-095-tokugawa-yorinobu,legacy_archive,preserve_id_content_acquisition; legacy people excluded from new master
 links,link-sg-site-minowa--sg-4c0c12460efa,sg-site-minowa,sg-4c0c12460efa,sg-4c0c12460efa,unchanged_selected,preserve_id_content_acquisition; legacy people excluded from new master
 links,link-sg-site-minowa--sg-researched-095-nagano-narimori,sg-site-minowa,sg-researched-095-nagano-narimori,sg-researched-095-nagano-narimori,legacy_archive,preserve_id_content_acquisition; legacy people excluded from new master

@@ -3,7 +3,8 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const root=path.resolve(__dirname,'..'),W=require('../migration/runtime.js');
 const read=k=>JSON.parse(fs.readFileSync(path.join(root,'migration/generated',k+'.json'),'utf8'));
 const data={people:read('people'),archive:read('people-archive'),sites:read('sites'),cards:read('cards'),links:read('links')};
-test('runtime validates full 612-person dataset and archived card references',()=>assert.equal(W.validate(data),true));
+const expectedCount=require('../migration/input/master-snapshot.json').selectionCounts.selected;
+test('runtime validates selected dataset and archived card references',()=>assert.equal(W.validate(data),true));
 test('runtime fails on missing archive, duplicate IDs and broken card link',()=>{
  assert.throws(()=>W.validate({...data,archive:[]}));assert.throws(()=>W.validate({...data,people:[...data.people,data.people[0]]}));assert.throws(()=>W.validate({...data,links:[]}));
 });
@@ -11,7 +12,7 @@ test('alias, reading, fullwidth-space and case normalization search',()=>{
  const p=data.people.find(p=>p.name==='真田幸村');assert(W.matches(p,'真田 信繁'));assert(W.matches(p,p.reading));assert(W.matches({name:'ABC'},'ａｂｃ'));assert(!W.matches(p,'これは無関係'));
 });
 test('generic alias collisions remain search results, never ID merges',()=>{
- const ids=read('search-index')['三郎'];if(ids)assert(ids.length>1);const ps=data.people.filter(p=>W.matches(p,'三郎'));assert(ps.length>1);assert.equal(new Set(data.people.map(p=>p.id)).size,612);
+ const ids=read('search-index')['三郎'];if(ids)assert(ids.length>1);const ps=data.people.filter(p=>W.matches(p,'三郎'));assert(ps.length>1);assert.equal(new Set(data.people.map(p=>p.id)).size,expectedCount);
 });
 test('legacy visited-only backup restores; full backup preserves unknown/future found records',()=>{
  const visited={'m:abc':{at:'2026-01-01'}},found={'sg-card-0001':{at:'2026-01-01',siteId:'sg-site-odawara'},'future-card':{at:'2026-01-01'}};
@@ -25,8 +26,8 @@ function harness(){
  vm.createContext(ctx);
  const html=fs.readFileSync(path.join(root,'migration/preview.html'),'utf8');let code=html.slice(html.indexOf('// Sengoku collection:'));code=code.slice(0,code.indexOf('</script>'));code=code.replace('loadSengoku();','');vm.runInContext(code,ctx);return {ctx,elements,store,$,run:s=>vm.runInContext(s,ctx)};
 }
-test('actual preview JS loads, renders 612, searches aliases and displays verification labels',async()=>{
- const h=harness();await h.run('loadSengoku()');h.run("sengokuOpen=true;renderSengoku()");assert.equal(h.$('sengokuList').children.length,612);
+test('actual preview JS loads, renders selected count, searches aliases and displays verification labels',async()=>{
+ const h=harness();await h.run('loadSengoku()');h.run("sengokuOpen=true;renderSengoku()");assert.equal(h.$('sengokuList').children.length,expectedCount);
  h.$('sengokuSearch').value='真田信繁';h.run('renderSengoku()');assert.equal(h.$('sengokuList').children.length,1);h.$('sengokuList').children[0].onclick();assert(h.$('sengokuDetail').children.some(x=>x.textContent.includes('精査は継続中')));
 });
 test('actual preview acquisition is idempotent, respects boundaries and never writes live keys',async()=>{
@@ -38,9 +39,11 @@ test('actual eligibility gate still excludes unreviewed and boundary-blocked car
 });
 test('archived owned cards remain visible under found-only and do not enter active roster',async()=>{
  const h=harness();await h.run('loadSengoku()');const c=data.cards.find(c=>data.archive.some(p=>p.id===c.personId)&&c.verification==='reviewed'&&data.sites.some(s=>s.id===c.siteId&&s.verification==='reviewed'&&!s.catalogEligibility&&s.boundaryAudit!=='unresolved_polygon_mismatch'));assert(c);
- h.ctx.testCard=c;h.run("sengokuFound[testCard.id]={at:'2026-10-26'};sengokuOpen=true");h.$('sengokuFilter').value='found';h.run('renderSengoku()');assert(h.$('sengokuList').children.some(b=>b.children[0].textContent.includes('過去のカード')));assert.equal(h.run('sengokuPeople.length'),612);
+ h.ctx.testCard=c;h.run("sengokuFound[testCard.id]={at:'2026-10-26'};sengokuOpen=true");h.$('sengokuFilter').value='found';h.run('renderSengoku()');assert(h.$('sengokuList').children.some(b=>b.children[0].textContent.includes('過去のカード')));assert.equal(h.run('sengokuPeople.length'),expectedCount);
 });
 
 test('same-name 島津家久 search returns two distinct people without merging IDs',()=>{
  const a=data.people.find(p=>p.selection.rosterId==='1046'),b=data.people.find(p=>p.selection.rosterId==='1053');assert.notEqual(a.id,b.id);assert(W.matches(a,'島津家久'));assert(W.matches(b,'島津家久'));
 });
+
+test('year labels show independently confirmed correction and preserve unverified raw',()=>{assert.equal(W.yearLabel({raw:'未確認',value:1596,status:'verified'}),'1596（資料確認／正本：未確認）');assert.equal(W.yearLabel({raw:'未確認',value:null,status:'unverified'}),'未確認');});

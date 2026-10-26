@@ -30,8 +30,8 @@
   ],
   "totalRows": 2206,
   "selectionCounts": {
-    "selected": 612,
-    "excluded": 1594
+    "selected": 624,
+    "excluded": 1582
   },
   "rows": [
     {
@@ -10114,6 +10114,33 @@
       ]
     },
     {
+      "sheetRow": 1443,
+      "values": [
+        "鳥居元忠",
+        "平・彦右衛門\nWikipedia：彦右衛門尉",
+        "1539",
+        "1600",
+        "徳川家康に仕え、姉川・三方ヶ原・長篠などで戦った武将。関ヶ原の戦いに先立って伏見城の守備を担い、石田方の攻撃を受けて自害した。",
+        "https://id.ndl.go.jp/auth/ndlna/00800190\nhttps://kotobank.jp/word/%E9%B3%A5%E5%B1%85%E5%85%83%E5%BF%A0-106352\nhttps://ja.wikipedia.org/wiki/%E9%B3%A5%E5%B1%85%E5%85%83%E5%BF%A0\nhttps://ja.wikipedia.org/w/index.php?oldid=111419063",
+        "Wikipedia確認・公的資料未照合",
+        "登録する",
+        "1442",
+        "とりいもとただ",
+        "両年確認（出典記載）",
+        "二次資料で確認",
+        "同一人物・別名の完全同定は未了\nWikipediaの改名・別名欄を記録。異説のある改名や系譜の確定を意味しない。",
+        "元Excelの事績・年は原票に保存。出典未照合の事績を確認済みとして引き継いでいない。\n今回：資料本文を読み、事績を独自要約。辞典は二次資料。公的資料での追加照合は未了。\nWikipedia本文の基本情報欄を機械照合。公的資料との追加照合は未了。\nWikipedia生誕欄：天文8年（1539年）／死没欄：慶長5年8月1日（1600年9月8日）",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I028076284",
+        "1466",
+        "sg-76cf3b1e8681",
+        null,
+        "2026-10-25",
+        "事実関係を独自要約。出典URLを表示。本文・画像の転載許諾またはオープンライセンスを意味しない。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
+        "https://id.ndl.go.jp/auth/ndlna/00800190\nhttps://kotobank.jp/word/%E9%B3%A5%E5%B1%85%E5%85%83%E5%BF%A0-106352\nhttps://ja.wikipedia.org/w/index.php?oldid=111419063\nhttps://ja.wikipedia.org/w/index.php?oldid=111419063"
+      ]
+    },
+    {
       "sheetRow": 1445,
       "values": [
         "内藤清成",
@@ -10416,6 +10443,33 @@
       ]
     },
     {
+      "sheetRow": 1470,
+      "values": [
+        "中川清秀",
+        "瀬兵衛尉\nWikipedia：虎之助（幼名）→清秀、通称：瀬兵衛尉",
+        "1542",
+        "1583",
+        "摂津茨木城を拠点とした武将。荒木村重から織田信長方へ転じ、本能寺の変後は秀吉に従った。山崎で戦った後、賤ヶ岳の戦いで戦死した。",
+        "https://kotobank.jp/word/%E4%B8%AD%E5%B7%9D%E6%B8%85%E7%A7%80-17215\nhttps://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B7%9D%E6%B8%85%E7%A7%80\nhttps://ja.wikipedia.org/w/index.php?oldid=111110404",
+        "Wikipedia確認・公的資料未照合",
+        "登録する",
+        "1469",
+        "なかがわきよひで",
+        "両年確認（出典記載）",
+        "二次資料で確認",
+        "本文中の改名・通称・法号を確認。名簿内の全別名との同一性調査は未了。\nWikipediaの改名・別名欄を記録。異説のある改名や系譜の確定を意味しない。",
+        "NDL同名・別名候補あり。人物同定前のため主欄へ転記せず、典拠候補シートに記録。\n今回：資料本文を読み、事績を独自要約。辞典は二次資料。公的資料での追加照合は未了。\nWikipedia本文の基本情報欄を機械照合。公的資料との追加照合は未了。\nWikipedia生誕欄：天文11年（1542年）／死没欄：天正11年4月20日（1583年6月10日）",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://id.ndl.go.jp/auth/ndlna/001216355",
+        "1492",
+        null,
+        null,
+        "2026-10-25",
+        "事実関係を独自要約。出典URLを表示。本文・画像の転載許諾またはオープンライセンスを意味しない。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
+        "https://kotobank.jp/word/%E4%B8%AD%E5%B7%9D%E6%B8%85%E7%A7%80-17215\nhttps://ja.wikipedia.org/w/index.php?oldid=111110404\nhttps://ja.wikipedia.org/w/index.php?oldid=111110404"
+      ]
+    },
+    {
       "sheetRow": 1472,
       "values": [
         "中川秀成",
@@ -10467,6 +10521,87 @@
         "2026-10-25",
         "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
         "https://ja.wikipedia.org/w/index.php?oldid=105446928"
+      ]
+    },
+    {
+      "sheetRow": 1488,
+      "values": [
+        "長野業正",
+        "Wikipedia：信濃守（受領名）",
+        "1491／1499（記事内に複数年）",
+        "1561",
+        "戦国期に活動した武将。上杉憲寛・上杉憲政・上杉謙信に仕えた。上野長野氏の一族にあたる。官位には信濃守が記される。",
+        "https://ja.wikipedia.org/wiki/%E9%95%B7%E9%87%8E%E6%A5%AD%E6%AD%A3\nhttps://ja.wikipedia.org/w/index.php?oldid=110620281",
+        "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
+        "登録する",
+        "1487",
+        "ながのなりまさ",
+        "複数説・出典差あり",
+        "二次資料で確認（Wikipedia基本情報の機械整理）",
+        "同一人物・別名の完全同定は未了\nWikipediaの改名・別名欄を記録。異説のある改名や系譜の確定を意味しない。",
+        "候補資料の本文を確認し、生没年・事績・同一人物性を調査する。\nWikipedia本文の基本情報欄を機械照合。公的資料との追加照合は未了。\nWikipedia生誕欄：延徳3年（1491年）、または明応8年（1499年）／死没欄：永禄4年6月21日（1561年8月2日）、（11月22日（12月28日）とも）",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://sitereports.nabunken.go.jp/files/attach/55/55406/132573_1_%E4%B8%8B%E9%87%8C%E8%A6%8B%E7%95%AA%E5%A0%B4%E9%81%BA%E8%B7%A1.pdf",
+        "1510",
+        null,
+        null,
+        "2026-10-25",
+        "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
+        "https://ja.wikipedia.org/w/index.php?oldid=110620281"
+      ]
+    },
+    {
+      "sheetRow": 1494,
+      "values": [
+        "中村一氏",
+        "孫平次・式部少輔\nWikipedia：孫平次（仮名）",
+        "不詳（Wikipedia記載）",
+        "1600",
+        "豊臣秀吉に仕え、和泉岸和田や近江水口の城主を務めた武将。徳川家康の関東移封後は駿河を領した。関ヶ原の戦いを前に病没した。",
+        "https://kotobank.jp/word/%E4%B8%AD%E6%9D%91%E4%B8%80%E6%B0%8F-1097346\nhttps://ja.wikipedia.org/wiki/%E4%B8%AD%E6%9D%91%E4%B8%80%E6%B0%8F\nhttps://ja.wikipedia.org/w/index.php?oldid=111476124",
+        "Wikipedia確認・公的資料未照合",
+        "登録する",
+        "1493",
+        "なかむらかずうじ",
+        "Wikipedia記載確認・数値年未確認を含む",
+        "二次資料で確認",
+        "本文中の改名・通称・法号を確認。名簿内の全別名との同一性調査は未了。\nWikipediaの改名・別名欄を記録。異説のある改名や系譜の確定を意味しない。",
+        "NDL同名・別名候補あり。人物同定前のため主欄へ転記せず、典拠候補シートに記録。\n今回：資料本文を読み、事績を独自要約。辞典は二次資料。公的資料での追加照合は未了。\nWikipedia本文の基本情報欄を機械照合。公的資料との追加照合は未了。\nWikipedia生誕欄：不明／死没欄：慶長5年7月17日（1600年8月25日）\n記事の注意表示等：諸説。",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000009374461",
+        "1516",
+        "sg-researched-095-nakamura-kazuuji",
+        "保護（史跡・カード関連あり）",
+        "2026-10-25",
+        "事実関係を独自要約。出典URLを表示。本文・画像の転載許諾またはオープンライセンスを意味しない。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
+        "https://kotobank.jp/word/%E4%B8%AD%E6%9D%91%E4%B8%80%E6%B0%8F-1097346\nhttps://ja.wikipedia.org/w/index.php?oldid=111476124\nhttps://ja.wikipedia.org/w/index.php?oldid=111476124"
+      ]
+    },
+    {
+      "sheetRow": 1503,
+      "values": [
+        "名古屋山三郎",
+        "Wikipedia：九右衛門、宗円（号）、織田九右衛門",
+        "1572／1576（記事内に複数年）",
+        "1603",
+        "安土桃山期に活動した武将。森氏に家臣として仕えた。今川氏一門那古野氏の一族にあたる。父は那古野敦順。",
+        "https://ja.wikipedia.org/wiki/%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B1%B1%E4%B8%89%E9%83%8E\nhttps://ja.wikipedia.org/w/index.php?oldid=110835962",
+        "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
+        "登録する",
+        "1502",
+        "なごやさんざぶろう",
+        "複数説・出典差あり",
+        "二次資料で確認（Wikipedia基本情報の機械整理）",
+        "同一人物・別名の完全同定は未了\nWikipediaの改名・別名欄を記録。異説のある改名や系譜の確定を意味しない。",
+        "候補資料の本文を確認し、生没年・事績・同一人物性を調査する。\nWikipedia本文の基本情報欄を機械照合。公的資料との追加照合は未了。\nWikipedia生誕欄：元亀3年（1572年）、または天正4年（1576年）／死没欄：慶長8年5月3日（1603年6月12日）\n記事の注意表示等：要出典。",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000037587&page=ref_view",
+        "1524",
+        null,
+        null,
+        "2026-10-25",
+        "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
+        "https://ja.wikipedia.org/w/index.php?oldid=110835962"
       ]
     },
     {
@@ -10578,6 +10713,33 @@
       ]
     },
     {
+      "sheetRow": 1511,
+      "values": [
+        "鍋島勝茂",
+        "伊勢松\nWikipedia：伊平太（幼名）、勝茂、信茂、清茂",
+        "1580",
+        "1657",
+        "佐賀藩の初代藩主。父直茂と佐賀城の拡張を進め、一門を小城・蓮池・鹿島に分封して支配体制を強化した。高伝寺への美術工芸品の寄進でも知られる。",
+        "https://www.pref.saga.lg.jp/kiji0031597/index.html\nhttps://www.city.saga.lg.jp/material/files/group/63/p1jgo7jertki9n41pvc1afu1bg75.pdf\nhttps://ja.wikipedia.org/wiki/%E9%8D%8B%E5%B3%B6%E5%8B%9D%E8%8C%82\nhttps://ja.wikipedia.org/w/index.php?oldid=111291804",
+        "事績は公的資料確認・追加のWikipedia情報は未照合",
+        "登録する",
+        "1510",
+        "なべしまかつしげ",
+        "両年確認（出典記載）",
+        "公的・専門資料で確認",
+        "同一人物・別名の完全同定は未了\nWikipediaの改名・別名欄を記録。異説のある改名や系譜の確定を意味しない。",
+        "佐賀県文化財解説で生没年、佐賀市計画で城普請・分封・幼名を確認。元Excelの列ずれを訂正。\nWikipedia本文の基本情報欄を機械照合。公的資料との追加照合は未了。\nWikipedia生誕欄：天正8年10月28日（1580年12月4日）／死没欄：明暦3年3月24日（1657年5月7日）\n記事の注意表示等：出典の明記。",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://online.bunka.go.jp/db/heritages/detail/201812",
+        "1533",
+        null,
+        null,
+        "2026-10-25",
+        "出典記載の事実を独自要約。本文・画像の転載許諾を意味しない。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
+        "https://www.pref.saga.lg.jp/kiji0031597/index.html\nhttps://www.city.saga.lg.jp/material/files/group/63/p1jgo7jertki9n41pvc1afu1bg75.pdf\nhttps://ja.wikipedia.org/w/index.php?oldid=111291804\nhttps://ja.wikipedia.org/w/index.php?oldid=111291804"
+      ]
+    },
+    {
       "sheetRow": 1517,
       "values": [
         "鍋島直茂",
@@ -10657,6 +10819,33 @@
         "2026-10-25",
         "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
         "https://ja.wikipedia.org/w/index.php?oldid=109508448"
+      ]
+    },
+    {
+      "sheetRow": 1536,
+      "values": [
+        "南光坊天海",
+        "記事名：天海",
+        "1536（不詳・一説・推定等の記載あり）",
+        "1643",
+        "未確認",
+        "https://ja.wikipedia.org/wiki/%E5%A4%A9%E6%B5%B7\nhttps://ja.wikipedia.org/w/index.php?oldid=111156567",
+        "Wikipedia確認・公的資料未照合",
+        "登録する",
+        "1535",
+        "なんこうぼうてんかい",
+        "Wikipedia記載確認・数値年未確認を含む",
+        "未確認",
+        "同一人物・別名の完全同定は未了\nWikipediaの改名・別名欄を記録。異説のある改名や系譜の確定を意味しない。",
+        "元Excelの事績・年は原票に保存。出典未照合の事績を確認済みとして引き継いでいない。\nWikipedia本文の基本情報欄を機械照合。公的資料との追加照合は未了。\nWikipedia生誕欄：天海（てんかい、天文5年（1536年）？／死没欄：寛永20年10月2日（1643年11月13日））\n記事の注意表示等：要出典。",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I023959097",
+        "1558",
+        "sg-f2c2e2122e74",
+        null,
+        "2026-10-25",
+        "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
+        "https://ja.wikipedia.org/w/index.php?oldid=111156567"
       ]
     },
     {
@@ -10848,6 +11037,33 @@
         "2026-10-25",
         "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
         "https://ja.wikipedia.org/w/index.php?oldid=92895408"
+      ]
+    },
+    {
+      "sheetRow": 1557,
+      "values": [
+        "新納忠元",
+        "Wikipedia：幼名：阿万丸、通称：次郎四郎、号：拙斎、為舟、渾名：鬼武蔵",
+        "1526",
+        "1611",
+        "戦国期から江戸初期に活動した武将。島津忠良・島津貴久・島津義久・島津義弘・島津忠恒に仕えた。新納氏の一族にあたる。父は新納祐久。官位には刑部大輔・武蔵守が記される。",
+        "https://ja.wikipedia.org/wiki/%E6%96%B0%E7%B4%8D%E5%BF%A0%E5%85%83\nhttps://ja.wikipedia.org/w/index.php?oldid=110059274",
+        "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
+        "登録する",
+        "1556",
+        "にいろただもと",
+        "両年確認（出典記載）",
+        "二次資料で確認（Wikipedia基本情報の機械整理）",
+        "同一人物・別名の完全同定は未了\nWikipediaの改名・別名欄を記録。異説のある改名や系譜の確定を意味しない。",
+        "元Excelの事績・年は原票に保存。出典未照合の事績を確認済みとして引き継いでいない。\nWikipedia本文の基本情報欄を機械照合。公的資料との追加照合は未了。\nWikipedia生誕欄：大永6年（1526年）／死没欄：慶長15年12月3日（1611年1月16日）",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000011162573",
+        "1579",
+        "sg-0e4dd744efcf",
+        null,
+        "2026-10-25",
+        "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
+        "https://ja.wikipedia.org/w/index.php?oldid=110059274"
       ]
     },
     {
@@ -11339,6 +11555,33 @@
       ]
     },
     {
+      "sheetRow": 1632,
+      "values": [
+        "波多野秀治",
+        "未確認",
+        "不詳（Wikipedia記載）",
+        "1579",
+        "未確認",
+        "https://ja.wikipedia.org/wiki/%E6%B3%A2%E5%A4%9A%E9%87%8E%E7%A7%80%E6%B2%BB\nhttps://ja.wikipedia.org/w/index.php?oldid=111178397",
+        "Wikipedia確認・公的資料未照合",
+        "登録する",
+        "1631",
+        "はたのひではる",
+        "Wikipedia記載確認・数値年未確認を含む",
+        "未確認",
+        "同一人物・別名の完全同定は未了\nWikipediaの改名・別名欄を記録。異説のある改名や系譜の確定を意味しない。",
+        "候補資料の本文を確認し、生没年・事績・同一人物性を調査する。\nWikipedia本文の基本情報欄を機械照合。公的資料との追加照合は未了。\nWikipedia生誕欄：不明／死没欄：天正7年6月8日（1579年7月1日）",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://online.bunka.go.jp/db/heritages/detail/591832",
+        "1656",
+        null,
+        null,
+        "2026-10-25",
+        "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
+        "https://ja.wikipedia.org/w/index.php?oldid=111178397"
+      ]
+    },
+    {
       "sheetRow": 1635,
       "values": [
         "蜂須賀家政",
@@ -11449,6 +11692,34 @@
       ]
     },
     {
+      "sheetRow": 1641,
+      "values": [
+        "服部半蔵",
+        "未確認",
+        "未確認",
+        "未確認",
+        "未確認",
+        "未確認",
+        "検索実施・本文精査未了",
+        "登録する",
+        "1640",
+        "はっとりはんぞう",
+        "未確認",
+        "未確認",
+        "同一人物・別名の完全同定は未了",
+        "元Excelの事績・年は原票に保存。出典未照合の事績を確認済みとして引き継いでいない。\nWikipedia照合：記事取得・人物同定未了。該当人物が存在しないという判定ではない。",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000001298385",
+        "1666",
+        null,
+        null,
+        "2026-10-25",
+        "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。",
+        "未確認",
+        "〇"
+      ]
+    },
+    {
       "sheetRow": 1647,
       "values": [
         "馬場信春",
@@ -11528,6 +11799,33 @@
         "2026-10-25",
         "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
         "https://ja.wikipedia.org/w/index.php?oldid=111059438"
+      ]
+    },
+    {
+      "sheetRow": 1652,
+      "values": [
+        "林羅山",
+        "未確認",
+        "1583",
+        "1657",
+        "未確認",
+        "https://ja.wikipedia.org/wiki/%E6%9E%97%E7%BE%85%E5%B1%B1\nhttps://ja.wikipedia.org/w/index.php?oldid=111256897",
+        "Wikipedia確認・公的資料未照合",
+        "登録する",
+        "1651",
+        "はやしらざん",
+        "両年確認（出典記載）",
+        "未確認",
+        "同一人物・別名の完全同定は未了\nWikipediaの改名・別名欄を記録。異説のある改名や系譜の確定を意味しない。",
+        "NDL同名・別名候補あり。人物同定前のため主欄へ転記せず、典拠候補シートに記録。\nWikipedia本文の基本情報欄を機械照合。公的資料との追加照合は未了。\nWikipedia生誕欄：林 羅山（はやし らざん、天正11年（1583年）／死没欄：明暦3年1月23日（1657年3月7日））",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://artplatform.go.jp/ja/collections/W185369",
+        "1677",
+        null,
+        null,
+        "2026-10-25",
+        "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
+        "https://ja.wikipedia.org/w/index.php?oldid=111256897"
       ]
     },
     {
@@ -14441,6 +14739,33 @@
         "2026-10-25",
         "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
         "https://ja.wikipedia.org/w/index.php?oldid=111139306"
+      ]
+    },
+    {
+      "sheetRow": 1891,
+      "values": [
+        "松平信康",
+        "Wikipedia：竹千代（幼名）→信康、次郎三郎、岡崎三郎（通称）",
+        "1559",
+        "1579",
+        "戦国期に活動した武将。安祥松平家の一族にあたる。父は徳川家康。1559年に生まれ、1579年に没した。",
+        "https://ja.wikipedia.org/wiki/%E6%9D%BE%E5%B9%B3%E4%BF%A1%E5%BA%B7\nhttps://ja.wikipedia.org/w/index.php?oldid=110955313",
+        "Wikipediaプロフィール記載・事績未確認",
+        "登録する",
+        "1890",
+        "まつだいらのぶやす",
+        "両年確認（出典記載）",
+        "基本プロフィールのみ（事績未確認）",
+        "同一人物・別名の完全同定は未了\nWikipediaの改名・別名欄を記録。異説のある改名や系譜の確定を意味しない。",
+        "NDL同名・別名候補あり。人物同定前のため主欄へ転記せず、典拠候補シートに記録。\nWikipedia本文の基本情報欄を機械照合。公的資料との追加照合は未了。\nWikipedia生誕欄：永禄2年3月6日（1559年4月13日）／死没欄：天正7年9月15日（1579年10月5日）",
+        "https://altema.jp/nobunagashinsei/busyolist",
+        "https://ndlsearch.ndl.go.jp/books/R000000004-I5224858",
+        null,
+        null,
+        null,
+        "2026-10-25",
+        "資料の本文・画像を再利用する場合の許諾は未確認。候補資料は本文精査前。\nWikipedia由来部分：日本語版Wikipedia各記事の執筆者。基本情報を組み替えて要約（改変あり）。出典・固定版はF/V列。CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja （画像は使用しない）。",
+        "https://ja.wikipedia.org/w/index.php?oldid=110955313"
       ]
     },
     {
@@ -23171,12 +23496,6 @@
       "decision": "登録しない"
     },
     {
-      "sheetRow": 1443,
-      "name": "鳥居元忠",
-      "rosterId": "1442",
-      "decision": "登録しない"
-    },
-    {
       "sheetRow": 1444,
       "name": "内藤興盛",
       "rosterId": "1443",
@@ -23264,12 +23583,6 @@
       "sheetRow": 1469,
       "name": "長尾当長",
       "rosterId": "1468",
-      "decision": "登録しない"
-    },
-    {
-      "sheetRow": 1470,
-      "name": "中川清秀",
-      "rosterId": "1469",
       "decision": "登録しない"
     },
     {
@@ -23363,12 +23676,6 @@
       "decision": "登録しない"
     },
     {
-      "sheetRow": 1488,
-      "name": "長野業正",
-      "rosterId": "1487",
-      "decision": "登録しない"
-    },
-    {
       "sheetRow": 1489,
       "name": "長野業盛",
       "rosterId": "1488",
@@ -23396,12 +23703,6 @@
       "sheetRow": 1493,
       "name": "永原孝治",
       "rosterId": "1492",
-      "decision": "登録しない"
-    },
-    {
-      "sheetRow": 1494,
-      "name": "中村一氏",
-      "rosterId": "1493",
       "decision": "登録しない"
     },
     {
@@ -23453,12 +23754,6 @@
       "decision": "登録しない"
     },
     {
-      "sheetRow": 1503,
-      "name": "名古屋山三郎",
-      "rosterId": "1502",
-      "decision": "登録しない"
-    },
-    {
       "sheetRow": 1507,
       "name": "那須資房",
       "rosterId": "1506",
@@ -23474,12 +23769,6 @@
       "sheetRow": 1510,
       "name": "長東正家",
       "rosterId": "1509",
-      "decision": "登録しない"
-    },
-    {
-      "sheetRow": 1511,
-      "name": "鍋島勝茂",
-      "rosterId": "1510",
       "decision": "登録しない"
     },
     {
@@ -23609,12 +23898,6 @@
       "decision": "登録しない"
     },
     {
-      "sheetRow": 1536,
-      "name": "南光坊天海",
-      "rosterId": "1535",
-      "decision": "登録しない"
-    },
-    {
       "sheetRow": 1537,
       "name": "南条宗勝",
       "rosterId": "1536",
@@ -23690,12 +23973,6 @@
       "sheetRow": 1556,
       "name": "新見貞経",
       "rosterId": "1555",
-      "decision": "登録しない"
-    },
-    {
-      "sheetRow": 1557,
-      "name": "新納忠元",
-      "rosterId": "1556",
       "decision": "登録しない"
     },
     {
@@ -24035,12 +24312,6 @@
       "decision": "登録しない"
     },
     {
-      "sheetRow": 1632,
-      "name": "波多野秀治",
-      "rosterId": "1631",
-      "decision": "登録しない"
-    },
-    {
       "sheetRow": 1633,
       "name": "波多野宗高",
       "rosterId": "1632",
@@ -24062,12 +24333,6 @@
       "sheetRow": 1640,
       "name": "服部友貞",
       "rosterId": "1639",
-      "decision": "登録しない"
-    },
-    {
-      "sheetRow": 1641,
-      "name": "服部半蔵",
-      "rosterId": "1640",
       "decision": "登録しない"
     },
     {
@@ -24110,12 +24375,6 @@
       "sheetRow": 1649,
       "name": "浜田広綱",
       "rosterId": "1648",
-      "decision": "登録しない"
-    },
-    {
-      "sheetRow": 1652,
-      "name": "林羅山",
-      "rosterId": "1651",
       "decision": "登録しない"
     },
     {
@@ -24902,12 +25161,6 @@
       "sheetRow": 1889,
       "name": "松平長親",
       "rosterId": "1888",
-      "decision": "登録しない"
-    },
-    {
-      "sheetRow": 1891,
-      "name": "松平信康",
-      "rosterId": "1890",
       "decision": "登録しない"
     },
     {

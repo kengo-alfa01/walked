@@ -1,18 +1,19 @@
-✔ runtime validates full 612-person dataset and archived card references (3.860876ms)
-✔ runtime fails on missing archive, duplicate IDs and broken card link (3.432598ms)
-✔ alias, reading, fullwidth-space and case normalization search (0.686605ms)
-✔ generic alias collisions remain search results, never ID merges (7.958432ms)
-✔ legacy visited-only backup restores; full backup preserves unknown/future found records (1.187043ms)
-✔ actual preview JS loads, renders 612, searches aliases and displays verification labels (50.785438ms)
-✔ actual preview acquisition is idempotent, respects boundaries and never writes live keys (27.484644ms)
-✔ actual eligibility gate still excludes unreviewed and boundary-blocked cards (27.615311ms)
-✔ archived owned cards remain visible under found-only and do not enter active roster (26.079018ms)
-✔ same-name 島津家久 search returns two distinct people without merging IDs (0.456428ms)
-ℹ tests 10
+✔ runtime validates selected dataset and archived card references (2.255787ms)
+✔ runtime fails on missing archive, duplicate IDs and broken card link (1.184255ms)
+✔ alias, reading, fullwidth-space and case normalization search (0.594543ms)
+✔ generic alias collisions remain search results, never ID merges (5.88969ms)
+✔ legacy visited-only backup restores; full backup preserves unknown/future found records (0.952626ms)
+✔ actual preview JS loads, renders selected count, searches aliases and displays verification labels (43.934344ms)
+✔ actual preview acquisition is idempotent, respects boundaries and never writes live keys (21.436869ms)
+✔ actual eligibility gate still excludes unreviewed and boundary-blocked cards (19.53793ms)
+✔ archived owned cards remain visible under found-only and do not enter active roster (23.73541ms)
+✔ same-name 島津家久 search returns two distinct people without merging IDs (0.485936ms)
+✔ year labels show independently confirmed correction and preserve unverified raw (0.157925ms)
+ℹ tests 11
 ℹ suites 0
-ℹ pass 10
+ℹ pass 11
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 280.728333
+ℹ duration_ms 239.203992

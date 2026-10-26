@@ -56,6 +56,24 @@ def year(raw):
     }
 
 
+def reviewed_year(raw, field, review, status):
+    """Keep sheet text and uncertainty; only a verified explicit correction sets value."""
+    date = year(raw)
+    correction = review.get("confirmed" + field.title() + "Value")
+    additional = review.get("additional" + field.title() + "Candidates", [])
+    if correction is not None:
+        if type(correction) is not int or not 1000 <= correction <= 2100:
+            raise ValueError("invalid confirmed year")
+        additional = additional + [correction]
+        if status == "verified":
+            date["value"] = correction
+    date["candidates"] = sorted(set(date["candidates"] + additional))
+    date["status"] = status
+    if len(date["candidates"]) > 1 or status in {"disputed", "calendar_basis_requires_review"}:
+        date["value"] = None
+    return date
+
+
 def alias_candidates(raw):
     # Preserve uncertainty as raw text; never equate matching short names with identity.
     s = re.sub(r"(Wikipedia|記事名|通称|法号|雅号|斎号|受領名|号|あだ名|渾名)[：:]", "", raw or "")
@@ -181,19 +199,8 @@ def generate(source, out, registry_path=None):
             "license": "requires_review",
         }
         field_status.update(rv.get("fieldStatus", {}))
-        birth = year(v[2])
-        birth["candidates"] = sorted(
-            set(birth["candidates"] + rv.get("additionalBirthCandidates", []))
-        )
-        death = year(v[3])
-        death["candidates"] = sorted(
-            set(death["candidates"] + rv.get("additionalDeathCandidates", []))
-        )
-        birth["status"] = field_status["birth"]
-        death["status"] = field_status["death"]
-        for date in [birth, death]:
-            if len(date["candidates"]) > 1 or date["status"] == "calendar_basis_requires_review":
-                date["value"] = None
+        birth = reviewed_year(v[2], "birth", rv, field_status["birth"])
+        death = reviewed_year(v[3], "death", rv, field_status["death"])
         issues = ["full_historical_review_pending", "alias_identity_review_pending"]
         if stale:
             issues.append("prior_review_stale_master_changed")

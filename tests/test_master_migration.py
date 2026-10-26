@@ -2,7 +2,7 @@ import copy, csv, json, pathlib, sys, tempfile, unittest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from generate_sengoku_master import generate, load, dump, read_source
+from generate_sengoku_master import generate, load, dump, read_source, reviewed_year
 from validate_sengoku_master import validate
 
 
@@ -140,6 +140,40 @@ class MigrationTest(unittest.TestCase):
         ps = load(self.p / "out/people.json")
         self.assertTrue(all(p["verification"] == "needs_review" for p in ps))
         self.assertTrue(all(p["fieldStatus"]["aliases"] == "unverified" for p in ps))
+
+    def test_verified_correction_preserves_unknown_master_text(self):
+        self.run_source(self.source)
+        p = next(p for p in load(self.p / "out/people.json") if p["name"] == "服部半蔵")
+        self.assertEqual(p["death"]["value"], 1596)
+        self.assertEqual(p["death"]["raw"], "未確認")
+        self.assertEqual(p["death"]["status"], "verified")
+        self.assertIsNone(p["birth"]["value"])
+        self.assertEqual(p["birth"]["candidates"], [1542])
+
+    def test_unverified_correction_and_disputed_single_year_are_not_promoted(self):
+        d = reviewed_year("未確認", "birth", {"confirmedBirthValue": 1542}, "unverified")
+        self.assertIsNone(d["value"])
+        self.assertEqual(d["candidates"], [1542])
+        self.assertIsNone(reviewed_year("1536", "birth", {}, "disputed")["value"])
+
+    def test_delta_preserves_previous_612_ids_and_reviews_added_twelve(self):
+        import hashlib
+
+        self.run_source(self.source)
+        delta = load(ROOT / "migration/reports/selection-delta-612-to-624.json")
+        added = {p["rosterId"] for p in delta["added"]}
+        ps = load(self.p / "out/people.json")
+        previous = {
+            p["masterKey"]: p["id"] for p in ps if p["masterKey"] in delta["previousMasterKeys"]
+        }
+        digest = hashlib.sha256(json.dumps(previous, sort_keys=True).encode()).hexdigest()
+        self.assertEqual(len(previous), 612)
+        self.assertEqual(digest, delta["previousIdMappingSha256"])
+        new = [p for p in ps if p["selection"]["rosterId"] in added]
+        self.assertEqual(len(new), 12)
+        self.assertTrue(all(50 <= len(p["biography"]) <= 100 for p in new))
+        self.assertTrue(all(p["fieldStatus"]["biography"] == "verified" for p in new))
+        self.assertTrue(all(p["verification"] == "needs_review" for p in new))
 
 
 if __name__ == "__main__":

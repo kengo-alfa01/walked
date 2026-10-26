@@ -182,18 +182,6 @@
     "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
   },
   {
-    "id": "sg-researched-095-nakamura-kazuuji",
-    "name": "中村一氏",
-    "group": "豊臣・駿河",
-    "aliases": [],
-    "verification": "reviewed",
-    "siteResearch": "source_confirmed",
-    "source": "https://www.city.shizuoka.lg.jp/s6725/s005255.html",
-    "notes": "1590年に豊臣方の武将として駿府城主となったことを静岡市が記載。",
-    "active": false,
-    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
-  },
-  {
     "id": "sg-researched-095-tokugawa-yorinobu",
     "name": "徳川頼宣",
     "group": "徳川・紀伊",

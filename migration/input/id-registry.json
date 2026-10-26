@@ -4671,5 +4671,100 @@
     "oldIds": [],
     "mappingStatus": "new",
     "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1442": {
+    "id": "sg-76cf3b1e8681",
+    "nameAtRegistration": "鳥居元忠",
+    "oldIds": [
+      "sg-76cf3b1e8681"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
+  },
+  "1469": {
+    "id": "sg-master-1469",
+    "nameAtRegistration": "中川清秀",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
+  },
+  "1487": {
+    "id": "sg-master-1487",
+    "nameAtRegistration": "長野業正",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
+  },
+  "1493": {
+    "id": "sg-researched-095-nakamura-kazuuji",
+    "nameAtRegistration": "中村一氏",
+    "oldIds": [
+      "sg-researched-095-nakamura-kazuuji"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
+  },
+  "1502": {
+    "id": "sg-master-1502",
+    "nameAtRegistration": "名古屋山三郎",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
+  },
+  "1510": {
+    "id": "sg-master-1510",
+    "nameAtRegistration": "鍋島勝茂",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
+  },
+  "1535": {
+    "id": "sg-f2c2e2122e74",
+    "nameAtRegistration": "南光坊天海",
+    "oldIds": [
+      "sg-f2c2e2122e74"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
+  },
+  "1556": {
+    "id": "sg-0e4dd744efcf",
+    "nameAtRegistration": "新納忠元",
+    "oldIds": [
+      "sg-0e4dd744efcf"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
+  },
+  "1631": {
+    "id": "sg-master-1631",
+    "nameAtRegistration": "波多野秀治",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
+  },
+  "1640": {
+    "id": "sg-master-1640",
+    "nameAtRegistration": "服部半蔵",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
+  },
+  "1651": {
+    "id": "sg-master-1651",
+    "nameAtRegistration": "林羅山",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
+  },
+  "1890": {
+    "id": "sg-627bbb0204ca",
+    "nameAtRegistration": "松平信康",
+    "oldIds": [
+      "sg-627bbb0204ca",
+      "sg-9fbc26efe075"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "2026-10-26 user-selected delta; sheet R/exact name; Nobuyasu alias checked separately; full historical identity audit pending"
   }
 }

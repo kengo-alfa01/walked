@@ -6,6 +6,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {webkit}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const root=path.resolve(__dirname,'..');
+const expectedCount=JSON.parse(fs.readFileSync(path.join(root,'migration/input/master-snapshot.json'))).selectionCounts.selected;
 const {spawn}=require('node:child_process');
 const server=spawn('python',['-m','http.server','8765','--bind','127.0.0.1'],{cwd:root,stdio:'ignore'});
 (async()=>{
@@ -26,8 +27,8 @@ const server=spawn('python',['-m','http.server','8765','--bind','127.0.0.1'],{cw
   });
   const liveVisited={'m:existing':{at:'2026-01-01',source:'existing'}},liveFound={'sg-card-0001':{at:'2026-01-01',siteId:'sg-site-odawara'}};
   await page.addInitScript(({v,f})=>{localStorage.setItem('walked_municipal_v2',JSON.stringify(v));localStorage.setItem('walked_sengoku_cards_v1',JSON.stringify(f))},{v:liveVisited,f:liveFound});
-  await page.goto('http://127.0.0.1:8765/migration/preview.html',{waitUntil:'networkidle'});await page.waitForFunction(()=>document.getElementById('sengokuCount').textContent.includes('612'));
-  await page.locator('#sengokuToggle').click();assert.equal(await page.locator('#sengokuList .sengoku-person').count(),612);
+  await page.goto('http://127.0.0.1:8765/migration/preview.html',{waitUntil:'networkidle'});await page.waitForFunction(n=>document.getElementById('sengokuCount').textContent.includes(String(n)),expectedCount);
+  await page.locator('#sengokuToggle').click();assert.equal(await page.locator('#sengokuList .sengoku-person').count(),expectedCount);
   const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);assert.equal(overflow,false);
   await page.locator('#sengokuSearch').fill('真田信繁');assert.equal(await page.locator('#sengokuList .sengoku-person').count(),1);await page.locator('#sengokuList .sengoku-person').click();assert((await page.locator('#sengokuDetail').textContent()).includes('未完了'));
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
@@ -39,7 +40,7 @@ const server=spawn('python',['-m','http.server','8765','--bind','127.0.0.1'],{cw
   assert.deepEqual(JSON.parse(await page.evaluate(()=>localStorage.getItem('walked_sengoku_cards_v1'))),liveFound);
   await page.locator('#sengokuSearch').fill('');await page.evaluate(()=>document.getElementById('sengokuToast').hidden=true);await page.locator('#sengokuPanel').scrollIntoViewIfNeeded();
   const screenshot='migration/reports/'+label+'.png';await page.screenshot({path:path.join(root,screenshot)});
-  assert.deepEqual(errors,[]);results.push({label,width,engine:'Playwright WebKit Linux; not iOS',renderedPeople:612,horizontalOverflow:overflow,aliasSearch:'pass',acquisition,liveStorageUnchanged:true,pageErrors:errors,screenshot});await context.close();
+  assert.deepEqual(errors,[]);results.push({label,width,engine:'Playwright WebKit Linux; not iOS',renderedPeople:expectedCount,horizontalOverflow:overflow,aliasSearch:'pass',acquisition,liveStorageUnchanged:true,pageErrors:errors,screenshot});await context.close();
  }
  }catch(e){failures.push(e.stack);throw e}finally{fs.writeFileSync(path.join(root,'migration/reports/browser-smoke.json'),JSON.stringify({results,failures,realDeviceTested:false,nationalBoundaryAndTiles:'isolated fixtures; bundled town polygons and all candidate JSONs real'},null,2)+'\n');await browser.close();server.kill()}
  console.log(JSON.stringify(results,null,2));
