@@ -1,0 +1,4675 @@
+{
+  "1": {
+    "id": "sg-master-0001",
+    "nameAtRegistration": "愛洲移香斎",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "5": {
+    "id": "sg-master-0005",
+    "nameAtRegistration": "青木一矩",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "12": {
+    "id": "sg-master-0012",
+    "nameAtRegistration": "赤井直正",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "18": {
+    "id": "sg-master-0018",
+    "nameAtRegistration": "赤座吉家",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "20": {
+    "id": "sg-master-0020",
+    "nameAtRegistration": "明石全登",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "31": {
+    "id": "sg-master-0031",
+    "nameAtRegistration": "赤松晴政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "34": {
+    "id": "sg-master-0034",
+    "nameAtRegistration": "赤松義祐",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "39": {
+    "id": "sg-master-0039",
+    "nameAtRegistration": "秋月種実",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "40": {
+    "id": "sg-master-0040",
+    "nameAtRegistration": "秋月種長",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "44": {
+    "id": "sg-master-0044",
+    "nameAtRegistration": "秋元長朝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "45": {
+    "id": "sg-2366fe95caa3",
+    "nameAtRegistration": "秋山信友",
+    "oldIds": [
+      "sg-2366fe95caa3",
+      "sg-f2ad239dbe62"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "46": {
+    "id": "sg-c4238494e690",
+    "nameAtRegistration": "明智秀満",
+    "oldIds": [
+      "sg-c4238494e690"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "48": {
+    "id": "sg-a94db8113d4e",
+    "nameAtRegistration": "明智光秀",
+    "oldIds": [
+      "sg-a94db8113d4e"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "51": {
+    "id": "sg-master-0051",
+    "nameAtRegistration": "浅井亮政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "52": {
+    "id": "sg-master-0052",
+    "nameAtRegistration": "浅井長政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "53": {
+    "id": "sg-master-0053",
+    "nameAtRegistration": "浅井久政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "60": {
+    "id": "sg-master-0060",
+    "nameAtRegistration": "朝倉宗滴",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "62": {
+    "id": "sg-master-0062",
+    "nameAtRegistration": "朝倉義景",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "63": {
+    "id": "sg-5e4958a3a30b",
+    "nameAtRegistration": "浅野長晟",
+    "oldIds": [
+      "sg-5e4958a3a30b"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "64": {
+    "id": "sg-master-0064",
+    "nameAtRegistration": "浅野長重",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "65": {
+    "id": "sg-5d169413d357",
+    "nameAtRegistration": "浅野長政",
+    "oldIds": [
+      "sg-5d169413d357"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "66": {
+    "id": "sg-5c6f60a32cc4",
+    "nameAtRegistration": "浅野幸長",
+    "oldIds": [
+      "sg-5c6f60a32cc4"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "68": {
+    "id": "sg-master-0068",
+    "nameAtRegistration": "朝比奈泰朝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "77": {
+    "id": "sg-master-0077",
+    "nameAtRegistration": "足利義昭",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "80": {
+    "id": "sg-master-0080",
+    "nameAtRegistration": "足利義輝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "81": {
+    "id": "sg-master-0081",
+    "nameAtRegistration": "足利義晴",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "87": {
+    "id": "sg-d77a83b9ede7",
+    "nameAtRegistration": "蘆名盛氏",
+    "oldIds": [
+      "sg-d77a83b9ede7"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "88": {
+    "id": "sg-06350062e0e3",
+    "nameAtRegistration": "蘆名盛興",
+    "oldIds": [
+      "sg-06350062e0e3"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "95": {
+    "id": "sg-master-0095",
+    "nameAtRegistration": "阿蘇惟将",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "104": {
+    "id": "sg-95608981fd14",
+    "nameAtRegistration": "安宅冬康",
+    "oldIds": [
+      "sg-95608981fd14"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "113": {
+    "id": "sg-master-0113",
+    "nameAtRegistration": "姉小路良頼",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "114": {
+    "id": "sg-master-0114",
+    "nameAtRegistration": "姉小路頼綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "117": {
+    "id": "sg-master-0117",
+    "nameAtRegistration": "阿部正次",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "119": {
+    "id": "sg-master-0119",
+    "nameAtRegistration": "安倍元真",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "122": {
+    "id": "sg-f59be6be90ae",
+    "nameAtRegistration": "甘粕景持",
+    "oldIds": [
+      "sg-f59be6be90ae"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "123": {
+    "id": "sg-master-0123",
+    "nameAtRegistration": "天草四郎",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "128": {
+    "id": "sg-79a4eefd8d40",
+    "nameAtRegistration": "尼子経久",
+    "oldIds": [
+      "sg-79a4eefd8d40"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "129": {
+    "id": "sg-901256a2d908",
+    "nameAtRegistration": "尼子晴久",
+    "oldIds": [
+      "sg-901256a2d908"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "131": {
+    "id": "sg-84dc0beb5301",
+    "nameAtRegistration": "尼子義久",
+    "oldIds": [
+      "sg-84dc0beb5301"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "136": {
+    "id": "sg-09b6ad013f33",
+    "nameAtRegistration": "甘利虎泰",
+    "oldIds": [
+      "sg-09b6ad013f33"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "139": {
+    "id": "sg-master-0139",
+    "nameAtRegistration": "荒木村重",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "144": {
+    "id": "sg-master-0144",
+    "nameAtRegistration": "有馬豊氏",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "145": {
+    "id": "sg-master-0145",
+    "nameAtRegistration": "有馬直純",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "146": {
+    "id": "sg-master-0146",
+    "nameAtRegistration": "有馬則頼",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "147": {
+    "id": "sg-master-0147",
+    "nameAtRegistration": "有馬晴純",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "148": {
+    "id": "sg-master-0148",
+    "nameAtRegistration": "有馬晴信",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "149": {
+    "id": "sg-master-0149",
+    "nameAtRegistration": "有馬義貞",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "154": {
+    "id": "sg-master-0154",
+    "nameAtRegistration": "安国寺恵瓊",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "162": {
+    "id": "sg-master-0162",
+    "nameAtRegistration": "安藤守就",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "163": {
+    "id": "sg-master-0163",
+    "nameAtRegistration": "安藤良整",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "168": {
+    "id": "sg-6b9dfe775421",
+    "nameAtRegistration": "井伊直孝",
+    "oldIds": [
+      "sg-6b9dfe775421"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "170": {
+    "id": "sg-17b3fc2f32ad",
+    "nameAtRegistration": "井伊直虎",
+    "oldIds": [
+      "sg-17b3fc2f32ad"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "171": {
+    "id": "sg-df4ede094a85",
+    "nameAtRegistration": "井伊直政",
+    "oldIds": [
+      "sg-df4ede094a85"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "180": {
+    "id": "sg-master-0180",
+    "nameAtRegistration": "池田重利",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "182": {
+    "id": "sg-master-0182",
+    "nameAtRegistration": "池田忠雄",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "183": {
+    "id": "sg-master-0183",
+    "nameAtRegistration": "池田恒興",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "184": {
+    "id": "sg-master-0184",
+    "nameAtRegistration": "池田輝澄",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "185": {
+    "id": "sg-master-0185",
+    "nameAtRegistration": "池田輝政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "186": {
+    "id": "sg-master-0186",
+    "nameAtRegistration": "池田利隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "189": {
+    "id": "sg-master-0189",
+    "nameAtRegistration": "池田長吉",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "190": {
+    "id": "sg-master-0190",
+    "nameAtRegistration": "池田長幸",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "192": {
+    "id": "sg-master-0192",
+    "nameAtRegistration": "池田政綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "193": {
+    "id": "sg-master-0193",
+    "nameAtRegistration": "池田光政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "195": {
+    "id": "sg-master-0195",
+    "nameAtRegistration": "生駒一正",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "196": {
+    "id": "sg-master-0196",
+    "nameAtRegistration": "生駒親正",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "198": {
+    "id": "sg-master-0198",
+    "nameAtRegistration": "生駒正俊",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "203": {
+    "id": "sg-49a2411798d0",
+    "nameAtRegistration": "石川数正",
+    "oldIds": [
+      "sg-49a2411798d0"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "205": {
+    "id": "sg-master-0205",
+    "nameAtRegistration": "石川貞清",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "208": {
+    "id": "sg-master-0208",
+    "nameAtRegistration": "石川忠総",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "213": {
+    "id": "sg-master-0213",
+    "nameAtRegistration": "石川康勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "214": {
+    "id": "sg-b62946a697c3",
+    "nameAtRegistration": "石川康長",
+    "oldIds": [
+      "sg-b62946a697c3"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "217": {
+    "id": "sg-eabb6aa8c477",
+    "nameAtRegistration": "石田正澄",
+    "oldIds": [
+      "sg-eabb6aa8c477"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "219": {
+    "id": "sg-37fdfb0d52c1",
+    "nameAtRegistration": "石田三成",
+    "oldIds": [
+      "sg-37fdfb0d52c1"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "237": {
+    "id": "sg-master-0237",
+    "nameAtRegistration": "板倉勝重",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "246": {
+    "id": "sg-f3fd8e48c7b8",
+    "nameAtRegistration": "一条房家",
+    "oldIds": [
+      "sg-f3fd8e48c7b8"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "249": {
+    "id": "sg-94a27730e132",
+    "nameAtRegistration": "一条房基",
+    "oldIds": [
+      "sg-94a27730e132"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "251": {
+    "id": "sg-master-0251",
+    "nameAtRegistration": "市橋長勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "261": {
+    "id": "sg-master-0261",
+    "nameAtRegistration": "伊東一刀斎",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "266": {
+    "id": "sg-master-0266",
+    "nameAtRegistration": "伊東長実",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "268": {
+    "id": "sg-master-0268",
+    "nameAtRegistration": "伊藤盛正",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "270": {
+    "id": "sg-master-0270",
+    "nameAtRegistration": "伊東義祐",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "271": {
+    "id": "sg-master-0271",
+    "nameAtRegistration": "伊東義益",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "272": {
+    "id": "sg-master-0272",
+    "nameAtRegistration": "伊奈忠次",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "274": {
+    "id": "sg-master-0274",
+    "nameAtRegistration": "稲垣重綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "279": {
+    "id": "sg-master-0279",
+    "nameAtRegistration": "稲葉一鉄",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "280": {
+    "id": "sg-master-0280",
+    "nameAtRegistration": "稲葉貞通",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "281": {
+    "id": "sg-master-0281",
+    "nameAtRegistration": "稲葉重通",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "283": {
+    "id": "sg-master-0283",
+    "nameAtRegistration": "稲葉典通",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "284": {
+    "id": "sg-master-0284",
+    "nameAtRegistration": "稲葉正成",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "285": {
+    "id": "sg-master-0285",
+    "nameAtRegistration": "稲葉道通",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "299": {
+    "id": "sg-master-0299",
+    "nameAtRegistration": "今川氏真",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "301": {
+    "id": "sg-master-0301",
+    "nameAtRegistration": "今川義元",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "309": {
+    "id": "sg-master-0309",
+    "nameAtRegistration": "岩城貞隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "311": {
+    "id": "sg-master-0311",
+    "nameAtRegistration": "岩城親隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "312": {
+    "id": "sg-master-0312",
+    "nameAtRegistration": "岩城常隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "313": {
+    "id": "sg-master-0313",
+    "nameAtRegistration": "岩城吉隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "322": {
+    "id": "sg-334f0ad961e2",
+    "nameAtRegistration": "上杉景勝",
+    "oldIds": [
+      "sg-334f0ad961e2"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "323": {
+    "id": "sg-ea87da1feaf2",
+    "nameAtRegistration": "上杉景虎",
+    "oldIds": [
+      "sg-ea87da1feaf2",
+      "sg-71b96e15ed0a"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "325": {
+    "id": "sg-dc8c550d8769",
+    "nameAtRegistration": "上杉謙信",
+    "oldIds": [
+      "sg-dc8c550d8769",
+      "sg-79bfcb9c9ac9",
+      "sg-513297867ebc"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "330": {
+    "id": "sg-ee846a9ff8ae",
+    "nameAtRegistration": "上杉憲政",
+    "oldIds": [
+      "sg-ee846a9ff8ae"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "344": {
+    "id": "sg-master-0344",
+    "nameAtRegistration": "宇喜多直家",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "345": {
+    "id": "sg-master-0345",
+    "nameAtRegistration": "宇喜多秀家",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "346": {
+    "id": "sg-b96d26835a13",
+    "nameAtRegistration": "宇佐美定満",
+    "oldIds": [
+      "sg-b96d26835a13"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "350": {
+    "id": "sg-master-0350",
+    "nameAtRegistration": "氏家卜全",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "353": {
+    "id": "sg-master-0353",
+    "nameAtRegistration": "氏家行広",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "362": {
+    "id": "sg-master-0362",
+    "nameAtRegistration": "宇都宮国綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "364": {
+    "id": "sg-master-0364",
+    "nameAtRegistration": "宇都宮尚綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "365": {
+    "id": "sg-master-0365",
+    "nameAtRegistration": "宇都宮広綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "378": {
+    "id": "sg-master-0378",
+    "nameAtRegistration": "浦上政宗",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "388": {
+    "id": "sg-master-0388",
+    "nameAtRegistration": "江戸重通",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "402": {
+    "id": "sg-master-0402",
+    "nameAtRegistration": "遠藤直経",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "405": {
+    "id": "sg-master-0405",
+    "nameAtRegistration": "遠藤慶隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "407": {
+    "id": "sg-master-0407",
+    "nameAtRegistration": "お市",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "420": {
+    "id": "sg-ca4fbc8a4591",
+    "nameAtRegistration": "大内義興",
+    "oldIds": [
+      "sg-ca4fbc8a4591"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "421": {
+    "id": "sg-bdc70f64e638",
+    "nameAtRegistration": "大内義隆",
+    "oldIds": [
+      "sg-bdc70f64e638"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "423": {
+    "id": "sg-47293bb9ea88",
+    "nameAtRegistration": "大内義長",
+    "oldIds": [
+      "sg-47293bb9ea88"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "430": {
+    "id": "sg-40a90e24b432",
+    "nameAtRegistration": "大久保忠佐",
+    "oldIds": [
+      "sg-40a90e24b432"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "432": {
+    "id": "sg-f8dec1480db8",
+    "nameAtRegistration": "大久保忠隣",
+    "oldIds": [
+      "sg-f8dec1480db8"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "435": {
+    "id": "sg-fa8d6bece07a",
+    "nameAtRegistration": "大久保長安",
+    "oldIds": [
+      "sg-fa8d6bece07a"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "438": {
+    "id": "sg-master-0438",
+    "nameAtRegistration": "大崎義直",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "440": {
+    "id": "sg-master-0440",
+    "nameAtRegistration": "大須賀忠政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "441": {
+    "id": "sg-master-0441",
+    "nameAtRegistration": "大関資増",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "442": {
+    "id": "sg-master-0442",
+    "nameAtRegistration": "大関高増",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "445": {
+    "id": "sg-master-0445",
+    "nameAtRegistration": "太田一吉",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "460": {
+    "id": "sg-8cbc980e4721",
+    "nameAtRegistration": "大谷吉継",
+    "oldIds": [
+      "sg-8cbc980e4721"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "469": {
+    "id": "sg-1cc5e9da1135",
+    "nameAtRegistration": "大友宗麟",
+    "oldIds": [
+      "sg-1cc5e9da1135"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "470": {
+    "id": "sg-99c33c826a83",
+    "nameAtRegistration": "大友義鑑",
+    "oldIds": [
+      "sg-99c33c826a83"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "480": {
+    "id": "sg-master-0480",
+    "nameAtRegistration": "大野治長",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "485": {
+    "id": "sg-master-0485",
+    "nameAtRegistration": "大村純忠",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "493": {
+    "id": "sg-master-0493",
+    "nameAtRegistration": "岡利勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "496": {
+    "id": "sg-master-0496",
+    "nameAtRegistration": "小笠原貞慶",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "497": {
+    "id": "sg-master-0497",
+    "nameAtRegistration": "小笠原忠真",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "499": {
+    "id": "sg-master-0499",
+    "nameAtRegistration": "小笠原長時",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "504": {
+    "id": "sg-master-0504",
+    "nameAtRegistration": "小笠原信之",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "505": {
+    "id": "sg-master-0505",
+    "nameAtRegistration": "小笠原秀政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "506": {
+    "id": "sg-master-0506",
+    "nameAtRegistration": "小笠原政信",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "508": {
+    "id": "sg-master-0508",
+    "nameAtRegistration": "岡部長盛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "515": {
+    "id": "sg-master-0515",
+    "nameAtRegistration": "岡本良勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "522": {
+    "id": "sg-master-0522",
+    "nameAtRegistration": "奥平家昌",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "527": {
+    "id": "sg-master-0527",
+    "nameAtRegistration": "奥平忠昌",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "528": {
+    "id": "sg-person-okudaira-nobumasa",
+    "nameAtRegistration": "奥平信昌",
+    "oldIds": [
+      "sg-person-okudaira-nobumasa"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "538": {
+    "id": "sg-master-0538",
+    "nameAtRegistration": "小田氏治",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "539": {
+    "id": "sg-d6690994a793",
+    "nameAtRegistration": "織田有楽",
+    "oldIds": [
+      "sg-d6690994a793"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "542": {
+    "id": "sg-dc42c21066b7",
+    "nameAtRegistration": "織田信勝",
+    "oldIds": [
+      "sg-dc42c21066b7"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "543": {
+    "id": "sg-c4a99f3cbb77",
+    "nameAtRegistration": "織田信雄",
+    "oldIds": [
+      "sg-c4a99f3cbb77"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "544": {
+    "id": "sg-9147212ab4a4",
+    "nameAtRegistration": "織田信包",
+    "oldIds": [
+      "sg-9147212ab4a4"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "548": {
+    "id": "sg-6666c05e6264",
+    "nameAtRegistration": "織田信孝",
+    "oldIds": [
+      "sg-6666c05e6264"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "549": {
+    "id": "sg-163274b0bfdf",
+    "nameAtRegistration": "織田信忠",
+    "oldIds": [
+      "sg-163274b0bfdf"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "551": {
+    "id": "sg-6eaf66c3d7c8",
+    "nameAtRegistration": "織田信長",
+    "oldIds": [
+      "sg-6eaf66c3d7c8"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "552": {
+    "id": "sg-404bb56ac651",
+    "nameAtRegistration": "織田信秀",
+    "oldIds": [
+      "sg-404bb56ac651"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "556": {
+    "id": "sg-master-0556",
+    "nameAtRegistration": "織田秀雄",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "557": {
+    "id": "sg-532f50203751",
+    "nameAtRegistration": "織田秀信",
+    "oldIds": [
+      "sg-532f50203751"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "559": {
+    "id": "sg-master-0559",
+    "nameAtRegistration": "小田政治",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "572": {
+    "id": "sg-master-0572",
+    "nameAtRegistration": "小野木重次",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "575": {
+    "id": "sg-master-0575",
+    "nameAtRegistration": "小野寺輝道",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "577": {
+    "id": "sg-master-0577",
+    "nameAtRegistration": "小野寺義道",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "589": {
+    "id": "sg-master-0589",
+    "nameAtRegistration": "小山高朝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "590": {
+    "id": "sg-master-0590",
+    "nameAtRegistration": "小山秀綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "603": {
+    "id": "sg-a8cfe1245acb",
+    "nameAtRegistration": "柿崎景家",
+    "oldIds": [
+      "sg-a8cfe1245acb"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "604": {
+    "id": "sg-master-0604",
+    "nameAtRegistration": "蠣崎季広",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "609": {
+    "id": "sg-master-0609",
+    "nameAtRegistration": "垣見一直",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "611": {
+    "id": "sg-master-0611",
+    "nameAtRegistration": "垣屋恒総",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "620": {
+    "id": "sg-master-0620",
+    "nameAtRegistration": "笠原信為",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "628": {
+    "id": "sg-master-0628",
+    "nameAtRegistration": "果心居士",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "630": {
+    "id": "sg-be2cdd21282e",
+    "nameAtRegistration": "糟屋武則",
+    "oldIds": [
+      "sg-be2cdd21282e"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "631": {
+    "id": "sg-cd881fe48736",
+    "nameAtRegistration": "片桐且元",
+    "oldIds": [
+      "sg-cd881fe48736"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "632": {
+    "id": "sg-dbdaed510c02",
+    "nameAtRegistration": "片桐貞隆",
+    "oldIds": [
+      "sg-dbdaed510c02"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "639": {
+    "id": "sg-master-0639",
+    "nameAtRegistration": "加藤明成",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "640": {
+    "id": "sg-0b974357bac7",
+    "nameAtRegistration": "加藤清正",
+    "oldIds": [
+      "sg-0b974357bac7"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "641": {
+    "id": "sg-f3b1781640ba",
+    "nameAtRegistration": "加藤貞泰",
+    "oldIds": [
+      "sg-f3b1781640ba"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "642": {
+    "id": "sg-master-0642",
+    "nameAtRegistration": "加藤忠広",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "645": {
+    "id": "sg-3620f59d61f8",
+    "nameAtRegistration": "加藤光泰",
+    "oldIds": [
+      "sg-3620f59d61f8"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "646": {
+    "id": "sg-0a11ed8a5e60",
+    "nameAtRegistration": "加藤嘉明",
+    "oldIds": [
+      "sg-0a11ed8a5e60"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "651": {
+    "id": "sg-master-0651",
+    "nameAtRegistration": "金森長近",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "652": {
+    "id": "sg-master-0652",
+    "nameAtRegistration": "金森可重",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "654": {
+    "id": "sg-master-0654",
+    "nameAtRegistration": "可児才蔵",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "671": {
+    "id": "sg-master-0671",
+    "nameAtRegistration": "蒲池鎮漣",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "672": {
+    "id": "sg-master-0672",
+    "nameAtRegistration": "上泉信綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "680": {
+    "id": "sg-master-0680",
+    "nameAtRegistration": "蒲生氏郷",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "685": {
+    "id": "sg-master-0685",
+    "nameAtRegistration": "蒲生忠知",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "693": {
+    "id": "sg-master-0693",
+    "nameAtRegistration": "川口宗勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "696": {
+    "id": "sg-master-0696",
+    "nameAtRegistration": "河尻秀隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "697": {
+    "id": "sg-master-0697",
+    "nameAtRegistration": "河尻秀長",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "717": {
+    "id": "sg-master-0717",
+    "nameAtRegistration": "岸田忠氏",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "722": {
+    "id": "sg-master-0722",
+    "nameAtRegistration": "木曾義昌",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "723": {
+    "id": "sg-master-0723",
+    "nameAtRegistration": "木曾義康",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "734": {
+    "id": "sg-master-0734",
+    "nameAtRegistration": "北畠具教",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "735": {
+    "id": "sg-master-0735",
+    "nameAtRegistration": "北畠具房",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "736": {
+    "id": "sg-master-0736",
+    "nameAtRegistration": "北畠晴具",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "739": {
+    "id": "sg-master-0739",
+    "nameAtRegistration": "帰蝶",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "747": {
+    "id": "sg-49819a572b8c",
+    "nameAtRegistration": "吉川元春",
+    "oldIds": [
+      "sg-49819a572b8c"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "749": {
+    "id": "sg-master-0749",
+    "nameAtRegistration": "喜連川頼氏",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "751": {
+    "id": "sg-master-0751",
+    "nameAtRegistration": "木下勝俊",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "752": {
+    "id": "sg-master-0752",
+    "nameAtRegistration": "木下重堅",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "753": {
+    "id": "sg-master-0753",
+    "nameAtRegistration": "木下延俊",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "756": {
+    "id": "sg-master-0756",
+    "nameAtRegistration": "木村重成",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "759": {
+    "id": "sg-master-0759",
+    "nameAtRegistration": "肝付兼亮",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "761": {
+    "id": "sg-master-0761",
+    "nameAtRegistration": "肝付兼続",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "763": {
+    "id": "sg-master-0763",
+    "nameAtRegistration": "肝付兼護",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "765": {
+    "id": "sg-master-0765",
+    "nameAtRegistration": "肝付良兼",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "767": {
+    "id": "sg-master-0767",
+    "nameAtRegistration": "京極高知",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "768": {
+    "id": "sg-master-0768",
+    "nameAtRegistration": "京極高広",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "770": {
+    "id": "sg-master-0770",
+    "nameAtRegistration": "京極忠高",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "779": {
+    "id": "sg-master-0779",
+    "nameAtRegistration": "九鬼守隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "780": {
+    "id": "sg-master-0780",
+    "nameAtRegistration": "九鬼嘉隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "796": {
+    "id": "sg-master-0796",
+    "nameAtRegistration": "九戸政実",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "810": {
+    "id": "sg-master-0810",
+    "nameAtRegistration": "来島通総",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "817": {
+    "id": "sg-master-0817",
+    "nameAtRegistration": "黒田官兵衛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "820": {
+    "id": "sg-master-0820",
+    "nameAtRegistration": "黒田長政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "824": {
+    "id": "sg-master-0824",
+    "nameAtRegistration": "桑山一直",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "825": {
+    "id": "sg-master-0825",
+    "nameAtRegistration": "桑山一晴",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "826": {
+    "id": "sg-master-0826",
+    "nameAtRegistration": "桑山重晴",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "836": {
+    "id": "sg-master-0836",
+    "nameAtRegistration": "小出秀政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "837": {
+    "id": "sg-master-0837",
+    "nameAtRegistration": "小出三尹",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "838": {
+    "id": "sg-master-0838",
+    "nameAtRegistration": "小出吉親",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "839": {
+    "id": "sg-master-0839",
+    "nameAtRegistration": "小出吉英",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "840": {
+    "id": "sg-master-0840",
+    "nameAtRegistration": "小出吉政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "845": {
+    "id": "sg-ff02145e28fa",
+    "nameAtRegistration": "高坂昌信",
+    "oldIds": [
+      "sg-ff02145e28fa"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "849": {
+    "id": "sg-2e7e85a2f05b",
+    "nameAtRegistration": "河野晴通",
+    "oldIds": [
+      "sg-2e7e85a2f05b"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "856": {
+    "id": "sg-master-0856",
+    "nameAtRegistration": "高力忠房",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "867": {
+    "id": "sg-61d60c6f9bfa",
+    "nameAtRegistration": "木造雄利",
+    "oldIds": [
+      "sg-61d60c6f9bfa"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "883": {
+    "id": "sg-master-0883",
+    "nameAtRegistration": "後藤又兵衛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "886": {
+    "id": "sg-445a4d61441d",
+    "nameAtRegistration": "小西行長",
+    "oldIds": [
+      "sg-445a4d61441d"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "891": {
+    "id": "sg-master-0891",
+    "nameAtRegistration": "小早川隆景",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "892": {
+    "id": "sg-master-0892",
+    "nameAtRegistration": "小早川秀秋",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "896": {
+    "id": "sg-b6d0012b215c",
+    "nameAtRegistration": "小堀遠州",
+    "oldIds": [
+      "sg-b6d0012b215c"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "904": {
+    "id": "sg-master-0904",
+    "nameAtRegistration": "近藤政成",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "908": {
+    "id": "sg-master-0908",
+    "nameAtRegistration": "西園寺実充",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "915": {
+    "id": "sg-person-saito-tatsuoki",
+    "nameAtRegistration": "斎藤龍興",
+    "oldIds": [
+      "sg-person-saito-tatsuoki"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "916": {
+    "id": "sg-person-saito-dosan",
+    "nameAtRegistration": "斎藤道三",
+    "oldIds": [
+      "sg-person-saito-dosan"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "918": {
+    "id": "sg-master-0918",
+    "nameAtRegistration": "斎藤利三",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "922": {
+    "id": "sg-master-0922",
+    "nameAtRegistration": "斎藤義龍",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "923": {
+    "id": "sg-master-0923",
+    "nameAtRegistration": "斎村政広",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "926": {
+    "id": "sg-master-0926",
+    "nameAtRegistration": "酒井重忠",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "928": {
+    "id": "sg-4d159b56655e",
+    "nameAtRegistration": "酒井忠次",
+    "oldIds": [
+      "sg-4d159b56655e"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "929": {
+    "id": "sg-master-0929",
+    "nameAtRegistration": "酒井忠利",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "930": {
+    "id": "sg-47af3a3931f8",
+    "nameAtRegistration": "酒井忠世",
+    "oldIds": [
+      "sg-47af3a3931f8"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "937": {
+    "id": "sg-master-0937",
+    "nameAtRegistration": "榊原忠次",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "939": {
+    "id": "sg-6708a912a215",
+    "nameAtRegistration": "榊原康政",
+    "oldIds": [
+      "sg-6708a912a215"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "940": {
+    "id": "sg-master-0940",
+    "nameAtRegistration": "坂崎直盛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "942": {
+    "id": "sg-master-0942",
+    "nameAtRegistration": "相良晴広",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "944": {
+    "id": "sg-master-0944",
+    "nameAtRegistration": "相良義滋",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "945": {
+    "id": "sg-master-0945",
+    "nameAtRegistration": "相良義陽",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "946": {
+    "id": "sg-master-0946",
+    "nameAtRegistration": "相良頼房",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "950": {
+    "id": "sg-509374345bbc",
+    "nameAtRegistration": "佐久間信盛",
+    "oldIds": [
+      "sg-509374345bbc"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "957": {
+    "id": "sg-master-0957",
+    "nameAtRegistration": "佐々木小次郎",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "965": {
+    "id": "sg-master-0965",
+    "nameAtRegistration": "佐竹義昭",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "970": {
+    "id": "sg-master-0970",
+    "nameAtRegistration": "佐竹義重",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "972": {
+    "id": "sg-master-0972",
+    "nameAtRegistration": "佐竹義宣",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "980": {
+    "id": "sg-c9b23a4d650b",
+    "nameAtRegistration": "里見忠義",
+    "oldIds": [
+      "sg-c9b23a4d650b"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "982": {
+    "id": "sg-29c3bc68aa37",
+    "nameAtRegistration": "里見義堯",
+    "oldIds": [
+      "sg-29c3bc68aa37"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "983": {
+    "id": "sg-17496a5d9dfa",
+    "nameAtRegistration": "里見義弘",
+    "oldIds": [
+      "sg-17496a5d9dfa"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "984": {
+    "id": "sg-4a0d5b7e8da9",
+    "nameAtRegistration": "里見義康",
+    "oldIds": [
+      "sg-4a0d5b7e8da9"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "985": {
+    "id": "sg-4f700b581dac",
+    "nameAtRegistration": "里見義頼",
+    "oldIds": [
+      "sg-4f700b581dac"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "990": {
+    "id": "sg-master-0990",
+    "nameAtRegistration": "真田信政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "991": {
+    "id": "sg-53d7309718ae",
+    "nameAtRegistration": "真田信之",
+    "oldIds": [
+      "sg-53d7309718ae"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "992": {
+    "id": "sg-master-0992",
+    "nameAtRegistration": "真田信吉",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "994": {
+    "id": "sg-61b29c703206",
+    "nameAtRegistration": "真田昌幸",
+    "oldIds": [
+      "sg-61b29c703206"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "995": {
+    "id": "sg-c3abf75d711c",
+    "nameAtRegistration": "真田幸隆",
+    "oldIds": [
+      "sg-c3abf75d711c"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "996": {
+    "id": "sg-b9bb61125a1b",
+    "nameAtRegistration": "真田幸村",
+    "oldIds": [
+      "sg-b9bb61125a1b"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1000": {
+    "id": "sg-master-1000",
+    "nameAtRegistration": "佐野房綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1002": {
+    "id": "sg-master-1002",
+    "nameAtRegistration": "佐野宗綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1031": {
+    "id": "sg-master-1031",
+    "nameAtRegistration": "斯波詮真",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1032": {
+    "id": "sg-master-1032",
+    "nameAtRegistration": "斯波詮高",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1034": {
+    "id": "sg-master-1034",
+    "nameAtRegistration": "斯波経詮",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1037": {
+    "id": "sg-master-1037",
+    "nameAtRegistration": "斯波義統",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1038": {
+    "id": "sg-2d3f90c28c8f",
+    "nameAtRegistration": "柴田勝家",
+    "oldIds": [
+      "sg-2d3f90c28c8f"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1039": {
+    "id": "sg-7a9ec141203b",
+    "nameAtRegistration": "柴田勝豊",
+    "oldIds": [
+      "sg-7a9ec141203b"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1045": {
+    "id": "sg-master-1045",
+    "nameAtRegistration": "島左近",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1046": {
+    "id": "sg-41b3835895a3",
+    "nameAtRegistration": "島津家久",
+    "oldIds": [
+      "sg-41b3835895a3"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1047": {
+    "id": "sg-f2f56875ef01",
+    "nameAtRegistration": "島津勝久",
+    "oldIds": [
+      "sg-f2f56875ef01"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1050": {
+    "id": "sg-148daf4e23ca",
+    "nameAtRegistration": "島津貴久",
+    "oldIds": [
+      "sg-148daf4e23ca"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1051": {
+    "id": "sg-master-1051",
+    "nameAtRegistration": "島津忠興",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1053": {
+    "id": "sg-3337ee17e64f",
+    "nameAtRegistration": "島津忠恒",
+    "oldIds": [
+      "sg-3337ee17e64f"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1060": {
+    "id": "sg-3acb18a9fa1c",
+    "nameAtRegistration": "島津豊久",
+    "oldIds": [
+      "sg-3acb18a9fa1c"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1063": {
+    "id": "sg-cb02e33e1f61",
+    "nameAtRegistration": "島津以久",
+    "oldIds": [
+      "sg-cb02e33e1f61"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1065": {
+    "id": "sg-fa0a6f0c8900",
+    "nameAtRegistration": "島津義久",
+    "oldIds": [
+      "sg-fa0a6f0c8900"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1066": {
+    "id": "sg-819c365a83e4",
+    "nameAtRegistration": "島津義弘",
+    "oldIds": [
+      "sg-819c365a83e4"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1080": {
+    "id": "sg-e4a2694bcde6",
+    "nameAtRegistration": "下間頼廉",
+    "oldIds": [
+      "sg-e4a2694bcde6"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1090": {
+    "id": "sg-master-1090",
+    "nameAtRegistration": "少弐資元",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1091": {
+    "id": "sg-master-1091",
+    "nameAtRegistration": "少弐冬尚",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1096": {
+    "id": "sg-master-1096",
+    "nameAtRegistration": "白河義親",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1101": {
+    "id": "sg-master-1101",
+    "nameAtRegistration": "新庄直定",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1103": {
+    "id": "sg-master-1103",
+    "nameAtRegistration": "新庄直頼",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1114": {
+    "id": "sg-master-1114",
+    "nameAtRegistration": "神保長職",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1119": {
+    "id": "sg-master-1119",
+    "nameAtRegistration": "陶晴賢",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1120": {
+    "id": "sg-master-1120",
+    "nameAtRegistration": "菅沼定盈",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1121": {
+    "id": "sg-master-1121",
+    "nameAtRegistration": "菅沼定芳",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1128": {
+    "id": "sg-master-1128",
+    "nameAtRegistration": "杉原長房",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1134": {
+    "id": "sg-a3675bca89fb",
+    "nameAtRegistration": "鈴木佐大夫",
+    "oldIds": [
+      "sg-a3675bca89fb"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1138": {
+    "id": "sg-60dc822b9098",
+    "nameAtRegistration": "鈴木重朝",
+    "oldIds": [
+      "sg-60dc822b9098"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1140": {
+    "id": "sg-f43d43140ca8",
+    "nameAtRegistration": "鈴木重秀",
+    "oldIds": [
+      "sg-f43d43140ca8"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1150": {
+    "id": "sg-master-1150",
+    "nameAtRegistration": "諏訪忠恒",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1154": {
+    "id": "sg-master-1154",
+    "nameAtRegistration": "諏訪頼水",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1157": {
+    "id": "sg-master-1157",
+    "nameAtRegistration": "関一政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1165": {
+    "id": "sg-31e7289f7720",
+    "nameAtRegistration": "千利休",
+    "oldIds": [
+      "sg-31e7289f7720"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1171": {
+    "id": "sg-master-1171",
+    "nameAtRegistration": "宗義調",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1172": {
+    "id": "sg-master-1172",
+    "nameAtRegistration": "宗義智",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1174": {
+    "id": "sg-master-1174",
+    "nameAtRegistration": "相馬顕胤",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1176": {
+    "id": "sg-master-1176",
+    "nameAtRegistration": "相馬利胤",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1179": {
+    "id": "sg-d607fa19cdfb",
+    "nameAtRegistration": "十河一存",
+    "oldIds": [
+      "sg-d607fa19cdfb"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1181": {
+    "id": "sg-4ae0c30e6a58",
+    "nameAtRegistration": "十河存保",
+    "oldIds": [
+      "sg-4ae0c30e6a58"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1195": {
+    "id": "sg-master-1195",
+    "nameAtRegistration": "大宝寺義氏",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1196": {
+    "id": "sg-master-1196",
+    "nameAtRegistration": "大宝寺義興",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1197": {
+    "id": "sg-master-1197",
+    "nameAtRegistration": "大宝寺義増",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1200": {
+    "id": "sg-master-1200",
+    "nameAtRegistration": "多賀秀種",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1216": {
+    "id": "sg-05d4ad2ca192",
+    "nameAtRegistration": "高橋紹運",
+    "oldIds": [
+      "sg-05d4ad2ca192"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1217": {
+    "id": "sg-556b573f620b",
+    "nameAtRegistration": "高橋統増",
+    "oldIds": [
+      "sg-556b573f620b"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1225": {
+    "id": "sg-0d5a2a224f5e",
+    "nameAtRegistration": "高山右近",
+    "oldIds": [
+      "sg-0d5a2a224f5e"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1227": {
+    "id": "sg-6b9e823e7bf5",
+    "nameAtRegistration": "滝川一益",
+    "oldIds": [
+      "sg-6b9e823e7bf5"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1234": {
+    "id": "sg-e00b2631eded",
+    "nameAtRegistration": "武田勝頼",
+    "oldIds": [
+      "sg-e00b2631eded"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1236": {
+    "id": "sg-4c0c12460efa",
+    "nameAtRegistration": "武田信玄",
+    "oldIds": [
+      "sg-4c0c12460efa"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1239": {
+    "id": "sg-c091a1f2c530",
+    "nameAtRegistration": "武田信繁",
+    "oldIds": [
+      "sg-c091a1f2c530"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1242": {
+    "id": "sg-98514cee0056",
+    "nameAtRegistration": "武田信虎",
+    "oldIds": [
+      "sg-98514cee0056"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1245": {
+    "id": "sg-master-1245",
+    "nameAtRegistration": "武田元光",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1246": {
+    "id": "sg-master-1246",
+    "nameAtRegistration": "武田義統",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1249": {
+    "id": "sg-master-1249",
+    "nameAtRegistration": "竹中重利",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1250": {
+    "id": "sg-master-1250",
+    "nameAtRegistration": "竹中重義",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1251": {
+    "id": "sg-master-1251",
+    "nameAtRegistration": "竹中半兵衛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1261": {
+    "id": "sg-fa767bbaaf2c",
+    "nameAtRegistration": "立花道雪",
+    "oldIds": [
+      "sg-fa767bbaaf2c"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1262": {
+    "id": "sg-master-1262",
+    "nameAtRegistration": "立花宗茂",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1267": {
+    "id": "sg-c33de3cf7739",
+    "nameAtRegistration": "伊達成実",
+    "oldIds": [
+      "sg-c33de3cf7739"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1269": {
+    "id": "sg-6e7c2701582a",
+    "nameAtRegistration": "伊達稙宗",
+    "oldIds": [
+      "sg-6e7c2701582a"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1270": {
+    "id": "sg-004af7fd6f69",
+    "nameAtRegistration": "伊達輝宗",
+    "oldIds": [
+      "sg-004af7fd6f69"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1271": {
+    "id": "sg-cb4753dc7bdd",
+    "nameAtRegistration": "伊達晴宗",
+    "oldIds": [
+      "sg-cb4753dc7bdd"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1273": {
+    "id": "sg-31e0e85d7a10",
+    "nameAtRegistration": "伊達政宗",
+    "oldIds": [
+      "sg-31e0e85d7a10"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1277": {
+    "id": "sg-master-1277",
+    "nameAtRegistration": "田中忠政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1280": {
+    "id": "sg-master-1280",
+    "nameAtRegistration": "田中吉政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1282": {
+    "id": "sg-master-1282",
+    "nameAtRegistration": "谷衛友",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1284": {
+    "id": "sg-master-1284",
+    "nameAtRegistration": "種子島時尭",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1287": {
+    "id": "sg-master-1287",
+    "nameAtRegistration": "田丸直昌",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1305": {
+    "id": "sg-master-1305",
+    "nameAtRegistration": "千葉親胤",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1309": {
+    "id": "sg-master-1309",
+    "nameAtRegistration": "茶々",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1312": {
+    "id": "sg-master-1312",
+    "nameAtRegistration": "長連龍",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1314": {
+    "id": "sg-8df0e8922f50",
+    "nameAtRegistration": "長宗我部国親",
+    "oldIds": [
+      "sg-8df0e8922f50"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1317": {
+    "id": "sg-281d92dc2e0f",
+    "nameAtRegistration": "長宗我部元親",
+    "oldIds": [
+      "sg-281d92dc2e0f"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1318": {
+    "id": "sg-master-1318",
+    "nameAtRegistration": "長宗我部盛親",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1321": {
+    "id": "sg-master-1321",
+    "nameAtRegistration": "津軽為信",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1323": {
+    "id": "sg-master-1323",
+    "nameAtRegistration": "津軽信枚",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1326": {
+    "id": "sg-master-1326",
+    "nameAtRegistration": "筑紫広門",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1336": {
+    "id": "sg-master-1336",
+    "nameAtRegistration": "筒井定次",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1337": {
+    "id": "sg-master-1337",
+    "nameAtRegistration": "筒井順慶",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1355": {
+    "id": "sg-master-1355",
+    "nameAtRegistration": "寺沢広高",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1363": {
+    "id": "sg-master-1363",
+    "nameAtRegistration": "土井利勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1370": {
+    "id": "sg-e64d13aedffc",
+    "nameAtRegistration": "藤堂高虎",
+    "oldIds": [
+      "sg-e64d13aedffc"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1379": {
+    "id": "sg-master-1379",
+    "nameAtRegistration": "遠山友忠",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1380": {
+    "id": "sg-master-1380",
+    "nameAtRegistration": "遠山友政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1384": {
+    "id": "sg-master-1384",
+    "nameAtRegistration": "戸川達安",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1386": {
+    "id": "sg-master-1386",
+    "nameAtRegistration": "土岐政頼",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1388": {
+    "id": "sg-person-toki-yoriaki",
+    "nameAtRegistration": "土岐賴芸",
+    "oldIds": [
+      "sg-person-toki-yoriaki"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1393": {
+    "id": "sg-65a881d7f9ee",
+    "nameAtRegistration": "徳川家光",
+    "oldIds": [
+      "sg-65a881d7f9ee"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1394": {
+    "id": "sg-a7bb09927601",
+    "nameAtRegistration": "徳川家康",
+    "oldIds": [
+      "sg-a7bb09927601"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1395": {
+    "id": "sg-451ea10bcb24",
+    "nameAtRegistration": "徳川秀忠",
+    "oldIds": [
+      "sg-451ea10bcb24"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1396": {
+    "id": "sg-master-1396",
+    "nameAtRegistration": "徳川光圀",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1401": {
+    "id": "sg-master-1401",
+    "nameAtRegistration": "徳永寿昌",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1402": {
+    "id": "sg-master-1402",
+    "nameAtRegistration": "徳永昌重",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1405": {
+    "id": "sg-master-1405",
+    "nameAtRegistration": "徳山則秀",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1409": {
+    "id": "sg-master-1409",
+    "nameAtRegistration": "戸沢政盛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1410": {
+    "id": "sg-master-1410",
+    "nameAtRegistration": "戸沢道盛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1412": {
+    "id": "sg-master-1412",
+    "nameAtRegistration": "戸沢盛安",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1414": {
+    "id": "sg-master-1414",
+    "nameAtRegistration": "戸田氏鉄",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1417": {
+    "id": "sg-master-1417",
+    "nameAtRegistration": "戸田勝成",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1419": {
+    "id": "sg-master-1419",
+    "nameAtRegistration": "戸田尊次",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1425": {
+    "id": "sg-master-1425",
+    "nameAtRegistration": "富田一白",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1429": {
+    "id": "sg-master-1429",
+    "nameAtRegistration": "富田信高",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1436": {
+    "id": "sg-ebd50519deb3",
+    "nameAtRegistration": "豊臣秀次",
+    "oldIds": [
+      "sg-ebd50519deb3"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1437": {
+    "id": "sg-0dde8259f8df",
+    "nameAtRegistration": "豊臣秀長",
+    "oldIds": [
+      "sg-0dde8259f8df"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1438": {
+    "id": "sg-f47391608dbb",
+    "nameAtRegistration": "豊臣秀吉",
+    "oldIds": [
+      "sg-f47391608dbb"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1439": {
+    "id": "sg-98ea0db11340",
+    "nameAtRegistration": "豊臣秀頼",
+    "oldIds": [
+      "sg-98ea0db11340"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1444": {
+    "id": "sg-master-1444",
+    "nameAtRegistration": "内藤清成",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1448": {
+    "id": "sg-master-1448",
+    "nameAtRegistration": "内藤忠興",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1449": {
+    "id": "sg-master-1449",
+    "nameAtRegistration": "内藤信成",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1450": {
+    "id": "sg-master-1450",
+    "nameAtRegistration": "内藤信正",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1451": {
+    "id": "sg-6568a3b2fdc7",
+    "nameAtRegistration": "内藤昌豊",
+    "oldIds": [
+      "sg-6568a3b2fdc7"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1452": {
+    "id": "sg-master-1452",
+    "nameAtRegistration": "内藤政長",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1454": {
+    "id": "sg-d95e2b81c841",
+    "nameAtRegistration": "直江景綱",
+    "oldIds": [
+      "sg-d95e2b81c841"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1455": {
+    "id": "sg-1a91ae29cb5a",
+    "nameAtRegistration": "直江兼続",
+    "oldIds": [
+      "sg-1a91ae29cb5a"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1457": {
+    "id": "sg-master-1457",
+    "nameAtRegistration": "永井直勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1461": {
+    "id": "sg-6ffcd3b19007",
+    "nameAtRegistration": "長尾為景",
+    "oldIds": [
+      "sg-6ffcd3b19007"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1467": {
+    "id": "sg-2f68ae7810d0",
+    "nameAtRegistration": "長尾政景",
+    "oldIds": [
+      "sg-2f68ae7810d0"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1471": {
+    "id": "sg-master-1471",
+    "nameAtRegistration": "中川秀成",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1486": {
+    "id": "sg-master-1486",
+    "nameAtRegistration": "長野具藤",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1503": {
+    "id": "sg-master-1503",
+    "nameAtRegistration": "那須資景",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1504": {
+    "id": "sg-master-1504",
+    "nameAtRegistration": "那須資胤",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1505": {
+    "id": "sg-master-1505",
+    "nameAtRegistration": "那須資晴",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1507": {
+    "id": "sg-master-1507",
+    "nameAtRegistration": "那須高資",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1516": {
+    "id": "sg-master-1516",
+    "nameAtRegistration": "鍋島直茂",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1525": {
+    "id": "sg-researched-096-narita-ujinaga",
+    "nameAtRegistration": "成田氏長",
+    "oldIds": [
+      "sg-researched-096-narita-ujinaga"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1534": {
+    "id": "sg-master-1534",
+    "nameAtRegistration": "成瀬正成",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1540": {
+    "id": "sg-master-1540",
+    "nameAtRegistration": "南条元忠",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1541": {
+    "id": "sg-master-1541",
+    "nameAtRegistration": "南条元続",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1543": {
+    "id": "sg-master-1543",
+    "nameAtRegistration": "南部重直",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1545": {
+    "id": "sg-master-1545",
+    "nameAtRegistration": "南部利直",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1546": {
+    "id": "sg-master-1546",
+    "nameAtRegistration": "南部信直",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1547": {
+    "id": "sg-master-1547",
+    "nameAtRegistration": "南部晴政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1550": {
+    "id": "sg-master-1550",
+    "nameAtRegistration": "南部安信",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1557": {
+    "id": "sg-master-1557",
+    "nameAtRegistration": "二階堂輝行",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1558": {
+    "id": "sg-master-1558",
+    "nameAtRegistration": "二階堂晴行",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1564": {
+    "id": "sg-master-1564",
+    "nameAtRegistration": "西尾忠永",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1566": {
+    "id": "sg-added-nishina-morinobu",
+    "nameAtRegistration": "仁科盛信",
+    "oldIds": [
+      "sg-added-nishina-morinobu"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1581": {
+    "id": "sg-f9bfd1ba47ba",
+    "nameAtRegistration": "丹羽長重",
+    "oldIds": [
+      "sg-f9bfd1ba47ba"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1582": {
+    "id": "sg-6f62edf23a38",
+    "nameAtRegistration": "丹羽長秀",
+    "oldIds": [
+      "sg-6f62edf23a38"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1595": {
+    "id": "sg-master-1595",
+    "nameAtRegistration": "ねね",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1606": {
+    "id": "sg-master-1606",
+    "nameAtRegistration": "野村直隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1614": {
+    "id": "sg-master-1614",
+    "nameAtRegistration": "箸尾高春",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1617": {
+    "id": "sg-master-1617",
+    "nameAtRegistration": "支倉常長",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1618": {
+    "id": "sg-master-1618",
+    "nameAtRegistration": "畠山昭高",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1619": {
+    "id": "sg-master-1619",
+    "nameAtRegistration": "畠山高政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1620": {
+    "id": "sg-master-1620",
+    "nameAtRegistration": "畠山稙長",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1621": {
+    "id": "sg-master-1621",
+    "nameAtRegistration": "畠山政国",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1623": {
+    "id": "sg-master-1623",
+    "nameAtRegistration": "畠山義隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1624": {
+    "id": "sg-master-1624",
+    "nameAtRegistration": "畠山義続",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1625": {
+    "id": "sg-master-1625",
+    "nameAtRegistration": "畠山義綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1626": {
+    "id": "sg-master-1626",
+    "nameAtRegistration": "畠山義慶",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1634": {
+    "id": "sg-248aba9a5613",
+    "nameAtRegistration": "蜂須賀家政",
+    "oldIds": [
+      "sg-248aba9a5613"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1635": {
+    "id": "sg-b3ad604d8563",
+    "nameAtRegistration": "蜂須賀小六",
+    "oldIds": [
+      "sg-b3ad604d8563"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1636": {
+    "id": "sg-4159f0d9f3b0",
+    "nameAtRegistration": "蜂須賀至鎮",
+    "oldIds": [
+      "sg-4159f0d9f3b0"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1638": {
+    "id": "sg-master-1638",
+    "nameAtRegistration": "蜂屋頼隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1646": {
+    "id": "sg-e701cb97b4d9",
+    "nameAtRegistration": "馬場信春",
+    "oldIds": [
+      "sg-e701cb97b4d9"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1649": {
+    "id": "sg-master-1649",
+    "nameAtRegistration": "早川長政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1650": {
+    "id": "sg-master-1650",
+    "nameAtRegistration": "林秀貞",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1653": {
+    "id": "sg-master-1653",
+    "nameAtRegistration": "速水守久",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1659": {
+    "id": "sg-4e02f0802b16",
+    "nameAtRegistration": "原虎胤",
+    "oldIds": [
+      "sg-4e02f0802b16"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1660": {
+    "id": "sg-master-1660",
+    "nameAtRegistration": "原長頼",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1662": {
+    "id": "sg-master-1662",
+    "nameAtRegistration": "原田隆種",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1666": {
+    "id": "sg-master-1666",
+    "nameAtRegistration": "原田信種",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1673": {
+    "id": "sg-master-1673",
+    "nameAtRegistration": "塙団右衛門",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1674": {
+    "id": "sg-master-1674",
+    "nameAtRegistration": "塙直政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1684": {
+    "id": "sg-master-1684",
+    "nameAtRegistration": "土方雄氏",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1685": {
+    "id": "sg-master-1685",
+    "nameAtRegistration": "土方雄重",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1686": {
+    "id": "sg-master-1686",
+    "nameAtRegistration": "土方雄久",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1688": {
+    "id": "sg-master-1688",
+    "nameAtRegistration": "一柳直盛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1689": {
+    "id": "sg-master-1689",
+    "nameAtRegistration": "日根野弘就",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1690": {
+    "id": "sg-master-1690",
+    "nameAtRegistration": "日根野吉明",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1693": {
+    "id": "sg-da093dc1cd41",
+    "nameAtRegistration": "平岩親吉",
+    "oldIds": [
+      "sg-da093dc1cd41"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1696": {
+    "id": "sg-master-1696",
+    "nameAtRegistration": "平岡頼勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1704": {
+    "id": "sg-master-1704",
+    "nameAtRegistration": "平塚為広",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1705": {
+    "id": "sg-master-1705",
+    "nameAtRegistration": "平手政秀",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1709": {
+    "id": "sg-master-1709",
+    "nameAtRegistration": "風魔小太郎",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1711": {
+    "id": "sg-7a8136915c8d",
+    "nameAtRegistration": "福島高晴",
+    "oldIds": [
+      "sg-7a8136915c8d"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1712": {
+    "id": "sg-master-1712",
+    "nameAtRegistration": "福島忠勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1713": {
+    "id": "sg-f91c582084bb",
+    "nameAtRegistration": "福島正則",
+    "oldIds": [
+      "sg-f91c582084bb"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1720": {
+    "id": "sg-master-1720",
+    "nameAtRegistration": "福原長堯",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1725": {
+    "id": "sg-master-1725",
+    "nameAtRegistration": "藤田信吉",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1732": {
+    "id": "sg-2c9b79309350",
+    "nameAtRegistration": "古田織部",
+    "oldIds": [
+      "sg-2c9b79309350"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1733": {
+    "id": "sg-master-1733",
+    "nameAtRegistration": "古田重勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1734": {
+    "id": "sg-master-1734",
+    "nameAtRegistration": "古田重治",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1736": {
+    "id": "sg-master-1736",
+    "nameAtRegistration": "別所重棟",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1737": {
+    "id": "sg-master-1737",
+    "nameAtRegistration": "別所長治",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1740": {
+    "id": "sg-master-1740",
+    "nameAtRegistration": "別所吉治",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1744": {
+    "id": "sg-6f3368f015f6",
+    "nameAtRegistration": "北条氏邦",
+    "oldIds": [
+      "sg-6f3368f015f6"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1745": {
+    "id": "sg-0c72d1fa0136",
+    "nameAtRegistration": "北条氏繁",
+    "oldIds": [
+      "sg-0c72d1fa0136"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1746": {
+    "id": "sg-875cb1f9119d",
+    "nameAtRegistration": "北条氏重",
+    "oldIds": [
+      "sg-875cb1f9119d"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1748": {
+    "id": "sg-c594233cb2b7",
+    "nameAtRegistration": "北条氏綱",
+    "oldIds": [
+      "sg-c594233cb2b7"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1749": {
+    "id": "sg-fc948f16832f",
+    "nameAtRegistration": "北条氏照",
+    "oldIds": [
+      "sg-fc948f16832f"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1750": {
+    "id": "sg-3e72ce5a7fa9",
+    "nameAtRegistration": "北条氏直",
+    "oldIds": [
+      "sg-3e72ce5a7fa9"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1751": {
+    "id": "sg-cf72a6b13a40",
+    "nameAtRegistration": "北条氏規",
+    "oldIds": [
+      "sg-cf72a6b13a40"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1752": {
+    "id": "sg-master-1752",
+    "nameAtRegistration": "北条氏房",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1753": {
+    "id": "sg-025ab3a6ee3f",
+    "nameAtRegistration": "北条氏政",
+    "oldIds": [
+      "sg-025ab3a6ee3f"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1754": {
+    "id": "sg-22f595e1c616",
+    "nameAtRegistration": "北条氏康",
+    "oldIds": [
+      "sg-22f595e1c616"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1755": {
+    "id": "sg-1ebd0b00f6fd",
+    "nameAtRegistration": "北条幻庵",
+    "oldIds": [
+      "sg-1ebd0b00f6fd"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1756": {
+    "id": "sg-4cb1a557e060",
+    "nameAtRegistration": "北条早雲",
+    "oldIds": [
+      "sg-4cb1a557e060"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1758": {
+    "id": "sg-a77cd1aa75f3",
+    "nameAtRegistration": "北条綱成",
+    "oldIds": [
+      "sg-a77cd1aa75f3"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1759": {
+    "id": "sg-a07ea793c09c",
+    "nameAtRegistration": "北条綱高",
+    "oldIds": [
+      "sg-a07ea793c09c"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1760": {
+    "id": "sg-master-1760",
+    "nameAtRegistration": "宝蔵院胤栄",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1762": {
+    "id": "sg-master-1762",
+    "nameAtRegistration": "保科正俊",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1764": {
+    "id": "sg-researched-096-hoshina-masamitsu",
+    "nameAtRegistration": "保科正光",
+    "oldIds": [
+      "sg-researched-096-hoshina-masamitsu"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1765": {
+    "id": "sg-master-1765",
+    "nameAtRegistration": "保科正之",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1766": {
+    "id": "sg-master-1766",
+    "nameAtRegistration": "細川昭元",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1769": {
+    "id": "sg-master-1769",
+    "nameAtRegistration": "細川興元",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1772": {
+    "id": "sg-master-1772",
+    "nameAtRegistration": "細川忠興",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1773": {
+    "id": "sg-master-1773",
+    "nameAtRegistration": "細川忠利",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1775": {
+    "id": "sg-c7f26ab56a5f",
+    "nameAtRegistration": "細川晴元",
+    "oldIds": [
+      "sg-c7f26ab56a5f"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1780": {
+    "id": "sg-master-1780",
+    "nameAtRegistration": "細川元常",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1781": {
+    "id": "sg-master-1781",
+    "nameAtRegistration": "細川幽斎",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1787": {
+    "id": "sg-master-1787",
+    "nameAtRegistration": "堀親良",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1788": {
+    "id": "sg-master-1788",
+    "nameAtRegistration": "堀利重",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1790": {
+    "id": "sg-master-1790",
+    "nameAtRegistration": "堀直寄",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1791": {
+    "id": "sg-master-1791",
+    "nameAtRegistration": "堀秀治",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1792": {
+    "id": "sg-master-1792",
+    "nameAtRegistration": "堀秀政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1793": {
+    "id": "sg-master-1793",
+    "nameAtRegistration": "堀秀村",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1796": {
+    "id": "sg-master-1796",
+    "nameAtRegistration": "堀尾忠氏",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1797": {
+    "id": "sg-master-1797",
+    "nameAtRegistration": "堀尾忠晴",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1798": {
+    "id": "sg-master-1798",
+    "nameAtRegistration": "堀尾吉晴",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1799": {
+    "id": "sg-master-1799",
+    "nameAtRegistration": "堀内氏善",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1800": {
+    "id": "sg-388af5de1320",
+    "nameAtRegistration": "本願寺教如",
+    "oldIds": [
+      "sg-388af5de1320"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1801": {
+    "id": "sg-109ae0f4414d",
+    "nameAtRegistration": "本願寺顕如",
+    "oldIds": [
+      "sg-109ae0f4414d"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1802": {
+    "id": "sg-e0c70881a26c",
+    "nameAtRegistration": "本願寺証如",
+    "oldIds": [
+      "sg-e0c70881a26c"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1807": {
+    "id": "sg-6f81530db175",
+    "nameAtRegistration": "本庄繁長",
+    "oldIds": [
+      "sg-6f81530db175"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1815": {
+    "id": "sg-af4aa93fd365",
+    "nameAtRegistration": "本多忠勝",
+    "oldIds": [
+      "sg-af4aa93fd365"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1818": {
+    "id": "sg-f7efc358b462",
+    "nameAtRegistration": "本多忠朝",
+    "oldIds": [
+      "sg-f7efc358b462"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1819": {
+    "id": "sg-368d313f71c3",
+    "nameAtRegistration": "本多忠政",
+    "oldIds": [
+      "sg-368d313f71c3"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1820": {
+    "id": "sg-master-1820",
+    "nameAtRegistration": "本多利朝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1821": {
+    "id": "sg-master-1821",
+    "nameAtRegistration": "本多利久",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1822": {
+    "id": "sg-master-1822",
+    "nameAtRegistration": "本多政重",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1823": {
+    "id": "sg-de4ba6266d5d",
+    "nameAtRegistration": "本多正純",
+    "oldIds": [
+      "sg-de4ba6266d5d"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1824": {
+    "id": "sg-master-1824",
+    "nameAtRegistration": "本多政武",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1825": {
+    "id": "sg-master-1825",
+    "nameAtRegistration": "本多政朝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1826": {
+    "id": "sg-416baa3d4e63",
+    "nameAtRegistration": "本多正信",
+    "oldIds": [
+      "sg-416baa3d4e63"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1827": {
+    "id": "sg-c38d3fa71701",
+    "nameAtRegistration": "本多康重",
+    "oldIds": [
+      "sg-c38d3fa71701"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1828": {
+    "id": "sg-master-1828",
+    "nameAtRegistration": "本多康俊",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1829": {
+    "id": "sg-master-1829",
+    "nameAtRegistration": "本多康紀",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1835": {
+    "id": "sg-master-1835",
+    "nameAtRegistration": "蒔田広定",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1837": {
+    "id": "sg-master-1837",
+    "nameAtRegistration": "前田慶次",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1838": {
+    "id": "sg-652da2fcc84e",
+    "nameAtRegistration": "前田玄以",
+    "oldIds": [
+      "sg-652da2fcc84e"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1839": {
+    "id": "sg-added-maeda-toshiie",
+    "nameAtRegistration": "前田利家",
+    "oldIds": [
+      "sg-added-maeda-toshiie"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1840": {
+    "id": "sg-master-1840",
+    "nameAtRegistration": "前田利常",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1841": {
+    "id": "sg-master-1841",
+    "nameAtRegistration": "前田利長",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1843": {
+    "id": "sg-master-1843",
+    "nameAtRegistration": "前田利政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1845": {
+    "id": "sg-master-1845",
+    "nameAtRegistration": "前野長康",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1847": {
+    "id": "sg-master-1847",
+    "nameAtRegistration": "真壁氏幹",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1849": {
+    "id": "sg-master-1849",
+    "nameAtRegistration": "真柄直隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1861": {
+    "id": "sg-1c8ecc2d1bf4",
+    "nameAtRegistration": "増田長盛",
+    "oldIds": [
+      "sg-1c8ecc2d1bf4"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1868": {
+    "id": "sg-master-1868",
+    "nameAtRegistration": "まつ",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1874": {
+    "id": "sg-master-1874",
+    "nameAtRegistration": "松倉勝家",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1875": {
+    "id": "sg-master-1875",
+    "nameAtRegistration": "松倉重政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1876": {
+    "id": "sg-master-1876",
+    "nameAtRegistration": "松田憲秀",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1878": {
+    "id": "sg-5b38718f87ac",
+    "nameAtRegistration": "松平定勝",
+    "oldIds": [
+      "sg-5b38718f87ac"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1879": {
+    "id": "sg-master-1879",
+    "nameAtRegistration": "松平定行",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1880": {
+    "id": "sg-311ba3d06bd6",
+    "nameAtRegistration": "松平忠明",
+    "oldIds": [
+      "sg-311ba3d06bd6"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1881": {
+    "id": "sg-da0119c4781d",
+    "nameAtRegistration": "松平忠輝",
+    "oldIds": [
+      "sg-da0119c4781d"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1882": {
+    "id": "sg-master-1882",
+    "nameAtRegistration": "松平忠利",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1883": {
+    "id": "sg-6be1c9b51574",
+    "nameAtRegistration": "松平忠直",
+    "oldIds": [
+      "sg-6be1c9b51574"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1884": {
+    "id": "sg-96939dda0884",
+    "nameAtRegistration": "松平忠昌",
+    "oldIds": [
+      "sg-96939dda0884"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1885": {
+    "id": "sg-09eb74bf4159",
+    "nameAtRegistration": "松平忠吉",
+    "oldIds": [
+      "sg-09eb74bf4159"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1886": {
+    "id": "sg-master-1886",
+    "nameAtRegistration": "松平忠良",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1887": {
+    "id": "sg-master-1887",
+    "nameAtRegistration": "松平直政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1889": {
+    "id": "sg-master-1889",
+    "nameAtRegistration": "松平信綱",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1891": {
+    "id": "sg-master-1891",
+    "nameAtRegistration": "松平乗寿",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1893": {
+    "id": "sg-master-1893",
+    "nameAtRegistration": "松平康重",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1894": {
+    "id": "sg-master-1894",
+    "nameAtRegistration": "松平康長",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1895": {
+    "id": "sg-40aa320a08e4",
+    "nameAtRegistration": "松永久秀",
+    "oldIds": [
+      "sg-40aa320a08e4"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1896": {
+    "id": "sg-7f8434578e6d",
+    "nameAtRegistration": "松永久通",
+    "oldIds": [
+      "sg-7f8434578e6d"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1903": {
+    "id": "sg-master-1903",
+    "nameAtRegistration": "松前慶広",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1906": {
+    "id": "sg-master-1906",
+    "nameAtRegistration": "松浦鎮信",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1926": {
+    "id": "sg-master-1926",
+    "nameAtRegistration": "御宿勘兵衛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1928": {
+    "id": "sg-master-1928",
+    "nameAtRegistration": "水谷胤重",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1929": {
+    "id": "sg-b1d631ef2479",
+    "nameAtRegistration": "水野勝成",
+    "oldIds": [
+      "sg-b1d631ef2479"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1930": {
+    "id": "sg-master-1930",
+    "nameAtRegistration": "水野重央",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1931": {
+    "id": "sg-master-1931",
+    "nameAtRegistration": "水野忠清",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1932": {
+    "id": "sg-cfb73411fab8",
+    "nameAtRegistration": "水野忠重",
+    "oldIds": [
+      "sg-cfb73411fab8"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1934": {
+    "id": "sg-master-1934",
+    "nameAtRegistration": "水野信元",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1935": {
+    "id": "sg-master-1935",
+    "nameAtRegistration": "水野分長",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1936": {
+    "id": "sg-master-1936",
+    "nameAtRegistration": "水谷勝隆",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1943": {
+    "id": "sg-master-1943",
+    "nameAtRegistration": "溝口宣勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1944": {
+    "id": "sg-master-1944",
+    "nameAtRegistration": "溝口秀勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1945": {
+    "id": "sg-master-1945",
+    "nameAtRegistration": "溝口善勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1955": {
+    "id": "sg-master-1955",
+    "nameAtRegistration": "皆川広照",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1966": {
+    "id": "sg-master-1966",
+    "nameAtRegistration": "三宅康信",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1968": {
+    "id": "sg-master-1968",
+    "nameAtRegistration": "宮部継潤",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1969": {
+    "id": "sg-master-1969",
+    "nameAtRegistration": "宮部長房",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1970": {
+    "id": "sg-master-1970",
+    "nameAtRegistration": "宮本武蔵",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1974": {
+    "id": "sg-f0f828d32d64",
+    "nameAtRegistration": "三好咲岩",
+    "oldIds": [
+      "sg-f0f828d32d64"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1978": {
+    "id": "sg-24684888730a",
+    "nameAtRegistration": "三好長慶",
+    "oldIds": [
+      "sg-24684888730a"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1982": {
+    "id": "sg-859509f2e00e",
+    "nameAtRegistration": "三好政康",
+    "oldIds": [
+      "sg-859509f2e00e"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1984": {
+    "id": "sg-8d9f0bd63c27",
+    "nameAtRegistration": "三好義継",
+    "oldIds": [
+      "sg-8d9f0bd63c27"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1990": {
+    "id": "sg-master-1990",
+    "nameAtRegistration": "宗像氏貞",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1993": {
+    "id": "sg-master-1993",
+    "nameAtRegistration": "村井貞勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1995": {
+    "id": "sg-master-1995",
+    "nameAtRegistration": "村上景親",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1996": {
+    "id": "sg-master-1996",
+    "nameAtRegistration": "村上武吉",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1997": {
+    "id": "sg-master-1997",
+    "nameAtRegistration": "村上忠勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "1999": {
+    "id": "sg-master-1999",
+    "nameAtRegistration": "村上元吉",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2000": {
+    "id": "sg-master-2000",
+    "nameAtRegistration": "村上義明",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2001": {
+    "id": "sg-master-2001",
+    "nameAtRegistration": "村上義清",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2009": {
+    "id": "sg-master-2009",
+    "nameAtRegistration": "毛利勝永",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2011": {
+    "id": "sg-master-2011",
+    "nameAtRegistration": "毛利高政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2012": {
+    "id": "sg-60127e5bb054",
+    "nameAtRegistration": "毛利隆元",
+    "oldIds": [
+      "sg-60127e5bb054"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2013": {
+    "id": "sg-master-2013",
+    "nameAtRegistration": "毛利輝元",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2014": {
+    "id": "sg-master-2014",
+    "nameAtRegistration": "毛利秀就",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2016": {
+    "id": "sg-master-2016",
+    "nameAtRegistration": "毛利秀頼",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2017": {
+    "id": "sg-98139e31efb2",
+    "nameAtRegistration": "毛利元就",
+    "oldIds": [
+      "sg-98139e31efb2"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2019": {
+    "id": "sg-80596de71aa1",
+    "nameAtRegistration": "最上家親",
+    "oldIds": [
+      "sg-80596de71aa1"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2020": {
+    "id": "sg-e04b78ac874d",
+    "nameAtRegistration": "最上義光",
+    "oldIds": [
+      "sg-e04b78ac874d"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2023": {
+    "id": "sg-e4bdce1950ff",
+    "nameAtRegistration": "最上義俊",
+    "oldIds": [
+      "sg-e4bdce1950ff"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2024": {
+    "id": "sg-cde02aaa8036",
+    "nameAtRegistration": "最上義守",
+    "oldIds": [
+      "sg-cde02aaa8036"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2032": {
+    "id": "sg-researched-096-mori-tadamasa",
+    "nameAtRegistration": "森忠政",
+    "oldIds": [
+      "sg-researched-096-mori-tadamasa"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2033": {
+    "id": "sg-master-2033",
+    "nameAtRegistration": "母里太兵衛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2034": {
+    "id": "sg-master-2034",
+    "nameAtRegistration": "森長可",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2035": {
+    "id": "sg-master-2035",
+    "nameAtRegistration": "森可成",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2038": {
+    "id": "sg-master-2038",
+    "nameAtRegistration": "森蘭丸",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2050": {
+    "id": "sg-master-2050",
+    "nameAtRegistration": "柳生十兵衛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2051": {
+    "id": "sg-master-2051",
+    "nameAtRegistration": "柳生兵庫助",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2053": {
+    "id": "sg-master-2053",
+    "nameAtRegistration": "柳生宗矩",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2054": {
+    "id": "sg-master-2054",
+    "nameAtRegistration": "柳生宗厳",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2082": {
+    "id": "sg-b79c0238f50a",
+    "nameAtRegistration": "山内一豊",
+    "oldIds": [
+      "sg-b79c0238f50a"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2083": {
+    "id": "sg-1b2c65e11138",
+    "nameAtRegistration": "山内忠義",
+    "oldIds": [
+      "sg-1b2c65e11138"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2085": {
+    "id": "sg-master-2085",
+    "nameAtRegistration": "山内康豊",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2088": {
+    "id": "sg-f510c1a0d1ab",
+    "nameAtRegistration": "山県昌景",
+    "oldIds": [
+      "sg-f510c1a0d1ab"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2090": {
+    "id": "sg-master-2090",
+    "nameAtRegistration": "山口重政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2092": {
+    "id": "sg-master-2092",
+    "nameAtRegistration": "山口宗永",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2094": {
+    "id": "sg-master-2094",
+    "nameAtRegistration": "山崎家盛",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2095": {
+    "id": "sg-master-2095",
+    "nameAtRegistration": "山崎片家",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2103": {
+    "id": "sg-master-2103",
+    "nameAtRegistration": "山田長政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2104": {
+    "id": "sg-master-2104",
+    "nameAtRegistration": "山名祐豊",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2105": {
+    "id": "sg-master-2105",
+    "nameAtRegistration": "山名禅高",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2106": {
+    "id": "sg-master-2106",
+    "nameAtRegistration": "山名豊定",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2109": {
+    "id": "sg-596de9e9d2c2",
+    "nameAtRegistration": "山中鹿之介",
+    "oldIds": [
+      "sg-596de9e9d2c2"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2115": {
+    "id": "sg-master-2115",
+    "nameAtRegistration": "山本勘助",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2122": {
+    "id": "sg-master-2122",
+    "nameAtRegistration": "結城晴朝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2123": {
+    "id": "sg-master-2123",
+    "nameAtRegistration": "結城秀康",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2124": {
+    "id": "sg-master-2124",
+    "nameAtRegistration": "結城政勝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2125": {
+    "id": "sg-master-2125",
+    "nameAtRegistration": "結城政朝",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2169": {
+    "id": "sg-master-2169",
+    "nameAtRegistration": "龍造寺隆信",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2176": {
+    "id": "sg-9a73db98ef28",
+    "nameAtRegistration": "留守政景",
+    "oldIds": [
+      "sg-9a73db98ef28",
+      "sg-7958687791dd"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2179": {
+    "id": "sg-master-2179",
+    "nameAtRegistration": "六郷政乗",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2180": {
+    "id": "sg-master-2180",
+    "nameAtRegistration": "六角定頼",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2181": {
+    "id": "sg-master-2181",
+    "nameAtRegistration": "六角承禎",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2186": {
+    "id": "sg-46fbe5184d7a",
+    "nameAtRegistration": "脇坂安元",
+    "oldIds": [
+      "sg-46fbe5184d7a"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2187": {
+    "id": "sg-722bae153f1b",
+    "nameAtRegistration": "脇坂安治",
+    "oldIds": [
+      "sg-722bae153f1b"
+    ],
+    "mappingStatus": "technical_correspondence_reviewed",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2190": {
+    "id": "sg-master-2190",
+    "nameAtRegistration": "分部光信",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2191": {
+    "id": "sg-master-2191",
+    "nameAtRegistration": "分部光嘉",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  },
+  "2193": {
+    "id": "sg-master-2193",
+    "nameAtRegistration": "和田惟政",
+    "oldIds": [],
+    "mappingStatus": "new",
+    "basis": "sheet_R_or_exact_name_plus_explicit_alias_table; full historical identity audit pending"
+  }
+}

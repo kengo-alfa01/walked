@@ -1,0 +1,5302 @@
+[
+  {
+    "oldId": "sg-6eaf66c3d7c8",
+    "oldName": "織田信長",
+    "newId": "sg-6eaf66c3d7c8",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-404bb56ac651",
+    "oldName": "織田信秀",
+    "newId": "sg-404bb56ac651",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-163274b0bfdf",
+    "oldName": "織田信忠",
+    "newId": "sg-163274b0bfdf",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 2
+  },
+  {
+    "oldId": "sg-c4a99f3cbb77",
+    "oldName": "織田信雄",
+    "newId": "sg-c4a99f3cbb77",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6666c05e6264",
+    "oldName": "織田信孝",
+    "newId": "sg-6666c05e6264",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-9147212ab4a4",
+    "oldName": "織田信包",
+    "newId": "sg-9147212ab4a4",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d6690994a793",
+    "oldName": "織田長益",
+    "newId": "sg-d6690994a793",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-35505d4b9f9c",
+    "oldName": "織田信広",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f13556b18b27",
+    "oldName": "織田信行",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-dc42c21066b7",
+    "oldName": "織田信勝",
+    "newId": "sg-dc42c21066b7",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2cba9a730c2e",
+    "oldName": "織田信清",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7bf7c4e43117",
+    "oldName": "織田信興",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2df38e975dd1",
+    "oldName": "織田信治",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8aa7caa1300a",
+    "oldName": "織田信時",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f4489ffbf095",
+    "oldName": "織田信照",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-532f50203751",
+    "oldName": "織田秀信",
+    "newId": "sg-532f50203751",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-2e163c91f4f8",
+    "oldName": "織田信定",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a1e953abacb9",
+    "oldName": "織田敏定",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-5868d6b23d61",
+    "oldName": "織田寛定",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2a03d9d2a5b1",
+    "oldName": "織田達勝",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-3d6abc50a2c1",
+    "oldName": "織田達定",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2495afd7a83f",
+    "oldName": "織田信安",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cdbccccacd2c",
+    "oldName": "織田信賢",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-30433e6d41bb",
+    "oldName": "織田信友",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a14476c219fa",
+    "oldName": "織田信光",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2d3f90c28c8f",
+    "oldName": "柴田勝家",
+    "newId": "sg-2d3f90c28c8f",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7a9ec141203b",
+    "oldName": "柴田勝豊",
+    "newId": "sg-7a9ec141203b",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-992a7d5dcb23",
+    "oldName": "柴田勝政",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-12cb8be82410",
+    "oldName": "柴田勝敏",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-509374345bbc",
+    "oldName": "佐久間信盛",
+    "newId": "sg-509374345bbc",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-38051c9a87b2",
+    "oldName": "佐久間盛政",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e44ae0164d36",
+    "oldName": "佐久間信栄",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1300d588a2a5",
+    "oldName": "佐久間盛次",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9a15efae095f",
+    "oldName": "佐久間信辰",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1160233c256b",
+    "oldName": "佐久間信晴",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6f62edf23a38",
+    "oldName": "丹羽長秀",
+    "newId": "sg-6f62edf23a38",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f9bfd1ba47ba",
+    "oldName": "丹羽長重",
+    "newId": "sg-f9bfd1ba47ba",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6b9e823e7bf5",
+    "oldName": "滝川一益",
+    "newId": "sg-6b9e823e7bf5",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-61d60c6f9bfa",
+    "oldName": "滝川雄利",
+    "newId": "sg-61d60c6f9bfa",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-556952984c0d",
+    "oldName": "滝川益氏",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a94db8113d4e",
+    "oldName": "明智光秀",
+    "newId": "sg-a94db8113d4e",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c4238494e690",
+    "oldName": "明智秀満",
+    "newId": "sg-c4238494e690",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c2ee716f86f3",
+    "oldName": "明智光忠",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-87b76bc288f5",
+    "oldName": "明智光慶",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6a950dc5aac6",
+    "oldName": "明智光安",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f47391608dbb",
+    "oldName": "豊臣秀吉",
+    "newId": "sg-f47391608dbb",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 13,
+    "linkCount": 7
+  },
+  {
+    "oldId": "sg-0dde8259f8df",
+    "oldName": "豊臣秀長",
+    "newId": "sg-0dde8259f8df",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ebd50519deb3",
+    "oldName": "豊臣秀次",
+    "newId": "sg-ebd50519deb3",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-98ea0db11340",
+    "oldName": "豊臣秀頼",
+    "newId": "sg-98ea0db11340",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-52b937b403e8",
+    "oldName": "豊臣秀勝",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d8e0d9eee87d",
+    "oldName": "豊臣秀俊",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-37fdfb0d52c1",
+    "oldName": "石田三成",
+    "newId": "sg-37fdfb0d52c1",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-b0831a6438f7",
+    "oldName": "石田正継",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-eabb6aa8c477",
+    "oldName": "石田正澄",
+    "newId": "sg-eabb6aa8c477",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1c8ecc2d1bf4",
+    "oldName": "増田長盛",
+    "newId": "sg-1c8ecc2d1bf4",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b739f712ae46",
+    "oldName": "長束正家",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-652da2fcc84e",
+    "oldName": "前田玄以",
+    "newId": "sg-652da2fcc84e",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-5d169413d357",
+    "oldName": "浅野長政",
+    "newId": "sg-5d169413d357",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 3,
+    "linkCount": 2
+  },
+  {
+    "oldId": "sg-5c6f60a32cc4",
+    "oldName": "浅野幸長",
+    "newId": "sg-5c6f60a32cc4",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-5e4958a3a30b",
+    "oldName": "浅野長晟",
+    "newId": "sg-5e4958a3a30b",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cd881fe48736",
+    "oldName": "片桐且元",
+    "newId": "sg-cd881fe48736",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-dbdaed510c02",
+    "oldName": "片桐貞隆",
+    "newId": "sg-dbdaed510c02",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-0b974357bac7",
+    "oldName": "加藤清正",
+    "newId": "sg-0b974357bac7",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-0a11ed8a5e60",
+    "oldName": "加藤嘉明",
+    "newId": "sg-0a11ed8a5e60",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-3620f59d61f8",
+    "oldName": "加藤光泰",
+    "newId": "sg-3620f59d61f8",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-f3b1781640ba",
+    "oldName": "加藤貞泰",
+    "newId": "sg-f3b1781640ba",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f91c582084bb",
+    "oldName": "福島正則",
+    "newId": "sg-f91c582084bb",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-88538ea59b8e",
+    "oldName": "福島正頼",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7a8136915c8d",
+    "oldName": "福島高晴",
+    "newId": "sg-7a8136915c8d",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-445a4d61441d",
+    "oldName": "小西行長",
+    "newId": "sg-445a4d61441d",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b6b01cc5fd13",
+    "oldName": "小西隆佐",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8cbc980e4721",
+    "oldName": "大谷吉継",
+    "newId": "sg-8cbc980e4721",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-804acd54e466",
+    "oldName": "大谷吉治",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-849d7a711855",
+    "oldName": "大谷吉勝",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-722bae153f1b",
+    "oldName": "脇坂安治",
+    "newId": "sg-722bae153f1b",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-46fbe5184d7a",
+    "oldName": "脇坂安元",
+    "newId": "sg-46fbe5184d7a",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9426e6bd4d6a",
+    "oldName": "平野長泰",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-be2cdd21282e",
+    "oldName": "糟屋武則",
+    "newId": "sg-be2cdd21282e",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b3ad604d8563",
+    "oldName": "蜂須賀正勝",
+    "newId": "sg-b3ad604d8563",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-248aba9a5613",
+    "oldName": "蜂須賀家政",
+    "newId": "sg-248aba9a5613",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4159f0d9f3b0",
+    "oldName": "蜂須賀至鎮",
+    "newId": "sg-4159f0d9f3b0",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b79c0238f50a",
+    "oldName": "山内一豊",
+    "newId": "sg-b79c0238f50a",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1b2c65e11138",
+    "oldName": "山内忠義",
+    "newId": "sg-1b2c65e11138",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e64d13aedffc",
+    "oldName": "藤堂高虎",
+    "newId": "sg-e64d13aedffc",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-34f06a046de4",
+    "oldName": "藤堂高吉",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a7bb09927601",
+    "oldName": "徳川家康",
+    "newId": "sg-a7bb09927601",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 19,
+    "linkCount": 16
+  },
+  {
+    "oldId": "sg-451ea10bcb24",
+    "oldName": "徳川秀忠",
+    "newId": "sg-451ea10bcb24",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 3,
+    "linkCount": 2
+  },
+  {
+    "oldId": "sg-65a881d7f9ee",
+    "oldName": "徳川家光",
+    "newId": "sg-65a881d7f9ee",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9fbc26efe075",
+    "oldName": "徳川信康",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cb38a5c52b3b",
+    "oldName": "徳川家忠",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-35fe4d7cd4ff",
+    "oldName": "松平広忠",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8de97e693360",
+    "oldName": "松平清康",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b6b2009c6e0e",
+    "oldName": "松平信定",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4f5048f93e77",
+    "oldName": "松平信忠",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-da0119c4781d",
+    "oldName": "松平忠輝",
+    "newId": "sg-da0119c4781d",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-09eb74bf4159",
+    "oldName": "松平忠吉",
+    "newId": "sg-09eb74bf4159",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-627bbb0204ca",
+    "oldName": "松平信康",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-5b38718f87ac",
+    "oldName": "松平定勝",
+    "newId": "sg-5b38718f87ac",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-49c57b83437f",
+    "oldName": "松平家忠",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6be1c9b51574",
+    "oldName": "松平忠直",
+    "newId": "sg-6be1c9b51574",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-96939dda0884",
+    "oldName": "松平忠昌",
+    "newId": "sg-96939dda0884",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-311ba3d06bd6",
+    "oldName": "松平忠明",
+    "newId": "sg-311ba3d06bd6",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cd2600aba4ee",
+    "oldName": "松平忠長",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-af4aa93fd365",
+    "oldName": "本多忠勝",
+    "newId": "sg-af4aa93fd365",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-368d313f71c3",
+    "oldName": "本多忠政",
+    "newId": "sg-368d313f71c3",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f7efc358b462",
+    "oldName": "本多忠朝",
+    "newId": "sg-f7efc358b462",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-416baa3d4e63",
+    "oldName": "本多正信",
+    "newId": "sg-416baa3d4e63",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-de4ba6266d5d",
+    "oldName": "本多正純",
+    "newId": "sg-de4ba6266d5d",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4aaa5598dca8",
+    "oldName": "本多重次",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1492884e998e",
+    "oldName": "本多成重",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c38d3fa71701",
+    "oldName": "本多康重",
+    "newId": "sg-c38d3fa71701",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6c60b2e0c7f5",
+    "oldName": "本多忠真",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6708a912a215",
+    "oldName": "榊原康政",
+    "newId": "sg-6708a912a215",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-04c1671c0668",
+    "oldName": "榊原康勝",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-df4ede094a85",
+    "oldName": "井伊直政",
+    "newId": "sg-df4ede094a85",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-6b9dfe775421",
+    "oldName": "井伊直孝",
+    "newId": "sg-6b9dfe775421",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-17b3fc2f32ad",
+    "oldName": "井伊直虎",
+    "newId": "sg-17b3fc2f32ad",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1c9dc5efe001",
+    "oldName": "井伊直親",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cbfdad2eda87",
+    "oldName": "井伊直盛",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d49c8dbce85a",
+    "oldName": "井伊直平",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4d159b56655e",
+    "oldName": "酒井忠次",
+    "newId": "sg-4d159b56655e",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-0c35fe24a5ad",
+    "oldName": "酒井家次",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-47af3a3931f8",
+    "oldName": "酒井忠世",
+    "newId": "sg-47af3a3931f8",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-5f646386da40",
+    "oldName": "酒井正親",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4542e7700b67",
+    "oldName": "酒井忠勝",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4f1942dd8d61",
+    "oldName": "大久保忠世",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-40a90e24b432",
+    "oldName": "大久保忠佐",
+    "newId": "sg-40a90e24b432",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f8dec1480db8",
+    "oldName": "大久保忠隣",
+    "newId": "sg-f8dec1480db8",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-fa8d6bece07a",
+    "oldName": "大久保長安",
+    "newId": "sg-fa8d6bece07a",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-fc144126f311",
+    "oldName": "大久保彦左衛門",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-76cf3b1e8681",
+    "oldName": "鳥居元忠",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-474c069f792d",
+    "oldName": "鳥居忠政",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4eec198d6fde",
+    "oldName": "鳥居忠広",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1a2dce388544",
+    "oldName": "鳥居忠吉",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-da093dc1cd41",
+    "oldName": "平岩親吉",
+    "newId": "sg-da093dc1cd41",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-49a2411798d0",
+    "oldName": "石川数正",
+    "newId": "sg-49a2411798d0",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b62946a697c3",
+    "oldName": "石川康長",
+    "newId": "sg-b62946a697c3",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a051e0df7621",
+    "oldName": "石川家成",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b1d631ef2479",
+    "oldName": "水野勝成",
+    "newId": "sg-b1d631ef2479",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cfb73411fab8",
+    "oldName": "水野忠重",
+    "newId": "sg-cfb73411fab8",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4c0c12460efa",
+    "oldName": "武田信玄",
+    "newId": "sg-4c0c12460efa",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 25,
+    "linkCount": 21
+  },
+  {
+    "oldId": "sg-98514cee0056",
+    "oldName": "武田信虎",
+    "newId": "sg-98514cee0056",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 9,
+    "linkCount": 8
+  },
+  {
+    "oldId": "sg-e00b2631eded",
+    "oldName": "武田勝頼",
+    "newId": "sg-e00b2631eded",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 17,
+    "linkCount": 14
+  },
+  {
+    "oldId": "sg-41b77a0780ed",
+    "oldName": "武田義信",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c091a1f2c530",
+    "oldName": "武田信繁",
+    "newId": "sg-c091a1f2c530",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-307b4f851434",
+    "oldName": "武田信廉",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-b954c8e058a4",
+    "oldName": "武田信勝",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e4928acc7266",
+    "oldName": "武田信豊",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2e13ffa28911",
+    "oldName": "武田信友",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8f323dd9c724",
+    "oldName": "武田信実",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-95ce0feaa05b",
+    "oldName": "武田信春",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-914790bd1a36",
+    "oldName": "武田信満",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-71a29f78ce3e",
+    "oldName": "武田信守",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c654b6b73e86",
+    "oldName": "武田信昌",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 3,
+    "linkCount": 3
+  },
+  {
+    "oldId": "sg-0733a0cc33be",
+    "oldName": "武田信縄",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-43f69a7ec530",
+    "oldName": "武田信恵",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1480f5d93b14",
+    "oldName": "武田信基",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4d36c42da111",
+    "oldName": "武田信房",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e391b731458c",
+    "oldName": "武田信綱",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f510c1a0d1ab",
+    "oldName": "山県昌景",
+    "newId": "sg-f510c1a0d1ab",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e701cb97b4d9",
+    "oldName": "馬場信春",
+    "newId": "sg-e701cb97b4d9",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-f8af4176c7eb",
+    "oldName": "馬場昌房",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ff02145e28fa",
+    "oldName": "高坂昌信",
+    "newId": "sg-ff02145e28fa",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6568a3b2fdc7",
+    "oldName": "内藤昌豊",
+    "newId": "sg-6568a3b2fdc7",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-bc9312693d17",
+    "oldName": "内藤昌秀",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-09b6ad013f33",
+    "oldName": "甘利虎泰",
+    "newId": "sg-09b6ad013f33",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2f138553e92d",
+    "oldName": "甘利昌忠",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-81b0fa4344a5",
+    "oldName": "板垣信方",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-99d4f7ed55ff",
+    "oldName": "板垣信憲",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4b1bb1adec6b",
+    "oldName": "飯富虎昌",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4e02f0802b16",
+    "oldName": "原虎胤",
+    "newId": "sg-4e02f0802b16",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ddb19dc05456",
+    "oldName": "原昌胤",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-0cab63b42163",
+    "oldName": "小山田信茂",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 2
+  },
+  {
+    "oldId": "sg-4a50a0d6cd1c",
+    "oldName": "小山田信有",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-720d103a4a5b",
+    "oldName": "穴山梅雪",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-08d6b6e09d7c",
+    "oldName": "穴山信友",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f2ad239dbe62",
+    "oldName": "秋山虎繁",
+    "newId": "sg-2366fe95caa3",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2366fe95caa3",
+    "oldName": "秋山信友",
+    "newId": "sg-2366fe95caa3",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c3abf75d711c",
+    "oldName": "真田幸隆",
+    "newId": "sg-c3abf75d711c",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-61b29c703206",
+    "oldName": "真田昌幸",
+    "newId": "sg-61b29c703206",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 6,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-53d7309718ae",
+    "oldName": "真田信之",
+    "newId": "sg-53d7309718ae",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 4,
+    "linkCount": 2
+  },
+  {
+    "oldId": "sg-b9bb61125a1b",
+    "oldName": "真田信繁",
+    "newId": "sg-b9bb61125a1b",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 3,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-5ae10fa55343",
+    "oldName": "真田信綱",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d52a56b5a0f4",
+    "oldName": "真田昌輝",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-744a90fc091f",
+    "oldName": "真田信尹",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-dc8c550d8769",
+    "oldName": "上杉謙信",
+    "newId": "sg-dc8c550d8769",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 3,
+    "linkCount": 3
+  },
+  {
+    "oldId": "sg-334f0ad961e2",
+    "oldName": "上杉景勝",
+    "newId": "sg-334f0ad961e2",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 6,
+    "linkCount": 3
+  },
+  {
+    "oldId": "sg-ee846a9ff8ae",
+    "oldName": "上杉憲政",
+    "newId": "sg-ee846a9ff8ae",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-b3e7eb14e624",
+    "oldName": "上杉定正",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-d0ec52a93fa3",
+    "oldName": "上杉顕定",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ba8bf013479f",
+    "oldName": "上杉房能",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2120e83a62c6",
+    "oldName": "上杉房定",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c1675d7b895f",
+    "oldName": "上杉房朝",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-27a0e44acb89",
+    "oldName": "上杉朝定",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 5,
+    "linkCount": 3
+  },
+  {
+    "oldId": "sg-6d85b32ba0c7",
+    "oldName": "上杉憲実",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ef4b938a6d6a",
+    "oldName": "上杉憲忠",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-79bfcb9c9ac9",
+    "oldName": "上杉政虎",
+    "newId": "sg-dc8c550d8769",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ea87da1feaf2",
+    "oldName": "上杉景虎",
+    "newId": "sg-ea87da1feaf2",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7123ee271aa4",
+    "oldName": "上杉景信",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1ab093e2f8e6",
+    "oldName": "上杉景広",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6ffcd3b19007",
+    "oldName": "長尾為景",
+    "newId": "sg-6ffcd3b19007",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b37bbbf48b9d",
+    "oldName": "長尾晴景",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2f68ae7810d0",
+    "oldName": "長尾政景",
+    "newId": "sg-2f68ae7810d0",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cc16ffc52c66",
+    "oldName": "長尾景春",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-eaa02904ef84",
+    "oldName": "長尾景仲",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-513297867ebc",
+    "oldName": "長尾景虎",
+    "newId": "sg-dc8c550d8769",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-477d3c4025cf",
+    "oldName": "長尾房長",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a4db713bd157",
+    "oldName": "長尾景長",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1a91ae29cb5a",
+    "oldName": "直江兼続",
+    "newId": "sg-1a91ae29cb5a",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d95e2b81c841",
+    "oldName": "直江景綱",
+    "newId": "sg-d95e2b81c841",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8692674a402a",
+    "oldName": "直江信綱",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a8cfe1245acb",
+    "oldName": "柿崎景家",
+    "newId": "sg-a8cfe1245acb",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-00cd9042c841",
+    "oldName": "柿崎晴家",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b96d26835a13",
+    "oldName": "宇佐美定満",
+    "newId": "sg-b96d26835a13",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1c9d12664672",
+    "oldName": "宇佐美勝行",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f59be6be90ae",
+    "oldName": "甘粕景持",
+    "newId": "sg-f59be6be90ae",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6142a1d7578d",
+    "oldName": "甘粕景継",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-136f186944d4",
+    "oldName": "斎藤朝信",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4a592db12d63",
+    "oldName": "斎藤利宗",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6f81530db175",
+    "oldName": "本庄繁長",
+    "newId": "sg-6f81530db175",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2c6c68848370",
+    "oldName": "本庄秀綱",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-369e866162cc",
+    "oldName": "本庄実乃",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-0b9bd56e0880",
+    "oldName": "色部勝長",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c28e62c9c4a5",
+    "oldName": "色部長実",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8c3d01266025",
+    "oldName": "新発田重家",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4cb1a557e060",
+    "oldName": "北条早雲",
+    "newId": "sg-4cb1a557e060",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 19,
+    "linkCount": 18
+  },
+  {
+    "oldId": "sg-c594233cb2b7",
+    "oldName": "北条氏綱",
+    "newId": "sg-c594233cb2b7",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 10,
+    "linkCount": 6
+  },
+  {
+    "oldId": "sg-22f595e1c616",
+    "oldName": "北条氏康",
+    "newId": "sg-22f595e1c616",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 31,
+    "linkCount": 27
+  },
+  {
+    "oldId": "sg-025ab3a6ee3f",
+    "oldName": "北条氏政",
+    "newId": "sg-025ab3a6ee3f",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 10,
+    "linkCount": 6
+  },
+  {
+    "oldId": "sg-3e72ce5a7fa9",
+    "oldName": "北条氏直",
+    "newId": "sg-3e72ce5a7fa9",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 6,
+    "linkCount": 2
+  },
+  {
+    "oldId": "sg-fc948f16832f",
+    "oldName": "北条氏照",
+    "newId": "sg-fc948f16832f",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 23,
+    "linkCount": 15
+  },
+  {
+    "oldId": "sg-6f3368f015f6",
+    "oldName": "北条氏邦",
+    "newId": "sg-6f3368f015f6",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 3,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-cf72a6b13a40",
+    "oldName": "北条氏規",
+    "newId": "sg-cf72a6b13a40",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 2
+  },
+  {
+    "oldId": "sg-0c72d1fa0136",
+    "oldName": "北条氏繁",
+    "newId": "sg-0c72d1fa0136",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-71b96e15ed0a",
+    "oldName": "北条氏秀",
+    "newId": "sg-ea87da1feaf2",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d6513d734bbf",
+    "oldName": "北条氏尭",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a77cd1aa75f3",
+    "oldName": "北条綱成",
+    "newId": "sg-a77cd1aa75f3",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 3,
+    "linkCount": 3
+  },
+  {
+    "oldId": "sg-a07ea793c09c",
+    "oldName": "北条綱高",
+    "newId": "sg-a07ea793c09c",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-441ed16c3222",
+    "oldName": "北条綱房",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1ebd0b00f6fd",
+    "oldName": "北条幻庵",
+    "newId": "sg-1ebd0b00f6fd",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 5,
+    "linkCount": 5
+  },
+  {
+    "oldId": "sg-1a1371852d91",
+    "oldName": "北条氏堯",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-e54f758d5d22",
+    "oldName": "北条氏盛",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9cfa3bf8ad01",
+    "oldName": "北条氏勝",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-99581b4f9ae1",
+    "oldName": "北条氏忠",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-abb08f8ee8cc",
+    "oldName": "北条氏光",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-afc49225c304",
+    "oldName": "北条氏資",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-875cb1f9119d",
+    "oldName": "北条氏重",
+    "newId": "sg-875cb1f9119d",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7c350c62d250",
+    "oldName": "太田道灌",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 9,
+    "linkCount": 8
+  },
+  {
+    "oldId": "sg-aa0ce003dbd8",
+    "oldName": "太田資正",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-1acb0108f371",
+    "oldName": "太田資頼",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-50b0db8bfa6f",
+    "oldName": "太田資武",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f618438b949a",
+    "oldName": "太田康資",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-310004b33386",
+    "oldName": "太田資高",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8949512dd667",
+    "oldName": "太田資宗",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-dff7b399eb51",
+    "oldName": "太田資顕",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-dd39621fcd57",
+    "oldName": "太田資清",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a4d1badcfbc0",
+    "oldName": "太田資康",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-29c3bc68aa37",
+    "oldName": "里見義堯",
+    "newId": "sg-29c3bc68aa37",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-17496a5d9dfa",
+    "oldName": "里見義弘",
+    "newId": "sg-17496a5d9dfa",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4f700b581dac",
+    "oldName": "里見義頼",
+    "newId": "sg-4f700b581dac",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4a0d5b7e8da9",
+    "oldName": "里見義康",
+    "newId": "sg-4a0d5b7e8da9",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c9b23a4d650b",
+    "oldName": "里見忠義",
+    "newId": "sg-c9b23a4d650b",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-716da198ebfb",
+    "oldName": "里見実堯",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-84983626709f",
+    "oldName": "里見義豊",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-53321c2aab28",
+    "oldName": "里見成義",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-31e0e85d7a10",
+    "oldName": "伊達政宗",
+    "newId": "sg-31e0e85d7a10",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-004af7fd6f69",
+    "oldName": "伊達輝宗",
+    "newId": "sg-004af7fd6f69",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cb4753dc7bdd",
+    "oldName": "伊達晴宗",
+    "newId": "sg-cb4753dc7bdd",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6e7c2701582a",
+    "oldName": "伊達稙宗",
+    "newId": "sg-6e7c2701582a",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c33de3cf7739",
+    "oldName": "伊達成実",
+    "newId": "sg-c33de3cf7739",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e4c540d2dced",
+    "oldName": "伊達実元",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-3e57ec14e517",
+    "oldName": "伊達忠宗",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-320bb79952f3",
+    "oldName": "伊達宗実",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-90b105897984",
+    "oldName": "伊達秀宗",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-46d403a73ac4",
+    "oldName": "伊達宗泰",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7958687791dd",
+    "oldName": "伊達政景",
+    "newId": "sg-9a73db98ef28",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c300ea583ed3",
+    "oldName": "伊達政道",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b9ea107abf5b",
+    "oldName": "伊達宗清",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-22391d507a9c",
+    "oldName": "伊達宗直",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2ec2ca58e978",
+    "oldName": "伊達宗利",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-14ad24c528ca",
+    "oldName": "片倉景綱",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-5aa335e23197",
+    "oldName": "片倉重長",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-5d545f39bba7",
+    "oldName": "片倉景重",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9a73db98ef28",
+    "oldName": "留守政景",
+    "newId": "sg-9a73db98ef28",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9bec88bdc9cc",
+    "oldName": "留守顕宗",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d6f1666da8ba",
+    "oldName": "留守郡宗",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e04b78ac874d",
+    "oldName": "最上義光",
+    "newId": "sg-e04b78ac874d",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cde02aaa8036",
+    "oldName": "最上義守",
+    "newId": "sg-cde02aaa8036",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-69daf9a00e27",
+    "oldName": "最上義康",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-80596de71aa1",
+    "oldName": "最上家親",
+    "newId": "sg-80596de71aa1",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e4bdce1950ff",
+    "oldName": "最上義俊",
+    "newId": "sg-e4bdce1950ff",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1ae159eda881",
+    "oldName": "最上満直",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7400d0bd79ad",
+    "oldName": "最上直家",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e4f82a87330c",
+    "oldName": "最上満家",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6a4939db70c4",
+    "oldName": "最上頼宗",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8a8d8db4dc3f",
+    "oldName": "義姫",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2c018a716d8e",
+    "oldName": "愛姫",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d77a83b9ede7",
+    "oldName": "蘆名盛氏",
+    "newId": "sg-d77a83b9ede7",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-06350062e0e3",
+    "oldName": "蘆名盛興",
+    "newId": "sg-06350062e0e3",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-714c759d316c",
+    "oldName": "蘆名盛隆",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-de58f1c3c4b7",
+    "oldName": "蘆名義広",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-30da99b3fc0a",
+    "oldName": "蘆名義勝",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-fffacf7e9ffe",
+    "oldName": "蘆名盛滋",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-29fd860eca75",
+    "oldName": "蘆名詮盛",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-26ee3339424e",
+    "oldName": "蘆名盛高",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-00c7ea499bd4",
+    "oldName": "二階堂盛義",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a242b00998fa",
+    "oldName": "二階堂行親",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-3e7c7e5c15ba",
+    "oldName": "二階堂盛隆",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c1ee1fd71263",
+    "oldName": "大内定綱",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-64c6f33dcf68",
+    "oldName": "大内義綱",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-98139e31efb2",
+    "oldName": "毛利元就",
+    "newId": "sg-98139e31efb2",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-60127e5bb054",
+    "oldName": "毛利隆元",
+    "newId": "sg-60127e5bb054",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-34b5f708dc95",
+    "oldName": "毛利興元",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c6cc63598984",
+    "oldName": "毛利幸松丸",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-dece8701a4d1",
+    "oldName": "毛利弘元",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-352d1bed3926",
+    "oldName": "毛利豊元",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-49819a572b8c",
+    "oldName": "毛利元春",
+    "newId": "sg-49819a572b8c",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d4a7521639a2",
+    "oldName": "毛利元清",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e8a64c9f9d82",
+    "oldName": "毛利元秋",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-68d1c137a346",
+    "oldName": "毛利元康",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-39f0626d5870",
+    "oldName": "毛利元政",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-453b871ad860",
+    "oldName": "毛利元総",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-06a4e7814009",
+    "oldName": "毛利秀包",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-0f498cbb8e77",
+    "oldName": "吉川興経",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f69d32e19cb0",
+    "oldName": "吉川経基",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-0e38f1dbceff",
+    "oldName": "吉川経家",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f4be125a5d90",
+    "oldName": "吉川元棟",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1ac4f73b0322",
+    "oldName": "小早川興景",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7ddfb1a32878",
+    "oldName": "小早川繁平",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c354121520da",
+    "oldName": "小早川則平",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-79a4eefd8d40",
+    "oldName": "尼子経久",
+    "newId": "sg-79a4eefd8d40",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-901256a2d908",
+    "oldName": "尼子晴久",
+    "newId": "sg-901256a2d908",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-84dc0beb5301",
+    "oldName": "尼子義久",
+    "newId": "sg-84dc0beb5301",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6516eb2936ed",
+    "oldName": "尼子勝久",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-72add08141a5",
+    "oldName": "尼子誠久",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-be58fda80933",
+    "oldName": "尼子国久",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-5b933850cb63",
+    "oldName": "尼子豊久",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-11d288dce93a",
+    "oldName": "尼子久幸",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-81c05d75cc5e",
+    "oldName": "尼子政久",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8c8b8d6c5260",
+    "oldName": "尼子清定",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-596de9e9d2c2",
+    "oldName": "山中幸盛",
+    "newId": "sg-596de9e9d2c2",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-bced2dde3394",
+    "oldName": "山中満幸",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8d57597eac25",
+    "oldName": "山中勝重",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-31430d7a1a18",
+    "oldName": "宇山久兼",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-edec7c9b9784",
+    "oldName": "宇山飛騨守",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b3dbc6d6177a",
+    "oldName": "三沢為清",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9f11774aaa92",
+    "oldName": "三沢為虎",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d75ef6629aa6",
+    "oldName": "三沢為幸",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c1e7637d79b1",
+    "oldName": "三沢実兼",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9445677ed602",
+    "oldName": "赤穴光清",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-78e9a357e13f",
+    "oldName": "赤穴盛清",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e2bd798fb45f",
+    "oldName": "赤穴久清",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ca4fbc8a4591",
+    "oldName": "大内義興",
+    "newId": "sg-ca4fbc8a4591",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-bdc70f64e638",
+    "oldName": "大内義隆",
+    "newId": "sg-bdc70f64e638",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-47293bb9ea88",
+    "oldName": "大内義長",
+    "newId": "sg-47293bb9ea88",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-281d92dc2e0f",
+    "oldName": "長宗我部元親",
+    "newId": "sg-281d92dc2e0f",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8df0e8922f50",
+    "oldName": "長宗我部国親",
+    "newId": "sg-8df0e8922f50",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-fa5b01458a60",
+    "oldName": "長宗我部信親",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-bd580a7ea93a",
+    "oldName": "長宗我部親泰",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-35ba4dc25e47",
+    "oldName": "長宗我部親和",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9f8370bb040d",
+    "oldName": "長宗我部兼序",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-96cef15595b7",
+    "oldName": "長宗我部文兼",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9782897902b2",
+    "oldName": "長宗我部親貞",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-43de7e501dd6",
+    "oldName": "香宗我部親泰",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e61e33667023",
+    "oldName": "吉良親貞",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c2c21ed0c8eb",
+    "oldName": "吉良親実",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-80cda1a45556",
+    "oldName": "吉良親家",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-860163c30c29",
+    "oldName": "一条兼定",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-94a27730e132",
+    "oldName": "一条房基",
+    "newId": "sg-94a27730e132",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f3fd8e48c7b8",
+    "oldName": "一条房家",
+    "newId": "sg-f3fd8e48c7b8",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ed3a3aa925a6",
+    "oldName": "一条房冬",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-62eb03901e21",
+    "oldName": "一条房通",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1a6b04a143ff",
+    "oldName": "河野通直",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-51bba45a2b36",
+    "oldName": "河野通宣",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2e7e85a2f05b",
+    "oldName": "河野晴通",
+    "newId": "sg-2e7e85a2f05b",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-195849076735",
+    "oldName": "河野通有",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-505d78424ac8",
+    "oldName": "河野通政",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ad79184d36d9",
+    "oldName": "河野通朝",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-83d66dcec6ab",
+    "oldName": "河野通春",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-24684888730a",
+    "oldName": "三好長慶",
+    "newId": "sg-24684888730a",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-093d16a9a7ac",
+    "oldName": "三好元長",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8d9f0bd63c27",
+    "oldName": "三好義継",
+    "newId": "sg-8d9f0bd63c27",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-650b0e530b99",
+    "oldName": "三好実休",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7e3cc732d334",
+    "oldName": "三好長逸",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-859509f2e00e",
+    "oldName": "三好政康",
+    "newId": "sg-859509f2e00e",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-3d4c67e3889e",
+    "oldName": "三好宗渭",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f0f828d32d64",
+    "oldName": "三好康長",
+    "newId": "sg-f0f828d32d64",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-eb69a32ce287",
+    "oldName": "三好政勝",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-40aa320a08e4",
+    "oldName": "松永久秀",
+    "newId": "sg-40aa320a08e4",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7f8434578e6d",
+    "oldName": "松永久通",
+    "newId": "sg-7f8434578e6d",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7f907705a53a",
+    "oldName": "松永長頼",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c52d5a1a7e1f",
+    "oldName": "篠原長房",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-0e43bc1283b7",
+    "oldName": "篠原自遁",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d607fa19cdfb",
+    "oldName": "十河一存",
+    "newId": "sg-d607fa19cdfb",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4ae0c30e6a58",
+    "oldName": "十河存保",
+    "newId": "sg-4ae0c30e6a58",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-daeadd77967e",
+    "oldName": "十河存之",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-95608981fd14",
+    "oldName": "安宅冬康",
+    "newId": "sg-95608981fd14",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-92562249bddb",
+    "oldName": "安宅信康",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c7f26ab56a5f",
+    "oldName": "細川晴元",
+    "newId": "sg-c7f26ab56a5f",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1670a423d1fb",
+    "oldName": "細川高国",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-148daf4e23ca",
+    "oldName": "島津貴久",
+    "newId": "sg-148daf4e23ca",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-fa0a6f0c8900",
+    "oldName": "島津義久",
+    "newId": "sg-fa0a6f0c8900",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-819c365a83e4",
+    "oldName": "島津義弘",
+    "newId": "sg-819c365a83e4",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-41b3835895a3",
+    "oldName": "島津家久",
+    "newId": "sg-41b3835895a3",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-c5e417d12abd",
+    "oldName": "島津歳久",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-74568939803b",
+    "oldName": "島津忠良",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f2f56875ef01",
+    "oldName": "島津勝久",
+    "newId": "sg-f2f56875ef01",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e400cb149e51",
+    "oldName": "島津忠将",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-3337ee17e64f",
+    "oldName": "島津忠恒",
+    "newId": "sg-3337ee17e64f",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9c0e97706360",
+    "oldName": "島津久保",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b522bb20afdc",
+    "oldName": "島津忠長",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-3acb18a9fa1c",
+    "oldName": "島津豊久",
+    "newId": "sg-3acb18a9fa1c",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cb02e33e1f61",
+    "oldName": "島津以久",
+    "newId": "sg-cb02e33e1f61",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9c40fd61aeb2",
+    "oldName": "島津義虎",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-61c87f7b282a",
+    "oldName": "島津忠国",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6b447a5c39ce",
+    "oldName": "島津忠昌",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4a548c017d9f",
+    "oldName": "島津立久",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ce1225658cc4",
+    "oldName": "島津忠治",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1af439b7ead0",
+    "oldName": "島津実久",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-fad3ecbe9034",
+    "oldName": "島津運久",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-0e4dd744efcf",
+    "oldName": "新納忠元",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d2ee88d18e52",
+    "oldName": "新納忠勝",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e6708641127f",
+    "oldName": "新納忠増",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d0a66b4917e2",
+    "oldName": "新納忠堯",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1fa759c7fda5",
+    "oldName": "伊集院忠棟",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-667f3b796968",
+    "oldName": "伊集院忠真",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-eb94c40c7259",
+    "oldName": "伊集院忠倉",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-83057c589a17",
+    "oldName": "樺山久高",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cf5729ac5013",
+    "oldName": "樺山善久",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a0887fdd8423",
+    "oldName": "樺山忠助",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9bc9ea4d30ff",
+    "oldName": "頴娃久虎",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1a4ae1270a37",
+    "oldName": "頴娃兼堅",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1cc5e9da1135",
+    "oldName": "大友宗麟",
+    "newId": "sg-1cc5e9da1135",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ce2404493030",
+    "oldName": "大友義統",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-99c33c826a83",
+    "oldName": "大友義鑑",
+    "newId": "sg-99c33c826a83",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-53d39b05082e",
+    "oldName": "大友義長",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1bdd1a8098b7",
+    "oldName": "大友親治",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4c646f532dca",
+    "oldName": "大友親繁",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ff3eac907aa3",
+    "oldName": "大友政親",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-afbccfe22327",
+    "oldName": "大友親世",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-309e0279dbe9",
+    "oldName": "大友義右",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-6ad887f4e881",
+    "oldName": "大友義乗",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-fa767bbaaf2c",
+    "oldName": "立花道雪",
+    "newId": "sg-fa767bbaaf2c",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-ffb84cd70320",
+    "oldName": "立花誾千代",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1d027cb47fbd",
+    "oldName": "立花鑑載",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4623002eb70c",
+    "oldName": "立花鑑連",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-05d4ad2ca192",
+    "oldName": "高橋紹運",
+    "newId": "sg-05d4ad2ca192",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-556b573f620b",
+    "oldName": "高橋統増",
+    "newId": "sg-556b573f620b",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-17377814a549",
+    "oldName": "高橋元種",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-d15eee530657",
+    "oldName": "高橋鑑種",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-06e79898e7e6",
+    "oldName": "高橋鑑久",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-9a006f1f9874",
+    "oldName": "吉弘鑑理",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a69d6822fd72",
+    "oldName": "吉弘鎮信",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f83f29e19f87",
+    "oldName": "吉弘統幸",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-53bf07911d63",
+    "oldName": "田原親賢",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-cf2e18e3dddd",
+    "oldName": "田原親宏",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-93d000c870e5",
+    "oldName": "田原親貫",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-58ba8d820e86",
+    "oldName": "田北鑑生",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7b30a53459fd",
+    "oldName": "田北鎮周",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-1b1dcf1f0b6e",
+    "oldName": "田北紹鉄",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-31e7289f7720",
+    "oldName": "千利休",
+    "newId": "sg-31e7289f7720",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-2c9b79309350",
+    "oldName": "古田織部",
+    "newId": "sg-2c9b79309350",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-b6d0012b215c",
+    "oldName": "小堀遠州",
+    "newId": "sg-b6d0012b215c",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-015be66bd143",
+    "oldName": "本阿弥光悦",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8b0bb3916977",
+    "oldName": "長谷川等伯",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-7b056e0d50c6",
+    "oldName": "狩野永徳",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-dd59d494c04f",
+    "oldName": "狩野山楽",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-20e728610b40",
+    "oldName": "狩野光信",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-17b2cc60bf72",
+    "oldName": "狩野元信",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-eb11d0184234",
+    "oldName": "狩野松栄",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-50874eb81905",
+    "oldName": "狩野探幽",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-97b4331fa1b2",
+    "oldName": "海北友松",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a533e26a405f",
+    "oldName": "雪舟等楊",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-eca165c0c181",
+    "oldName": "長谷川久蔵",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-03e56112522a",
+    "oldName": "俵屋宗達",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-40551a6423db",
+    "oldName": "出雲阿国",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-08b50cb7da6f",
+    "oldName": "曲直瀬道三",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e9c5a93dfa66",
+    "oldName": "曲直瀬玄朔",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f2c2e2122e74",
+    "oldName": "南光坊天海",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-05043bacf949",
+    "oldName": "金地院崇伝",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-109ae0f4414d",
+    "oldName": "顕如",
+    "newId": "sg-109ae0f4414d",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-388af5de1320",
+    "oldName": "教如",
+    "newId": "sg-388af5de1320",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-89f0b21d9a17",
+    "oldName": "准如",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-afe0b2ea2b85",
+    "oldName": "蓮如",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-5e16ae9d334a",
+    "oldName": "実如",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e0c70881a26c",
+    "oldName": "証如",
+    "newId": "sg-e0c70881a26c",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e4a2694bcde6",
+    "oldName": "下間頼廉",
+    "newId": "sg-e4a2694bcde6",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-dff296561f04",
+    "oldName": "下間頼竜",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-e2c9e8c6c3b6",
+    "oldName": "下間仲孝",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-8a811802360e",
+    "oldName": "雑賀孫市",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-f43d43140ca8",
+    "oldName": "鈴木重秀",
+    "newId": "sg-f43d43140ca8",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-60dc822b9098",
+    "oldName": "鈴木重朝",
+    "newId": "sg-60dc822b9098",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-a3675bca89fb",
+    "oldName": "鈴木佐大夫",
+    "newId": "sg-a3675bca89fb",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-79d2cdffb4a9",
+    "oldName": "太田牛一",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-781103ff4385",
+    "oldName": "ルイス・フロイス",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-780f527436b3",
+    "oldName": "フランシスコ・ザビエル",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-2d9de0d95b0d",
+    "oldName": "オルガンティノ",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-230804f0b312",
+    "oldName": "ガスパル・ヴィレラ",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-0d5a2a224f5e",
+    "oldName": "高山右近",
+    "newId": "sg-0d5a2a224f5e",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-4e132925e92b",
+    "oldName": "寧々",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 0,
+    "linkCount": 0
+  },
+  {
+    "oldId": "sg-added-maeda-toshiie",
+    "oldName": "前田利家",
+    "newId": "sg-added-maeda-toshiie",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-added-nishina-morinobu",
+    "oldName": "仁科盛信",
+    "newId": "sg-added-nishina-morinobu",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-added-matsuda-yasunaga",
+    "oldName": "松田康長",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-added-mamiya-yasutoshi",
+    "oldName": "間宮康俊",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-added-sanjo-lady",
+    "oldName": "三条夫人",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-reviewed-1c74f86254a2",
+    "oldName": "太田道真",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-reviewed-60f6420feed4",
+    "oldName": "仙石忠政",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-095-nakamura-kazuuji",
+    "oldName": "中村一氏",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-095-tokugawa-yorinobu",
+    "oldName": "徳川頼宣",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-095-nagano-narimori",
+    "oldName": "長野業盛",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-096-mori-tadamasa",
+    "oldName": "森忠政",
+    "newId": "sg-researched-096-mori-tadamasa",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-096-sengoku-hidehisa",
+    "oldName": "仙石秀久",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-096-hoshina-masamitsu",
+    "oldName": "保科正光",
+    "newId": "sg-researched-096-hoshina-masamitsu",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-096-narita-ujinaga",
+    "oldName": "成田氏長",
+    "newId": "sg-researched-096-narita-ujinaga",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-097-iwamatsu-iezumi",
+    "oldName": "岩松家純",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-097-yokose-narishige",
+    "oldName": "横瀬成繁（由良成繁）",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-097-yoda-nobushige",
+    "oldName": "依田信蕃",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-person-okudaira-nobumasa",
+    "oldName": "奥平信昌",
+    "newId": "sg-person-okudaira-nobumasa",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-person-toki-yoriaki",
+    "oldName": "土岐頼芸",
+    "newId": "sg-person-toki-yoriaki",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-person-saito-dosan",
+    "oldName": "斎藤道三",
+    "newId": "sg-person-saito-dosan",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-person-saito-tatsuoki",
+    "oldName": "斎藤龍興",
+    "newId": "sg-person-saito-tatsuoki",
+    "status": "mapped_selected",
+    "referenceArchive": false,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-person-okabe-motonobu",
+    "oldName": "岡部元信",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 2,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-person-suganuma-motonari",
+    "oldName": "菅沼元成",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-098-makabe-hisamoto",
+    "oldName": "真壁久幹",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-researched-099-chiba-yoritane",
+    "oldName": "千葉自胤",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-person-ushigome-katsuyuki",
+    "oldName": "牛込勝行",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-person-oba-nobuhisa",
+    "oldName": "大場信久",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-person-kato-kagetada-uenohara",
+    "oldName": "加藤景忠",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-person-takeda-nobushige-15c",
+    "oldName": "武田信重",
+    "newId": null,
+    "status": "excluded_by_H",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  },
+  {
+    "oldId": "sg-person-kira-yoriyasu",
+    "oldName": "吉良頼康",
+    "newId": null,
+    "status": "not_in_selected_master",
+    "referenceArchive": true,
+    "historicalIdentityStatus": "unverified",
+    "cardCount": 1,
+    "linkCount": 1
+  }
+]

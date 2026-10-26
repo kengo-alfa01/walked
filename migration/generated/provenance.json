@@ -1,0 +1,20 @@
+{
+  "masterInputSha256": "53064926e680023223ad6944f2430c5aceb490aefa418e9b3952f517b3bfbccc",
+  "registrySha256": "cdbd764c162d0e82107a809afe72168d847456fcc854d513d5b0f905c7334964",
+  "researchReviewSha256": "ccf03662b01d2e65f50710c3002f6c99329c88cae9e39a19c62be17a08e5dd0b",
+  "sourceAuditSha256": "4d0b786762df21bc1e3e773afe6d00a600e6fa6e4ba19ee34ad17a53b1538bab",
+  "identityConstraintsSha256": "7a6b50e2e0778ac4ebcfccb15e1d9f7b3d656d354bf22779347a9d4c8e3544f5",
+  "backupManifest": {
+    "mainCommit": "d45857b5f612d7343c821424f4b7c8774d12cc69",
+    "files": {
+      "cards.json": "3269a6234c4cb8c5b3a17d9aa58ba5a77aeb5bac961aa3e2ba12f8b1020c04aa",
+      "history.json": "f4663bd02b1580ac8aa5145b00aaefa2d341f2dbcd9a45f3d4fa75fcac8a5816",
+      "links.json": "a7cc8e17aa06dc1115c3ccc0328e22477023e79ecfda33f6acf0f31d36e98982",
+      "people.json": "19e550b21ee2d8010487dfba0d2451c363a6d2301e23068017f4e07b518c3e28",
+      "sites.json": "44dbf1c01538db84fb7dc15319940fe17a93c64dd2850cee0381d7757bdade2e"
+    }
+  },
+  "source": "https://docs.google.com/spreadsheets/d/1zAsYOk43BnP5v1NCPDbupN2GJkk-Y-zpgevkwt4MD_Q/edit",
+  "decision": "H == 登録する; no inference from old roster",
+  "identityReview": "Technical mapping does not imply full historical verification"
+}

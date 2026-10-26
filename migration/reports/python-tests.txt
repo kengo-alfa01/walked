@@ -1,0 +1,19 @@
+test_birth_dispute_is_not_chosen (test_master_migration.MigrationTest.test_birth_dispute_is_not_chosen) ... ok
+test_changed_master_invalidates_prior_review (test_master_migration.MigrationTest.test_changed_master_invalidates_prior_review) ... ok
+test_csv_export_has_same_selected_ids (test_master_migration.MigrationTest.test_csv_export_has_same_selected_ids) ... ok
+test_dangling_reference_detected (test_master_migration.MigrationTest.test_dangling_reference_detected) ... ok
+test_duplicate_key_rejected (test_master_migration.MigrationTest.test_duplicate_key_rejected) ... ok
+test_excluding_linked_person_preserves_cards_and_archive (test_master_migration.MigrationTest.test_excluding_linked_person_preserves_cards_and_archive) ... ok
+test_full_dataset_and_zero_structural_orphans (test_master_migration.MigrationTest.test_full_dataset_and_zero_structural_orphans) ... ok
+test_id_stable_when_row_order_changes (test_master_migration.MigrationTest.test_id_stable_when_row_order_changes) ... ok
+test_renaming_never_changes_id_and_is_flagged (test_master_migration.MigrationTest.test_renaming_never_changes_id_and_is_flagged) ... ok
+test_reproducibility_same_input_bytes (test_master_migration.MigrationTest.test_reproducibility_same_input_bytes) ... ok
+test_same_alias_distinct_people_remain_separate (test_master_migration.MigrationTest.test_same_alias_distinct_people_remain_separate) ... ok
+test_source_http_check_never_promotes_facts (test_master_migration.MigrationTest.test_source_http_check_never_promotes_facts) ... ok
+test_unregistered_new_id_rejected (test_master_migration.MigrationTest.test_unregistered_new_id_rejected) ... ok
+test_unverified_facts_block_release (test_master_migration.MigrationTest.test_unverified_facts_block_release) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 3.625s
+
+OK

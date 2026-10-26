@@ -1,0 +1,502 @@
+<!doctype html><html lang="ja"><head><base href="../"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#09291f"><title>WALKED | 市区町村探索マップ</title><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><style>
+:root{font-family:-apple-system,BlinkMacSystemFont,'Meiryo UI',Meiryo,sans-serif;color:#183a30;background:#f2f6f1}*{box-sizing:border-box}body{margin:0}header{background:#0b3629;color:white;padding:16px max(16px,env(safe-area-inset-left));display:flex;justify-content:space-between;align-items:center}header strong{font-size:22px;letter-spacing:2px}.subtitle{font-size:11px;color:#b4dcc9}main{max-width:1120px;margin:auto;padding:14px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 12px}.stat{background:#fff;border-radius:12px;padding:12px;text-align:center;box-shadow:0 1px 3px #0001}.stat b{display:block;font-size:24px;color:#087c59}.stat small{color:#60746a}.tools{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}button,.button{font:inherit;border:0;border-radius:11px;background:#117c59;color:white;padding:11px 15px;cursor:pointer;font-weight:650}button.alt{background:#e3ece7;color:#254c3f}button.warn{background:#fcf1ed;color:#a43f34}button:disabled{opacity:.5;cursor:wait}.mapwrap{height:min(65vh,590px);min-height:360px;border-radius:14px;overflow:hidden;background:#cadfd5;position:relative;border:1px solid #cddbd1}#map{width:100%;height:100%}.notice{margin:8px 0;padding:10px 12px;border-radius:10px;background:#e2f1e9;color:#285747;font-size:13px}.panels{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.panel{background:white;padding:15px;border-radius:13px;box-shadow:0 1px 3px #0001}.panel h3{margin:0 0 8px}.panel p,.panel li{font-size:13px;line-height:1.65;color:#5b6b63}.panel input{width:100%;padding:11px;border:1px solid #cbdad1;border-radius:8px}#results{max-height:230px;overflow:auto}.item{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #edf1ee;font-size:13px}.item button{padding:7px 10px;font-size:12px}.foot{font-size:11px;color:#667a6e;margin:12px 2px 26px;line-height:1.7}#loading{position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:500;background:#fffef5;padding:9px 14px;border-radius:15px;box-shadow:0 2px 8px #0002;font-size:12px;pointer-events:none;max-width:90%}.leaflet-container{font-family:inherit}.pill{font-size:12px;color:#d6f1e3;background:#205943;border-radius:20px;padding:7px 10px}label.file{display:inline-flex;align-items:center;border-radius:11px;background:#117c59;color:white;padding:11px 15px;font-weight:650;cursor:pointer}#jsonFile{display:none}@media(max-width:650px){header{padding:13px}main{padding:9px}.stat{padding:10px 3px}.stat b{font-size:19px}.stat small{font-size:10px}.tools button,.tools label{flex:1 1 43%;justify-content:center;text-align:center;font-size:13px;padding:12px 6px}.panels{grid-template-columns:1fr}.mapwrap{height:56vh;min-height:340px}}
+.filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:4px 0 12px}.filter{flex:1;background:#e2ece6;color:#335449;font-size:13px;padding:12px 6px}.filter.active{background:#086c4d;color:white;box-shadow:0 2px 7px #086c4d44}.hint{font-size:12px;color:#536b5f;margin:0 0 8px}.file-hidden{display:none}.small-note{font-size:11px;color:#687c70} @media(max-width:650px){.filter{font-size:12px}}
+.settings{margin-top:14px;background:#fff;border-radius:13px;box-shadow:0 1px 3px #0001;overflow:hidden}.settings summary{cursor:pointer;padding:16px;font-weight:700;color:#254c3f}.settings summary:focus-visible{outline:2px solid #117c59;outline-offset:-3px}.settings-body{padding:0 16px 16px}.settings-body p{font-size:13px;line-height:1.7;color:#5b6b63}.settings-danger{border-top:1px solid #edf1ee;padding-top:14px;display:flex;justify-content:flex-end}.settings-danger button{font-size:13px}@media(max-width:650px){.settings-danger button{width:100%}}
+.history-panel{margin-top:13px;background:#fff;border-radius:14px;padding:16px;box-shadow:0 1px 4px #0001}.history-header{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.history-header h2{font-size:18px;margin:0}.history-count{font-size:12px;color:#526d60}.history-list[hidden]{display:none}.history-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:10px;margin-top:12px}.history-card{padding:14px;border:1px solid #dce8df;border-radius:12px;background:#fbfdfb;text-align:left;color:#214439;font-weight:500;min-height:114px}.history-card.locked{background:#edf2ef;color:#718277}.history-card .kind{display:block;font-size:11px;color:#708578;margin-bottom:6px}.history-card .card-title{display:block;font-weight:700;font-size:15px}.history-card .card-meta{display:block;font-size:11px;margin-top:8px}.history-dialog{border:0;border-radius:18px;padding:0;max-width:min(94vw,580px);width:100%;max-height:85dvh;box-shadow:0 12px 50px #0006}.history-dialog::backdrop{background:#10291e9c}.history-content{padding:22px;overflow:auto;max-height:85dvh}.history-content h2{margin:8px 0}.history-content p{line-height:1.8}.history-content a{color:#087c59}.history-close{float:right}.history-status{font-size:12px;color:#536b5f;margin-top:8px}@media(max-width:650px){.history-list{grid-template-columns:repeat(2,minmax(0,1fr))}.history-card{padding:12px}.history-content{padding:16px}}
+
+.map-center{position:absolute;right:12px;top:12px;z-index:490;background:#fff;color:#135a83;padding:11px;border:1px solid #d4e4ed;box-shadow:0 2px 8px #0003;display:flex;align-items:center;gap:6px;font-size:13px}
+.details-note{font-size:12px;color:#536b5f}.settings-toggle{display:flex;gap:10px;align-items:center;font-size:13px;padding:10px 0}.settings-toggle input{width:18px;height:18px;accent-color:#117c59}.detail-badge{position:absolute;right:12px;bottom:15px;z-index:460;background:#fffffff2;padding:7px 10px;border-radius:9px;box-shadow:0 2px 8px #0002;font-size:11px;max-width:65%}
+
+.sengoku-panel{margin-top:13px;background:white;border-radius:14px;padding:16px;box-shadow:0 1px 4px #0001}.sengoku-head{display:flex;align-items:center;gap:10px;justify-content:space-between;flex-wrap:wrap}.sengoku-head h2{margin:0;font-size:18px}.sengoku-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:9px;margin-top:12px}.sengoku-person{background:#f7faf8;color:#23473b;border:1px solid #dce8df;border-radius:10px;text-align:left;padding:12px}.sengoku-person strong{display:block}.sengoku-person small{color:#61776b}.sengoku-detail{font-size:13px;line-height:1.7;color:#3c6251}.sengoku-empty{font-size:13px;color:#597064;line-height:1.6}.sengoku-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.sengoku-actions select,.sengoku-actions input{min-width:0;border:1px solid #cbdad1;border-radius:9px;padding:10px;flex:1}.sengoku-year{font-size:12px;color:#536f64;margin:5px 0}.sengoku-era{border-left:3px solid #76aa91;margin:12px 0;padding:6px 10px;background:#f6faf7;border-radius:0 8px 8px 0}.sengoku-toast{position:fixed;z-index:1500;bottom:18px;left:50%;transform:translateX(-50%);width:min(460px,calc(100vw - 28px));padding:14px 16px;background:#173d32;color:white;border-radius:14px;box-shadow:0 8px 25px #0004}.sengoku-toast button{display:block;margin-top:8px;background:#e4f5e9;color:#173d32;border:0;border-radius:7px;padding:7px 11px;font-weight:bold}.test-panel{border-top:1px solid #edf1ee;padding:14px 0;margin-top:9px}.test-panel h3{font-size:15px;margin:2px 0 7px}.test-panel select{display:block;width:100%;min-height:42px;border-radius:9px;border:1px solid #cbdad1;background:#fff;margin:7px 0 10px;padding:8px}.test-panel button{width:100%;margin-bottom:9px}.test-output{font-size:13px;line-height:1.6;border-radius:9px;padding:12px;background:#edf5ef;white-space:pre-line;color:#23473b}.test-panel label{font-size:13px;font-weight:600}@media(max-width:650px){.sengoku-grid{grid-template-columns:repeat(auto-fit,minmax(min(140px,100%),1fr))}.sengoku-actions{flex-wrap:wrap}.sengoku-actions input{flex-basis:100%}}.sengoku-person,.sengoku-detail{overflow-wrap:anywhere}.sengoku-actions input{font-size:16px}</style></head><body><header><div><strong>WALKED</strong><div class="subtitle">町田／相模原・全国探索マップ</div></div><span class="pill">無料・広告なし</span></header><main><div class="notice" role="status">移行データの確認用です。採用612人・史実精査中。操作した記録は確認用に別保存します。「獲得済み」には採用対象外の過去のカードも表示します。</div><section class="stats"><div class="stat"><b id="cnt">0</b><small>表示範囲の制覇数</small></div><div class="stat"><b id="rate">0%</b><small>表示範囲の探索率</small></div><div class="stat"><b id="pref">0</b><small>訪問都道府県</small></div></section><div class="tools"><label class="file" for="jsonFile">📥 タイムラインを取り込む</label><input id="jsonFile" type="file" accept=".json,application/json"><button id="locate">📍 現在地を登録</button><button class="alt" id="save">💾 バックアップ</button><button class="alt" id="restore">📂 復元</button><input type="file" id="restoreFile" accept=".json" hidden></div><div class="notice" id="status" aria-live="polite">境界データを読み込みます。地図タップで登録するには設定からエリア追加モードをオンにしてください。</div><nav class="filters" aria-label="地図の表示フィルタ"><button class="filter active" data-mode="nearby">町田／相模原</button><button class="filter" data-mode="municipal">市区町村</button><button class="filter" data-mode="nationwideDetail">全国詳細</button><button class="filter" data-mode="prefecture">都道府県</button></nav><div class="hint" id="modehint">町田市は緑、相模原市は青で、町名・丁目ごとに表示します。両市の詳細制覇は市区町村モードと独立しています。</div><input id="boundaryFile" type="file" accept=".geojson,.topojson,.json" hidden><div id="areaAddIndicator" class="notice" role="status" aria-live="polite">🔒 閲覧モード：地図タップではエリアを変更しません。</div><div class="mapwrap"><div id="map"></div><button class="map-center" type="button" id="centerMap" title="現在地を表示（制覇登録はしません）">⌖ 現在地へ</button><div id="detailBadge" class="detail-badge" hidden></div><div id="regionlegend" style="position:absolute;left:12px;bottom:14px;z-index:450;background:#fffffff2;padding:8px 11px;border-radius:9px;font-size:12px;box-shadow:0 2px 8px #0002;pointer-events:none"><span style="color:#24a76c">●</span> 町田市　<span style="color:#4385d2">●</span> 相模原市</div><div id="loading">地図データを読み込み中…</div></div><section class="sengoku-panel" id="sengokuPanel"><div class="sengoku-head"><h2>🏯 戦国時代モード</h2><span id="sengokuCount" class="history-count">人物データを確認中…</span><button class="alt" type="button" id="sengokuToggle">モードを開く</button></div><div id="sengokuQuality" class="sengoku-empty" style="margin-top:8px">史料確認状況を読み込み中…</div><div id="sengokuBody" hidden><p class="sengoku-empty">史跡を訪れてカードを獲得すると通知します。人物別に年代順の足跡をたどれます。未発見の内容は秘密です。</p><div class="sengoku-actions"><input id="sengokuSearch" type="search" placeholder="人物を検索"><select id="sengokuFilter" aria-label="人物表示"><option value="all">すべての人物</option><option value="found">カード獲得済み</option></select></div><div id="sengokuList" class="sengoku-grid"></div><div id="sengokuDetail" class="sengoku-detail"></div></div></section><section class="history-panel" id="historyPanel"><div class="history-header"><h2>📜 歴史図鑑</h2><span id="historyCount" class="history-count">地域の歴史を読み込み中…</span><button class="alt" id="historyToggle" type="button">図鑑を開く</button></div><div class="history-status" id="historyStatus">制覇した町丁にゆかりのある歴史が発見できます。未訪問の内容は秘密です。</div><div class="history-list" id="historyList" hidden></div></section><dialog class="history-dialog" id="historyDialog"><div class="history-content"><button class="alt history-close" id="historyClose" type="button">閉じる ×</button><div id="historyDetail"></div></div></dialog><div id="sengokuToast" class="sengoku-toast" role="status" aria-live="polite" hidden></div><div class="panels"><section class="panel"><h3>🔎 地域を探す</h3><input id="search" placeholder="例：町田市、鎌倉市、札幌市" type="search"><div id="results"><p>検索すると候補が表示されます。</p></div></section><section class="panel"><h3>🧭 記録・使い方</h3><div id="summary"><p>Googleマップの「タイムライン データをエクスポート」で保存した <code>location-history.json</code> を選択してください。</p></div></section></div><details class="settings" id="settings"><summary>⚙️ 設定</summary><div class="settings-body"><label class="settings-toggle"><input id="areaAddMode" type="checkbox">エリア追加モード（地図タップで登録・解除）</label><p class="small-note">初期設定はオフです。オンの間だけ地図のタップでエリアを登録・解除できます。</p><label class="settings-toggle"><input id="showUnknownPins" type="checkbox">未発見の史跡ピンを表示する</label><p class="small-note">初期設定は非表示。史跡の位置が検証された後に表示されます。</p><p>保存された制覇記録の管理を行います。削除すると手動登録とタイムラインから取り込んだ制覇記録がすべて消えます。必要なら先に「バックアップ」で保存してください。</p><section class="test-panel" aria-label="歴史カードの動作テスト"><h3>🧪 歴史カードの動作テスト</h3><p>実際に移動せず、収録済みの史跡地点を使って獲得判定を試します。テスト結果は保存せず、実際のカードや制覇記録は変更しません。</p><label for="testSite">テスト地点（内容は非公開）</label><select id="testSite"><option value="">史跡データの読み込み待ち</option></select><button type="button" id="runSengokuTest" class="alt">疑似通過を実行</button><div id="testSengokuResult" role="status" aria-live="polite" class="test-output">未実行</div></section><div class="settings-danger"><button class="warn" id="clear" type="button">全記録を削除</button></div></div></details><div class="foot">境界データ：町田市と相模原市の町丁・字は <a href="https://geoshape.ex.nii.ac.jp/ka/resource/13209.html" target="_blank" rel="noopener">CODH/e-Stat（2020年版）</a>（相模原市の3区も同データ）、全国の詳細境界は <a href="https://geoshape.ex.nii.ac.jp/ka/" target="_blank" rel="noopener">CODH/e-Stat（2020年版）</a> を必要な地域ごとに取得。全国の市区町村境界は国土交通省「国土数値情報（行政区域データ）」2025年版を加工した <a href="https://github.com/kyodo-official/japan-choropleth" target="_blank" rel="noopener">共同通信 japan-choropleth</a>（CC BY 4.0）。背景地図：<a href="https://maps.gsi.go.jp/" target="_blank" rel="noopener">国土地理院 地理院タイル（標準地図）</a>。タイムラインのJSONは外部へアップロードせず、このブラウザ内で解析します。地図・境界情報の表示には外部配信サービスへの通信が必要です。ブラウザ保存データは削除されることがあるため、定期的にバックアップしてください。</div></main><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script><script src="./migration/runtime.js"></script><script>
+'use strict';
+const MACHIDA_CODE='13209',MACHIDA_PREFIX='m:',SAGAMIHARA_PREFIX='s:',NATION_PREFIX='n:',SAGAMIHARA_WARDS=['14151','14152','14153'],PREF_PREFIX='p:';
+const DBKEY='walked_migration_preview_visited_v1',state={visited:readSaved(),features:[],featureById:new Map(),layers:new Map(),points:[],busy:false,mode:"nearby",machida:[],machidaById:new Map(),sagamihara:[],sagamiharaById:new Map(),prefFeatures:[],prefById:new Map(),activeGroup:null,nationById:new Map(),nationCache:new Map(),nationErrors:new Set(),nationLoading:new Set(),detailGroup:null,locationDot:null};
+const $=id=>document.getElementById(id); const status=s=>{$('status').textContent=s};
+function readSaved(){try{return JSON.parse(localStorage.getItem(DBKEY)||localStorage.getItem('walked_municipal_v2')||'{}')}catch{return {}}}
+function persist(){localStorage.setItem(DBKEY,JSON.stringify(state.visited)); updateStats();}
+// walked-area-add-mode-v1
+let areaAddModeEnabled=false;
+function syncAreaAddMode(){const indicator=document.getElementById('areaAddIndicator');indicator.textContent=areaAddModeEnabled?'✏️ エリア追加モード：地図タップで登録・解除できます。':'🔒 閲覧モード：地図タップではエリアを変更しません。';indicator.style.background=areaAddModeEnabled?'#fff1d5':'#e2f1e9';}
+document.getElementById('areaAddMode').addEventListener('change',e=>{areaAddModeEnabled=e.target.checked;syncAreaAddMode();});syncAreaAddMode();
+const map=L.map('map',{preferCanvas:true,zoomControl:false}).setView([36.3,138.2],5);L.control.zoom({position:'bottomright'}).addTo(map);
+// 日本向けの国土地理院タイルを使用（OSM標準タイルの403ブロックを回避）。
+// 出典は地図右下に常時表示します。
+const baseTiles=L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png',{
+  minZoom:2,maxZoom:18,maxNativeZoom:18,
+  attribution:'<a href="https://maps.gsi.go.jp/" target="_blank" rel="noopener">地理院タイル（国土地理院）</a>'
+}).addTo(map);
+let baseTileErrors=0;
+baseTiles.on('tileerror',()=>{
+  baseTileErrors++;
+  if(baseTileErrors===4){
+    status('⚠️ 背景地図の読込に失敗しています。通信状態を確認してページを再読込してください。');
+  }
+});
+let polygons;function key(f){return String(f.id||f.properties?.code||f.properties?.id||'')};function title(f){const p=f.properties||{};return p.displayName||[p.prefecture,p.county,p.municipality,p.ward].filter(Boolean).join(' ')||p.name||key(f)};
+function mark(id,source='手動',when){if(!id||!getFeature(id))return false;let old=state.visited[id];if(old){if(source!=='手動'&&when&&(!old.last||when>old.last)){old.last=when;return true}return false}state.visited[id]={first:when||new Date().toISOString(),last:when||new Date().toISOString(),source};let layer=state.layers.get(id);if(layer)layer.setStyle(styleFor(id));return true}
+function getFeature(id){return state.featureById.get(id)||state.machidaById.get(id)||state.sagamiharaById.get(id)||state.prefById.get(id)||state.nationById.get(id)}
+function unmark(id){delete state.visited[id];const l=state.layers.get(id);if(l)l.setStyle(styleFor(id));persist()}
+function styleFor(id){
+ const visited=isVisited(id),sagamihara=id.startsWith(SAGAMIHARA_PREFIX);
+ return {color:visited?(sagamihara?'#245eaa':'#147f50'):'#6c8b78',weight:visited?1.3:0.65,
+ fillColor:visited?(sagamihara?'#4385d2':'#24a76c'):'#cbd7cf',fillOpacity:visited?0.72:0.18};
+}
+function regionalFeatures(){return [...state.machida,...state.sagamihara]}
+function areaModeForFeature(f,mode){
+ if(mode!=='nearby')return mode;
+ return f.properties?.WARD_NAME?'sagamihara':'machida';
+}
+function coveredPrefCodes(){const set=new Set();for(const id of Object.keys(state.visited)){if(id.startsWith(MACHIDA_PREFIX)||id===MACHIDA_CODE)set.add('13');else if(id.startsWith(SAGAMIHARA_PREFIX))set.add('14');else if(id.startsWith(NATION_PREFIX))set.add(id.slice(2,4));else if(!id.startsWith(PREF_PREFIX)&&state.featureById.has(id))set.add(id.slice(0,2));}return set}
+function isVisited(id){if(id.startsWith(PREF_PREFIX))return coveredPrefCodes().has(id.slice(2));/* 町田市の町丁は独立記録。市区町村の13209を継承しない。 */return !!state.visited[id]}
+function updateStats(){let all=state.mode==='nearby'?regionalFeatures():state.mode==='prefecture'?state.prefFeatures:state.mode==='nationwideDetail'?[...state.nationById.values()]:state.features;let codes=all.filter(f=>isVisited(keyForMode(f,state.mode)));let total=all.length;$('cnt').textContent=codes.length.toLocaleString('ja-JP');$('rate').textContent=total?(codes.length/total*100).toFixed(1)+'%':'--';$('pref').textContent=coveredPrefCodes().size;}
+function toggleFeature(f){const id=keyForMode(f,state.mode),name=labelFor(f,state.mode);if(state.mode==='prefecture'){status('都道府県は市区町村の制覇履歴から自動集計します。市区町村モードで登録してください。');return}if(state.visited[id]){if(confirm(name+'の制覇登録を解除しますか？'))unmark(id)}else{mark(id);persist();status('✅ '+name+'を制覇！');if(state.mode==='nearby'||state.mode==='nationwideDetail')acquireSengokuByAreaFeature(f)} }
+function keyForMode(f,mode){return mode==='nearby'?keyForMode(f,areaModeForFeature(f,mode)):mode==='machida'?MACHIDA_PREFIX+String(f.properties?.KEY_CODE||f.properties?.key_code||f.id||f.properties?.id||''):mode==='sagamihara'?SAGAMIHARA_PREFIX+String(f.properties?.KEY_CODE||f.properties?.key_code||f.id||f.properties?.id||''):mode==='prefecture'?PREF_PREFIX+key(f):mode==='nationwideDetail'?NATION_PREFIX+String(f.properties?.WALKED_MUNICIPAL_CODE||'')+':'+String(f.properties?.KEY_CODE||f.properties?.key_code||f.id||f.properties?.id||''):key(f)}
+function labelFor(f,mode){const p=f.properties||{};if(mode==='nearby')return (areaModeForFeature(f,mode)==='sagamihara'?'相模原市 ':'町田市 ')+labelFor(f,areaModeForFeature(f,mode));return (mode==='machida'||mode==='sagamihara')?String((mode==='sagamihara'?(p.WARD_NAME||p.ward||'')+' ':'')+(p.S_NAME||p.s_name||p.name||p.MOJI||p.moji||p.NAME||key(f))):mode==='nationwideDetail'?String((p.S_NAME||p.s_name||p.name||p.MOJI||p.moji||p.NAME||key(f))):mode==='prefecture'?String(p.name||p.NAME||title(f)):title(f)}
+function repaint(){const g=state.mode==='nationwideDetail'?state.detailGroup:state.activeGroup;if(g)g.eachLayer(l=>{const f=l.feature;if(f)l.setStyle(styleFor(keyForMode(f,state.mode)))});updateStats()}
+function changeMode(mode){
+ state.mode=mode;
+ $('regionlegend').style.display=mode==='nearby'?'block':'none';
+ document.querySelectorAll('.filter').forEach(b=>{
+  b.classList.toggle('active',b.dataset.mode===mode);
+  b.setAttribute('aria-pressed',String(b.dataset.mode===mode));
+ });
+ const fs=mode==='nearby'?regionalFeatures():mode==='prefecture'?state.prefFeatures:mode==='nationwideDetail'?[]:state.features;
+ if(state.activeGroup){map.removeLayer(state.activeGroup);state.activeGroup=null;state.layers.clear()} if(state.detailGroup){map.removeLayer(state.detailGroup);state.detailGroup=null} $('detailBadge').hidden=mode!=='nationwideDetail';
+ if(mode==='nationwideDetail'){map.setView(map.getCenter(),Math.max(11,map.getZoom()));$('modehint').textContent='全国の町丁・字を地図の表示範囲だけ取得します。ズーム11以上で読み込み。読み込みは通信状況によります。';updateStats();setTimeout(updateDetailViewport,0);return;}
+ if(!fs.length){
+  $('modehint').textContent=mode==='nearby'?'町田市・相模原市の詳細境界を読み込み中です。境界ファイルの準備状況を確認してください。':'境界データを読み込み中です。';
+  if(mode==='nearby')map.fitBounds([[35.36,139.05],[35.68,139.58]],{padding:[18,18]});
+  updateStats();return;
+ }
+ state.activeGroup=L.geoJSON(fs,{style:f=>styleFor(keyForMode(f,mode)),onEachFeature:(f,l)=>{
+  const id=keyForMode(f,mode);state.layers.set(id,l);
+  l.bindTooltip(labelFor(f,mode),{sticky:true});
+  l.on('click',()=>{if(areaAddModeEnabled)toggleFeature(f);});
+ }}).addTo(map);
+ $('modehint').textContent=mode==='nearby'?`町田市 ${state.machida.length}区域（緑）／相模原市 ${state.sagamihara.length}区域（青）。町名・丁目単位で個別に制覇します。`:mode==='municipal'?'全国：市区町村別。タップで登録できます。':'47都道府県：訪問済み市区町村のある都道府県を緑色に表示。';
+ if(mode==='nearby'){
+  // Keep both cities in the viewport, including the three Sagamihara wards.
+  if(state.machida.length&&state.sagamihara.length)map.fitBounds(state.activeGroup.getBounds(),{padding:[18,18]});
+  else map.fitBounds([[35.36,139.05],[35.68,139.58]],{padding:[18,18]});
+ }else if(mode==='municipal')map.fitBounds([[35.47,138.88],[35.94,139.96]],{padding:[18,18]});
+ else map.setView([36.3,138.2],5);
+ updateStats();
+ if($('search').value)$('search').dispatchEvent(new Event('input'));
+}
+document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>changeMode(b.dataset.mode));
+function normalizeMachida(doc){
+ if(doc?.type==='Topology'){
+   const object=doc.objects?.machida||doc.objects?.towns||Object.values(doc.objects||{})[0];
+   if(!object||!window.topojson)throw Error('TopoJSONを読み取れません');
+   doc=topojson.feature(doc,object);
+ }
+ let features=doc?.type==='FeatureCollection'?doc.features:doc?.type==='Feature'?[doc]:[];
+ return features.filter(f=>f.geometry&&['Polygon','MultiPolygon'].includes(f.geometry.type));
+}
+function applyMachida(doc){const features=normalizeMachida(doc);if(features.length<100)throw Error('町田市の町丁ポリゴン数が不足しています: '+features.length);state.machida=features;state.machidaById.clear();features.forEach(f=>state.machidaById.set(keyForMode(f,'machida'),f));if(state.mode==='nearby')changeMode('nearby');status('✅ 町田市の詳細境界 '+features.length+'区域を読み込みました。');return features.length;}
+$('boundaryFile').onchange=async e=>{try{const f=e.target.files?.[0];if(f){const raw=await f.text();applyMachida(JSON.parse(raw));try{localStorage.setItem('walked_machida_boundary_cache_v1',raw)}catch(e){}}}catch(ex){status('境界ファイルを開けません：'+ex.message)}e.target.value=''};
+async function loadMachida(){
+ // アプリに同梱した境界ファイルを最優先。古いローカルキャッシュは最後の予備手段。
+ // 同梱したGeoJSON/TopoJSONを最優先。初期配布では同梱ファイルがなければ次へ。
+ const urls=[
+   './machida-boundaries.topojson',
+   './machida-boundaries.geojson',
+   'https://geoshape.ex.nii.ac.jp/ka/topojson/2020/13/r2ka13209.topojson'
+ ];
+ for(const url of urls){
+   try{
+     const c=new AbortController(),t=setTimeout(()=>c.abort(),6500);
+     let r;try{r=await fetch(url,{signal:c.signal,cache:'no-store'})}finally{clearTimeout(t)}
+     if(!r.ok)continue;
+     const raw=await r.text(),doc=JSON.parse(raw);
+     applyMachida(doc);
+     try{localStorage.setItem('walked_machida_boundary_cache_v1',raw)}catch(e){}
+     return;
+   }catch(e){}
+ }
+ try{const saved=localStorage.getItem('walked_machida_boundary_cache_v1');if(saved){applyMachida(JSON.parse(saved));return}}catch(e){}
+ status('⚠️ 町田市の境界ファイルが見つかりません。GitHub Actions の『Bundle Machida boundaries』を実行してから再表示してください。「町田市の境界GeoJSONを選択」から手動読込できます（TopoJSONも対応）。読み込めるまでは町田市モードの塗り分けは使えません。');
+}
+
+async function loadSagamihara(){
+ const out=[];
+ for(const [i,ward] of SAGAMIHARA_WARDS.entries()){
+  const url='./sagamihara-'+ward+'.topojson';
+  try{
+   const resp=await fetch(url,{cache:'no-store'});
+   if(!resp.ok)throw Error('HTTP '+resp.status);
+   const doc=await resp.json();
+   if(doc.type!=='Topology')throw Error('TopoJSONではありません');
+   const obj=Object.values(doc.objects||{})[0];
+   const features=topojson.feature(doc,obj).features.filter(f=>f.geometry&&['Polygon','MultiPolygon'].includes(f.geometry.type));
+   if(features.length<30)throw Error(ward+' の区域数が不足: '+features.length);
+   for(const f of features){f.properties={...f.properties,WARD_NAME:['緑区','中央区','南区'][i]};out.push(f)}
+  }catch(e){status('⚠️ 相模原市の詳細境界が未準備です。GitHub Actionsの「Bundle Sagamihara boundaries」を実行してください。 '+ward+': '+e.message);return}
+ }
+ state.sagamihara=out;state.sagamiharaById.clear();for(const f of out)state.sagamiharaById.set(keyForMode(f,'sagamihara'),f);
+ if(state.mode==='nearby')changeMode('nearby');
+ status('✅ 相模原市の町丁・字境界 '+out.length+'区域を読み込みました。過去に取り込んだタイムラインは再取り込みすると詳細に反映されます。');
+}
+async function loadPrefectures(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@main/data/topojson/prefectures.topojson';const r=await fetch(url);if(!r.ok)throw Error('HTTP '+r.status);const t=await r.json();state.prefFeatures=topojson.feature(t,t.objects.prefectures||Object.values(t.objects)[0]).features;state.prefFeatures.forEach(f=>state.prefById.set(PREF_PREFIX+key(f),f));if(state.mode==='prefecture')changeMode('prefecture')}catch(e){status('都道府県境界の読込失敗：'+e.message)}}
+async function boundaries(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@main/data/topojson/municipalities.topojson';let res=await fetch(url);if(!res.ok)throw Error('行政区域データ HTTP '+res.status);const topo=await res.json();const obj=topo.objects.municipalities||Object.values(topo.objects)[0];state.features=topojson.feature(topo,obj).features;state.features.forEach(f=>state.featureById.set(key(f),f));changeMode(state.mode);$('loading').remove();updateStats();status('地図の準備完了。地域をタップして登録、またはタイムラインJSONを読み込んでください。');if(state.pending){const p=state.pending;state.pending=null;await processRecords(p)}}catch(err){$('loading').textContent='境界データの取得に失敗しました';status('⚠️ '+err.message+'。ネット接続とGitHub Pages公開を確認してください。')}}
+
+// 全国詳細：市区町村単位で遅延読込。22万区域の一括読込はしない。
+const nationPending=new Map();
+function bboxOfFeature(f){let b=[Infinity,Infinity,-Infinity,-Infinity];function visit(c){if(typeof c[0]==='number'){b[0]=Math.min(b[0],c[0]);b[1]=Math.min(b[1],c[1]);b[2]=Math.max(b[2],c[0]);b[3]=Math.max(b[3],c[1]);}else for(const x of c)visit(x)}try{visit(f.geometry.coordinates)}catch{}return b}
+function intersectsBox(b,v){return b[0]<=v.getEast()&&b[2]>=v.getWest()&&b[1]<=v.getNorth()&&b[3]>=v.getSouth()}
+function municipalCode(f){return String(key(f)).padStart(5,'0')}
+function getMunicipalityForPoint(p){return state.features.find(f=>geomContains(p,f.geometry))}
+const nationwideCacheKey='walked_national_town_v1';
+let nationwideDBPromise;
+function openTownDB(){if(nationwideDBPromise)return nationwideDBPromise;nationwideDBPromise=new Promise(resolve=>{if(!window.indexedDB){resolve(null);return}const req=indexedDB.open(nationwideCacheKey,1);req.onupgradeneeded=()=>req.result.createObjectStore('towns');req.onsuccess=()=>resolve(req.result);req.onerror=()=>resolve(null)});return nationwideDBPromise}
+async function readTownCache(code){try{const db=await openTownDB();if(!db)return null;return await new Promise(resolve=>{const r=db.transaction('towns','readonly').objectStore('towns').get(code);r.onsuccess=()=>resolve(r.result||null);r.onerror=()=>resolve(null)})}catch{return null}}
+async function writeTownCache(code,doc){try{const db=await openTownDB();if(db){const tx=db.transaction('towns','readwrite');tx.objectStore('towns').put(doc,code)}}catch{}}
+async function loadTownForCode(code){
+ if(state.nationCache.has(code))return state.nationCache.get(code);
+ if(nationPending.has(code))return nationPending.get(code);
+ const task=(async()=>{
+  let doc=await readTownCache(code);
+  if(!doc){
+   const url='./town-data/'+code+'.topojson';
+   const remote='https://geoshape.ex.nii.ac.jp/ka/topojson/2020/'+code.slice(0,2)+'/r2ka'+code+'.topojson';
+   for(const link of [url,remote]){try{const ctrl=new AbortController(),tm=setTimeout(()=>ctrl.abort(),9500);let res;try{res=await fetch(link,{signal:ctrl.signal})}finally{clearTimeout(tm)}if(res.ok){doc=await res.json();break}}catch{}}
+  }
+  if(!doc)throw Error(code+'の町丁境界を取得できません。八王子市(13201)の場合、GitHub Actions「Bundle Hachioji boundaries」で town-data/13201.topojson を生成してください（通信・配信元の制約）。');
+  const features=normalizeMachida(doc);
+  if(!features.length)throw Error(code+' の区域データが空です');
+  features.forEach(f=>{f.properties={...f.properties,WALKED_MUNICIPAL_CODE:code};const id=keyForMode(f,'nationwideDetail');state.nationById.set(id,f)});
+  state.nationCache.set(code,features);writeTownCache(code,doc);return features;
+ })().finally(()=>nationPending.delete(code));nationPending.set(code,task);return task;
+}
+let viewportNonce=0;
+async function updateDetailViewport(){
+ if(state.mode!=='nationwideDetail'||!state.features.length)return;
+ const nonce=++viewportNonce,zoom=map.getZoom(),badge=$('detailBadge');badge.hidden=false;
+ if(zoom<11){badge.textContent='拡大すると町丁境界を表示します';return}
+ const bounds=map.getBounds();const c=map.getCenter();
+ const candidates=state.features.filter(f=>intersectsBox(bboxOfFeature(f),bounds)).sort((a,b)=>{
+  const cent=f=>{let box=bboxOfFeature(f);return distance([(box[0]+box[2])/2,(box[1]+box[3])/2],[c.lng,c.lat])};return cent(a)-cent(b)
+ });
+ const codes=[...new Set(candidates.map(municipalCode))].slice(0,6);
+ if(!codes.length){badge.textContent='この範囲の市区町村が見つかりません';return}
+ badge.textContent='詳細境界を読込中 '+codes.length+'市区町村…';
+ await Promise.all(codes.map(async code=>{try{await loadTownForCode(code)}catch(e){state.nationErrors.add(code)}}));
+ if(nonce!==viewportNonce||state.mode!=='nationwideDetail')return;
+ if(state.detailGroup)map.removeLayer(state.detailGroup);
+ state.layers.clear();
+ const selected=codes.flatMap(code=>state.nationCache.get(code)||[]).filter(f=>intersectsBox(bboxOfFeature(f),bounds));
+ state.detailGroup=L.geoJSON(selected,{style:f=>styleFor(keyForMode(f,'nationwideDetail')),onEachFeature:(f,l)=>{
+  const id=keyForMode(f,'nationwideDetail');state.layers.set(id,l);l.bindTooltip(labelFor(f,'nationwideDetail'),{sticky:true});l.on('click',()=>{if(areaAddModeEnabled)toggleFeature(f);});
+ }}).addTo(map);
+ badge.textContent=`詳細 ${selected.length}区域 ／ 取得失敗 ${codes.filter(x=>state.nationErrors.has(x)).length}市区町村`;
+ updateStats();
+ if(codes.some(x=>state.nationErrors.has(x)))status('一部の町丁境界が取得できません。GitHubの town-data/ に境界ファイルを配置すると確実になります。');
+}
+map.on('moveend zoomend',()=>{if(state.mode==='nationwideDetail')updateDetailViewport()});
+function showCurrentLocation(){
+ if(!navigator.geolocation){status('位置情報機能が使えません');return}
+ status('現在地を表示するため位置を取得中…');
+ navigator.geolocation.getCurrentPosition(pos=>{
+  const ll=[pos.coords.latitude,pos.coords.longitude];
+  if(state.locationDot)map.removeLayer(state.locationDot);
+  state.locationDot=L.circleMarker(ll,{radius:8,fillColor:'#238af0',color:'#fff',weight:2.5,fillOpacity:0.95}).addTo(map).bindPopup('現在地（制覇登録はしていません）');
+  map.setView(ll,Math.max(map.getZoom(),13));status('現在地を表示しました。制覇登録はしていません。');
+ },err=>status('現在地を表示できません：'+err.message),{enableHighAccuracy:true,timeout:20000,maximumAge:15000});
+}
+$('centerMap').onclick=showCurrentLocation;
+const unknownPinPreference='walked_show_unknown_pins_v1';
+$('showUnknownPins').checked=localStorage.getItem(unknownPinPreference)==='true';
+$('showUnknownPins').onchange=e=>{localStorage.setItem(unknownPinPreference,String(e.target.checked));refreshSengokuPins();status(e.target.checked?'未発見ピンの表示をオンにしました。':'未発見ピンを非表示にしました。')};
+
+function coordinate(v){if(v==null)return null;if(typeof v==='object'){if(v.latLng)return coordinate(v.latLng);if(v.point)return coordinate(v.point);if(v.latitudeE7!=null&&v.longitudeE7!=null)return [v.longitudeE7/1e7,v.latitudeE7/1e7];if(v.latE7!=null&&v.lngE7!=null)return [v.lngE7/1e7,v.latE7/1e7];if(v.latitude!=null&&v.longitude!=null)return [Number(v.longitude),Number(v.latitude)];return null}if(typeof v==='string'){let m=v.match(/(-?\d+(?:\.\d+)?)\s*°?\s*,\s*(-?\d+(?:\.\d+)?)/);if(m)return [Number(m[2]),Number(m[1])]}return null}
+function extract(doc){
+  const out=[];
+  const add=(v,t,source)=>{
+    const p=coordinate(v);
+    if(p&&Number.isFinite(p[0])&&Number.isFinite(p[1])&&p[0]>=122&&p[0]<=155&&p[1]>=20&&p[1]<=47){
+      out.push({p,t:t||null,source});
+    }
+  };
+  // iPhone Google Maps Timeline exports can have an array at the root.
+  // Other exports use semanticSegments or timelineObjects as object properties.
+  const segments=Array.isArray(doc)?doc:(doc.semanticSegments||doc.timelineObjects||[]);
+  for(const s of segments){
+    if(!s||typeof s!=='object')continue;
+    const t=s.startTime||s.duration?.startTimestamp||null;
+    if(s.visit){
+      add(s.visit.topCandidate?.placeLocation||s.visit.centerLatE7!=null&&{latE7:s.visit.centerLatE7,lngE7:s.visit.centerLngE7},t,'訪問');
+    }
+    if(s.placeVisit){add(s.placeVisit.location,t,'訪問');}
+    if(s.activity){
+      add(s.activity.start?.latLng||s.activity.start,t,'移動');
+      add(s.activity.end?.latLng||s.activity.end,s.endTime||t,'移動');
+    }
+    if(s.activitySegment){
+      add(s.activitySegment.startLocation,t,'移動');
+      add(s.activitySegment.endLocation,s.duration?.endTimestamp||t,'移動');
+      for(const q of s.activitySegment.simplifiedRawPath?.points||[])add(q,q.timestamp||t,'経路');
+    }
+    for(const q of s.timelinePath||[]){
+      const minutes=Number(q.durationMinutesOffsetFromStartTime);
+      const qt=Number.isFinite(minutes)&&t&&!Number.isNaN(Date.parse(t))
+        ?new Date(Date.parse(t)+minutes*60000).toISOString()
+        :(q.time||t);
+      add(q.point||q,qt,'経路');
+    }
+  }
+  if(!Array.isArray(doc)){
+    for(const q of doc.locations||[])add(q,q.timestampMs?new Date(Number(q.timestampMs)).toISOString():q.timestamp,'GPS');
+    for(const q of doc.rawSignals||[]){
+      const pos=q.position;
+      if(pos&&Number(pos.accuracyMeters??9999)<=150)add(pos.LatLng||pos.latLng||pos,q.timestamp||pos.timestamp,'GPS');
+    }
+  }
+  return out;
+}
+// Bounding box + ray casting; supports GeoJSON Polygons with holes and MultiPolygons.
+function ringContains(pt,ring){let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){let a=ring[i],b=ring[j];if((a[1]>pt[1])!==(b[1]>pt[1])&&pt[0]<(b[0]-a[0])*(pt[1]-a[1])/(b[1]-a[1])+a[0])inside=!inside}return inside}
+function geomContains(pt,geom){if(!geom)return false;let polygons=geom.type==='Polygon'?[geom.coordinates]:geom.type==='MultiPolygon'?geom.coordinates:[];return polygons.some(poly=>poly.length&&ringContains(pt,poly[0])&&!poly.slice(1).some(h=>ringContains(pt,h)))}
+function match(pt){for(const f of state.features){if(geomContains(pt,f.geometry))return key(f)}return null}
+function distance(a,b){let rad=Math.PI/180,lat=(a[1]+b[1])/2*rad;return Math.hypot((a[0]-b[0])*111320*Math.cos(lat),(a[1]-b[1])*111320)}
+async function processRecords(records){if(!state.features.length){state.pending=records;status('境界データを読み込んでから処理します。');return}if(state.busy)return;state.busy=true;const before=Object.keys(state.visited).length;let matched=0,pts=records.slice();$('loading')?.remove();status('位置データ '+pts.length.toLocaleString()+'点を処理しています…');await new Promise(r=>setTimeout(r,20));
+// Coordinates only: don't infer unrecorded routes by connecting distant points.
+sengokuBulkImport=true;sengokuBatchDiscoveries.length=0;
+let newHistoryCards=0;for(let i=0;i<pts.length;i++){const x=pts[i],id=match(x.p);newHistoryCards+=acquireSengokuByPoint(x.p,x.t);if(id){matched++;mark(id,x.source,x.t);if(id===MACHIDA_CODE&&state.machida.length){const sub=state.machida.find(f=>geomContains(x.p,f.geometry));if(sub)mark(keyForMode(sub,'machida'),x.source,x.t)}if(state.sagamihara.length&&x.p[0]>139.05&&x.p[0]<139.55&&x.p[1]>35.35&&x.p[1]<35.8){const sub=state.sagamihara.find(f=>geomContains(x.p,f.geometry));if(sub)mark(keyForMode(sub,'sagamihara'),x.source,x.t)}}if(i%200===0){status('解析中… '+i.toLocaleString()+' / '+pts.length.toLocaleString()+'地点');await new Promise(r=>setTimeout(r,0))}}
+// Deliberately no straight-line interpolation: road/rail paths are not necessarily straight.
+// 全国の詳細境界は取り込まれた市区町村のうち最大30件を遅延取得して判定。
+ const grouped=new Map();for(const x of pts){const f=getMunicipalityForPoint(x.p);if(!f)continue;const code=municipalCode(f);if(!grouped.has(code))grouped.set(code,[]);grouped.get(code).push(x)}
+ let detailsChecked=0,detailsUnavailable=0;
+ const work=[...grouped.entries()].filter(([code])=>!([MACHIDA_CODE,...SAGAMIHARA_WARDS].includes(code))).slice(0,30);
+ for(const [code,points] of work){try{const ff=await loadTownForCode(code);for(const point of points){const matchTown=ff.find(f=>geomContains(point.p,f.geometry));if(matchTown){const id=keyForMode(matchTown,'nationwideDetail');mark(id,point.source,point.t)}}detailsChecked++}catch(e){detailsUnavailable++}}
+ // Historical cards must be evaluated AFTER municipal town polygons have loaded.
+ // Limit work to municipalities actually present in imported Timeline points.
+ const historicalCodes=new Set(sengokuSites.map(site=>site.municipalityCode));
+ for(const [code,points] of grouped){
+  if(!historicalCodes.has(code))continue;
+  try{
+   if(code===MACHIDA_CODE && !state.machida.length)await loadMachida();
+   else if(SAGAMIHARA_WARDS.includes(code)&&!state.sagamihara.length)await loadSagamihara();
+   else if(code!==MACHIDA_CODE&&!SAGAMIHARA_WARDS.includes(code)&&!state.nationCache.has(code))await loadTownForCode(code);
+   for(const point of points)newHistoryCards+=acquireSengokuByPoint(point.p,point.t);
+  }catch(error){console.warn('歴史区域境界の読み込み失敗',code,error)}
+ }
+ repaint();persist();let added=Object.keys(state.visited).length-before;state.busy=false;sengokuBulkImport=false;toastSengokuCards(sengokuBatchDiscoveries);sengokuBatchDiscoveries.length=0;$('summary').innerHTML='<p><strong>前回の取り込み結果</strong></p><p>位置情報：'+pts.length.toLocaleString()+'点<br>国内の行政区域に一致：'+matched.toLocaleString()+'点<br>新規制覇：<strong>'+added+'区域</strong><br>全国町丁判定：'+detailsChecked+'市区町村（失敗 '+detailsUnavailable+'）'+(grouped.size>30?' ※一度に最大30市区町村まで':'')+'</p><p>※GPS点の間は補間していません。通過した区域でもGPS点がなければ未制覇になります。</p>';status('✅ 読み込み完了。新たに'+added+'区域を制覇しました。歴史カード '+newHistoryCards+'枚を発見しました。');}
+$('jsonFile').addEventListener('change',async e=>{let f=e.target.files?.[0];if(!f)return;try{status('JSONを読み取り中…');let data=JSON.parse(await f.text()),pts=extract(data);if(!pts.length){status('⚠️ このJSONから緯度経度を取り出せませんでした。実データの形式に合わせた調整が必要です。');return}if(pts.length>500000){if(!confirm(pts.length+'地点あります。処理が重くなる可能性があります。続けますか？'))return}await processRecords(pts)}catch(err){status('⚠️ JSON読み込みエラー：'+err.message)}finally{e.target.value=''}});
+$('locate').onclick=()=>{if(!navigator.geolocation)return status('位置情報機能が使えません');status('現在地を取得中…');navigator.geolocation.getCurrentPosition(p=>{let xy=[p.coords.longitude,p.coords.latitude];map.setView([xy[1],xy[0]],11);const id=match(xy);if(id){let finalId=id;if(id===MACHIDA_CODE&&state.machida.length){const sub=state.machida.find(f=>geomContains(xy,f.geometry));if(sub){finalId=keyForMode(sub,'machida');mark(id,'現在地',new Date().toISOString())}}mark(finalId,'現在地',new Date().toISOString());if(state.sagamihara.length){const sub=state.sagamihara.find(f=>geomContains(xy,f.geometry));if(sub)mark(keyForMode(sub,'sagamihara'),'現在地',new Date().toISOString())}repaint();persist();(async()=>{try{const municipality=getMunicipalityForPoint(xy);const code=municipality?municipalCode(municipality):'';if(code&&code!==MACHIDA_CODE&&!SAGAMIHARA_WARDS.includes(code)&&!state.nationCache.has(code))await loadTownForCode(code);acquireSengokuByPoint(xy)}catch(e){console.warn('現在地での歴史カード照合エラー',e)}})();status('📍 '+(finalId.startsWith(MACHIDA_PREFIX)?labelFor(state.machidaById.get(finalId),'machida'):finalId.startsWith(SAGAMIHARA_PREFIX)?labelFor(state.sagamiharaById.get(finalId),'sagamihara'):title(state.featureById.get(id)))+'を登録しました')}else status('現在地に一致する市区町村が見つかりませんでした')},err=>status('位置取得失敗：'+err.message),{enableHighAccuracy:true,timeout:20000,maximumAge:0})};
+$('search').addEventListener('input',e=>{let q=e.target.value.trim();let box=$('results');box.replaceChildren();if(!q){box.textContent='検索すると候補が表示されます。';return}let all=state.mode==='nearby'?regionalFeatures():state.mode==='prefecture'?state.prefFeatures:state.mode==='nationwideDetail'?[...state.nationById.values()]:state.features;let found=all.filter(f=>labelFor(f,state.mode).includes(q)).slice(0,40);if(!found.length){box.textContent='見つかりません';return}for(let f of found){let id=keyForMode(f,state.mode),div=document.createElement('div');div.className='item';let name=document.createElement('span');name.textContent=labelFor(f,state.mode);let b=document.createElement('button');b.textContent=isVisited(id)?'解除':'制覇';b.onclick=()=>{toggleFeature(f);b.textContent=isVisited(id)?'解除':'制覇';if(state.layers.get(id))map.fitBounds(state.layers.get(id).getBounds(),{maxZoom:14})};div.append(name,b);box.append(div)}});
+function download(name,obj){const b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}),url=URL.createObjectURL(b),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+$('save').onclick=()=>download('WALKED-preview-backup-'+new Date().toISOString().slice(0,10)+'.json',WalkedMigration.backup(state.visited,sengokuFound));$('restore').onclick=()=>$('restoreFile').click();$('restoreFile').onchange=async e=>{try{let d=JSON.parse(await e.target.files[0].text());const restored=WalkedMigration.restore(d);Object.assign(state.visited,restored.visited);Object.assign(sengokuFound,restored.found);localStorage.setItem(sengokuStoreKey,JSON.stringify(sengokuFound));persist();repaint();renderSengoku();refreshSengokuPins();status('✅ バックアップを復元しました')}catch(err){status('⚠️ '+err.message)}e.target.value=''};
+$('clear').onclick=()=>{if(confirm('制覇記録をすべて削除しますか？ この操作は取り消せません。')){state.visited={};persist();repaint();status('全記録を削除しました')}};
+Promise.all([boundaries(),loadPrefectures(),loadMachida(),loadSagamihara()]);
+
+// WALKED HISTORY: unlocking uses the same persisted visited IDs as the map.
+let historyEntries=[], historyOpen=false, lastHistoryUnlocked=0;
+const normHistory=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[０-９]/g,c=>String.fromCharCode(c.charCodeAt(0)-65248));
+function hasHistoryArea(h){
+ const features=h.city==='町田'?state.machida:state.sagamihara;
+ const mode=h.city==='町田'?'machida':'sagamihara';
+ // No city-wide shortcut: only independently visited town/chome records unlock history.
+ return features.some(f=>{
+  const area=normHistory(f.properties?.S_NAME||f.properties?.s_name||f.properties?.name||f.properties?.MOJI||'');
+  const desired=normHistory(h.area);
+  return (area===desired||area.startsWith(desired+'丁目')||area.startsWith(desired+'字')||area.startsWith(desired+'大字')||area.startsWith(desired))&&!!state.visited[keyForMode(f,mode)];
+ });
+}
+function renderHistory(){
+ const count=historyEntries.filter(hasHistoryArea).length;
+ $('historyCount').textContent=historyEntries.length?`発見 ${count} / ${historyEntries.length} 件`:'歴史データを読み込めませんでした';
+ if(!historyOpen)return;
+ const list=$('historyList');list.replaceChildren();
+ for(const entry of historyEntries){
+  const unlocked=hasHistoryArea(entry),el=document.createElement('button');
+  el.type='button';el.className='history-card'+(unlocked?'':' locked');
+  const kind=document.createElement('span');kind.className='kind';kind.textContent=unlocked?`${entry.category} ・ ${entry.era}`:'未発見';
+  const name=document.createElement('span');name.className='card-title';name.textContent=unlocked?entry.title:'？ まだ知らない歴史';
+  const meta=document.createElement('span');meta.className='card-meta';meta.textContent=unlocked?`${entry.city}市・${entry.area}`:'その地域を制覇すると解放';
+  el.append(kind,name,meta);el.onclick=()=>{if(!unlocked)return;openHistory(entry)};list.append(el);
+ }
+}
+function openHistory(e){
+ const p=$('historyDetail');p.replaceChildren();
+ const category=document.createElement('small');category.textContent=`${e.city}市・${e.area} ｜ ${e.era} ｜ ${e.category}`;
+ const title=document.createElement('h2');title.textContent=e.title;
+ const intro=document.createElement('p');intro.textContent=e.short;
+ const detail=document.createElement('p');detail.textContent=e.detail;
+ const source=document.createElement('a');source.href=e.source;source.target='_blank';source.rel='noopener noreferrer';source.textContent='参考資料（公式サイト）を開く ↗';
+ p.append(category,title,intro,detail,source);$('historyDialog').showModal();
+}
+$('historyClose').onclick=()=>$('historyDialog').close();
+$('historyToggle').onclick=()=>{historyOpen=!historyOpen;$('historyList').hidden=!historyOpen;$('historyToggle').textContent=historyOpen?'図鑑を閉じる':'図鑑を開く';renderHistory()};
+async function loadHistory(){try{const r=await fetch('./history.json',{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);const data=await r.json();historyEntries=Array.isArray(data.entries)?data.entries:[];renderHistory()}catch(e){$('historyStatus').textContent='歴史データが読み込めません。history.jsonをindex.htmlと同じ場所に配置してください。';renderHistory()}}
+const historyPersist=persist;
+persist=function(){historyPersist();renderHistory()};
+const historyChangeMode=changeMode;
+changeMode=function(mode){historyChangeMode(mode);renderHistory()};
+loadHistory();
+
+// Sengoku collection: empty catalog is valid; verified records are appended as data files.
+const sengokuStoreKey='walked_migration_preview_cards_v1';
+let sengokuArchive=[],sengokuPeople=[],sengokuSites=[],sengokuLinks=[],sengokuCards=[],sengokuOpen=false;
+let sengokuBulkImport=false;const sengokuBatchDiscoveries=[];
+let sengokuPins=L.layerGroup().addTo(map);
+const sengokuFound=(()=>{try{return JSON.parse(localStorage.getItem(sengokuStoreKey)||localStorage.getItem('walked_sengoku_cards_v1')||'{}')}catch{return {}}})();
+// A card becomes eligible only when BOTH existing review labels pass.
+// This is a conservative catalog gate, not an independent claim of authenticity.
+function eligibleSengokuCard(c){
+ const site=sengokuSites.find(s=>s.id===c.siteId);
+ return c.verification==='reviewed' && site?.verification==='reviewed' && site?.boundaryAudit!=='unresolved_polygon_mismatch' && site?.catalogEligibility!=='exclude_pending_evidence';
+}
+function ownsSengokuCard(id){return !!sengokuFound[id] && sengokuCards.some(c=>c.id===id && eligibleSengokuCard(c))}
+function catalogCardCount(personId){return sengokuCards.filter(c=>c.personId===personId&&eligibleSengokuCard(c)).length}
+function countOwned(personId){return sengokuCards.filter(c=>c.personId===personId&&eligibleSengokuCard(c)&&ownsSengokuCard(c.id)).length}
+function unlockedSite(site){return sengokuCards.some(c=>c.siteId===site.id&&ownsSengokuCard(c.id))}
+function refreshSengokuPins(){
+ sengokuPins.clearLayers();const showUnknown=$('showUnknownPins').checked;
+ for(const site of sengokuSites){if(!unlockedSite(site)&&!showUnknown)continue;
+  if(!Array.isArray(site.point)||site.point.length!==2)continue;
+  const [lng,lat]=site.point;
+  const marker=L.circleMarker([lat,lng],{radius:7,color:unlockedSite(site)?'#20865d':'#708f9c',weight:2,fillOpacity:.8});
+  const label=unlockedSite(site)?site.name:'未発見の歴史スポット';
+  marker.bindPopup(label);marker.addTo(sengokuPins);
+ }
+}
+function renderSengoku(){
+ $('sengokuCount').textContent=`人物 ${sengokuPeople.length}人／獲得 ${sengokuCards.filter(c=>ownsSengokuCard(c.id)).length}枚`;
+ if(!sengokuOpen)return;
+ const target=$('sengokuList');target.replaceChildren();
+ const q=$('sengokuSearch').value.trim();const filter=$('sengokuFilter').value;
+ const candidates=filter==='found'?[...sengokuPeople,...sengokuArchive.filter(p=>countOwned(p.id)>0)]:sengokuPeople;
+ const people=candidates.filter(p=>WalkedMigration.matches(p,q)&&(filter!=='found'||countOwned(p.id)>0));
+ if(!people.length){const p=document.createElement('p');p.className='sengoku-empty';p.textContent=sengokuPeople.length?'条件に合う人物がいません。':'史跡と出典を検証した人物を順次追加します。';target.append(p);return}
+ for(const person of people){const b=document.createElement('button');b.className='sengoku-person';b.type='button';
+ const t=document.createElement('strong');t.textContent=person.name+(person.active===false?'（過去のカード）':'');const small=document.createElement('small');small.textContent=`${countOwned(person.id)} / ${catalogCardCount(person.id)} 枚`;
+ b.append(t,small);b.onclick=()=>showSengokuPerson(person);target.append(b)}
+}
+function sortSengokuTimeline(a,b){
+ const ay=Number.isInteger(a.eventYear)?a.eventYear:Infinity;
+ const by=Number.isInteger(b.eventYear)?b.eventYear:Infinity;
+ return ay-by || a.id.localeCompare(b.id);
+}
+function showSengokuPerson(person){
+ const div=$('sengokuDetail');div.replaceChildren();
+ const h=document.createElement('h3');h.textContent=person.name+' ― 人生の足跡';div.append(h);
+ if(person.biography){const p=document.createElement('p');p.textContent=(person.fieldStatus?.biography==='verified'?'事績の典拠確認済み（人物全体の精査は継続中）：':'未確認の略歴：')+person.biography;div.append(p);}
+ const caution=document.createElement('p');caution.textContent=person.active===false?'今回の採用対象外です。過去のカードとのつながりを残しています。':'別名候補・生没年には未確認情報を含みます。人物全体の史実確認は未完了です。';div.append(caution);
+ if(person.birth){const y=document.createElement('p');y.textContent='生年：'+person.birth.raw+'／没年：'+person.death.raw+'（異説・暦・未確認を含む）';div.append(y);}
+ if(person.sources){const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='出典・利用条件';details.append(summary);for(const url of person.sources){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=url;details.append(a,document.createElement('br'));}const lic=document.createElement('p');lic.textContent=person.license.attribution+'　ライセンスの精査は継続中。';details.append(lic);if(person.researchReview?.note){const review=document.createElement('p');review.textContent='今回の確認メモ：'+person.researchReview.note;details.append(review);}div.append(details);}
+ const line=document.createElement('p');line.className='sengoku-empty';
+ line.textContent='史跡カードは出来事の年代順に表示。年が未確認のカードは末尾にまとめます。未発見の内容は秘密です。';div.append(line);
+ const personCards=sengokuCards.filter(c=>c.personId===person.id&&eligibleSengokuCard(c)).sort(sortSengokuTimeline);
+ if(!personCards.length){const p=document.createElement('p');p.textContent='公開対象の史跡カードはまだありません。';div.append(p);return}
+ for(const card of personCards){
+  const el=document.createElement('div');el.className='sengoku-era';
+  const year=document.createElement('div');year.className='sengoku-year';
+  const known=Number.isInteger(card.eventYear);
+  year.textContent=known?String(card.eventYear)+(Number.isInteger(card.eventYearEnd)&&card.eventYearEnd!==card.eventYear?'〜'+card.eventYearEnd:'')+'年':'年代未調査';
+  const content=document.createElement('div');
+  if(ownsSengokuCard(card.id)){
+   const site=sengokuSites.find(s=>s.id===card.siteId);
+   content.textContent='📜 '+card.title+' — '+card.summary+(site?'（'+site.name+'）':'');
+  }else content.textContent='🔒 未発見の足跡';
+  el.append(year,content);div.append(el);
+ }
+}
+function toastSengokuCards(ids){
+ if(!ids.length)return;
+ const toast=$('sengokuToast');if(!toast)return;
+ const distinctPeople=[...new Set(ids.map(id=>sengokuCards.find(c=>c.id===id)?.personId).filter(Boolean))];
+ toast.replaceChildren();const line=document.createElement('div');
+ line.textContent='🏯 歴史カードを'+ids.length+'枚獲得！ 関連人物 '+distinctPeople.length+'人';toast.append(line);
+ const btn=document.createElement('button');btn.type='button';btn.textContent='人物コレクションを見る';
+ btn.onclick=()=>{toast.hidden=true;if(!sengokuOpen)$('sengokuToggle').click();$('sengokuPanel').scrollIntoView({behavior:'smooth',block:'start'});$('sengokuFilter').value='found';renderSengoku();if(distinctPeople.length===1){const p=[...sengokuPeople,...sengokuArchive].find(x=>x.id===distinctPeople[0]);if(p)showSengokuPerson(p)}};
+ toast.append(btn);toast.hidden=false;
+}
+function acquireSengokuByAreaFeature(feature){
+ const code=String(feature.properties?.WALKED_MUNICIPAL_CODE||feature.properties?.N03_007||'');
+ const eligibleSites=sengokuSites.filter(s=>geomContains(s.point,feature.geometry)&&(!code||String(s.municipalityCode)===code));
+ const addedIds=[];
+ for(const site of eligibleSites){
+  if(site.boundaryAudit==='unresolved_polygon_mismatch'||site.catalogEligibility==='exclude_pending_evidence')continue;
+  for(const card of sengokuCards){
+   if(card.siteId!==site.id||!eligibleSengokuCard(card)||sengokuFound[card.id])continue;
+   sengokuFound[card.id]={at:new Date().toISOString(),siteId:site.id};addedIds.push(card.id);
+  }
+ }
+ if(addedIds.length){localStorage.setItem(sengokuStoreKey,JSON.stringify(sengokuFound));renderSengoku();refreshSengokuPins();toastSengokuCards(addedIds)}
+}
+// Pure matching function shared by real acquisition and side-effect-free test mode.
+function matchedSengokuCardsAtPoint(lngLat){
+ const matched=new Set();let missingBoundary=0;
+ for(const site of sengokuSites){
+  if(!Array.isArray(site.point)||site.point.length!==2)continue;
+  const candidates=site.municipalityCode==='13209'?state.machida:
+       ['14151','14152','14153'].includes(site.municipalityCode)?state.sagamihara:
+       (state.nationCache.get(site.municipalityCode)||[]);
+  if(!candidates.length){missingBoundary++;continue}
+  const polygon=candidates.find(f=>geomContains(site.point,f.geometry));
+  if(!polygon||!geomContains(lngLat,polygon.geometry))continue;
+  for(const card of sengokuCards){if(card.siteId===site.id&&eligibleSengokuCard(card))matched.add(card.id)}
+ }
+ return {ids:[...matched],missingBoundary};
+}
+function acquireSengokuByPoint(lngLat,at){
+ const matched=matchedSengokuCardsAtPoint(lngLat);
+ let added=0;const newlyAcquired=[];
+ for(const id of matched.ids){
+  if(sengokuFound[id])continue;
+  const card=sengokuCards.find(c=>c.id===id);
+  sengokuFound[id]={at:at||new Date().toISOString(),siteId:card?.siteId};added++;newlyAcquired.push(id);
+ }
+ if(added){localStorage.setItem(sengokuStoreKey,JSON.stringify(sengokuFound));renderSengoku();refreshSengokuPins();if(sengokuBulkImport)sengokuBatchDiscoveries.push(...newlyAcquired);else toastSengokuCards(newlyAcquired)}
+ return added;
+}
+function refreshSengokuTestSites(){
+ const select=$('testSite');select.replaceChildren();
+ if(!sengokuSites.length){select.add(new Option('テスト可能な史跡はありません',''));return}
+ sengokuSites.forEach((site,i)=>select.add(new Option('テスト地点 '+String(i+1).padStart(2,'0'),site.id)));
+}
+$('runSengokuTest').onclick=async()=>{
+ const result=$('testSengokuResult');const button=$('runSengokuTest');
+ const site=sengokuSites.find(s=>s.id===$('testSite').value);
+ if(!site||!Array.isArray(site.point)){result.textContent='テスト地点を選んでください。';return}
+ button.disabled=true;result.textContent='疑似通過の判定中…';
+ try{
+  // Fetch only the boundary required for this site's municipality.
+  const code=String(site.municipalityCode||'');
+  if(code!=='13209'&&!['14151','14152','14153'].includes(code)&&!state.nationCache.has(code)){
+   await loadTownForCode(code);
+  }
+  const candidates=code==='13209'?state.machida:
+   ['14151','14152','14153'].includes(code)?state.sagamihara:state.nationCache.get(code)||[];
+  if(!candidates.length){result.textContent='⚠️ この地点の町丁境界が未取得です。地図側の境界データの読込後に再試行してください。実際の記録に変更はありません。';return}
+  const polygonFound=candidates.some(f=>geomContains(site.point,f.geometry));
+  if(!polygonFound){result.textContent=(site.boundaryAudit==='unresolved_polygon_mismatch'?'⚠️ 公開資料では自治体コード・座標の対応を確認済みですが、読み込んだ町丁ポリゴンに地点が含まれていません。境界の欠落・範囲・代表点の差異を調査中です。カード獲得判定は保留します。（記録は変更していません）':'⚠️ 地点の座標が指定自治体の町丁境界内にありません。自治体コードまたは位置を要確認です。（記録は変更していません）');return}
+  const matched=matchedSengokuCardsAtPoint(site.point);
+  const newlyMatched=matched.ids.filter(id=>!ownsSengokuCard(id));
+  const affectedPeople=new Set(sengokuCards.filter(c=>matched.ids.includes(c.id)).map(c=>c.personId));
+  // Do not expose unrevealed names or card details. No state mutation/persistence.
+  result.textContent=`🧪 疑似通過テスト結果\n町丁境界：取得成功\n史跡地点：判定実行済み\n獲得判定に一致：${matched.ids.length}枚\n未獲得から新たに獲得する想定：${newlyMatched.length}枚\n関連人物：${affectedPeople.size}人${matched.ids.length===0?'\n※この地点は史実・人物の確認待ち、または公開対象カードなし。':''}\n実際の獲得数・地図・バックアップは変更していません。`;
+ }catch(e){result.textContent='⚠️ 判定できませんでした：'+e.message+'（記録は変更していません）'}
+ finally{button.disabled=false}
+};
+async function loadSengoku(){try{
+ const responses=await Promise.all(['people','sites','links','cards','people-archive'].map(k=>fetch('./migration/generated/'+k+'.json',{cache:'no-cache'})));
+ if(responses.some(r=>!r.ok))throw Error('データファイルがありません');
+ const [people,sites,links,cards,archive]=await Promise.all(responses.map(r=>r.json()));
+ WalkedMigration.validate({people,sites,links,cards,archive});
+ if(!Array.isArray(people)||!Array.isArray(sites)||!Array.isArray(links)||!Array.isArray(cards))throw Error('配列形式ではありません');
+ const ids=new Set([...people,...archive].map(p=>p.id)),siteIds=new Set(sites.map(s=>s.id));
+ if(cards.some(c=>!ids.has(c.personId)||!siteIds.has(c.siteId)))throw Error('人物または史跡への参照が不正です');
+ const linkKeys=new Set(links.map(l=>l.siteId+'|'+l.personId));
+ if(links.some(l=>!ids.has(l.personId)||!siteIds.has(l.siteId))||cards.some(c=>!linkKeys.has(c.siteId+'|'+c.personId)))throw Error('関連テーブルの参照が不正です');
+ sengokuArchive=archive;sengokuPeople=people;sengokuSites=sites;sengokuLinks=links;sengokuCards=cards;
+ const eligible=cards.filter(eligibleSengokuCard).length;
+ const legacy=Object.keys(sengokuFound).filter(id=>!cards.some(c=>c.id===id&&eligibleSengokuCard(c))).length;
+ $('sengokuQuality').textContent=`登録地点 ${sites.length}件／公開対象カード ${eligible}枚／精査待ちカード ${cards.length-eligible}枚`+(legacy?`（過去の暫定獲得記録 ${legacy}枚は保存・集計保留）`:'');
+ refreshSengokuTestSites();renderSengoku();refreshSengokuPins();
+ }catch(e){$('sengokuCount').textContent='戦国データの読み込み失敗';console.error(e)}
+}
+$('sengokuToggle').onclick=()=>{sengokuOpen=!sengokuOpen;$('sengokuBody').hidden=!sengokuOpen;$('sengokuToggle').textContent=sengokuOpen?'モードを閉じる':'モードを開く';renderSengoku()};
+$('sengokuSearch').oninput=renderSengoku;$('sengokuFilter').onchange=renderSengoku;
+loadSengoku();
+</script></body></html>
