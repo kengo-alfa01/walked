@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "summary": {
-    "events": 27,
-    "candidatePlaces": 25,
-    "people": 3,
+    "events": 53,
+    "candidatePlaces": 41,
+    "people": 9,
     "selected": 624,
-    "peopleWithoutExtraction": 621,
+    "peopleWithoutExtraction": 615,
     "completeLifeTimelines": 0,
     "publishedSites": 0,
     "publishedLinks": 0,
@@ -788,6 +788,743 @@
       "approvalStatus": "pending_user_review",
       "previousMainBaseCandidateId": null,
       "unresolved": "禁制発給は本人の現地訪問や寄進を示すものではない。"
+    },
+    {
+      "eventId": "life-0018-001",
+      "personId": "sg-master-0018",
+      "rosterId": "18",
+      "personName": "赤座吉家",
+      "candidateId": "plc-akaza-house-imajo",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "吉家の居館とされる場所。",
+      "relationTypes": [
+        "居館"
+      ],
+      "sourceRefs": [
+        "20261029-03:akaza-house"
+      ],
+      "sourceLocator": "赤座氏館跡 本文第1段落",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "直保との同一性、居住年、位置・遺構は未確認。"
+    },
+    {
+      "eventId": "life-0018-002",
+      "personId": "sg-master-0018",
+      "rosterId": "18",
+      "personName": "赤座吉家",
+      "candidateId": "plc-ogiri-village",
+      "dateLabel": "1589年（天正17）",
+      "yearStart": 1589,
+      "yearEnd": 1589,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "村に灰焼き営業の権利を認める。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-03:fukui-chronology"
+      ],
+      "sourceLocator": "1589年10月2日欄",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "村への許認可の関係。現地滞在を示す記録ではない。"
+    },
+    {
+      "eventId": "life-0542-001",
+      "personId": "sg-dc42c21066b7",
+      "rosterId": "542",
+      "personName": "織田信勝",
+      "candidateId": "plc-oda-nobukatsu-kaibara-house",
+      "dateLabel": "入居・築造年未確認（1630～1650在任の人物）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "前期柏原藩3代信勝の館に比定される。",
+      "relationTypes": [
+        "居館"
+      ],
+      "sourceRefs": [
+        "20261029-03:oda-house"
+      ],
+      "sourceLocator": "本文第1・2段落",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "現在の名簿IDの年代に沿った条件付き対応。ユーザーが意図する信勝との一致未確定。"
+    },
+    {
+      "eventId": "life-0020-001",
+      "personId": "sg-master-0020",
+      "rosterId": "20",
+      "personName": "明石全登",
+      "candidateId": "plc-sekigahara",
+      "dateLabel": "1600年（慶長5）",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "宇喜多氏のもと西軍で戦う。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-03:akashi"
+      ],
+      "sourceLocator": "日本人名大辞典 本文",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "辞典本文。本人の陣地位置は未確認。"
+    },
+    {
+      "eventId": "life-0020-002",
+      "personId": "sg-master-0020",
+      "rosterId": "20",
+      "personName": "明石全登",
+      "candidateId": "plc-akizuki-area",
+      "dateLabel": "関ヶ原敗戦後（具体年未確認）",
+      "yearStart": 1600,
+      "yearEnd": null,
+      "datePrecision": "after",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "宇喜多家の没落後、秋月で暮らす。",
+      "relationTypes": [
+        "滞在"
+      ],
+      "sourceRefs": [
+        "20261029-03:akashi"
+      ],
+      "sourceLocator": "世界大百科事典・日本人名大辞典 本文",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "開始下限だけを記録。転居年・住所未確認。"
+    },
+    {
+      "eventId": "life-0020-003",
+      "personId": "sg-master-0020",
+      "rosterId": "20",
+      "personName": "明石全登",
+      "candidateId": "plc-osaka-campaign",
+      "dateLabel": "1615年（慶長20）",
+      "yearStart": 1615,
+      "yearEnd": 1615,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "秀頼の招きに応じて大坂の戦いに加わる。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-03:akashi"
+      ],
+      "sourceLocator": "世界大百科事典の15年・日本人名大辞典の慶長20年",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1614年参戦開始は今回資料で確定せず。戦死地扱いは禁止。"
+    },
+    {
+      "eventId": "life-1280-001",
+      "personId": "sg-master-1280",
+      "rosterId": "1280",
+      "personName": "田中吉政",
+      "candidateId": "plc-okazaki-castle",
+      "dateLabel": "柳川移封前・入城年未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "岡崎城主として領国を治める。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-03:yanagawa"
+      ],
+      "sourceLocator": "田中吉政 第1段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1280-002",
+      "personId": "sg-master-1280",
+      "rosterId": "1280",
+      "personName": "田中吉政",
+      "candidateId": "plc-sekigahara",
+      "dateLabel": "1600年（慶長5）",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "東軍の一員として関ヶ原の主力戦に参加。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-03:yanagawa"
+      ],
+      "sourceLocator": "田中吉政 第2段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "三成捕縛地を関ヶ原と推定しない。"
+    },
+    {
+      "eventId": "life-1280-003",
+      "personId": "sg-master-1280",
+      "rosterId": "1280",
+      "personName": "田中吉政",
+      "candidateId": "plc-yanagawa-castle",
+      "dateLabel": "1601年（宗茂開城の翌年）",
+      "yearStart": 1601,
+      "yearEnd": 1601,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "筑後拝領後、柳川城を本拠地とする。",
+      "relationTypes": [
+        "居城移転",
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261029-03:yanagawa"
+      ],
+      "sourceLocator": "田中吉政 第1・2段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-okazaki-castle",
+      "unresolved": "1600年の領地授与と翌年入城を区別。"
+    },
+    {
+      "eventId": "life-1280-004",
+      "personId": "sg-master-1280",
+      "rosterId": "1280",
+      "personName": "田中吉政",
+      "candidateId": "plc-yanagawa-castle",
+      "dateLabel": "柳川入城後・個別工期未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "城郭を大きく改修する。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261029-03:yanagawa"
+      ],
+      "sourceLocator": "田中吉政 第2段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1280-005",
+      "personId": "sg-master-1280",
+      "rosterId": "1280",
+      "personName": "田中吉政",
+      "candidateId": "plc-tanaka-road",
+      "dateLabel": "柳川領主期・個別工期未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "久留米と柳川をつなぐ道を整備する。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-03:yanagawa",
+        "20261029-03:yanagawa-pdf"
+      ],
+      "sourceLocator": "市人物解説第2段落／PDF22頁",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1280-006",
+      "personId": "sg-master-1280",
+      "rosterId": "1280",
+      "personName": "田中吉政",
+      "candidateId": "plc-keicho-hondoi",
+      "dateLabel": "工期未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "干拓地の堤防整備に取り組む。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-03:yanagawa",
+        "20261029-03:yanagawa-pdf"
+      ],
+      "sourceLocator": "人物解説第2段落／PDF18・22頁",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "PDF18頁は1612年の本土居線。吉政没1609以後の完成分は忠政期と分ける必要がある。"
+    },
+    {
+      "eventId": "life-1280-007",
+      "personId": "sg-master-1280",
+      "rosterId": "1280",
+      "personName": "田中吉政",
+      "candidateId": "plc-yanagawa-waterways",
+      "dateLabel": "柳川領主期・具体年未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "城下の水路を整備する。",
+      "relationTypes": [
+        "城下町整備",
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-03:yanagawa-pdf"
+      ],
+      "sourceLocator": "PDF22頁 田中吉政",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "個別の水路区間の帰属は未確認。"
+    },
+    {
+      "eventId": "life-1792-001",
+      "personId": "sg-master-1792",
+      "rosterId": "1792",
+      "personName": "堀秀政",
+      "candidateId": "plc-sawayama",
+      "dateLabel": "1585年北庄入部以前・入城年未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "近江佐和山を拠点とする。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-03:fukui-hori"
+      ],
+      "sourceLocator": "第2段落 堀秀政入部",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "資料の佐和山という地名を城の候補へ対応。個別在城年は未確認。"
+    },
+    {
+      "eventId": "life-1792-002",
+      "personId": "sg-master-1792",
+      "rosterId": "1792",
+      "personName": "堀秀政",
+      "candidateId": "plc-kitanosho",
+      "dateLabel": "1585年（天正13）",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "佐和山から北庄へ移り、越前の領地を支配する。",
+      "relationTypes": [
+        "居城移転",
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-03:fukui-hori"
+      ],
+      "sourceLocator": "第1・2段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-sawayama",
+      "unresolved": "領知高には与力領が含まれる。城の具体的改修事業は未確認。"
+    },
+    {
+      "eventId": "life-2082-001",
+      "personId": "sg-b79c0238f50a",
+      "rosterId": "2082",
+      "personName": "山内一豊",
+      "candidateId": "plc-nagahama-castle",
+      "dateLabel": "1584年",
+      "yearStart": 1584,
+      "yearEnd": 1584,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "長浜の領地へ転封される。",
+      "relationTypes": [
+        "転封"
+      ],
+      "sourceRefs": [
+        "20261029-03:kakegawa-years"
+      ],
+      "sourceLocator": "年表1584年",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1584転封と1585長浜城主の記事を分ける。城主就任年・高浜との経緯は追加照合。"
+    },
+    {
+      "eventId": "life-2082-002",
+      "personId": "sg-b79c0238f50a",
+      "rosterId": "2082",
+      "personName": "山内一豊",
+      "candidateId": "plc-wakasa-takahama",
+      "dateLabel": "1585年",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "若狭高浜の所領を与えられる。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-03:kakegawa-years"
+      ],
+      "sourceLocator": "年表1585年",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "長浜との前後関係にある所領授与。居城移転とは断定しない。"
+    },
+    {
+      "eventId": "life-2082-003",
+      "personId": "sg-b79c0238f50a",
+      "rosterId": "2082",
+      "personName": "山内一豊",
+      "candidateId": "plc-nagahama-castle",
+      "dateLabel": "1585年",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "近江長浜城主となる。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-03:kakegawa-years",
+        "20261029-03:kochi-person"
+      ],
+      "sourceLocator": "年表1585年／高知城人物解説第4段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-2082-004",
+      "personId": "sg-b79c0238f50a",
+      "rosterId": "2082",
+      "personName": "山内一豊",
+      "candidateId": "plc-odawara-campaign",
+      "dateLabel": "1590年",
+      "yearStart": 1590,
+      "yearEnd": 1590,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "秀吉の小田原攻めに参戦。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-03:kakegawa"
+      ],
+      "sourceLocator": "本文第1段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "個別攻城地点・本陣は未確認。"
+    },
+    {
+      "eventId": "life-2082-005",
+      "personId": "sg-b79c0238f50a",
+      "rosterId": "2082",
+      "personName": "山内一豊",
+      "candidateId": "plc-kakegawa-castle",
+      "dateLabel": "1590年",
+      "yearStart": 1590,
+      "yearEnd": 1590,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "長浜から掛川へ移り、掛川城主となる。",
+      "relationTypes": [
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261029-03:kakegawa",
+        "20261029-03:kochi-person"
+      ],
+      "sourceLocator": "掛川本文第1段落／高知城人物解説",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-nagahama-castle",
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-2082-006",
+      "personId": "sg-b79c0238f50a",
+      "rosterId": "2082",
+      "personName": "山内一豊",
+      "candidateId": "plc-kakegawa-castle",
+      "dateLabel": "1590～1600年の在城期",
+      "yearStart": 1590,
+      "yearEnd": 1600,
+      "datePrecision": "interval",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "城郭を拡張し、天守と城下町を整備する。",
+      "relationTypes": [
+        "改修",
+        "城下町整備"
+      ],
+      "sourceRefs": [
+        "20261029-03:kakegawa"
+      ],
+      "sourceLocator": "本文第1～3段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "在城期間の範囲。天守の施工は1592年から約5年とする記述。全工事が連続した期間ではない。"
+    },
+    {
+      "eventId": "life-2082-007",
+      "personId": "sg-b79c0238f50a",
+      "rosterId": "2082",
+      "personName": "山内一豊",
+      "candidateId": "plc-sekigahara",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "徳川方として関ヶ原に参戦し、戦後土佐を与えられる。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-03:kakegawa-years",
+        "20261029-03:kochi-person"
+      ],
+      "sourceLocator": "年表1600年／高知城人物解説",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "土佐拝領時点と本人の土佐入国は区別。"
+    },
+    {
+      "eventId": "life-2082-008",
+      "personId": "sg-b79c0238f50a",
+      "rosterId": "2082",
+      "personName": "山内一豊",
+      "candidateId": "plc-kannoura",
+      "dateLabel": "1601年（慶長6）",
+      "yearStart": 1601,
+      "yearEnd": 1601,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "土佐への赴任に際し甲浦に上陸する。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261029-03:kochi-person"
+      ],
+      "sourceLocator": "末段",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "旧暦1月2日の独立換算は未実施。上陸地点未同定。"
+    },
+    {
+      "eventId": "life-2082-009",
+      "personId": "sg-b79c0238f50a",
+      "rosterId": "2082",
+      "personName": "山内一豊",
+      "candidateId": "plc-urado-castle",
+      "dateLabel": "1601年",
+      "yearStart": 1601,
+      "yearEnd": 1601,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "浦戸城へ入り、土佐統治の拠点とする。",
+      "relationTypes": [
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261029-03:kochi-person"
+      ],
+      "sourceLocator": "末段",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-kakegawa-castle",
+      "unresolved": "掛川から浦戸までの大坂等の途中滞在は未網羅。"
+    },
+    {
+      "eventId": "life-2082-010",
+      "personId": "sg-b79c0238f50a",
+      "rosterId": "2082",
+      "personName": "山内一豊",
+      "candidateId": "plc-kochi-castle",
+      "dateLabel": "1601年",
+      "yearStart": 1601,
+      "yearEnd": 1601,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "大高坂山で新城の建設を始める。",
+      "relationTypes": [
+        "築城"
+      ],
+      "sourceRefs": [
+        "20261029-03:kochi"
+      ],
+      "sourceLocator": "解説第2段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-2082-011",
+      "personId": "sg-b79c0238f50a",
+      "rosterId": "2082",
+      "personName": "山内一豊",
+      "candidateId": "plc-kochi-castle",
+      "dateLabel": "1603年",
+      "yearStart": 1603,
+      "yearEnd": 1603,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示または和暦の対応年。旧暦月日の新暦換算は未実施。",
+      "event": "本丸と二ノ丸の完成後、浦戸から新城へ移る。",
+      "relationTypes": [
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261029-03:kochi"
+      ],
+      "sourceLocator": "解説第2段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-urado-castle",
+      "unresolved": "1611三ノ丸完成は一豊没後であり別イベントにしていない。"
     }
   ],
   "candidates": {
@@ -1090,6 +1827,198 @@
       "deduplicationStatus": "pending_nationwide_work",
       "crossThreadOverlap": "未照合",
       "unresolved": "後世の神社名・寺院名へ自動置換しない。禁制と寄進・現地訪問は別の関係。"
+    },
+    "plc-akaza-house-imajo": {
+      "candidateId": "plc-akaza-house-imajo",
+      "placeName": "赤座氏館跡",
+      "regionAsSource": "越前今庄",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "吉家の居館比定。直保との同定未了。辞典の今庄駅構内比定を現地座標確定としない。"
+    },
+    "plc-ogiri-village": {
+      "candidateId": "plc-ogiri-village",
+      "placeName": "南条郡大桐村",
+      "regionAsSource": "越前南条郡",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構・既存史跡との重複を全国側で照合。"
+    },
+    "plc-oda-nobukatsu-kaibara-house": {
+      "candidateId": "plc-oda-nobukatsu-kaibara-house",
+      "placeName": "織田信勝館跡",
+      "regionAsSource": "丹波柏原・入船山東麓",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "前期柏原藩主の館。後期柏原藩陣屋との区別と対象人物の採用意図の確認が必要。"
+    },
+    "plc-akizuki-area": {
+      "candidateId": "plc-akizuki-area",
+      "placeName": "筑前秋月",
+      "regionAsSource": "筑前",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "滞在地域のみ確認。特定の屋敷・秋月城への入居は未確認。"
+    },
+    "plc-osaka-campaign": {
+      "candidateId": "plc-osaka-campaign",
+      "placeName": "大坂の陣の戦場",
+      "regionAsSource": "摂津大坂",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "作戦地域の候補。個別戦場・陣所・死亡地は未同定。"
+    },
+    "plc-okazaki-castle": {
+      "candidateId": "plc-okazaki-castle",
+      "placeName": "岡崎城",
+      "regionAsSource": "三河岡崎",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構・既存史跡との重複を全国側で照合。"
+    },
+    "plc-yanagawa-castle": {
+      "candidateId": "plc-yanagawa-castle",
+      "placeName": "柳川城",
+      "regionAsSource": "筑後柳川",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構・既存史跡との重複を全国側で照合。"
+    },
+    "plc-tanaka-road": {
+      "candidateId": "plc-tanaka-road",
+      "placeName": "久留米・柳川往還（田中道）",
+      "regionAsSource": "筑後久留米～柳川",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "歴史的経路と現代道路の一致範囲、個別地点は全国側で確認。"
+    },
+    "plc-keicho-hondoi": {
+      "candidateId": "plc-keicho-hondoi",
+      "placeName": "慶長本土居",
+      "regionAsSource": "筑後・有明海沿岸",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "吉政・忠政父子の担当範囲と1612年本土居線を照合。記念碑と堤防本体を区別。"
+    },
+    "plc-yanagawa-waterways": {
+      "candidateId": "plc-yanagawa-waterways",
+      "placeName": "柳川城下の水路",
+      "regionAsSource": "筑後柳川",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構・既存史跡との重複を全国側で照合。"
+    },
+    "plc-nagahama-castle": {
+      "candidateId": "plc-nagahama-castle",
+      "placeName": "長浜城",
+      "regionAsSource": "近江長浜",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構・既存史跡との重複を全国側で照合。"
+    },
+    "plc-wakasa-takahama": {
+      "candidateId": "plc-wakasa-takahama",
+      "placeName": "若狭高浜",
+      "regionAsSource": "若狭",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "所領授与の記録のみ。高浜城への実際の入居は未確認。"
+    },
+    "plc-kakegawa-castle": {
+      "candidateId": "plc-kakegawa-castle",
+      "placeName": "掛川城",
+      "regionAsSource": "遠江掛川",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構・既存史跡との重複を全国側で照合。"
+    },
+    "plc-urado-castle": {
+      "candidateId": "plc-urado-castle",
+      "placeName": "浦戸城",
+      "regionAsSource": "土佐浦戸",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構・既存史跡との重複を全国側で照合。"
+    },
+    "plc-kochi-castle": {
+      "candidateId": "plc-kochi-castle",
+      "placeName": "高知城（大高坂山の新城）",
+      "regionAsSource": "土佐高知",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "近世初頭の新城と後世の再建建物を区別。元親の築城事績は別関係。"
+    },
+    "plc-kannoura": {
+      "candidateId": "plc-kannoura",
+      "placeName": "甲浦",
+      "regionAsSource": "土佐",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構・既存史跡との重複を全国側で照合。"
     }
   },
   "residenceSequences": [
@@ -1145,10 +2074,60 @@
       ],
       "note": "佐和山→賤ヶ岳合戦後の北ノ庄。後瀬山は改修確認にとどまり、移住経路へは置かない。",
       "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "1280",
+      "personId": "sg-master-1280",
+      "personName": "田中吉政",
+      "candidateIds": [
+        "plc-okazaki-castle",
+        "plc-yanagawa-castle"
+      ],
+      "eventIds": [
+        "life-1280-001",
+        "life-1280-003"
+      ],
+      "note": "岡崎→1601柳川。秀次の領地留守支配を本人の居城へ自動転記しない。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "1792",
+      "personId": "sg-master-1792",
+      "personName": "堀秀政",
+      "candidateIds": [
+        "plc-sawayama",
+        "plc-kitanosho"
+      ],
+      "eventIds": [
+        "life-1792-001",
+        "life-1792-002"
+      ],
+      "note": "佐和山→1585北庄。小田原の死亡地などは未調査。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "2082",
+      "personId": "sg-b79c0238f50a",
+      "personName": "山内一豊",
+      "candidateIds": [
+        "plc-nagahama-castle",
+        "plc-kakegawa-castle",
+        "plc-urado-castle",
+        "plc-kochi-castle"
+      ],
+      "eventIds": [
+        "life-2082-003",
+        "life-2082-005",
+        "life-2082-009",
+        "life-2082-011"
+      ],
+      "note": "1585長浜城主→1590掛川→1601浦戸→1603高知。1584転封と1585高浜所領は別イベント、同年内経緯は未完。",
+      "completeness": "partial_not_exhaustive"
     }
   ],
   "evidenceFiles": {
-    "20261029-02": "migration/research/20261029-02/evidence.json"
+    "20261029-02": "migration/research/20261029-02/evidence.json",
+    "20261029-03": "migration/research/20261029-03/evidence.json"
   },
   "sources": {
     "20261029-02:hino": {
@@ -1270,6 +2249,146 @@
       "checkedOn": "2026-10-29",
       "reuseStatus": "未確認",
       "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:fukui-hori": {
+      "url": "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-02.htm",
+      "title": "福井県史 通史編3：丹羽長重の若狭転封後の越前",
+      "locator": "第1章第3節1。長秀の死、1585佐和山から北庄への堀秀政入部、与力を含む領知高、1590秀治継承。引用原史料そのものは未読。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:fukui-chronology": {
+      "url": "https://www.library-archives.pref.fukui.lg.jp/fukui/07/nenpyo/rekishi/chrn25.html",
+      "title": "福井県史年表 1581～1600年",
+      "locator": "1589年10月2日赤座吉家と大桐村／1590年5月27日堀秀政没。月日は和暦欄、グレゴリオ暦月日と扱わない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:hori-library": {
+      "url": "https://www.library.pref.ishikawa.lg.jp/shosho/furucolle/list/prsn11196",
+      "title": "石川県立図書館 SHOSHO：堀秀政 人物詳細",
+      "locator": "人物項目の生没年1553～1590・織田家臣。列挙される県史・市史の紙面は未読。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:akaza-house": {
+      "url": "https://kotobank.jp/word/赤座氏館跡-3056249",
+      "title": "平凡社 日本歴史地名大系：赤座氏館跡",
+      "locator": "吉家の居館と今庄駅構内への比定。直保との同一性を説明する記述はない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:oda-house": {
+      "url": "https://kotobank.jp/word/織田信勝館跡-3078542",
+      "title": "平凡社 日本歴史地名大系：織田信勝館跡",
+      "locator": "前期柏原藩3代・信包の孫、1630就任、1650没、入船山東麓の館。建築年代不詳。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:iwaki": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1001000004062/simple/iwaki-history.pdf",
+      "title": "いわき市：地形・歴史（歴史解説）",
+      "locator": "PDF7頁（印刷8頁）の世代順・1590年常隆没、PDF8頁（印刷9頁、画像も確認）の久保姫と岩城親隆。1483年転居の親隆は別世代。マンガ由来の襲撃逸話は採らない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:akashi-name": {
+      "url": "https://kotobank.jp/word/明石全登-1048797",
+      "title": "講談社 デジタル版日本人名大辞典+Plus：明石全登",
+      "locator": "明石掃部への参照項目。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:akashi": {
+      "url": "https://kotobank.jp/word/明石掃部-1048783",
+      "title": "平凡社 世界大百科事典・講談社 日本人名大辞典+Plus：明石掃部",
+      "locator": "両辞典本文の宇喜多仕官、関ヶ原後秋月、大坂の陣、守重・全登・全薑・ジョアン、死亡説。両辞典は同一ページ内であり別サイト2件とは数えない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:yanagawa": {
+      "url": "https://www.city.yanagawa.fukuoka.jp/rekishibunka/ijin/ijin_tachibanamuneshige.html",
+      "title": "柳川市・柳川古文書館：立花宗茂と吉政",
+      "locator": "田中吉政の本文3段落。宮部・秀次仕官、岡崎、関ヶ原、翌年柳川入城、道路・堤防・城改修、慶長14年伏見没。墓所記述は抽出対象外。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:yanagawa-pdf": {
+      "url": "https://www.city.yanagawa.fukuoka.jp/library/download/02kanko/covid19/syuugaku2021.pdf",
+      "title": "柳川市：水郷柳川 修学旅行誘致情報 令和3年度",
+      "locator": "PDF22頁（印刷21頁）田中吉政。画像確認。1548年、柳川水路・田中道・慶長本土居。PDF18頁の1612年本土居線を1609没の吉政個人の完成年にしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:kakegawa": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/7422.html",
+      "title": "掛川市：一豊、掛川城および城下町を整備する",
+      "locator": "1590入城、城郭・城下町改修、天守1592から約5年間。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:kakegawa-years": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/7425.html",
+      "title": "掛川市：一豊と千代が生きた時代",
+      "locator": "1545出生（異説あり）、1584長浜・1585高浜と長浜、1590掛川、1600関ヶ原と土佐授与、1601入国、1605没。黄金十両・密書等の逸話は採らない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:kochi": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/90/cas-state-1600200.html",
+      "title": "高知市：文化財情報 史跡 高知城跡",
+      "locator": "解説第2段落：1601着工、1603本丸二ノ丸と浦戸から移転。1611三ノ丸完成を一豊存命中の事績としない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-03:kochi-person": {
+      "url": "https://kochipark.jp/kochijyo/katsutoyo/",
+      "title": "高知城管理事務所：山内一豊",
+      "locator": "1545出生、秀吉配下、1585長浜・1590掛川・1600土佐授与、1601甲浦上陸と浦戸入城。父の死の異説、康豊の鎮圧行動は一豊の直接行動に転記しない。",
+      "kind": "public_site_management",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
     }
   }
 }

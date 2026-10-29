@@ -24,6 +24,14 @@
     "status": "candidate_only_do_not_merge"
   },
   {
+    "token": "ジョアン",
+    "personIds": [
+      "sg-master-0020",
+      "sg-master-0767"
+    ],
+    "status": "candidate_only_do_not_merge"
+  },
+  {
     "token": "七郎",
     "personIds": [
       "sg-master-2050",

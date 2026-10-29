@@ -288,6 +288,8 @@
     "sources": [
       "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-02-02-07.htm",
       "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-11.htm",
+      "https://www.library-archives.pref.fukui.lg.jp/fukui/07/nenpyo/rekishi/chrn25.html",
+      "https://kotobank.jp/word/赤座氏館跡-3056249",
       "https://ja.wikipedia.org/wiki/%E8%B5%A4%E5%BA%A7%E7%9B%B4%E4%BF%9D",
       "https://ja.wikipedia.org/w/index.php?oldid=109798638"
     ],
@@ -315,13 +317,15 @@
       "verifiedAliases": [],
       "sources": [
         "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-02-02-07.htm",
-        "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-11.htm"
+        "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-11.htm",
+        "https://www.library-archives.pref.fukui.lg.jp/fukui/07/nenpyo/rekishi/chrn25.html",
+        "https://kotobank.jp/word/赤座氏館跡-3056249"
       ],
-      "note": "2026-10-28追記：氏名だけをつないだ合成人物伝を作らない。吉家と直保の直接同定資料を優先。原略歴は改稿保留。",
-      "reviewedOn": "2026-10-28",
+      "note": "2026-10-28追記：氏名だけをつないだ合成人物伝を作らない。吉家と直保の直接同定資料を優先。原略歴は改稿保留。\n2026-10-29追記：吉家名義の領地経営を追加確認。関ヶ原の赤座直保と同一人物かは引き続き未確認。居館を吉家へ仮対応する候補に限定し、没年1606を新たに確定しない。",
+      "reviewedOn": "2026-10-29",
       "masterEvidenceSha256": "23b89970c605b95f1f48c33ec77396473efdb56695c46e769ab9386f4796cd81",
       "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
-      "evidenceRef": "migration/research/20261028/evidence.json#/people/18",
+      "evidenceRef": "migration/research/20261029-03/evidence.json#/people/18",
       "approvalStatus": "pending_user_review",
       "approvalDate": null
     },
@@ -343,7 +347,12 @@
     "name": "明石全登",
     "reading": "あかしてるずみ",
     "group": "",
-    "aliases": [],
+    "aliases": [
+      "明石掃部",
+      "守重",
+      "全薑",
+      "ジョアン"
+    ],
     "aliasCandidates": [
       "全登",
       "全職",
@@ -367,32 +376,35 @@
       "value": null,
       "raw": "1618（不詳・一説・推定等の記載あり）",
       "candidates": [
+        1615,
         1618
       ],
-      "status": "unverified"
+      "status": "disputed"
     },
-    "biography": "安土桃山期から江戸初期に活動した大名。宇喜多直家・宇喜多秀家・豊臣秀頼に仕えた。備前明石氏の一族にあたる。父は明石行雄。官位には従五位下・掃部頭が記される。",
+    "biography": "宇喜多秀家に仕えたキリシタン武将。関ヶ原では西軍に属し、敗戦後は筑前秋月で暮らした。大坂の陣では豊臣秀頼のもとに加わった。落城時に戦死したとも、逃れて後に病没したともいわれる。",
     "verification": "needs_review",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "death": "disputed",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
     "siteResearch": "not_started",
-    "source": "https://ja.wikipedia.org/wiki/%E6%98%8E%E7%9F%B3%E5%85%A8%E7%99%BB",
+    "source": "https://kotobank.jp/word/明石全登-1048797",
     "sources": [
+      "https://kotobank.jp/word/明石全登-1048797",
+      "https://kotobank.jp/word/明石掃部-1048783",
       "https://ja.wikipedia.org/wiki/%E6%98%8E%E7%9F%B3%E5%85%A8%E7%99%BB",
       "https://ja.wikipedia.org/w/index.php?oldid=111410070"
     ],
-    "sourceStatus": "unverified",
+    "sourceStatus": "partially_content_checked",
     "sourceAssertions": {
       "researchStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
       "yearStatus": "Wikipedia記載確認・数値年未確認を含む",
@@ -406,11 +418,43 @@
       "derivedDatasetLicense": "CC-BY-SA-4.0 (conservative for Wikipedia-derived portions)",
       "imageReuse": false
     },
-    "researchReview": {},
+    "researchReview": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "disputed",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "additionalDeathCandidates": [
+        1615,
+        1618
+      ],
+      "biography": "宇喜多秀家に仕えたキリシタン武将。関ヶ原では西軍に属し、敗戦後は筑前秋月で暮らした。大坂の陣では豊臣秀頼のもとに加わった。落城時に戦死したとも、逃れて後に病没したともいわれる。",
+      "verifiedAliases": [
+        "明石掃部",
+        "守重",
+        "全薑",
+        "ジョアン"
+      ],
+      "sources": [
+        "https://kotobank.jp/word/明石全登-1048797",
+        "https://kotobank.jp/word/明石掃部-1048783"
+      ],
+      "note": "2026-10-29追記：辞典本文へ到達したため探索のみ状態を更新。公的・原史料の追加照合は未了。生年不詳、没年は1615戦死説と1618病没説を併記。号の読みは資料間の精査を継続。",
+      "reviewedOn": "2026-10-29",
+      "masterEvidenceSha256": "0395a1f79947bdef77b808de58b3f3800f4f1536e41ce4b2490fbdb040a82d6e",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261029-03/evidence.json#/people/20",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
     "qualityIssues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "selection": {
@@ -7488,7 +7532,9 @@
     "name": "岩城親隆",
     "reading": "いわきちかたか",
     "group": "",
-    "aliases": [],
+    "aliases": [
+      "鶴千代丸"
+    ],
     "aliasCandidates": [
       "孫二郎",
       "宣隆",
@@ -7513,25 +7559,26 @@
     "biography": "戦国期に活動した大名。伊達氏・岩城氏の一族にあたる。父は伊達晴宗。官位には従四位下・左京大夫が記される。",
     "verification": "needs_review",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
       "death": "unverified",
-      "biography": "unverified",
+      "biography": "partially_verified",
       "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
     "siteResearch": "not_started",
-    "source": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E5%9F%8E%E8%A6%AA%E9%9A%86",
+    "source": "https://www.city.iwaki.lg.jp/www/contents/1001000004062/simple/iwaki-history.pdf",
     "sources": [
+      "https://www.city.iwaki.lg.jp/www/contents/1001000004062/simple/iwaki-history.pdf",
       "https://ja.wikipedia.org/wiki/%E5%B2%A9%E5%9F%8E%E8%A6%AA%E9%9A%86",
       "https://ja.wikipedia.org/w/index.php?oldid=105614637"
     ],
-    "sourceStatus": "unverified",
+    "sourceStatus": "partially_content_checked",
     "sourceAssertions": {
       "researchStatus": "Wikipediaプロフィール記載・事績未確認",
       "yearStatus": "Wikipedia記載確認・数値年未確認を含む",
@@ -7545,7 +7592,28 @@
       "derivedDatasetLicense": "CC-BY-SA-4.0 (conservative for Wikipedia-derived portions)",
       "imageReuse": false
     },
-    "researchReview": {},
+    "researchReview": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "biography": "partially_verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "verifiedAliases": [
+        "鶴千代丸"
+      ],
+      "sources": [
+        "https://www.city.iwaki.lg.jp/www/contents/1001000004062/simple/iwaki-history.pdf"
+      ],
+      "note": "2026-10-29追記：市解説の伊達晴宗・久保姫の長男が対象世代。1483年の白土城→飯野平城移転は同名の別世代で本IDに付けない。生没年と病状・隠居時期は未確認。図解の逸話を裏付けとせず略歴改稿は保留。",
+      "reviewedOn": "2026-10-29",
+      "masterEvidenceSha256": "644a2361db18213c6749f9c8c8cad0edfd21c88cf3ef5236ed5508daa4854508",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261029-03/evidence.json#/people/311",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
     "qualityIssues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
@@ -7583,30 +7651,31 @@
       "candidates": [
         1590
       ],
-      "status": "unverified"
+      "status": "verified"
     },
     "biography": "安土桃山期に活動した大名。岩城氏の一族にあたる。父は岩城親隆。官位には従四位下・左京大夫が記される。",
     "verification": "needs_review",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
+      "death": "verified",
+      "biography": "partially_verified",
       "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
     "siteResearch": "not_started",
-    "source": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E5%9F%8E%E5%B8%B8%E9%9A%86",
+    "source": "https://www.city.iwaki.lg.jp/www/contents/1001000004062/simple/iwaki-history.pdf",
     "sources": [
+      "https://www.city.iwaki.lg.jp/www/contents/1001000004062/simple/iwaki-history.pdf",
       "https://ja.wikipedia.org/wiki/%E5%B2%A9%E5%9F%8E%E5%B8%B8%E9%9A%86",
       "https://ja.wikipedia.org/w/index.php?oldid=105616613"
     ],
-    "sourceStatus": "unverified",
+    "sourceStatus": "partially_content_checked",
     "sourceAssertions": {
       "researchStatus": "Wikipediaプロフィール記載・事績未確認",
       "yearStatus": "両年確認（出典記載）",
@@ -7620,7 +7689,27 @@
       "derivedDatasetLicense": "CC-BY-SA-4.0 (conservative for Wikipedia-derived portions)",
       "imageReuse": false
     },
-    "researchReview": {},
+    "researchReview": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "death": "verified",
+        "biography": "partially_verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedDeathValue": 1590,
+      "verifiedAliases": [],
+      "sources": [
+        "https://www.city.iwaki.lg.jp/www/contents/1001000004062/simple/iwaki-history.pdf"
+      ],
+      "note": "2026-10-29追記：市解説の左京大夫常隆は重隆・親隆の後の世代。先行する下総守常隆を統合しない。1590年没は確認したが、24歳から生年1567を逆算して確定しない。事績の材料不足で略歴改稿保留。",
+      "reviewedOn": "2026-10-29",
+      "masterEvidenceSha256": "68beac15bed94ad2879edfdcac6dc99d59733557b909c977b603f63429e166b4",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261029-03/evidence.json#/people/312",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
     "qualityIssues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
@@ -11543,6 +11632,7 @@
     "sources": [
       "https://kotobank.jp/word/織田信勝-1063455",
       "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/7/1/2441.html",
+      "https://kotobank.jp/word/織田信勝館跡-3078542",
       "https://ja.wikipedia.org/wiki/%E7%B9%94%E7%94%B0%E4%BF%A1%E5%8B%9D",
       "https://ja.wikipedia.org/w/index.php?oldid=110637292"
     ],
@@ -11573,13 +11663,14 @@
       "verifiedAliases": [],
       "sources": [
         "https://kotobank.jp/word/織田信勝-1063455",
-        "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/7/1/2441.html"
+        "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/7/1/2441.html",
+        "https://kotobank.jp/word/織田信勝館跡-3078542"
       ],
-      "note": "2026-10-28追記：P0：信長の弟へ自動差替えしない。正本が意図する人物と、信雄の別名「信勝」との区別を要判断。名簿ID542と人物IDは維持。",
-      "reviewedOn": "2026-10-28",
+      "note": "2026-10-28追記：P0：信長の弟へ自動差替えしない。正本が意図する人物と、信雄の別名「信勝」との区別を要判断。名簿ID542と人物IDは維持。\n2026-10-29追記：現マスターの1623～1650の人物に対応する前期柏原藩主の館を条件付き候補とした。信長の弟・別人の信勝との選定意図は未解決。主表示名・採否・IDは維持。後期柏原藩の陣屋との自動統合禁止。",
+      "reviewedOn": "2026-10-29",
       "masterEvidenceSha256": "364308f189ddf16fd0cb53801d6f5e922e2881c095e58d58bdbd1f3ba01e1daa",
       "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
-      "evidenceRef": "migration/research/20261028/evidence.json#/people/542",
+      "evidenceRef": "migration/research/20261029-03/evidence.json#/people/542",
       "approvalStatus": "pending_user_review",
       "approvalDate": null
     },
@@ -26273,7 +26364,7 @@
       "candidates": [
         1548
       ],
-      "status": "unverified"
+      "status": "verified"
     },
     "death": {
       "value": 1609,
@@ -26281,30 +26372,32 @@
       "candidates": [
         1609
       ],
-      "status": "unverified"
+      "status": "verified"
     },
-    "biography": "戦国期から江戸初期に活動した大名。宮部継潤・豊臣秀次・豊臣秀吉・徳川家康・徳川秀忠に仕えた。筑後国柳河藩藩主を務めた。田中氏の一族にあたる。父は田中重政。",
+    "biography": "豊臣秀次の宿老を務め、三河岡崎城主となった大名。関ヶ原では東軍で戦い、戦後に筑後を与えられて柳川城へ移った。城の改修や水路、久留米と柳川を結ぶ道、干拓堤防を整え、領内の基盤を築いた。",
     "verification": "needs_review",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "birth": "verified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
     "siteResearch": "not_started",
-    "source": "https://ja.wikipedia.org/wiki/%E7%94%B0%E4%B8%AD%E5%90%89%E6%94%BF",
+    "source": "https://www.city.yanagawa.fukuoka.jp/rekishibunka/ijin/ijin_tachibanamuneshige.html",
     "sources": [
+      "https://www.city.yanagawa.fukuoka.jp/rekishibunka/ijin/ijin_tachibanamuneshige.html",
+      "https://www.city.yanagawa.fukuoka.jp/library/download/02kanko/covid19/syuugaku2021.pdf",
       "https://ja.wikipedia.org/wiki/%E7%94%B0%E4%B8%AD%E5%90%89%E6%94%BF",
       "https://ja.wikipedia.org/w/index.php?oldid=111097747"
     ],
-    "sourceStatus": "unverified",
+    "sourceStatus": "partially_content_checked",
     "sourceAssertions": {
       "researchStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
       "yearStatus": "両年確認（出典記載）",
@@ -26318,11 +26411,35 @@
       "derivedDatasetLicense": "CC-BY-SA-4.0 (conservative for Wikipedia-derived portions)",
       "imageReuse": false
     },
-    "researchReview": {},
+    "researchReview": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "birth": "verified",
+        "death": "verified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedBirthValue": 1548,
+      "confirmedDeathValue": 1609,
+      "biography": "豊臣秀次の宿老を務め、三河岡崎城主となった大名。関ヶ原では東軍で戦い、戦後に筑後を与えられて柳川城へ移った。城の改修や水路、久留米と柳川を結ぶ道、干拓堤防を整え、領内の基盤を築いた。",
+      "verifiedAliases": [],
+      "sources": [
+        "https://www.city.yanagawa.fukuoka.jp/rekishibunka/ijin/ijin_tachibanamuneshige.html",
+        "https://www.city.yanagawa.fukuoka.jp/library/download/02kanko/covid19/syuugaku2021.pdf"
+      ],
+      "note": "2026-10-29追記：近江八幡・尾張の秀次留守支配と、吉政自身の居城経路を区別。慶長本土居は父子の事業範囲・工期の追加照合が必要。墓所・菩提寺は重複抽出しない。",
+      "reviewedOn": "2026-10-29",
+      "masterEvidenceSha256": "8c189c4288688503266dfe3fa73b7d066b8910d0295f682249aec0b15f961367",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261029-03/evidence.json#/people/1280",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
     "qualityIssues": [
       "full_historical_review_pending",
-      "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed"
+      "alias_identity_review_pending"
     ],
     "selection": {
       "decision": "登録する",
@@ -32892,7 +33009,7 @@
       "candidates": [
         1585
       ],
-      "status": "secondary_source_checked"
+      "status": "verified"
     },
     "biography": "織田信長に仕えた武将で、近江佐和山城主。本能寺の変後は秀吉を助け、山崎や賤ヶ岳の戦いに参加した。後に越前北ノ庄を領した。",
     "verification": "needs_review",
@@ -32902,7 +33019,7 @@
       "group": "legacy_unverified",
       "aliases": "partially_verified",
       "birth": "verified",
-      "death": "secondary_source_checked",
+      "death": "verified",
       "biography": "verified",
       "biographyQuality": "unchanged_appropriate",
       "identity": "partially_verified",
@@ -32916,6 +33033,7 @@
       "https://kotobank.jp/word/丹羽長秀-17349",
       "https://www1.city.obama.fukui.jp/obm/rekisi/sekai_isan/Japanese/data/324.htm",
       "https://www.city.echizen.lg.jp/office/090/030/echizenshinorekisi.html",
+      "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-02.htm",
       "https://id.ndl.go.jp/auth/ndlna/001249850",
       "https://kotobank.jp/word/%E4%B8%B9%E7%BE%BD%E9%95%B7%E7%A7%80-17349",
       "https://ja.wikipedia.org/wiki/%E4%B8%B9%E7%BE%BD%E9%95%B7%E7%A7%80",
@@ -32941,7 +33059,7 @@
         "identity": "partially_verified",
         "aliases": "partially_verified",
         "birth": "verified",
-        "death": "secondary_source_checked",
+        "death": "verified",
         "biography": "verified",
         "biographyQuality": "unchanged_appropriate",
         "sourceRelevance": "partially_verified"
@@ -32959,15 +33077,17 @@
         "https://www.city.hikone.lg.jp/material/files/group/52/20101215KH.pdf",
         "https://kotobank.jp/word/丹羽長秀-17349",
         "https://www1.city.obama.fukui.jp/obm/rekisi/sekai_isan/Japanese/data/324.htm",
-        "https://www.city.echizen.lg.jp/office/090/030/echizenshinorekisi.html"
+        "https://www.city.echizen.lg.jp/office/090/030/echizenshinorekisi.html",
+        "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-02.htm"
       ],
-      "note": "2026-10-29追記：既存略歴は具体的で本文と整合するため変更不要。惟住の称号年は辞典間も含め別途照合。没年は辞典本文のみで追加照合待ち。長重など次世代への自動統合なし。安土普請・松原造船・後瀬山補強・大滝寺禁制を場所付きで抽出。",
+      "note": "2026-10-29追記：既存略歴は具体的で本文と整合するため変更不要。惟住の称号年は辞典間も含め別途照合。没年は辞典本文のみで追加照合待ち。長重など次世代への自動統合なし。安土普請・松原造船・後瀬山補強・大滝寺禁制を場所付きで抽出。\n2026-10-29追記：前回の没年1585は辞典のみだったが、今回福井県史本文で照合。生没年両年確認に進める。既存略歴の変更不要判定を維持し、新規改稿数には含めない。",
       "reviewedOn": "2026-10-29",
       "masterEvidenceSha256": "c6b6532c9318e13b66dd2266e8eb206c78a1c1abc4b1a5e7365e5249a46135fd",
       "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
-      "evidenceRef": "migration/research/20261029-02/evidence.json#/people/1582",
+      "evidenceRef": "migration/research/20261029-03/evidence.json#/people/1582",
       "approvalStatus": "pending_user_review",
-      "approvalDate": null
+      "approvalDate": null,
+      "confirmedDeathValue": 1585
     },
     "qualityIssues": [
       "full_historical_review_pending",
@@ -39554,7 +39674,7 @@
       "candidates": [
         1553
       ],
-      "status": "unverified"
+      "status": "verified"
     },
     "death": {
       "value": 1590,
@@ -39562,30 +39682,33 @@
       "candidates": [
         1590
       ],
-      "status": "unverified"
+      "status": "verified"
     },
-    "biography": "戦国期に活動した大名。織田信長・豊臣秀吉に仕えた。藤原北家利仁流斎藤氏族堀氏の一族にあたる。父は堀秀重。官位には従四位下・侍従・左衛門督が記される。",
+    "biography": "織田家に仕え、豊臣政権のもとで近江佐和山から越前北ノ庄へ移った大名。越前の足羽・坂井・吉田郡などを領し、家臣に所領を配って支配を進めた。1590年に没し、子の秀治が家を継いだ。",
     "verification": "needs_review",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "birth": "verified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
     "siteResearch": "not_started",
-    "source": "https://ja.wikipedia.org/wiki/%E5%A0%80%E7%A7%80%E6%94%BF",
+    "source": "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-02.htm",
     "sources": [
+      "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-02.htm",
+      "https://www.library.pref.ishikawa.lg.jp/shosho/furucolle/list/prsn11196",
+      "https://www.library-archives.pref.fukui.lg.jp/fukui/07/nenpyo/rekishi/chrn25.html",
       "https://ja.wikipedia.org/wiki/%E5%A0%80%E7%A7%80%E6%94%BF",
       "https://ja.wikipedia.org/w/index.php?oldid=111205501"
     ],
-    "sourceStatus": "unverified",
+    "sourceStatus": "partially_content_checked",
     "sourceAssertions": {
       "researchStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
       "yearStatus": "両年確認（出典記載）",
@@ -39599,11 +39722,36 @@
       "derivedDatasetLicense": "CC-BY-SA-4.0 (conservative for Wikipedia-derived portions)",
       "imageReuse": false
     },
-    "researchReview": {},
+    "researchReview": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "birth": "verified",
+        "death": "verified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedBirthValue": 1553,
+      "confirmedDeathValue": 1590,
+      "biography": "織田家に仕え、豊臣政権のもとで近江佐和山から越前北ノ庄へ移った大名。越前の足羽・坂井・吉田郡などを領し、家臣に所領を配って支配を進めた。1590年に没し、子の秀治が家を継いだ。",
+      "verifiedAliases": [],
+      "sources": [
+        "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-02.htm",
+        "https://www.library.pref.ishikawa.lg.jp/shosho/furucolle/list/prsn11196",
+        "https://www.library-archives.pref.fukui.lg.jp/fukui/07/nenpyo/rekishi/chrn25.html"
+      ],
+      "note": "2026-10-29追記：県史の29万0800石には与力10万石が含まれるため、個人領知高として断定しない。出生年は県立図書館人物項目、没年は県史でも照合。別名・小田原での最期の地点は未確認。",
+      "reviewedOn": "2026-10-29",
+      "masterEvidenceSha256": "82c09fbd879631a20e993d21bce761412abc90c4d7244be67de6d424d847e48e",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261029-03/evidence.json#/people/1792",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
     "qualityIssues": [
       "full_historical_review_pending",
-      "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed"
+      "alias_identity_review_pending"
     ],
     "selection": {
       "decision": "登録する",
@@ -47956,7 +48104,7 @@
         1545,
         1546
       ],
-      "status": "unverified"
+      "status": "disputed"
     },
     "death": {
       "value": 1605,
@@ -47964,30 +48112,34 @@
       "candidates": [
         1605
       ],
-      "status": "unverified"
+      "status": "verified"
     },
-    "biography": "豊臣秀吉や徳川家康に仕えた武将。関ヶ原の戦いに際して徳川方に従い、その功績により土佐一国を与えられた。土佐山内氏による藩政の基礎を築いた。",
+    "biography": "豊臣秀吉に仕え、長浜を経て掛川城主となり、城と城下町を整備した。関ヶ原では徳川家康方に属し、戦後に土佐を与えられた。浦戸城を仮の拠点として高知城の建設を進め、1603年に移った。",
     "verification": "needs_review",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "birth": "disputed",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
     "siteResearch": "not_started",
-    "source": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%86%85%E4%B8%80%E8%B1%8A",
+    "source": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/7422.html",
     "sources": [
+      "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/7422.html",
+      "https://kochipark.jp/kochijyo/katsutoyo/",
+      "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/7425.html",
+      "https://www.city.kochi.kochi.jp/soshiki/90/cas-state-1600200.html",
       "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%86%85%E4%B8%80%E8%B1%8A",
       "https://ja.wikipedia.org/w/index.php?oldid=110745239"
     ],
-    "sourceStatus": "unverified",
+    "sourceStatus": "partially_content_checked",
     "sourceAssertions": {
       "researchStatus": "Wikipedia本文確認・事績を個別要約（公的資料未照合）",
       "yearStatus": "複数説・出典差あり",
@@ -48001,7 +48153,36 @@
       "derivedDatasetLicense": "CC-BY-SA-4.0 (conservative for Wikipedia-derived portions)",
       "imageReuse": false
     },
-    "researchReview": {},
+    "researchReview": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "birth": "disputed",
+        "death": "verified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "additionalBirthCandidates": [
+        1545
+      ],
+      "confirmedDeathValue": 1605,
+      "biography": "豊臣秀吉に仕え、長浜を経て掛川城主となり、城と城下町を整備した。関ヶ原では徳川家康方に属し、戦後に土佐を与えられた。浦戸城を仮の拠点として高知城の建設を進め、1603年に移った。",
+      "verifiedAliases": [],
+      "sources": [
+        "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/7422.html",
+        "https://kochipark.jp/kochijyo/katsutoyo/",
+        "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/7425.html",
+        "https://www.city.kochi.kochi.jp/soshiki/90/cas-state-1600200.html"
+      ],
+      "note": "2026-10-29追記：生年1545説は自治体・高知城解説にあるが、正本1546候補と異説注記を保持。土佐授与1600・浦戸入城1601・高知移転1603を分離。1611三ノ丸完成を一豊個人の生前事績にしない。",
+      "reviewedOn": "2026-10-29",
+      "masterEvidenceSha256": "e753e4e5fc42e927c4928d8612055ac6a59f9ae62e1fee6b5fa403e28f9cb2af",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261029-03/evidence.json#/people/2082",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
     "qualityIssues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
