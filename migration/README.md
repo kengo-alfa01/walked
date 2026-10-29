@@ -2,9 +2,13 @@
 
 2026-10-26取得の正本を基にした、データ移行・更新処理のレビュー用成果物です。**624人全員の史実確認を完了した成果物ではありません。公開置換・main反映を行わないでください。**
 
+## 2026-10-29 第5回：赤井直正・加藤嘉明・福島正則・脇坂安治
+
+[最新レビュー](reports/person-quality-20261029-05/README.md)：着手87人（+3）、本文87人（+4）、略歴78案（+4）、生没年とも29人、全項目完了0人。既存の高虎も大洲居城を追加照合。機械的略歴残457人。父子の事績、黒井城石垣の説明差、所領授与と入城を区別。年表100件・71候補（+26件・17候補）。人物正本・ID・公開データ不変。
+
 ## 2026-10-29 第4回：藤堂高虎・池田輝政
 
-[最新レビュー](reports/person-quality-20261029-04/README.md)：着手84人、本文83人（+2）、略歴74案（+2）、生没年とも26人、全項目完了0人。機械的略歴残461人。輝政の出生年と吉田移封年の資料差を保持。年表74件・54場所候補へ拡張（+21件・13候補）。正本・ID・公開データは維持。
+[第4回レビュー](reports/person-quality-20261029-04/README.md)：着手84人、本文83人（+2）、略歴74案（+2）、生没年とも26人、全項目完了0人。機械的略歴残461人。輝政の出生年と吉田移封年の資料差を保持。年表74件・54場所候補へ拡張（+21件・13候補）。正本・ID・公開データは維持。
 
 ## 2026-10-29 第3回：識別問題と略歴・居城移転の継続精査
 
@@ -99,7 +103,7 @@ CSVはExcelで開けるUTF-8 BOM付きです。略歴・氏名・URLには日本
 ```sh
 python scripts/generate_sengoku_master.py
 python scripts/build_migration_preview.py
-python scripts/build_person_quality_review.py --round 20261029-04
+python scripts/build_person_quality_review.py --round 20261029-05
 python scripts/build_person_life_timeline.py
 python scripts/validate_sengoku_master.py
 python -m unittest discover -s tests -p 'test_*.py' -v

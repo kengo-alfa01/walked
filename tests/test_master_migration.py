@@ -149,9 +149,13 @@ class MigrationTest(unittest.TestCase):
     def test_same_name_generation_research_is_not_promoted(self):
         self.run_source(self.source)
         ps = {p["selection"]["rosterId"]:p for p in load(self.p / "out/people.json")}
-        for k in ("12",):
-            self.assertEqual(ps[k]["sourceStatus"], "unverified")
-            self.assertFalse(ps[k]["researchReview"])
+        # A later body review supersedes a search-only attempt without
+        # promoting the still-unconfirmed birth year or all aliases.
+        self.assertTrue(ps["12"]["researchReview"])
+        self.assertEqual(ps["12"]["fieldStatus"]["birth"], "unverified")
+        self.assertEqual(ps["12"]["fieldStatus"]["death"], "verified")
+        self.assertEqual(ps["12"]["death"]["value"], 1578)
+        self.assertNotEqual(ps["12"]["verification"], "verified")
         # Target-generation evidence can supersede a failed same-name search,
         # without importing that other generation's dates or resolving all facts.
         for k in ("311", "312", "20"):

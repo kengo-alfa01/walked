@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "summary": {
-    "events": 74,
-    "candidatePlaces": 54,
-    "people": 11,
+    "events": 100,
+    "candidatePlaces": 71,
+    "people": 15,
     "selected": 624,
-    "peopleWithoutExtraction": 613,
+    "peopleWithoutExtraction": 609,
     "completeLifeTimelines": 0,
     "publishedSites": 0,
     "publishedLinks": 0,
@@ -1580,7 +1580,7 @@
       "reuseStatus": "個別条件未確認・事実の独自要約のみ",
       "approvalStatus": "pending_user_review",
       "previousMainBaseCandidateId": "plc-kokawa-residence",
-      "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。"
+      "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。 第5回の大洲資料は板島に城代を置き大洲を居城としたと記す。本城の位置づけを本人の連続居住と同一視しない。"
     },
     {
       "eventId": "life-1370-003",
@@ -1608,8 +1608,8 @@
       "checkedOn": "2026-10-29",
       "reuseStatus": "個別条件未確認・事実の独自要約のみ",
       "approvalStatus": "pending_user_review",
-      "previousMainBaseCandidateId": "plc-uwajima-castle",
-      "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。"
+      "previousMainBaseCandidateId": "plc-ozu-castle",
+      "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。 第5回で大洲居城を補足。大洲・宇和島・今治の実際の居住時期や往復は未確定。"
     },
     {
       "eventId": "life-1370-004",
@@ -2121,6 +2121,746 @@
       "approvalStatus": "pending_user_review",
       "previousMainBaseCandidateId": null,
       "unresolved": ""
+    },
+    {
+      "eventId": "life-0012-001",
+      "personId": "sg-master-0012",
+      "rosterId": "12",
+      "personName": "赤井直正",
+      "candidateId": "plc-kuroi-castle",
+      "dateLabel": "1554年",
+      "yearStart": 1554,
+      "yearEnd": 1554,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "黒井城の城主となる。",
+      "relationTypes": [
+        "居城",
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261029-05:tamba",
+        "20261029-05:kuroi-museum"
+      ],
+      "sourceLocator": "黒井城跡の歴史。1554入城・悪右衛門、1565勢力拡大、1570安堵、1578病死、1579落城。／冒頭。1554荻野［赤井］直正が城主。山上石垣は光秀攻略・斎藤利三城主化以降との見解。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1579落城は直正の死後。死去場所自体はこの資料で確定しない。"
+    },
+    {
+      "eventId": "life-0012-002",
+      "personId": "sg-master-0012",
+      "rosterId": "12",
+      "personName": "赤井直正",
+      "candidateId": "plc-kuroi-castle",
+      "dateLabel": "具体年・築造主体未解決",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "直正期の遺構改修という市の説明と、攻略後の山上石垣という博物館の説明がある。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261029-05:tamba",
+        "20261029-05:kuroi-museum"
+      ],
+      "sourceLocator": "黒井城跡の歴史。1554入城・悪右衛門、1565勢力拡大、1570安堵、1578病死、1579落城。／冒頭。1554荻野［赤井］直正が城主。山上石垣は光秀攻略・斎藤利三城主化以降との見解。",
+      "relationStatus": "disputed",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "説明対象が遺構全体か山上石垣かという範囲の差も要照合。現存石垣全体を直正の施工としない。"
+    },
+    {
+      "eventId": "life-0646-001",
+      "personId": "sg-0a11ed8a5e60",
+      "rosterId": "646",
+      "personName": "加藤嘉明",
+      "candidateId": "plc-masaki-castle",
+      "dateLabel": "松山移居以前（入城年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "松山へ移る以前の居城。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-05:matsuyama"
+      ],
+      "sourceLocator": "歴史の中の松山城・沿革・ゆかりの人物「加藤嘉明」。1563～1631、孫六、賤ヶ岳、1602着工、1603移居、1627会津転封。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1595松前入封を述べる県史は取得失敗、確定年に補わない。"
+    },
+    {
+      "eventId": "life-0646-002",
+      "personId": "sg-0a11ed8a5e60",
+      "rosterId": "646",
+      "personName": "加藤嘉明",
+      "candidateId": "plc-shizugatake",
+      "dateLabel": "1583年（天正11）",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "秀吉の家臣として賤ヶ岳に参戦する。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-05:matsuyama"
+      ],
+      "sourceLocator": "歴史の中の松山城・沿革・ゆかりの人物「加藤嘉明」。1563～1631、孫六、賤ヶ岳、1602着工、1603移居、1627会津転封。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0646-003",
+      "personId": "sg-0a11ed8a5e60",
+      "rosterId": "646",
+      "personName": "加藤嘉明",
+      "candidateId": "plc-matsuyama-castle",
+      "dateLabel": "1602年",
+      "yearStart": 1602,
+      "yearEnd": 1602,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "足立重信を普請奉行として築城を始める。",
+      "relationTypes": [
+        "築城"
+      ],
+      "sourceRefs": [
+        "20261029-05:matsuyama",
+        "20261029-05:matsuyama-city"
+      ],
+      "sourceLocator": "歴史の中の松山城・沿革・ゆかりの人物「加藤嘉明」。1563～1631、孫六、賤ヶ岳、1602着工、1603移居、1627会津転封。／1603年加藤嘉明欄：1601許可、1602着工、1603正木から移居、1627会津。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1601許可・1603移居・後任期の完成を区別。現存天守の建築年とは異なる。"
+    },
+    {
+      "eventId": "life-0646-004",
+      "personId": "sg-0a11ed8a5e60",
+      "rosterId": "646",
+      "personName": "加藤嘉明",
+      "candidateId": "plc-matsuyama-castle",
+      "dateLabel": "1603年",
+      "yearStart": 1603,
+      "yearEnd": 1603,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "正木城から松山城へ居を移す。",
+      "relationTypes": [
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261029-05:matsuyama-city",
+        "20261029-05:matsuyama"
+      ],
+      "sourceLocator": "1603年加藤嘉明欄：1601許可、1602着工、1603正木から移居、1627会津。／歴史の中の松山城・沿革・ゆかりの人物「加藤嘉明」。1563～1631、孫六、賤ヶ岳、1602着工、1603移居、1627会津転封。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-masaki-castle",
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0646-005",
+      "personId": "sg-0a11ed8a5e60",
+      "rosterId": "646",
+      "personName": "加藤嘉明",
+      "candidateId": "plc-aizu-region",
+      "dateLabel": "1627年",
+      "yearStart": 1627,
+      "yearEnd": 1627,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "松山から会津へ転封される。",
+      "relationTypes": [
+        "転封"
+      ],
+      "sourceRefs": [
+        "20261029-05:matsuyama-city"
+      ],
+      "sourceLocator": "1603年加藤嘉明欄：1601許可、1602着工、1603正木から移居、1627会津。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-matsuyama-castle",
+      "unresolved": "若松城の具体的入城日時や在城をこの転封記録だけで確定しない。"
+    },
+    {
+      "eventId": "life-2187-001",
+      "personId": "sg-722bae153f1b",
+      "rosterId": "2187",
+      "personName": "脇坂安治",
+      "candidateId": "plc-shizugatake",
+      "dateLabel": "1583年",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "賤ヶ岳の戦いで功を立てる。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-05:wakisaka-museum"
+      ],
+      "sourceLocator": "わ行「脇坂安治」項のみ。1554～1626、秀吉仕官、1583賤ヶ岳、1585洲本、1600関ヶ原、1609大洲。伝説本文を史実の根拠としない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-2187-002",
+      "personId": "sg-722bae153f1b",
+      "rosterId": "2187",
+      "personName": "脇坂安治",
+      "candidateId": "plc-sumoto-castle",
+      "dateLabel": "1585年",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "洲本城へ入城する。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-05:sumoto",
+        "20261029-05:wakisaka-museum"
+      ],
+      "sourceLocator": "冒頭本文：1585脇坂安治入城、総石垣化、1609大洲移封。リンク先計画全冊を読んだという意味ではない。／わ行「脇坂安治」項のみ。1554～1626、秀吉仕官、1583賤ヶ岳、1585洲本、1600関ヶ原、1609大洲。伝説本文を史実の根拠としない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-2187-003",
+      "personId": "sg-722bae153f1b",
+      "rosterId": "2187",
+      "personName": "脇坂安治",
+      "candidateId": "plc-sumoto-castle",
+      "dateLabel": "洲本在城期（具体工期未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "洲本城を総石垣の城へ改修する。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261029-05:sumoto"
+      ],
+      "sourceLocator": "冒頭本文：1585脇坂安治入城、総石垣化、1609大洲移封。リンク先計画全冊を読んだという意味ではない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1585は入城年。全工事の完了年としない。大洲への天守移築は推定のため確定イベントにしない。"
+    },
+    {
+      "eventId": "life-2187-004",
+      "personId": "sg-722bae153f1b",
+      "rosterId": "2187",
+      "personName": "脇坂安治",
+      "candidateId": "plc-sekigahara",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "西軍から東軍へ転じる。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-05:wakisaka-museum"
+      ],
+      "sourceLocator": "わ行「脇坂安治」項のみ。1554～1626、秀吉仕官、1583賤ヶ岳、1585洲本、1600関ヶ原、1609大洲。伝説本文を史実の根拠としない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "個別陣地や経路の現在地は未確認。"
+    },
+    {
+      "eventId": "life-2187-005",
+      "personId": "sg-722bae153f1b",
+      "rosterId": "2187",
+      "personName": "脇坂安治",
+      "candidateId": "plc-ozu-castle",
+      "dateLabel": "1609年",
+      "yearStart": 1609,
+      "yearEnd": 1609,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "洲本から大洲へ移封し、大津城を居城とする。",
+      "relationTypes": [
+        "転封",
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261029-05:ozu",
+        "20261029-05:wakisaka-museum"
+      ],
+      "sourceLocator": "藤堂高虎の時代（1595～）、脇坂安治の時代（1609～）。1617の「脇坂」は安元資料と照合。天守移築は研究者の推定と明記。／わ行「脇坂安治」項のみ。1554～1626、秀吉仕官、1583賤ヶ岳、1585洲本、1600関ヶ原、1609大洲。伝説本文を史実の根拠としない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-sumoto-castle",
+      "unresolved": "1617飯田移封は子の安元。安治の経路に飯田を追加しない。"
+    },
+    {
+      "eventId": "life-1370-013",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-ozu-castle",
+      "dateLabel": "1595年の板島拝領後（具体的移居時期未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "板島に城代を置き、大津城を居城としたと公式解説に記される。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-05:ozu"
+      ],
+      "sourceLocator": "藤堂高虎の時代（1595～）、脇坂安治の時代（1609～）。1617の「脇坂」は安元資料と照合。天守移築は研究者の推定と明記。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-uwajima-castle",
+      "unresolved": "年表には1595年項に記載。本文は移居年月日を示さず、宇和島本城という別資料の説明との関係・往復は未確認。"
+    },
+    {
+      "eventId": "life-1713-001",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-kiyosu-castle",
+      "dateLabel": "1595年",
+      "yearStart": 1595,
+      "yearEnd": 1595,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "清洲城主となる。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-05:fukushima-city"
+      ],
+      "sourceLocator": "福島正則について（1）（2）。1561～1624、秀吉仕官・1595清洲・関ヶ原東軍、広島での改修・検地・町づくり。支城の創建年はこの要約だけで確定しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1713-002",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-sekigahara",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "徳川方として関ヶ原の戦いに加わる。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-05:fukushima-city",
+        "20261029-05:hiroshima-years"
+      ],
+      "sourceLocator": "福島正則について（1）（2）。1561～1624、秀吉仕官・1595清洲・関ヶ原東軍、広島での改修・検地・町づくり。支城の創建年はこの要約だけで確定しない。／慶長6年1601入城、元和5年1619改易・川中島転封。年月日の旧暦換算は未実施。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1713-003",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-hiroshima-castle",
+      "dateLabel": "1601年（慶長6年3月）",
+      "yearStart": 1601,
+      "yearEnd": 1601,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "清洲を出て広島城へ入城する。",
+      "relationTypes": [
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261029-05:hiroshima-years",
+        "20261029-05:hiroshima-pref"
+      ],
+      "sourceLocator": "市勢要覧1601欄／県史年表PDF1頁1601年3月欄。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-kiyosu-castle",
+      "unresolved": "1600の領国授与と1601の実際の入城を区別。月は旧暦で新暦換算なし。"
+    },
+    {
+      "eventId": "life-1713-004",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-hiroshima-town",
+      "dateLabel": "広島領主期（個別工期未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "検地を進め、城下町を整備する。",
+      "relationTypes": [
+        "領地経営",
+        "城下町整備"
+      ],
+      "sourceRefs": [
+        "20261029-05:fukushima-city"
+      ],
+      "sourceLocator": "福島正則について（1）（2）。1561～1624、秀吉仕官・1595清洲・関ヶ原東軍、広島での改修・検地・町づくり。支城の創建年はこの要約だけで確定しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "個々の街区・工事年は未確認。"
+    },
+    {
+      "eventId": "life-1713-005",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-itsukushima-shrine",
+      "dateLabel": "1601年",
+      "yearStart": 1601,
+      "yearEnd": 1601,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "厳島大明神に年々の米を寄進する。",
+      "relationTypes": [
+        "寄進"
+      ],
+      "sourceRefs": [
+        "20261029-05:hiroshima-pref"
+      ],
+      "sourceLocator": "県史年表PDF1頁、1601年5月11日欄〔野坂文書〕。原本未読。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "寄進記録から本人の参拝を推定しない。"
+    },
+    {
+      "eventId": "life-1713-006",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-itsukushima-shrine",
+      "dateLabel": "1602年",
+      "yearStart": 1602,
+      "yearEnd": 1602,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "厳島神社の平家納経を修復する。",
+      "relationTypes": [
+        "寺社保護"
+      ],
+      "sourceRefs": [
+        "20261029-05:hiroshima-pref"
+      ],
+      "sourceLocator": "県史年表PDF1～2頁境界、1602年5月欄〔蔦蒔絵唐櫃銘〕。原本未読。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "修復への関与の記録であり、本人の現地訪問や手作業の実施は未確認。"
+    },
+    {
+      "eventId": "life-1713-007",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-takanoi-village",
+      "dateLabel": "1619年（元和5年7月2日の記録）",
+      "yearStart": 1619,
+      "yearEnd": 1619,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "川中島へ転封され、高野井村に蟄居を命じられる。",
+      "relationTypes": [
+        "転封",
+        "蟄居"
+      ],
+      "sourceRefs": [
+        "20261029-05:hiroshima-pref"
+      ],
+      "sourceLocator": "県史年表PDF5頁、1619年7月2日欄〔福島文書〕。原本未読。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-hiroshima-castle",
+      "unresolved": "記録日を実際の到着日としない。6月の津軽授与の記載から、津軽に居住したとは推定しない。"
+    },
+    {
+      "eventId": "life-1713-008",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-mihara-castle",
+      "dateLabel": "広島領主期（個別年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "広島城を補う支城として一族・家臣を配置した。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-05:fukushima-city"
+      ],
+      "sourceLocator": "福島正則について（1）（2）。1561～1624、秀吉仕官・1595清洲・関ヶ原東軍、広島での改修・検地・町づくり。支城の創建年はこの要約だけで確定しない。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "本文は6支城をまとめて説明。本人の入城・在城、新規創建か既存城の改修か、個別配置年は未確認。"
+    },
+    {
+      "eventId": "life-1713-009",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-kamei-castle",
+      "dateLabel": "広島領主期（個別年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "広島城を補う支城として一族・家臣を配置した。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-05:fukushima-city"
+      ],
+      "sourceLocator": "福島正則について（1）（2）。1561～1624、秀吉仕官・1595清洲・関ヶ原東軍、広島での改修・検地・町づくり。支城の創建年はこの要約だけで確定しない。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "本文は6支城をまとめて説明。本人の入城・在城、新規創建か既存城の改修か、個別配置年は未確認。"
+    },
+    {
+      "eventId": "life-1713-010",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-ozekiyama-castle",
+      "dateLabel": "広島領主期（個別年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "広島城を補う支城として一族・家臣を配置した。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-05:fukushima-city"
+      ],
+      "sourceLocator": "福島正則について（1）（2）。1561～1624、秀吉仕官・1595清洲・関ヶ原東軍、広島での改修・検地・町づくり。支城の創建年はこの要約だけで確定しない。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "本文は6支城をまとめて説明。本人の入城・在城、新規創建か既存城の改修か、個別配置年は未確認。"
+    },
+    {
+      "eventId": "life-1713-011",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-gohongadake-castle",
+      "dateLabel": "広島領主期（個別年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "広島城を補う支城として一族・家臣を配置した。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-05:fukushima-city"
+      ],
+      "sourceLocator": "福島正則について（1）（2）。1561～1624、秀吉仕官・1595清洲・関ヶ原東軍、広島での改修・検地・町づくり。支城の創建年はこの要約だけで確定しない。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "本文は6支城をまとめて説明。本人の入城・在城、新規創建か既存城の改修か、個別配置年は未確認。"
+    },
+    {
+      "eventId": "life-1713-012",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-kannabe-castle",
+      "dateLabel": "広島領主期（個別年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "広島城を補う支城として一族・家臣を配置した。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-05:fukushima-city"
+      ],
+      "sourceLocator": "福島正則について（1）（2）。1561～1624、秀吉仕官・1595清洲・関ヶ原東軍、広島での改修・検地・町づくり。支城の創建年はこの要約だけで確定しない。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "本文は6支城をまとめて説明。本人の入城・在城、新規創建か既存城の改修か、個別配置年は未確認。"
+    },
+    {
+      "eventId": "life-1713-013",
+      "personId": "sg-f91c582084bb",
+      "rosterId": "1713",
+      "personName": "福島正則",
+      "candidateId": "plc-tomo-castle",
+      "dateLabel": "広島領主期（個別年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日の独立換算は未実施。",
+      "event": "広島城を補う支城として一族・家臣を配置した。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-05:fukushima-city"
+      ],
+      "sourceLocator": "福島正則について（1）（2）。1561～1624、秀吉仕官・1595清洲・関ヶ原東軍、広島での改修・検地・町づくり。支城の創建年はこの要約だけで確定しない。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認。史実を独自要約、原文・画像不使用。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "本文は6支城をまとめて説明。本人の入城・在城、新規創建か既存城の改修か、個別配置年は未確認。"
     }
   ],
   "candidates": {
@@ -2771,6 +3511,210 @@
       "deduplicationStatus": "pending_nationwide_work",
       "crossThreadOverlap": "未照合",
       "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-kuroi-castle": {
+      "candidateId": "plc-kuroi-castle",
+      "placeName": "黒井城",
+      "regionAsSource": "丹波・丹波市春日町",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-masaki-castle": {
+      "candidateId": "plc-masaki-castle",
+      "placeName": "正木城（松前城）",
+      "regionAsSource": "伊予・愛媛県松前町",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-matsuyama-castle": {
+      "candidateId": "plc-matsuyama-castle",
+      "placeName": "松山城",
+      "regionAsSource": "伊予・松山市",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-sumoto-castle": {
+      "candidateId": "plc-sumoto-castle",
+      "placeName": "洲本城",
+      "regionAsSource": "淡路・洲本市",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-ozu-castle": {
+      "candidateId": "plc-ozu-castle",
+      "placeName": "大津城（大洲城）",
+      "regionAsSource": "伊予・大洲市",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-aizu-region": {
+      "candidateId": "plc-aizu-region",
+      "placeName": "会津",
+      "regionAsSource": "陸奥・会津",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "転封先の地域のみ確認。特定の城への実際の入城はこの資料だけで確定しない。"
+    },
+    "plc-kiyosu-castle": {
+      "candidateId": "plc-kiyosu-castle",
+      "placeName": "清洲城（清須城）",
+      "regionAsSource": "尾張",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-hiroshima-castle": {
+      "candidateId": "plc-hiroshima-castle",
+      "placeName": "広島城",
+      "regionAsSource": "安芸・広島市",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-hiroshima-town": {
+      "candidateId": "plc-hiroshima-town",
+      "placeName": "広島城下町",
+      "regionAsSource": "安芸・広島市",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "城郭と町の整備範囲を全国側で区別。"
+    },
+    "plc-takanoi-village": {
+      "candidateId": "plc-takanoi-village",
+      "placeName": "高野井村（資料表記）",
+      "regionAsSource": "信濃国川中島",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "高井野との表記対応・具体的な居館位置は全国側で確認。津軽授与の記録から実際の津軽居住を推定しない。"
+    },
+    "plc-itsukushima-shrine": {
+      "candidateId": "plc-itsukushima-shrine",
+      "placeName": "厳島神社（厳島大明神）",
+      "regionAsSource": "安芸・宮島",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-mihara-castle": {
+      "candidateId": "plc-mihara-castle",
+      "placeName": "三原城",
+      "regionAsSource": "備後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-kamei-castle": {
+      "candidateId": "plc-kamei-castle",
+      "placeName": "亀居城",
+      "regionAsSource": "安芸",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-ozekiyama-castle": {
+      "candidateId": "plc-ozekiyama-castle",
+      "placeName": "尾関山城",
+      "regionAsSource": "備後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-gohongadake-castle": {
+      "candidateId": "plc-gohongadake-castle",
+      "placeName": "五品嶽城",
+      "regionAsSource": "備後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-kannabe-castle": {
+      "candidateId": "plc-kannabe-castle",
+      "placeName": "神辺城",
+      "regionAsSource": "備後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-tomo-castle": {
+      "candidateId": "plc-tomo-castle",
+      "placeName": "鞆城",
+      "regionAsSource": "備後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
     }
   },
   "residenceSequences": [
@@ -2883,6 +3827,7 @@
       "candidateIds": [
         "plc-kokawa-residence",
         "plc-uwajima-castle",
+        "plc-ozu-castle",
         "plc-imabari-castle",
         "plc-iga-ueno-castle",
         "plc-tsu-castle"
@@ -2890,11 +3835,12 @@
       "eventIds": [
         "life-1370-001",
         "life-1370-002",
+        "life-1370-013",
         "life-1370-003",
         "life-1370-004",
         "life-1370-005"
       ],
-      "note": "粉河→宇和島→今治（入居年不明）→1608年9月上野→同10月津。入城は旧暦月の相対順序。",
+      "note": "粉河→宇和島（本城・拝領）→大洲（実際の移居年未確認）→今治（入居年不明）→1608上野→津。主要拠点の整理であり、居住の往復・滞在を網羅した経路ではない。大洲を第5回で補足。",
       "completeness": "partial_not_exhaustive"
     },
     {
@@ -2915,12 +3861,62 @@
       ],
       "note": "池尻→岐阜→吉田（1590/1591の記載差）→1600姫路。家督継承1584と岐阜城主期間1585の区別を保留。",
       "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "646",
+      "personId": "sg-0a11ed8a5e60",
+      "personName": "加藤嘉明",
+      "candidateIds": [
+        "plc-masaki-castle",
+        "plc-matsuyama-castle",
+        "plc-aizu-region"
+      ],
+      "eventIds": [
+        "life-0646-001",
+        "life-0646-004",
+        "life-0646-005"
+      ],
+      "note": "正木→1603松山→1627会津（地域）。松前入封年は未確認。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "2187",
+      "personId": "sg-722bae153f1b",
+      "personName": "脇坂安治",
+      "candidateIds": [
+        "plc-sumoto-castle",
+        "plc-ozu-castle"
+      ],
+      "eventIds": [
+        "life-2187-002",
+        "life-2187-005"
+      ],
+      "note": "1585洲本→1609大洲。1617飯田移封は安元の事績のため含めない。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "1713",
+      "personId": "sg-f91c582084bb",
+      "personName": "福島正則",
+      "candidateIds": [
+        "plc-kiyosu-castle",
+        "plc-hiroshima-castle",
+        "plc-takanoi-village"
+      ],
+      "eventIds": [
+        "life-1713-001",
+        "life-1713-003",
+        "life-1713-007"
+      ],
+      "note": "1595清洲→1601広島→1619信濃高野井の蟄居命令。途中の江戸滞在等は未網羅。津軽授与は実居住と扱わない。",
+      "completeness": "partial_not_exhaustive"
     }
   ],
   "evidenceFiles": {
     "20261029-02": "migration/research/20261029-02/evidence.json",
     "20261029-03": "migration/research/20261029-03/evidence.json",
-    "20261029-04": "migration/research/20261029-04/evidence.json"
+    "20261029-04": "migration/research/20261029-04/evidence.json",
+    "20261029-05": "migration/research/20261029-05/evidence.json"
   },
   "sources": {
     "20261029-02:hino": {
@@ -3292,6 +4288,156 @@
       "checkedOn": "2026-10-29",
       "reuseStatus": "未確認",
       "usage": "事実を参照した独自要約。原文・画像の転載なし。"
+    },
+    "20261029-05:tamba": {
+      "url": "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/7/1/1922.html",
+      "title": "丹波市：黒井城跡",
+      "locator": "黒井城跡の歴史。1554入城・悪右衛門、1565勢力拡大、1570安堵、1578病死、1579落城。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:kuroi-museum": {
+      "url": "https://rekihaku.pref.hyogo.lg.jp/castle/kuroi/",
+      "title": "兵庫県立歴史博物館：黒井城",
+      "locator": "冒頭。1554荻野［赤井］直正が城主。山上石垣は光秀攻略・斎藤利三城主化以降との見解。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:matsuyama": {
+      "url": "https://www.matsuyamajo.jp/discover/history.html",
+      "title": "松山城公式サイト：歴史と人物",
+      "locator": "歴史の中の松山城・沿革・ゆかりの人物「加藤嘉明」。1563～1631、孫六、賤ヶ岳、1602着工、1603移居、1627会津転封。",
+      "kind": "official_castle_site",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:matsuyama-city": {
+      "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/matsuyamajyo/nenpyou.html",
+      "title": "松山市：松山城年表",
+      "locator": "1603年加藤嘉明欄：1601許可、1602着工、1603正木から移居、1627会津。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:kato-ndl": {
+      "url": "https://id.ndl.go.jp/auth/ndlna/00757866",
+      "title": "国立国会図書館：加藤嘉明 個人名典拠",
+      "locator": "生年1563・没年1631・初名茂勝。事績の裏付けには使わない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:wakisaka-museum": {
+      "url": "https://rekihaku.pref.hyogo.lg.jp/digital_museum/legend3/term/",
+      "title": "兵庫県立歴史博物館：用語解説「脇坂安治」",
+      "locator": "わ行「脇坂安治」項のみ。1554～1626、秀吉仕官、1583賤ヶ岳、1585洲本、1600関ヶ原、1609大洲。伝説本文を史実の根拠としない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:wakisaka-son": {
+      "url": "https://rekihaku.pref.hyogo.lg.jp/database/shiryo/detail/?id=2771",
+      "title": "兵庫県立歴史博物館：脇坂安元像（資料ID2771）",
+      "locator": "資料解説の安治と子安元、1615継承・1617飯田転封。画像自体の同定根拠には使わない。個別二次利用欄も確認。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "一部確認：個別欄に申請不要・商業利用不可。方針ページでは目録CC0／解説CC BY 4.0／コンテンツ商用除外を区別。画像不使用、個別適用範囲は未解決。",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:rekihaku-terms": {
+      "url": "https://rekihaku.pref.hyogo.lg.jp/database/about-usage/",
+      "title": "兵庫県立歴史博物館：れきはくSearch 二次利用について",
+      "locator": "条項1目録CC0、2解説・編集CC BY 4.0、3コンテンツ商用除外、5デジタルミュージアム別手続き。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "一部確認：対象種別ごとに条件が異なる。全ページ・画像の商用許諾と扱わない。",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:iida": {
+      "url": "https://www.city.iida.lg.jp/soshiki/160/rekisi.html",
+      "title": "飯田市：飯田市のあゆみ",
+      "locator": "近世の段落、1617大洲から脇坂安元が移封。安治本人の転封としない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:ozu": {
+      "url": "https://ozucastle.jp/ozu_castle/history/",
+      "title": "大洲城公式サイト：歴史・沿革",
+      "locator": "藤堂高虎の時代（1595～）、脇坂安治の時代（1609～）。1617の「脇坂」は安元資料と照合。天守移築は研究者の推定と明記。",
+      "kind": "official_castle_site",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:sumoto": {
+      "url": "https://www.city.sumoto.lg.jp/soshiki/34/13025.html",
+      "title": "洲本市：洲本城跡整備基本計画 策定案内",
+      "locator": "冒頭本文：1585脇坂安治入城、総石垣化、1609大洲移封。リンク先計画全冊を読んだという意味ではない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:fukushima-city": {
+      "url": "https://www.city.hiroshima.lg.jp/tourism-culture/history/1026883/1026891/1038090/1030815.html",
+      "title": "広島市：福島正則没後400年記念事業",
+      "locator": "福島正則について（1）（2）。1561～1624、秀吉仕官・1595清洲・関ヶ原東軍、広島での改修・検地・町づくり。支城の創建年はこの要約だけで確定しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:hiroshima-years": {
+      "url": "https://www.city.hiroshima.lg.jp/shisei/toukei/1006109/1027849/1027859/1017269.html",
+      "title": "広島市：主要年表（平成26年版市勢要覧）",
+      "locator": "慶長6年1601入城、元和5年1619改易・川中島転封。年月日の旧暦換算は未実施。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:hiroshima-pref": {
+      "url": "https://www.pref.hiroshima.lg.jp/soshiki_file/monjokan/nenpyou/nenpyou-kinsei1.pdf",
+      "title": "広島県立文書館：広島県史年表 近世1",
+      "locator": "PDF1頁1601清洲から入城・厳島寄進・検地、2頁1602平家納経修復、4頁1614正則江戸留置と子忠勝参戦、5頁1619改易・高野井蟄居。該当頁のPDF本文を確認。括弧内史料の原本は未読。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261029-05:fukushima-library": {
+      "url": "https://www.library.pref.ishikawa.lg.jp/shosho/furucolle/list/prsn15394",
+      "title": "石川県立図書館：福島正則 人物詳細",
+      "locator": "人物詳細の生没年欄1561～1624。文献リストの原著を読了とはしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
     }
   }
 }
