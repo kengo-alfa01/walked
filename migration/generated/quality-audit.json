@@ -5795,32 +5795,36 @@
     "name": "金森長近",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "aliases": "partially_verified",
+      "birth": "verified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
-    "biography": "戦国期から江戸初期に活動した大名。織田信秀・織田信長・豊臣秀吉・徳川家康・徳川秀忠に仕えた。飛騨国高山藩藩主・美濃国上有知藩藩主を務めた。金森氏の一族にあたる。父は金森定近。",
-    "biographyLength": 87,
+    "biography": "越前大野を経て、豊臣秀吉の命で飛騨を攻めた大名。入国後に高山城と城下町の整備を進めた。関ヶ原では徳川方で戦い、戦後に美濃の領地を加えられると、小倉山城を築いて隠居の拠点とした。",
+    "biographyLength": 88,
     "issues": [
       "full_historical_review_pending",
-      "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed"
+      "alias_identity_review_pending"
     ],
     "sourceUrls": [
+      "https://www.city.ono.fukui.jp/kosodate/bunka-rekishi/hakubutsukan/kanko/echizenonojyo/oonojyoushu.html",
+      "https://www.city.takayama.lg.jp/kurashi/1000021/1000119/1000846.html",
+      "https://www.pref.gifu.lg.jp/page/7369.html",
+      "https://www.city.mino.gifu.jp/docs/1203.html",
+      "https://digitalarchiveproject.jp/information/関ケ原の合戦場・金森氏の布陣場所/",
       "https://ja.wikipedia.org/wiki/%E9%87%91%E6%A3%AE%E9%95%B7%E8%BF%91",
       "https://ja.wikipedia.org/w/index.php?oldid=111488311"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-29追記：高山三の丸の完成は可重の事績として分離。飛騨授与1585（大野市）と入府1586（高山市）は出来事を分ける。小倉山城は市1601築城、大学解説1601着工・1605完成。隠居入居の正確な年は未確認。素玄等の別名・役職全部は未精査。"
   },
   {
     "id": "sg-master-0652",
@@ -5959,33 +5963,35 @@
     "name": "蒲生氏郷",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "aliases": "partially_verified",
+      "birth": "verified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
-    "biography": "戦国期に活動した武将。織田信長・豊臣秀吉に仕えた。蒲生氏の一族にあたる。父は蒲生賢秀。官位には従四位下・侍従・正四位下・左近衛少将・従三位参議が記される。",
-    "biographyLength": 77,
+    "biography": "織田信長、豊臣秀吉に仕えた大名。近江日野から伊勢松ヶ島へ移り、松坂城と城下町を築いて商業を振興した。のち会津へ転封され、黒川城を改修して若松の町を整えた。茶の湯にも親しんだ。",
+    "biographyLength": 87,
     "issues": [
       "full_historical_review_pending",
-      "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed"
+      "alias_identity_review_pending"
     ],
     "sourceUrls": [
+      "https://www.town.shiga-hino.lg.jp/0000000236.html",
+      "https://www.city.matsusaka.mie.jp/site/kanko/gamouujisato.html",
+      "https://www.city.aizuwakamatsu.fukushima.jp/docs/2012110600030/",
       "https://id.ndl.go.jp/auth/ndlna/00269409",
       "https://ja.wikipedia.org/wiki/%E8%92%B2%E7%94%9F%E6%B0%8F%E9%83%B7",
       "https://ja.wikipedia.org/w/index.php?oldid=111423059"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-29追記：生没年は自治体本文で年単位確認。元服年は日野町1570と松阪市1569で記載差。教秀ほか全別名の裏付けは未完。日野年表の本能寺日付は転記せず、避難主導の父賢秀／氏郷の区別も未解決。生涯場所抽出を開始し、生誕地・墓所は対象外。"
   },
   {
     "id": "sg-master-0685",
@@ -13676,16 +13682,16 @@
     "name": "丹羽長秀",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "aliases": "partially_verified",
+      "birth": "verified",
+      "death": "secondary_source_checked",
+      "biography": "verified",
+      "biographyQuality": "unchanged_appropriate",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
     "biography": "織田信長に仕えた武将で、近江佐和山城主。本能寺の変後は秀吉を助け、山崎や賤ヶ岳の戦いに参加した。後に越前北ノ庄を領した。",
@@ -13695,6 +13701,10 @@
       "alias_identity_review_pending"
     ],
     "sourceUrls": [
+      "https://www.city.hikone.lg.jp/material/files/group/52/20101215KH.pdf",
+      "https://kotobank.jp/word/丹羽長秀-17349",
+      "https://www1.city.obama.fukui.jp/obm/rekisi/sekai_isan/Japanese/data/324.htm",
+      "https://www.city.echizen.lg.jp/office/090/030/echizenshinorekisi.html",
       "https://id.ndl.go.jp/auth/ndlna/001249850",
       "https://kotobank.jp/word/%E4%B8%B9%E7%BE%BD%E9%95%B7%E7%A7%80-17349",
       "https://ja.wikipedia.org/wiki/%E4%B8%B9%E7%BE%BD%E9%95%B7%E7%A7%80",
@@ -13702,7 +13712,7 @@
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-29追記：既存略歴は具体的で本文と整合するため変更不要。惟住の称号年は辞典間も含め別途照合。没年は辞典本文のみで追加照合待ち。長重など次世代への自動統合なし。安土普請・松原造船・後瀬山補強・大滝寺禁制を場所付きで抽出。"
   },
   {
     "id": "sg-master-1595",

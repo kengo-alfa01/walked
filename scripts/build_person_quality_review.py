@@ -9,6 +9,7 @@ import collections
 import copy
 import hashlib
 import json
+import re
 from generate_sengoku_master import ROOT, load, dump, csvout
 
 ROUND = ROOT / 'migration/research/20261028'
@@ -181,8 +182,8 @@ def main():
     global ROUND, OUT
     parser=argparse.ArgumentParser();parser.add_argument('--apply-round',action='store_true')
     parser.add_argument('--round',default='20261028');args=parser.parse_args()
-    if len(args.round)!=8 or not args.round.isdigit():
-        parser.error('--round must be YYYYMMDD')
+    if not re.fullmatch(r'\d{8}(?:-\d{2})?', args.round):
+        parser.error('--round must be YYYYMMDD or YYYYMMDD-NN')
     ROUND=ROOT/f'migration/research/{args.round}'
     OUT=ROOT/f'migration/reports/person-quality-{args.round}'
     if args.apply_round:

@@ -1,0 +1,1275 @@
+{
+  "schemaVersion": 1,
+  "summary": {
+    "events": 27,
+    "candidatePlaces": 25,
+    "people": 3,
+    "selected": 624,
+    "peopleWithoutExtraction": 621,
+    "completeLifeTimelines": 0,
+    "publishedSites": 0,
+    "publishedLinks": 0,
+    "definition": "候補数は抽出用の場所単位。全国データとの照合前であり、新規史跡数・独立訪問先数ではない。"
+  },
+  "events": [
+    {
+      "eventId": "life-0680-001",
+      "personId": "sg-master-0680",
+      "rosterId": "680",
+      "personName": "蒲生氏郷",
+      "candidateId": "plc-gifu-castle",
+      "dateLabel": "1568年",
+      "yearStart": 1568,
+      "yearEnd": 1568,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "信長の人質として岐阜城へ入る。",
+      "relationTypes": [
+        "人質",
+        "滞在"
+      ],
+      "sourceRefs": [
+        "20261029-02:hino",
+        "20261029-02:matsusaka"
+      ],
+      "sourceLocator": "日野町1568年欄／松阪市「信長が一目で認めた大器」",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0680-002",
+      "personId": "sg-master-0680",
+      "rosterId": "680",
+      "personName": "蒲生氏郷",
+      "candidateId": "plc-ise-okawachi",
+      "dateLabel": "1569年",
+      "yearStart": 1569,
+      "yearEnd": 1569,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "大河内城攻めで初陣。",
+      "relationTypes": [
+        "初陣",
+        "攻城戦"
+      ],
+      "sourceRefs": [
+        "20261029-02:hino"
+      ],
+      "sourceLocator": "生涯年表1569年欄",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0680-003",
+      "personId": "sg-master-0680",
+      "rosterId": "680",
+      "personName": "蒲生氏郷",
+      "candidateId": "plc-hino-castle",
+      "dateLabel": "1582年",
+      "yearStart": 1582,
+      "yearEnd": 1582,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "日野城下に掟を出し商業を保護。",
+      "relationTypes": [
+        "本拠地",
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-02:hino",
+        "20261029-02:matsusaka"
+      ],
+      "sourceLocator": "日野町1582年12月欄／松阪市の中野城＝日野城説明",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "父賢秀が信長妻子を移した行動は本イベントへ合成しない。"
+    },
+    {
+      "eventId": "life-0680-004",
+      "personId": "sg-master-0680",
+      "rosterId": "680",
+      "personName": "蒲生氏郷",
+      "candidateId": "plc-matsugashima",
+      "dateLabel": "1584年",
+      "yearStart": 1584,
+      "yearEnd": 1584,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "日野から伊勢松ヶ島城へ転封。",
+      "relationTypes": [
+        "転封",
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-02:hino",
+        "20261029-02:matsusaka"
+      ],
+      "sourceLocator": "日野町1584年欄／松阪市「松坂城築城」",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-hino-castle",
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0680-005",
+      "personId": "sg-master-0680",
+      "rosterId": "680",
+      "personName": "蒲生氏郷",
+      "candidateId": "plc-matsusaka",
+      "dateLabel": "1588年",
+      "yearStart": 1588,
+      "yearEnd": 1588,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "新たな城を完成させ、松ヶ島から松坂へ拠点を移す。",
+      "relationTypes": [
+        "築城",
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261029-02:hino",
+        "20261029-02:matsusaka"
+      ],
+      "sourceLocator": "日野町1588年欄／松阪市「松坂城築城」",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-matsugashima",
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0680-006",
+      "personId": "sg-master-0680",
+      "rosterId": "680",
+      "personName": "蒲生氏郷",
+      "candidateId": "plc-matsusaka-town",
+      "dateLabel": "松坂築城期（具体年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "街路や町割りを整備し、商工人を招いた。",
+      "relationTypes": [
+        "城下町整備",
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-02:matsusaka"
+      ],
+      "sourceLocator": "軍事・経済の要所となる町の整備／有力商人の誘致",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "単年の完成事業へまとめない。"
+    },
+    {
+      "eventId": "life-0680-007",
+      "personId": "sg-master-0680",
+      "rosterId": "680",
+      "personName": "蒲生氏郷",
+      "candidateId": "plc-odawara-campaign",
+      "dateLabel": "1590年",
+      "yearStart": 1590,
+      "yearEnd": 1590,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "秀吉の小田原出兵に従軍。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-02:hino"
+      ],
+      "sourceLocator": "生涯年表1590年欄",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "出兵参加は小田原城や特定陣地への直接到達の証拠ではない。"
+    },
+    {
+      "eventId": "life-0680-008",
+      "personId": "sg-master-0680",
+      "rosterId": "680",
+      "personName": "蒲生氏郷",
+      "candidateId": "plc-aizu-wakamatsu",
+      "dateLabel": "1590年",
+      "yearStart": 1590,
+      "yearEnd": 1590,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "松坂から会津へ転封され黒川城に入る。",
+      "relationTypes": [
+        "転封",
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-02:hino",
+        "20261029-02:matsusaka",
+        "20261029-02:aizu"
+      ],
+      "sourceLocator": "日野町1590年欄／松阪市有力商人／会津若松市入城段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-matsusaka",
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0680-009",
+      "personId": "sg-master-0680",
+      "rosterId": "680",
+      "personName": "蒲生氏郷",
+      "candidateId": "plc-aizu-wakamatsu",
+      "dateLabel": "1590年入城後（竣工年未確認）",
+      "yearStart": 1590,
+      "yearEnd": null,
+      "datePrecision": "after",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "黒川城を改築し若松城と改称。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261029-02:aizu"
+      ],
+      "sourceLocator": "1590入城後の改築段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "この資料は竣工年を特定していない。1590年完成としない。"
+    },
+    {
+      "eventId": "life-0651-001",
+      "personId": "sg-master-0651",
+      "rosterId": "651",
+      "personName": "金森長近",
+      "candidateId": "plc-ono-region",
+      "dateLabel": "1575年",
+      "yearStart": 1575,
+      "yearEnd": 1575,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "越前大野郡に所領を与えられる。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-02:ono"
+      ],
+      "sourceLocator": "金森長近項1575年",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "所領授与を大野城完成・入居と読み替えない。"
+    },
+    {
+      "eventId": "life-0651-002",
+      "personId": "sg-master-0651",
+      "rosterId": "651",
+      "personName": "金森長近",
+      "candidateId": "plc-echizen-ono",
+      "dateLabel": "1585年飛騨攻略時の旧拠点",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "飛騨攻略を命じられた時点で越前大野城主。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-02:takayama"
+      ],
+      "sourceLocator": "金森時代冒頭",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "初入城年や築城年は今回未確認。"
+    },
+    {
+      "eventId": "life-0651-003",
+      "personId": "sg-master-0651",
+      "rosterId": "651",
+      "personName": "金森長近",
+      "candidateId": "plc-hida-matsukura",
+      "dateLabel": "1585年",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "長近軍が松倉城を攻略。",
+      "relationTypes": [
+        "攻城戦"
+      ],
+      "sourceRefs": [
+        "20261029-02:takayama"
+      ],
+      "sourceLocator": "金森時代1585年8月",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "長近軍の行動としての確認。本人の具体的な到達位置は未確認。"
+    },
+    {
+      "eventId": "life-0651-004",
+      "personId": "sg-master-0651",
+      "rosterId": "651",
+      "personName": "金森長近",
+      "candidateId": "plc-hida-nabeyama",
+      "dateLabel": "1586年入府後の当初（具体年未確認）",
+      "yearStart": 1586,
+      "yearEnd": null,
+      "datePrecision": "after",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "飛騨入国当初、鍋山城に城下を構える。",
+      "relationTypes": [
+        "本拠地",
+        "城下町整備"
+      ],
+      "sourceRefs": [
+        "20261029-02:takayama"
+      ],
+      "sourceLocator": "金森時代の入府と当初鍋山の段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-echizen-ono",
+      "unresolved": "移動日は未確認。1585年の鍋山攻城は可重軍であり長近へ帰属させない。"
+    },
+    {
+      "eventId": "life-0651-005",
+      "personId": "sg-master-0651",
+      "rosterId": "651",
+      "personName": "金森長近",
+      "candidateId": "plc-hida-takayama",
+      "dateLabel": "1588～1600年",
+      "yearStart": 1588,
+      "yearEnd": 1600,
+      "datePrecision": "interval",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "高山城を築き、本丸・二の丸を整備。",
+      "relationTypes": [
+        "築城",
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261029-02:takayama",
+        "20261029-02:gifu-castle"
+      ],
+      "sourceLocator": "金森時代／岐阜県高山城跡冒頭",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-hida-nabeyama",
+      "unresolved": "具体的な入居年は未確認。1603年の可重の三の丸完成は含めない。"
+    },
+    {
+      "eventId": "life-0651-006",
+      "personId": "sg-master-0651",
+      "rosterId": "651",
+      "personName": "金森長近",
+      "candidateId": "plc-gujo-hachiman",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "東軍として郡上八幡城攻めに関わる。",
+      "relationTypes": [
+        "攻城戦"
+      ],
+      "sourceRefs": [
+        "20261029-02:ono"
+      ],
+      "sourceLocator": "金森長近項1600年",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0651-007",
+      "personId": "sg-master-0651",
+      "rosterId": "651",
+      "personName": "金森長近",
+      "candidateId": "plc-sekigahara",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "徳川方として関ヶ原で戦う。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-02:takayama"
+      ],
+      "sourceLocator": "金森時代関ヶ原の段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "個別陣地、正確な日付、兵数は抽出しない。"
+    },
+    {
+      "eventId": "life-0651-008",
+      "personId": "sg-master-0651",
+      "rosterId": "651",
+      "personName": "金森長近",
+      "candidateId": "plc-ogurayama",
+      "dateLabel": "1601年築城／1601着工～1605完成",
+      "yearStart": 1601,
+      "yearEnd": 1605,
+      "datePrecision": "interval",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "小倉山城を築く。",
+      "relationTypes": [
+        "築城"
+      ],
+      "sourceRefs": [
+        "20261029-02:mino",
+        "20261029-02:university"
+      ],
+      "sourceLocator": "美濃市冒頭／大学4小倉山城築城",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "市は1601築城とする。大学解説は着工と完成を区別。年の意味を同じと断定しない。"
+    },
+    {
+      "eventId": "life-0651-009",
+      "personId": "sg-master-0651",
+      "rosterId": "651",
+      "personName": "金森長近",
+      "candidateId": "plc-ogurayama",
+      "dateLabel": "隠居期（入居年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "小倉山城を隠居の拠点とする。",
+      "relationTypes": [
+        "隠居",
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-02:mino"
+      ],
+      "sourceLocator": "大野・高山に続く隠居城の説明",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-hida-takayama",
+      "unresolved": "前の主要拠点との順序のみ確認。中間滞在を網羅した移動履歴ではない。"
+    },
+    {
+      "eventId": "life-0651-010",
+      "personId": "sg-master-0651",
+      "rosterId": "651",
+      "personName": "金森長近",
+      "candidateId": "plc-seitaiji",
+      "dateLabel": "小倉山城築城期（寄進年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "清泰寺を建立し寺領100石を寄進したとする解説。",
+      "relationTypes": [
+        "寺社創建",
+        "寄進"
+      ],
+      "sourceRefs": [
+        "20261029-02:university"
+      ],
+      "sourceLocator": "4 小倉山城築城と上有知繁栄",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "引用元原著未読・独立照合待ち。菩提寺関係や墓所の再調査ではない。"
+    },
+    {
+      "eventId": "life-1582-001",
+      "personId": "sg-6f62edf23a38",
+      "rosterId": "1582",
+      "personName": "丹羽長秀",
+      "candidateId": "plc-sawayama",
+      "dateLabel": "1571年",
+      "yearStart": 1571,
+      "yearEnd": 1571,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "佐和山城の城代となる。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-02:hikone",
+        "20261029-02:niwa-dict"
+      ],
+      "sourceLocator": "広報ひこね印刷頁3「佐和山城主丹羽長秀」／日本大百科全書",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1582-002",
+      "personId": "sg-6f62edf23a38",
+      "rosterId": "1582",
+      "personName": "丹羽長秀",
+      "candidateId": "plc-hikone-matsubara",
+      "dateLabel": "1573年",
+      "yearStart": 1573,
+      "yearEnd": 1573,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "信長の命で松原に木材を集め、大船の建造を進めた。",
+      "relationTypes": [
+        "造船"
+      ],
+      "sourceRefs": [
+        "20261029-02:hikone"
+      ],
+      "sourceLocator": "印刷頁3「信長の大船建造」",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "船が後に使われた戦場を、そのまま長秀の参戦地へ追加しない。"
+    },
+    {
+      "eventId": "life-1582-003",
+      "personId": "sg-6f62edf23a38",
+      "rosterId": "1582",
+      "personName": "丹羽長秀",
+      "candidateId": "plc-nochiseyama",
+      "dateLabel": "1573年入部後（補強年未確認）",
+      "yearStart": 1573,
+      "yearEnd": null,
+      "datePrecision": "after",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "若狭入部後、後瀬山城を補強。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261029-02:obama"
+      ],
+      "sourceLocator": "丹羽長秀の補強を述べる段落",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "居城移転や当該城への入居年の確定ではない。"
+    },
+    {
+      "eventId": "life-1582-004",
+      "personId": "sg-6f62edf23a38",
+      "rosterId": "1582",
+      "personName": "丹羽長秀",
+      "candidateId": "plc-azuchi",
+      "dateLabel": "1576年着工",
+      "yearStart": 1576,
+      "yearEnd": 1576,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "安土城の築城総奉行を務める。",
+      "relationTypes": [
+        "築城奉行"
+      ],
+      "sourceRefs": [
+        "20261029-02:hikone"
+      ],
+      "sourceLocator": "印刷頁3「安土城の築城」",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1582-005",
+      "personId": "sg-6f62edf23a38",
+      "rosterId": "1582",
+      "personName": "丹羽長秀",
+      "candidateId": "plc-yamazaki-battle",
+      "dateLabel": "1582年・本能寺の変後",
+      "yearStart": 1582,
+      "yearEnd": 1582,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "秀吉を助け山崎の戦いに参加。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-02:niwa-dict"
+      ],
+      "sourceLocator": "デジタル大辞泉／日本大百科全書",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "具体的陣地と日付は未確認。"
+    },
+    {
+      "eventId": "life-1582-006",
+      "personId": "sg-6f62edf23a38",
+      "rosterId": "1582",
+      "personName": "丹羽長秀",
+      "candidateId": "plc-shizugatake",
+      "dateLabel": "本能寺の変後・賤ヶ岳合戦（年未照合）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "秀吉方として賤ヶ岳の戦いに参加。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261029-02:niwa-dict"
+      ],
+      "sourceLocator": "デジタル大辞泉／日本大百科全書",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "事件名は確認。今回読み込んだ本人項目では年の明記を独立確認していない。"
+    },
+    {
+      "eventId": "life-1582-007",
+      "personId": "sg-6f62edf23a38",
+      "rosterId": "1582",
+      "personName": "丹羽長秀",
+      "candidateId": "plc-kitanosho",
+      "dateLabel": "賤ヶ岳合戦後（入城年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "越前北ノ庄を居城とする。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-02:niwa-dict"
+      ],
+      "sourceLocator": "デジタル大辞泉・精選版日本国語大辞典",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-sawayama",
+      "unresolved": "佐和山以後の主要拠点。後瀬山改修のみから居城移転の中間段階を推定しない。"
+    },
+    {
+      "eventId": "life-1582-008",
+      "personId": "sg-6f62edf23a38",
+      "rosterId": "1582",
+      "personName": "丹羽長秀",
+      "candidateId": "plc-otakiji",
+      "dateLabel": "1583年",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示を年単位で使用。和暦日付の独立換算なし。",
+      "event": "大滝寺に禁制を出し、大滝掃部の奉書紙職を安堵。",
+      "relationTypes": [
+        "寺社保護",
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261029-02:echizen"
+      ],
+      "sourceLocator": "1583年欄",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認・事実を独自要約、文章画像転載なし",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "禁制発給は本人の現地訪問や寄進を示すものではない。"
+    }
+  ],
+  "candidates": {
+    "plc-gifu-castle": {
+      "candidateId": "plc-gifu-castle",
+      "placeName": "岐阜城",
+      "regionAsSource": "美濃国（現在地未照合）",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現地位置・遺構範囲・既存史跡との同一性・訪問可否・商用条件を全国史跡Workで確認。"
+    },
+    "plc-ise-okawachi": {
+      "candidateId": "plc-ise-okawachi",
+      "placeName": "大河内城",
+      "regionAsSource": "伊勢国（現在地未照合）",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現地位置・遺構範囲・既存史跡との同一性・訪問可否・商用条件を全国史跡Workで確認。"
+    },
+    "plc-hino-castle": {
+      "candidateId": "plc-hino-castle",
+      "placeName": "日野城（中野城）",
+      "regionAsSource": "近江日野",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "松阪市本文が日野城＝中野城と記す。名称だけで別地域の日野城へ統合しない。"
+    },
+    "plc-matsugashima": {
+      "candidateId": "plc-matsugashima",
+      "placeName": "松ヶ島城",
+      "regionAsSource": "伊勢国・松阪市の解説",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現地位置・遺構範囲・既存史跡との同一性・訪問可否・商用条件を全国史跡Workで確認。"
+    },
+    "plc-matsusaka": {
+      "candidateId": "plc-matsusaka",
+      "placeName": "松坂城（松阪城）",
+      "regionAsSource": "三重県松阪市",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "松ヶ島城とは別の拠点。城下町候補との範囲重複は全国側で調整。"
+    },
+    "plc-matsusaka-town": {
+      "candidateId": "plc-matsusaka-town",
+      "placeName": "松坂城下町",
+      "regionAsSource": "三重県松阪市",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "町割りの範囲・現在の街路対応は未照合。独立した訪問先件数へ自動加算しない。"
+    },
+    "plc-odawara-campaign": {
+      "candidateId": "plc-odawara-campaign",
+      "placeName": "小田原出兵の活動地域",
+      "regionAsSource": "小田原方面",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "参戦先地域のみ。小田原城への直接攻撃、特定陣地や滞在地点は未確認。"
+    },
+    "plc-aizu-wakamatsu": {
+      "candidateId": "plc-aizu-wakamatsu",
+      "placeName": "黒川城・若松城（鶴ヶ城）",
+      "regionAsSource": "会津若松市",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "同一城の名称変遷は市解説に基づく。現在の復元建築を氏郷が建てた建物とはしない。"
+    },
+    "plc-ono-region": {
+      "candidateId": "plc-ono-region",
+      "placeName": "越前大野郡",
+      "regionAsSource": "越前国",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "所領授与の範囲。大野城への入居年とは別。地域全体を単一点へ置かない。"
+    },
+    "plc-echizen-ono": {
+      "candidateId": "plc-echizen-ono",
+      "placeName": "越前大野城",
+      "regionAsSource": "福井県大野市",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現地位置・遺構範囲・既存史跡との同一性・訪問可否・商用条件を全国史跡Workで確認。"
+    },
+    "plc-hida-matsukura": {
+      "candidateId": "plc-hida-matsukura",
+      "placeName": "松倉城",
+      "regionAsSource": "飛騨国・高山市の解説",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "長近軍の攻略。長近本人の城内到達地点や日時は未確認。同名城に注意。"
+    },
+    "plc-hida-nabeyama": {
+      "candidateId": "plc-hida-nabeyama",
+      "placeName": "鍋山城",
+      "regionAsSource": "高山市漆垣内町",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "可重軍の攻城と長近の入国後の拠点化は別の関係。今回は後者のみ抽出。"
+    },
+    "plc-hida-takayama": {
+      "candidateId": "plc-hida-takayama",
+      "placeName": "高山城",
+      "regionAsSource": "岐阜県高山市",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "三の丸の1603年完成は可重による。長近本人の事績へ混ぜない。"
+    },
+    "plc-gujo-hachiman": {
+      "candidateId": "plc-gujo-hachiman",
+      "placeName": "郡上八幡城",
+      "regionAsSource": "美濃国",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "1600年の攻城への関与。長近の具体的本陣・攻撃地点は未確認。"
+    },
+    "plc-sekigahara": {
+      "candidateId": "plc-sekigahara",
+      "placeName": "関ヶ原合戦の活動地域",
+      "regionAsSource": "関ヶ原",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "参戦を記録するのみ。陣地位置・兵数・現代記念碑との対応は未確定。"
+    },
+    "plc-ogurayama": {
+      "candidateId": "plc-ogurayama",
+      "placeName": "小倉山城",
+      "regionAsSource": "美濃市・尾崎丸山",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "市1601築城／大学1601着工1605完成。隠居入居年は未確認。"
+    },
+    "plc-seitaiji": {
+      "candidateId": "plc-seitaiji",
+      "placeName": "清泰寺",
+      "regionAsSource": "上有知（美濃市）の解説",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "菩提寺の別調査との重複候補。菩提寺関係・墓所はこのデータに登録しない。",
+      "unresolved": "創建と寄進のみ抽出。現寺との同定・寄進時点は追加照合。"
+    },
+    "plc-sawayama": {
+      "candidateId": "plc-sawayama",
+      "placeName": "佐和山城",
+      "regionAsSource": "滋賀県彦根市",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現地位置・遺構範囲・既存史跡との同一性・訪問可否・商用条件を全国史跡Workで確認。"
+    },
+    "plc-hikone-matsubara": {
+      "candidateId": "plc-hikone-matsubara",
+      "placeName": "佐和山山麓の松原",
+      "regionAsSource": "滋賀県彦根市の解説",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "大船建造の場所。現存史跡名・作業地点の範囲は未特定。"
+    },
+    "plc-nochiseyama": {
+      "candidateId": "plc-nochiseyama",
+      "placeName": "後瀬山城",
+      "regionAsSource": "小浜市伏原ほか",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "丹羽長秀による補強を確認。入部年から居城移転年を推定しない。"
+    },
+    "plc-azuchi": {
+      "candidateId": "plc-azuchi",
+      "placeName": "安土城",
+      "regionAsSource": "近江国・彦根市の解説",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現地位置・遺構範囲・既存史跡との同一性・訪問可否・商用条件を全国史跡Workで確認。"
+    },
+    "plc-yamazaki-battle": {
+      "candidateId": "plc-yamazaki-battle",
+      "placeName": "山崎合戦の活動地域",
+      "regionAsSource": "山崎",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "参戦を確認。具体的陣地・戦闘地点・記念碑は未照合。"
+    },
+    "plc-shizugatake": {
+      "candidateId": "plc-shizugatake",
+      "placeName": "賤ヶ岳合戦の活動地域",
+      "regionAsSource": "近江国",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "参戦を確認。具体的陣地・戦闘地点は未照合。"
+    },
+    "plc-kitanosho": {
+      "candidateId": "plc-kitanosho",
+      "placeName": "北ノ庄城",
+      "regionAsSource": "越前国・福井市",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "柴田期・丹羽期・後の福井城の位置関係と遺構範囲は全国側で照合。"
+    },
+    "plc-otakiji": {
+      "candidateId": "plc-otakiji",
+      "placeName": "大滝寺",
+      "regionAsSource": "越前国・越前市年表",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "後世の神社名・寺院名へ自動置換しない。禁制と寄進・現地訪問は別の関係。"
+    }
+  },
+  "residenceSequences": [
+    {
+      "rosterId": "680",
+      "personId": "sg-master-0680",
+      "personName": "蒲生氏郷",
+      "candidateIds": [
+        "plc-hino-castle",
+        "plc-matsugashima",
+        "plc-matsusaka",
+        "plc-aizu-wakamatsu"
+      ],
+      "eventIds": [
+        "life-0680-003",
+        "life-0680-004",
+        "life-0680-005",
+        "life-0680-008"
+      ],
+      "note": "日野→1584松ヶ島→1588松坂→1590黒川。岐阜での人質生活や遠征は別イベント。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "651",
+      "personId": "sg-master-0651",
+      "personName": "金森長近",
+      "candidateIds": [
+        "plc-echizen-ono",
+        "plc-hida-nabeyama",
+        "plc-hida-takayama",
+        "plc-ogurayama"
+      ],
+      "eventIds": [
+        "life-0651-002",
+        "life-0651-004",
+        "life-0651-005",
+        "life-0651-009"
+      ],
+      "note": "大野→飛騨入国当初の鍋山→高山→隠居拠点小倉山。具体的入居年は一部未確認。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "1582",
+      "personId": "sg-6f62edf23a38",
+      "personName": "丹羽長秀",
+      "candidateIds": [
+        "plc-sawayama",
+        "plc-kitanosho"
+      ],
+      "eventIds": [
+        "life-1582-001",
+        "life-1582-007"
+      ],
+      "note": "佐和山→賤ヶ岳合戦後の北ノ庄。後瀬山は改修確認にとどまり、移住経路へは置かない。",
+      "completeness": "partial_not_exhaustive"
+    }
+  ],
+  "evidenceFiles": {
+    "20261029-02": "migration/research/20261029-02/evidence.json"
+  },
+  "sources": {
+    "20261029-02:hino": {
+      "url": "https://www.town.shiga-hino.lg.jp/0000000236.html",
+      "title": "日野町：蒲生氏郷",
+      "locator": "人物本文および生涯年表。1582年欄の本能寺日付「6月10日」は要照合として採用しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-02:matsusaka": {
+      "url": "https://www.city.matsusaka.mie.jp/site/kanko/gamouujisato.html",
+      "title": "松阪市：松阪の礎を築いた戦国武将「蒲生氏郷」",
+      "locator": "信長が一目で認めた大器／松坂城築城／有力商人の誘致／氏郷が残した功績",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-02:aizu": {
+      "url": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2012110600030/",
+      "title": "会津若松市：若松城跡（鶴ヶ城）",
+      "locator": "1590蒲生氏郷入城と近世城郭への改築。具体的竣工年はこの頁では未確認。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-02:ono": {
+      "url": "https://www.city.ono.fukui.jp/kosodate/bunka-rekishi/hakubutsukan/kanko/echizenonojyo/oonojyoushu.html",
+      "title": "大野市：越前大野城主一覧",
+      "locator": "金森長近の項。1524～1608、1575大野郡、1585飛騨授与、1600郡上八幡攻め。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-02:takayama": {
+      "url": "https://www.city.takayama.lg.jp/kurashi/1000021/1000119/1000846.html",
+      "title": "高山市：高山の歴史",
+      "locator": "金森時代：1585長近軍／可重軍を区別、1586入府、鍋山から高山城への拠点選択、築城。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-02:gifu-castle": {
+      "url": "https://www.pref.gifu.lg.jp/page/7369.html",
+      "title": "岐阜県：高山城跡",
+      "locator": "1588長近着工・1600本丸二の丸完成、1603可重による三の丸を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-02:mino": {
+      "url": "https://www.city.mino.gifu.jp/docs/1203.html",
+      "title": "美濃市：小倉山城跡",
+      "locator": "1601築城、越前大野・飛騨高山に続く隠居城とする本文。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-02:university": {
+      "url": "https://digitalarchiveproject.jp/information/関ケ原の合戦場・金森氏の布陣場所/",
+      "title": "岐阜女子大学デジタルアーカイブ研究所：関ケ原の合戦場・金森氏の布陣場所",
+      "locator": "4 小倉山城築城と上有知繁栄。森政治『関ヶ原合戦と美濃・飛騨』65～67頁（2000）を引用する解説。原著未読。上部の合戦日・西暦表示は本記録に採用しない。",
+      "kind": "university_secondary_commentary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-02:niwa-dict": {
+      "url": "https://kotobank.jp/word/丹羽長秀-17349",
+      "title": "小学館：丹羽長秀（デジタル大辞泉・日本大百科全書など）",
+      "locator": "1535～1585、幼名万千代・五郎左衛門・惟住、佐和山・山崎・賤ヶ岳・北ノ庄。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-02:hikone": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/52/20101215KH.pdf",
+      "title": "彦根市：広報ひこね2010年12月15日号",
+      "locator": "PDF2頁目（印刷頁3）の画像を確認。「佐和山城主丹羽長秀」「信長の大船建造」「安土城の築城」。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-02:obama": {
+      "url": "https://www1.city.obama.fukui.jp/obm/rekisi/sekai_isan/Japanese/data/324.htm",
+      "title": "小浜市：後瀬山城跡",
+      "locator": "1573入部の丹羽長秀による補強。入部年と改修年の確定は区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "20261029-02:echizen": {
+      "url": "https://www.city.echizen.lg.jp/office/090/030/echizenshinorekisi.html",
+      "title": "越前市：歴史年表",
+      "locator": "1583年欄、丹羽長秀の大滝寺への禁制と大滝掃部への奉書紙職安堵。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    }
+  }
+}
