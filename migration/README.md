@@ -2,9 +2,13 @@
 
 2026-10-26取得の正本を基にした、データ移行・更新処理のレビュー用成果物です。**624人全員の史実確認を完了した成果物ではありません。公開置換・main反映を行わないでください。**
 
+## 2026-10-29 第4回：藤堂高虎・池田輝政
+
+[最新レビュー](reports/person-quality-20261029-04/README.md)：着手84人、本文83人（+2）、略歴74案（+2）、生没年とも26人、全項目完了0人。機械的略歴残461人。輝政の出生年と吉田移封年の資料差を保持。年表74件・54場所候補へ拡張（+21件・13候補）。正本・ID・公開データは維持。
+
 ## 2026-10-29 第3回：識別問題と略歴・居城移転の継続精査
 
-[最新レビュー](reports/person-quality-20261029-03/README.md)：9人の本文確認・再照合で新規6人、略歴4案を追加。累計着手82人／本文81人／略歴72案／生没年とも25人／全項目完了0人。機械的略歴は463人残ります。
+[第3回レビュー](reports/person-quality-20261029-03/README.md)：9人の本文確認・再照合で新規6人、略歴4案を追加。累計着手82人／本文81人／略歴72案／生没年とも25人／全項目完了0人。機械的略歴は463人残ります。
 
 明石全登の1615／1618没年説を併記し、岩城2人を対象世代の資料へ対応。丹羽長秀の没年を県史で追加照合。人物別年表は累計9人53イベント・41場所候補、主要拠点順序6人分。新規史跡数ではなく全国側での位置・重複照合前の候補です。Python26・Node11・構造31成功、参照切れ0、正本・ID・正式データ不変。Draft・公開ゲート停止を維持。
 
@@ -95,7 +99,7 @@ CSVはExcelで開けるUTF-8 BOM付きです。略歴・氏名・URLには日本
 ```sh
 python scripts/generate_sengoku_master.py
 python scripts/build_migration_preview.py
-python scripts/build_person_quality_review.py --round 20261029-03
+python scripts/build_person_quality_review.py --round 20261029-04
 python scripts/build_person_life_timeline.py
 python scripts/validate_sengoku_master.py
 python -m unittest discover -s tests -p 'test_*.py' -v

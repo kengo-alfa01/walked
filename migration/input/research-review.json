@@ -1986,6 +1986,77 @@
       "evidenceRef": "migration/research/20261029-03/evidence.json#/people/2082",
       "approvalStatus": "pending_user_review",
       "approvalDate": null
+    },
+    "1370": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "verified",
+        "death": "verified",
+        "biography": "verified",
+        "license": "partially_verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedBirthValue": 1556,
+      "confirmedDeathValue": 1630,
+      "biography": "豊臣秀長に仕え、のち徳川家康に重用された大名。宇和島城や今治城の整備に携わり、伊勢・伊賀へ移ると津城と上野城を改修した。合戦で功績を重ねる一方、城下町の整備にも力を注いだ。",
+      "verifiedAliases": [
+        "与吉",
+        "与右衛門"
+      ],
+      "sources": [
+        "https://www.info.city.tsu.mie.jp/kosodate_kyouiku/kyouikuiinkai/1004357/1004663/1004713/1004736.html",
+        "https://www.info.city.tsu.mie.jp/kosodate_kyouiku/kyouikuiinkai/1004357/1004663/1004713/1004738.html",
+        "https://www.city.uwajima.ehime.jp/site/sizen-bunka/100uwajimajo.html",
+        "https://www.city.imabari.ehime.jp/museum/imabarijo/about/",
+        "https://www.pref.ehime.jp/ehimenotakara/420.html"
+      ],
+      "note": "2026-10-29追記：拝領年と着工年を分離。今治城は1604土木完成、1608頃建物完成は推測。現天守の創建者と混同しない。略年譜の1596慶長の役・篠山修築表現など未照合項目は採用保留。",
+      "reviewedOn": "2026-10-29",
+      "masterEvidenceSha256": "c3ca68f6e78f661516b391cd9b9eb904ba51a2852c4d053cd99bc66b0ebd3967",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261029-04/evidence.json#/people/1370",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null,
+      "licenseStatus": "partially_verified"
+    },
+    "185": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "calendar_basis_requires_review",
+        "death": "verified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "additionalBirthCandidates": [
+        1564,
+        1565
+      ],
+      "confirmedDeathValue": 1613,
+      "biography": "父と兄の戦死後に池田家を継ぎ、岐阜や三河吉田を治めた大名。吉田では城と城下町を整えた。関ヶ原で徳川方に属して播磨を与えられ、姫路城を大規模に改築し、現在につながる天守群を築いた。",
+      "verifiedAliases": [
+        "照政"
+      ],
+      "sources": [
+        "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+        "https://rekihaku.pref.hyogo.lg.jp/castle/himeji-chronology/",
+        "https://www.city.toyohashi.lg.jp/48101.htm",
+        "https://id.ndl.go.jp/auth/ndlna/001279858",
+        "https://www.mlit.go.jp/tagengo-db/R1-00687.html",
+        "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/558/seibi1.2s.pdf"
+      ],
+      "note": "2026-10-29追記：出生年はNDL1564と国交省1565で表記差。正本の旧暦年末日注記との関係を要確認。吉田移封は市解説1590と岐阜整備計画1591が不一致。両者を記録し単一の確定年にしない。",
+      "reviewedOn": "2026-10-29",
+      "masterEvidenceSha256": "2ec9e514a42cf6b8095aaa408b02bd4664eecdacac7f1b2412e2ee64a79f4068",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261029-04/evidence.json#/people/185",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
     }
   },
   "sourcePolicies": [

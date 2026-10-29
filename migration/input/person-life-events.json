@@ -4,7 +4,8 @@
   "scope": "人物精査中に得た場所の抽出。20261029-02から開始、過去624人の一括遡及抽出ではない。",
   "evidenceFiles": {
     "20261029-02": "migration/research/20261029-02/evidence.json",
-    "20261029-03": "migration/research/20261029-03/evidence.json"
+    "20261029-03": "migration/research/20261029-03/evidence.json",
+    "20261029-04": "migration/research/20261029-04/evidence.json"
   },
   "candidates": {
     "plc-gifu-castle": {
@@ -498,6 +499,162 @@
       "deduplicationStatus": "pending_nationwide_work",
       "crossThreadOverlap": "未照合",
       "unresolved": "現在地・遺構・既存史跡との重複を全国側で照合。"
+    },
+    "plc-kokawa-residence": {
+      "candidateId": "plc-kokawa-residence",
+      "placeName": "粉河の居館",
+      "regionAsSource": "紀伊",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-uwajima-castle": {
+      "candidateId": "plc-uwajima-castle",
+      "placeName": "宇和島城（板島丸串城）",
+      "regionAsSource": "伊予",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-imabari-castle": {
+      "candidateId": "plc-imabari-castle",
+      "placeName": "今治城",
+      "regionAsSource": "伊予",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-iga-ueno-castle": {
+      "candidateId": "plc-iga-ueno-castle",
+      "placeName": "伊賀上野城",
+      "regionAsSource": "伊賀",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-tsu-castle": {
+      "candidateId": "plc-tsu-castle",
+      "placeName": "津城",
+      "regionAsSource": "伊勢",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-anegawa": {
+      "candidateId": "plc-anegawa",
+      "placeName": "姉川の戦場",
+      "regionAsSource": "近江",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-wakayama-castle": {
+      "candidateId": "plc-wakayama-castle",
+      "placeName": "和歌山城",
+      "regionAsSource": "紀伊",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-koyasan": {
+      "candidateId": "plc-koyasan",
+      "placeName": "高野山",
+      "regionAsSource": "紀伊",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-ikejiri-castle": {
+      "candidateId": "plc-ikejiri-castle",
+      "placeName": "池尻城",
+      "regionAsSource": "美濃",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-yoshida-castle": {
+      "candidateId": "plc-yoshida-castle",
+      "placeName": "吉田城",
+      "regionAsSource": "三河",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-himeji-castle": {
+      "candidateId": "plc-himeji-castle",
+      "placeName": "姫路城",
+      "regionAsSource": "播磨",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-nagoya-castle": {
+      "candidateId": "plc-nagoya-castle",
+      "placeName": "名古屋城",
+      "regionAsSource": "尾張",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
+    },
+    "plc-nijo-castle": {
+      "candidateId": "plc-nijo-castle",
+      "placeName": "二条城",
+      "regionAsSource": "山城",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・範囲・既存史跡との対応を全国側で確認。"
     }
   },
   "events": [
@@ -2014,6 +2171,602 @@
       "approvalStatus": "pending_user_review",
       "previousMainBaseCandidateId": "plc-urado-castle",
       "unresolved": "1611三ノ丸完成は一豊没後であり別イベントにしていない。"
+    },
+    {
+      "eventId": "life-1370-001",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-kokawa-residence",
+      "dateLabel": "1587年",
+      "yearStart": 1587,
+      "yearEnd": 1587,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "粉河に居館を構える。",
+      "relationTypes": [
+        "居館"
+      ],
+      "sourceRefs": [
+        "20261029-04:tsu-years"
+      ],
+      "sourceLocator": "1556～1615欄。1595宇和島拝領・1600今治拝領と築城の工期を区別。1596慶長の役の記載は今回採らない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。"
+    },
+    {
+      "eventId": "life-1370-002",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-uwajima-castle",
+      "dateLabel": "1595年",
+      "yearStart": 1595,
+      "yearEnd": 1595,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "宇和郡を領し本城とする。",
+      "relationTypes": [
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261029-04:uwajima"
+      ],
+      "sourceLocator": "1595領主・1596着工・1601完成の段落。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-kokawa-residence",
+      "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。"
+    },
+    {
+      "eventId": "life-1370-003",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-imabari-castle",
+      "dateLabel": "具体年未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "今治を居城とする。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-04:uwajima",
+        "20261029-04:imabari"
+      ],
+      "sourceLocator": "1595領主・1596着工・1601完成の段落。／解説と年表。1602起工・1604土木完成・1608頃建物完成推測、末尾の無断転載禁止表示。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-uwajima-castle",
+      "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。"
+    },
+    {
+      "eventId": "life-1370-004",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-iga-ueno-castle",
+      "dateLabel": "1608年",
+      "yearStart": 1608,
+      "yearEnd": 1608,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "伊賀上野へ入城する。",
+      "relationTypes": [
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261029-04:tsu-years"
+      ],
+      "sourceLocator": "1556～1615欄。1595宇和島拝領・1600今治拝領と築城の工期を区別。1596慶長の役の記載は今回採らない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-imabari-castle",
+      "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。"
+    },
+    {
+      "eventId": "life-1370-005",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-tsu-castle",
+      "dateLabel": "1608年",
+      "yearStart": 1608,
+      "yearEnd": 1608,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "上野入城後、津へ入城する。",
+      "relationTypes": [
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261029-04:tsu-years"
+      ],
+      "sourceLocator": "1556～1615欄。1595宇和島拝領・1600今治拝領と築城の工期を区別。1596慶長の役の記載は今回採らない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-iga-ueno-castle",
+      "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。"
+    },
+    {
+      "eventId": "life-1370-006",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-anegawa",
+      "dateLabel": "1570年",
+      "yearStart": 1570,
+      "yearEnd": 1570,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "初陣に臨む。",
+      "relationTypes": [
+        "初陣"
+      ],
+      "sourceRefs": [
+        "20261029-04:tsu-years"
+      ],
+      "sourceLocator": "1556～1615欄。1595宇和島拝領・1600今治拝領と築城の工期を区別。1596慶長の役の記載は今回採らない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1370-007",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-wakayama-castle",
+      "dateLabel": "1585年",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "秀長の築城で奉行を務める。",
+      "relationTypes": [
+        "築城奉行"
+      ],
+      "sourceRefs": [
+        "20261029-04:tsu-years"
+      ],
+      "sourceLocator": "1556～1615欄。1595宇和島拝領・1600今治拝領と築城の工期を区別。1596慶長の役の記載は今回採らない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1370-008",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-koyasan",
+      "dateLabel": "1595年",
+      "yearStart": 1595,
+      "yearEnd": 1595,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "主家廃絶後に入山し、秀吉の求めで下山する。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261029-04:tsu-years"
+      ],
+      "sourceLocator": "1556～1615欄。1595宇和島拝領・1600今治拝領と築城の工期を区別。1596慶長の役の記載は今回採らない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1370-009",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-uwajima-castle",
+      "dateLabel": "1596～1601年",
+      "yearStart": 1596,
+      "yearEnd": 1601,
+      "datePrecision": "interval",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "近世城郭への工事を進める。",
+      "relationTypes": [
+        "築城"
+      ],
+      "sourceRefs": [
+        "20261029-04:uwajima"
+      ],
+      "sourceLocator": "1595領主・1596着工・1601完成の段落。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1370-010",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-imabari-castle",
+      "dateLabel": "1602年",
+      "yearStart": 1602,
+      "yearEnd": 1602,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "城の工事を開始する。",
+      "relationTypes": [
+        "築城"
+      ],
+      "sourceRefs": [
+        "20261029-04:imabari",
+        "20261029-04:ehime"
+      ],
+      "sourceLocator": "解説と年表。1602起工・1604土木完成・1608頃建物完成推測、末尾の無断転載禁止表示。／解説1602～1608の工期。現天守は1980建造。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1370-011",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-tsu-castle",
+      "dateLabel": "1611年",
+      "yearStart": 1611,
+      "yearEnd": 1611,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "城を改修する。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261029-04:tsu",
+        "20261029-04:tsu-years"
+      ],
+      "sourceLocator": "人物説明、津城、城づくりまちづくり。1630没、1611津城改修。／1556～1615欄。1595宇和島拝領・1600今治拝領と築城の工期を区別。1596慶長の役の記載は今回採らない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1370-012",
+      "personId": "sg-e64d13aedffc",
+      "rosterId": "1370",
+      "personName": "藤堂高虎",
+      "candidateId": "plc-iga-ueno-castle",
+      "dateLabel": "1611年",
+      "yearStart": 1611,
+      "yearEnd": 1611,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "城の改修に着手する。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261029-04:tsu-years"
+      ],
+      "sourceLocator": "1556～1615欄。1595宇和島拝領・1600今治拝領と築城の工期を区別。1596慶長の役の記載は今回採らない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0185-001",
+      "personId": "sg-master-0185",
+      "rosterId": "185",
+      "personName": "池田輝政",
+      "candidateId": "plc-ikejiri-castle",
+      "dateLabel": "1583年",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "池尻城主となる。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-04:gifu"
+      ],
+      "sourceLocator": "10 池田輝政。恒興・元助との区別、池尻・岐阜・吉田・姫路。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0185-002",
+      "personId": "sg-master-0185",
+      "rosterId": "185",
+      "personName": "池田輝政",
+      "candidateId": "plc-gifu-castle",
+      "dateLabel": "1585年",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "岐阜城主となる。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261029-04:gifu",
+        "20261029-04:gifu-plan"
+      ],
+      "sourceLocator": "10 池田輝政。恒興・元助との区別、池尻・岐阜・吉田・姫路。／PDF47頁（印刷35頁）本文。吉田移封1591と記す。別の市解説1590との差は未解決。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-ikejiri-castle",
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0185-003",
+      "personId": "sg-master-0185",
+      "rosterId": "185",
+      "personName": "池田輝政",
+      "candidateId": "plc-yoshida-castle",
+      "dateLabel": "1590年／1591年（資料間の候補年）",
+      "yearStart": 1590,
+      "yearEnd": 1591,
+      "datePrecision": "interval",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "吉田へ移封される。",
+      "relationTypes": [
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261029-04:gifu",
+        "20261029-04:gifu-plan",
+        "20261029-04:toyohashi"
+      ],
+      "sourceLocator": "10 池田輝政。恒興・元助との区別、池尻・岐阜・吉田・姫路。／PDF47頁（印刷35頁）本文。吉田移封1591と記す。別の市解説1590との差は未解決。／冒頭の1590池田照政（輝政）入城・城域拡張・城下町整備。",
+      "relationStatus": "disputed",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-gifu-castle",
+      "unresolved": "1590/1591は資料間の候補年であり移動期間ではない。"
+    },
+    {
+      "eventId": "life-0185-004",
+      "personId": "sg-master-0185",
+      "rosterId": "185",
+      "personName": "池田輝政",
+      "candidateId": "plc-himeji-castle",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "関ヶ原後に播磨を領し姫路藩主となる。",
+      "relationTypes": [
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261029-04:gifu",
+        "20261029-04:himeji"
+      ],
+      "sourceLocator": "10 池田輝政。恒興・元助との区別、池尻・岐阜・吉田・姫路。／1600播磨授与、1601着工、1609大天守完成、1610名古屋、1611二条、1613没。篠山1608は追加照合待ちとして抽出保留。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-yoshida-castle",
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0185-005",
+      "personId": "sg-master-0185",
+      "rosterId": "185",
+      "personName": "池田輝政",
+      "candidateId": "plc-yoshida-castle",
+      "dateLabel": "具体年未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "城域を広げ、城下町を整備する。",
+      "relationTypes": [
+        "改修",
+        "城下町整備"
+      ],
+      "sourceRefs": [
+        "20261029-04:toyohashi"
+      ],
+      "sourceLocator": "冒頭の1590池田照政（輝政）入城・城域拡張・城下町整備。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0185-006",
+      "personId": "sg-master-0185",
+      "rosterId": "185",
+      "personName": "池田輝政",
+      "candidateId": "plc-gifu-castle",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "旧居城を攻め、秀信を降伏させる。",
+      "relationTypes": [
+        "攻城戦"
+      ],
+      "sourceRefs": [
+        "20261029-04:gifu"
+      ],
+      "sourceLocator": "10 池田輝政。恒興・元助との区別、池尻・岐阜・吉田・姫路。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0185-007",
+      "personId": "sg-master-0185",
+      "rosterId": "185",
+      "personName": "池田輝政",
+      "candidateId": "plc-himeji-castle",
+      "dateLabel": "1601～1609年",
+      "yearStart": 1601,
+      "yearEnd": 1609,
+      "datePrecision": "interval",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "城の工事を始め、大天守完成に至る。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261029-04:himeji"
+      ],
+      "sourceLocator": "1600播磨授与、1601着工、1609大天守完成、1610名古屋、1611二条、1613没。篠山1608は追加照合待ちとして抽出保留。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0185-008",
+      "personId": "sg-master-0185",
+      "rosterId": "185",
+      "personName": "池田輝政",
+      "candidateId": "plc-nagoya-castle",
+      "dateLabel": "1610年",
+      "yearStart": 1610,
+      "yearEnd": 1610,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "築城工事に従う。",
+      "relationTypes": [
+        "築城"
+      ],
+      "sourceRefs": [
+        "20261029-04:himeji"
+      ],
+      "sourceLocator": "1600播磨授与、1601着工、1609大天守完成、1610名古屋、1611二条、1613没。篠山1608は追加照合待ちとして抽出保留。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0185-009",
+      "personId": "sg-master-0185",
+      "rosterId": "185",
+      "personName": "池田輝政",
+      "candidateId": "plc-nijo-castle",
+      "dateLabel": "1611年",
+      "yearStart": 1611,
+      "yearEnd": 1611,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+      "event": "家康と会見する秀頼に付き添う。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261029-04:himeji"
+      ],
+      "sourceLocator": "1600播磨授与、1601着工、1609大天守完成、1610名古屋、1611二条、1613没。篠山1608は追加照合待ちとして抽出保留。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
     }
   ],
   "residenceSequences": [
@@ -2117,6 +2870,46 @@
         "life-2082-011"
       ],
       "note": "1585長浜城主→1590掛川→1601浦戸→1603高知。1584転封と1585高浜所領は別イベント、同年内経緯は未完。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "1370",
+      "personId": "sg-e64d13aedffc",
+      "personName": "藤堂高虎",
+      "candidateIds": [
+        "plc-kokawa-residence",
+        "plc-uwajima-castle",
+        "plc-imabari-castle",
+        "plc-iga-ueno-castle",
+        "plc-tsu-castle"
+      ],
+      "eventIds": [
+        "life-1370-001",
+        "life-1370-002",
+        "life-1370-003",
+        "life-1370-004",
+        "life-1370-005"
+      ],
+      "note": "粉河→宇和島→今治（入居年不明）→1608年9月上野→同10月津。入城は旧暦月の相対順序。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "185",
+      "personId": "sg-master-0185",
+      "personName": "池田輝政",
+      "candidateIds": [
+        "plc-ikejiri-castle",
+        "plc-gifu-castle",
+        "plc-yoshida-castle",
+        "plc-himeji-castle"
+      ],
+      "eventIds": [
+        "life-0185-001",
+        "life-0185-002",
+        "life-0185-003",
+        "life-0185-004"
+      ],
+      "note": "池尻→岐阜→吉田（1590/1591の記載差）→1600姫路。家督継承1584と岐阜城主期間1585の区別を保留。",
       "completeness": "partial_not_exhaustive"
     }
   ]
