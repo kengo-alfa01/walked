@@ -139,7 +139,57 @@ class MigrationTest(unittest.TestCase):
         self.run_source(self.source)
         ps = load(self.p / "out/people.json")
         self.assertTrue(all(p["verification"] == "needs_review" for p in ps))
-        self.assertTrue(all(p["fieldStatus"]["aliases"] == "unverified" for p in ps))
+        # Actual body research may confirm a subset; HTTP-only records may not.
+        self.assertTrue(all(
+            p["fieldStatus"]["aliases"] == "unverified"
+            for p in ps if not p["researchReview"]
+        ))
+        self.assertTrue(all(p["fieldStatus"]["aliases"] != "verified" for p in ps))
+
+    def test_same_name_generation_research_is_not_promoted(self):
+        self.run_source(self.source)
+        ps = {p["selection"]["rosterId"]:p for p in load(self.p / "out/people.json")}
+        for k in ("311", "312", "20", "12"):
+            self.assertEqual(ps[k]["sourceStatus"], "unverified")
+            self.assertFalse(ps[k]["researchReview"])
+        # A later successful body review may replace a prior failed attempt.
+        self.assertTrue(ps["2032"]["researchReview"])
+        self.assertEqual(ps["2032"]["fieldStatus"]["birth"], "unverified")
+        self.assertEqual(ps["542"]["birth"]["raw"], "1623")
+        self.assertEqual(ps["542"]["fieldStatus"]["identity"], "requires_correction")
+        self.assertNotEqual(ps["542"]["id"], ps["543"]["id"])
+
+    def test_second_round_conflicts_do_not_erase_master_values(self):
+        self.run_source(self.source)
+        ps = {p["selection"]["rosterId"]:p for p in load(self.p / "out/people.json")}
+        self.assertEqual(ps["538"]["death"]["raw"], "1602")
+        self.assertEqual(ps["538"]["death"]["candidates"], [1601,1602])
+        self.assertIsNone(ps["538"]["death"]["value"])
+        self.assertEqual(ps["170"]["fieldStatus"]["identity"], "disputed")
+        self.assertEqual(ps["205"]["death"]["candidates"], [1625,1626])
+        self.assertEqual(ps["39"]["fieldStatus"]["aliases"], "disputed")
+
+    def test_new_calendar_conflict_remains_unresolved(self):
+        self.run_source(self.source)
+        p = next(p for p in load(self.p / "out/people.json") if p["selection"]["rosterId"] == "1840")
+        self.assertEqual(p["birth"]["raw"], "1594")
+        self.assertEqual(p["birth"]["candidates"], [1593,1594])
+        self.assertIsNone(p["birth"]["value"])
+        self.assertEqual(p["fieldStatus"]["birth"], "calendar_basis_requires_review")
+
+    def test_round_evidence_rejects_unread_sources_and_false_biography_completion(self):
+        from build_person_quality_review import validate_round
+        data = load(ROOT / "migration/research/20261028/evidence.json")
+        rows = {str(r["values"][8]):r["values"] for r in self.source["rows"]}
+        validate_round(data, rows)
+        bad = copy.deepcopy(data)
+        bad["sources"]["gifu"]["access"] = "search_snippet_only"
+        with self.assertRaises(AssertionError):
+            validate_round(bad, rows)
+        bad = copy.deepcopy(data)
+        bad["people"]["549"]["bodyForSelectedPerson"] = False
+        with self.assertRaises(AssertionError):
+            validate_round(bad, rows)
 
     def test_verified_correction_preserves_unknown_master_text(self):
         self.run_source(self.source)

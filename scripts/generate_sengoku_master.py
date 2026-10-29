@@ -194,6 +194,7 @@ def generate(source, out, registry_path=None):
             "birth": "unverified",
             "death": "unverified",
             "biography": "unverified",
+            "biographyQuality": "unverified",
             "identity": "unverified",
             "sourceRelevance": "unverified",
             "license": "requires_review",
