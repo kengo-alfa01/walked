@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "scope": "review_candidates_only",
+  "fullIntegration": "completed_on_draft_pr",
+  "integrationCommit": "efb877454dc342aa22812729e94bed456066f488",
+  "verifiedTree": "f3c1566d99dc584bd3f4126e600ad385b386d9e8",
+  "branch": "feature/sengoku-master-migration-20261026",
+  "pr": "https://github.com/kengo-alfa01/walked/pull/2",
+  "draft": true,
+  "merged": false,
+  "userAuthorization": "User replied 続けて to the prior request for approval to save the full master-derived review and generated candidate package to public GitHub.",
+  "filesInIntegration": 52,
+  "management": {
+    "spreadsheetId": "193_Rl1ROGjv7-pa_DgIA2wsEu3xlmfjXo-8pZ9JC8nQ",
+    "priorRowsUnchanged": true,
+    "appendVerified": true,
+    "range": "やること!A31:F35"
+  },
+  "validation": {
+    "pythonPassed": 21,
+    "nodePassed": 11,
+    "structurePassed": 31,
+    "danglingReferences": 0,
+    "releaseBlockedConditions": 3,
+    "realDeviceRetested": false
+  },
+  "masterEdited": false,
+  "productionChanged": false,
+  "personIdsChanged": false,
+  "selectionChanged": false
+}
