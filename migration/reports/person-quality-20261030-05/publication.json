@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-30",
+  "repository": "kengo-alfa01/walked",
+  "targetBranch": "feature/sengoku-master-migration-20261026",
+  "pullRequest": 2,
+  "remoteBaseline": "baa1f69b1f1cbf0d1b1aaccfe7fa093559c5a369",
+  "recoveredLocalBaseline": "a4c8301",
+  "status": "prepared_pending_remote_write",
+  "mainMerge": false,
+  "masterWrite": false,
+  "productionSwitch": false
+}

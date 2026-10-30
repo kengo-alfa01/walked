@@ -2,9 +2,19 @@
 
 2026-10-26取得の正本を基にした、データ移行・更新処理のレビュー用成果物です。**624人全員の史実確認を完了した成果物ではありません。公開置換・main反映を行わないでください。**
 
+## 最新：2026-10-30 第5回
+
+[最新624人レビュー](reports/person-quality-20261030-05/README.md)：前スレッドa4c8301を回収し、柴田勝家・勝豊、富田一白・信高、坂崎直盛、太田一吉を追加精査。着手100／本文99（+6）／略歴89案（+6）／生没年とも31／全項目完了0。本文未確認525、機械的略歴446。年表154イベント・100場所候補（+25／+12）。正本・ID・公開データ不変。
+
+10/30第2〜4回の[家久](reports/person-quality-20261030-02/README.md)・[信包と康勝](reports/person-quality-20261030-03/README.md)・[重晴](reports/person-quality-20261030-04/README.md)、蜂須賀家政の暦換算済み記録も継承。以下は各回終了時の履歴であり、最新数は上記報告とprogress.jsonを参照。
+
+## 2026-10-30：黒田長政・小西行長・蜂須賀家政
+
+[最新レビュー](reports/person-quality-20261030/README.md)：着手・本文90人（+3）、略歴80案（+2）、生没年とも30人、全項目完了0。黒田長政の原略歴は維持。機械的略歴残455人。家政の没年1638/1639、福岡移居1602/1607を保留し、中世・近世宇土城を区別。年表118件・83候補（+18件・12候補）。正本・ID・公開データ不変。
+
 ## 2026-10-29 第5回：赤井直正・加藤嘉明・福島正則・脇坂安治
 
-[最新レビュー](reports/person-quality-20261029-05/README.md)：着手87人（+3）、本文87人（+4）、略歴78案（+4）、生没年とも29人、全項目完了0人。既存の高虎も大洲居城を追加照合。機械的略歴残457人。父子の事績、黒井城石垣の説明差、所領授与と入城を区別。年表100件・71候補（+26件・17候補）。人物正本・ID・公開データ不変。
+[第5回レビュー](reports/person-quality-20261029-05/README.md)：着手87人（+3）、本文87人（+4）、略歴78案（+4）、生没年とも29人、全項目完了0人。既存の高虎も大洲居城を追加照合。機械的略歴残457人。父子の事績、黒井城石垣の説明差、所領授与と入城を区別。年表100件・71候補（+26件・17候補）。人物正本・ID・公開データ不変。
 
 ## 2026-10-29 第4回：藤堂高虎・池田輝政
 
@@ -103,7 +113,7 @@ CSVはExcelで開けるUTF-8 BOM付きです。略歴・氏名・URLには日本
 ```sh
 python scripts/generate_sengoku_master.py
 python scripts/build_migration_preview.py
-python scripts/build_person_quality_review.py --round 20261029-05
+python scripts/build_person_quality_review.py --round 20261030
 python scripts/build_person_life_timeline.py
 python scripts/validate_sengoku_master.py
 python -m unittest discover -s tests -p 'test_*.py' -v

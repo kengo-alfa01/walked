@@ -2327,16 +2327,16 @@
     "name": "石川康勝",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
       "birth": "unverified",
       "death": "unverified",
-      "biography": "unverified",
+      "biography": "partially_verified",
       "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
     "biography": "安土桃山期から江戸初期に活動した大名。結城秀康・豊臣秀吉・徳川家康・徳川秀忠・豊臣秀頼に仕えた。信濃奥仁科藩主を務めた。三河石川氏の一族にあたる。父は石川数正。官位には肥後守が記される。",
@@ -2348,12 +2348,14 @@
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.matsumoto-castle.jp/about/history",
+      "https://www.oshiro-m.org/wp-content/uploads/2015/04/g3_2.pdf",
       "https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%B7%9D%E5%BA%B7%E5%8B%9D",
       "https://ja.wikipedia.org/w/index.php?oldid=90095463"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：数正の次男康勝と兄康長を区別。公的本文で1614冬の陣豊臣方参加を確認。奥仁科領の詳細・別名・生没年・最期が未確認なので完成略歴案を作らない。佐伯配流・松本天守築造を兄から誤転用しない。"
   },
   {
     "id": "sg-b62946a697c3",
@@ -4135,33 +4137,37 @@
     "name": "太田一吉",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "partially_verified",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "安土桃山期から江戸初期に活動した大名。丹羽長秀・丹羽長重・豊臣秀吉・豊臣秀頼に仕えた。美濃太田氏の一族にあたる。父は太田宗清。官位には従五位下飛騨守が記される。",
-    "biographyLength": 80,
+    "biography": "豊臣政権下で臼杵城主を務めた武将。慶長の役では小早川秀秋の目付として朝鮮へ渡り、蔚山城を守った。1600年には西軍に属して臼杵で中川秀成と戦い、戦後に領地を失った。1617年没。",
+    "biographyLength": 89,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://online.bunka.go.jp/db/heritages/detail/540111",
+      "https://www.city.usuki.oita.jp/event_list/2019/01/",
+      "https://www.city.usuki.oita.jp/docs/2014020300376/",
+      "https://www.city.usuki.oita.jp/docs/2014031200023",
       "https://ja.wikipedia.org/wiki/%E5%A4%AA%E7%94%B0%E4%B8%80%E5%90%89",
       "https://ja.wikipedia.org/w/index.php?oldid=108500875"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：1593は大友除国年であり太田の入城年を断定しない。蔚山籠城は本文確認したが海外地点として全国候補へ不算入。リーフデ号保護は今回本人根拠未確認のため略歴へ入れない。"
   },
   {
     "id": "sg-8cbc980e4721",
@@ -4872,33 +4878,36 @@
     "name": "織田信包",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "aliases": "partially_verified",
+      "birth": "disputed",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "requires_review",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期から江戸初期に活動した大名。織田信長・豊臣秀吉・豊臣秀頼に仕えた。丹波柏原藩主を務めた。織田氏・長野工藤氏・織田氏の一族にあたる。父は織田信秀。",
-    "biographyLength": 75,
+    "biography": "織田信長の弟で、伊勢の支配を担った大名。長野氏の養子となり、上野城を経て津城を居城とした。信長の死後は豊臣秀吉に仕え、所領没収と謹慎を経験。のち丹波柏原の領主となり、1614年に大坂城で没した。",
+    "biographyLength": 97,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.tamba.lg.jp/material/files/group/50/4354.pdf",
+      "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/7/1/2441.html",
+      "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/004/709/maibuntsu16.pdf",
       "https://ja.wikipedia.org/wiki/%E7%B9%94%E7%94%B0%E4%BF%A1%E5%8C%85",
       "https://ja.wikipedia.org/w/index.php?oldid=110925685"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：生年1543/1548は未解決。津城移居1580は伝承に基づく説明で、遅くとも1583年11月居城という研究整理を採用。五重天守・現存天守台を信包の確定事績としない。柏原領主就任1598と津市資料1594後移転の略記は同時点と断定しない。後期柏原陣屋と前期館を混同しない。"
   },
   {
     "id": "sg-6666c05e6264",
@@ -6978,16 +6987,16 @@
     "name": "黒田長政",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "aliases": "partially_verified",
+      "birth": "verified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "unchanged_appropriate",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
     "biography": "黒田孝高の子で、豊臣秀吉の九州攻めや朝鮮出兵に参加した武将。関ヶ原では徳川方で功績を挙げ、戦後に筑前五十二万石を与えられた。",
@@ -6998,13 +7007,18 @@
     ],
     "sourceUrls": [
       "https://id.ndl.go.jp/auth/ndlna/01150199",
+      "https://museum.city.fukuoka.jp/sp/exhibition/599/",
+      "https://www.pref.fukuoka.lg.jp/somu/graph-f/2013summer/walk/",
+      "https://bunkazai.city.fukuoka.lg.jp/cultural_properties/detail/62/?from_sp=1",
+      "https://bunkazai.city.fukuoka.lg.jp/sp/cultural_properties/detail/490",
+      "https://www.kyusan-u.ac.jp/J/uchiyama/tosikenmap.pdf",
       "https://kotobank.jp/word/%E9%BB%92%E7%94%B0%E9%95%B7%E6%94%BF-16434",
       "https://ja.wikipedia.org/wiki/%E9%BB%92%E7%94%B0%E9%95%B7%E6%94%BF",
       "https://ja.wikipedia.org/w/index.php?oldid=111485318"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：原略歴は内容が具体的で本文でも主要記述を確認できたため変更不要。別名は確認した表記だけを追加。福岡への移居は市文化財解説1607と大学掲載書1602で説明差。築城開始・完成・居住開始を区別し、移居年を一本化しない。父孝高の有岡幽閉・中津築城を長政本人の事績と混同しない。"
   },
   {
     "id": "sg-master-0824",
@@ -7078,33 +7092,35 @@
     "name": "桑山重晴",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "birth": "partially_verified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "partially_verified",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期から江戸初期に活動した大名。織田信長・丹羽長秀/豊臣秀吉・豊臣秀長・豊臣秀保・徳川家康・徳川秀忠に仕えた。和泉谷川藩主を務めた。桑山氏の一族にあたる。官位には従五位下修理大夫が記される。",
-    "biographyLength": 96,
+    "biography": "豊臣秀長の重臣として紀伊の支配を担った武将。1583年の賤ヶ岳の戦いで軍功を挙げ、1585年には紀伊に入った。藤堂高虎らと和歌山城の築城に携わり、城代を経て城主となった。1606年に没した。",
+    "biographyLength": 95,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.katsuragi.nara.jp/soshiki/rekishihakubutsukan/4/2/15/1503.html",
+      "https://objecthub.keio.ac.jp/ja/object/420",
       "https://ja.wikipedia.org/wiki/%E6%A1%91%E5%B1%B1%E9%87%8D%E6%99%B4",
       "https://ja.wikipedia.org/w/index.php?oldid=110768819"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：新庄転封・陣屋建設は孫一晴、高田整備は一直。宗仙の茶歴・別名も重晴へ転用しない。出生年は元値の留保を保持。竹田・岸和田・1586在城説は今回本文未取得で確認扱いしない。"
   },
   {
     "id": "sg-master-0836",
@@ -7445,33 +7461,35 @@
     "name": "小西行長",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "aliases": "secondary_source_checked",
+      "birth": "disputed",
+      "death": "secondary_source_checked",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
-    "biography": "戦国期に活動した大名。宇喜多直家・豊臣秀吉・豊臣秀頼に仕えた。清和源氏為義流・小西氏の一族にあたる。父は小西隆佐。官位には従五位下・日向守・摂津守が記される。",
-    "biographyLength": 79,
+    "biography": "豊臣秀吉に仕え、水軍を率いたキリシタン大名。肥後南部を領し、宇土に新たな城と城下町を整えた。朝鮮出兵では先鋒を務める一方、明との講和を進めたが実らず、関ヶ原では西軍に属して敗れ、処刑された。",
+    "biographyLength": 95,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://online.bunka.go.jp/heritages/detail/206723",
+      "https://utobiyori.jp/spot/utojokinsei/",
+      "https://kotobank.jp/word/%E5%B0%8F%E8%A5%BF%E8%A1%8C%E9%95%B7-65676",
       "https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E8%A1%8C%E9%95%B7",
       "https://ja.wikipedia.org/w/index.php?oldid=110708249"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：出生1558と不明を辞典ごとに記録。通称弥九郎は辞典本文確認、如信や洗礼名の各表記は全件照合未了。所領石高も資料・時点で差があり略歴に採らない。行長の近世宇土城と国史跡の中世宇土城は別の城域。市観光本文の「中世」という新城表記は見出し・文化庁との不整合として保留。"
   },
   {
     "id": "sg-master-0891",
@@ -8016,33 +8034,35 @@
     "name": "坂崎直盛",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "unverified",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期から江戸初期に活動した大名。宇喜多秀家・徳川家康・徳川秀忠に仕えた。石見津和野藩主を務めた。宇喜多氏・坂崎氏の一族にあたる。父は宇喜多忠家。官位には従五位下・左京亮・出羽守・対馬守が記される。",
-    "biographyLength": 99,
+    "biography": "宇喜多家を離れて徳川家康に仕え、関ヶ原の功績で津和野藩主となった大名。城の改修と城下町の整備を進めた。大坂の陣では千姫を家康のもとへ護送。1616年の千姫をめぐる事件後に没した。",
+    "biographyLength": 89,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://shimane-kodaibunka.jp/history/history-3056/",
+      "https://kunishitei.bunka.go.jp/heritage/detail/401/2206",
       "https://ja.wikipedia.org/wiki/%E5%9D%82%E5%B4%8E%E7%9B%B4%E7%9B%9B",
       "https://ja.wikipedia.org/w/index.php?oldid=110983367"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：研究員は元和期の武具引渡文書に酒井出羽守を確認。改姓の正確な時期・家の後続は未解明。成正を記す文化財DBと直盛表記は同じ城主文脈だが、全改名順序を確定しない。千姫救出の細部や殺害方法は採らない。"
   },
   {
     "id": "sg-master-0942",
@@ -8918,33 +8938,39 @@
     "name": "柴田勝家",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "aliases": "partially_verified",
+      "birth": "disputed",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "partially_verified",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期に活動した大名。織田信秀・織田信行・織田信長・織田秀信に仕えた。柴田氏の一族にあたる。父は柴田勝義。",
-    "biographyLength": 53,
+    "biography": "織田信長の重臣で、越前を治めた武将。北ノ庄城と城下町を整え、検地などの領国支配に取り組んだ。本能寺の変後は羽柴秀吉と対立。1583年の賤ヶ岳の戦いで敗れて北ノ庄へ退き、同年に没した。",
+    "biographyLength": 91,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.pref.fukui.lg.jp/muse/Cul-Hist/kikaku/kako/2023/20230729_onishibata.html",
+      "https://www.city.fukui-sakai.lg.jp/kokuhou/maruokajyou/kihonjohhoh.html",
+      "https://www.city.fukui.lg.jp/kankou/kankou/sisetu/kitanosyou.html?path=C50000/C50100/C50103/P9453",
+      "https://www.nagahama-sengoku.jp/story/shichihonyari/",
+      "https://www.city.tsuruga.lg.jp/page/4438.html",
+      "https://www.city.fukui.lg.jp/sisei/kohou/hp/site-p.html",
       "https://ja.wikipedia.org/wiki/%E6%9F%B4%E7%94%B0%E5%8B%9D%E5%AE%B6",
       "https://ja.wikipedia.org/w/index.php?oldid=111480540"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：出生原値1522／1530は期間端点の機械抽出も含み、独立した二説と断定しない。市の1523？を追加候補として保持。勝豊への領地授与を勝家の丸岡居住としない。"
   },
   {
     "id": "sg-7a9ec141203b",
@@ -8952,33 +8978,40 @@
     "name": "柴田勝豊",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
       "birth": "unverified",
       "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "partially_verified",
+      "lifePlaces": "partially_verified",
+      "materialDating": "disputed"
     },
-    "biography": "戦国期に活動した大名。柴田勝家・豊臣秀吉に仕えた。吉田氏・柴田氏の一族にあたる。没年は1583年と記録される。",
-    "biographyLength": 55,
+    "biography": "柴田勝家の甥で、越前の丸岡城主。豊原を拠点とし、1576年に丸岡へ移って築城したとされる。本能寺の変後は長浜城に入り、城下や寺社の支配に携わったが、羽柴秀吉に攻められて降伏した。",
+    "biographyLength": 89,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.fukui-sakai.lg.jp/kokuhou/maruokajyou/kihonjohhoh.html",
+      "https://www.nagahama-sengoku.jp/story/shichihonyari/",
+      "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000250921",
+      "https://www.city.fukui-sakai.lg.jp/kokuhou/maruokajyou/akiraka-jijitsu.html",
+      "https://bunkazai.pref.fukui.lg.jp/search_category/content?detail_id=379-0",
+      "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/chosakuken.html",
       "https://ja.wikipedia.org/wiki/%E6%9F%B4%E7%94%B0%E5%8B%9D%E8%B1%8A",
       "https://ja.wikipedia.org/w/index.php?oldid=107433875"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：図書館回答の天正8年(1580)と清須会議後の文脈に不整合。寄進等の年を1582へ自動訂正しない。現存丸岡天守は市調査で本多成重期。県解説の1576天守築造・現存最古とは差がある。"
   },
   {
     "id": "sg-master-1045",
@@ -9024,30 +9057,36 @@
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
+      "birth": "verified",
+      "death": "partially_verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
       "identity": "partially_verified",
       "sourceRelevance": "partially_verified",
-      "license": "requires_review"
+      "license": "partially_verified",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期に活動した武将。島津貴久・島津義久に仕えた。島津氏の一族にあたる。父は島津貴久。官位には中務大輔・中書が記される。",
-    "biographyLength": 60,
+    "biography": "島津貴久の四男で、兄の義久を支えた武将。日向の佐土原城を居城とし、沖田畷では有馬氏とともに龍造寺軍を破った。戸次川でも島津軍を率いて豊臣方に勝利したが、豊臣政権への降伏後に急死した。",
+    "biographyLength": 91,
     "issues": [
       "full_historical_review_pending",
-      "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed"
+      "alias_identity_review_pending"
     ],
     "sourceUrls": [
       "https://www.hi.u-tokyo.ac.jp/publication/syoho/51/pub_komonjo-iewake-16-05.html",
+      "https://hioki-pr-bushotai.com/pr-member/",
+      "https://online.bunka.go.jp/heritages/detail/212050",
+      "https://www.mlit.go.jp/tagengo-db/R2-00440.html",
+      "https://oitacity-archive.jp/tsurugajou/",
+      "https://www.mlit.go.jp/tagengo-db/attention.html",
+      "https://oitacity-archive.jp/kiyaku/",
       "https://id.ndl.go.jp/auth/ndlna/001142969",
       "https://ja.wikipedia.org/wiki/%E5%B3%B6%E6%B4%A5%E5%AE%B6%E4%B9%85",
       "https://ja.wikipedia.org/w/index.php?oldid=111382195"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": "島津忠恒が後年名乗った家久とは別人。東大史料編纂所は義弘の末弟の家久と忠恒を区別する方針を明記。人物全体・生没年・旧略歴は今回未精査。"
+    "reviewNotes": "島津忠恒が後年名乗った家久とは別人。東大史料編纂所は義弘の末弟の家久と忠恒を区別する方針を明記。人物全体・生没年・旧略歴は今回未精査。\n2026-10-30追記：忠恒改名後の家久と自動統合しない。佐土原入城年・没年は未取得の市資料を再照合。戸次川の1586/1587は和暦年と月日換算を区別。毒殺説を史実として採用しない。"
   },
   {
     "id": "sg-f2f56875ef01",
@@ -12160,33 +12199,36 @@
     "name": "富田一白",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "unverified",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期に活動した大名。織田信長・豊臣秀吉・豊臣秀頼に仕えた。富田氏の一族にあたる。父は富田助知。官位には従五位下左近将監が記される。",
-    "biographyLength": 66,
+    "biography": "豊臣秀吉の側近として、織田信雄や徳川家康との和平交渉を担った武将。富田知信とも呼ばれ、茶人として千利休とも交流した。1595年に子の信高と安濃津城へ入り、津の支配に当たった。1599年没。",
+    "biographyLength": 94,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://online.bunka.go.jp/db/heritages/detail/529941",
+      "https://www.city.uwajima.ehime.jp/site/sizen-bunka/1516tomita.html",
+      "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/004/602/kawaraban2.pdf",
       "https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E4%B8%80%E7%99%BD",
       "https://ja.wikipedia.org/w/index.php?oldid=98425724"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：一白＝知信を文化遺産DBで照合してから市の知信記録へ接続。信高の別名欄にも知信があるが父子を自動統合しない。一白の号・諱の位置付け、他名の順序は未解決。"
   },
   {
     "id": "sg-master-1429",
@@ -12194,33 +12236,37 @@
     "name": "富田信高",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "unverified",
+      "lifePlaces": "partially_verified",
+      "holdings": "disputed"
     },
-    "biography": "安土桃山期から江戸初期に活動した大名。豊臣秀吉・徳川家康・徳川秀忠に仕えた。伊勢津藩主・伊予宇和島藩主を務めた。富田氏の一族にあたる。父は富田一白。官位には従五位下信濃守・従四位下が記される。",
-    "biographyLength": 96,
+    "biography": "富田一白の子で、安濃津城を継いだ大名。1600年に徳川方として西軍の攻撃を受け、開城後は専修寺や高野山に身を寄せた。のち津へ戻り、1608年に伊予板島へ移ったが、1613年に改易され岩城へ移された。",
+    "biographyLength": 99,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.uwajima.ehime.jp/site/sizen-bunka/1516tomita.html",
+      "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/004/602/kawaraban2.pdf",
+      "https://www.pref.ehime.jp/ehimenotakara/373.html",
       "https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E4%BF%A1%E9%AB%98",
       "https://ja.wikipedia.org/w/index.php?oldid=110630079"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：宇和島の石高は市10万石／津市12万石で不一致。略歴には石高を採用しない。父知信の交渉・利休交流を信高へ転用しない。配流と閉居という資料語の違いは保持。"
   },
   {
     "id": "sg-ebd50519deb3",
@@ -14176,32 +14222,38 @@
     "name": "蜂須賀家政",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "aliases": "partially_verified",
+      "birth": "verified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "partially_verified"
     },
-    "biography": "戦国期から江戸初期に活動した大名。織田信長・豊臣秀吉・豊臣秀頼・徳川家康・徳川秀忠・徳川家光に仕えた。蜂須賀氏の一族にあたる。父は蜂須賀正勝。",
-    "biographyLength": 71,
+    "biography": "豊臣秀吉から阿波を与えられ、一宮城を経て徳島に本拠を移した大名。徳島城を築くとともに商人を招いて城下町を整えた。関ヶ原の際には子の至鎮を徳川方につかせ、隠居後も蜂須賀家の藩政を支えた。",
+    "biographyLength": 92,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed"
+      "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.tokushima.tokushima.jp/johaku/meihin/page02-00/tokushimahistory01.html",
+      "https://objecthub.keio.ac.jp/ja/object/328",
+      "https://kotobank.jp/word/%E8%9C%82%E9%A0%88%E8%B3%80%E5%AE%B6%E6%94%BF-114794",
+      "https://www.city.tokushima.tokushima.jp/smph/johaku/meihin/page02-00/tokushimahistory12.html",
+      "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi?type=0&gengo=a000&year=1639&month=2&day=2&jg=1&div=1&divu=3&len=1&lenu=3&gen=1",
+      "https://www.city.tokushima.tokushima.jp/kankou/bunkazai/ichinomiya2018.html",
       "https://ja.wikipedia.org/wiki/%E8%9C%82%E9%A0%88%E8%B3%80%E5%AE%B6%E6%94%BF",
       "https://ja.wikipedia.org/w/index.php?oldid=110173912"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-30追記：没年は正本1639に対し徳島城博物館・慶應の1638、辞典にも両表記。慶應は寛永15年12月30日と記すため旧暦年末と西暦年の対応が論点。独立換算未了として両候補保持。関ヶ原の子至鎮の参戦・1615淡路加増を家政本人の参戦や個人拝領にしない。 追加照合：国立天文台の暦日DBで寛永15年12月30日＝グレゴリオ暦1639-02-02を確認。独立換算未了という前段の状態を更新し、没年1639を確認済みとする。資料表記1638は消さず暦基準を区別。"
   },
   {
     "id": "sg-b3ad604d8563",

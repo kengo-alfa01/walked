@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "summary": {
-    "events": 100,
-    "candidatePlaces": 71,
-    "people": 15,
+    "events": 154,
+    "candidatePlaces": 100,
+    "people": 28,
     "selected": 624,
-    "peopleWithoutExtraction": 609,
+    "peopleWithoutExtraction": 596,
     "completeLifeTimelines": 0,
     "publishedSites": 0,
     "publishedLinks": 0,
@@ -2861,6 +2861,1540 @@
       "approvalStatus": "pending_user_review",
       "previousMainBaseCandidateId": null,
       "unresolved": "本文は6支城をまとめて説明。本人の入城・在城、新規創建か既存城の改修か、個別配置年は未確認。"
+    },
+    {
+      "eventId": "life-0820-001",
+      "personId": "sg-master-0820",
+      "rosterId": "820",
+      "personName": "黒田長政",
+      "candidateId": "plc-nagahama-castle",
+      "dateLabel": "1577年",
+      "yearStart": 1577,
+      "yearEnd": 1577,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "織田方への人質として長浜城で養育される。",
+      "relationTypes": [
+        "人質"
+      ],
+      "sourceRefs": [
+        "20261030:kuroda-museum"
+      ],
+      "sourceLocator": "生年・没年、松寿・吉兵衛尉、1577長浜人質、1582巣雲塚初陣（場所不詳）、九州・朝鮮・関ヶ原、家督継承、大坂城接収。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "父孝高の有岡幽閉と区別。竹中重治の救命逸話は家譜由来のため確定イベントにしない。"
+    },
+    {
+      "eventId": "life-0820-002",
+      "personId": "sg-master-0820",
+      "rosterId": "820",
+      "personName": "黒田長政",
+      "candidateId": "plc-sukumotsuka-castle",
+      "dateLabel": "1582年",
+      "yearStart": 1582,
+      "yearEnd": 1582,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "巣雲塚城で初陣を遂げたと博物館解説に記される。",
+      "relationTypes": [
+        "初陣"
+      ],
+      "sourceRefs": [
+        "20261030:kuroda-museum"
+      ],
+      "sourceLocator": "生年・没年、松寿・吉兵衛尉、1577長浜人質、1582巣雲塚初陣（場所不詳）、九州・朝鮮・関ヶ原、家督継承、大坂城接収。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "城の現在地は資料でも不詳。"
+    },
+    {
+      "eventId": "life-0820-003",
+      "personId": "sg-master-0820",
+      "rosterId": "820",
+      "personName": "黒田長政",
+      "candidateId": "plc-nakatsu-castle",
+      "dateLabel": "1589年家督継承（入居年は未確認）",
+      "yearStart": 1589,
+      "yearEnd": 1589,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "家督を継いで中津を拠点とする。",
+      "relationTypes": [
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261030:kuroda-museum",
+        "20261030:fukuoka-castle"
+      ],
+      "sourceLocator": "生年・没年、松寿・吉兵衛尉、1577長浜人質、1582巣雲塚初陣（場所不詳）、九州・朝鮮・関ヶ原、家督継承、大坂城接収。／中津12万石→筑前52万石、1601から7年がかりの築城。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1589は継承年。中津への実際の入居年とは区別。築城者孝高との区別を維持。"
+    },
+    {
+      "eventId": "life-0820-004",
+      "personId": "sg-master-0820",
+      "rosterId": "820",
+      "personName": "黒田長政",
+      "candidateId": "plc-sekigahara",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "東軍で戦い、調略にも関与する。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030:kuroda-museum"
+      ],
+      "sourceLocator": "生年・没年、松寿・吉兵衛尉、1577長浜人質、1582巣雲塚初陣（場所不詳）、九州・朝鮮・関ヶ原、家督継承、大坂城接収。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0820-005",
+      "personId": "sg-master-0820",
+      "rosterId": "820",
+      "personName": "黒田長政",
+      "candidateId": "plc-osaka-castle",
+      "dateLabel": "1600年関ヶ原後",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "福島正則とともに大坂城を接収する。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261030:kuroda-museum"
+      ],
+      "sourceLocator": "生年・没年、松寿・吉兵衛尉、1577長浜人質、1582巣雲塚初陣（場所不詳）、九州・朝鮮・関ヶ原、家督継承、大坂城接収。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "大坂の陣のイベントではない。"
+    },
+    {
+      "eventId": "life-0820-006",
+      "personId": "sg-master-0820",
+      "rosterId": "820",
+      "personName": "黒田長政",
+      "candidateId": "plc-najima-castle",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "筑前へ移封され名島城に入る。",
+      "relationTypes": [
+        "転封",
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261030:najima",
+        "20261030:kuroda-pref"
+      ],
+      "sourceLocator": "1600黒田入城、1601福岡築城開始、1607完成・移転とする紹介文。／長政の1568～1623、父孝高の長男、1589家督継承、朝鮮出兵・1600筑前入国。父の事績を区別。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-nakatsu-castle",
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0820-007",
+      "personId": "sg-master-0820",
+      "rosterId": "820",
+      "personName": "黒田長政",
+      "candidateId": "plc-fukuoka-castle",
+      "dateLabel": "1601年",
+      "yearStart": 1601,
+      "yearEnd": 1601,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "福岡城の築城を開始する。",
+      "relationTypes": [
+        "築城"
+      ],
+      "sourceRefs": [
+        "20261030:najima",
+        "20261030:fukuoka-castle"
+      ],
+      "sourceLocator": "1600黒田入城、1601福岡築城開始、1607完成・移転とする紹介文。／中津12万石→筑前52万石、1601から7年がかりの築城。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0820-008",
+      "personId": "sg-master-0820",
+      "rosterId": "820",
+      "personName": "黒田長政",
+      "candidateId": "plc-fukuoka-castle",
+      "dateLabel": "移居年1602／1607（資料差・期間ではない）",
+      "yearStart": 1602,
+      "yearEnd": 1607,
+      "datePrecision": "interval",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "名島から福岡へ居城を移す。",
+      "relationTypes": [
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261030:najima",
+        "20261030:kyusan"
+      ],
+      "sourceLocator": "1600黒田入城、1601福岡築城開始、1607完成・移転とする紹介文。／PDF40頁／印刷33頁「名島城址」。慶長7年（1602）に長政が福岡城へ移り名島廃城と記す。引用原著は未読。",
+      "relationStatus": "disputed",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-najima-castle",
+      "unresolved": "大学掲載書は1602移居、市は1607完成・移転とする。工事段階と居住開始の差を検証するまで年を統一しない。"
+    },
+    {
+      "eventId": "life-1634-001",
+      "personId": "sg-248aba9a5613",
+      "rosterId": "1634",
+      "personName": "蜂須賀家政",
+      "candidateId": "plc-awa-ichinomiya",
+      "dateLabel": "1585年",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "阿波を与えられ、一宮城を支配の拠点とする。",
+      "relationTypes": [
+        "居城",
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261030:ichinomiya",
+        "20261030:tokushima-town"
+      ],
+      "sourceLocator": "1585家政入城、石垣整備、翌年徳島へ本拠移転。廃城年や現在の指定状況は今回の確認対象外。／1585家政の阿波拝領、父正勝との区別、徳島築城・商人誘致・城下町形成。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1634-002",
+      "personId": "sg-248aba9a5613",
+      "rosterId": "1634",
+      "personName": "蜂須賀家政",
+      "candidateId": "plc-awa-ichinomiya",
+      "dateLabel": "具体工期未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "一宮城の石垣などを整備する。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261030:ichinomiya"
+      ],
+      "sourceLocator": "1585家政入城、石垣整備、翌年徳島へ本拠移転。廃城年や現在の指定状況は今回の確認対象外。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1634-003",
+      "personId": "sg-248aba9a5613",
+      "rosterId": "1634",
+      "personName": "蜂須賀家政",
+      "candidateId": "plc-tokushima-castle",
+      "dateLabel": "1586年",
+      "yearStart": 1586,
+      "yearEnd": 1586,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "一宮から徳島へ本拠を移す。",
+      "relationTypes": [
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261030:ichinomiya"
+      ],
+      "sourceLocator": "1585家政入城、石垣整備、翌年徳島へ本拠移転。廃城年や現在の指定状況は今回の確認対象外。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-awa-ichinomiya",
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-1634-004",
+      "personId": "sg-248aba9a5613",
+      "rosterId": "1634",
+      "personName": "蜂須賀家政",
+      "candidateId": "plc-tokushima-castle",
+      "dateLabel": "1585年阿波拝領後（詳細工期未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "猪山に徳島城の築城を進める。",
+      "relationTypes": [
+        "築城"
+      ],
+      "sourceRefs": [
+        "20261030:tokushima-town"
+      ],
+      "sourceLocator": "1585家政の阿波拝領、父正勝との区別、徳島築城・商人誘致・城下町形成。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1585を全工事完了年としない。"
+    },
+    {
+      "eventId": "life-1634-005",
+      "personId": "sg-248aba9a5613",
+      "rosterId": "1634",
+      "personName": "蜂須賀家政",
+      "candidateId": "plc-tokushima-town",
+      "dateLabel": "築城と並行（具体年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "屋敷地の提供などにより町人を招き、城下町を整える。",
+      "relationTypes": [
+        "城下町整備"
+      ],
+      "sourceRefs": [
+        "20261030:tokushima-town"
+      ],
+      "sourceLocator": "1585家政の阿波拝領、父正勝との区別、徳島築城・商人誘致・城下町形成。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0886-001",
+      "personId": "sg-445a4d61441d",
+      "rosterId": "886",
+      "personName": "小西行長",
+      "candidateId": "plc-murotsu-region",
+      "dateLabel": "1581年（辞典記載）",
+      "yearStart": 1581,
+      "yearEnd": 1581,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "室津の支配に携わる。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261030:konishi-dict"
+      ],
+      "sourceLocator": "日本大百科の生年不明・水軍・講和交渉・処刑。山川日本史小辞典1558、1581室津・1585小豆島。講談社日本人名大辞典は生年不明・1600没・弥九郎。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "山川日本史小辞典本文。原史料未読、本人の居館や訪問を確定しない。"
+    },
+    {
+      "eventId": "life-0886-002",
+      "personId": "sg-445a4d61441d",
+      "rosterId": "886",
+      "personName": "小西行長",
+      "candidateId": "plc-shodoshima",
+      "dateLabel": "1585年（辞典記載）",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "小豆島などを与えられる。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261030:konishi-dict"
+      ],
+      "sourceLocator": "日本大百科の生年不明・水軍・講和交渉・処刑。山川日本史小辞典1558、1581室津・1585小豆島。講談社日本人名大辞典は生年不明・1600没・弥九郎。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "城館への入居を推定しない。"
+    },
+    {
+      "eventId": "life-0886-003",
+      "personId": "sg-445a4d61441d",
+      "rosterId": "886",
+      "personName": "小西行長",
+      "candidateId": "plc-uto-earlymodern",
+      "dateLabel": "1588年（文化庁解説の築城年表示）",
+      "yearStart": 1588,
+      "yearEnd": 1588,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "中世城の東に新しい宇土城を築き本拠とする。",
+      "relationTypes": [
+        "築城",
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261030:uto-bunka",
+        "20261030:uto-tourism"
+      ],
+      "sourceLocator": "解説末尾：1588行長築城の宇土城は指定された中世城跡の東にあり、指定範囲に含まれない。／行長の秀吉仕官・1588領主・新城と町づくり、朝鮮出兵・関ヶ原西軍・処刑、弟隼人と清正の工事を区別。本文に新城を中世と呼ぶ不整合があり見出し・文化庁解説と照合。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1588は解説の年表示。着工・完成・入居の厳密な日付を同年に一括確定しない。国史跡中世城とは別城域。"
+    },
+    {
+      "eventId": "life-0886-004",
+      "personId": "sg-445a4d61441d",
+      "rosterId": "886",
+      "personName": "小西行長",
+      "candidateId": "plc-uto-town",
+      "dateLabel": "宇土領主期（具体年未確認）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "宇土の町づくりに取り組む。",
+      "relationTypes": [
+        "城下町整備"
+      ],
+      "sourceRefs": [
+        "20261030:uto-tourism"
+      ],
+      "sourceLocator": "行長の秀吉仕官・1588領主・新城と町づくり、朝鮮出兵・関ヶ原西軍・処刑、弟隼人と清正の工事を区別。本文に新城を中世と呼ぶ不整合があり見出し・文化庁解説と照合。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": ""
+    },
+    {
+      "eventId": "life-0886-005",
+      "personId": "sg-445a4d61441d",
+      "rosterId": "886",
+      "personName": "小西行長",
+      "candidateId": "plc-sekigahara",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の年単位表示。旧暦月日の独立換算なし。",
+      "event": "西軍として参戦する。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030:uto-tourism",
+        "20261030:konishi-dict"
+      ],
+      "sourceLocator": "行長の秀吉仕官・1588領主・新城と町づくり、朝鮮出兵・関ヶ原西軍・処刑、弟隼人と清正の工事を区別。本文に新城を中世と呼ぶ不整合があり見出し・文化庁解説と照合。／日本大百科の生年不明・水軍・講和交渉・処刑。山川日本史小辞典1558、1581室津・1585小豆島。講談社日本人名大辞典は生年不明・1600没・弥九郎。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認または一部確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "具体陣地の位置は未確認。"
+    },
+    {
+      "eventId": "life-1046-001",
+      "personId": "sg-41b3835895a3",
+      "rosterId": "1046",
+      "personName": "島津家久",
+      "candidateId": "plc-sadowara-castle",
+      "dateLabel": "1579年（文化庁記載、追加照合待ち）",
+      "yearStart": 1579,
+      "yearEnd": 1579,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。戸次川は同資料の和暦日付と西暦換算日を併記。",
+      "event": "佐土原城に入る。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261030-02:sadowara"
+      ],
+      "sourceLocator": "解説：1579家久入城、次代豊久、1603以久を区別。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "partially_verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "条件部分確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1577とする検索抄録は本文未取得。入城と支配開始の違いも検証する。"
+    },
+    {
+      "eventId": "life-1046-002",
+      "personId": "sg-41b3835895a3",
+      "rosterId": "1046",
+      "personName": "島津家久",
+      "candidateId": "plc-okitanawate",
+      "dateLabel": "1584年",
+      "yearStart": 1584,
+      "yearEnd": 1584,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。戸次川は同資料の和暦日付と西暦換算日を併記。",
+      "event": "有馬氏と連合して龍造寺軍と戦い、勝利する。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030-02:okita"
+      ],
+      "sourceLocator": "日本語解説：1547～1587、義久の弟、1584指揮。有馬との連合軍が龍造寺軍に勝利。兵数・細部は未採用。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "条件部分確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "具体的本陣・現地範囲未確認。供養塔は別作業対象のため抽出しない。"
+    },
+    {
+      "eventId": "life-1046-003",
+      "personId": "sg-41b3835895a3",
+      "rosterId": "1046",
+      "personName": "島津家久",
+      "candidateId": "plc-hetsugigawa",
+      "dateLabel": "天正14年12月12日（資料換算1587年1月20日）",
+      "yearStart": 1587,
+      "yearEnd": 1587,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。戸次川は同資料の和暦日付と西暦換算日を併記。",
+      "event": "島津軍を率いて豊臣方の軍勢と戦う。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030-02:hetsugi"
+      ],
+      "sourceLocator": "オープニング：天正14年12月12日（1587年1月20日）、家久率いる島津勢。エンディングは和暦年1586を併記。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "source_conversion_checked",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "条件部分確認・事実の独自要約のみ",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "暦日DBによる独立換算は未実施。鶴賀城への本人の直接攻城は別途確認。"
+    },
+    {
+      "eventId": "life-0544-001",
+      "personId": "sg-9147212ab4a4",
+      "rosterId": "544",
+      "personName": "織田信包",
+      "candidateId": "plc-ise-ueno-castle",
+      "dateLabel": "1568年養子入り後（入城年未確定）",
+      "yearStart": 1568,
+      "yearEnd": null,
+      "datePrecision": "after",
+      "calendarBasis": "出典の年表示。日付換算なし。",
+      "event": "長野氏養子となった後、上野城を居城とする。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261030-03:tsu-excavation"
+      ],
+      "sourceLocator": "PDF1頁：1568長野養子・長野信良→織田信包、上野城、津城は遅くとも1583年11月居城。1580移転・五重天守は同時代史料未確認。2頁は1594没収後柏原と略記、丹波市1598との関係留保。3～4頁の天守台は富田期とする成果。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "partially_verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "伊賀上野城と別。入城日は未確認。"
+    },
+    {
+      "eventId": "life-0544-002",
+      "personId": "sg-9147212ab4a4",
+      "rosterId": "544",
+      "personName": "織田信包",
+      "candidateId": "plc-tsu-castle",
+      "dateLabel": "遅くとも1583年11月には居城（移居年不詳）",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の年表示。日付換算なし。",
+      "event": "上野城から津城へ拠点を移す。",
+      "relationTypes": [
+        "居城",
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261030-03:tsu-excavation"
+      ],
+      "sourceLocator": "PDF1頁：1568長野養子・長野信良→織田信包、上野城、津城は遅くとも1583年11月居城。1580移転・五重天守は同時代史料未確認。2頁は1594没収後柏原と略記、丹波市1598との関係留保。3～4頁の天守台は富田期とする成果。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "terminus_ante_quem_1583_11",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-ise-ueno-castle",
+      "unresolved": "1580移転説は後世記録に基づく。数値年を移転年として推定しない。五重天守も未確定。"
+    },
+    {
+      "eventId": "life-0544-003",
+      "personId": "sg-9147212ab4a4",
+      "rosterId": "544",
+      "personName": "織田信包",
+      "candidateId": "plc-kaibara-region",
+      "dateLabel": "1598年",
+      "yearStart": 1598,
+      "yearEnd": 1598,
+      "datePrecision": "year",
+      "calendarBasis": "出典の年表示。日付換算なし。",
+      "event": "柏原で所領を与えられる。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261030-03:tamba-history"
+      ],
+      "sourceLocator": "柏原藩の歴史：1598信包へ3万6千石、前期3代と後期信休系を区別。現存陣屋は後期の造営・再建。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "柏原到着日・前期館所在地未確認。後期陣屋へ対応させない。津市資料の1594後移転との時点差を追加照合。"
+    },
+    {
+      "eventId": "life-0544-004",
+      "personId": "sg-9147212ab4a4",
+      "rosterId": "544",
+      "personName": "織田信包",
+      "candidateId": "plc-osaka-castle",
+      "dateLabel": "1614年",
+      "yearStart": 1614,
+      "yearEnd": 1614,
+      "datePrecision": "year",
+      "calendarBasis": "出典の年表示。日付換算なし。",
+      "event": "大坂城内で死去する。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261030-03:tamba-lords"
+      ],
+      "sourceLocator": "PDF1頁：信長弟、北伊勢経営、秀吉所属、1594没収・剃髪謹慎、1614大坂城内死去。信則・信勝と世代を区別。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "入城時期・居室・死因は未確認。戦死とは記録しない。"
+    },
+    {
+      "eventId": "life-0213-001",
+      "personId": "sg-master-0213",
+      "rosterId": "213",
+      "personName": "石川康勝",
+      "candidateId": "plc-osaka-campaign",
+      "dateLabel": "1614年・大坂冬の陣",
+      "yearStart": 1614,
+      "yearEnd": 1614,
+      "datePrecision": "year",
+      "calendarBasis": "出典の年表示。日付換算なし。",
+      "event": "豊臣方に加わる。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030-03:matsumoto"
+      ],
+      "sourceLocator": "年表1614欄：数正の2男康勝が豊臣方へ加わる。本文と歴代城主表は数正・康長を記す。HTMLを直接取得して該当行確認。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "陣地・居室・戦死地点は未確認。松本城や佐伯を本人の居城・配流地へ転用しない。"
+    },
+    {
+      "eventId": "life-0826-001",
+      "personId": "sg-master-0826",
+      "rosterId": "826",
+      "personName": "桑山重晴",
+      "candidateId": "plc-shizugatake",
+      "dateLabel": "1583年",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示。月日換算なし。",
+      "event": "賤ヶ岳の合戦で豊臣方として軍功を挙げた。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030-04:katsuragi"
+      ],
+      "sourceLocator": "開催にあたって第1～3段落。重晴の1583賤ヶ岳軍功、1585紀伊入部・和歌山築城、城代から城主。一晴の1601転封・新庄陣屋と区別。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "合戦活動範囲・築城担当箇所・就任年月を追加照合。現存建造物を桑山期と断定しない。"
+    },
+    {
+      "eventId": "life-0826-002",
+      "personId": "sg-master-0826",
+      "rosterId": "826",
+      "personName": "桑山重晴",
+      "candidateId": "plc-wakayama-castle",
+      "dateLabel": "1585年",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦年表示。月日換算なし。",
+      "event": "紀伊入部後、藤堂高虎らと和歌山城を築いた。",
+      "relationTypes": [
+        "築城"
+      ],
+      "sourceRefs": [
+        "20261030-04:katsuragi"
+      ],
+      "sourceLocator": "開催にあたって第1～3段落。重晴の1583賤ヶ岳軍功、1585紀伊入部・和歌山築城、城代から城主。一晴の1601転封・新庄陣屋と区別。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified_year",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "合戦活動範囲・築城担当箇所・就任年月を追加照合。現存建造物を桑山期と断定しない。"
+    },
+    {
+      "eventId": "life-0826-003",
+      "personId": "sg-master-0826",
+      "rosterId": "826",
+      "personName": "桑山重晴",
+      "candidateId": "plc-wakayama-castle",
+      "dateLabel": "築城後・城代および城主就任年は未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦年表示。月日換算なし。",
+      "event": "和歌山城の城代を務め、後に城主となった。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261030-04:katsuragi"
+      ],
+      "sourceLocator": "開催にあたって第1～3段落。重晴の1583賤ヶ岳軍功、1585紀伊入部・和歌山築城、城代から城主。一晴の1601転封・新庄陣屋と区別。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "unverified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認。史実の独自要約のみ。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "合戦活動範囲・築城担当箇所・就任年月を追加照合。現存建造物を桑山期と断定しない。"
+    },
+    {
+      "eventId": "life-1038-001",
+      "personId": "sg-2d3f90c28c8f",
+      "rosterId": "1038",
+      "personName": "柴田勝家",
+      "candidateId": "plc-kitanosho",
+      "dateLabel": "1575年",
+      "yearStart": 1575,
+      "yearEnd": 1575,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "北ノ庄城の築造を始めた。",
+      "relationTypes": [
+        "築城"
+      ],
+      "sourceRefs": [
+        "20261030-05:kitanosho"
+      ],
+      "sourceLocator": "冒頭の勝家1523？～1583、1575築城開始。北庄遺構と結城秀康による福井城造営の層位を区別。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "現在地・既存史跡との対応・訪問範囲を未確認。"
+    },
+    {
+      "eventId": "life-1038-002",
+      "personId": "sg-2d3f90c28c8f",
+      "rosterId": "1038",
+      "personName": "柴田勝家",
+      "candidateId": "plc-kitanosho",
+      "dateLabel": "年未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "北庄の城下町建設や越前の検地・知行制に取り組んだ。",
+      "relationTypes": [
+        "城下町整備",
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261030-05:katsuie-museum"
+      ],
+      "sourceLocator": "展示趣旨と第2・3章。信長重臣、鬼柴田、北庄城下町建設・検地・知行制、秀吉との対立。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "unverified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "検地の実施範囲・個別年は未確認。城下と城跡の訪問単位は未統合。"
+    },
+    {
+      "eventId": "life-1038-003",
+      "personId": "sg-2d3f90c28c8f",
+      "rosterId": "1038",
+      "personName": "柴田勝家",
+      "candidateId": "plc-genbao",
+      "dateLabel": "1583年",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "賤ヶ岳の戦いで本陣を置いた。",
+      "relationTypes": [
+        "本陣"
+      ],
+      "sourceRefs": [
+        "20261030-05:genbao",
+        "20261030-05:nagahama"
+      ],
+      "sourceLocator": "本文の賤ヶ岳合戦時の勝家本陣、城からの撤退。PDF本体は未読。 ／ 賤ヶ岳の戦い節：1582長浜入城・降伏、1583勝家の玄蕃尾着陣・北庄撤退。大岩山の奇襲主体は佐久間盛政。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "現在地・既存史跡との対応・訪問範囲を未確認。"
+    },
+    {
+      "eventId": "life-1038-004",
+      "personId": "sg-2d3f90c28c8f",
+      "rosterId": "1038",
+      "personName": "柴田勝家",
+      "candidateId": "plc-shizugatake",
+      "dateLabel": "1583年",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "秀吉との戦いに敗れ北庄へ退いた。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030-05:nagahama"
+      ],
+      "sourceLocator": "賤ヶ岳の戦い節：1582長浜入城・降伏、1583勝家の玄蕃尾着陣・北庄撤退。大岩山の奇襲主体は佐久間盛政。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "佐久間盛政の大岩山奇襲を勝家本人の奇襲としない。"
+    },
+    {
+      "eventId": "life-1038-005",
+      "personId": "sg-2d3f90c28c8f",
+      "rosterId": "1038",
+      "personName": "柴田勝家",
+      "candidateId": "plc-kitanosho",
+      "dateLabel": "1583年",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "賤ヶ岳敗戦後に居城へ撤退した。",
+      "relationTypes": [
+        "居城",
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261030-05:nagahama"
+      ],
+      "sourceLocator": "賤ヶ岳の戦い節：1582長浜入城・降伏、1583勝家の玄蕃尾着陣・北庄撤退。大岩山の奇襲主体は佐久間盛政。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "現在地・既存史跡との対応・訪問範囲を未確認。"
+    },
+    {
+      "eventId": "life-1039-001",
+      "personId": "sg-7a9ec141203b",
+      "rosterId": "1039",
+      "personName": "柴田勝豊",
+      "candidateId": "plc-toyohara",
+      "dateLabel": "1575年",
+      "yearStart": 1575,
+      "yearEnd": 1575,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "豊原に城を築き本拠とした。",
+      "relationTypes": [
+        "築城",
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261030-05:maruoka"
+      ],
+      "sourceLocator": "概要・歴代城主・略年表。勝家の越前支配、甥勝豊への豊原授与、1575豊原築城、1576丸岡移転・築城説、勝豊在任1576–1582。現存天守は寛永期。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "豊原の城を雨乞山城等へ未同定。"
+    },
+    {
+      "eventId": "life-1039-002",
+      "personId": "sg-7a9ec141203b",
+      "rosterId": "1039",
+      "personName": "柴田勝豊",
+      "candidateId": "plc-maruoka",
+      "dateLabel": "1576年",
+      "yearStart": 1576,
+      "yearEnd": 1576,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "豊原から丸岡へ本拠を移し、城を築いたとされる。",
+      "relationTypes": [
+        "居城移転",
+        "築城"
+      ],
+      "sourceRefs": [
+        "20261030-05:maruoka"
+      ],
+      "sourceLocator": "概要・歴代城主・略年表。勝家の越前支配、甥勝豊への豊原授与、1575豊原築城、1576丸岡移転・築城説、勝豊在任1576–1582。現存天守は寛永期。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-toyohara",
+      "unresolved": "城成立の説。現存天守の建築を勝豊へ帰属させない。"
+    },
+    {
+      "eventId": "life-1039-003",
+      "personId": "sg-7a9ec141203b",
+      "rosterId": "1039",
+      "personName": "柴田勝豊",
+      "candidateId": "plc-nagahama-castle",
+      "dateLabel": "1582年",
+      "yearStart": 1582,
+      "yearEnd": 1582,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "清須会議後、勝家領となった長浜城に入った。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261030-05:nagahama"
+      ],
+      "sourceLocator": "賤ヶ岳の戦い節：1582長浜入城・降伏、1583勝家の玄蕃尾着陣・北庄撤退。大岩山の奇襲主体は佐久間盛政。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "現在地・既存史跡との対応・訪問範囲を未確認。"
+    },
+    {
+      "eventId": "life-1039-004",
+      "personId": "sg-7a9ec141203b",
+      "rosterId": "1039",
+      "personName": "柴田勝豊",
+      "candidateId": "plc-nagahama-castle",
+      "dateLabel": "1582年",
+      "yearStart": 1582,
+      "yearEnd": 1582,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "秀吉の攻撃を受けて降伏した。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261030-05:nagahama"
+      ],
+      "sourceLocator": "賤ヶ岳の戦い節：1582長浜入城・降伏、1583勝家の玄蕃尾着陣・北庄撤退。大岩山の奇襲主体は佐久間盛政。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "資料の12月9日は旧暦。月日換算なし。"
+    },
+    {
+      "eventId": "life-1039-005",
+      "personId": "sg-7a9ec141203b",
+      "rosterId": "1039",
+      "personName": "柴田勝豊",
+      "candidateId": "plc-chikubushima",
+      "dateLabel": "図書館回答は天正8年（1580）／前後関係に疑義",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "竹生島の領地を安堵したと図書館回答に記される。",
+      "relationTypes": [
+        "寺社保護"
+      ],
+      "sourceRefs": [
+        "20261030-05:katsutoyo-library"
+      ],
+      "sourceLocator": "回答本文と参考文献。長浜支配、竹生島安堵・浄信寺寄進。天正8年(1580)と清須会議後という前後関係に不整合。長浜市史2巻379–383頁等の原資料は未読。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "unverified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "回答の天正8年(1580)と清須会議後の文脈が整合しない。引用元文書を要照合。本人の訪問は未確認。"
+    },
+    {
+      "eventId": "life-1039-006",
+      "personId": "sg-7a9ec141203b",
+      "rosterId": "1039",
+      "personName": "柴田勝豊",
+      "candidateId": "plc-kinomoto-joshinji",
+      "dateLabel": "図書館回答は天正8年（1580）／前後関係に疑義",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "浄信寺へ米の寄進を申し入れたと図書館回答に記される。",
+      "relationTypes": [
+        "寄進"
+      ],
+      "sourceRefs": [
+        "20261030-05:katsutoyo-library"
+      ],
+      "sourceLocator": "回答本文と参考文献。長浜支配、竹生島安堵・浄信寺寄進。天正8年(1580)と清須会議後という前後関係に不整合。長浜市史2巻379–383頁等の原資料は未読。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "unverified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "回答の天正8年(1580)と清須会議後の文脈が整合しない。引用元文書を要照合。本人の訪問は未確認。"
+    },
+    {
+      "eventId": "life-1425-001",
+      "personId": "sg-master-1425",
+      "rosterId": "1425",
+      "personName": "富田一白",
+      "candidateId": "plc-tsu-castle",
+      "dateLabel": "1595年",
+      "yearStart": 1595,
+      "yearEnd": 1595,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "信高と安濃津城に入り津を治めた。",
+      "relationTypes": [
+        "居城",
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261030-05:tsu-tomita"
+      ],
+      "sourceLocator": "広報津2023-08-16号7頁。1595父子入城、1599継承、1600小山から帰還・籠城・専修寺→高野山→津復帰、宇和島12万石・岩城閉居・1633没。PDF本文テキスト確認。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "現在地・既存史跡との対応・訪問範囲を未確認。"
+    },
+    {
+      "eventId": "life-1429-001",
+      "personId": "sg-master-1429",
+      "rosterId": "1429",
+      "personName": "富田信高",
+      "candidateId": "plc-tsu-castle",
+      "dateLabel": "1595年",
+      "yearStart": 1595,
+      "yearEnd": 1595,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "父知信と安濃津城に入った。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261030-05:tsu-tomita"
+      ],
+      "sourceLocator": "広報津2023-08-16号7頁。1595父子入城、1599継承、1600小山から帰還・籠城・専修寺→高野山→津復帰、宇和島12万石・岩城閉居・1633没。PDF本文テキスト確認。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "現在地・既存史跡との対応・訪問範囲を未確認。"
+    },
+    {
+      "eventId": "life-1429-002",
+      "personId": "sg-master-1429",
+      "rosterId": "1429",
+      "personName": "富田信高",
+      "candidateId": "plc-tsu-castle",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "西軍の包囲に対して籠城し、後に開城した。",
+      "relationTypes": [
+        "居城",
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030-05:tsu-tomita"
+      ],
+      "sourceLocator": "広報津2023-08-16号7頁。1595父子入城、1599継承、1600小山から帰還・籠城・専修寺→高野山→津復帰、宇和島12万石・岩城閉居・1633没。PDF本文テキスト確認。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "現在地・既存史跡との対応・訪問範囲を未確認。"
+    },
+    {
+      "eventId": "life-1429-003",
+      "personId": "sg-master-1429",
+      "rosterId": "1429",
+      "personName": "富田信高",
+      "candidateId": "plc-isshinden-senjuji",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "安濃津城開城後に専修寺へ退いた。",
+      "relationTypes": [
+        "滞在"
+      ],
+      "sourceRefs": [
+        "20261030-05:tsu-tomita"
+      ],
+      "sourceLocator": "広報津2023-08-16号7頁。1595父子入城、1599継承、1600小山から帰還・籠城・専修寺→高野山→津復帰、宇和島12万石・岩城閉居・1633没。PDF本文テキスト確認。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "滞在関係のみ。菩提寺・墓所関係の追加ではない。"
+    },
+    {
+      "eventId": "life-1429-004",
+      "personId": "sg-master-1429",
+      "rosterId": "1429",
+      "personName": "富田信高",
+      "candidateId": "plc-koyasan",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "専修寺から剃髪後に高野山へ移った。",
+      "relationTypes": [
+        "滞在"
+      ],
+      "sourceRefs": [
+        "20261030-05:tsu-tomita"
+      ],
+      "sourceLocator": "広報津2023-08-16号7頁。1595父子入城、1599継承、1600小山から帰還・籠城・専修寺→高野山→津復帰、宇和島12万石・岩城閉居・1633没。PDF本文テキスト確認。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "具体的寺院と滞在場所は未確認。"
+    },
+    {
+      "eventId": "life-1429-005",
+      "personId": "sg-master-1429",
+      "rosterId": "1429",
+      "personName": "富田信高",
+      "candidateId": "plc-tsu-castle",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "東軍の勝利後に安濃津へ戻った。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261030-05:tsu-tomita"
+      ],
+      "sourceLocator": "広報津2023-08-16号7頁。1595父子入城、1599継承、1600小山から帰還・籠城・専修寺→高野山→津復帰、宇和島12万石・岩城閉居・1633没。PDF本文テキスト確認。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "現在地・既存史跡との対応・訪問範囲を未確認。"
+    },
+    {
+      "eventId": "life-1429-006",
+      "personId": "sg-master-1429",
+      "rosterId": "1429",
+      "personName": "富田信高",
+      "candidateId": "plc-uwajima-castle",
+      "dateLabel": "1608年",
+      "yearStart": 1608,
+      "yearEnd": 1608,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "板島へ移り城主となった。",
+      "relationTypes": [
+        "転封",
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261030-05:tomita-portraits",
+        "20261030-05:uwajima-castle"
+      ],
+      "sourceLocator": "父の交渉活動と1599没、子の1600籠城・1608板島入城・1613改易・1633没。堀切未成と大隆寺建立。父子の画像制作・事績を区別。 ／ 解説：1608富田信高入部、1615伊達秀宗入部。現存天守等は後代の改修であり信高築造としない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-tsu-castle",
+      "unresolved": "石高10万／12万の資料差は未解決。現存天守を信高築造としない。"
+    },
+    {
+      "eventId": "life-1429-007",
+      "personId": "sg-master-1429",
+      "rosterId": "1429",
+      "personName": "富田信高",
+      "candidateId": "plc-shionashi-cut",
+      "dateLabel": "年未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "海運のため堀切工事に着手したが改易により未完に終わった。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261030-05:tomita-portraits"
+      ],
+      "sourceLocator": "父の交渉活動と1599没、子の1600籠城・1608板島入城・1613改易・1633没。堀切未成と大隆寺建立。父子の画像制作・事績を区別。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "unverified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "着工年・工事地の具体的範囲は未確認。"
+    },
+    {
+      "eventId": "life-1429-008",
+      "personId": "sg-master-1429",
+      "rosterId": "1429",
+      "personName": "富田信高",
+      "candidateId": "plc-iwaki-exile",
+      "dateLabel": "1613年",
+      "yearStart": 1613,
+      "yearEnd": 1613,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "改易に伴い岩城への配流処分を受けた。",
+      "relationTypes": [
+        "配流"
+      ],
+      "sourceRefs": [
+        "20261030-05:tomita-portraits"
+      ],
+      "sourceLocator": "父の交渉活動と1599没、子の1600籠城・1608板島入城・1613改易・1633没。堀切未成と大隆寺建立。父子の画像制作・事績を区別。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "津市は閉居と表現。処分年と現地到着日を混同しない。"
+    },
+    {
+      "eventId": "life-0940-001",
+      "personId": "sg-master-0940",
+      "rosterId": "940",
+      "personName": "坂崎直盛",
+      "candidateId": "plc-tsuwano",
+      "dateLabel": "1601年",
+      "yearStart": 1601,
+      "yearEnd": 1601,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "津和野城に入ったと文化財DBに記される。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261030-05:tsuwano-castle"
+      ],
+      "sourceLocator": "詳細解説：坂崎成正の慶長6年入城・織部丸増築・元和2年死去。同一城主を指す文脈だが改名順序は未確定。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "資料名は坂崎成正。直盛の全改名順序は未確定。"
+    },
+    {
+      "eventId": "life-0940-002",
+      "personId": "sg-master-0940",
+      "rosterId": "940",
+      "personName": "坂崎直盛",
+      "candidateId": "plc-tsuwano",
+      "dateLabel": "年未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "城を改修し織部丸を設け城域を広げた。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261030-05:tsuwano-castle",
+        "20261030-05:sakazaki"
+      ],
+      "sourceLocator": "詳細解説：坂崎成正の慶長6年入城・織部丸増築・元和2年死去。同一城主を指す文脈だが改名順序は未確定。 ／ 矢野健太郎研究員2024-04-03。直盛の城・城下整備と1616没、元和期武具引渡文書の酒井出羽守表記。改姓時点・断絶後の家の存続は未解明。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "unverified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "改修年・完成年を1601と断定しない。織部丸を独立史跡として二重計上しない。"
+    },
+    {
+      "eventId": "life-0940-003",
+      "personId": "sg-master-0940",
+      "rosterId": "940",
+      "personName": "坂崎直盛",
+      "candidateId": "plc-tsuwano-town",
+      "dateLabel": "年未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "津和野の城下町を整備した。",
+      "relationTypes": [
+        "城下町整備"
+      ],
+      "sourceRefs": [
+        "20261030-05:sakazaki"
+      ],
+      "sourceLocator": "矢野健太郎研究員2024-04-03。直盛の城・城下整備と1616没、元和期武具引渡文書の酒井出羽守表記。改姓時点・断絶後の家の存続は未解明。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "unverified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "現在地・既存史跡との対応・訪問範囲を未確認。"
+    },
+    {
+      "eventId": "life-0445-001",
+      "personId": "sg-master-0445",
+      "rosterId": "445",
+      "personName": "太田一吉",
+      "candidateId": "plc-usuki",
+      "dateLabel": "年未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "豊臣政権下で臼杵城主となった。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261030-05:usuki-battle",
+        "20261030-05:usuki-museum"
+      ],
+      "sourceLocator": "解説冒頭および慶長5年の戦闘。太田一吉は臼杵城主・西軍、中川秀成と臼杵で戦う。墓石地点を本人の陣地にしない。 ／ 2019年1月一覧の企画展説明。大友除国後の太田入部、慶長の役の軍目付、1600西軍・戦後没収。入部年を1593と断定しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "unverified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1593は大友除国年。太田入城の年・前後の城主を追加照合。"
+    },
+    {
+      "eventId": "life-0445-002",
+      "personId": "sg-master-0445",
+      "rosterId": "445",
+      "personName": "太田一吉",
+      "candidateId": "plc-usuki-battle",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の西暦年表示。月日記載は旧暦として扱い、グレゴリオ暦日付へ未換算。",
+      "event": "西軍として中川秀成と臼杵で戦った。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030-05:usuki-battle"
+      ],
+      "sourceLocator": "解説冒頭および慶長5年の戦闘。太田一吉は臼杵城主・西軍、中川秀成と臼杵で戦う。墓石地点を本人の陣地にしない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。史実の独自要約、原文画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "野村の墓石を本人の本陣・戦死地へ転用しない。"
     }
   ],
   "candidates": {
@@ -3715,6 +5249,342 @@
       "deduplicationStatus": "pending_nationwide_work",
       "crossThreadOverlap": "未照合",
       "unresolved": "現在地・範囲・既存史跡との重複・訪問単位は全国側で確認。"
+    },
+    "plc-nakatsu-castle": {
+      "candidateId": "plc-nakatsu-castle",
+      "placeName": "中津城",
+      "regionAsSource": "豊前・中津",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で現在地・範囲・既存候補との重複・訪問単位を確認。"
+    },
+    "plc-najima-castle": {
+      "candidateId": "plc-najima-castle",
+      "placeName": "名島城",
+      "regionAsSource": "筑前・福岡",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で現在地・範囲・既存候補との重複・訪問単位を確認。"
+    },
+    "plc-fukuoka-castle": {
+      "candidateId": "plc-fukuoka-castle",
+      "placeName": "福岡城",
+      "regionAsSource": "筑前・福岡",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で現在地・範囲・既存候補との重複・訪問単位を確認。"
+    },
+    "plc-sukumotsuka-castle": {
+      "candidateId": "plc-sukumotsuka-castle",
+      "placeName": "巣雲塚城（場所不詳）",
+      "regionAsSource": "備中",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "博物館本文が場所不詳と明記。地名の類似から座標を補わない。"
+    },
+    "plc-osaka-castle": {
+      "candidateId": "plc-osaka-castle",
+      "placeName": "大坂城",
+      "regionAsSource": "摂津",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で現在地・範囲・既存候補との重複・訪問単位を確認。"
+    },
+    "plc-awa-ichinomiya": {
+      "candidateId": "plc-awa-ichinomiya",
+      "placeName": "一宮城",
+      "regionAsSource": "阿波・徳島",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で現在地・範囲・既存候補との重複・訪問単位を確認。"
+    },
+    "plc-tokushima-castle": {
+      "candidateId": "plc-tokushima-castle",
+      "placeName": "徳島城",
+      "regionAsSource": "阿波・徳島",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で現在地・範囲・既存候補との重複・訪問単位を確認。"
+    },
+    "plc-tokushima-town": {
+      "candidateId": "plc-tokushima-town",
+      "placeName": "徳島城下町",
+      "regionAsSource": "阿波・徳島",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で現在地・範囲・既存候補との重複・訪問単位を確認。"
+    },
+    "plc-uto-earlymodern": {
+      "candidateId": "plc-uto-earlymodern",
+      "placeName": "宇土城（近世・小西氏の城）",
+      "regionAsSource": "肥後・宇土",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "国史跡の中世宇土城とは別の城域。小西期と加藤期の遺構を区別。"
+    },
+    "plc-uto-town": {
+      "candidateId": "plc-uto-town",
+      "placeName": "宇土城下町",
+      "regionAsSource": "肥後・宇土",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で現在地・範囲・既存候補との重複・訪問単位を確認。"
+    },
+    "plc-murotsu-region": {
+      "candidateId": "plc-murotsu-region",
+      "placeName": "室津",
+      "regionAsSource": "播磨",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で現在地・範囲・既存候補との重複・訪問単位を確認。"
+    },
+    "plc-shodoshima": {
+      "candidateId": "plc-shodoshima",
+      "placeName": "小豆島",
+      "regionAsSource": "瀬戸内",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で現在地・範囲・既存候補との重複・訪問単位を確認。"
+    },
+    "plc-sadowara-castle": {
+      "candidateId": "plc-sadowara-castle",
+      "placeName": "佐土原城",
+      "regionAsSource": "日向・現在宮崎市",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・重複・訪問単位・利用条件を全国側で確認。1577とする検索抄録は本文未取得。入城と支配開始の違いも検証する。"
+    },
+    "plc-okitanawate": {
+      "candidateId": "plc-okitanawate",
+      "placeName": "沖田畷古戦場",
+      "regionAsSource": "肥前・島原",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・重複・訪問単位・利用条件を全国側で確認。具体的本陣・現地範囲未確認。供養塔は別作業対象のため抽出しない。"
+    },
+    "plc-hetsugigawa": {
+      "candidateId": "plc-hetsugigawa",
+      "placeName": "戸次川古戦場",
+      "regionAsSource": "豊後・大野川",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・重複・訪問単位・利用条件を全国側で確認。暦日DBによる独立換算は未実施。鶴賀城への本人の直接攻城は別途確認。"
+    },
+    "plc-ise-ueno-castle": {
+      "candidateId": "plc-ise-ueno-castle",
+      "placeName": "伊勢上野城",
+      "regionAsSource": "伊勢・津市河芸町",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・重複・遺構範囲・訪問単位を全国側で確認。柏原は領地単位であり後期陣屋へ自動対応しない。"
+    },
+    "plc-kaibara-region": {
+      "candidateId": "plc-kaibara-region",
+      "placeName": "柏原（前期柏原藩領）",
+      "regionAsSource": "丹波・氷上郡",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "位置・重複・遺構範囲・訪問単位を全国側で確認。柏原は領地単位であり後期陣屋へ自動対応しない。"
+    },
+    "plc-genbao": {
+      "candidateId": "plc-genbao",
+      "placeName": "玄蕃尾城（内中尾山城）",
+      "regionAsSource": "越前・近江国境",
+      "spatialGranularity": "城跡",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-toyohara": {
+      "candidateId": "plc-toyohara",
+      "placeName": "豊原の城・本拠",
+      "regionAsSource": "越前豊原",
+      "spatialGranularity": "城・地域。具体範囲未確認",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-maruoka": {
+      "candidateId": "plc-maruoka",
+      "placeName": "丸岡城",
+      "regionAsSource": "越前丸岡",
+      "spatialGranularity": "城跡",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-chikubushima": {
+      "candidateId": "plc-chikubushima",
+      "placeName": "竹生島の安堵対象地",
+      "regionAsSource": "近江竹生島",
+      "spatialGranularity": "寺社領・島。訪問地点未確定",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-kinomoto-joshinji": {
+      "candidateId": "plc-kinomoto-joshinji",
+      "placeName": "浄信寺（木之本地蔵）",
+      "regionAsSource": "近江木之本",
+      "spatialGranularity": "寺院",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-isshinden-senjuji": {
+      "candidateId": "plc-isshinden-senjuji",
+      "placeName": "専修寺（一身田）",
+      "regionAsSource": "伊勢一身田",
+      "spatialGranularity": "寺院",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-shionashi-cut": {
+      "candidateId": "plc-shionashi-cut",
+      "placeName": "塩成の堀切工事地",
+      "regionAsSource": "三崎半島塩成",
+      "spatialGranularity": "未成の土木工事地",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-iwaki-exile": {
+      "candidateId": "plc-iwaki-exile",
+      "placeName": "岩城の配所",
+      "regionAsSource": "奥州岩城",
+      "spatialGranularity": "地域。配所位置未確認",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-tsuwano": {
+      "candidateId": "plc-tsuwano",
+      "placeName": "津和野城",
+      "regionAsSource": "石見津和野",
+      "spatialGranularity": "城跡",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-tsuwano-town": {
+      "candidateId": "plc-tsuwano-town",
+      "placeName": "津和野城下町",
+      "regionAsSource": "石見津和野",
+      "spatialGranularity": "城下町",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-usuki": {
+      "candidateId": "plc-usuki",
+      "placeName": "臼杵城",
+      "regionAsSource": "豊後臼杵",
+      "spatialGranularity": "城跡",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-usuki-battle": {
+      "candidateId": "plc-usuki-battle",
+      "placeName": "1600年臼杵合戦の活動地域",
+      "regionAsSource": "豊後臼杵",
+      "spatialGranularity": "合戦イベント・範囲未確定",
+      "existingSiteId": null,
+      "coordinates": null,
+      "locationStatus": "unverified",
+      "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
+      "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
     }
   },
   "residenceSequences": [
@@ -3910,13 +5780,99 @@
       ],
       "note": "1595清洲→1601広島→1619信濃高野井の蟄居命令。途中の江戸滞在等は未網羅。津軽授与は実居住と扱わない。",
       "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "820",
+      "personId": "sg-master-0820",
+      "personName": "黒田長政",
+      "candidateIds": [
+        "plc-nakatsu-castle",
+        "plc-najima-castle",
+        "plc-fukuoka-castle"
+      ],
+      "eventIds": [
+        "life-0820-003",
+        "life-0820-006",
+        "life-0820-008"
+      ],
+      "note": "中津→1600名島→福岡。福岡移居1602/1607は資料差、移動に5年かかった意味ではない。長浜人質期は別イベント。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "1634",
+      "personId": "sg-248aba9a5613",
+      "personName": "蜂須賀家政",
+      "candidateIds": [
+        "plc-awa-ichinomiya",
+        "plc-tokushima-castle"
+      ],
+      "eventIds": [
+        "life-1634-001",
+        "life-1634-003"
+      ],
+      "note": "1585一宮→1586徳島。父正勝の龍野、子至鎮の関ヶ原出陣を含めない。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "544",
+      "personId": "sg-9147212ab4a4",
+      "personName": "織田信包",
+      "candidateIds": [
+        "plc-ise-ueno-castle",
+        "plc-tsu-castle"
+      ],
+      "eventIds": [
+        "life-0544-001",
+        "life-0544-002"
+      ],
+      "note": "伊勢上野→津。移居年未確定。柏原は所領付与と到着を区別し、この移居列には含めない。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "1039",
+      "personId": "sg-7a9ec141203b",
+      "personName": "柴田勝豊",
+      "candidateIds": [
+        "plc-toyohara",
+        "plc-maruoka",
+        "plc-nagahama-castle"
+      ],
+      "eventIds": [
+        "life-1039-001",
+        "life-1039-002",
+        "life-1039-003"
+      ],
+      "note": "豊原→丸岡→長浜。丸岡築城説を含み、途中滞在は未網羅。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "1429",
+      "personId": "sg-master-1429",
+      "personName": "富田信高",
+      "candidateIds": [
+        "plc-tsu-castle",
+        "plc-uwajima-castle",
+        "plc-iwaki-exile"
+      ],
+      "eventIds": [
+        "life-1429-005",
+        "life-1429-006",
+        "life-1429-008"
+      ],
+      "note": "津復帰→板島→岩城の配所。処分年と到着日は区別。途中滞在は別イベント。",
+      "completeness": "partial_not_exhaustive"
     }
   ],
   "evidenceFiles": {
     "20261029-02": "migration/research/20261029-02/evidence.json",
     "20261029-03": "migration/research/20261029-03/evidence.json",
     "20261029-04": "migration/research/20261029-04/evidence.json",
-    "20261029-05": "migration/research/20261029-05/evidence.json"
+    "20261029-05": "migration/research/20261029-05/evidence.json",
+    "20261030": "migration/research/20261030/evidence.json",
+    "20261030-02": "migration/research/20261030-02/evidence.json",
+    "20261030-03": "migration/research/20261030-03/evidence.json",
+    "20261030-04": "migration/research/20261030-04/evidence.json",
+    "20261030-05": "migration/research/20261030-05/evidence.json"
   },
   "sources": {
     "20261029-02:hino": {
@@ -4438,6 +6394,496 @@
       "checkedOn": "2026-10-29",
       "reuseStatus": "未確認",
       "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "20261030:kuroda-ndl": {
+      "url": "https://id.ndl.go.jp/auth/ndlna/01150199",
+      "title": "国立国会図書館：黒田長政 典拠",
+      "locator": "生年1568・没年1623・通称吉兵衛。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:kuroda-pref": {
+      "url": "https://www.pref.fukuoka.lg.jp/somu/graph-f/2013summer/walk/",
+      "title": "福岡県：グラフふくおか2013夏号",
+      "locator": "長政の1568～1623、父孝高の長男、1589家督継承、朝鮮出兵・1600筑前入国。父の事績を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:kuroda-museum": {
+      "url": "https://museum.city.fukuoka.jp/sp/exhibition/599/",
+      "title": "福岡市博物館：没後400年 黒田長政",
+      "locator": "生年・没年、松寿・吉兵衛尉、1577長浜人質、1582巣雲塚初陣（場所不詳）、九州・朝鮮・関ヶ原、家督継承、大坂城接収。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:najima": {
+      "url": "https://bunkazai.city.fukuoka.lg.jp/sp/cultural_properties/detail/490",
+      "title": "福岡市文化財：名島城跡",
+      "locator": "1600黒田入城、1601福岡築城開始、1607完成・移転とする紹介文。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:fukuoka-castle": {
+      "url": "https://bunkazai.city.fukuoka.lg.jp/cultural_properties/detail/62/?from_sp=1",
+      "title": "福岡市文化財：福岡城跡",
+      "locator": "中津12万石→筑前52万石、1601から7年がかりの築城。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:kyusan": {
+      "url": "https://www.kyusan-u.ac.jp/J/uchiyama/tosikenmap.pdf",
+      "title": "内山敏典：福岡都市圏歴史散策マップ記（九州産業大学掲載）",
+      "locator": "PDF40頁／印刷33頁「名島城址」。慶長7年（1602）に長政が福岡城へ移り名島廃城と記す。引用原著は未読。",
+      "kind": "university_publication",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:tokushima-town": {
+      "url": "https://www.city.tokushima.tokushima.jp/johaku/meihin/page02-00/tokushimahistory01.html",
+      "title": "徳島城博物館：とくしまヒストリー第1回",
+      "locator": "1585家政の阿波拝領、父正勝との区別、徳島築城・商人誘致・城下町形成。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:ichinomiya": {
+      "url": "https://www.city.tokushima.tokushima.jp/kankou/bunkazai/ichinomiya2018.html",
+      "title": "徳島市：一宮城跡国史跡推進事業",
+      "locator": "1585家政入城、石垣整備、翌年徳島へ本拠移転。廃城年や現在の指定状況は今回の確認対象外。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:tokushima-years": {
+      "url": "https://www.city.tokushima.tokushima.jp/smph/johaku/meihin/page02-00/tokushimahistory12.html",
+      "title": "徳島城博物館：とくしまヒストリー第12回",
+      "locator": "二軒屋町の説明中に家政1558～1638。町名伝承は年表へ抽出しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:keio": {
+      "url": "https://objecthub.keio.ac.jp/ja/object/328",
+      "title": "慶應義塾：蜂須賀家政筆書状 AW-CEN-002337-0000",
+      "locator": "人物解説：1558～1638、正勝の子、蓬庵、至鎮との区別、寛永15年12月30日没。画像ライセンス欄CC BY。",
+      "kind": "university_collection",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "一部確認：画像CC BY表示・指定クレジットを確認。版・全文への適用は未確認。画像不使用。",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:hachisuka-dict": {
+      "url": "https://kotobank.jp/word/%E8%9C%82%E9%A0%88%E8%B3%80%E5%AE%B6%E6%94%BF-114794",
+      "title": "コトバンク：蜂須賀家政（出典別辞典）",
+      "locator": "大辞泉1558～1639、世界大百科・日本大百科1558～1638。日本大百科は関ヶ原後に至鎮・忠英の後見。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:uto-bunka": {
+      "url": "https://online.bunka.go.jp/heritages/detail/206723",
+      "title": "文化遺産オンライン：宇土城跡",
+      "locator": "解説末尾：1588行長築城の宇土城は指定された中世城跡の東にあり、指定範囲に含まれない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:uto-tourism": {
+      "url": "https://utobiyori.jp/spot/utojokinsei/",
+      "title": "宇土市観光サイト：宇土城跡／城山公園（近世）",
+      "locator": "行長の秀吉仕官・1588領主・新城と町づくり、朝鮮出兵・関ヶ原西軍・処刑、弟隼人と清正の工事を区別。本文に新城を中世と呼ぶ不整合があり見出し・文化庁解説と照合。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:konishi-dict": {
+      "url": "https://kotobank.jp/word/%E5%B0%8F%E8%A5%BF%E8%A1%8C%E9%95%B7-65676",
+      "title": "コトバンク：小西行長（出典別辞典）",
+      "locator": "日本大百科の生年不明・水軍・講和交渉・処刑。山川日本史小辞典1558、1581室津・1585小豆島。講談社日本人名大辞典は生年不明・1600没・弥九郎。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "20261030:naoj-hachisuka-calendar": {
+      "url": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi?type=0&gengo=a000&year=1639&month=2&day=2&jg=1&div=1&divu=3&len=1&lenu=3&gen=1",
+      "title": "国立天文台：日本の暦日データベース（1639年2月2日・グレゴリオ暦指定）",
+      "locator": "出力表の西暦1639/02/02に和暦寛永15年12月30日が対応。jg=1を指定。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "日付対応の事実のみ記録。画面・データベース全体の転載なし。"
+    },
+    "20261030-02:tokyo": {
+      "url": "https://www.hi.u-tokyo.ac.jp/publication/syoho/51/pub_komonjo-iewake-16-05.html",
+      "title": "東京大学史料編纂所：島津家文書之五",
+      "locator": "御文書家久公一の段。忠恒は義弘の子で慶長11年改名、義弘の末弟家久と区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "20261030-02:sadowara": {
+      "url": "https://online.bunka.go.jp/heritages/detail/212050",
+      "title": "文化遺産オンライン：佐土原城跡",
+      "locator": "解説：1579家久入城、次代豊久、1603以久を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "20261030-02:hioki": {
+      "url": "https://hioki-pr-bushotai.com/pr-member/",
+      "title": "日置市観光PR武将隊：島津家久",
+      "locator": "貴久四男、沖田畷・戸次川での勝利、降伏後の急死。",
+      "kind": "municipal_tourism",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "20261030-02:okita": {
+      "url": "https://www.mlit.go.jp/tagengo-db/R2-00440.html",
+      "title": "観光庁：沖田畷古戦場跡",
+      "locator": "日本語解説：1547～1587、義久の弟、1584指揮。有馬との連合軍が龍造寺軍に勝利。兵数・細部は未採用。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "20261030-02:hetsugi": {
+      "url": "https://oitacity-archive.jp/tsurugajou/",
+      "title": "大分市：戸次川の合戦と鶴賀城",
+      "locator": "オープニング：天正14年12月12日（1587年1月20日）、家久率いる島津勢。エンディングは和暦年1586を併記。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "20261030-02:oita-terms": {
+      "url": "https://oitacity-archive.jp/kiyaku/",
+      "title": "大分市デジタルアーカイブ利用規約",
+      "locator": "画像は資料ごとのCC表示または所蔵館確認。リンク自由。文章・動画の一括転載許可とはしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "20261030-02:mlit-terms": {
+      "url": "https://www.mlit.go.jp/tagengo-db/attention.html",
+      "title": "観光庁解説文利用注意事項",
+      "locator": "商業利用可だが文章改変には制限・協議条件、表示要件あり。事実参照と原文利用を分離。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "20261030-03:tsu-excavation": {
+      "url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/004/709/maibuntsu16.pdf",
+      "title": "津市埋蔵文化財センター：高虎以前―津城跡天守台下発掘調査の成果から",
+      "locator": "PDF1頁：1568長野養子・長野信良→織田信包、上野城、津城は遅くとも1583年11月居城。1580移転・五重天守は同時代史料未確認。2頁は1594没収後柏原と略記、丹波市1598との関係留保。3～4頁の天守台は富田期とする成果。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "20261030-03:tamba-lords": {
+      "url": "https://www.city.tamba.lg.jp/material/files/group/50/4354.pdf",
+      "title": "丹波市：柏原藩歴代藩主",
+      "locator": "PDF1頁：信長弟、北伊勢経営、秀吉所属、1594没収・剃髪謹慎、1614大坂城内死去。信則・信勝と世代を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "20261030-03:tamba-history": {
+      "url": "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/7/1/2441.html",
+      "title": "丹波市：柏原藩陣屋跡",
+      "locator": "柏原藩の歴史：1598信包へ3万6千石、前期3代と後期信休系を区別。現存陣屋は後期の造営・再建。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "20261030-03:matsumoto": {
+      "url": "https://www.matsumoto-castle.jp/about/history",
+      "title": "国宝松本城：松本城の歴史",
+      "locator": "年表1614欄：数正の2男康勝が豊臣方へ加わる。本文と歴代城主表は数正・康長を記す。HTMLを直接取得して該当行確認。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "20261030-03:ishikawa-guide": {
+      "url": "https://www.oshiro-m.org/wp-content/uploads/2015/04/g3_2.pdf",
+      "title": "松本城関連研修資料：石川氏はなぜ改易されたか",
+      "locator": "PDF1頁冒頭：1613康長の改易と弟康勝・半三郎の所領没収。佐伯預けは康長の記述で康勝へ転用しない。",
+      "kind": "local_history_training_material",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "20261030-04:katsuragi": {
+      "url": "https://www.city.katsuragi.nara.jp/soshiki/rekishihakubutsukan/4/2/15/1503.html",
+      "title": "葛城市歴史博物館：第16回特別展 桑山一族",
+      "locator": "開催にあたって第1～3段落。重晴の1583賤ヶ岳軍功、1585紀伊入部・和歌山築城、城代から城主。一晴の1601転封・新庄陣屋と区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "20261030-04:keio": {
+      "url": "https://objecthub.keio.ac.jp/ja/object/420",
+      "title": "慶應義塾：桑山宗仙筆消息",
+      "locator": "作品解説冒頭：宗仙の父として重晴1524–1606を明記。画像ライセンス欄CC BY。宗仙の別名・茶歴を父へ転用しない。",
+      "kind": "university_collection",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "画像CC BY表示のみ確認。説明文の条件・版は未確認。画像不使用。",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "20261030-05:maruoka": {
+      "url": "https://www.city.fukui-sakai.lg.jp/kokuhou/maruokajyou/kihonjohhoh.html",
+      "title": "坂井市：丸岡城基本情報",
+      "locator": "概要・歴代城主・略年表。勝家の越前支配、甥勝豊への豊原授与、1575豊原築城、1576丸岡移転・築城説、勝豊在任1576–1582。現存天守は寛永期。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:maruoka-study": {
+      "url": "https://www.city.fukui-sakai.lg.jp/kokuhou/maruokajyou/akiraka-jijitsu.html",
+      "title": "坂井市：丸岡城の調査で明らかになった事実",
+      "locator": "「現在の天守は寛永年間」節。科学調査と歴史背景から本多成重期整備とする。勝豊期の築城と区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:maruoka-pref": {
+      "url": "https://bunkazai.pref.fukui.lg.jp/search_category/content?detail_id=379-0",
+      "title": "福井県：丸岡城天守 文化財解説",
+      "locator": "文化財解説は1576勝豊築造・現存最古と記載。市の学術調査結果と説明差があるため旧説明を確定根拠にしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:kitanosho": {
+      "url": "https://www.city.fukui.lg.jp/kankou/kankou/sisetu/kitanosyou.html?path=C50000/C50100/C50103/P9453",
+      "title": "福井市：北の庄城址・柴田公園",
+      "locator": "冒頭の勝家1523？～1583、1575築城開始。北庄遺構と結城秀康による福井城造営の層位を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:katsuie-museum": {
+      "url": "https://www.pref.fukui.lg.jp/muse/Cul-Hist/kikaku/kako/2023/20230729_onishibata.html",
+      "title": "福井県立歴史博物館：「鬼柴田」勝家の実像",
+      "locator": "展示趣旨と第2・3章。信長重臣、鬼柴田、北庄城下町建設・検地・知行制、秀吉との対立。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:genbao": {
+      "url": "https://www.city.tsuruga.lg.jp/page/4438.html",
+      "title": "敦賀市：国指定史跡玄蕃尾城跡",
+      "locator": "本文の賤ヶ岳合戦時の勝家本陣、城からの撤退。PDF本体は未読。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:nagahama": {
+      "url": "https://www.nagahama-sengoku.jp/story/shichihonyari/",
+      "title": "長浜市・北近江豊臣博覧会：賤ヶ岳七本槍",
+      "locator": "賤ヶ岳の戦い節：1582長浜入城・降伏、1583勝家の玄蕃尾着陣・北庄撤退。大岩山の奇襲主体は佐久間盛政。",
+      "kind": "municipal_history_portal",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:katsutoyo-library": {
+      "url": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000250921",
+      "title": "滋賀県立図書館：清須会議後の柴田勝豊の長浜支配",
+      "locator": "回答本文と参考文献。長浜支配、竹生島安堵・浄信寺寄進。天正8年(1580)と清須会議後という前後関係に不整合。長浜市史2巻379–383頁等の原資料は未読。",
+      "kind": "public_library_reference",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:tomita-portraits": {
+      "url": "https://www.city.uwajima.ehime.jp/site/sizen-bunka/1516tomita.html",
+      "title": "宇和島市：富田知信画像・富田信高画像",
+      "locator": "父の交渉活動と1599没、子の1600籠城・1608板島入城・1613改易・1633没。堀切未成と大隆寺建立。父子の画像制作・事績を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:ippaku-letter": {
+      "url": "https://online.bunka.go.jp/db/heritages/detail/529941",
+      "title": "文化遺産DB：千利休筆書状",
+      "locator": "解説：富左近殿を富田一白(知信)と同定し、秀吉家臣・茶人とする。",
+      "kind": "national_cultural_database",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:tsu-tomita": {
+      "url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/004/602/kawaraban2.pdf",
+      "title": "津市教育委員会：津城かわら版② 富田氏とその時代の津城",
+      "locator": "広報津2023-08-16号7頁。1595父子入城、1599継承、1600小山から帰還・籠城・専修寺→高野山→津復帰、宇和島12万石・岩城閉居・1633没。PDF本文テキスト確認。",
+      "kind": "municipal_education_publication",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:uwajima-castle": {
+      "url": "https://www.pref.ehime.jp/ehimenotakara/373.html",
+      "title": "愛媛県：宇和島城",
+      "locator": "解説：1608富田信高入部、1615伊達秀宗入部。現存天守等は後代の改修であり信高築造としない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:sakazaki": {
+      "url": "https://shimane-kodaibunka.jp/history/history-3056/",
+      "title": "島根県古代文化センター：第117話 津和野藩主 酒井出羽守",
+      "locator": "矢野健太郎研究員2024-04-03。直盛の城・城下整備と1616没、元和期武具引渡文書の酒井出羽守表記。改姓時点・断絶後の家の存続は未解明。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:tsuwano-castle": {
+      "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/2206",
+      "title": "国指定文化財等DB：津和野城跡",
+      "locator": "詳細解説：坂崎成正の慶長6年入城・織部丸増築・元和2年死去。同一城主を指す文脈だが改名順序は未確定。",
+      "kind": "national_cultural_database",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:ota-letter": {
+      "url": "https://online.bunka.go.jp/db/heritages/detail/540111",
+      "title": "文化遺産DB：徳川家康書状（太田一吉宛）",
+      "locator": "1598年1月30日付書状解説。太田？～1617、小早川秀俊(秀秋)の目付、朝鮮渡海・蔚山城籠城。朝鮮の地は全国史跡候補へ追加しない。",
+      "kind": "national_cultural_database",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:usuki-battle": {
+      "url": "https://www.city.usuki.oita.jp/docs/2014020300376/",
+      "title": "臼杵市：野村台地の二つの墓石",
+      "locator": "解説冒頭および慶長5年の戦闘。太田一吉は臼杵城主・西軍、中川秀成と臼杵で戦う。墓石地点を本人の陣地にしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:usuki-museum": {
+      "url": "https://www.city.usuki.oita.jp/event_list/2019/01/",
+      "title": "臼杵市歴史資料館企画展：近世臼杵の幕開け",
+      "locator": "2019年1月一覧の企画展説明。大友除国後の太田入部、慶長の役の軍目付、1600西軍・戦後没収。入部年を1593と断定しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:fukui-policy": {
+      "url": "https://www.city.fukui.lg.jp/sisei/kohou/hp/site-p.html",
+      "title": "福井市：サイトポリシー",
+      "locator": "著作権節。文章は原則CC BY-SA、写真・画像・映像・個別指定は除外。版と資料別例外は未確定。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "本文方針一部確認。画像除外・個別条件あり。商用再利用全体の承認ではない。",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:sakai-policy": {
+      "url": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/chosakuken.html",
+      "title": "坂井市：著作権・リンク等について",
+      "locator": "著作権節。法令上認められる場合等以外の無断転載等を認めない。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "転載等に制限あり。文章画像の再利用なし。事実参照と素材利用を分離。",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "20261030-05:usuki-policy": {
+      "url": "https://www.city.usuki.oita.jp/docs/2014031200023",
+      "title": "臼杵市：リンク・著作権・免責事項",
+      "locator": "著作権節。法定例外以外の無断利用・複製・転載等を認めず、担当課への事前相談。個別規定優先。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "転載等に制限あり。文章画像の再利用なし。事実参照と素材利用を分離。",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
     }
   }
 }
