@@ -1460,23 +1460,26 @@
         "birth": "secondary_source_checked",
         "death": "verified",
         "identity": "requires_correction",
-        "biography": "partially_verified",
-        "sourceRelevance": "partially_verified"
+        "biography": "verified",
+        "sourceRelevance": "partially_verified",
+        "biographyQuality": "verified"
       },
       "confirmedDeathValue": 1650,
       "verifiedAliases": [],
       "sources": [
         "https://kotobank.jp/word/織田信勝-1063455",
         "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/7/1/2441.html",
-        "https://kotobank.jp/word/織田信勝館跡-3078542"
+        "https://kotobank.jp/word/織田信勝館跡-3078542",
+        "https://www.city.tamba.lg.jp/material/files/group/50/4354.pdf"
       ],
-      "note": "2026-10-28追記：P0：信長の弟へ自動差替えしない。正本が意図する人物と、信雄の別名「信勝」との区別を要判断。名簿ID542と人物IDは維持。\n2026-10-29追記：現マスターの1623～1650の人物に対応する前期柏原藩主の館を条件付き候補とした。信長の弟・別人の信勝との選定意図は未解決。主表示名・採否・IDは維持。後期柏原藩の陣屋との自動統合禁止。",
-      "reviewedOn": "2026-10-29",
+      "note": "2026-10-28追記：P0：信長の弟へ自動差替えしない。正本が意図する人物と、信雄の別名「信勝」との区別を要判断。名簿ID542と人物IDは維持。\n2026-10-29追記：現マスターの1623～1650の人物に対応する前期柏原藩主の館を条件付き候補とした。信長の弟・別人の信勝との選定意図は未解決。主表示名・採否・IDは維持。後期柏原藩の陣屋との自動統合禁止。\n2026-10-30追記：現在の正本1623–1650・父信則に対応する条件付き完成案。信長の弟への置換はしない。戦国モードの選定意図はユーザー判断待ちでidentity要修正を維持。生年の独立確認は未完。",
+      "reviewedOn": "2026-10-30",
       "masterEvidenceSha256": "364308f189ddf16fd0cb53801d6f5e922e2881c095e58d58bdbd1f3ba01e1daa",
       "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
-      "evidenceRef": "migration/research/20261029-03/evidence.json#/people/542",
+      "evidenceRef": "migration/research/20261030-06/evidence.json#/people/542",
       "approvalStatus": "pending_user_review",
-      "approvalDate": null
+      "approvalDate": null,
+      "biography": "丹波柏原藩の三代藩主。父の織田信則を継ぎ、1630年に藩主となった。佐治川の堤防整備や新田開発を進め、八幡神社へ社号額や灯籠を奉納した。1650年に没し、跡継ぎがなかったため藩は廃絶した。"
     },
     "915": {
       "fieldStatus": {
@@ -1877,21 +1880,27 @@
         "name": "verified",
         "identity": "partially_verified",
         "death": "verified",
-        "biography": "partially_verified",
-        "sourceRelevance": "partially_verified"
+        "biography": "verified",
+        "sourceRelevance": "partially_verified",
+        "aliases": "partially_verified",
+        "biographyQuality": "verified"
       },
       "confirmedDeathValue": 1590,
-      "verifiedAliases": [],
-      "sources": [
-        "https://www.city.iwaki.lg.jp/www/contents/1001000004062/simple/iwaki-history.pdf"
+      "verifiedAliases": [
+        "左京太夫"
       ],
-      "note": "2026-10-29追記：市解説の左京大夫常隆は重隆・親隆の後の世代。先行する下総守常隆を統合しない。1590年没は確認したが、24歳から生年1567を逆算して確定しない。事績の材料不足で略歴改稿保留。",
-      "reviewedOn": "2026-10-29",
+      "sources": [
+        "https://www.city.iwaki.lg.jp/www/contents/1001000004062/simple/iwaki-history.pdf",
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000174727"
+      ],
+      "note": "2026-10-29追記：市解説の左京大夫常隆は重隆・親隆の後の世代。先行する下総守常隆を統合しない。1590年没は確認したが、24歳から生年1567を逆算して確定しない。事績の材料不足で略歴改稿保留。\n2026-10-30追記：同名の下総守常隆による1520那須山田城攻めは本IDへ付けない。1567生を年齢から逆算して確定しない。最期の鎌倉星谷の現在地は未同定。",
+      "reviewedOn": "2026-10-30",
       "masterEvidenceSha256": "68beac15bed94ad2879edfdcac6dc99d59733557b909c977b603f63429e166b4",
       "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
-      "evidenceRef": "migration/research/20261029-03/evidence.json#/people/312",
+      "evidenceRef": "migration/research/20261030-06/evidence.json#/people/312",
       "approvalStatus": "pending_user_review",
-      "approvalDate": null
+      "approvalDate": null,
+      "biography": "陸奥の岩城氏を率いた戦国大名で、左京太夫を称した。1584年に小野郷へ兵を送り、1590年には豊臣秀吉の小田原攻めに参陣したが、帰途に病没した。没後、岩城家は佐竹氏から後継者を迎えた。"
     },
     "20": {
       "fieldStatus": {
@@ -2593,6 +2602,143 @@
       "masterEvidenceSha256": "cde5b5ef12c6db58738ce68d13d6788cfccbf9ce5f07fa49571270767b0c5845",
       "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
       "evidenceRef": "migration/research/20261030-05/evidence.json#/people/445",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null,
+      "licenseStatus": "partially_verified"
+    },
+    "217": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "death": "verified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedDeathValue": 1600,
+      "biography": "石田三成の兄で、豊臣秀吉のもとで使者や奉行を務めた。堺代官として、堺にあった北野天神縁起の返還にも力を貸した。1600年、関ヶ原合戦後に父の正継と佐和山城を守り、城の陥落時に没した。",
+      "verifiedAliases": [
+        "弥三",
+        "木工頭"
+      ],
+      "sources": [
+        "https://nagahama-rekihaku.jp/exhibit/607",
+        "https://www.city.sakai.lg.jp/kanko/hakubutsukan/exhibition/kikaku_tokubetsu/kako/hideyositenn.files/sakaidaikan.pdf",
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000092622"
+      ],
+      "note": "2026-10-30追記：本人本文未確認を解消。父正継の塩風呂掟書や弟三成の五奉行を正澄の功績としない。生年・重成/一氏の同定、堺代官の就退任年は未確認。",
+      "reviewedOn": "2026-10-30",
+      "masterEvidenceSha256": "f6d92eed789523c9f1d9093869084efbe6327a56269be0326382d934a273e2aa",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261030-06/evidence.json#/people/217",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "1754": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "verified",
+        "death": "verified",
+        "biography": "verified",
+        "successionYear": "disputed",
+        "license": "partially_verified",
+        "biographyQuality": "unchanged_appropriate",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedBirthValue": 1515,
+      "confirmedDeathValue": 1571,
+      "verifiedAliases": [
+        "伊豆千代丸",
+        "新九郎"
+      ],
+      "sources": [
+        "https://odawara-digital-museum.jp/great/detail/149/",
+        "https://www.city.odawara.kanagawa.jp/encycl/neohojo5/006/",
+        "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+        "https://odawara-digital-museum.jp/terms/"
+      ],
+      "note": "2026-10-30追記：既存略歴は自然で本文の範囲内、変更不要。譲位年は館1559/市年表1560を両記。新九郎は氏綱等も使用し自動統合不可。現在のカード31・関連27への変更はしない。",
+      "reviewedOn": "2026-10-30",
+      "masterEvidenceSha256": "5bb8d0f382f2ac57b0334181b6df26e090f9501e8824d20eefb95abc48fc7352",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261030-06/evidence.json#/people/1754",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null,
+      "licenseStatus": "partially_verified"
+    },
+    "322": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "verified",
+        "death": "verified",
+        "biography": "verified",
+        "otatemilestones": "partially_verified",
+        "license": "partially_verified",
+        "biographyQuality": "unchanged_appropriate",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedBirthValue": 1556,
+      "additionalBirthCandidates": [
+        1555
+      ],
+      "confirmedDeathValue": 1623,
+      "verifiedAliases": [
+        "顕景",
+        "喜平次",
+        "卯松"
+      ],
+      "sources": [
+        "https://kawanakajima.nagano.jp/character/uesugi-kagekatsu/",
+        "https://www.city.myoko.niigata.jp/docs/311.html",
+        "https://kotobank.jp/word/上杉景勝-33777",
+        "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi?type=0&gengo=a000&year=1556&month=1&day=18&jg=1&div=1&divu=3&len=1&lenu=3&gen=1",
+        "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi?type=0&gengo=a000&year=1556&month=1&day=8&jg=0&div=1&divu=3&len=1&lenu=3&gen=1",
+        "https://www.city.yonezawa.yamagata.jp/material/files/group/10/24_20801516.pdf",
+        "https://kawanakajima.nagano.jp/privacypolicy/"
+      ],
+      "note": "2026-10-30追記：既存略歴は確認範囲内で変更不要。和暦年1555と換算年1556を区別。弘治元年11月27日＝ユリウス1556-01-08＝遡及グレゴリオ1556-01-18。没日の3月20日/3月2日は辞典差を保持し、年1623のみ確認。御館乱の全終結と景虎自害を分離。",
+      "reviewedOn": "2026-10-30",
+      "masterEvidenceSha256": "2ed41a65f880625975132497e799863a2eeb0e46c424099266ad387a3b07a8a3",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261030-06/evidence.json#/people/322",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null,
+      "licenseStatus": "partially_verified"
+    },
+    "1239": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "verified",
+        "death": "verified",
+        "biography": "verified",
+        "license": "partially_verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedBirthValue": 1525,
+      "confirmedDeathValue": 1561,
+      "biography": "武田信虎の子で、信玄の弟。左馬助の官職にちなみ典厩と呼ばれ、兄の軍事を支えた。子の信豊に九十九条の教訓を残したことでも知られる。1561年、上杉軍との第四次川中島の戦いで戦死した。",
+      "verifiedAliases": [
+        "次郎",
+        "左馬助",
+        "典厩"
+      ],
+      "sources": [
+        "https://kawanakajima.nagano.jp/character/takeda-nobushige/",
+        "https://kawanakajima.nagano.jp/privacypolicy/"
+      ],
+      "note": "2026-10-30追記：軍記甲越信戦録に由来する遺言・討手・陣形詳細は史実欄へ断定転記しない。家訓の本文と成立年は今回未確認、信玄家法という書名は略歴に不採用。吉田信繁等の別名未照合。",
+      "reviewedOn": "2026-10-30",
+      "masterEvidenceSha256": "60679745bf1c25e767b93a7d8551e2dfcfaa874d234f93a4a440081127327ca6",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261030-06/evidence.json#/people/1239",
       "approvalStatus": "pending_user_review",
       "approvalDate": null,
       "licenseStatus": "partially_verified"

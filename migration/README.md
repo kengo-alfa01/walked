@@ -2,7 +2,11 @@
 
 2026-10-26取得の正本を基にした、データ移行・更新処理のレビュー用成果物です。**624人全員の史実確認を完了した成果物ではありません。公開置換・main反映を行わないでください。**
 
-## 最新：2026-10-30 第5回
+## 最新：2026-10-30 第6回
+
+[624人レビュー・次スレッド再開点](reports/person-quality-20261030-06/README.md)：本文103人（新規4・再確認2）、略歴93案（+4）、生没年とも34人。既存略歴2件は変更不要。着手103、本文未確認521、機械的略歴442、全項目完了0。景勝の暦換算と常隆の世代差を記録、信勝は柏原藩主として条件付き案。年表168イベント・111候補（+14/+11）、33人・拠点順序17人。毎回の引継ぎは既存管理シート「やること」に追記する。以下は各回の履歴。
+
+## 2026-10-30 第5回
 
 [最新624人レビュー](reports/person-quality-20261030-05/README.md)：前スレッドa4c8301を回収し、柴田勝家・勝豊、富田一白・信高、坂崎直盛、太田一吉を追加精査。着手100／本文99（+6）／略歴89案（+6）／生没年とも31／全項目完了0。本文未確認525、機械的略歴446。年表154イベント・100場所候補（+25／+12）。正本・ID・公開データ不変。
 
@@ -113,7 +117,7 @@ CSVはExcelで開けるUTF-8 BOM付きです。略歴・氏名・URLには日本
 ```sh
 python scripts/generate_sengoku_master.py
 python scripts/build_migration_preview.py
-python scripts/build_person_quality_review.py --round 20261030
+python scripts/build_person_quality_review.py --round 20261030-06
 python scripts/build_person_life_timeline.py
 python scripts/validate_sengoku_master.py
 python -m unittest discover -s tests -p 'test_*.py' -v

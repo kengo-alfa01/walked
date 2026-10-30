@@ -1,0 +1,617 @@
+{
+  "round": "20261030-06",
+  "reviewedOn": "2026-10-30",
+  "scope": "前回保留の人物識別と機械的略歴を優先。既存カード関連の多い氏康・景勝も照合。改稿不要と未調査を区別。",
+  "sources": {
+    "kaibara": {
+      "url": "https://www.city.tamba.lg.jp/material/files/group/50/4354.pdf",
+      "title": "丹波市：柏原藩歴代藩主",
+      "locator": "PDF1頁「3代藩主 織田信勝」。父信則、1630継承、佐治川堤防・新田、八幡神社奉納、1650没。後期柏原藩の信休とは区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "iwaki-library": {
+      "url": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000174727",
+      "title": "いわき市立いわき総合図書館：岩城常隆公の没年",
+      "locator": "回答。下総守と左京太夫の2人を区別。「概説平市史」による1584小野郷への出兵、1590小田原参陣・帰途死去。大永5年（1526）という回答内不整合は対象別世代の記載として留保。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "nagahama-museum": {
+      "url": "https://nagahama-rekihaku.jp/exhibit/607",
+      "title": "長浜城歴史博物館：秀吉、秀長と天下を支えた近江衆",
+      "locator": "展覧会の見どころ1「石田正澄（?－1600）と石田三成」、羽柴秀吉朱印状竹生嶋惣中宛（1585閏8月15日）の解説。兄弟関係、奉行、弥三名と使者の活動。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "検索ツールopenは403。Python urllibでHTTP200のHTMLを取得し、対象段落を抽出・実読。検索抄録のみの判定ではない。"
+    },
+    "sakai-museum": {
+      "url": "https://www.city.sakai.lg.jp/kanko/hakubutsukan/exhibition/kikaku_tokubetsu/kako/hideyositenn.files/sakaidaikan.pdf",
+      "title": "堺市博物館・渋谷一成「豊臣秀吉と堺の代官について」",
+      "locator": "冊子pp.50–53。正継の子・三成の兄の正澄。1596秋の北野天神縁起返還への尽力（1599奥書写を根拠）。表1は在任前後を?とし、任期確定不可。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "PDF抽出本文とローカル描画（冊子pp.50–53）の双方を確認。"
+    },
+    "sawayama-library": {
+      "url": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000092622",
+      "title": "滋賀県立図書館：佐和山城落城時の守将",
+      "locator": "回答：総大将は正継、三の丸守備大将は正澄、1600年落城時にともに戦死。旧暦9月17/18日を新暦にしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "odawara-museum": {
+      "url": "https://odawara-digital-museum.jp/great/detail/149/",
+      "title": "小田原市郷土文化館：北条氏康",
+      "locator": "1515–1571、氏綱の子、伊豆千代丸・新九郎、1541継承、1546河越合戦、1554三国同盟、検地税制伝馬、1559譲位後も小田原本城。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "商用の文章・画像等二次利用は許可申請。リンクにも申請規定。事実参照と転載を区別し、製品でのリンク表示方針は未解決。",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "odawara-history": {
+      "url": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+      "title": "小田原市：北条氏五代100年の歴史",
+      "locator": "北条五代年表1538国府台、1541継承、1546河越、1560譲位、1571没。譲位1559の館解説と1年差。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "odawara-battle": {
+      "url": "https://www.city.odawara.kanagawa.jp/encycl/neohojo5/006/",
+      "title": "小田原市・小和田哲男：三代氏康と合戦",
+      "locator": "初陣1530武蔵小沢原、1537鶴岡八幡宮判物連署。末尾の著作権規定・1995年執筆注記。兵数・夜襲の詳細を新案に採用しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "市は文章の複製加工不可、リンク時連絡を求める。事実のみ独自記録。",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "odawara-terms": {
+      "url": "https://odawara-digital-museum.jp/terms/",
+      "title": "おだわらデジタルミュージアム利用規約",
+      "locator": "2著作権：商用二次利用は事前書面許可、例外対象あり。3リンク：申請規定。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "許可制・公開利用の全面確認ではない",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "nagano-kagekatsu": {
+      "url": "https://kawanakajima.nagano.jp/character/uesugi-kagekatsu/",
+      "title": "長野市：上杉景勝",
+      "locator": "1555–1623、顕景・喜平次・卯松、1575改名、1578春日山占拠、1582北信四郡、1586臣従、1598会津120万石、米沢30万石。1580景虎勝利は別資料との相違あり。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "yonezawa-kagekatsu": {
+      "url": "https://www.city.yonezawa.yamagata.jp/material/files/group/10/24_20801516.pdf",
+      "title": "米沢市広報2023年8月1日・今福匡：上杉景勝 第2回",
+      "locator": "紙面の1586上洛臣従、1598会津移封、1600景勝は会津から兼続へ最上攻め指示、1601年8月減封・10月28日入城。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "PDF抽出テキストは縦書き順序が逆転。ローカル描画を目視して年月日・段落を確認。"
+    },
+    "kagekatsu-dictionary": {
+      "url": "https://kotobank.jp/word/上杉景勝-33777",
+      "title": "コトバンク：上杉景勝（辞典別に区別）",
+      "locator": "講談社日本人名大辞典は1556*・弘治元年11月27日。大辞泉1556、長野市/諸辞典1555。世界大百科は景虎打倒1579・反景勝派平定1580を区別。没日は大半3月20日、ブリタニカ3月2日と差がある。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "naoj-gregorian": {
+      "url": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi?type=0&gengo=a000&year=1556&month=1&day=18&jg=1&div=1&divu=3&len=1&lenu=3&gen=1",
+      "title": "国立天文台：日本の暦日データベース グレゴリオ暦",
+      "locator": "結果表1556/01/18＝弘治元年11月27日。末尾「すべてグレゴリオ暦」を確認。人物の誕生日そのものの証明ではなく、辞典記載和暦日の換算照合。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "urllibでHTML取得、EUC-JP復号、結果表と暦の指定を実読。"
+    },
+    "naoj-julian": {
+      "url": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi?type=0&gengo=a000&year=1556&month=1&day=8&jg=0&div=1&divu=3&len=1&lenu=3&gen=1",
+      "title": "国立天文台：日本の暦日データベース ユリウス暦",
+      "locator": "結果表1556/01/08＝弘治元年11月27日。末尾「すべてユリウス暦」を確認。人物の誕生日そのものの証明ではなく、辞典記載和暦日の換算照合。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "urllibでHTML取得、EUC-JP復号、結果表と暦の指定を実読。"
+    },
+    "myoko-samegao": {
+      "url": "https://www.city.myoko.niigata.jp/docs/311.html",
+      "title": "妙高市：斐太歴史の里・鮫ヶ尾城跡",
+      "locator": "指定説明と文献史料にみる鮫ヶ尾城。1579景虎自害、3月19日/24日景勝書状の解説、堀江宗親への働きかけ。景勝本人の現地滞在は未確認。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "検索ツール本文はナビ中心。urllibでHTML取得し指定説明と文献史料節を実読。"
+    },
+    "nagano-nobushige": {
+      "url": "https://kawanakajima.nagano.jp/character/takeda-nobushige/",
+      "title": "長野市：武田典厩信繁",
+      "locator": "1525–1561、信虎の子・信玄の弟、次郎・左馬助・典厩、兄の軍事を支え信豊に九十九条の教訓、第4次川中島で戦死。最期の台詞や討手は軍記に基づくため事実欄へ確定転記しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "nagano-terms": {
+      "url": "https://kawanakajima.nagano.jp/privacypolicy/",
+      "title": "長野市・川中島の戦い総合サイト：サイトポリシー",
+      "locator": "著作権節。文章・写真等は市または権利者に帰属、法定例外以外の無断複製転用不可。リンクは原則自由。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "転載は許諾相談。今回独自文章・画像不使用。",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "okazaki-katsuchiyo": {
+      "url": "https://www.library.okazaki.aichi.jp/uploads/8724141037e8bba81d860b4ca0f3e112.pdf",
+      "title": "岡崎市立図書館：忠勝公御武功其外聞書",
+      "locator": "本文印字p.45（抽出上p.46直前）結城秀康上洛の供に石川伯耆守次男勝千代。注が「石川康勝（？）」で同定留保。",
+      "kind": "public_library_transcription",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    },
+    "iwaki-history": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1001000004062/simple/iwaki-history.pdf",
+      "title": "いわき市：いわきの歴史（市公開PDF）",
+      "locator": "PDF7頁・印字8頁、1590年年表。岩城常隆24歳で病死後、佐竹義重三男能化丸を嗣子に迎え所領安堵。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実を独自要約。文章・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出で該当箇所を実読"
+    }
+  },
+  "people": {
+    "217": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "弥三",
+        "木工頭"
+      ],
+      "note": "本人本文未確認を解消。父正継の塩風呂掟書や弟三成の五奉行を正澄の功績としない。生年・重成/一氏の同定、堺代官の就退任年は未確認。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "表示名石田正澄を確認。",
+          "sourceIds": [
+            "nagahama-museum"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "三成の兄・正継の子。父弟の事績を分離。",
+          "sourceIds": [
+            "nagahama-museum",
+            "sakai-museum"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "弥三と木工頭を確認。重成/一氏は未照合。",
+          "sourceIds": [
+            "nagahama-museum",
+            "sawayama-library"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1600没を年単位確認。日付換算・自害か戦死かの細部は未確定。",
+          "sourceIds": [
+            "nagahama-museum",
+            "sawayama-library"
+          ],
+          "value": 1600
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "秀吉の使者・奉行、堺代官、1596縁起返還仲介、佐和山守備と死去を独自要約。",
+          "sourceIds": [
+            "nagahama-museum",
+            "sakai-museum",
+            "sawayama-library"
+          ]
+        }
+      ],
+      "biography": "石田三成の兄で、豊臣秀吉のもとで使者や奉行を務めた。堺代官として、堺にあった北野天神縁起の返還にも力を貸した。1600年、関ヶ原合戦後に父の正継と佐和山城を守り、城の陥落時に没した。"
+    },
+    "312": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "左京太夫"
+      ],
+      "note": "同名の下総守常隆による1520那須山田城攻めは本IDへ付けない。1567生を年齢から逆算して確定しない。最期の鎌倉星谷の現在地は未同定。",
+      "claims": [
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "小田原参陣世代の左京太夫常隆で、永正期下総守常隆とは別人。",
+          "sourceIds": [
+            "iwaki-library"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "左京太夫の呼称を確認。異表記左京大夫との整理・官位全体は未完。",
+          "sourceIds": [
+            "iwaki-library"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1584小野郷出兵、1590小田原参陣・帰途死去。後継者迎え入れは既存いわき市歴史資料を再読。",
+          "sourceIds": [
+            "iwaki-library",
+            "iwaki-history"
+          ]
+        }
+      ],
+      "biography": "陸奥の岩城氏を率いた戦国大名で、左京太夫を称した。1584年に小野郷へ兵を送り、1590年には豊臣秀吉の小田原攻めに参陣したが、帰途に病没した。没後、岩城家は佐竹氏から後継者を迎えた。"
+    },
+    "542": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [],
+      "note": "現在の正本1623–1650・父信則に対応する条件付き完成案。信長の弟への置換はしない。戦国モードの選定意図はユーザー判断待ちでidentity要修正を維持。生年の独立確認は未完。",
+      "claims": [
+        {
+          "field": "identity",
+          "status": "requires_correction",
+          "result": "資料の前期柏原3代藩主は現行年代/父名に一致するが、採用意図までは確定しない。",
+          "sourceIds": [
+            "kaibara"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1630継承、佐治川治水・新田開発・奉納、1650没と無嗣廃藩。現行マスター対象人物に限る。",
+          "sourceIds": [
+            "kaibara"
+          ]
+        }
+      ],
+      "biography": "丹波柏原藩の三代藩主。父の織田信則を継ぎ、1630年に藩主となった。佐治川の堤防整備や新田開発を進め、八幡神社へ社号額や灯籠を奉納した。1650年に没し、跡継ぎがなかったため藩は廃絶した。"
+    },
+    "1754": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "伊豆千代丸",
+        "新九郎"
+      ],
+      "note": "既存略歴は自然で本文の範囲内、変更不要。譲位年は館1559/市年表1560を両記。新九郎は氏綱等も使用し自動統合不可。現在のカード31・関連27への変更はしない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "北条氏康の表示名を維持。",
+          "sourceIds": [
+            "odawara-museum"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "氏綱の子・後北条3代、氏政と区別。",
+          "sourceIds": [
+            "odawara-museum"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "伊豆千代丸・新九郎を確認。渾名や号全件は未確認。",
+          "sourceIds": [
+            "odawara-museum",
+            "odawara-battle"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "1515を年単位確認。月日独立換算なし。",
+          "sourceIds": [
+            "odawara-museum",
+            "odawara-battle"
+          ],
+          "value": 1515
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1571を年単位確認。月日独立換算なし。",
+          "sourceIds": [
+            "odawara-museum",
+            "odawara-history"
+          ],
+          "value": 1571
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "小田原本拠・両上杉との対立・武田今川との同盟・内政整備を確認。元略歴は維持。",
+          "sourceIds": [
+            "odawara-museum"
+          ]
+        },
+        {
+          "field": "successionYear",
+          "status": "disputed",
+          "result": "1559（館解説）/1560（市年表）。成立過程・各記事の根拠未確認。",
+          "sourceIds": [
+            "odawara-museum",
+            "odawara-history"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "市館利用規約は商用転載等許可制、リンクにも申請規定。文章画像の流用なし。製品での出典表示方法は未解決。",
+          "sourceIds": [
+            "odawara-terms",
+            "odawara-battle"
+          ]
+        }
+      ],
+      "biographyQuality": "unchanged_appropriate"
+    },
+    "322": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "顕景",
+        "喜平次",
+        "卯松"
+      ],
+      "note": "既存略歴は確認範囲内で変更不要。和暦年1555と換算年1556を区別。弘治元年11月27日＝ユリウス1556-01-08＝遡及グレゴリオ1556-01-18。没日の3月20日/3月2日は辞典差を保持し、年1623のみ確認。御館乱の全終結と景虎自害を分離。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "上杉景勝を確認。",
+          "sourceIds": [
+            "nagano-kagekatsu"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "長尾政景の子・謙信の養子。景虎とは別人物。",
+          "sourceIds": [
+            "nagano-kagekatsu",
+            "myoko-samegao"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "顕景・喜平次・卯松を確認。称号/法名全件は未完。",
+          "sourceIds": [
+            "nagano-kagekatsu"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "辞典の弘治元年11月27日を国立天文台で照合し換算後の年1556を確認。1555は和暦年併記として保持。1556-01-08はユリウス暦、グレゴリオ暦は01-18。誕生日の原史料追跡は未完。",
+          "sourceIds": [
+            "kagekatsu-dictionary",
+            "naoj-gregorian",
+            "naoj-julian",
+            "nagano-kagekatsu"
+          ],
+          "value": 1556,
+          "candidateYears": [
+            1555
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1623没を確認。没日3月20日/3月2日の差と換算は未解決、日を確定しない。",
+          "sourceIds": [
+            "nagano-kagekatsu",
+            "kagekatsu-dictionary"
+          ],
+          "value": 1623
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "謙信養子・豊臣五大老、1598会津120万石、関ヶ原後の減封と1601米沢入城を確認。原略歴維持。",
+          "sourceIds": [
+            "nagano-kagekatsu",
+            "yonezawa-kagekatsu"
+          ]
+        },
+        {
+          "field": "otatemilestones",
+          "status": "partially_verified",
+          "result": "妙高市書状解説の景虎自害1579と、長野市1580勝利表現を区別。全反対派平定まで同一年に圧縮しない。",
+          "sourceIds": [
+            "myoko-samegao",
+            "nagano-kagekatsu",
+            "kagekatsu-dictionary"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "長野市文章画像等の無断複製転用は不可。今回事実のみ独自記録。ほかの出典条件は未確認。",
+          "sourceIds": [
+            "nagano-terms"
+          ]
+        }
+      ],
+      "biographyQuality": "unchanged_appropriate"
+    },
+    "1239": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "次郎",
+        "左馬助",
+        "典厩"
+      ],
+      "note": "軍記甲越信戦録に由来する遺言・討手・陣形詳細は史実欄へ断定転記しない。家訓の本文と成立年は今回未確認、信玄家法という書名は略歴に不採用。吉田信繁等の別名未照合。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "正本武田信繁を維持。",
+          "sourceIds": [
+            "nagano-nobushige"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "信虎の子・信玄の弟。真田信繁や子信豊と区別。",
+          "sourceIds": [
+            "nagano-nobushige"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "次郎・左馬助・典厩を本文で確認。",
+          "sourceIds": [
+            "nagano-nobushige"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "1525を市本文の年単位で確認。月日は未確認。",
+          "sourceIds": [
+            "nagano-nobushige"
+          ],
+          "value": 1525
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1561第4次川中島戦死を年単位確認。最期の細部は軍記と区別。",
+          "sourceIds": [
+            "nagano-nobushige"
+          ],
+          "value": 1561
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "兄を支える武将、信豊への九十九条教訓、川中島戦死を独自要約。家訓本文の原典追跡は残す。",
+          "sourceIds": [
+            "nagano-nobushige"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "市サイトポリシーの複製転用制限を確認。原文・画像の転載なし。",
+          "sourceIds": [
+            "nagano-terms"
+          ]
+        }
+      ],
+      "biography": "武田信虎の子で、信玄の弟。左馬助の官職にちなみ典厩と呼ばれ、兄の軍事を支えた。子の信豊に九十九条の教訓を残したことでも知られる。1561年、上杉軍との第四次川中島の戦いで戦死した。"
+    }
+  },
+  "attempts": [
+    {
+      "rosterId": "18",
+      "reason": "吉家＝直保を直接立証する公的本文は今回追加できず。検索で見つかった生成AI併用の記事・個人ブログを確定根拠に採用しない。既存状態を継承。",
+      "next": "加賀藩系譜・今庄村史の原典と県史の文書人物比定を照合。"
+    },
+    {
+      "rosterId": "213",
+      "reason": "岡崎市図書館翻刻の注は勝千代＝石川康勝（？）と留保。候補の文書を読んだだけで本人の新規確認や別名確認に数えない。略歴保留。",
+      "next": "奥仁科支配・最期の公的解説を探し、翻刻の疑問符を尊重。",
+      "sourceIds": [
+        "okazaki-katsuchiyo"
+      ]
+    },
+    {
+      "rosterId": "311",
+      "reason": "いわき市の発掘報告検索結果は15世紀の同名世代。対象親隆の生没年や新たな事績へ転用しない。今回新規本文確認なし。",
+      "next": "16世紀親隆の研究本文と原史料を優先。"
+    }
+  ],
+  "sourceAccessFailures": [
+    {
+      "url": "https://nagahama-rekihaku.jp/exhibit/607",
+      "status": "検索open403、urllib200で本人本文確認へ回復"
+    },
+    {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/48764.pdf",
+      "status": "抽出・ローカル描画で日本語解説欠落。検索抄録を根拠に昇格せず、妙高市解説へ代替"
+    },
+    {
+      "url": "https://www.okinawa-ct.ac.jp/userfiles/files/autoupload/2023/06/1687757903.pdf",
+      "status": "PDFのURLだがメンテナンスHTML。HTTP成功を論文本文確認としない"
+    },
+    {
+      "url": "https://rikkyo.repo.nii.ac.jp/record/21249/files/AA11649321_20_05.pdf",
+      "status": "検索open429/直接取得503。未実読"
+    },
+    {
+      "url": "https://www.museum.pref.yamanashi.jp/images/kikaku/16tokubetsu001/160420tkd24list.pdf",
+      "status": "検索opentimeout/直接取得503。未実読"
+    }
+  ]
+}

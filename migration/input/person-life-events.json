@@ -11,7 +11,8 @@
     "20261030-02": "migration/research/20261030-02/evidence.json",
     "20261030-03": "migration/research/20261030-03/evidence.json",
     "20261030-04": "migration/research/20261030-04/evidence.json",
-    "20261030-05": "migration/research/20261030-05/evidence.json"
+    "20261030-05": "migration/research/20261030-05/evidence.json",
+    "20261030-06": "migration/research/20261030-06/evidence.json"
   },
   "candidates": {
     "plc-gifu-castle": {
@@ -1201,6 +1202,138 @@
       "locationStatus": "unverified",
       "crossThreadOverlap": "全国側・生誕墓所担当との既存候補照合は未実施",
       "unresolved": "正式史跡との同一性・位置・訪問判定単位は全国担当が確認。"
+    },
+    "plc-sakai-region": {
+      "candidateId": "plc-sakai-region",
+      "placeName": "堺（代官としての活動地域）",
+      "regionAsSource": "和泉",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
+    },
+    "plc-iwaki-ono-go": {
+      "candidateId": "plc-iwaki-ono-go",
+      "placeName": "小野郷（岩城常隆の出兵先）",
+      "regionAsSource": "陸奥",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
+    },
+    "plc-saji-river": {
+      "candidateId": "plc-saji-river",
+      "placeName": "佐治川（柏原藩の堤防整備）",
+      "regionAsSource": "丹波",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
+    },
+    "plc-kaibara-hachiman": {
+      "candidateId": "plc-kaibara-hachiman",
+      "placeName": "八幡神社（柏原藩主信勝の奉納先）",
+      "regionAsSource": "丹波",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
+    },
+    "plc-odawara-main": {
+      "candidateId": "plc-odawara-main",
+      "placeName": "小田原本城",
+      "regionAsSource": "相模",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
+    },
+    "plc-kawagoe-battle": {
+      "candidateId": "plc-kawagoe-battle",
+      "placeName": "河越合戦の活動地域",
+      "regionAsSource": "武蔵",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
+    },
+    "plc-ozawahara-battle": {
+      "candidateId": "plc-ozawahara-battle",
+      "placeName": "小沢原合戦の活動地域",
+      "regionAsSource": "武蔵",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
+    },
+    "plc-kasugayama": {
+      "candidateId": "plc-kasugayama",
+      "placeName": "春日山城",
+      "regionAsSource": "越後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
+    },
+    "plc-yonezawa-castle": {
+      "candidateId": "plc-yonezawa-castle",
+      "placeName": "米沢城",
+      "regionAsSource": "出羽",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
+    },
+    "plc-samegao": {
+      "candidateId": "plc-samegao",
+      "placeName": "鮫ヶ尾城",
+      "regionAsSource": "越後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
+    },
+    "plc-kawanakajima-fourth": {
+      "candidateId": "plc-kawanakajima-fourth",
+      "placeName": "第四次川中島合戦の活動地域",
+      "regionAsSource": "信濃",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
     }
   },
   "events": [
@@ -5587,6 +5720,406 @@
       "approvalStatus": "pending_user_review",
       "previousMainBaseCandidateId": null,
       "unresolved": "野村の墓石を本人の本陣・戦死地へ転用しない。"
+    },
+    {
+      "eventId": "life-0217-001",
+      "personId": "sg-eabb6aa8c477",
+      "rosterId": "217",
+      "personName": "石田正澄",
+      "candidateId": "plc-sakai-region",
+      "dateLabel": "1596年",
+      "yearStart": 1596,
+      "yearEnd": 1596,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "堺代官として北野天神縁起の返還に尽力した。",
+      "relationTypes": [
+        "領地経営",
+        "寺社保護"
+      ],
+      "sourceRefs": [
+        "20261030-06:sakai-museum"
+      ],
+      "sourceLocator": "冊子pp.50–53。正継の子・三成の兄の正澄。1596秋の北野天神縁起返還への尽力（1599奥書写を根拠）。表1は在任前後を?とし、任期確定不可。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "石田正澄の就任・退任年は未確認。1596年の活動だけを記録し、任期を推測しない。本人の寺社訪問は未確認。"
+    },
+    {
+      "eventId": "life-0217-002",
+      "personId": "sg-eabb6aa8c477",
+      "rosterId": "217",
+      "personName": "石田正澄",
+      "candidateId": "plc-sawayama",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "関ヶ原合戦後、佐和山城三の丸を守り、落城時に没した。",
+      "relationTypes": [
+        "参戦",
+        "戦死"
+      ],
+      "sourceRefs": [
+        "20261030-06:sawayama-library"
+      ],
+      "sourceLocator": "回答：総大将は正継、三の丸守備大将は正澄、1600年落城時にともに戦死。旧暦9月17/18日を新暦にしない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "総大将は父正継。本人の最期の態様と旧暦日の換算は未完。"
+    },
+    {
+      "eventId": "life-0312-001",
+      "personId": "sg-master-0312",
+      "rosterId": "312",
+      "personName": "岩城常隆",
+      "candidateId": "plc-iwaki-ono-go",
+      "dateLabel": "1584年",
+      "yearStart": 1584,
+      "yearEnd": 1584,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "左京太夫常隆が小野郷へ出兵した。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030-06:iwaki-library"
+      ],
+      "sourceLocator": "回答。下総守と左京太夫の2人を区別。「概説平市史」による1584小野郷への出兵、1590小田原参陣・帰途死去。大永5年（1526）という回答内不整合は対象別世代の記載として留保。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "同名の下総守による1520年那須山田城攻めと区別。"
+    },
+    {
+      "eventId": "life-0312-002",
+      "personId": "sg-master-0312",
+      "rosterId": "312",
+      "personName": "岩城常隆",
+      "candidateId": "plc-odawara-campaign",
+      "dateLabel": "1590年",
+      "yearStart": 1590,
+      "yearEnd": 1590,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "小田原攻めに参陣した。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030-06:iwaki-library"
+      ],
+      "sourceLocator": "回答。下総守と左京太夫の2人を区別。「概説平市史」による1584小野郷への出兵、1590小田原参陣・帰途死去。大永5年（1526）という回答内不整合は対象別世代の記載として留保。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "帰途病没。個別陣地や鎌倉星谷の現在地は未確認。"
+    },
+    {
+      "eventId": "life-0542-002",
+      "personId": "sg-dc42c21066b7",
+      "rosterId": "542",
+      "personName": "織田信勝",
+      "candidateId": "plc-saji-river",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "柏原藩主として佐治川の堤防整備と新田開発を進めた。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261030-06:kaibara"
+      ],
+      "sourceLocator": "PDF1頁「3代藩主 織田信勝」。父信則、1630継承、佐治川堤防・新田、八幡神社奉納、1650没。後期柏原藩の信休とは区別。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "在任1630～1650年だが実施年未確認。現正本の1623～1650年の信勝に限る条件付き対応。信長の弟とは別人。"
+    },
+    {
+      "eventId": "life-0542-003",
+      "personId": "sg-dc42c21066b7",
+      "rosterId": "542",
+      "personName": "織田信勝",
+      "candidateId": "plc-kaibara-hachiman",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "八幡神社へ社号額と灯籠を奉納した。",
+      "relationTypes": [
+        "寄進"
+      ],
+      "sourceRefs": [
+        "20261030-06:kaibara"
+      ],
+      "sourceLocator": "PDF1頁「3代藩主 織田信勝」。父信則、1630継承、佐治川堤防・新田、八幡神社奉納、1650没。後期柏原藩の信休とは区別。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "在任1630～1650年だが実施年未確認。現正本の1623～1650年の信勝に限る条件付き対応。信長の弟とは別人。"
+    },
+    {
+      "eventId": "life-1754-001",
+      "personId": "sg-22f595e1c616",
+      "rosterId": "1754",
+      "personName": "北条氏康",
+      "candidateId": "plc-odawara-main",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "家督譲渡後も小田原本城に住み、軍事外交を担った。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261030-06:odawara-museum",
+        "20261030-06:odawara-history"
+      ],
+      "sourceLocator": "1515–1571、氏綱の子、伊豆千代丸・新九郎、1541継承、1546河越合戦、1554三国同盟、検地税制伝馬、1559譲位後も小田原本城。 / 北条五代年表1538国府台、1541継承、1546河越、1560譲位、1571没。譲位1559の館解説と1年差。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "譲位年は館1559・市年表1560。入居年を推定しない。"
+    },
+    {
+      "eventId": "life-1754-002",
+      "personId": "sg-22f595e1c616",
+      "rosterId": "1754",
+      "personName": "北条氏康",
+      "candidateId": "plc-kawagoe-battle",
+      "dateLabel": "1546年",
+      "yearStart": 1546,
+      "yearEnd": 1546,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "河越合戦で上杉氏などの連合軍を破った。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030-06:odawara-museum"
+      ],
+      "sourceLocator": "1515–1571、氏綱の子、伊豆千代丸・新九郎、1541継承、1546河越合戦、1554三国同盟、検地税制伝馬、1559譲位後も小田原本城。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "兵力数や夜襲の具体像は未精査。"
+    },
+    {
+      "eventId": "life-1754-003",
+      "personId": "sg-22f595e1c616",
+      "rosterId": "1754",
+      "personName": "北条氏康",
+      "candidateId": "plc-ozawahara-battle",
+      "dateLabel": "1530年",
+      "yearStart": 1530,
+      "yearEnd": 1530,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "小沢原で初陣を経験した。",
+      "relationTypes": [
+        "初陣",
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261030-06:odawara-battle"
+      ],
+      "sourceLocator": "初陣1530武蔵小沢原、1537鶴岡八幡宮判物連署。末尾の著作権規定・1995年執筆注記。兵数・夜襲の詳細を新案に採用しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1995年の専門家解説に基づく。陣地・現地到達地点は未確認。"
+    },
+    {
+      "eventId": "life-0322-001",
+      "personId": "sg-334f0ad961e2",
+      "rosterId": "322",
+      "personName": "上杉景勝",
+      "candidateId": "plc-kasugayama",
+      "dateLabel": "1578年",
+      "yearStart": 1578,
+      "yearEnd": 1578,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "謙信の死後、春日山城を押さえて後継争いに臨んだ。",
+      "relationTypes": [
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261030-06:nagano-kagekatsu"
+      ],
+      "sourceLocator": "1555–1623、顕景・喜平次・卯松、1575改名、1578春日山占拠、1582北信四郡、1586臣従、1598会津120万石、米沢30万石。1580景虎勝利は別資料との相違あり。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "占拠と継承争いの終結年を区別。"
+    },
+    {
+      "eventId": "life-0322-002",
+      "personId": "sg-334f0ad961e2",
+      "rosterId": "322",
+      "personName": "上杉景勝",
+      "candidateId": "plc-aizu-region",
+      "dateLabel": "1598年",
+      "yearStart": 1598,
+      "yearEnd": 1598,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "越後から会津へ移封され、120万石を領した。",
+      "relationTypes": [
+        "転封",
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261030-06:nagano-kagekatsu",
+        "20261030-06:yonezawa-kagekatsu"
+      ],
+      "sourceLocator": "1555–1623、顕景・喜平次・卯松、1575改名、1578春日山占拠、1582北信四郡、1586臣従、1598会津120万石、米沢30万石。1580景虎勝利は別資料との相違あり。 / 紙面の1586上洛臣従、1598会津移封、1600景勝は会津から兼続へ最上攻め指示、1601年8月減封・10月28日入城。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-kasugayama",
+      "unresolved": "本文の会津という地域粒度を保持。城への具体的入城日は未確認。"
+    },
+    {
+      "eventId": "life-0322-003",
+      "personId": "sg-334f0ad961e2",
+      "rosterId": "322",
+      "personName": "上杉景勝",
+      "candidateId": "plc-yonezawa-castle",
+      "dateLabel": "1601年",
+      "yearStart": 1601,
+      "yearEnd": 1601,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "関ヶ原合戦後の減封に伴い米沢へ移った。",
+      "relationTypes": [
+        "転封",
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261030-06:yonezawa-kagekatsu"
+      ],
+      "sourceLocator": "紙面の1586上洛臣従、1598会津移封、1600景勝は会津から兼続へ最上攻め指示、1601年8月減封・10月28日入城。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-aizu-region",
+      "unresolved": "市広報は8月減封・10月28日入城。日付の追加照合と暦換算は未完。"
+    },
+    {
+      "eventId": "life-0322-004",
+      "personId": "sg-334f0ad961e2",
+      "rosterId": "322",
+      "personName": "上杉景勝",
+      "candidateId": "plc-samegao",
+      "dateLabel": "1579年",
+      "yearStart": 1579,
+      "yearEnd": 1579,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "景虎の立てこもる鮫ヶ尾城の堀江宗親へ働きかけた。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261030-06:myoko-samegao"
+      ],
+      "sourceLocator": "指定説明と文献史料にみる鮫ヶ尾城。1579景虎自害、3月19日/24日景勝書状の解説、堀江宗親への働きかけ。景勝本人の現地滞在は未確認。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "書状に基づく働きかけ。景勝本人の現地滞在・直接攻撃を示すものではない。"
+    },
+    {
+      "eventId": "life-1239-001",
+      "personId": "sg-c091a1f2c530",
+      "rosterId": "1239",
+      "personName": "武田信繁",
+      "candidateId": "plc-kawanakajima-fourth",
+      "dateLabel": "1561年",
+      "yearStart": 1561,
+      "yearEnd": 1561,
+      "datePrecision": "year",
+      "calendarBasis": "出典の西暦対応年。旧暦月日のグレゴリオ暦換算は未実施。",
+      "event": "第四次川中島合戦で戦死した。",
+      "relationTypes": [
+        "参戦",
+        "戦死"
+      ],
+      "sourceRefs": [
+        "20261030-06:nagano-nobushige"
+      ],
+      "sourceLocator": "1525–1561、信虎の子・信玄の弟、次郎・左馬助・典厩、兄の軍事を支え信豊に九十九条の教訓、第4次川中島で戦死。最期の台詞や討手は軍記に基づくため事実欄へ確定転記しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "資料別条件は根拠JSON参照。事実を独自要約、文章・画像転載なし。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "軍記の台詞・討手・布陣を確定事実として採用しない。墓碑を死亡地点にしない。"
     }
   ],
   "residenceSequences": [
@@ -5862,6 +6395,23 @@
         "life-1429-008"
       ],
       "note": "津復帰→板島→岩城の配所。処分年と到着日は区別。途中滞在は別イベント。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "322",
+      "personId": "sg-334f0ad961e2",
+      "personName": "上杉景勝",
+      "candidateIds": [
+        "plc-kasugayama",
+        "plc-aizu-region",
+        "plc-yonezawa-castle"
+      ],
+      "eventIds": [
+        "life-0322-001",
+        "life-0322-002",
+        "life-0322-003"
+      ],
+      "note": "春日山→会津→米沢。会津は地域単位、途中滞在・入城日を網羅しない。",
       "completeness": "partial_not_exhaustive"
     }
   ]
