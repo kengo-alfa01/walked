@@ -441,6 +441,7 @@ function showSengokuPerson(person){
   if(ownsSengokuCard(card.id)){
    const site=sengokuSites.find(s=>s.id===card.siteId);
    content.textContent='📜 '+card.title+' — '+card.summary+(site?'（'+site.name+'）':'');
+   if(card.source&&/^https:\/\//.test(card.source)){const a=document.createElement('a');a.href=card.source;a.target='_blank';a.rel='noopener noreferrer';a.textContent=' 出典を読む';content.append(a);}
   }else content.textContent='🔒 未発見の足跡';
   el.append(year,content);div.append(el);
  }
@@ -504,8 +505,10 @@ function reconcileSengokuVisits(){
  if(!sengokuSites.length)return;
  const codes=new Set(Object.keys(state.visited).map(areaMunicipalityCode).filter(Boolean));
  const ids=sengokuCards.filter(c=>eligibleSengokuCard(c)&&codes.has(String(sengokuSites.find(s=>s.id===c.siteId)?.municipalityCode))&&!sengokuFound[c.id]).map(c=>c.id);
- for(const id of ids){const card=sengokuCards.find(c=>c.id===id);sengokuFound[id]={at:new Date().toISOString(),siteId:card.siteId};}
- if(ids.length){writeStore(sengokuStoreKey,sengokuFound);renderSengoku();refreshSengokuPins();toastSengokuCards(ids);}
+ if(ids.length){
+  const next={...sengokuFound};for(const id of ids){const card=sengokuCards.find(c=>c.id===id);next[id]={at:new Date().toISOString(),siteId:card.siteId};}
+  writeStore(sengokuStoreKey,next);Object.assign(sengokuFound,next);renderSengoku();refreshSengokuPins();toastSengokuCards(ids);
+ }
 }
 function refreshSengokuTestSites(){
  const select=$('testSite');select.replaceChildren();

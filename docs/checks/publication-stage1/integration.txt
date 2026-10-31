@@ -1,0 +1,22 @@
+✔ pinned map geometry IDs match the title registry and excluded IDs without omissions (16.821673ms)
+✔ full application boots, migrates titles, selects profile and preserves hidden card records on reload (1199.565228ms)
+✔ v2 restore and v3 export/restore preserve every collection and store a pre-restore checkpoint (795.838717ms)
+✔ cancelled/invalid imports change no saved records (407.971759ms)
+✔ quota failure during restore rolls back storage and never mutates active game (476.224718ms)
+✔ clearing visits retains cards, acquired titles and profile, with a recoverable checkpoint (375.872587ms)
+✔ corrupt original data is never silently overwritten and raw rescue exports it (370.622036ms)
+✔ interrupted multi-key restore is recovered before startup reads the game (417.213793ms)
+✔ timeline storage failure releases busy state and collection batching (394.851178ms)
+✔ preview-only sample adds 31 areas, awards titles, and refuses to mix with existing records (465.332577ms)
+✔ preview helper is inert without preview marker and cannot overwrite corrupt stored records (986.658323ms)
+✔ approved history unlocks from saved municipality/legacy town visits, preserves old cards and credits, and survives backup/reload without duplicate notification (2534.980589ms)
+✔ unvisited or neighboring municipalities do not unlock the new history (730.296127ms)
+✔ storage failure during retroactive unlock leaves saved and active card histories intact, then retry succeeds (336.815491ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10312.28221

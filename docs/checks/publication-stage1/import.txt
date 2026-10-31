@@ -1,0 +1,12 @@
+✔ two reviewed packages produce the exact runtime catalog and preserve every legacy record (43.280318ms)
+✔ repeat import, reversed packages and partial S1 installation are idempotent (65.505571ms)
+✔ changed old catalog, tampered delta and same-ID overwrite stop import (49.372451ms)
+✔ published additions contain only frozen reviewed IDs, safe facts and required credits (0.762235ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 311.434159
