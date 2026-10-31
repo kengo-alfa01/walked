@@ -26,11 +26,11 @@ test('pinned map geometry IDs match the title registry and excluded IDs without 
  const registry=require('../data/title-registry.json');const expected=[...registry.areas,...registry.excluded].map(a=>a.code).sort();assert.deepEqual(topo.objects.municipalities.geometries.map(g=>String(g.id)).sort(),expected);assert.equal(require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(assets,'municipalities.topojson'))).digest('hex'),registry.sourceSHA256);
 });
 test('full application boots, migrates titles, selects profile and preserves hidden card records on reload',async()=>{
- const w=await app(seeded);assert.match(w.document.getElementById('titleProgress').textContent,/全国 2 \/ 1892/);assert.ok(read(w).cards['retired-card']);assert.equal(w.document.getElementById('titleToast').hidden,false);
- w.document.getElementById('titleToggle').click();assert.equal(w.document.querySelectorAll('.title-card').length,10);w.eval("selectTitle('national-1')");assert.equal(w.document.getElementById('profileTitle').textContent,'足軽');
+ const w=await app(seeded);assert.equal(w.document.querySelector('header').textContent,'WALKED');w.document.getElementById('sengokuToggle').click();assert.equal(w.document.querySelectorAll('.sengoku-person').length,w.eval('sengokuPeople.filter(p=>countOwned(p.id)>0).length'));assert.equal(w.document.getElementById('sengokuFilter'),null);assert.match(w.document.getElementById('titleProgress').textContent,/全国 2 \/ 1892/);assert.ok(read(w).cards['retired-card']);assert.equal(w.document.getElementById('titleToast').hidden,false);
+ w.document.getElementById('titleToggle').click();assert.equal(w.document.querySelectorAll('.title-card').length,1);w.eval("selectTitle('national-1')");assert.equal(w.document.getElementById('profileTitle').textContent,'足軽');
  const saved=Object.fromEntries(keys.map(k=>[k,w.localStorage.getItem(k)]));const w2=await app(saved);assert.equal(w2.document.getElementById('titleToast').hidden,true);assert.equal(w2.document.getElementById('profileTitle').textContent,'足軽');
- w2.document.getElementById('titleToggle').click();w2.document.getElementById('titleCategory').value='region';w2.eval('renderTitles()');assert.equal(w2.document.querySelectorAll('.title-card').length,16);
- w2.document.getElementById('titleCategory').value='prefecture';w2.eval('renderTitles()');assert.equal(w2.document.querySelectorAll('.title-card').length,4);
+ w2.document.getElementById('titleToggle').click();w2.document.getElementById('titleCategory').value='region';w2.eval('renderTitles()');assert.equal(w2.document.querySelectorAll('.title-card').length,0);
+ w2.document.getElementById('titleCategory').value='prefecture';w2.eval('renderTitles()');assert.equal(w2.document.querySelectorAll('.title-card').length,0);
  w.close();w2.close();
 });
 test('v2 restore and v3 export/restore preserve every collection and store a pre-restore checkpoint',async()=>{

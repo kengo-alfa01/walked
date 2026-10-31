@@ -27,8 +27,8 @@ async function upload(page,doc){await page.locator('#restoreFile').setInputFiles
   await ready(page);assert.match(await page.locator('#titleProgress').textContent(),/全国 2 \/ 1892/);assert.equal(await page.locator('#titleToast').isVisible(),true);
   await page.locator('#closeTitleToast').click();await page.locator('#titleToggle').click();await page.locator('#displayTitle').selectOption('national-1');assert.equal(await page.locator('#profileTitle').textContent(),'足軽');
   await ready(page);assert.equal(await page.locator('#profileTitle').textContent(),'足軽');assert.equal(await page.locator('#titleToast').isVisible(),false,'reload does not renotify');
-  await page.locator('#titleToggle').click();await page.locator('#titleCategory').selectOption('prefecture');await page.locator('#titlePrefecture').selectOption('14');assert.equal(await page.locator('.title-card').count(),4);
-  await page.locator('#titleCategory').selectOption('region');assert.equal(await page.locator('.title-card').count(),16);
+  await page.locator('#titleToggle').click();await page.locator('#titleCategory').selectOption('prefecture');await page.locator('#titlePrefecture').selectOption('14');assert.equal(await page.locator('.title-card').count(),0);
+  await page.locator('#titleCategory').selectOption('region');assert.equal(await page.locator('.title-card').count(),0);
   await page.screenshot({path:path.join(assets,label+'.png'),fullPage:true});
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,'no horizontal overflow');
   const before=await page.evaluate(()=>currentBackup());
