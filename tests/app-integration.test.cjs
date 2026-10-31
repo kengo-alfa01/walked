@@ -65,3 +65,13 @@ test('timeline storage failure releases busy state and collection batching',asyn
  const w=await app(),original=w.Storage.prototype.setItem;w.Storage.prototype.setItem=function(k,v){if(k==='walked_municipal_v2')throw Error('quota');return original.call(this,k,v)};
  await assert.rejects(w.eval('processRecords([])'),/quota/);assert.equal(w.eval('state.busy'),false);assert.equal(w.eval('sengokuBulkImport'),false);w.close();
 });
+
+function preview(w){w.eval("document.head.insertAdjacentHTML('beforeend','<meta name=\"walked-preview\" content=\"test\">')");w.eval(fs.readFileSync(path.join(root,'preview/preview.js'),'utf8'));}
+test('preview-only sample adds 31 areas, awards titles, and refuses to mix with existing records',async()=>{
+ const w=await app();preview(w);w.document.getElementById('previewSample').click();assert.equal(w.eval('titleView.progress.count'),31);assert.equal(w.document.getElementById('profileTitle').textContent,'足軽大将');assert.equal(w.localStorage.getItem('walked_preview_sample_v1'),'true');
+ const before=raw(w);w.document.getElementById('previewSample').click();assert.deepEqual(raw(w),before);assert.match(w.document.getElementById('status').textContent,/記録が空/);w.close();
+});
+test('preview helper is inert without preview marker and cannot overwrite corrupt stored records',async()=>{
+ const w=await app();w.eval(fs.readFileSync(path.join(root,'preview/preview.js'),'utf8'));assert.equal(w.document.getElementById('previewSample'),null);w.close();
+ const broken=await app({walked_municipal_v2:'{broken'});preview(broken);broken.document.getElementById('previewSample').click();assert.equal(broken.localStorage.getItem('walked_municipal_v2'),'{broken');broken.close();
+});
