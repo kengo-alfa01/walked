@@ -9,7 +9,7 @@ function source(name){
  return script.slice(start,i);
 }
 const state={visited:{},features:[],featureById:new Map(),machidaById:new Map(),sagamiharaById:new Map(),prefById:new Map(),nationById:new Map(),nationCache:new Map(),layers:new Map(),machida:[],sagamihara:[],mode:'municipal'};
-const ctx={state,MACHIDA_CODE:'13209',MACHIDA_PREFIX:'m:',SAGAMIHARA_PREFIX:'s:',NATION_PREFIX:'n:',PREF_PREFIX:'p:',sengokuSites:[],sengokuCards:[],sengokuFound:{},sengokuStoreKey:'test',localStorage:{setItem(){}},persist(){},renderSengoku(){},refreshSengokuPins(){},toastSengokuCards(){},coveredPrefCodes(){return new Set()}};
+const ctx={state,MACHIDA_CODE:'13209',MACHIDA_PREFIX:'m:',SAGAMIHARA_PREFIX:'s:',NATION_PREFIX:'n:',PREF_PREFIX:'p:',sengokuSites:[],sengokuCards:[],sengokuFound:{},sengokuStoreKey:'test',localStorage:{setItem(){}},writeStore(){},persist(){},renderSengoku(){},refreshSengokuPins(){},toastSengokuCards(){},coveredPrefCodes(){return new Set()}};
 vm.createContext(ctx);
 for(const name of ['canonicalAreaKey','areaRecordKeys','areaMunicipalityCode','key','areaModeForFeature','keyForMode','isVisited','getFeature','mark','unmark','ringContains','geomContains','municipalCode','getMunicipalityForPoint','eligibleSengokuCard','matchedSengokuCardsAtPoint','acquireSengokuByAreaFeature','reconcileSengokuVisits'])vm.runInContext(source(name),ctx);
 for(const code of ['13209','14151','14152','14153']){
