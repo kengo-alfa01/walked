@@ -3129,6 +3129,198 @@
       "evidenceRef": "migration/research/20261031-02/evidence.json#/people/1461",
       "approvalStatus": "pending_user_review",
       "approvalDate": null
+    },
+    "203": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "disputed",
+        "biography": "verified",
+        "license": "partially_verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "additionalDeathCandidates": [
+        1592,
+        1593
+      ],
+      "biography": "徳川家康の重臣として岡崎城代や西三河の旗頭を務め、織田氏との外交にも携わった。1585年に家康を離れて豊臣秀吉に仕え、1590年に松本城主となる。城と城下町の整備を始め、事業は子の康長に受け継がれた。",
+      "verifiedAliases": [
+        "伯耆守",
+        "出雲守",
+        "助四郎",
+        "与七郎"
+      ],
+      "sources": [
+        "https://www.matsumoto-castle.jp/about/history",
+        "https://kotobank.jp/word/石川数正-30498",
+        "https://kunishitei.bunka.go.jp/heritage/detail/102/920",
+        "https://www.matsumoto-castle.jp/town/know/build",
+        "https://www.matsumoto-castle.jp/policy"
+      ],
+      "note": "2026-10-31追記：没年は文禄元年と2年の違い、1592/1593の旧暦年末換算を区別。父名康正/庸正、初名康輝/康正等も未解決。出奔動機は断定せず、天守完成を数正へ帰属させない。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "50076b37ca83de4564a9753d5f1e638f19d00e72fbb3126525921d377669ed56",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-03/evidence.json#/people/203",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null,
+      "licenseStatus": "partially_verified"
+    },
+    "983": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "unverified",
+        "birth": "disputed",
+        "death": "verified",
+        "biography": "verified",
+        "lifePlaces": "partially_verified",
+        "license": "partially_verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "additionalBirthCandidates": [
+        1525,
+        1530
+      ],
+      "confirmedDeathValue": 1578,
+      "biography": "安房・上総を治めた里見義堯の子。上杉謙信と連携して北条氏に対抗した。国府台で敗れた後、三船山の戦いでは勝利し、1577年に北条氏と和睦した。足利氏の人々を保護し、婚姻を通じても結び付きを深めた。",
+      "verifiedAliases": [],
+      "sources": [
+        "https://tateyama-field-museum.jp/archives/7296",
+        "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_3/k4shou_3min.html",
+        "https://kotobank.jp/word/里見義弘-69374",
+        "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_2/k4shou_2min.html",
+        "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_4/k4shou_4min.html",
+        "https://www.city.tateyama.chiba.jp/jouhou/page050013.html"
+      ],
+      "note": "2026-10-31追記：1530/1525の生年差を維持。義頼との続柄は弟説と庶長子説。公的記事にも年号の飛びがあるため和議年は博物館年表と照合。推測的死因・「最盛期」の評価を略歴に入れない。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "d618a17d2405c18a743c6624919820190cd2acc378d52bd0e886cc16b016a328",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-03/evidence.json#/people/983",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null,
+      "licenseStatus": "partially_verified"
+    },
+    "985": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "verified",
+        "biography": "verified",
+        "license": "partially_verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedDeathValue": 1587,
+      "biography": "安房の岡本城を拠点とした里見氏の当主。義弘の死後、梅王丸や正木憲時との争いを経て、安房・上総の支配をまとめた。北条氏との和平を保ちながら周辺勢力と交渉し、商船の安全や商人の領内での活動を保障した。",
+      "verifiedAliases": [
+        "義継"
+      ],
+      "sources": [
+        "https://tateyama-field-museum.jp/archives/7296",
+        "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_3/k4shou_3min.html",
+        "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_4/k4shou_4min.html",
+        "https://www.city.tateyama.chiba.jp/jouhou/page050013.html"
+      ],
+      "note": "2026-10-31追記：義弘の弟説と庶長子説を保持し、父名を自動変更しない。義継は市本文で確認。義弘没後の梅王丸の当主権を省略して直ちに義頼が継承したとはしない。生年1543未確認。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "db8b44a7935c9defffd903b4502a4f9d2afc6b7cdaf57853c27c17371449620b",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-03/evidence.json#/people/985",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null,
+      "licenseStatus": "partially_verified"
+    },
+    "1114": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "unverified",
+        "birth": "unverified",
+        "death": "unverified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "biography": "越中西部の神保氏の勢力を立て直した領主。富山城を拠点に新川郡へ進出し、椎名氏と争った。1560年には上杉謙信の攻撃で富山城を離れ、増山城へ移って拠点とした。",
+      "verifiedAliases": [],
+      "sources": [
+        "https://www.city.toyama.toyama.jp/etc/maibun/toyamajyo/history/sengoku2.htm",
+        "https://www.city.tonami.lg.jp/photop/9602p/"
+      ],
+      "note": "2026-10-31追記：神保慶宗との父子関係・全別名・生没年は未確認。富山築城1543頃は研究説。1576増山落城を本人の最期に流用せず、1578富山入城の長住とも区別。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "5de67b15fb36af0b0ac03e98aa33465d00b162371af9c46413ca9f34f87d266d",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-03/evidence.json#/people/1114",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "2000": {
+      "fieldStatus": {
+        "name": "requires_correction",
+        "identity": "partially_verified",
+        "aliases": "disputed",
+        "birth": "unverified",
+        "death": "verified",
+        "biography": "verified",
+        "lifePlaces": "partially_verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedDeathValue": 1604,
+      "biography": "丹羽長秀に仕え、加賀小松城を預かった。のち豊臣秀吉のもとで堀氏の与力となり、1598年に越後村上城主となる。関ヶ原の戦いの際は越後にとどまり、上杉氏の旧領で起きた一揆の鎮圧にあたった。",
+      "verifiedAliases": [
+        "周防守"
+      ],
+      "sources": [
+        "https://www.sake3.com/jyoukamachi/127",
+        "https://kotobank.jp/word/村上義明-1114660",
+        "https://www.sake3.com/jyoukamachi/130"
+      ],
+      "note": "2026-10-31追記：正本の参照記事と既存略歴から初代頼勝を調査対象とする。主表示名は義明のまま、頼勝への変更案を別記。義明は忠勝にも通じるため統合不可。略歴・没年は初代頼勝に関する根拠。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "4ece249abafadffc9178a5a31aa80db441ca17a7c1fef3436c95fff4c3a859c3",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-03/evidence.json#/people/2000",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "1997": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "disputed",
+        "birth": "unverified",
+        "death": "verified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedDeathValue": 1623,
+      "biography": "村上頼勝の養子となり、幼くして越後村上藩を継いだ。乙宝寺の三重塔建立に寄進したが、家臣間の対立が幕府に知られ、1618年に所領を失った。その後は丹波篠山に配流され、1623年に没した。",
+      "verifiedAliases": [
+        "周防守"
+      ],
+      "sources": [
+        "https://www.sake3.com/jyoukamachi/130",
+        "https://www.sake3.com/jyoukamachi/127",
+        "https://kotobank.jp/word/村上義明-1114660"
+      ],
+      "note": "2026-10-31追記：初代頼勝と別IDで保持。生年1599は享年逆算で確定しない。戸田勝隆との実父関係未確認。館解説の元和2年大坂夏の陣という不整合は除外し、1618配流と1623没を記録。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "f0be9c86b5433fa34238535871c2f5c15666e4d411c37cf65649c96351249d05",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-03/evidence.json#/people/1997",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
     }
   },
   "sourcePolicies": [

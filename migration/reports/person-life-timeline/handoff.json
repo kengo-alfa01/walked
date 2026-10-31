@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "summary": {
-    "events": 206,
-    "candidatePlaces": 140,
-    "people": 46,
+    "events": 225,
+    "candidatePlaces": 154,
+    "people": 52,
     "selected": 624,
-    "peopleWithoutExtraction": 578,
+    "peopleWithoutExtraction": 572,
     "completeLifeTimelines": 0,
     "publishedSites": 0,
     "publishedLinks": 0,
@@ -5882,6 +5882,550 @@
       "approvalStatus": "pending_user_review",
       "previousMainBaseCandidateId": null,
       "unresolved": "展示史料3は長尾景慶他6名掟書・永正18年2月。為景の政策と本人自筆・現地訪問を同一視しない。"
+    },
+    {
+      "eventId": "life-0203-001",
+      "personId": "sg-49a2411798d0",
+      "rosterId": "203",
+      "personName": "石川数正",
+      "candidateId": "plc-okazaki-castle",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "家康のもとで岡崎城代を務めた。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261031-03:matsumoto-history"
+      ],
+      "sourceLocator": "石川氏入封・天守・歴代城主表。1585出奔・1590入封、数正が整備着手、康長が継承。文禄元年没・在任1590–1592。信府統記の紹介であり原本判読ではない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "在任の全期間・城内住居未確認。"
+    },
+    {
+      "eventId": "life-0203-002",
+      "personId": "sg-49a2411798d0",
+      "rosterId": "203",
+      "personName": "石川数正",
+      "candidateId": "plc-osaka-1585-region",
+      "dateLabel": "1585年",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "一族と大坂へ移り秀吉に仕えた。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261031-03:matsumoto-history"
+      ],
+      "sourceLocator": "石川氏入封・天守・歴代城主表。1585出奔・1590入封、数正が整備着手、康長が継承。文禄元年没・在任1590–1592。信府統記の紹介であり原本判読ではない。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "城内の居館位置・常住範囲は未確認。地域候補。"
+    },
+    {
+      "eventId": "life-0203-003",
+      "personId": "sg-49a2411798d0",
+      "rosterId": "203",
+      "personName": "石川数正",
+      "candidateId": "plc-matsumoto",
+      "dateLabel": "1590年",
+      "yearStart": 1590,
+      "yearEnd": 1590,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "秀吉から松本城を与えられた。",
+      "relationTypes": [
+        "居城",
+        "転封"
+      ],
+      "sourceRefs": [
+        "20261031-03:matsumoto-history",
+        "20261031-03:bunka-matsumoto"
+      ],
+      "sourceLocator": "石川氏入封・天守・歴代城主表。1585出奔・1590入封、数正が整備着手、康長が継承。文禄元年没・在任1590–1592。信府統記の紹介であり原本判読ではない。 / 末尾の詳細解説。1590数正入封・改修着手、文禄2年没とし、康長が継承。出典は国宝事典第4版。市の文禄元年没と異なる。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "位置・訪問単位・全国台帳との重複は未照合。"
+    },
+    {
+      "eventId": "life-0203-004",
+      "personId": "sg-49a2411798d0",
+      "rosterId": "203",
+      "personName": "石川数正",
+      "candidateId": "plc-matsumoto",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "城郭と城下町の整備に着手し、子康長が継承した。",
+      "relationTypes": [
+        "改修",
+        "城下町整備"
+      ],
+      "sourceRefs": [
+        "20261031-03:matsumoto-history",
+        "20261031-03:matsumoto-town"
+      ],
+      "sourceLocator": "石川氏入封・天守・歴代城主表。1585出奔・1590入封、数正が整備着手、康長が継承。文禄元年没・在任1590–1592。信府統記の紹介であり原本判読ではない。 / 石川数正・康長の代（1590–1613）をまとめた整備記録。各施設の完成を父数正だけに帰属させない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "各施設の完成年・数正と康長の個別担当は未確定。"
+    },
+    {
+      "eventId": "life-0983-001",
+      "personId": "sg-17496a5d9dfa",
+      "rosterId": "983",
+      "personName": "里見義弘",
+      "candidateId": "plc-odawara-main",
+      "dateLabel": "1561年",
+      "yearStart": 1561,
+      "yearEnd": 1561,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "上杉謙信とともに小田原城包囲へ参加した。",
+      "relationTypes": [
+        "攻城戦"
+      ],
+      "sourceRefs": [
+        "20261031-03:satomi-war",
+        "20261031-03:satomi-chronology"
+      ],
+      "sourceLocator": "小田原1561、国府台1564、三船山1567、北条氏との和議。記事末尾は天正4年から翌天正6年と続く不整合があり、和議年は博物館年表1577と照合。 / 対象人物の1561・1564・1567・1572・1577・1578・1581・1587の項目。義弘1578没・義頼1587没。大永6年1528など対象外の換算不整合は未採用。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1590小田原攻めと別イベント。陣地未特定。"
+    },
+    {
+      "eventId": "life-0983-002",
+      "personId": "sg-17496a5d9dfa",
+      "rosterId": "983",
+      "personName": "里見義弘",
+      "candidateId": "plc-konodai",
+      "dateLabel": "1564年",
+      "yearStart": 1564,
+      "yearEnd": 1564,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "北条氏との国府台合戦で敗れた。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261031-03:satomi-war",
+        "20261031-03:satomi-chronology"
+      ],
+      "sourceLocator": "小田原1561、国府台1564、三船山1567、北条氏との和議。記事末尾は天正4年から翌天正6年と続く不整合があり、和議年は博物館年表1577と照合。 / 対象人物の1561・1564・1567・1572・1577・1578・1581・1587の項目。義弘1578没・義頼1587没。大永6年1528など対象外の換算不整合は未採用。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "軍記的戦死者数を採用せず、個別陣地は未特定。"
+    },
+    {
+      "eventId": "life-0983-003",
+      "personId": "sg-17496a5d9dfa",
+      "rosterId": "983",
+      "personName": "里見義弘",
+      "candidateId": "plc-mifuneyama",
+      "dateLabel": "1567年",
+      "yearStart": 1567,
+      "yearEnd": 1567,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "三船山合戦で北条勢を破った。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261031-03:satomi-war",
+        "20261031-03:satomi-chronology"
+      ],
+      "sourceLocator": "小田原1561、国府台1564、三船山1567、北条氏との和議。記事末尾は天正4年から翌天正6年と続く不整合があり、和議年は博物館年表1577と照合。 / 対象人物の1561・1564・1567・1572・1577・1578・1581・1587の項目。義弘1578没・義頼1587没。大永6年1528など対象外の換算不整合は未採用。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "戦場範囲と個別陣地は未確定。"
+    },
+    {
+      "eventId": "life-0983-004",
+      "personId": "sg-17496a5d9dfa",
+      "rosterId": "983",
+      "personName": "里見義弘",
+      "candidateId": "plc-tsurugaya-hachiman",
+      "dateLabel": "1572年",
+      "yearStart": 1572,
+      "yearEnd": 1572,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "足利藤政の武運長久を祈り、鶴谷八幡宮を修復した。",
+      "relationTypes": [
+        "寺社再建"
+      ],
+      "sourceRefs": [
+        "20261031-03:satomi-chronology",
+        "20261031-03:satomi-succession"
+      ],
+      "sourceLocator": "対象人物の1561・1564・1567・1572・1577・1578・1581・1587の項目。義弘1578没・義頼1587没。大永6年1528など対象外の換算不整合は未採用。 / 義弘1539元服・1578没、義頼の旧名義継と弟説/庶長子説、梅王丸と憲時との対立。1539十五歳から生年を独立確定しない。死因の推測を採用しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "棟札を紹介する解説。本人の現地参拝日は未確認。"
+    },
+    {
+      "eventId": "life-0983-005",
+      "personId": "sg-17496a5d9dfa",
+      "rosterId": "983",
+      "personName": "里見義弘",
+      "candidateId": "plc-sanuki-kazusa",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "佐貫を本拠とし、同地で没したと市解説に記される。",
+      "relationTypes": [
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261031-03:satomi-succession"
+      ],
+      "sourceLocator": "義弘1539元服・1578没、義頼の旧名義継と弟説/庶長子説、梅王丸と憲時との対立。1539十五歳から生年を独立確定しない。死因の推測を採用しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "没年1578だが在城全期間未確認。死因の推測は採用しない。"
+    },
+    {
+      "eventId": "life-0985-001",
+      "personId": "sg-4f700b581dac",
+      "rosterId": "985",
+      "personName": "里見義頼",
+      "candidateId": "plc-awa-okamoto",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "岡本城を拠点として安房を支配した。",
+      "relationTypes": [
+        "居城",
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261031-03:satomi-succession"
+      ],
+      "sourceLocator": "義弘1539元服・1578没、義頼の旧名義継と弟説/庶長子説、梅王丸と憲時との対立。1539十五歳から生年を独立確定しない。死因の推測を採用しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "在城開始年と全期間未確認。義弘との続柄異説を保持。"
+    },
+    {
+      "eventId": "life-0985-002",
+      "personId": "sg-4f700b581dac",
+      "rosterId": "985",
+      "personName": "里見義頼",
+      "candidateId": "plc-sanuki-kazusa",
+      "dateLabel": "1580年",
+      "yearStart": 1580,
+      "yearEnd": 1580,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "梅王丸方の佐貫城を攻め落とした。",
+      "relationTypes": [
+        "攻城戦"
+      ],
+      "sourceRefs": [
+        "20261031-03:satomi-succession"
+      ],
+      "sourceLocator": "義弘1539元服・1578没、義頼の旧名義継と弟説/庶長子説、梅王丸と憲時との対立。1539十五歳から生年を独立確定しない。死因の推測を採用しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "軍勢による攻略と個人の陣地位置を区別。"
+    },
+    {
+      "eventId": "life-1114-001",
+      "personId": "sg-master-1114",
+      "rosterId": "1114",
+      "personName": "神保長職",
+      "candidateId": "plc-toyama-castle",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "富山城を拠点に新川郡方面へ進出し、椎名氏と争った。",
+      "relationTypes": [
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261031-03:toyama-jinbo"
+      ],
+      "sourceLocator": "長職の新川郡進出・椎名氏との争い、1543頃築城は久保尚文の説、1560増山への退去。1578富山入城は長住で長職ではない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "1543頃築城は研究者の説であり、確定した築城年にしない。"
+    },
+    {
+      "eventId": "life-1114-002",
+      "personId": "sg-master-1114",
+      "rosterId": "1114",
+      "personName": "神保長職",
+      "candidateId": "plc-masuyama",
+      "dateLabel": "1560年",
+      "yearStart": 1560,
+      "yearEnd": 1560,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "上杉軍の攻撃で富山城を離れ、増山城へ退いた。",
+      "relationTypes": [
+        "本拠地",
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261031-03:toyama-jinbo",
+        "20261031-03:tonami-masuyama"
+      ],
+      "sourceLocator": "長職の新川郡進出・椎名氏との争い、1543頃築城は久保尚文の説、1560増山への退去。1578富山入城は長住で長職ではない。 / 1560長職が富山から増山へ移る。1576落城は城の沿革であり長職本人の在城や没年の証明ではない。信長没後の天正11年を信長配下とする後段の表現も長職の事績へ転用しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-toyama-castle",
+      "unresolved": "後年の増山落城時の本人所在・没年は未確認。"
+    },
+    {
+      "eventId": "life-2000-001",
+      "personId": "sg-master-2000",
+      "rosterId": "2000",
+      "personName": "村上義明",
+      "candidateId": "plc-komatsu-kaga",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "丹羽長秀から小松城を預けられた。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261031-03:murakami-first"
+      ],
+      "sourceLocator": "2023展示を監修の下編集した2024記事。義明とする後世史書と頼勝/忠勝名の文書を区別。1598村上移封、1600在国、1603大慈院唐門寄進、1604没は過去帳による解説。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "名簿2000は初代頼勝として記録。主表示名変更は承認待ち。就任年は賤ヶ岳後という相対順のみ。"
+    },
+    {
+      "eventId": "life-2000-002",
+      "personId": "sg-master-2000",
+      "rosterId": "2000",
+      "personName": "村上義明",
+      "candidateId": "plc-murakami-echigo",
+      "dateLabel": "1598年",
+      "yearStart": 1598,
+      "yearEnd": 1598,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "越後村上城主となった。",
+      "relationTypes": [
+        "居城",
+        "転封"
+      ],
+      "sourceRefs": [
+        "20261031-03:murakami-first"
+      ],
+      "sourceLocator": "2023展示を監修の下編集した2024記事。義明とする後世史書と頼勝/忠勝名の文書を区別。1598村上移封、1600在国、1603大慈院唐門寄進、1604没は過去帳による解説。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-komatsu-kaga",
+      "unresolved": "頼勝の事績。別採用1997忠勝と統合しない。"
+    },
+    {
+      "eventId": "life-2000-003",
+      "personId": "sg-master-2000",
+      "rosterId": "2000",
+      "personName": "村上義明",
+      "candidateId": "plc-daitokuji-daijiin",
+      "dateLabel": "1603年",
+      "yearStart": 1603,
+      "yearEnd": 1603,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "唐門を寄進したと棟札に基づく館監修解説に記される。",
+      "relationTypes": [
+        "寄進"
+      ],
+      "sourceRefs": [
+        "20261031-03:murakami-first"
+      ],
+      "sourceLocator": "2023展示を監修の下編集した2024記事。義明とする後世史書と頼勝/忠勝名の文書を区別。1598村上移封、1600在国、1603大慈院唐門寄進、1604没は過去帳による解説。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "建造物名称・所在・移築履歴の照合待ち。寄進から本人訪問を推測しない。"
+    },
+    {
+      "eventId": "life-1997-001",
+      "personId": "sg-master-1997",
+      "rosterId": "1997",
+      "personName": "村上忠勝",
+      "candidateId": "plc-murakami-echigo",
+      "dateLabel": "1604年",
+      "yearStart": 1604,
+      "yearEnd": 1604,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "頼勝没後に幼少で村上藩を継いだと館監修解説が推定する。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261031-03:murakami-second"
+      ],
+      "sourceLocator": "頼勝の養子義忠と後の養子忠勝を分離。1604継承推定、1614乙宝寺三重塔寄進・1620竣工、1618丹波篠山配流・1623没。元和2年大坂夏の陣の年号不整合は未採用。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "継承日・幼少時の実際の住居は未確認。生年を年齢から逆算確定しない。"
+    },
+    {
+      "eventId": "life-1997-002",
+      "personId": "sg-master-1997",
+      "rosterId": "1997",
+      "personName": "村上忠勝",
+      "candidateId": "plc-oppouji",
+      "dateLabel": "1614年",
+      "yearStart": 1614,
+      "yearEnd": 1614,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "乙宝寺三重塔の建立に寄進した。",
+      "relationTypes": [
+        "寄進"
+      ],
+      "sourceRefs": [
+        "20261031-03:murakami-second"
+      ],
+      "sourceLocator": "頼勝の養子義忠と後の養子忠勝を分離。1604継承推定、1614乙宝寺三重塔寄進・1620竣工、1618丹波篠山配流・1623没。元和2年大坂夏の陣の年号不整合は未採用。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "竣工1620と寄進1614を区別。墓所・菩提寺関係ではなく寄進事績のみ。"
+    },
+    {
+      "eventId": "life-1997-003",
+      "personId": "sg-master-1997",
+      "rosterId": "1997",
+      "personName": "村上忠勝",
+      "candidateId": "plc-tanba-sasayama",
+      "dateLabel": "1618年",
+      "yearStart": 1618,
+      "yearEnd": 1618,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "改易後、丹波篠山へ配流された。",
+      "relationTypes": [
+        "配流"
+      ],
+      "sourceRefs": [
+        "20261031-03:murakami-second"
+      ],
+      "sourceLocator": "頼勝の養子義忠と後の養子忠勝を分離。1604継承推定、1614乙宝寺三重塔寄進・1620竣工、1618丹波篠山配流・1623没。元和2年大坂夏の陣の年号不整合は未採用。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "具体的な屋敷・寺院位置は未確認。生涯全体の記録のため1615年後も含む。"
     }
   ],
   "candidates": {
@@ -7552,6 +8096,174 @@
       "deduplicationStatus": "pending_nationwide_work",
       "crossThreadOverlap": "未照合",
       "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-matsumoto": {
+      "candidateId": "plc-matsumoto",
+      "placeName": "松本城",
+      "regionAsSource": "信濃",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-konodai": {
+      "candidateId": "plc-konodai",
+      "placeName": "国府台合戦の活動地域",
+      "regionAsSource": "下総",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-mifuneyama": {
+      "candidateId": "plc-mifuneyama",
+      "placeName": "三船山合戦の活動地域",
+      "regionAsSource": "上総",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-awa-okamoto": {
+      "candidateId": "plc-awa-okamoto",
+      "placeName": "岡本城（里見氏）",
+      "regionAsSource": "安房",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-sanuki-kazusa": {
+      "candidateId": "plc-sanuki-kazusa",
+      "placeName": "佐貫城",
+      "regionAsSource": "上総",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-tsurugaya-hachiman": {
+      "candidateId": "plc-tsurugaya-hachiman",
+      "placeName": "鶴谷八幡宮",
+      "regionAsSource": "安房",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-toyama-castle": {
+      "candidateId": "plc-toyama-castle",
+      "placeName": "富山城",
+      "regionAsSource": "越中",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-masuyama": {
+      "candidateId": "plc-masuyama",
+      "placeName": "増山城",
+      "regionAsSource": "越中",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-komatsu-kaga": {
+      "candidateId": "plc-komatsu-kaga",
+      "placeName": "小松城（加賀）",
+      "regionAsSource": "加賀",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-murakami-echigo": {
+      "candidateId": "plc-murakami-echigo",
+      "placeName": "村上城",
+      "regionAsSource": "越後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-daitokuji-daijiin": {
+      "candidateId": "plc-daitokuji-daijiin",
+      "placeName": "大徳寺大慈院の唐門（資料表記）",
+      "regionAsSource": "京都",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "資料が寄進先とする対象。大徳寺各建造物との名称・所在・移築履歴を全国側で照合。墓所・菩提寺の関係を追加したものではない。"
+    },
+    "plc-oppouji": {
+      "candidateId": "plc-oppouji",
+      "placeName": "乙宝寺三重塔",
+      "regionAsSource": "越後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-tanba-sasayama": {
+      "candidateId": "plc-tanba-sasayama",
+      "placeName": "丹波篠山（忠勝配流の地域）",
+      "regionAsSource": "丹波",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-osaka-1585-region": {
+      "candidateId": "plc-osaka-1585-region",
+      "placeName": "大坂（石川数正移転先の地域）",
+      "regionAsSource": "摂津",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
     }
   },
   "residenceSequences": [
@@ -7860,6 +8572,36 @@
       ],
       "note": "三石から室山へ。時期と全生涯の居所は未確認。",
       "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "1114",
+      "personId": "sg-master-1114",
+      "personName": "神保長職",
+      "candidateIds": [
+        "plc-toyama-castle",
+        "plc-masuyama"
+      ],
+      "eventIds": [
+        "life-1114-001",
+        "life-1114-002"
+      ],
+      "note": "富山→1560増山。全居所・その後の在城期間は未確認。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "2000",
+      "personId": "sg-master-2000",
+      "personName": "村上義明",
+      "candidateIds": [
+        "plc-komatsu-kaga",
+        "plc-murakami-echigo"
+      ],
+      "eventIds": [
+        "life-2000-001",
+        "life-2000-002"
+      ],
+      "note": "初代頼勝として小松→1598村上。正本名義明を保持、表示名判断待ち。",
+      "completeness": "partial_not_exhaustive"
     }
   ],
   "evidenceFiles": {
@@ -7874,7 +8616,8 @@
     "20261030-05": "migration/research/20261030-05/evidence.json",
     "20261030-06": "migration/research/20261030-06/evidence.json",
     "20261031": "migration/research/20261031/evidence.json",
-    "20261031-02": "migration/research/20261031-02/evidence.json"
+    "20261031-02": "migration/research/20261031-02/evidence.json",
+    "20261031-03": "migration/research/20261031-03/evidence.json"
   },
   "sources": {
     "20261029-02:hino": {
@@ -9579,6 +10322,193 @@
       "reuseStatus": "未確認",
       "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
       "verificationMethod": "PDF抽出テキストの目録と解説を実読。国宝原史料の直接判読ではない。"
+    },
+    "20261031-03:matsumoto-history": {
+      "url": "https://www.matsumoto-castle.jp/about/history",
+      "title": "松本城管理事務所：松本城の歴史",
+      "locator": "石川氏入封・天守・歴代城主表。1585出奔・1590入封、数正が整備着手、康長が継承。文禄元年没・在任1590–1592。信府統記の紹介であり原本判読ではない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:matsumoto-town": {
+      "url": "https://www.matsumoto-castle.jp/town/know/build",
+      "title": "松本城管理事務所：城下町の成立",
+      "locator": "石川数正・康長の代（1590–1613）をまとめた整備記録。各施設の完成を父数正だけに帰属させない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:bunka-matsumoto": {
+      "url": "https://kunishitei.bunka.go.jp/heritage/detail/102/920",
+      "title": "文化庁：松本城天守 詳細解説",
+      "locator": "末尾の詳細解説。1590数正入封・改修着手、文禄2年没とし、康長が継承。出典は国宝事典第4版。市の文禄元年没と異なる。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:ishikawa-dictionary": {
+      "url": "https://kotobank.jp/word/石川数正-30498",
+      "title": "コトバンク：石川数正（複数辞典）",
+      "locator": "日本大百科・世界大百科1592、ブリタニカ文禄2年1593旧12月、講談社1593*（本文は文禄元年12月）。異なる和暦年と年末換算を分離。父名康正/庸正、初名康正/正本康輝も未解決。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:matsumoto-terms": {
+      "url": "https://www.matsumoto-castle.jp/policy",
+      "title": "松本城管理事務所：サイトポリシー",
+      "locator": "著作権節。文章画像等の翻案・公衆送信には承諾が必要。事実の参照と著作物の再利用を区別。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "転載等の制限を部分確認。独自文章・画像不使用。",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:satomi-war": {
+      "url": "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_2/k4shou_2min.html",
+      "title": "館山市：さとみ物語 完全版4章2",
+      "locator": "小田原1561、国府台1564、三船山1567、北条氏との和議。記事末尾は天正4年から翌天正6年と続く不整合があり、和議年は博物館年表1577と照合。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:satomi-succession": {
+      "url": "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_3/k4shou_3min.html",
+      "title": "館山市：さとみ物語 完全版4章3",
+      "locator": "義弘1539元服・1578没、義頼の旧名義継と弟説/庶長子説、梅王丸と憲時との対立。1539十五歳から生年を独立確定しない。死因の推測を採用しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:satomi-trade": {
+      "url": "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_4/k4shou_4min.html",
+      "title": "館山市：さとみ物語 完全版4章4",
+      "locator": "海上通行保障（義弘1572・義頼1575）と内乱後の交易許可。前半には別段落の混入・文字化けがあり、明瞭な該当段落のみ参照。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:satomi-chronology": {
+      "url": "https://tateyama-field-museum.jp/archives/7296",
+      "title": "館山市立博物館：里見氏・北条氏関係略年表",
+      "locator": "対象人物の1561・1564・1567・1572・1577・1578・1581・1587の項目。義弘1578没・義頼1587没。大永6年1528など対象外の換算不整合は未採用。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:satomi-yoshihiro-dictionary": {
+      "url": "https://kotobank.jp/word/里見義弘-69374",
+      "title": "コトバンク：里見義弘（複数辞典）",
+      "locator": "平凡社・ブリタニカ1530、講談社1525。没年は1578。戦後の勢力評価には資料差があるため過大な最盛期表現を避ける。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:tateyama-terms": {
+      "url": "https://www.city.tateyama.chiba.jp/jouhou/page050013.html",
+      "title": "館山市：サイトのご利用に当たって",
+      "locator": "法定例外以外は文章写真等の無断複製・転用不可。別ドメインの博物館資料や個別原資料の権利まで一括確認したとはしない。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "市サイトの転載制限を部分確認。その他出典・個別権利は未確認。",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:toyama-jinbo": {
+      "url": "https://www.city.toyama.toyama.jp/etc/maibun/toyamajyo/history/sengoku2.htm",
+      "title": "富山市埋蔵文化財：富山城 戦国時代編2",
+      "locator": "長職の新川郡進出・椎名氏との争い、1543頃築城は久保尚文の説、1560増山への退去。1578富山入城は長住で長職ではない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:tonami-masuyama": {
+      "url": "https://www.city.tonami.lg.jp/photop/9602p/",
+      "title": "砺波市：増山城跡",
+      "locator": "1560長職が富山から増山へ移る。1576落城は城の沿革であり長職本人の在城や没年の証明ではない。信長没後の天正11年を信長配下とする後段の表現も長職の事績へ転用しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:murakami-first": {
+      "url": "https://www.sake3.com/jyoukamachi/127",
+      "title": "村上市郷土資料館監修：村上頼勝（村上市観光協会掲載）",
+      "locator": "2023展示を監修の下編集した2024記事。義明とする後世史書と頼勝/忠勝名の文書を区別。1598村上移封、1600在国、1603大慈院唐門寄進、1604没は過去帳による解説。",
+      "kind": "public_museum_supervised_article",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:murakami-second": {
+      "url": "https://www.sake3.com/jyoukamachi/130",
+      "title": "村上市郷土資料館監修：村上忠勝（村上市観光協会掲載）",
+      "locator": "頼勝の養子義忠と後の養子忠勝を分離。1604継承推定、1614乙宝寺三重塔寄進・1620竣工、1618丹波篠山配流・1623没。元和2年大坂夏の陣の年号不整合は未採用。",
+      "kind": "public_museum_supervised_article",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:murakami-dictionary": {
+      "url": "https://kotobank.jp/word/村上義明-1114660",
+      "title": "講談社デジタル版日本人名大辞典：村上義明",
+      "locator": "義明から頼勝と忠勝の双方へ参照する記事。単一の別名キーで父子・世代を統合しない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "20261031-03:tokyo-meibo-bibliography": {
+      "url": "https://www.hi.u-tokyo.ac.jp/publication/syoho/54/saiho_54_027.html",
+      "title": "東京大学史料編纂所報54：高野山清浄心院所蔵過去帳の調査・撮影",
+      "locator": "山本隆志2008年の越後過去名簿紹介と2004年越後国供養帳紹介の書誌を確認。為景の没日の本文はこのページにはなく、史実確認へ昇格しない。",
+      "kind": "bibliographic_report",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
     }
   }
 }
