@@ -1,0 +1,32 @@
+✔ frozen registry agrees with 47 prefectures, eight decided regions and 214 stable titles (3.326859ms)
+✔ national threshold 足軽 (1.554967ms)
+✔ national threshold 足軽大将 (1.090068ms)
+✔ national threshold 侍大将 (1.919504ms)
+✔ national threshold 城主 (0.786022ms)
+✔ national threshold 国人領主 (1.655798ms)
+✔ national threshold 戦国大名 (1.653985ms)
+✔ national threshold 大大名 (2.667929ms)
+✔ national threshold 天下人 (1.44388ms)
+✔ national threshold 天下統一 (2.181968ms)
+✔ national threshold 日本全国完全制覇 (2.464664ms)
+✔ towns, old national keys, repeated municipality and separate wards count once (0.43903ms)
+✔ all 47 prefectures use ceil for all four thresholds; 99 percent never earns 100 (67.763908ms)
+✔ all regions require EACH constituent prefecture, not an average (15.935306ms)
+✔ awards persist after unmark; reload and re-visit do not re-notify; selection retained (2.311483ms)
+✔ v3 roundtrip includes legacy/unpublished card IDs and unknown future title IDs (1.081214ms)
+✔ v2 additive restore canonicalizes aliases and preserves first/last timestamps and all cards (0.468734ms)
+✔ v3 merge preserves both collections, earliest acquisition and current display choice (0.198919ms)
+✔ invalid backups are rejected completely, including arrays, field types and prototype keys (0.369155ms)
+✔ restore rollback on quota failure at write 1 (0.270066ms)
+✔ restore rollback on quota failure at write 2 (0.13351ms)
+✔ restore rollback on quota failure at write 3 (0.112539ms)
+✔ restore rollback on quota failure at write 4 (0.075103ms)
+✔ restore commits all keys; interrupted restore recovers on next startup (0.103596ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 213.352684
