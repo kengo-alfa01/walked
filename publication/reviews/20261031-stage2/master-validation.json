@@ -1,0 +1,21 @@
+{
+  "checkedCells": 284572,
+  "errors": [],
+  "referenceErrors": 0,
+  "counts": {
+    "人物マスター": 624,
+    "人物歴史マスター": 3097,
+    "史跡マスター": 954,
+    "人物歴史・史跡対応": 1646,
+    "出典マスター": 5686,
+    "史実根拠マスター": 12046,
+    "ID対応表": 9568
+  },
+  "legacyCardIDsPreserved": 253,
+  "birthDeathOneVisiblePerPerson": true,
+  "publicStates": {
+    "公開審査待ち": 1,
+    "調査中": 16,
+    "公開可": 1
+  }
+}
