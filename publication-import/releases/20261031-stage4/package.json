@@ -1,0 +1,58 @@
+{
+  "version": "20261031-stage4",
+  "baseline": {
+    "commit": "1e3a66aceee0286e4509941deb6d189f62b90b41",
+    "contentHashes": {
+      "sengoku/people.json": "6658e48b8faf5edd4e4236d183c491c66e13f1e580c1d5f76329638bb544ff57",
+      "sengoku/sites.json": "ac0dbecc8fc2b5e5e40d2ad938c2bcfffe5d959642aba2fd600a6ee02c348e98",
+      "sengoku/links.json": "7371736f72997043588e40ad203f5bec039773a8cc32956f15e9affed2b4c6dd",
+      "sengoku/cards.json": "b5503b1bb59decb437fcfa8e25cb977c096ed03ea3d47d90fdc4e31896b10962",
+      "history.json": "a44335ec2deae6f651b7fabf95f84c3afacdc7e9b29eefbf18221c078648e2b4"
+    }
+  },
+  "approvedRecords": [
+    {
+      "cardId": "pub-card-99565c9c43c63128707e581e",
+      "personId": "sg-dc8c550d8769",
+      "historyRecordId": "hist-8ae9312ea0c7502e0ec5",
+      "relationId": "rel-8cbcd8bd528c72ca6ba0",
+      "siteId": "sg-site-masuyama",
+      "growthAreaId": "16208",
+      "growthUnitKey": "sg-dc8c550d8769|16208",
+      "releaseVersion": "20261031-stage4"
+    }
+  ],
+  "delta": {
+    "sengoku/people.json": [],
+    "sengoku/sites.json": [],
+    "sengoku/links.json": [],
+    "sengoku/cards.json": [
+      {
+        "id": "pub-card-99565c9c43c63128707e581e",
+        "personId": "sg-dc8c550d8769",
+        "siteId": "sg-site-masuyama",
+        "title": "増山城を攻略した上杉謙信",
+        "summary": "1576年、上杉謙信の攻撃で増山城は落城した。砺波平野東縁の丘陵に築かれたこの城は、越中をめぐる争いの舞台となった。\n史実：文化庁「国指定文化財等データベース」を参照しWALKEDが独自作成。位置情報：『日本歴史地名大系』施設・地点項目データセット（CODH作成、CC BY 4.0、doi:10.20676/00000456、https://geoshape.ex.nii.ac.jp/nrct-poi/）。代表点であり入口ではありません。",
+        "source": "https://kunishitei.bunka.go.jp/heritage/detail/401/00003642",
+        "verification": "reviewed",
+        "unlockRule": "same_municipality",
+        "eventYear": 1576,
+        "yearEvidence": "publication_review",
+        "historyRecordId": "hist-8ae9312ea0c7502e0ec5",
+        "relationId": "rel-8cbcd8bd528c72ca6ba0",
+        "publicationVersion": "20261031-stage4"
+      }
+    ],
+    "history.json": {
+      "version": 1,
+      "entries": []
+    }
+  },
+  "outputHashes": {
+    "sengoku/people.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sengoku/sites.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sengoku/links.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sengoku/cards.json": "17b8e988b29f0e7e1208e33b23629df88ff4fec944e9850b52776dfda023a2a2",
+    "history.json": "a6a20076da005b27c9afc3a5d5b2457798c0ac817d1abc38b2fee4398ac3f133"
+  }
+}
