@@ -9476,33 +9476,33 @@
     "name": "少弐冬尚",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
-    "biography": "戦国期に活動した大名。少弐氏の一族にあたる。父は少弐資元。官位には大宰少弐が記される。没年は1559年と記録される。",
-    "biographyLength": 58,
+    "biography": "肥前で勢力を保った少弐氏の当主。大内氏に勢福寺城を追われた後、龍造寺家兼らの援助で勢力を取り戻した。各地で戦いを続けたが、家兼の後を継いだ龍造寺隆信に攻められ、1559年に自害した。",
+    "biographyLength": 91,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://kotobank.jp/word/少弐時尚-1082513",
       "https://ja.wikipedia.org/wiki/%E5%B0%91%E5%BC%90%E5%86%AC%E5%B0%9A",
       "https://ja.wikipedia.org/w/index.php?oldid=102842180"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipediaプロフィール記載・事績未確認",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：正本名は少弐冬尚のまま。辞典見出し時尚との対応は部分確認。生年1510/1529の根拠を未取得。家兼の援助と後継隆信との対立を区別。松法師丸・家督年の市史抽出は要画像照合。"
   },
   {
     "id": "sg-master-1096",
@@ -10140,33 +10140,37 @@
     "name": "十河一存",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "requires_review",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期に活動した武将。三好長慶に仕えた。三好氏・十河氏の一族にあたる。父は三好元長。官位には民部大夫が記される。",
-    "biographyLength": 56,
+    "biography": "三好長慶の弟で、讃岐の十河家に養子として入った。1549年の江口の戦いで長慶を助け、のち岸和田城主となる。河内の寺社に軍勢の乱暴や徴発を禁じる命令も出し、三好氏の畿内支配を支えた。",
+    "biographyLength": 90,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000118",
+      "https://kotobank.jp/word/十河一存-1086071",
+      "https://www.city.kishiwada.lg.jp/kinenshi/m100th_p10-11.html",
+      "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000119",
       "https://ja.wikipedia.org/wiki/%E5%8D%81%E6%B2%B3%E4%B8%80%E5%AD%98",
       "https://ja.wikipedia.org/w/index.php?oldid=111508094"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：実子三好義継と、兄義賢の子で十河家を継いだ存保を分離。孫六郎と辞典の又四郎・長正・之虎の照合未了。1561没は一致、旧3/18と4月ごろの暦基準は未照合。"
   },
   {
     "id": "sg-4ae0c30e6a58",
@@ -14013,33 +14017,37 @@
     "name": "畠山高政",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
       "birth": "unverified",
       "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "requires_review",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期に活動した大名。室町幕府紀伊・河内守護の職に就いた。畠山氏の一族にあたる。父は畠山政国。官位には尾張守が記される。",
-    "biographyLength": 60,
+    "biography": "高屋城を拠点とした河内の守護。三好氏と争い、1562年の久米田の戦いで勝って城を取り戻したが、教興寺で味方が敗れると撤退した。のち信長に所領を認められたものの、家臣に追放され、弟の昭高が擁立された。",
+    "biographyLength": 99,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000119",
+      "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000122",
+      "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000120",
+      "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000117",
       "https://ja.wikipedia.org/wiki/%E7%95%A0%E5%B1%B1%E9%AB%98%E6%94%BF",
       "https://ja.wikipedia.org/w/index.php?oldid=109378569"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：1527/1531生・1576没の原資料は今回未取得。高屋城の高政・弟昭高・三好氏の城主交代を区別。教興寺の戦場に本人がいたとはしない。1559禁制写の誤写可能性を保持。"
   },
   {
     "id": "sg-master-1620",
@@ -14181,33 +14189,38 @@
     "name": "畠山義綱",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "partially_verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "requires_review",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期に活動した大名。足利義輝に仕えた。室町幕府能登守護の職に就いた。畠山氏の一族にあたる。父は畠山義続。官位には修理大夫が記される。",
-    "biographyLength": 67,
+    "biography": "能登の七尾城主。父義続から家督を継いだが、重臣の対立や反乱に苦しみ、1566年に近江へ追われた。その後も領国の回復を試みたが果たせなかった。城主時代には長続連の屋敷で饗応を受けた記録が伝わる。",
+    "biographyLength": 96,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.nanao.lg.jp/koho/shise/koho/kohonanao/r3/tekisuto-06/02-05.html",
+      "https://www.library.pref.ishikawa.lg.jp/shosho/furucolle/list/prsn09922",
+      "https://kotobank.jp/word/畠山義綱-1101244",
+      "https://www.city.hakui.lg.jp/rekimin/history/culturalproperties/ketajinjasesshawakamiyajinjahonden.html",
+      "https://kunishitei.bunka.go.jp/heritage/detail/102/793",
       "https://ja.wikipedia.org/wiki/%E7%95%A0%E5%B1%B1%E7%BE%A9%E7%B6%B1",
       "https://ja.wikipedia.org/w/index.php?oldid=108535939"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：1566追放と1569若宮社殿再建の関与を要照合。建物年代の一致だけで再建主体を独立確認しない。没1594と文禄2年旧12/21は年末換算の可能性があり、単純な1593/1594異説にしない。"
   },
   {
     "id": "sg-master-1626",
@@ -15467,33 +15480,39 @@
     "name": "別所重棟",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "partially_verified"
     },
-    "biography": "戦国期に活動した大名。別所就治・別所安治・別所長治・豊臣秀吉に仕えた。別所氏の一族にあたる。父は別所就治。官位には従五位下・主水正が記される。",
-    "biographyLength": 71,
+    "biography": "三木城主・別所長治の叔父。長治が織田信長に背いた後も織田方に残り、羽柴秀吉の三木攻めに加わった。1580年には長治らに降伏を促す役を担い、1585年に但馬の八木城主となった。",
+    "biographyLength": 87,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.miki.lg.jp/site/mikirekishishiryokan/26531.html",
+      "https://www.city.yabu.hyogo.jp/soshiki/kyoikuiinkai/shakaikyoiku/1/1/2183.html",
+      "https://kotobank.jp/word/別所重棟-1107290",
+      "https://kotobank.jp/word/別所吉治-1107297",
+      "https://rekihaku.pref.hyogo.lg.jp/wp-content/uploads/2024/04/47b7e733021a1207ce553339720e0626.pdf",
+      "https://www.city.yabu.hyogo.jp/soshiki/kyoikuiinkai/shakaikyoiku/1/4/yagi/1911.html",
+      "https://www.city.yabu.hyogo.jp/site/copyright.html",
       "https://ja.wikipedia.org/wiki/%E5%88%A5%E6%89%80%E9%87%8D%E5%AE%97",
       "https://ja.wikipedia.org/w/index.php?oldid=109250530"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：正本重棟を維持。孫右衛門は県博目録の差出解読で部分確認、原本未読。重宗・長棟・法号の全照合未了。1585石高は同じ市サイトに12000/15000の差があるため略歴から除外。"
   },
   {
     "id": "sg-master-1737",
@@ -15535,33 +15554,38 @@
     "name": "別所吉治",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "disputed",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "partially_verified",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "安土桃山期から江戸初期に活動した大名。豊臣秀吉・豊臣秀頼・徳川家康・徳川秀忠に仕えた。但馬八木藩主を務めた。別所氏の一族にあたる。父は別所重宗。官位には従五位下・豊後守が記される。",
-    "biographyLength": 90,
+    "biography": "父重棟を継いで但馬の八木城主となり、豊臣政権下で中瀬金山の管理にも携わった。関ヶ原の戦いでは西軍に属し、のち丹波の北由良を領した。大坂の陣で戦功を挙げ、所領を加えられて2万石となった。",
+    "biographyLength": 92,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.yabu.hyogo.jp/soshiki/kyoikuiinkai/shakaikyoiku/1/1/6831.html",
+      "https://kotobank.jp/word/別所吉治-1107297",
+      "https://www.city.yabu.hyogo.jp/soshiki/kyoikuiinkai/shakaikyoiku/1/1/2183.html",
+      "https://www.city.yabu.hyogo.jp/soshiki/kyoikuiinkai/shakaikyoiku/1/4/yagi/1911.html",
+      "https://www.city.yabu.hyogo.jp/site/copyright.html",
       "https://ja.wikipedia.org/wiki/%E5%88%A5%E6%89%80%E5%90%89%E6%B2%BB",
       "https://ja.wikipedia.org/w/index.php?oldid=107753352"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：生1579は未確認、没1652/1654を保持。父重棟と後継吉治の支配時期を分離。関ヶ原後の処分と石高授与の時期は要文書照合。1597園部移封説は養父市が否定。1628処分や綾部移封説は追加本文未確認で採用せず。"
   },
   {
     "id": "sg-6f3368f015f6",

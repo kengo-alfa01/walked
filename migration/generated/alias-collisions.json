@@ -1057,6 +1057,14 @@
     "status": "candidate_only_do_not_merge"
   },
   {
+    "token": "左衛門尉",
+    "personIds": [
+      "sg-4d159b56655e",
+      "sg-d607fa19cdfb"
+    ],
+    "status": "candidate_only_do_not_merge"
+  },
+  {
     "token": "左近",
     "personIds": [
       "sg-master-0856",
