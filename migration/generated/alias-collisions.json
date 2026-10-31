@@ -2160,6 +2160,14 @@
     "status": "candidate_only_do_not_merge"
   },
   {
+    "token": "重勝",
+    "personIds": [
+      "sg-master-0572",
+      "sg-master-0826"
+    ],
+    "status": "candidate_only_do_not_merge"
+  },
+  {
     "token": "重友",
     "personIds": [
       "sg-0d5a2a224f5e",

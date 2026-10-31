@@ -2,7 +2,11 @@
 
 2026-10-26取得の正本を基にした、データ移行・更新処理のレビュー用成果物です。**624人全員の史実確認を完了した成果物ではありません。公開置換・main反映を行わないでください。**
 
-## 最新：2026-10-31
+## 最新：2026-10-31 第2回
+
+[624人レビュー・根拠・再開点](reports/person-quality-20261031-02/README.md)：未着手7人の本文確認・略歴7案追加。累計着手/本文115人・略歴104案・生没年とも35人・全項目完了0。未着手509、機械的略歴431。小野木入封年・長尾為景没年の異説、直江家・垣屋家の世代差を保持。Python27/Node11/構造31成功、参照切れ0。年表46人206イベント・140候補（+19/+14）。毎回の引継ぎを管理シートの空行へ追記する。
+
+## 2026-10-31 第1回
 
 [624人レビュー・再開点](reports/person-quality-20261031/README.md)：新規本文5人・家康再確認1人、略歴4案。累計着手/本文108人・略歴97案・生没年とも35人・全項目完了0。本文未確認516・機械的略歴438。家康の暦換算、定満の軍記との区別、良勝の父名/年号差を記録。明示的な確認年が候補履歴によってnullになる生成不整合も修正。Python27/Node11/構造31成功。年表187イベント・126候補（+19/+15）。以下は過去の履歴。
 
@@ -121,7 +125,7 @@ CSVはExcelで開けるUTF-8 BOM付きです。略歴・氏名・URLには日本
 ```sh
 python scripts/generate_sengoku_master.py
 python scripts/build_migration_preview.py
-python scripts/build_person_quality_review.py --round 20261031
+python scripts/build_person_quality_review.py --round 20261031-02
 python scripts/build_person_life_timeline.py
 python scripts/validate_sengoku_master.py
 python -m unittest discover -s tests -p 'test_*.py' -v

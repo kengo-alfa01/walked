@@ -1,0 +1,804 @@
+{
+  "round": "20261031-02",
+  "reviewedOn": "2026-10-31",
+  "scope": "未着手で機械的略歴・年代差・世代混同の課題がある7人。資料の記載範囲のみ確認し、伝聞・推測・原史料未実見を区別。",
+  "sources": {
+    "bizen-uragami": {
+      "url": "https://www.city.bizen.okayama.jp/soshiki/33/551.html",
+      "title": "備前市 e-Bizen Museum：戦国武将浦上氏ゆかりの城",
+      "locator": "政宗の段落。生年不明・1564没、三石→室山、赤松氏からの自立と宗景との争い、婚礼時襲撃伝承。本文に宗景が宗景を攻めると読める不整合があり、その文を訂正推測して採用しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "bizen-terms": {
+      "url": "https://www.city.bizen.okayama.jp/site/userguide/4120.html",
+      "title": "備前市：著作権・リンク等",
+      "locator": "著作権は市または原著作者。法定例外を除き無断複製・転用を制限。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "複製転用の制限を部分確認。事実の独自要約のみ。",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "ouchi-church": {
+      "url": "https://ouchi-culture.com/spot/spot-634/",
+      "title": "山口市文化交流課 大内文化サイト：大内義長裁許状碑",
+      "locator": "1552山口入りとトルレスへの教会建立許可。制作NPOサイト上の市担当解説。碑の由来を参照し、裁許状原本の判読とはしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "ouchi-chronology": {
+      "url": "https://ouchi-culture.com/ouchi-clan/",
+      "title": "山口市 大内文化サイト：大内氏略年表",
+      "locator": "1552義長入国、1555陶晴賢の厳島敗戦、1557高嶺城築城・敗走・自害。義長本人の厳島参戦を推測しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "kyuhaku-yoshinaga": {
+      "url": "https://www.kyuhaku.jp/exhibition/exhibition_s39.html",
+      "title": "九州国立博物館：大内氏の至宝 展示紹介",
+      "locator": "大内義長証状（1556、毛利博物館蔵）の解説。宗麟の弟義長（晴英）、兄弟で遣明船派遣を試みた。派遣成功・本人の渡航は未確認。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "yoshinaga-dictionary": {
+      "url": "https://kotobank.jp/word/大内義長-786607",
+      "title": "コトバンク：大内義長（講談社・防府市歴史用語集）",
+      "locator": "講談社1540–1557、塩乙丸・晴英・八郎。防府市は宗麟弟・長福寺での最期。辞典の厳島に関する記述から本人の参戦を確定しない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "fukuchiyama-lords": {
+      "url": "https://www.city.fukuchiyama.lg.jp/uploaded/attachment/39936.pdf",
+      "title": "福知山市：歴代福知山城主を含む城紹介PDF",
+      "locator": "歴代福知山城主・小野木重勝の段落。1587年頃城主、1600田辺城攻め、福知山へ帰城・開城、亀山自害。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "WebのPDF抽出テキストを実読。直接ダウンロードは403、画像表示も成功せず、紙面の目視確認は未実施。"
+    },
+    "kyoto-castle": {
+      "url": "https://www.kyoto-be.ne.jp/bunkazai/cms/?p=2183",
+      "title": "京都府教育委員会：福知山城の文化財解説",
+      "locator": "小野木重勝の増改築、有馬豊氏の時代に完成。すべての遺構を重勝の造営と断定しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "onogi-dictionary": {
+      "url": "https://kotobank.jp/word/小野木重次-1063764",
+      "title": "講談社デジタル版日本人名大辞典：小野木重次",
+      "locator": "生年不詳、1600没、別名重勝・通称清次郎、文禄3年1594城主。亀山での自害。表示名重次を維持する。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "fukuchiyama-domain": {
+      "url": "https://kotobank.jp/word/福知山藩-124095",
+      "title": "コトバンク：福知山藩（日本歴史地名大系・ブリタニカ）",
+      "locator": "平凡社の1585入封、ブリタニカの1590小野木公郷入封。市1587頃・人物辞典1594と異なるため年を保留。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "inaba-museum": {
+      "url": "https://www.tbz.or.jp/yamabikokan/ouchi/kirie-tenshonine01/kirie-tenshonine06/",
+      "title": "鳥取市歴史博物館：因幡国主宮部氏",
+      "locator": "鳥取城落城後の因幡衆に木下重堅・垣屋恒総。1600西軍所属・改易。集団として記す各地出兵を一人ずつの参加証明としない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "uradome-geography": {
+      "url": "https://kotobank.jp/word/浦富村-3084918",
+      "title": "日本歴史地名大系：浦富村",
+      "locator": "垣屋恒総の巨濃郡支配と桐山城・東麓の館。1581–1600を父光成と子恒総の全期間の個別在城証明に流用しない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "hidaka-history": {
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/komonjo/53796b17ef4f0fcb814fdfc50b27377b3d211cf1.pdf",
+      "title": "豊岡市立図書館公開 日高町史上巻 第8章",
+      "locator": "印刷頁378–380を目視。父光成（播磨守）と子恒総（隠岐守）、家督・軍役、1592出兵、1600伏見・大津、最期は高野山自害という伝聞。朝鮮での具体的行動は著者が推測と明記。",
+      "kind": "public_library_local_history",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "PDFのテキスト層が空のためPDF28–30頁を画像化し、印刷頁378–380を目視。章全体読了ではない。"
+    },
+    "hidaka-errata": {
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/komonjo/94be1d44c0f8d4a191ef9cc690c1407cc0a529d0.pdf",
+      "title": "日高町史上巻 正誤表",
+      "locator": "p379行16の京垣高次を京極高次に訂正。実読範囲378–380の訂正を照合。",
+      "kind": "public_library_local_history",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "PDF画像を目視。"
+    },
+    "toyooka-terms": {
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/komonjo/",
+      "title": "豊岡市立図書館：郷土資料の公開と利用条件",
+      "locator": "日高町史上巻の資料一覧で条件Bを確認。Bは出典明示で掲載展示等の二次利用、申請不要。公共性・品位に関する制限あり。全出典の商用利用許諾と解釈しない。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "資料区分B・出典明示等の条件を部分確認。今回は事実要約のみ。",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "toyooka-catalog": {
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/komonjo/cat114/cat309/",
+      "title": "豊岡市立図書館：日高町史上巻 公開資料一覧",
+      "locator": "第8章PDF・正誤表・利用条件Bの表示を実読。書誌と利用区分の確認であり、本文史実の独立資料として数えない。",
+      "kind": "catalog",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "museum-terms": {
+      "url": "https://www.tbz.or.jp/yamabikokan/guide/investigation/",
+      "title": "鳥取市歴史博物館：調査・研究利用",
+      "locator": "画像利用は申請・許可等が必要。資料自体の権利も別途確認が必要。今回画像利用なし。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "画像利用手続のみ部分確認。文章その他の全面利用条件は未確認。",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "bunka-wakasa": {
+      "url": "https://online.bunka.go.jp/heritages/detail/203696",
+      "title": "文化庁 文化遺産オンライン：若桜鬼ケ城跡",
+      "locator": "1581木下重堅（荒木平太夫）が城主。山崎家盛入城を1600と記載し、町の略年表1601と差がある。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "wakasa-brochure": {
+      "url": "https://kanko.town.wakasa.tottori.jp/wordpress/wp-content/uploads/2022/04/onigajyou.pdf",
+      "title": "若桜町教育委員会：若桜鬼ヶ城跡案内",
+      "locator": "第1面の略年表。1581旧11月木下入城、1600旧11月自刃、1601旧4月山崎入城。現遺構は木下・山崎時代の整備で、すべて重堅に帰属させない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "抽出テキストを読み、PDF第1面を画像化して略年表と説明を目視。旧暦月の西暦月への変換なし。"
+    },
+    "nagano-naoe": {
+      "url": "https://kawanakajima.nagano.jp/character/naoe-kanetsugu/",
+      "title": "長野市：直江山城守兼続（直江家の前史）",
+      "locator": "実綱のち景綱・大和守、為景晴景謙信の三代、領地経営外交、1577・70歳は伝聞表現。軍記の兼続の戦闘を景綱へ移さず、「子がいない」と市長岡の娘お船を区別して検討。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "nagaoka-ofune": {
+      "url": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/ijin/kanetsugu/osennokata.html",
+      "title": "長岡市：お船の方",
+      "locator": "景綱の娘お船、信綱を婿に迎え、信綱没後は兼続。景綱から兼続への直接継承と短絡しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "nagaoka-motoyoita": {
+      "url": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/ijin/kanetsugu/motoyoitajyo.html",
+      "title": "長岡市：本与板城跡",
+      "locator": "景綱ら三代の居城とされる伝承。天文期の入城説・時期・実際の居城移転は未確定。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "nagaoka-index": {
+      "url": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/ijin/kanetsugu/",
+      "title": "長岡市：天地人 直江兼続",
+      "locator": "与板城節は信綱代に本与板から移ったと推定。一方本与板節は三代の居城伝承を掲げる。景綱の居城移転を確定しない。兼続の年表にある慶長6年関ヶ原の表記は今回対象外で採用せず。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "tamekage-dictionary": {
+      "url": "https://kotobank.jp/word/長尾為景-17157",
+      "title": "コトバンク：長尾為景（日本大百科全書・世界大百科事典・ブリタニカ・講談社）",
+      "locator": "矢田俊文の日本大百科全書1541旧12/24、阿部洋輔の世界大百科事典1540、ブリタニカ1536栴檀野敗死、講談社1542?。生年不詳。1507房能打倒・定実擁立、1536家督移譲、六郎・弾正左衛門尉。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "niigata-letter": {
+      "url": "https://jmapps.ne.jp/ngrhk/det.html?data_id=35534",
+      "title": "新潟県立歴史博物館：長尾為景書状",
+      "locator": "上野内匠助宛書状の解説。享禄・天文の乱での軍功と所領、上条定憲との対立。展示解説を読み、書状画像を独立判読したとはしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "nagano-timeline": {
+      "url": "https://kawanakajima.nagano.jp/timeline/",
+      "title": "長野市：川中島の戦い 年表",
+      "locator": "1536旧12月の晴景への家督譲渡。別年項目の越後守護表記を為景の官職の確証に流用しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "yonezawa-tamekage": {
+      "url": "https://www.denkoku-no-mori.yonezawa.yamagata.jp/image/uesugi_bunkakan/2024/2024bunkakanmokuroku04.pdf",
+      "title": "米沢市上杉博物館：2024年上杉文華館 長尾為景と一向一揆",
+      "locator": "1頁解説・資料1–4。永正17旧12月の神保慶宗打倒、1521頃能登畠山氏との連携・一向一揆統制。芹谷野で討死したのは父能景と明示。",
+      "kind": "public_museum_research",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "PDF抽出テキストの目録と解説を実読。国宝原史料の直接判読ではない。"
+    }
+  },
+  "people": {
+    "378": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [],
+      "note": "正本生年1520の根拠未確認。市は生年不明。婚礼襲撃と加害者は軍記等で異なるため伝聞表現を維持。宗景との交戦記述に主語不整合。虎満丸・与四郎は未照合。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "浦上政宗を市本文で確認。",
+          "sourceIds": [
+            "bizen-uragami"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "父村宗・弟宗景・子清宗と区別。",
+          "sourceIds": [
+            "bizen-uragami"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "虎満丸・与四郎等は今回本文で独立確認できない。",
+          "sourceIds": [
+            "bizen-uragami"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "市は不明とする。正本1520を推測で確定しない。",
+          "sourceIds": [
+            "bizen-uragami"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1564没を市の年単位記載で確認。婚礼襲撃の細部は伝承、旧暦日は換算していない。",
+          "sourceIds": [
+            "bizen-uragami"
+          ],
+          "value": 1564
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "三石から室山へ移動、赤松氏からの自立・宗景との争いを要約。最期は伝聞と明示。",
+          "sourceIds": [
+            "bizen-uragami"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "市の転載制限を確認。事実のみ独自要約。",
+          "sourceIds": [
+            "bizen-terms"
+          ]
+        }
+      ],
+      "biography": "播磨・備前に勢力を持った浦上氏の当主。父村宗の死後、三石城から播磨の室山城へ拠点を移した。赤松氏から自立を図り、弟宗景と備前の支配を争った。1564年、赤松方の襲撃で命を落としたと伝わる。"
+    },
+    "423": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "晴英",
+        "塩乙丸",
+        "八郎"
+      ],
+      "note": "1532/1540の生年差は未解決。1540は今回講談社本文、1532は正本から継承した未再確認値。義長本人の厳島参戦・遣明船派遣成功は確定しない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "大内義長を展示資料解説で確認。",
+          "sourceIds": [
+            "kyuhaku-yoshinaga"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "大友宗麟の弟、晴英との対応を国立博物館で確認。",
+          "sourceIds": [
+            "kyuhaku-yoshinaga"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "晴英は博物館。塩乙丸・八郎は辞典本文のみ。",
+          "sourceIds": [
+            "kyuhaku-yoshinaga",
+            "yoshinaga-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "1540は講談社。正本1532との根拠・暦・系譜の比較未了。",
+          "sourceIds": [
+            "yoshinaga-dictionary"
+          ],
+          "candidateYears": [
+            1540,
+            1532
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1557没を市の年表と辞典で年単位照合。旧暦没日は未換算。",
+          "sourceIds": [
+            "ouchi-chronology",
+            "yoshinaga-dictionary"
+          ],
+          "value": 1557
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "当主就任、教会建立許可、遣明船の試み、高嶺城築城と敗走を資料別に確認。",
+          "sourceIds": [
+            "ouchi-church",
+            "kyuhaku-yoshinaga",
+            "ouchi-chronology"
+          ]
+        }
+      ],
+      "biography": "大友宗麟の弟で、陶晴賢に迎えられて大内氏の当主となった。山口で教会建立を許可し、兄と遣明船派遣を試みた。晴賢が厳島で敗れた後、毛利軍に対抗して高嶺城を築いたが、1557年に敗走し自害した。"
+    },
+    "572": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "重勝",
+        "清次郎"
+      ],
+      "note": "主表示名重次を維持。城主就任は平凡社1585、市1587頃、ブリタニカ1590、講談社1594で差がある。公郷ほか全別名の系譜・使用順序は未照合。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "辞典が小野木重次を立項。主表示名変更は行わない。",
+          "sourceIds": [
+            "onogi-dictionary"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "辞典の重次＝重勝と市の福知山城主の事績を照合。",
+          "sourceIds": [
+            "onogi-dictionary",
+            "fukuchiyama-lords"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "重勝・清次郎は人物辞典で確認。その他全候補を認定しない。",
+          "sourceIds": [
+            "onogi-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "人物辞典は不詳。検索候補の数字は採用しない。",
+          "sourceIds": [
+            "onogi-dictionary"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1600亀山で自害を市と人物辞典で照合。月日と寺の特定は追加確認待ち。",
+          "sourceIds": [
+            "fukuchiyama-lords",
+            "onogi-dictionary"
+          ],
+          "value": 1600
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "秀吉配下・福知山増改築・田辺城攻め・開城と最期。入封年は断定せず4説を根拠に残す。",
+          "sourceIds": [
+            "fukuchiyama-lords",
+            "kyoto-castle",
+            "onogi-dictionary",
+            "fukuchiyama-domain"
+          ]
+        }
+      ],
+      "biography": "豊臣秀吉に仕え、丹波福知山城主となった。城の増改築を進め、1600年には西軍として細川幽斎の守る丹後田辺城を攻めた。関ヶ原での西軍敗北後は福知山城に戻ったが、開城し、亀山で自害した。"
+    },
+    "611": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "隠岐守"
+      ],
+      "note": "父光成と子恒総を分離。地方史の高野山での最期は伝聞、朝鮮における行動の詳細は著者推測。因幡衆全体の出兵一覧を個人の従軍証明にしない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "垣屋恒総を市博物館本文で確認。",
+          "sourceIds": [
+            "inaba-museum"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "地方史が父光成（播磨守）と子恒総（隠岐守）を区別。全期間の領主を子に一本化しない。",
+          "sourceIds": [
+            "hidaka-history",
+            "uradome-geography"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "隠岐守を地方史で確認。新五郎は今回未確認。",
+          "sourceIds": [
+            "hidaka-history"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "今回の実読範囲で生年を確認できない。",
+          "sourceIds": [
+            "hidaka-history"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "partially_verified",
+          "result": "1600の高野山自害は地方史の伝聞。正本1600を独立確認済みへ昇格しない。",
+          "sourceIds": [
+            "hidaka-history"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "桐山城本拠・巨濃郡支配、因幡衆・1600西軍改易を要約。父子の期間差を避け就任年を除く。",
+          "sourceIds": [
+            "uradome-geography",
+            "inaba-museum",
+            "hidaka-history"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "1592出兵、1600伏見・大津は地方史の記載。朝鮮の港や戦闘詳細は推測として除外。正誤表の京極高次を確認。",
+          "sourceIds": [
+            "hidaka-history",
+            "hidaka-errata"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "町史公開は条件B、博物館画像は許可手続。その他の個別条件・全面的商用許諾は未確認。",
+          "sourceIds": [
+            "toyooka-terms",
+            "toyooka-catalog",
+            "museum-terms"
+          ]
+        }
+      ],
+      "biography": "豊臣秀吉に従った因幡の大名。垣屋光成の子で、浦富の桐山城を拠点に巨濃郡を領した。宮部氏や木下重堅らと因幡衆を構成したが、1600年の関ヶ原の戦いで西軍に属し、敗戦後に所領を失った。"
+    },
+    "752": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "荒木平太夫"
+      ],
+      "note": "荒木平太夫との対応を文化庁で確認。現遺構をすべて重堅の造営としない。後継山崎入城年は文化庁1600・町1601の差を留保。安都部・弥市郎ほか全別名の確認未了。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "木下重堅を文化庁・町教育委員会で確認。",
+          "sourceIds": [
+            "bunka-wakasa",
+            "wakasa-brochure"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "若桜鬼ヶ城主木下重堅に対応。荒木平太夫との対応を文化庁本文で確認。",
+          "sourceIds": [
+            "bunka-wakasa"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "荒木平太夫のみ今回確認。旧値の他別名は未確認。",
+          "sourceIds": [
+            "bunka-wakasa"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "今回の実読資料には生年の根拠がない。",
+          "sourceIds": [
+            "bunka-wakasa",
+            "wakasa-brochure"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "町教育委員会年表の1600旧11月自刃を年単位で確認。旧暦月を西暦11月とはしない。",
+          "sourceIds": [
+            "wakasa-brochure"
+          ],
+          "value": 1600
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1581若桜城主、城整備・因幡衆、西軍改易・自害を資料別に確認。",
+          "sourceIds": [
+            "bunka-wakasa",
+            "wakasa-brochure",
+            "inaba-museum"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "博物館の画像利用手続を確認。町PDF・文化庁掲載元資料の個別条件は未確認。",
+          "sourceIds": [
+            "museum-terms"
+          ]
+        }
+      ],
+      "biography": "豊臣秀吉に仕え、1581年に因幡の若桜鬼ヶ城主となった。城の整備を進め、宮部氏らと因幡衆を構成した。1600年の関ヶ原の戦いでは西軍に属して所領を失い、敗戦後に自害した。荒木平太夫とも称した。"
+    },
+    "1454": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "実綱",
+        "大和守"
+      ],
+      "note": "生年1509は未確認、1577・享年70は市が伝聞として記すため逆算しない。景綱→信綱→兼続を区別。兼続の軍記の事績を景綱へ移さない。本与板/与板の移転時期は未確定。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "長野市・長岡市が直江景綱を記載。",
+          "sourceIds": [
+            "nagano-naoe",
+            "nagaoka-ofune"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "実綱の後の景綱。娘お船の婿信綱と、後の兼続を別人として扱う。",
+          "sourceIds": [
+            "nagano-naoe",
+            "nagaoka-ofune"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "実綱・大和守を長野市で確認。政綱・神五郎・法号等は未照合。",
+          "sourceIds": [
+            "nagano-naoe"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "正本1509は未確認。伝聞の享年70から逆算しない。",
+          "sourceIds": [
+            "nagano-naoe"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "partially_verified",
+          "result": "1577・70歳は伝聞表現を伴う。独立資料の照合待ち。",
+          "sourceIds": [
+            "nagano-naoe"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "三代への奉仕、領地経営外交、与板地域と直江家の継承を独自要約。",
+          "sourceIds": [
+            "nagano-naoe",
+            "nagaoka-ofune",
+            "nagaoka-motoyoita"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "本与板城居城説は伝承。信綱代の与板移転説と三代本与板居城伝承を区別する。",
+          "sourceIds": [
+            "nagaoka-index",
+            "nagaoka-motoyoita"
+          ]
+        }
+      ],
+      "biography": "長尾為景・晴景、上杉謙信の三代に仕えた重臣。直江実綱ともいい、越後の与板を拠点に領地経営や外交を担った。娘のお船が信綱を婿に迎え、景綱の没後も直江家は信綱、さらに兼続へと受け継がれた。"
+    },
+    "1461": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "六郎",
+        "弾正左衛門尉"
+      ],
+      "note": "没年は辞典ごと1536/1540/1541/1542?。旧暦1541末の換算問題と異なる死亡説を混同せず追加精査。正本1486生の根拠未確認。父能景の芹谷野戦死と為景の古説を区別。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "長尾為景を県博物館・市博物館の文書解説で確認。",
+          "sourceIds": [
+            "niigata-letter",
+            "yonezawa-tamekage"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "父能景・子晴景/謙信と区別。芹谷野戦死は市博物館が父能景の事績とする。",
+          "sourceIds": [
+            "yonezawa-tamekage",
+            "tamekage-dictionary"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "六郎・弾正左衛門尉を辞典本文で確認。使用順序・全称号は未確認。",
+          "sourceIds": [
+            "tamekage-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "各辞典は生年不詳。正本1486を今回確認できない。",
+          "sourceIds": [
+            "tamekage-dictionary"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "disputed",
+          "result": "日本大百科全書1541旧12/24、世界大百科1540、ブリタニカ1536敗死、講談社1542?を並記。暦換算と史料批判未了。",
+          "sourceIds": [
+            "tamekage-dictionary"
+          ],
+          "candidateYears": [
+            1536,
+            1540,
+            1541,
+            1542
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "越後守護代、房能打倒・定実擁立、越中の神保氏・一揆との対立、1536晴景へ家督移譲を要約。原史料直接判読ではない。",
+          "sourceIds": [
+            "tamekage-dictionary",
+            "niigata-letter",
+            "nagano-timeline",
+            "yonezawa-tamekage"
+          ]
+        }
+      ],
+      "biography": "上杉謙信の父で、越後の守護代。守護上杉房能を倒して定実を擁立し、越後で主導権を握った。越中にも兵を進め、神保氏や一向一揆と争ったが、国内の有力領主との対立も続いた。1536年に子の晴景へ家督を譲った。"
+    }
+  },
+  "attempts": [],
+  "retrievalNotes": [
+    "備前市新ドメインは400/502/503等で取得できず、旧公式ドメインの本文を実読。到達失敗を人物不在の証拠としない。",
+    "福知山市PDFは抽出本文のみ実読。日高町史・正誤表・若桜案内は指定箇所を画像で目視。",
+    "山口県文書館の波多野家文書目録（晴英の袖判安堵状）は書誌閲覧のみ。原史料本文を読了と数えず、今回の人物確認根拠から除外。"
+  ]
+}

@@ -13,7 +13,8 @@
     "20261030-04": "migration/research/20261030-04/evidence.json",
     "20261030-05": "migration/research/20261030-05/evidence.json",
     "20261030-06": "migration/research/20261030-06/evidence.json",
-    "20261031": "migration/research/20261031/evidence.json"
+    "20261031": "migration/research/20261031/evidence.json",
+    "20261031-02": "migration/research/20261031-02/evidence.json"
   },
   "candidates": {
     "plc-gifu-castle": {
@@ -1508,6 +1509,174 @@
       "candidateId": "plc-owari-hostage",
       "placeName": "尾張（家康の人質生活の地域）",
       "regionAsSource": "尾張",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-mitsuishi": {
+      "candidateId": "plc-mitsuishi",
+      "placeName": "三石城",
+      "regionAsSource": "備前",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-muroyama": {
+      "candidateId": "plc-muroyama",
+      "placeName": "室山城",
+      "regionAsSource": "播磨",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-yamaguchi-ouchi": {
+      "candidateId": "plc-yamaguchi-ouchi",
+      "placeName": "山口（大内氏の本拠・教会許可の地域）",
+      "regionAsSource": "周防",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-konomine": {
+      "candidateId": "plc-konomine",
+      "placeName": "高嶺城",
+      "regionAsSource": "周防",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-fukuchiyama": {
+      "candidateId": "plc-fukuchiyama",
+      "placeName": "福知山城",
+      "regionAsSource": "丹波",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-tanabe-tango": {
+      "candidateId": "plc-tanabe-tango",
+      "placeName": "田辺城（丹後）",
+      "regionAsSource": "丹後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-kameyama-tanba-area": {
+      "candidateId": "plc-kameyama-tanba-area",
+      "placeName": "亀山（小野木重次の最期の地域）",
+      "regionAsSource": "丹波",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-kiriyama-inaba": {
+      "candidateId": "plc-kiriyama-inaba",
+      "placeName": "桐山城（浦富）",
+      "regionAsSource": "因幡",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-fushimi": {
+      "candidateId": "plc-fushimi",
+      "placeName": "伏見城",
+      "regionAsSource": "山城",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-otsu-omi": {
+      "candidateId": "plc-otsu-omi",
+      "placeName": "大津城（近江）",
+      "regionAsSource": "近江",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-wakasa-onigajo": {
+      "candidateId": "plc-wakasa-onigajo",
+      "placeName": "若桜鬼ヶ城",
+      "regionAsSource": "因幡",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-motoyoita": {
+      "candidateId": "plc-motoyoita",
+      "placeName": "本与板城",
+      "regionAsSource": "越後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-ecchu-region": {
+      "candidateId": "plc-ecchu-region",
+      "placeName": "越中（長尾氏の軍事活動地域）",
+      "regionAsSource": "越中",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-echigo-region": {
+      "candidateId": "plc-echigo-region",
+      "placeName": "越後（長尾氏の領国・一揆統制対象地域）",
+      "regionAsSource": "越後",
       "spatialGranularity": "region",
       "existingSiteId": null,
       "locationStatus": "unverified",
@@ -6841,6 +7010,553 @@
       "approvalStatus": "pending_user_review",
       "previousMainBaseCandidateId": null,
       "unresolved": "地域のみ確認。特定の寺や屋敷を推定しない。誕生地・墓所関係の追加調査なし。"
+    },
+    {
+      "eventId": "life-0378-001",
+      "personId": "sg-master-0378",
+      "rosterId": "378",
+      "personName": "浦上政宗",
+      "candidateId": "plc-mitsuishi",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "父村宗没後、三石城を離れた。",
+      "relationTypes": [
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261031-02:bizen-uragami"
+      ],
+      "sourceLocator": "政宗の段落。生年不明・1564没、三石→室山、赤松氏からの自立と宗景との争い、婚礼時襲撃伝承。本文に宗景が宗景を攻めると読める不整合があり、その文を訂正推測して採用しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "移転年は今回本文から確定できず。"
+    },
+    {
+      "eventId": "life-0378-002",
+      "personId": "sg-master-0378",
+      "rosterId": "378",
+      "personName": "浦上政宗",
+      "candidateId": "plc-muroyama",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "弟宗景とともに播磨の室山城へ拠点を移した。",
+      "relationTypes": [
+        "本拠地",
+        "居城移転"
+      ],
+      "sourceRefs": [
+        "20261031-02:bizen-uragami"
+      ],
+      "sourceLocator": "政宗の段落。生年不明・1564没、三石→室山、赤松氏からの自立と宗景との争い、婚礼時襲撃伝承。本文に宗景が宗景を攻めると読める不整合があり、その文を訂正推測して採用しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-mitsuishi",
+      "unresolved": "具体年未確認。婚礼襲撃の加害者・細部は軍記間で相違。"
+    },
+    {
+      "eventId": "life-0423-001",
+      "personId": "sg-47293bb9ea88",
+      "rosterId": "423",
+      "personName": "大内義長",
+      "candidateId": "plc-yamaguchi-ouchi",
+      "dateLabel": "1552年",
+      "yearStart": 1552,
+      "yearEnd": 1552,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "豊後から山口に入り、大内氏の当主となった。",
+      "relationTypes": [
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261031-02:ouchi-church",
+        "20261031-02:ouchi-chronology"
+      ],
+      "sourceLocator": "1552山口入りとトルレスへの教会建立許可。制作NPOサイト上の市担当解説。碑の由来を参照し、裁許状原本の判読とはしない。 / 1552義長入国、1555陶晴賢の厳島敗戦、1557高嶺城築城・敗走・自害。義長本人の厳島参戦を推測しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "入国日と居館位置は未確認。"
+    },
+    {
+      "eventId": "life-0423-002",
+      "personId": "sg-47293bb9ea88",
+      "rosterId": "423",
+      "personName": "大内義長",
+      "candidateId": "plc-yamaguchi-ouchi",
+      "dateLabel": "1552年",
+      "yearStart": 1552,
+      "yearEnd": 1552,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "トルレスに教会建立を許可した。",
+      "relationTypes": [
+        "寺社保護"
+      ],
+      "sourceRefs": [
+        "20261031-02:ouchi-church"
+      ],
+      "sourceLocator": "1552山口入りとトルレスへの教会建立許可。制作NPOサイト上の市担当解説。碑の由来を参照し、裁許状原本の判読とはしない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "教会の個別所在地・建築完成日や本人訪問を推測しない。"
+    },
+    {
+      "eventId": "life-0423-003",
+      "personId": "sg-47293bb9ea88",
+      "rosterId": "423",
+      "personName": "大内義長",
+      "candidateId": "plc-konomine",
+      "dateLabel": "1557年",
+      "yearStart": 1557,
+      "yearEnd": 1557,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "毛利氏に対抗して高嶺城を築き、のち退いた。",
+      "relationTypes": [
+        "築城",
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261031-02:ouchi-chronology"
+      ],
+      "sourceLocator": "1552義長入国、1555陶晴賢の厳島敗戦、1557高嶺城築城・敗走・自害。義長本人の厳島参戦を推測しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "城の各遺構の造営年代・退去日未確認。"
+    },
+    {
+      "eventId": "life-0572-001",
+      "personId": "sg-master-0572",
+      "rosterId": "572",
+      "personName": "小野木重次",
+      "candidateId": "plc-fukuchiyama",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "福知山城主として城を増改築した。",
+      "relationTypes": [
+        "居城",
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261031-02:kyoto-castle",
+        "20261031-02:fukuchiyama-lords",
+        "20261031-02:onogi-dictionary",
+        "20261031-02:fukuchiyama-domain"
+      ],
+      "sourceLocator": "小野木重勝の増改築、有馬豊氏の時代に完成。すべての遺構を重勝の造営と断定しない。 / 歴代福知山城主・小野木重勝の段落。1587年頃城主、1600田辺城攻め、福知山へ帰城・開城、亀山自害。 / 生年不詳、1600没、別名重勝・通称清次郎、文禄3年1594城主。亀山での自害。表示名重次を維持する。 / 平凡社の1585入封、ブリタニカの1590小野木公郷入封。市1587頃・人物辞典1594と異なるため年を保留。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "入封年は1585/1587頃/1590/1594。改築完成年とも区別し未確定。"
+    },
+    {
+      "eventId": "life-0572-002",
+      "personId": "sg-master-0572",
+      "rosterId": "572",
+      "personName": "小野木重次",
+      "candidateId": "plc-tanabe-tango",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "西軍として細川幽斎の守る田辺城を攻めた。",
+      "relationTypes": [
+        "攻城戦"
+      ],
+      "sourceRefs": [
+        "20261031-02:fukuchiyama-lords"
+      ],
+      "sourceLocator": "歴代福知山城主・小野木重勝の段落。1587年頃城主、1600田辺城攻め、福知山へ帰城・開城、亀山自害。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "個別陣地の位置未確認。関ヶ原現地での参戦と同一視しない。"
+    },
+    {
+      "eventId": "life-0572-003",
+      "personId": "sg-master-0572",
+      "rosterId": "572",
+      "personName": "小野木重次",
+      "candidateId": "plc-fukuchiyama",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "西軍敗北後に戻った福知山城を開いた。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261031-02:fukuchiyama-lords"
+      ],
+      "sourceLocator": "歴代福知山城主・小野木重勝の段落。1587年頃城主、1600田辺城攻め、福知山へ帰城・開城、亀山自害。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "開城の日付・条件は追加照合待ち。"
+    },
+    {
+      "eventId": "life-0572-004",
+      "personId": "sg-master-0572",
+      "rosterId": "572",
+      "personName": "小野木重次",
+      "candidateId": "plc-kameyama-tanba-area",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "亀山で自害した。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261031-02:fukuchiyama-lords",
+        "20261031-02:onogi-dictionary"
+      ],
+      "sourceLocator": "歴代福知山城主・小野木重勝の段落。1587年頃城主、1600田辺城攻め、福知山へ帰城・開城、亀山自害。 / 生年不詳、1600没、別名重勝・通称清次郎、文禄3年1594城主。亀山での自害。表示名重次を維持する。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "伊勢亀山と別地域。寺の同定や旧暦月日は未確定。"
+    },
+    {
+      "eventId": "life-0611-001",
+      "personId": "sg-master-0611",
+      "rosterId": "611",
+      "personName": "垣屋恒総",
+      "candidateId": "plc-kiriyama-inaba",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "桐山城を拠点とし、巨濃郡を領した。",
+      "relationTypes": [
+        "居城",
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261031-02:uradome-geography",
+        "20261031-02:hidaka-history"
+      ],
+      "sourceLocator": "垣屋恒総の巨濃郡支配と桐山城・東麓の館。1581–1600を父光成と子恒総の全期間の個別在城証明に流用しない。 / 印刷頁378–380を目視。父光成（播磨守）と子恒総（隠岐守）、家督・軍役、1592出兵、1600伏見・大津、最期は高野山自害という伝聞。朝鮮での具体的行動は著者が推測と明記。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "父光成からの継承年・東麓館の範囲未確認。1581–1600全期間を恒総の在城にしない。"
+    },
+    {
+      "eventId": "life-0611-002",
+      "personId": "sg-master-0611",
+      "rosterId": "611",
+      "personName": "垣屋恒総",
+      "candidateId": "plc-fushimi",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "伏見城攻撃に加わったと地方史に記される。",
+      "relationTypes": [
+        "攻城戦"
+      ],
+      "sourceRefs": [
+        "20261031-02:hidaka-history"
+      ],
+      "sourceLocator": "印刷頁378–380を目視。父光成（播磨守）と子恒総（隠岐守）、家督・軍役、1592出兵、1600伏見・大津、最期は高野山自害という伝聞。朝鮮での具体的行動は著者が推測と明記。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "地方史の実読範囲による。典拠の原史料未照合。"
+    },
+    {
+      "eventId": "life-0611-003",
+      "personId": "sg-master-0611",
+      "rosterId": "611",
+      "personName": "垣屋恒総",
+      "candidateId": "plc-otsu-omi",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "大津城攻撃に加わったと地方史に記される。",
+      "relationTypes": [
+        "攻城戦"
+      ],
+      "sourceRefs": [
+        "20261031-02:hidaka-history",
+        "20261031-02:hidaka-errata"
+      ],
+      "sourceLocator": "印刷頁378–380を目視。父光成（播磨守）と子恒総（隠岐守）、家督・軍役、1592出兵、1600伏見・大津、最期は高野山自害という伝聞。朝鮮での具体的行動は著者が推測と明記。 / p379行16の京垣高次を京極高次に訂正。実読範囲378–380の訂正を照合。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "正誤表の京極高次に従う。伊予大洲の大津城とは別地点。"
+    },
+    {
+      "eventId": "life-0611-004",
+      "personId": "sg-master-0611",
+      "rosterId": "611",
+      "personName": "垣屋恒総",
+      "candidateId": "plc-koyasan",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "敗戦後に高野山で自害したという伝承が地方史に記される。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261031-02:hidaka-history"
+      ],
+      "sourceLocator": "印刷頁378–380を目視。父光成（播磨守）と子恒総（隠岐守）、家督・軍役、1592出兵、1600伏見・大津、最期は高野山自害という伝聞。朝鮮での具体的行動は著者が推測と明記。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "関係自体が伝聞。没年確認数に加えない。寺の位置・墓所関係は未調査。"
+    },
+    {
+      "eventId": "life-0752-001",
+      "personId": "sg-master-0752",
+      "rosterId": "752",
+      "personName": "木下重堅",
+      "candidateId": "plc-wakasa-onigajo",
+      "dateLabel": "1581年",
+      "yearStart": 1581,
+      "yearEnd": 1581,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "若桜鬼ヶ城主となった。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261031-02:bunka-wakasa",
+        "20261031-02:wakasa-brochure"
+      ],
+      "sourceLocator": "1581木下重堅（荒木平太夫）が城主。山崎家盛入城を1600と記載し、町の略年表1601と差がある。 / 第1面の略年表。1581旧11月木下入城、1600旧11月自刃、1601旧4月山崎入城。現遺構は木下・山崎時代の整備で、すべて重堅に帰属させない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "町年表は旧11月。西暦11月とみなさず換算未実施。"
+    },
+    {
+      "eventId": "life-0752-002",
+      "personId": "sg-master-0752",
+      "rosterId": "752",
+      "personName": "木下重堅",
+      "candidateId": "plc-wakasa-onigajo",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "若桜鬼ヶ城の整備を進めた。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261031-02:wakasa-brochure"
+      ],
+      "sourceLocator": "第1面の略年表。1581旧11月木下入城、1600旧11月自刃、1601旧4月山崎入城。現遺構は木下・山崎時代の整備で、すべて重堅に帰属させない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "木下・山崎時代の整備を区別。すべての遺構を木下に帰属させない。"
+    },
+    {
+      "eventId": "life-0752-003",
+      "personId": "sg-master-0752",
+      "rosterId": "752",
+      "personName": "木下重堅",
+      "candidateId": "plc-wakasa-onigajo",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "西軍に属して若桜の所領を失った。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261031-02:inaba-museum",
+        "20261031-02:wakasa-brochure"
+      ],
+      "sourceLocator": "鳥取城落城後の因幡衆に木下重堅・垣屋恒総。1600西軍所属・改易。集団として記す各地出兵を一人ずつの参加証明としない。 / 第1面の略年表。1581旧11月木下入城、1600旧11月自刃、1601旧4月山崎入城。現遺構は木下・山崎時代の整備で、すべて重堅に帰属させない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "自害した場所が若桜であるとは確認していない。後継山崎の入城年は1600/1601で差。"
+    },
+    {
+      "eventId": "life-1454-001",
+      "personId": "sg-d95e2b81c841",
+      "rosterId": "1454",
+      "personName": "直江景綱",
+      "candidateId": "plc-motoyoita",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "本与板城を居城としたと伝えられる。",
+      "relationTypes": [
+        "居城",
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261031-02:nagaoka-motoyoita",
+        "20261031-02:nagaoka-index"
+      ],
+      "sourceLocator": "景綱ら三代の居城とされる伝承。天文期の入城説・時期・実際の居城移転は未確定。 / 与板城節は信綱代に本与板から移ったと推定。一方本与板節は三代の居城伝承を掲げる。景綱の居城移転を確定しない。兼続の年表にある慶長6年関ヶ原の表記は今回対象外で採用せず。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "伝承であり入城年・信綱代の与板移転説との対応は未確定。"
+    },
+    {
+      "eventId": "life-1461-001",
+      "personId": "sg-6ffcd3b19007",
+      "rosterId": "1461",
+      "personName": "長尾為景",
+      "candidateId": "plc-ecchu-region",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "神保慶宗を破り、一向一揆との争いも続けた。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261031-02:yonezawa-tamekage"
+      ],
+      "sourceLocator": "1頁解説・資料1–4。永正17旧12月の神保慶宗打倒、1521頃能登畠山氏との連携・一向一揆統制。芹谷野で討死したのは父能景と明示。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "神保打倒は永正17年12月。和暦年対応1520と西暦年換算の区別が必要なためyearStart未確定。父能景の芹谷野戦死と混同しない。"
+    },
+    {
+      "eventId": "life-1461-002",
+      "personId": "sg-6ffcd3b19007",
+      "rosterId": "1461",
+      "personName": "長尾為景",
+      "candidateId": "plc-echigo-region",
+      "dateLabel": "1521年",
+      "yearStart": 1521,
+      "yearEnd": 1521,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "越後の一向一揆への禁制を通じて統制を図った。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261031-02:yonezawa-tamekage"
+      ],
+      "sourceLocator": "1頁解説・資料1–4。永正17旧12月の神保慶宗打倒、1521頃能登畠山氏との連携・一向一揆統制。芹谷野で討死したのは父能景と明示。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "展示史料3は長尾景慶他6名掟書・永正18年2月。為景の政策と本人自筆・現地訪問を同一視しない。"
     }
   ],
   "residenceSequences": [
@@ -7133,6 +7849,21 @@
         "life-0322-003"
       ],
       "note": "春日山→会津→米沢。会津は地域単位、途中滞在・入城日を網羅しない。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "378",
+      "personId": "sg-master-0378",
+      "personName": "浦上政宗",
+      "candidateIds": [
+        "plc-mitsuishi",
+        "plc-muroyama"
+      ],
+      "eventIds": [
+        "life-0378-001",
+        "life-0378-002"
+      ],
+      "note": "三石から室山へ。時期と全生涯の居所は未確認。",
       "completeness": "partial_not_exhaustive"
     }
   ]
