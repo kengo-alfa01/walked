@@ -10,8 +10,8 @@ function source(name){
 }
 const state={visited:{},features:[],featureById:new Map(),machidaById:new Map(),sagamiharaById:new Map(),prefById:new Map(),nationById:new Map(),nationCache:new Map(),layers:new Map(),machida:[],sagamihara:[],mode:'municipal'};
 const ctx={state,MACHIDA_CODE:'13209',MACHIDA_PREFIX:'m:',SAGAMIHARA_PREFIX:'s:',NATION_PREFIX:'n:',PREF_PREFIX:'p:',sengokuSites:[],sengokuCards:[],sengokuFound:{},sengokuStoreKey:'test',localStorage:{setItem(){}},writeStore(){},persist(){},renderSengoku(){},refreshSengokuPins(){},toastSengokuCards(){},coveredPrefCodes(){return new Set()}};
-vm.createContext(ctx);
-for(const name of ['canonicalAreaKey','areaRecordKeys','areaMunicipalityCode','key','areaModeForFeature','keyForMode','isVisited','getFeature','mark','unmark','ringContains','geomContains','municipalCode','getMunicipalityForPoint','eligibleSengokuCard','matchedSengokuCardsAtPoint','acquireSengokuByAreaFeature','reconcileSengokuVisits'])vm.runInContext(source(name),ctx);
+ctx.normHistory=s=>String(s||'').replace(/\s/g,'');vm.createContext(ctx);
+for(const name of ['canonicalAreaKey','areaRecordKeys','areaMunicipalityCode','key','areaModeForFeature','keyForMode','isVisited','getFeature','mark','unmark','ringContains','geomContains','municipalCode','getMunicipalityForPoint','eligibleSengokuCard','matchedSengokuCardsAtPoint','acquireSengokuByAreaFeature','reconcileSengokuVisits','hasHistoryArea'])vm.runInContext(source(name),ctx);
 for(const code of ['13209','14151','14152','14153']){
  const town=code+'00101',regional=(code==='13209'?'m:':'s:')+town,national='n:'+code+':'+town;
  const feature={id:town,properties:{KEY_CODE:town,WALKED_MUNICIPAL_CODE:code}};
@@ -26,6 +26,9 @@ for(const code of ['13209','14151','14152','14153']){
  ctx.unmark(regional);assert.ok(!ctx.isVisited(national));
  state.visited={[code]:{}};assert.ok(!ctx.isVisited(regional),'city must not fill every town');
 }
+state.machida=[{id:'1320900101',properties:{KEY_CODE:'1320900101',S_NAME:'木曽東一丁目'}}];
+state.visited={'n:13209:1320900101':{}};assert.ok(ctx.hasHistoryArea({city:'町田',area:'木曽東一丁目'}),'history accepts shared legacy key');
+state.visited={'13209':{}};assert.ok(!ctx.hasHistoryArea({city:'町田',area:'木曽東一丁目'}),'municipal visit never fills every history town');
 function polygon(id,x0,x1){return {id,properties:{},geometry:{type:'Polygon',coordinates:[[[x0,0],[x1,0],[x1,10],[x0,10],[x0,0]]]}}}
 state.features=[polygon('13209',0,10),polygon('14151',10,20)];
 ctx.sengokuSites=[{id:'site',municipalityCode:'13209',point:[1,1],verification:'reviewed'},{id:'blocked',municipalityCode:'13209',point:[1,1],verification:'reviewed',boundaryAudit:'unresolved_polygon_mismatch'},{id:'pending',municipalityCode:'13209',point:[1,1],verification:'pending'}];

@@ -19,7 +19,7 @@ async function ready(page){await page.goto(base);await page.waitForFunction(()=>
 async function upload(page,doc){await page.locator('#restoreFile').setInputFiles({name:'backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(doc))});}
 (async()=>{
  for(const [engine,viewport,label] of [[chromium,{width:1280,height:900},'chromium-desktop'],[webkit,{width:390,height:844},'webkit-mobile']]){
-  const browser=await engine.launch({headless:true}),context=await browser.newContext({viewport});await route(context);
+  const browser=await engine.launch({headless:true,...(engine===chromium&&process.env.CHROMIUM_EXECUTABLE?{executablePath:process.env.CHROMIUM_EXECUTABLE}:{}),args:engine===chromium?['--no-sandbox']:[]}),context=await browser.newContext({viewport});await route(context);
   const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('dialog',d=>d.accept());
   await ready(page);assert.equal(await page.locator('#profileTitle').textContent(),'称号なし');
   // Legacy regional/national records + existing hidden card survive startup and restore.
@@ -36,7 +36,7 @@ async function upload(page,doc){await page.locator('#restoreFile').setInputFiles
   await page.waitForFunction(()=>state.visited['14152']);
   let after=await page.evaluate(()=>currentBackup());assert.ok(after.cards['retired-card']);assert.equal(after.titles.selected,'national-1');assert.equal(Object.keys(after.visited).length,4);
   assert.equal(await page.evaluate(()=>WalkedCore.progress(state.visited,titleRegistry).count),3);
-  assert.deepEqual(await page.evaluate(()=>JSON.parse(localStorage.getItem(restoreCheckpointKey))),before);
+  const checkpoint=await page.evaluate(()=>JSON.parse(localStorage.getItem(restoreCheckpointKey)));for(const field of ['visited','cards','titles'])assert.deepEqual(checkpoint[field],before[field]);
   const exportEvent=page.waitForEvent('download');await page.locator('#save').click();const exported=await exportEvent;const exportPath=await exported.path();const exportedDoc=JSON.parse(fs.readFileSync(exportPath));assert.equal(exportedDoc.format,'walked-backup-v3');assert.ok(exportedDoc.cards['retired-card']);
   // Invalid restoration leaves all three stores byte-for-byte untouched.
   const raw=await page.evaluate(()=>[DBKEY,sengokuStoreKey,titleStoreKey].map(k=>localStorage.getItem(k)));

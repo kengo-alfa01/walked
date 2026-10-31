@@ -1,0 +1,17 @@
+✔ pinned map geometry IDs match the title registry and excluded IDs without omissions (14.294569ms)
+✔ full application boots, migrates titles, selects profile and preserves hidden card records on reload (1002.954947ms)
+✔ v2 restore and v3 export/restore preserve every collection and store a pre-restore checkpoint (794.023624ms)
+✔ cancelled/invalid imports change no saved records (366.492953ms)
+✔ quota failure during restore rolls back storage and never mutates active game (371.013228ms)
+✔ clearing visits retains cards, acquired titles and profile, with a recoverable checkpoint (350.496197ms)
+✔ corrupt original data is never silently overwritten and raw rescue exports it (347.198358ms)
+✔ interrupted multi-key restore is recovered before startup reads the game (335.802038ms)
+✔ timeline storage failure releases busy state and collection batching (359.79687ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4559.884505
