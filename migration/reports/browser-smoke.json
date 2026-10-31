@@ -1,0 +1,97 @@
+{
+  "results": [
+    {
+      "label": "small",
+      "width": 320,
+      "engine": "Playwright WebKit Linux; not iOS",
+      "renderedPeople": 624,
+      "horizontalOverflow": false,
+      "aliasSearch": "pass",
+      "acquisition": {
+        "polygons": 196,
+        "matched": 25,
+        "added": 24,
+        "again": 0,
+        "liveCardsUnchanged": true
+      },
+      "liveStorageUnchanged": true,
+      "pageErrors": [],
+      "screenshot": "migration/reports/small.png"
+    },
+    {
+      "label": "iPhone-SE-width",
+      "width": 375,
+      "engine": "Playwright WebKit Linux; not iOS",
+      "renderedPeople": 624,
+      "horizontalOverflow": false,
+      "aliasSearch": "pass",
+      "acquisition": {
+        "polygons": 196,
+        "matched": 25,
+        "added": 24,
+        "again": 0,
+        "liveCardsUnchanged": true
+      },
+      "liveStorageUnchanged": true,
+      "pageErrors": [],
+      "screenshot": "migration/reports/iPhone-SE-width.png"
+    },
+    {
+      "label": "iPhone16-Safari-like",
+      "width": 393,
+      "engine": "Playwright WebKit Linux; not iOS",
+      "renderedPeople": 624,
+      "horizontalOverflow": false,
+      "aliasSearch": "pass",
+      "acquisition": {
+        "polygons": 196,
+        "matched": 25,
+        "added": 24,
+        "again": 0,
+        "liveCardsUnchanged": true
+      },
+      "liveStorageUnchanged": true,
+      "pageErrors": [],
+      "screenshot": "migration/reports/iPhone16-Safari-like.png"
+    },
+    {
+      "label": "iPhone16-Chrome-UA",
+      "width": 393,
+      "engine": "Playwright WebKit Linux; not iOS",
+      "renderedPeople": 624,
+      "horizontalOverflow": false,
+      "aliasSearch": "pass",
+      "acquisition": {
+        "polygons": 196,
+        "matched": 25,
+        "added": 24,
+        "again": 0,
+        "liveCardsUnchanged": true
+      },
+      "liveStorageUnchanged": true,
+      "pageErrors": [],
+      "screenshot": "migration/reports/iPhone16-Chrome-UA.png"
+    },
+    {
+      "label": "large-phone",
+      "width": 430,
+      "engine": "Playwright WebKit Linux; not iOS",
+      "renderedPeople": 624,
+      "horizontalOverflow": false,
+      "aliasSearch": "pass",
+      "acquisition": {
+        "polygons": 196,
+        "matched": 25,
+        "added": 24,
+        "again": 0,
+        "liveCardsUnchanged": true
+      },
+      "liveStorageUnchanged": true,
+      "pageErrors": [],
+      "screenshot": "migration/reports/large-phone.png"
+    }
+  ],
+  "failures": [],
+  "realDeviceTested": false,
+  "nationalBoundaryAndTiles": "isolated fixtures; bundled town polygons and all candidate JSONs real"
+}

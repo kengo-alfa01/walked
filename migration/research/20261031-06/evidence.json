@@ -1,0 +1,540 @@
+{
+  "round": "20261031-06",
+  "reviewedOn": "2026-10-31",
+  "scope": "未着手6人。大崎・大野・垣見・河野・斯波の年次と同一性を精査。斯波詮真は根拠不足のため略歴案を保留。",
+  "sources": {
+    "osaki-dictionary": {
+      "url": "https://kotobank.jp/word/大崎義直-1060181",
+      "title": "講談社デジタル版日本人名大辞典：大崎義直",
+      "locator": "義兼次男、奥州探題、大崎5郡、1534家臣の反乱・1536伊達稙宗の援助で鎮圧、以後伊達従属、1577没、生年不詳。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "kami-miyazaki": {
+      "url": "https://www.town.kami.miyagi.jp/material/files/group/32/miya3.pdf",
+      "title": "宮崎町教育委員会：陶芸の里みやざきの文化財 第三集",
+      "locator": "PDF26頁・紙面22頁「大崎義直の墓 鳥屋ヶ崎」左段。文献にはないが宿館/矢田川館と呼ぶ居館伝承、1534内乱と伊達稙宗援助。墓の記述は別担当へ分離。",
+      "kind": "municipal_publication",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "PDF紙面画像を実読。居館の伝承と文献根拠不足を保持。"
+    },
+    "ono-dictionary": {
+      "url": "https://kotobank.jp/word/大野治長-39483",
+      "title": "小学館・平凡社・講談社辞典：大野治長",
+      "locator": "修理亮、淀殿乳母大蔵卿局の子、1599結城配流は家康暗殺の容疑、関ヶ原東軍後豊臣へ復帰、且元退去後の政務と大坂の陣、1615没。平凡社は1567?生、他は不詳。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "ono-letter-catalog": {
+      "url": "https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B999001793",
+      "title": "石川県立図書館：大野治長書状 長家文書",
+      "locator": "（慶長19年）6月12日、県史第二編p239。使者として駿府・江戸へ下向するため利長葬儀へ参列できない旨との解説。文書原本・全文未読、予定を到着の証拠にしない。",
+      "kind": "library_document_catalog",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "kyubunken-nakano": {
+      "url": "https://kyubunken.jp/kyubunken30thsymposium_resume.pdf",
+      "title": "九州文化財研究所30周年記念シンポジウム（2023）中野等「関ヶ原の戦いと九州」",
+      "locator": "紙面8–10頁（PDF9–11頁）。垣見（筧）一直（家純）、1597年2月までの入部だが正確な時期は不明、富来城地、蔵入地代官、朝鮮の目付。豊後高田は竹中重利、安岐は熊谷直盛。",
+      "kind": "research_conference_proceedings",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "公開PDFを取得し該当頁の本文テキストを実読。引用原文書自体の実見ではない。"
+    },
+    "kyubunken-reference": {
+      "url": "https://kyubunken.jp/kyubunken30thsymposium_resume.pdf",
+      "title": "九州文化財研究所30周年シンポジウム：参考人物・年表",
+      "locator": "紙面33頁（PDF34）垣見一直、紙面38頁（PDF39）の1600年旧9/17大垣で殺害記事。人物欄の文禄2年（1594）には年対応の不整合があり、代官就任/翌年入封の確定根拠にしない。",
+      "kind": "research_conference_proceedings",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "本文抽出を実読、紙面33頁画像で年対応不整合を再確認。死亡年・伏見/大垣と代官就任年を分ける。"
+    },
+    "matsuyama-ishiteji": {
+      "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/shi/ishiteji_komonjo.html",
+      "title": "松山市：石手寺古文書1切",
+      "locator": "解説2、河野晴通（六郎・通政・法雲寺殿）、1543没、1542保童院・地蔵院の寺務職安堵。原文書画像や翻刻全文は今回未確認。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "matsuyama-chronology": {
+      "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/rekishi/muromachi-azuchi.html",
+      "title": "松山市：室町時代から安土・桃山時代",
+      "locator": "1542二神弥五郎所領安堵、今岡・村上・岩城らへ命じ中島棚林城の大内勢撃退、通直と子晴通の和解を大友義鑑へ幕府が命令、1543善応寺寺務職承認・湯築城で没。後代の通直と区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "morioka-akizane": {
+      "url": "https://sitereports.nabunken.go.jp/files/attach/34/34875/64951_1_盛岡遺跡群.pdf",
+      "title": "盛岡市教育委員会（1999）：盛岡遺跡群 平成10年度発掘調査概報",
+      "locator": "紙面60頁（PDF63）、歴史的環境。1571高田康実が高水寺城主斯波詮真の女婿となったとされる。1588記事の棟札は志和孫詮直であり詮真に帰属させない。",
+      "kind": "excavation_report",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "公開PDF本文抽出と紙面60頁画像を照合。後世の婚姻伝承と棟札引用の人物を区別。"
+    },
+    "kiyosu-report": {
+      "url": "https://sitereports.nabunken.go.jp/files/attach/2/2306/1944_1_清洲城下町遺跡.pdf",
+      "title": "愛知県埋蔵文化財センター調査報告131（2005）：清洲城下町遺跡Ⅸ",
+      "locator": "紙面8頁（PDF15）。弘治元1555に信友が義統を殺害と記す。後続の清須会議・小牧長久手の年も要校訂で、この報告の年表示を単独確定値にしない。",
+      "kind": "excavation_report",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "公開PDF本文抽出を実読し紙面8頁画像でも1555の記載を照合。"
+    },
+    "kiyosu-dictionary": {
+      "url": "https://kotobank.jp/word/清洲城-53388",
+      "title": "平凡社百科事典マイペディアほか：清洲城",
+      "locator": "マイペディアは義統殺害1553、世界大百科旧版の言及も1553。日本大百科は1554に義統/義銀が城を追われたと記す。没年と信長入城年の混同を避ける。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "yoshimune-dictionary": {
+      "url": "https://kotobank.jp/word/斯波義統-1080625",
+      "title": "講談社デジタル版日本人名大辞典：斯波義統",
+      "locator": "1513生、義達の子、尾張守護・清洲在城、織田広信と対立し信長に内通、1554旧7/12に広信家臣に殺害。広信/信友の名の対応は本件で全検証していない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    }
+  },
+  "people": {
+    "438": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [],
+      "note": "義国・彦三郎の同一性は未照合。伊達の援助で反乱を鎮めた経過を確認。宿館/矢田川館は町教育委員会も文献なしとする居館伝承の候補のみ。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "大崎義直を町文化財資料と辞典で確認。",
+          "sourceIds": [
+            "osaki-dictionary",
+            "kami-miyazaki"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "義兼の子で義隆の前代。居館伝承と史料確認を分ける。",
+          "sourceIds": [
+            "osaki-dictionary",
+            "kami-miyazaki"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "義国・彦三郎と改名順は未確認。",
+          "sourceIds": [
+            "osaki-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "辞典も不詳。年齢から推定しない。",
+          "sourceIds": [
+            "osaki-dictionary"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "辞典に1577没。年単位の確認に限る。",
+          "sourceIds": [
+            "osaki-dictionary"
+          ],
+          "value": 1577
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "奥州探題、大崎地域の領主、家臣反乱鎮圧と伊達氏への従属を独自要約。",
+          "sourceIds": [
+            "osaki-dictionary",
+            "kami-miyazaki"
+          ]
+        }
+      ],
+      "biography": "陸奥の大崎地方を治め、奥州探題を務めた。1534年から家臣の反乱に苦しみ、伊達稙宗の援軍を得て1536年に鎮圧したが、その後は伊達氏に従う立場となった。戦国期の大崎氏の支配を担った当主。"
+    },
+    "480": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "修理亮"
+      ],
+      "note": "正本生1569に対し平凡社1567?、他辞典不詳。生年は確定しない。弟治房との混同、淀殿との関係の俗説を排除。1614下向予定の書状を実際の江戸訪問としない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "治長を辞典と県立図書館書状解説で確認。",
+          "sourceIds": [
+            "ono-dictionary",
+            "ono-letter-catalog"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "大蔵卿局の子、治房の兄。弟の戦闘や逸話を転記しない。",
+          "sourceIds": [
+            "ono-dictionary"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "修理亮は辞典で確認。治良・修理大夫との全対応は未確認。",
+          "sourceIds": [
+            "ono-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "正本1569に対し平凡社1567?。不詳とする辞典もあり原資料が必要。",
+          "sourceIds": [
+            "ono-dictionary"
+          ],
+          "candidateYears": [
+            1567,
+            1569
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1615大坂落城時に没。旧5/8の新暦換算は未実施。",
+          "sourceIds": [
+            "ono-dictionary"
+          ],
+          "value": 1615
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "豊臣家臣・結城流罪・関ヶ原東軍と帰参、且元退去後、大坂落城時の死を要約。",
+          "sourceIds": [
+            "ono-dictionary"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "結城配流と大坂での活動を区別。1614駿府/江戸下向は書状の予定まで。",
+          "sourceIds": [
+            "ono-dictionary",
+            "ono-letter-catalog"
+          ]
+        }
+      ],
+      "biography": "豊臣秀吉・秀頼に仕えた家臣。家康暗殺の疑いで結城へ流されたが、関ヶ原では東軍に加わり、のち豊臣家へ戻った。片桐且元が大坂を去ると政務を担い、大坂の陣の末に秀頼・淀殿とともに自害した。"
+    },
+    "609": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "家純",
+        "筧一直"
+      ],
+      "note": "城地は豊後国東郡富来であり高田・安岐に誤対応しない。参考人物欄の文禄2年（1594）と翌年入封を確定に使わず、講演本文の時期不明という留保を優先。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "垣見一直を研究者の講演本文で確認。",
+          "sourceIds": [
+            "kyubunken-nakano"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "富来の垣見と安岐の熊谷、高田の竹中を区別。大垣で死んだ本人を富来開城時の在城者にしない。",
+          "sourceIds": [
+            "kyubunken-nakano",
+            "kyubunken-reference"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "垣見（筧）一直（家純）という講演本文の対応を部分確認。家紀・弥五郎・和泉守・垣和泉の全照合未了。",
+          "sourceIds": [
+            "kyubunken-nakano"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "参考人物は生年不詳。",
+          "sourceIds": [
+            "kyubunken-reference"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "参考人物と同資料年表で1600没を確認。旧9/17の新暦換算は未実施。",
+          "sourceIds": [
+            "kyubunken-reference"
+          ],
+          "value": 1600
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "豊後富来・蔵入地代官・朝鮮の目付と伏見攻め、大垣での最期を独自要約。入封年は省く。",
+          "sourceIds": [
+            "kyubunken-nakano",
+            "kyubunken-reference"
+          ]
+        }
+      ],
+      "biography": "豊臣秀吉に仕え、豊後の富来を領した。豊臣家の直轄地を管理し、朝鮮出兵では戦況を報告する目付を務めた。関ヶ原の戦役では西軍として伏見城攻めに加わった後、大垣城に籠もり、内応した味方に殺された。"
+    },
+    "849": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "六郎",
+        "通政",
+        "法雲寺殿"
+      ],
+      "note": "松山市は通直の子・1543没とする。県史検索結果には系譜/没1544の異説候補があるが本文403のため、異説の根拠確認は未完。主表示名・正本値は維持。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "石手寺古文書解説と市年表で晴通を確認。",
+          "sourceIds": [
+            "matsuyama-ishiteji",
+            "matsuyama-chronology"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "市年表は通直の子。後代牛福丸通直と区別。県史の系譜異説の本文未取得につき父子関係の確定変更はしない。",
+          "sourceIds": [
+            "matsuyama-chronology"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "市古文書解説に六郎・通政・法雲寺殿。改名年月・原文書との全照合は未完。",
+          "sourceIds": [
+            "matsuyama-ishiteji"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "生年根拠なし。推定補完しない。",
+          "sourceIds": [
+            "matsuyama-ishiteji"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "partially_verified",
+          "result": "市の2ページは1543没。県史検索に1544の異説候補があるが本文未取得。原資料照合まで確定扱いにしない。",
+          "sourceIds": [
+            "matsuyama-ishiteji",
+            "matsuyama-chronology"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "二神氏所領と寺務職の承認、命令による大内勢撃退を要約。出生・没年・父子対立の解釈は略歴から省く。",
+          "sourceIds": [
+            "matsuyama-ishiteji",
+            "matsuyama-chronology"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "石手寺・善応寺への寺務職安堵と棚林城攻撃命令。いずれも本人訪問を意味しない。",
+          "sourceIds": [
+            "matsuyama-ishiteji",
+            "matsuyama-chronology"
+          ]
+        }
+      ],
+      "biography": "伊予の河野氏の一族。1542年に二神氏の所領や石手寺の寺務を認め、領内の支配を進めた。同年には今岡・村上・岩城らに命じて中島の棚林城で大内氏の軍を退け、翌年には善応寺の寺務職も承認した。"
+    },
+    "1031": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [],
+      "note": "高水寺城主と婚姻伝承の本人記載は確認したが、個人の事績の根拠が不足するため略歴案なし。1588志和孫詮直の棟札を詮真へ付け替えない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "市教育委員会報告書で斯波詮真の名を確認。",
+          "sourceIds": [
+            "morioka-akizane"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "高水寺城主詮真と1588棟札の詮直を分離。系譜の原資料は未読。",
+          "sourceIds": [
+            "morioka-akizane"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "孫三郎は未確認。孫詮直から自動推定しない。",
+          "sourceIds": [
+            "morioka-akizane"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "生年根拠未取得。",
+          "sourceIds": [
+            "morioka-akizane"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "unverified",
+          "result": "没年根拠未取得。",
+          "sourceIds": [
+            "morioka-akizane"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "partially_verified",
+          "result": "高水寺城主、高田康実を女婿としたとの伝承まで。個人の政策・合戦の帰属不足で独自略歴は保留。",
+          "sourceIds": [
+            "morioka-akizane"
+          ]
+        }
+      ],
+      "biography": null
+    },
+    "1037": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [],
+      "note": "講談社の1554没、平凡社の1553没、発掘報告の1555没を資料の記載差として保存。信長入城年との混同/誤記の可能性を含み、等価に確立した学説とは扱わない。義銀の追放を父義統の事績としない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "尾張守護斯波義統を辞典・発掘報告で確認。",
+          "sourceIds": [
+            "yoshimune-dictionary",
+            "kiyosu-report"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "義達の子・清洲在城。子義銀の追放は別事件。相手の広信/信友表記の文書対応は追加照合。",
+          "sourceIds": [
+            "yoshimune-dictionary",
+            "kiyosu-dictionary"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "義元および官途の改名対応は未確認。",
+          "sourceIds": [
+            "yoshimune-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "講談社辞典に永正10年1513生。辞典記載の年単位確認で系譜原本は未実見。",
+          "sourceIds": [
+            "yoshimune-dictionary"
+          ],
+          "value": 1513
+        },
+        {
+          "field": "death",
+          "status": "disputed",
+          "result": "講談社1554旧7/12、平凡社1553、発掘報告1555。誤記/別事件年の可能性を含む記載差で未解決。",
+          "sourceIds": [
+            "yoshimune-dictionary",
+            "kiyosu-dictionary",
+            "kiyosu-report"
+          ],
+          "candidateYears": [
+            1553,
+            1554,
+            1555
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "尾張守護・清洲を拠点、守護代と対立、信長への接近と殺害を要約。没年は省く。",
+          "sourceIds": [
+            "yoshimune-dictionary",
+            "kiyosu-report"
+          ]
+        }
+      ],
+      "biography": "父義達の後を継いで尾張守護となり、清洲城を拠点とした。実権を握る守護代の織田氏と対立し、織田信長と結んで勢力の回復を図ったが、守護代側に殺害された。その死は清洲をめぐる織田氏の争いの転機となった。"
+    }
+  },
+  "attempts": [],
+  "retrievalNotes": [
+    "高知大学・津野倫明2010「軍目付垣見一直と長宗我部元親」https://kochi.repo.nii.ac.jp/records/6580 は429/503で本文未取得。書誌や検索結果を本文確認数へ加えていない。次回の優先読解先。",
+    "愛媛県史人物編 https://www.i-manabi.jp/system/regionals/regionals/ecode%3A2/57/view/7503 は403。検索では河野晴通の系譜差と高野山上蔵院過去帳1544没の候補を検出したが本文未確認。原資料確認済みの異説には数えない。",
+    "斯波詮真の奥南落穂集・奥州斯波系図などは次回の照合候補。孫三郎、詮高/経詮/詮元との対応は本報告では確認していない。",
+    "国立歴史民俗博物館の洛中洛外図人物DBは503、斯波義統1513という検索記載は確認根拠から除外。出生年は実読した講談社辞典に限定。",
+    "奈文研PDFはWeb取得の容量制限・一部429/タイムアウトがあり、公開PDFを取得して本文と画像を読んだ。画像・原文の再配布は行わない。",
+    "全資料の個別転載条件は今回未確認。史実の独自要約のみ。大野の予定書状、河野の命令宛所、居館の伝承を本人の確実な訪問へ昇格しない。"
+  ]
+}

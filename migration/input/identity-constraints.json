@@ -1,0 +1,17 @@
+{
+  "distinctPairs": [
+    {
+      "rosterIds": [
+        "1046",
+        "1053"
+      ],
+      "names": [
+        "島津家久（義弘の弟）",
+        "島津忠恒（後に家久）"
+      ],
+      "status": "distinction_supported_by_research_institution",
+      "source": "https://www.hi.u-tokyo.ac.jp/publication/syoho/51/pub_komonjo-iewake-16-05.html",
+      "note": "Shared alias 家久 must never automatically merge these two people."
+    }
+  ]
+}

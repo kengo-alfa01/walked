@@ -1,0 +1,529 @@
+{
+  "round": "20261029-03",
+  "reviewedOn": "2026-10-29",
+  "scope": "採用624人の項目別精査。9人の本文確認・再照合、うち新規本文6人。未承認の修正候補。人物調査で得た場所を同時抽出。",
+  "sources": {
+    "fukui-hori": {
+      "url": "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-02.htm",
+      "title": "福井県史 通史編3：丹羽長重の若狭転封後の越前",
+      "locator": "第1章第3節1。長秀の死、1585佐和山から北庄への堀秀政入部、与力を含む領知高、1590秀治継承。引用原史料そのものは未読。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "fukui-chronology": {
+      "url": "https://www.library-archives.pref.fukui.lg.jp/fukui/07/nenpyo/rekishi/chrn25.html",
+      "title": "福井県史年表 1581～1600年",
+      "locator": "1589年10月2日赤座吉家と大桐村／1590年5月27日堀秀政没。月日は和暦欄、グレゴリオ暦月日と扱わない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "hori-library": {
+      "url": "https://www.library.pref.ishikawa.lg.jp/shosho/furucolle/list/prsn11196",
+      "title": "石川県立図書館 SHOSHO：堀秀政 人物詳細",
+      "locator": "人物項目の生没年1553～1590・織田家臣。列挙される県史・市史の紙面は未読。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "akaza-house": {
+      "url": "https://kotobank.jp/word/赤座氏館跡-3056249",
+      "title": "平凡社 日本歴史地名大系：赤座氏館跡",
+      "locator": "吉家の居館と今庄駅構内への比定。直保との同一性を説明する記述はない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "oda-house": {
+      "url": "https://kotobank.jp/word/織田信勝館跡-3078542",
+      "title": "平凡社 日本歴史地名大系：織田信勝館跡",
+      "locator": "前期柏原藩3代・信包の孫、1630就任、1650没、入船山東麓の館。建築年代不詳。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "iwaki": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1001000004062/simple/iwaki-history.pdf",
+      "title": "いわき市：地形・歴史（歴史解説）",
+      "locator": "PDF7頁（印刷8頁）の世代順・1590年常隆没、PDF8頁（印刷9頁、画像も確認）の久保姫と岩城親隆。1483年転居の親隆は別世代。マンガ由来の襲撃逸話は採らない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "akashi-name": {
+      "url": "https://kotobank.jp/word/明石全登-1048797",
+      "title": "講談社 デジタル版日本人名大辞典+Plus：明石全登",
+      "locator": "明石掃部への参照項目。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "akashi": {
+      "url": "https://kotobank.jp/word/明石掃部-1048783",
+      "title": "平凡社 世界大百科事典・講談社 日本人名大辞典+Plus：明石掃部",
+      "locator": "両辞典本文の宇喜多仕官、関ヶ原後秋月、大坂の陣、守重・全登・全薑・ジョアン、死亡説。両辞典は同一ページ内であり別サイト2件とは数えない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "yanagawa": {
+      "url": "https://www.city.yanagawa.fukuoka.jp/rekishibunka/ijin/ijin_tachibanamuneshige.html",
+      "title": "柳川市・柳川古文書館：立花宗茂と吉政",
+      "locator": "田中吉政の本文3段落。宮部・秀次仕官、岡崎、関ヶ原、翌年柳川入城、道路・堤防・城改修、慶長14年伏見没。墓所記述は抽出対象外。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "yanagawa-pdf": {
+      "url": "https://www.city.yanagawa.fukuoka.jp/library/download/02kanko/covid19/syuugaku2021.pdf",
+      "title": "柳川市：水郷柳川 修学旅行誘致情報 令和3年度",
+      "locator": "PDF22頁（印刷21頁）田中吉政。画像確認。1548年、柳川水路・田中道・慶長本土居。PDF18頁の1612年本土居線を1609没の吉政個人の完成年にしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "kakegawa": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/7422.html",
+      "title": "掛川市：一豊、掛川城および城下町を整備する",
+      "locator": "1590入城、城郭・城下町改修、天守1592から約5年間。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "kakegawa-years": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/7425.html",
+      "title": "掛川市：一豊と千代が生きた時代",
+      "locator": "1545出生（異説あり）、1584長浜・1585高浜と長浜、1590掛川、1600関ヶ原と土佐授与、1601入国、1605没。黄金十両・密書等の逸話は採らない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "kochi": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/90/cas-state-1600200.html",
+      "title": "高知市：文化財情報 史跡 高知城跡",
+      "locator": "解説第2段落：1601着工、1603本丸二ノ丸と浦戸から移転。1611三ノ丸完成を一豊存命中の事績としない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    },
+    "kochi-person": {
+      "url": "https://kochipark.jp/kochijyo/katsutoyo/",
+      "title": "高知城管理事務所：山内一豊",
+      "locator": "1545出生、秀吉配下、1585長浜・1590掛川・1600土佐授与、1601甲浦上陸と浦戸入城。父の死の異説、康豊の鎮圧行動は一豊の直接行動に転記しない。",
+      "kind": "public_site_management",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "事実を参照して独自に要約。原文・画像・データセットの転載なし。"
+    }
+  },
+  "people": {
+    "18": {
+      "bodyForSelectedPerson": true,
+      "biography": null,
+      "verifiedAliases": [],
+      "note": "吉家名義の領地経営を追加確認。関ヶ原の赤座直保と同一人物かは引き続き未確認。居館を吉家へ仮対応する候補に限定し、没年1606を新たに確定しない。",
+      "claims": [
+        {
+          "field": "biography",
+          "status": "partially_verified",
+          "result": "1589年、南条郡大桐村の灰焼き営業を許認可した吉家の記事。今庄には吉家の居館が比定される。",
+          "sourceIds": [
+            "fukui-chronology",
+            "akaza-house"
+          ]
+        }
+      ]
+    },
+    "542": {
+      "bodyForSelectedPerson": true,
+      "biography": null,
+      "verifiedAliases": [],
+      "note": "現マスターの1623～1650の人物に対応する前期柏原藩主の館を条件付き候補とした。信長の弟・別人の信勝との選定意図は未解決。主表示名・採否・IDは維持。後期柏原藩の陣屋との自動統合禁止。",
+      "claims": [
+        {
+          "field": "identity",
+          "status": "requires_correction",
+          "result": "信包の孫で1630年就任の前期柏原3代信勝。採用したかった人物との一致はユーザー判断待ち。",
+          "sourceIds": [
+            "oda-house"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "partially_verified",
+          "result": "柏原の入船山東麓に館跡が比定されるが、創建年・入居年は未確認。",
+          "sourceIds": [
+            "oda-house"
+          ]
+        }
+      ]
+    },
+    "311": {
+      "bodyForSelectedPerson": true,
+      "biography": null,
+      "verifiedAliases": [
+        "鶴千代丸"
+      ],
+      "note": "市解説の伊達晴宗・久保姫の長男が対象世代。1483年の白土城→飯野平城移転は同名の別世代で本IDに付けない。生没年と病状・隠居時期は未確認。図解の逸話を裏付けとせず略歴改稿は保留。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "岩城親隆の人物説明を確認。",
+          "sourceIds": [
+            "iwaki"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "晴宗と久保姫の子が重隆の養子となり岩城氏を継ぐ世代。中世前期の同名者と区別。",
+          "sourceIds": [
+            "iwaki"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "幼名鶴千代丸から親隆への改名を記す。全別名は未照合。",
+          "sourceIds": [
+            "iwaki"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "partially_verified",
+          "result": "岩城重隆への入嗣と家督継承を確認。具体的合戦・病気原因は未確定。",
+          "sourceIds": [
+            "iwaki"
+          ]
+        }
+      ]
+    },
+    "312": {
+      "bodyForSelectedPerson": true,
+      "biography": null,
+      "verifiedAliases": [],
+      "note": "市解説の左京大夫常隆は重隆・親隆の後の世代。先行する下総守常隆を統合しない。1590年没は確認したが、24歳から生年1567を逆算して確定しない。事績の材料不足で略歴改稿保留。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "後代の岩城常隆の名を確認。",
+          "sourceIds": [
+            "iwaki"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "市の世代順に重隆→親隆→常隆。前代の同名常隆と区別。",
+          "sourceIds": [
+            "iwaki"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1590年（天正18）の病没を年表で確認。日付未確認。",
+          "sourceIds": [
+            "iwaki"
+          ],
+          "value": 1590
+        },
+        {
+          "field": "biography",
+          "status": "partially_verified",
+          "result": "常隆没後に佐竹義重の子能化丸が嗣子となる継承経緯を確認。",
+          "sourceIds": [
+            "iwaki"
+          ]
+        }
+      ]
+    },
+    "20": {
+      "bodyForSelectedPerson": true,
+      "biography": "宇喜多秀家に仕えたキリシタン武将。関ヶ原では西軍に属し、敗戦後は筑前秋月で暮らした。大坂の陣では豊臣秀頼のもとに加わった。落城時に戦死したとも、逃れて後に病没したともいわれる。",
+      "verifiedAliases": [
+        "明石掃部",
+        "守重",
+        "全薑",
+        "ジョアン"
+      ],
+      "note": "辞典本文へ到達したため探索のみ状態を更新。公的・原史料の追加照合は未了。生年不詳、没年は1615戦死説と1618病没説を併記。号の読みは資料間の精査を継続。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "全登項目から明石掃部へ参照される。",
+          "sourceIds": [
+            "akashi-name"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "宇喜多秀家家臣の掃部と全登を対応。異表記すべての史料照合は未了。",
+          "sourceIds": [
+            "akashi-name",
+            "akashi"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "辞典は守重、掃部、号全登・全薑、洗礼名ジョアンを記す。",
+          "sourceIds": [
+            "akashi"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "両辞典は生没年不詳とし、出生年は確定できない。",
+          "sourceIds": [
+            "akashi"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "disputed",
+          "result": "1615年大坂落城時死亡説と、逃亡後元和4年（1618）病没説。既存1618推定を消さず候補を追加。",
+          "sourceIds": [
+            "akashi"
+          ],
+          "candidateYears": [
+            1615,
+            1618
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "宇喜多仕官、関ヶ原西軍、敗戦後の秋月滞在、大坂で秀頼方として参戦。最期は断定しない。",
+          "sourceIds": [
+            "akashi"
+          ]
+        }
+      ]
+    },
+    "1280": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣秀次の宿老を務め、三河岡崎城主となった大名。関ヶ原では東軍で戦い、戦後に筑後を与えられて柳川城へ移った。城の改修や水路、久留米と柳川を結ぶ道、干拓堤防を整え、領内の基盤を築いた。",
+      "verifiedAliases": [],
+      "note": "近江八幡・尾張の秀次留守支配と、吉政自身の居城経路を区別。慶長本土居は父子の事業範囲・工期の追加照合が必要。墓所・菩提寺は重複抽出しない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "柳川市の田中吉政項目を確認。",
+          "sourceIds": [
+            "yanagawa"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "宮部継潤家臣から秀次宿老となり岡崎・柳川を治めた吉政。子忠政の事績と区別。",
+          "sourceIds": [
+            "yanagawa"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "市刊行物の1548年表記を確認。日付・出生地の独立調査はなし。",
+          "sourceIds": [
+            "yanagawa-pdf"
+          ],
+          "value": 1548
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "慶長14年（1609）、江戸へ向かう途中に伏見で没。年単位のみ。",
+          "sourceIds": [
+            "yanagawa"
+          ],
+          "value": 1609
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "秀次宿老・岡崎城主、関ヶ原東軍、筑後拝領と柳川入城、道路・水路・堤防整備。",
+          "sourceIds": [
+            "yanagawa",
+            "yanagawa-pdf"
+          ]
+        }
+      ]
+    },
+    "1582": {
+      "bodyForSelectedPerson": true,
+      "biography": null,
+      "verifiedAliases": [],
+      "note": "前回の没年1585は辞典のみだったが、今回福井県史本文で照合。生没年両年確認に進める。既存略歴の変更不要判定を維持し、新規改稿数には含めない。",
+      "claims": [
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "天正13年（1585）4月16日の死亡を県史本文で確認。旧暦月日を新暦へ換算してはいない。",
+          "sourceIds": [
+            "fukui-hori"
+          ],
+          "value": 1585
+        }
+      ]
+    },
+    "1792": {
+      "bodyForSelectedPerson": true,
+      "biography": "織田家に仕え、豊臣政権のもとで近江佐和山から越前北ノ庄へ移った大名。越前の足羽・坂井・吉田郡などを領し、家臣に所領を配って支配を進めた。1590年に没し、子の秀治が家を継いだ。",
+      "verifiedAliases": [],
+      "note": "県史の29万0800石には与力10万石が含まれるため、個人領知高として断定しない。出生年は県立図書館人物項目、没年は県史でも照合。別名・小田原での最期の地点は未確認。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "堀秀政の公的本文と人物項目を確認。",
+          "sourceIds": [
+            "fukui-hori",
+            "hori-library"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "秀政と1590年に家を継ぐ子秀治を区別。",
+          "sourceIds": [
+            "fukui-hori"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "県立図書館人物項目が1553年を記す。関連書誌の原著本文確認ではない。",
+          "sourceIds": [
+            "hori-library"
+          ],
+          "value": 1553
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "県史の天正18年5月・年表の1590年欄で没年を照合。",
+          "sourceIds": [
+            "fukui-hori",
+            "fukui-chronology",
+            "hori-library"
+          ],
+          "value": 1590
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "織田家臣。豊臣政権下1585年に佐和山から北庄へ入り家臣に所領を配分。1590年没後秀治継承。",
+          "sourceIds": [
+            "fukui-hori",
+            "hori-library"
+          ]
+        }
+      ]
+    },
+    "2082": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣秀吉に仕え、長浜を経て掛川城主となり、城と城下町を整備した。関ヶ原では徳川家康方に属し、戦後に土佐を与えられた。浦戸城を仮の拠点として高知城の建設を進め、1603年に移った。",
+      "verifiedAliases": [],
+      "note": "生年1545説は自治体・高知城解説にあるが、正本1546候補と異説注記を保持。土佐授与1600・浦戸入城1601・高知移転1603を分離。1611三ノ丸完成を一豊個人の生前事績にしない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "山内一豊の自治体・城管理者の本文を確認。",
+          "sourceIds": [
+            "kakegawa",
+            "kochi-person"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "土佐初代一豊と、入国準備を担った弟康豊・後継世代を区別。",
+          "sourceIds": [
+            "kochi-person"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "高知城本文1545年。掛川市も1545年とするが異説ありの注記。正本1545/1546の候補を保持、1546説の根拠は未確認。",
+          "sourceIds": [
+            "kakegawa-years",
+            "kochi-person"
+          ],
+          "candidateYears": [
+            1545
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "掛川市年表1605年没を確認。享年の異説と没年を分ける。",
+          "sourceIds": [
+            "kakegawa-years"
+          ],
+          "value": 1605
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "秀吉配下から長浜・掛川城主、関ヶ原徳川方で土佐拝領。浦戸を経て高知へ移転し築城。",
+          "sourceIds": [
+            "kakegawa",
+            "kochi",
+            "kochi-person"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1584長浜、1585高浜と長浜、1590小田原参戦・掛川入城、1600関ヶ原、1601甲浦上陸・浦戸入城、1603高知移転。年表と城郭解説を照合。",
+          "sourceIds": [
+            "kakegawa-years",
+            "kakegawa",
+            "kochi",
+            "kochi-person"
+          ]
+        }
+      ]
+    }
+  },
+  "attempts": []
+}

@@ -1,0 +1,150 @@
+{
+  "round": "20261029-05",
+  "newEvents": 26,
+  "newCandidates": 17,
+  "existingEventChanges": [
+    {
+      "eventId": "life-1370-002",
+      "before": {
+        "eventId": "life-1370-002",
+        "personId": "sg-e64d13aedffc",
+        "rosterId": "1370",
+        "personName": "藤堂高虎",
+        "candidateId": "plc-uwajima-castle",
+        "dateLabel": "1595年",
+        "yearStart": 1595,
+        "yearEnd": 1595,
+        "datePrecision": "year",
+        "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+        "event": "宇和郡を領し本城とする。",
+        "relationTypes": [
+          "本拠地"
+        ],
+        "sourceRefs": [
+          "20261029-04:uwajima"
+        ],
+        "sourceLocator": "1595領主・1596着工・1601完成の段落。",
+        "relationStatus": "verified",
+        "sourceBodyStatus": "body_read",
+        "dateStatus": "verified_year",
+        "checkedOn": "2026-10-29",
+        "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+        "approvalStatus": "pending_user_review",
+        "previousMainBaseCandidateId": "plc-kokawa-residence",
+        "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。"
+      },
+      "after": {
+        "eventId": "life-1370-002",
+        "personId": "sg-e64d13aedffc",
+        "rosterId": "1370",
+        "personName": "藤堂高虎",
+        "candidateId": "plc-uwajima-castle",
+        "dateLabel": "1595年",
+        "yearStart": 1595,
+        "yearEnd": 1595,
+        "datePrecision": "year",
+        "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+        "event": "宇和郡を領し本城とする。",
+        "relationTypes": [
+          "本拠地"
+        ],
+        "sourceRefs": [
+          "20261029-04:uwajima"
+        ],
+        "sourceLocator": "1595領主・1596着工・1601完成の段落。",
+        "relationStatus": "verified",
+        "sourceBodyStatus": "body_read",
+        "dateStatus": "verified_year",
+        "checkedOn": "2026-10-29",
+        "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+        "approvalStatus": "pending_user_review",
+        "previousMainBaseCandidateId": "plc-kokawa-residence",
+        "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。 第5回の大洲資料は板島に城代を置き大洲を居城としたと記す。本城の位置づけを本人の連続居住と同一視しない。"
+      },
+      "reason": "大洲居城の追加資料により経路の省略と本城・居住の区別を補足。元イベントID・旧出典は保持。"
+    },
+    {
+      "eventId": "life-1370-003",
+      "before": {
+        "eventId": "life-1370-003",
+        "personId": "sg-e64d13aedffc",
+        "rosterId": "1370",
+        "personName": "藤堂高虎",
+        "candidateId": "plc-imabari-castle",
+        "dateLabel": "具体年未確認",
+        "yearStart": null,
+        "yearEnd": null,
+        "datePrecision": "unknown",
+        "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+        "event": "今治を居城とする。",
+        "relationTypes": [
+          "居城"
+        ],
+        "sourceRefs": [
+          "20261029-04:uwajima",
+          "20261029-04:imabari"
+        ],
+        "sourceLocator": "1595領主・1596着工・1601完成の段落。／解説と年表。1602起工・1604土木完成・1608頃建物完成推測、末尾の無断転載禁止表示。",
+        "relationStatus": "verified",
+        "sourceBodyStatus": "body_read",
+        "dateStatus": "requires_review",
+        "checkedOn": "2026-10-29",
+        "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+        "approvalStatus": "pending_user_review",
+        "previousMainBaseCandidateId": "plc-uwajima-castle",
+        "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。"
+      },
+      "after": {
+        "eventId": "life-1370-003",
+        "personId": "sg-e64d13aedffc",
+        "rosterId": "1370",
+        "personName": "藤堂高虎",
+        "candidateId": "plc-imabari-castle",
+        "dateLabel": "具体年未確認",
+        "yearStart": null,
+        "yearEnd": null,
+        "datePrecision": "unknown",
+        "calendarBasis": "資料の西暦対応年。旧暦月日の独立換算なし。",
+        "event": "今治を居城とする。",
+        "relationTypes": [
+          "居城"
+        ],
+        "sourceRefs": [
+          "20261029-04:uwajima",
+          "20261029-04:imabari"
+        ],
+        "sourceLocator": "1595領主・1596着工・1601完成の段落。／解説と年表。1602起工・1604土木完成・1608頃建物完成推測、末尾の無断転載禁止表示。",
+        "relationStatus": "verified",
+        "sourceBodyStatus": "body_read",
+        "dateStatus": "requires_review",
+        "checkedOn": "2026-10-29",
+        "reuseStatus": "個別条件未確認・事実の独自要約のみ",
+        "approvalStatus": "pending_user_review",
+        "previousMainBaseCandidateId": "plc-ozu-castle",
+        "unresolved": "今治の具体的入居年は未確認。途中の滞在は未網羅。 第5回で大洲居城を補足。大洲・宇和島・今治の実際の居住時期や往復は未確定。"
+      },
+      "reason": "大洲居城の追加資料により経路の省略と本城・居住の区別を補足。元イベントID・旧出典は保持。"
+    }
+  ],
+  "previousResidenceSequence1370": {
+    "rosterId": "1370",
+    "personId": "sg-e64d13aedffc",
+    "personName": "藤堂高虎",
+    "candidateIds": [
+      "plc-kokawa-residence",
+      "plc-uwajima-castle",
+      "plc-imabari-castle",
+      "plc-iga-ueno-castle",
+      "plc-tsu-castle"
+    ],
+    "eventIds": [
+      "life-1370-001",
+      "life-1370-002",
+      "life-1370-003",
+      "life-1370-004",
+      "life-1370-005"
+    ],
+    "note": "粉河→宇和島→今治（入居年不明）→1608年9月上野→同10月津。入城は旧暦月の相対順序。",
+    "completeness": "partial_not_exhaustive"
+  }
+}

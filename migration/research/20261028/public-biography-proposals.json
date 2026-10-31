@@ -1,0 +1,871 @@
+{
+  "scope": "Independent biography proposals from public historical sources only; no master raw rows or private document URLs. Not production data.",
+  "proposalCount": 29,
+  "people": [
+    {
+      "rosterId": "1749",
+      "name": "北条氏照",
+      "proposal": "北条氏康の子で、多摩を治めた滝山・八王子城主。北関東でも軍事を担い、古河公方との交渉役を務めた。小田原合戦では小田原城に籠城し、開城後に自害を命じられた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "滝山・八王子拠点、多摩支配、北関東軍事、古河公方取次、小田原籠城と自害命令",
+          "sourceIds": [
+            "ujiteru",
+            "tama"
+          ]
+        }
+      ],
+      "sources": {
+        "ujiteru": {
+          "url": "https://ch.kanagawa-museum.jp/dm/gohojyo/relation/d_houjyo_07.html",
+          "title": "神奈川県立歴史博物館：北条氏照",
+          "locator": "見出しおよび人物解説",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        },
+        "tama": {
+          "url": "https://adeac.jp/lib-city-tama/texthtml/d100010/mp000010-100010/ht051200",
+          "title": "多摩市史 通史編1：北条氏照",
+          "locator": "756〜761頁相当、冒頭段落",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1756",
+      "name": "北条早雲",
+      "proposal": "小田原北条氏の祖で、実名は伊勢盛時、出家後は宗瑞と称した。幕府に仕えた後、今川氏親を助けて東国へ進出。韮山を拠点に伊豆・相模へ領域を広げ、戦国大名としての基盤を築いた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "幕府奉仕、今川氏親支援、韮山本拠、伊豆・相模支配",
+          "sourceIds": [
+            "hojo2021"
+          ]
+        }
+      ],
+      "sources": {
+        "hojo2021": {
+          "url": "https://ch.kanagawa-museum.jp/souun-ji/plus.html",
+          "title": "神奈川県立歴史博物館：早雲寺＋",
+          "locator": "第5回〜第8回の各人物見出し。閲覧ツールが返した本文を確認。サイトの一部に公開停止への転送あり。",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1748",
+      "name": "北条氏綱",
+      "proposal": "伊勢宗瑞の跡を継いだ小田原北条氏二代当主。伊勢から北条へ姓を改め、江戸城や川越城を攻略して武蔵へ進出した。国府台でも足利・里見方を破り、関東での支配を広げた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "1523年改姓、江戸・川越攻略、1538年国府台合戦",
+          "sourceIds": [
+            "ujitsuna"
+          ]
+        }
+      ],
+      "sources": {
+        "ujitsuna": {
+          "url": "https://ch.kanagawa-museum.jp/dm/gohojyo/relation/d_houjyo_02.html",
+          "title": "神奈川県立歴史博物館：北条氏綱",
+          "locator": "見出し・改姓と江戸城／川越城攻略の段落",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1753",
+      "name": "北条氏政",
+      "proposal": "父氏康を継いだ小田原北条氏四代当主。関東で領国を広げる一方、武田氏との対立後は織田信長との関係を求めた。家督を氏直に譲った後も政務に関わり、小田原合戦後に自害した。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "家督継承、武田との悪化、織田との婚姻交渉、隠居、小田原合戦後の切腹",
+          "sourceIds": [
+            "ujimasa",
+            "hojo2021"
+          ]
+        }
+      ],
+      "sources": {
+        "ujimasa": {
+          "url": "https://ch.kanagawa-museum.jp/dm/gohojyo/relation/d_houjyo_04.html",
+          "title": "神奈川県立歴史博物館：北条氏政",
+          "locator": "見出し・家督継承と隠居の段落",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        },
+        "hojo2021": {
+          "url": "https://ch.kanagawa-museum.jp/souun-ji/plus.html",
+          "title": "神奈川県立歴史博物館：早雲寺＋",
+          "locator": "第5回〜第8回の各人物見出し。閲覧ツールが返した本文を確認。サイトの一部に公開停止への転送あり。",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1750",
+      "name": "北条氏直",
+      "proposal": "小田原北条氏の五代当主。父氏政の後見を受け、徳川家康の娘を妻に迎えた。豊臣秀吉の小田原攻めで降伏し高野山へ送られたが、翌年に赦免され、秀吉に仕えた後に没した。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "家督継承、家康娘との婚姻、小田原降伏、高野山配流、翌年赦免",
+          "sourceIds": [
+            "hojo2021"
+          ]
+        }
+      ],
+      "sources": {
+        "hojo2021": {
+          "url": "https://ch.kanagawa-museum.jp/souun-ji/plus.html",
+          "title": "神奈川県立歴史博物館：早雲寺＋",
+          "locator": "第5回〜第8回の各人物見出し。閲覧ツールが返した本文を確認。サイトの一部に公開停止への転送あり。",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1755",
+      "name": "北条幻庵",
+      "proposal": "伊勢宗瑞の子で、長綱・宗哲とも称した北条氏の長老。箱根権現と深く関わり、小田原の久野を本拠に歴代当主を支えた。嫁ぐ一族の女性へ心得を書き送り、武家の作法にも通じていた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "箱根権現、久野本拠、歴代当主の補佐、女性への心得書",
+          "sourceIds": [
+            "hojo2021"
+          ]
+        }
+      ],
+      "sources": {
+        "hojo2021": {
+          "url": "https://ch.kanagawa-museum.jp/souun-ji/plus.html",
+          "title": "神奈川県立歴史博物館：早雲寺＋",
+          "locator": "第5回〜第8回の各人物見出し。閲覧ツールが返した本文を確認。サイトの一部に公開停止への転送あり。",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1758",
+      "name": "北条綱成",
+      "proposal": "北条氏綱の娘婿となった武将で、玉縄城を治め、河越城主も兼ねた。北条氏の軍事を担う一方、江の島の保護にも関わり、岩屋の鳩を捕らえて殺すことを禁じるなど、信仰の場を守った。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "氏綱娘婿・玉縄と河越城主は辞典、江の島の保護は市文書館",
+          "sourceIds": [
+            "tsunashige",
+            "enoshima"
+          ]
+        }
+      ],
+      "sources": {
+        "tsunashige": {
+          "url": "https://kotobank.jp/word/北条綱成-1107585",
+          "title": "講談社 デジタル版日本人名大辞典+Plus：北条綱成",
+          "locator": "人物項目",
+          "kind": "historical_dictionary",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        },
+        "enoshima": {
+          "url": "https://digital.city.fujisawa.kanagawa.jp/digital/exhibition/digital.php?id=18",
+          "title": "藤沢市文書館：祈念の島",
+          "locator": "北条家～保護と寄進と戦勝祈念～",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1751",
+      "name": "北条氏規",
+      "proposal": "北条氏康の子で、三崎城を拠点に三浦を治め、西方との外交や韮山城の守備を担った。小田原合戦後は高野山へ送られたが、のちに赦されて河内に所領を得、北条家の存続を支えた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "三浦支配・外交・韮山籠城・高野山配流・河内領有",
+          "sourceIds": [
+            "ujinori"
+          ]
+        }
+      ],
+      "sources": {
+        "ujinori": {
+          "url": "https://ch.kanagawa-museum.jp/dm/gohojyo/relation/d_houjyo_08.html",
+          "title": "神奈川県立歴史博物館：北条氏規",
+          "locator": "見出し・三崎／韮山／狭山の段落",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1744",
+      "name": "北条氏邦",
+      "proposal": "北条氏の北武蔵支配を担った鉢形城主。荒川と深沢川に囲まれた城を大きく改修し、領国の防衛拠点に整えた。1590年の小田原攻めでは籠城し、兵の安全を条件に城を明け渡した。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "鉢形城の拡張、1590年籠城と助命条件での開城",
+          "sourceIds": [
+            "hachigata"
+          ]
+        }
+      ],
+      "sources": {
+        "hachigata": {
+          "url": "https://www.town.yorii.saitama.jp/map/hacigatajoumeisho-map.html",
+          "title": "寄居町：鉢形城跡",
+          "locator": "内容説明（氏邦の改修・1590年開城）",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1234",
+      "name": "武田勝頼",
+      "proposal": "甲斐武田氏を率い、徳川方の高天神城などを攻略した大名。1575年には長篠城を包囲したが、織田・徳川連合軍に敗れた。その後も徳川氏との攻防を続け、1582年に天目山で自害した。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "1574年高天神攻略、1575年長篠包囲と敗戦、1582年自害",
+          "sourceIds": [
+            "nagashino"
+          ]
+        }
+      ],
+      "sources": {
+        "nagashino": {
+          "url": "https://www.archives.go.jp/exhibition/digital/ieyasu/contents1_06/",
+          "title": "国立公文書館：長篠の戦い",
+          "locator": "冒頭2段落。軍記の鉄砲三段撃ち等は採用しない",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "一部確認：サイト方針の出所明示・内容不改変条件を確認。画像等の個別権利と商用公開全体の判断は未了。",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。",
+          "termsSourceId": "archivesPolicy"
+        }
+      }
+    },
+    {
+      "rosterId": "1242",
+      "name": "武田信虎",
+      "proposal": "甲斐の守護で、武田信玄の父。1519年に躑躅ヶ崎館を築き、信玄・勝頼へと続く武田氏の本拠を整えた。晩年は信濃の高遠で没し、自ら創建した甲府の大泉寺に葬られたとされる。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "1519年館築造、武田三代の本拠、信濃高遠で死去、大泉寺の葬地伝承",
+          "sourceIds": [
+            "takedaResidence",
+            "nobutoraGrave"
+          ]
+        }
+      ],
+      "sources": {
+        "takedaResidence": {
+          "url": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html",
+          "title": "山梨県文化財ガイド：武田氏館跡",
+          "locator": "SB0003解説",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        },
+        "nobutoraGrave": {
+          "url": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0004.html",
+          "title": "山梨県文化財ガイド：武田信虎の墓",
+          "locator": "SC0004解説",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "65",
+      "name": "浅野長政",
+      "proposal": "豊臣秀吉のもとで検地などの政務を担い、五奉行の一人となった大名。長吉とも名乗った。甲斐を治め、所領や年貢の把握を進めた。関ヶ原の戦いでは徳川方に属した。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "検地・五奉行・甲斐領有・関ヶ原東軍",
+          "sourceIds": [
+            "asanoLetter",
+            "asanoDates"
+          ]
+        }
+      ],
+      "sources": {
+        "asanoLetter": {
+          "url": "https://online.bunka.go.jp/heritages/detail/537949",
+          "title": "文化遺産オンライン／東京国立博物館：浅野長政黒印状",
+          "locator": "解説（長吉・検地・五奉行）",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        },
+        "asanoDates": {
+          "url": "https://kotobank.jp/word/浅野長政-14529",
+          "title": "コトバンク：浅野長政",
+          "locator": "デジタル大辞泉／精選版日本国語大辞典",
+          "kind": "historical_dictionary",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1395",
+      "name": "徳川秀忠",
+      "proposal": "徳川家康の三男で江戸幕府二代将軍。1605年に将軍職を継ぎ、家康とともに大坂の陣に臨んだ。大名や朝廷・寺社の統制を進め、家光へ将軍職を譲った後も大御所として政務を担った。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "将軍就任、両大坂の陣、統制政策、家光への譲職後の政務",
+          "sourceIds": [
+            "hidetadaDict"
+          ]
+        }
+      ],
+      "sources": {
+        "hidetadaDict": {
+          "url": "https://kotobank.jp/word/徳川秀忠-19099",
+          "title": "コトバンク：徳川秀忠",
+          "locator": "日本大百科全書等の項目。将軍就任日の不一致は年だけを使用",
+          "kind": "historical_dictionary",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "549",
+      "name": "織田信忠",
+      "proposal": "織田信長の嫡男で、家督を継ぎ岐阜城を拠点に美濃・尾張の一部を治めた。岩村城攻めで功を挙げ、武田攻めなどの軍を率いた。本能寺の変では二条御所で明智方に抗戦し、自害した。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "岐阜支配、岩村攻略、武田攻め、本能寺の変時二条御所で自害",
+          "sourceIds": [
+            "gifu"
+          ]
+        }
+      ],
+      "sources": {
+        "gifu": {
+          "url": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+          "title": "岐阜市：岐阜城の歴代城主",
+          "locator": "7 織田信忠／8 織田信孝／12 織田秀信。信忠の在城開始は見出しと本文に不一致",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "548",
+      "name": "織田信孝",
+      "proposal": "織田信長の三男で、伊勢の神戸家を継いだ武将。本能寺の変後は羽柴秀吉と明智光秀を破り、美濃と岐阜城を得た。その後は柴田勝家と結んで秀吉に対抗したが、敗れて自害した。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "神戸家相続、明智討伐、岐阜領有、柴田と連携、敗死",
+          "sourceIds": [
+            "gifu"
+          ]
+        }
+      ],
+      "sources": {
+        "gifu": {
+          "url": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+          "title": "岐阜市：岐阜城の歴代城主",
+          "locator": "7 織田信忠／8 織田信孝／12 織田秀信。信忠の在城開始は見出しと本文に不一致",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "557",
+      "name": "織田秀信",
+      "proposal": "織田信忠の子で、幼名は三法師。本能寺の変後に織田家の後継者となり、のち岐阜城主を務めた。関ヶ原の戦いでは西軍に属し、東軍に城を攻められて降伏した後、出家して高野山へ送られた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "織田後継、岐阜城主、西軍参加、降伏・出家・高野山",
+          "sourceIds": [
+            "gifu"
+          ]
+        }
+      ],
+      "sources": {
+        "gifu": {
+          "url": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+          "title": "岐阜市：岐阜城の歴代城主",
+          "locator": "7 織田信忠／8 織田信孝／12 織田秀信。信忠の在城開始は見出しと本文に不一致",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1525",
+      "name": "成田氏長",
+      "proposal": "武蔵の忍城主。上杉氏と北条氏の間で動き、のち北条方についた。1590年の小田原合戦では本人は小田原城に籠城。領地を失った後は蒲生氏郷に預けられ、のち烏山に領地を得た。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "北条方、本人の小田原籠城、失領、蒲生預け、烏山領有",
+          "sourceIds": [
+            "narita"
+          ]
+        }
+      ],
+      "sources": {
+        "narita": {
+          "url": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
+          "title": "行田市：成田氏長判物",
+          "locator": "文化財の説明。氏長本人の小田原籠城を明記",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "528",
+      "name": "奥平信昌",
+      "proposal": "初め貞昌と名乗った徳川方の武将。長篠城を守り抜いた功績で信昌と改名し、新城城を築いた。家康の関東移封に従った後、京都所司代を経て加納の大名となり、城下の整備や治水に努めた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "長篠防衛、新城築城、家康関東移封随従、京都所司代、加納の治水",
+          "sourceIds": [
+            "okudaira"
+          ]
+        }
+      ],
+      "sources": {
+        "okudaira": {
+          "url": "https://www.city.shinshiro.lg.jp/kanko/hito/okudairanobumasa.html",
+          "title": "新城市：奥平信昌",
+          "locator": "人物解説（貞昌からの改名・長篠・新城・加納）",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "168",
+      "name": "井伊直孝",
+      "proposal": "井伊直政の次男。大坂冬の陣で井伊家の軍を率い、彦根の当主となった。戦後は京都周辺の勢力との交渉を担い、秀忠の遺言で家光を補佐。家綱の代まで幕府政治を支えた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "大坂冬の陣、彦根当主、京都交渉、家光・家綱補佐",
+          "sourceIds": [
+            "ii"
+          ]
+        }
+      ],
+      "sources": {
+        "ii": {
+          "url": "https://hikone-castle-museum.jp/history/",
+          "title": "彦根城博物館：彦根藩主井伊家",
+          "locator": "井伊直孝（井伊家2代）／井伊直政（井伊家初代）",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1764",
+      "name": "保科正光",
+      "proposal": "徳川方の大名で、保科正直の子。関ヶ原合戦後に信濃の高遠へ戻り、初代高遠藩主となった。1618年には洗馬郷を加えられ、三万石を領するなど、江戸初期の高遠藩の基礎を築いた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "関ヶ原後の高遠復帰、初代藩主、1618年洗馬郷加増",
+          "sourceIds": [
+            "hoshina"
+          ]
+        }
+      ],
+      "sources": {
+        "hoshina": {
+          "url": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000372835&page=ref_view",
+          "title": "県立長野図書館：保科氏の領地変遷",
+          "locator": "回答、『長野県歴史人物大事典』p.621-622の紹介。専門書本体は未閲覧",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "645",
+      "name": "加藤光泰",
+      "proposal": "豊臣政権下で甲府城主となった大名。1591年に甲斐へ入り、城の本格的な築造を進めた。翌年の文禄の役で朝鮮へ出兵し、1593年に釜山の陣中で病没した。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "1591年入国・本格築城、1592年出兵、1593年釜山病没",
+          "sourceIds": [
+            "kofu"
+          ]
+        }
+      ],
+      "sources": {
+        "kofu": {
+          "url": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
+          "title": "山梨県埋蔵文化財センター：甲府城年表",
+          "locator": "1582〜1607年の各行",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1693",
+      "name": "平岩親吉",
+      "proposal": "徳川家康に仕え、甲府の城代を務めた武将。家康の関東移封後、関ヶ原の戦いを経て再び甲府を預かった。徳川義直が清洲へ移る1607年には、自らも犬山へ移った。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "1582年城代、1601年再任、1607年犬山移転",
+          "sourceIds": [
+            "kofu"
+          ]
+        }
+      ],
+      "sources": {
+        "kofu": {
+          "url": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
+          "title": "山梨県埋蔵文化財センター：甲府城年表",
+          "locator": "1582〜1607年の各行",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "219",
+      "name": "石田三成",
+      "proposal": "豊臣秀吉に仕え、五奉行の一人として検地などの政務を担った。秀吉の死後は徳川家康の勢力拡大に対抗し、関ヶ原の戦いに臨んだが敗北。捕らえられ、処刑された。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "五奉行・検地・関ヶ原での家康との対立・敗戦処刑",
+          "sourceIds": [
+            "mitsunari"
+          ]
+        }
+      ],
+      "sources": {
+        "mitsunari": {
+          "url": "https://www.pref.shiga.lg.jp/ab00/9922.html",
+          "title": "滋賀県：石田三成、その人物像とは",
+          "locator": "冒頭人物紹介。観光広報の心理描写・三献の茶・旗印の成立説は採用しない",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "937",
+      "name": "榊原忠次",
+      "proposal": "館林・白河を経て姫路藩主となった江戸初期の大名。林鵞峰らと交流し、書物を集めた。1664年には徳川家の歩みをたどる『御当家記年録』を編み、異説も併記する歴史研究を行った。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "館林・白河・姫路の藩主、林家との交流、蔵書、年代記編纂",
+          "sourceIds": [
+            "sakakibara"
+          ]
+        }
+      ],
+      "sources": {
+        "sakakibara": {
+          "url": "https://www.archives.go.jp/exhibition/digital/daimyou/contents/24.html",
+          "title": "国立公文書館：御当家記年録",
+          "locator": "編者・年代記の説明および人物経歴",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "一部確認：サイト方針の出所明示・内容不改変条件を確認。画像等の個別権利と商用公開全体の判断は未了。",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。",
+          "termsSourceId": "archivesPolicy"
+        }
+      }
+    },
+    {
+      "rosterId": "1765",
+      "name": "保科正之",
+      "proposal": "徳川秀忠の子で、保科正光の養子となった大名。高遠・山形を経て会津を治め、将軍家綱を補佐した。領内では米を蓄える社倉制度を進め、朱子学と神道を軸に学問・教育の基盤を整えた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "高遠・山形・会津、家綱補佐、社倉制度、文教政策",
+          "sourceIds": [
+            "hoshinaMasayuki"
+          ]
+        }
+      ],
+      "sources": {
+        "hoshinaMasayuki": {
+          "url": "https://www.archives.go.jp/exhibition/digital/daimyou/contents/11.html",
+          "title": "国立公文書館：千年の松",
+          "locator": "人物解説第1〜3段落。言行録本体の全巻実見ではない",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "一部確認：サイト方針の出所明示・内容不改変条件を確認。画像等の個別権利と商用公開全体の判断は未了。",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。",
+          "termsSourceId": "archivesPolicy"
+        }
+      }
+    },
+    {
+      "rosterId": "1889",
+      "name": "松平信綱",
+      "proposal": "徳川家光・家綱に仕えた老中。島原の乱や慶安事件、明暦の大火への対応を担い、幕府政治を支えた。忍から川越へ移った後は、野火止用水を開くなど、領内の暮らしと生産を支える事業も進めた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "家光家綱への奉仕、老中、島原・慶安・大火対処、忍川越、野火止用水",
+          "sourceIds": [
+            "nobutsuna"
+          ]
+        }
+      ],
+      "sources": {
+        "nobutsuna": {
+          "url": "https://www.archives.go.jp/exhibition/digital/daimyou/contents/09.html",
+          "title": "国立公文書館：信綱言行録",
+          "locator": "冒頭2段落。頓知話は採用しない",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "一部確認：サイト方針の出所明示・内容不改変条件を確認。画像等の個別権利と商用公開全体の判断は未了。",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。",
+          "termsSourceId": "archivesPolicy"
+        }
+      }
+    },
+    {
+      "rosterId": "1840",
+      "name": "前田利常",
+      "proposal": "加賀藩三代藩主。隠居後も孫の綱紀を支え、改作仕法によって農政と税制を整えた。隠居先の小松では城下の町割や街道を整備し、手工業や文化を育て、地域の発展に関わった。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "三代藩主、綱紀後見、改作仕法、小松の城下整備と産業文化",
+          "sourceIds": [
+            "toshitsune",
+            "komatsu"
+          ]
+        }
+      ],
+      "sources": {
+        "toshitsune": {
+          "url": "https://www.archives.go.jp/exhibition/digital/daimyou/contents/07.html",
+          "title": "国立公文書館：微妙公御夜話",
+          "locator": "人物経歴と改作仕法の段落",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "一部確認：サイト方針の出所明示・内容不改変条件を確認。画像等の個別権利と商用公開全体の判断は未了。",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。",
+          "termsSourceId": "archivesPolicy"
+        },
+        "komatsu": {
+          "url": "https://www.city.komatsu.lg.jp/shiseijoho/seisaku_keikaku/6584.html",
+          "title": "小松市：こまつ町家情報バンク",
+          "locator": "小松の基礎を作った三代藩主・前田利常",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "66",
+      "name": "浅野幸長",
+      "proposal": "豊臣政権下で甲斐を治め、文禄・慶長の役では二度とも朝鮮へ出兵した大名。関ヶ原の戦いで徳川方として戦功を挙げ、紀伊へ移った。和歌山城を拠点に、江戸初期の紀州を治めた。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "甲斐領有、二度の朝鮮出兵、関ヶ原の戦功、紀伊転封",
+          "sourceIds": [
+            "yoshinaga",
+            "kofu"
+          ]
+        }
+      ],
+      "sources": {
+        "yoshinaga": {
+          "url": "https://jmapps.ne.jp/hakubutuwakayama/det.html?data_id=562",
+          "title": "和歌山県立博物館：浅野幸長書状",
+          "locator": "資料解説。書状の翻刻自体は未読",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        },
+        "kofu": {
+          "url": "https://www.pref.yamanashi.jp/maizou-bnk/ko-fu_zyou/koufu_jo_new/nenpyou.html",
+          "title": "山梨県埋蔵文化財センター：甲府城年表",
+          "locator": "1582〜1607年の各行",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    },
+    {
+      "rosterId": "1841",
+      "name": "前田利長",
+      "proposal": "父利家の跡を継いだ加賀藩二代藩主。母まつを江戸へ送り徳川家康と和解し、関ヶ原の戦いでは徳川方についた。戦後に領地を広げ、弟利常へ家督を譲った後は高岡で晩年を過ごした。",
+      "approvalStatus": "pending",
+      "checkedOn": "2026-10-28",
+      "achievementEvidence": [
+        {
+          "result": "家督継承、家康と和解、関ヶ原東軍、加増、利常に譲職、高岡隠居",
+          "sourceIds": [
+            "toshieKanazawa"
+          ]
+        }
+      ],
+      "sources": {
+        "toshieKanazawa": {
+          "url": "https://www.kanazawa-museum.jp/maedatosa/about/page_2.html",
+          "title": "前田土佐守家資料館：歴代当主",
+          "locator": "家祖利政の父 前田利家／家祖利政の兄 利長",
+          "kind": "public_institution",
+          "access": "body_read",
+          "checkedOn": "2026-10-28",
+          "reuseStatus": "未確認",
+          "usage": "史実の参照と独自要約のみ。原文・画像・データセットを転載しない。"
+        }
+      }
+    }
+  ]
+}
