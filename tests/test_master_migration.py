@@ -220,6 +220,16 @@ class MigrationTest(unittest.TestCase):
         self.assertEqual(d["candidates"], [1542])
         self.assertIsNone(reviewed_year("1536", "birth", {}, "disputed")["value"])
 
+    def test_resolved_calendar_year_keeps_candidate_history(self):
+        review = {"confirmedBirthValue": 1543, "additionalBirthCandidates": [1542]}
+        resolved = reviewed_year("1543", "birth", review, "verified")
+        self.assertEqual(resolved["value"], 1543)
+        self.assertEqual(resolved["raw"], "1543")
+        self.assertEqual(resolved["candidates"], [1542, 1543])
+        for state in ("unverified", "disputed", "calendar_basis_requires_review"):
+            self.assertIsNone(reviewed_year("1543", "birth", review, state)["value"])
+        self.assertIsNone(reviewed_year("1542／1543", "birth", {}, "verified")["value"])
+
     def test_delta_preserves_previous_612_ids_and_reviews_added_twelve(self):
         import hashlib
 

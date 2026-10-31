@@ -161,20 +161,24 @@
       "sources": [
         "https://www.archives.go.jp/exhibition/digital/ieyasu/history.html",
         "https://www.archives.go.jp/exhibition/digital/ieyasu/contents1_01/",
-        "https://www.archives.go.jp/sitepolicy/"
+        "https://www.archives.go.jp/sitepolicy/",
+        "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi?type=0&gengo=a000&year=1543&month=2&day=10&jg=1&div=1&divu=3&len=1&lenu=3&gen=1",
+        "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi?type=0&gengo=a000&year=1543&month=1&day=31&jg=0&div=1&divu=3&len=1&lenu=3&gen=1",
+        "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi?type=0&gengo=a000&year=1543&month=1&day=31&jg=1&div=1&divu=3&len=1&lenu=3&gen=1"
       ],
       "fieldStatus": {
         "name": "verified",
         "biography": "verified",
         "sourceRelevance": "partially_verified",
         "death": "verified",
-        "birth": "calendar_basis_requires_review",
+        "birth": "verified",
         "aliases": "partially_verified",
         "identity": "partially_verified",
-        "license": "partially_verified"
+        "license": "partially_verified",
+        "lifePlaces": "partially_verified"
       },
-      "note": "公文書館の年表は旧暦天文11年（1542）12月26日。グレゴリオ暦1543年との混同を防ぐためbirth.value=1543の確認済み判定は保留。\n2026-10-28追記：既存改稿を維持。西暦換算日の独立検算未了のため、天文年に対応する西暦と先発グレゴリオ暦を混同しない。",
-      "reviewedOn": "2026-10-28",
+      "note": "公文書館の年表は旧暦天文11年（1542）12月26日。グレゴリオ暦1543年との混同を防ぐためbirth.value=1543の確認済み判定は保留。\n2026-10-28追記：既存改稿を維持。西暦換算日の独立検算未了のため、天文年に対応する西暦と先発グレゴリオ暦を混同しない。\n2026-10-31追記：前回の暦基準要確認を解消：公文書館紹介の日をNAOJで独立照合。旧暦天文11年12月26日＝ユリウス1543-01-31＝遡及グレゴリオ1543-02-10。1542は和暦年対応表記として保持。陰陽道の節年・誕生日伝承の全史料批判は未了。既存略歴を再改稿しない。",
+      "reviewedOn": "2026-10-31",
       "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
       "verifiedAliases": [
         "松平元信",
@@ -182,10 +186,14 @@
         "竹千代"
       ],
       "masterEvidenceSha256": "07002c695a251764cb7488ebc7eaccf37447fb60cb9f845c0c903430dc521e9e",
-      "evidenceRef": "migration/research/20261028/evidence.json#/people/1394",
+      "evidenceRef": "migration/research/20261031/evidence.json#/people/1394",
       "approvalStatus": "pending_user_review",
       "approvalDate": null,
-      "licenseStatus": "partially_verified"
+      "licenseStatus": "partially_verified",
+      "confirmedBirthValue": 1543,
+      "additionalBirthCandidates": [
+        1542
+      ]
     },
     "1839": {
       "biography": "織田信長に仕えて能登を領した武将。賤ヶ岳の戦いでは羽柴秀吉に従い、戦後に金沢へ入って城を整備した。加賀・能登・越中に広がる前田家の基盤を築いた。",
@@ -2739,6 +2747,156 @@
       "masterEvidenceSha256": "60679745bf1c25e767b93a7d8551e2dfcfaa874d234f93a4a440081127327ca6",
       "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
       "evidenceRef": "migration/research/20261030-06/evidence.json#/people/1239",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null,
+      "licenseStatus": "partially_verified"
+    },
+    "515": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "verified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedDeathValue": 1600,
+      "biography": "織田信孝に仕え、のち豊臣秀吉の家臣となった。1590年に伊勢亀山城主となり、城を築き直して近世の城の基礎をつくった。伊勢の領地管理や検地に携わり、関ヶ原の戦いでは西軍に属し、敗戦後に桑名城で自害した。",
+      "verifiedAliases": [
+        "太郎右衛門",
+        "下野守",
+        "重政",
+        "宗憲",
+        "平吉郎"
+      ],
+      "sources": [
+        "https://kameyamarekihaku.jp/kodomo/w_e_b/syukuba/chikujou/index.html",
+        "https://kameyamarekihaku.jp/kodomo/w_e_b/syukuba/joushu-adudhi/page001.html",
+        "https://kotobank.jp/word/岡本良勝-1062425"
+      ],
+      "note": "2026-10-31追記：父の正本定季/館重国、峯城主1572（天正2）の館内不整合、亀山石高23000/22000を留保。生年1542?・原文1544は未確定。自害の動機は採用しない。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "9602a6d2785334c0cc4c6d67224ee7d331d12911d1d029f1de4c73d88f7cdc0e",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031/evidence.json#/people/515",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "1417": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "secondary_source_checked",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "biography": "丹羽長秀らに仕えたのち豊臣秀吉の家臣となり、越前安居城を治めた。九州・小田原への出兵に従い、領内では寺院の所領を保障した。1600年の関ヶ原の戦いでは西軍に加わり、戦場で生涯を終えた。",
+      "verifiedAliases": [
+        "重政",
+        "勝重"
+      ],
+      "sources": [
+        "https://www.library-archives.pref.fukui.lg.jp/fukui/07/nenpyo/rekishi/chrn25.html",
+        "https://kotobank.jp/word/戸田勝成-1094675"
+      ],
+      "note": "2026-10-31追記：辞典の兄勝隆・前半生の仕官先は一次史料未照合。生年不詳を維持し、検索中の1557を取り込まない。寺領安堵は県史年表で本文確認。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "2fc20479fde124082de8df59a3dd0fcb47e328b0f0adac5577ecd31dbaddeb83",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031/evidence.json#/people/1417",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "281": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "verified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedDeathValue": 1598,
+      "biography": "稲葉一鉄の長男で、織田信長・豊臣秀吉に仕えた。美濃清水の領主として知られるが、伊勢でも検地や伊勢神宮の造営に関わり、寺社領を保護した。牧村利貞や稲葉道通とともに、豊臣政権下で一族の勢力を広げた。",
+      "verifiedAliases": [
+        "勘右衛門",
+        "兵庫頭"
+      ],
+      "sources": [
+        "https://www.gifu-kenpaku.jp/wp-content/uploads/2023/03/1-14%E3%80%80%E8%B1%8A%E8%87%A3%E6%94%BF%E6%A8%A9%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%A8%B2%E8%91%89%E6%B0%8F%E3%81%AE%E5%8B%95%E5%90%91%E3%80%80%E7%A8%B2%E8%91%89%E9%87%8D%E9%80%9A%E3%82%92%E4%B8%AD%E5%BF%83%E3%81%AB.pdf"
+      ],
+      "note": "2026-10-31追記：論文の史料引用と著者の推論を区別。田丸城主は利貞/道通、重通の城代・伊勢神宮との折衝や検地を混同しない。牧村利貞の出自・清水帰還説・所領全容は未解決。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "5397f85748c62eb364e2a683691ffe6e6f3d00c791f300ad7cacb272dfa439b9",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031/evidence.json#/people/281",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "603": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "unverified",
+        "biography": "verified",
+        "license": "partially_verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "biography": "越後の柿崎城を本拠とした上杉謙信の重臣。長尾為景の時代から仕え、謙信の側近として奉行職を担った。楞厳寺の整備に関わり、天室光育を招いたことでも知られる。軍記に描かれた武勇や最期には、伝承を含む。",
+      "verifiedAliases": [
+        "弥次郎",
+        "和泉守"
+      ],
+      "sources": [
+        "https://www.city.joetsu.niigata.jp/site/cultural-property/cultural-property-city144.html",
+        "https://kawanakajima.nagano.jp/character/kakizaki-kageie/",
+        "https://www.city.joetsu.niigata.jp/soshiki/kakizaki-ku/kakizaki-his3.html",
+        "https://kawanakajima.nagano.jp/privacypolicy/",
+        "https://www.city.joetsu.niigata.jp/site/userguide/copyright.html"
+      ],
+      "note": "2026-10-31追記：1513?–1574?は疑問付きで確定しない。軍記の勘助討取りと子晴家の誅殺説を本人の確定事績にしない。楞厳寺1534建立/文化財解説再建の用語差を保持。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "c5492d6867dc57c80a6f82f08ffc0fa380cf8728876a3944c7d2a38bdeb99d94",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031/evidence.json#/people/603",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null,
+      "licenseStatus": "partially_verified"
+    },
+    "346": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "unverified",
+        "biography": "partially_verified",
+        "license": "partially_verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "verifiedAliases": [
+        "駿河守"
+      ],
+      "sources": [
+        "https://kawanakajima.nagano.jp/character/category/co-uesugi/uesugi4/",
+        "https://www.city.kashiwazaki.lg.jp/soshikiichiran/sangyoshinkobu/shogyokankoka/kankosinko/shisekijinjabukkaku/meishokyuseki/3623.html",
+        "https://kawanakajima.nagano.jp/privacypolicy/"
+      ],
+      "note": "2026-10-31追記：略歴改稿保留。定満＝定行の自動別名統合、信繁討取り、政景を殺すための入水、髻山籠城を事実にしない。柏崎市の琵琶島城主説への留保を記録。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "05cf40ee3079c5500e09b926079d89e4ff2b3a5346af7f7800552ebd8d5e83f5",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031/evidence.json#/people/346",
       "approvalStatus": "pending_user_review",
       "approvalDate": null,
       "licenseStatus": "partially_verified"

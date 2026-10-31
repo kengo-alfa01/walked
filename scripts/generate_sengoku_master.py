@@ -69,7 +69,10 @@ def reviewed_year(raw, field, review, status):
             date["value"] = correction
     date["candidates"] = sorted(set(date["candidates"] + additional))
     date["status"] = status
-    if len(date["candidates"]) > 1 or status in {"disputed", "calendar_basis_requires_review"}:
+    # Candidate history includes preserved master values and other calendar bases.
+    # Only an explicit, independently verified result may resolve that history.
+    resolved = correction is not None and status == "verified"
+    if (len(date["candidates"]) > 1 and not resolved) or status in {"disputed", "calendar_basis_requires_review"}:
         date["value"] = None
     return date
 

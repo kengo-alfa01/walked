@@ -2,7 +2,11 @@
 
 2026-10-26取得の正本を基にした、データ移行・更新処理のレビュー用成果物です。**624人全員の史実確認を完了した成果物ではありません。公開置換・main反映を行わないでください。**
 
-## 最新：2026-10-30 第6回
+## 最新：2026-10-31
+
+[624人レビュー・再開点](reports/person-quality-20261031/README.md)：新規本文5人・家康再確認1人、略歴4案。累計着手/本文108人・略歴97案・生没年とも35人・全項目完了0。本文未確認516・機械的略歴438。家康の暦換算、定満の軍記との区別、良勝の父名/年号差を記録。明示的な確認年が候補履歴によってnullになる生成不整合も修正。Python27/Node11/構造31成功。年表187イベント・126候補（+19/+15）。以下は過去の履歴。
+
+## 2026-10-30 第6回
 
 [624人レビュー・次スレッド再開点](reports/person-quality-20261030-06/README.md)：本文103人（新規4・再確認2）、略歴93案（+4）、生没年とも34人。既存略歴2件は変更不要。着手103、本文未確認521、機械的略歴442、全項目完了0。景勝の暦換算と常隆の世代差を記録、信勝は柏原藩主として条件付き案。年表168イベント・111候補（+14/+11）、33人・拠点順序17人。毎回の引継ぎは既存管理シート「やること」に追記する。以下は各回の履歴。
 
@@ -117,7 +121,7 @@ CSVはExcelで開けるUTF-8 BOM付きです。略歴・氏名・URLには日本
 ```sh
 python scripts/generate_sengoku_master.py
 python scripts/build_migration_preview.py
-python scripts/build_person_quality_review.py --round 20261030-06
+python scripts/build_person_quality_review.py --round 20261031
 python scripts/build_person_life_timeline.py
 python scripts/validate_sengoku_master.py
 python -m unittest discover -s tests -p 'test_*.py' -v

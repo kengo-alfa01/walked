@@ -495,6 +495,14 @@
     "status": "candidate_only_do_not_merge"
   },
   {
+    "token": "兵庫頭",
+    "personIds": [
+      "sg-master-0281",
+      "sg-master-1638"
+    ],
+    "status": "candidate_only_do_not_merge"
+  },
+  {
     "token": "兼続",
     "personIds": [
       "sg-1a91ae29cb5a",
@@ -749,6 +757,7 @@
   {
     "token": "和泉守",
     "personIds": [
+      "sg-a8cfe1245acb",
       "sg-cfb73411fab8",
       "sg-master-0609"
     ],

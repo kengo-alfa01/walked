@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedOn": "2026-10-30",
+  "updatedOn": "2026-10-31",
   "scope": "人物精査中に得た場所の抽出。20261029-02から開始、過去624人の一括遡及抽出ではない。",
   "evidenceFiles": {
     "20261029-02": "migration/research/20261029-02/evidence.json",
@@ -12,7 +12,8 @@
     "20261030-03": "migration/research/20261030-03/evidence.json",
     "20261030-04": "migration/research/20261030-04/evidence.json",
     "20261030-05": "migration/research/20261030-05/evidence.json",
-    "20261030-06": "migration/research/20261030-06/evidence.json"
+    "20261030-06": "migration/research/20261030-06/evidence.json",
+    "20261031": "migration/research/20261031/evidence.json"
   },
   "candidates": {
     "plc-gifu-castle": {
@@ -1334,6 +1335,186 @@
       "deduplicationStatus": "pending_nationwide_work",
       "crossThreadOverlap": "未照合",
       "unresolved": "現在地・遺構範囲・既存候補との同一性・訪問単位・利用条件は全国史跡Workで照合。"
+    },
+    "plc-ise-kameyama": {
+      "candidateId": "plc-ise-kameyama",
+      "placeName": "亀山城（伊勢）",
+      "regionAsSource": "伊勢",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-ise-mine": {
+      "candidateId": "plc-ise-mine",
+      "placeName": "峯城",
+      "regionAsSource": "伊勢",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-kuwana-castle": {
+      "candidateId": "plc-kuwana-castle",
+      "placeName": "桑名城",
+      "regionAsSource": "伊勢",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-ise-region": {
+      "candidateId": "plc-ise-region",
+      "placeName": "伊勢（検地・領地管理の範囲）",
+      "regionAsSource": "伊勢",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-ago-castle": {
+      "candidateId": "plc-ago-castle",
+      "placeName": "安居城",
+      "regionAsSource": "越前",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-kurome-shomyoji": {
+      "candidateId": "plc-kurome-shomyoji",
+      "placeName": "黒目村称名寺",
+      "regionAsSource": "越前",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-mino-kiyomizu": {
+      "candidateId": "plc-mino-kiyomizu",
+      "placeName": "清水城（稲葉氏）",
+      "regionAsSource": "美濃",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-tamaru": {
+      "candidateId": "plc-tamaru",
+      "placeName": "田丸城",
+      "regionAsSource": "伊勢",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-ise-jingu": {
+      "candidateId": "plc-ise-jingu",
+      "placeName": "伊勢神宮（内宮・外宮）",
+      "regionAsSource": "伊勢",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-ise-higashiike": {
+      "candidateId": "plc-ise-higashiike",
+      "placeName": "多気郡東池（寄進対象地）",
+      "regionAsSource": "伊勢",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-heki-renzoji": {
+      "candidateId": "plc-heki-renzoji",
+      "placeName": "戸木村蓮蔵寺",
+      "regionAsSource": "伊勢",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-kakizaki-castle": {
+      "candidateId": "plc-kakizaki-castle",
+      "placeName": "柿崎城（木崎城）",
+      "regionAsSource": "越後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
+    },
+    "plc-kakizaki-ryogonji": {
+      "candidateId": "plc-kakizaki-ryogonji",
+      "placeName": "楞厳寺（柿崎）",
+      "regionAsSource": "越後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "寺社整備という関係のみ。別担当の菩提寺調査と場所の重複照合が必要。"
+    },
+    "plc-biwajima-kashiwazaki": {
+      "candidateId": "plc-biwajima-kashiwazaki",
+      "placeName": "琵琶島城（柏崎）",
+      "regionAsSource": "越後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "宇佐美定満の居城説は軍記由来として留保。信濃野尻湖の琵琶島と別地点。"
+    },
+    "plc-owari-hostage": {
+      "candidateId": "plc-owari-hostage",
+      "placeName": "尾張（家康の人質生活の地域）",
+      "regionAsSource": "尾張",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "全国側で位置・既存候補との同一性・訪問単位・利用条件を確認。"
     }
   },
   "events": [
@@ -6120,6 +6301,546 @@
       "approvalStatus": "pending_user_review",
       "previousMainBaseCandidateId": null,
       "unresolved": "軍記の台詞・討手・布陣を確定事実として採用しない。墓碑を死亡地点にしない。"
+    },
+    {
+      "eventId": "life-0515-001",
+      "personId": "sg-master-0515",
+      "rosterId": "515",
+      "personName": "岡本良勝",
+      "candidateId": "plc-ise-mine",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "信孝の家臣として峯城主となった。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261031:kameyama-life",
+        "20261031:okamoto-dictionary"
+      ],
+      "sourceLocator": "出身・城主となるまで・城主時代・最期。太郎右衛門/下野守、秀吉配下、検地、桑名籠城と自害。1572（天正2）の不整合、父重国と正本定季の差、石高23000と辞典22000を留保。 / 1542?–1600、峯城主天正2、亀山22000石、別名重政・宗憲、通称平吉郎。没年1600のみ照合。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "館の1572（天正2）に年の不整合。辞典は天正2とする。誤記を自動修正せず年は未確定。"
+    },
+    {
+      "eventId": "life-0515-002",
+      "personId": "sg-master-0515",
+      "rosterId": "515",
+      "personName": "岡本良勝",
+      "candidateId": "plc-ise-kameyama",
+      "dateLabel": "1590年",
+      "yearStart": 1590,
+      "yearEnd": 1590,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "秀吉から亀山を与えられ、城主となった。",
+      "relationTypes": [
+        "居城",
+        "転封"
+      ],
+      "sourceRefs": [
+        "20261031:kameyama-build",
+        "20261031:kameyama-life"
+      ],
+      "sourceLocator": "本文：1590城主、当時の技術で城を築き直し近世亀山城へ継承。 / 出身・城主となるまで・城主時代・最期。太郎右衛門/下野守、秀吉配下、検地、桑名籠城と自害。1572（天正2）の不整合、父重国と正本定季の差、石高23000と辞典22000を留保。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "石高は館23000/辞典22000。入城日と移転前後の滞在は未確認。"
+    },
+    {
+      "eventId": "life-0515-003",
+      "personId": "sg-master-0515",
+      "rosterId": "515",
+      "personName": "岡本良勝",
+      "candidateId": "plc-ise-kameyama",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "当時の築城技術を取り入れて亀山城を築き直した。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261031:kameyama-build"
+      ],
+      "sourceLocator": "本文：1590城主、当時の技術で城を築き直し近世亀山城へ継承。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "城主就任1590を改築完成年に流用しない。"
+    },
+    {
+      "eventId": "life-0515-004",
+      "personId": "sg-master-0515",
+      "rosterId": "515",
+      "personName": "岡本良勝",
+      "candidateId": "plc-ise-region",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "秀吉の領地管理や太閤検地に携わった。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261031:kameyama-life"
+      ],
+      "sourceLocator": "出身・城主となるまで・城主時代・最期。太郎右衛門/下野守、秀吉配下、検地、桑名籠城と自害。1572（天正2）の不整合、父重国と正本定季の差、石高23000と辞典22000を留保。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "実施年と対象村を限定できないため地域候補。"
+    },
+    {
+      "eventId": "life-0515-005",
+      "personId": "sg-master-0515",
+      "rosterId": "515",
+      "personName": "岡本良勝",
+      "candidateId": "plc-kuwana-castle",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "西軍として桑名城に籠もり、関ヶ原合戦後に自害した。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261031:kameyama-life",
+        "20261031:okamoto-dictionary"
+      ],
+      "sourceLocator": "出身・城主となるまで・城主時代・最期。太郎右衛門/下野守、秀吉配下、検地、桑名籠城と自害。1572（天正2）の不整合、父重国と正本定季の差、石高23000と辞典22000を留保。 / 1542?–1600、峯城主天正2、亀山22000石、別名重政・宗憲、通称平吉郎。没年1600のみ照合。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "自害動機は未精査。戦死・関ヶ原現地参戦とは扱わない。"
+    },
+    {
+      "eventId": "life-1417-001",
+      "personId": "sg-master-1417",
+      "rosterId": "1417",
+      "personName": "戸田勝成",
+      "candidateId": "plc-ago-castle",
+      "dateLabel": "1585年",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "秀吉の家臣となり、安居城主となったと辞典に記される。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261031:toda-dictionary"
+      ],
+      "sourceLocator": "?–1600。天正13秀吉配下・越前安居城主、九州/小田原出兵、西軍で戦死、重政・勝重。兄弟関係・仕官順序は一次史料未照合。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "辞典本文の確認。独立した原史料と入城日は未確認。"
+    },
+    {
+      "eventId": "life-1417-002",
+      "personId": "sg-master-1417",
+      "rosterId": "1417",
+      "personName": "戸田勝成",
+      "candidateId": "plc-odawara-campaign",
+      "dateLabel": "1590年",
+      "yearStart": 1590,
+      "yearEnd": 1590,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "秀吉の小田原攻めに従軍した。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261031:toda-dictionary"
+      ],
+      "sourceLocator": "?–1600。天正13秀吉配下・越前安居城主、九州/小田原出兵、西軍で戦死、重政・勝重。兄弟関係・仕官順序は一次史料未照合。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "辞典の小田原攻めへの帰属を記録。個別陣地・日付未確認。"
+    },
+    {
+      "eventId": "life-1417-003",
+      "personId": "sg-master-1417",
+      "rosterId": "1417",
+      "personName": "戸田勝成",
+      "candidateId": "plc-kurome-shomyoji",
+      "dateLabel": "1598年",
+      "yearStart": 1598,
+      "yearEnd": 1598,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "黒目村称名寺の寺領などを安堵した。",
+      "relationTypes": [
+        "寺社保護"
+      ],
+      "sourceRefs": [
+        "20261031:fukui-chronology"
+      ],
+      "sourceLocator": "1598（慶長3）12月1日、戸田勝成が黒目村称名寺の寺領などを安堵。根拠「称名寺文書」。旧暦日であり西暦月日へ未換算。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "慶長3年12月1日。旧暦のためグレゴリオ日付未確定。書状原本の実見なし、本人の参拝も未確認。"
+    },
+    {
+      "eventId": "life-1417-004",
+      "personId": "sg-master-1417",
+      "rosterId": "1417",
+      "personName": "戸田勝成",
+      "candidateId": "plc-sekigahara",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "西軍に加わり関ヶ原合戦で戦死したと辞典に記される。",
+      "relationTypes": [
+        "参戦",
+        "戦死"
+      ],
+      "sourceRefs": [
+        "20261031:toda-dictionary"
+      ],
+      "sourceLocator": "?–1600。天正13秀吉配下・越前安居城主、九州/小田原出兵、西軍で戦死、重政・勝重。兄弟関係・仕官順序は一次史料未照合。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "没年と参戦は辞典本文のみ。個別陣地への対応は未確認。"
+    },
+    {
+      "eventId": "life-0281-001",
+      "personId": "sg-master-0281",
+      "rosterId": "281",
+      "personName": "稲葉重通",
+      "candidateId": "plc-mino-kiyomizu",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "清水を領し、美濃に経済的基盤を持った。",
+      "relationTypes": [
+        "居城",
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261031:inaba-paper"
+      ],
+      "sourceLocator": "pp.1–7・9を目視。p1生年不明/1598没と系譜、p3–4美濃基盤、p5伊勢神宮造営・田丸城代、p6寄進/伊勢検地、p7戸木村蓮蔵寺安堵と道通との役割分担。推論箇所は明示。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "一鉄没後の相続を記す寛政譜と、伊勢で継続する活動を論文が照合。居住の全期間は未確定。"
+    },
+    {
+      "eventId": "life-0281-002",
+      "personId": "sg-master-0281",
+      "rosterId": "281",
+      "personName": "稲葉重通",
+      "candidateId": "plc-tamaru",
+      "dateLabel": "1590年",
+      "yearStart": 1590,
+      "yearEnd": 1590,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "牧村利貞が城主となった田丸城で、重通が城代を務めたと研究論文が論じる。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261031:inaba-paper"
+      ],
+      "sourceLocator": "pp.1–7・9を目視。p1生年不明/1598没と系譜、p3–4美濃基盤、p5伊勢神宮造営・田丸城代、p6寄進/伊勢検地、p7戸木村蓮蔵寺安堵と道通との役割分担。推論箇所は明示。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "田丸城治考の記載と同時期史料を使う著者の論証。城主利貞や後継道通と区別、在城日未確認。"
+    },
+    {
+      "eventId": "life-0281-003",
+      "personId": "sg-master-0281",
+      "rosterId": "281",
+      "personName": "稲葉重通",
+      "candidateId": "plc-ise-jingu",
+      "dateLabel": "1585年",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "神宮の造営をめぐり、牧村利貞とともに内宮・外宮の争いを秀吉へ取り次いだ。",
+      "relationTypes": [
+        "寺社保護"
+      ],
+      "sourceRefs": [
+        "20261031:inaba-paper"
+      ],
+      "sourceLocator": "pp.1–7・9を目視。p1生年不明/1598没と系譜、p3–4美濃基盤、p5伊勢神宮造営・田丸城代、p6寄進/伊勢検地、p7戸木村蓮蔵寺安堵と道通との役割分担。推論箇所は明示。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "p5史料Iの書状案と解説。造営奉行としての関与を記録し、現地参拝・工事立会いを推定しない。"
+    },
+    {
+      "eventId": "life-0281-004",
+      "personId": "sg-master-0281",
+      "rosterId": "281",
+      "personName": "稲葉重通",
+      "candidateId": "plc-ise-region",
+      "dateLabel": "1594年",
+      "yearStart": 1594,
+      "yearEnd": 1594,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "秀吉の伊勢国検地の奉行の一人として活動した。",
+      "relationTypes": [
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261031:inaba-paper"
+      ],
+      "sourceLocator": "pp.1–7・9を目視。p1生年不明/1598没と系譜、p3–4美濃基盤、p5伊勢神宮造営・田丸城代、p6寄進/伊勢検地、p7戸木村蓮蔵寺安堵と道通との役割分担。推論箇所は明示。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "p6史料M、文禄3年6月17日。具体的踏査箇所や飯福田寺訪問は未確認。"
+    },
+    {
+      "eventId": "life-0281-005",
+      "personId": "sg-master-0281",
+      "rosterId": "281",
+      "personName": "稲葉重通",
+      "candidateId": "plc-ise-higashiike",
+      "dateLabel": "1594年",
+      "yearStart": 1594,
+      "yearEnd": 1594,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "多気郡東池の知行から100石を伊勢神宮関係者へ寄進した。",
+      "relationTypes": [
+        "寄進"
+      ],
+      "sourceRefs": [
+        "20261031:inaba-paper"
+      ],
+      "sourceLocator": "pp.1–7・9を目視。p1生年不明/1598没と系譜、p3–4美濃基盤、p5伊勢神宮造営・田丸城代、p6寄進/伊勢検地、p7戸木村蓮蔵寺安堵と道通との役割分担。推論箇所は明示。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "p6史料Lの上部朝日宛。対象地の位置と寄進先の詳細未確認。"
+    },
+    {
+      "eventId": "life-0281-006",
+      "personId": "sg-master-0281",
+      "rosterId": "281",
+      "personName": "稲葉重通",
+      "candidateId": "plc-heki-renzoji",
+      "dateLabel": "1596年",
+      "yearStart": 1596,
+      "yearEnd": 1596,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "戸木村蓮蔵寺の寺領を安堵した。",
+      "relationTypes": [
+        "寺社保護"
+      ],
+      "sourceRefs": [
+        "20261031:inaba-paper"
+      ],
+      "sourceLocator": "pp.1–7・9を目視。p1生年不明/1598没と系譜、p3–4美濃基盤、p5伊勢神宮造営・田丸城代、p6寄進/伊勢検地、p7戸木村蓮蔵寺安堵と道通との役割分担。推論箇所は明示。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "p7史料O、文禄5年7月11日。本人の領地と離れた寺への安堵の背景は著者が検地奉行職との関係を推測。参拝未確認。"
+    },
+    {
+      "eventId": "life-0603-001",
+      "personId": "sg-a8cfe1245acb",
+      "rosterId": "603",
+      "personName": "柿崎景家",
+      "candidateId": "plc-kakizaki-castle",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "柿崎城を本拠として、謙信の側近・奉行を務めた。",
+      "relationTypes": [
+        "本拠地"
+      ],
+      "sourceRefs": [
+        "20261031:nagano-kakizaki"
+      ],
+      "sourceLocator": "1513?–1574?、弥次郎、長尾為景・謙信、柿崎城を本拠に奉行。勘助討取りは甲越信戦録の段落。生没年の疑問符を保持。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "年代と城域未確認。軍記の先鋒戦闘をそのまま実証イベントへ付けない。"
+    },
+    {
+      "eventId": "life-0603-002",
+      "personId": "sg-a8cfe1245acb",
+      "rosterId": "603",
+      "personName": "柿崎景家",
+      "candidateId": "plc-kakizaki-ryogonji",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "楞厳寺の整備に関わり、天室光育を招いた。",
+      "relationTypes": [
+        "寺社保護"
+      ],
+      "sourceRefs": [
+        "20261031:joetsu-portrait",
+        "20261031:joetsu-temple"
+      ],
+      "sourceLocator": "徴証・伝来：謙信重臣、楞厳寺再建。画像の再利用なし。 / 楞厳寺節：1534建立、天室光育招聘。文化財解説の再建との用語差を保持。菩提寺・墓所としての再調査は行わず寺社整備の事績のみ採録。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "市寺院案内は1534建立、文化財解説は再建。建立・再建・招聘の時期対応を未確定とし、墓・菩提寺関係は別担当。"
+    },
+    {
+      "eventId": "life-0346-001",
+      "personId": "sg-b96d26835a13",
+      "rosterId": "346",
+      "personName": "宇佐美定満",
+      "candidateId": "plc-biwajima-kashiwazaki",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "定満を城主とする説があるが、柏崎市は軍記由来の説と資料で確かめられる城主名を区別している。",
+      "relationTypes": [
+        "居城"
+      ],
+      "sourceRefs": [
+        "20261031:kashiwazaki-biwa",
+        "20261031:nagano-usami"
+      ],
+      "sourceLocator": "本文：定満城主/謙信軍師説は軍記とドラマで普及。資料で確認できる城主は琵琶島殿・琵琶島弥七郎等。個々の同一人物への同定を自動で行わない。 / 宇佐美定満がモデルとなった伝説の武将の段落。実在定満と軍記の定行を分離、1551景虎への帰属、1564溺死は伝聞。定行の信繁討取り・野尻池・髻山の伝承を定満の確定事績にしない。",
+      "relationStatus": "disputed",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "関係自体が未確定の候補。琵琶島殿や弥七郎を定満に自動同定しない。"
+    },
+    {
+      "eventId": "life-1394-001",
+      "personId": "sg-a7bb09927601",
+      "rosterId": "1394",
+      "personName": "徳川家康",
+      "candidateId": "plc-owari-hostage",
+      "dateLabel": "1547年",
+      "yearStart": 1547,
+      "yearEnd": 1547,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "今川家へ送られる途中で織田方へ渡され、尾張で人質となった。",
+      "relationTypes": [
+        "人質"
+      ],
+      "sourceRefs": [
+        "20261031:ieyasu-archives"
+      ],
+      "sourceLocator": "天文11年12月26日、竹千代、1547尾張人質、1549交換。朝野旧聞裒藁は1842編纂、本文紹介を実読。写本画像の独立判読ではない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "地域のみ確認。特定の寺や屋敷を推定しない。誕生地・墓所関係の追加調査なし。"
     }
   ],
   "residenceSequences": [
