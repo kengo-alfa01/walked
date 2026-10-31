@@ -2,7 +2,11 @@
 
 2026-10-26取得の正本を基にした、データ移行・更新処理のレビュー用成果物です。**624人全員の史実確認を完了した成果物ではありません。公開置換・main反映を行わないでください。**
 
-## 最新：2026-10-31 第3回
+## 最新：2026-10-31 第4回
+
+[624人レビュー・根拠・再開点](reports/person-quality-20261031-04/README.md)：新規本文6人・略歴6案、累計着手/本文127人・略歴116案。生年38・没年84・両方35・全項目完了0。未着手497・機械的略歴419。林秀貞の没年/通勝、塙直政の没日、堀尾忠氏の生年と父子事績、忠輝の典拠年差を記録。Python27/Node11/構造31成功、参照切れ0。年表58人244イベント・171候補（今回+19/+17）。
+
+## 2026-10-31 第3回
 
 [624人レビュー・根拠・再開点](reports/person-quality-20261031-03/README.md)：新規本文6人・略歴6案追加。累計着手/本文121人、略歴110案、生没年とも35人、全項目完了0。未着手503・機械的略歴425。村上義明の表示名判断、数正没年、里見の続柄を記録。為景は書誌探索のみ。Python27/Node11/構造31成功、参照切れ0。年表52人225イベント・154候補（+19/+14）。
 
@@ -129,7 +133,7 @@ CSVはExcelで開けるUTF-8 BOM付きです。略歴・氏名・URLには日本
 ```sh
 python scripts/generate_sengoku_master.py
 python scripts/build_migration_preview.py
-python scripts/build_person_quality_review.py --round 20261031-03
+python scripts/build_person_quality_review.py --round 20261031-04
 python scripts/build_person_life_timeline.py
 python scripts/validate_sengoku_master.py
 python -m unittest discover -s tests -p 'test_*.py' -v

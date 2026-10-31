@@ -14387,33 +14387,35 @@
     "name": "蜂屋頼隆",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
-    "biography": "戦国期に活動した大名。織田信長・豊臣秀吉に仕えた。蜂屋氏の一族にあたる。官位には出羽守・従四位侍従が記される。",
-    "biographyLength": 55,
+    "biography": "織田信長に仕え、のち豊臣秀吉のもとで敦賀を治めた。賤ヶ岳の戦いの後に入部し、南条郡にも所領を持って家臣に土地を与えた。羽柴敦賀侍従と呼ばれたが、1589年に後継者なく没し、敦賀には大谷吉継が入った。",
+    "biographyLength": 99,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-01.htm",
+      "https://tsuruga-municipal-museum.jp/events/event/第21回　吉継カフェ「大谷吉継と蜂屋頼隆」/",
+      "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-05.htm",
       "https://ja.wikipedia.org/wiki/%E8%9C%82%E5%B1%8B%E9%A0%BC%E9%9A%86",
       "https://ja.wikipedia.org/w/index.php?oldid=110344587"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：1534出生の根拠未確認。4万石は人足割付の推計、5万石は日記記載として区別し、略歴では石高を省く。築城の創始・完成も未確定。"
   },
   {
     "id": "sg-master-1640",
@@ -14523,33 +14525,35 @@
     "name": "林秀貞",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "disputed",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "disputed",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "requires_review",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期に活動した武将。織田信秀・織田信長・織田信行に仕えた。越智姓伊予河野氏支流尾張林氏の一族にあたる。父は林通安。官位には佐渡守・但馬守が記される。",
-    "biographyLength": 75,
+    "biography": "織田信秀の代から仕え、信長の補佐にあたった。1556年には柴田勝家らと信長の弟・信行を擁立して戦うが敗れた。その後は再び信長に仕えて軍事活動を担ったものの、1580年に織田家から追放された。",
+    "biographyLength": 95,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.museum.city.nagoya.jp/collection/data/data_39/index.html",
+      "https://kotobank.jp/word/林秀貞-1102291",
       "https://ja.wikipedia.org/wiki/%E6%9E%97%E7%A7%80%E8%B2%9E",
       "https://ja.wikipedia.org/w/index.php?oldid=111059438"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：生年1513は未確認。名古屋市博物館は没1580、辞典は生没不詳。通勝は慣用名としての記載と正しい実名ではないとの解説を分け、別人との自動統合へ使わない。南部勝利との同一性未確認。"
   },
   {
     "id": "sg-master-1651",
@@ -14793,33 +14797,35 @@
     "name": "塙直政",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "requires_review",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期に活動した武将。織田信長に仕えた。塙氏・原田氏の一族にあたる。官位には従五位下左衛門佐が記される。",
-    "biographyLength": 52,
+    "biography": "織田信長の家臣として京都の政務に携わり、山城と大和の守護を兼ねた。原田姓を与えられ、原田直政とも呼ばれる。寺社への命令や大和の武士の統制を担い、1576年に石山本願寺との戦いで討死した。",
+    "biographyLength": 93,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.kawachinagano.lg.jp/report/061_121207_rekishikouza/history.html",
+      "https://kotobank.jp/word/原田直政-116619",
       "https://ja.wikipedia.org/wiki/%E5%A1%99%E7%9B%B4%E6%94%BF",
       "https://ja.wikipedia.org/w/index.php?oldid=111094847"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：塙直政と原田直政の対応を記録。没年1576は確認、旧暦没日は3日/4日差を留保。重友・長俊の実名性、正勝・直正等の全候補は未解決。直政を討った個人名は断定しない。"
   },
   {
     "id": "sg-master-1684",
@@ -16602,33 +16608,36 @@
     "name": "堀尾忠氏",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "aliases": "partially_verified",
+      "birth": "disputed",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "partially_verified"
     },
-    "biography": "安土桃山期から江戸初期に活動した大名。豊臣秀頼・徳川家康に仕えた。出雲松江藩主を務めた。堀尾氏の一族にあたる。父は堀尾吉晴。官位には信濃守・従四位下出雲守が記される。",
-    "biographyLength": 83,
+    "biography": "堀尾吉晴の子で、関ヶ原の戦い後に出雲・隠岐の領主となった。富田城を拠点に家臣への土地の配分や検地を進めた。父と松江への城地移転を計画したが、1604年に没し、築城事業は吉晴に引き継がれた。",
+    "biographyLength": 94,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.matsue.lg.jp/material/files/group/34/column71.pdf",
+      "https://www.city.matsue.lg.jp/material/files/group/2/bunken.pdf",
+      "https://kotobank.jp/word/堀尾忠氏-1108327",
+      "https://www.city.matsue.lg.jp/soshikikarasagasu/matsueshiyakusho/3631.html",
       "https://ja.wikipedia.org/wiki/%E5%A0%80%E5%B0%BE%E5%BF%A0%E6%B0%8F",
       "https://ja.wikipedia.org/w/index.php?oldid=111299026"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：生年1577の辞典記載と正本1578説を保持。系譜の享年28は出生年を独立確定する資料ではない。父吉晴の松江築城完成を忠氏の事績としない。慶長6/8年書状の年代は研究者の比定。"
   },
   {
     "id": "sg-master-1797",
@@ -17900,33 +17909,39 @@
     "name": "松平忠輝",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "aliases": "partially_verified",
+      "birth": "disputed",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "partially_verified",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "安土桃山期から江戸初期に活動した大名。豊臣秀吉・豊臣秀頼・徳川家康・徳川秀忠・徳川家光・徳川家綱・徳川綱吉に仕えた。武蔵国深谷藩主・下総国佐倉藩主・信濃国川中島藩主・越後国高田藩主を務めた。",
-    "biographyLength": 95,
+    "biography": "徳川家康の六男。信濃から越後へ所領を広げ、1614年に高田城を築いた。1616年に所領を没収され、伊勢、飛騨を経て諏訪藩の預かりとなる。高島城南の丸で長く暮らし、1683年に没した。",
+    "biographyLength": 91,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.joetsu.niigata.jp/site/museum/takada-castle-list-tadateru.html",
+      "https://www.city.fukaya.saitama.jp/soshiki/kyoiku/bunka/digitalmuseum/jinbutsu02/1487570936184.html",
+      "https://suwacitymuseum.jp/nandemo/koumoku/1000/100202.htm",
+      "https://id.ndl.go.jp/auth/ndlna/00624204",
+      "https://www.city.joetsu.niigata.jp/site/museum/takada-castle-history.html",
+      "https://www.city.joetsu.niigata.jp/site/userguide/copyright.html",
       "https://ja.wikipedia.org/wiki/%E6%9D%BE%E5%B9%B3%E5%BF%A0%E8%BC%9D",
       "https://ja.wikipedia.org/w/index.php?oldid=111414331"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：自治体本文の出生1592とNDL典拠1593の差を記録。典拠の出典本は未実見で1593説の歴史的裏付けは未確認。改易理由・出生月日の異説は留保。1615以降の長い配流生活を略歴に含める。"
   },
   {
     "id": "sg-master-1882",
@@ -19161,33 +19176,34 @@
     "name": "村井貞勝",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
-    "biography": "戦国期に活動した武将。織田信長に仕えた。村井氏の一族にあたる。官位には民部丞・民部少輔・長門守が記される。",
-    "biographyLength": 53,
+    "biography": "織田信長の京都支配を政務の面で支えた家臣。明智光秀とともに町の行政に携わり、1573年に京都所司代となった。御所の修理や朝廷との交渉を担い、本能寺の変では織田信忠と二条御所に入り、戦死した。",
+    "biographyLength": 95,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.kyoto.lg.jp/bunshi/page/0000150923.html",
+      "https://kotobank.jp/word/村井貞勝-17013",
       "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%BA%95%E8%B2%9E%E5%8B%9D",
       "https://ja.wikipedia.org/w/index.php?oldid=109745745"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：市展示の連署書状写は存在と概要のみ確認。電子解説シートの翻刻本文は未取得。江戸時代の所司代の職掌をそのまま織田期へ遡及させない。生年は不明。"
   },
   {
     "id": "sg-master-1995",

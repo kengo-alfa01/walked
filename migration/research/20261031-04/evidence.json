@@ -1,0 +1,664 @@
+{
+  "round": "20261031-04",
+  "reviewedOn": "2026-10-31",
+  "scope": "未着手の機械的略歴6人。織田家臣の政務、生没年の資料差、堀尾父子の事績、忠輝の長い配流生活を精査。",
+  "sources": {
+    "fukui-hachiya-rule": {
+      "url": "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-01.htm",
+      "title": "福井県史 通史編3：賎ケ嶽の戦い後",
+      "locator": "1583賤ヶ岳後の敦賀入部。山内長右衛門文書に基づく南条郡四郎丸村100石宛行。5万石という日記記載と人足割付からの4万石推計を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "fukui-hachiya-death": {
+      "url": "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T3/T3-0a1a2-02-03-01-05.htm",
+      "title": "福井県史 通史編3：大谷吉継の敦賀入部",
+      "locator": "蜂屋頼隆の天正17年9月25日没と跡継ぎなし、大谷吉継入部。後継の秀勝に関する表記は本人略歴に採用しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "tsuruga-hachiya": {
+      "url": "https://tsuruga-municipal-museum.jp/events/event/第21回　吉継カフェ「大谷吉継と蜂屋頼隆」/",
+      "title": "敦賀市立博物館：第21回吉継カフェ 大谷吉継と蜂屋頼隆",
+      "locator": "2024年講演案内の紹介本文。織田信長家臣、豊臣政権下敦賀支配、羽柴敦賀侍従という呼称。講演内容自体を聴講・確認したものではない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "hayashi-dictionary": {
+      "url": "https://kotobank.jp/word/林秀貞-1102291",
+      "title": "講談社デジタル版日本人名大辞典：林秀貞",
+      "locator": "生没年?–?。1556信行擁立と敗北、その後信長に奉仕、1580追放。通勝でなく秀貞を正しい名とする。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "nagoya-hayashi": {
+      "url": "https://www.museum.city.nagoya.jp/collection/data/data_39/index.html",
+      "title": "名古屋市博物館：月僊「仏涅槃図」",
+      "locator": "養林寺伝来の涅槃図の節。秀貞?–1580、1562父の菩提のため岐阜に建立したのが始まりとされる。通勝として広く知られると表現。現在の寺の位置を戦国期本人の訪問先としない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "harada-dictionary": {
+      "url": "https://kotobank.jp/word/原田直政-116619",
+      "title": "コトバンク：原田直政（平凡社・講談社・ブリタニカ）",
+      "locator": "塙から原田姓、九郎左衛門・備中守、京都政務と山城/大和守護、1576三津寺で戦死。没日は講談社5月3日、ブリタニカ5月4日。重友・長俊の異名は辞典記載だが文書実名との照合未了。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "kawachinagano-ban": {
+      "url": "https://www.city.kawachinagano.lg.jp/report/061_121207_rekishikouza/history.html",
+      "title": "河内長野市：河内長野地域学講座Ⅱ・第6回講演要旨",
+      "locator": "信長勢力の河内浸透・支配の節。1576金剛寺への徳政遵守命令、塙直政・松井友閑上使連署折紙。上使在城を直政本人の烏帽子形在城と誤読しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "kyoto-murai": {
+      "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000150923.html",
+      "title": "京都市歴史資料館：京都に光秀がやってきた",
+      "locator": "1568入京後の光秀と貞勝の民政、饅頭屋町伝来の明智光秀・村井貞勝連署書状写。別ページの電子展示解説は本文取得できず、翻刻まで読んだとはしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "murai-dictionary": {
+      "url": "https://kotobank.jp/word/村井貞勝-17013",
+      "title": "コトバンク：村井貞勝（平凡社・講談社）",
+      "locator": "1549奉行として連署、御所修理・朝廷折衝、1573京都所司代、1582信忠と二条御所で戦死。吉兵衛・春長軒・民部丞等。生年不詳。江戸期所司代の全権限を遡及させない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "matsue-tadauji": {
+      "url": "https://www.city.matsue.lg.jp/material/files/group/34/column71.pdf",
+      "title": "松江市史料編纂課 福井将介：第71回 堀尾忠氏の発給文書について（2018）",
+      "locator": "PDF1–2・4頁。1600富田入城、1601知行目録、慶長6/8年瀧川宛書状と信濃守→出雲守、1604没。出雲・隠岐統治と築城計画、松江城着工前の死を区別。1598以前の活動はほぼ不明とする。",
+      "kind": "public_research_article",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "horio-genealogy": {
+      "url": "https://www.city.matsue.lg.jp/material/files/group/2/bunken.pdf",
+      "title": "堀尾吉晴公共同研究会：堀尾氏発給文書及び系譜集（2021）",
+      "locator": "PDF73頁（紙面137頁）堀尾近代系図並外孫縁者之略覚の忠氏条。若名弥助・信濃守/出雲守・慶長9年8月4日没・享年28。後世系譜の翻刻であり同時代出生記録ではない。",
+      "kind": "published_transcription",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "PDF抽出文と73頁スクリーンショットを照合。縦書きの忠氏条を目視確認。"
+    },
+    "tadauji-dictionary": {
+      "url": "https://kotobank.jp/word/堀尾忠氏-1108327",
+      "title": "講談社デジタル版日本人名大辞典：堀尾忠氏",
+      "locator": "1577–1604・弥助。正本に残る1578説の根拠は今回未取得。「美濃川越」の地名は未解決として略歴へ採用しない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "joetsu-tadateru": {
+      "url": "https://www.city.joetsu.niigata.jp/site/museum/takada-castle-list-tadateru.html",
+      "title": "上越市立歴史博物館：松平忠輝",
+      "locator": "1592生・辰千代、1610福島城・1614高田城、1616朝熊・1618高山・1626高島城南の丸・1683没。改易理由の通商等は推測表現であり断定しない。文禄元年8月表記と改元時期の照合は未了。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "joetsu-takada": {
+      "url": "https://www.city.joetsu.niigata.jp/site/museum/takada-castle-history.html",
+      "title": "上越市立歴史博物館：高田城の歴史",
+      "locator": "1610川中島から入封、1614天下普請、伊達政宗を総裁に13大名が普請。忠輝一人の設計・工事としない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "fukaya-tadateru": {
+      "url": "https://www.city.fukaya.saitama.jp/soshiki/kyoiku/bunka/digitalmuseum/jinbutsu02/1487570936184.html",
+      "title": "深谷市：松平忠輝",
+      "locator": "1592–1683。1599長沢松平家継承・深谷藩1万石、1602佐倉移封。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "suwa-tadateru": {
+      "url": "https://suwacitymuseum.jp/nandemo/koumoku/1000/100202.htm",
+      "title": "諏訪市博物館：なんでも諏訪百科・松平忠輝",
+      "locator": "1592–1683、松城城主、1626高島藩預け。家康の勘当という表現は上越市の秀忠による改易と分ける。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "ndl-tadateru": {
+      "url": "https://id.ndl.go.jp/auth/ndlna/00624204",
+      "title": "国立国会図書館典拠：松平忠輝 1593–1683",
+      "locator": "名称・生年欄1593、出典は諏訪忠輝会編「松平忠輝」、最終更新1998。典拠の値を史実確定値に昇格しない。自治体の1592との資料差と出典追跡先のみ確認。",
+      "kind": "library_authority_metadata",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "joetsu-terms": {
+      "url": "https://www.city.joetsu.niigata.jp/site/userguide/copyright.html",
+      "title": "上越市：著作権等",
+      "locator": "文章画像PDF等の転載・二次利用は法定例外外で要連絡。リンクは原則自由。オープンデータの条件を博物館文章へ横展開しない。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "転載制限を部分確認。独自文章・画像不使用。",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "matsue-terms": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/matsueshiyakusho/3631.html",
+      "title": "松江市：著作権・免責事項・リンク等",
+      "locator": "著作権節。市または提供者所有、法定例外外の無断使用・転載不可。PDF内の第三者画像や翻刻等の個別権利は別途。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "市サイトの転載制限を部分確認。個別原資料権利未確認。",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    }
+  },
+  "people": {
+    "1638": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "羽柴敦賀侍従"
+      ],
+      "note": "1534出生の根拠未確認。4万石は人足割付の推計、5万石は日記記載として区別し、略歴では石高を省く。築城の創始・完成も未確定。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "蜂屋頼隆を県史・市博物館で確認。",
+          "sourceIds": [
+            "fukui-hachiya-rule",
+            "tsuruga-hachiya"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "信長家臣で豊臣政権の敦賀領主、後任大谷吉継と別人。",
+          "sourceIds": [
+            "tsuruga-hachiya",
+            "fukui-hachiya-death"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "羽柴敦賀侍従を館の本文で確認。他の官名・豊臣姓の全照合未了。",
+          "sourceIds": [
+            "tsuruga-hachiya"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "正本1534説の出生記録を未確認。",
+          "sourceIds": [
+            "fukui-hachiya-rule"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "天正17年（1589）9月25日没を県史で年単位確認。旧暦月日は新暦未換算。",
+          "sourceIds": [
+            "fukui-hachiya-death"
+          ],
+          "value": 1589
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "織田・豊臣への奉仕、賤ヶ岳後敦賀支配、南条郡の知行宛行、死後大谷氏へ交替を要約。",
+          "sourceIds": [
+            "tsuruga-hachiya",
+            "fukui-hachiya-rule",
+            "fukui-hachiya-death"
+          ]
+        }
+      ],
+      "biography": "織田信長に仕え、のち豊臣秀吉のもとで敦賀を治めた。賤ヶ岳の戦いの後に入部し、南条郡にも所領を持って家臣に土地を与えた。羽柴敦賀侍従と呼ばれたが、1589年に後継者なく没し、敦賀には大谷吉継が入った。"
+    },
+    "1650": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [],
+      "note": "生年1513は未確認。名古屋市博物館は没1580、辞典は生没不詳。通勝は慣用名としての記載と正しい実名ではないとの解説を分け、別人との自動統合へ使わない。南部勝利との同一性未確認。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "林秀貞の表記を博物館・辞典で確認。",
+          "sourceIds": [
+            "nagoya-hayashi",
+            "hayashi-dictionary"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "信秀・信長の家臣の秀貞を対象。南部勝利等との同定は今回できない。",
+          "sourceIds": [
+            "hayashi-dictionary"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "disputed",
+          "result": "通勝は博物館で広く知られる名とされるが、辞典は秀貞が正しいと明記。正本の新五郎・南部勝利は未確認。",
+          "sourceIds": [
+            "nagoya-hayashi",
+            "hayashi-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "資料は出生不詳。1513を独立確認できない。",
+          "sourceIds": [
+            "nagoya-hayashi",
+            "hayashi-dictionary"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "disputed",
+          "result": "名古屋市博物館は1580没、講談社辞典は不詳。1580追放の事実だけを死亡確認に転用しない。",
+          "sourceIds": [
+            "nagoya-hayashi",
+            "hayashi-dictionary"
+          ],
+          "candidateYears": [
+            1580
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "信秀・信長への奉仕、1556信行擁立と敗北、復帰・1580追放を独自要約。伝承的な寺創建は年表に限定。",
+          "sourceIds": [
+            "hayashi-dictionary"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "1562岐阜で養林寺創建とされる。現在地・後代の移転は本人の訪問としない。",
+          "sourceIds": [
+            "nagoya-hayashi"
+          ]
+        }
+      ],
+      "biography": "織田信秀の代から仕え、信長の補佐にあたった。1556年には柴田勝家らと信長の弟・信行を擁立して戦うが敗れた。その後は再び信長に仕えて軍事活動を担ったものの、1580年に織田家から追放された。"
+    },
+    "1674": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "原田直政",
+        "九郎左衛門",
+        "備中守"
+      ],
+      "note": "塙直政と原田直政の対応を記録。没年1576は確認、旧暦没日は3日/4日差を留保。重友・長俊の実名性、正勝・直正等の全候補は未解決。直政を討った個人名は断定しない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "塙直政を市の講演要旨で確認。",
+          "sourceIds": [
+            "kawachinagano-ban"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "原田姓を与えられた信長家臣で、別名と政務が対応する。九州原田氏の別人物とは自動統合しない。",
+          "sourceIds": [
+            "harada-dictionary",
+            "kawachinagano-ban"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "原田直政・九郎左衛門・備中守を辞典で確認。重友・長俊は辞典記載のみで文書実名と未照合。",
+          "sourceIds": [
+            "harada-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "生年不詳。",
+          "sourceIds": [
+            "harada-dictionary"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1576戦死は各辞典で一致する年単位確認。没日は講談社旧5月3日、ブリタニカ5月4日で要照合、新暦変換なし。",
+          "sourceIds": [
+            "harada-dictionary"
+          ],
+          "value": 1576
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "京都施政・山城/大和守護・原田姓拝領、本願寺戦の最期を要約。",
+          "sourceIds": [
+            "harada-dictionary",
+            "kawachinagano-ban"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "金剛寺への徳政遵守命令。烏帽子形在城は上使であり本人在城ではない。",
+          "sourceIds": [
+            "kawachinagano-ban"
+          ]
+        }
+      ],
+      "biography": "織田信長の家臣として京都の政務に携わり、山城と大和の守護を兼ねた。原田姓を与えられ、原田直政とも呼ばれる。寺社への命令や大和の武士の統制を担い、1576年に石山本願寺との戦いで討死した。"
+    },
+    "1993": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "吉兵衛",
+        "春長軒",
+        "民部丞",
+        "民部少輔",
+        "長門守"
+      ],
+      "note": "市展示の連署書状写は存在と概要のみ確認。電子解説シートの翻刻本文は未取得。江戸時代の所司代の職掌をそのまま織田期へ遡及させない。生年は不明。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "村井貞勝を京都市歴史資料館で確認。",
+          "sourceIds": [
+            "kyoto-murai"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "光秀と京都民政に従事した貞勝。子貞成・清次等との全家系照合は未了。",
+          "sourceIds": [
+            "kyoto-murai",
+            "murai-dictionary"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "吉兵衛・春長軒・民部丞・民部少輔・長門守を辞典本文で確認。各称号の全使用時期は未確認。",
+          "sourceIds": [
+            "murai-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "辞典は生年不詳。",
+          "sourceIds": [
+            "murai-dictionary"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1582本能寺の変に際し二条御所で戦死。月日は旧暦6月2日の記載で新暦換算未実施。",
+          "sourceIds": [
+            "murai-dictionary"
+          ],
+          "value": 1582
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "京都所司代・町の行政・朝廷折衝・御所修理と信忠との最期を要約。",
+          "sourceIds": [
+            "kyoto-murai",
+            "murai-dictionary"
+          ]
+        }
+      ],
+      "biography": "織田信長の京都支配を政務の面で支えた家臣。明智光秀とともに町の行政に携わり、1573年に京都所司代となった。御所の修理や朝廷との交渉を担い、本能寺の変では織田信忠と二条御所に入り、戦死した。"
+    },
+    "1796": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "弥助",
+        "信濃守",
+        "出雲守"
+      ],
+      "note": "生年1577の辞典記載と正本1578説を保持。系譜の享年28は出生年を独立確定する資料ではない。父吉晴の松江築城完成を忠氏の事績としない。慶長6/8年書状の年代は研究者の比定。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "堀尾忠氏を市の文書研究で確認。",
+          "sourceIds": [
+            "matsue-tadauji"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "吉晴の子で忠晴の父。吉晴・忠氏・忠晴の事績を分離。",
+          "sourceIds": [
+            "matsue-tadauji",
+            "horio-genealogy"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "弥助・信濃守・出雲守を系譜翻刻、官名変化を文書研究で確認。全候補の照合未了。",
+          "sourceIds": [
+            "horio-genealogy",
+            "matsue-tadauji"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "辞典1577は確認。正本1578説の元史料は未取得。享年28から確定年を逆算しない。",
+          "sourceIds": [
+            "tadauji-dictionary",
+            "horio-genealogy"
+          ],
+          "candidateYears": [
+            1577,
+            1578
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1604没を市研究、系譜翻刻の慶長9年8月4日で年単位照合。新暦月日へ未換算。",
+          "sourceIds": [
+            "matsue-tadauji",
+            "horio-genealogy"
+          ],
+          "value": 1604
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "出雲・隠岐入国、富田城、知行宛行・検地、松江移転計画と着工前の死を要約。",
+          "sourceIds": [
+            "matsue-tadauji"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "市サイトの利用条件を確認。PDF内の図版・翻刻等の権利まで再利用許可を得たわけではない。",
+          "sourceIds": [
+            "matsue-terms"
+          ]
+        }
+      ],
+      "biography": "堀尾吉晴の子で、関ヶ原の戦い後に出雲・隠岐の領主となった。富田城を拠点に家臣への土地の配分や検地を進めた。父と松江への城地移転を計画したが、1604年に没し、築城事業は吉晴に引き継がれた。"
+    },
+    "1881": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "辰千代"
+      ],
+      "note": "自治体本文の出生1592とNDL典拠1593の差を記録。典拠の出典本は未実見で1593説の歴史的裏付けは未確認。改易理由・出生月日の異説は留保。1615以降の長い配流生活を略歴に含める。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "松平忠輝を上越・深谷・諏訪の市資料で確認。",
+          "sourceIds": [
+            "joetsu-tadateru",
+            "fukaya-tadateru",
+            "suwa-tadateru"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "家康六男・高田城主から高島藩預けとなった人物。長沢家継承を深谷市で確認。",
+          "sourceIds": [
+            "joetsu-tadateru",
+            "fukaya-tadateru"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "辰千代を市博物館解説で確認。竹丸・藤松・越後少将は今回本文で未照合。",
+          "sourceIds": [
+            "joetsu-tadateru"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "上越・深谷・諏訪市資料1592に対してNDL典拠1593。典拠出典の諏訪忠輝会編書は未実見。別年を史実確定とはせず、出生原史料の照合を継続。",
+          "sourceIds": [
+            "joetsu-tadateru",
+            "fukaya-tadateru",
+            "suwa-tadateru",
+            "ndl-tadateru"
+          ],
+          "candidateYears": [
+            1592,
+            1593
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1683没を上越・深谷・諏訪市本文で年単位確認。7月3日の新暦換算未実施。",
+          "sourceIds": [
+            "joetsu-tadateru",
+            "fukaya-tadateru",
+            "suwa-tadateru"
+          ],
+          "value": 1683
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "家康の子・信濃越後支配・高田築城、1616改易後伊勢/飛騨/諏訪への預けを要約。理由を推測しない。",
+          "sourceIds": [
+            "joetsu-tadateru",
+            "joetsu-takada",
+            "suwa-tadateru"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "1599深谷・1602佐倉、川中島・1610福島・1614高田、1616朝熊・1618高山・1626高島の順を市資料で確認。",
+          "sourceIds": [
+            "fukaya-tadateru",
+            "joetsu-tadateru",
+            "joetsu-takada",
+            "suwa-tadateru"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "上越市の著作物利用条件を部分確認。他自治体・NDL出典本等の条件は未確認。",
+          "sourceIds": [
+            "joetsu-terms"
+          ]
+        }
+      ],
+      "biography": "徳川家康の六男。信濃から越後へ所領を広げ、1614年に高田城を築いた。1616年に所領を没収され、伊勢、飛騨を経て諏訪藩の預かりとなる。高島城南の丸で長く暮らし、1683年に没した。"
+    }
+  },
+  "attempts": [],
+  "retrievalNotes": [
+    "市・県史・博物館本文と辞典本文を分けて記録。NDL典拠の年号は出典追跡情報であり歴史本文確認の代用ではない。",
+    "堀尾系譜集はPDF73頁の忠氏条を画像確認。64頁はスクリーンショット取得タイムアウトのためその画像を読んだとはしない。",
+    "京都市展示解説の電子ブックは本文取得できず、展示ページの概要のみ採用。",
+    "島根大学所蔵「堀尾古記」論文PDFは縦書き抽出が1文字単位で崩れ、今回の生年異説解決には使用しない。次回は紙面画像で忠氏記事を照合。"
+  ]
+}

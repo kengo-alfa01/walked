@@ -250,6 +250,14 @@
     "status": "candidate_only_do_not_merge"
   },
   {
+    "token": "九郎左衛門",
+    "personIds": [
+      "sg-master-0251",
+      "sg-master-1674"
+    ],
+    "status": "candidate_only_do_not_merge"
+  },
+  {
     "token": "亀童丸",
     "personIds": [
       "sg-bdc70f64e638",
@@ -380,7 +388,8 @@
     "personIds": [
       "sg-8df0e8922f50",
       "sg-master-1429",
-      "sg-master-1487"
+      "sg-master-1487",
+      "sg-master-1796"
     ],
     "status": "candidate_only_do_not_merge"
   },
@@ -437,6 +446,7 @@
     "token": "備中守",
     "personIds": [
       "sg-master-0752",
+      "sg-master-1674",
       "sg-master-1689"
     ],
     "status": "candidate_only_do_not_merge"
@@ -524,6 +534,14 @@
     "personIds": [
       "sg-cde02aaa8036",
       "sg-e04b78ac874d"
+    ],
+    "status": "candidate_only_do_not_merge"
+  },
+  {
+    "token": "出雲守",
+    "personIds": [
+      "sg-49a2411798d0",
+      "sg-master-1796"
     ],
     "status": "candidate_only_do_not_merge"
   },
@@ -1666,6 +1684,14 @@
     "personIds": [
       "sg-master-0485",
       "sg-master-2011"
+    ],
+    "status": "candidate_only_do_not_merge"
+  },
+  {
+    "token": "民部少輔",
+    "personIds": [
+      "sg-e701cb97b4d9",
+      "sg-master-1993"
     ],
     "status": "candidate_only_do_not_merge"
   },
