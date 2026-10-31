@@ -1,0 +1,19 @@
+✔ runtime validates selected dataset and archived card references (1.990508ms)
+✔ runtime fails on missing archive, duplicate IDs and broken card link (0.983366ms)
+✔ alias, reading, fullwidth-space and case normalization search (0.565669ms)
+✔ generic alias collisions remain search results, never ID merges (6.313068ms)
+✔ legacy visited-only backup restores; full backup preserves unknown/future found records (0.925189ms)
+✔ actual preview JS loads, renders selected count, searches aliases and displays verification labels (50.411669ms)
+✔ actual preview acquisition is idempotent, respects boundaries and never writes live keys (20.811042ms)
+✔ actual eligibility gate still excludes unreviewed and boundary-blocked cards (17.995636ms)
+✔ archived owned cards remain visible under found-only and do not enter active roster (26.700543ms)
+✔ same-name 島津家久 search returns two distinct people without merging IDs (0.51237ms)
+✔ year labels show independently confirmed correction and preserve unverified raw (0.155634ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 242.147884

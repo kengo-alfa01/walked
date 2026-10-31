@@ -9075,33 +9075,36 @@
     "name": "島左近",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "partially_verified"
     },
-    "biography": "戦国期に活動した武将。筒井順慶・筒井定次・豊臣秀長・豊臣秀保・石田三成に仕えた。島氏の一族にあたる。父は島清国。",
-    "biographyLength": 56,
+    "biography": "筒井順慶に仕え、のち石田三成の軍事を支えた。1600年の関ヶ原合戦では、前日の杭瀬川で勝利し、本戦では笹尾山の麓で東軍を迎え撃った。黒田勢の射撃で負傷し、戦列を離れたと伝えられる。",
+    "biographyLength": 90,
     "issues": [
       "full_historical_review_pending",
-      "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
-      "unknown_or_disputed_year_preserve_raw"
+      "alias_identity_review_pending"
     ],
     "sourceUrls": [
+      "https://kotobank.jp/word/島清興-1080757",
+      "https://www.pref.nara.lg.jp/ikasu-nara/bunkashigen/main10517.html",
+      "https://id.ndl.go.jp/auth/ndlna/00863084",
+      "https://sekigahara.pref.gifu.lg.jp/kuroda-nagamasa/",
+      "https://www.pref.nara.lg.jp/link.html",
       "https://ja.wikipedia.org/wiki/%E5%B3%B6%E6%B8%85%E8%88%88",
       "https://ja.wikipedia.org/w/index.php?oldid=111066297"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：正本の島左近を維持。生1540は未確認。父は正本清国と辞典友保の差を残す。椿井城の伝承・清興/勝猛の典拠対応と全別名確認を区別。"
   },
   {
     "id": "sg-41b3835895a3",
@@ -10318,33 +10321,35 @@
     "name": "多賀秀種",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "aliases": "partially_verified",
+      "birth": "disputed",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "partially_verified"
     },
-    "biography": "戦国期から江戸初期に活動した大名。堀秀政・豊臣秀長・豊臣秀保・豊臣秀吉・豊臣秀頼・堀秀治・堀忠俊・前田利常に仕えた。高田藩・加賀藩に属した。堀氏・多賀氏の一族にあたる。父は堀秀重。",
-    "biographyLength": 90,
+    "biography": "堀秀政の弟で、豊臣政権下で大和の宇陀松山城主となった。出土した家紋瓦から、在城中に城の大改修を進めたと考えられる。関ヶ原で西軍に属して領地を失い、越後の堀家を頼った後、前田利常に仕えた。",
+    "biographyLength": 93,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.pref.nara.lg.jp/ikasu-nara/naranoshiro/udamatsuyamajo/index.html",
+      "https://www.uda-kankou.jp/feature/3076",
+      "https://www.pref.nara.lg.jp/link.html",
       "https://ja.wikipedia.org/wiki/%E5%A4%9A%E8%B3%80%E7%A7%80%E7%A8%AE",
       "https://ja.wikipedia.org/w/index.php?oldid=109588904"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：生1565/1567を保持。城改修は家紋瓦からの推定。市ページ一覧の永禄元1592は対応誤記で、県の文禄元1592を採用する。"
   },
   {
     "id": "sg-05d4ad2ca192",
@@ -10723,33 +10728,35 @@
     "name": "竹中重義",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
-    "biography": "江戸時代に活動した大名。徳川秀忠・徳川家光に仕えた。豊後府内藩主を務めた。竹中氏の一族にあたる。官位には従五位下采女正が記される。",
-    "biographyLength": 65,
+    "biography": "父重利を継いだ豊後府内藩主。万寿寺の再興を援助し、1629年には長崎奉行となってキリシタンの取締りに当たった。のち不正を訴えられて奉行職を解かれ、1634年に長男とともに切腹した。",
+    "biographyLength": 90,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.oita.oita.jp/o204/shitsumon/shogaigakushu/1211853934515.html",
+      "https://kotobank.jp/word/竹中重次-1088746",
+      "https://www.city.oita.oita.jp/o204/bunkasports/rekishi/map/route3.html",
       "https://ja.wikipedia.org/wiki/%E7%AB%B9%E4%B8%AD%E9%87%8D%E7%BE%A9",
       "https://ja.wikipedia.org/w/index.php?oldid=103462881"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：父重利の城下整備・若宮八幡再築と、本人の万寿寺再興援助を区別。重興は未確認。処分理由を未読の密貿易・女性逸話で補わない。"
   },
   {
     "id": "sg-master-1251",
@@ -11658,33 +11665,34 @@
     "name": "遠山友忠",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
       "birth": "unverified",
       "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
-    "biography": "戦国期に活動した大名。織田信長・徳川家康に仕えた。遠山氏の一族にあたる。父は遠山友勝。官位には右衛門佐が記される。",
-    "biographyLength": 57,
+    "biography": "苗木城を拠点とした遠山氏の当主。1582年には木曽義昌を武田氏から離反させ、織田信長への取り次ぎに携わった。のち森長可と対立し、1583年に子の友政と苗木を去って浜松の徳川家康に従った。",
+    "biographyLength": 93,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.nakatsugawa.lg.jp/museum/t/exhibits/themed/39822.html",
+      "https://www.city.nakatsugawa.lg.jp/museum/t/archives/materials/1584.html",
       "https://ja.wikipedia.org/wiki/%E9%81%A0%E5%B1%B1%E5%8F%8B%E5%BF%A0",
       "https://ja.wikipedia.org/w/index.php?oldid=109216124"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：1583苗木退去・浜松移動は市史料館の最新展示解説による。1600の城奪還は友政であり友忠へ移さない。生没年と久兵衛等の異称は未確認。"
   },
   {
     "id": "sg-master-1380",
@@ -11758,16 +11766,16 @@
     "name": "土岐政頼",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
       "birth": "unverified",
       "death": "unverified",
-      "biography": "unverified",
+      "biography": "partially_verified",
       "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
     "biography": "戦国期に活動した大名。土岐氏の一族にあたる。父は土岐政房。官位には修理大夫が記される。没年は1530年と記録される。",
@@ -11779,12 +11787,16 @@
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.kawabe-gifu.jp/wp-content/uploads/2015/10/007_%E5%B7%9D%E8%BE%BA%E7%94%BA%E5%8F%B2-%E9%80%9A%E5%8F%B2%E7%B7%A8_%E7%AC%AC%E4%BA%8C%E7%B7%A8-%E6%AD%B4%E5%8F%B2%E7%9A%84%E8%83%8C%E6%99%AF-%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%8F%A4%E4%BB%A3%EF%BD%A5%E4%B8%AD%E4%B8%96.pdf",
+      "https://www.pref.gifu.lg.jp/page/129194.html",
+      "https://www.pref.gifu.lg.jp/page/129385.html",
+      "https://www.pref.gifu.lg.jp/uploaded/attachment/229295.pdf",
       "https://ja.wikipedia.org/wiki/%E5%9C%9F%E5%B2%90%E9%A0%BC%E6%AD%A6",
       "https://ja.wikipedia.org/w/index.php?oldid=105039571"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipediaプロフィール記載・事績未確認",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：町史に政頼の本文あり。ただし正本別名の頼武との直接対応未確定。県の「盛頼（正しくは頼武）」は江戸期編纂史料の校訂で、実際の改名の証拠にしない。"
   },
   {
     "id": "sg-person-toki-yoriaki",

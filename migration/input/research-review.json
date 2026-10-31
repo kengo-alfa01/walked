@@ -3881,6 +3881,155 @@
       "evidenceRef": "migration/research/20261031-06/evidence.json#/people/1037",
       "approvalStatus": "pending_user_review",
       "approvalDate": null
+    },
+    "1045": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "verified",
+        "biography": "verified",
+        "license": "partially_verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedDeathValue": 1600,
+      "biography": "筒井順慶に仕え、のち石田三成の軍事を支えた。1600年の関ヶ原合戦では、前日の杭瀬川で勝利し、本戦では笹尾山の麓で東軍を迎え撃った。黒田勢の射撃で負傷し、戦列を離れたと伝えられる。",
+      "verifiedAliases": [
+        "島清興",
+        "島勝猛",
+        "左近"
+      ],
+      "sources": [
+        "https://kotobank.jp/word/島清興-1080757",
+        "https://www.pref.nara.lg.jp/ikasu-nara/bunkashigen/main10517.html",
+        "https://id.ndl.go.jp/auth/ndlna/00863084",
+        "https://sekigahara.pref.gifu.lg.jp/kuroda-nagamasa/",
+        "https://www.pref.nara.lg.jp/link.html"
+      ],
+      "note": "2026-10-31追記：正本の島左近を維持。生1540は未確認。父は正本清国と辞典友保の差を残す。椿井城の伝承・清興/勝猛の典拠対応と全別名確認を区別。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "351d7dd1ff71849dae3c4b986c7ad749f8882b045e50429551f915376105f68f",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-07/evidence.json#/people/1045",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null,
+      "licenseStatus": "partially_verified"
+    },
+    "1200": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "disputed",
+        "death": "verified",
+        "biography": "verified",
+        "license": "partially_verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "additionalBirthCandidates": [
+        1565,
+        1567
+      ],
+      "confirmedDeathValue": 1616,
+      "biography": "堀秀政の弟で、豊臣政権下で大和の宇陀松山城主となった。出土した家紋瓦から、在城中に城の大改修を進めたと考えられる。関ヶ原で西軍に属して領地を失い、越後の堀家を頼った後、前田利常に仕えた。",
+      "verifiedAliases": [
+        "出雲守"
+      ],
+      "sources": [
+        "https://www.pref.nara.lg.jp/ikasu-nara/naranoshiro/udamatsuyamajo/index.html",
+        "https://www.uda-kankou.jp/feature/3076",
+        "https://www.pref.nara.lg.jp/link.html"
+      ],
+      "note": "2026-10-31追記：生1565/1567を保持。城改修は家紋瓦からの推定。市ページ一覧の永禄元1592は対応誤記で、県の文禄元1592を採用する。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "f05952488fd0c085d9bf96aa805451217d7ba7dfc7eb4deb9330a42799134925",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-07/evidence.json#/people/1200",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null,
+      "licenseStatus": "partially_verified"
+    },
+    "1250": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "verified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedDeathValue": 1634,
+      "biography": "父重利を継いだ豊後府内藩主。万寿寺の再興を援助し、1629年には長崎奉行となってキリシタンの取締りに当たった。のち不正を訴えられて奉行職を解かれ、1634年に長男とともに切腹した。",
+      "verifiedAliases": [
+        "重次"
+      ],
+      "sources": [
+        "https://www.city.oita.oita.jp/o204/shitsumon/shogaigakushu/1211853934515.html",
+        "https://kotobank.jp/word/竹中重次-1088746",
+        "https://www.city.oita.oita.jp/o204/bunkasports/rekishi/map/route3.html"
+      ],
+      "note": "2026-10-31追記：父重利の城下整備・若宮八幡再築と、本人の万寿寺再興援助を区別。重興は未確認。処分理由を未読の密貿易・女性逸話で補わない。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "765bfa4405d471b9e0404334f680203a67c68cf707fb5115843adaba47e46e7d",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-07/evidence.json#/people/1250",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "1379": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "unverified",
+        "birth": "unverified",
+        "death": "unverified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "biography": "苗木城を拠点とした遠山氏の当主。1582年には木曽義昌を武田氏から離反させ、織田信長への取り次ぎに携わった。のち森長可と対立し、1583年に子の友政と苗木を去って浜松の徳川家康に従った。",
+      "verifiedAliases": [],
+      "sources": [
+        "https://www.city.nakatsugawa.lg.jp/museum/t/exhibits/themed/39822.html",
+        "https://www.city.nakatsugawa.lg.jp/museum/t/archives/materials/1584.html"
+      ],
+      "note": "2026-10-31追記：1583苗木退去・浜松移動は市史料館の最新展示解説による。1600の城奪還は友政であり友忠へ移さない。生没年と久兵衛等の異称は未確認。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "2db6fdc2465aceddadd213eb42fd2e1f8dc87ac8bd0d0e21b67278f644e4a61d",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-07/evidence.json#/people/1379",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "1386": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "unverified",
+        "birth": "unverified",
+        "death": "unverified",
+        "biography": "partially_verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "verifiedAliases": [],
+      "sources": [
+        "https://www.kawabe-gifu.jp/wp-content/uploads/2015/10/007_%E5%B7%9D%E8%BE%BA%E7%94%BA%E5%8F%B2-%E9%80%9A%E5%8F%B2%E7%B7%A8_%E7%AC%AC%E4%BA%8C%E7%B7%A8-%E6%AD%B4%E5%8F%B2%E7%9A%84%E8%83%8C%E6%99%AF-%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%8F%A4%E4%BB%A3%EF%BD%A5%E4%B8%AD%E4%B8%96.pdf",
+        "https://www.pref.gifu.lg.jp/page/129194.html",
+        "https://www.pref.gifu.lg.jp/page/129385.html",
+        "https://www.pref.gifu.lg.jp/uploaded/attachment/229295.pdf"
+      ],
+      "note": "2026-10-31追記：町史に政頼の本文あり。ただし正本別名の頼武との直接対応未確定。県の「盛頼（正しくは頼武）」は江戸期編纂史料の校訂で、実際の改名の証拠にしない。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "dfafb1a97db3e693b2f4d519f07b8f5e02384c74e44f2f45d2492466fc6c8958",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-07/evidence.json#/people/1386",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
     }
   },
   "sourcePolicies": [

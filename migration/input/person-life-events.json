@@ -18,7 +18,8 @@
     "20261031-03": "migration/research/20261031-03/evidence.json",
     "20261031-04": "migration/research/20261031-04/evidence.json",
     "20261031-05": "migration/research/20261031-05/evidence.json",
-    "20261031-06": "migration/research/20261031-06/evidence.json"
+    "20261031-06": "migration/research/20261031-06/evidence.json",
+    "20261031-07": "migration/research/20261031-07/evidence.json"
   },
   "candidates": {
     "plc-gifu-castle": {
@@ -2324,6 +2325,114 @@
       "deduplicationStatus": "pending_nationwide_work",
       "crossThreadOverlap": "未照合",
       "unresolved": "詮真と詮直を分ける。伝承の史料系統と年代は要照合。"
+    },
+    "plc-kuisegawa": {
+      "candidateId": "plc-kuisegawa",
+      "placeName": "杭瀬川の戦場",
+      "regionAsSource": "美濃",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "戦場範囲・既存候補との対応未確定。関ヶ原本戦とは別日の戦闘。"
+    },
+    "plc-sasaoyama-foot": {
+      "candidateId": "plc-sasaoyama-foot",
+      "placeName": "笹尾山麓（島左近の布陣地）",
+      "regionAsSource": "美濃",
+      "spatialGranularity": "area",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "山頂の石田三成陣と区別。現在の標柱を当時の陣の厳密な位置にしない。"
+    },
+    "plc-uda-matsuyama": {
+      "candidateId": "plc-uda-matsuyama",
+      "placeName": "宇陀松山城",
+      "regionAsSource": "大和宇陀",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "多賀期の改修は出土瓦による推定。後の福島期改修・1615破却とは分離。"
+    },
+    "plc-echigo-taga-refuge": {
+      "candidateId": "plc-echigo-taga-refuge",
+      "placeName": "越後（多賀秀種が堀家を頼った地域）",
+      "regionAsSource": "越後",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "堀秀治への寄寓という地域単位。城・屋敷の特定根拠なし。長尾氏の領国候補と訪問単位の照合は未完。"
+    },
+    "plc-funai-castle": {
+      "candidateId": "plc-funai-castle",
+      "placeName": "府内城",
+      "regionAsSource": "豊後",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "竹中重利の築城・城下整備と子重義の在城を区別。"
+    },
+    "plc-manjuji-oita": {
+      "candidateId": "plc-manjuji-oita",
+      "placeName": "万寿寺（重義の再興援助の対象）",
+      "regionAsSource": "豊後府内",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "旧万寿寺跡とは別候補。金池町の寺の再興援助であって本人訪問の確認ではない。"
+    },
+    "plc-nagasaki-administration": {
+      "candidateId": "plc-nagasaki-administration",
+      "placeName": "長崎（奉行職の管轄地域）",
+      "regionAsSource": "肥前",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "奉行就任の管轄地域。奉行所建物・本人の到着や居住地点は未確認。"
+    },
+    "plc-naegi-castle": {
+      "candidateId": "plc-naegi-castle",
+      "placeName": "苗木城",
+      "regionAsSource": "美濃",
+      "spatialGranularity": "site",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "友忠の退去と子友政の1600奪還を区別。"
+    },
+    "plc-hamamatsu-region": {
+      "candidateId": "plc-hamamatsu-region",
+      "placeName": "浜松（友忠が家康に従った地域）",
+      "regionAsSource": "遠江",
+      "spatialGranularity": "region",
+      "existingSiteId": null,
+      "locationStatus": "unverified",
+      "coordinates": null,
+      "deduplicationStatus": "pending_nationwide_work",
+      "crossThreadOverlap": "未照合",
+      "unresolved": "具体的居館未確認。浜松城内への居住を断定しない。"
     }
   },
   "events": [
@@ -10137,6 +10246,291 @@
       "approvalStatus": "pending_user_review",
       "previousMainBaseCandidateId": null,
       "unresolved": "没年は資料に1553/1554/1555の記載差。正確な年を未確定とし、子義銀の追放とは分ける。"
+    },
+    {
+      "eventId": "life-1045-001",
+      "personId": "sg-master-1045",
+      "rosterId": "1045",
+      "personName": "島左近",
+      "candidateId": "plc-kuisegawa",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "関ヶ原本戦の前日に杭瀬川の戦いで勝利した。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261031-07:shima-sekigahara"
+      ],
+      "sourceLocator": "島左近陣跡。1600杭瀬川勝利、笹尾山麓の布陣、黒田隊射撃で負傷・離脱。山頂の三成陣と区別。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "旧暦日付・戦場範囲の詳細は未照合。"
+    },
+    {
+      "eventId": "life-1045-002",
+      "personId": "sg-master-1045",
+      "rosterId": "1045",
+      "personName": "島左近",
+      "candidateId": "plc-sasaoyama-foot",
+      "dateLabel": "1600年",
+      "yearStart": 1600,
+      "yearEnd": 1600,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "関ヶ原本戦で笹尾山麓に布陣し、黒田勢の射撃で負傷して戦列を離れた。",
+      "relationTypes": [
+        "参戦"
+      ],
+      "sourceRefs": [
+        "20261031-07:shima-sekigahara"
+      ],
+      "sourceLocator": "島左近陣跡。1600杭瀬川勝利、笹尾山麓の布陣、黒田隊射撃で負傷・離脱。山頂の三成陣と区別。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "負傷・離脱の地点を戦死地点としない。後世の陣跡標柱と当時の厳密な範囲は未照合。"
+    },
+    {
+      "eventId": "life-1200-001",
+      "personId": "sg-master-1200",
+      "rosterId": "1200",
+      "personName": "多賀秀種",
+      "candidateId": "plc-uda-matsuyama",
+      "dateLabel": "1592年",
+      "yearStart": 1592,
+      "yearEnd": 1592,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "宇陀松山城主となった。",
+      "relationTypes": [
+        "居城",
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261031-07:taga-nara",
+        "20261031-07:taga-uda"
+      ],
+      "sourceLocator": "文禄元1592多賀秀種が城主。酢漿草紋瓦から多賀氏段階の大改修を推定。改修主体を確定事実にしない。 / 1565–1616、秀政の弟、出雲守、1592宇陀入部、1600西軍改易、越後の堀秀治を頼り後に前田利常へ仕官。冒頭一覧の永禄元1592は年対応誤記として留保。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "市一覧の永禄元1592は年対応誤記。県の文禄元1592と市本文を照合。"
+    },
+    {
+      "eventId": "life-1200-002",
+      "personId": "sg-master-1200",
+      "rosterId": "1200",
+      "personName": "多賀秀種",
+      "candidateId": "plc-uda-matsuyama",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "家紋瓦の出土から、秀種在城期の大規模改修が推定されている。",
+      "relationTypes": [
+        "改修"
+      ],
+      "sourceRefs": [
+        "20261031-07:taga-nara"
+      ],
+      "sourceLocator": "文禄元1592多賀秀種が城主。酢漿草紋瓦から多賀氏段階の大改修を推定。改修主体を確定事実にしない。",
+      "relationStatus": "partially_verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "改修主体と年は出土瓦に基づく推定。新規創築の確認ではない。"
+    },
+    {
+      "eventId": "life-1200-003",
+      "personId": "sg-master-1200",
+      "rosterId": "1200",
+      "personName": "多賀秀種",
+      "candidateId": "plc-echigo-taga-refuge",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "関ヶ原後の改易を経て、越後の堀秀治を頼った。",
+      "relationTypes": [
+        "滞在"
+      ],
+      "sourceRefs": [
+        "20261031-07:taga-uda"
+      ],
+      "sourceLocator": "1565–1616、秀政の弟、出雲守、1592宇陀入部、1600西軍改易、越後の堀秀治を頼り後に前田利常へ仕官。冒頭一覧の永禄元1592は年対応誤記として留保。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-uda-matsuyama",
+      "unresolved": "正確な移住年・城や屋敷は未確認。前田仕官から金沢滞在を自動生成しない。"
+    },
+    {
+      "eventId": "life-1250-001",
+      "personId": "sg-master-1250",
+      "rosterId": "1250",
+      "personName": "竹中重義",
+      "candidateId": "plc-funai-castle",
+      "dateLabel": "1615年",
+      "yearStart": 1615,
+      "yearEnd": 1615,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "父重利を継いで府内藩主となった。",
+      "relationTypes": [
+        "居城",
+        "領地経営"
+      ],
+      "sourceRefs": [
+        "20261031-07:takenaka-dictionary",
+        "20261031-07:takenaka-oita"
+      ],
+      "sourceLocator": "生年不詳・1634没、重利の子、1615府内2代、1629長崎奉行、1633解職、翌旧2/22長男と切腹、別名重義。 / 父重利の城下整備と次代重義の不正・切腹を区別。次は日根野吉明。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "父の城下建設事績を継承時の本人の新規事業にしない。"
+    },
+    {
+      "eventId": "life-1250-002",
+      "personId": "sg-master-1250",
+      "rosterId": "1250",
+      "personName": "竹中重義",
+      "candidateId": "plc-manjuji-oita",
+      "dateLabel": "年代未確認",
+      "yearStart": null,
+      "yearEnd": null,
+      "datePrecision": "unknown",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "丹山和尚による万寿寺の再興を援助した。",
+      "relationTypes": [
+        "寺社保護"
+      ],
+      "sourceRefs": [
+        "20261031-07:takenaka-manjuji"
+      ],
+      "sourceLocator": "「万寿寺」節。江戸時代、丹山和尚が竹中重義の援助で再興。旧万寿寺跡と現在金池町の寺を区別。若宮八幡再建は父重利らの別記事。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "requires_review",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "金池町の寺の再興支援。具体的年・本人訪問・援助内容は未確認。墓所・菩提寺調査ではない。"
+    },
+    {
+      "eventId": "life-1250-003",
+      "personId": "sg-master-1250",
+      "rosterId": "1250",
+      "personName": "竹中重義",
+      "candidateId": "plc-nagasaki-administration",
+      "dateLabel": "1629年",
+      "yearStart": 1629,
+      "yearEnd": 1629,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "長崎奉行となり、キリシタンを取り締まった。",
+      "relationTypes": [
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261031-07:takenaka-dictionary"
+      ],
+      "sourceLocator": "生年不詳・1634没、重利の子、1615府内2代、1629長崎奉行、1633解職、翌旧2/22長男と切腹、別名重義。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "奉行職の管轄地域。本人の私領とはせず、居住・到着・奉行所所在地は未確定。"
+    },
+    {
+      "eventId": "life-1379-001",
+      "personId": "sg-master-1379",
+      "rosterId": "1379",
+      "personName": "遠山友忠",
+      "candidateId": "plc-naegi-castle",
+      "dateLabel": "1583年",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "森長可らとの抗争の中で子友政と苗木城を去った。",
+      "relationTypes": [
+        "居城",
+        "その他転機"
+      ],
+      "sourceRefs": [
+        "20261031-07:toyama-naegi"
+      ],
+      "sourceLocator": "1583冬、友忠父子は苗木を去り浜松の家康に従う。1600苗木奪還・初代藩主は息子友政であり友忠へ転記しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": null,
+      "unresolved": "市史料館展示解説は天正11年冬。城主就任年とは別で、1600奪還は友政の活動。"
+    },
+    {
+      "eventId": "life-1379-002",
+      "personId": "sg-master-1379",
+      "rosterId": "1379",
+      "personName": "遠山友忠",
+      "candidateId": "plc-hamamatsu-region",
+      "dateLabel": "1583年",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "datePrecision": "year",
+      "calendarBasis": "資料の和暦対応年・西暦年表示。旧暦月日を新暦月日へ自動変換しない。",
+      "event": "苗木退去後、子友政と浜松の家康に従った。",
+      "relationTypes": [
+        "滞在"
+      ],
+      "sourceRefs": [
+        "20261031-07:toyama-naegi"
+      ],
+      "sourceLocator": "1583冬、友忠父子は苗木を去り浜松の家康に従う。1600苗木奪還・初代藩主は息子友政であり友忠へ転記しない。",
+      "relationStatus": "verified",
+      "sourceBodyStatus": "body_read",
+      "dateStatus": "verified",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "事実を独自要約。転載なし。個別条件は根拠JSON参照。",
+      "approvalStatus": "pending_user_review",
+      "previousMainBaseCandidateId": "plc-naegi-castle",
+      "unresolved": "具体的居住建物・経路は未確認。"
     }
   ],
   "residenceSequences": [
@@ -10546,6 +10940,36 @@
         "life-0480-002"
       ],
       "note": "結城配流→関ヶ原後の豊臣家帰参と大坂。帰参年と具体的居館未確認、途中の全経路は表さない。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "1200",
+      "personId": "sg-master-1200",
+      "personName": "多賀秀種",
+      "candidateIds": [
+        "plc-uda-matsuyama",
+        "plc-echigo-taga-refuge"
+      ],
+      "eventIds": [
+        "life-1200-001",
+        "life-1200-003"
+      ],
+      "note": "宇陀在城→改易後の越後寄寓。詳細年・居館・全経路は未確認。",
+      "completeness": "partial_not_exhaustive"
+    },
+    {
+      "rosterId": "1379",
+      "personId": "sg-master-1379",
+      "personName": "遠山友忠",
+      "candidateIds": [
+        "plc-naegi-castle",
+        "plc-hamamatsu-region"
+      ],
+      "eventIds": [
+        "life-1379-001",
+        "life-1379-002"
+      ],
+      "note": "苗木退去→浜松で家康に従う。具体的居館・全経路は未確認。",
       "completeness": "partial_not_exhaustive"
     }
   ]

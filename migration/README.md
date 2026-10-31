@@ -2,7 +2,11 @@
 
 2026-10-26取得の正本を基にした、データ移行・更新処理のレビュー用成果物です。**624人全員の史実確認を完了した成果物ではありません。公開置換・main反映を行わないでください。**
 
-## 最新：2026-10-31 第6回
+## 最新：2026-10-31 第7回
+
+[624人レビュー・根拠・再開点](reports/person-quality-20261031-07/README.md)：着手+6・本人本文+5・略歴+4、累計145/144/131。生39・没93・両方35・精査完了0。未着手479、本文未確認480、機械文404。鈴木重朝は書誌・混在記事のみ、土岐政頼は頼武との対応未確定で改稿保留。年表74人284イベント・202候補。Python27/Node11/構造31成功、参照切れ0。正式データ未切替。
+
+## 2026-10-31 第6回
 
 [624人レビュー・根拠・再開点](reports/person-quality-20261031-06/README.md)：本文+6人・略歴+5案、累計139人・127案。斯波詮真は事績不足で改稿保留。生年39・没年90・両方35・精査完了0。未着手485・機械文408。義統の没年記載差、晴通の県史未読候補、一直の入封年不整合を保存。年表70人274イベント・193候補。Python27/Node11/構造31成功、参照切れ0。正式データ未切替。
 
@@ -141,7 +145,7 @@ CSVはExcelで開けるUTF-8 BOM付きです。略歴・氏名・URLには日本
 ```sh
 python scripts/generate_sengoku_master.py
 python scripts/build_migration_preview.py
-python scripts/build_person_quality_review.py --round 20261031-06
+python scripts/build_person_quality_review.py --round 20261031-07
 python scripts/build_person_life_timeline.py
 python scripts/validate_sengoku_master.py
 python -m unittest discover -s tests -p 'test_*.py' -v
