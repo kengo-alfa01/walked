@@ -2,7 +2,11 @@
 
 2026-10-26取得の正本を基にした、データ移行・更新処理のレビュー用成果物です。**624人全員の史実確認を完了した成果物ではありません。公開置換・main反映を行わないでください。**
 
-## 最新：2026-10-31 第5回
+## 最新：2026-10-31 第6回
+
+[624人レビュー・根拠・再開点](reports/person-quality-20261031-06/README.md)：本文+6人・略歴+5案、累計139人・127案。斯波詮真は事績不足で改稿保留。生年39・没年90・両方35・精査完了0。未着手485・機械文408。義統の没年記載差、晴通の県史未読候補、一直の入封年不整合を保存。年表70人274イベント・193候補。Python27/Node11/構造31成功、参照切れ0。正式データ未切替。
+
+## 2026-10-31 第5回
 
 [624人レビュー・根拠・再開点](reports/person-quality-20261031-05/README.md)：本文+6人・略歴+6案、累計133人・122案。生年38・没年87・両方35・精査完了0。未着手491・機械文413。少弐/十河の名乗り、畠山高政の居場所、義綱の再建主体、別所父子の石高・移封を整理。年表64人262イベント・185候補。Python27/Node11/構造31成功、参照切れ0。正式データ未切替。
 
@@ -137,7 +141,7 @@ CSVはExcelで開けるUTF-8 BOM付きです。略歴・氏名・URLには日本
 ```sh
 python scripts/generate_sengoku_master.py
 python scripts/build_migration_preview.py
-python scripts/build_person_quality_review.py --round 20261031-05
+python scripts/build_person_quality_review.py --round 20261031-06
 python scripts/build_person_life_timeline.py
 python scripts/validate_sengoku_master.py
 python -m unittest discover -s tests -p 'test_*.py' -v

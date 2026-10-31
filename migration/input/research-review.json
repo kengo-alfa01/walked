@@ -3710,6 +3710,177 @@
       "approvalStatus": "pending_user_review",
       "approvalDate": null,
       "licenseStatus": "partially_verified"
+    },
+    "438": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "unverified",
+        "birth": "unverified",
+        "death": "verified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedDeathValue": 1577,
+      "biography": "陸奥の大崎地方を治め、奥州探題を務めた。1534年から家臣の反乱に苦しみ、伊達稙宗の援軍を得て1536年に鎮圧したが、その後は伊達氏に従う立場となった。戦国期の大崎氏の支配を担った当主。",
+      "verifiedAliases": [],
+      "sources": [
+        "https://kotobank.jp/word/大崎義直-1060181",
+        "https://www.town.kami.miyagi.jp/material/files/group/32/miya3.pdf"
+      ],
+      "note": "2026-10-31追記：義国・彦三郎の同一性は未照合。伊達の援助で反乱を鎮めた経過を確認。宿館/矢田川館は町教育委員会も文献なしとする居館伝承の候補のみ。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "ba3e18e3c412f73e809c149b9e87afb360d4127e9c6cdfb9cd21934ea1699665",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-06/evidence.json#/people/438",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "480": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "disputed",
+        "death": "verified",
+        "biography": "verified",
+        "lifePlaces": "partially_verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "additionalBirthCandidates": [
+        1567,
+        1569
+      ],
+      "confirmedDeathValue": 1615,
+      "biography": "豊臣秀吉・秀頼に仕えた家臣。家康暗殺の疑いで結城へ流されたが、関ヶ原では東軍に加わり、のち豊臣家へ戻った。片桐且元が大坂を去ると政務を担い、大坂の陣の末に秀頼・淀殿とともに自害した。",
+      "verifiedAliases": [
+        "修理亮"
+      ],
+      "sources": [
+        "https://kotobank.jp/word/大野治長-39483",
+        "https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B999001793"
+      ],
+      "note": "2026-10-31追記：正本生1569に対し平凡社1567?、他辞典不詳。生年は確定しない。弟治房との混同、淀殿との関係の俗説を排除。1614下向予定の書状を実際の江戸訪問としない。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "19d7ff1cb5ec418cb2836c838d2e9a96f401a4c8a9d3385fa3da8407468ada3a",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-06/evidence.json#/people/480",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "609": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "verified",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedDeathValue": 1600,
+      "biography": "豊臣秀吉に仕え、豊後の富来を領した。豊臣家の直轄地を管理し、朝鮮出兵では戦況を報告する目付を務めた。関ヶ原の戦役では西軍として伏見城攻めに加わった後、大垣城に籠もり、内応した味方に殺された。",
+      "verifiedAliases": [
+        "家純",
+        "筧一直"
+      ],
+      "sources": [
+        "https://kyubunken.jp/kyubunken30thsymposium_resume.pdf"
+      ],
+      "note": "2026-10-31追記：城地は豊後国東郡富来であり高田・安岐に誤対応しない。参考人物欄の文禄2年（1594）と翌年入封を確定に使わず、講演本文の時期不明という留保を優先。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "d48e6fb6d5631bc0cdde6dd6f9fcf55c81dd9adc1719d9cf009b3c405711ffb2",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-06/evidence.json#/people/609",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "849": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "partially_verified",
+        "birth": "unverified",
+        "death": "partially_verified",
+        "biography": "verified",
+        "lifePlaces": "partially_verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "biography": "伊予の河野氏の一族。1542年に二神氏の所領や石手寺の寺務を認め、領内の支配を進めた。同年には今岡・村上・岩城らに命じて中島の棚林城で大内氏の軍を退け、翌年には善応寺の寺務職も承認した。",
+      "verifiedAliases": [
+        "六郎",
+        "通政",
+        "法雲寺殿"
+      ],
+      "sources": [
+        "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/shi/ishiteji_komonjo.html",
+        "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/rekishi/muromachi-azuchi.html"
+      ],
+      "note": "2026-10-31追記：松山市は通直の子・1543没とする。県史検索結果には系譜/没1544の異説候補があるが本文403のため、異説の根拠確認は未完。主表示名・正本値は維持。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "63c2dc0ed874583ee05b988840ee6c91156d51c60513cf6d3a6bbf4e15f5616f",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-06/evidence.json#/people/849",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "1031": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "unverified",
+        "birth": "unverified",
+        "death": "unverified",
+        "biography": "partially_verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "verifiedAliases": [],
+      "sources": [
+        "https://sitereports.nabunken.go.jp/files/attach/34/34875/64951_1_盛岡遺跡群.pdf"
+      ],
+      "note": "2026-10-31追記：高水寺城主と婚姻伝承の本人記載は確認したが、個人の事績の根拠が不足するため略歴案なし。1588志和孫詮直の棟札を詮真へ付け替えない。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "e77821973e565a854cb7e9614ae710f407553881c3ba198b7a34466ac739d551",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-06/evidence.json#/people/1031",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
+    },
+    "1037": {
+      "fieldStatus": {
+        "name": "verified",
+        "identity": "partially_verified",
+        "aliases": "unverified",
+        "birth": "verified",
+        "death": "disputed",
+        "biography": "verified",
+        "biographyQuality": "verified",
+        "sourceRelevance": "partially_verified"
+      },
+      "confirmedBirthValue": 1513,
+      "additionalDeathCandidates": [
+        1553,
+        1554,
+        1555
+      ],
+      "biography": "父義達の後を継いで尾張守護となり、清洲城を拠点とした。実権を握る守護代の織田氏と対立し、織田信長と結んで勢力の回復を図ったが、守護代側に殺害された。その死は清洲をめぐる織田氏の争いの転機となった。",
+      "verifiedAliases": [],
+      "sources": [
+        "https://kotobank.jp/word/斯波義統-1080625",
+        "https://sitereports.nabunken.go.jp/files/attach/2/2306/1944_1_清洲城下町遺跡.pdf",
+        "https://kotobank.jp/word/清洲城-53388"
+      ],
+      "note": "2026-10-31追記：講談社の1554没、平凡社の1553没、発掘報告の1555没を資料の記載差として保存。信長入城年との混同/誤記の可能性を含み、等価に確立した学説とは扱わない。義銀の追放を父義統の事績としない。",
+      "reviewedOn": "2026-10-31",
+      "masterEvidenceSha256": "16961cb7ee3d5dac1418049914a81ea7a295b303256ebc899078d8a3a5fd1f9f",
+      "method": "Field-specific source body review; independently written proposal; not full historical or commercial clearance.",
+      "evidenceRef": "migration/research/20261031-06/evidence.json#/people/1037",
+      "approvalStatus": "pending_user_review",
+      "approvalDate": null
     }
   },
   "sourcePolicies": [

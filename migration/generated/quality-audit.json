@@ -4024,33 +4024,34 @@
     "name": "大崎義直",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
-    "biography": "戦国期に活動した大名。大崎氏の一族にあたる。父は大崎義兼。官位には従五位上・左京大夫が記される。没年は1577年と記録される。",
-    "biographyLength": 63,
+    "biography": "陸奥の大崎地方を治め、奥州探題を務めた。1534年から家臣の反乱に苦しみ、伊達稙宗の援軍を得て1536年に鎮圧したが、その後は伊達氏に従う立場となった。戦国期の大崎氏の支配を担った当主。",
+    "biographyLength": 93,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://kotobank.jp/word/大崎義直-1060181",
+      "https://www.town.kami.miyagi.jp/material/files/group/32/miya3.pdf",
       "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%B4%8E%E7%BE%A9%E7%9B%B4",
       "https://ja.wikipedia.org/w/index.php?oldid=109104064"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipediaプロフィール記載・事績未確認",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：義国・彦三郎の同一性は未照合。伊達の援助で反乱を鎮めた経過を確認。宿館/矢田川館は町教育委員会も文献なしとする居館伝承の候補のみ。"
   },
   {
     "id": "sg-master-0440",
@@ -4297,33 +4298,35 @@
     "name": "大野治長",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "aliases": "partially_verified",
+      "birth": "disputed",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "requires_review",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "安土桃山期から江戸初期に活動した大名。豊臣秀吉・豊臣秀頼に仕えた。大野氏の一族にあたる。父は大野定長。官位には従五位下修理大夫が記される。",
-    "biographyLength": 69,
+    "biography": "豊臣秀吉・秀頼に仕えた家臣。家康暗殺の疑いで結城へ流されたが、関ヶ原では東軍に加わり、のち豊臣家へ戻った。片桐且元が大坂を去ると政務を担い、大坂の陣の末に秀頼・淀殿とともに自害した。",
+    "biographyLength": 91,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://kotobank.jp/word/大野治長-39483",
+      "https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B999001793",
       "https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%87%8E%E6%B2%BB%E9%95%B7",
       "https://ja.wikipedia.org/w/index.php?oldid=110768920"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：正本生1569に対し平凡社1567?、他辞典不詳。生年は確定しない。弟治房との混同、淀殿との関係の俗説を排除。1614下向予定の書状を実際の江戸訪問としない。"
   },
   {
     "id": "sg-master-0485",
@@ -5412,33 +5415,33 @@
     "name": "垣見一直",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "death": "verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
-    "biography": "戦国期に活動した大名。豊臣秀吉に仕えた。垣見氏の一族にあたる。官位には和泉守が記される。没年は1600年と記録される。",
-    "biographyLength": 59,
+    "biography": "豊臣秀吉に仕え、豊後の富来を領した。豊臣家の直轄地を管理し、朝鮮出兵では戦況を報告する目付を務めた。関ヶ原の戦役では西軍として伏見城攻めに加わった後、大垣城に籠もり、内応した味方に殺された。",
+    "biographyLength": 95,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://kyubunken.jp/kyubunken30thsymposium_resume.pdf",
       "https://ja.wikipedia.org/wiki/%E5%9E%A3%E8%A6%8B%E4%B8%80%E7%9B%B4",
       "https://ja.wikipedia.org/w/index.php?oldid=105779485"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：城地は豊後国東郡富来であり高田・安岐に誤対応しない。参考人物欄の文禄2年（1594）と翌年入封を確定に使わず、講演本文の時期不明という留保を優先。"
   },
   {
     "id": "sg-master-0611",
@@ -7368,33 +7371,35 @@
     "name": "河野晴通",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
-      "aliases": "unverified",
+      "aliases": "partially_verified",
       "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
-      "license": "requires_review"
+      "death": "partially_verified",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
+      "license": "requires_review",
+      "lifePlaces": "partially_verified"
     },
-    "biography": "戦国期に活動した大名。室町幕府・伊予守護の職に就いた。河野氏の一族にあたる。父は河野通直。没年は1543年と記録される。",
-    "biographyLength": 60,
+    "biography": "伊予の河野氏の一族。1542年に二神氏の所領や石手寺の寺務を認め、領内の支配を進めた。同年には今岡・村上・岩城らに命じて中島の棚林城で大内氏の軍を退け、翌年には善応寺の寺務職も承認した。",
+    "biographyLength": 93,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/shi/ishiteji_komonjo.html",
+      "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/rekishi/muromachi-azuchi.html",
       "https://ja.wikipedia.org/wiki/%E6%B2%B3%E9%87%8E%E6%99%B4%E9%80%9A",
       "https://ja.wikipedia.org/w/index.php?oldid=110907730"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：松山市は通直の子・1543没とする。県史検索結果には系譜/没1544の異説候補があるが本文403のため、異説の根拠確認は未完。主表示名・正本値は維持。"
   },
   {
     "id": "sg-master-0856",
@@ -8852,16 +8857,16 @@
     "name": "斯波詮真",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
       "birth": "unverified",
       "death": "unverified",
-      "biography": "unverified",
+      "biography": "partially_verified",
       "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
     "biography": "戦国期に活動した大名。高水寺斯波氏の一族にあたる。官位には民部少輔が記される。生没年は記事でも不詳とされている。",
@@ -8873,12 +8878,13 @@
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://sitereports.nabunken.go.jp/files/attach/34/34875/64951_1_盛岡遺跡群.pdf",
       "https://ja.wikipedia.org/wiki/%E6%96%AF%E6%B3%A2%E8%A9%AE%E7%9C%9F",
       "https://ja.wikipedia.org/w/index.php?oldid=75464184"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipediaプロフィール記載・事績未確認",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：高水寺城主と婚姻伝承の本人記載は確認したが、個人の事績の根拠が不足するため略歴案なし。1588志和孫詮直の棟札を詮真へ付け替えない。"
   },
   {
     "id": "sg-master-1032",
@@ -8952,33 +8958,35 @@
     "name": "斯波義統",
     "overallStatus": "未完了",
     "fieldStatus": {
-      "name": "unverified",
+      "name": "verified",
       "reading": "unverified",
       "group": "legacy_unverified",
       "aliases": "unverified",
-      "birth": "unverified",
-      "death": "unverified",
-      "biography": "unverified",
-      "biographyQuality": "unverified",
-      "identity": "unverified",
-      "sourceRelevance": "unverified",
+      "birth": "verified",
+      "death": "disputed",
+      "biography": "verified",
+      "biographyQuality": "verified",
+      "identity": "partially_verified",
+      "sourceRelevance": "partially_verified",
       "license": "requires_review"
     },
-    "biography": "戦国期に活動した大名。室町幕府尾張国守護の職に就いた。清和源氏足利氏流斯波氏の一族にあたる。父は斯波義達。官位には左兵衛佐・治部大輔が記される。",
-    "biographyLength": 72,
+    "biography": "父義達の後を継いで尾張守護となり、清洲城を拠点とした。実権を握る守護代の織田氏と対立し、織田信長と結んで勢力の回復を図ったが、守護代側に殺害された。その死は清洲をめぐる織田氏の争いの転機となった。",
+    "biographyLength": 98,
     "issues": [
       "full_historical_review_pending",
       "alias_identity_review_pending",
-      "mechanical_biography_rewrite_needed",
       "unknown_or_disputed_year_preserve_raw"
     ],
     "sourceUrls": [
+      "https://kotobank.jp/word/斯波義統-1080625",
+      "https://sitereports.nabunken.go.jp/files/attach/2/2306/1944_1_清洲城下町遺跡.pdf",
+      "https://kotobank.jp/word/清洲城-53388",
       "https://ja.wikipedia.org/wiki/%E6%96%AF%E6%B3%A2%E7%BE%A9%E7%B5%B1",
       "https://ja.wikipedia.org/w/index.php?oldid=111304894"
     ],
     "unavailableUrls": [],
     "priorSheetStatus": "Wikipedia確認・公的資料未照合／事績は基本情報の機械整理",
-    "reviewNotes": ""
+    "reviewNotes": "2026-10-31追記：講談社の1554没、平凡社の1553没、発掘報告の1555没を資料の記載差として保存。信長入城年との混同/誤記の可能性を含み、等価に確立した学説とは扱わない。義銀の追放を父義統の事績としない。"
   },
   {
     "id": "sg-2d3f90c28c8f",
