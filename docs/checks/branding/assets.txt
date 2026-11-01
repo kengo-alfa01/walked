@@ -1,0 +1,1 @@
+PASS: PNG32/180/192/512, HTML/manifest paths, relative PWA id/scope/start_url, storage key set, byte-identical catalogs and214-title registry.
