@@ -1,0 +1,18 @@
+✔ stage2 imports only two additions and two approved text updates, preserving every ID and protected field (46.889423ms)
+✔ replay and partial application stay identical; stale catalogs, target edits and package tampering are rejected (106.053597ms)
+✔ 22 scoped profiles contain no raw master data, unapproved fallback, images or unresolved notes (0.928654ms)
+✔ Gifu and Yamagata saved visits unlock separate new cards; unvisited neighbors cannot unlock them (2845.527429ms)
+✔ only acquired profile scope is displayed with source links; null years are never filled from legacy fields (583.262539ms)
+✔ updated existing card shows CODH attribution and retains acquisition timestamp after restore (611.59004ms)
+✔ GPS-point, manual-area and retroactive storage failures commit no in-memory awards or notifications; retry works (1675.610629ms)
+✔ GPS unavailable, denied and timeout paths leave visits, cards and titles untouched (3413.930738ms)
+✔ display-current-location centers the map without registering a visit or awarding cards (563.012864ms)
+✔ GPS position outside loaded Japanese municipality boundaries does not create false records (529.128956ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11458.983511

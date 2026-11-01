@@ -78,3 +78,22 @@ test('GPS-point, manual-area and retroactive storage failures commit no in-memor
   w.Storage.prototype.setItem=original;w.eval(action);assert.ok(read(w).cards['pub-card-c45fcd74b14d1ad8998e9fd7']);if(method==='point')assert.equal(read(w).cards['pub-card-c45fcd74b14d1ad8998e9fd7'].at,'2020-02-03');w.close();
  }
 });
+
+test('GPS unavailable, denied and timeout paths leave visits, cards and titles untouched',async()=>{
+ for(const mode of ['unavailable','denied','timeout']){
+  for(const button of ['locate','centerMap']){
+   const w=await app({walked_sengoku_cards_v1:{'retired-card':{at:'2000-01-01'}}}),before=raw(w);
+   Object.defineProperty(w.navigator,'geolocation',{configurable:true,value:mode==='unavailable'?undefined:{getCurrentPosition(ok,fail){fail({code:mode==='denied'?1:3,message:mode==='denied'?'permission denied':'timeout'})}}});
+   w.document.getElementById(button).click();assert.deepEqual(raw(w),before);
+   assert.match(w.document.getElementById('status').textContent,mode==='unavailable'?/位置情報機能が使えません/:mode==='denied'?/permission denied/:/timeout/);w.close();
+  }
+ }
+});
+test('display-current-location centers the map without registering a visit or awarding cards',async()=>{
+ const w=await app(),before=raw(w);Object.defineProperty(w.navigator,'geolocation',{configurable:true,value:{getCurrentPosition(ok){ok({coords:{latitude:35.433927,longitude:136.782034}})}}});
+ w.document.getElementById('centerMap').click();assert.deepEqual(raw(w),before);assert.deepEqual(read(w).visited,{});assert.deepEqual(read(w).cards,{});assert.match(w.document.getElementById('status').textContent,/制覇登録はしていません/);w.close();
+});
+test('GPS position outside loaded Japanese municipality boundaries does not create false records',async()=>{
+ const w=await app(),before=raw(w);Object.defineProperty(w.navigator,'geolocation',{configurable:true,value:{getCurrentPosition(ok){ok({coords:{latitude:0,longitude:0}})}}});
+ w.document.getElementById('locate').click();assert.deepEqual(raw(w),before);assert.match(w.document.getElementById('status').textContent,/一致する市区町村が見つかりません/);w.close();
+});
