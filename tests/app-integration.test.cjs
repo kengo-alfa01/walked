@@ -75,3 +75,25 @@ test('preview helper is inert without preview marker and cannot overwrite corrup
  const w=await app();w.eval(fs.readFileSync(path.join(root,'preview/preview.js'),'utf8'));assert.equal(w.document.getElementById('previewSample'),null);w.close();
  const broken=await app({walked_municipal_v2:'{broken'});preview(broken);broken.document.getElementById('previewSample').click();assert.equal(broken.localStorage.getItem('walked_municipal_v2'),'{broken');broken.close();
 });
+
+const publishedIds=['pub-card-450a5da6b076b67bff0ea854','pub-card-99565c9c43c63128707e581e'];
+test('approved history unlocks from saved municipality/legacy town visits, preserves old cards and credits, and survives backup/reload without duplicate notification',async()=>{
+ for(const visited of [{'20203':{first:'2019-01-01',last:'2020-01-01'},'16208':{}},{'n:20203:202030001':{},'n:16208:162080001':{}}]){
+  const w=await app({walked_municipal_v2:visited,walked_sengoku_cards_v1:{'retired-card':{at:'2018-01-01'},'sg-card-0266':{at:'2018-02-01',siteId:'sg-site-masuyama'}}});
+  for(const site of ['sg-site-ueda','sg-site-masuyama'])assert.equal(w.eval(`municipalCode(getMunicipalityForPoint(sengokuSites.find(s=>s.id==='${site}').point))`),site==='sg-site-ueda'?'20203':'16208');
+  const before=read(w);for(const id of publishedIds)assert.ok(before.cards[id]);assert.deepEqual(before.visited,visited);assert.equal(before.cards['sg-card-0266'].at,'2018-02-01');assert.equal(before.cards['retired-card'].at,'2018-01-01');
+  w.eval('reconcileSengokuVisits()');for(const field of ['visited','cards','titles'])assert.deepEqual(read(w)[field],before[field]);
+  w.eval("showSengokuPerson(sengokuPeople.find(p=>p.id==='sg-dc8c550d8769'))");const detail=w.document.getElementById('sengokuDetail');assert.match(detail.textContent,/1576年/);assert.match(detail.textContent,/CC BY 4.0/);assert.match(detail.textContent,/10.20676\/00000456/);assert.ok([...detail.querySelectorAll('a')].some(a=>a.href==='https://kunishitei.bunka.go.jp/heritage/detail/401/00003642'));
+  const saved=Object.fromEntries(keys.map(k=>[k,w.localStorage.getItem(k)]));const w2=await app(saved);assert.deepEqual(read(w2).cards,before.cards);assert.equal(w2.document.getElementById('sengokuToast').hidden,true);
+  await restore(w2,before);assert.deepEqual(read(w2).cards,before.cards);const fresh=await app();await restore(fresh,before);assert.deepEqual(read(fresh).cards,before.cards);fresh.close();w.close();w2.close();
+ }
+});
+test('unvisited or neighboring municipalities do not unlock the new history',async()=>{
+ for(const visited of [{},{'20204':{},'16209':{}}]){const w=await app({walked_municipal_v2:visited});for(const id of publishedIds)assert.ok(!read(w).cards[id]);w.close();}
+});
+test('storage failure during retroactive unlock leaves saved and active card histories intact, then retry succeeds',async()=>{
+ const w=await app(),before=raw(w),oldCards=read(w).cards,original=w.Storage.prototype.setItem;
+ w.eval("state.visited={'20203':{},'16208':{}};");w.Storage.prototype.setItem=function(k,v){if(k==='walked_sengoku_cards_v1')throw Error('quota');return original.call(this,k,v)};
+ assert.throws(()=>w.eval('reconcileSengokuVisits()'),/quota/);assert.deepEqual(raw(w),before);assert.deepEqual(read(w).cards,oldCards);
+ w.Storage.prototype.setItem=original;w.eval('reconcileSengokuVisits()');for(const id of publishedIds)assert.ok(read(w).cards[id]);w.close();
+});
