@@ -15,7 +15,7 @@
  function mergeRecord(a,b){const r={...b,...a};for(const k of ['first','at','acquiredAt'])if(a[k]||b[k])r[k]=earlier(a[k],b[k]);if(a.last||b.last)r.last=later(a.last,b.last);return r;}
  function mergeRecords(a,b,normalize=x=>x){const out={};for(const map of [a,b])for(const [raw,r] of Object.entries(map)){const k=normalize(raw);out[k]=own(out,k)?mergeRecord(out[k],r):{...r};}return out;}
  function parseBackup(doc){
-  if(!object(doc)||!['walked-backup-v2','walked-backup-v3'].includes(doc.format))throw Error('対応するWALKEDバックアップではありません');
+  if(!object(doc)||!['walked-backup-v2','walked-backup-v3'].includes(doc.format))throw Error('対応する日本見風録（旧WALKED）のバックアップではありません');
   records(doc.visited,'制覇');
   if(doc.format==='walked-backup-v2')return {visited:doc.visited,cards:{},titles:{awards:{},selected:null},legacy:true};
   records(doc.cards,'カード');titleState(doc.titles);

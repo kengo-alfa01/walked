@@ -3,7 +3,7 @@
  'use strict';
  if(!document.querySelector('meta[name="walked-preview"]'))return;
  const panel=document.createElement('section');panel.className='walked-preview';panel.setAttribute('aria-label','確認用ページの案内');
- const heading=document.createElement('strong');heading.textContent='🧪 WALKED 確認用ページ';
+ const heading=document.createElement('strong');heading.textContent='🧪 日本見風録 確認用ページ';
  const description=document.createElement('p');description.textContent='ここでの記録は公開版と別です。まずサンプルで称号を試せます。自分の記録で試す場合は、公開版で保存したバックアップのコピーを「復元」してください。';
  const sample=document.createElement('button');sample.type='button';sample.textContent='サンプルで称号を試す';sample.id='previewSample';
  const reset=document.createElement('button');reset.type='button';reset.textContent='確認用の記録をリセット';reset.className='alt';reset.id='previewReset';

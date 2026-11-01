@@ -1,0 +1,43 @@
+✔ pinned map geometry IDs match the title registry and excluded IDs without omissions (20.979452ms)
+✔ full application boots, migrates titles, selects profile and preserves hidden card records on reload (1654.417209ms)
+✔ v2 restore and v3 export/restore preserve every collection and store a pre-restore checkpoint (1146.846796ms)
+✔ cancelled/invalid imports change no saved records (537.636664ms)
+✔ quota failure during restore rolls back storage and never mutates active game (786.58606ms)
+✔ clearing visits retains cards, acquired titles and profile, with a recoverable checkpoint (527.768565ms)
+✔ corrupt original data is never silently overwritten and raw rescue exports it (506.012765ms)
+✔ interrupted multi-key restore is recovered before startup reads the game (507.491413ms)
+✔ timeline storage failure releases busy state and collection batching (476.384837ms)
+✔ preview-only sample adds 31 areas, awards titles, and refuses to mix with existing records (546.115265ms)
+✔ preview helper is inert without preview marker and cannot overwrite corrupt stored records (1382.58998ms)
+✔ frozen registry agrees with 47 prefectures, eight decided regions and 214 stable titles (3.57519ms)
+✔ national threshold 足軽 (1.848894ms)
+✔ national threshold 足軽大将 (1.225606ms)
+✔ national threshold 侍大将 (2.293843ms)
+✔ national threshold 城主 (0.715464ms)
+✔ national threshold 国人領主 (1.716283ms)
+✔ national threshold 戦国大名 (1.840922ms)
+✔ national threshold 大大名 (3.22138ms)
+✔ national threshold 天下人 (1.452276ms)
+✔ national threshold 天下統一 (2.260107ms)
+✔ national threshold 日本全国完全制覇 (3.120521ms)
+✔ towns, old national keys, repeated municipality and separate wards count once (0.532275ms)
+✔ all 47 prefectures use ceil for all four thresholds; 99 percent never earns 100 (88.285528ms)
+✔ all regions require EACH constituent prefecture, not an average (19.112398ms)
+✔ awards persist after unmark; reload and re-visit do not re-notify; selection retained (7.101814ms)
+✔ v3 roundtrip includes legacy/unpublished card IDs and unknown future title IDs (0.921738ms)
+✔ v2 additive restore canonicalizes aliases and preserves first/last timestamps and all cards (0.467283ms)
+✔ v3 merge preserves both collections, earliest acquisition and current display choice (0.529603ms)
+✔ invalid backups are rejected completely, including arrays, field types and prototype keys (0.544944ms)
+✔ restore rollback on quota failure at write 1 (0.25795ms)
+✔ restore rollback on quota failure at write 2 (0.130047ms)
+✔ restore rollback on quota failure at write 3 (0.079946ms)
+✔ restore rollback on quota failure at write 4 (0.070157ms)
+✔ restore commits all keys; interrupted restore recovers on next startup (0.099169ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9133.089308
