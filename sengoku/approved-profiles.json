@@ -1,0 +1,521 @@
+{
+  "schemaVersion": "walked.approved-profiles.v1",
+  "version": "20261101-game-stage2",
+  "profiles": [
+    {
+      "reviewId": "person-review-sg-dc8c550d8769",
+      "version": "20261031-person-review-S6",
+      "personId": "sg-dc8c550d8769",
+      "name": "上杉謙信",
+      "scope": "氏名・年精度の生没年・掲載した短い略歴・列挙した別名のみ",
+      "birthYear": 1530,
+      "deathYear": 1578,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "戦国時代の武将。1576年に増山城を攻め落とした。",
+      "aliases": [
+        {
+          "name": "景虎",
+          "type": "名"
+        },
+        {
+          "name": "政虎",
+          "type": "名"
+        },
+        {
+          "name": "輝虎",
+          "type": "名"
+        }
+      ],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00274395",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/00003642"
+      ],
+      "sourceLocators": "NDL典拠00274395：名称・生年・没年・別名欄／文化庁：増山城跡「詳細解説」天正4年の項",
+      "attribution": "Web NDL Authorities収載の氏名・生没年・別名データをもとにWALKEDが編集。国立国会図書館 https://id.ndl.go.jp/ 。利用条件 https://id.ndl.go.jp/information/use/ および https://www.ndl.go.jp/data/data_service/quickguide （2026-10-31確認、営利利用可・出典と加工表示）。資料本文・画像は含めない。\n文化庁「国指定文化財等データベース」を参照してWALKEDが独自に記述。https://kunishitei.bunka.go.jp/top/policy （2026-10-31確認、文字情報は出典表示。画像は対象外）。",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "d0ce71b31da40f8fadca02dea358e664cd8e530da2e5ae855c9c23877948ea39"
+    },
+    {
+      "reviewId": "person-review-sg-76cf3b1e8681",
+      "version": "20261031-person-review-S6",
+      "personId": "sg-76cf3b1e8681",
+      "name": "鳥居元忠",
+      "scope": "氏名・年精度の生没年・掲載した短い略歴・列挙した別名のみ",
+      "birthYear": 1539,
+      "deathYear": 1600,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "徳川家康に仕えた武将。1585年、徳川方として上田城を攻めた。",
+      "aliases": [
+        {
+          "name": "彦右衛門",
+          "type": "通称"
+        },
+        {
+          "name": "平",
+          "type": "本姓"
+        }
+      ],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00800190",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/1173"
+      ],
+      "sourceLocators": "NDL典拠00800190：名称・生年・没年・別名欄／文化庁：上田城跡「詳細解説」天正13年の攻城",
+      "attribution": "Web NDL Authorities収載の氏名・生没年・別名データをもとにWALKEDが編集。国立国会図書館 https://id.ndl.go.jp/ 。利用条件 https://id.ndl.go.jp/information/use/ および https://www.ndl.go.jp/data/data_service/quickguide （2026-10-31確認、営利利用可・出典と加工表示）。資料本文・画像は含めない。\n文化庁「国指定文化財等データベース」を参照してWALKEDが独自に記述。https://kunishitei.bunka.go.jp/top/policy （2026-10-31確認、文字情報は出典表示。画像は対象外）。",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "4bb388b951b826fbe0dc9d5794884b811baa0e409c274d857557278f05736da6"
+    },
+    {
+      "reviewId": "person-review-sg-master-0922",
+      "version": "20261031-person-review-S6",
+      "personId": "sg-master-0922",
+      "name": "斎藤義龍",
+      "scope": "氏名・没年・掲載した短い略歴のみ（生年・別名は除外）",
+      "birthYear": null,
+      "deathYear": 1561,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "斎藤道三の子。1554年から1561年まで稲葉山城の城主を務めた。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html"
+      ],
+      "sourceLocators": "岐阜市「岐阜城の歴代城主」4 斎藤義龍：生没年、城主期間、本文冒頭",
+      "attribution": "岐阜市「岐阜城の歴代城主」の事実関係を参照し、WALKEDが独自に記述。本文・画像・地図は複製しない。原文・画像の包括的再利用許諾は未確認。",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "dbe4a03c30de7dab58c7adcfb4333f5cd3b19f1af23db6836a0fa0a57e5f241d"
+    },
+    {
+      "reviewId": "person-review-sg-person-saito-dosan",
+      "version": "20261031-review-S7",
+      "personId": "sg-person-saito-dosan",
+      "name": "斎藤道三",
+      "scope": "氏名・年精度の没年・掲載した略歴・列挙した別名のみ。生年は保留。",
+      "birthYear": null,
+      "deathYear": 1556,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "美濃で勢力を伸ばした戦国大名。稲葉山城と城下を整備し、土岐氏を追放した。子の義龍に家督を譲った後、1556年に義龍と戦って討たれた。",
+      "aliases": [
+        {
+          "name": "長井規秀",
+          "type": "旧名"
+        },
+        {
+          "name": "斎藤利政",
+          "type": "名"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html"
+      ],
+      "sourceLocators": "岐阜市「岐阜城の歴代城主」3 斎藤道三",
+      "attribution": "公開文は確認できた事実をWALKEDが独自記述。原文・画像・地図は転載しない。原文・画像の包括的再利用許諾を意味しない。出典名・URLを表示。\n参照：岐阜市：岐阜城の歴代城主\n岐阜市：岐阜城歴代城主\n岐阜市・岐阜城の歴代城主",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "3b50d6bacdaa7ee22ac89771cbac8a3ae8789cda16fc60006bd97d28232c1117"
+    },
+    {
+      "reviewId": "person-review-sg-fc948f16832f",
+      "version": "20261031-review-S7",
+      "personId": "sg-fc948f16832f",
+      "name": "北条氏照",
+      "scope": "氏名・年精度の没年・掲載した略歴・列挙した別名のみ。生年は保留。",
+      "birthYear": null,
+      "deathYear": 1590,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "北条氏康の子で、滝山城・八王子城を居城とした武将。北条氏の北関東支配を担い、古河公方との取次にもあたった。",
+      "aliases": [
+        {
+          "name": "源三",
+          "type": "仮名"
+        }
+      ],
+      "sourceUrls": [
+        "https://ch.kanagawa-museum.jp/dm/gohojyo/relation/d_houjyo_07.html",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/717",
+        "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html"
+      ],
+      "sourceLocators": "神奈川県立歴史博物館：見出しと人物解説／文化庁と八王子市：滝山・八王子居城の記載",
+      "attribution": "公開文は確認できた事実をWALKEDが独自記述。原文・画像・地図は転載しない。原文・画像の包括的再利用許諾を意味しない。出典名・URLを表示。\n参照：神奈川県立歴史博物館：北条氏照／文化庁：滝山城跡／八王子市：滝山城跡",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "e16a19d859e2f5f0cadd7edae3995b3eedecb47970cefbe10e79f2c791bf74ff"
+    },
+    {
+      "reviewId": "person-review-sg-added-maeda-toshiie",
+      "version": "20261031-review-S7",
+      "personId": "sg-added-maeda-toshiie",
+      "name": "前田利家",
+      "scope": "氏名・年精度の没年・掲載した略歴・列挙した別名のみ。生年は保留。",
+      "birthYear": null,
+      "deathYear": 1599,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "織田信長に仕え、のち豊臣秀吉と和を結んで金沢に入った武将。豊臣政権では五大老の一人を務め、加賀前田家の基礎を築いた。",
+      "aliases": [
+        {
+          "name": "犬千代",
+          "type": "幼名"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.kanazawa-museum.jp/maedatosa/about/page_2.html",
+        "https://www.library.pref.ishikawa.lg.jp/shosho/furucolle/list/prsn11392"
+      ],
+      "sourceLocators": "前田土佐守家資料館「家祖利政の父 前田利家」／石川県立図書館「前田利家」人物詳細",
+      "attribution": "公開文は確認できた事実をWALKEDが独自記述。原文・画像・地図は転載しない。原文・画像の包括的再利用許諾を意味しない。出典名・URLを表示。\n参照：前田土佐守家資料館：歴代当主／石川県立図書館：前田利家",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "26dd7f717e6b8587aa47beb365523d727e72777726924f5ad47ad9449cc24aa9"
+    },
+    {
+      "reviewId": "person-review-sg-6eaf66c3d7c8",
+      "version": "20261031-review-S8",
+      "personId": "sg-6eaf66c3d7c8",
+      "name": "織田信長",
+      "scope": "氏名・掲載略歴・列挙別名・JSONに数値のある年のみ。null項目は承認対象外。",
+      "birthYear": 1534,
+      "deathYear": 1582,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "尾張の戦国大名。1567年に稲葉山城を奪い、本拠を移した。城と城下を岐阜と改め、勢力拡大の拠点とした。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00624313",
+        "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html"
+      ],
+      "sourceLocators": "NDL名称・生没年／岐阜市「6 織田信長」",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。出典明示。https://id.ndl.go.jp/information/use/ 。確認した事実からWALKEDが独自記述。出典名・URL表示。原文・写真・地図を転載しない。原文等の包括的再利用許諾を意味しない。 参照：NDL典拠：織田信長／岐阜市：岐阜城の歴代城主\n岐阜市：岐阜城歴代城主\n岐阜市・岐阜城の歴代城主",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "3518ce29a56254c49bedefe33fc1a6bcb8f41fa46c91594660011d17b34ac85b"
+    },
+    {
+      "reviewId": "person-review-sg-a7bb09927601",
+      "version": "20261031-review-S8",
+      "personId": "sg-a7bb09927601",
+      "name": "徳川家康",
+      "scope": "氏名・掲載略歴・列挙別名・JSONに数値のある年のみ。null項目は承認対象外。",
+      "birthYear": null,
+      "deathYear": 1616,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "江戸幕府の初代将軍。織田信長と結んで東海地方へ勢力を広げ、のちに豊臣政権の有力大名となった。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00272267",
+        "https://www.archives.go.jp/exhibition/digital/rekishitomonogatari/contents/42.html"
+      ],
+      "sourceLocators": "NDL名称・生没年・経歴／国立公文書館「人物背景を知る：徳川家康」",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。出典明示。https://id.ndl.go.jp/information/use/ 。確認した事実からWALKEDが独自記述。出典名・URL表示。原文・写真・地図を転載しない。原文等の包括的再利用許諾を意味しない。 参照：NDL典拠：徳川家康／御実紀：人物背景 徳川家康",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "c49c0f613eb64124b4c1b2d56f3a2fa3eca15c41c085b735c272701e480a204f"
+    },
+    {
+      "reviewId": "person-review-sg-f47391608dbb",
+      "version": "20261031-review-S8",
+      "personId": "sg-f47391608dbb",
+      "name": "豊臣秀吉",
+      "scope": "氏名・掲載略歴・列挙別名・JSONに数値のある年のみ。null項目は承認対象外。",
+      "birthYear": null,
+      "deathYear": 1598,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "羽柴秀吉の名でも知られる戦国時代の武将。1585年に関白となった。",
+      "aliases": [
+        {
+          "name": "羽柴秀吉",
+          "type": "旧姓を用いた名"
+        }
+      ],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00272338",
+        "https://www.museum.city.nagoya.jp/collection/data/data_94/index.html"
+      ],
+      "sourceLocators": "NDL名称・別名・没年／名古屋市博物館「豊臣家文書」写真3の解説",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。出典明示。https://id.ndl.go.jp/information/use/ 。確認した事実からWALKEDが独自記述。出典名・URL表示。原文・写真・地図を転載しない。原文等の包括的再利用許諾を意味しない。 参照：NDL典拠：豊臣秀吉／豊臣家文書 激動の時代の証人",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "c5e7d7f4b62f1c43d0823f356aa839558628c20c007544b5f4f08e33107b76fc"
+    },
+    {
+      "reviewId": "person-review-sg-e701cb97b4d9",
+      "version": "20261031-review-S8",
+      "personId": "sg-e701cb97b4d9",
+      "name": "馬場信春",
+      "scope": "氏名・掲載略歴・列挙別名・JSONに数値のある年のみ。null項目は承認対象外。",
+      "birthYear": null,
+      "deathYear": null,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "武田勝頼に仕えた武将。島田市博物館は、1573年に勝頼から諏訪原城の築城を命じられた人物として紹介している。",
+      "aliases": [
+        {
+          "name": "馬場信房",
+          "type": "別名（市博物館表記）"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.city.shimada.shizuoka.jp/shimahaku/docs/676939064.html",
+        "https://www.city.shimada.shizuoka.jp/shimahaku/docs/kuni-01.html"
+      ],
+      "sourceLocators": "島田市博物館2023年企画展冒頭／島田市「諏訪原城について」",
+      "attribution": "確認した事実からWALKEDが独自記述。出典名・URL表示。原文・写真・地図を転載しない。原文等の包括的再利用許諾を意味しない。 参照：第91回企画展 築城450年記念 諏訪原城／諏訪原城跡",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "5dd029123b09520db1aa61d98dee444be25950dc02905caf19f5b351baec7b59"
+    },
+    {
+      "reviewId": "person-review-sg-98514cee0056",
+      "version": "20261031-review-S9",
+      "personId": "sg-98514cee0056",
+      "name": "武田信虎",
+      "scope": "氏名・掲載略歴・列挙別名・JSONに数値のある年のみ。null項目は承認対象外。",
+      "birthYear": 1494,
+      "deathYear": 1574,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "戦国時代の武将。武田氏館を築いた。同館は信玄・勝頼へと続く武田氏三代の居館となった。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/01079771",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/1122"
+      ],
+      "sourceLocators": "NDL名称・生没年／文化庁の武田氏館跡詳細解説",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。出典明示。https://id.ndl.go.jp/information/use/ 。確認した事実からWALKEDが独自記述。出典名・URL表示。原文・写真・地図を転載しない。原文等の包括的再利用許諾を意味しない。 参照：国立国会図書館典拠：武田信虎／国指定文化財：武田氏館跡",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "2b2d2bad9586430d277bb9323ea8e5b97412629db9820cdc9a8e945b761acc00"
+    },
+    {
+      "reviewId": "person-review-sg-4c0c12460efa",
+      "version": "20261031-review-S9",
+      "personId": "sg-4c0c12460efa",
+      "name": "武田信玄",
+      "scope": "氏名・掲載略歴・列挙別名・JSONに数値のある年のみ。null項目は承認対象外。",
+      "birthYear": 1521,
+      "deathYear": 1573,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "武田氏館を居館とした武将。1566年に箕輪城を攻略し、同城は武田氏の支配拠点となった。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00507087",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/1122",
+        "https://www.city.takasaki.gunma.jp/site/cultural-assets/6450.html"
+      ],
+      "sourceLocators": "NDL名称・生没年／文化庁の武田氏館跡詳細解説／高崎市の箕輪城跡説明",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。出典明示。https://id.ndl.go.jp/information/use/ 。確認した事実からWALKEDが独自記述。出典名・URL表示。原文・写真・地図を転載しない。原文等の包括的再利用許諾を意味しない。 参照：NDL典拠：武田信玄／国指定文化財：武田氏館跡／箕輪城跡",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "bf5bb2e24f1fd1018851a23e4b44bad71827d2f62c4476c517735d2cb045492e"
+    },
+    {
+      "reviewId": "person-review-sg-e00b2631eded",
+      "version": "20261031-review-S9",
+      "personId": "sg-e00b2631eded",
+      "name": "武田勝頼",
+      "scope": "氏名・掲載略歴・列挙別名・JSONに数値のある年のみ。null項目は承認対象外。",
+      "birthYear": 1546,
+      "deathYear": 1582,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "武田氏館を居館とした武将。1574年に高天神城を攻め、開城させた。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00626283",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/1122",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/1372"
+      ],
+      "sourceLocators": "NDL名称・生没年／文化庁の武田氏館跡・高天神城跡詳細解説",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。出典明示。https://id.ndl.go.jp/information/use/ 。確認した事実からWALKEDが独自記述。出典名・URL表示。原文・写真・地図を転載しない。原文等の包括的再利用許諾を意味しない。 参照：NDL典拠：武田勝頼／国指定文化財：武田氏館跡／国指定文化財：高天神城跡",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "8d9073d18e615d9eb7a8b736e03c8d94ae64c8947029b911a017913d0480f5f8"
+    },
+    {
+      "reviewId": "person-review-sg-6b9dfe775421",
+      "version": "20261101-review-S11",
+      "personId": "sg-6b9dfe775421",
+      "name": "井伊直孝",
+      "scope": "氏名・年精度の生没年・掲載した独自略歴のみ。別名・画像・他の生涯記録は対象外。",
+      "birthYear": 1590,
+      "deathYear": 1659,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "彦根藩主井伊家の当主。彦根城の築造を引き継ぎ、1622年に城郭はほぼ完成した。直孝の代に井伊家の領知は30万石となった。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00621863",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/00003570",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/1591"
+      ],
+      "sourceLocators": "NDL名称・生没年／文化庁井伊家墓所の直孝期領知／彦根城跡詳細解説",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。出典表示。https://id.ndl.go.jp/information/use/ （2026-11-01確認）\n文化庁「国指定文化財等データベース」の文字情報を参照しWALKEDが独自記述。出典名・URL表示。https://kunishitei.bunka.go.jp/top/policy （2026-11-01確認）。画像は不使用。",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "f84fff3221b28da5567c22ee084ed426b7e25c4bbe8c9a50cd7f0f497295b98a"
+    },
+    {
+      "reviewId": "person-review-sg-31e0e85d7a10",
+      "version": "20261031-review-S10",
+      "personId": "sg-31e0e85d7a10",
+      "name": "伊達政宗",
+      "scope": "氏名・掲載略歴・列挙別名・JSONに数値のある年のみ。null項目は承認対象外。",
+      "birthYear": 1567,
+      "deathYear": 1636,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "仙台藩の初代藩主。1601年、広瀬川に臨む青葉山で仙台城本丸の築造を始めた。仙台城は江戸時代を通じて伊達家の居城となった。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00621795",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/3371"
+      ],
+      "sourceLocators": "NDL名称・生没年／文化庁仙台城跡の詳細解説",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。出典明示。https://id.ndl.go.jp/information/use/ 。確認した事実からWALKEDが独自記述。出典名・URL表示。原文・写真・地図を転載しない。原文等の包括的再利用許諾を意味しない。 参照：NDL典拠：伊達政宗／国指定文化財：仙台城跡",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "55a631adce8690de7e7b2fbf9f1ac7350bc7967b65101bde981f43f6cdad8848"
+    },
+    {
+      "reviewId": "person-review-sg-22f595e1c616",
+      "version": "20261031-review-S10",
+      "personId": "sg-22f595e1c616",
+      "name": "北条氏康",
+      "scope": "氏名・掲載略歴・列挙別名・JSONに数値のある年のみ。null項目は承認対象外。",
+      "birthYear": 1515,
+      "deathYear": 1571,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "小田原北条氏の三代当主。1541年に父氏綱の後を継いだ。1546年の河越合戦では、足利晴氏・上杉憲政・上杉朝定の連合軍に勝利した。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00269765",
+        "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html"
+      ],
+      "sourceLocators": "NDL名称・生没年／小田原市年表1541・1546（譲位年は採用しない）",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。出典明示。https://id.ndl.go.jp/information/use/ 。確認した事実からWALKEDが独自記述。出典名・URL表示。原文・写真・地図を転載しない。原文等の包括的再利用許諾を意味しない。 参照：NDL典拠：北条氏康／小田原市：北条氏五代100年の歴史",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "c210292010de73fe151c833788288019736526e3af0fe5c494895cefae1c052a"
+    },
+    {
+      "reviewId": "person-review-sg-98139e31efb2",
+      "version": "20261101-review-S11",
+      "personId": "sg-98139e31efb2",
+      "name": "毛利元就",
+      "scope": "氏名・年精度の生没年・掲載した独自略歴のみ。別名・画像・他の生涯記録は対象外。",
+      "birthYear": 1497,
+      "deathYear": 1571,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "毛利氏の武将。1523年に家督を継ぎ、猿掛城から郡山城へ移った。郡山城を整備し、中国地方へ勢力を広げた。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00270932",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/2331"
+      ],
+      "sourceLocators": "NDL名称・生没年／文化庁毛利氏城跡の郡山城解説",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。出典表示。https://id.ndl.go.jp/information/use/ （2026-11-01確認）\n文化庁「国指定文化財等データベース」の文字情報を参照しWALKEDが独自記述。出典名・URL表示。https://kunishitei.bunka.go.jp/top/policy （2026-11-01確認）。画像は不使用。",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "8a672d24941c92d06077643865d85dcf70a0bf01560a93ce553a1ed5913c53e6"
+    },
+    {
+      "reviewId": "person-review-sg-df4ede094a85",
+      "version": "20261101-review-S11",
+      "personId": "sg-df4ede094a85",
+      "name": "井伊直政",
+      "scope": "氏名・年精度の生没年・掲載した独自略歴のみ。別名・画像・他の生涯記録は対象外。",
+      "birthYear": 1561,
+      "deathYear": 1602,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "徳川家康に仕え、合戦で功績を重ねた井伊家の武将。死後、彦根の清凉寺に葬られた。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00621864",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/00003570"
+      ],
+      "sourceLocators": "NDL名称・生没年／文化庁彦根藩主井伊家墓所の解説冒頭と清凉寺の段",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。出典表示。https://id.ndl.go.jp/information/use/ （2026-11-01確認）\n文化庁「国指定文化財等データベース」の文字情報を参照しWALKEDが独自記述。出典名・URL表示。https://kunishitei.bunka.go.jp/top/policy （2026-11-01確認）。画像は不使用。",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "a9002890bd6018f5254ab8a56443bee7e5fdd8cbbfece9f06463cdc194655029"
+    },
+    {
+      "reviewId": "person-review-sg-master-2013",
+      "version": "20261101-review-S12",
+      "personId": "sg-master-2013",
+      "name": "毛利輝元",
+      "scope": "氏名・年精度の生没年・掲載した独自略歴のみ",
+      "birthYear": 1553,
+      "deathYear": 1625,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "毛利氏の大名。広島城を築き、本拠を郡山城から広島へ移した。関ヶ原の戦い後に毛利氏が転封されると、広島城は福島正則に引き継がれた。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00626579",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/2332"
+      ],
+      "sourceLocators": "NDL名称・生没年／文化庁広島城跡「詳細解説」冒頭",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工。取得元を表示。https://id.ndl.go.jp/information/use/ 。文化庁「国指定文化財等データベース」文字情報を参照しWALKEDが独自記述。出典表示。https://kunishitei.bunka.go.jp/top/policy 。原文・画像・地図の転載なし。2026-11-01確認。",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "5da958c28c7463d6c456e1c169c546838ce4f22a7d39cf63ede4d5f4d9d317a5"
+    },
+    {
+      "reviewId": "person-review-sg-60127e5bb054",
+      "version": "20261101-review-S13",
+      "personId": "sg-60127e5bb054",
+      "name": "毛利隆元",
+      "scope": "氏名・年精度の生没年・掲載した独自略歴のみ",
+      "birthYear": 1523,
+      "deathYear": 1563,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "毛利元就の子として戦国期に活動した武将。1561年、父の元就とともに小早川隆景の居城であった新高山城を訪ねた。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00794714",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/2333"
+      ],
+      "sourceLocators": "NDL名称・生没年／文化庁小早川氏城跡詳細解説の新高山城・三原城の段",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工し取得元を表示。https://id.ndl.go.jp/information/use/ 。文化庁「国指定文化財等データベース」の文字情報を参照しWALKEDが独自に記述。出典名・URLを表示。https://kunishitei.bunka.go.jp/top/policy 。2026-11-01確認。原文・画像・地図は転載しない。",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "3a1021ddb9e3c0e56a49fb917ec8c72d65699753987d94791f201b850c0f422b"
+    },
+    {
+      "reviewId": "person-review-sg-master-0891",
+      "version": "20261101-review-S13",
+      "personId": "sg-master-0891",
+      "name": "小早川隆景",
+      "scope": "氏名・年精度の生没年・掲載した独自略歴のみ",
+      "birthYear": 1533,
+      "deathYear": 1597,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "小早川氏の武将。三原城を築き、筑前を領した際には名嶋城に移った。のちに三原城へ戻り、1597年に城内で没した。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00624015",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/2333"
+      ],
+      "sourceLocators": "NDL名称・生没年／文化庁小早川氏城跡詳細解説の新高山城・三原城の段",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工し取得元を表示。https://id.ndl.go.jp/information/use/ 。文化庁「国指定文化財等データベース」の文字情報を参照しWALKEDが独自に記述。出典名・URLを表示。https://kunishitei.bunka.go.jp/top/policy 。2026-11-01確認。原文・画像・地図は転載しない。",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "814a85306788fbeaa01cb48a326667b1e8c6d4f7c7f01640c55990e3ee6585c6"
+    },
+    {
+      "reviewId": "person-review-sg-49819a572b8c",
+      "version": "20261101-review-S14",
+      "personId": "sg-49819a572b8c",
+      "name": "吉川元春",
+      "scope": "氏名・年精度の生没年・掲載した独自略歴のみ",
+      "birthYear": 1530,
+      "deathYear": 1586,
+      "datePrecision": "年",
+      "calendar": "西暦年（出典表記）",
+      "summary": "毛利元就の次男。日山城を居城とし、その南西の麓に隠居所となる館を建てた。館跡には池や築山を備えた庭園の遺構が残る。",
+      "aliases": [],
+      "sourceUrls": [
+        "https://id.ndl.go.jp/auth/ndlna/00622511",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/3343"
+      ],
+      "sourceLocators": "NDL名称・生没年／文化庁吉川元春館跡庭園詳細解説",
+      "attribution": "国立国会図書館 Web NDL Authoritiesの典拠データを使用・加工し取得元を表示。https://id.ndl.go.jp/information/use/ 。文化庁「国指定文化財等データベース」の文字情報を参照しWALKEDが独自に記述。出典名・URLを表示。https://kunishitei.bunka.go.jp/top/policy 。2026-11-01確認。原文・画像・地図は転載しない。",
+      "publicationStatus": "公開可",
+      "approvalSHA256": "d0e79ae7a40d2948ca64aec78253d98f61ad264df78fc28a2186262d82f25f4b"
+    }
+  ]
+}

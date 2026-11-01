@@ -2809,5 +2809,25 @@
     "yearEvidence": "publication_review",
     "verification": "reviewed",
     "source": "https://kunishitei.bunka.go.jp/heritage/detail/401/1173"
+  },
+  {
+    "id": "pub-link-a0d96d5c7010d2d25dc19370",
+    "personId": "sg-master-0922",
+    "siteId": "sg-site-gifu",
+    "relatedYear": 1554,
+    "relatedYearEnd": 1561,
+    "yearEvidence": "publication_review",
+    "verification": "reviewed",
+    "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html"
+  },
+  {
+    "id": "pub-link-59b04d602a205215a305d2c5",
+    "personId": "sg-person-saito-dosan",
+    "siteId": "sg-site-ooga",
+    "relatedYear": null,
+    "relatedYearEnd": null,
+    "yearEvidence": "publication_review",
+    "verification": "reviewed",
+    "source": "https://kunishitei.bunka.go.jp/heritage/detail/401/00004243"
   }
 ]

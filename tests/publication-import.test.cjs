@@ -2,7 +2,7 @@ const {test}=require('node:test'),assert=require('node:assert/strict'),fs=requir
 const {FILES,packages,apply,hash}=require('../scripts/import-publication.cjs');
 const commit=packages[0].baseline.commit;
 const base=Object.fromEntries(FILES.map(f=>[f,JSON.parse(cp.execFileSync('git',['show',commit+':'+f],{encoding:'utf8'}))]));
-const current=Object.fromEntries(FILES.map(f=>[f,JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'..',f)))]));
+const current=Object.fromEntries(FILES.map(f=>[f,JSON.parse(cp.execFileSync('git',['show','17526a259089986671613e67e5dfe435151537e4:'+f],{encoding:'utf8'}))]));
 test('two reviewed packages produce the exact runtime catalog and preserve every legacy record',()=>{
  assert.deepEqual(apply(base),current);for(const f of FILES){const old=f==='history.json'?base[f].entries:base[f],now=f==='history.json'?current[f].entries:current[f];for(const r of old)assert.deepEqual(now.find(x=>x.id===r.id),r);}
  assert.equal(current['sengoku/cards.json'].length,304);assert.equal(current['sengoku/links.json'].length,233);

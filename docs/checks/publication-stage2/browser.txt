@@ -1,0 +1,8 @@
+2026-11-01 JST — actual cloud Chrome, disposable local origin, synthetic records only.
+PASS: combined data + branding preview, actual Leaflet and boundary rendering.
+PASS: UI file chooser restores synthetic v3, confirmation accepted; new approved cards unlock from saved cities.
+PASS: 義龍 scoped profile: unknown birth, death1561, tenure1554–1561, sources and credit.
+PASS: v3 UI download parsed locally: 4 visits,18 stored cards, old and unknown acquisition records preserved.
+PASS: reload: 14 acquired people,17 displayed eligible cards, no repeated card/title notification.
+Production URL inspected read-only: still WALKED,230 eligible/72 pending, main not deployed.
+NOT TESTED: physical iPhone, mobile emulation, home-screen installation/icon, actual GPS, iOS file UI, field accuracy/offline.
