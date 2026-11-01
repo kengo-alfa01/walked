@@ -1,5 +1,5 @@
-"""Package the existing app for an isolated, private testing origin."""
-import argparse, json, shutil, subprocess
+"""Package runtime assets for an isolated local testing origin."""
+import argparse, json, re, shutil, subprocess
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser();parser.add_argument('--output',required=True);args=parser.parse_args()
@@ -8,14 +8,17 @@ if out==root or root in out.parents: raise SystemExit('Use a separate Site direc
 out.mkdir(parents=True,exist_ok=True)
 # Explicit runtime allowlist: no Git metadata, management documents or user storage.
 files=['index.html','walked-core.js','history.json','machida-boundaries.topojson','sagamihara-14151.topojson','sagamihara-14152.topojson','sagamihara-14153.topojson','data/title-registry.json','sengoku/people.json','sengoku/sites.json','sengoku/links.json','sengoku/cards.json','preview/preview.js','preview/preview.css']
+optional=['manifest.webmanifest','assets/icon-32.png','assets/icon-180.png','assets/icon-192.png','assets/icon-512.png','sengoku/approved-profiles.json','sengoku/publication-credits.json']
+files += [name for name in optional if (root/name).is_file()]
 files += [str(p.relative_to(root)) for p in sorted((root/'town-data').glob('*.topojson'))]
 for name in files:
  dest=out/name;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(root/name,dest)
 sha=subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip()
-s=(out/'index.html').read_text()
-s=s.replace('<title>WALKED | 市区町村探索マップ</title>','<title>WALKED 確認用 — 称号・バックアップ</title>')
-s=s.replace('</head>',f'<meta name="walked-preview" content="PR #4 / {sha[:7]}"><link rel="stylesheet" href="./preview/preview.css"></head>')
+branch=subprocess.check_output(['git','branch','--show-current'],cwd=root,text=True).strip()
+s=(out/'index.html').read_text();name='日本見風録' if '<title>日本見風録</title>' in s else 'WALKED'
+s=re.sub(r'<title>.*?</title>',f'<title>{name} 確認用 — 称号・バックアップ</title>',s,count=1)
+s=s.replace('</head>',f'<meta name="walked-preview" content="{branch} / {sha[:7]}"><link rel="stylesheet" href="./preview/preview.css"></head>')
 s=s.replace('</body>','<script src="./preview/preview.js"></script></body>')
 (out/'index.html').write_text(s)
-(out/'preview-build.json').write_text(json.dumps({'sourceRepository':'kengo-alfa01/walked','sourceCommit':sha,'pullRequest':4,'files':len(files)},indent=2)+'\n')
+(out/'preview-build.json').write_text(json.dumps({'sourceRepository':'kengo-alfa01/walked','sourceCommit':sha,'sourceBranch':branch,'files':len(files)},indent=2)+'\n')
 print(json.dumps({'source_commit':sha,'files':len(files),'output':str(out)}))

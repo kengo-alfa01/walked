@@ -385,7 +385,7 @@ loadHistory();
 
 // Sengoku collection: empty catalog is valid; verified records are appended as data files.
 const sengokuStoreKey='walked_sengoku_cards_v1';
-let sengokuPeople=[],sengokuSites=[],sengokuLinks=[],sengokuCards=[],sengokuOpen=false;
+let sengokuPeople=[],sengokuSites=[],sengokuLinks=[],sengokuCards=[],sengokuProfiles=new Map(),sengokuPublicationCredits={},sengokuOpen=false;
 let sengokuBulkImport=false;const sengokuBatchDiscoveries=[];
 let sengokuPins=L.layerGroup().addTo(map);
 const sengokuFound=readStore(sengokuStoreKey,{},v=>WalkedCore.records(v,'カード'));
@@ -428,6 +428,16 @@ function sortSengokuTimeline(a,b){
 function showSengokuPerson(person){
  const div=$('sengokuDetail');div.replaceChildren();
  const h=document.createElement('h3');h.textContent=person.name+' ― 人生の足跡';div.append(h);
+ const profile=sengokuProfiles.get(person.id);
+ if(profile&&countOwned(person.id)>0){
+  const section=document.createElement('section');section.className='sengoku-profile';section.setAttribute('aria-label','確認済みの人物紹介');
+  const years=document.createElement('p');years.textContent=(Number.isInteger(profile.birthYear)?profile.birthYear+'年生':'生年未確認')+' ／ '+(Number.isInteger(profile.deathYear)?profile.deathYear+'年没':'没年未確認')+'（'+profile.calendar+'・年単位）';
+  const summary=document.createElement('p');summary.textContent=profile.summary;section.append(years,summary);
+  if(profile.aliases.length){const aliases=document.createElement('p');aliases.textContent='別名：'+profile.aliases.map(a=>a.name+'（'+a.type+'）').join('、');section.append(aliases);}
+  const credit=document.createElement('p');credit.className='small-note';credit.style.whiteSpace='pre-line';credit.textContent=profile.attribution;section.append(credit);
+  for(const url of profile.sourceUrls){if(!/^https:\/\//.test(url))continue;const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='人物紹介の出典を読む ↗';a.style.display='block';section.append(a);}
+  div.append(section);
+ }
  const line=document.createElement('p');line.className='sengoku-empty';
  line.textContent='史跡カードは出来事の年代順に表示。年が未確認のカードは末尾にまとめます。未発見の内容は秘密です。';div.append(line);
  const personCards=sengokuCards.filter(c=>c.personId===person.id&&eligibleSengokuCard(c)).sort(sortSengokuTimeline);
@@ -441,6 +451,8 @@ function showSengokuPerson(person){
   if(ownsSengokuCard(card.id)){
    const site=sengokuSites.find(s=>s.id===card.siteId);
    content.textContent='📜 '+card.title+' — '+card.summary+(site?'（'+site.name+'）':'');
+   const credit=sengokuPublicationCredits[card.id];
+   if(credit){const p=document.createElement('p');p.className='small-note publication-credit';p.style.whiteSpace='pre-line';p.textContent=credit.attribution;content.append(p);for(const url of credit.sourceUrls){if(!/^https:\/\//.test(url))continue;const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='参考資料を読む ↗';a.style.display='block';content.append(a);}}
    if(card.source&&/^https:\/\//.test(card.source)){const a=document.createElement('a');a.href=card.source;a.target='_blank';a.rel='noopener noreferrer';a.textContent=' 出典を読む';content.append(a);}
   }else content.textContent='🔒 未発見の足跡';
   el.append(year,content);div.append(el);
@@ -459,15 +471,15 @@ function toastSengokuCards(ids){
 function acquireSengokuByAreaFeature(feature){
  const code=String(feature.properties?.WALKED_MUNICIPAL_CODE||feature.properties?.N03_007||areaMunicipalityCode(keyForMode(feature,state.mode))||'');
  const eligibleSites=sengokuSites.filter(s=>(code&&String(s.municipalityCode)===code)||geomContains(s.point,feature.geometry));
- const addedIds=[];
+ const addedIds=[],next={...sengokuFound};
  for(const site of eligibleSites){
   if(site.boundaryAudit==='unresolved_polygon_mismatch'||site.catalogEligibility==='exclude_pending_evidence')continue;
   for(const card of sengokuCards){
    if(card.siteId!==site.id||!eligibleSengokuCard(card)||sengokuFound[card.id])continue;
-   sengokuFound[card.id]={at:new Date().toISOString(),siteId:site.id};addedIds.push(card.id);
+   next[card.id]={at:new Date().toISOString(),siteId:site.id};addedIds.push(card.id);
   }
  }
- if(addedIds.length){writeStore(sengokuStoreKey,sengokuFound);renderSengoku();refreshSengokuPins();toastSengokuCards(addedIds)}
+ if(addedIds.length){writeStore(sengokuStoreKey,next);Object.assign(sengokuFound,next);renderSengoku();refreshSengokuPins();toastSengokuCards(addedIds)}
 }
 // Pure matching function shared by real acquisition and side-effect-free test mode.
 function matchedSengokuCardsAtPoint(lngLat){
@@ -492,13 +504,13 @@ function matchedSengokuCardsAtPoint(lngLat){
 }
 function acquireSengokuByPoint(lngLat,at){
  const matched=matchedSengokuCardsAtPoint(lngLat);
- let added=0;const newlyAcquired=[];
+ let added=0;const newlyAcquired=[],next={...sengokuFound};
  for(const id of matched.ids){
   if(sengokuFound[id])continue;
   const card=sengokuCards.find(c=>c.id===id);
-  sengokuFound[id]={at:at||new Date().toISOString(),siteId:card?.siteId};added++;newlyAcquired.push(id);
+  next[id]={at:at||new Date().toISOString(),siteId:card?.siteId};added++;newlyAcquired.push(id);
  }
- if(added){writeStore(sengokuStoreKey,sengokuFound);renderSengoku();refreshSengokuPins();if(sengokuBulkImport)sengokuBatchDiscoveries.push(...newlyAcquired);else toastSengokuCards(newlyAcquired)}
+ if(added){writeStore(sengokuStoreKey,next);Object.assign(sengokuFound,next);renderSengoku();refreshSengokuPins();if(sengokuBulkImport)sengokuBatchDiscoveries.push(...newlyAcquired);else toastSengokuCards(newlyAcquired)}
  return added;
 }
 function reconcileSengokuVisits(){
@@ -533,14 +545,16 @@ $('runSengokuTest').onclick=async()=>{
  finally{button.disabled=false}
 };
 async function loadSengoku(){try{
- const responses=await Promise.all(['people','sites','links','cards'].map(k=>fetch('./sengoku/'+k+'.json',{cache:'no-cache'})));
+ const responses=await Promise.all(['people','sites','links','cards','approved-profiles','publication-credits'].map(k=>fetch('./sengoku/'+k+'.json',{cache:'no-cache'})));
  if(responses.some(r=>!r.ok))throw Error('データファイルがありません');
- const [people,sites,links,cards]=await Promise.all(responses.map(r=>r.json()));
+ const [people,sites,links,cards,profiles,credits]=await Promise.all(responses.map(r=>r.json()));
  if(!Array.isArray(people)||!Array.isArray(sites)||!Array.isArray(links)||!Array.isArray(cards))throw Error('配列形式ではありません');
  const ids=new Set(people.map(p=>p.id)),siteIds=new Set(sites.map(s=>s.id));
  if(cards.some(c=>!ids.has(c.personId)||!siteIds.has(c.siteId)))throw Error('人物または史跡への参照が不正です');
  const linkKeys=new Set(links.map(l=>l.siteId+'|'+l.personId));
  if(links.some(l=>!ids.has(l.personId)||!siteIds.has(l.siteId))||cards.some(c=>!linkKeys.has(c.siteId+'|'+c.personId)))throw Error('関連テーブルの参照が不正です');
+ if(profiles.schemaVersion!=='walked.approved-profiles.v1'||!Array.isArray(profiles.profiles)||profiles.profiles.some(p=>p.publicationStatus!=='公開可'||!Array.isArray(p.aliases)||!Array.isArray(p.sourceUrls))||new Set(profiles.profiles.map(p=>p.personId)).size!==profiles.profiles.length)throw Error('人物紹介データが不正です');
+ sengokuProfiles=new Map(profiles.profiles.map(p=>[p.personId,p]));sengokuPublicationCredits=credits;
  sengokuPeople=people;sengokuSites=sites;sengokuLinks=links;sengokuCards=cards;
  const eligible=cards.filter(eligibleSengokuCard).length;
  const legacy=Object.keys(sengokuFound).filter(id=>!cards.some(c=>c.id===id&&eligibleSengokuCard(c))).length;

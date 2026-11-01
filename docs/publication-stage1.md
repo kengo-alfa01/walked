@@ -1,5 +1,7 @@
 # Reviewed historical records: first game import
 
+On the stage 2 branch, continue with [publication-stage2.md](publication-stage2.md) and `scripts/import-publication-stage2.cjs`. The stage 1 importer intentionally rejects the reviewed stage 2 text updates; do not weaken its checks.
+
 This change adds two independently reviewed events to the runtime Sengoku catalog. It does not replace the person/site masters or import unreviewed research.
 
 | Package | Person / site | Event | Card ID |

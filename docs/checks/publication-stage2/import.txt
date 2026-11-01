@@ -1,0 +1,1 @@
+{"mode":"check","counts":{"sengoku/people.json":531,"sengoku/sites.json":223,"sengoku/links.json":235,"sengoku/cards.json":306,"history.json":20},"addedCards":2,"updatedCards":2,"approvedProfiles":22,"published":false}
