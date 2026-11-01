@@ -10,6 +10,8 @@ Manifest id/start_url/scope are relative `./`; display standalone. No repository
 
 35 existing application/title/backup tests and area regression passed. PNG sizes/formats, all HTML/manifest icon paths, packaged files, storage-key identity and unchanged historical datasets were checked. A real cloud Chrome preview rendered the title/icon and map; a combined preview also passed real UI file restore/export and reload checks documented in the data PR. `docs/checks/branding/desktop.jpg` is that synthetic-record preview, not production. Tests/logs and visual evidence are separate from device QA.
 
+Follow-up actual Chrome iframe viewport checks at 320/390/430px found no horizontal overflow, including the combined acquired profile/timeline/source view. This checks CSS responsiveness in desktop Chrome, not mobile hardware, touch behavior or Safari.
+
 Still unverified: physical iPhone responsive rendering, Add to Home Screen/icon caching, actual GPS, Safari/iOS file UI. Existing installed shortcuts may need a user-side refresh/re-add, but this has not been tested. Main and the live app were not changed or deployed. Keep this PR Draft until the user explicitly approves merging/publishing. No title growth or regional encyclopedia feature is added.
 
 Resume from this branch, read current management sheet and PR state, then perform iPhone/installation/GPS/file QA. Data PR #6 and its follow-up are reviewed independently. Verify the combined merge without modifying main, and request deployment approval only after the reviewable changes are ready.

@@ -1,0 +1,9 @@
+2026-11-01 JST follow-up — combined PR #7 5320c70 and PR #8 3b11f2b.
+Actual cloud Chrome, same-origin iframe viewport checks (not physical mobile/Safari):
+320px viewport: document scrollWidth305px, no horizontal overflow, acquired 義龍 profile/timeline/credit displayed.
+390px viewport: document scrollWidth375px, no horizontal overflow, header icon/title and primary controls rendered.
+430px viewport: document scrollWidth415px, no horizontal overflow with acquired profile/timeline/source credit.
+15px difference is the iframe vertical scrollbar. Production storage was not used.
+Additional geolocation UI tests: no API, denied, timeout for both controls; display-only location does not award; outside Japan does not falsely register. All passed using simulated callbacks, not actual GPS hardware.
+Total distinct automated tests52 = importer4 + app14 + title/backup24 + stage2/followup10. Original combined snapshot49 passed; follow-up10 includes the original stage2 seven plus three new tests.
+Still not tested: physical iPhone/Safari, home-screen installation/icon caching, actual GPS, iOS file picker.
