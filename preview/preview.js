@@ -22,7 +22,7 @@
   for(const [pref,n] of [['13',16],['14',15]])for(const area of titleRegistry.areas.filter(a=>a.prefecture===pref).slice(0,n))visited[area.code]={first:now,last:now,source:'確認用サンプル'};
   try{
    WalkedCore.transaction(localStorage,{[DBKEY]:JSON.stringify(visited),[sampleKey]:'true'},restoreJournalKey);
-   state.visited=visited;updateTitles();repaint();renderHistory();reconcileSengokuVisits();
+   state.visited=visited;updateTitles();repaint();reconcileSengokuVisits();
    selectTitle('national-2');$('titlePanel').hidden=false;$('titleToggle').setAttribute('aria-expanded','true');renderTitles();syncNote();
    status('サンプル31エリアを登録しました。「足軽大将」と東京都・神奈川県の25%称号を確認できます。');
   }catch(error){status('サンプルを保存できません：'+error.message)}
