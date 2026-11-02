@@ -14,5 +14,195 @@
       "https://www.city.takasaki.gunma.jp/site/sightseeing/6449.html",
       "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/10/100000109300.html"
     ]
+  },
+  "pub-card-4f1c4ce6c4032d79509d41df": {
+    "attribution": "独自作成・原文転載なし\n使用なし\nCC BY 4.0\n文化庁「国指定文化財等データベース」真壁城跡を参照しWALKEDが独自作成。出典名・URLを表示。文字情報の利用条件 https://kunishitei.bunka.go.jp/top/policy 。画像は使用しない。\n位置情報：『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456、CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 。https://geoshape.ex.nii.ac.jp/nrct-poi/resource/08/080000241600.html 。城跡の代表点であり入口や立入可能地点ではない。市区町村訪問で解放し、発掘調査区域へ立ち入る必要はない。",
+    "sourceUrls": [
+      "https://kunishitei.bunka.go.jp/heritage/detail/401/451",
+      "https://www.city.sakuragawa.lg.jp/education/bunkazai/page006692.html"
+    ]
+  },
+  "sg-card-0124": {
+    "attribution": "歴史情報：韮崎市「韮崎市：新府城跡」を参照して独自作成。出典名・URLを表示。https://www.city.nirasaki.lg.jp/bunka_kanko_sports/bunka/3/2675.html 。位置情報：『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456、CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 。写真・地図・原文は転載しない。 https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000156100.html 。公開範囲・条件：https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/meisho_kyuseki/6562.html 。城跡を見学する際は現地案内・規制に従う。城跡と駐車場は別住所。本丸のトイレは冬季～4月上旬頃に閉鎖される場合がある。代表点は入口ではない。",
+    "sourceUrls": [
+      "https://www.city.nirasaki.lg.jp/bunka_kanko_sports/bunka/3/2675.html",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000156100.html",
+      "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/meisho_kyuseki/6562.html"
+    ]
+  },
+  "sg-card-0116": {
+    "attribution": "歴史情報：文化庁「国指定文化財等データベース：江戸城跡」を参照して独自作成。出典名・URLを表示。https://kunishitei.bunka.go.jp/heritage/detail/401/723 。位置情報：『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456、CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 。写真・地図・原文は転載しない。 https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000022400.html 。公開範囲・条件：https://www.kunaicho.go.jp/visit/higashigyoen/index.html 。旧本丸・二の丸・三の丸の一部が皇居東御苑として公開される。全域自由立入不可。休園日・公開時間は宮内庁最新案内を確認。代表点は入園口ではない。",
+    "sourceUrls": [
+      "https://kunishitei.bunka.go.jp/heritage/detail/401/723",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000022400.html",
+      "https://www.kunaicho.go.jp/visit/higashigyoen/index.html"
+    ]
+  },
+  "sg-card-0136": {
+    "attribution": "歴史情報：文化庁「国指定文化財等データベース」上田城跡・詳細解説、および上田市「上田城の歴史」を参照し独自作成。原文・写真・図版は転載しない。出典名・URLを表示。https://kunishitei.bunka.go.jp/heritage/detail/401/1173 ／ https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html 。文化庁文字情報の利用条件：https://kunishitei.bunka.go.jp/top/policy 。位置情報：『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456、CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 。https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000076900.html 。城跡の代表点であり入口・立入可能地点ではない。市区町村訪問による解放。",
+    "sourceUrls": [
+      "https://kunishitei.bunka.go.jp/heritage/detail/401/1173",
+      "https://www.city.ueda.nagano.jp/soshiki/shogaku/2378.html",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000076900.html"
+    ]
+  },
+  "sg-card-0263": {
+    "attribution": "歴史情報：文化庁「国指定文化財等データベース」岐阜城跡、および岐阜市「岐阜城の歴代城主」6 織田信長を参照して独自作成。出典名・URLを表示。原文・写真・図版は不使用。https://kunishitei.bunka.go.jp/heritage/detail/401/00003701 ／ https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html 。文化庁文字情報の利用条件 https://kunishitei.bunka.go.jp/top/policy 。位置情報：『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456、CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 。https://geoshape.ex.nii.ac.jp/nrct-poi/resource/21/210000161100.html 。金華山の城跡代表点。現天守・登山口・自由立入可能地点とは区別。市区町村訪問による解放。",
+    "sourceUrls": [
+      "https://kunishitei.bunka.go.jp/heritage/detail/401/00003701",
+      "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/21/210000161100.html"
+    ]
+  },
+  "sg-card-0013": {
+    "attribution": "史実：文化庁「国指定文化財等データベース」。文章：WALKEDによる独自作成。座標：『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456、CC BY 4.0、代表点を採用。画像不使用。",
+    "sourceUrls": [
+      "https://kunishitei.bunka.go.jp/heritage/detail/401/799",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000226900.html",
+      "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html"
+    ]
+  },
+  "pub-card-10fd0fdf782191833353a8b2": {
+    "attribution": "史実：文化庁「国指定文化財等データベース」。文章：WALKEDによる独自作成。座標：『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456、CC BY 4.0、代表点を採用。画像不使用。",
+    "sourceUrls": [
+      "https://kunishitei.bunka.go.jp/heritage/detail/401/3371",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/04/040000076100.html",
+      "https://www.pref.miyagi.jp/soshiki/bunkazai/kuni-siseki32.html"
+    ]
+  },
+  "pub-card-460bdaf0819d55b42fcc8742": {
+    "attribution": "史実：福岡市博物館「黒田家の名宝」。文章：WALKEDが独自作成。座標：『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456、CC BY 4.0。画像不使用。",
+    "sourceUrls": [
+      "https://museum.city.fukuoka.jp/archives/leaflet/411/index.html",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/21/210000161100.html"
+    ]
+  },
+  "pub-card-268571ea41feac148a4784f9": {
+    "attribution": "歴史事実を公的・管理主体資料から独自要約、掲載文・画像・有料地図・翻刻は転載しない。地名代表点: CODH作成『日本歴史地名大系』施設・地点項目データセット doi:10.20676/00000456, CC BY 4.0。",
+    "sourceUrls": [
+      "https://kunishitei.bunka.go.jp/heritage/detail/401/2331",
+      "https://www.akitakata.jp/ja/hakubutsukan/assets/koriyama/",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/35/350000239100.html"
+    ]
+  },
+  "pub-card-32c40118e5c56bdabf6f8b54": {
+    "attribution": "史実：岐阜市「岐阜城の歴代城主」と国土交通省「地域観光資源の多言語解説文DB」を参照し独自作成。原文・画像・地図不使用。位置：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456、CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 。",
+    "sourceUrls": [
+      "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+      "https://www.mlit.go.jp/tagengo-db/H30-00692.html",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/21/210000161100.html"
+    ]
+  },
+  "pub-card-96e550e9238b8578b795332b": {
+    "attribution": "史実：京都市・元離宮二条城「年表」「概要」を参照し独自作成。原文・写真・地図不使用。位置：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456、CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 。",
+    "sourceUrls": [
+      "https://nijo-jocastle.city.kyoto.lg.jp/introduction/highlights/nenpyo/",
+      "https://nijo-jocastle.city.kyoto.lg.jp/introduction/highlights/overview/",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/27/270000328900.html",
+      "https://nijo-jocastle.city.kyoto.lg.jp/access/",
+      "https://www.mlit.go.jp/plateaudocument01-01/Contents/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%88/Common_localPublicAuthorities.html"
+    ]
+  },
+  "sg-card-0003": {
+    "attribution": "CODH作成『日本歴史地名大系』施設・地点項目データセット doi:10.20676/00000456、CC BY4.0。史実は出典から独自要約。原文・画像不転載。",
+    "sourceUrls": [
+      "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+      "https://odawaracastle.com/history/hojo-godai/",
+      "https://www.city.odawara.kanagawa.jp/kanko/corridor/castle/p09978.html",
+      "https://www.wikidata.org/wiki/Q1013437",
+      "https://www.wikidata.org/wiki/Wikidata:Licensing"
+    ]
+  },
+  "pub-card-2f1e3b45925e179885ad4f59": {
+    "attribution": "史実：上田市立博物館『上田城と歴代上田城主』を参照し独自記述。現在地と建物の区別：大阪市の施設・景観案内。原文・画像・地図は使用しない。位置：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456、CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 。",
+    "sourceUrls": [
+      "https://museum.umic.jp/hakubutsukan/ueda-castle-history/03/",
+      "https://www.city.osaka.lg.jp/toshikeikaku/page/0000100550.html",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/28/280000098900.html",
+      "https://parksgreenery.city.osaka.lg.jp/article/parks-osakajo/",
+      "https://www.mlit.go.jp/plateaudocument01-01/Contents/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%88/Common_localPublicAuthorities.html"
+    ]
+  },
+  "pub-card-d22eb5293ce63110515a4fb5": {
+    "attribution": "史実：愛知県図書館の解説と文化庁の史跡情報を参照し独自に記述。原文・画像・図版・地図不転載。位置：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456、CC BY4.0 https://creativecommons.org/licenses/by/4.0/ 。地名代表点を利用。",
+    "sourceUrls": [
+      "https://www.aichi-pref-library.jp/s005/about/area/010/050/20250316174437.html",
+      "https://kunishitei.bunka.go.jp/bsys/maindetails/401/1432",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/23/230000116300.html",
+      "https://aichinow.pref.aichi.jp/spots/detail/311/",
+      "https://www.mlit.go.jp/plateaudocument01-01/Contents/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%88/Common_localPublicAuthorities.html"
+    ]
+  },
+  "pub-card-0c318c0eb745561e04ca5a16": {
+    "attribution": "史実：文化庁『国指定文化財等データベース 大坂城跡』と大阪市の景観解説を参照し独自に記述。原文・画像・地図は転載しない。位置：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456、CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 。",
+    "sourceUrls": [
+      "https://kunishitei.bunka.go.jp/heritage/detail/401/1792",
+      "https://www.city.osaka.lg.jp/toshikeikaku/page/0000100550.html",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/28/280000098900.html",
+      "https://parksgreenery.city.osaka.lg.jp/article/parks-osakajo/",
+      "https://www.mlit.go.jp/plateaudocument01-01/Contents/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%88/Common_localPublicAuthorities.html"
+    ]
+  },
+  "pub-card-c7757200eb6cb07049500403": {
+    "attribution": "歴史事実を公的・管理主体資料から独自要約、掲載文・画像・有料地図・翻刻は転載しない。地名代表点: CODH作成『日本歴史地名大系』施設・地点項目データセット doi:10.20676/00000456, CC BY 4.0。",
+    "sourceUrls": [
+      "https://hiroshimacastle.jp/history/chronology/",
+      "https://kunishitei.bunka.go.jp/heritage/detail/401/2331",
+      "https://akitakata-kankou.jp/main/motonari/history/",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/35/350000239100.html"
+    ]
+  },
+  "pub-card-18142cf5ecc680edce957807": {
+    "attribution": "歴史事実を公的・管理主体資料から独自要約、掲載文・画像・有料地図・翻刻は転載しない。地名代表点: CODH作成『日本歴史地名大系』施設・地点項目データセット doi:10.20676/00000456, CC BY 4.0。",
+    "sourceUrls": [
+      "https://mohri-museum.com/museum/",
+      "https://akitakata-kankou.jp/main/motonari/history/",
+      "https://www.pref.hiroshima.lg.jp/site/rekishih/rekishi-siryou6.html",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/35/350000239100.html"
+    ]
+  },
+  "pub-card-d81b19a9a3008170f75d2369": {
+    "attribution": "位置: 『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456、CC BY 4.0。史実と城名は自治体・文化庁の記載を独自に要約。原文・画像・地図は転載しない。",
+    "sourceUrls": [
+      "https://www.city.yasugi.shimane.jp/kurashi/bunka/bunkazai/sisekikouen.data/todajoupanhu.pdf",
+      "https://yasugi-kankou.com/spot/gassan-toda-castle-ruins/",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/33/330000072400.html",
+      "https://www.j-lis.go.jp/spd/code-address/chuugoku/cms_15314184.html"
+    ]
+  },
+  "pub-card-c9fed945d7ac483847b2c2b2": {
+    "attribution": "位置: 『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456、CC BY 4.0。史実と城名は自治体・文化庁の記載を独自に要約。原文・画像・地図は転載しない。",
+    "sourceUrls": [
+      "https://online.bunka.go.jp/heritages/detail/172995",
+      "https://www.city.mihara.hiroshima.jp/soshiki/50/139862.html",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/35/350000165500.html",
+      "https://www.j-lis.go.jp/spd/code-address/chuugoku/cms_15514184.html"
+    ]
+  },
+  "pub-card-9522e5a0f5d8cc4c0d65003c": {
+    "attribution": "安芸高田市教育委員会の歴史的事実を独自要約。原文・画像・地図不転載。\nCODH『日本歴史地名大系』施設・地点項目データセット CC BY4.0 doi:10.20676/00000456",
+    "sourceUrls": [
+      "https://www.akitakata.jp/ja/shisei/section/kyouiku/shisekibunkazai/cultural_asset/siseki_kuni/mourisisiroato/sarukakejyouseki/",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/35/350000240600.html",
+      "https://kunishitei.bunka.go.jp/bsys/maindetails/401/2331"
+    ]
+  },
+  "pub-card-s52-kenshin-kasugayama1548": {
+    "attribution": "上越市春日山城跡文化財説明\n上越観光Navi 上杉謙信略年表、独自要約\n『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456、CC BY 4.0\nnone",
+    "sourceUrls": [
+      "https://joetsukankonavi.jp/kensinyukarinochijoetsu/",
+      "https://www.city.joetsu.niigata.jp/site/cultural-property/cultural-property-jpn002.html",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/15/150000114000.html",
+      "https://github.com/kyodo-official/japan-choropleth/blob/78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/by-prefecture/15/municipalities.topojson"
+    ]
+  },
+  "pub-card-a0fb0e8cd73aba791774cbfc": {
+    "attribution": "宮城県・松島町・瑞巌寺公式の歴史事実を独自要約。写真や図版は転載しない。\nCODH作成『日本歴史地名大系』施設・地点項目データセット、CC BY4.0、doi:10.20676/00000456",
+    "sourceUrls": [
+      "https://www.pref.miyagi.jp/soshiki/bunkazai/04zuiganji.html",
+      "https://www.town.miyagi-matsushima.lg.jp/page/1443.html",
+      "https://zuiganji.or.jp/history/",
+      "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/04/040000070300.html"
+    ]
   }
 }

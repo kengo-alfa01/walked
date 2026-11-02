@@ -1,0 +1,4 @@
+2026-11-02 JST: actual isolated cloud Chrome, http://terminal.local:4173/.
+UI file chooser restored synthetic v3: old町丁目m:1320900101,n:13201:132010001 +34214 +15222, dates2000/2020, retired card1990. Production storage never modified.
+Observed:9 acquired people/27 eligible cards;233 sites/250 eligible/72 pending. Regional10 acquired items/4 visited municipalities. Prefecture native select showed onlyTokyo,Niigata,Hiroshima. National妖怪 category displayed薬師池の大蛇伝説 once with町田/八王子; detail displayed independent approved text, publisher, municipal PDF source, check date and no media. Tokyo->町田->妖怪 returned same article. Motonari displayed4 acquired cards:猿掛1500–1523,郡山1523/1540–1541/1571, source/CODH attribution and2 unvisited locked entries.
+Physical iPhone/Safari/wheel/GPS/iOS-file UI/home icon/offline not tested.
