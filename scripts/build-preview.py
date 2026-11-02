@@ -8,7 +8,7 @@ if out==root or root in out.parents: raise SystemExit('Use a separate Site direc
 out.mkdir(parents=True,exist_ok=True)
 # Explicit runtime allowlist: no Git metadata, management documents or user storage.
 files=['index.html','walked-core.js','history.json','machida-boundaries.topojson','sagamihara-14151.topojson','sagamihara-14152.topojson','sagamihara-14153.topojson','data/title-registry.json','sengoku/people.json','sengoku/sites.json','sengoku/links.json','sengoku/cards.json','preview/preview.js','preview/preview.css']
-optional=['manifest.webmanifest','assets/icon-32.png','assets/icon-180.png','assets/icon-192.png','assets/icon-512.png','sengoku/approved-profiles.json','sengoku/publication-credits.json']
+optional=['regional-core.js','regional-ui.js','regional.css','regional/catalog.json','manifest.webmanifest','assets/icon-32.png','assets/icon-180.png','assets/icon-192.png','assets/icon-512.png','sengoku/approved-profiles.json','sengoku/publication-credits.json']
 files += [name for name in optional if (root/name).is_file()]
 files += [str(p.relative_to(root)) for p in sorted((root/'town-data').glob('*.topojson'))]
 for name in files:

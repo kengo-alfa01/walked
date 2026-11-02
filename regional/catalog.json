@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 1,
+  "version": "20261102-regional-stage1",
+  "items": [
+    {
+      "id": "ri-000180",
+      "name": "舞岡公園",
+      "category": "景勝・自然",
+      "description": "湧水や緑が残る谷戸の地形を生かし、昔ながらの田園風景を保つ公園。水田や畑、移築復元された古民家があり、農業体験や自然観察を通じて、横浜の里山の暮らしに触れられる場所となっている。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000204"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000183",
+      "name": "戸塚八坂神社のお札まき",
+      "category": "文化・祭り",
+      "description": "戸塚の八坂神社に伝わる、女装した男性たちが歌や踊りとともに町を巡り、色とりどりのお札をまく祭礼。地域の人々が役を受け継いできた行事で、横浜市指定無形民俗文化財として守られている。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000208"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000190",
+      "name": "こども自然公園",
+      "category": "景勝・自然",
+      "description": "池や桜の山を中心に、丘陵の起伏と谷戸の緑を楽しめる公園。江戸時代につくられた溜池が残り、昔の農村の景観を今に伝える。旭区の市街地に近い場所で、季節の花や水辺の自然に親しめる。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000219",
+        "rs-000226"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000198",
+      "name": "根岸なつかし公園旧柳下邸",
+      "category": "歴史・街並み",
+      "description": "大正時代の柳下家の邸宅を横浜市が譲り受け、公園とともに公開する場所。横浜市指定有形文化財となった建物から、大正から昭和初期にかけての暮らしをしのべる。根岸の住宅地に近代の住まいの姿を伝えている。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000228"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000199",
+      "name": "久良岐公園",
+      "category": "景勝・自然",
+      "description": "港南区と磯子区にまたがり、池や芝生広場、散策路が広がる公園。北側の能舞台と日本庭園の周囲には樹林が続き、身近に緑と水辺の風景を楽しめる。公園の名は、この地域の旧郡名である久良岐郡にちなむ。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000229",
+        "rs-000230"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000200",
+      "name": "野島公園",
+      "category": "景勝・自然",
+      "description": "金沢区の野島に整備された、山と海辺の風景に親しめる公園。野島山の展望台からは周辺の海岸や山並みを見渡せ、前面には自然海浜が残る。広重が描いた「野島夕照」にゆかりのある場所としても紹介される。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000231"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000202",
+      "name": "称名寺の浄土庭園",
+      "category": "景勝・自然",
+      "description": "金沢北条氏ゆかりの称名寺に広がる、池と中島、反橋や平橋を配した庭園。中世の絵図と発掘調査をもとに昭和期に復元的な整備が行われた。橋を渡って金堂へ向かう構成が、浄土を表す庭の姿を伝えている。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000233"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000218",
+      "name": "大岡川プロムナードの桜（南区）",
+      "category": "景勝・自然",
+      "description": "南区の中心を流れる大岡川に沿って桜並木が続く散歩道。春には花が川辺を彩り、桜まつりの会場としても親しまれる。区の花にも選ばれた桜を身近に感じられる景観で、川とまちの暮らしが結びついている。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000253"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000223",
+      "name": "新治里山公園",
+      "category": "景勝・自然",
+      "description": "旧奥津邸などの建物を生かし、里山の自然と暮らしを伝える公園。隣接する新治市民の森とともに横浜北部の緑の拠点となっている。交流センターでは自然や里山文化を紹介し、人と森との関わりを学べる。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000259"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000224",
+      "name": "長屋門公園",
+      "category": "歴史・街並み",
+      "description": "古民家を中心に昔の暮らしに触れられる歴史体験ゾーンと、樹林や散策路がある自然観察ゾーンを備えた公園。阿久和の歴史をたどる散歩道の拠点でもあり、身近な自然の中で農村の暮らしの面影を感じられる。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000260"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000253",
+      "name": "万葉公園（湯河原）",
+      "category": "景勝・自然",
+      "description": "湯河原温泉街の中心近く、千歳川沿いに広がる緑地公園。万葉集に登場する草花が植えられ、茅葺きの万葉亭や水の流れが景観をつくる。温泉地を流れる川と緑のつながりを感じられる場所として親しまれている。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000290"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000277",
+      "name": "観音崎の岩場と潮だまり",
+      "category": "景勝・自然",
+      "description": "東京湾へ突き出す観音崎には、岩場や砂浜、岩の間にできる潮だまりが続く。海岸植物に加え、要塞だった時代に一般の立入りが限られたことで残る植生も見られる。自然の植物と公園に植えられた草木が混在している。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000315"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000280",
+      "name": "横須賀の虎踊",
+      "category": "文化・祭り",
+      "description": "野比中村と西浦賀に受け継がれる民俗芸能。虎の頭をかぶった踊り手が動き回り、和唐内が虎を鎮める筋を演じる。近松門左衛門の『国姓爺合戦』を題材とし、地域の神社の祭礼で舞台を設けて催されてきた。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000318"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000282",
+      "name": "三浦大根",
+      "category": "特産品・名物",
+      "description": "三浦で受け継がれてきた伝統野菜の大根。市内で広く栽培される青首大根とは区別され、煮崩れしにくく、煮汁の味がしみ込みやすい肉質が特徴とされる。おでんなどの煮物に使われ、地域の農業と食卓をつなぐ作物である。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000320"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000284",
+      "name": "チャッキラコ",
+      "category": "文化・祭り",
+      "description": "三崎の仲崎・花暮で、小正月に豊漁や豊作、商売繁盛を願って伝えられてきた踊り。女性の唄に合わせ、少女たちが舞扇や綾竹を使い分けて舞う。江戸時代の『三崎志』にも記録があり、地域の保存会が継承している。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000322"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000312",
+      "name": "厚木の地名由来の諸説",
+      "category": "故事・ことわざ",
+      "description": "厚木の名には、木材が集まる場所を意味する「アツメギ」が変化したという説などがある。市の解説も由来には定説がないとしている。川を利用した木材流通の歴史に思いを巡らせつつ、語源と史実を分けてたどれる地名である。",
+      "nature": "諸説",
+      "sourceIds": [
+        "rs-000364"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000315",
+      "name": "あつぎ鮎まつり",
+      "category": "文化・祭り",
+      "description": "厚木中央公園や相模川の三川合流点などを会場にする祭り。2026年度は秋開催へ移り、10月に花火や民踊、子どもの鮎つかみどりなどが行われた。川に親しむ催しと、市街地のにぎわいを組み合わせた行事である。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000367"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000316",
+      "name": "宿場と交易のまち・厚木",
+      "category": "歴史・街並み",
+      "description": "江戸時代の厚木村は、宿場であるとともに産物を取り引きする場として発達し、「小江戸」と呼ばれるほどにぎわったという。川や街道を通じて人と荷が集まる場所だったことが、厚木のまちの成り立ちを考える手がかりとなる。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000364"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "ri-000332",
+      "name": "城願寺と土肥一族の墓所",
+      "category": "歴史・街並み",
+      "description": "湯河原の城堀にある曹洞宗の寺。土肥実平・遠平父子の像や、県の史跡に指定された土肥一族の墓所があり、七騎堂や大きなビャクシンも伝わる。頼朝を支えた土肥氏と土地との関わりをたどる場所である。",
+      "nature": "確認できた事実",
+      "sourceIds": [
+        "rs-000387"
+      ],
+      "publicationStatus": "公開可"
+    }
+  ],
+  "relations": [
+    {
+      "id": "rr-000192",
+      "areaCode": "14110",
+      "itemId": "ri-000180",
+      "sourceIds": [
+        "rs-000204"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000195",
+      "areaCode": "14110",
+      "itemId": "ri-000183",
+      "sourceIds": [
+        "rs-000208"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000202",
+      "areaCode": "14112",
+      "itemId": "ri-000190",
+      "sourceIds": [
+        "rs-000219",
+        "rs-000226"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000210",
+      "areaCode": "14107",
+      "itemId": "ri-000198",
+      "sourceIds": [
+        "rs-000228"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000211",
+      "areaCode": "14111",
+      "itemId": "ri-000199",
+      "sourceIds": [
+        "rs-000229",
+        "rs-000230"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000212",
+      "areaCode": "14108",
+      "itemId": "ri-000200",
+      "sourceIds": [
+        "rs-000231"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000214",
+      "areaCode": "14108",
+      "itemId": "ri-000202",
+      "sourceIds": [
+        "rs-000233"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000216",
+      "areaCode": "14107",
+      "itemId": "ri-000199",
+      "sourceIds": [
+        "rs-000229",
+        "rs-000230"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000232",
+      "areaCode": "14105",
+      "itemId": "ri-000218",
+      "sourceIds": [
+        "rs-000253"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000237",
+      "areaCode": "14113",
+      "itemId": "ri-000223",
+      "sourceIds": [
+        "rs-000259"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000238",
+      "areaCode": "14114",
+      "itemId": "ri-000224",
+      "sourceIds": [
+        "rs-000260"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000268",
+      "areaCode": "14384",
+      "itemId": "ri-000253",
+      "sourceIds": [
+        "rs-000290"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000300",
+      "areaCode": "14201",
+      "itemId": "ri-000277",
+      "sourceIds": [
+        "rs-000315"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000303",
+      "areaCode": "14201",
+      "itemId": "ri-000280",
+      "sourceIds": [
+        "rs-000318"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000305",
+      "areaCode": "14210",
+      "itemId": "ri-000282",
+      "sourceIds": [
+        "rs-000320"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000307",
+      "areaCode": "14210",
+      "itemId": "ri-000284",
+      "sourceIds": [
+        "rs-000322"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000336",
+      "areaCode": "14212",
+      "itemId": "ri-000312",
+      "sourceIds": [
+        "rs-000364"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000339",
+      "areaCode": "14212",
+      "itemId": "ri-000315",
+      "sourceIds": [
+        "rs-000367"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000340",
+      "areaCode": "14212",
+      "itemId": "ri-000316",
+      "sourceIds": [
+        "rs-000364"
+      ],
+      "publicationStatus": "公開可"
+    },
+    {
+      "id": "rr-000357",
+      "areaCode": "14384",
+      "itemId": "ri-000332",
+      "sourceIds": [
+        "rs-000387"
+      ],
+      "publicationStatus": "公開可"
+    }
+  ],
+  "sources": [
+    {
+      "id": "rs-000204",
+      "name": "舞岡公園（戸塚区）",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/midori-koen/koen/koen/daihyoteki/maioka.html",
+      "publisher": "横浜市",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000208",
+      "name": "八坂神社の「お札まき」と地域のつながり",
+      "url": "https://www.city.yokohama.lg.jp/totsuka/shokai/gaiyo/oralhistory/ohudamaki.html",
+      "publisher": "横浜市戸塚区",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000219",
+      "name": "こども自然公園（旭区）",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/midori-koen/koen/koen/daihyoteki/ko-sizen.html",
+      "publisher": "横浜市",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000226",
+      "name": "こども自然公園・旭区史跡情報",
+      "url": "https://www.city.yokohama.lg.jp/asahi/shokai/rekishi/shiseki/kodomoshizenkouen.html",
+      "publisher": "横浜市旭区",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000228",
+      "name": "見どころ紹介 根岸なつかし公園旧柳下邸",
+      "url": "https://www.city.yokohama.lg.jp/isogo/shokai/miryoku/isogomidokoro/natsukashi.html",
+      "publisher": "横浜市磯子区",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000229",
+      "name": "久良岐公園（港南区）",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/midori-koen/koen/koen/daihyoteki/kuraki/kuraki.html",
+      "publisher": "横浜市",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000230",
+      "name": "見どころ紹介 久良岐公園",
+      "url": "https://www.city.yokohama.lg.jp/isogo/shokai/miryoku/isogomidokoro/kuraki.html",
+      "publisher": "横浜市磯子区",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000231",
+      "name": "野島公園（金沢区）",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/midori-koen/koen/koen/daihyoteki/nojima.html",
+      "publisher": "横浜市",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000233",
+      "name": "称名寺・国指定史跡称名寺境内",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/bunkazai/isan/shoumyouji.html",
+      "publisher": "横浜市教育委員会",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000253",
+      "name": "区の花『さくら』とは",
+      "url": "https://www.city.yokohama.lg.jp/minami/kurashi/machizukuri_kankyo/midori_eco/sakura/fukyuka.html",
+      "publisher": "横浜市南区",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000259",
+      "name": "森に遊びに来ませんか",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/midori-koen/midori_up/1mori/welcomecenter.html",
+      "publisher": "横浜市",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000260",
+      "name": "長屋門・阿久和史跡コース",
+      "url": "https://www.city.yokohama.lg.jp/seya/shokai/bunkazai/sanpo/nagayamon/corse05.html",
+      "publisher": "横浜市",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000290",
+      "name": "「公園」案内・万葉公園",
+      "url": "https://www.town.yugawara.kanagawa.jp/soshiki/8/1286.html",
+      "publisher": "湯河原町",
+      "checkedOn": "2026-11-02"
+    },
+    {
+      "id": "rs-000315",
+      "name": "東京湾沿岸（観音崎）で見られる生き物",
+      "url": "https://www.city.yokosuka.kanagawa.jp/0880/kaiganshokubutu/tokyobay-kannonzaki.html",
+      "publisher": "横須賀市",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000318",
+      "name": "横須賀の虎踊",
+      "url": "https://www.city.yokosuka.kanagawa.jp/8120/bunkazai/kuni202.html",
+      "publisher": "横須賀市",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000320",
+      "name": "三浦市民2025年12月号概要テキスト版：三浦大根",
+      "url": "https://www.city.miura.kanagawa.jp/soshiki/shiminkyodoka/kouhoushi/11847.html",
+      "publisher": "三浦市",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000322",
+      "name": "チャッキラコ／ユネスコ無形文化遺産『風流踊』",
+      "url": "https://www.city.miura.kanagawa.jp/soshiki/bunkasportska/bunkasportska_bunka/shiteibunkazai_soshiki/682.html",
+      "publisher": "三浦市",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "id": "rs-000364",
+      "name": "市域の変遷",
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/kikakuseisakuka/9/1245.html",
+      "publisher": "厚木市",
+      "checkedOn": "2026-11-02"
+    },
+    {
+      "id": "rs-000367",
+      "name": "【終了しました】第80回あつぎ鮎まつり（令和8年度）",
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/shogyonigiwaika/7_1/5/43235.html",
+      "publisher": "厚木市",
+      "checkedOn": "2026-11-02"
+    },
+    {
+      "id": "rs-000387",
+      "name": "各所・旧跡案内（城願寺/万葉公園）",
+      "url": "https://www.town.yugawara.kanagawa.jp/soshiki/8/1281.html",
+      "publisher": "湯河原町",
+      "checkedOn": "2026-11-02"
+    }
+  ]
+}
