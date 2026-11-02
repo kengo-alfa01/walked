@@ -13,7 +13,7 @@ async function app(initial={}){
  const map={...layer(),setView(){return this},fitBounds(){return this},removeLayer(){},getZoom(){return 12},getCenter(){return {lng:139.4,lat:35.5}},getBounds(){return {getWest:()=>139.3,getEast:()=>139.5,getNorth:()=>35.6,getSouth:()=>35.4}}};
  w.L={map:()=>map,control:{zoom:layer},tileLayer:layer,layerGroup:layer,circleMarker:layer,geoJSON(features,options){const layers=features.map(f=>{const l={...layer(),feature:f};options?.onEachFeature?.(f,l);return l});return {...layer(),eachLayer(fn){layers.forEach(fn)}}}};
  w.fetch=async url=>{let doc;if(String(url).includes('/municipalities.topojson'))doc=topo;else if(String(url).includes('/prefectures.topojson'))doc={type:'Topology',objects:{prefectures:{type:'GeometryCollection',geometries:[]}},arcs:[]};else doc=JSON.parse(fs.readFileSync(path.resolve(root,String(url)),'utf8'));return {ok:true,status:200,json:async()=>structuredClone(doc),text:async()=>JSON.stringify(doc)}};
- w.confirm=()=>true;w.eval(fs.readFileSync(path.join(assets,'topojson-client.min.js'),'utf8'));w.eval(core);
+ w.confirm=()=>true;w.eval(fs.readFileSync(path.join(assets,'topojson-client.min.js'),'utf8'));w.eval(core);w.eval(fs.readFileSync(path.join(root,'publication-runtime.js'),'utf8'));
  w.eval(html.split('<script>').at(-1).split('</script>')[0]);
  for(let i=0;i<30;i++){await new Promise(r=>setTimeout(r,10));if(w.eval('!!titleView&&state.features.length===1905&&sengokuCards.length>0&&state.machida.length>0&&state.sagamihara.length>0'))return w;}
  throw Error('App initialization failed: '+w.document.getElementById('status').textContent);
@@ -25,8 +25,9 @@ async function restore(w,doc){await w.document.getElementById('restoreFile').onc
 const cp=require('node:child_process'),{FILES,hash}=require('../scripts/import-publication.cjs');
 const {apply,release}=require('../scripts/import-publication-stage2.cjs');
 const base=Object.fromEntries(FILES.map(f=>[f,JSON.parse(cp.execFileSync('git',['show',release.baselineCommit+':'+f],{encoding:'utf8'}))]));
-const current=Object.fromEntries(FILES.map(f=>[f,JSON.parse(fs.readFileSync(path.join(root,f)))]));
-const profileDoc=require('../sengoku/approved-profiles.json');
+// Immutable stage2 catalog; integration tests below still execute the current application.
+const current=Object.fromEntries(FILES.map(f=>[f,JSON.parse(cp.execFileSync('git',['show','3abcb77f7ee3c53c8837ce85bef4bf8b78ea58d4:'+f],{encoding:'utf8'}))]));
+const profileDoc=release.profiles;
 test('stage2 imports only two additions and two approved text updates, preserving every ID and protected field',()=>{
  assert.deepEqual(apply(base),current);assert.equal(current['sengoku/cards.json'].length,306);assert.equal(current['sengoku/people.json'].length,531);assert.equal(current['sengoku/links.json'].length,235);
  for(const f of FILES){for(const old of f==='history.json'?base[f].entries:base[f]){const now=(f==='history.json'?current[f].entries:current[f]).find(r=>r.id===old.id);const update=f==='sengoku/cards.json'&&release.updates.find(u=>u.cardId===old.id);assert.deepEqual(now,update?update.after:old);}}
