@@ -1,0 +1,5 @@
+2026-11-02 actual cloud Chrome / isolated preview / synthetic data only.
+PASS v3 file chooser restore, acquired7 articles across8 synthetic visited areas.
+PASS shared ri-000199 appears once with both visited wards; description and2 named publisher/source links, no embedded image.
+PASS native select offers only4 synthetic visited prefectures, Kanagawa selection gives visited wards/cities.
+NOT TESTED physical iPhone/Safari wheel/touch, real GPS, iOS file UI, offline.
