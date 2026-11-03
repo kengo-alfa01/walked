@@ -183,8 +183,8 @@ function changeMode(mode){
   b.setAttribute('aria-pressed',String(b.dataset.mode===mode));
  });
  const fs=mode==='nearby'?regionalFeatures():mode==='prefecture'?state.prefFeatures:mode==='nationwideDetail'?[]:state.features;
- if(state.activeGroup){map.removeLayer(state.activeGroup);state.activeGroup=null;state.layers.clear()} if(state.detailGroup){map.removeLayer(state.detailGroup);state.detailGroup=null} $('detailBadge').hidden=mode!=='nationwideDetail';drawPrefectureBorders();
- if(mode==='nationwideDetail'){map.setView(map.getCenter(),Math.max(11,map.getZoom()));$('modehint').textContent='全国の町丁・字を地図の表示範囲だけ取得します。ズーム11以上で読み込み。読み込みは通信状況によります。';updateStats();setTimeout(updateDetailViewport,0);return;}
+ if(state.activeGroup){map.removeLayer(state.activeGroup);state.activeGroup=null;state.layers.clear()} if(state.detailGroup){map.removeLayer(state.detailGroup);state.detailGroup=null} $('detailBadge').hidden=mode!=='nationwideDetail';
+ if(mode==='nationwideDetail'){drawPrefectureBorders();map.setView(map.getCenter(),Math.max(11,map.getZoom()));$('modehint').textContent='全国の町丁・字を地図の表示範囲だけ取得します。ズーム11以上で読み込み。読み込みは通信状況によります。';updateStats();setTimeout(updateDetailViewport,0);return;}
  if(!fs.length){
   $('modehint').textContent=mode==='nearby'?'町田市・相模原市の詳細境界を読み込み中です。境界ファイルの準備状況を確認してください。':'境界データを読み込み中です。';
   if(mode==='nearby')map.fitBounds([[35.36,139.05],[35.68,139.58]],{padding:[18,18]});
@@ -195,6 +195,7 @@ function changeMode(mode){
   l.bindTooltip(labelFor(f,mode),{sticky:true});
   l.on('click',()=>{selectMapRegion(f,mode);if(areaAddModeEnabled)toggleFeature(f);});
  }}).addTo(map);
+ drawPrefectureBorders();
  $('modehint').textContent=mode==='nearby'?`町田市 ${state.machida.length}区域（緑）／相模原市 ${state.sagamihara.length}区域（青）。町名・丁目単位で個別に制覇し、全国詳細と記録を共有します。`:mode==='municipal'?'全国：市区町村別。設定のエリア追加モードがオンの時だけタップで登録できます。':'47都道府県：訪問済み市区町村のある都道府県を緑色に表示。';
  if(mode==='nearby'){
   // Keep both cities in the viewport, including the three Sagamihara wards.
@@ -259,8 +260,8 @@ async function loadSagamihara(){
  if(state.mode==='nearby')changeMode('nearby');
  status('✅ 相模原市の町丁・字境界 '+out.length+'区域を読み込みました。過去に取り込んだタイムラインは再取り込みすると詳細に反映されます。');
 }
-async function loadPrefectures(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/prefectures.topojson';const r=await fetch(url);if(!r.ok)throw Error('HTTP '+r.status);const t=await r.json();state.prefFeatures=topojson.feature(t,t.objects.prefectures||Object.values(t.objects)[0]).features;state.prefFeatures.forEach(f=>state.prefById.set(PREF_PREFIX+key(f),f));if(state.mode==='prefecture')changeMode('prefecture')}catch(e){status('都道府県境界の読込失敗：'+e.message)}}
-async function boundaries(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson';let res=await fetch(url);if(!res.ok)throw Error('行政区域データ HTTP '+res.status);const topo=await res.json();const obj=topo.objects.municipalities||Object.values(topo.objects)[0];state.features=topojson.feature(topo,obj).features;state.features.forEach(f=>state.featureById.set(key(f),f));changeMode(state.mode);$('loading')?.remove();updateStats();status('地図の準備完了。登録は現在地・タイムライン・エリア追加モードから行えます。');if(state.pending){const p=state.pending;state.pending=null;await processRecords(p)}}catch(err){if($('loading'))$('loading').textContent='境界データの取得に失敗しました';status('⚠️ '+err.message+'。ネット接続とGitHub Pages公開を確認してください。')}}
+async function loadPrefectures(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/prefectures.topojson';const r=await fetch(url);if(!r.ok)throw Error('HTTP '+r.status);const t=await r.json(),obj=t.objects.prefectures||Object.values(t.objects)[0];state.prefFeatures=topojson.feature(t,obj).features;prefecturePalette=MapColoring.fromTopology(t,obj,topojson);state.prefById.clear();state.prefFeatures.forEach(f=>state.prefById.set(PREF_PREFIX+key(f),f));if(state.mode==='prefecture')changeMode('prefecture');else{drawPrefectureBorders();repaint()}renderMapColorEditor()}catch(e){status('都道府県境界の読込失敗：'+e.message)}}
+async function boundaries(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson';let res=await fetch(url);if(!res.ok)throw Error('行政区域データ HTTP '+res.status);const topo=await res.json();const obj=topo.objects.municipalities||Object.values(topo.objects)[0];state.features=topojson.feature(topo,obj).features;municipalPalette=MapColoring.fromTopology(topo,obj,topojson);state.featureById.clear();state.features.forEach(f=>state.featureById.set(key(f),f));changeMode(state.mode);renderMapColorEditor();$('loading')?.remove();updateStats();status('地図の準備完了。登録は現在地・タイムライン・エリア追加モードから行えます。');if(state.pending){const p=state.pending;state.pending=null;await processRecords(p)}}catch(err){if($('loading'))$('loading').textContent='境界データの取得に失敗しました';status('⚠️ '+err.message+'。ネット接続とGitHub Pages公開を確認してください。')}}
 
 // 全国詳細：市区町村単位で遅延読込。22万区域の一括読込はしない。
 const nationPending=new Map();
@@ -317,6 +318,7 @@ async function updateDetailViewport(){
  state.detailGroup=L.geoJSON(selected,{style:f=>styleFor(keyForMode(f,'nationwideDetail'),'nationwideDetail'),onEachFeature:(f,l)=>{
   const id=keyForMode(f,'nationwideDetail');state.layers.set(id,l);l.bindTooltip(labelFor(f,'nationwideDetail'),{sticky:true});l.on('click',()=>{selectMapRegion(f,'nationwideDetail');if(areaAddModeEnabled)toggleFeature(f);});
  }}).addTo(map);
+ prefBorderGroup?.bringToFront?.();
  badge.textContent=`詳細 ${selected.length}区域 ／ 取得失敗 ${codes.filter(x=>state.nationErrors.has(x)).length}市区町村`;
  updateStats();renderMapSearch();
  if(codes.some(x=>state.nationErrors.has(x)))status('一部の町丁境界が取得できません。GitHubの town-data/ に境界ファイルを配置すると確実になります。');
