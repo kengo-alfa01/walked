@@ -96,3 +96,34 @@ test('changing prefecture invalidates stale callbacks; map mode does not change 
  assert.match(w.document.getElementById('results').textContent,/都道府県を選んでください/);
  assert.deepEqual(raw(w),before);w.close();
 });
+
+test('region colors, basemap selection, and manual override preserve saved game state',async()=>{
+ const w=await app();
+ const colorsOk=w.eval('municipalPalette.colors.size===1905&&[...municipalPalette.neighbors].every(([id,ns])=>[...ns].every(n=>municipalPalette.colors.get(n)!==municipalPalette.colors.get(id)))');
+ assert.equal(colorsOk,true,'all adjacent municipalities receive different colors');
+ assert.equal(w.document.getElementById('mapBaseMode').value,'pale');
+ const before=raw(w);
+ const background=w.document.getElementById('mapBaseMode');background.value='blank';
+ background.dispatchEvent(new w.Event('change'));
+ assert.equal(JSON.parse(w.localStorage.getItem('walked_map_display_v1')).base,'blank');
+ assert.deepEqual(raw(w),before,'basemap switching may not touch visits or cards');
+ pickPref(w,'13');choice(w,'町田市').click();
+ assert.equal(w.eval('state.mode'),'municipal');
+ const selected=w.eval('styleFor("13209")');
+ assert.equal(selected.weight,3,'selected municipality must have a stronger border');
+ const checkbox=w.document.getElementById('manualMapColors');
+ checkbox.checked=true;checkbox.dispatchEvent(new w.Event('change'));
+ const colorSelect=w.document.getElementById('mapRegionColor');
+ assert.equal(colorSelect.disabled,false);
+ const options=[...colorSelect.options].filter(o=>o.value!=='auto'&&!o.disabled);
+ assert.ok(options.length>0);
+ colorSelect.value=options[0].value;colorSelect.dispatchEvent(new w.Event('change'));
+ assert.equal(JSON.parse(w.localStorage.getItem('walked_map_display_v1')).overrides.municipal['13209'],Number(options[0].value));
+ assert.deepEqual(raw(w),before,'color customization may not change game records');
+ const config=w.localStorage.getItem('walked_map_display_v1');
+ w.close();
+ const next=await app({'walked_map_display_v1':config});
+ assert.equal(next.document.getElementById('mapBaseMode').value,'blank');
+ assert.equal(JSON.parse(next.localStorage.getItem('walked_map_display_v1')).overrides.municipal['13209'],Number(options[0].value));
+ next.close();
+});
