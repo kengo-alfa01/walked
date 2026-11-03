@@ -104,13 +104,13 @@ function styleFor(id,mode=state.mode){
   weight:chosen?3:mode==='prefecture'?2.5:mode==='municipal'?1.5:0.95,
   opacity:1,
   fillColor:color?(visited?color.hex:blendWithWhite(color.hex,.82)):(visited?'#7ba998':'#edf0ef'),
-  fillOpacity:visited?.78:.74
+  fillOpacity:visited?0.78:0.74
  };
 }
 function selectMapRegion(feature,mode){
  const id=keyForMode(feature,mode),color=colorInfoFor(id,mode);
  selectedMapRegion={id,mode,kind:color?.kind||null,code:color?.code||null,name:labelFor(feature,mode)};
- repaint();renderMapColorEditor();
+ repaint();state.layers.get(id)?.bringToFront?.();renderMapColorEditor();
 }
 function drawPrefectureBorders(){
  if(prefBorderGroup){map.removeLayer(prefBorderGroup);prefBorderGroup=null}
@@ -260,8 +260,8 @@ async function loadSagamihara(){
  if(state.mode==='nearby')changeMode('nearby');
  status('✅ 相模原市の町丁・字境界 '+out.length+'区域を読み込みました。過去に取り込んだタイムラインは再取り込みすると詳細に反映されます。');
 }
-async function loadPrefectures(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/prefectures.topojson';const r=await fetch(url);if(!r.ok)throw Error('HTTP '+r.status);const t=await r.json(),obj=t.objects.prefectures||Object.values(t.objects)[0];state.prefFeatures=topojson.feature(t,obj).features;prefecturePalette=MapColoring.fromTopology(t,obj,topojson);state.prefById.clear();state.prefFeatures.forEach(f=>state.prefById.set(PREF_PREFIX+key(f),f));if(state.mode==='prefecture')changeMode('prefecture');else{drawPrefectureBorders();repaint()}renderMapColorEditor()}catch(e){status('都道府県境界の読込失敗：'+e.message)}}
-async function boundaries(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson';let res=await fetch(url);if(!res.ok)throw Error('行政区域データ HTTP '+res.status);const topo=await res.json();const obj=topo.objects.municipalities||Object.values(topo.objects)[0];state.features=topojson.feature(topo,obj).features;municipalPalette=MapColoring.fromTopology(topo,obj,topojson);state.featureById.clear();state.features.forEach(f=>state.featureById.set(key(f),f));changeMode(state.mode);renderMapColorEditor();$('loading')?.remove();updateStats();status('地図の準備完了。登録は現在地・タイムライン・エリア追加モードから行えます。');if(state.pending){const p=state.pending;state.pending=null;await processRecords(p)}}catch(err){if($('loading'))$('loading').textContent='境界データの取得に失敗しました';status('⚠️ '+err.message+'。ネット接続とGitHub Pages公開を確認してください。')}}
+async function loadPrefectures(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/prefectures.topojson';const r=await fetch(url);if(!r.ok)throw Error('HTTP '+r.status);const t=await r.json(),obj=t.objects.prefectures||Object.values(t.objects)[0];state.prefFeatures=topojson.feature(t,obj).features;try{prefecturePalette=MapColoring.fromTopology(t,obj,topojson)}catch(error){prefecturePalette=null;console.warn('都道府県6色配色を生成できません',error)}state.prefById.clear();state.prefFeatures.forEach(f=>state.prefById.set(PREF_PREFIX+key(f),f));if(state.mode==='prefecture')changeMode('prefecture');else{drawPrefectureBorders();repaint()}renderMapColorEditor()}catch(e){status('都道府県境界の読込失敗：'+e.message)}}
+async function boundaries(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson';let res=await fetch(url);if(!res.ok)throw Error('行政区域データ HTTP '+res.status);const topo=await res.json();const obj=topo.objects.municipalities||Object.values(topo.objects)[0];state.features=topojson.feature(topo,obj).features;try{municipalPalette=MapColoring.fromTopology(topo,obj,topojson)}catch(error){municipalPalette=null;console.warn('市区町村6色配色を生成できません',error)}state.featureById.clear();state.features.forEach(f=>state.featureById.set(key(f),f));changeMode(state.mode);renderMapColorEditor();$('loading')?.remove();updateStats();status('地図の準備完了。登録は現在地・タイムライン・エリア追加モードから行えます。');if(state.pending){const p=state.pending;state.pending=null;await processRecords(p)}}catch(err){if($('loading'))$('loading').textContent='境界データの取得に失敗しました';status('⚠️ '+err.message+'。ネット接続とGitHub Pages公開を確認してください。')}}
 
 // 全国詳細：市区町村単位で遅延読込。22万区域の一括読込はしない。
 const nationPending=new Map();
