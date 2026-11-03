@@ -83,11 +83,84 @@ function areaMunicipalityCode(id){
 function mark(id,source='手動',when){if(!id||!getFeature(id))return false;id=canonicalAreaKey(id);let old=areaRecordKeys(id).map(k=>state.visited[k]).find(Boolean);if(old){if(source!=='手動'&&when&&(!old.last||when>old.last)){old.last=when;return true}return false}state.visited[id]={first:when||new Date().toISOString(),last:when||new Date().toISOString(),source};let layer=state.layers.get(id);if(layer)layer.setStyle(styleFor(id));return true}
 function getFeature(id){return state.featureById.get(id)||state.machidaById.get(id)||state.sagamiharaById.get(id)||state.prefById.get(id)||state.nationById.get(id)}
 function unmark(id){for(const k of areaRecordKeys(id))delete state.visited[k];const l=state.layers.get(id);if(l)l.setStyle(styleFor(id));persist()}
-function styleFor(id){
- const visited=isVisited(id),sagamihara=id.startsWith(SAGAMIHARA_PREFIX);
- return {color:visited?(sagamihara?'#245eaa':'#147f50'):'#6c8b78',weight:visited?1.3:0.65,
- fillColor:visited?(sagamihara?'#4385d2':'#24a76c'):'#cbd7cf',fillOpacity:visited?0.72:0.18};
+function blendWithWhite(hex,ratio){
+ const n=parseInt(hex.slice(1),16),parts=[n>>16,(n>>8)&255,n&255];
+ return '#'+parts.map(c=>Math.round(c*(1-ratio)+255*ratio).toString(16).padStart(2,'0')).join('');
 }
+function colorInfoFor(id,mode=state.mode){
+ const kind=mode==='prefecture'?'pref':'municipal';
+ const code=kind==='pref'?String(id).replace(/^p:/,''):areaMunicipalityCode(id);
+ const scheme=kind==='pref'?prefecturePalette:municipalPalette;
+ if(!scheme?.colors?.has(code))return null;
+ const overrides=mapDisplay.manual?mapDisplay.overrides[kind]:{};
+ const index=MapColoring.effectiveColor(code,scheme,overrides);
+ return {kind,code,scheme,index,hex:MapColoring.PALETTE[index].hex};
+}
+function styleFor(id,mode=state.mode){
+ const visited=isVisited(id),color=colorInfoFor(id,mode);
+ const chosen=selectedMapRegion?.mode===mode&&selectedMapRegion.id===id;
+ return {
+  color:chosen?'#193b51':'#405663',
+  weight:chosen?3:mode==='prefecture'?2.5:mode==='municipal'?1.5:0.95,
+  opacity:1,
+  fillColor:color?(visited?color.hex:blendWithWhite(color.hex,.82)):(visited?'#7ba998':'#edf0ef'),
+  fillOpacity:visited?.78:.74
+ };
+}
+function selectMapRegion(feature,mode){
+ const id=keyForMode(feature,mode),color=colorInfoFor(id,mode);
+ selectedMapRegion={id,mode,kind:color?.kind||null,code:color?.code||null,name:labelFor(feature,mode)};
+ repaint();renderMapColorEditor();
+}
+function drawPrefectureBorders(){
+ if(prefBorderGroup){map.removeLayer(prefBorderGroup);prefBorderGroup=null}
+ if(!state.prefFeatures.length||!['nearby','municipal','nationwideDetail'].includes(state.mode))return;
+ prefBorderGroup=L.geoJSON(state.prefFeatures,{interactive:false,style:{color:'#314958',weight:2.5,opacity:.88,fill:false,fillOpacity:0,interactive:false}}).addTo(map);
+}
+function renderMapColorEditor(){
+ const editor=$('mapColorEditor'),label=$('selectedMapRegion'),select=$('mapRegionColor');
+ editor.hidden=!mapDisplay.manual;
+ $('manualMapColors').checked=mapDisplay.manual;
+ if(!mapDisplay.manual)return;
+ const chosen=selectedMapRegion;
+ const kind=chosen?.kind,code=chosen?.code;
+ const scheme=kind==='pref'?prefecturePalette:kind==='municipal'?municipalPalette:null;
+ label.textContent=chosen?chosen.name+'（'+(kind==='pref'?'都道府県':'市区町村')+'）':'地図上の地域または地図検索の地域名を選択してください';
+ select.replaceChildren(new Option('自動配色に戻す','auto'));
+ select.disabled=!chosen||!scheme?.colors?.has(code);
+ if(select.disabled)return;
+ const overrides=mapDisplay.overrides[kind];
+ for(const [index,item] of MapColoring.PALETTE.entries()){
+  const option=new Option(item.name,index);
+  option.disabled=!MapColoring.canOverride(code,index,scheme,overrides);
+  select.add(option);
+ }
+ const own=Object.prototype.hasOwnProperty.call(overrides,code)?String(overrides[code]):'auto';
+ select.value=own;
+}
+$('manualMapColors').onchange=e=>{
+ const previous=mapDisplay.manual;mapDisplay.manual=e.target.checked;
+ if(!saveMapDisplay()){mapDisplay.manual=previous;e.target.checked=previous;return}
+ repaint();renderMapColorEditor();
+};
+$('mapRegionColor').onchange=e=>{
+ if(!mapDisplay.manual||!selectedMapRegion?.kind)return;
+ const {kind,code}=selectedMapRegion,scheme=kind==='pref'?prefecturePalette:municipalPalette;
+ if(!scheme?.colors?.has(code))return;
+ const before=mapDisplay.overrides[kind],next={...before};
+ if(e.target.value==='auto')delete next[code];
+ else{
+  const index=Number(e.target.value);
+  if(!MapColoring.canOverride(code,index,scheme,next)){status('隣接地域と同じ色は選べません。');renderMapColorEditor();return}
+  next[code]=index;
+ }
+ const chosen=MapColoring.effectiveColor(code,scheme,next);
+ if(!MapColoring.canOverride(code,chosen,scheme,next)){status('隣接地域との色の重複を避けてください。');renderMapColorEditor();return}
+ mapDisplay.overrides[kind]=next;
+ if(!saveMapDisplay()){mapDisplay.overrides[kind]=before;renderMapColorEditor();return}
+ repaint();renderMapColorEditor();
+};
+renderMapColorEditor();
 function regionalFeatures(){return [...state.machida,...state.sagamihara]}
 function areaModeForFeature(f,mode){
  if(mode!=='nearby')return mode;
@@ -99,9 +172,10 @@ function updateStats(){let all=state.mode==='nearby'?regionalFeatures():state.mo
 function toggleFeature(f){if(!areaAddModeEnabled)return;const mode=state.mode,id=keyForMode(f,mode),name=labelFor(f,mode);if(state.mode==='prefecture'){status('都道府県は市区町村の制覇履歴から自動集計します。市区町村モードで登録してください。');return}if(isVisited(id)){if(confirm(name+'の制覇登録を解除しますか？')&&areaAddModeEnabled&&state.mode===mode)unmark(id)}else{mark(id);persist();status('✅ '+name+'を制覇！');acquireSengokuByAreaFeature(f)} }
 function keyForMode(f,mode){return mode==='nearby'?keyForMode(f,areaModeForFeature(f,mode)):mode==='machida'?MACHIDA_PREFIX+String(f.properties?.KEY_CODE||f.properties?.key_code||f.id||f.properties?.id||''):mode==='sagamihara'?SAGAMIHARA_PREFIX+String(f.properties?.KEY_CODE||f.properties?.key_code||f.id||f.properties?.id||''):mode==='prefecture'?PREF_PREFIX+key(f):mode==='nationwideDetail'?canonicalAreaKey(NATION_PREFIX+String(f.properties?.WALKED_MUNICIPAL_CODE||'')+':'+String(f.properties?.KEY_CODE||f.properties?.key_code||f.id||f.properties?.id||'')):key(f)}
 function labelFor(f,mode){const p=f.properties||{};if(mode==='nearby')return (areaModeForFeature(f,mode)==='sagamihara'?'相模原市 ':'町田市 ')+labelFor(f,areaModeForFeature(f,mode));return (mode==='machida'||mode==='sagamihara')?String((mode==='sagamihara'?(p.WARD_NAME||p.ward||'')+' ':'')+(p.S_NAME||p.s_name||p.name||p.MOJI||p.moji||p.NAME||key(f))):mode==='nationwideDetail'?String((p.S_NAME||p.s_name||p.name||p.MOJI||p.moji||p.NAME||key(f))):mode==='prefecture'?String(p.name||p.NAME||title(f)):title(f)}
-function repaint(){const g=state.mode==='nationwideDetail'?state.detailGroup:state.activeGroup;if(g)g.eachLayer(l=>{const f=l.feature;if(f)l.setStyle(styleFor(keyForMode(f,state.mode)))});updateStats()}
+function repaint(){const g=state.mode==='nationwideDetail'?state.detailGroup:state.activeGroup;if(g)g.eachLayer(l=>{const f=l.feature;if(f)l.setStyle(styleFor(keyForMode(f,state.mode),state.mode))});updateStats()}
 function changeMode(mode){
  state.mode=mode;
+ selectedMapRegion=null;renderMapColorEditor();
  renderMapSearch();
  $('regionlegend').style.display=mode==='nearby'?'block':'none';
  document.querySelectorAll('.filter').forEach(b=>{
@@ -109,17 +183,17 @@ function changeMode(mode){
   b.setAttribute('aria-pressed',String(b.dataset.mode===mode));
  });
  const fs=mode==='nearby'?regionalFeatures():mode==='prefecture'?state.prefFeatures:mode==='nationwideDetail'?[]:state.features;
- if(state.activeGroup){map.removeLayer(state.activeGroup);state.activeGroup=null;state.layers.clear()} if(state.detailGroup){map.removeLayer(state.detailGroup);state.detailGroup=null} $('detailBadge').hidden=mode!=='nationwideDetail';
+ if(state.activeGroup){map.removeLayer(state.activeGroup);state.activeGroup=null;state.layers.clear()} if(state.detailGroup){map.removeLayer(state.detailGroup);state.detailGroup=null} $('detailBadge').hidden=mode!=='nationwideDetail';drawPrefectureBorders();
  if(mode==='nationwideDetail'){map.setView(map.getCenter(),Math.max(11,map.getZoom()));$('modehint').textContent='全国の町丁・字を地図の表示範囲だけ取得します。ズーム11以上で読み込み。読み込みは通信状況によります。';updateStats();setTimeout(updateDetailViewport,0);return;}
  if(!fs.length){
   $('modehint').textContent=mode==='nearby'?'町田市・相模原市の詳細境界を読み込み中です。境界ファイルの準備状況を確認してください。':'境界データを読み込み中です。';
   if(mode==='nearby')map.fitBounds([[35.36,139.05],[35.68,139.58]],{padding:[18,18]});
   updateStats();return;
  }
- state.activeGroup=L.geoJSON(fs,{style:f=>styleFor(keyForMode(f,mode)),onEachFeature:(f,l)=>{
+ state.activeGroup=L.geoJSON(fs,{style:f=>styleFor(keyForMode(f,mode),mode),onEachFeature:(f,l)=>{
   const id=keyForMode(f,mode);state.layers.set(id,l);
   l.bindTooltip(labelFor(f,mode),{sticky:true});
-  l.on('click',()=>{if(areaAddModeEnabled)toggleFeature(f);});
+  l.on('click',()=>{selectMapRegion(f,mode);if(areaAddModeEnabled)toggleFeature(f);});
  }}).addTo(map);
  $('modehint').textContent=mode==='nearby'?`町田市 ${state.machida.length}区域（緑）／相模原市 ${state.sagamihara.length}区域（青）。町名・丁目単位で個別に制覇し、全国詳細と記録を共有します。`:mode==='municipal'?'全国：市区町村別。設定のエリア追加モードがオンの時だけタップで登録できます。':'47都道府県：訪問済み市区町村のある都道府県を緑色に表示。';
  if(mode==='nearby'){
@@ -240,8 +314,8 @@ async function updateDetailViewport(){
  if(state.detailGroup)map.removeLayer(state.detailGroup);
  state.layers.clear();
  const selected=codes.flatMap(code=>state.nationCache.get(code)||[]).filter(f=>intersectsBox(bboxOfFeature(f),bounds));
- state.detailGroup=L.geoJSON(selected,{style:f=>styleFor(keyForMode(f,'nationwideDetail')),onEachFeature:(f,l)=>{
-  const id=keyForMode(f,'nationwideDetail');state.layers.set(id,l);l.bindTooltip(labelFor(f,'nationwideDetail'),{sticky:true});l.on('click',()=>{if(areaAddModeEnabled)toggleFeature(f);});
+ state.detailGroup=L.geoJSON(selected,{style:f=>styleFor(keyForMode(f,'nationwideDetail'),'nationwideDetail'),onEachFeature:(f,l)=>{
+  const id=keyForMode(f,'nationwideDetail');state.layers.set(id,l);l.bindTooltip(labelFor(f,'nationwideDetail'),{sticky:true});l.on('click',()=>{selectMapRegion(f,'nationwideDetail');if(areaAddModeEnabled)toggleFeature(f);});
  }}).addTo(map);
  badge.textContent=`詳細 ${selected.length}区域 ／ 取得失敗 ${codes.filter(x=>state.nationErrors.has(x)).length}市区町村`;
  updateStats();renderMapSearch();
@@ -341,6 +415,7 @@ $('locate').onclick=()=>{if(!navigator.geolocation)return status('位置情報�
 function focusMapSearchFeature(feature){
  // The finder always targets a municipality, regardless of the currently visible map layer.
  if(state.mode!=='municipal')changeMode('municipal');
+ selectMapRegion(feature,'municipal');
  const id=keyForMode(feature,'municipal');
  const bounds=(state.layers.get(id)||L.geoJSON([feature])).getBounds();
  map.fitBounds(bounds,{maxZoom:14});
