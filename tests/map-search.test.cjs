@@ -25,6 +25,29 @@ test('map area finder uses regional-style prefecture picker and municipal units 
  assert.deepEqual(read(w).visited,{});w.close();
 });
 
+test('municipalities render as compact wrapping tiles with a bounded list',async()=>{
+ const w=await app();
+ const box=w.document.getElementById('results');
+ assert.ok(box.classList.contains('map-search-tiles'));
+ const towns=pickPref(w,'13');
+ assert.ok(towns.length>20);
+ assert.ok(towns.every(tile=>tile.classList.contains('map-search-tile')));
+ assert.ok(towns.every(tile=>tile.querySelector('.map-search-name')));
+ assert.ok(towns.every(tile=>tile.querySelector('[data-area-action]')===null),'view-only tiles must not offer edit');
+ const html=require('node:fs').readFileSync(require('node:path').join(__dirname,'../index.html'),'utf8');
+ assert.match(html,/#results\.map-search-tiles\{display:flex;flex-wrap:wrap;/);
+ assert.match(html,/#results\.map-search-tiles \.map-search-tile\{display:inline-flex;flex:0 1 auto;width:fit-content;max-width:100%;/);
+ assert.match(html,/max-height:min\(42dvh,320px\);overflow-y:auto/);
+ mode(w,true);
+ const tile=choice(w,'町田市').parentElement;
+ assert.ok(tile.classList.contains('map-search-tile'));
+ assert.equal(tile.querySelector('[data-area-action]').textContent,'登録');
+ assert.equal(tile.querySelectorAll('button').length,2);
+ const before=raw(w);mode(w,false);
+ assert.deepEqual(raw(w),before,'switching modes must not mutate visits or cards');
+ w.close();
+});
+
 test('view-only municipality selection changes the map and never edits visit records',async()=>{
  const w=await app(),before=raw(w);w.mapMoves=[];w.eval('map.fitBounds=(...args)=>window.mapMoves.push(args)');
  pickPref(w,'13');assert.equal(action(w,'町田市'),null);
