@@ -20,6 +20,20 @@ function writeStore(key,value){if(localStorage.getItem(restoreJournalKey))throw 
 const titleStoreKey='walked_titles_v1';
 let titleState=readStore(titleStoreKey,{awards:{},selected:null},WalkedCore.titleState),titleRegistry=null,titleView=null;
 const DBKEY='walked_municipal_v2',state={visited:readSaved(),features:[],featureById:new Map(),layers:new Map(),points:[],busy:false,mode:"nearby",machida:[],machidaById:new Map(),sagamihara:[],sagamiharaById:new Map(),prefFeatures:[],prefById:new Map(),activeGroup:null,nationById:new Map(),nationCache:new Map(),nationErrors:new Set(),nationLoading:new Set(),detailGroup:null,locationDot:null};
+// Map presentation is stored independently from visits, cards and titles.
+const mapDisplayKey='walked_map_display_v1';
+function validateMapDisplay(v){
+ if(!v||!['pale','blank','standard'].includes(v.base)||typeof v.manual!=='boolean'||!v.overrides||typeof v.overrides!=='object')throw Error('地図表示設定が不正です');
+ for(const kind of ['pref','municipal']){
+  if(!v.overrides[kind]||typeof v.overrides[kind]!=='object'||Array.isArray(v.overrides[kind]))throw Error('色設定の形式が不正です');
+  if(Object.entries(v.overrides[kind]).some(([id,c])=>!/^\d{2,5}$/.test(id)||!Number.isInteger(c)||c<0||c>=6))throw Error('地域の色設定が不正です');
+ }
+}
+let mapDisplay=readStore(mapDisplayKey,{base:'pale',manual:false,overrides:{pref:{},municipal:{}}},validateMapDisplay);
+let municipalPalette=null,prefecturePalette=null,selectedMapRegion=null,prefBorderGroup=null;
+function saveMapDisplay(){
+ try{writeStore(mapDisplayKey,mapDisplay);return true}catch(e){status('地図表示設定を保存できません：'+e.message);return false}
+}
 const $=id=>document.getElementById(id); const status=s=>{$('status').textContent=s};
 function readSaved(){return readStore(DBKEY,{},v=>WalkedCore.records(v,'制覇'));}
 function persist(){try{writeStore(DBKEY,state.visited);updateTitles();updateStats();renderMapSearch();}catch(e){status('⚠️ 記録を保存できません：'+e.message);throw e;}}
@@ -28,19 +42,28 @@ let areaAddModeEnabled=false;
 function syncAreaAddMode(){const indicator=document.getElementById('areaAddIndicator');indicator.textContent=areaAddModeEnabled?'✏️ エリア追加モード：地図・検索結果から登録／解除できます。':'🔒 閲覧モード：地図・検索結果からエリアは変更されません。';indicator.style.background=areaAddModeEnabled?'#fff1d5':'#e2f1e9';}
 document.getElementById('areaAddMode').addEventListener('change',e=>{areaAddModeEnabled=e.target.checked;syncAreaAddMode();renderMapSearch();});syncAreaAddMode();
 const map=L.map('map',{preferCanvas:true,zoomControl:false}).setView([36.3,138.2],5);L.control.zoom({position:'bottomright'}).addTo(map);
-// 日本向けの国土地理院タイルを使用（OSM標準タイルの403ブロックを回避）。
-// 出典は地図右下に常時表示します。
-const baseTiles=L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png',{
-  minZoom:2,maxZoom:18,maxNativeZoom:18,
-  attribution:'<a href="https://maps.gsi.go.jp/" target="_blank" rel="noopener">地理院タイル（国土地理院）</a>'
-}).addTo(map);
+// GSI official raster tiles. Pale is the default; blank is available from zoom 5 to 14.
+// Keep pale beneath blank at lower zooms and scale blank tiles beyond 14 to avoid gaps.
+const mapTiles={
+ pale:L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png',{minZoom:2,maxZoom:18,maxNativeZoom:18,attribution:'<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">地理院タイル（国土地理院）</a>'}),
+ blank:L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/blank/{z}/{x}/{y}.png',{minZoom:5,maxZoom:18,maxNativeZoom:14,attribution:'<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">白地図（国土地理院）</a>'}),
+ standard:L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png',{minZoom:2,maxZoom:18,maxNativeZoom:18,attribution:'<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">地理院タイル（国土地理院）</a>'})
+};
 let baseTileErrors=0;
-baseTiles.on('tileerror',()=>{
-  baseTileErrors++;
-  if(baseTileErrors===4){
-    status('⚠️ 背景地図の読込に失敗しています。通信状態を確認してページを再読込してください。');
-  }
+for(const layer of Object.values(mapTiles))layer.on('tileerror',()=>{
+ if(++baseTileErrors===4)status('⚠️ 背景地図の読込に失敗しています。通信状態を確認して再読込してください。');
 });
+function applyBaseMap(){
+ for(const layer of Object.values(mapTiles))map.removeLayer(layer);
+ if(mapDisplay.base==='blank'){mapTiles.pale.addTo(map);mapTiles.blank.addTo(map)}
+ else mapTiles[mapDisplay.base].addTo(map);
+ $('mapBaseMode').value=mapDisplay.base;
+}
+$('mapBaseMode').onchange=e=>{
+ const base=e.target.value;if(!Object.prototype.hasOwnProperty.call(mapTiles,base))return;
+ mapDisplay.base=base;applyBaseMap();saveMapDisplay();
+};
+applyBaseMap();
 let polygons;function key(f){return String(f.id||f.properties?.code||f.properties?.id||'')};function title(f){const p=f.properties||{};return p.displayName||[p.prefecture,p.county,p.municipality,p.ward].filter(Boolean).join(' ')||p.name||key(f)};
 // Both detailed maps share town identity; legacy n: records remain readable.
 function canonicalAreaKey(id){
