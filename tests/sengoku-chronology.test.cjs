@@ -48,5 +48,5 @@ test('reader uses chronology hints only for ordering and preserves unknown-card 
  assert.ok(inline.includes("else content.textContent='🔒 未発見の足跡'"));
  assert.ok(inline.includes('const acquiredPerson=countOwned(person.id)>0'));
  assert.ok(inline.includes('const groups=['));
- assert.ok(inline.includes('経歴本文は')===false);
+ assert.ok(!inline.includes('年が未確認の経歴は末尾にまとめます'));
 });
