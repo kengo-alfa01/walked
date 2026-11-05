@@ -154,3 +154,71 @@ test('region colors, basemap selection, and manual override preserve saved game 
  assert.equal(JSON.parse(next.localStorage.getItem('walked_map_display_v1')).overrides.municipal['13209'],Number(options[0].value));
  next.close();
 });
+
+test('tapping a municipality opens only its earned regional encyclopedia when editing is off',async()=>{
+ const w=await app();
+ await new Promise(r=>setTimeout(r,20));
+ const id='13209';
+ w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
+ assert.match(w.document.getElementById('status').textContent,/未制覇/);
+ assert.equal(w.document.querySelector('#regionalPanel [data-body]').hidden,true);
+ w.eval("mark('13209');persist()");
+ const before=raw(w);
+ w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
+ assert.equal(w.document.querySelector('#regionalPanel [data-body]').hidden,false);
+ assert.ok(w.document.querySelector('#regionalPanel [data-item-id]'),'published items should appear for the acquired city');
+ assert.deepEqual(raw(w),before,'view-only map taps cannot alter saved collections');
+ mode(w,true);
+ w.eval("handleMapAreaClick(state.featureById.get('14151'),'municipal')");
+ assert.ok(read(w).visited['14151'],'edit mode retains the original map registration behavior');
+ w.close();
+});
+
+test('Sengoku pins use small high-contrast markers and selected person shows only their earned sites',async()=>{
+ const w=await app();
+ const source=w.eval("sengokuCards.find(c=>eligibleSengokuCard(c))");
+ assert.ok(source);
+ w.eval(`sengokuFound[${JSON.stringify(source.id)}]={at:'2025-01-01'}`);
+ w.eval("window.markerOptions=[];L.circleMarker=(ll,options)=>{window.markerOptions.push(options);return {bindPopup(){return this},addTo(){return this}}};refreshSengokuPins()");
+ assert.ok(w.markerOptions.length>0);
+ assert.ok(w.markerOptions.every(o=>o.radius===5&&o.weight>=2&&o.fillOpacity===1));
+ w.eval(`showSengokuPerson(sengokuPeople.find(p=>p.id===${JSON.stringify(source.personId)}))`);
+ const selectedCount=w.eval(`new Set(sengokuCards.filter(c=>c.personId===${JSON.stringify(source.personId)}&&ownsSengokuCard(c.id)).map(c=>c.siteId)).size`);
+ assert.equal(w.markerOptions.length>=selectedCount,true);
+ assert.equal(w.eval('selectedSengokuPersonId'),source.personId);
+ assert.equal(w.document.querySelector('#sengokuDetail button').textContent,'全人物の史跡ピンを表示');
+ w.close();
+});
+
+test('approved biography unlocks only on full published collection, preserving shorter existing profile copy',async()=>{
+ const w=await app();
+ const selected=w.eval("sengokuPeople.find(p=>sengokuProfiles.has(p.id)&&catalogCardCount(p.id)>=2)");
+ assert.ok(selected,'a profile with multiple released cards is needed for this regression');
+ const personId=selected.id;
+ const eligible=w.eval(`sengokuCards.filter(c=>c.personId===${JSON.stringify(personId)}&&eligibleSengokuCard(c)).map(c=>c.id)`);
+ w.eval(`sengokuFound[${JSON.stringify(eligible[0])}]={at:'2025-01-01'}`);
+ w.eval(`showSengokuPerson(sengokuPeople.find(p=>p.id===${JSON.stringify(personId)}))`);
+ assert.equal(w.document.querySelector('.sengoku-profile'),null,'the biography is not unlocked early');
+ assert.match(w.document.getElementById('sengokuDetail').textContent,/人物略歴：/);
+ for(const id of eligible.slice(1))w.eval(`sengokuFound[${JSON.stringify(id)}]={at:'2025-01-01'}`);
+ w.eval(`showSengokuPerson(sengokuPeople.find(p=>p.id===${JSON.stringify(personId)}))`);
+ assert.ok(w.document.querySelector('.sengoku-profile'),'complete released collection unlocks the approved profile');
+ assert.match(w.document.querySelector('.sengoku-profile').textContent,/全経歴解放・人物略歴/);
+ w.close();
+});
+
+test('location-independent history appears after acquiring a person and stays hidden beforehand',async()=>{
+ const w=await app();
+ const card=w.eval('sengokuCards.find(c=>eligibleSengokuCard(c))');
+ assert.ok(card);
+ const entry={id:'qa-published-text-only',personId:card.personId,title:'確認済みの政治・家族関係',summary:'場所に依存しない公開経歴の表示確認。',eventYear:1550,eventYearEnd:null,sourceUrls:['https://example.org/evidence'],approvalId:'qa-approved',placeRelation:'none',publicationStatus:'公開可'};
+ w.eval(`sengokuTextOnly=[${JSON.stringify(entry)}]`);
+ w.eval(`showSengokuPerson(sengokuPeople.find(p=>p.id===${JSON.stringify(card.personId)}))`);
+ assert.ok(!w.document.getElementById('sengokuDetail').textContent.includes(entry.title),'unearned person does not expose text-only history');
+ w.eval(`sengokuFound[${JSON.stringify(card.id)}]={at:'2025-01-01'}`);
+ w.eval(`showSengokuPerson(sengokuPeople.find(p=>p.id===${JSON.stringify(card.personId)}))`);
+ assert.match(w.document.getElementById('sengokuDetail').textContent,/確認済みの政治・家族関係/);
+ assert.match(w.document.getElementById('sengokuDetail').textContent,/場所に紐づかない経歴/);
+ assert.equal(w.eval('sengokuSites.some(s=>s.id===\'qa-published-text-only\')'),false,'text-only records never invent locations');
+ w.close();
+});

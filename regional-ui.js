@@ -23,9 +23,9 @@ function mount({getVisits,getRegistry}){
     if(!area)return;
     const ids=new Set(v.relations.filter(r=>r.areaCode===area).map(r=>r.itemId));list=list.filter(i=>ids.has(i.id));
    }
-   const cats=el('div');cats.className='regional-categories';for(const c of RegionalCore.categories){const b=el('button',c+'（'+list.filter(i=>i.category===c).length+'）');b.type='button';b.className=c===category?'':'alt';b.onclick=()=>{category=c;limit=30;refresh();};cats.append(b);}body.append(cats);
+   const cats=el('div');cats.className='regional-categories';for(const c of ['all',...RegionalCore.categories]){const count=c==='all'?list.length:list.filter(i=>i.category===c).length;const b=el('button',(c==='all'?'すべて':c)+'（'+count+'）');b.type='button';b.className=c===category?'':'alt';b.onclick=()=>{category=c;limit=30;refresh();};cats.append(b);}body.append(cats);
    if(!category){body.append(el('p','カテゴリーを選んでください。'));return;}
-   list=list.filter(i=>i.category===category);if(!list.length){body.append(el('p','このカテゴリーの公開記事はまだありません。'));return;}
+   if(category!=='all')list=list.filter(i=>i.category===category);if(!list.length){body.append(el('p','このカテゴリーの公開記事はまだありません。'));return;}
    const grid=el('div');grid.className='regional-articles';
    for(const i of list.slice(0,limit)){
     const card=el('button');card.type='button';card.className='regional-article';card.dataset.itemId=i.id;card.append(el('strong',i.name));
@@ -47,9 +47,21 @@ function mount({getVisits,getRegistry}){
   dialog.append(el('p','発信主体による本アプリの公認・推奨を示すものではありません。写真・図版・原文等は掲載していません。'));dialog.showModal();
  }
  async function load(){try{const r=await fetch('./regional/catalog.json',{cache:'no-cache'});if(!r.ok)throw Error('データ取得失敗');const doc=await r.json();const registry=getRegistry();if(registry)RegionalCore.validate(doc,registry);catalog=doc;refresh();}catch(e){status.textContent='地域図鑑を読み込めません：'+e.message;}}
+ function openArea(code){
+  const registry=getRegistry();
+  if(!catalog||!registry)return 'loading';
+  try{
+   const v=RegionalCore.view(catalog,getVisits(),registry),target=v.areas.find(a=>a.code===String(code));
+   if(!target)return 'locked';
+   mode='area';pref=target.prefecture;area=target.code;category='all';limit=30;
+   open=true;toggle.setAttribute('aria-expanded','true');toggle.textContent='図鑑を閉じる';body.hidden=false;
+   refresh();host.scrollIntoView?.({behavior:'smooth',block:'start'});
+   return 'open';
+  }catch(error){status.textContent='地域図鑑を表示できません：'+error.message;return 'error';}
+ }
  // Loading can finish before the title registry; validate on each refresh as well.
  const guardedRefresh=()=>{if(catalog&&getRegistry()){try{RegionalCore.validate(catalog,getRegistry());refresh();if(dialog.open)dialog.close();}catch(e){catalog=null;body.replaceChildren();status.textContent='地域図鑑の公開データが不正です';}}};
- load();return {refresh:guardedRefresh};
+ load();return {refresh:guardedRefresh,openArea};
 }
 root.RegionalUI={mount};
 })(window);
