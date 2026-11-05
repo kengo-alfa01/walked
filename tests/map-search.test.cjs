@@ -176,6 +176,7 @@ test('tapping a municipality opens only its earned regional encyclopedia when ed
 
 test('Sengoku pins use small high-contrast markers and selected person shows only their earned sites',async()=>{
  const w=await app();
+ w.document.querySelector('[data-collection-mode="sengoku"]').click();
  const source=w.eval("sengokuCards.find(c=>eligibleSengokuCard(c))");
  assert.ok(source);
  w.eval(`sengokuFound[${JSON.stringify(source.id)}]={at:'2025-01-01'}`);
@@ -190,20 +191,58 @@ test('Sengoku pins use small high-contrast markers and selected person shows onl
  w.close();
 });
 
-test('approved biography unlocks only on full published collection, preserving shorter existing profile copy',async()=>{
+test('approved short profile is visible after the first acquired card; long biography remains deferred',async()=>{
  const w=await app();
  const selected=w.eval("sengokuPeople.find(p=>sengokuProfiles.has(p.id)&&catalogCardCount(p.id)>=2)");
- assert.ok(selected,'a profile with multiple released cards is needed for this regression');
+ assert.ok(selected,'a published profile with multiple released cards is required');
  const personId=selected.id;
  const eligible=w.eval(`sengokuCards.filter(c=>c.personId===${JSON.stringify(personId)}&&eligibleSengokuCard(c)).map(c=>c.id)`);
+ w.eval(`showSengokuPerson(sengokuPeople.find(p=>p.id===${JSON.stringify(personId)}))`);
+ assert.equal(w.document.querySelector('.sengoku-profile'),null,'unacquired profiles remain hidden');
  w.eval(`sengokuFound[${JSON.stringify(eligible[0])}]={at:'2025-01-01'}`);
  w.eval(`showSengokuPerson(sengokuPeople.find(p=>p.id===${JSON.stringify(personId)}))`);
- assert.equal(w.document.querySelector('.sengoku-profile'),null,'the biography is not unlocked early');
- assert.match(w.document.getElementById('sengokuDetail').textContent,/人物略歴：/);
- for(const id of eligible.slice(1))w.eval(`sengokuFound[${JSON.stringify(id)}]={at:'2025-01-01'}`);
- w.eval(`showSengokuPerson(sengokuPeople.find(p=>p.id===${JSON.stringify(personId)}))`);
- assert.ok(w.document.querySelector('.sengoku-profile'),'complete released collection unlocks the approved profile');
- assert.match(w.document.querySelector('.sengoku-profile').textContent,/全経歴解放・人物略歴/);
+ assert.ok(w.document.querySelector('.sengoku-profile'),'first acquired card reveals approved short profile');
+ assert.ok(!w.document.getElementById('sengokuDetail').textContent.includes('全経歴解放・人物略歴'));
+ assert.ok(!w.document.getElementById('sengokuDetail').textContent.includes('人物略歴：'));
+ w.close();
+});
+
+test('regional and Sengoku modes show exactly one panel and do not change saved collection data',async()=>{
+ const w=await app();
+ await new Promise(r=>setTimeout(r,20));
+ const buttons=[...w.document.querySelectorAll('[data-collection-mode]')];
+ assert.equal(buttons.length,2);
+ assert.equal(w.document.getElementById('regionalPanel').hidden,false);
+ assert.equal(w.document.getElementById('sengokuPanel').hidden,true);
+ assert.equal(buttons[0].getAttribute('aria-pressed'),'true');
+ const before=raw(w);
+ buttons[1].click();
+ assert.equal(w.document.getElementById('regionalPanel').hidden,true);
+ assert.equal(w.document.getElementById('sengokuPanel').hidden,false);
+ assert.equal(w.document.getElementById('sengokuBody').hidden,false);
+ assert.equal(buttons[1].getAttribute('aria-pressed'),'true');
+ assert.equal(buttons[0].getAttribute('aria-pressed'),'false');
+ buttons[0].click();
+ assert.equal(w.document.getElementById('regionalPanel').hidden,false);
+ assert.equal(w.document.getElementById('sengokuPanel').hidden,true);
+ assert.equal(buttons[0].getAttribute('aria-pressed'),'true');
+ assert.equal(w.document.querySelector('#regionalPanel [data-body]').hidden,false);
+ assert.deepEqual(raw(w),before,'UI mode switches must never alter visits, cards or title history');
+ w.close();
+});
+
+test('map-tapping an acquired municipality opens regional mode even from Sengoku view',async()=>{
+ const w=await app();
+ await new Promise(r=>setTimeout(r,20));
+ w.eval("mark('13209');persist()");
+ const before=raw(w);
+ w.document.querySelector('[data-collection-mode="sengoku"]').click();
+ assert.equal(w.document.getElementById('regionalPanel').hidden,true);
+ w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
+ assert.equal(w.document.getElementById('regionalPanel').hidden,false);
+ assert.equal(w.document.getElementById('sengokuPanel').hidden,true);
+ assert.ok(w.document.querySelector('#regionalPanel [data-item-id]'));
+ assert.deepEqual(raw(w),before,'opening encyclopedia must not change any saved visit');
  w.close();
 });
 
