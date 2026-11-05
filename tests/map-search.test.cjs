@@ -97,6 +97,33 @@ test('changing prefecture invalidates stale callbacks; map mode does not change 
  assert.deepEqual(raw(w),before);w.close();
 });
 
+
+
+test('unvisited map areas use a single pale grey across all modes; visited retain colors',async()=>{
+ const w=await app(),nearbyId=w.eval("keyForMode(state.machida[0],'nearby')");
+ const style=(id,mode)=>w.eval(`styleFor(${JSON.stringify(id)},${JSON.stringify(mode)})`);
+ const cases=[
+  [nearbyId,'nearby'],['13209','municipal'],['p:13','prefecture'],
+  ['n:13209:0000000000','nationwideDetail']
+ ];
+ for(const [id,mode] of cases){
+  const unvisited=style(id,mode);
+  assert.equal(unvisited.fillColor,'#e5e7eb',mode+' should not inherit a six-color tint');
+  assert.equal(unvisited.fillOpacity,0.74);
+ }
+ w.eval(`mark(${JSON.stringify(nearbyId)})`);
+ assert.notEqual(style(nearbyId,'nearby').fillColor,'#e5e7eb','visited town should show its municipality palette color');
+ assert.notEqual(style('p:13','prefecture').fillColor,'#e5e7eb','visited town should color its prefecture');
+ assert.equal(style('13209','municipal').fillColor,'#e5e7eb','town visit alone does not mark the municipality');
+ w.eval("mark('13209')");
+ assert.notEqual(style('13209','municipal').fillColor,'#e5e7eb','registered municipality should show its palette color');
+ assert.equal(style('14151','municipal').fillColor,'#e5e7eb','another unvisited city stays grey');
+ const selected=w.eval("selectedMapRegion={mode:'municipal',id:'14151'};styleFor('14151','municipal')");
+ assert.equal(selected.fillColor,'#e5e7eb','selection must not recolor unvisited areas');
+ assert.equal(selected.weight,3,'selected border remains visible');
+ w.close();
+});
+
 test('region colors, basemap selection, and manual override preserve saved game state',async()=>{
  const w=await app();
  const colorsOk=w.eval('municipalPalette.colors.size===1905&&[...municipalPalette.neighbors].every(([id,ns])=>[...ns].every(n=>municipalPalette.colors.get(n)!==municipalPalette.colors.get(id)))');
