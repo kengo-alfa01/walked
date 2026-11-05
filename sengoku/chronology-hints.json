@@ -1,0 +1,967 @@
+{
+  "schemaVersion": "walked.sengoku.chronology.v1",
+  "version": "20261105-timeline-order-stage1",
+  "explanation": "sortYearは表示順序の目安であり、史実の確定年または位置カード公開承認を意味しない。labelで年次の異説・範囲・前後関係を区別する。",
+  "entries": [
+    {
+      "sortYear": 1569,
+      "section": "life",
+      "label": "1569年（越相同盟）",
+      "id": "hist-a130u-ujimasa-1569-etsuso-alliance"
+    },
+    {
+      "sortYear": 1570,
+      "section": "life",
+      "label": "16世紀後半頃（大友氏への仕官・正確な年不詳）",
+      "id": "hist-a183j-service"
+    },
+    {
+      "sortYear": 1565,
+      "section": "life",
+      "label": "16世紀後半頃（婚姻・年不詳）",
+      "id": "hist-a183j-wife"
+    },
+    {
+      "sortYear": 1566,
+      "section": "life",
+      "label": "1566年説／1570年説（家督譲渡）",
+      "id": "hist-a106-takahisa-successor1570"
+    },
+    {
+      "sortYear": 1543,
+      "section": "life",
+      "label": "1543年以降（鉄砲伝来後の関心）",
+      "id": "hist-a111-nonloc-takahisa-1543-firearm"
+    },
+    {
+      "sortYear": 1541,
+      "section": "life",
+      "label": "1541年以降（家督継承後の領国改革）",
+      "id": "hist-0ea395c1b9c5f5892dc0"
+    },
+    {
+      "sortYear": 1559,
+      "section": "life",
+      "label": "1559年末／1560年説（家督譲渡）",
+      "id": "hist-a124u-ujiyasu-1559-1560-succession"
+    },
+    {
+      "sortYear": 1588,
+      "section": "life",
+      "label": "1586年以降（1588年の評定説）",
+      "id": "hist-a126c-motochika-post1586-heir-morichika"
+    },
+    {
+      "sortYear": 1557,
+      "section": "life",
+      "label": "1557〜1558年頃（再謀反の年次に異説）",
+      "id": "hist-a128s-shibata-service1558"
+    },
+    {
+      "sortYear": 1582,
+      "section": "life",
+      "label": "1582年以降（信長没後、就任年不詳）",
+      "id": "hist-a181r-hideyoshi"
+    },
+    {
+      "sortYear": 1570,
+      "section": "life",
+      "label": "信長存命期（仕官年不詳・前後関係の目安）",
+      "id": "hist-a181r-nobunaga"
+    },
+    {
+      "sortYear": 1550,
+      "section": "life",
+      "label": "修業期（北向道陳・武野紹鴎に師事、年不詳）",
+      "id": "hist-a181r-teachers"
+    },
+    {
+      "sortYear": 1580,
+      "section": "context",
+      "label": "わび茶の大成（長期間にわたる活動・年特定不可）",
+      "id": "hist-a181r-wabi"
+    },
+    {
+      "sortYear": 1570,
+      "section": "context",
+      "label": "再婚と養子縁組（成立年不詳）",
+      "id": "hist-a182r-soon"
+    },
+    {
+      "sortYear": 1590,
+      "section": "context",
+      "label": "熊姫との婚姻（年不詳）",
+      "id": "hist-a169t-marriage"
+    },
+    {
+      "sortYear": 1605,
+      "section": "life",
+      "label": "家康・秀忠・家光の三代に仕える（複数年代）",
+      "id": "hist-a169t-service"
+    },
+    {
+      "sortYear": 1609,
+      "section": "life",
+      "label": "1609年家督譲渡／1610年藩主継承",
+      "id": "hist-a169t-succession"
+    },
+    {
+      "sortYear": 1587,
+      "section": "life",
+      "label": "1582〜1592年頃（書状の推定年代）",
+      "id": "hist-a170m-tokuyama-letter"
+    },
+    {
+      "sortYear": 1590,
+      "section": "context",
+      "label": "家族関係（年次を特定できない背景）",
+      "id": "hist-a171m-family"
+    },
+    {
+      "sortYear": 1603,
+      "section": "life",
+      "label": "1603年／1605年頃以降（秀忠補佐の開始年に差）",
+      "id": "hist-a171m-hidetada"
+    },
+    {
+      "sortYear": 1607,
+      "section": "life",
+      "label": "1607年以降（書状の年代下限のみ）",
+      "id": "hist-a171m-ikeda"
+    },
+    {
+      "sortYear": 1580,
+      "section": "life",
+      "label": "16世紀後半（家康への帰参年不詳）",
+      "id": "hist-a171m-return"
+    },
+    {
+      "sortYear": 1560,
+      "section": "life",
+      "label": "若年期（家康への仕官年不詳）",
+      "id": "hist-a171m-service"
+    },
+    {
+      "sortYear": 1605,
+      "section": "life",
+      "label": "慶長期〔1596〜1615年〕（個別年不詳）",
+      "id": "hist-a171m-shimazu"
+    },
+    {
+      "sortYear": 1570,
+      "section": "context",
+      "label": "家久配下の右筆説（時期不詳）",
+      "id": "hist-a179i-yagi"
+    },
+    {
+      "sortYear": 1560,
+      "section": "life",
+      "label": "1565年以前（婚姻年不詳）",
+      "id": "hist-a180i-marriage"
+    },
+    {
+      "sortYear": 1590,
+      "section": "life",
+      "label": "16世紀後半頃（小松姫との婚姻、年不詳）",
+      "id": "hist-a173n-marriage"
+    },
+    {
+      "sortYear": 1610,
+      "section": "context",
+      "label": "伊豆守の官名（受領時期不詳）",
+      "id": "hist-a173n-office"
+    },
+    {
+      "sortYear": 1546,
+      "section": "life",
+      "label": "1546年家督継承後〜1563年（官途の個別年不詳）",
+      "id": "hist-a142-takamoto-governor-undated"
+    },
+    {
+      "sortYear": 1548,
+      "section": "life",
+      "label": "1540年代後半頃（婚姻説、年次未確認）",
+      "id": "hist-a142-takamoto-marriage-undated"
+    },
+    {
+      "sortYear": 1560,
+      "section": "life",
+      "label": "武田家臣時代（武藤氏への養子入り、年不詳）",
+      "id": "hist-a174m-muto"
+    },
+    {
+      "sortYear": 1555,
+      "section": "life",
+      "label": "幼少期〜武田家臣時代（個別年不詳）",
+      "id": "hist-a174m-service"
+    },
+    {
+      "sortYear": 1585,
+      "section": "life",
+      "label": "1580年代後半頃（豊臣政権への帰属、年不詳）",
+      "id": "hist-a174m-toyotomi"
+    },
+    {
+      "sortYear": 1560,
+      "section": "context",
+      "label": "家族・婚姻関係（年不詳）",
+      "id": "hist-a175m-marriage"
+    },
+    {
+      "sortYear": 1585,
+      "section": "life",
+      "label": "1580年代後半頃（沼田領問題、年月不詳）",
+      "id": "hist-b74728f4218777bdfde5"
+    },
+    {
+      "sortYear": 1570,
+      "section": "life",
+      "label": "信長存命期（滝川一益の仕官年不詳）",
+      "id": "hist-a185k-service"
+    },
+    {
+      "sortYear": 1570,
+      "section": "context",
+      "label": "嫡子との父子関係（時期不詳）",
+      "id": "hist-a187k-family"
+    },
+    {
+      "sortYear": 1584,
+      "section": "life",
+      "label": "1584年の小牧・長久手の戦役後（引退年不詳）",
+      "id": "hist-a187k-retirement"
+    },
+    {
+      "sortYear": 1579,
+      "section": "life",
+      "label": "1579年頃（朱印状の推定年代）",
+      "id": "hist-s65-nobunaga-cho-shuin1579"
+    },
+    {
+      "sortYear": 1590,
+      "section": "life",
+      "label": "1590年（韮山城への開城勧告）",
+      "id": "hist-11554f26d994783afe3b"
+    },
+    {
+      "sortYear": 1601,
+      "section": "life",
+      "label": "1601年（膳所城築城命令）",
+      "id": "hist-562cb5ad780fd345efa2"
+    },
+    {
+      "sortYear": 1600,
+      "section": "life",
+      "label": "1600年（苗木城旧領回復に関する命令）",
+      "id": "hist-5b78c6b0d84aa55e9490"
+    },
+    {
+      "sortYear": 1585,
+      "section": "life",
+      "label": "1585年（西尾城の普請命令）",
+      "id": "hist-c60de537718af4ac5283"
+    },
+    {
+      "sortYear": 1602,
+      "section": "life",
+      "label": "1602年頃（加納城築城時期からの目安）",
+      "id": "hist-cbd749bd2019450a0e8d"
+    },
+    {
+      "sortYear": 1570,
+      "section": "life",
+      "label": "三河支配期（吉田城城代任命、年不詳）",
+      "id": "hist-f5eb0324df91b8003b95"
+    },
+    {
+      "sortYear": 1561,
+      "section": "life",
+      "label": "1561〜1562年頃（和解・同盟の過程）",
+      "id": "hist-s33-ieyasu-oda-alliance-process"
+    },
+    {
+      "sortYear": 1516,
+      "section": "life",
+      "label": "1516年説／1528年説（出生年未確定）",
+      "id": "hist-5a33d9bf7f4f0c6a8f64"
+    },
+    {
+      "sortYear": 1565,
+      "section": "life",
+      "label": "1565年頃（医薬・調合に関する史料）",
+      "id": "hist-a113k-mitsuhide-medical1565"
+    },
+    {
+      "sortYear": 1567,
+      "section": "life",
+      "label": "1567／1570／1572年説（出生年未確定）",
+      "id": "hist-8c19add8dc4735d180c3"
+    },
+    {
+      "sortYear": 1587,
+      "section": "life",
+      "label": "1580年代後半頃（豊臣秀吉への出仕、年不詳）",
+      "id": "hist-s35-sanada-hideyoshi-service"
+    },
+    {
+      "sortYear": 1594,
+      "section": "life",
+      "label": "1594年頃との説（婚姻年未確定）",
+      "id": "hist-s35-sanada-otani-marriage"
+    },
+    {
+      "sortYear": 1550,
+      "section": "context",
+      "label": "信綱・昌輝・昌幸との親子関係（成立年不詳）",
+      "id": "hist-a176y-family"
+    },
+    {
+      "sortYear": 1549,
+      "section": "life",
+      "label": "1549年以前（武田家への仕官）",
+      "id": "hist-a176y-service"
+    },
+    {
+      "sortYear": 1560,
+      "section": "life",
+      "label": "1560年代頃（北上野への転戦、時期目安）",
+      "id": "hist-a177y-agatsuma"
+    },
+    {
+      "sortYear": 1577,
+      "section": "life",
+      "label": "1582年以前（北条氏との婚姻、年不詳）",
+      "id": "hist-12123ec9549e1ec35d0f"
+    },
+    {
+      "sortYear": 1565,
+      "section": "life",
+      "label": "16世紀中頃（遠山氏との婚姻、時期目安）",
+      "id": "hist-28fe093cc63c556aa918"
+    },
+    {
+      "sortYear": 1560,
+      "section": "life",
+      "label": "武田家家督継承以前（諏訪氏の名跡、年不詳）",
+      "id": "hist-a0324510cb4e685cb51c"
+    },
+    {
+      "sortYear": 1590,
+      "section": "life",
+      "label": "16世紀末頃（富来城主任命、年不詳）",
+      "id": "hist-9cf26a1e33593cd12a49"
+    },
+    {
+      "sortYear": 1515,
+      "section": "life",
+      "label": "出生年不詳（1515年は旧候補にすぎない）",
+      "id": "hist-648955e9979823709c64"
+    },
+    {
+      "sortYear": 1561,
+      "section": "life",
+      "label": "1561年（小田原城の防衛）",
+      "id": "hist-a130u-ujimasa-1561-siege"
+    },
+    {
+      "sortYear": 1538,
+      "section": "life",
+      "label": "1538年説／1539年説（出生年未確定）",
+      "id": "hist-ea00bbf7f2e8710e2c28"
+    },
+    {
+      "sortYear": 1571,
+      "section": "posthumous",
+      "label": "1571年没後（菩提寺・墓所の成立年不詳）",
+      "id": "hist-15c7a4cf3c2d57f67335"
+    },
+    {
+      "sortYear": 1571,
+      "section": "posthumous",
+      "label": "1571年没後（墓碑造立年不詳）",
+      "id": "hist-c91c5a708faca59b059c"
+    },
+    {
+      "sortYear": 1601,
+      "section": "life",
+      "label": "1601年以降（米沢城下治水、築造年未詳）",
+      "id": "hist-a88n-naoe-ishi1601after"
+    },
+    {
+      "sortYear": 1575,
+      "section": "life",
+      "label": "景勝の近習として春日山へ（移動年不詳）",
+      "id": "hist-a88n-naoe-spring-service"
+    },
+    {
+      "sortYear": 1619,
+      "section": "posthumous",
+      "label": "1619年没後（改葬時期不詳）",
+      "id": "hist-bcd266c5811882243e8c"
+    },
+    {
+      "sortYear": 1571,
+      "section": "posthumous",
+      "label": "1571年没後（早雲寺の追善・墓所）",
+      "id": "hist-52eb5b732ee50699db1f"
+    },
+    {
+      "sortYear": 1550,
+      "section": "life",
+      "label": "16世紀中頃（山中城築城年代に複数説）",
+      "id": "hist-5d3cd4ba9e7feff4b387"
+    },
+    {
+      "sortYear": 1560,
+      "section": "context",
+      "label": "氏邦の鉢形城拠点（氏康本人の訪問ではない）",
+      "id": "hist-e681901d8f964fd8b4f7"
+    },
+    {
+      "sortYear": 1559,
+      "section": "life",
+      "label": "1559年末／1560年以降（隠居後の後見）",
+      "id": "life-1754-001"
+    },
+    {
+      "sortYear": 1522,
+      "section": "life",
+      "label": "1522年説／1523年説（出生年未確定）",
+      "id": "hist-1657410dc4358c90763f"
+    },
+    {
+      "sortYear": 1564,
+      "section": "posthumous",
+      "label": "1564年没後（宝篋印塔造立年不詳）",
+      "id": "hist-406e2f53268fbb5d9cbb"
+    },
+    {
+      "sortYear": 1550,
+      "section": "context",
+      "label": "細川・三好勢力の勝瑞城館との関係（個別年不詳）",
+      "id": "hist-64d05fc82b3d453464a3"
+    },
+    {
+      "sortYear": 1564,
+      "section": "posthumous",
+      "label": "1564年没後（墓石建立年不詳）",
+      "id": "hist-c0dfbff39346dd0a8055"
+    },
+    {
+      "sortYear": 1564,
+      "section": "posthumous",
+      "label": "1564年没後（葬儀寺院・墓塔）",
+      "id": "hist-e9d1b0cb9a5b2f8da468"
+    },
+    {
+      "sortYear": 1575,
+      "section": "life",
+      "label": "16世紀後半頃（1575年銘の瓦が示す改修期）",
+      "id": "hist-8ad8f0826e7998017485"
+    },
+    {
+      "sortYear": 1522,
+      "section": "life",
+      "label": "1522年説／1530年説（出生年未確定）",
+      "id": "hist-fed716a8a3a7689e34c3"
+    },
+    {
+      "sortYear": 1636,
+      "section": "posthumous",
+      "label": "1636年埋葬・1637年霊屋造営",
+      "id": "hist-2bd5e0456693037b1a5c"
+    },
+    {
+      "sortYear": 1584,
+      "section": "life",
+      "label": "1584年家督相続後〜1591年（米沢城本拠期）",
+      "id": "hist-af268eef2ef370c232b4"
+    },
+    {
+      "sortYear": 1588,
+      "section": "life",
+      "label": "1588年（三春城への滞在）",
+      "id": "hist-f7fed95f2910a657d56b"
+    },
+    {
+      "sortYear": 1550,
+      "section": "context",
+      "label": "堺での生活（生涯の長期間、特定年なし）",
+      "id": "hist-a182r-sakai"
+    },
+    {
+      "sortYear": 1582,
+      "section": "life",
+      "label": "1582年山崎合戦後（山崎滞在の伝承）",
+      "id": "hist-a182r-taian"
+    },
+    {
+      "sortYear": 1619,
+      "section": "life",
+      "label": "1619年説／1620年説（円教寺復興支援）",
+      "id": "hist-5416c8964b07e05b4343"
+    },
+    {
+      "sortYear": 1617,
+      "section": "life",
+      "label": "元和期・1617／1618年頃（船場川改修）",
+      "id": "hist-a169t-senba"
+    },
+    {
+      "sortYear": 1600,
+      "section": "context",
+      "label": "徳本寺の移転関係（生前・具体年不詳）",
+      "id": "hist-b31b4cfab42b8a8d415d"
+    },
+    {
+      "sortYear": 1560,
+      "section": "life",
+      "label": "1560年頃（海津城の推定築城時期）",
+      "id": "hist-138eb7a8bd29f30ed416"
+    },
+    {
+      "sortYear": 1550,
+      "section": "context",
+      "label": "信玄の南信濃支配期（高遠城、個別年不詳）",
+      "id": "hist-4b4badf3403ae851a1eb"
+    },
+    {
+      "sortYear": 1569,
+      "section": "life",
+      "label": "1569年（韮山城への攻勢）",
+      "id": "hist-5979f0b20d093c4495a9"
+    },
+    {
+      "sortYear": 1545,
+      "section": "life",
+      "label": "信濃侵攻期（福与城、年不詳）",
+      "id": "hist-8089e2089b678fd0d027"
+    },
+    {
+      "sortYear": 1550,
+      "section": "context",
+      "label": "信玄の甲斐統治期（武田氏館、年不詳）",
+      "id": "hist-b3f0a06874f365fbde56"
+    },
+    {
+      "sortYear": 1570,
+      "section": "life",
+      "label": "1570年頃（田中城の攻防）",
+      "id": "hist-ea84020d159b179efa81"
+    },
+    {
+      "sortYear": 1496,
+      "section": "life",
+      "label": "1496年以降〜1501年頃（小田原城掌握年に諸説）",
+      "id": "hist-007da74b1f25b1584049"
+    },
+    {
+      "sortYear": 1493,
+      "section": "life",
+      "label": "1493年以降〜1498年頃（韮山への移城、資料差あり）",
+      "id": "hist-370d3f3a9d6a55c4acb8"
+    },
+    {
+      "sortYear": 1487,
+      "section": "life",
+      "label": "1487年説／1488年頃説（興国寺城主就任）",
+      "id": "hist-4bdc61d39aeab05c2508"
+    },
+    {
+      "sortYear": 1432,
+      "section": "life",
+      "label": "1432年説／1456年説（出生年未確定）",
+      "id": "hist-9851acef0d109c76d352"
+    },
+    {
+      "sortYear": 1650,
+      "section": "life",
+      "label": "晩年（信政へ家督譲渡・隠居年不詳）",
+      "id": "hist-a173n-retire"
+    },
+    {
+      "sortYear": 1600,
+      "section": "life",
+      "label": "慶長年間〔1596〜1615年〕（沼田城天守の造営）",
+      "id": "hist-a173n-tower"
+    },
+    {
+      "sortYear": 1575,
+      "section": "life",
+      "label": "1575年以降（兄・信綱の位牌所とした伝承）",
+      "id": "hist-57e6e0e924c8ab164e07"
+    },
+    {
+      "sortYear": 1600,
+      "section": "life",
+      "label": "1600〜1611年頃（九度山生活）",
+      "id": "hist-66c0f5b95a35ca533555"
+    },
+    {
+      "sortYear": 1600,
+      "section": "life",
+      "label": "1600年以降（蓮華定院への仮寓）",
+      "id": "hist-8932c47f33ddaf2b9ea0"
+    },
+    {
+      "sortYear": 1554,
+      "section": "life",
+      "label": "1554／1555／1557年説（清須城への移転）",
+      "id": "hist-1d6ad3aac5ba10560a40"
+    },
+    {
+      "sortYear": 1582,
+      "section": "posthumous",
+      "label": "1582年没後（信長一族の墓所）",
+      "id": "hist-66d0132204210499a23a"
+    },
+    {
+      "sortYear": 1571,
+      "section": "posthumous",
+      "label": "1571年没後（墓所・遺灰の伝承）",
+      "id": "hist-443f17ac2fb4007c2543"
+    },
+    {
+      "sortYear": 1572,
+      "section": "posthumous",
+      "label": "1572年説／没後3年頃説（洞春寺創建）",
+      "id": "hist-aaa58b07e78fbab75cb7"
+    },
+    {
+      "sortYear": 1570,
+      "section": "context",
+      "label": "二俣城・鳥羽山城の複数の軍事局面（各年不詳）",
+      "id": "hist-90713c2aee541eb4131d"
+    },
+    {
+      "sortYear": 1582,
+      "section": "life",
+      "label": "1582年勝頼没後（景徳院の創建年は別）",
+      "id": "hist-bbc4d43dee48436e4eb3"
+    },
+    {
+      "sortYear": 1599,
+      "section": "life",
+      "label": "1599年12月（茨木城での鷹狩り）",
+      "id": "hist-bd797064b343d9074989"
+    },
+    {
+      "sortYear": 1582,
+      "section": "life",
+      "label": "1582年（死去地点に異説あり）",
+      "id": "hist-78af6c9a45787bb7b22e"
+    },
+    {
+      "sortYear": 1571,
+      "section": "life",
+      "label": "坂本城主期（西教寺への支援、年不詳）",
+      "id": "hist-8eec6c92f80f6f08bb0b"
+    },
+    {
+      "sortYear": 1582,
+      "section": "posthumous",
+      "label": "1582年没後（供養塔の成立年不詳）",
+      "id": "hist-a4fac8e68ec3e1f307ab"
+    },
+    {
+      "sortYear": 1582,
+      "section": "posthumous",
+      "label": "1582年没後（墓所・墓碑の成立年不詳）",
+      "id": "hist-e10e918ffcd0f6747fe3"
+    },
+    {
+      "sortYear": 1536,
+      "section": "life",
+      "label": "1536〜1539年説（出生年未確定）",
+      "id": "hist-40ee63da27a0384c7863"
+    },
+    {
+      "sortYear": 1610,
+      "section": "posthumous",
+      "label": "1610年没後（分骨墓の伝承）",
+      "id": "hist-6cc32f6b45778de08e18"
+    },
+    {
+      "sortYear": 1610,
+      "section": "posthumous",
+      "label": "1610年没後（本多家の菩提寺）",
+      "id": "hist-fe004a96dda428f6ad77"
+    },
+    {
+      "sortYear": 1600,
+      "section": "life",
+      "label": "1600年以降〜1614年以前（九度山での蟄居）",
+      "id": "hist-e3aab02335e728a94788"
+    },
+    {
+      "sortYear": 1600,
+      "section": "life",
+      "label": "1600年以降（蓮華定院への仮寓伝承）",
+      "id": "hist-ed1762942e67019ad30d"
+    },
+    {
+      "sortYear": 1557,
+      "section": "life",
+      "label": "長尾景虎の川中島出陣期（書状年月日不詳）",
+      "id": "hist-a192s-nobushige-saku-letter"
+    },
+    {
+      "sortYear": 1550,
+      "section": "context",
+      "label": "蘆名盛氏の会津黒川城本拠時代（年不詳）",
+      "id": "hist-b565c90814c7ba3b547a"
+    },
+    {
+      "sortYear": 1578,
+      "section": "posthumous",
+      "label": "1578年没後（墓碑の成立年不詳）",
+      "id": "hist-57bf1380c48d3109976b"
+    },
+    {
+      "sortYear": 1578,
+      "section": "posthumous",
+      "label": "1578年没後（米沢の霊屋成立時期不詳）",
+      "id": "hist-82542527f10e8a5b5793"
+    },
+    {
+      "sortYear": 1563,
+      "section": "life",
+      "label": "1563／1564／1567年説（飯山城整備）",
+      "id": "hist-b01f8b70d22e40b46bb7"
+    },
+    {
+      "sortYear": 1600,
+      "section": "life",
+      "label": "最上義光の存命期（光禅寺の創建年不詳）",
+      "id": "hist-6eee6eb8e61d9a8f02b8"
+    },
+    {
+      "sortYear": 1582,
+      "section": "life",
+      "label": "1582年の光秀没落後（亀山城接収年不詳）",
+      "id": "hist-00e3aa8d6b71b55a0d4b"
+    },
+    {
+      "sortYear": 1591,
+      "section": "life",
+      "label": "1591年と伝承（清水山城、本人の現地関与未確定）",
+      "id": "hist-80ef31b687d3ffb8d367"
+    },
+    {
+      "sortYear": 1596,
+      "section": "life",
+      "label": "1596〜1597年（木幡山伏見城の再建と入城）",
+      "id": "hist-a80h-hideyoshi-kohatayama-1596"
+    },
+    {
+      "sortYear": 1570,
+      "section": "life",
+      "label": "武田家の駿河経営期（江尻城代在任年不詳）",
+      "id": "hist-a154-yamagata-ejiri-undated"
+    },
+    {
+      "sortYear": 1604,
+      "section": "posthumous",
+      "label": "1604年没後（黒田家の墓所成立年不詳）",
+      "id": "hist-2ab049c8795da3d47d86"
+    },
+    {
+      "sortYear": 1600,
+      "section": "life",
+      "label": "1600年以降〜1604年以前（太宰府隠棲）",
+      "id": "hist-a79k-kuroda-dazaifu"
+    },
+    {
+      "sortYear": 1602,
+      "section": "life",
+      "label": "1601〜1604年頃（福岡城御鷹屋敷の晩年）",
+      "id": "hist-a79k-kuroda-otaka"
+    },
+    {
+      "sortYear": 1604,
+      "section": "posthumous",
+      "label": "1604年没後（黒田如水の墓塔）",
+      "id": "hist-ec9440e12cb515e20e70"
+    },
+    {
+      "id": "sg-card-0009",
+      "sortYear": 1550,
+      "section": "context",
+      "label": "信玄の政務を担った館（統治期間の史跡情報）"
+    },
+    {
+      "id": "sg-card-0020",
+      "sortYear": 1582,
+      "section": "context",
+      "label": "1582年の武田氏滅亡以降（甲府城の築城過程）"
+    },
+    {
+      "id": "sg-card-0022",
+      "sortYear": 1550,
+      "section": "context",
+      "label": "後北条氏の関東支配期（小机城、年不詳）"
+    },
+    {
+      "id": "sg-card-0023",
+      "sortYear": 1570,
+      "section": "context",
+      "label": "後北条氏の西方防備期（津久井城、年不詳）"
+    },
+    {
+      "id": "sg-card-0026",
+      "sortYear": 1560,
+      "section": "context",
+      "label": "氏邦が鉢形城を拠点とした時期（年不詳）"
+    },
+    {
+      "id": "sg-card-0030",
+      "sortYear": 1520,
+      "section": "context",
+      "label": "16世紀前半頃（勝沼氏の館、年不詳）"
+    },
+    {
+      "id": "sg-card-0032",
+      "sortYear": 1560,
+      "section": "context",
+      "label": "16世紀中頃（山中城の築城年には諸説）"
+    },
+    {
+      "id": "sg-card-0073",
+      "sortYear": 1480,
+      "section": "context",
+      "label": "15世紀後半（武田信昌と跡部氏の抗争期）"
+    },
+    {
+      "id": "sg-card-0120",
+      "sortYear": 1560,
+      "section": "context",
+      "label": "16世紀中頃（氏照の城郭継承、年不詳）"
+    },
+    {
+      "id": "sg-card-0121",
+      "sortYear": 1550,
+      "section": "context",
+      "label": "後北条氏支配期（小机領の後見、年不詳）"
+    },
+    {
+      "id": "sg-card-0122",
+      "sortYear": 1550,
+      "section": "context",
+      "label": "16世紀中頃（北条氏堯の城主時代、年不詳）"
+    },
+    {
+      "id": "sg-card-0139",
+      "sortYear": 1560,
+      "section": "context",
+      "label": "北条幻庵の後北条一門後見期（長期間）"
+    },
+    {
+      "id": "sg-card-v074-016",
+      "sortYear": 1560,
+      "section": "context",
+      "label": "氏康の時代の築城とされる（築城年不詳）"
+    },
+    {
+      "id": "sg-card-v074-018",
+      "sortYear": 1590,
+      "section": "context",
+      "label": "豊臣政権期（甲府城の築城過程、年月不詳）"
+    },
+    {
+      "id": "sg-card-0160",
+      "sortYear": 1550,
+      "section": "context",
+      "label": "氏康の領国経営期（複数年代の改革）"
+    },
+    {
+      "id": "sg-card-0176",
+      "sortYear": 1570,
+      "section": "context",
+      "label": "氏邦の鉢形城整備期（年月不詳）"
+    },
+    {
+      "id": "sg-card-0179",
+      "sortYear": 1560,
+      "section": "context",
+      "label": "信玄の南信濃支配期（高遠城、年不詳）"
+    },
+    {
+      "id": "sg-card-0183",
+      "sortYear": 1560,
+      "section": "context",
+      "label": "氏康の時代の山中城築城（年不詳）"
+    },
+    {
+      "id": "sg-card-0202",
+      "sortYear": 1550,
+      "section": "context",
+      "label": "信玄の甲斐統治期（武田氏館、年不詳）"
+    },
+    {
+      "id": "sg-card-0204",
+      "sortYear": 1496,
+      "section": "life",
+      "label": "1496年以降（小田原城掌握年に異説）"
+    },
+    {
+      "id": "sg-card-0206",
+      "sortYear": 1550,
+      "section": "context",
+      "label": "戦国期（小田原城地下の庭園・年代不詳）"
+    },
+    {
+      "id": "sg-card-0208",
+      "sortYear": 1590,
+      "section": "context",
+      "label": "1590年小田原合戦当時の城郭遺構"
+    },
+    {
+      "id": "sg-card-0222",
+      "sortYear": 1560,
+      "section": "context",
+      "label": "16世紀中頃（氏照の養子入り後の城郭継承）"
+    },
+    {
+      "id": "sg-card-0225",
+      "sortYear": 1580,
+      "section": "context",
+      "label": "八王子城築城期（城名・信仰伝承、詳細年不詳）"
+    },
+    {
+      "id": "sg-card-0279",
+      "sortYear": 1560,
+      "section": "context",
+      "label": "16世紀後半（真壁氏の城郭・活動期）"
+    },
+    {
+      "id": "sg-card-0283",
+      "sortYear": 1450,
+      "section": "context",
+      "label": "15世紀半ば（武蔵千葉氏の拠点）"
+    },
+    {
+      "id": "sg-card-0284",
+      "sortYear": 1520,
+      "section": "context",
+      "label": "16世紀前半（信虎による寺院再興・年不詳）"
+    },
+    {
+      "id": "sg-card-0285",
+      "sortYear": 1550,
+      "section": "context",
+      "label": "信玄の時代（軍旗の制作・使用年は断定しない）"
+    },
+    {
+      "id": "sg-card-0292",
+      "sortYear": 1550,
+      "section": "context",
+      "label": "16世紀を中心とする金山の活動期（幅のある背景）"
+    },
+    {
+      "id": "pub-card-d1e5eec3dfb1c80325ed3867",
+      "sortYear": 1540,
+      "section": "context",
+      "label": "16世紀中頃（斎藤道三と土岐氏の騒乱期）"
+    }
+  ]
+}
