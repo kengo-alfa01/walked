@@ -565,7 +565,7 @@ function showSengokuPerson(person){
  const line=document.createElement('p');line.className='sengoku-empty';
  line.textContent='公開済み経歴を年代順に表示。場所に紐づかない経歴は人物獲得後に閲覧できます。年が未確認の経歴は末尾にまとめます。';div.append(line);
  const placeCards=sengokuCards.filter(c=>c.personId===person.id&&eligibleSengokuCard(c));
- const textOnly=sengokuTextOnly.filter(e=>e.personId===person.id);
+ const textOnly=countOwned(person.id)>0?sengokuTextOnly.filter(e=>e.personId===person.id):[];
  const rows=[...placeCards.map(card=>({kind:'place',id:card.id,eventYear:card.eventYear,card})),...textOnly.map(entry=>({kind:'text',id:entry.id,eventYear:entry.eventYear,entry}))];
  rows.sort((a,b)=>(Number.isInteger(a.eventYear)?a.eventYear:Infinity)-(Number.isInteger(b.eventYear)?b.eventYear:Infinity)||a.id.localeCompare(b.id));
  if(!rows.length){const p=document.createElement('p');p.textContent='公開対象の経歴はまだありません。';div.append(p);return;}
