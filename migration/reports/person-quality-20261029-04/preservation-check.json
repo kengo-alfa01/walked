@@ -1,0 +1,26 @@
+{
+  "unchangedFiles": {
+    "migration/input/master-snapshot.json": true,
+    "migration/input/id-registry.json": true,
+    "index.html": true,
+    "history.json": true,
+    "sengoku/cards.json": true,
+    "sengoku/links.json": true,
+    "sengoku/research-151-200.json": true,
+    "sengoku/people.json": true,
+    "sengoku/research-101-150.json": true,
+    "sengoku/priority100.json": true,
+    "sengoku/sites.json": true,
+    "sengoku/research-201-250.json": true,
+    "migration/generated/cards.json": true,
+    "migration/generated/links.json": true,
+    "migration/generated/sites.json": true,
+    "migration/generated/history.json": true,
+    "migration/generated/id-map.json": true,
+    "migration/generated/people-archive.json": true
+  },
+  "selectedRosterIdsUnchanged": true,
+  "noPersonIdChange": true,
+  "newBiographiesHaveEvidence": true,
+  "completePeople": 0
+}

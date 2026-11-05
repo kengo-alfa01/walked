@@ -1,0 +1,4808 @@
+[
+  {
+    "table": "cards",
+    "id": "sg-card-0001",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0002",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0003",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0004",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0005",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-3e72ce5a7fa9",
+    "newPersonId": "sg-3e72ce5a7fa9",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0006",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0007",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0008",
+    "siteId": "sg-site-tsutsujigasaki",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0009",
+    "siteId": "sg-site-tsutsujigasaki",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0010",
+    "siteId": "sg-site-tsutsujigasaki",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0011",
+    "siteId": "sg-site-shinpu",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0012",
+    "siteId": "sg-site-nirayama",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0013",
+    "siteId": "sg-site-ishigakiyama",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0014",
+    "siteId": "sg-site-takiyama",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0015",
+    "siteId": "sg-site-takiyama",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0016",
+    "siteId": "sg-site-tamanawa",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0017",
+    "siteId": "sg-site-tamanawa",
+    "oldPersonId": "sg-a77cd1aa75f3",
+    "newPersonId": "sg-a77cd1aa75f3",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0018",
+    "siteId": "sg-site-yougai",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0019",
+    "siteId": "sg-site-yougai",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0020",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0021",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-5d169413d357",
+    "newPersonId": "sg-5d169413d357",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0022",
+    "siteId": "sg-site-kozukue",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0023",
+    "siteId": "sg-site-tsukui",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0024",
+    "siteId": "sg-site-misaki",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0025",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-6f3368f015f6",
+    "newPersonId": "sg-6f3368f015f6",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0026",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0027",
+    "siteId": "sg-site-oshi",
+    "oldPersonId": "sg-37fdfb0d52c1",
+    "newPersonId": "sg-37fdfb0d52c1",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0028",
+    "siteId": "sg-site-iwatsuki",
+    "oldPersonId": "sg-aa0ce003dbd8",
+    "newPersonId": "sg-aa0ce003dbd8",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0029",
+    "siteId": "sg-site-minowa",
+    "oldPersonId": "sg-df4ede094a85",
+    "newPersonId": "sg-df4ede094a85",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0030",
+    "siteId": "sg-site-katsunuma",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0031",
+    "siteId": "sg-site-katsunuma",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0032",
+    "siteId": "sg-site-yamanaka",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0033",
+    "siteId": "sg-site-yamanaka",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0034",
+    "siteId": "sg-site-sunpu",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0035",
+    "siteId": "sg-site-sounji",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0036",
+    "siteId": "sg-site-kawamura",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0037",
+    "siteId": "sg-site-okazaki-sagami",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0038",
+    "siteId": "sg-site-yusaka",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0039",
+    "siteId": "sg-site-iwadono",
+    "oldPersonId": "sg-0cab63b42163",
+    "newPersonId": "sg-0cab63b42163",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0040",
+    "siteId": "sg-site-erinji",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0041",
+    "siteId": "sg-site-kai-zenkoji",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0042",
+    "siteId": "sg-site-yumura",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0043",
+    "siteId": "sg-site-katsuyama-tsuru",
+    "oldPersonId": "sg-0cab63b42163",
+    "newPersonId": "sg-0cab63b42163",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0044",
+    "siteId": "sg-site-hosenji",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0045",
+    "siteId": "sg-site-sekisuiji",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0046",
+    "siteId": "sg-site-jindaiji",
+    "oldPersonId": "sg-27a0e44acb89",
+    "newPersonId": "sg-27a0e44acb89",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0047",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-a77cd1aa75f3",
+    "newPersonId": "sg-a77cd1aa75f3",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0048",
+    "siteId": "sg-site-musashi-matsuyama",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0049",
+    "siteId": "sg-site-sugaya",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0050",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-61b29c703206",
+    "newPersonId": "sg-61b29c703206",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0051",
+    "siteId": "sg-site-takato",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0052",
+    "siteId": "sg-site-komoro",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0053",
+    "siteId": "sg-site-kawanakajima",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0054",
+    "siteId": "sg-site-matsushiro",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0055",
+    "siteId": "sg-site-ozawa",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0056",
+    "siteId": "sg-site-masugata",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0057",
+    "siteId": "sg-site-kosugi-goten",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0058",
+    "siteId": "sg-site-chigasaki",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0059",
+    "siteId": "sg-site-oba",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0060",
+    "siteId": "sg-site-fujisawa-goten",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0061",
+    "siteId": "sg-site-koyabe",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0062",
+    "siteId": "sg-site-oyabe",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0063",
+    "siteId": "sg-site-shakujii",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0064",
+    "siteId": "sg-site-takatsuki",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0065",
+    "siteId": "sg-site-karakai",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0066",
+    "siteId": "sg-site-yamura",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0067",
+    "siteId": "sg-site-nomi",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0068",
+    "siteId": "sg-site-hakusan",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0069",
+    "siteId": "sg-site-takeda-hachimangu",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0070",
+    "siteId": "sg-site-ganjoji",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0071",
+    "siteId": "sg-site-chozenji",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0072",
+    "siteId": "sg-site-komamiya",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0073",
+    "siteId": "sg-site-odano",
+    "oldPersonId": "sg-c654b6b73e86",
+    "newPersonId": "sg-c654b6b73e86",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0074",
+    "siteId": "sg-site-jokyoji",
+    "oldPersonId": "sg-c654b6b73e86",
+    "newPersonId": "sg-c654b6b73e86",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0075",
+    "siteId": "sg-site-sannomaru",
+    "oldPersonId": "sg-1ebd0b00f6fd",
+    "newPersonId": "sg-1ebd0b00f6fd",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0076",
+    "siteId": "sg-site-unshoin",
+    "oldPersonId": "sg-1ebd0b00f6fd",
+    "newPersonId": "sg-1ebd0b00f6fd",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0077",
+    "siteId": "sg-site-kawashiri-iseki",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0078",
+    "siteId": "sg-site-komatsu",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0079",
+    "siteId": "sg-site-nuta",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0080",
+    "siteId": "sg-site-sahara",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0081",
+    "siteId": "sg-site-kinugasa",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0082",
+    "siteId": "sg-site-arai",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0083",
+    "siteId": "sg-site-oba-jinja",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0084",
+    "siteId": "sg-site-yagurasawa",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0085",
+    "siteId": "sg-site-numata-sagami",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0086",
+    "siteId": "sg-site-ashigara",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0087",
+    "siteId": "sg-site-hakone-jinja",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0088",
+    "siteId": "sg-site-inaridai",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0089",
+    "siteId": "sg-site-manshoji",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0090",
+    "siteId": "sg-site-daichinji",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0091",
+    "siteId": "sg-site-honzui",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0092",
+    "siteId": "sg-site-seiunji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0093",
+    "siteId": "sg-site-sokenin",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0094",
+    "siteId": "sg-site-tokoji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0095",
+    "siteId": "sg-site-kofukuji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0096",
+    "siteId": "sg-site-myorakuji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0097",
+    "siteId": "sg-site-ozenji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0098",
+    "siteId": "sg-site-jorakuji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0099",
+    "siteId": "sg-site-shogenji",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0100",
+    "siteId": "sg-site-chosenin",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0101",
+    "siteId": "sg-site-daimyoji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0102",
+    "siteId": "sg-site-saneji",
+    "oldPersonId": "sg-1ebd0b00f6fd",
+    "newPersonId": "sg-1ebd0b00f6fd",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0103",
+    "siteId": "sg-site-shimura",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0104",
+    "siteId": "sg-site-katakura",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0105",
+    "siteId": "sg-site-narahara",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0106",
+    "siteId": "sg-site-sokanji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0107",
+    "siteId": "sg-site-entsuji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0108",
+    "siteId": "sg-site-horenji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0109",
+    "siteId": "sg-site-shorinji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0110",
+    "siteId": "sg-site-kaizenji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0111",
+    "siteId": "sg-site-hoshoji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0112",
+    "siteId": "sg-site-ryukoji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0113",
+    "siteId": "sg-site-chiseiji",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0114",
+    "siteId": "sg-site-anyoin",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0115",
+    "siteId": "sg-site-nrct-130000022400",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0116",
+    "siteId": "sg-site-nrct-130000022400",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0117",
+    "siteId": "sg-site-nrct-190000032500",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0118",
+    "siteId": "sg-site-nrct-190000032500",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0119",
+    "siteId": "sg-site-nakahara-goten",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0120",
+    "siteId": "sg-site-jofukuji-castle-entry",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0121",
+    "siteId": "sg-site-kozukue",
+    "oldPersonId": "sg-1ebd0b00f6fd",
+    "newPersonId": "sg-1ebd0b00f6fd",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0122",
+    "siteId": "sg-site-kozukue",
+    "oldPersonId": "sg-1a1371852d91",
+    "newPersonId": "sg-1a1371852d91",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0123",
+    "siteId": "sg-site-ishigakiyama",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0124",
+    "siteId": "sg-site-shinpu",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0125",
+    "siteId": "sg-site-shinpu",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0126",
+    "siteId": "sg-site-takiyama",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0127",
+    "siteId": "sg-site-takiyama",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0128",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-334f0ad961e2",
+    "newPersonId": "sg-334f0ad961e2",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0129",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0130",
+    "siteId": "sg-site-takeda-hachimangu",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0131",
+    "siteId": "sg-site-kozukue",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0132",
+    "siteId": "sg-site-kozukue",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0133",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0134",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-334f0ad961e2",
+    "newPersonId": "sg-334f0ad961e2",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0135",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-53d7309718ae",
+    "newPersonId": "sg-53d7309718ae",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0136",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-b9bb61125a1b",
+    "newPersonId": "sg-b9bb61125a1b",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0137",
+    "siteId": "sg-site-oshi",
+    "oldPersonId": "sg-37fdfb0d52c1",
+    "newPersonId": "sg-37fdfb0d52c1",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0138",
+    "siteId": "sg-site-oshi",
+    "oldPersonId": "sg-3e72ce5a7fa9",
+    "newPersonId": "sg-3e72ce5a7fa9",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0139",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-1ebd0b00f6fd",
+    "newPersonId": "sg-1ebd0b00f6fd",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0140",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-cf72a6b13a40",
+    "newPersonId": "sg-cf72a6b13a40",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0141",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-61b29c703206",
+    "newPersonId": "sg-61b29c703206",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-001",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-002",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-003",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-004",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-27a0e44acb89",
+    "newPersonId": "sg-27a0e44acb89",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-005",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-ee846a9ff8ae",
+    "newPersonId": "sg-ee846a9ff8ae",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-006",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-007",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-cc16ffc52c66",
+    "newPersonId": "sg-cc16ffc52c66",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-008",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-334f0ad961e2",
+    "newPersonId": "sg-334f0ad961e2",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-009",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-010",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-011",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-012",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-451ea10bcb24",
+    "newPersonId": "sg-451ea10bcb24",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-013",
+    "siteId": "sg-site-oshi",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-014",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-015",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-dc8c550d8769",
+    "newPersonId": "sg-dc8c550d8769",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-016",
+    "siteId": "sg-site-yamanaka",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-017",
+    "siteId": "sg-site-nirayama",
+    "oldPersonId": "sg-cf72a6b13a40",
+    "newPersonId": "sg-cf72a6b13a40",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-v074-018",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0160",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0161",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0162",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-3e72ce5a7fa9",
+    "newPersonId": "sg-3e72ce5a7fa9",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0163",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0164",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-3e72ce5a7fa9",
+    "newPersonId": "sg-3e72ce5a7fa9",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0165",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-4f1942dd8d61",
+    "newPersonId": "sg-4f1942dd8d61",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0166",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-added-maeda-toshiie",
+    "newPersonId": "sg-added-maeda-toshiie",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0167",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-334f0ad961e2",
+    "newPersonId": "sg-334f0ad961e2",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0168",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0169",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-61b29c703206",
+    "newPersonId": "sg-61b29c703206",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0170",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-61b29c703206",
+    "newPersonId": "sg-61b29c703206",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0171",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-334f0ad961e2",
+    "newPersonId": "sg-334f0ad961e2",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0172",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-451ea10bcb24",
+    "newPersonId": "sg-451ea10bcb24",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0173",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-b9bb61125a1b",
+    "newPersonId": "sg-b9bb61125a1b",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0174",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-53d7309718ae",
+    "newPersonId": "sg-53d7309718ae",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0175",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-cc16ffc52c66",
+    "newPersonId": "sg-cc16ffc52c66",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0176",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-6f3368f015f6",
+    "newPersonId": "sg-6f3368f015f6",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0177",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-6f3368f015f6",
+    "newPersonId": "sg-6f3368f015f6",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0178",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0179",
+    "siteId": "sg-site-takato",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0180",
+    "siteId": "sg-site-takato",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0181",
+    "siteId": "sg-site-takato",
+    "oldPersonId": "sg-added-nishina-morinobu",
+    "newPersonId": "sg-added-nishina-morinobu",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0182",
+    "siteId": "sg-site-takato",
+    "oldPersonId": "sg-163274b0bfdf",
+    "newPersonId": "sg-163274b0bfdf",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0183",
+    "siteId": "sg-site-yamanaka",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0184",
+    "siteId": "sg-site-yamanaka",
+    "oldPersonId": "sg-added-matsuda-yasunaga",
+    "newPersonId": "sg-added-matsuda-yasunaga",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0185",
+    "siteId": "sg-site-yamanaka",
+    "oldPersonId": "sg-added-mamiya-yasutoshi",
+    "newPersonId": "sg-added-mamiya-yasutoshi",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0186",
+    "siteId": "sg-site-ishigakiyama",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0187",
+    "siteId": "sg-site-ishigakiyama",
+    "oldPersonId": "sg-31e7289f7720",
+    "newPersonId": "sg-31e7289f7720",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0188",
+    "siteId": "sg-site-ishigakiyama",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0189",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-da093dc1cd41",
+    "newPersonId": "sg-da093dc1cd41",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0190",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-3620f59d61f8",
+    "newPersonId": "sg-3620f59d61f8",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0191",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-5c6f60a32cc4",
+    "newPersonId": "sg-5c6f60a32cc4",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0192",
+    "siteId": "sg-site-kawanakajima",
+    "oldPersonId": "sg-c091a1f2c530",
+    "newPersonId": "sg-c091a1f2c530",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0193",
+    "siteId": "sg-site-kawanakajima",
+    "oldPersonId": "sg-dc8c550d8769",
+    "newPersonId": "sg-dc8c550d8769",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0194",
+    "siteId": "sg-site-kawanakajima",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0195",
+    "siteId": "sg-site-daisenji-kofu",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0196",
+    "siteId": "sg-site-daisenji-kofu",
+    "oldPersonId": "sg-307b4f851434",
+    "newPersonId": "sg-307b4f851434",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0197",
+    "siteId": "sg-site-enko-in-kofu",
+    "oldPersonId": "sg-added-sanjo-lady",
+    "newPersonId": "sg-added-sanjo-lady",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0198",
+    "siteId": "sg-site-enko-in-kofu",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0199",
+    "siteId": "sg-site-katsunuma-ome",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0200",
+    "siteId": "sg-site-katsunuma-ome",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0201",
+    "siteId": "sg-site-tsutsujigasaki",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0202",
+    "siteId": "sg-site-tsutsujigasaki",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0203",
+    "siteId": "sg-site-tsutsujigasaki",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0204",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0205",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0206",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0207",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0208",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-3e72ce5a7fa9",
+    "newPersonId": "sg-3e72ce5a7fa9",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0209",
+    "siteId": "sg-site-ishigakiyama",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0210",
+    "siteId": "sg-site-ishigakiyama",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0211",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0212",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0213",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0214",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-5d169413d357",
+    "newPersonId": "sg-5d169413d357",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0215",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-reviewed-1c74f86254a2",
+    "newPersonId": "sg-reviewed-1c74f86254a2",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0216",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0217",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0218",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-27a0e44acb89",
+    "newPersonId": "sg-27a0e44acb89",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0219",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0220",
+    "siteId": "sg-site-tomyoji-kawagoe",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0221",
+    "siteId": "sg-site-tomyoji-kawagoe",
+    "oldPersonId": "sg-27a0e44acb89",
+    "newPersonId": "sg-27a0e44acb89",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0222",
+    "siteId": "sg-site-takiyama",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0223",
+    "siteId": "sg-site-takiyama",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0224",
+    "siteId": "sg-site-takiyama",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0225",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0226",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0227",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-added-maeda-toshiie",
+    "newPersonId": "sg-added-maeda-toshiie",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0228",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-61b29c703206",
+    "newPersonId": "sg-61b29c703206",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0229",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-61b29c703206",
+    "newPersonId": "sg-61b29c703206",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0230",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-334f0ad961e2",
+    "newPersonId": "sg-334f0ad961e2",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0231",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-53d7309718ae",
+    "newPersonId": "sg-53d7309718ae",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0232",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-reviewed-60f6420feed4",
+    "newPersonId": "sg-reviewed-60f6420feed4",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0233",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-b9bb61125a1b",
+    "newPersonId": "sg-b9bb61125a1b",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0234",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0235",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0236",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0237",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-3e72ce5a7fa9",
+    "newPersonId": "sg-3e72ce5a7fa9",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0238",
+    "siteId": "sg-site-sunpu",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0239",
+    "siteId": "sg-site-sunpu",
+    "oldPersonId": "sg-researched-095-nakamura-kazuuji",
+    "newPersonId": "sg-researched-095-nakamura-kazuuji",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0240",
+    "siteId": "sg-site-sunpu",
+    "oldPersonId": "sg-researched-095-tokugawa-yorinobu",
+    "newPersonId": "sg-researched-095-tokugawa-yorinobu",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0241",
+    "siteId": "sg-site-minowa",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0242",
+    "siteId": "sg-site-minowa",
+    "oldPersonId": "sg-df4ede094a85",
+    "newPersonId": "sg-df4ede094a85",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0243",
+    "siteId": "sg-site-minowa",
+    "oldPersonId": "sg-researched-095-nagano-narimori",
+    "newPersonId": "sg-researched-095-nagano-narimori",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0244",
+    "siteId": "sg-site-matsushiro",
+    "oldPersonId": "sg-researched-096-mori-tadamasa",
+    "newPersonId": "sg-researched-096-mori-tadamasa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0245",
+    "siteId": "sg-site-matsushiro",
+    "oldPersonId": "sg-53d7309718ae",
+    "newPersonId": "sg-53d7309718ae",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0246",
+    "siteId": "sg-site-nrct-130000022400",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0247",
+    "siteId": "sg-site-komoro",
+    "oldPersonId": "sg-researched-096-sengoku-hidehisa",
+    "newPersonId": "sg-researched-096-sengoku-hidehisa",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0248",
+    "siteId": "sg-site-takato",
+    "oldPersonId": "sg-researched-096-hoshina-masamitsu",
+    "newPersonId": "sg-researched-096-hoshina-masamitsu",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0249",
+    "siteId": "sg-site-oshi",
+    "oldPersonId": "sg-researched-096-narita-ujinaga",
+    "newPersonId": "sg-researched-096-narita-ujinaga",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0250",
+    "siteId": "sg-site-oshi",
+    "oldPersonId": "sg-researched-096-narita-ujinaga",
+    "newPersonId": "sg-researched-096-narita-ujinaga",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0251",
+    "siteId": "sg-site-komoro",
+    "oldPersonId": "sg-451ea10bcb24",
+    "newPersonId": "sg-451ea10bcb24",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0252",
+    "siteId": "sg-site-kanayama-ota",
+    "oldPersonId": "sg-researched-097-iwamatsu-iezumi",
+    "newPersonId": "sg-researched-097-iwamatsu-iezumi",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0253",
+    "siteId": "sg-site-kanayama-ota",
+    "oldPersonId": "sg-researched-097-yokose-narishige",
+    "newPersonId": "sg-researched-097-yokose-narishige",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0254",
+    "siteId": "sg-site-kanayama-ota",
+    "oldPersonId": "sg-researched-097-yokose-narishige",
+    "newPersonId": "sg-researched-097-yokose-narishige",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0255",
+    "siteId": "sg-site-tomono-saku",
+    "oldPersonId": "sg-researched-097-yoda-nobushige",
+    "newPersonId": "sg-researched-097-yoda-nobushige",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0256",
+    "siteId": "sg-site-fukasawa",
+    "oldPersonId": "sg-a77cd1aa75f3",
+    "newPersonId": "sg-a77cd1aa75f3",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0257",
+    "siteId": "sg-site-fukasawa",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0258",
+    "siteId": "sg-site-nagashino",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0259",
+    "siteId": "sg-site-nagashino",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0260",
+    "siteId": "sg-site-suwahara",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0261",
+    "siteId": "sg-site-suwahara",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0262",
+    "siteId": "sg-site-shinshiro",
+    "oldPersonId": "sg-person-okudaira-nobumasa",
+    "newPersonId": "sg-person-okudaira-nobumasa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0263",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-6eaf66c3d7c8",
+    "newPersonId": "sg-6eaf66c3d7c8",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0264",
+    "siteId": "sg-site-takatenjin",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0265",
+    "siteId": "sg-site-takatenjin",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0266",
+    "siteId": "sg-site-masuyama",
+    "oldPersonId": "sg-dc8c550d8769",
+    "newPersonId": "sg-dc8c550d8769",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0267",
+    "siteId": "sg-site-ooga",
+    "oldPersonId": "sg-person-toki-yoriaki",
+    "newPersonId": "sg-person-toki-yoriaki",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0268",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-person-saito-dosan",
+    "newPersonId": "sg-person-saito-dosan",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0269",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-person-saito-tatsuoki",
+    "newPersonId": "sg-person-saito-tatsuoki",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0270",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-163274b0bfdf",
+    "newPersonId": "sg-163274b0bfdf",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0271",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-6666c05e6264",
+    "newPersonId": "sg-6666c05e6264",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0272",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-532f50203751",
+    "newPersonId": "sg-532f50203751",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0273",
+    "siteId": "sg-site-takatenjin",
+    "oldPersonId": "sg-person-okabe-motonobu",
+    "newPersonId": "sg-person-okabe-motonobu",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0274",
+    "siteId": "sg-site-takatenjin",
+    "oldPersonId": "sg-person-okabe-motonobu",
+    "newPersonId": "sg-person-okabe-motonobu",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0275",
+    "siteId": "sg-site-nagashino",
+    "oldPersonId": "sg-person-suganuma-motonari",
+    "newPersonId": "sg-person-suganuma-motonari",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0276",
+    "siteId": "sg-site-suwahara",
+    "oldPersonId": "sg-e701cb97b4d9",
+    "newPersonId": "sg-e701cb97b4d9",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0277",
+    "siteId": "sg-site-ooga",
+    "oldPersonId": "sg-person-toki-yoriaki",
+    "newPersonId": "sg-person-toki-yoriaki",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0278",
+    "siteId": "sg-site-kanayama-ota",
+    "oldPersonId": "sg-researched-097-iwamatsu-iezumi",
+    "newPersonId": "sg-researched-097-iwamatsu-iezumi",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0279",
+    "siteId": "sg-site-makabe",
+    "oldPersonId": "sg-researched-098-makabe-hisamoto",
+    "newPersonId": "sg-researched-098-makabe-hisamoto",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0280",
+    "siteId": "sg-site-nrct-190000052800",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0281",
+    "siteId": "sg-site-nrct-190000052800",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0282",
+    "siteId": "sg-site-nrct-130000329700",
+    "oldPersonId": "sg-6b9dfe775421",
+    "newPersonId": "sg-6b9dfe775421",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0283",
+    "siteId": "sg-site-akatsuka",
+    "oldPersonId": "sg-researched-099-chiba-yoritane",
+    "newPersonId": "sg-researched-099-chiba-yoritane",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0284",
+    "siteId": "sg-site-unpoji-koshu",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0285",
+    "siteId": "sg-site-unpoji-koshu",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0286",
+    "siteId": "sg-site-nrct-130000368700",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0287",
+    "siteId": "sg-site-erinji",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0288",
+    "siteId": "sg-site-erinji",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0289",
+    "siteId": "sg-site-nrct-190000050300",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0290",
+    "siteId": "sg-site-jindaiji",
+    "oldPersonId": "sg-b3e7eb14e624",
+    "newPersonId": "sg-b3e7eb14e624",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0291",
+    "siteId": "sg-site-jindaiji",
+    "oldPersonId": "sg-27a0e44acb89",
+    "newPersonId": "sg-27a0e44acb89",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0292",
+    "siteId": "sg-site-nrct-190000059800",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0293",
+    "siteId": "sg-site-nrct-130000183500",
+    "oldPersonId": "sg-person-ushigome-katsuyuki",
+    "newPersonId": "sg-person-ushigome-katsuyuki",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0294",
+    "siteId": "sg-site-nrct-130000329800",
+    "oldPersonId": "sg-person-oba-nobuhisa",
+    "newPersonId": "sg-person-oba-nobuhisa",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0295",
+    "siteId": "sg-site-nrct-190000061100",
+    "oldPersonId": "sg-c654b6b73e86",
+    "newPersonId": "sg-c654b6b73e86",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0296",
+    "siteId": "sg-site-nrct-190000017600",
+    "oldPersonId": "sg-person-kato-kagetada-uenohara",
+    "newPersonId": "sg-person-kato-kagetada-uenohara",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0297",
+    "siteId": "sg-site-nrct-190000100300",
+    "oldPersonId": "sg-person-takeda-nobushige-15c",
+    "newPersonId": "sg-person-takeda-nobushige-15c",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0298",
+    "siteId": "sg-site-nrct-140000016100",
+    "oldPersonId": "sg-person-kira-yoriyasu",
+    "newPersonId": "sg-person-kira-yoriyasu",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0299",
+    "siteId": "sg-site-nrct-140000016100",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0300",
+    "siteId": "sg-site-nrct-130000177100",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0301",
+    "siteId": "sg-site-nrct-130000369700",
+    "oldPersonId": "sg-5d169413d357",
+    "newPersonId": "sg-5d169413d357",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "cards",
+    "id": "sg-card-0302",
+    "siteId": "sg-site-nerima-castle",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odawara--sg-4cb1a557e060",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odawara--sg-c594233cb2b7",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odawara--sg-22f595e1c616",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odawara--sg-025ab3a6ee3f",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odawara--sg-3e72ce5a7fa9",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-3e72ce5a7fa9",
+    "newPersonId": "sg-3e72ce5a7fa9",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odawara--sg-f47391608dbb",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hachioji--sg-fc948f16832f",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-tsutsujigasaki--sg-98514cee0056",
+    "siteId": "sg-site-tsutsujigasaki",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-tsutsujigasaki--sg-4c0c12460efa",
+    "siteId": "sg-site-tsutsujigasaki",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-tsutsujigasaki--sg-e00b2631eded",
+    "siteId": "sg-site-tsutsujigasaki",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-shinpu--sg-e00b2631eded",
+    "siteId": "sg-site-shinpu",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nirayama--sg-4cb1a557e060",
+    "siteId": "sg-site-nirayama",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ishigakiyama--sg-f47391608dbb",
+    "siteId": "sg-site-ishigakiyama",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takiyama--sg-fc948f16832f",
+    "siteId": "sg-site-takiyama",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takiyama--sg-4c0c12460efa",
+    "siteId": "sg-site-takiyama",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-tamanawa--sg-4cb1a557e060",
+    "siteId": "sg-site-tamanawa",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-tamanawa--sg-a77cd1aa75f3",
+    "siteId": "sg-site-tamanawa",
+    "oldPersonId": "sg-a77cd1aa75f3",
+    "newPersonId": "sg-a77cd1aa75f3",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-yougai--sg-98514cee0056",
+    "siteId": "sg-site-yougai",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-yougai--sg-4c0c12460efa",
+    "siteId": "sg-site-yougai",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kofu--sg-a7bb09927601",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kofu--sg-5d169413d357",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-5d169413d357",
+    "newPersonId": "sg-5d169413d357",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kozukue--sg-22f595e1c616",
+    "siteId": "sg-site-kozukue",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-tsukui--sg-025ab3a6ee3f",
+    "siteId": "sg-site-tsukui",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-misaki--sg-4cb1a557e060",
+    "siteId": "sg-site-misaki",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hachigata--sg-6f3368f015f6",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-6f3368f015f6",
+    "newPersonId": "sg-6f3368f015f6",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hachigata--sg-22f595e1c616",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-oshi--sg-37fdfb0d52c1",
+    "siteId": "sg-site-oshi",
+    "oldPersonId": "sg-37fdfb0d52c1",
+    "newPersonId": "sg-37fdfb0d52c1",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-iwatsuki--sg-aa0ce003dbd8",
+    "siteId": "sg-site-iwatsuki",
+    "oldPersonId": "sg-aa0ce003dbd8",
+    "newPersonId": "sg-aa0ce003dbd8",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-minowa--sg-df4ede094a85",
+    "siteId": "sg-site-minowa",
+    "oldPersonId": "sg-df4ede094a85",
+    "newPersonId": "sg-df4ede094a85",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-katsunuma--sg-98514cee0056",
+    "siteId": "sg-site-katsunuma",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-katsunuma--sg-4c0c12460efa",
+    "siteId": "sg-site-katsunuma",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-yamanaka--sg-025ab3a6ee3f",
+    "siteId": "sg-site-yamanaka",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-yamanaka--sg-f47391608dbb",
+    "siteId": "sg-site-yamanaka",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-sunpu--sg-a7bb09927601",
+    "siteId": "sg-site-sunpu",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-sounji--sg-c594233cb2b7",
+    "siteId": "sg-site-sounji",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawamura--sg-22f595e1c616",
+    "siteId": "sg-site-kawamura",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-okazaki-sagami--sg-4cb1a557e060",
+    "siteId": "sg-site-okazaki-sagami",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-yusaka--sg-22f595e1c616",
+    "siteId": "sg-site-yusaka",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-iwadono--sg-0cab63b42163",
+    "siteId": "sg-site-iwadono",
+    "oldPersonId": "sg-0cab63b42163",
+    "newPersonId": "sg-0cab63b42163",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-erinji--sg-4c0c12460efa",
+    "siteId": "sg-site-erinji",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kai-zenkoji--sg-4c0c12460efa",
+    "siteId": "sg-site-kai-zenkoji",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-yumura--sg-98514cee0056",
+    "siteId": "sg-site-yumura",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-katsuyama-tsuru--sg-0cab63b42163",
+    "siteId": "sg-site-katsuyama-tsuru",
+    "oldPersonId": "sg-0cab63b42163",
+    "newPersonId": "sg-0cab63b42163",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hosenji--sg-e00b2631eded",
+    "siteId": "sg-site-hosenji",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-sekisuiji--sg-4c0c12460efa",
+    "siteId": "sg-site-sekisuiji",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-jindaiji--sg-27a0e44acb89",
+    "siteId": "sg-site-jindaiji",
+    "oldPersonId": "sg-27a0e44acb89",
+    "newPersonId": "sg-27a0e44acb89",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawagoe--sg-a77cd1aa75f3",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-a77cd1aa75f3",
+    "newPersonId": "sg-a77cd1aa75f3",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-musashi-matsuyama--sg-4c0c12460efa",
+    "siteId": "sg-site-musashi-matsuyama",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-sugaya--sg-22f595e1c616",
+    "siteId": "sg-site-sugaya",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ueda--sg-61b29c703206",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-61b29c703206",
+    "newPersonId": "sg-61b29c703206",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takato--sg-e00b2631eded",
+    "siteId": "sg-site-takato",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-komoro--sg-a7bb09927601",
+    "siteId": "sg-site-komoro",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawanakajima--sg-4c0c12460efa",
+    "siteId": "sg-site-kawanakajima",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-matsushiro--sg-4c0c12460efa",
+    "siteId": "sg-site-matsushiro",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ozawa--sg-22f595e1c616",
+    "siteId": "sg-site-ozawa",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-masugata--sg-22f595e1c616",
+    "siteId": "sg-site-masugata",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kosugi-goten--sg-a7bb09927601",
+    "siteId": "sg-site-kosugi-goten",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-chigasaki--sg-c594233cb2b7",
+    "siteId": "sg-site-chigasaki",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-oba--sg-4cb1a557e060",
+    "siteId": "sg-site-oba",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-fujisawa-goten--sg-a7bb09927601",
+    "siteId": "sg-site-fujisawa-goten",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-koyabe--sg-22f595e1c616",
+    "siteId": "sg-site-koyabe",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-oyabe--sg-22f595e1c616",
+    "siteId": "sg-site-oyabe",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-shakujii--sg-7c350c62d250",
+    "siteId": "sg-site-shakujii",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takatsuki--sg-fc948f16832f",
+    "siteId": "sg-site-takatsuki",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-karakai--sg-fc948f16832f",
+    "siteId": "sg-site-karakai",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-yamura--sg-a7bb09927601",
+    "siteId": "sg-site-yamura",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nomi--sg-e00b2631eded",
+    "siteId": "sg-site-nomi",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hakusan--sg-4c0c12460efa",
+    "siteId": "sg-site-hakusan",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takeda-hachimangu--sg-4c0c12460efa",
+    "siteId": "sg-site-takeda-hachimangu",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ganjoji--sg-4c0c12460efa",
+    "siteId": "sg-site-ganjoji",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-chozenji--sg-98514cee0056",
+    "siteId": "sg-site-chozenji",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-komamiya--sg-e00b2631eded",
+    "siteId": "sg-site-komamiya",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odano--sg-c654b6b73e86",
+    "siteId": "sg-site-odano",
+    "oldPersonId": "sg-c654b6b73e86",
+    "newPersonId": "sg-c654b6b73e86",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-jokyoji--sg-c654b6b73e86",
+    "siteId": "sg-site-jokyoji",
+    "oldPersonId": "sg-c654b6b73e86",
+    "newPersonId": "sg-c654b6b73e86",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-sannomaru--sg-1ebd0b00f6fd",
+    "siteId": "sg-site-sannomaru",
+    "oldPersonId": "sg-1ebd0b00f6fd",
+    "newPersonId": "sg-1ebd0b00f6fd",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-unshoin--sg-1ebd0b00f6fd",
+    "siteId": "sg-site-unshoin",
+    "oldPersonId": "sg-1ebd0b00f6fd",
+    "newPersonId": "sg-1ebd0b00f6fd",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawashiri-iseki--sg-22f595e1c616",
+    "siteId": "sg-site-kawashiri-iseki",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-komatsu--sg-22f595e1c616",
+    "siteId": "sg-site-komatsu",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nuta--sg-4cb1a557e060",
+    "siteId": "sg-site-nuta",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-sahara--sg-4cb1a557e060",
+    "siteId": "sg-site-sahara",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kinugasa--sg-4cb1a557e060",
+    "siteId": "sg-site-kinugasa",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-arai--sg-4cb1a557e060",
+    "siteId": "sg-site-arai",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-oba-jinja--sg-4cb1a557e060",
+    "siteId": "sg-site-oba-jinja",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-yagurasawa--sg-22f595e1c616",
+    "siteId": "sg-site-yagurasawa",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-numata-sagami--sg-4cb1a557e060",
+    "siteId": "sg-site-numata-sagami",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ashigara--sg-22f595e1c616",
+    "siteId": "sg-site-ashigara",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hakone-jinja--sg-4cb1a557e060",
+    "siteId": "sg-site-hakone-jinja",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-inaridai--sg-4cb1a557e060",
+    "siteId": "sg-site-inaridai",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-manshoji--sg-4cb1a557e060",
+    "siteId": "sg-site-manshoji",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-daichinji--sg-4cb1a557e060",
+    "siteId": "sg-site-daichinji",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-honzui--sg-22f595e1c616",
+    "siteId": "sg-site-honzui",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-seiunji--sg-22f595e1c616",
+    "siteId": "sg-site-seiunji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-sokenin--sg-4cb1a557e060",
+    "siteId": "sg-site-sokenin",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-tokoji--sg-22f595e1c616",
+    "siteId": "sg-site-tokoji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kofukuji--sg-22f595e1c616",
+    "siteId": "sg-site-kofukuji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-myorakuji--sg-22f595e1c616",
+    "siteId": "sg-site-myorakuji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ozenji--sg-22f595e1c616",
+    "siteId": "sg-site-ozenji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-jorakuji--sg-22f595e1c616",
+    "siteId": "sg-site-jorakuji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-shogenji--sg-4cb1a557e060",
+    "siteId": "sg-site-shogenji",
+    "oldPersonId": "sg-4cb1a557e060",
+    "newPersonId": "sg-4cb1a557e060",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-chosenin--sg-22f595e1c616",
+    "siteId": "sg-site-chosenin",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-daimyoji--sg-22f595e1c616",
+    "siteId": "sg-site-daimyoji",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-saneji--sg-1ebd0b00f6fd",
+    "siteId": "sg-site-saneji",
+    "oldPersonId": "sg-1ebd0b00f6fd",
+    "newPersonId": "sg-1ebd0b00f6fd",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-shimura--sg-7c350c62d250",
+    "siteId": "sg-site-shimura",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-katakura--sg-fc948f16832f",
+    "siteId": "sg-site-katakura",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-narahara--sg-fc948f16832f",
+    "siteId": "sg-site-narahara",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-sokanji--sg-fc948f16832f",
+    "siteId": "sg-site-sokanji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-entsuji--sg-fc948f16832f",
+    "siteId": "sg-site-entsuji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-horenji--sg-fc948f16832f",
+    "siteId": "sg-site-horenji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-shorinji--sg-fc948f16832f",
+    "siteId": "sg-site-shorinji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kaizenji--sg-fc948f16832f",
+    "siteId": "sg-site-kaizenji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hoshoji--sg-fc948f16832f",
+    "siteId": "sg-site-hoshoji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ryukoji--sg-fc948f16832f",
+    "siteId": "sg-site-ryukoji",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-chiseiji--sg-7c350c62d250",
+    "siteId": "sg-site-chiseiji",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-anyoin--sg-7c350c62d250",
+    "siteId": "sg-site-anyoin",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-130000022400--sg-7c350c62d250",
+    "siteId": "sg-site-nrct-130000022400",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-130000022400--sg-a7bb09927601",
+    "siteId": "sg-site-nrct-130000022400",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-190000032500--sg-98514cee0056",
+    "siteId": "sg-site-nrct-190000032500",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-190000032500--sg-4c0c12460efa",
+    "siteId": "sg-site-nrct-190000032500",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nakahara-goten--sg-a7bb09927601",
+    "siteId": "sg-site-nakahara-goten",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-jofukuji-castle-entry--sg-fc948f16832f",
+    "siteId": "sg-site-jofukuji-castle-entry",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kozukue--sg-1ebd0b00f6fd",
+    "siteId": "sg-site-kozukue",
+    "oldPersonId": "sg-1ebd0b00f6fd",
+    "newPersonId": "sg-1ebd0b00f6fd",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kozukue--sg-1a1371852d91",
+    "siteId": "sg-site-kozukue",
+    "oldPersonId": "sg-1a1371852d91",
+    "newPersonId": "sg-1a1371852d91",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-shinpu--sg-a7bb09927601",
+    "siteId": "sg-site-shinpu",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takiyama--sg-e00b2631eded",
+    "siteId": "sg-site-takiyama",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hachioji--sg-334f0ad961e2",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-334f0ad961e2",
+    "newPersonId": "sg-334f0ad961e2",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takeda-hachimangu--sg-e00b2631eded",
+    "siteId": "sg-site-takeda-hachimangu",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kozukue--sg-c594233cb2b7",
+    "siteId": "sg-site-kozukue",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kozukue--sg-7c350c62d250",
+    "siteId": "sg-site-kozukue",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ueda--sg-a7bb09927601",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ueda--sg-334f0ad961e2",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-334f0ad961e2",
+    "newPersonId": "sg-334f0ad961e2",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ueda--sg-53d7309718ae",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-53d7309718ae",
+    "newPersonId": "sg-53d7309718ae",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ueda--sg-b9bb61125a1b",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-b9bb61125a1b",
+    "newPersonId": "sg-b9bb61125a1b",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-oshi--sg-3e72ce5a7fa9",
+    "siteId": "sg-site-oshi",
+    "oldPersonId": "sg-3e72ce5a7fa9",
+    "newPersonId": "sg-3e72ce5a7fa9",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odawara--sg-1ebd0b00f6fd",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-1ebd0b00f6fd",
+    "newPersonId": "sg-1ebd0b00f6fd",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odawara--sg-cf72a6b13a40",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-cf72a6b13a40",
+    "newPersonId": "sg-cf72a6b13a40",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawagoe--sg-7c350c62d250",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawagoe--sg-c594233cb2b7",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawagoe--sg-22f595e1c616",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawagoe--sg-27a0e44acb89",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-27a0e44acb89",
+    "newPersonId": "sg-27a0e44acb89",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawagoe--sg-ee846a9ff8ae",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-ee846a9ff8ae",
+    "newPersonId": "sg-ee846a9ff8ae",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawagoe--sg-025ab3a6ee3f",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hachigata--sg-cc16ffc52c66",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-cc16ffc52c66",
+    "newPersonId": "sg-cc16ffc52c66",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hachigata--sg-334f0ad961e2",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-334f0ad961e2",
+    "newPersonId": "sg-334f0ad961e2",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hachigata--sg-f47391608dbb",
+    "siteId": "sg-site-hachigata",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hachioji--sg-f47391608dbb",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hachioji--sg-025ab3a6ee3f",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ueda--sg-451ea10bcb24",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-451ea10bcb24",
+    "newPersonId": "sg-451ea10bcb24",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-oshi--sg-f47391608dbb",
+    "siteId": "sg-site-oshi",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odawara--sg-4c0c12460efa",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odawara--sg-dc8c550d8769",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-dc8c550d8769",
+    "newPersonId": "sg-dc8c550d8769",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-yamanaka--sg-22f595e1c616",
+    "siteId": "sg-site-yamanaka",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nirayama--sg-cf72a6b13a40",
+    "siteId": "sg-site-nirayama",
+    "oldPersonId": "sg-cf72a6b13a40",
+    "newPersonId": "sg-cf72a6b13a40",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kofu--sg-f47391608dbb",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-f47391608dbb",
+    "newPersonId": "sg-f47391608dbb",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-odawara--sg-4f1942dd8d61",
+    "siteId": "sg-site-odawara",
+    "oldPersonId": "sg-4f1942dd8d61",
+    "newPersonId": "sg-4f1942dd8d61",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-hachioji--sg-added-maeda-toshiie",
+    "siteId": "sg-site-hachioji",
+    "oldPersonId": "sg-added-maeda-toshiie",
+    "newPersonId": "sg-added-maeda-toshiie",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takato--sg-4c0c12460efa",
+    "siteId": "sg-site-takato",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takato--sg-added-nishina-morinobu",
+    "siteId": "sg-site-takato",
+    "oldPersonId": "sg-added-nishina-morinobu",
+    "newPersonId": "sg-added-nishina-morinobu",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takato--sg-163274b0bfdf",
+    "siteId": "sg-site-takato",
+    "oldPersonId": "sg-163274b0bfdf",
+    "newPersonId": "sg-163274b0bfdf",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-yamanaka--sg-added-matsuda-yasunaga",
+    "siteId": "sg-site-yamanaka",
+    "oldPersonId": "sg-added-matsuda-yasunaga",
+    "newPersonId": "sg-added-matsuda-yasunaga",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-yamanaka--sg-added-mamiya-yasutoshi",
+    "siteId": "sg-site-yamanaka",
+    "oldPersonId": "sg-added-mamiya-yasutoshi",
+    "newPersonId": "sg-added-mamiya-yasutoshi",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ishigakiyama--sg-31e7289f7720",
+    "siteId": "sg-site-ishigakiyama",
+    "oldPersonId": "sg-31e7289f7720",
+    "newPersonId": "sg-31e7289f7720",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kofu--sg-da093dc1cd41",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-da093dc1cd41",
+    "newPersonId": "sg-da093dc1cd41",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kofu--sg-3620f59d61f8",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-3620f59d61f8",
+    "newPersonId": "sg-3620f59d61f8",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kofu--sg-5c6f60a32cc4",
+    "siteId": "sg-site-kofu",
+    "oldPersonId": "sg-5c6f60a32cc4",
+    "newPersonId": "sg-5c6f60a32cc4",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawanakajima--sg-c091a1f2c530",
+    "siteId": "sg-site-kawanakajima",
+    "oldPersonId": "sg-c091a1f2c530",
+    "newPersonId": "sg-c091a1f2c530",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawanakajima--sg-dc8c550d8769",
+    "siteId": "sg-site-kawanakajima",
+    "oldPersonId": "sg-dc8c550d8769",
+    "newPersonId": "sg-dc8c550d8769",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-daisenji-kofu--sg-98514cee0056",
+    "siteId": "sg-site-daisenji-kofu",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-daisenji-kofu--sg-307b4f851434",
+    "siteId": "sg-site-daisenji-kofu",
+    "oldPersonId": "sg-307b4f851434",
+    "newPersonId": "sg-307b4f851434",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-enko-in-kofu--sg-added-sanjo-lady",
+    "siteId": "sg-site-enko-in-kofu",
+    "oldPersonId": "sg-added-sanjo-lady",
+    "newPersonId": "sg-added-sanjo-lady",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-enko-in-kofu--sg-4c0c12460efa",
+    "siteId": "sg-site-enko-in-kofu",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-katsunuma-ome--sg-fc948f16832f",
+    "siteId": "sg-site-katsunuma-ome",
+    "oldPersonId": "sg-fc948f16832f",
+    "newPersonId": "sg-fc948f16832f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-katsunuma-ome--sg-22f595e1c616",
+    "siteId": "sg-site-katsunuma-ome",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ishigakiyama--sg-025ab3a6ee3f",
+    "siteId": "sg-site-ishigakiyama",
+    "oldPersonId": "sg-025ab3a6ee3f",
+    "newPersonId": "sg-025ab3a6ee3f",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kawagoe--sg-reviewed-1c74f86254a2",
+    "siteId": "sg-site-kawagoe",
+    "oldPersonId": "sg-reviewed-1c74f86254a2",
+    "newPersonId": "sg-reviewed-1c74f86254a2",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-tomyoji-kawagoe--sg-22f595e1c616",
+    "siteId": "sg-site-tomyoji-kawagoe",
+    "oldPersonId": "sg-22f595e1c616",
+    "newPersonId": "sg-22f595e1c616",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-tomyoji-kawagoe--sg-27a0e44acb89",
+    "siteId": "sg-site-tomyoji-kawagoe",
+    "oldPersonId": "sg-27a0e44acb89",
+    "newPersonId": "sg-27a0e44acb89",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ueda--sg-reviewed-60f6420feed4",
+    "siteId": "sg-site-ueda",
+    "oldPersonId": "sg-reviewed-60f6420feed4",
+    "newPersonId": "sg-reviewed-60f6420feed4",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-sunpu--sg-researched-095-nakamura-kazuuji",
+    "siteId": "sg-site-sunpu",
+    "oldPersonId": "sg-researched-095-nakamura-kazuuji",
+    "newPersonId": "sg-researched-095-nakamura-kazuuji",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-sunpu--sg-researched-095-tokugawa-yorinobu",
+    "siteId": "sg-site-sunpu",
+    "oldPersonId": "sg-researched-095-tokugawa-yorinobu",
+    "newPersonId": "sg-researched-095-tokugawa-yorinobu",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-minowa--sg-4c0c12460efa",
+    "siteId": "sg-site-minowa",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-minowa--sg-researched-095-nagano-narimori",
+    "siteId": "sg-site-minowa",
+    "oldPersonId": "sg-researched-095-nagano-narimori",
+    "newPersonId": "sg-researched-095-nagano-narimori",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-matsushiro--sg-researched-096-mori-tadamasa",
+    "siteId": "sg-site-matsushiro",
+    "oldPersonId": "sg-researched-096-mori-tadamasa",
+    "newPersonId": "sg-researched-096-mori-tadamasa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-matsushiro--sg-53d7309718ae",
+    "siteId": "sg-site-matsushiro",
+    "oldPersonId": "sg-53d7309718ae",
+    "newPersonId": "sg-53d7309718ae",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-komoro--sg-researched-096-sengoku-hidehisa",
+    "siteId": "sg-site-komoro",
+    "oldPersonId": "sg-researched-096-sengoku-hidehisa",
+    "newPersonId": "sg-researched-096-sengoku-hidehisa",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takato--sg-researched-096-hoshina-masamitsu",
+    "siteId": "sg-site-takato",
+    "oldPersonId": "sg-researched-096-hoshina-masamitsu",
+    "newPersonId": "sg-researched-096-hoshina-masamitsu",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-oshi--sg-researched-096-narita-ujinaga",
+    "siteId": "sg-site-oshi",
+    "oldPersonId": "sg-researched-096-narita-ujinaga",
+    "newPersonId": "sg-researched-096-narita-ujinaga",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-komoro--sg-451ea10bcb24",
+    "siteId": "sg-site-komoro",
+    "oldPersonId": "sg-451ea10bcb24",
+    "newPersonId": "sg-451ea10bcb24",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kanayama-ota--sg-researched-097-iwamatsu-iezumi",
+    "siteId": "sg-site-kanayama-ota",
+    "oldPersonId": "sg-researched-097-iwamatsu-iezumi",
+    "newPersonId": "sg-researched-097-iwamatsu-iezumi",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-kanayama-ota--sg-researched-097-yokose-narishige",
+    "siteId": "sg-site-kanayama-ota",
+    "oldPersonId": "sg-researched-097-yokose-narishige",
+    "newPersonId": "sg-researched-097-yokose-narishige",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-tomono-saku--sg-researched-097-yoda-nobushige",
+    "siteId": "sg-site-tomono-saku",
+    "oldPersonId": "sg-researched-097-yoda-nobushige",
+    "newPersonId": "sg-researched-097-yoda-nobushige",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-akatsuka--sg-researched-099-chiba-yoritane",
+    "siteId": "sg-site-akatsuka",
+    "oldPersonId": "sg-researched-099-chiba-yoritane",
+    "newPersonId": "sg-researched-099-chiba-yoritane",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-unpoji-koshu--sg-98514cee0056",
+    "siteId": "sg-site-unpoji-koshu",
+    "oldPersonId": "sg-98514cee0056",
+    "newPersonId": "sg-98514cee0056",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-unpoji-koshu--sg-4c0c12460efa",
+    "siteId": "sg-site-unpoji-koshu",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-140000016100--sg-person-kira-yoriyasu",
+    "siteId": "sg-site-nrct-140000016100",
+    "oldPersonId": "sg-person-kira-yoriyasu",
+    "newPersonId": "sg-person-kira-yoriyasu",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-140000016100--sg-a7bb09927601",
+    "siteId": "sg-site-nrct-140000016100",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-130000177100--sg-a7bb09927601",
+    "siteId": "sg-site-nrct-130000177100",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-130000369700--sg-5d169413d357",
+    "siteId": "sg-site-nrct-130000369700",
+    "oldPersonId": "sg-5d169413d357",
+    "newPersonId": "sg-5d169413d357",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-erinji--sg-e00b2631eded",
+    "siteId": "sg-site-erinji",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-fukasawa--sg-4c0c12460efa",
+    "siteId": "sg-site-fukasawa",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-fukasawa--sg-a77cd1aa75f3",
+    "siteId": "sg-site-fukasawa",
+    "oldPersonId": "sg-a77cd1aa75f3",
+    "newPersonId": "sg-a77cd1aa75f3",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-gifu--sg-163274b0bfdf",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-163274b0bfdf",
+    "newPersonId": "sg-163274b0bfdf",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-gifu--sg-532f50203751",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-532f50203751",
+    "newPersonId": "sg-532f50203751",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-gifu--sg-6666c05e6264",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-6666c05e6264",
+    "newPersonId": "sg-6666c05e6264",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-gifu--sg-6eaf66c3d7c8",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-6eaf66c3d7c8",
+    "newPersonId": "sg-6eaf66c3d7c8",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-gifu--sg-person-saito-dosan",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-person-saito-dosan",
+    "newPersonId": "sg-person-saito-dosan",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-gifu--sg-person-saito-tatsuoki",
+    "siteId": "sg-site-gifu",
+    "oldPersonId": "sg-person-saito-tatsuoki",
+    "newPersonId": "sg-person-saito-tatsuoki",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-jindaiji--sg-b3e7eb14e624",
+    "siteId": "sg-site-jindaiji",
+    "oldPersonId": "sg-b3e7eb14e624",
+    "newPersonId": "sg-b3e7eb14e624",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-makabe--sg-researched-098-makabe-hisamoto",
+    "siteId": "sg-site-makabe",
+    "oldPersonId": "sg-researched-098-makabe-hisamoto",
+    "newPersonId": "sg-researched-098-makabe-hisamoto",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-masuyama--sg-dc8c550d8769",
+    "siteId": "sg-site-masuyama",
+    "oldPersonId": "sg-dc8c550d8769",
+    "newPersonId": "sg-dc8c550d8769",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nagashino--sg-a7bb09927601",
+    "siteId": "sg-site-nagashino",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nagashino--sg-e00b2631eded",
+    "siteId": "sg-site-nagashino",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nagashino--sg-person-suganuma-motonari",
+    "siteId": "sg-site-nagashino",
+    "oldPersonId": "sg-person-suganuma-motonari",
+    "newPersonId": "sg-person-suganuma-motonari",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nerima-castle--sg-7c350c62d250",
+    "siteId": "sg-site-nerima-castle",
+    "oldPersonId": "sg-7c350c62d250",
+    "newPersonId": "sg-7c350c62d250",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-130000183500--sg-person-ushigome-katsuyuki",
+    "siteId": "sg-site-nrct-130000183500",
+    "oldPersonId": "sg-person-ushigome-katsuyuki",
+    "newPersonId": "sg-person-ushigome-katsuyuki",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-130000329700--sg-6b9dfe775421",
+    "siteId": "sg-site-nrct-130000329700",
+    "oldPersonId": "sg-6b9dfe775421",
+    "newPersonId": "sg-6b9dfe775421",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-130000329800--sg-person-oba-nobuhisa",
+    "siteId": "sg-site-nrct-130000329800",
+    "oldPersonId": "sg-person-oba-nobuhisa",
+    "newPersonId": "sg-person-oba-nobuhisa",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-130000368700--sg-c594233cb2b7",
+    "siteId": "sg-site-nrct-130000368700",
+    "oldPersonId": "sg-c594233cb2b7",
+    "newPersonId": "sg-c594233cb2b7",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-190000017600--sg-person-kato-kagetada-uenohara",
+    "siteId": "sg-site-nrct-190000017600",
+    "oldPersonId": "sg-person-kato-kagetada-uenohara",
+    "newPersonId": "sg-person-kato-kagetada-uenohara",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-190000050300--sg-e00b2631eded",
+    "siteId": "sg-site-nrct-190000050300",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-190000052800--sg-a7bb09927601",
+    "siteId": "sg-site-nrct-190000052800",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-190000052800--sg-e00b2631eded",
+    "siteId": "sg-site-nrct-190000052800",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-190000059800--sg-4c0c12460efa",
+    "siteId": "sg-site-nrct-190000059800",
+    "oldPersonId": "sg-4c0c12460efa",
+    "newPersonId": "sg-4c0c12460efa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-190000061100--sg-c654b6b73e86",
+    "siteId": "sg-site-nrct-190000061100",
+    "oldPersonId": "sg-c654b6b73e86",
+    "newPersonId": "sg-c654b6b73e86",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-nrct-190000100300--sg-person-takeda-nobushige-15c",
+    "siteId": "sg-site-nrct-190000100300",
+    "oldPersonId": "sg-person-takeda-nobushige-15c",
+    "newPersonId": "sg-person-takeda-nobushige-15c",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-ooga--sg-person-toki-yoriaki",
+    "siteId": "sg-site-ooga",
+    "oldPersonId": "sg-person-toki-yoriaki",
+    "newPersonId": "sg-person-toki-yoriaki",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-shinshiro--sg-person-okudaira-nobumasa",
+    "siteId": "sg-site-shinshiro",
+    "oldPersonId": "sg-person-okudaira-nobumasa",
+    "newPersonId": "sg-person-okudaira-nobumasa",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-suwahara--sg-a7bb09927601",
+    "siteId": "sg-site-suwahara",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-suwahara--sg-e00b2631eded",
+    "siteId": "sg-site-suwahara",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-suwahara--sg-e701cb97b4d9",
+    "siteId": "sg-site-suwahara",
+    "oldPersonId": "sg-e701cb97b4d9",
+    "newPersonId": "sg-e701cb97b4d9",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takatenjin--sg-a7bb09927601",
+    "siteId": "sg-site-takatenjin",
+    "oldPersonId": "sg-a7bb09927601",
+    "newPersonId": "sg-a7bb09927601",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takatenjin--sg-e00b2631eded",
+    "siteId": "sg-site-takatenjin",
+    "oldPersonId": "sg-e00b2631eded",
+    "newPersonId": "sg-e00b2631eded",
+    "action": "unchanged_selected",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  },
+  {
+    "table": "links",
+    "id": "link-sg-site-takatenjin--sg-person-okabe-motonobu",
+    "siteId": "sg-site-takatenjin",
+    "oldPersonId": "sg-person-okabe-motonobu",
+    "newPersonId": "sg-person-okabe-motonobu",
+    "action": "legacy_archive",
+    "policy": "preserve_id_content_acquisition; legacy people excluded from new master"
+  }
+]

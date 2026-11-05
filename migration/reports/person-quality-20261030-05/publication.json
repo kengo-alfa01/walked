@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-30",
+  "repository": "kengo-alfa01/walked",
+  "targetBranch": "feature/sengoku-master-migration-20261026",
+  "pullRequest": 2,
+  "remoteBaseline": "baa1f69b1f1cbf0d1b1aaccfe7fa093559c5a369",
+  "recoveredLocalBaseline": "a4c8301",
+  "status": "published_to_draft_pr",
+  "researchCommit": "d170bd2dd33b52c297a7942d1b14190e784f4018",
+  "verifiedTree": "ec874379114bfb755956af72ca0e421555cd0aca",
+  "filesUploadedAndShaMatched": 101,
+  "managementUpdate": {
+    "spreadsheetTitle": "WALKEDについて",
+    "sheet": "やること",
+    "range": "A60:F64",
+    "appendOnly": true,
+    "valuesReadBack": true,
+    "wrappingAndAlignmentPreserved": true,
+    "nativeVisualRender": "not_performed; API formatting check only"
+  },
+  "mainMerge": false,
+  "masterWrite": false,
+  "productionSwitch": false
+}

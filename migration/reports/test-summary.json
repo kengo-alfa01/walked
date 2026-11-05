@@ -1,0 +1,128 @@
+{
+  "dataset": {
+    "selected": 624,
+    "historicalReviewComplete": 0,
+    "needsHistoricalReview": 624,
+    "peopleWithPartialFieldContentReview": 34,
+    "biographyContentReviewedThisRun": 29,
+    "mechanicalBiographyRewriteNeeded": 505,
+    "aliasIdentityUnreviewedPeople": 624,
+    "aliasCollisionGroups": 266,
+    "oldPeople": 530,
+    "oldIdsMappedToSelected": 203,
+    "selectedWithOldId": 197,
+    "newPeople": 427,
+    "archivePeople": 30,
+    "sites": 223,
+    "cards": 302,
+    "links": 232,
+    "historyEntries": 20,
+    "naiveReplacementBrokenCardReferences": 49,
+    "naiveReplacementBrokenLinkReferences": 42,
+    "remainingStructuralDanglingReferences": 0,
+    "requiresRealDeviceTest": true,
+    "releaseReady": false
+  },
+  "candidateValidation": {
+    "mode": "candidate",
+    "passed": 31,
+    "failed": 0,
+    "checksPassed": [
+      "people: unique nonempty IDs",
+      "people-archive: unique nonempty IDs",
+      "sites: unique nonempty IDs",
+      "cards: unique nonempty IDs",
+      "links: unique nonempty IDs",
+      "selected count equals H column",
+      "exact selected master keys",
+      "active/archive separation",
+      "explicit same-name distinct-person constraints",
+      "no duplicate canonical normalized names (not proof of unique historical identity)",
+      "card person/site resolution",
+      "link person/site resolution",
+      "every card has a site/person link",
+      "archive explicitly inactive",
+      "backup SHA256 matches manifest",
+      "all sites preserved without content changes",
+      "history unchanged",
+      "cards: all legacy IDs preserved",
+      "cards: content preserved except person reference",
+      "links: all legacy IDs preserved",
+      "links: content preserved except person reference",
+      "no overall verified person with unresolved fields",
+      "candidate has explicit review state",
+      "unknown/disputed year is nullable, no string numeric coercion",
+      "birth before death where single values exist",
+      "search index references selected people only",
+      "source URL syntax valid (not source relevance)",
+      "one mapping/disposition per old person",
+      "mapping targets selected IDs",
+      "archive contains exactly the referenced inactive people",
+      "reported dangling references match zero"
+    ],
+    "errors": [],
+    "limitations": [
+      "Normalized names/registry checks cannot prove historical uniqueness.",
+      "Automated URL checks cannot verify facts or licensing.",
+      "No iPhone real-device coverage."
+    ]
+  },
+  "unitTests": {
+    "python": {
+      "passed": 17,
+      "failed": 0
+    },
+    "node": {
+      "passed": 11,
+      "failed": 0
+    }
+  },
+  "browser": {
+    "scenarioCount": 5,
+    "passed": 5,
+    "engine": "Playwright WebKit Linux",
+    "widths": [
+      320,
+      375,
+      393,
+      430
+    ],
+    "iOSChromeUserAgentScenario": true,
+    "realDeviceTested": false,
+    "isolation": "national boundaries and tiles are fixtures; real local town polygons used for acquisition"
+  },
+  "sourceMetadata": {
+    "uniqueUrlsAttempted": 1358,
+    "http200": 1358,
+    "unavailableOrNon200": 0,
+    "peopleCovered": 624,
+    "sharedWikipediaArticleGroups": 0,
+    "historicallyVerifiedByThisAudit": 0,
+    "note": "An unavailable URL may be a transient timeout, network or encoding issue. It is not evidence the source or person does not exist."
+  },
+  "releaseGate": {
+    "blocked": true,
+    "reason": [
+      "release: all facts independently reviewed",
+      "release: all commercial reuse conditions cleared",
+      "release: duplicate historical identity audit complete"
+    ]
+  },
+  "repositoryState": {
+    "baseMainCommit": "d45857b5f612d7343c821424f4b7c8774d12cc69",
+    "branch": "feature/sengoku-master-migration-20261026",
+    "mainModified": false,
+    "liveDatasetModified": false,
+    "masterSheetModified": false,
+    "mergePerformed": false
+  },
+  "selectionDelta": {
+    "previousSelected": 612,
+    "selected": 624,
+    "added": 12,
+    "removed": 0,
+    "previousIdsPreserved": 612,
+    "newPartialBiographyReviews": 12,
+    "fullHistoricalReviewComplete": 0
+  }
+}
