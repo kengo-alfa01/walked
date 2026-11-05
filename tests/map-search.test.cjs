@@ -206,3 +206,19 @@ test('approved biography unlocks only on full published collection, preserving s
  assert.match(w.document.querySelector('.sengoku-profile').textContent,/全経歴解放・人物略歴/);
  w.close();
 });
+
+test('location-independent history appears after acquiring a person and stays hidden beforehand',async()=>{
+ const w=await app();
+ const card=w.eval('sengokuCards.find(c=>eligibleSengokuCard(c))');
+ assert.ok(card);
+ const entry={id:'qa-published-text-only',personId:card.personId,title:'確認済みの政治・家族関係',summary:'場所に依存しない公開経歴の表示確認。',eventYear:1550,eventYearEnd:null,sourceUrls:['https://example.org/evidence'],approvalId:'qa-approved',placeRelation:'none',publicationStatus:'公開可'};
+ w.eval(`sengokuTextOnly=[${JSON.stringify(entry)}]`);
+ w.eval(`showSengokuPerson(sengokuPeople.find(p=>p.id===${JSON.stringify(card.personId)}))`);
+ assert.ok(!w.document.getElementById('sengokuDetail').textContent.includes(entry.title),'unearned person does not expose text-only history');
+ w.eval(`sengokuFound[${JSON.stringify(card.id)}]={at:'2025-01-01'}`);
+ w.eval(`showSengokuPerson(sengokuPeople.find(p=>p.id===${JSON.stringify(card.personId)}))`);
+ assert.match(w.document.getElementById('sengokuDetail').textContent,/確認済みの政治・家族関係/);
+ assert.match(w.document.getElementById('sengokuDetail').textContent,/場所に紐づかない経歴/);
+ assert.equal(w.eval('sengokuSites.some(s=>s.id===\'qa-published-text-only\')'),false,'text-only records never invent locations');
+ w.close();
+});
