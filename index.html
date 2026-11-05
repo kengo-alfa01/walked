@@ -504,7 +504,7 @@ function hasHistoryArea(h){
 }
 // Sengoku collection: empty catalog is valid; verified records are appended as data files.
 const sengokuStoreKey='walked_sengoku_cards_v1';
-let sengokuPeople=[],sengokuSites=[],sengokuLinks=[],sengokuCards=[],sengokuTextOnly=[],sengokuProfiles=new Map(),sengokuPublicationCredits={},sengokuOpen=false,selectedSengokuPersonId=null,activeCollectionMode='regional';
+let sengokuPeople=[],sengokuSites=[],sengokuLinks=[],sengokuCards=[],sengokuTextOnly=[],sengokuProvisionalHistory=[],sengokuProfiles=new Map(),sengokuPublicationCredits={},sengokuOpen=false,selectedSengokuPersonId=null,activeCollectionMode='regional';
 let sengokuBulkImport=false;const sengokuBatchDiscoveries=[];
 let sengokuPins=L.layerGroup().addTo(map);
 const sengokuFound=readStore(sengokuStoreKey,{},v=>WalkedCore.records(v,'カード'));
@@ -567,10 +567,13 @@ function showSengokuPerson(person){
   div.append(section);
  }
  const line=document.createElement('p');line.className='sengoku-empty';
- line.textContent='公開済み経歴を年代順に表示。場所に紐づかない経歴は人物獲得後に閲覧できます。年が未確認の経歴は末尾にまとめます。';div.append(line);
+ line.textContent='経歴本文は人物獲得後に閲覧できます。場所カードは現地の獲得条件を維持し、未審査の場所は本文のみ暫定公開します。年が未確認の経歴は末尾にまとめます。';div.append(line);
  const placeCards=sengokuCards.filter(c=>c.personId===person.id&&eligibleSengokuCard(c));
- const textOnly=countOwned(person.id)>0?sengokuTextOnly.filter(e=>e.personId===person.id):[];
- const rows=[...placeCards.map(card=>({kind:'place',id:card.id,eventYear:card.eventYear,card})),...textOnly.map(entry=>({kind:'text',id:entry.id,eventYear:entry.eventYear,entry}))];
+ const acquiredPerson=countOwned(person.id)>0;
+ const textOnly=acquiredPerson?sengokuTextOnly.filter(e=>e.personId===person.id):[];
+ // If an approved location card already covers this exact history ID, keep its location unlock rule.
+ const provisional=acquiredPerson?sengokuProvisionalHistory.filter(e=>e.personId===person.id&&!e.existingApprovedCardIds.some(id=>placeCards.some(c=>c.id===id))):[];
+ const rows=[...placeCards.map(card=>({kind:'place',id:card.id,eventYear:card.eventYear,card})),...textOnly.map(entry=>({kind:'text',id:entry.id,eventYear:entry.eventYear,entry})),...provisional.map(entry=>({kind:'provisional',id:entry.id,eventYear:entry.eventYear,entry}))];
  rows.sort((a,b)=>(Number.isInteger(a.eventYear)?a.eventYear:Infinity)-(Number.isInteger(b.eventYear)?b.eventYear:Infinity)||a.id.localeCompare(b.id));
  if(!rows.length){const p=document.createElement('p');p.textContent='公開対象の経歴はまだありません。';div.append(p);return;}
  for(const row of rows){
@@ -580,9 +583,11 @@ function showSengokuPerson(person){
   const known=Number.isInteger(record.eventYear);
   year.textContent=known?String(record.eventYear)+(Number.isInteger(record.eventYearEnd)&&record.eventYearEnd!==record.eventYear?'〜'+record.eventYearEnd:'')+'年':'年代未調査';
   const content=document.createElement('div');
-  if(row.kind==='text'){
+  if(row.kind==='text'||row.kind==='provisional'){
    content.textContent='📜 '+record.title+' — '+record.summary;
-   const sourceNote=document.createElement('span');sourceNote.className='small-note';sourceNote.textContent='（場所に紐づかない経歴）';content.append(sourceNote);
+   const sourceNote=document.createElement('span');sourceNote.className='small-note';
+   sourceNote.textContent=row.kind==='text'?'（場所に紐づかない経歴）':'（本文のみ暫定公開・位置カード未解放）';content.append(sourceNote);
+   if(record.bodyReviewStatus==='限定公開可'){const limited=document.createElement('span');limited.className='small-note';limited.textContent='（限定条件を反映した本文）';content.append(limited);}
    for(const url of record.sourceUrls){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=' 出典を読む';content.append(a);}
   }else if(ownsSengokuCard(record.id)){
    const site=sengokuSites.find(s=>s.id===record.siteId);
@@ -711,6 +716,20 @@ async function loadSengoku(){try{
   textOnly=data.entries;
  }catch(error){publicationWarning+='（非場所型経歴は読込保留：'+error.message+'）';console.warn(error);}
  sengokuTextOnly=textOnly;
+ let provisionalText=[];
+ try{
+  const response=await fetch('./sengoku/provisional-history.json',{cache:'no-cache'});
+  if(!response.ok)throw Error('HTTP '+response.status);
+  const data=await response.json();
+  if(data.schemaVersion!=='walked.sengoku.provisional.v1'||!Array.isArray(data.entries))throw Error('暫定本文形式が不正');
+  const seen=new Set(textOnly.map(e=>e.historyId||e.id));
+  for(const e of data.entries){
+   if(typeof e.id!=='string'||!e.id||seen.has(e.id)||e.historyId!==e.id||!ids.has(e.personId)||e.publicationStatus!=='公開可'||!['本文公開可','限定公開可'].includes(e.bodyReviewStatus)||e.placeRelation!=='location_pending'||e.cardReleaseStatus!=='not_approved_by_this_import'||e.unlockRule!=='person_acquired_provisional'||!e.approvalId||typeof e.title!=='string'||!e.title||typeof e.summary!=='string'||!e.summary||!Array.isArray(e.sourceIds)||!e.sourceIds.length||!Array.isArray(e.sourceUrls)||!e.sourceUrls.length||e.sourceUrls.some(u=>typeof u!=='string'||!/^https:\/\//.test(u))||!Array.isArray(e.existingApprovedCardIds)||e.existingApprovedCardIds.some(id=>!cards.some(c=>c.id===id))||e.eventYear!==null&&!Number.isInteger(e.eventYear)||e.eventYearEnd!==null&&!Number.isInteger(e.eventYearEnd))throw Error('暫定本文の出典・公開条件・人物/歴史IDが不正');
+   seen.add(e.id);
+  }
+  provisionalText=data.entries;
+ }catch(error){publicationWarning+='（位置未承認の経歴本文は読込保留：'+error.message+'）';console.warn(error);}
+ sengokuProvisionalHistory=provisionalText;
  const linkKeys=new Set(links.map(l=>l.siteId+'|'+l.personId));
  if(links.some(l=>!ids.has(l.personId)||!siteIds.has(l.siteId))||cards.some(c=>!linkKeys.has(c.siteId+'|'+c.personId)))throw Error('関連テーブルの参照が不正です');
  if(profiles.schemaVersion!=='walked.approved-profiles.v1'||!Array.isArray(profiles.profiles)||profiles.profiles.some(p=>p.publicationStatus!=='公開可'||!Array.isArray(p.aliases)||!Array.isArray(p.sourceUrls))||new Set(profiles.profiles.map(p=>p.personId)).size!==profiles.profiles.length)throw Error('人物紹介データが不正です');
