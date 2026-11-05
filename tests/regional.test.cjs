@@ -13,3 +13,13 @@ async function ui(visits={}){const dom=new JSDOM('<section id="regionalPanel"><b
 const click=(w,text)=>{const b=[...w.document.querySelectorAll('#regionalPanel button')].find(b=>b.textContent===text);assert.ok(b,text);b.click();};
 test('both entrances display same article with text-only source details and visited-only prefecture choices',async()=>{const u=await ui({'14111':{},'14107':{}}),w=u.w;const sel=w.document.querySelector('#regionalPref');assert.deepEqual([...sel.options].map(o=>o.value),['','14']);sel.value='14';sel.dispatchEvent(new w.Event('change'));click(w,'横浜市港南区');click(w,'景勝・自然（1）');w.document.querySelector('[data-item-id="ri-000199"]').click();assert.match(w.document.querySelector('dialog').textContent,/久良岐公園/);assert.ok(w.document.querySelector('dialog a[rel="noopener noreferrer"]'));assert.equal(w.document.querySelectorAll('dialog img,dialog iframe').length,0);click(w,'カテゴリーから探す');click(w,'景勝・自然（1）');assert.equal(w.document.querySelectorAll('[data-item-id="ri-000199"]').length,1);u.close();});
 test('empty state hides unvisited names; restore and clearing refresh without persistent acquisition writes',async()=>{const u=await ui(),w=u.w;assert.equal(w.document.querySelector('#regionalPref'),null);assert.ok(!w.document.body.textContent.includes('久良岐'));u.set({'n:14111:14111001':{}});assert.ok(w.document.querySelector('#regionalPref'));u.set({});assert.equal(w.document.querySelector('#regionalPref'),null);assert.equal(w.localStorage.length,0);u.close();});
+
+test('direct map navigation opens only earned municipality articles without exposing unvisited areas',async()=>{
+ const u=await ui({'14111':{first:'2020-01-01'}}),w=u.w;
+ assert.equal(u.app.openArea('14107'),'locked','unvisited municipalities stay private');
+ assert.equal(u.app.openArea('14111'),'open','visited municipality is available');
+ assert.equal(w.document.querySelector('#regionalPref').value,'14');
+ assert.ok(w.document.querySelector('#regionalPanel [data-item-id="ri-000199"]'),'all categories open directly on a visited municipality');
+ assert.equal(w.document.querySelector('#regionalPanel [data-body]').hidden,false);
+ u.close();
+});
