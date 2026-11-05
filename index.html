@@ -497,7 +497,7 @@ function hasHistoryArea(h){
 }
 // Sengoku collection: empty catalog is valid; verified records are appended as data files.
 const sengokuStoreKey='walked_sengoku_cards_v1';
-let sengokuPeople=[],sengokuSites=[],sengokuLinks=[],sengokuCards=[],sengokuTextOnly=[],sengokuProfiles=new Map(),sengokuPublicationCredits={},sengokuOpen=false,selectedSengokuPersonId=null;
+let sengokuPeople=[],sengokuSites=[],sengokuLinks=[],sengokuCards=[],sengokuTextOnly=[],sengokuLongBiographies=new Map(),sengokuProfiles=new Map(),sengokuPublicationCredits={},sengokuOpen=false,selectedSengokuPersonId=null;
 let sengokuBulkImport=false;const sengokuBatchDiscoveries=[];
 let sengokuPins=L.layerGroup().addTo(map);
 const sengokuFound=readStore(sengokuStoreKey,{},v=>WalkedCore.records(v,'カード'));
@@ -548,17 +548,17 @@ function showSengokuPerson(person){
  const reset=document.createElement('button');reset.type='button';reset.className='alt';reset.textContent='全人物の史跡ピンを表示';
  reset.onclick=()=>{selectedSengokuPersonId=null;refreshSengokuPins();reset.remove();};
  div.append(reset);
- const profile=sengokuProfiles.get(person.id);
- if(profile&&countOwned(person.id)>0&&countOwned(person.id)===catalogCardCount(person.id)){
+ const profile=sengokuProfiles.get(person.id),longBio=sengokuLongBiographies.get(person.id);
+ if((profile||longBio)&&countOwned(person.id)>0&&countOwned(person.id)===catalogCardCount(person.id)){
   const section=document.createElement('section');section.className='sengoku-profile';section.setAttribute('aria-label','確認済みの人物紹介');
-  const years=document.createElement('p');years.textContent=(Number.isInteger(profile.birthYear)?profile.birthYear+'年生':'生年未確認')+' ／ '+(Number.isInteger(profile.deathYear)?profile.deathYear+'年没':'没年未確認')+'（'+profile.calendar+'・年単位）';
-  const summary=document.createElement('p');summary.textContent=profile.summary;const subhead=document.createElement('h4');subhead.textContent='全経歴解放・人物略歴';section.append(years,subhead,summary);
-  if(profile.aliases.length){const aliases=document.createElement('p');aliases.textContent='別名：'+profile.aliases.map(a=>a.name+'（'+a.type+'）').join('、');section.append(aliases);}
-  const credit=document.createElement('p');credit.className='small-note';credit.style.whiteSpace='pre-line';credit.textContent=profile.attribution;section.append(credit);
-  for(const url of profile.sourceUrls){if(!/^https:\/\//.test(url))continue;const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='人物紹介の出典を読む ↗';a.style.display='block';section.append(a);}
+  const years=document.createElement('p');if(profile)years.textContent=(Number.isInteger(profile.birthYear)?profile.birthYear+'年生':'生年未確認')+' ／ '+(Number.isInteger(profile.deathYear)?profile.deathYear+'年没':'没年未確認')+'（'+profile.calendar+'・年単位）';
+  const summary=document.createElement('p');summary.textContent=longBio?.summary||profile?.summary||'';const subhead=document.createElement('h4');subhead.textContent='全経歴解放・人物略歴';section.append(years,subhead,summary);
+  if(profile?.aliases?.length){const aliases=document.createElement('p');aliases.textContent='別名：'+profile.aliases.map(a=>a.name+'（'+a.type+'）').join('、');section.append(aliases);}
+  const credit=document.createElement('p');credit.className='small-note';credit.style.whiteSpace='pre-line';credit.textContent=longBio?.attribution||profile?.attribution||'';section.append(credit);
+  for(const url of longBio?.sourceUrls||profile?.sourceUrls||[]){if(!/^https:\/\//.test(url))continue;const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='人物紹介の出典を読む ↗';a.style.display='block';section.append(a);}
   div.append(section);
  }
- if(profile&&countOwned(person.id)>0&&countOwned(person.id)<catalogCardCount(person.id)){
+ if((profile||longBio)&&countOwned(person.id)>0&&countOwned(person.id)<catalogCardCount(person.id)){
   const locked=document.createElement('p');locked.className='sengoku-empty';
   locked.textContent='人物略歴：公開済みの収集対象経歴をすべて解放すると読めます（'+countOwned(person.id)+' / '+catalogCardCount(person.id)+'）。';div.append(locked);
  }
@@ -698,12 +698,18 @@ async function loadSengoku(){try{
   const response=await fetch('./sengoku/non-place-history.json',{cache:'no-cache'});
   if(!response.ok)throw Error('HTTP '+response.status);
   const data=await response.json();
-  if(data.schemaVersion!=='walked.sengoku.non-place.v1'||!Array.isArray(data.entries))throw Error('非場所型経歴の形式が不正');
+  if(data.schemaVersion!=='walked.sengoku.non-place.v1'||!Array.isArray(data.entries)||!Array.isArray(data.biographies))throw Error('非場所型経歴の形式が不正');
   const seen=new Set();
   for(const e of data.entries){
    if(typeof e.id!=='string'||!e.id||seen.has(e.id)||!ids.has(e.personId)||e.publicationStatus!=='公開可'||e.placeRelation!=='none'||!e.approvalId||typeof e.title!=='string'||!e.title||typeof e.summary!=='string'||!e.summary||!Array.isArray(e.sourceUrls)||!e.sourceUrls.length||e.sourceUrls.some(u=>typeof u!=='string'||!/^https:\/\//.test(u))||e.eventYear!==null&&!Number.isInteger(e.eventYear)||e.eventYearEnd!==null&&!Number.isInteger(e.eventYearEnd))throw Error('非場所型経歴の承認・参照・出典が不正');
    seen.add(e.id);
   }
+  const biographyMap=new Map();
+  for(const b of data.biographies){
+   if(typeof b.personId!=='string'||!ids.has(b.personId)||biographyMap.has(b.personId)||b.publicationStatus!=='公開可'||!b.approvalId||typeof b.summary!=='string'||!b.summary.trim()||typeof b.attribution!=='string'||!Array.isArray(b.sourceUrls)||!b.sourceUrls.length||b.sourceUrls.some(u=>typeof u!=='string'||!/^https:\/\//.test(u)))throw Error('人物略歴の承認・出典が不正');
+   biographyMap.set(b.personId,b);
+  }
+  sengokuLongBiographies=biographyMap;
   textOnly=data.entries;
  }catch(error){publicationWarning+='（非場所型経歴は読込保留：'+error.message+'）';console.warn(error);}
  sengokuTextOnly=textOnly;
