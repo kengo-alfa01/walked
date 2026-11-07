@@ -165,6 +165,10 @@ test('tapping a municipality opens only its earned regional encyclopedia when ed
  w.eval("mark('13209');persist()");
  const before=raw(w);
  w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
+ for(let n=0;n<50&&w.document.querySelector('#regionalPanel [data-body]').hidden;n++){
+  await new Promise(r=>setTimeout(r,25));
+  w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
+ }
  assert.equal(w.document.querySelector('#regionalPanel [data-body]').hidden,false);
  assert.ok(w.document.querySelector('#regionalPanel [data-item-id]'),'published items should appear for the acquired city');
  assert.deepEqual(raw(w),before,'view-only map taps cannot alter saved collections');
