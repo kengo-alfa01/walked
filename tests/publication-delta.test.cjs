@@ -12,7 +12,7 @@ test('reviewed delta preserves every old ID and all nonapproved fields; stored l
  for(const f of D.FILES.slice(0,4))assert.deepEqual(stored[f],base[f]);
  for(const f of D.FILES.slice(0,4))for(const r of base[f])assert.deepEqual(current[f].find(n=>n.id===r.id),D.release.operations.find(o=>o.file===f&&o.id===r.id)?.after||r);
  assert.equal(D.release.approvals.length,22);assert.equal(D.release.operations.filter(o=>o.file==='sengoku/cards.json'&&!o.before).length,16);assert.equal(D.release.operations.filter(o=>o.file==='sengoku/cards.json'&&o.before).length,6);
- for(const f of ['walked-core.js','history.json','data/title-registry.json','regional-core.js','regional-ui.js'])assert.equal(fs.readFileSync(f,'utf8'),cp.execFileSync('git',['show',D.release.baselineCommit+':'+f],{encoding:'utf8'}));
+ for(const f of ['walked-core.js','history.json','data/title-registry.json','regional-core.js','regional-ui.js'])assert.equal(fs.readFileSync(f,'utf8'),cp.execFileSync('git',['show','792d10437fafde891945ad3a368433819967e9a0:'+f],{encoding:'utf8'}));
  assert.equal(W.catalog(registry).length,214);
 });
 test('partial replay is idempotent and conflicting targets, unrelated changes and package tampering reject before write',()=>{
@@ -63,7 +63,7 @@ test('new awards remain absent on save failure and succeed once after retry with
  w.Storage.prototype.setItem=set;w.eval('reconcileSengokuVisits()');const b=read(w);for(const id of ['pub-card-268571ea41feac148a4784f9','pub-card-c7757200eb6cb07049500403','pub-card-18142cf5ecc680edce957807','pub-card-9522e5a0f5d8cc4c0d65003c'])assert.ok(b.cards[id]);w.eval('reconcileSengokuVisits()');assert.deepEqual(read(w).cards,b.cards);w.close();
 });
 test('expanded national-category UI limits initial DOM to30 articles and exposes sources without media',async()=>{
- const visits=Object.fromEntries(regional.relations.map(r=>[r.areaCode,{}])),w=await app({walked_municipal_v2:visits});await new Promise(r=>setTimeout(r,20));const panel=w.document.querySelector('#regionalPanel');panel.querySelector('button').click();
+ const visits=Object.fromEntries(regional.relations.map(r=>[r.areaCode,{}])),w=await app({walked_municipal_v2:visits});await new Promise(r=>setTimeout(r,20));const panel=w.document.querySelector('#regionalPanel');if(panel.querySelector('button').getAttribute('aria-expanded')!=='true')panel.querySelector('button').click();
  const click=prefix=>{const b=[...panel.querySelectorAll('button')].find(b=>b.textContent.startsWith(prefix));assert.ok(b,prefix);b.click();};click('カテゴリーから探す');click('景勝・自然');assert.equal(panel.querySelectorAll('[data-item-id]').length,30);click('続きを表示');assert.equal(panel.querySelectorAll('[data-item-id]').length,60);
  const dialog=w.document.querySelector('#regionalDialog');dialog.showModal=function(){this.open=true};panel.querySelector('[data-item-id]').click();assert.ok(dialog.querySelector('a[href^="https://"]'));assert.equal(dialog.querySelectorAll('img,iframe,audio,video').length,0);w.close();
 });

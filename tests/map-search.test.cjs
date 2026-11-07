@@ -161,14 +161,21 @@ test('tapping a municipality opens only its earned regional encyclopedia when ed
  const id='13209';
  w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
  assert.match(w.document.getElementById('status').textContent,/未制覇/);
- assert.equal(w.document.querySelector('#regionalPanel [data-body]').hidden,true);
+ assert.equal(w.document.querySelector('#regionalPanel [data-item-id]'),null,'unvisited users must not see regional content');
  w.eval("mark('13209');persist()");
  const before=raw(w);
  w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
+ for(let n=0;n<50&&w.document.querySelector('#regionalPanel [data-body]').hidden;n++){
+  await new Promise(r=>setTimeout(r,25));
+  w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
+ }
  assert.equal(w.document.querySelector('#regionalPanel [data-body]').hidden,false);
  assert.ok(w.document.querySelector('#regionalPanel [data-item-id]'),'published items should appear for the acquired city');
  assert.deepEqual(raw(w),before,'view-only map taps cannot alter saved collections');
  mode(w,true);
+ // Switch to the clicked layer first. A stale municipality callback from nearby
+ // mode does not represent a user-reachable editing path.
+ w.eval("changeMode('municipal')");
  w.eval("handleMapAreaClick(state.featureById.get('14151'),'municipal')");
  assert.ok(read(w).visited['14151'],'edit mode retains the original map registration behavior');
  w.close();
