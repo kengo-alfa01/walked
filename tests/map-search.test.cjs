@@ -161,7 +161,7 @@ test('tapping a municipality opens only its earned regional encyclopedia when ed
  const id='13209';
  w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
  assert.match(w.document.getElementById('status').textContent,/未制覇/);
- assert.equal(w.document.querySelector('#regionalPanel [data-body]').hidden,true);
+ assert.equal(w.document.querySelector('#regionalPanel [data-item-id]'),null,'unvisited users must not see regional content');
  w.eval("mark('13209');persist()");
  const before=raw(w);
  w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
