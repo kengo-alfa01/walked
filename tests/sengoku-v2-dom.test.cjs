@@ -2,17 +2,14 @@ const {test}=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path');
 const {app,read,restore,raw}=require('./support/app.cjs');
 const root=path.join(__dirname,'..');
-const v2Core=fs.readFileSync(path.join(root,'sengoku-v2-core.js'),'utf8');
-const v2Bridge=fs.readFileSync(path.join(root,'sengoku-v2-integration.js'),'utf8');
 const approved=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-three-person-staging.json'),'utf8'));
 const personIds=approved.people.map(p=>p.personId);
 const approvedIds=approved.histories.map(h=>h.historyId);
 const placeCodes=[...new Set(approved.sites.filter(s=>approved.relations.some(r=>r.siteId===s.siteId)).flatMap(s=>s.municipalityCodes))];
 async function mount(initial={}){
  const w=await app(initial);
- w.eval(v2Core);w.eval(v2Bridge);
  for(let i=0;i<100;i++){
-  if(w.document.getElementById('sengokuQuality').textContent.includes('戦国v2承認済み紹介・通史3人'))return w;
+  if(w.document.getElementById('sengokuQuality').textContent.includes('公開人物 3人／承認経歴 108件'))return w;
   await new Promise(r=>setTimeout(r,20));
  }
  const message=w.document.getElementById('sengokuQuality').textContent;
@@ -31,7 +28,7 @@ test('v2 JS bridge boots in actual DOM, with no visit awards and no premature 10
   assert.ok(read(w).cards&&Object.keys(read(w).cards).length===0);
   assert.equal(w.document.getElementById('sengokuPanel').hidden,true);
   assert.equal(w.eval('countOwned('+JSON.stringify(personIds[0])+')'),0);
-  assert.ok(w.document.getElementById('sengokuQuality').textContent.includes('経歴カード108件'));
+  assert.ok(w.document.getElementById('sengokuQuality').textContent.includes('承認経歴 108件'));
  }finally{w.close();}
 });
 test('past Enryakuji 26103 town visit retroactively awards Nobunaga card and nonplace, keeps retired old ID',async()=>{
@@ -96,7 +93,7 @@ test('legacy location acquisition and regional UI continue to operate under v2 b
   assert.deepEqual(read(w).visited,before.visited);
  }finally{w.close();}
 });
-test('copy-stable reviewed pin is the only staged v2 map pin even when previously visited',async()=>{
+test('reviewed pin is the only v2 map pin even when previously visited',async()=>{
  const w=await mount({walked_municipal_v2:visit(['23229'])});
  try{
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
