@@ -31,8 +31,23 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    localStorage.setItem('walked_sengoku_cards_v1',JSON.stringify({[oldId]:old}));
  },{oldId,old});
  try{
+   const errors=[];
+   page.on('pageerror',error=>errors.push('pageerror: '+error.message));
+   page.on('requestfailed',request=>errors.push('requestfailed: '+request.url()+' '+request.failure()?.errorText));
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
-   await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('戦国v2承認済み紹介・通史3人'),null,{timeout:30000});
+   try{
+     await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('戦国v2承認済み紹介・通史3人'),null,{timeout:20000});
+   }catch(error){
+     const diagnostic=await page.evaluate(()=>({
+       location:location.href,ready:document.readyState,
+       quality:document.getElementById('sengokuQuality')?.textContent,
+       status:document.getElementById('status')?.textContent,
+       root:!!window.SengokuV2,leaflet:!!window.L,topojson:!!window.topojson,
+       inlineText:document.getElementById('sengokuCount')?.textContent
+     }));
+     console.error('FIRST STARTUP WEBKIT DIAGNOSTIC',JSON.stringify({diagnostic,errors:errors.slice(-15)}));
+     throw error;
+   }
    await page.locator('[data-collection-mode="sengoku"]').click();
    await page.locator('.sengoku-person').filter({hasText:'織田信長'}).click();
    const narrative=page.locator('.sengoku-v2-narrative');
