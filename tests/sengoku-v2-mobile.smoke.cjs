@@ -36,7 +36,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    page.on('requestfailed',request=>errors.push('requestfailed: '+request.url()+' '+request.failure()?.errorText));
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
    try{
-     await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('戦国v2承認済み紹介・通史3人'),null,{timeout:20000});
+     await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('公開人物 3人／承認経歴 108件'),null,{timeout:20000});
    }catch(error){
      const diagnostic=await page.evaluate(()=>({
        location:location.href,ready:document.readyState,
@@ -73,7 +73,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    await routes(page);
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
    try {
-     await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('戦国v2承認済み紹介・通史3人'),null,{timeout:20000});
+     await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('公開人物 3人／承認経歴 108件'),null,{timeout:20000});
    }catch(error){
      const diagnostic=await page.evaluate(()=>({url:location.href,ready:document.readyState,quality:document.getElementById('sengokuQuality')?.textContent,status:document.getElementById('status')?.textContent,core:!!window.SengokuV2}));
      console.error('Empty-context reload diagnostics',diagnostic);throw error;
