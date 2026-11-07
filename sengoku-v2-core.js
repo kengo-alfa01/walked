@@ -55,7 +55,13 @@
     check(personMap.size===3,'先行3人物以外を混入させないでください');
     for(const s of doc.sites){
       check(id(s.siteId)&&!siteMap.has(s.siteId),'史跡IDの重複・欠落');
+      check(Array.isArray(s.personIds)&&s.personIds.length>0&&s.personIds.every(x=>personMap.has(x)),'史跡承認に対象外人物を含む');
       check(s.locationReviewed===true&&s.rightsReviewed===true&&s.bStatus==='合格','史跡B審査・権利が未完了');
+      approval(s.approval,s.description,sha256,{kind:'史跡',personId:s.personIds.join('\n'),sourceId:s.siteId});
+      uniqueApproval(s.approval);
+      check(['自治体確認済・権利OK','地点確認済・権利OK'].includes(s.approval.rights),'史跡の権利・所在地確認が未承認');
+      check(typeof s.name==='string'&&s.name&&typeof s.description==='string'&&s.description,'史跡の表示名・本文がありません');
+      check(Array.isArray(s.sourceUrls)&&s.sourceUrls.every(x=>typeof x==='string'&&/^https:\/\//.test(x)),'史跡出典URL不正');
       const codes=normalizeCodes(s.municipalityCodes?.length?s.municipalityCodes:s.municipalityCode,known);
       check(!s.point||(s.publicPin===true&&Array.isArray(s.point)&&s.point.length===2&&s.point.every(Number.isFinite)&&s.point[0]>=122&&s.point[0]<=154&&s.point[1]>=20&&s.point[1]<=47),'未承認または範囲外のピン');
       check(s.publicPin!==true||Array.isArray(s.point),'公開ピンの位置がありません');
@@ -65,9 +71,10 @@
       check(id(h.historyId)&&h.historyId.startsWith('sg2hist-')&&!historyMap.has(h.historyId),'経歴IDの重複・形式不正');
       check(personMap.has(h.personId)&&['place','nonplace'].includes(h.kind),'対象外人物・経歴種別');
       check(typeof h.title==='string'&&h.title&&typeof h.yearText==='string','経歴の年次・タイトルがありません');
-      approval(h.approval,h.text,sha256,{kind:'経歴カード',personId:h.personId,sourceId:h.historyId});
+      approval(h.approval,h.text,sha256,{kind:'経歴',personId:h.personId,sourceId:h.historyId});
       uniqueApproval(h.approval);
-      check(h.approval.rights==='自治体確認済・権利OK'||(h.kind==='nonplace'&&h.approval.rights==='位置不要・権利OK'),'経歴の位置・権利が未承認');
+      check((h.kind==='place'&&h.approval.rights==='自治体確認済・権利OK')||(h.kind==='nonplace'&&h.approval.rights==='位置不要・権利OK'),'経歴の場所区分と権利承認が一致しません');
+      check(Array.isArray(h.sourceUrls)&&h.sourceUrls.every(x=>typeof x==='string'&&/^https:\/\//.test(x)),'経歴出典URL不正');
       historyMap.set(h.historyId,h);
     }
     for(const r of doc.relations){
@@ -82,7 +89,18 @@
       linkSites.get(r.historyId).add(r.siteId);
       for(const code of siteMap.get(r.siteId).codes)regionMap.get(r.historyId).add(code);
     }
-    for(const h of historyMap.values())if(h.kind==='place')check(regionMap.has(h.historyId)&&regionMap.get(h.historyId).size>0,'経歴に承認済みの獲得リンクがありません: '+h.historyId);
+    for(const h of historyMap.values()){
+      if(h.kind==='place')check(regionMap.has(h.historyId)&&regionMap.get(h.historyId).size>0,'経歴に承認済みの獲得リンクがありません: '+h.historyId);
+      else check(!regionMap.has(h.historyId),'場所不要経歴には史跡獲得リンクを設定できません');
+    }
+    for(const p of personMap.values()){
+      const histories=[...historyMap.values()].filter(h=>h.personId===p.personId);
+      const unlock=p.story.unlock;
+      if(histories.length){
+        check(histories.length===unlock.requiredHistoryCount&&histories.filter(h=>h.kind==='place').length===unlock.requiredPlaceHistoryCount,'通史の対象経歴件数が一致しません');
+        check(sha256(histories.map(h=>h.historyId).sort().join('\n'))===unlock.historyIdsSHA256,'通史の対象経歴ID集合が承認版と一致しません');
+      }
+    }
     return {people:personMap,histories:historyMap,sites:siteMap,codes:regionMap,linkSites,version:doc.version||'v2-stage'};
   }
   function municipalityFromKey(key){
