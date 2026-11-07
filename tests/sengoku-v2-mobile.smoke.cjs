@@ -12,15 +12,18 @@ const old={at:'2000-01-01',siteId:'sg-site-odawara'};
 
 test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup download/restore', {timeout:120000},async()=>{
  const browser=await webkit.launch({headless:true});
- const context=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:3,isMobile:true,hasTouch:true,acceptDownloads:true});
- const page=await context.newPage();
+ let context=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:3,isMobile:true,hasTouch:true,acceptDownloads:true});
+ let page=await context.newPage();
  context.on('dialog',dialog=>dialog.accept());
  const asset=name=>path.join(assets,name);
+ async function routes(page){
  await page.route('**/municipalities.topojson',route=>route.fulfill({path:asset('municipalities.topojson'),contentType:'application/json'}));
  await page.route('**/topojson-client@3/dist/topojson-client.min.js',route=>route.fulfill({path:asset('topojson-client.min.js'),contentType:'application/javascript'}));
  await page.route('**/leaflet@1.9.4/dist/leaflet.js',route=>route.fulfill({path:path.join(root,'node_modules/leaflet/dist/leaflet.js'),contentType:'application/javascript'}));
  await page.route('**/leaflet@1.9.4/dist/leaflet.css',route=>route.fulfill({path:path.join(root,'node_modules/leaflet/dist/leaflet.css'),contentType:'text/css'}));
  await page.route('**/prefectures.topojson',route=>route.abort());
+ }
+ await routes(page);
  await page.addInitScript(({oldId,old})=>{
    if(sessionStorage.getItem('qa-seeded')==='1')return;
    sessionStorage.setItem('qa-seeded','1');
@@ -47,9 +50,19 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    assert.ok(snapshot.cards['sg2hist-nobu-1571-enryakuji']);
    assert.deepEqual(snapshot.cards[oldId],old);
    assert.ok(snapshot.visited['25201']);
-   await page.evaluate(()=>localStorage.clear());
-   await page.reload({waitUntil:'domcontentloaded'});
-   await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('戦国v2承認済み紹介・通史3人'),null,{timeout:30000});
+   // Restore into a new, genuinely empty WebKit browser context (not a reload
+   // that might accidentally reuse in-memory app state or storage).
+   await context.close();
+   context=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:3,isMobile:true,hasTouch:true,acceptDownloads:true});
+   page=await context.newPage();context.on('dialog',dialog=>dialog.accept());
+   await routes(page);
+   await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
+   try {
+     await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('戦国v2承認済み紹介・通史3人'),null,{timeout:20000});
+   }catch(error){
+     const diagnostic=await page.evaluate(()=>({url:location.href,ready:document.readyState,quality:document.getElementById('sengokuQuality')?.textContent,status:document.getElementById('status')?.textContent,core:!!window.SengokuV2}));
+     console.error('Empty-context reload diagnostics',diagnostic);throw error;
+   }
    const resetCount=await page.evaluate(()=>Object.keys(JSON.parse(localStorage.getItem('walked_sengoku_cards_v1')||'{}')).length);
    assert.equal(resetCount,0,'test must restore from truly empty storage');
    await page.setInputFiles('#restoreFile',{name:'walked-backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(snapshot))});
