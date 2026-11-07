@@ -1,0 +1,50 @@
+name: Sengoku v2 mobile WebKit QA
+
+on:
+  push:
+    branches:
+      - feat/sengoku-v2-three-person-staging-20261107
+    paths:
+      - 'index.html'
+      - 'sengoku-v2-*.js'
+      - 'sengoku/v2/**'
+      - 'tests/sengoku-v2-mobile.smoke.cjs'
+      - '.github/workflows/sengoku-v2-mobile-qa.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sengoku-v2-mobile-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  webkit-mobile:
+    if: github.ref == 'refs/heads/feat/sengoku-v2-three-person-staging-20261107'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser QA packages only
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Install headless WebKit browser and runtime dependencies
+        run: npx playwright install --with-deps webkit
+      - name: Prepare pinned geographical test fixture
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error \
+            'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' \
+            --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Run small-screen WebKit and backup/restore smoke
+        env:
+          WALKED_BROWSER_ASSETS: ${{ github.workspace }}/.qa-assets
+          WALKED_BASE_URL: http://127.0.0.1:8765
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/walked-v2-http.log 2>&1 &
+          sleep 2
+          node --test tests/sengoku-v2-mobile.smoke.cjs
