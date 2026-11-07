@@ -10,8 +10,16 @@ const oldShowPerson=showSengokuPerson,oldRender=renderSengoku,oldRefreshPins=ref
 const oldPersist=persist,oldReconcile=reconcileSengokuVisits,oldToast=toastSengokuCards;
 
 // An approved history ID is one card regardless of the number of sites.
-countOwned=function(personId){return oldCountOwned(personId)+SengokuV2.acquired(catalog,sengokuFound,personId);};
-catalogCardCount=function(personId){return oldCatalogCount(personId)+(catalog?[...catalog.histories.values()].filter(h=>h.personId===personId).length:0);};
+countOwned=function(personId){
+ if(!catalog?.people.has(personId))return oldCountOwned(personId);
+ // Old card IDs remain retained as history. They may establish prior person discovery,
+ // but old cards must not inflate the new v2 card count or biography requirements.
+ return Math.max(SengokuV2.acquired(catalog,sengokuFound,personId),oldCountOwned(personId)>0?1:0);
+};
+catalogCardCount=function(personId){
+ if(!catalog?.people.has(personId))return oldCatalogCount(personId);
+ return [...catalog.histories.values()].filter(h=>h.personId===personId).length;
+};
 
 function peopleAlreadyAcquired(){
  const ids=new Set();
@@ -82,9 +90,22 @@ function appendV2Summary(person){
  section.append(story);
  const heading=box.querySelector('h3');if(heading)heading.after(section);else box.prepend(section);
 }
-showSengokuPerson=function(person){oldShowPerson(person);if(catalog?.people.has(person.id))$v2('sengokuDetail')?.querySelector('.sengoku-profile')?.remove();appendV2Summary(person);};
+showSengokuPerson=function(person){
+ oldShowPerson(person);
+ if(catalog?.people.has(person.id)){
+  // Hide superseded legacy research text and provisional cards for the three v2
+  // people; never erase their saved awards or IDs.
+  const box=$v2('sengokuDetail');
+  for(const el of [...(box?.children||[])])
+   if(el.classList.contains('sengoku-profile')||el.classList.contains('sengoku-era')||
+      el.classList.contains('sengoku-empty')||el.tagName==='H4')el.remove();
+ }
+ appendV2Summary(person);
+};
 refreshSengokuPins=function(){
  oldRefreshPins();if(!catalog||activeCollectionMode!=='sengoku')return;
+ if(selectedSengokuPersonId&&catalog.people.has(selectedSengokuPersonId))
+  sengokuPins.clearLayers(); // Only v2-reviewed pins while browsing these three people.
  const showUnknown=$v2('showUnknownPins')?.checked;
  for(const site of catalog.sites.values()){
   if(!site.publicPin||!Array.isArray(site.point))continue;
