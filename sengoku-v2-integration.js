@@ -77,7 +77,7 @@ function appendV2Summary(person){
  }
  const storyTitle=document.createElement('h4');storyTitle.textContent='完成版ストーリー';section.append(storyTitle);
  const story=document.createElement('p');
- if(historyRows.length&&historyRows.every(h=>!!sengokuFound[h.historyId]))story.textContent=data.story.text;
+ if(SengokuV2.canUnlockStory(catalog,person.id,sengokuFound,PublicationRuntime.sha256))story.textContent=data.story.text;
  else{story.className='sengoku-v2-locked';story.textContent='承認済み経歴カードをすべて集めると解放されます。公開対象カードが0枚の間は解放しません。';}
  section.append(story);
  const heading=box.querySelector('h3');if(heading)heading.after(section);else box.prepend(section);
