@@ -104,3 +104,40 @@ test('reviewed pin is the only v2 map pin even when previously visited',async()=
   if(pins.length)assert.deepEqual(Array.from(pins[0].xy),[35.05998,136.9807]);
  }finally{w.close();}
 });
+
+
+test('old Hōjō Ujimasa and Ōta Dōkan card saves never surface retired people, cards or pins',async()=>{
+ const initial={
+  walked_municipal_v2:visit(['14206','13120']),
+  walked_sengoku_cards_v1:{
+   'sg-card-0004':{at:'2020-01-02',siteId:'sg-site-odawara'},
+   'sg-card-0063':{at:'2020-01-03',siteId:'sg-site-shakujii'}
+  }
+ };
+ const w=await mount(initial);
+ try{
+  const saved=read(w);
+  assert.deepEqual(saved.cards['sg-card-0004'],initial.walked_sengoku_cards_v1['sg-card-0004']);
+  assert.deepEqual(saved.cards['sg-card-0063'],initial.walked_sengoku_cards_v1['sg-card-0063']);
+  assert.deepEqual(JSON.parse(w.eval('JSON.stringify(sengokuPeople.map(p=>p.name))')),['織田信長','豊臣秀吉','徳川家康']);
+  w.document.querySelector('[data-collection-mode="sengoku"]').click();
+  assert.ok(!w.document.getElementById('sengokuPanel').textContent.includes('北条氏政'));
+  assert.ok(!w.document.getElementById('sengokuPanel').textContent.includes('太田道灌'));
+  const before=raw(w);
+  w.eval('reconcileSengokuVisits()');
+  assert.deepEqual(raw(w),before,'revisiting a town must not rewrite retired card records');
+ }finally{w.close()}
+});
+
+test('deleted legacy research and publication files are absent from shipping repository',()=>{
+ for(const p of [
+  'history.json','people-review.csv',
+  'sengoku/people.json','sengoku/cards.json','sengoku/sites.json','sengoku/links.json',
+  'sengoku/non-place-history.json','sengoku/provisional-history.json',
+  'sengoku/approved-profiles.json','sengoku/chronology-hints.json',
+  'sengoku/publication-credits.json','sengoku/priority100.json',
+  'publication-import/releases/20261102-line-c/package.json',
+  'scripts/merge_sengoku_batch.py','sengoku-v2-integration.js'
+ ])assert.equal(fs.existsSync(path.join(root,p)),false,'obsolete published file retained: '+p);
+ assert.ok(fs.existsSync(path.join(root,'sengoku/v2/approved-three-person-staging.json')));
+});
