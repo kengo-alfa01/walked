@@ -38,6 +38,11 @@
           "kind": "完成版ストーリー",
           "personId": "sg-6eaf66c3d7c8",
           "sourceId": null
+        },
+        "unlock": {
+          "requiredHistoryCount": 32,
+          "requiredPlaceHistoryCount": 22,
+          "historyIdsSHA256": "fb24474773fb9af2144bf9ade85790ea929b0818aeff5c646f38860167f3ae6f"
         }
       }
     },
@@ -76,6 +81,11 @@
           "kind": "完成版ストーリー",
           "personId": "sg-f47391608dbb",
           "sourceId": null
+        },
+        "unlock": {
+          "requiredHistoryCount": 38,
+          "requiredPlaceHistoryCount": 25,
+          "historyIdsSHA256": "762920a7a9e45a2dc6d4f528223cf08d134eec7adb79d2af8f5eef93032ac110"
         }
       }
     },
@@ -114,6 +124,11 @@
           "kind": "完成版ストーリー",
           "personId": "sg-a7bb09927601",
           "sourceId": null
+        },
+        "unlock": {
+          "requiredHistoryCount": 38,
+          "requiredPlaceHistoryCount": 26,
+          "historyIdsSHA256": "5ae11021a8f1e510193dab186941a90a0012fa3b69c4ffc9514c60a2af3a4757"
         }
       }
     }
