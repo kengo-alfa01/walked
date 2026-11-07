@@ -122,3 +122,15 @@ test('screens retain iPhone responsive UI and v2 integration JavaScript is synta
  assert.match(html,/<script src="\.\/sengoku-v2-integration\.js"><\/script><\/body><\/html>/);
  new vm.Script(bridge);
 });
+test('all 108 approved histories are acquired once from 47 eligible municipalities; all biographies unlock',()=>{
+ const codes=[...new Set(doc.sites.filter(s=>doc.relations.some(r=>r.siteId===s.siteId)).flatMap(s=>s.municipalityCodes))];
+ const visited=Object.fromEntries(codes.map(c=>[c,{first:'2020-01-01'}]));
+ const old={'sg-card-0001':{at:'2001-01-01',siteId:'sg-site-odawara'}};
+ const a=V.award(index,visited,old,[],'2026-11-07');
+ assert.equal(a.added.length,108);assert.equal(codes.length,47);
+ for(const p of doc.people)assert.equal(V.canUnlockStory(index,p.personId,a.records,hash),true);
+ assert.equal(V.award(index,visited,a.records,[]).added.length,0);
+ const backup=W.backup(visited,a.records,{awards:{},selected:null});
+ assert.equal(Object.keys(backup.cards).length,109);
+ assert.equal(backup.cards['sg-card-0001'].at,'2001-01-01');
+});
