@@ -141,3 +141,37 @@ test('deleted legacy research and publication files are absent from shipping rep
  ])assert.equal(fs.existsSync(path.join(root,p)),false,'obsolete published file retained: '+p);
  assert.ok(fs.existsSync(path.join(root,'sengoku/v2/approved-three-person-staging.json')));
 });
+
+
+test('year labels list only currently conquered municipalities for an acquired location-history card',async()=>{
+ const w=await mount({
+  walked_municipal_v2:visit(['25201','26103']),
+  walked_sengoku_cards_v1:{'sg-card-legacy':{at:'2020-01-01'}}
+ });
+ try{
+  const detail=openSengoku(w,personIds[0]);
+  const rows=[...detail.querySelectorAll('.sengoku-era')];
+  const enryakuji=rows.find(x=>x.textContent.includes('比叡山延暦寺を焼き討ちする'));
+  assert.ok(enryakuji);
+  assert.match(enryakuji.querySelector('.sengoku-year').textContent,/元亀2年（1571）.*制覇：大津市・京都市左京区/);
+  const born=rows.find(x=>x.textContent.includes('尾張の織田家に生まれる'));
+  assert.ok(born);
+  assert.equal(born.querySelector('.sengoku-year').textContent.includes('制覇：'),false);
+  assert.deepEqual(Object.keys(read(w).visited).sort(),['25201','26103']);
+ }finally{w.close()}
+});
+
+test('unconquered OR destination is not displayed, nearby unvisited regions never appear',async()=>{
+ const w=await mount({walked_municipal_v2:visit(['25201'])});
+ try{
+  const detail=openSengoku(w,personIds[0]);
+  const rows=[...detail.querySelectorAll('.sengoku-era')];
+  const item=rows.find(x=>x.textContent.includes('比叡山延暦寺を焼き討ちする'));
+  assert.ok(item);
+  const date=item.querySelector('.sengoku-year').textContent;
+  assert.match(date,/制覇：大津市/);
+  assert.equal(date.includes('京都市左京区'),false);
+  const other=rows.find(x=>x.querySelector('.sengoku-year').textContent.includes('未発見'));
+  assert.equal(other,undefined);
+ }finally{w.close()}
+});

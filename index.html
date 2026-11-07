@@ -560,6 +560,12 @@ function showSengokuPerson(person){
  for(const history of histories){
   const row=document.createElement('div');row.className='sengoku-era';
   const date=document.createElement('div');date.className='sengoku-year';date.textContent=history.yearText;
+  if(ownsSengokuCard(history.historyId)&&history.kind==='place'&&sengokuV2Catalog){
+   const registry=titleRegistry;
+   const codes=SengokuV2.earnedMunicipalities(sengokuV2Catalog,history.historyId,state.visited,sengokuFound);
+   const names=codes.map(code=>registry?.areas?.find(area=>area.code===code)?.name).filter(Boolean);
+   if(names.length)date.textContent+=' ／ 制覇：'+[...new Set(names)].join('・');
+  }
   const content=document.createElement('div');
   if(ownsSengokuCard(history.historyId)){
    content.textContent=history.title+' — '+history.text;

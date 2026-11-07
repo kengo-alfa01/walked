@@ -114,6 +114,17 @@
     for(const k of Object.keys(visited||{}))if(visited[k]){const code=municipalityFromKey(k);if(code)set.add(code);}
     return set;
   }
+  // Return ONLY visited municipalities that genuinely qualified an approved,
+  // acquired location history. Never reveal unvisited eligible locations or
+  // attach a made-up place to a non-location history.
+  function earnedMunicipalities(index,historyId,visited,found){
+    if(!index||!index.histories.has(historyId)||!found||
+       !own(found,historyId)||index.histories.get(historyId).kind!=='place')return [];
+    const eligible=index.codes.get(historyId);
+    if(!eligible)return [];
+    const visitedSet=visitedCodes(visited);
+    return [...eligible].filter(code=>visitedSet.has(code)).sort();
+  }
   function acquired(index,found,personId){
     let count=0;
     if(!index)return count;
@@ -147,5 +158,5 @@
     if(sha256(histories.map(h=>h.historyId).sort().join('\n'))!==rule.historyIdsSHA256)return false;
     return histories.every(h=>own(found,h.historyId));
   }
-  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,validate,award,acquired,canUnlockStory};
+  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,earnedMunicipalities,validate,award,acquired,canUnlockStory};
 });
