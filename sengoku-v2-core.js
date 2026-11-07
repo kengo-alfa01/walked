@@ -25,9 +25,10 @@
     }
     return out;
   }
-  function approval(a,body,hash){
+  function approval(a,body,hash,context){
     check(plain(a)&&Number.isInteger(a.sheetRow)&&a.sheetRow>=2,'⑥承認行がありません');
     check(/^v[1-9]\d*$/.test(a.version||''),'版番号が不正です');
+    check(a.kind===context.kind&&a.personId===context.personId&&a.sourceId===context.sourceId,'承認行の人物・文章種別・元IDが一致しません');
     check(a.user==='公開OK'&&a.quality==='品質合格'&&a.sourceMatch==='一致','ユーザー承認・品質・原文照合が未完了です');
     check(a.handoff==='C候補（別途公開承認）','C受渡し判定が未完了です');
     check(typeof body==='string'&&body.length>0,'承認本文が空です');
@@ -37,12 +38,14 @@
     check(plain(doc)&&doc.schemaVersion===SCHEMA&&doc.sourceSpreadsheetId===SOURCE,'正本・スキーマが違います');
     check(Array.isArray(doc.people)&&Array.isArray(doc.histories)&&Array.isArray(doc.sites)&&Array.isArray(doc.relations),'台帳の構造が不正です');
     check(typeof sha256==='function','本文照合関数がありません');
-    const known=codeSet(knownCodes), personMap=new Map(),siteMap=new Map(),historyMap=new Map(),linkKeys=new Set(),regionMap=new Map(),linkSites=new Map();
+    const known=codeSet(knownCodes), personMap=new Map(),siteMap=new Map(),historyMap=new Map(),linkKeys=new Set(),regionMap=new Map(),linkSites=new Map(),approvalRows=new Set();
+    function uniqueApproval(a){check(!approvalRows.has(a.sheetRow),'⑥の同じ承認行を重複流用できません');approvalRows.add(a.sheetRow);}
     for(const p of doc.people){
       check(PEOPLE.has(p.personId)&&!personMap.has(p.personId)&&typeof p.name==='string','対象外・重複人物');
       for(const type of ['introduction','story']){
         const t=p[type];check(plain(t),'人物紹介・通史の欠落 '+p.personId);
-        approval(t.approval,t.text,sha256);
+        approval(t.approval,t.text,sha256,{kind:type==='introduction'?'人物紹介':'完成版ストーリー',personId:p.personId,sourceId:null});
+        uniqueApproval(t.approval);
         check(t.approval.rights==='位置不要・権利OK'||t.approval.rights==='自治体確認済・権利OK','権利が未確認');
       }
       personMap.set(p.personId,p);
@@ -52,7 +55,7 @@
       check(id(s.siteId)&&!siteMap.has(s.siteId),'史跡IDの重複・欠落');
       check(s.locationReviewed===true&&s.rightsReviewed===true&&s.bStatus==='合格','史跡B審査・権利が未完了');
       const codes=normalizeCodes(s.municipalityCodes?.length?s.municipalityCodes:s.municipalityCode,known);
-      check(!s.point||(s.publicPin===true&&Array.isArray(s.point)&&s.point.length===2&&s.point.every(Number.isFinite)),'未承認のピン');
+      check(!s.point||(s.publicPin===true&&Array.isArray(s.point)&&s.point.length===2&&s.point.every(Number.isFinite)&&s.point[0]>=122&&s.point[0]<=154&&s.point[1]>=20&&s.point[1]<=47),'未承認または範囲外のピン');
       check(s.publicPin!==true||Array.isArray(s.point),'公開ピンの位置がありません');
       siteMap.set(s.siteId,{...s,codes});
     }
@@ -60,7 +63,8 @@
       check(id(h.historyId)&&h.historyId.startsWith('sg2hist-')&&!historyMap.has(h.historyId),'経歴IDの重複・形式不正');
       check(personMap.has(h.personId)&&['place','nonplace'].includes(h.kind),'対象外人物・経歴種別');
       check(typeof h.title==='string'&&h.title&&typeof h.yearText==='string','経歴の年次・タイトルがありません');
-      approval(h.approval,h.text,sha256);
+      approval(h.approval,h.text,sha256,{kind:'経歴カード',personId:h.personId,sourceId:h.historyId});
+      uniqueApproval(h.approval);
       check(h.approval.rights==='自治体確認済・権利OK'||(h.kind==='nonplace'&&h.approval.rights==='位置不要・権利OK'),'経歴の位置・権利が未承認');
       historyMap.set(h.historyId,h);
     }
