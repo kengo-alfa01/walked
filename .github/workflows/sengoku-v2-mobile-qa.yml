@@ -3,7 +3,7 @@ name: Sengoku v2 mobile WebKit QA
 on:
   push:
     branches:
-      - refactor/sengoku-v2-only-20261107
+      - fix/sengoku-v2-year-municipality-20261107
     paths:
       - 'index.html'
       - 'sengoku-v2-*.js'
@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   webkit-mobile:
-    if: github.ref == 'refs/heads/refactor/sengoku-v2-only-20261107'
+    if: github.ref == 'refs/heads/fix/sengoku-v2-year-municipality-20261107'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
