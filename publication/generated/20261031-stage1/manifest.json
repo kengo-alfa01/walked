@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "walked-publication-v1",
+  "version": "20261031-stage1",
+  "masterSnapshot": {
+    "spreadsheetId": "1tJN3AvRQbCuGLYEd1ann_ge81zosY33no_ps-vf6UWs",
+    "capturedAt": "2026-10-31T11:23:05.450026+00:00",
+    "sha256": "d9379bb521d9cd3b4b773f33dc296673e74a7549be9b958da77c455972132371"
+  },
+  "baseline": {
+    "commit": "1e3a66aceee0286e4509941deb6d189f62b90b41",
+    "contentHashes": {
+      "sengoku/people.json": "6658e48b8faf5edd4e4236d183c491c66e13f1e580c1d5f76329638bb544ff57",
+      "sengoku/sites.json": "ac0dbecc8fc2b5e5e40d2ad938c2bcfffe5d959642aba2fd600a6ee02c348e98",
+      "sengoku/links.json": "7371736f72997043588e40ad203f5bec039773a8cc32956f15e9affed2b4c6dd",
+      "sengoku/cards.json": "b5503b1bb59decb437fcfa8e25cb977c096ed03ea3d47d90fdc4e31896b10962",
+      "history.json": "a44335ec2deae6f651b7fabf95f84c3afacdc7e9b29eefbf18221c078648e2b4"
+    }
+  },
+  "approvedRecords": 1,
+  "rejectedRecords": 17,
+  "approvedSites": 1,
+  "deltaCounts": {
+    "sengoku/people.json": 0,
+    "sengoku/sites.json": 0,
+    "sengoku/links.json": 1,
+    "sengoku/cards.json": 1,
+    "history.json": 0
+  },
+  "catalogCounts": {
+    "sengoku/people.json": 530,
+    "sengoku/sites.json": 223,
+    "sengoku/links.json": 233,
+    "sengoku/cards.json": 303,
+    "history.json": 20
+  },
+  "outputHashes": {
+    "sengoku/people.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sengoku/sites.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sengoku/links.json": "bc456bded185a2c1b0c51d840844ca911a6cf9d524593edecdcd7df0fd5a0aad",
+    "sengoku/cards.json": "31f2a37498d60dfe842ed881e512d8f7019465edd3a107442f6105ba73074956",
+    "history.json": "a6a20076da005b27c9afc3a5d5b2457798c0ac817d1abc38b2fee4398ac3f133"
+  },
+  "published": false,
+  "requiresUserDeploymentApproval": true,
+  "growth": {
+    "unit": "personId + municipality/ward code",
+    "thresholds": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "runtimeImplemented": false
+  }
+}

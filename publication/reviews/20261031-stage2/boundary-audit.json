@@ -1,0 +1,27 @@
+{
+  "boundarySHA256": "ba8e92bcb091e4afe1160bdc26868d2fb6616cc3cee138b3d973854eb7662333",
+  "boundarySource": "https://github.com/kyodo-official/japan-choropleth/blob/78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson",
+  "engine": "pinned main index.html geomContains",
+  "results": [
+    {
+      "siteId": "sg-site-hachigata",
+      "municipalityCode": "11362",
+      "codeInRegistry": true,
+      "point": [
+        139.193361,
+        36.107315
+      ],
+      "pointInMunicipality": false
+    },
+    {
+      "siteId": "sg-site-hachigata",
+      "municipalityCode": "11408",
+      "codeInRegistry": true,
+      "point": [
+        139.193361,
+        36.107315
+      ],
+      "pointInMunicipality": true
+    }
+  ]
+}

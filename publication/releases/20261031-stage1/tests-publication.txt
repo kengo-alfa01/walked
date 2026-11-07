@@ -1,0 +1,26 @@
+✔ only one reviewed event exported; whole-life gaps do not block it (1.877217ms)
+✔ all 5 existing formats and every legacy record stay intact (7.76024ms)
+✔ generation and repeated application are idempotent (50.034254ms)
+✔ deny missing condition: adoptedPerson (8.795309ms)
+✔ deny missing condition: historicalEvidence (6.828107ms)
+✔ deny missing condition: siteIdentity (7.879814ms)
+✔ deny missing condition: currentLocation (6.944641ms)
+✔ deny missing condition: discovery (8.997717ms)
+✔ deny missing condition: sourceLocator (7.786775ms)
+✔ deny missing condition: rights (8.038243ms)
+✔ deny missing condition: idIntegrity (7.165783ms)
+✔ deny missing condition: uncertainty (6.393125ms)
+✔ unreviewed / deployed state never masquerades as a new ready export (15.737056ms)
+✔ edited text invalidates approval; unadopted person / bad point / stale base fail (15.460701ms)
+✔ municipality / ward growth data key, not card or town count (1.525539ms)
+✔ same ID with modified content cannot overwrite a saved catalog item (2.299791ms)
+✔ actual main reconciles newly added card from old municipal/town visits without re-visiting (9.755539ms)
+✔ reviewed location results remain bound to pinned source and failures block approval (0.431337ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 309.360603
