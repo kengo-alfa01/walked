@@ -169,3 +169,20 @@ test('iPhone-sized responsive styles and branch-only bridge are wired, with synt
  assert.match(html,/<script src="\.\/sengoku-v2-integration\.js"><\/script><\/body><\/html>/);
  new vm.Script(bridge);
 });
+
+test('1000-character stories remain locked for a zero-card or only partially approved release',()=>{
+ const empty=catalog(staging);
+ for(const person of staging.people)assert.equal(V2.canUnlockStory(empty,person.personId,{},sha),false);
+ const {d,hid}=enryakuji(),partial=catalog(d);
+ assert.equal(V2.canUnlockStory(partial,nobu,{[hid]:{at:'2026-11-07'}},sha),false);
+});
+test('1000-character story requires the complete exact history-ID hash and all awards',()=>{
+ const {d,hid}=enryakuji(),person=d.people.find(p=>p.personId===nobu);
+ person.story.unlock={requiredHistoryCount:1,requiredPlaceHistoryCount:1,historyIdsSHA256:sha(hid)};
+ const complete=catalog(d);
+ assert.equal(V2.canUnlockStory(complete,nobu,{},sha),false);
+ assert.equal(V2.canUnlockStory(complete,nobu,{[hid]:{at:'2026-11-07'}},sha),true);
+ person.story.unlock.historyIdsSHA256=sha('another-history');
+ const incorrect=catalog(d);
+ assert.equal(V2.canUnlockStory(incorrect,nobu,{[hid]:{at:'2026-11-07'}},sha),false);
+});
