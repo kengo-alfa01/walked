@@ -173,6 +173,9 @@ test('tapping a municipality opens only its earned regional encyclopedia when ed
  assert.ok(w.document.querySelector('#regionalPanel [data-item-id]'),'published items should appear for the acquired city');
  assert.deepEqual(raw(w),before,'view-only map taps cannot alter saved collections');
  mode(w,true);
+ // Switch to the clicked layer first. A stale municipality callback from nearby
+ // mode does not represent a user-reachable editing path.
+ w.eval("changeMode('municipal')");
  w.eval("handleMapAreaClick(state.featureById.get('14151'),'municipal')");
  assert.ok(read(w).visited['14151'],'edit mode retains the original map registration behavior');
  w.close();
