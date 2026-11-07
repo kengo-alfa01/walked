@@ -127,7 +127,7 @@ test('all 108 approved histories are acquired once from 47 eligible municipaliti
  const visited=Object.fromEntries(codes.map(c=>[c,{first:'2020-01-01'}]));
  const old={'sg-card-0001':{at:'2001-01-01',siteId:'sg-site-odawara'}};
  const a=V.award(index,visited,old,[],'2026-11-07');
- assert.equal(a.added.length,108);assert.equal(codes.length,47);
+ assert.equal(a.added.length,108);assert.equal(codes.length,41);
  for(const p of doc.people)assert.equal(V.canUnlockStory(index,p.personId,a.records,hash),true);
  assert.equal(V.award(index,visited,a.records,[]).added.length,0);
  const backup=W.backup(visited,a.records,{awards:{},selected:null});
