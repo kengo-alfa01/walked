@@ -28,7 +28,7 @@ function reconcileV2(){
  // Commit before changing in-memory state. Quota/write failures leave the old awards unchanged.
  writeStore(sengokuStoreKey,result.records);
  Object.assign(sengokuFound,result.records);
- oldRender();oldRefreshPins();
+ oldRender();refreshSengokuPins();
  if(sengokuBulkImport)sengokuBatchDiscoveries.push(...result.added);
  else toastSengokuCards(result.added);
  return result.added.length;
@@ -82,7 +82,7 @@ function appendV2Summary(person){
  section.append(story);
  const heading=box.querySelector('h3');if(heading)heading.after(section);else box.prepend(section);
 }
-showSengokuPerson=function(person){oldShowPerson(person);appendV2Summary(person);};
+showSengokuPerson=function(person){oldShowPerson(person);if(catalog?.people.has(person.id))$v2('sengokuDetail')?.querySelector('.sengoku-profile')?.remove();appendV2Summary(person);};
 refreshSengokuPins=function(){
  oldRefreshPins();if(!catalog||activeCollectionMode!=='sengoku')return;
  const showUnknown=$v2('showUnknownPins')?.checked;
