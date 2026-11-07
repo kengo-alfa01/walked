@@ -63,7 +63,7 @@ test('new awards remain absent on save failure and succeed once after retry with
  w.Storage.prototype.setItem=set;w.eval('reconcileSengokuVisits()');const b=read(w);for(const id of ['pub-card-268571ea41feac148a4784f9','pub-card-c7757200eb6cb07049500403','pub-card-18142cf5ecc680edce957807','pub-card-9522e5a0f5d8cc4c0d65003c'])assert.ok(b.cards[id]);w.eval('reconcileSengokuVisits()');assert.deepEqual(read(w).cards,b.cards);w.close();
 });
 test('expanded national-category UI limits initial DOM to30 articles and exposes sources without media',async()=>{
- const visits=Object.fromEntries(regional.relations.map(r=>[r.areaCode,{}])),w=await app({walked_municipal_v2:visits});await new Promise(r=>setTimeout(r,20));const panel=w.document.querySelector('#regionalPanel');panel.querySelector('button').click();
+ const visits=Object.fromEntries(regional.relations.map(r=>[r.areaCode,{}])),w=await app({walked_municipal_v2:visits});await new Promise(r=>setTimeout(r,20));const panel=w.document.querySelector('#regionalPanel');if(panel.querySelector('button').getAttribute('aria-expanded')!=='true')panel.querySelector('button').click();
  const click=prefix=>{const b=[...panel.querySelectorAll('button')].find(b=>b.textContent.startsWith(prefix));assert.ok(b,prefix);b.click();};click('カテゴリーから探す');click('景勝・自然');assert.equal(panel.querySelectorAll('[data-item-id]').length,30);click('続きを表示');assert.equal(panel.querySelectorAll('[data-item-id]').length,60);
  const dialog=w.document.querySelector('#regionalDialog');dialog.showModal=function(){this.open=true};panel.querySelector('[data-item-id]').click();assert.ok(dialog.querySelector('a[href^="https://"]'));assert.equal(dialog.querySelectorAll('img,iframe,audio,video').length,0);w.close();
 });
