@@ -48,6 +48,8 @@
         uniqueApproval(t.approval);
         check(t.approval.rights==='位置不要・権利OK'||t.approval.rights==='自治体確認済・権利OK','権利が未確認');
       }
+      const unlock=p.story.unlock;
+      check(plain(unlock)&&Number.isInteger(unlock.requiredHistoryCount)&&unlock.requiredHistoryCount>0&&Number.isInteger(unlock.requiredPlaceHistoryCount)&&unlock.requiredPlaceHistoryCount>=0&&unlock.requiredPlaceHistoryCount<=unlock.requiredHistoryCount&&/^[a-f0-9]{64}$/.test(unlock.historyIdsSHA256||''),'完成版ストーリーの全経歴解放条件が不正です');
       personMap.set(p.personId,p);
     }
     check(personMap.size===3,'先行3人物以外を混入させないでください');
@@ -114,5 +116,18 @@
     }
     return {records:next,added};
   }
-  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,validate,award,acquired};
+  // Do not unlock a 1000-character biography just because only a subset of the
+  // required histories has received final ⑥ approval. Both count and exact ID-set
+  // digest must match the authorized release rule before all acquired IDs count.
+  function canUnlockStory(index,personId,found,sha256){
+    if(!index||typeof sha256!=='function')return false;
+    const rule=index.people.get(personId)?.story?.unlock;
+    if(!rule)return false;
+    const histories=[...index.histories.values()].filter(h=>h.personId===personId);
+    if(histories.length!==rule.requiredHistoryCount||
+       histories.filter(h=>h.kind==='place').length!==rule.requiredPlaceHistoryCount)return false;
+    if(sha256(histories.map(h=>h.historyId).sort().join('\n'))!==rule.historyIdsSHA256)return false;
+    return histories.every(h=>own(found,h.historyId));
+  }
+  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,validate,award,acquired,canUnlockStory};
 });
