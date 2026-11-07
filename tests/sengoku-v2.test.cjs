@@ -5,6 +5,7 @@ const path=require('node:path');
 const crypto=require('node:crypto');
 const V2=require('../sengoku-v2-core.js');
 const W=require('../walked-core.js');
+const vm=require('node:vm');
 const staging=JSON.parse(fs.readFileSync(path.join(__dirname,'../sengoku/v2/approved-three-person-staging.json'),'utf8'));
 const sha=text=>crypto.createHash('sha256').update(text,'utf8').digest('hex');
 const known=new Set(['25201','26103','23229','23114','21362','26104','13209','14151','14206']);
@@ -156,4 +157,15 @@ test('mis-scoped people and repeated sites are rejected',()=>{
  assert.throws(()=>catalog(d),/対象外・重複人物/);
  const x=enryakuji().d;x.relations.push(structuredClone(x.relations[0]));
  assert.throws(()=>catalog(x),/経歴×史跡の重複/);
+});
+
+test('iPhone-sized responsive styles and branch-only bridge are wired, with syntactically valid integration code',()=>{
+ const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
+ const bridge=fs.readFileSync(path.join(__dirname,'../sengoku-v2-integration.js'),'utf8');
+ assert.match(html,/<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">/);
+ assert.match(html,/\.sengoku-v2-narrative\{[^}]*overflow-wrap:anywhere/);
+ assert.match(html,/@media\(max-width:650px\)\{\.sengoku-v2-narrative\{padding:11px\}/);
+ assert.match(html,/<script src="\.\/sengoku-v2-core\.js"><\/script>/);
+ assert.match(html,/<script src="\.\/sengoku-v2-integration\.js"><\/script><\/body><\/html>/);
+ new vm.Script(bridge);
 });
