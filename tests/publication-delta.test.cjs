@@ -12,7 +12,7 @@ test('reviewed delta preserves every old ID and all nonapproved fields; stored l
  for(const f of D.FILES.slice(0,4))assert.deepEqual(stored[f],base[f]);
  for(const f of D.FILES.slice(0,4))for(const r of base[f])assert.deepEqual(current[f].find(n=>n.id===r.id),D.release.operations.find(o=>o.file===f&&o.id===r.id)?.after||r);
  assert.equal(D.release.approvals.length,22);assert.equal(D.release.operations.filter(o=>o.file==='sengoku/cards.json'&&!o.before).length,16);assert.equal(D.release.operations.filter(o=>o.file==='sengoku/cards.json'&&o.before).length,6);
- for(const f of ['walked-core.js','history.json','data/title-registry.json','regional-core.js','regional-ui.js'])assert.equal(fs.readFileSync(f,'utf8'),cp.execFileSync('git',['show',D.release.baselineCommit+':'+f],{encoding:'utf8'}));
+ for(const f of ['walked-core.js','history.json','data/title-registry.json','regional-core.js','regional-ui.js'])assert.equal(fs.readFileSync(f,'utf8'),cp.execFileSync('git',['show','792d10437fafde891945ad3a368433819967e9a0:'+f],{encoding:'utf8'}));
  assert.equal(W.catalog(registry).length,214);
 });
 test('partial replay is idempotent and conflicting targets, unrelated changes and package tampering reject before write',()=>{
