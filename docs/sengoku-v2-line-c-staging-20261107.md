@@ -41,15 +41,22 @@
 2. `sengoku-v2-core.js` — ⑥原文・ID・版・権利・人物・元IDをfail-closed検査。自治体OR、史跡/経歴の一意性、後追い取得、伝記解放条件、未審査ピン拒否。
 3. `sengoku-v2-integration.js` — 旧保存キー・バックアップ形式に互換のブラウザ取得/表示処理。
 4. `index.html` — v2ブランチ限定スクリプト読込とiPhone画面の折り返しCSS。
-5. `tests/sengoku-v2.test.cjs` — 16件の実データ・セキュリティ・獲得・後追い・復元互換テスト。
+5. `tests/sengoku-v2.test.cjs` と `tests/sengoku-v2-dom.test.cjs` — 実データ・DOM・承認・互換性テスト。`tests/sengoku-v2-mobile.smoke.cjs` — WebKit小画面・実バックアップ復元テスト。
 6. `docs/sengoku-v2-approval-queue-histories-20261107.csv`、`docs/sengoku-v2-approval-queue-sites-20261107.csv` — 以前の承認待ち時点の記録。最終承認状況の正本はGoogleシート⑥。
-7. 本報告書。
+7. ブランチ限定CI `.github/workflows/sengoku-v2-qa.yml` と `.github/workflows/sengoku-v2-mobile-qa.yml`、および今回現行仕様に合わせた既存テスト3ファイル。
+8. 本報告書。
 
 **旧配信ファイルには変更を加えていない**：`sengoku/cards.json`、`sengoku/sites.json`、`sengoku/people.json`、`sengoku/links.json`、`walked-core.js`、`regional-*.js`等。
 
 ## 4. テスト結果
 
-実データに基づくJS隔離テスト **16/16合格**（GitHub Actionsの正式CI実行ではない）。
+**GitHub Actionsで現行ブランチの検証を実行済み。**
+
+- **Node.js/DOM統合・旧機能回帰：121/121件合格。** 最新CI: https://github.com/kengo-alfa01/walked/actions/runs/42329991370
+- **WebKit iPhone相当ブラウザー試験：1/1件合格。** 最新CI: https://github.com/kengo-alfa01/walked/actions/runs/42329991249
+- WebKitの画面幅390pxに対しdocument scrollWidthは390px。経歴・人物紹介表示、未獲得通史のロック、旧プロフィールの抑止、バックアップJSONの実ダウンロード、**新しい空のブラウザーコンテキストへの復元**が合格。
+- 実データの経歴108件・史跡61件・承認済み関連77件の構造検査と、41自治体の訪問済みデータから108経歴取得・3人物伝記解放・重複防止は継続合格。
+- 旧回帰テストのうち、古い地域図鑑UIや旧版の年表件数に固定されていた期待値を、現行mainと同じ仕様に沿う検査へ修正。旧ゲーム本体のデータやロジックは変更していない。
 
 | ケース | 結果 |
 | --- | --- |
@@ -66,9 +73,10 @@
 | iPhone viewport/CSS、統合JS構文 | 合格（静的確認） |
 
 **未実施の必須確認**：
-- iPhone Safari実機でのタップ・スクロール・地図・GPS・タイムライン取込
-- バックアップUIから実ファイルの出力→別環境への復元→旧IDと新IDの画面再現
-- 本番同等ブラウザの全体E2E、既存Nodeテスト一式、CI、ネットワーク制限や容量不足時の障害テスト
+- **物理的なiPhone/iOS Safariでの検査**（WebKit/LinuxのiPhone相当viewportは実機の代替ではない）
+- 実機GPS、タイムライン取込、iOSファイル選択・共有シート、ホーム画面追加／PWAキャッシュ、オフライン・電波不良時の動作
+- 複数端末間での実ユーザーデータを利用した復元、ローカル容量不足や中断回復の実ブラウザ検査（Node.jsの復元・ロールバックテストは合格）
+- 本番GitHub Pagesに反映後の最終スモークテスト（本番公開の明示承認まで実施しない）
 
 ## 5. 留意点・本番公開の判断
 
