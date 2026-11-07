@@ -17,7 +17,10 @@
           "rights": "位置不要・権利OK",
           "handoff": "C候補（別途公開承認）",
           "sourceMatch": "一致",
-          "sha256": "a2d12c5864918bcfc8aec8c38cd2a79e2b95a648c0b38ad861e6da1082a2b91e"
+          "sha256": "a2d12c5864918bcfc8aec8c38cd2a79e2b95a648c0b38ad861e6da1082a2b91e",
+          "kind": "人物紹介",
+          "personId": "sg-6eaf66c3d7c8",
+          "sourceId": null
         }
       },
       "story": {
@@ -31,7 +34,10 @@
           "rights": "自治体確認済・権利OK",
           "handoff": "C候補（別途公開承認）",
           "sourceMatch": "一致",
-          "sha256": "12c07f0d32b44c5df2211a4b4ab487be429299512390087d32e6fe8224360c30"
+          "sha256": "12c07f0d32b44c5df2211a4b4ab487be429299512390087d32e6fe8224360c30",
+          "kind": "完成版ストーリー",
+          "personId": "sg-6eaf66c3d7c8",
+          "sourceId": null
         }
       }
     },
@@ -49,7 +55,10 @@
           "rights": "位置不要・権利OK",
           "handoff": "C候補（別途公開承認）",
           "sourceMatch": "一致",
-          "sha256": "93436c0de7f7d6b8d5b70a069c06a55cb11e43f465cf83fbe5015c0a2543af96"
+          "sha256": "93436c0de7f7d6b8d5b70a069c06a55cb11e43f465cf83fbe5015c0a2543af96",
+          "kind": "人物紹介",
+          "personId": "sg-f47391608dbb",
+          "sourceId": null
         }
       },
       "story": {
@@ -63,7 +72,10 @@
           "rights": "自治体確認済・権利OK",
           "handoff": "C候補（別途公開承認）",
           "sourceMatch": "一致",
-          "sha256": "8dadfec533fff4ecd587cfb569069f3ccbf0d44a7ac90075bd21b96ab48356dc"
+          "sha256": "8dadfec533fff4ecd587cfb569069f3ccbf0d44a7ac90075bd21b96ab48356dc",
+          "kind": "完成版ストーリー",
+          "personId": "sg-f47391608dbb",
+          "sourceId": null
         }
       }
     },
@@ -81,7 +93,10 @@
           "rights": "位置不要・権利OK",
           "handoff": "C候補（別途公開承認）",
           "sourceMatch": "一致",
-          "sha256": "b40699c221f3e53f127be08d9a366925170490518468ae74333f8520b214a3c1"
+          "sha256": "b40699c221f3e53f127be08d9a366925170490518468ae74333f8520b214a3c1",
+          "kind": "人物紹介",
+          "personId": "sg-a7bb09927601",
+          "sourceId": null
         }
       },
       "story": {
@@ -95,7 +110,10 @@
           "rights": "自治体確認済・権利OK",
           "handoff": "C候補（別途公開承認）",
           "sourceMatch": "一致",
-          "sha256": "eb4455d259de18a5147fe1ff3cef932921ee65f3ea5f7a1fb8fc14033abcdaa7"
+          "sha256": "eb4455d259de18a5147fe1ff3cef932921ee65f3ea5f7a1fb8fc14033abcdaa7",
+          "kind": "完成版ストーリー",
+          "personId": "sg-a7bb09927601",
+          "sourceId": null
         }
       }
     }
