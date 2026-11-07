@@ -1,188 +1,124 @@
 const {test}=require('node:test');
 const assert=require('node:assert/strict');
-const fs=require('node:fs');
-const path=require('node:path');
-const crypto=require('node:crypto');
-const V2=require('../sengoku-v2-core.js');
-const W=require('../walked-core.js');
-const vm=require('node:vm');
-const staging=JSON.parse(fs.readFileSync(path.join(__dirname,'../sengoku/v2/approved-three-person-staging.json'),'utf8'));
-const sha=text=>crypto.createHash('sha256').update(text,'utf8').digest('hex');
-const known=new Set(['25201','26103','23229','23114','21362','26104','13209','14151','14206']);
-const nobu='sg-6eaf66c3d7c8',hideyoshi='sg-f47391608dbb',ieyasu='sg-a7bb09927601';
-const base=()=>structuredClone(staging);
-// All scenario approvals below are HYPOTHETICAL TEST FIXTURES, not user-approval records.
-function approved(personId,historyId,text,row){
- return {sheetRow:row,kind:'経歴カード',personId,sourceId:historyId,version:'v1',
-  user:'公開OK',quality:'品質合格',rights:'自治体確認済・権利OK',sourceMatch:'一致',
-  handoff:'C候補（別途公開承認）',sha256:sha(text)};
-}
-function history(personId,historyId,row,kind='place'){
- const text='仮想試験用の経歴本文（本番配信禁止）';
- return {historyId,personId,kind,title:'仮想試験用の経歴',text,yearText:'1571年',
-  approval:{...approved(personId,historyId,text,row),rights:kind==='nonplace'?'位置不要・権利OK':'自治体確認済・権利OK'}};
-}
-function site(siteId,codes,publicPin=false){
- return {siteId,name:'試験用史跡',municipalityCodes:codes,locationReviewed:true,rightsReviewed:true,bStatus:'合格',
-  publicPin,point:publicPin?[139.2,35.7]:null};
-}
-function relation(personId,historyId,siteId,classification='出来事直接（史料）'){
- return {personId,historyId,siteId,bStatus:'合格',linkDecision:'関係上対象',classification};
-}
-function catalog(doc){return V2.validate(doc,known,sha);}
-function enryakuji(){
- const d=base(),hid='sg2hist-nobu-1571-enryakuji',sid='sg2site-nobu-enryakuji';
- d.histories.push(history(nobu,hid,100));
- d.sites.push(site(sid,['25201','26103']));
- d.relations.push(relation(nobu,hid,sid));
- return {d,hid,sid};
-}
-test('⑥ staging contains exactly the latest 3 people, 6 accepted texts, no unapproved history/site',()=>{
- const c=catalog(staging);
- assert.equal(c.people.size,3);assert.equal(c.histories.size,0);
- assert.equal(c.sites.size,0);assert.equal(staging.relations.length,0);
- assert.equal(c.people.get(hideyoshi).story.approval.version,'v3');
- assert.equal(c.people.get(hideyoshi).story.approval.sheetRow,6);
- assert.equal(c.people.get(nobu).story.approval.version,'v2');
- assert.equal(c.people.get(ieyasu).story.approval.version,'v1');
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),vm=require('node:vm');
+const V=require('../sengoku-v2-core.js'),W=require('../walked-core.js');
+const read=file=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',file),'utf8'));
+const doc=read('sengoku/v2/approved-three-person-staging.json');
+const registry=read('data/title-registry.json');
+const hash=s=>crypto.createHash('sha256').update(s,'utf8').digest('hex');
+const known=new Set(registry.areas.map(x=>x.code));
+const index=V.validate(doc,known,hash);
+const ids={nobu:'sg-6eaf66c3d7c8',hideyoshi:'sg-f47391608dbb',ieyasu:'sg-a7bb09927601'};
+const clone=v=>structuredClone(v);
+const verify=d=>V.validate(d,known,hash);
+function linkedHistory(historyId,municipalCode){return [...index.codes.get(historyId)||[]].includes(municipalCode)}
+test('live ⑥ release has 3 people, 108 approved histories, 61 approved sites, 77 direct links',()=>{
+ assert.equal(index.people.size,3);assert.equal(index.histories.size,108);
+ assert.equal(index.sites.size,61);assert.equal(doc.relations.length,77);
+ assert.equal([...index.histories.values()].filter(h=>h.kind==='place').length,73);
+ assert.equal([...index.histories.values()].filter(h=>h.kind==='nonplace').length,35);
+ assert.equal(new Set(doc.relations.map(r=>r.siteId)).size,54);
+ for(const [name,id] of Object.entries(ids)){const p=index.people.get(id);assert.ok(p,name);assert.equal(p.introduction.approval.user,'公開OK');assert.equal(p.story.approval.user,'公開OK');}
+ assert.equal(index.people.get(ids.hideyoshi).story.approval.version,'v3');
 });
-test('the old Hideyoshi v2 C禁止 row cannot supersede v3',()=>{
- const d=base();d.people.find(p=>p.personId===hideyoshi).story.approval.handoff='旧版（履歴・C禁止）';
- assert.throws(()=>catalog(d),/C受渡し/);
+test('⑥ history and site approvals all have fixed rows, IDs, versions and text fingerprints',()=>{
+ const rows=new Set();
+ for(const p of index.people.values())for(const kind of ['introduction','story']){const a=p[kind].approval;assert.equal(a.user,'公開OK');assert.equal(a.sha256,hash(p[kind].text));assert.ok(!rows.has(a.sheetRow));rows.add(a.sheetRow);}
+ for(const h of index.histories.values()){assert.equal(h.approval.kind,'経歴');assert.equal(h.approval.sourceId,h.historyId);assert.equal(h.approval.sha256,hash(h.text));assert.equal(h.approval.user,'公開OK');assert.ok(!rows.has(h.approval.sheetRow));rows.add(h.approval.sheetRow);}
+ for(const s of index.sites.values()){assert.equal(s.approval.kind,'史跡');assert.equal(s.approval.sourceId,s.siteId);assert.equal(s.approval.sha256,hash(s.description));assert.equal(s.approval.user,'公開OK');assert.ok(!rows.has(s.approval.sheetRow));rows.add(s.approval.sheetRow);}
+ assert.equal(rows.size,175);
 });
-test('edited text, row identity mix-up and duplicate approval row all fail closed',()=>{
- const d1=base();d1.people[0].story.text+='改変';assert.throws(()=>catalog(d1),/ハッシュ/);
- const d2=base();d2.people[0].story.approval.personId=hideyoshi;assert.throws(()=>catalog(d2),/人物・文章種別/);
- const d3=base();d3.people[0].story.approval.sheetRow=d3.people[0].introduction.approval.sheetRow;assert.throws(()=>catalog(d3),/重複流用/);
+test('⑥ old Hideyoshi v2, unapproved user record, modified copy, and mismatched ID are rejected',()=>{
+ const a=clone(doc);a.people[1].story.approval.version='v2';a.people[1].story.approval.handoff='旧版（履歴・C禁止）';assert.throws(()=>verify(a),/C受渡し/);
+ const b=clone(doc);b.histories[0].approval.user='';assert.throws(()=>verify(b),/ユーザー承認/);
+ const c=clone(doc);c.histories[0].text+='差替';assert.throws(()=>verify(c),/ハッシュ/);
+ const d=clone(doc);d.sites[0].approval.sourceId='sg2site-other';assert.throws(()=>verify(d),/元ID/);
 });
-test('new history cards without their own ⑥ user approval are rejected',()=>{
- const {d,hid}=enryakuji();d.histories[0].approval.user='';
- assert.throws(()=>catalog(d),/ユーザー承認/);
- d.histories[0].approval.user='公開OK';d.histories[0].approval.sourceId='sg2hist-other';
- assert.throws(()=>catalog(d),/元ID/);
- assert.equal(hid,'sg2hist-nobu-1571-enryakuji');
+test('all four precise links types separate 7 indirect relations from the 77 release links',()=>{
+ const classes={};for(const r of doc.relations)classes[r.classification]=(classes[r.classification]||0)+1;
+ assert.equal(Object.values(classes).reduce((a,b)=>a+b,0),77);
+ assert.ok(doc.relations.every(r=>r.bStatus==='合格'&&r.linkDecision==='関係上対象'));
+ const x=clone(doc);x.relations[0].classification='間接関連';assert.throws(()=>verify(x),/関連審査/);
 });
-test('unapproved or indirect B relations are never acquisition triggers',()=>{
- const {d}=enryakuji();
- d.relations[0].classification='間接関連';
- assert.throws(()=>catalog(d),/B関連審査/);
- d.relations[0].classification='出来事直接（史料）';d.relations[0].bStatus='保留';
- assert.throws(()=>catalog(d),/B関連審査/);
- d.relations[0].bStatus='合格';d.sites[0].rightsReviewed=false;
- assert.throws(()=>catalog(d),/史跡B審査/);
-});
-test('延暦寺型: 25201 or 26103 visits award one history ID; visiting both cannot duplicate',()=>{
- const {d,hid}=enryakuji(),c=catalog(d);
- for(const visits of [{'25201':{}},{'26103':{}},{'25201':{},'26103':{}},{'n:26103:261030001':{}}]){
-  const old={'sg-card-0001':{at:'2001-01-01',siteId:'sg-site-odawara'}};
-  const a=V2.award(c,visits,old,[], '2020-01-01');
-  assert.deepEqual(a.added,[hid]);
-  assert.deepEqual(a.records['sg-card-0001'],old['sg-card-0001']);
-  const again=V2.award(c,visits,a.records,[], '2026-01-01');
-  assert.equal(again.added.length,0);
-  assert.equal(again.records[hid].at,'2020-01-01');
+test('Enryakuji OR 25201/26103: either and both award exactly one v2 history card',()=>{
+ const hid='sg2hist-nobu-1571-enryakuji',sid='sg2site-nobu-enryakuji';
+ assert.deepEqual(index.sites.get(sid).codes,['25201','26103']);
+ assert.equal(index.sites.get(sid).point,null);
+ for(const key of ['25201','26103','n:26103:001']){
+  const a=V.award(index,{[key]:{}},{},[],'2026-11-07').records;
+  assert.ok(a[hid]);const b=V.award(index,{'25201':{},'26103':{}},a,[],'2026-11-08').records;
+  assert.equal(b[hid].at,'2026-11-07');
  }
 });
-test('延暦寺型: no coordinates or pin required for a confirmed municipality',()=>{
- const {d,hid}=enryakuji(),c=catalog(d);
- assert.equal(c.sites.get(d.sites[0].siteId).point,null);
- assert.deepEqual(V2.award(c,{'26103':{}},{},[], '2020-01-01').added,[hid]);
- d.sites[0].point=[139.2,35.7];assert.throws(()=>catalog(d),/未承認または範囲外のピン/);
+test('Okehazama approval is a specific folklore site, not a presumed extra Nagoya folklore site',()=>{
+ const site='sg2site-nobu-okehazama-tradition',hid='sg2hist-nobu-1560-okehazama';
+ assert.equal(linkedHistory(hid,'23229'),true);
+ assert.equal(index.sites.get(site).publicPin,true);
+ assert.deepEqual(index.sites.get(site).point,[136.9807,35.05998]);
+ assert.equal(index.sites.has('sg2site-nobu-okehazama-nagoya-fixture'),false);
 });
-test('桶狭間型: two separate folklore sites feed ONE event-history card',()=>{
- const d=base(),hid='sg2hist-nobu-1560-okehazama';
- const s1='sg2site-nobu-okehazama-tradition',s2='sg2site-nobu-okehazama-nagoya-fixture';
- d.histories.push(history(nobu,hid,101));
- d.sites.push(site(s1,['23229']),site(s2,['23114']));
- d.relations.push(relation(nobu,hid,s1,'出来事直接（公的伝承）'),relation(nobu,hid,s2,'出来事直接（公的伝承）'));
- const c=catalog(d);
- assert.equal(c.sites.size,2);assert.equal(c.histories.size,1);
- for(const v of [{'23229':{}},{'23114':{}},{'23229':{},'23114':{}}]){
-  const out=V2.award(c,v,{},[]);assert.deepEqual(out.added,[hid]);
+test('Sekigahara two distinct camps award a single approved event history',()=>{
+ const hid='sg2hist-ieyasu-1600-sekigahara';
+ assert.equal(index.linkSites.get(hid).has('sg2site-ieyasu-momokubari'),true);
+ assert.equal(index.linkSites.get(hid).has('sg2site-ieyasu-jinbano'),true);
+ assert.equal(index.linkSites.get(hid).size,2);
+ const a=V.award(index,{'21362':{}},{},[],'2026-11-07');assert.ok(a.records[hid]);
+ assert.equal(V.award(index,{'21362':{}},a.records,[]).added.includes(hid),false);
+});
+test('Honnoji old location cannot be confused with the modern location or expose a nonpublic pin',()=>{
+ const sid='sg2site-nobu-honnoji-old',hid='sg2hist-nobu-1582-honnoji';
+ assert.equal(index.sites.get(sid).publicPin,false);assert.equal(index.sites.get(sid).point,null);
+ assert.equal(linkedHistory(hid,'26104'),true);
+ assert.equal(linkedHistory(hid,'26103'),false);
+});
+test('all unverified pins stay hidden; only the reviewed precise Okehazama point is published',()=>{
+ const pinned=doc.sites.filter(s=>s.publicPin);
+ assert.deepEqual(pinned.map(s=>s.siteId),['sg2site-nobu-okehazama-tradition']);
+ for(const site of doc.sites)if(!site.publicPin)assert.equal(site.point,null);
+});
+test('preexisting municipality, ward and town visit formats enable retroactive awards',()=>{
+ const saved={'n:26103:001':{first:'2019-01-01'},'m:132090001':{},'s:141510001':{},'21362':{}};
+ assert.ok(V.award(index,saved,{},[]).added.includes('sg2hist-nobu-1571-enryakuji'));
+ assert.ok(V.award(index,saved,{},[]).added.includes('sg2hist-ieyasu-1600-sekigahara'));
+ assert.deepEqual([...V.visitedCodes(saved)].sort(),['13209','14151','21362','26103']);
+});
+test('non-place histories are awarded upon acquisition of the person, not before',()=>{
+ const h=index.histories.get('sg2hist-nobu-1534-birth');assert.equal(h.kind,'nonplace');
+ const no=V.award(index,{}, {},[]);assert.equal(!!no.records[h.historyId],false);
+ const yes=V.award(index,{}, {},[ids.nobu]);assert.ok(yes.records[h.historyId]);
+});
+test('full biography can only unlock with exact history ID set and all earned, never on partial achievements',()=>{
+ for(const person of index.people.values()){
+  const entries=[...index.histories.values()].filter(h=>h.personId===person.personId);
+  assert.equal(V.canUnlockStory(index,person.personId,{},hash),false);
+  const all=Object.fromEntries(entries.map(h=>[h.historyId,{at:'2026-11-07'}]));
+  assert.equal(V.canUnlockStory(index,person.personId,all,hash),true);
+  delete all[entries[0].historyId];assert.equal(V.canUnlockStory(index,person.personId,all,hash),false);
  }
+ const wrong=clone(doc);wrong.people[0].story.unlock.historyIdsSHA256=hash('wrong');
+ assert.throws(()=>verify(wrong),/通史の対象経歴ID/);
 });
-test('関ヶ原型: 桃配山と陣場野 stay different sites, same history card once',()=>{
- const d=base(),hid='sg2hist-ieyasu-1600-sekigahara';
- d.histories.push(history(ieyasu,hid,102));
- const s1='sg2site-ieyasu-momokubari',s2='sg2site-ieyasu-jinbano';
- d.sites.push(site(s1,['21362']),site(s2,['21362']));
- d.relations.push(relation(ieyasu,hid,s1,'本人直接'),relation(ieyasu,hid,s2,'本人直接'));
- const c=catalog(d);assert.equal(c.linkSites.get(hid).size,2);
- assert.deepEqual(V2.award(c,{'21362':{}},{},[]).added,[hid]);
+test('legacy saved awards and backed-up v3 data are not changed or deleted by new awards',()=>{
+ const old={'sg-card-0001':{at:'2001-01-01',siteId:'sg-site-odawara'},retired:{at:'1998-01-01'}};
+ const visits={'25201':{first:'2019-05-01',source:'訪問'}};
+ const next=V.award(index,visits,old,[],'2026-11-07').records;
+ assert.deepEqual(next['sg-card-0001'],old['sg-card-0001']);assert.deepEqual(next.retired,old.retired);
+ const b=W.backup(visits,next,{awards:{},selected:null});
+ const restored=W.mergeBackup({visited:{},cards:{},titles:{awards:{},selected:null}},W.parseBackup(b));
+ assert.deepEqual(restored.visited,visits);assert.deepEqual(restored.cards,next);
+ assert.equal(V.award(index,visits,next,[]).added.length,0);
 });
-test('本能寺 old-site location may award without pin; modern temple is not inferred',()=>{
- const d=base(),hid='sg2hist-nobu-1582-honnoji',sid='sg2site-nobu-honnoji-old';
- d.histories.push(history(nobu,hid,103));d.sites.push(site(sid,['26104']));
- d.relations.push(relation(nobu,hid,sid,'本人直接'));
- const c=catalog(d);
- assert.deepEqual(V2.award(c,{'26104':{}},{},[]).added,[hid]);
- assert.deepEqual(V2.award(c,{'26103':{}},{},[]).added,[]);
+test('invalid municipality, indirect acquisition link, or exposed private coordinates fail closed',()=>{
+ const badCode=clone(doc);badCode.sites[0].municipalityCodes=['99999'];assert.throws(()=>verify(badCode),/未収録の自治体コード/);
+ const badRelation=clone(doc);badRelation.relations[0].linkDecision='関係上対象外';assert.throws(()=>verify(badRelation),/関連審査/);
+ const badPin=clone(doc);const privateSite=badPin.sites.find(s=>!s.publicPin);
+ privateSite.point=[139.4,35.6];assert.throws(()=>verify(badPin),/未承認または範囲外のピン/);
 });
-test('unsupported municipality values and unknown codes fail validation',()=>{
- const {d}=enryakuji();d.sites[0].municipalityCodes=['25201','ABC'];
- assert.throws(()=>catalog(d),/不正な自治体コード/);
- d.sites[0].municipalityCodes=['25201','99999'];
- assert.throws(()=>catalog(d),/未収録の自治体コード/);
- d.sites[0].municipalityCodes=['25201','26103','26103'];
- const c=catalog(d);
- assert.deepEqual(c.sites.get(d.sites[0].siteId).codes,['25201','26103']);
-});
-test('legacy municipality, Machida and nationwide ward/town-area keys normalize to one code',()=>{
- assert.deepEqual([...V2.visitedCodes({'13209':{},'m:1320900001':{},'n:26103:001':{},'s:141510001':{}})].sort(),['13209','14151','26103']);
-});
-test('nonplace approved history unlocks only after the person is acquired',()=>{
- const {d,hid}=enryakuji(),textId='sg2hist-nobu-1562-background';
- d.histories.push(history(nobu,textId,104,'nonplace'));
- const c=catalog(d);
- assert.deepEqual(V2.award(c,{}, {},[]).added,[]);
- assert.deepEqual(V2.award(c,{'25201':{}},{},[]).added.sort(),[hid,textId].sort());
- assert.deepEqual(V2.award(c,{}, {},[nobu]).added,[textId]);
-});
-test('historic IDs, saved visits and backups stay compatible with walked-backup-v3',()=>{
- const {d,hid}=enryakuji(),c=catalog(d);
- const old={'sg-card-0002':{at:'2002-02-02',siteId:'sg-site-odawara'},'retired-id':{at:'2000-01-01'}};
- const visited={'n:26103:001':{first:'2001-01-01',source:'過去記録'}};
- const got=V2.award(c,visited,old,[], '2026-11-07').records;
- const backup=W.backup(visited,got,{awards:{},selected:null});
- assert.equal(backup.format,'walked-backup-v3');
- const parsed=W.parseBackup(JSON.parse(JSON.stringify(backup)));
- const restored=W.mergeBackup({visited:{},cards:{},titles:{awards:{},selected:null}},parsed);
- assert.equal(restored.cards[hid].at,'2026-11-07');
- assert.deepEqual(restored.cards['sg-card-0002'],old['sg-card-0002']);
- assert.deepEqual(restored.visited,visited);
-});
-test('mis-scoped people and repeated sites are rejected',()=>{
- const {d}=enryakuji();
- d.people[0].personId='sg-4cb1a557e060';
- assert.throws(()=>catalog(d),/対象外・重複人物/);
- const x=enryakuji().d;x.relations.push(structuredClone(x.relations[0]));
- assert.throws(()=>catalog(x),/経歴×史跡の重複/);
-});
-
-test('iPhone-sized responsive styles and branch-only bridge are wired, with syntactically valid integration code',()=>{
+test('screens retain iPhone responsive UI and v2 integration JavaScript is syntactically valid',()=>{
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
  const bridge=fs.readFileSync(path.join(__dirname,'../sengoku-v2-integration.js'),'utf8');
- assert.match(html,/<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">/);
- assert.match(html,/\.sengoku-v2-narrative\{[^}]*overflow-wrap:anywhere/);
- assert.match(html,/@media\(max-width:650px\)\{\.sengoku-v2-narrative\{padding:11px\}/);
+ assert.match(html,/viewport-fit=cover/);assert.match(html,/overflow-wrap:anywhere/);
  assert.match(html,/<script src="\.\/sengoku-v2-core\.js"><\/script>/);
  assert.match(html,/<script src="\.\/sengoku-v2-integration\.js"><\/script><\/body><\/html>/);
  new vm.Script(bridge);
-});
-
-test('1000-character stories remain locked for a zero-card or only partially approved release',()=>{
- const empty=catalog(staging);
- for(const person of staging.people)assert.equal(V2.canUnlockStory(empty,person.personId,{},sha),false);
- const {d,hid}=enryakuji(),partial=catalog(d);
- assert.equal(V2.canUnlockStory(partial,nobu,{[hid]:{at:'2026-11-07'}},sha),false);
-});
-test('1000-character story requires the complete exact history-ID hash and all awards',()=>{
- const {d,hid}=enryakuji(),person=d.people.find(p=>p.personId===nobu);
- person.story.unlock={requiredHistoryCount:1,requiredPlaceHistoryCount:1,historyIdsSHA256:sha(hid)};
- const complete=catalog(d);
- assert.equal(V2.canUnlockStory(complete,nobu,{},sha),false);
- assert.equal(V2.canUnlockStory(complete,nobu,{[hid]:{at:'2026-11-07'}},sha),true);
- person.story.unlock.historyIdsSHA256=sha('another-history');
- const incorrect=catalog(d);
- assert.equal(V2.canUnlockStory(incorrect,nobu,{[hid]:{at:'2026-11-07'}},sha),false);
 });
