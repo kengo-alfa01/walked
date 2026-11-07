@@ -43,7 +43,12 @@ function saveMapDisplay(){
 }
 const $=id=>document.getElementById(id); const status=s=>{$('status').textContent=s};
 function readSaved(){return readStore(DBKEY,{},v=>WalkedCore.records(v,'制覇'));}
-function persist(){try{writeStore(DBKEY,state.visited);updateTitles();updateStats();renderMapSearch();}catch(e){status('⚠️ 記録を保存できません：'+e.message);throw e;}}
+function persist(){
+ try{writeStore(DBKEY,state.visited);updateTitles();updateStats();renderMapSearch()}
+ catch(e){status('記録を保存できません：'+e.message);throw e}
+ // Visit records are written first; card awards must never be assumed saved.
+ try{return reconcileSengokuVisits()}catch(e){status('訪問記録は保存済みですが、追加カードの保存に失敗しました：'+e.message);return 0}
+}
 // walked-area-add-mode-v1
 let areaAddModeEnabled=false;
 function syncAreaAddMode(){const indicator=document.getElementById('areaAddIndicator');indicator.textContent=areaAddModeEnabled?'✏️ エリア追加モード：地図・検索結果から登録／解除できます。':'🔒 閲覧モード：地図・検索結果からエリアは変更されません。';indicator.style.background=areaAddModeEnabled?'#fff1d5':'#e2f1e9';}
@@ -172,7 +177,7 @@ function areaModeForFeature(f,mode){
 function coveredPrefCodes(){const set=new Set();for(const id of Object.keys(state.visited)){if(id.startsWith(MACHIDA_PREFIX)||id===MACHIDA_CODE)set.add('13');else if(id.startsWith(SAGAMIHARA_PREFIX))set.add('14');else if(id.startsWith(NATION_PREFIX))set.add(id.slice(2,4));else if(!id.startsWith(PREF_PREFIX)&&state.featureById.has(id))set.add(id.slice(0,2));}return set}
 function isVisited(id){if(id.startsWith(PREF_PREFIX))return coveredPrefCodes().has(id.slice(2));/* 町田市の町丁は独立記録。市区町村の13209を継承しない。 */return areaRecordKeys(id).some(k=>!!state.visited[k])}
 function updateStats(){let all=state.mode==='nearby'?regionalFeatures():state.mode==='prefecture'?state.prefFeatures:state.mode==='nationwideDetail'?[...state.nationById.values()]:state.features;let codes=all.filter(f=>isVisited(keyForMode(f,state.mode)));let total=all.length;$('cnt').textContent=codes.length.toLocaleString('ja-JP');$('rate').textContent=total?(codes.length/total*100).toFixed(1)+'%':'--';$('pref').textContent=coveredPrefCodes().size;}
-function toggleFeature(f){if(!areaAddModeEnabled)return;const mode=state.mode,id=keyForMode(f,mode),name=labelFor(f,mode);if(state.mode==='prefecture'){status('都道府県は市区町村の制覇履歴から自動集計します。市区町村モードで登録してください。');return}if(isVisited(id)){if(confirm(name+'の制覇登録を解除しますか？')&&areaAddModeEnabled&&state.mode===mode)unmark(id)}else{mark(id);persist();status('✅ '+name+'を制覇！');acquireSengokuByAreaFeature(f)} }
+function toggleFeature(f){if(!areaAddModeEnabled)return;const mode=state.mode,id=keyForMode(f,mode),name=labelFor(f,mode);if(state.mode==='prefecture'){status('都道府県は市区町村の制覇履歴から自動集計します。市区町村モードで登録してください。');return}if(isVisited(id)){if(confirm(name+'の制覇登録を解除しますか？')&&areaAddModeEnabled&&state.mode===mode)unmark(id)}else{mark(id);persist();status('✅ '+name+'を制覇！')} }
 function handleMapAreaClick(feature,mode){
  selectMapRegion(feature,mode);
  if(areaAddModeEnabled){toggleFeature(feature);return;}
@@ -405,28 +410,17 @@ function distance(a,b){let rad=Math.PI/180,lat=(a[1]+b[1])/2*rad;return Math.hyp
 async function processRecords(records){if(!state.features.length){state.pending=records;status('境界データを読み込んでから処理します。');return}if(state.busy)return;state.busy=true;try{const before=Object.keys(state.visited).length;let matched=0,pts=records.slice();$('loading')?.remove();status('位置データ '+pts.length.toLocaleString()+'点を処理しています…');await new Promise(r=>setTimeout(r,20));
 // Coordinates only: don't infer unrecorded routes by connecting distant points.
 sengokuBulkImport=true;sengokuBatchDiscoveries.length=0;
-let newHistoryCards=0;for(let i=0;i<pts.length;i++){const x=pts[i],id=match(x.p);newHistoryCards+=acquireSengokuByPoint(x.p,x.t);if(id){matched++;mark(id,x.source,x.t);if(id===MACHIDA_CODE&&state.machida.length){const sub=state.machida.find(f=>geomContains(x.p,f.geometry));if(sub)mark(keyForMode(sub,'machida'),x.source,x.t)}if(state.sagamihara.length&&x.p[0]>139.05&&x.p[0]<139.55&&x.p[1]>35.35&&x.p[1]<35.8){const sub=state.sagamihara.find(f=>geomContains(x.p,f.geometry));if(sub)mark(keyForMode(sub,'sagamihara'),x.source,x.t)}}if(i%200===0){status('解析中… '+i.toLocaleString()+' / '+pts.length.toLocaleString()+'地点');await new Promise(r=>setTimeout(r,0))}}
+for(let i=0;i<pts.length;i++){const x=pts[i],id=match(x.p);if(id){matched++;mark(id,x.source,x.t);if(id===MACHIDA_CODE&&state.machida.length){const sub=state.machida.find(f=>geomContains(x.p,f.geometry));if(sub)mark(keyForMode(sub,'machida'),x.source,x.t)}if(state.sagamihara.length&&x.p[0]>139.05&&x.p[0]<139.55&&x.p[1]>35.35&&x.p[1]<35.8){const sub=state.sagamihara.find(f=>geomContains(x.p,f.geometry));if(sub)mark(keyForMode(sub,'sagamihara'),x.source,x.t)}}if(i%200===0){status('解析中… '+i.toLocaleString()+' / '+pts.length.toLocaleString()+'地点');await new Promise(r=>setTimeout(r,0))}}
 // Deliberately no straight-line interpolation: road/rail paths are not necessarily straight.
 // 全国の詳細境界は取り込まれた市区町村のうち最大30件を遅延取得して判定。
  const grouped=new Map();for(const x of pts){const f=getMunicipalityForPoint(x.p);if(!f)continue;const code=municipalCode(f);if(!grouped.has(code))grouped.set(code,[]);grouped.get(code).push(x)}
  let detailsChecked=0,detailsUnavailable=0;
  const work=[...grouped.entries()].filter(([code])=>!([MACHIDA_CODE,...SAGAMIHARA_WARDS].includes(code))).slice(0,30);
  for(const [code,points] of work){try{const ff=await loadTownForCode(code);for(const point of points){const matchTown=ff.find(f=>geomContains(point.p,f.geometry));if(matchTown){const id=keyForMode(matchTown,'nationwideDetail');mark(id,point.source,point.t)}}detailsChecked++}catch(e){detailsUnavailable++}}
- // Historical cards must be evaluated AFTER municipal town polygons have loaded.
- // Limit work to municipalities actually present in imported Timeline points.
- const historicalCodes=new Set(sengokuSites.map(site=>site.municipalityCode));
- for(const [code,points] of grouped){
-  if(!historicalCodes.has(code))continue;
-  try{
-   if(code===MACHIDA_CODE && !state.machida.length)await loadMachida();
-   else if(SAGAMIHARA_WARDS.includes(code)&&!state.sagamihara.length)await loadSagamihara();
-   else if(code!==MACHIDA_CODE&&!SAGAMIHARA_WARDS.includes(code)&&!state.nationCache.has(code))await loadTownForCode(code);
-   for(const point of points)newHistoryCards+=acquireSengokuByPoint(point.p,point.t);
-  }catch(error){console.warn('歴史区域境界の読み込み失敗',code,error)}
- }
- repaint();persist();let added=Object.keys(state.visited).length-before;state.busy=false;sengokuBulkImport=false;toastSengokuCards(sengokuBatchDiscoveries);sengokuBatchDiscoveries.length=0;$('summary').innerHTML='<p><strong>前回の取り込み結果</strong></p><p>位置情報：'+pts.length.toLocaleString()+'点<br>国内の行政区域に一致：'+matched.toLocaleString()+'点<br>新規制覇：<strong>'+added+'区域</strong><br>全国町丁判定：'+detailsChecked+'市区町村（失敗 '+detailsUnavailable+'）'+(grouped.size>30?' ※一度に最大30市区町村まで':'')+'</p><p>※GPS点の間は補間していません。通過した区域でもGPS点がなければ未制覇になります。</p>';status('✅ 読み込み完了。新たに'+added+'区域を制覇しました。歴史カード '+newHistoryCards+'枚を発見しました。');}finally{state.busy=false;sengokuBulkImport=false;sengokuBatchDiscoveries.length=0;}}
+ // v2 cards are awarded solely from confirmed municipality visits after persist().
+ repaint();const newHistoryCards=persist();let added=Object.keys(state.visited).length-before;state.busy=false;sengokuBulkImport=false;toastSengokuCards(sengokuBatchDiscoveries);sengokuBatchDiscoveries.length=0;$('summary').innerHTML='<p><strong>前回の取り込み結果</strong></p><p>位置情報：'+pts.length.toLocaleString()+'点<br>国内の行政区域に一致：'+matched.toLocaleString()+'点<br>新規制覇：<strong>'+added+'区域</strong><br>全国町丁判定：'+detailsChecked+'市区町村（失敗 '+detailsUnavailable+'）'+(grouped.size>30?' ※一度に最大30市区町村まで':'')+'</p><p>※GPS点の間は補間していません。通過した区域でもGPS点がなければ未制覇になります。</p>';status('✅ 読み込み完了。新たに'+added+'区域を制覇しました。歴史カード '+newHistoryCards+'枚を発見しました。');}finally{state.busy=false;sengokuBulkImport=false;sengokuBatchDiscoveries.length=0;}}
 $('jsonFile').addEventListener('change',async e=>{let f=e.target.files?.[0];if(!f)return;try{status('JSONを読み取り中…');let data=JSON.parse(await f.text()),pts=extract(data);if(!pts.length){status('⚠️ このJSONから緯度経度を取り出せませんでした。実データの形式に合わせた調整が必要です。');return}if(pts.length>500000){if(!confirm(pts.length+'地点あります。処理が重くなる可能性があります。続けますか？'))return}await processRecords(pts)}catch(err){status('⚠️ JSON読み込みエラー：'+err.message)}finally{e.target.value=''}});
-$('locate').onclick=()=>{if(!navigator.geolocation)return status('位置情報機能が使えません');status('現在地を取得中…');navigator.geolocation.getCurrentPosition(p=>{let xy=[p.coords.longitude,p.coords.latitude];map.setView([xy[1],xy[0]],11);const id=match(xy);if(id){let finalId=id;if(id===MACHIDA_CODE&&state.machida.length){const sub=state.machida.find(f=>geomContains(xy,f.geometry));if(sub){finalId=keyForMode(sub,'machida');mark(id,'現在地',new Date().toISOString())}}mark(finalId,'現在地',new Date().toISOString());if(state.sagamihara.length){const sub=state.sagamihara.find(f=>geomContains(xy,f.geometry));if(sub)mark(keyForMode(sub,'sagamihara'),'現在地',new Date().toISOString())}repaint();persist();(async()=>{try{const municipality=getMunicipalityForPoint(xy);const code=municipality?municipalCode(municipality):'';acquireSengokuByPoint(xy);if(code&&code!==MACHIDA_CODE&&!SAGAMIHARA_WARDS.includes(code)&&!state.nationCache.has(code))await loadTownForCode(code)}catch(e){console.warn('現在地での歴史カード照合エラー',e)}})();status('📍 '+(finalId.startsWith(MACHIDA_PREFIX)?labelFor(state.machidaById.get(finalId),'machida'):finalId.startsWith(SAGAMIHARA_PREFIX)?labelFor(state.sagamiharaById.get(finalId),'sagamihara'):title(state.featureById.get(id)))+'を登録しました')}else status('現在地に一致する市区町村が見つかりませんでした')},err=>status('位置取得失敗：'+err.message),{enableHighAccuracy:true,timeout:20000,maximumAge:0})};
+$('locate').onclick=()=>{if(!navigator.geolocation)return status('位置情報機能が使えません');status('現在地を取得中…');navigator.geolocation.getCurrentPosition(p=>{let xy=[p.coords.longitude,p.coords.latitude];map.setView([xy[1],xy[0]],11);const id=match(xy);if(id){let finalId=id;if(id===MACHIDA_CODE&&state.machida.length){const sub=state.machida.find(f=>geomContains(xy,f.geometry));if(sub){finalId=keyForMode(sub,'machida');mark(id,'現在地',new Date().toISOString())}}mark(finalId,'現在地',new Date().toISOString());if(state.sagamihara.length){const sub=state.sagamihara.find(f=>geomContains(xy,f.geometry));if(sub)mark(keyForMode(sub,'sagamihara'),'現在地',new Date().toISOString())}repaint();persist();(async()=>{try{const municipality=getMunicipalityForPoint(xy);const code=municipality?municipalCode(municipality):'';if(code&&code!==MACHIDA_CODE&&!SAGAMIHARA_WARDS.includes(code)&&!state.nationCache.has(code))await loadTownForCode(code)}catch(e){console.warn('現在地での歴史カード照合エラー',e)}})();status('📍 '+(finalId.startsWith(MACHIDA_PREFIX)?labelFor(state.machidaById.get(finalId),'machida'):finalId.startsWith(SAGAMIHARA_PREFIX)?labelFor(state.sagamiharaById.get(finalId),'sagamihara'):title(state.featureById.get(id)))+'を登録しました')}else status('現在地に一致する市区町村が見つかりませんでした')},err=>status('位置取得失敗：'+err.message),{enableHighAccuracy:true,timeout:20000,maximumAge:0})};
 function focusMapSearchFeature(feature){
  // The finder always targets a municipality, regardless of the currently visible map layer.
  if(state.mode!=='municipal')changeMode('municipal');
@@ -491,290 +485,169 @@ $('beforeRestore').onclick=()=>{try{const raw=localStorage.getItem(restoreCheckp
 $('clear').onclick=()=>{if(confirm('制覇記録だけを削除しますか？ カード・獲得済み称号は保持します。削除前のバックアップを端末内に保存します。')){try{const before=currentBackup();localStorage.setItem(restoreCheckpointKey,JSON.stringify(before));writeStore(DBKEY,{});state.visited={};updateTitles();repaint();status('制覇記録を削除しました。カードと称号は保持しています。')}catch(e){status('⚠️ 削除できません：'+e.message)}}};
 Promise.all([boundaries(),loadPrefectures(),loadMachida(),loadSagamihara()]);
 
-// Legacy history-area compatibility helper. The standalone UI is closed; history.json is retained.
-const normHistory=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[０-９]/g,c=>String.fromCharCode(c.charCodeAt(0)-65248));
-function hasHistoryArea(h){
- const features=h.city==='町田'?state.machida:state.sagamihara;
- const mode=h.city==='町田'?'machida':'sagamihara';
- // No city-wide shortcut: only independently visited town/chome records unlock history.
- return features.some(f=>{
-  const area=normHistory(f.properties?.S_NAME||f.properties?.s_name||f.properties?.name||f.properties?.MOJI||'');
-  const desired=normHistory(h.area);
-  return (area===desired||area.startsWith(desired+'丁目')||area.startsWith(desired+'字')||area.startsWith(desired+'大字')||area.startsWith(desired))&&isVisited(keyForMode(f,mode));
- });
-}
-// Sengoku collection: empty catalog is valid; verified records are appended as data files.
+// Sengoku v2 is the only current public catalogue. Pre-v2 content is not loaded.
+// Historic card IDs remain untouched in device storage and walk-backup-v3.
 const sengokuStoreKey='walked_sengoku_cards_v1';
-let sengokuPeople=[],sengokuSites=[],sengokuLinks=[],sengokuCards=[],sengokuTextOnly=[],sengokuProvisionalHistory=[],sengokuChronologyHints=new Map(),sengokuProfiles=new Map(),sengokuPublicationCredits={},sengokuOpen=false,selectedSengokuPersonId=null,activeCollectionMode='regional';
-let sengokuBulkImport=false;const sengokuBatchDiscoveries=[];
-let sengokuPins=L.layerGroup().addTo(map);
 const sengokuFound=readStore(sengokuStoreKey,{},v=>WalkedCore.records(v,'カード'));
-// A card becomes eligible only when BOTH existing review labels pass.
-// This is a conservative catalog gate, not an independent claim of authenticity.
-function eligibleSengokuCard(c){
- const site=sengokuSites.find(s=>s.id===c.siteId);
- return c.verification==='reviewed' && site?.verification==='reviewed' && site?.boundaryAudit!=='unresolved_polygon_mismatch' && site?.catalogEligibility!=='exclude_pending_evidence';
+let sengokuV2Catalog=null,sengokuPeople=[],sengokuOpen=false,selectedSengokuPersonId=null,activeCollectionMode='regional';
+let sengokuBulkImport=false;
+const sengokuBatchDiscoveries=[];
+const sengokuPins=L.layerGroup().addTo(map);
+function approvedHistories(personId){
+ return sengokuV2Catalog?[...sengokuV2Catalog.histories.values()].filter(h=>h.personId===personId):[];
 }
-function ownsSengokuCard(id){return !!sengokuFound[id] && sengokuCards.some(c=>c.id===id && eligibleSengokuCard(c))}
-function catalogCardCount(personId){return sengokuCards.filter(c=>c.personId===personId&&eligibleSengokuCard(c)).length}
-function countOwned(personId){return sengokuCards.filter(c=>c.personId===personId&&eligibleSengokuCard(c)&&ownsSengokuCard(c.id)).length}
-function unlockedSite(site){return sengokuCards.some(c=>c.siteId===site.id&&ownsSengokuCard(c.id))}
+function ownsSengokuCard(id){
+ return !!sengokuV2Catalog?.histories.has(id)&&Object.prototype.hasOwnProperty.call(sengokuFound,id);
+}
+function countOwned(personId){return approvedHistories(personId).filter(h=>ownsSengokuCard(h.historyId)).length}
+function catalogCardCount(personId){return approvedHistories(personId).length}
 function refreshSengokuPins(){
- sengokuPins.clearLayers();if(activeCollectionMode!=='sengoku')return;
+ sengokuPins.clearLayers();
+ if(!sengokuV2Catalog||activeCollectionMode!=='sengoku')return;
  const showUnknown=$('showUnknownPins').checked;
- const personSites=selectedSengokuPersonId?new Set(sengokuCards.filter(c=>c.personId===selectedSengokuPersonId&&ownsSengokuCard(c.id)).map(c=>c.siteId)):null;
- for(const site of sengokuSites){
-  const acquired=unlockedSite(site);
-  if(personSites){if(!personSites.has(site.id))continue;}
-  else if(!acquired&&!showUnknown)continue;
-  if(!Array.isArray(site.point)||site.point.length!==2)continue;
+ for(const site of sengokuV2Catalog.sites.values()){
+  if(!site.publicPin||!Array.isArray(site.point))continue;
+  const linked=[...sengokuV2Catalog.linkSites.entries()].filter(([historyId,sites])=>
+   sites.has(site.siteId)&&(!selectedSengokuPersonId||
+    sengokuV2Catalog.histories.get(historyId)?.personId===selectedSengokuPersonId));
+  if(!linked.length)continue;
+  const acquired=linked.some(([id])=>ownsSengokuCard(id));
+  if(selectedSengokuPersonId&&!acquired)continue;
+  if(!acquired&&!showUnknown)continue;
   const [lng,lat]=site.point;
-  const marker=L.circleMarker([lat,lng],{radius:5,color:acquired?'#064e3b':'#334155',fillColor:acquired?'#34d399':'#94a3b8',weight:2,opacity:1,fillOpacity:1});
-  const label=acquired?site.name:'未発見の歴史スポット';
-  marker.bindPopup(label);marker.addTo(sengokuPins);
+  L.circleMarker([lat,lng],{radius:5,color:acquired?'#064e3b':'#334155',
+   fillColor:acquired?'#34d399':'#94a3b8',weight:2,opacity:1,fillOpacity:1})
+   .bindPopup(acquired?site.name:'未発見の歴史スポット').addTo(sengokuPins);
  }
 }
 function renderSengoku(){
- $('sengokuCount').textContent=`獲得人物 ${sengokuPeople.filter(p=>countOwned(p.id)>0).length}人／カード ${sengokuCards.filter(c=>ownsSengokuCard(c.id)).length}枚`;
+ const owned=sengokuPeople.filter(p=>countOwned(p.id)>0);
+ const cards=sengokuV2Catalog?[...sengokuV2Catalog.histories.values()].filter(h=>ownsSengokuCard(h.historyId)).length:0;
+ $('sengokuCount').textContent='獲得人物 '+owned.length+'人／カード '+cards+'枚';
  if(!sengokuOpen)return;
  const target=$('sengokuList');target.replaceChildren();
- const q=$('sengokuSearch').value.trim();
- const people=sengokuPeople.filter(p=>(!q||p.name.includes(q)||String(p.group||'').includes(q))&&countOwned(p.id)>0);
- if(!people.length){const p=document.createElement('p');p.className='sengoku-empty';p.textContent=q?'条件に合う獲得済み人物がいません。':'まだ獲得した人物はいません。史跡があるエリアを訪れてみましょう。';target.append(p);return}
- for(const person of people){const b=document.createElement('button');b.className='sengoku-person';b.type='button';
- const t=document.createElement('strong');t.textContent=person.name;const small=document.createElement('small');small.textContent=`${countOwned(person.id)} / ${catalogCardCount(person.id)} 枚`;
- b.append(t,small);b.onclick=()=>showSengokuPerson(person);target.append(b)}
-}
-function sengokuTimelineMeta(row){
- const record=row.kind==='place'?row.card:row.entry;
- const hint=sengokuChronologyHints.get(row.id);
- // Only a reading order hint; source dates, historical claims and GPS acquisition stay unchanged.
- const year=Number.isInteger(record.eventYear)?record.eventYear:(hint?.sortYear??null);
- const section=hint?.section||'life';
- const label=Number.isInteger(record.eventYear)?String(record.eventYear)+(Number.isInteger(record.eventYearEnd)&&record.eventYearEnd!==record.eventYear?'〜'+record.eventYearEnd:'')+'年':hint?.label||'時期を確認中';
- return {year,section,label};
-}
-function sortSengokuTimeline(a,b){
- const ay=a.timeline.year??Infinity,by=b.timeline.year??Infinity;
- if(ay!==by)return ay-by;
- const priority=r=>/出生|生まれる|誕生/.test((r.kind==='place'?r.card:r.entry).title)?-1:/死去|亡くなる|没する/.test((r.kind==='place'?r.card:r.entry).title)?1:0;
- return priority(a)-priority(b)||a.id.localeCompare(b.id);
+ const q=$('sengokuSearch').value.trim(),people=owned.filter(p=>!q||p.name.includes(q));
+ if(!people.length){
+  const p=document.createElement('p');p.className='sengoku-empty';
+  p.textContent=q?'条件に合う獲得済み人物がいません。':'まだ獲得した人物はいません。訪問地域を登録すると経歴が増えます。';
+  target.append(p);return;
+ }
+ for(const person of people){
+  const button=document.createElement('button');button.type='button';button.className='sengoku-person';
+  const title=document.createElement('strong');title.textContent=person.name;
+  const count=document.createElement('small');count.textContent=countOwned(person.id)+' / '+catalogCardCount(person.id)+' 枚';
+  button.append(title,count);button.onclick=()=>showSengokuPerson(person);target.append(button);
+ }
 }
 function showSengokuPerson(person){
+ const approved=sengokuV2Catalog?.people.get(person?.id);
+ if(!approved||!countOwned(person.id))return;
  selectedSengokuPersonId=person.id;refreshSengokuPins();
- const div=$('sengokuDetail');div.replaceChildren();
- const h=document.createElement('h3');h.textContent=person.name+' ― 人生の足跡';div.append(h);
- const reset=document.createElement('button');reset.type='button';reset.className='alt';reset.textContent='全人物の史跡ピンを表示';
- reset.onclick=()=>{selectedSengokuPersonId=null;refreshSengokuPins();reset.remove();};
- div.append(reset);
- const profile=sengokuProfiles.get(person.id);
- if(profile&&countOwned(person.id)>0){
-  const section=document.createElement('section');section.className='sengoku-profile';section.setAttribute('aria-label','確認済みの人物紹介');
-  const years=document.createElement('p');years.textContent=(Number.isInteger(profile.birthYear)?profile.birthYear+'年生':'生年未確認')+' ／ '+(Number.isInteger(profile.deathYear)?profile.deathYear+'年没':'没年未確認')+'（'+profile.calendar+'・年単位）';
-  const summary=document.createElement('p');summary.textContent=profile.summary;section.append(years,summary);
-  if(profile.aliases.length){const aliases=document.createElement('p');aliases.textContent='別名：'+profile.aliases.map(a=>a.name+'（'+a.type+'）').join('、');section.append(aliases);}
-  const credit=document.createElement('p');credit.className='small-note';credit.style.whiteSpace='pre-line';credit.textContent=profile.attribution;section.append(credit);
-  for(const url of profile.sourceUrls){if(!/^https:\/\//.test(url))continue;const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='人物紹介の出典を読む ↗';a.style.display='block';section.append(a);}
-  div.append(section);
- }
- const line=document.createElement('p');line.className='sengoku-empty';
- line.textContent='本人の生涯を古い順に表示します。年代の異説・幅は明示し、没後の記録や年を特定しにくい背景は別に整理します。場所カードの獲得条件は変わりません。';div.append(line);
- const placeCards=sengokuCards.filter(c=>c.personId===person.id&&eligibleSengokuCard(c));
- const acquiredPerson=countOwned(person.id)>0;
- const textOnly=acquiredPerson?sengokuTextOnly.filter(e=>e.personId===person.id):[];
- // If an approved location card already covers this exact history ID, keep its location unlock rule.
- const provisional=acquiredPerson?sengokuProvisionalHistory.filter(e=>e.personId===person.id&&!e.existingApprovedCardIds.some(id=>placeCards.some(c=>c.id===id))):[];
- const rows=[...placeCards.map(card=>({kind:'place',id:card.id,card})),...textOnly.map(entry=>({kind:'text',id:entry.id,entry})),...provisional.map(entry=>({kind:'provisional',id:entry.id,entry}))];
- for(const row of rows)row.timeline=sengokuTimelineMeta(row);
- if(!rows.length){const p=document.createElement('p');p.textContent='公開対象の経歴はまだありません。';div.append(p);return;}
- const groups=[
-  {id:'life',title:'生涯の歩み（古い順）',detail:'確定年・年代の幅・前後関係を区別して表示'},
-  {id:'posthumous',title:'没後の記録・追善',detail:'墓所・供養など、本人の生前行動とは区別'},
-  {id:'context',title:'時期の広い背景・関連情報',detail:'史実上の関係はあるものの、個別の年を特定しない項目'}
- ];
- for(const group of groups){
-  const items=rows.filter(row=>row.timeline.section===group.id).sort(sortSengokuTimeline);
-  if(!items.length)continue;
-  const heading=document.createElement('h4');heading.textContent=group.title+'（'+items.length+'件）';div.append(heading);
-  const note=document.createElement('p');note.className='small-note';note.textContent=group.detail;div.append(note);
-  for(const row of items){
-   const el=document.createElement('div');el.className='sengoku-era';
-   const year=document.createElement('div');year.className='sengoku-year';
-   const record=row.kind==='place'?row.card:row.entry;
-   year.textContent=row.timeline.label;
+ const detail=$('sengokuDetail');detail.replaceChildren();
+ const head=document.createElement('h3');head.textContent=person.name+' ― 人生の足跡';detail.append(head);
+ const reset=document.createElement('button');reset.type='button';reset.className='alt';
+ reset.textContent='全人物の史跡ピンを表示';
+ reset.onclick=()=>{selectedSengokuPersonId=null;refreshSengokuPins();reset.remove()};
+ detail.append(reset);
+ const section=document.createElement('section');section.className='sengoku-v2-narrative';
+ const introHead=document.createElement('h4');introHead.textContent='人物紹介';section.append(introHead);
+ const intro=document.createElement('p');intro.textContent=approved.introduction.text;section.append(intro);
+ const histories=approvedHistories(person.id).sort((a,b)=>
+  (a.eventYear??9999)-(b.eventYear??9999)||a.historyId.localeCompare(b.historyId));
+ const progress=document.createElement('p');progress.className='small-note';
+ progress.textContent='経歴カード '+countOwned(person.id)+' / '+histories.length+'枚';section.append(progress);
+ const group=document.createElement('h4');group.textContent='生涯の歩み';section.append(group);
+ for(const history of histories){
+  const row=document.createElement('div');row.className='sengoku-era';
+  const date=document.createElement('div');date.className='sengoku-year';date.textContent=history.yearText;
   const content=document.createElement('div');
-  if(row.kind==='text'||row.kind==='provisional'){
-   content.textContent='📜 '+record.title+' — '+record.summary;
-   const sourceNote=document.createElement('span');sourceNote.className='small-note';
-   sourceNote.textContent=row.kind==='text'?'（場所に紐づかない経歴）':'（本文のみ暫定公開・位置カード未解放）';content.append(sourceNote);
-   if(record.bodyReviewStatus==='限定公開可'){const limited=document.createElement('span');limited.className='small-note';limited.textContent='（限定条件を反映した本文）';content.append(limited);}
-   for(const url of record.sourceUrls){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=' 出典を読む';content.append(a);}
-  }else if(ownsSengokuCard(record.id)){
-   const site=sengokuSites.find(s=>s.id===record.siteId);
-   const municipality=site&&titleRegistry?.areas?.find(a=>a.code===String(site.municipalityCode));
-   if(municipality)year.textContent+=' ／ '+municipality.name;
-   else if(site?.region)year.textContent+=' ／ '+site.region;
-   content.textContent='📜 '+record.title+' — '+record.summary+(site?'（'+site.name+'）':'');
-   const credit=sengokuPublicationCredits[record.id];
-   if(credit){const p=document.createElement('p');p.className='small-note publication-credit';p.style.whiteSpace='pre-line';p.textContent=credit.attribution;content.append(p);for(const url of credit.sourceUrls){if(!/^https:\/\//.test(url))continue;const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='参考資料を読む ↗';a.style.display='block';content.append(a);}}
-   if(record.source&&/^https:\/\//.test(record.source)){const a=document.createElement('a');a.href=record.source;a.target='_blank';a.rel='noopener noreferrer';a.textContent=' 出典を読む';content.append(a);}
-  }else content.textContent='🔒 未発見の足跡';
-   el.append(year,content);div.append(el);
-  }
+  if(ownsSengokuCard(history.historyId)){
+   content.textContent=history.title+' — '+history.text;
+   for(const url of history.sourceUrls||[]){
+    if(!/^https:\/\/[^\s]+$/.test(url))continue;
+    const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';
+    a.textContent=' 出典を読む';content.append(a);
+   }
+  }else{content.className='sengoku-v2-locked';content.textContent='未発見の足跡'}
+  row.append(date,content);section.append(row);
  }
+ const storyHead=document.createElement('h4');storyHead.textContent='完成版ストーリー';section.append(storyHead);
+ const story=document.createElement('p');
+ if(SengokuV2.canUnlockStory(sengokuV2Catalog,person.id,sengokuFound,PublicationRuntime.sha256))
+  story.textContent=approved.story.text;
+ else{story.className='sengoku-v2-locked';story.textContent='全経歴カードを集めると解放されます。'}
+ section.append(story);detail.append(section);
 }
 function toastSengokuCards(ids){
- if(!ids.length)return;
- const toast=$('sengokuToast');if(!toast)return;
- const distinctPeople=[...new Set(ids.map(id=>sengokuCards.find(c=>c.id===id)?.personId).filter(Boolean))];
- toast.replaceChildren();const line=document.createElement('div');
- line.textContent='🏯 歴史カードを'+ids.length+'枚獲得！ 関連人物 '+distinctPeople.length+'人';toast.append(line);
- const btn=document.createElement('button');btn.type='button';btn.textContent='人物コレクションを見る';
- btn.onclick=()=>{toast.hidden=true;selectCollectionMode('sengoku');$('sengokuPanel').scrollIntoView({behavior:'smooth',block:'start'});renderSengoku();if(distinctPeople.length===1){const p=sengokuPeople.find(x=>x.id===distinctPeople[0]);if(p)showSengokuPerson(p)}};
- toast.append(btn);toast.hidden=false;
-}
-function acquireSengokuByAreaFeature(feature){
- const code=String(feature.properties?.WALKED_MUNICIPAL_CODE||feature.properties?.N03_007||areaMunicipalityCode(keyForMode(feature,state.mode))||'');
- const eligibleSites=sengokuSites.filter(s=>(code&&String(s.municipalityCode)===code)||geomContains(s.point,feature.geometry));
- const addedIds=[],next={...sengokuFound};
- for(const site of eligibleSites){
-  if(site.boundaryAudit==='unresolved_polygon_mismatch'||site.catalogEligibility==='exclude_pending_evidence')continue;
-  for(const card of sengokuCards){
-   if(card.siteId!==site.id||!eligibleSengokuCard(card)||sengokuFound[card.id])continue;
-   next[card.id]={at:new Date().toISOString(),siteId:site.id};addedIds.push(card.id);
-  }
- }
- if(addedIds.length){writeStore(sengokuStoreKey,next);Object.assign(sengokuFound,next);renderSengoku();refreshSengokuPins();toastSengokuCards(addedIds)}
-}
-// Pure matching function shared by real acquisition and side-effect-free test mode.
-function matchedSengokuCardsAtPoint(lngLat){
- const matched=new Set();let missingBoundary=0;
- const municipality=getMunicipalityForPoint(lngLat);
- const code=municipality?municipalCode(municipality):'';
- for(const site of sengokuSites){
-  if(!Array.isArray(site.point)||site.point.length!==2)continue;
-  if(code&&String(site.municipalityCode)===code){
-   for(const card of sengokuCards)if(card.siteId===site.id&&eligibleSengokuCard(card))matched.add(card.id);
-   continue;
-  }
-  const candidates=site.municipalityCode==='13209'?state.machida:
-       ['14151','14152','14153'].includes(site.municipalityCode)?state.sagamihara:
-       (state.nationCache.get(site.municipalityCode)||[]);
-  if(!candidates.length){missingBoundary++;continue}
-  const polygon=candidates.find(f=>geomContains(site.point,f.geometry));
-  if(!polygon||!geomContains(lngLat,polygon.geometry))continue;
-  for(const card of sengokuCards){if(card.siteId===site.id&&eligibleSengokuCard(card))matched.add(card.id)}
- }
- return {ids:[...matched],missingBoundary};
-}
-function acquireSengokuByPoint(lngLat,at){
- const matched=matchedSengokuCardsAtPoint(lngLat);
- let added=0;const newlyAcquired=[],next={...sengokuFound};
- for(const id of matched.ids){
-  if(sengokuFound[id])continue;
-  const card=sengokuCards.find(c=>c.id===id);
-  next[id]={at:at||new Date().toISOString(),siteId:card?.siteId};added++;newlyAcquired.push(id);
- }
- if(added){writeStore(sengokuStoreKey,next);Object.assign(sengokuFound,next);renderSengoku();refreshSengokuPins();if(sengokuBulkImport)sengokuBatchDiscoveries.push(...newlyAcquired);else toastSengokuCards(newlyAcquired)}
- return added;
+ const awards=[...new Set(ids||[])].filter(id=>sengokuV2Catalog?.histories.has(id));
+ if(!awards.length)return;
+ const people=new Set(awards.map(id=>sengokuV2Catalog.histories.get(id).personId));
+ const toast=$('sengokuToast');toast.replaceChildren();
+ const line=document.createElement('div');
+ line.textContent='戦国時代の経歴カード '+awards.length+'枚獲得！ 関連人物 '+people.size+'人';toast.append(line);
+ const button=document.createElement('button');button.type='button';button.textContent='人物コレクションを見る';
+ button.onclick=()=>{
+  toast.hidden=true;selectCollectionMode('sengoku');$('sengokuPanel').scrollIntoView?.({behavior:'smooth',block:'start'});
+  renderSengoku();
+  if(people.size===1){const person=sengokuPeople.find(p=>p.id===[...people][0]);if(person)showSengokuPerson(person)}
+ };
+ toast.append(button);toast.hidden=false;
 }
 function reconcileSengokuVisits(){
- if(!sengokuSites.length)return;
- const codes=new Set(Object.keys(state.visited).map(areaMunicipalityCode).filter(Boolean));
- const ids=sengokuCards.filter(c=>eligibleSengokuCard(c)&&codes.has(String(sengokuSites.find(s=>s.id===c.siteId)?.municipalityCode))&&!sengokuFound[c.id]).map(c=>c.id);
- if(ids.length){
-  const next={...sengokuFound};for(const id of ids){const card=sengokuCards.find(c=>c.id===id);next[id]={at:new Date().toISOString(),siteId:card.siteId};}
-  writeStore(sengokuStoreKey,next);Object.assign(sengokuFound,next);renderSengoku();refreshSengokuPins();toastSengokuCards(ids);
- }
+ if(!sengokuV2Catalog)return 0;
+ const already=new Set([...sengokuV2Catalog.histories.values()]
+  .filter(h=>h.kind==='place'&&ownsSengokuCard(h.historyId)).map(h=>h.personId));
+ const result=SengokuV2.award(sengokuV2Catalog,state.visited,sengokuFound,already);
+ if(!result.added.length)return 0;
+ writeStore(sengokuStoreKey,result.records);
+ Object.assign(sengokuFound,result.records);
+ renderSengoku();refreshSengokuPins();
+ if(sengokuBulkImport)sengokuBatchDiscoveries.push(...result.added);
+ else toastSengokuCards(result.added);
+ return result.added.length;
 }
 function refreshSengokuTestSites(){
  const select=$('testSite');select.replaceChildren();
- if(!sengokuSites.length){select.add(new Option('テスト可能な史跡はありません',''));return}
- sengokuSites.forEach((site,i)=>select.add(new Option('テスト地点 '+String(i+1).padStart(2,'0'),site.id)));
+ if(!sengokuV2Catalog){select.add(new Option('公開データを読み込み中',''));return}
+ const sites=[...sengokuV2Catalog.sites.values()].filter(s=>s.publicPin&&Array.isArray(s.point));
+ if(!sites.length){select.add(new Option('公開可能なテスト地点はありません',''));return}
+ sites.forEach((site,i)=>select.add(new Option('テスト地点 '+String(i+1).padStart(2,'0'),site.siteId)));
 }
 $('runSengokuTest').onclick=async()=>{
- const result=$('testSengokuResult');const button=$('runSengokuTest');
- const site=sengokuSites.find(s=>s.id===$('testSite').value);
- if(!site||!Array.isArray(site.point)){result.textContent='テスト地点を選んでください。';return}
- button.disabled=true;result.textContent='疑似通過の判定中…';
+ const result=$('testSengokuResult'),button=$('runSengokuTest');
+ const site=sengokuV2Catalog?.sites.get($('testSite').value);
+ if(!site?.publicPin||!Array.isArray(site.point)){result.textContent='公開済みのテスト地点を選んでください。';return}
+ button.disabled=true;
  try{
-  if(!state.features.length){result.textContent='市区町村境界の読込後に再試行してください。（記録は変更していません）';return}
-  const municipality=getMunicipalityForPoint(site.point);
-  if(!municipality||municipalCode(municipality)!==String(site.municipalityCode)){result.textContent='史跡の座標と市区町村コードが一致しません。位置を要確認です。（記録は変更していません）';return}
-  const matched=matchedSengokuCardsAtPoint(site.point);
-  const newlyMatched=matched.ids.filter(id=>!ownsSengokuCard(id));
-  const affectedPeople=new Set(sengokuCards.filter(c=>matched.ids.includes(c.id)).map(c=>c.personId));
-  // Do not expose unrevealed names or card details. No state mutation/persistence.
-  result.textContent=`🧪 疑似通過テスト結果\n市区町村境界：取得成功\n史跡地点：判定実行済み\n獲得判定に一致：${matched.ids.length}枚\n未獲得から新たに獲得する想定：${newlyMatched.length}枚\n関連人物：${affectedPeople.size}人${matched.ids.length===0?'\n※この地点は史実・人物の確認待ち、または公開対象カードなし。':''}\n実際の獲得数・地図・バックアップは変更していません。`;
- }catch(e){result.textContent='⚠️ 判定できませんでした：'+e.message+'（記録は変更していません）'}
+  if(!state.features.length){result.textContent='市区町村境界の読み込み後にお試しください。';return}
+  const f=getMunicipalityForPoint(site.point),code=f?municipalCode(f):'';
+  if(!site.codes.includes(code)){result.textContent='史跡の自治体コードと座標の照合が必要です。記録は変更していません。';return}
+  const awarded=SengokuV2.award(sengokuV2Catalog,{[code]:{}},sengokuFound,[]);
+  result.textContent='疑似通過：'+code+'／新たに獲得する想定 '+awarded.added.length+'枚。訪問・カード記録は変更していません。';
+ }catch(e){result.textContent='確認できません：'+e.message+'（記録は変更していません）'}
  finally{button.disabled=false}
 };
-async function loadSengoku(){try{
- const responses=await Promise.all(['people','sites','links','cards','approved-profiles','publication-credits'].map(k=>fetch('./sengoku/'+k+'.json',{cache:'no-cache'})));
- if(responses.some(r=>!r.ok))throw Error('データファイルがありません');
- let [people,sites,links,cards,profiles,credits]=await Promise.all(responses.map(r=>r.json()));
- let publicationWarning='';
+async function loadSengoku(){
  try{
-  const response=await fetch('./publication-import/releases/20261102-line-c/package.json',{cache:'no-cache'});if(!response.ok)throw Error('HTTP '+response.status);
-  const data=PublicationRuntime.apply({'sengoku/people.json':people,'sengoku/sites.json':sites,'sengoku/links.json':links,'sengoku/cards.json':cards,'sengoku/approved-profiles.json':profiles,'sengoku/publication-credits.json':credits},await response.json());
-  [people,sites,links,cards,profiles,credits]=['people','sites','links','cards','approved-profiles','publication-credits'].map(k=>data['sengoku/'+k+'.json']);
- }catch(error){publicationWarning='（追加データの読み込みに失敗しました。再読み込みしてください）';console.error(error);}
-
- if(!Array.isArray(people)||!Array.isArray(sites)||!Array.isArray(links)||!Array.isArray(cards))throw Error('配列形式ではありません');
- const ids=new Set(people.map(p=>p.id)),siteIds=new Set(sites.map(s=>s.id));
- if(cards.some(c=>!ids.has(c.personId)||!siteIds.has(c.siteId)))throw Error('人物または史跡への参照が不正です');
- let textOnly=[];
- try{
-  const response=await fetch('./sengoku/non-place-history.json',{cache:'no-cache'});
-  if(!response.ok)throw Error('HTTP '+response.status);
-  const data=await response.json();
-  if(data.schemaVersion!=='walked.sengoku.non-place.v1'||!Array.isArray(data.entries))throw Error('非場所型経歴の形式が不正');
-  const seen=new Set();
-  for(const e of data.entries){
-   if(typeof e.id!=='string'||!e.id||seen.has(e.id)||!ids.has(e.personId)||e.publicationStatus!=='公開可'||e.placeRelation!=='none'||!e.approvalId||typeof e.title!=='string'||!e.title||typeof e.summary!=='string'||!e.summary||!Array.isArray(e.sourceUrls)||!e.sourceUrls.length||e.sourceUrls.some(u=>typeof u!=='string'||!/^https:\/\//.test(u))||e.eventYear!==null&&!Number.isInteger(e.eventYear)||e.eventYearEnd!==null&&!Number.isInteger(e.eventYearEnd))throw Error('非場所型経歴の承認・参照・出典が不正');
-   seen.add(e.id);
-  }
-  textOnly=data.entries;
- }catch(error){publicationWarning+='（非場所型経歴は読込保留：'+error.message+'）';console.warn(error);}
- sengokuTextOnly=textOnly;
- let provisionalText=[];
- try{
-  const response=await fetch('./sengoku/provisional-history.json',{cache:'no-cache'});
-  if(!response.ok)throw Error('HTTP '+response.status);
-  const data=await response.json();
-  if(data.schemaVersion!=='walked.sengoku.provisional.v1'||!Array.isArray(data.entries))throw Error('暫定本文形式が不正');
-  const seen=new Set(textOnly.map(e=>e.historyId||e.id));
-  for(const e of data.entries){
-   if(typeof e.id!=='string'||!e.id||seen.has(e.id)||e.historyId!==e.id||!ids.has(e.personId)||e.publicationStatus!=='公開可'||!['本文公開可','限定公開可'].includes(e.bodyReviewStatus)||e.placeRelation!=='location_pending'||e.cardReleaseStatus!=='not_approved_by_this_import'||e.unlockRule!=='person_acquired_provisional'||!e.approvalId||typeof e.title!=='string'||!e.title||typeof e.summary!=='string'||!e.summary||!Array.isArray(e.sourceIds)||!e.sourceIds.length||!Array.isArray(e.sourceUrls)||!e.sourceUrls.length||e.sourceUrls.some(u=>typeof u!=='string'||!/^https:\/\//.test(u))||!Array.isArray(e.existingApprovedCardIds)||e.existingApprovedCardIds.some(id=>!cards.some(c=>c.id===id))||e.eventYear!==null&&!Number.isInteger(e.eventYear)||e.eventYearEnd!==null&&!Number.isInteger(e.eventYearEnd))throw Error('暫定本文の出典・公開条件・人物/歴史IDが不正');
-   seen.add(e.id);
-  }
-  provisionalText=data.entries;
- }catch(error){publicationWarning+='（位置未承認の経歴本文は読込保留：'+error.message+'）';console.warn(error);}
- sengokuProvisionalHistory=provisionalText;
- const chronology=new Map();
- try{
-  const response=await fetch('./sengoku/chronology-hints.json',{cache:'no-cache'});
-  if(!response.ok)throw Error('HTTP '+response.status);
-  const data=await response.json();
-  if(data.schemaVersion!=='walked.sengoku.chronology.v1'||!Array.isArray(data.entries))throw Error('年表補足の形式が不正');
-  const known=new Set([...cards.map(c=>c.id),...textOnly.map(e=>e.id),...provisionalText.map(e=>e.id)]);
-  for(const entry of data.entries){
-   if(!entry||typeof entry.id!=='string'||!known.has(entry.id)||chronology.has(entry.id)||!Number.isInteger(entry.sortYear)||entry.sortYear<1000||entry.sortYear>2100||!['life','posthumous','context'].includes(entry.section)||typeof entry.label!=='string'||!entry.label)throw Error('年表補足のID/年代が不正');
-   chronology.set(entry.id,entry);
-  }
-  if(chronology.size!==160)throw Error('年表補足の件数が異なります');
- }catch(error){publicationWarning+='（推定時期の読み込みに失敗：'+error.message+'）';console.warn(error);}
- sengokuChronologyHints=chronology;
- const linkKeys=new Set(links.map(l=>l.siteId+'|'+l.personId));
- if(links.some(l=>!ids.has(l.personId)||!siteIds.has(l.siteId))||cards.some(c=>!linkKeys.has(c.siteId+'|'+c.personId)))throw Error('関連テーブルの参照が不正です');
- if(profiles.schemaVersion!=='walked.approved-profiles.v1'||!Array.isArray(profiles.profiles)||profiles.profiles.some(p=>p.publicationStatus!=='公開可'||!Array.isArray(p.aliases)||!Array.isArray(p.sourceUrls))||new Set(profiles.profiles.map(p=>p.personId)).size!==profiles.profiles.length)throw Error('人物紹介データが不正です');
- sengokuProfiles=new Map(profiles.profiles.map(p=>[p.personId,p]));sengokuPublicationCredits=credits;
- sengokuPeople=people;sengokuSites=sites;sengokuLinks=links;sengokuCards=cards;
- const eligible=cards.filter(eligibleSengokuCard).length;
- const legacy=Object.keys(sengokuFound).filter(id=>!cards.some(c=>c.id===id&&eligibleSengokuCard(c))).length;
- $('sengokuQuality').textContent=`登録地点 ${sites.length}件／公開対象カード ${eligible}枚／精査待ちカード ${cards.length-eligible}枚`+(legacy?`（過去の暫定獲得記録 ${legacy}枚は保存・集計保留）`:'')+publicationWarning;
- refreshSengokuTestSites();renderSengoku();refreshSengokuPins();reconcileSengokuVisits();
- }catch(e){$('sengokuCount').textContent='戦国データの読み込み失敗';console.error(e)}
+  const [r,areas]=await Promise.all([
+   fetch('./sengoku/v2/approved-three-person-staging.json',{cache:'no-cache'}),
+   fetch('./data/title-registry.json',{cache:'no-cache'})
+  ]);
+  if(!r.ok||!areas.ok)throw Error('承認済み戦国v2のデータを読み込めません');
+  const doc=await r.json(),registry=await areas.json();
+  if(!Array.isArray(registry.areas))throw Error('自治体コード一覧が不正です');
+  const reviewed=SengokuV2.validate(doc,new Set(registry.areas.map(a=>a.code)),PublicationRuntime.sha256);
+  sengokuV2Catalog=reviewed;
+  sengokuPeople=[...reviewed.people.values()].map(p=>({id:p.personId,name:p.name}));
+  $('sengokuQuality').textContent='公開人物 '+reviewed.people.size+'人／承認経歴 '+reviewed.histories.size+
+   '件／史跡 '+reviewed.sites.size+'件（新正本v2のみ）';
+  refreshSengokuTestSites();renderSengoku();refreshSengokuPins();
+  try{reconcileSengokuVisits()}catch(e){status('経歴カードの保存に失敗しました：'+e.message)}
+ }catch(e){
+  sengokuV2Catalog=null;sengokuPeople=[];
+  $('sengokuQuality').textContent='承認済み戦国v2データの読み込み失敗：'+e.message;
+  console.error(e);
+ }
 }
 $('sengokuToggle').onclick=()=>{sengokuOpen=!sengokuOpen;if(!sengokuOpen){selectedSengokuPersonId=null;refreshSengokuPins();}$('sengokuBody').hidden=!sengokuOpen;$('sengokuToggle').textContent=sengokuOpen?'モードを閉じる':'モードを開く';renderSengoku()};
 $('sengokuSearch').oninput=renderSengoku;
@@ -860,4 +733,4 @@ if(storageWarnings.length){status('⚠️ '+storageWarnings.join(' '));$('titleP
 
 if(window.RegionalUI)window.regionEncyclopedia=RegionalUI.mount({getVisits:()=>{if(lockedStorageKeys.has(DBKEY))throw Error('訪問記録の読み込みを確認してください');const raw=localStorage.getItem(DBKEY);return raw===null?{}:WalkedCore.records(JSON.parse(raw),'制覇');},getRegistry:()=>titleRegistry});
 selectCollectionMode('regional');
-</script><script src="./sengoku-v2-integration.js"></script></body></html>
+</script></body></html>
