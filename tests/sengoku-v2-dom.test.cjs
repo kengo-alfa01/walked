@@ -100,7 +100,7 @@ test('copy-stable reviewed pin is the only staged v2 map pin even when previousl
  const w=await mount({walked_municipal_v2:visit(['23229'])});
  try{
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
-  const markers=[];w.eval('L.circleMarker=(xy,opts)=>{window.qaV2Markers.push({xy,opts});return {bindPopup(){return this},addTo(){return this}}};window.qaV2Markers=[];');
+  w.eval('window.qaV2Markers=[];sengokuPins.clearLayers=()=>{window.qaV2Markers.length=0};L.circleMarker=(xy,opts)=>{window.qaV2Markers.push({xy,opts});return {bindPopup(){return this},addTo(){return this}}};');
   openSengoku(w,personIds[0]);
   const pins=w.qaV2Markers;
   assert.ok(pins.length<=1,'v2 selected person should not expose other legacy pins');
