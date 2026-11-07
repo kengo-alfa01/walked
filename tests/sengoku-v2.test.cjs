@@ -132,3 +132,15 @@ test('all 108 approved histories are acquired once from 47 eligible municipaliti
  assert.equal(Object.keys(backup.cards).length,109);
  assert.equal(backup.cards['sg-card-0001'].at,'2001-01-01');
 });
+
+
+test('approved history municipality label only uses actual visited OR places',()=>{
+ const hid='sg2hist-nobu-1571-enryakuji',born='sg2hist-nobu-1534-birth';
+ const visits={'25201':{first:'2020-01-01'},'n:26103:001':{first:'2021-01-01'}};
+ const owned=V.award(index,visits,{},[]).records;
+ assert.deepEqual(V.earnedMunicipalities(index,hid,visits,owned),['25201','26103']);
+ assert.deepEqual(V.earnedMunicipalities(index,hid,{'25201':{}},owned),['25201']);
+ assert.deepEqual(V.earnedMunicipalities(index,born,visits,owned),[]);
+ assert.deepEqual(V.earnedMunicipalities(index,hid,visits,{}),[]);
+ assert.deepEqual(V.earnedMunicipalities(index,'sg2hist-unknown',visits,owned),[]);
+});
