@@ -2,7 +2,7 @@ const {test}=require('node:test');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
-const {webkit}=require('playwright');
+const {webkit,chromium}=require('playwright');
 
 const root=path.join(__dirname,'..');
 const assets=process.env.WALKED_BROWSER_ASSETS||path.join(root,'.qa-assets');
@@ -49,6 +49,22 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      throw error;
    }
    await page.locator('[data-collection-mode="sengoku"]').click();
+   const pins=await page.evaluate(()=>sengokuPins.getLayers().map(marker=>({
+     name:marker.getPopup().getContent().querySelector('h3')?.textContent,
+     point:[marker.getLatLng().lat,marker.getLatLng().lng],
+     color:marker.options.fillColor,popup:marker.getPopup().getContent().textContent
+   })));
+   assert.equal(pins.length,46,'all 46 site pins must be present even when histories are locked');
+   assert.equal(new Set(pins.map(p=>p.name)).size,46);
+   assert.equal(pins.filter(p=>p.color==='#21864e').length,43);
+   assert.deepEqual(pins.filter(p=>p.color==='#edb42d').map(p=>p.name).sort(),['岐阜城跡','安土城跡','姫路城跡'].sort());
+   assert.ok(pins.every(p=>p.popup.includes('現地の案内に従ってください。')));
+   assert.equal(await page.locator('#showUnknownPins').count(),0);
+   await page.evaluate(()=>{
+     const marker=sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('岐阜城跡'));
+     marker.fire('click');
+   });
+   assert.match(await page.locator('.leaflet-popup-content').innerText(),/一部立入制限.*史跡現地/s);
    await page.locator('.sengoku-person').filter({hasText:'織田信長'}).click();
    const narrative=page.locator('.sengoku-v2-narrative');
    await narrative.waitFor();
@@ -97,4 +113,39 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    await context.close();
    await browser.close();
  }
+});
+
+test('PC desktop Chromium viewport: 46 pins, access categories, deduplication and popup UI',{timeout:120000},async()=>{
+ const browser=await chromium.launch({headless:true});
+ const context=await browser.newContext({viewport:{width:1366,height:850},deviceScaleFactor:1});
+ const page=await context.newPage();
+ async function routes(){
+  await page.route('**/municipalities.topojson',route=>route.fulfill({path:path.join(assets,'municipalities.topojson'),contentType:'application/json'}));
+  await page.route('**/topojson-client@3/dist/topojson-client.min.js',route=>route.fulfill({path:path.join(assets,'topojson-client.min.js'),contentType:'application/javascript'}));
+  await page.route('**/leaflet@1.9.4/dist/leaflet.js',route=>route.fulfill({path:path.join(root,'node_modules/leaflet/dist/leaflet.js'),contentType:'application/javascript'}));
+  await page.route('**/leaflet@1.9.4/dist/leaflet.css',route=>route.fulfill({path:path.join(root,'node_modules/leaflet/dist/leaflet.css'),contentType:'text/css'}));
+  await page.route('**/prefectures.topojson',route=>route.abort());
+ }
+ try{
+  await routes();await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('公開人物 3人／承認経歴 108件'),null,{timeout:20000});
+  await page.locator('[data-collection-mode="sengoku"]').click();
+  const values=await page.evaluate(()=>sengokuPins.getLayers().map(m=>({
+   site:m.getPopup().getContent().querySelector('h3')?.textContent,color:m.options.fillColor,
+   point:[m.getLatLng().lat,m.getLatLng().lng],
+   popup:m.getPopup().getContent().textContent
+  })));
+  assert.equal(values.length,46);assert.equal(new Set(values.map(v=>v.site)).size,46);
+  assert.equal(values.filter(v=>v.color==='#21864e').length,43);
+  assert.equal(values.filter(v=>v.color==='#edb42d').length,3);
+  assert.ok(values.find(v=>v.site==='姫路城跡')?.popup.includes('保存修理'));
+  assert.ok(values.find(v=>v.site==='安土城跡')?.popup.includes('三重塔'));
+  assert.ok(values.find(v=>v.site==='岐阜城跡')?.popup.includes('一部立入制限'));
+  await page.evaluate(()=>sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('姫路城跡')).fire('click'));
+  assert.match(await page.locator('.leaflet-popup-content').innerText(),/姫路城跡/);
+  const size=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
+  assert.ok(size.scrollWidth<=size.width+2,'desktop horizontal overflow');
+  assert.equal(await page.locator('#showUnknownPins').count(),0);
+  console.log('PASS: Chromium desktop 46 unique public pins, yellow labels, safe popup',JSON.stringify(size));
+ }finally{await context.close();await browser.close();}
 });
