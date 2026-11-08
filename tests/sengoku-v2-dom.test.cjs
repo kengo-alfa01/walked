@@ -117,7 +117,7 @@ test('46 approved pins are visible without visits and with old unknown-pin setti
    assert.equal(colors['#21864e'],43);assert.equal(colors['#edb42d'],3);
    assert.equal(Object.keys(colors).length,2);
    const yellow=pins.filter(p=>p.opts.fillColor==='#edb42d').map(p=>p.popup.querySelector('h3').textContent).sort();
-   assert.deepEqual(yellow,['安土城跡','姫路城跡','岐阜城跡'].sort());
+   assert.deepEqual(Array.from(yellow),['安土城跡','姫路城跡','岐阜城跡'].sort());
    const gifu=pins.find(p=>p.popup.textContent.includes('岐阜城跡'));
    assert.ok(gifu.popup.textContent.includes('一部立入制限'));
    assert.ok(gifu.popup.textContent.includes('立入状況は変わる場合があります。現地の案内に従ってください。'));
@@ -141,7 +141,7 @@ test('selected person pins include undiscovered links, one pin per site ID, inde
    for(const s of expected){
     const m=w.qaV2Markers.find(m=>m.popup.querySelector('h3').textContent===s.name);
     assert.ok(m,'missing site for character '+personId+': '+s.name);
-    assert.deepEqual(m.xy,[s.point[1],s.point[0]],'Leaflet pin uses [latitude,longitude]');
+    assert.deepEqual(Array.from(m.xy),[s.point[1],s.point[0]],'Leaflet pin uses [latitude,longitude]');
    }
   }
   assert.ok(approved.sites.some(s=>s.publicPin&&s.personIds.length>1),'shared site test fixture absent');
