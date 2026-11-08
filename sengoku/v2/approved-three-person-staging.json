@@ -4006,7 +4006,7 @@
         "restriction": "",
         "checkedAt": "2026-11-07",
         "municipality": "愛知県清須市",
-        "officialInfoUrl": null,
+        "officialInfoUrl": "https://www.city.kiyosu.aichi.jp/shisetsu_annai/kanko_shisetsu_sonota/kiyosu_koen.html",
         "positionEvidenceUrl": "https://www.city.kiyosu.aichi.jp/shisetsu_annai/kanko_shisetsu_sonota/kiyosu_koen.html",
         "positionSourceIds": [
           "sg2src-nobu-kiyosu-castle",
@@ -4632,8 +4632,8 @@
         "restriction": "",
         "checkedAt": "2026-11-07",
         "municipality": "愛知県名古屋市西区",
-        "officialInfoUrl": null,
-        "positionEvidenceUrl": "https://www.library.city.nagoya.jp/reference/nagoyacalender8.html",
+        "officialInfoUrl": "https://www.city.nagoya.jp/nishi/profile/1020328/1020335.html",
+        "positionEvidenceUrl": "https://www.city.nagoya.jp/nishi/profile/1020328/1020335.html",
         "positionSourceIds": [
           "sg2src-nobu-nagoya-library-inou",
           "sg2src-b-inou-koshinzuka-20261106",
@@ -5785,7 +5785,7 @@
         "restriction": "",
         "checkedAt": "2026-11-07",
         "municipality": "兵庫県三木市",
-        "officialInfoUrl": null,
+        "officialInfoUrl": "https://www.city.miki.lg.jp/site/mikirekishishiryokan/13248.html",
         "positionEvidenceUrl": "https://www.city.miki.lg.jp/site/mikirekishishiryokan/13248.html",
         "positionSourceIds": [
           "sg2src-hideyoshi-miki-siege",
@@ -6070,7 +6070,7 @@
         "restriction": "",
         "checkedAt": "2026-11-07",
         "municipality": "京都府京都市北区",
-        "officialInfoUrl": null,
+        "officialInfoUrl": "https://www2.city.kyoto.lg.jp/html/somu/rekishi/fm/ishibumi/html/ki015.html",
         "positionEvidenceUrl": "https://www2.city.kyoto.lg.jp/html/somu/rekishi/fm/ishibumi/html/ki015.html",
         "positionSourceIds": [
           "sg2src-hideyoshi-kyoto-odoi",
@@ -7034,7 +7034,7 @@
         "restriction": "",
         "checkedAt": "2026-11-07",
         "municipality": "大阪府大阪市天王寺区",
-        "officialInfoUrl": null,
+        "officialInfoUrl": "https://www.city.osaka.lg.jp/kensetsu/page/0000524172.html",
         "positionEvidenceUrl": "https://www.city.osaka.lg.jp/kensetsu/page/0000524172.html",
         "positionSourceIds": [
           "sg2src-ieyasu-archives-osaka-sieges",
