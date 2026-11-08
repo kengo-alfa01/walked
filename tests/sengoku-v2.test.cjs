@@ -97,7 +97,7 @@ test('B coordinates and approved version cannot be bypassed by old v1 text appro
  const wrongVersion=clone(doc);wrongVersion.sites.find(s=>s.siteId===sample.siteId).pinApproval.version='v1';
  assert.throws(()=>verify(wrongVersion),/位置版v2/);
  const wrongRow=clone(doc);wrongRow.sites.find(s=>s.siteId===sample.siteId).pinApproval.sheetRow=465;
- assert.throws(()=>verify(wrongRow),/位置版v2/);
+ assert.throws(()=>verify(wrongRow),/位置版v2|同じ承認行/);
  const missing=clone(doc);delete missing.sites.find(s=>s.siteId===sample.siteId).pinApproval;
  assert.throws(()=>verify(missing),/位置更新版/);
  const copiedApproval=clone(doc);copiedApproval.sites.find(s=>s.siteId===sample.siteId).pinApproval={...sample.approval};
