@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - refactor/sengoku-v2-only-20261107
+      - feature/sengoku-v2-approved-46-pins
     paths:
       - 'index.html'
       - 'walked-core.js'
@@ -22,7 +23,7 @@ concurrency:
 
 jobs:
   node-regression:
-    if: github.ref == 'refs/heads/refactor/sengoku-v2-only-20261107'
+    if: github.ref == 'refs/heads/refactor/sengoku-v2-only-20261107' || github.ref == 'refs/heads/feature/sengoku-v2-approved-46-pins'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

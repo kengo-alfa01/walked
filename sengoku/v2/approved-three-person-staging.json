@@ -1,7 +1,7 @@
 {
   "schemaVersion": "walked.sengoku.v2.approved.v1",
   "sourceSpreadsheetId": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
-  "version": "20261107-three-person-169-final-approved-staging",
+  "version": "20261108-three-person-46-approved-location-v2-staging",
   "people": [
     {
       "personId": "sg-6eaf66c3d7c8",
@@ -3518,6 +3518,34 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-okehazama-tradition"
+      },
+      "pinApproval": {
+        "sheetRow": 465,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "78b77b20c4ea117417325bd053664a593aa3c16a0f246503244342668abca150",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-okehazama-tradition"
+      },
+      "pinReview": {
+        "sourceSheetRow": 2,
+        "decision": "可",
+        "locationKind": "史跡現地（国指定・桶狭間古戦場伝説地）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "愛知県豊明市",
+        "officialInfoUrl": "https://www.city.toyoake.lg.jp/3938.htm",
+        "positionEvidenceUrl": "https://heritagemap.nabunken.go.jp/statistic/98013685-%E6%A1%B6%E7%8B%AD%E9%96%93%E5%8F%A4%E6%88%A6%E5%A0%B4%E4%BC%9D%E8%AA%AC%E5%9C%B0%20_%E9%99%84_%E6%88%A6%E4%BA%BA%E5%A1%9A.html",
+        "positionSourceIds": [
+          "sg2src-nobu-bunka-okehazama",
+          "sg2src-b-nabunken-okehazama-20261106"
+        ]
       }
     },
     {
@@ -3535,8 +3563,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.9133984,
+        35.2924575
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-komaki-history",
@@ -3558,6 +3589,35 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8\nsg-a7bb09927601",
         "sourceId": "sg2site-nobu-komakiyama"
+      },
+      "pinApproval": {
+        "sheetRow": 466,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "0fee700877473e6c3ab467922e739c9d25797be25a75c816ab8df839ca6896d0",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8\nsg-a7bb09927601",
+        "sourceId": "sg2site-nobu-komakiyama"
+      },
+      "pinReview": {
+        "sourceSheetRow": 3,
+        "decision": "可",
+        "locationKind": "公式案内地点（公開施設・小牧山歴史館）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "愛知県小牧市",
+        "officialInfoUrl": "https://www.city.komaki.aichi.jp/admin/soshiki/kyoiku/bunkazai/1_1/2/bunkazai/rekishikan/9156.html",
+        "positionEvidenceUrl": "https://www.city.komaki.aichi.jp/admin/soshiki/kyoiku/bunkazai/1_1/5/1/9473.html",
+        "positionSourceIds": [
+          "sg2src-nobu-komaki-history",
+          "sg2src-nobu-komaki-castle",
+          "sg2src-b-pin-komakiyama-20261107"
+        ]
       }
     },
     {
@@ -3574,8 +3634,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.782034,
+        35.433927
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-bunka-gifu"
@@ -3595,6 +3658,34 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-gifu"
+      },
+      "pinApproval": {
+        "sheetRow": 467,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "9c44d962723f3860311bbf447d393b5da4718eb3a7fed6f662ca0c53f6e3b902",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-gifu"
+      },
+      "pinReview": {
+        "sourceSheetRow": 4,
+        "decision": "可",
+        "locationKind": "史跡現地（岐阜城跡・金華山山上の歴史地名位置参照点）",
+        "accessStatus": "yellow",
+        "restriction": "岐阜城天守・資料館は改修休館中。金華山山上の一部登山道も通行止め（天守等は2027年10月下旬、一部登山道は2027年9月末までの予定）。閉鎖区域には入らず公式案内を確認してください。",
+        "checkedAt": "2026-11-07",
+        "municipality": "岐阜県岐阜市",
+        "officialInfoUrl": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1031926.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/21/210000161100.html",
+        "positionSourceIds": [
+          "sg2src-nobu-bunka-gifu",
+          "sg2src-b-pin-newrule-4-20261107"
+        ]
       }
     },
     {
@@ -3611,8 +3702,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.747703,
+        34.980317
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-kyoto-city",
@@ -3634,6 +3728,35 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-toji"
+      },
+      "pinApproval": {
+        "sheetRow": 468,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "bc7e85b081c580ccb42230e89e974babd5145e1d7e4588017839cfe60c654cb5",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-toji"
+      },
+      "pinReview": {
+        "sourceSheetRow": 5,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "京都府京都市南区",
+        "officialInfoUrl": "https://toji.or.jp/exhibition/2026_autumn/",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/27/270000399300.html",
+        "positionSourceIds": [
+          "sg2src-nobu-kyoto-city",
+          "sg2src-nobu-kyoto-toji-document",
+          "sg2src-b-pin2-toji-20261107"
+        ]
       }
     },
     {
@@ -3690,8 +3813,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.139542,
+        35.155818
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-shiga-azuchi"
@@ -3711,6 +3837,34 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-azuchi"
+      },
+      "pinApproval": {
+        "sheetRow": 469,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "fa8845c5539c9d8052d79d29797e17ccd3147d2a86cc110a055c353fce4bc482",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-azuchi"
+      },
+      "pinReview": {
+        "sourceSheetRow": 7,
+        "decision": "可",
+        "locationKind": "史跡現地（特別史跡安土城跡の歴史地名位置参照点）",
+        "accessStatus": "yellow",
+        "restriction": "2026年10月から2027年2月末予定の工事に伴い、三重塔以降の見学ルートが一部制限されています。閉鎖区域には入らず公式案内を確認してください。",
+        "checkedAt": "2026-11-07",
+        "municipality": "滋賀県近江八幡市",
+        "officialInfoUrl": "https://www.omi8.com/news/detail_60.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/25/250000189100.html",
+        "positionSourceIds": [
+          "sg2src-nobu-shiga-azuchi",
+          "sg2src-b-pin-newrule-7-20261107"
+        ]
       }
     },
     {
@@ -3804,8 +3958,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.8420625,
+        35.2171875
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-kiyosu-castle",
@@ -3827,6 +3984,35 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8\nsg-a7bb09927601",
         "sourceId": "sg2site-nobu-kiyosu-old"
+      },
+      "pinApproval": {
+        "sheetRow": 470,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "14b482f013f532ca0195a7f0cf093442f2a4f9a4af665b76a93cf8ad703b1d85",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8\nsg-a7bb09927601",
+        "sourceId": "sg2site-nobu-kiyosu-old"
+      },
+      "pinReview": {
+        "sourceSheetRow": 10,
+        "decision": "可",
+        "locationKind": "史跡現地（旧清洲城跡・清洲古城跡公園付近の情報表示点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "愛知県清須市",
+        "officialInfoUrl": "https://www.city.kiyosu.aichi.jp/shisetsu_annai/kanko_shisetsu_sonota/kiyosu_koen.html",
+        "positionEvidenceUrl": "https://www.city.kiyosu.aichi.jp/shisetsu_annai/kanko_shisetsu_sonota/kiyosu_koen.html",
+        "positionSourceIds": [
+          "sg2src-nobu-kiyosu-castle",
+          "sg2src-b-kiyosu-oldpark-20261106",
+          "sg2src-b-pin-pluscode-kiyosu-20261107"
+        ]
       }
     },
     {
@@ -3843,8 +4029,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.074112,
+        35.666393
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-tsuruga-kanegasaki",
@@ -3866,6 +4055,35 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-kanegasaki"
+      },
+      "pinApproval": {
+        "sheetRow": 471,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "e77dcddb157abd5bf43b5ac56977cd00afadd9b31c2aa87e09aaef6d524852a7",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-kanegasaki"
+      },
+      "pinReview": {
+        "sourceSheetRow": 11,
+        "decision": "可",
+        "locationKind": "史跡現地（金ヶ崎城跡の歴史地名位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "福井県敦賀市",
+        "officialInfoUrl": "https://bunkazai.pref.fukui.lg.jp/search_category/content?detail_id=592-0",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/18/180000237500.html",
+        "positionSourceIds": [
+          "sg2src-nobu-tsuruga-kanegasaki",
+          "sg2src-nobu-shiga-odani-booklet",
+          "sg2src-b-pin-newrule-11-20261107"
+        ]
       }
     },
     {
@@ -3964,8 +4182,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.295692,
+        35.999445
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-fukui-asakura-museum",
@@ -3989,6 +4210,36 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-ichijodani"
+      },
+      "pinApproval": {
+        "sheetRow": 472,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "ac52988fdbf24e17d44ee56da7ba6c77a2199d2df99a54648ba4c7e02a0076af",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-ichijodani"
+      },
+      "pinReview": {
+        "sourceSheetRow": 14,
+        "decision": "可",
+        "locationKind": "史跡現地（一乗谷朝倉氏遺跡内の朝倉館跡・歴史地名位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "福井県福井市",
+        "officialInfoUrl": "https://asakura-museum.pref.fukui.lg.jp/site/walk",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/18/180000130500.html",
+        "positionSourceIds": [
+          "sg2src-nobu-fukui-asakura-museum",
+          "sg2src-nobu-fukui-asakura-voice",
+          "sg2src-b-ichijodani-fukui-20261106",
+          "sg2src-b-pin-newrule-14-20261107"
+        ]
       }
     },
     {
@@ -4006,8 +4257,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.272303,
+        35.449437
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-shiga-odani-booklet"
@@ -4027,6 +4281,34 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8\nsg-f47391608dbb",
         "sourceId": "sg2site-nobu-odani"
+      },
+      "pinApproval": {
+        "sheetRow": 473,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "be78825f758e022fcb0669a87417c414c932bc16d7d2df290e0c056211140bfd",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8\nsg-f47391608dbb",
+        "sourceId": "sg2site-nobu-odani"
+      },
+      "pinReview": {
+        "sourceSheetRow": 15,
+        "decision": "可",
+        "locationKind": "史跡現地（小谷城跡の歴史地名位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "滋賀県長浜市",
+        "officialInfoUrl": "https://drive.jafnavi.jp/spots/251125X00115/",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/25/250000355200.html",
+        "positionSourceIds": [
+          "sg2src-nobu-shiga-odani-booklet",
+          "sg2src-b-pin-newrule-15-20261107"
+        ]
       }
     },
     {
@@ -4121,8 +4403,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.420992,
+        34.781112
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-itami-arioka-revolt",
@@ -4144,6 +4429,35 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-arioka"
+      },
+      "pinApproval": {
+        "sheetRow": 474,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "ced8be2548876c501528fe1b0d4e05872061ffb8314de29d2e06525c8977d064",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-arioka"
+      },
+      "pinReview": {
+        "sourceSheetRow": 18,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "兵庫県伊丹市",
+        "officialInfoUrl": "https://www.city.itami.lg.jp/SOSIKI/TOSHIKATSURYOKU/BUNKA/bunnkazai/SINAI_BUNKAZAI/KUNI_SITEI/1386843388423.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/29/290000116400.html",
+        "positionSourceIds": [
+          "sg2src-nobu-itami-arioka-revolt",
+          "sg2src-nobu-itami-arioka-ruins",
+          "sg2src-b-pin2-arioka-20261107"
+        ]
       }
     },
     {
@@ -4199,8 +4513,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.472926,
+        34.527127
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-mie-ohkawachi-battle",
@@ -4222,6 +4539,35 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-ohkawachi"
+      },
+      "pinApproval": {
+        "sheetRow": 475,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "da9206401006cbf9d2d753381d13b5aa1accb3a54c9735c093b9ce6b29b7936d",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-ohkawachi"
+      },
+      "pinReview": {
+        "sourceSheetRow": 20,
+        "decision": "可",
+        "locationKind": "史跡現地（大河内城跡の歴史地名位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "三重県松阪市",
+        "officialInfoUrl": "https://www.city.matsusaka.mie.jp/site/culture-info/okawatijyoato.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/24/240000198300.html",
+        "positionSourceIds": [
+          "sg2src-nobu-mie-ohkawachi-battle",
+          "sg2src-nobu-matsusaka-ohkawachi-site",
+          "sg2src-b-pin-newrule-20-20261107"
+        ]
       }
     },
     {
@@ -4238,8 +4584,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.8905,
+        35.206083
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-nagoya-library-inou",
@@ -4261,6 +4610,35 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-inou-battle-commemorative"
+      },
+      "pinApproval": {
+        "sheetRow": 476,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "ed9717178eef12b21eab621398c49e4f45a64533f70d618917622df06fc7ac0c",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-inou-battle-commemorative"
+      },
+      "pinReview": {
+        "sourceSheetRow": 21,
+        "decision": "可",
+        "locationKind": "史跡現地（庚申塚・稲生原古戦場跡の公開位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "愛知県名古屋市西区",
+        "officialInfoUrl": "https://www.city.nagoya.jp/nishi/profile/1020328/1020335.html",
+        "positionEvidenceUrl": "https://www.city.nagoya.jp/nishi/profile/1020328/1020335.html",
+        "positionSourceIds": [
+          "sg2src-nobu-nagoya-library-inou",
+          "sg2src-b-inou-koshinzuka-20261106",
+          "sg2src-b-pin-inou-koshinzuka-20261107"
+        ]
       }
     },
     {
@@ -4277,8 +4655,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        138.610535,
+        35.225037
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-fujinomiya-koshu"
@@ -4298,6 +4679,34 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-fujisan-hongu-sengen"
+      },
+      "pinApproval": {
+        "sheetRow": 477,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "d8b2ee64213a0800b46746afe785cae17c2f600b12bfd031f46340194064b979",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-fujisan-hongu-sengen"
+      },
+      "pinReview": {
+        "sourceSheetRow": 22,
+        "decision": "可",
+        "locationKind": "史跡現地（富士山本宮浅間大社・公開社殿境内の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "静岡県富士宮市",
+        "officialInfoUrl": "https://www.city.fujinomiya.lg.jp/kankou/llti2b00000017uf.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000135900.html",
+        "positionSourceIds": [
+          "sg2src-nobu-fujinomiya-koshu",
+          "sg2src-b-pin-newrule-22-20261107"
+        ]
       }
     },
     {
@@ -4314,8 +4723,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.939177,
+        35.38836
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-nobu-bunka-inuyama-castle",
@@ -4337,6 +4749,36 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-inuyama"
+      },
+      "pinApproval": {
+        "sheetRow": 478,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "a8e6e7c634b502680d2a609259f5f60061fe04698a82f4ae920edfcf16c23ad9",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-inuyama"
+      },
+      "pinReview": {
+        "sourceSheetRow": 23,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "愛知県犬山市",
+        "officialInfoUrl": "https://inuyama-castle.jp/news/detail/256/",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/23/230000161600.html",
+        "positionSourceIds": [
+          "sg2src-nobu-bunka-inuyama-castle",
+          "sg2src-nobu-inuyama-official",
+          "sg2src-b-pin2-inuyama-20261107",
+          "sg2src-b-pin-status-inuyama-20261107"
+        ]
       }
     },
     {
@@ -4353,8 +4795,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.85409,
+        35.17472
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-nagoya-memorial"
@@ -4374,6 +4819,34 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-birth-memorial"
+      },
+      "pinApproval": {
+        "sheetRow": 479,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "d3df0a9e436f8a27dac435fe9534435224bd2af2da0a4fbf270a82f1c80e2632",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-birth-memorial"
+      },
+      "pinReview": {
+        "sourceSheetRow": 24,
+        "decision": "可",
+        "locationKind": "公式案内地点（中村公園・豊公誕生之碑がある公園の案内位置）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "愛知県名古屋市中村区",
+        "officialInfoUrl": "https://www.nakamura-park.com/facility/",
+        "positionEvidenceUrl": "https://japanheritage.jp/ja/aichi/heritage/nakamura-park",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-nagoya-memorial",
+          "sg2src-b-pin-newrule-24-20261107"
+        ]
       }
     },
     {
@@ -4390,8 +4863,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.261784,
+        35.377409
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-nagahama-history",
@@ -4413,6 +4889,35 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-nagahama"
+      },
+      "pinApproval": {
+        "sheetRow": 480,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "dea238df1107bff460fea06faaae385c79a3555c6c05326f3996cc55f7f7166e",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-nagahama"
+      },
+      "pinReview": {
+        "sourceSheetRow": 25,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "滋賀県長浜市",
+        "officialInfoUrl": "https://nagahama-rekihaku.jp/info/open",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/25/250000319900.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-nagahama-history",
+          "sg2src-hideyoshi-nagahama-1574-order",
+          "sg2src-b-pin2-nagahama-20261107"
+        ]
       }
     },
     {
@@ -4429,8 +4934,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        134.6939,
+        34.83935
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-himeji-history"
@@ -4450,6 +4958,35 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-himeji"
+      },
+      "pinApproval": {
+        "sheetRow": 481,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "a04b4d23a7a7e9e065b97515d2bbe9db13fb5679881c6438282008eb5ba4c6ed",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-himeji"
+      },
+      "pinReview": {
+        "sourceSheetRow": 26,
+        "decision": "可",
+        "locationKind": "史跡現地（公開されている現存文化財建造物）",
+        "accessStatus": "yellow",
+        "restriction": "ニの櫓・水の門・周辺土塀の保存修理のため、備前丸の一部が資材置場となり、見学ルートの一部が狭くなっています（2027年7月下旬頃までの予定）。",
+        "checkedAt": "2026-11-07",
+        "municipality": "兵庫県姫路市",
+        "officialInfoUrl": "https://www.city.himeji.lg.jp/castle/0000033820.html",
+        "positionEvidenceUrl": "https://heritagemap.nabunken.go.jp/statistic/98018180-%E5%A7%AB%E8%B7%AF%E5%9F%8E%E5%A4%A7%E5%A4%A9%E5%AE%88.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-himeji-history",
+          "sg2src-b-pin2-himeji-20261107",
+          "sg2src-b-pin-status-himeji-20261107"
+        ]
       }
     },
     {
@@ -4547,8 +5084,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.526,
+        34.68734
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-osaka-pref",
@@ -4572,6 +5112,36 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb\nsg-a7bb09927601",
         "sourceId": "sg2site-hideyoshi-osaka-castle"
+      },
+      "pinApproval": {
+        "sheetRow": 482,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "5dacc43b848931ce2ef4c8fe9ae8a4d8410b2b9a4af54025bb31971a302bfcde",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb\nsg-a7bb09927601",
+        "sourceId": "sg2site-hideyoshi-osaka-castle"
+      },
+      "pinReview": {
+        "sourceSheetRow": 29,
+        "decision": "可",
+        "locationKind": "公式案内地点（現大阪城天守閣・公開見学施設）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "大阪府大阪市中央区",
+        "officialInfoUrl": "https://www.osakacastle.net/guide/?lang=ja",
+        "positionEvidenceUrl": "https://heritagemap.nabunken.go.jp/statistic/98017291-%E5%A4%A7%E9%98%AA%E5%9F%8E%E5%A4%A9%E5%AE%88%E9%96%A3.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-osaka-pref",
+          "sg2src-hideyoshi-osaka-library",
+          "sg2src-b-osaka-2026-20261106",
+          "sg2src-b-pin-osaka-guide-20261107"
+        ]
       }
     },
     {
@@ -4666,8 +5236,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.735123,
+        35.031174
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-bunka-kitano",
@@ -4689,6 +5262,35 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-kitano"
+      },
+      "pinApproval": {
+        "sheetRow": 483,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "f369ef0c25bfb7eef23591b35bad7db66a74a99e035fe65f173383b2edfedb3d",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-kitano"
+      },
+      "pinReview": {
+        "sourceSheetRow": 32,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "京都府京都市上京区",
+        "officialInfoUrl": "https://kitanotenmangu.or.jp/",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/27/270000264900.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-bunka-kitano",
+          "sg2src-b-kitano-kyoto-20261106",
+          "sg2src-b-pin2-kitano-20261107"
+        ]
       }
     },
     {
@@ -4705,8 +5307,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        139.1278124,
+        35.23538433
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-odawara-ishigaki"
@@ -4726,6 +5331,34 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-ishigakiyama"
+      },
+      "pinApproval": {
+        "sheetRow": 484,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "3c792e32a992e036c24a9134d940e577fa1e224f0ba7d2ffbcca59c0045edbbc",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-ishigakiyama"
+      },
+      "pinReview": {
+        "sourceSheetRow": 33,
+        "decision": "可",
+        "locationKind": "公式案内地点（石垣山一夜城史跡公園の市案内位置）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "神奈川県小田原市",
+        "officialInfoUrl": "https://www.city.odawara.kanagawa.jp/kanko/event/NOV/ichiyajoumaturi.html",
+        "positionEvidenceUrl": "https://www.city.odawara.kanagawa.jp/public-i/park/ishigaki-p.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-odawara-ishigaki",
+          "sg2src-b-pin-ishigakiyama-20261107"
+        ]
       }
     },
     {
@@ -4742,8 +5375,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        139.1573811,
+        35.24966708
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-odawara-museum",
@@ -4765,6 +5401,35 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-odawara"
+      },
+      "pinApproval": {
+        "sheetRow": 485,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "2be165604a2b8c5728b14f1a678f54b45b92c101bbf736a8345fa820cdd9aad2",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-odawara"
+      },
+      "pinReview": {
+        "sourceSheetRow": 34,
+        "decision": "可",
+        "locationKind": "公式案内地点（公開されている小田原城址公園）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "神奈川県小田原市",
+        "officialInfoUrl": "https://odawaracastle.com/news/gojoin_kirie-202611.html",
+        "positionEvidenceUrl": "https://www.city.odawara.kanagawa.jp/kanko/corridor/castle/p09978.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-odawara-museum",
+          "sg2src-b-odawara-site-20261106",
+          "sg2src-b-pin-odawara-20261107"
+        ]
       }
     },
     {
@@ -4781,8 +5446,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        129.868966,
+        33.530396
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-saga-nagoya",
@@ -4804,6 +5472,35 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-hizen-nagoya"
+      },
+      "pinApproval": {
+        "sheetRow": 486,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "b317268fdde6eb8839d552f54183363e96c9995ce1b38e8f287dde10f608c755",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-hizen-nagoya"
+      },
+      "pinReview": {
+        "sourceSheetRow": 35,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "佐賀県唐津市",
+        "officialInfoUrl": "https://saga-museum.jp/nagoya/nagoya-castle/nagoya.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/42/420000134400.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-saga-nagoya",
+          "sg2src-hideyoshi-nagoya-korea1592",
+          "sg2src-b-pin2-nagoya-20261107"
+        ]
       }
     },
     {
@@ -4899,8 +5596,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.822634,
+        34.950962
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-daigo-hanami"
@@ -4920,6 +5620,34 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-daigoji"
+      },
+      "pinApproval": {
+        "sheetRow": 487,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "989f7da5ed2f504dd9e14583446b85cf4bf61e2dff5d2f40015076f8e2c7a495",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-daigoji"
+      },
+      "pinReview": {
+        "sourceSheetRow": 38,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "京都府京都市伏見区",
+        "officialInfoUrl": "https://www.daigoji.or.jp/faq/",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/27/270000157600.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-daigo-hanami",
+          "sg2src-b-pin2-daigo-20261107"
+        ]
       }
     },
     {
@@ -4936,8 +5664,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        134.987864,
+        34.799872
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-miki-sites",
@@ -4959,6 +5690,35 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-miki"
+      },
+      "pinApproval": {
+        "sheetRow": 488,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "81c97f0ffe9975d55a0828910adbd8fc56b59f6dbdb4c81114eecfcd456dc233",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-miki"
+      },
+      "pinReview": {
+        "sourceSheetRow": 39,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "兵庫県三木市",
+        "officialInfoUrl": "https://www.city.miki.lg.jp/site/mikirekishishiryokan/13225.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/29/290000467500.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-miki-sites",
+          "sg2src-hideyoshi-miki-siege",
+          "sg2src-b-pin2-miki-20261107"
+        ]
       }
     },
     {
@@ -4975,8 +5735,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.0160625,
+        34.8081875
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-miki-siege",
@@ -5000,6 +5763,36 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-hiraiyama"
+      },
+      "pinApproval": {
+        "sheetRow": 489,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "f1c35b4d7ed3de3f75e658f99106533fa4aaced7d82136d2adfa20ec3ff1ed64",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-hiraiyama"
+      },
+      "pinReview": {
+        "sourceSheetRow": 40,
+        "decision": "可",
+        "locationKind": "史跡現地（平井山ノ上付城跡の公開史跡周辺位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "兵庫県三木市",
+        "officialInfoUrl": "https://www.city.miki.lg.jp/site/mikirekishishiryokan/13248.html",
+        "positionEvidenceUrl": "https://www.city.miki.lg.jp/site/mikirekishishiryokan/13248.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-miki-siege",
+          "sg2src-hideyoshi-miki-sites",
+          "sg2src-b-hiraiyama-miki-20261106",
+          "sg2src-b-pin-pluscode-hiraiyama-20261107"
+        ]
       }
     },
     {
@@ -5016,8 +5809,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        134.23872,
+        35.50416
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-tottori-ken",
@@ -5039,6 +5835,35 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-tottori"
+      },
+      "pinApproval": {
+        "sheetRow": 490,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "ed76aeb01ad39df8a751057418457c75725aef08d7aca9b428359724adba3f07",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-tottori"
+      },
+      "pinReview": {
+        "sourceSheetRow": 41,
+        "decision": "可",
+        "locationKind": "史跡現地（鳥取城跡の歴史地名位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "鳥取県鳥取市",
+        "officialInfoUrl": "https://www.torican.jp/spot/detail_1003.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/32/320000033000.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-tottori-ken",
+          "sg2src-hideyoshi-tottori-museum",
+          "sg2src-b-pin-newrule-41-20261107"
+        ]
       }
     },
     {
@@ -5055,8 +5880,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.321625,
+        34.294727
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-wakayama-negoro",
@@ -5078,6 +5906,35 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-negoroji"
+      },
+      "pinApproval": {
+        "sheetRow": 491,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "e87d324d6c182c4faa2215db249b9858e4a7566dad80cb233df70178ef065abe",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-negoroji"
+      },
+      "pinReview": {
+        "sourceSheetRow": 42,
+        "decision": "可",
+        "locationKind": "史跡現地（根来寺の公開境内・位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "和歌山県岩出市",
+        "officialInfoUrl": "https://www.negoroji.org/keidai-annai.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/31/310000079800.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-wakayama-negoro",
+          "sg2src-hideyoshi-iwade-negoro-history",
+          "sg2src-b-pin-newrule-42-20261107"
+        ]
       }
     },
     {
@@ -5094,8 +5951,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        139.932324,
+        37.487317
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-fukushima-oshu",
@@ -5117,6 +5977,35 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-kurokawa"
+      },
+      "pinApproval": {
+        "sheetRow": 492,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "41b0353c0e385357c2d3a3272823577c8a65cb5334cf3d4f9bde2078bda99b52",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-kurokawa"
+      },
+      "pinReview": {
+        "sourceSheetRow": 43,
+        "decision": "可",
+        "locationKind": "史跡現地（黒川城後身の鶴ヶ城・公開城址公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "福島県会津若松市",
+        "officialInfoUrl": "https://www.tsurugajo.com/tsurugajo/",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/07/070000336500.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-fukushima-oshu",
+          "sg2src-b-aizu-kotokuji-20261106",
+          "sg2src-b-pin-newrule-43-20261107"
+        ]
       }
     },
     {
@@ -5133,8 +6022,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.7349167,
+        35.03330556
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-kyoto-odoi",
@@ -5156,6 +6048,35 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-odoi-hirano"
+      },
+      "pinApproval": {
+        "sheetRow": 493,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "2b9bc1bba5f2528517e8f1fcbcab2d13dec6bf5db9ef46049c6eae60e2db4ed5",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-odoi-hirano"
+      },
+      "pinReview": {
+        "sourceSheetRow": 44,
+        "decision": "可",
+        "locationKind": "史跡現地（京都市指定の平野御土居・石標位置）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "京都府京都市北区",
+        "officialInfoUrl": "https://www2.city.kyoto.lg.jp/html/somu/rekishi/fm/ishibumi/html/ki015.html",
+        "positionEvidenceUrl": "https://www2.city.kyoto.lg.jp/html/somu/rekishi/fm/ishibumi/html/ki015.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-kyoto-odoi",
+          "sg2src-hideyoshi-kyoto-urban",
+          "sg2src-b-pin-hirano-odoi-city-20261107"
+        ]
       }
     },
     {
@@ -5172,8 +6093,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.676282,
+        34.901786
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-hideyoshi-kyoto-yamazaki",
@@ -5197,6 +6121,36 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-yamazaki-castle"
+      },
+      "pinApproval": {
+        "sheetRow": 494,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "751b80391c08bada4893ee43385ab1e0d5b75210e772dcc4111bbb16b5dcae2e",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-yamazaki-castle"
+      },
+      "pinReview": {
+        "sourceSheetRow": 45,
+        "decision": "可",
+        "locationKind": "史跡現地（山崎城跡・天王山の歴史地名位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "京都府乙訓郡大山崎町",
+        "officialInfoUrl": "https://www.town.oyamazaki.kyoto.jp/kanko/kankospot/2520.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/26/260000078000.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-kyoto-yamazaki",
+          "sg2src-hideyoshi-oyamazaki-castle",
+          "sg2src-hideyoshi-oyamazaki-battle",
+          "sg2src-b-pin-newrule-45-20261107"
+        ]
       }
     },
     {
@@ -5213,8 +6167,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        137.1596639,
+        34.956153
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-okazaki-castle",
@@ -5236,6 +6193,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-okazaki"
+      },
+      "pinApproval": {
+        "sheetRow": 495,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "aba0d195bc8be69e606ab5d5ee1004786b1027fcbcbef386acd40f0fbd3773ac",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-okazaki"
+      },
+      "pinReview": {
+        "sourceSheetRow": 46,
+        "decision": "可",
+        "locationKind": "公式案内地点（公開されている岡崎城公園）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "愛知県岡崎市",
+        "officialInfoUrl": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1016621/1017286.html",
+        "positionEvidenceUrl": "https://www.city.okazaki.lg.jp/shisei/machi/1002990/1012419/1003013/1003014.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-okazaki-castle",
+          "sg2src-ieyasu-archives-birth",
+          "sg2src-b-pin-okazaki-20261107"
+        ]
       }
     },
     {
@@ -5252,8 +6238,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.936302,
+        35.064525
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-nagoya-odaka",
@@ -5275,6 +6264,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-odaka"
+      },
+      "pinApproval": {
+        "sheetRow": 496,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "d7ef5b1031ea726e8ed2858a3fdfd4fa5bbe4b6f815af01598a17f716dacd676",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-odaka"
+      },
+      "pinReview": {
+        "sourceSheetRow": 47,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "愛知県名古屋市緑区",
+        "officialInfoUrl": "https://www.city.nagoya.jp/kankou/rekishi/1017203/1017386.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/23/230000109500.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-nagoya-odaka",
+          "sg2src-ieyasu-archives-okehazama",
+          "sg2src-b-pin2-odaka-20261107"
+        ]
       }
     },
     {
@@ -5291,8 +6309,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        137.085083,
+        34.900173
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-anjo-honshoji"
@@ -5312,6 +6333,34 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-honshoji"
+      },
+      "pinApproval": {
+        "sheetRow": 497,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "e11d78e5b206f659d0913821e42efb4df5ad4c835333a47342fae493ecac5f64",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-honshoji"
+      },
+      "pinReview": {
+        "sourceSheetRow": 48,
+        "decision": "可",
+        "locationKind": "史跡現地（国史跡本證寺境内・公開地点の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "愛知県安城市",
+        "officialInfoUrl": "https://www.city.anjo.aichi.jp/shisei/shisetsu/kyoikushisetsu/maibun-honshojikeidai.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/23/230000308500.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-anjo-honshoji",
+          "sg2src-b-pin-newrule-48-20261107"
+        ]
       }
     },
     {
@@ -5328,8 +6377,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        138.015145,
+        34.776906
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-kakegawa-1569",
@@ -5351,6 +6403,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-kakegawa"
+      },
+      "pinApproval": {
+        "sheetRow": 498,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "86aa2da22c0db58d310f882cb596985b57a7b626c5c228098f092723eaba7656",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-kakegawa"
+      },
+      "pinReview": {
+        "sourceSheetRow": 49,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "静岡県掛川市",
+        "officialInfoUrl": "https://www.kakegawa-kankou.com/news/26817/",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000295200.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-kakegawa-1569",
+          "sg2src-b-kakegawa-2026-20261106",
+          "sg2src-b-pin2-kakegawa-20261107"
+        ]
       }
     },
     {
@@ -5367,8 +6448,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        137.723698,
+        34.712366
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-hamamatsu-castle",
@@ -5390,6 +6474,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-hamamatsu"
+      },
+      "pinApproval": {
+        "sheetRow": 499,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "a2f73c29bd5ceca8ce2691a28784f10bd2f3a554e3a42ec8b14686cdd6af074c",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-hamamatsu"
+      },
+      "pinReview": {
+        "sourceSheetRow": 50,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "静岡県浜松市中央区",
+        "officialInfoUrl": "https://www.city.hamamatsu.shizuoka.jp/bunkazai/shitei/hamatsu/hamatsu/hamamatsujyo.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000398900.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-hamamatsu-castle",
+          "sg2src-ieyasu-hamamatsu-cultural",
+          "sg2src-b-pin2-hamamatsu-20261107"
+        ]
       }
     },
     {
@@ -5406,8 +6519,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        137.7183622,
+        34.7196531
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-hamamatsu-saigagake",
@@ -5429,6 +6545,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-saigagake"
+      },
+      "pinApproval": {
+        "sheetRow": 500,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "e28925798c9728c946e988da8d27208d22df08fd3f3f6f6e67b7d71ba53998ce",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-saigagake"
+      },
+      "pinReview": {
+        "sourceSheetRow": 51,
+        "decision": "可",
+        "locationKind": "公的伝承地（犀ヶ崖古戦場・資料館付近の市史公開位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "静岡県浜松市中央区",
+        "officialInfoUrl": "https://www.city.hamamatsu.shizuoka.jp/bunkazai/shitei/ken_shitei/saigagake.html",
+        "positionEvidenceUrl": "https://adeac.jp/hamamatsu-city/catalog/mp001590-2022",
+        "positionSourceIds": [
+          "sg2src-ieyasu-hamamatsu-saigagake",
+          "sg2src-ieyasu-archives-mikata",
+          "sg2src-b-pin-newrule-51-20261107"
+        ]
       }
     },
     {
@@ -5445,8 +6590,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        138.035571,
+        34.698262
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-kakegawa-takatenjin-history",
@@ -5468,6 +6616,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-takatenjin"
+      },
+      "pinApproval": {
+        "sheetRow": 501,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "ca1198f722e849d23c7c12b164b8a9c914e7afde55ba978c7ef86317c2a8daa7",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-takatenjin"
+      },
+      "pinReview": {
+        "sourceSheetRow": 52,
+        "decision": "可",
+        "locationKind": "史跡現地（高天神城跡の歴史地名位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "静岡県掛川市",
+        "officialInfoUrl": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/8579.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000287700.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-kakegawa-takatenjin-history",
+          "sg2src-ieyasu-kakegawa-takatenjin-site",
+          "sg2src-b-pin-newrule-52-20261107"
+        ]
       }
     },
     {
@@ -5484,8 +6661,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        138.383163,
+        34.979285
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-shizuoka-sunpu-history",
@@ -5507,6 +6687,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-sunpu"
+      },
+      "pinApproval": {
+        "sheetRow": 502,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "9190c25e60b5dd1e37622321e37174fd557fda30911bff4a960a612c8c5a95d6",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-sunpu"
+      },
+      "pinReview": {
+        "sourceSheetRow": 53,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "静岡県静岡市葵区",
+        "officialInfoUrl": "https://sumpu-castlepark.com/access/",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000168700.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-shizuoka-sunpu-history",
+          "sg2src-ieyasu-shizuoka-sunpu-excavation",
+          "sg2src-b-pin2-sunpu-20261107"
+        ]
       }
     },
     {
@@ -5564,8 +6773,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.488411,
+        35.365395
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-gifu-sekigahara",
@@ -5586,6 +6798,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-momokubari"
+      },
+      "pinApproval": {
+        "sheetRow": 503,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "5cbf20404b4fde4ff9b297f5f5a20c8914ab5fbe4cd90225d927ebc2a09b4007",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-momokubari"
+      },
+      "pinReview": {
+        "sourceSheetRow": 55,
+        "decision": "可",
+        "locationKind": "史跡現地（桃配山・最初陣跡の見学案内位置）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "岐阜県不破郡関ケ原町",
+        "officialInfoUrl": "https://sekigahara.pref.gifu.lg.jp/tokugawa-ieyasu/",
+        "positionEvidenceUrl": "https://linkdata.org/work/rdf1s884i/SekigaharaLocationData.html【公的見学案内URL",
+        "positionSourceIds": [
+          "sg2src-ieyasu-gifu-sekigahara",
+          "sg2src-b-sekigahara-two-camps-20261106",
+          "sg2src-b-pin3-momokubari-20261107"
+        ]
       }
     },
     {
@@ -5602,8 +6843,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.465098,
+        35.365809
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-gifu-sekigahara",
@@ -5624,6 +6868,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-jinbano"
+      },
+      "pinApproval": {
+        "sheetRow": 504,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "f3e5a8ee2c43877a7a1ba6c1adba819f0f1598c047747692662e97117790d652",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-jinbano"
+      },
+      "pinReview": {
+        "sourceSheetRow": 56,
+        "decision": "可",
+        "locationKind": "史跡現地（陣場野・最後陣地公開見学地点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "岐阜県不破郡関ケ原町",
+        "officialInfoUrl": "https://sekigahara.pref.gifu.lg.jp/tokugawa-ieyasu/",
+        "positionEvidenceUrl": "https://herica.net/detail/card/51/【公的見学案内URL",
+        "positionSourceIds": [
+          "sg2src-ieyasu-gifu-sekigahara",
+          "sg2src-b-sekigahara-two-camps-20261106",
+          "sg2src-b-pin3-jinbano-20261107"
+        ]
       }
     },
     {
@@ -5640,8 +6913,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.7503,
+        35.01263
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-kyoto-nijo",
@@ -5663,6 +6939,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-nijo"
+      },
+      "pinApproval": {
+        "sheetRow": 505,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "a2666743d628929daee1d7ae8070a51c45e5182c80dcfe8a9106d358f7f4d109",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-nijo"
+      },
+      "pinReview": {
+        "sourceSheetRow": 57,
+        "decision": "可",
+        "locationKind": "史跡現地（公開されている現存文化財建造物）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "京都府京都市中京区",
+        "officialInfoUrl": "https://nijo-jocastle.city.kyoto.lg.jp/",
+        "positionEvidenceUrl": "https://heritagemap.nabunken.go.jp/statistic/98022874-%E4%BA%8C%E6%9D%A1%E5%9F%8E.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-kyoto-nijo",
+          "sg2src-ieyasu-archives-nijo1611",
+          "sg2src-b-pin2-nijo-20261107"
+        ]
       }
     },
     {
@@ -5679,8 +6984,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.5114375,
+        34.6518125
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-archives-osaka-sieges",
@@ -5704,6 +7012,36 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-chausu"
+      },
+      "pinApproval": {
+        "sheetRow": 506,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "799770bbedab430c481b132bea82f1f34722a97b1a98a3cee59946d3678d9677",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-chausu"
+      },
+      "pinReview": {
+        "sourceSheetRow": 58,
+        "decision": "可",
+        "locationKind": "史跡現地（天王寺公園内の茶臼山丘陵・情報表示点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "大阪府大阪市天王寺区",
+        "officialInfoUrl": "https://www.city.osaka.lg.jp/kensetsu/page/0000524172.html",
+        "positionEvidenceUrl": "https://www.city.osaka.lg.jp/kensetsu/page/0000524172.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-archives-osaka-sieges",
+          "sg2src-ieyasu-archives-chronology",
+          "sg2src-b-osaka-chausuyama-20261106",
+          "sg2src-b-pin-pluscode-osaka-chausuyama-20261107"
+        ]
       }
     },
     {
@@ -5720,8 +7058,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        138.4676128,
+        34.9648125
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-kunozan-shrine-history",
@@ -5743,6 +7084,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-kunozan"
+      },
+      "pinApproval": {
+        "sheetRow": 507,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "72da127c805d80d6ded5e6aae6e791fdfb5a60a420643609ec5d53b23abce633",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-kunozan"
+      },
+      "pinReview": {
+        "sourceSheetRow": 59,
+        "decision": "可",
+        "locationKind": "公式案内地点（久能山東照宮の公開参拝境内・地図上の施設案内点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "静岡県静岡市駿河区",
+        "officialInfoUrl": "https://www.pref.shizuoka.jp/kankosports/bunkageijutsu/bunkazai/1002825/1041003/1041886/1004975/1021034.html",
+        "positionEvidenceUrl": "https://mapfan.com/spots/SC3W3%2CJ%2C45",
+        "positionSourceIds": [
+          "sg2src-ieyasu-kunozan-shrine-history",
+          "sg2src-ieyasu-kunozan-shrine-grave",
+          "sg2src-b-pin-newrule-59-20261107"
+        ]
       }
     },
     {
@@ -5759,8 +7129,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        137.049856,
+        35.171566
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-nagakute-battle"
@@ -5780,6 +7153,34 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-nagakute"
+      },
+      "pinApproval": {
+        "sheetRow": 508,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "e6e132e5c9f0af290276806f9088daf5e672514ecc8c6868b9a7f9ff7399ed46",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-nagakute"
+      },
+      "pinReview": {
+        "sourceSheetRow": 60,
+        "decision": "可",
+        "locationKind": "史跡現地（長久手古戦場・公園内の歴史地名位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "愛知県長久手市",
+        "officialInfoUrl": "https://www.city.nagakute.lg.jp/soshiki/kurashibunkabu/bunkazaisupo-tuka/4/1009.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/23/230000020400.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-nagakute-battle",
+          "sg2src-b-pin-newrule-60-20261107"
+        ]
       }
     },
     {
@@ -5796,8 +7197,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        139.800754,
+        36.3145282
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-oyama-council-monument",
@@ -5819,6 +7223,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-oyama-council-tradition"
+      },
+      "pinApproval": {
+        "sheetRow": 509,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "5a0786d8629b6f911b6240585d07128acfc72a78528cbf5ee193d7b665caea6f",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-oyama-council-tradition"
+      },
+      "pinReview": {
+        "sourceSheetRow": 61,
+        "decision": "可",
+        "locationKind": "公式案内地点（小山市役所・小山評定跡碑の案内先施設）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "栃木県小山市",
+        "officialInfoUrl": "https://www.city.oyama.tochigi.jp/kankou-bunka/chakuchi/page003733.html",
+        "positionEvidenceUrl": "https://mapfan.com/spots/SC353%2CJ%2C8W",
+        "positionSourceIds": [
+          "sg2src-ieyasu-oyama-council-monument",
+          "sg2src-ieyasu-oyama-campaign-1600",
+          "sg2src-b-pin-newrule-61-20261107"
+        ]
       }
     },
     {
@@ -5835,8 +7268,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        139.597214,
+        36.759941
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-nikko-city-toshogu",
@@ -5858,6 +7294,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-nikko-toshogu"
+      },
+      "pinApproval": {
+        "sheetRow": 510,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "930835dcb5b50f304c374964efc38e95cf4e22362b32c42cdf49f216fdd6cc81",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-nikko-toshogu"
+      },
+      "pinReview": {
+        "sourceSheetRow": 62,
+        "decision": "可",
+        "locationKind": "史跡現地（一般公開されている史跡・境内・史跡公園の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "栃木県日光市",
+        "officialInfoUrl": "https://toshogu.jp/pages/25/",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/09/090000182300.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-nikko-city-toshogu",
+          "sg2src-ieyasu-nikko-pref-toshogu",
+          "sg2src-b-pin2-nikko-20261107"
+        ]
       }
     }
   ],
@@ -7023,6 +8488,19 @@
     "historyApproval": "⑥経歴108件・史跡61件 F=公開OK、J=C候補、P=一致。旧秀吉v2除外。",
     "mainPublication": false,
     "sourceSheet": "⑥公開最終承認",
-    "date": "2026-11-07"
+    "date": "2026-11-07",
+    "pinRelease": {
+      "source": "③史跡 G/I/J/N and ⑥公開最終承認 K/L/M/O/P",
+      "sourceRows": "⑥465-510",
+      "approvalVersion": "v2",
+      "pinCount": 46,
+      "colors": {
+        "green": 43,
+        "yellow": 3,
+        "red": 0
+      },
+      "notPinned": 15,
+      "releaseStatus": "作業ブランチのみ・本番未公開"
+    }
   }
 }
