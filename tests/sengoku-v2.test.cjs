@@ -71,10 +71,54 @@ test('Honnoji old location cannot be confused with the modern location or expose
  assert.equal(linkedHistory(hid,'26104'),true);
  assert.equal(linkedHistory(hid,'26103'),false);
 });
-test('all unverified pins stay hidden; only the reviewed precise Okehazama point is published',()=>{
- const pinned=doc.sites.filter(s=>s.publicPin);
- assert.deepEqual(pinned.map(s=>s.siteId),['sg2site-nobu-okehazama-tradition']);
- for(const site of doc.sites)if(!site.publicPin)assert.equal(site.point,null);
+test('⑥ pin release has exactly 46 latest v2 site approvals and 15 municipality-only sites',()=>{
+ const pinned=doc.sites.filter(s=>s.publicPin),unmapped=doc.sites.filter(s=>!s.publicPin);
+ assert.equal(pinned.length,46);assert.equal(unmapped.length,15);
+ assert.deepEqual(pinned.map(s=>s.pinApproval.sheetRow).sort((a,b)=>a-b),Array.from({length:46},(_,i)=>i+465));
+ assert.equal(new Set(pinned.map(s=>s.siteId)).size,46);
+ const colors=pinned.reduce((a,s)=>(a[s.pinReview.accessStatus]++,a),{green:0,yellow:0,red:0});
+ assert.deepEqual(colors,{green:43,yellow:3,red:0});
+ for(const site of pinned){
+  assert.equal(site.pinApproval.version,'v2');assert.equal(site.pinApproval.sourceId,site.siteId);
+  assert.equal(site.pinApproval.sha256,hash(site.description));
+  assert.equal(site.pinReview.decision,'可');
+  assert.ok(/^https:\/\//.test(site.pinReview.officialInfoUrl));
+  assert.deepEqual(site.point,[Number(site.point[0]),Number(site.point[1])]);
+ }
+ for(const site of unmapped){
+  assert.equal(site.point,null);assert.equal(site.pinApproval,undefined);
+  assert.ok(site.municipalityCodes.length>0,'no-coordinate site must retain municipality awards');
+ }
+ assert.deepEqual(pinned.filter(s=>s.pinReview.accessStatus==='yellow').map(s=>s.siteId).sort(),[
+  'sg2site-hideyoshi-himeji','sg2site-nobu-azuchi','sg2site-nobu-gifu']);
+});
+test('B coordinates and approved version cannot be bypassed by old v1 text approval',()=>{
+ const sample=doc.sites.find(s=>s.siteId==='sg2site-nobu-gifu');
+ const wrongVersion=clone(doc);wrongVersion.sites.find(s=>s.siteId===sample.siteId).pinApproval.version='v1';
+ assert.throws(()=>verify(wrongVersion),/位置版v2/);
+ const wrongRow=clone(doc);wrongRow.sites.find(s=>s.siteId===sample.siteId).pinApproval.sheetRow=465;
+ assert.throws(()=>verify(wrongRow),/位置版v2/);
+ const missing=clone(doc);delete missing.sites.find(s=>s.siteId===sample.siteId).pinApproval;
+ assert.throws(()=>verify(missing),/位置更新版/);
+ const copiedApproval=clone(doc);copiedApproval.sites.find(s=>s.siteId===sample.siteId).pinApproval={...sample.approval};
+ assert.throws(()=>verify(copiedApproval),/位置版v2|同じ承認行/);
+ const moved=clone(doc);moved.sites.find(s=>s.siteId===sample.siteId).point[0]+=0.01;
+ assert.throws(()=>verify(moved),/座標・見学区分/);
+ const guessedGreen=clone(doc);guessedGreen.sites.find(s=>s.siteId===sample.siteId).pinReview.accessStatus='green';
+ assert.throws(()=>verify(guessedGreen),/座標・見学区分/);
+ const noStatus=clone(doc);noStatus.sites.find(s=>s.siteId===sample.siteId).pinReview.accessStatus='unknown';
+ assert.throws(()=>verify(noStatus),/見学区分/);
+});
+test('access colors are not discovery colors, and future red forbids routing',()=>{
+ assert.deepEqual(['green','yellow','red'].map(x=>V.pinPresentation(x).symbol),['○','△','×']);
+ assert.deepEqual(['green','yellow','red'].map(x=>V.pinPresentation(x).colorName),['緑','黄','赤']);
+ assert.throws(()=>V.pinPresentation('unknown'),/未確認/);
+ const gifu=index.sites.get('sg2site-nobu-gifu'),himeji=index.sites.get('sg2site-hideyoshi-himeji');
+ assert.equal(V.pinDetails(gifu).access.label,'一部立入制限');
+ assert.match(V.pinDetails(himeji).restriction,/ニの櫓/);
+ const red=clone(gifu);red.pinReview.accessStatus='red';red.pinReview.restriction='公開区域を全面立入禁止';
+ assert.equal(V.pinDetails(red).noRouting,true);
+ assert.match(V.pinDetails(red).guidance,/現地の案内に従ってください/);
 });
 test('preexisting municipality, ward and town visit formats enable retroactive awards',()=>{
  const saved={'n:26103:001':{first:'2019-01-01'},'m:132090001':{},'s:141510001':{},'21362':{}};
