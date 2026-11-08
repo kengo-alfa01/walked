@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - refactor/sengoku-v2-only-20261107
+      - feature/sengoku-v2-approved-46-pins
     paths:
       - 'index.html'
       - 'sengoku-v2-*.js'
@@ -21,7 +22,7 @@ concurrency:
 
 jobs:
   webkit-mobile:
-    if: github.ref == 'refs/heads/refactor/sengoku-v2-only-20261107'
+    if: github.ref == 'refs/heads/refactor/sengoku-v2-only-20261107' || github.ref == 'refs/heads/feature/sengoku-v2-approved-46-pins'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -32,7 +33,7 @@ jobs:
       - name: Install browser QA packages only
         run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
       - name: Install headless WebKit browser and runtime dependencies
-        run: npx playwright install --with-deps webkit
+        run: npx playwright install --with-deps webkit chromium
       - name: Prepare pinned geographical test fixture
         run: |
           mkdir -p .qa-assets
