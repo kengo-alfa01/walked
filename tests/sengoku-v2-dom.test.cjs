@@ -128,7 +128,7 @@ test('46 approved pins are visible without visits and with old unknown-pin setti
  }
 });
 test('selected person pins include undiscovered links, one pin per site ID, independent of card history',async()=>{
- const w=await mount({walked_municipal_v2:visit(['23229'])});
+ const w=await mount({walked_municipal_v2:visit(['23229','25203','23219'])});
  try{
   capturePins(w);
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
@@ -145,7 +145,7 @@ test('selected person pins include undiscovered links, one pin per site ID, inde
    }
   }
   assert.ok(approved.sites.some(s=>s.publicPin&&s.personIds.length>1),'shared site test fixture absent');
-  assert.deepEqual(Object.keys(read(w).visited),['23229']);
+  assert.deepEqual(Object.keys(read(w).visited).sort(),['23219','23229','25203']);
  }finally{w.close()}
 });
 test('old Hōjō Ujimasa and Ōta Dōkan card saves never surface retired people, cards or pins',async()=>{
