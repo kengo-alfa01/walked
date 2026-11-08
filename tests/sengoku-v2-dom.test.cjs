@@ -93,19 +93,61 @@ test('legacy location acquisition and regional UI continue to operate under v2 b
   assert.deepEqual(read(w).visited,before.visited);
  }finally{w.close();}
 });
-test('reviewed pin is the only v2 map pin even when previously visited',async()=>{
+function capturePins(w){
+ w.eval(`window.qaV2Markers=[];
+ sengokuPins.clearLayers=()=>{window.qaV2Markers.length=0};
+ L.circleMarker=(xy,opts)=>{
+  const marker={xy:Array.from(xy),opts,popup:null,bindPopup(v){this.popup=v;return this},addTo(){return this}};
+  window.qaV2Markers.push(marker);return marker;
+ };`);
+}
+test('46 approved pins are visible without visits and with old unknown-pin setting off or on',async()=>{
+ for(const pref of ['false','true']){
+  const w=await mount({walked_show_unknown_pins_v1:pref});
+  try{
+   capturePins(w);
+   w.document.querySelector('[data-collection-mode="sengoku"]').click();
+   const pins=w.qaV2Markers;
+   assert.equal(pins.length,46,'public pins should not depend on acquisition or legacy preference');
+   assert.equal(new Set(pins.map(p=>p.popup.querySelector('h3').textContent)).size,46);
+   assert.equal(read(w).cards&&Object.keys(read(w).cards).length,0);
+   assert.equal(w.document.getElementById('showUnknownPins'),null);
+   assert.equal(w.localStorage.getItem('walked_show_unknown_pins_v1'),pref,'old preference left untouched');
+   const colors=pins.reduce((a,p)=>(a[p.opts.fillColor]=(a[p.opts.fillColor]||0)+1,a),{});
+   assert.equal(colors['#21864e'],43);assert.equal(colors['#edb42d'],3);
+   assert.equal(Object.keys(colors).length,2);
+   const yellow=pins.filter(p=>p.opts.fillColor==='#edb42d').map(p=>p.popup.querySelector('h3').textContent).sort();
+   assert.deepEqual(yellow,['安土城跡','姫路城跡','岐阜城跡'].sort());
+   const gifu=pins.find(p=>p.popup.textContent.includes('岐阜城跡'));
+   assert.ok(gifu.popup.textContent.includes('一部立入制限'));
+   assert.ok(gifu.popup.textContent.includes('立入状況は変わる場合があります。現地の案内に従ってください。'));
+   assert.ok(gifu.popup.textContent.includes('改修休館中'));
+   assert.ok(gifu.popup.querySelector('a[href^="https://"]'));
+   assert.equal(gifu.popup.querySelector('a').getAttribute('target'),'_blank');
+  }finally{w.close();}
+ }
+});
+test('selected person pins include undiscovered links, one pin per site ID, independent of card history',async()=>{
  const w=await mount({walked_municipal_v2:visit(['23229'])});
  try{
+  capturePins(w);
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
-  w.eval('window.qaV2Markers=[];sengokuPins.clearLayers=()=>{window.qaV2Markers.length=0};L.circleMarker=(xy,opts)=>{window.qaV2Markers.push({xy,opts});return {bindPopup(){return this},addTo(){return this}}};');
-  openSengoku(w,personIds[0]);
-  const pins=w.qaV2Markers;
-  assert.ok(pins.length<=1,'v2 selected person should not expose other legacy pins');
-  if(pins.length)assert.deepEqual(Array.from(pins[0].xy),[35.05998,136.9807]);
- }finally{w.close();}
+  assert.equal(w.qaV2Markers.length,46);
+  for(const personId of personIds){
+   openSengoku(w,personId);
+   const expected=approved.sites.filter(s=>s.publicPin&&s.personIds.includes(personId));
+   assert.equal(w.qaV2Markers.length,expected.length,'selected character should show every public site even if unearned');
+   assert.equal(new Set(w.qaV2Markers.map(m=>m.popup.querySelector('h3').textContent)).size,expected.length);
+   for(const s of expected){
+    const m=w.qaV2Markers.find(m=>m.popup.querySelector('h3').textContent===s.name);
+    assert.ok(m,'missing site for character '+personId+': '+s.name);
+    assert.deepEqual(m.xy,[s.point[1],s.point[0]],'Leaflet pin uses [latitude,longitude]');
+   }
+  }
+  assert.ok(approved.sites.some(s=>s.publicPin&&s.personIds.length>1),'shared site test fixture absent');
+  assert.deepEqual(Object.keys(read(w).visited),['23229']);
+ }finally{w.close()}
 });
-
-
 test('old Hōjō Ujimasa and Ōta Dōkan card saves never surface retired people, cards or pins',async()=>{
  const initial={
   walked_municipal_v2:visit(['14206','13120']),
