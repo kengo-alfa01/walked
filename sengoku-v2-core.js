@@ -8,6 +8,55 @@
   const SCHEMA='walked.sengoku.v2.approved.v1';
   const SOURCE='1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw';
   const PEOPLE=new Set(['sg-6eaf66c3d7c8','sg-f47391608dbb','sg-a7bb09927601']);
+  // The approved ⑥ v2 sheet rows are pinned to site IDs; old v1 text approvals cannot authorize new coordinates.
+  const PIN_APPROVAL_ROWS=Object.freeze({
+    "sg2site-nobu-okehazama-tradition": 465,
+    "sg2site-nobu-komakiyama": 466,
+    "sg2site-nobu-gifu": 467,
+    "sg2site-nobu-toji": 468,
+    "sg2site-nobu-azuchi": 469,
+    "sg2site-nobu-kiyosu-old": 470,
+    "sg2site-nobu-kanegasaki": 471,
+    "sg2site-nobu-ichijodani": 472,
+    "sg2site-nobu-odani": 473,
+    "sg2site-nobu-arioka": 474,
+    "sg2site-nobu-ohkawachi": 475,
+    "sg2site-nobu-inou-battle-commemorative": 476,
+    "sg2site-nobu-fujisan-hongu-sengen": 477,
+    "sg2site-nobu-inuyama": 478,
+    "sg2site-hideyoshi-birth-memorial": 479,
+    "sg2site-hideyoshi-nagahama": 480,
+    "sg2site-hideyoshi-himeji": 481,
+    "sg2site-hideyoshi-osaka-castle": 482,
+    "sg2site-hideyoshi-kitano": 483,
+    "sg2site-hideyoshi-ishigakiyama": 484,
+    "sg2site-hideyoshi-odawara": 485,
+    "sg2site-hideyoshi-hizen-nagoya": 486,
+    "sg2site-hideyoshi-daigoji": 487,
+    "sg2site-hideyoshi-miki": 488,
+    "sg2site-hideyoshi-hiraiyama": 489,
+    "sg2site-hideyoshi-tottori": 490,
+    "sg2site-hideyoshi-negoroji": 491,
+    "sg2site-hideyoshi-kurokawa": 492,
+    "sg2site-hideyoshi-odoi-hirano": 493,
+    "sg2site-hideyoshi-yamazaki-castle": 494,
+    "sg2site-ieyasu-okazaki": 495,
+    "sg2site-ieyasu-odaka": 496,
+    "sg2site-ieyasu-honshoji": 497,
+    "sg2site-ieyasu-kakegawa": 498,
+    "sg2site-ieyasu-hamamatsu": 499,
+    "sg2site-ieyasu-saigagake": 500,
+    "sg2site-ieyasu-takatenjin": 501,
+    "sg2site-ieyasu-sunpu": 502,
+    "sg2site-ieyasu-momokubari": 503,
+    "sg2site-ieyasu-jinbano": 504,
+    "sg2site-ieyasu-nijo": 505,
+    "sg2site-ieyasu-chausu": 506,
+    "sg2site-ieyasu-kunozan": 507,
+    "sg2site-ieyasu-nagakute": 508,
+    "sg2site-ieyasu-oyama-council-tradition": 509,
+    "sg2site-ieyasu-nikko-toshogu": 510
+  });
   const own=(o,k)=>Object.prototype.hasOwnProperty.call(o,k);
   function check(ok,message){if(!ok)throw Error('戦国v2: '+message);}
   function plain(x){return !!x&&typeof x==='object'&&!Array.isArray(x);}
@@ -64,7 +113,24 @@
       check(Array.isArray(s.sourceUrls)&&s.sourceUrls.every(x=>typeof x==='string'&&/^https:\/\//.test(x)),'史跡出典URL不正');
       const codes=normalizeCodes(s.municipalityCodes?.length?s.municipalityCodes:s.municipalityCode,known);
       check(!s.point||(s.publicPin===true&&Array.isArray(s.point)&&s.point.length===2&&s.point.every(Number.isFinite)&&s.point[0]>=122&&s.point[0]<=154&&s.point[1]>=20&&s.point[1]<=47),'未承認または範囲外のピン');
-      check(s.publicPin!==true||Array.isArray(s.point),'公開ピンの位置がありません');
+      if(s.publicPin===true){
+        check(Array.isArray(s.point),'公開ピンの位置がありません');
+        check(plain(s.pinApproval),'位置更新版の⑥公開承認がありません');
+        approval(s.pinApproval,s.description,sha256,{kind:'史跡',personId:s.personIds.join('\\n'),sourceId:s.siteId});
+        uniqueApproval(s.pinApproval);
+        check(s.pinApproval.version==='v2'&&s.pinApproval.sheetRow===PIN_APPROVAL_ROWS[s.siteId],'位置版v2と史跡IDの⑥承認行が一致しません');
+        check(['自治体確認済・権利OK','地点確認済・権利OK'].includes(s.pinApproval.rights),'位置版の権利・所在地確認が未承認');
+        const p=s.pinReview;
+        check(plain(p)&&p.decision==='可'&&['green','yellow','red'].includes(p.accessStatus),'Bの最新公開ピン・見学区分が未確認');
+        check(typeof p.locationKind==='string'&&p.locationKind.length>0&&p.locationKind!=='未設定','表示位置の種別が未確認');
+        check(typeof p.municipality==='string'&&p.municipality.length>0&&Number.isInteger(p.sourceSheetRow)&&p.sourceSheetRow>=2,'③史跡の参照行・市区町村がありません');
+        check(/^\\d{4}-\\d{2}-\\d{2}$/.test(p.checkedAt||''),'見学情報の確認日がありません');
+        check(typeof p.restriction==='string'&&(p.accessStatus==='green'||p.restriction.trim()),'立入制限の内容がありません');
+        check([p.officialInfoUrl,p.positionEvidenceUrl].every(u=>u===null||typeof u==='string'&&/^https:\\/\\//.test(u)),'史跡案内・根拠URL不正');
+        check(Array.isArray(p.positionSourceIds)&&p.positionSourceIds.every(x=>typeof x==='string'),'位置情報の出典IDが不正です');
+      }else{
+        check(s.publicPin===false&&s.point===null&&!s.pinApproval&&!s.pinReview,'未承認史跡に位置情報が混入しています');
+      }
       siteMap.set(s.siteId,{...s,codes});
     }
     for(const h of doc.histories){
