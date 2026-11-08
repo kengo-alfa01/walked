@@ -8,55 +8,377 @@
   const SCHEMA='walked.sengoku.v2.approved.v1';
   const SOURCE='1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw';
   const PEOPLE=new Set(['sg-6eaf66c3d7c8','sg-f47391608dbb','sg-a7bb09927601']);
-  // The approved ⑥ v2 sheet rows are pinned to site IDs; old v1 text approvals cannot authorize new coordinates.
-  const PIN_APPROVAL_ROWS=Object.freeze({
-    "sg2site-nobu-okehazama-tradition": 465,
-    "sg2site-nobu-komakiyama": 466,
-    "sg2site-nobu-gifu": 467,
-    "sg2site-nobu-toji": 468,
-    "sg2site-nobu-azuchi": 469,
-    "sg2site-nobu-kiyosu-old": 470,
-    "sg2site-nobu-kanegasaki": 471,
-    "sg2site-nobu-ichijodani": 472,
-    "sg2site-nobu-odani": 473,
-    "sg2site-nobu-arioka": 474,
-    "sg2site-nobu-ohkawachi": 475,
-    "sg2site-nobu-inou-battle-commemorative": 476,
-    "sg2site-nobu-fujisan-hongu-sengen": 477,
-    "sg2site-nobu-inuyama": 478,
-    "sg2site-hideyoshi-birth-memorial": 479,
-    "sg2site-hideyoshi-nagahama": 480,
-    "sg2site-hideyoshi-himeji": 481,
-    "sg2site-hideyoshi-osaka-castle": 482,
-    "sg2site-hideyoshi-kitano": 483,
-    "sg2site-hideyoshi-ishigakiyama": 484,
-    "sg2site-hideyoshi-odawara": 485,
-    "sg2site-hideyoshi-hizen-nagoya": 486,
-    "sg2site-hideyoshi-daigoji": 487,
-    "sg2site-hideyoshi-miki": 488,
-    "sg2site-hideyoshi-hiraiyama": 489,
-    "sg2site-hideyoshi-tottori": 490,
-    "sg2site-hideyoshi-negoroji": 491,
-    "sg2site-hideyoshi-kurokawa": 492,
-    "sg2site-hideyoshi-odoi-hirano": 493,
-    "sg2site-hideyoshi-yamazaki-castle": 494,
-    "sg2site-ieyasu-okazaki": 495,
-    "sg2site-ieyasu-odaka": 496,
-    "sg2site-ieyasu-honshoji": 497,
-    "sg2site-ieyasu-kakegawa": 498,
-    "sg2site-ieyasu-hamamatsu": 499,
-    "sg2site-ieyasu-saigagake": 500,
-    "sg2site-ieyasu-takatenjin": 501,
-    "sg2site-ieyasu-sunpu": 502,
-    "sg2site-ieyasu-momokubari": 503,
-    "sg2site-ieyasu-jinbano": 504,
-    "sg2site-ieyasu-nijo": 505,
-    "sg2site-ieyasu-chausu": 506,
-    "sg2site-ieyasu-kunozan": 507,
-    "sg2site-ieyasu-nagakute": 508,
-    "sg2site-ieyasu-oyama-council-tradition": 509,
-    "sg2site-ieyasu-nikko-toshogu": 510
-  });
+  // Immutable release manifest: ⑥ row, ③ row, [longitude,latitude], status, and reviewed date.
+  const PIN_APPROVED_META=Object.freeze({
+  "sg2site-nobu-okehazama-tradition": [
+    465,
+    2,
+    136.9807,
+    35.05998,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-komakiyama": [
+    466,
+    3,
+    136.9133984,
+    35.2924575,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-gifu": [
+    467,
+    4,
+    136.782034,
+    35.433927,
+    "yellow",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-toji": [
+    468,
+    5,
+    135.747703,
+    34.980317,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-azuchi": [
+    469,
+    7,
+    136.139542,
+    35.155818,
+    "yellow",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-kiyosu-old": [
+    470,
+    10,
+    136.8420625,
+    35.2171875,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-kanegasaki": [
+    471,
+    11,
+    136.074112,
+    35.666393,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-ichijodani": [
+    472,
+    14,
+    136.295692,
+    35.999445,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-odani": [
+    473,
+    15,
+    136.272303,
+    35.449437,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-arioka": [
+    474,
+    18,
+    135.420992,
+    34.781112,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-ohkawachi": [
+    475,
+    20,
+    136.472926,
+    34.527127,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-inou-battle-commemorative": [
+    476,
+    21,
+    136.8905,
+    35.206083,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-fujisan-hongu-sengen": [
+    477,
+    22,
+    138.610535,
+    35.225037,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-nobu-inuyama": [
+    478,
+    23,
+    136.939177,
+    35.38836,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-birth-memorial": [
+    479,
+    24,
+    136.85409,
+    35.17472,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-nagahama": [
+    480,
+    25,
+    136.261784,
+    35.377409,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-himeji": [
+    481,
+    26,
+    134.6939,
+    34.83935,
+    "yellow",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-osaka-castle": [
+    482,
+    29,
+    135.526,
+    34.68734,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-kitano": [
+    483,
+    32,
+    135.735123,
+    35.031174,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-ishigakiyama": [
+    484,
+    33,
+    139.1278124,
+    35.23538433,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-odawara": [
+    485,
+    34,
+    139.1573811,
+    35.24966708,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-hizen-nagoya": [
+    486,
+    35,
+    129.868966,
+    33.530396,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-daigoji": [
+    487,
+    38,
+    135.822634,
+    34.950962,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-miki": [
+    488,
+    39,
+    134.987864,
+    34.799872,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-hiraiyama": [
+    489,
+    40,
+    135.0160625,
+    34.8081875,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-tottori": [
+    490,
+    41,
+    134.23872,
+    35.50416,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-negoroji": [
+    491,
+    42,
+    135.321625,
+    34.294727,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-kurokawa": [
+    492,
+    43,
+    139.932324,
+    37.487317,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-odoi-hirano": [
+    493,
+    44,
+    135.7349167,
+    35.03330556,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-hideyoshi-yamazaki-castle": [
+    494,
+    45,
+    135.676282,
+    34.901786,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-okazaki": [
+    495,
+    46,
+    137.1596639,
+    34.956153,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-odaka": [
+    496,
+    47,
+    136.936302,
+    35.064525,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-honshoji": [
+    497,
+    48,
+    137.085083,
+    34.900173,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-kakegawa": [
+    498,
+    49,
+    138.015145,
+    34.776906,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-hamamatsu": [
+    499,
+    50,
+    137.723698,
+    34.712366,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-saigagake": [
+    500,
+    51,
+    137.7183622,
+    34.7196531,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-takatenjin": [
+    501,
+    52,
+    138.035571,
+    34.698262,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-sunpu": [
+    502,
+    53,
+    138.383163,
+    34.979285,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-momokubari": [
+    503,
+    55,
+    136.488411,
+    35.365395,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-jinbano": [
+    504,
+    56,
+    136.465098,
+    35.365809,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-nijo": [
+    505,
+    57,
+    135.7503,
+    35.01263,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-chausu": [
+    506,
+    58,
+    135.5114375,
+    34.6518125,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-kunozan": [
+    507,
+    59,
+    138.4676128,
+    34.9648125,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-nagakute": [
+    508,
+    60,
+    137.049856,
+    35.171566,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-oyama-council-tradition": [
+    509,
+    61,
+    139.800754,
+    36.3145282,
+    "green",
+    "2026-11-07"
+  ],
+  "sg2site-ieyasu-nikko-toshogu": [
+    510,
+    62,
+    139.597214,
+    36.759941,
+    "green",
+    "2026-11-07"
+  ]
+});
   const own=(o,k)=>Object.prototype.hasOwnProperty.call(o,k);
   function check(ok,message){if(!ok)throw Error('戦国v2: '+message);}
   function plain(x){return !!x&&typeof x==='object'&&!Array.isArray(x);}
@@ -116,17 +438,19 @@
       if(s.publicPin===true){
         check(Array.isArray(s.point),'公開ピンの位置がありません');
         check(plain(s.pinApproval),'位置更新版の⑥公開承認がありません');
-        approval(s.pinApproval,s.description,sha256,{kind:'史跡',personId:s.personIds.join('\\n'),sourceId:s.siteId});
+        approval(s.pinApproval,s.description,sha256,{kind:'史跡',personId:s.personIds.join('\n'),sourceId:s.siteId});
         uniqueApproval(s.pinApproval);
-        check(s.pinApproval.version==='v2'&&s.pinApproval.sheetRow===PIN_APPROVAL_ROWS[s.siteId],'位置版v2と史跡IDの⑥承認行が一致しません');
+        check(s.pinApproval.version==='v2'&&s.pinApproval.sheetRow===PIN_APPROVED_META[s.siteId]?.[0],'位置版v2と史跡IDの⑥承認行が一致しません');
         check(['自治体確認済・権利OK','地点確認済・権利OK'].includes(s.pinApproval.rights),'位置版の権利・所在地確認が未承認');
         const p=s.pinReview;
         check(plain(p)&&p.decision==='可'&&['green','yellow','red'].includes(p.accessStatus),'Bの最新公開ピン・見学区分が未確認');
+        const expected=PIN_APPROVED_META[s.siteId];
+        check(!!expected&&p.sourceSheetRow===expected[1]&&s.point[0]===expected[2]&&s.point[1]===expected[3]&&p.accessStatus===expected[4]&&p.checkedAt===expected[5],'⑥位置版と③最新B記録の座標・見学区分が一致しません');
         check(typeof p.locationKind==='string'&&p.locationKind.length>0&&p.locationKind!=='未設定','表示位置の種別が未確認');
         check(typeof p.municipality==='string'&&p.municipality.length>0&&Number.isInteger(p.sourceSheetRow)&&p.sourceSheetRow>=2,'③史跡の参照行・市区町村がありません');
-        check(/^\\d{4}-\\d{2}-\\d{2}$/.test(p.checkedAt||''),'見学情報の確認日がありません');
+        check(/^\d{4}-\d{2}-\d{2}$/.test(p.checkedAt||''),'見学情報の確認日がありません');
         check(typeof p.restriction==='string'&&(p.accessStatus==='green'||p.restriction.trim()),'立入制限の内容がありません');
-        check([p.officialInfoUrl,p.positionEvidenceUrl].every(u=>u===null||typeof u==='string'&&/^https:\\/\\//.test(u)),'史跡案内・根拠URL不正');
+        check([p.officialInfoUrl,p.positionEvidenceUrl].every(u=>u===null||typeof u==='string'&&/^https:\/\//.test(u)),'史跡案内・根拠URL不正');
         check(Array.isArray(p.positionSourceIds)&&p.positionSourceIds.every(x=>typeof x==='string'),'位置情報の出典IDが不正です');
       }else{
         check(s.publicPin===false&&s.point===null&&!s.pinApproval&&!s.pinReview,'未承認史跡に位置情報が混入しています');
