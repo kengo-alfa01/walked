@@ -55,6 +55,10 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      color:marker.options.fillColor,popup:marker.getPopup().getContent().textContent
    })));
    assert.equal(pins.length,46,'all 46 site pins must be present even when histories are locked');
+   const pane=await page.evaluate(()=>({z:getComputedStyle(map.getPane('sengoku-pins')).zIndex,overlay:getComputedStyle(map.getPane('overlayPane')).zIndex,renderer:sengokuPins.getLayers()[0]?.options.renderer?.options.pane}));
+   assert.equal(pane.z,'625','historic pins must be in a high pane');
+   assert.ok(Number(pane.z)>Number(pane.overlay),'pins must overlay administrative polygons');
+   assert.equal(pane.renderer,'sengoku-pins','pins must not use administrative Canvas renderer');
    assert.equal(new Set(pins.map(p=>p.name)).size,46);
    assert.equal(pins.filter(p=>p.color==='#21864e').length,43);
    assert.deepEqual(pins.filter(p=>p.color==='#edb42d').map(p=>p.name).sort(),['岐阜城跡','安土城跡','姫路城跡'].sort());
