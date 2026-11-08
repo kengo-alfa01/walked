@@ -141,7 +141,7 @@ test('PC desktop Chromium viewport: 46 pins, access categories, deduplication an
   assert.ok(values.find(v=>v.site==='姫路城跡')?.popup.includes('保存修理'));
   assert.ok(values.find(v=>v.site==='安土城跡')?.popup.includes('三重塔'));
   assert.ok(values.find(v=>v.site==='岐阜城跡')?.popup.includes('一部立入制限'));
-  await page.evaluate(()=>sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('姫路城跡')).fire('click'));
+  await page.evaluate(()=>{sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('姫路城跡')).fire('click');});
   assert.match(await page.locator('.leaflet-popup-content').innerText(),/姫路城跡/);
   const size=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
   assert.ok(size.scrollWidth<=size.width+2,'desktop horizontal overflow');
