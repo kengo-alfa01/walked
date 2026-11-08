@@ -548,5 +548,29 @@
     if(sha256(histories.map(h=>h.historyId).sort().join('\n'))!==rule.historyIdsSHA256)return false;
     return histories.every(h=>own(found,h.historyId));
   }
-  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,earnedMunicipalities,validate,award,acquired,canUnlockStory};
+
+  // Color communicates published access conditions, never discovery or card ownership.
+  function pinPresentation(status){
+    const config={
+      green:{label:'通常見学可能',symbol:'○',fill:'#21864e',stroke:'#125c35'},
+      yellow:{label:'一部立入制限',symbol:'△',fill:'#edb42d',stroke:'#77510c'},
+      red:{label:'全面立入禁止',symbol:'×',fill:'#ca3a3a',stroke:'#7f1d1d'}
+    };
+    const selected=config[status];
+    check(!!selected,'未確認の立入区分はピンに表示できません');
+    return {...selected,colorName:{green:'緑',yellow:'黄',red:'赤'}[status]};
+  }
+  function pinDetails(site){
+    check(plain(site)&&site.publicPin===true&&plain(site.pinReview),'未承認の公開ピンです');
+    const p=site.pinReview;
+    return {
+      name:site.name,municipality:p.municipality,
+      positionKind:p.locationKind,checkedAt:p.checkedAt,
+      access:pinPresentation(p.accessStatus),restriction:p.restriction,
+      officialInfoUrl:p.officialInfoUrl,
+      guidance:'立入状況は変わる場合があります。現地の案内に従ってください。',
+      noRouting:p.accessStatus==='red'
+    };
+  }
+  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,earnedMunicipalities,validate,award,acquired,canUnlockStory,pinPresentation,pinDetails};
 });
