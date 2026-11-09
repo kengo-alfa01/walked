@@ -189,6 +189,16 @@ test('iPhone WebKit: regional map popup shows unlocked content and Sengoku area 
   });
   assert.match(await page.locator('.leaflet-popup-content').innerText(),/地域図鑑：町田市/);
   assert.match(await page.locator('.leaflet-popup-content').innerText(),/薬師池公園/);
+  assert.equal(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none','hide map background selector while regional popup is open');
+  assert.equal(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none','hide current-location control while regional popup is open');
+  await page.locator('.leaflet-popup-close-button').click();
+  await page.locator('.leaflet-popup-content .regional-map-popup').waitFor({state:'detached',timeout:2500});
+  assert.notEqual(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none','restore background selector when regional popup closes');
+  assert.notEqual(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none','restore current-location control when regional popup closes');
+  await page.evaluate(()=>{
+   handleMapAreaClick(state.features.find(f=>key(f)==='13209'),'municipal',L.latLng(35.55,139.4));
+  });
+  assert.equal(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none');
   await page.locator('.regional-map-popup .regional-map-detail').first().click();
   assert.equal(await page.locator('#regionalDialog').evaluate(el=>el.open),true);
   await page.locator('#regionalDialog button').first().click();
