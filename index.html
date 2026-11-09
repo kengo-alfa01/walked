@@ -25,6 +25,20 @@
 .leaflet-sengoku-areas-pane path.sengoku-area-pulse{pointer-events:none;animation:sengoku-area-breathe 3.8s ease-in-out infinite}
 @keyframes sengoku-area-breathe{0%,100%{opacity:.18}50%{opacity:.94}}
 @media(prefers-reduced-motion:reduce){.leaflet-sengoku-areas-pane path.sengoku-area-pulse{animation:none;opacity:.8}}
+.regional-map-popup{width:min(310px,75vw);font-size:13px;line-height:1.5;color:#23473b;overflow-wrap:anywhere}
+.regional-map-popup h3{font-size:15px;margin:0 0 5px}
+.regional-map-popup .regional-map-subtitle{font-size:11px;color:#63736b;margin:3px 0 9px}
+.regional-map-popup .regional-map-articles{max-height:min(36vh,265px);overflow-y:auto;overscroll-behavior:contain;padding-right:4px}
+.regional-map-popup article{border-top:1px solid #dce7df;padding:9px 2px}
+.regional-map-popup article strong{display:block;font-size:13px}
+.regional-map-popup article small{display:block;margin:3px 0;color:#637c6e}
+.regional-map-popup article p{margin:5px 0;white-space:pre-line}
+.regional-map-popup button{font-size:12px;padding:7px 10px;margin:5px 0 2px;border-radius:8px}
+.regional-map-popup .regional-map-detail{background:#e6f1ea;color:#225540;padding:6px 9px;font-weight:600}
+.regional-map-popup .regional-map-full{width:100%;margin-top:10px}
+/* Make long regional encyclopedia articles readable: map controls return automatically on popup close. */
+.mapwrap.regional-popup-open > .map-display-controls,
+.mapwrap.regional-popup-open > .map-center{display:none!important}
 </style><link rel="stylesheet" href="./regional.css"></head><body><header><div class="app-brand"><img class="app-icon" src="./assets/icon-192.png" width="52" height="52" alt=""><strong>日本見風録</strong></div></header><main><section class="title-profile" aria-label="プロフィール"><div><small>表示中の称号</small><strong id="profileTitle">称号なし</strong><span id="titleProgress">称号の集計表を読み込み中…</span></div><button type="button" class="alt" id="titleToggle" aria-expanded="false">🏅 称号コレクション</button></section><section id="titlePanel" class="title-panel" hidden><h2>称号コレクション</h2><p id="titleSummary"></p><label for="displayTitle">プロフィールの称号</label><select id="displayTitle"><option value="">称号を表示しない</option></select><div class="title-controls"><label for="titleCategory">表示する種類</label><select id="titleCategory"><option value="acquired">獲得済みすべて</option><option value="national">全国出世</option><option value="prefecture">都道府県</option><option value="region">地方</option></select><label for="titlePrefecture">都道府県</label><select id="titlePrefecture"></select></div><p class="small-note">再訪・町丁目の重複は数えません。獲得済み称号は保持します。過去の訪問による称号は初回判定日時を獲得日時として記録します。</p><div id="titleList" class="title-grid"></div><details><summary>対象地域と呼称について</summary><p id="titlePolicy" class="small-note"></p></details></section><div id="titleToast" class="title-toast" role="status" aria-live="polite" hidden><span></span><button type="button" id="closeTitleToast" aria-label="称号通知を閉じる">閉じる</button></div><section class="stats"><div class="stat"><b id="cnt">0</b><small>表示範囲の制覇数</small></div><div class="stat"><b id="rate">0%</b><small>表示範囲の探索率</small></div><div class="stat"><b id="pref">0</b><small>訪問都道府県</small></div></section><div class="tools"><label class="file" for="jsonFile">📥 タイムラインを取り込む</label><input id="jsonFile" type="file" accept=".json,application/json"><button id="locate">📍 現在地を登録</button><button class="alt" id="save">💾 バックアップ</button><button class="alt" id="restore">📂 復元</button><input type="file" id="restoreFile" accept=".json" hidden></div><div class="notice" id="status" aria-live="polite">境界データを読み込みます。地図タップで登録するには設定からエリア追加モードをオンにしてください。</div><nav class="filters" aria-label="地図の表示フィルタ"><button class="filter active" data-mode="nearby">町田／相模原</button><button class="filter" data-mode="municipal">市区町村</button><button class="filter" data-mode="nationwideDetail">全国詳細</button><button class="filter" data-mode="prefecture">都道府県</button></nav><div class="hint" id="modehint">未制覇エリアはすべて薄いグレー、制覇済みエリアは6色で表示します。全国詳細と記録を共有し、称号は市区町村・行政区ごとに1回数えます。</div><input id="boundaryFile" type="file" accept=".geojson,.topojson,.json" hidden><div id="areaAddIndicator" class="notice" role="status" aria-live="polite">🔒 閲覧モード：地図・検索結果からエリアは変更されません。</div><div class="mapwrap"><div id="map"></div><div class="map-display-controls"><label for="mapBaseMode">背景</label><select id="mapBaseMode" aria-label="地図の背景"><option value="pale">淡色</option><option value="blank">白地図</option><option value="standard">標準</option></select></div><button class="map-center" type="button" id="centerMap" title="現在地を表示（制覇登録はしません）">⌖ 現在地へ</button><div id="detailBadge" class="detail-badge" hidden></div><div id="regionlegend" style="position:absolute;left:12px;bottom:14px;z-index:450;background:#fffffff2;padding:8px 11px;border-radius:9px;font-size:12px;box-shadow:0 2px 8px #0002;pointer-events:none"><span style="color:#5A9BD5">●</span><span style="color:#62B28C">●</span><span style="color:#E5A45F">●</span><span style="color:#9D8BCB">●</span><span style="color:#D88DA8">●</span><span style="color:#56B7B3">●</span> 制覇済み（6色）　<span style="color:#e5e7eb;text-shadow:0 0 1px #405663">●</span> 未制覇（薄いグレー）</div><div id="loading">地図データを読み込み中…</div></div><nav class="collection-mode-switch" aria-label="図鑑の表示モード"><button type="button" class="active" data-collection-mode="regional" aria-pressed="true">地域図鑑</button><button type="button" data-collection-mode="sengoku" aria-pressed="false">戦国時代</button></nav><section class="sengoku-panel" id="sengokuPanel" hidden><div class="sengoku-head"><h2>🏯 戦国時代モード</h2><span id="sengokuCount" class="history-count">人物データを確認中…</span><button class="alt" type="button" id="sengokuToggle">モードを開く</button></div><div id="sengokuQuality" class="sengoku-empty" style="margin-top:8px">史料確認状況を読み込み中…</div><p id="sengokuSelectedName" class="sengoku-selection" role="status" aria-live="polite">選択中：なし（全人物の史跡ピン）</p><div class="sengoku-pin-legend" aria-label="公開史跡の見学状況"><span><b class="pin-green">○</b> 緑：通常見学可能</span><span><b class="pin-yellow">△</b> 黄：一部立入制限</span><span><b class="pin-red">×</b> 赤：全面立入禁止</span></div><div id="sengokuBody" hidden><p class="sengoku-empty">史跡がある市区町村（政令指定都市は行政区）を訪れると、公開対象のカードを獲得できます。人物別に年代順の足跡をたどれます。未発見の内容は秘密です。</p><div class="sengoku-actions"><input id="sengokuSearch" type="search" placeholder="人物を検索"></div><div id="sengokuList" class="sengoku-grid"></div><div id="sengokuDetail" class="sengoku-detail"></div></div></section><section class="regional-panel" id="regionalPanel"><div class="regional-head"><h2>地域図鑑</h2><button type="button" class="alt" aria-expanded="false">地域図鑑を開く</button></div><p data-status aria-live="polite">地域図鑑を読み込み中…</p><div data-body hidden></div></section><dialog id="regionalDialog" class="regional-dialog" aria-label="地域図鑑の記事"></dialog><div id="sengokuToast" class="sengoku-toast" role="status" aria-live="polite" hidden></div><div class="panels"><section class="panel"><h3>🔎 地図で地域を探す</h3><label for="mapSearchPref">都道府県を選択</label><select id="mapSearchPref" aria-label="地図で探す都道府県"><option value="">都道府県を選んでください</option></select><p class="small-note">市区町村単位（政令指定都市は行政区）。タイルをタップすると地図へ移動します。長い一覧は枠内をスクロールできます。</p><div id="results" class="map-search-tiles" aria-live="polite"><p>都道府県を選んでください。</p></div></section><section class="panel"><h3>🧭 記録・使い方</h3><div id="summary"><p>Googleマップの「タイムライン データをエクスポート」で保存した <code>location-history.json</code> を選択してください。</p></div></section></div><details class="settings" id="settings"><summary>⚙️ 設定</summary><div class="settings-body"><label class="settings-toggle"><input id="areaAddMode" type="checkbox">エリア追加モード（地図・検索結果で登録／解除）</label><p class="small-note">初期設定はオフです。オンの間だけ地図・検索結果からエリアを登録／解除できます。検索結果の地域名は地図を移動します。</p><section class="map-color-settings" aria-label="地域の色分け設定"><label class="settings-toggle"><input id="manualMapColors" type="checkbox">地域ごとの色を手動で調整する</label><p class="small-note">制覇済みの地域には隣接地域を区別する6色を使用し、未制覇エリアはすべて薄いグレーで表示します。地図の地域を選ぶと制覇済み表示の色を変更できます。</p><div id="mapColorEditor" hidden><strong id="selectedMapRegion">地域を選択してください</strong><label for="mapRegionColor">選択地域の色（制覇済み表示）</label><select id="mapRegionColor" aria-label="選択地域の色"><option value="auto">自動配色に戻す</option></select><p class="small-note">隣接地域と同じ色は選べません。配色は訪問履歴とは別に保存されます。</p></div></section><p>保存された制覇記録の管理を行います。削除すると手動登録とタイムラインから取り込んだ制覇記録が消えます。カードと獲得済み称号は保持します。必要なら先に「バックアップ」で保存してください。</p><section class="test-panel" aria-label="歴史カードの動作テスト"><h3>🧪 歴史カードの動作テスト</h3><p>実際に移動せず、収録済みの史跡地点を使って獲得判定を試します。テスト結果は保存せず、実際のカードや制覇記録は変更しません。</p><label for="testSite">テスト地点（内容は非公開）</label><select id="testSite"><option value="">史跡データの読み込み待ち</option></select><button type="button" id="runSengokuTest" class="alt">疑似通過を実行</button><div id="testSengokuResult" role="status" aria-live="polite" class="test-output">未実行</div></section><p><button type="button" class="alt" id="beforeRestore">復元・削除前の控えを保存</button> <button type="button" class="alt" id="rescueStorage">保存データ救出</button></p><div class="settings-danger"><button class="warn" id="clear" type="button">制覇記録を削除</button></div></div></details><div class="foot">境界データ：町田市と相模原市の町丁・字は <a href="https://geoshape.ex.nii.ac.jp/ka/resource/13209.html" target="_blank" rel="noopener">CODH/e-Stat（2020年版）</a>（相模原市の3区も同データ）、全国の詳細境界は <a href="https://geoshape.ex.nii.ac.jp/ka/" target="_blank" rel="noopener">CODH/e-Stat（2020年版）</a> を必要な地域ごとに取得。全国の市区町村境界は国土交通省「国土数値情報（行政区域データ）」2025年版を加工した <a href="https://github.com/kyodo-official/japan-choropleth" target="_blank" rel="noopener">共同通信 japan-choropleth</a>（CC BY 4.0）。背景地図：<a href="https://maps.gsi.go.jp/" target="_blank" rel="noopener">国土地理院 地理院タイル（淡色・白地図・標準）</a>。タイムラインのJSONは外部へアップロードせず、このブラウザ内で解析します。地図・境界情報の表示には外部配信サービスへの通信が必要です。ブラウザ保存データは削除されることがあるため、定期的にバックアップしてください。</div></main><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script><script src="./walked-core.js"></script><script src="./publication-runtime.js"></script><script src="./sengoku-v2-core.js"></script><script src="./regional-core.js"></script><script src="./regional-ui.js"></script><script src="./map-coloring.js"></script><script>
 'use strict';
 const MACHIDA_CODE='13209',MACHIDA_PREFIX='m:',SAGAMIHARA_PREFIX='s:',NATION_PREFIX='n:',SAGAMIHARA_WARDS=['14151','14152','14153'],PREF_PREFIX='p:';
@@ -62,6 +76,16 @@ let areaAddModeEnabled=false;
 function syncAreaAddMode(){const indicator=document.getElementById('areaAddIndicator');indicator.textContent=areaAddModeEnabled?'✏️ エリア追加モード：地図・検索結果から登録／解除できます。':'🔒 閲覧モード：地図・検索結果からエリアは変更されません。';indicator.style.background=areaAddModeEnabled?'#fff1d5':'#e2f1e9';}
 document.getElementById('areaAddMode').addEventListener('change',e=>{areaAddModeEnabled=e.target.checked;syncAreaAddMode();renderMapSearch();});syncAreaAddMode();
 const map=L.map('map',{preferCanvas:true,zoomControl:false}).setView([36.3,138.2],5);L.control.zoom({position:'bottomright'}).addTo(map);
+ // Leaflet popup events let map controls hide only for the Regional Encyclopedia popup.
+ map.on('popupopen',event=>{
+  if(event.popup?.getContent()?.classList?.contains('regional-map-popup'))
+   document.querySelector('.mapwrap')?.classList.add('regional-popup-open');
+ });
+ map.on('popupclose',event=>{
+  if(event.popup?.getContent()?.classList?.contains('regional-map-popup'))
+   document.querySelector('.mapwrap')?.classList.remove('regional-popup-open');
+ });
+
 // GSI official raster tiles. Pale is the default; blank is available from zoom 5 to 14.
 // Keep pale beneath blank at lower zooms and scale blank tiles beyond 14 to avoid gaps.
 const mapTiles={
@@ -186,15 +210,62 @@ function coveredPrefCodes(){const set=new Set();for(const id of Object.keys(stat
 function isVisited(id){if(id.startsWith(PREF_PREFIX))return coveredPrefCodes().has(id.slice(2));/* 町田市の町丁は独立記録。市区町村の13209を継承しない。 */return areaRecordKeys(id).some(k=>!!state.visited[k])}
 function updateStats(){let all=state.mode==='nearby'?regionalFeatures():state.mode==='prefecture'?state.prefFeatures:state.mode==='nationwideDetail'?[...state.nationById.values()]:state.features;let codes=all.filter(f=>isVisited(keyForMode(f,state.mode)));let total=all.length;$('cnt').textContent=codes.length.toLocaleString('ja-JP');$('rate').textContent=total?(codes.length/total*100).toFixed(1)+'%':'--';$('pref').textContent=coveredPrefCodes().size;}
 function toggleFeature(f){if(!areaAddModeEnabled)return;const mode=state.mode,id=keyForMode(f,mode),name=labelFor(f,mode);if(state.mode==='prefecture'){status('都道府県は市区町村の制覇履歴から自動集計します。市区町村モードで登録してください。');return}if(isVisited(id)){if(confirm(name+'の制覇登録を解除しますか？')&&areaAddModeEnabled&&state.mode===mode)unmark(id)}else{mark(id);persist();status('✅ '+name+'を制覇！')} }
-function handleMapAreaClick(feature,mode){
+function regionalAreaPopup(code,areaLabel){
+ const info=window.regionEncyclopedia?.previewArea(code)||{status:'loading'};
+ const box=document.createElement('div');box.className='regional-map-popup';
+ const heading=document.createElement('h3');
+ heading.textContent='地域図鑑：'+(info.name||areaLabel);
+ box.append(heading);
+ const note=document.createElement('p');note.className='regional-map-subtitle';
+ note.textContent=areaLabel!==(info.name||areaLabel)
+  ?'タップした区域：'+areaLabel+' ／ 図鑑は市区町村単位':'市区町村制覇に基づく公開記事';
+ box.append(note);
+ if(info.status==='locked'){
+  const p=document.createElement('p');
+  p.textContent='このエリアは未制覇です。制覇すると公開済みの地域図鑑情報を読めます。';
+  box.append(p);return box;
+ }
+ if(info.status!=='open'){
+  const p=document.createElement('p');
+  p.textContent=info.status==='unavailable'?'この区域は地域図鑑の対象外です。'
+   :info.status==='error'?'地域図鑑情報を確認できません。保存記録を確認してください。'
+   :'地域図鑑を読み込み中です。少ししてから再度タップしてください。';
+  box.append(p);return box;
+ }
+ const summary=document.createElement('p');summary.className='regional-map-subtitle';
+ summary.textContent='獲得済み・公開済み '+info.items.length+'項目';
+ box.append(summary);
+ if(!info.items.length){
+  const p=document.createElement('p');p.textContent='この地域に公開中の図鑑記事はまだありません。';box.append(p);return box;
+ }
+ const list=document.createElement('div');list.className='regional-map-articles';
+ for(const item of info.items){
+  const article=document.createElement('article');
+  const title=document.createElement('strong');title.textContent=item.name;
+  const category=document.createElement('small');category.textContent=item.category;
+  const description=document.createElement('p');description.textContent=item.description;
+  const details=document.createElement('button');details.type='button';details.className='regional-map-detail';
+  details.textContent='詳しく・出典';
+  details.onclick=()=>window.regionEncyclopedia?.openItem(code,item.id);
+  article.append(title,category,description,details);list.append(article);
+ }
+ box.append(list);
+ const full=document.createElement('button');full.type='button';full.className='regional-map-full';
+ full.textContent='この地域の図鑑を一覧で見る';
+ full.onclick=()=>{map.closePopup();window.regionEncyclopedia?.openArea(code)};
+ box.append(full);
+ return box;
+}
+function handleMapAreaClick(feature,mode,latlng){
  selectMapRegion(feature,mode);
- if(areaAddModeEnabled){toggleFeature(feature);return;}
- if(mode==='prefecture'){status('市区町村をタップすると、その地域の獲得済み図鑑を開けます。');return;}
+ if(areaAddModeEnabled){map.closePopup();toggleFeature(feature);return;}
+ // Never switch away from Sengoku, even when an administrative area is tapped.
+ if(activeCollectionMode==='sengoku'){map.closePopup();return;}
+ if(mode==='prefecture'){map.closePopup();status('市区町村をタップすると、その地域の図鑑情報を地図上で確認できます。');return;}
  const code=areaMunicipalityCode(keyForMode(feature,mode));
- const result=window.regionEncyclopedia?.openArea(code);
- if(result==='open'){selectCollectionMode('regional');$('regionalPanel').scrollIntoView?.({behavior:'smooth',block:'start'});}
- if(result==='locked')status('この地域は未制覇です。地域図鑑は制覇後に閲覧できます。');
- else if(result==='loading'||!result)status('地域図鑑の公開データを読み込み中です。');
+ const content=regionalAreaPopup(code,labelFor(feature,mode));
+ L.popup({minWidth:220,maxWidth:340,maxHeight:440,autoPan:true,closeButton:true})
+  .setLatLng(latlng||map.getCenter()).setContent(content).openOn(map);
 }
 function keyForMode(f,mode){return mode==='nearby'?keyForMode(f,areaModeForFeature(f,mode)):mode==='machida'?MACHIDA_PREFIX+String(f.properties?.KEY_CODE||f.properties?.key_code||f.id||f.properties?.id||''):mode==='sagamihara'?SAGAMIHARA_PREFIX+String(f.properties?.KEY_CODE||f.properties?.key_code||f.id||f.properties?.id||''):mode==='prefecture'?PREF_PREFIX+key(f):mode==='nationwideDetail'?canonicalAreaKey(NATION_PREFIX+String(f.properties?.WALKED_MUNICIPAL_CODE||'')+':'+String(f.properties?.KEY_CODE||f.properties?.key_code||f.id||f.properties?.id||'')):key(f)}
 function labelFor(f,mode){const p=f.properties||{};if(mode==='nearby')return (areaModeForFeature(f,mode)==='sagamihara'?'相模原市 ':'町田市 ')+labelFor(f,areaModeForFeature(f,mode));return (mode==='machida'||mode==='sagamihara')?String((mode==='sagamihara'?(p.WARD_NAME||p.ward||'')+' ':'')+(p.S_NAME||p.s_name||p.name||p.MOJI||p.moji||p.NAME||key(f))):mode==='nationwideDetail'?String((p.S_NAME||p.s_name||p.name||p.MOJI||p.moji||p.NAME||key(f))):mode==='prefecture'?String(p.name||p.NAME||title(f)):title(f)}
@@ -219,7 +290,7 @@ function changeMode(mode){
  state.activeGroup=L.geoJSON(fs,{style:f=>styleFor(keyForMode(f,mode),mode),onEachFeature:(f,l)=>{
   const id=keyForMode(f,mode);state.layers.set(id,l);
   l.bindTooltip(labelFor(f,mode),{sticky:true});
-  l.on('click',()=>handleMapAreaClick(f,mode));
+  l.on('click',event=>handleMapAreaClick(f,mode,event.latlng));
  }}).addTo(map);
  drawPrefectureBorders();
  $('modehint').textContent=mode==='nearby'?`町田市 ${state.machida.length}区域／相模原市 ${state.sagamihara.length}区域。町丁・字の訪問記録は個別管理し、未制覇は薄いグレー、制覇済みは6色で表示します。`:mode==='municipal'?'全国：未制覇は一律薄いグレー、制覇済みは市区町村ごとの6色で表示します。エリア追加モードON時だけタップで登録できます。':'47都道府県：未制覇は一律薄いグレー、訪問済み市区町村がある都道府県は6色で表示します。';
@@ -342,7 +413,7 @@ async function updateDetailViewport(){
  state.layers.clear();
  const selected=codes.flatMap(code=>state.nationCache.get(code)||[]).filter(f=>intersectsBox(bboxOfFeature(f),bounds));
  state.detailGroup=L.geoJSON(selected,{style:f=>styleFor(keyForMode(f,'nationwideDetail'),'nationwideDetail'),onEachFeature:(f,l)=>{
-  const id=keyForMode(f,'nationwideDetail');state.layers.set(id,l);l.bindTooltip(labelFor(f,'nationwideDetail'),{sticky:true});l.on('click',()=>handleMapAreaClick(f,'nationwideDetail'));
+  const id=keyForMode(f,'nationwideDetail');state.layers.set(id,l);l.bindTooltip(labelFor(f,'nationwideDetail'),{sticky:true});l.on('click',event=>handleMapAreaClick(f,'nationwideDetail',event.latlng));
  }}).addTo(map);
  prefBorderGroup?.bringToFront?.();
  badge.textContent=`詳細 ${selected.length}区域 ／ 取得失敗 ${codes.filter(x=>state.nationErrors.has(x)).length}市区町村`;
@@ -747,6 +818,7 @@ $('sengokuToggle').onclick=()=>{sengokuOpen=!sengokuOpen;if(!sengokuOpen){select
 $('sengokuSearch').oninput=renderSengoku;
 function selectCollectionMode(mode){
  if(mode!=='regional'&&mode!=='sengoku')return;
+ if(mode==='sengoku')map.closePopup();
  activeCollectionMode=mode;
  $('regionalPanel').hidden=mode!=='regional';
  $('sengokuPanel').hidden=mode!=='sengoku';

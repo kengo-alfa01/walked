@@ -59,9 +59,36 @@ function mount({getVisits,getRegistry}){
    return 'open';
   }catch(error){status.textContent='地域図鑑を表示できません：'+error.message;return 'error';}
  }
+ // Expose only already unlocked, published articles for the map popup.
+ // A region name can be shown before a visit; article content cannot.
+ function previewArea(code){
+  const registry=getRegistry();
+  if(!catalog||!registry)return {status:'loading'};
+  try{
+   RegionalCore.validate(catalog,registry);
+   const areaCode=String(code),registered=registry.areas.find(a=>a.code===areaCode);
+   if(!registered)return {status:'unavailable'};
+   const v=RegionalCore.view(catalog,getVisits(),registry);
+   if(!v.areas.some(a=>a.code===areaCode))return {status:'locked',name:registered.name};
+   const ids=new Set(v.relations.filter(r=>r.areaCode===areaCode).map(r=>r.itemId));
+   return {status:'open',name:registered.name,
+    items:v.items.filter(item=>ids.has(item.id)).map(item=>({
+     id:item.id,name:item.name,category:item.category,description:item.description,nature:item.nature
+    }))};
+  }catch(error){return {status:'error'};}
+ }
+ function openItem(areaCode,itemId){
+  const preview=previewArea(areaCode);
+  if(preview.status!=='open'||!preview.items.some(item=>item.id===itemId))return false;
+  const registry=getRegistry(),v=RegionalCore.view(catalog,getVisits(),registry);
+  const item=v.items.find(item=>item.id===itemId);
+  if(!item)return false;
+  show(item,v,registry);
+  return true;
+ }
  // Loading can finish before the title registry; validate on each refresh as well.
  const guardedRefresh=()=>{if(catalog&&getRegistry()){try{RegionalCore.validate(catalog,getRegistry());refresh();if(dialog.open)dialog.close();}catch(e){catalog=null;body.replaceChildren();status.textContent='地域図鑑の公開データが不正です';}}};
- load();return {refresh:guardedRefresh,openArea};
+ load();return {refresh:guardedRefresh,openArea,previewArea,openItem};
 }
 root.RegionalUI={mount};
 })(window);

@@ -154,22 +154,22 @@ test('region colors, basemap selection, and manual override preserve saved game 
  next.close();
 });
 
-test('tapping a municipality opens only its earned regional encyclopedia when editing is off',async()=>{
+test('tapping a municipality opens a locked or acquired map popup without switching panels',async()=>{
  const w=await app();
  await new Promise(r=>setTimeout(r,20));
- const id='13209';
- w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
- assert.match(w.document.getElementById('status').textContent,/未制覇/);
+ w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal',{lat:35.55,lng:139.4})");
+ assert.match(w.eval('map._activePopup.content.textContent'),/未制覇/);
  assert.equal(w.document.querySelector('#regionalPanel [data-item-id]'),null,'unvisited users must not see regional content');
  w.eval("mark('13209');persist()");
  const before=raw(w);
- w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
- for(let n=0;n<50&&w.document.querySelector('#regionalPanel [data-body]').hidden;n++){
+ w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal',{lat:35.55,lng:139.4})");
+ for(let n=0;n<50&&!w.eval("map._activePopup.content.querySelector('article')");n++){
   await new Promise(r=>setTimeout(r,25));
-  w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
+  w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal',{lat:35.55,lng:139.4})");
  }
- assert.equal(w.document.querySelector('#regionalPanel [data-body]').hidden,false);
- assert.ok(w.document.querySelector('#regionalPanel [data-item-id]'),'published items should appear for the acquired city');
+ assert.match(w.eval('map._activePopup.content.textContent'),/薬師池公園/);
+ assert.equal(w.document.getElementById('regionalPanel').hidden,false);
+ assert.equal(w.document.querySelector('#regionalPanel [data-item-id]'),null,'map preview should not force full encyclopedia panel');
  assert.deepEqual(raw(w),before,'view-only map taps cannot alter saved collections');
  mode(w,true);
  // Switch to the clicked layer first. A stale municipality callback from nearby
@@ -204,18 +204,19 @@ test('regional and Sengoku modes show exactly one panel and do not change saved 
  w.close();
 });
 
-test('map-tapping an acquired municipality opens regional mode even from Sengoku view',async()=>{
+test('map-tapping a municipality in Sengoku mode keeps Sengoku open without regional popup',async()=>{
  const w=await app();
  await new Promise(r=>setTimeout(r,20));
  w.eval("mark('13209');persist()");
  const before=raw(w);
  w.document.querySelector('[data-collection-mode="sengoku"]').click();
  assert.equal(w.document.getElementById('regionalPanel').hidden,true);
- w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal')");
- assert.equal(w.document.getElementById('regionalPanel').hidden,false);
- assert.equal(w.document.getElementById('sengokuPanel').hidden,true);
- assert.ok(w.document.querySelector('#regionalPanel [data-item-id]'));
- assert.deepEqual(raw(w),before,'opening encyclopedia must not change any saved visit');
+ w.eval("handleMapAreaClick(state.featureById.get('13209'),'municipal',{lat:35.55,lng:139.4})");
+ assert.equal(w.document.getElementById('regionalPanel').hidden,true);
+ assert.equal(w.document.getElementById('sengokuPanel').hidden,false);
+ assert.equal(w.eval('activeCollectionMode'),'sengoku');
+ assert.equal(w.eval('map._activePopup'),null);
+ assert.deepEqual(raw(w),before,'map inspection must not change any saved visit');
  w.close();
 });
 
