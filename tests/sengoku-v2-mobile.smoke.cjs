@@ -197,7 +197,8 @@ test('iPhone WebKit: regional map popup shows unlocked content and Sengoku area 
    handleMapAreaClick(state.features.find(f=>key(f)==='13209'),'municipal',L.latLng(35.55,139.4));
   });
   assert.equal(await page.evaluate(()=>activeCollectionMode),'sengoku');
-  assert.equal(await page.locator('.leaflet-popup-content .regional-map-popup').count(),0);
+  await page.locator('.leaflet-popup-content .regional-map-popup').waitFor({state:'detached',timeout:2500});
+  assert.equal(await page.evaluate(()=>map._popup?.isOpen()||false),false,'Sengoku mode must close the regional map popup');
   assert.equal(await page.evaluate(()=>localStorage.getItem('walked_municipal_v2')),before);
   const widths=await page.evaluate(()=>({screen:innerWidth,page:document.documentElement.scrollWidth}));
   assert.ok(widths.page<=widths.screen+2,'regional popup must not cause horizontal overflow');
