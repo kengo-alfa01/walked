@@ -165,3 +165,41 @@ test('PC desktop Chromium viewport: 46 pins, access categories, deduplication an
   console.log('PASS: Chromium desktop 46 unique public pins, yellow labels, safe popup',JSON.stringify(size));
  }finally{await context.close();await browser.close();}
 });
+
+test('iPhone WebKit: regional map popup shows unlocked content and Sengoku area taps remain in Sengoku',{timeout:120000},async()=>{
+ const browser=await webkit.launch({headless:true});
+ const context=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:3,isMobile:true,hasTouch:true});
+ const page=await context.newPage();
+ try{
+  await page.route('**/municipalities.topojson',route=>route.fulfill({path:path.join(assets,'municipalities.topojson'),contentType:'application/json'}));
+  await page.route('**/topojson-client@3/dist/topojson-client.min.js',route=>route.fulfill({path:path.join(assets,'topojson-client.min.js'),contentType:'application/javascript'}));
+  await page.route('**/leaflet@1.9.4/dist/leaflet.js',route=>route.fulfill({path:path.join(root,'node_modules/leaflet/dist/leaflet.js'),contentType:'application/javascript'}));
+  await page.route('**/leaflet@1.9.4/dist/leaflet.css',route=>route.fulfill({path:path.join(root,'node_modules/leaflet/dist/leaflet.css'),contentType:'text/css'}));
+  await page.route('**/prefectures.topojson',route=>route.abort());
+  await page.addInitScript(()=>{
+   localStorage.setItem('walked_municipal_v2',JSON.stringify({'13209':{first:'2020-01-01',last:'2020-01-01',source:'QA'}}));
+  });
+  await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>window.regionEncyclopedia?.previewArea?.('13209')?.status==='open',null,{timeout:20000});
+  const before=await page.evaluate(()=>localStorage.getItem('walked_municipal_v2'));
+  await page.evaluate(()=>{
+   changeMode('municipal');
+   const f=state.features.find(f=>key(f)==='13209');
+   handleMapAreaClick(f,'municipal',L.latLng(35.55,139.4));
+  });
+  assert.match(await page.locator('.leaflet-popup-content').innerText(),/地域図鑑：町田市/);
+  assert.match(await page.locator('.leaflet-popup-content').innerText(),/薬師池公園/);
+  await page.locator('.regional-map-popup .regional-map-detail').first().click();
+  assert.equal(await page.locator('#regionalDialog').evaluate(el=>el.open),true);
+  await page.locator('#regionalDialog button').first().click();
+  await page.locator('[data-collection-mode="sengoku"]').click();
+  await page.evaluate(()=>{
+   handleMapAreaClick(state.features.find(f=>key(f)==='13209'),'municipal',L.latLng(35.55,139.4));
+  });
+  assert.equal(await page.evaluate(()=>activeCollectionMode),'sengoku');
+  assert.equal(await page.locator('.leaflet-popup-content .regional-map-popup').count(),0);
+  assert.equal(await page.evaluate(()=>localStorage.getItem('walked_municipal_v2')),before);
+  const widths=await page.evaluate(()=>({screen:innerWidth,page:document.documentElement.scrollWidth}));
+  assert.ok(widths.page<=widths.screen+2,'regional popup must not cause horizontal overflow');
+ }finally{await context.close();await browser.close()}
+});
