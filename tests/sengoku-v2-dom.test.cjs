@@ -129,6 +129,34 @@ test('46 approved pins are visible without visits and with old unknown-pin setti
   }finally{w.close();}
  }
 });
+
+test('selected commander is visibly marked and only no-pin approved acquisition areas pulse',async()=>{
+ const w=await mount({walked_municipal_v2:visit(['23229','25201','26103','23219','26109'])});
+ try{
+  const before=raw(w);
+  const detail=openSengoku(w,personIds[0]);
+  const selected=w.document.querySelector('.sengoku-person.is-selected');
+  assert.ok(selected,'selected commander must have a distinct style');
+  assert.equal(selected.getAttribute('aria-pressed'),'true');
+  assert.match(w.document.getElementById('sengokuSelectedName').textContent,/選択中：織田信長/);
+  const codes=JSON.parse(w.eval('JSON.stringify([...unpinnedMunicipalityCodes(selectedSengokuPersonId)].sort())'));
+  assert.deepEqual(codes,['23203','23221','24205','25201','25203','25204','26103','26104','27128']);
+  assert.equal(w.eval('sengokuAreaPane.style.zIndex'),'550');
+  assert.equal(w.eval('sengokuAreaRenderer.options.pane'),'sengoku-areas');
+  assert.match(detail.textContent,/ピンのない史跡の地域を地図で見る/);
+  const goto=[...detail.querySelectorAll('button')].find(x=>x.textContent.includes('地図で見る'));
+  assert.ok(goto);goto.click();
+  assert.equal(w.eval('state.mode'),'municipal');
+  assert.deepEqual(JSON.parse(w.eval('JSON.stringify([...unpinnedMunicipalityCodes(selectedSengokuPersonId)].sort())')),codes);
+  assert.deepEqual(raw(w),before,'person selection and area focus must not modify stored visits or cards');
+  const reset=[...detail.querySelectorAll('button')].find(x=>x.textContent.includes('選択を解除'));
+  assert.ok(reset);reset.click();
+  assert.equal(w.document.querySelector('.sengoku-person.is-selected'),null);
+  assert.match(w.document.getElementById('sengokuSelectedName').textContent,/選択中：なし/);
+  assert.equal(w.eval('selectedSengokuPersonId'),null);
+ }finally{w.close()}
+});
+
 test('selected person pins include undiscovered links, one pin per site ID, independent of card history',async()=>{
  const w=await mount({walked_municipal_v2:visit(['23229','25203','23219'])});
  try{
