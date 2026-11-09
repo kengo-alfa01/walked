@@ -109,6 +109,8 @@ test('46 approved pins are visible without visits and with old unknown-pin setti
    w.document.querySelector('[data-collection-mode="sengoku"]').click();
    const pins=w.qaV2Markers;
    assert.equal(pins.length,46,'public pins should not depend on acquisition or legacy preference');
+   assert.equal(w.eval('sengokuPinPane.style.zIndex'),'625','site markers must be above administrative area fills');
+   assert.ok(pins.every(p=>p.opts.renderer?.options?.pane==='sengoku-pins'),'site pins need their own SVG pane');
    assert.equal(new Set(pins.map(p=>p.popup.querySelector('h3').textContent)).size,46);
    assert.equal(read(w).cards&&Object.keys(read(w).cards).length,0);
    assert.equal(w.document.getElementById('showUnknownPins'),null);
