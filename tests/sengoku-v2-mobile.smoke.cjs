@@ -70,6 +70,18 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    });
    assert.match(await page.locator('.leaflet-popup-content').innerText(),/一部立入制限.*史跡現地/s);
    await page.locator('.sengoku-person').filter({hasText:'織田信長'}).click();
+   assert.equal(await page.locator('.sengoku-person.is-selected[aria-pressed="true"]').count(),1);
+   assert.match(await page.locator('#sengokuSelectedName').innerText(),/織田信長/);
+   const glow=await page.evaluate(()=>{
+     const pane=map.getPane('sengoku-areas');
+     const paths=[...pane.querySelectorAll('path.sengoku-area-pulse')];
+     return {z:getComputedStyle(pane).zIndex,pins:getComputedStyle(map.getPane('sengoku-pins')).zIndex,
+      count:paths.length,animation:paths[0]?getComputedStyle(paths[0]).animationDuration:null};
+   });
+   assert.equal(glow.z,'550');
+   assert.ok(Number(glow.z)<Number(glow.pins),'area pulse must remain behind historic site pins');
+   assert.ok(glow.count>=9,'unpinned municipality areas should have visible SVG pulse paths');
+   assert.equal(glow.animation,'3.8s','pulse should be gentle, not rapid flashing');
    const narrative=page.locator('.sengoku-v2-narrative');
    await narrative.waitFor();
    assert.match(await narrative.innerText(),/尾張から勢力を広げた戦国大名/);
