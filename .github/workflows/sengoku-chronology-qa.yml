@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - feature/sengoku-chronology-gated-20261110
+      - fix/ieyasu-edo-castle-approved-pin-20261110
   workflow_dispatch:
 
 concurrency:
@@ -23,7 +24,7 @@ jobs:
           node-version: '22'
       - name: Chronology B and Q approval gate tests
         run: node --test tests/sengoku-chronology.test.cjs
-      - name: Read-only preflight (no chronology approvals yet)
+      - name: Read-only 3-person chronology release verification
         run: node scripts/check-sengoku-chronology.cjs
       - name: Existing 108 histories and pin regression
         run: node --test tests/sengoku-v2.test.cjs
