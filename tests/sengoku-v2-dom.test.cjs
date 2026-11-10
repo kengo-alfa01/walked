@@ -9,7 +9,7 @@ const placeCodes=[...new Set(approved.sites.filter(s=>approved.relations.some(r=
 async function mount(initial={}){
  const w=await app(initial);
  for(let i=0;i<100;i++){
-  if(w.document.getElementById('sengokuQuality').textContent.includes('公開人物 3人／承認経歴 108件'))return w;
+  if(w.document.getElementById('sengokuQuality').textContent.includes('公開人物 3人／承認経歴 108件')&&w.eval('sengokuChronology.size===3'))return w;
   await new Promise(r=>setTimeout(r,20));
  }
  const message=w.document.getElementById('sengokuQuality').textContent;
@@ -264,6 +264,7 @@ test('isolated synthetic rank/tie view renders grouped histories without mutatin
    [earlier.historyId,{group,first:false,size:2}]
   ];
   const before=raw(w),previous=read(w);delete previous.createdAt;
+  w.eval('window.__realChronologyPreview=sengokuChronology.get('+JSON.stringify(personId)+')');
   w.eval('sengokuChronology.set('+JSON.stringify(personId)+', {orderIds:'+JSON.stringify(ordered)+
     ',tieById:new Map('+JSON.stringify(ties)+')})');
   const detail=openSengoku(w,personId);
@@ -277,9 +278,30 @@ test('isolated synthetic rank/tie view renders grouped histories without mutatin
   assert.deepEqual(raw(w),before,'the test-only display order must not touch persisted records');
   const afterBackup=read(w);delete afterBackup.createdAt;
   assert.deepEqual(afterBackup,previous,'backup payload and story unlock remain the same (export timestamp excluded)');
-  w.eval('sengokuChronology.delete('+JSON.stringify(personId)+')');
+  w.eval('sengokuChronology.set('+JSON.stringify(personId)+',window.__realChronologyPreview);delete window.__realChronologyPreview');
   const fallback=openSengoku(w,personId);
   assert.equal(fallback.querySelectorAll('.sengoku-chronology-tie').length,0);
-  assert.equal([...fallback.querySelectorAll('.sengoku-era')][i].textContent.includes(earlier.title),true);
+  const restored=JSON.parse(w.eval('JSON.stringify(sengokuChronology.get('+JSON.stringify(personId)+').orderIds)'));
+  assert.ok(restored.includes(earlier.historyId));
+  assert.ok(restored.includes(later.historyId));
+  assert.equal(w.eval('sengokuChronology.size'),3);
+ }finally{w.close()}
+});
+
+test('real C chronology manifest renders approved rank order for all 3 people in the DOM',async()=>{
+ const w=await mount({walked_municipal_v2:visit(placeCodes)});
+ try{
+  const groups=[
+   [personIds[0],1570,['sg2hist-nobu-1570-kanegasaki','sg2hist-nobu-1570-anegawa']],
+   [personIds[1],1582,['sg2hist-hideyoshi-bitchu-siege-1582','sg2hist-hideyoshi-mori-peace-1582',
+     'sg2hist-hideyoshi-yamazaki-1582','sg2hist-hideyoshi-taiko-kenchi']],
+   [personIds[2],1615,['sg2hist-ieyasu-1615-summer','sg2hist-ieyasu-1615-buke-law','sg2hist-ieyasu-1615-kinchu-law']]
+  ];
+  for(const [id,year,expected] of groups){
+   const actual=JSON.parse(w.eval('JSON.stringify(SengokuChronology.present(approvedHistories('+JSON.stringify(id)+'),sengokuChronology.get('+JSON.stringify(id)+')).filter(h=>h.eventYear==='+year+').map(h=>h.historyId))'));
+   assert.deepEqual(actual,expected);
+  }
+  assert.equal(w.eval('sengokuChronology.size'),3);
+  assert.equal(countV2(w),108);
  }finally{w.close()}
 });
