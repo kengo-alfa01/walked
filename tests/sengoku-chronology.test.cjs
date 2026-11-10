@@ -5,7 +5,7 @@ const C=require('../sengoku-chronology.js');
 const hash=s=>crypto.createHash('sha256').update(s,'utf8').digest('hex');
 const fixture=(id,year,order,phase='活動期',end=null,tie=null)=>({
  historyId:id,personId:'sg-test-person',startYear:year,endYear:end,displayOrder:order,
- tieStatus:tie,yearText:year+'年'+(end?'～'+end+'年':''),phase
+ tieStatus:tie,tieReason:tie?'B判定：順序を確定できない':null,tieEvidenceIds:tie?['fixture-⑤-source']:[],yearText:year+'年'+(end?'～'+end+'年':''),phase
 });
 const constraint=(beforeId,afterId,type='confirmed-causality')=>({
  beforeId,afterId,type,bVerified:true,evidenceIds:['fixture-evidence'],
@@ -53,7 +53,7 @@ test('03 missing T same-year group or invalid T 0, fractional, string rejects',(
 test('04 confirmed causality and checked calendar date cannot be tied or reversed',()=>{
  const rows=[fixture('battle',1600,20),fixture('march',1600,10)];
  assert.doesNotThrow(()=>C.validateRows(rows,[constraint('march','battle')],hash));
- for(const n of [20,30]){const x=clone(rows);x[1].displayOrder=n;if(n===20)x.forEach(r=>r.tieStatus='unresolved');assert.throws(()=>C.validateRows(x,[constraint('march','battle')],hash),/逆転・同順位/);}
+ for(const n of [20,30]){const x=clone(rows);x[1].displayOrder=n;if(n===20)x.forEach(r=>{r.tieStatus='unresolved';r.tieReason='B確認済の同順位';r.tieEvidenceIds=['fixture-⑤-source'];});assert.throws(()=>C.validateRows(x,[constraint('march','battle')],hash),/逆転・同順位/);}
  const c=constraint('march','battle','confirmed-date');delete c.calendarBasis;
  assert.throws(()=>C.validateRows(rows,[c],hash),/旧暦・新暦/);
 });
@@ -67,7 +67,7 @@ test('05 death must follow own living activities; funeral/burial/reburial must f
  assert.doesNotThrow(()=>C.validateRows(rows,cs,hash));
  for(const id of ['activity','funeral','burial']){
   const x=clone(rows);x.find(r=>r.historyId===id).displayOrder=20;
-  x.filter(r=>r.startYear===1616&&r.displayOrder===20).forEach(r=>r.tieStatus='unresolved');
+  x.filter(r=>r.startYear===1616&&r.displayOrder===20).forEach(r=>{r.tieStatus='unresolved';r.tieReason='B確認済の同順位';r.tieEvidenceIds=['fixture-⑤-source'];});
   assert.throws(()=>C.validateRows(x,cs,hash),/逆転・同順位/);
  }
 });
@@ -131,4 +131,35 @@ test('12 HTML integrates same display-only gate; never alters storage or approva
  assert.doesNotMatch(core,/SengokuChronology/);
  assert.ok(html.includes('sengoku-chronology.js'));
  assert.ok(!html.includes('localStorage.setItem("sengokuChronology"'));
+});
+
+test('13 Q snapshot must bind B constraint SHA, not only T rank; fixture proves distinct constraint revisions',()=>{
+ const f=reviewAndApprove(base(),[constraint('test-a','test-b')]);
+ f.release.approvals[0].qSnapshot.bConstraintsSha256='0'.repeat(64);
+ assert.throws(()=>C.verifyRelease(f.release,f.catalog,hash,{allowTestFixtures:true}),/⑥Q順位スナップショット/);
+});
+test('14 ambiguous same-rank group without ②S reason or ⑤ evidence is rejected',()=>{
+ const r=[fixture('same-a',1582,20,'活動期',null,'unresolved'),
+ fixture('same-b',1582,20,'活動期',null,'unresolved')];
+ r[1].tieEvidenceIds=[];
+ assert.throws(()=>C.validateRows(r,[],hash),/同順位の留保/);
+ r[1].tieEvidenceIds=['fixture-⑤-source'];r[0].tieReason='';
+ assert.throws(()=>C.validateRows(r,[],hash),/同順位の留保/);
+});
+test('15 chronological sort uses start year, not end date, old/new calendar text or ID suffix',()=>{
+ const rows=[
+  fixture('z-late-end',1571,10,'活動期',1575),
+  fixture('a-start-later',1572,10,'活動期'),
+  fixture('m-old-calendar',1571,20,'活動期')];
+ rows[0].yearText='元亀2年（1571年）～天正3年';rows[2].yearText='旧暦12月・新暦翌年'; 
+ const v=C.validateRows(rows,[],hash);
+ assert.deepEqual(v.ordered.map(r=>r.historyId),['z-late-end','m-old-calendar','a-start-later']);
+});
+test('16 stricter chronology rejects changed current year, same-year group and old approval version',()=>{
+ const f=reviewAndApprove(base());
+ f.release.histories[0].startYear=1581;
+ assert.throws(()=>C.verifyRelease(f.release,f.catalog,hash,{allowTestFixtures:true}));
+ const g=reviewAndApprove(base());
+ g.release.approvals[0].version='v1';
+ assert.throws(()=>C.verifyRelease(g.release,g.catalog,hash,{allowTestFixtures:true}),/新規版/);
 });
