@@ -52,8 +52,8 @@ test('past Enryakuji 26103 town visit retroactively awards Nobunaga card and non
 test('all eligible municipalities award 108 v2 histories, 3 complete biographies; hide old text, suppress duplicate notification',async()=>{
  const w=await mount({walked_municipal_v2:visit(placeCodes)});
  try{
-  const b=read(w);assert.equal(countV2(w),108);assert.equal(placeCodes.length,41);
-  assert.equal(Object.keys(b.visited).length,41);
+  const b=read(w);assert.equal(countV2(w),108);assert.equal(placeCodes.length,42);
+  assert.equal(Object.keys(b.visited).length,42);
   for(const person of approved.people){
    const detail=openSengoku(w,person.personId);
    assert.ok(detail.textContent.includes(person.story.text),person.name+' story remains locked');
@@ -101,22 +101,22 @@ function capturePins(w){
   window.qaV2Markers.push(marker);return marker;
  };`);
 }
-test('47 approved pins are visible without visits and with old unknown-pin setting off or on',async()=>{
+test('48 approved pins are visible without visits and with old unknown-pin setting off or on',async()=>{
  for(const pref of ['false','true']){
   const w=await mount({walked_show_unknown_pins_v1:pref});
   try{
    capturePins(w);
    w.document.querySelector('[data-collection-mode="sengoku"]').click();
    const pins=w.qaV2Markers;
-   assert.equal(pins.length,47,'public pins should not depend on acquisition or legacy preference');
+   assert.equal(pins.length,48,'public pins should not depend on acquisition or legacy preference');
    assert.equal(w.eval('sengokuPinPane.style.zIndex'),'625','site markers must be above administrative area fills');
    assert.ok(pins.every(p=>p.opts.renderer?.options?.pane==='sengoku-pins'),'site pins need their own SVG pane');
-   assert.equal(new Set(pins.map(p=>p.popup.querySelector('h3').textContent)).size,47);
+   assert.equal(new Set(pins.map(p=>p.popup.querySelector('h3').textContent)).size,48);
    assert.equal(read(w).cards&&Object.keys(read(w).cards).length,0);
    assert.equal(w.document.getElementById('showUnknownPins'),null);
    assert.equal(w.localStorage.getItem('walked_show_unknown_pins_v1'),pref,'old preference left untouched');
    const colors=pins.reduce((a,p)=>(a[p.opts.fillColor]=(a[p.opts.fillColor]||0)+1,a),{});
-   assert.equal(colors['#21864e'],43);assert.equal(colors['#edb42d'],4);
+   assert.equal(colors['#21864e'],44);assert.equal(colors['#edb42d'],4);
    assert.equal(Object.keys(colors).length,2);
    const yellow=pins.filter(p=>p.opts.fillColor==='#edb42d').map(p=>p.popup.querySelector('h3').textContent).sort();
    assert.deepEqual(Array.from(yellow),['安土城跡','姫路城跡','岐阜城跡','江戸城跡（家康入府の本拠）'].sort());
@@ -162,7 +162,7 @@ test('selected person pins include undiscovered links, one pin per site ID, inde
  try{
   capturePins(w);
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
-  assert.equal(w.qaV2Markers.length,47);
+  assert.equal(w.qaV2Markers.length,48);
   for(const personId of personIds){
    openSengoku(w,personId);
    const expected=approved.sites.filter(s=>s.publicPin&&s.personIds.includes(personId));
@@ -317,5 +317,17 @@ test('new Edo Castle pin is labeled yellow and remains unlinked to any GPS arriv
   assert.match(match.popup.textContent,/非公開/);
   assert.ok(match.popup.textContent.includes('現地の案内'));
   assert.equal(read(w).cards['sg2hist-ieyasu-1590-kanto'],undefined,'pin alone must not award cards');
+ }finally{w.close()}
+});
+
+test('approved Taiheiji green pin appears independently of Hideyoshi card acquisition',async()=>{
+ const w=await mount();try{
+  capturePins(w);w.document.querySelector('[data-collection-mode="sengoku"]').click();
+  const pin=w.qaV2Markers.find(x=>x.popup?.querySelector('h3')?.textContent==='泰平寺（秀吉・島津義久和睦の地）');
+  assert.ok(pin);
+  assert.equal(pin.opts.fillColor,'#21864e');
+  assert.match(pin.popup.textContent,/鹿児島県薩摩川内市/);
+  assert.match(pin.popup.textContent,/CODH作成/);
+  assert.equal(read(w).cards['sg2hist-hideyoshi-kyushu-1587'],undefined);
  }finally{w.close()}
 });
