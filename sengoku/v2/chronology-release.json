@@ -1,5 +1,4444 @@
 {
   "schemaVersion": "walked.sengoku.chronology.v1",
   "sourceSpreadsheetId": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
-  "releases": []
+  "releases": [
+    {
+      "personId": "sg-6eaf66c3d7c8",
+      "histories": [
+        {
+          "historyId": "sg2hist-nobu-1534-birth",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1534,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天文3年（1534）",
+          "phase": "出生"
+        },
+        {
+          "historyId": "sg2hist-nobu-1546-genpuku",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1546,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天文15年（1546）",
+          "phase": "形成期"
+        },
+        {
+          "historyId": "sg2hist-nobu-1549-dosan-alliance",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1549,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天文18年（1549）",
+          "phase": "形成期"
+        },
+        {
+          "historyId": "sg2hist-nobu-1551-family-head",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1551,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "1551年頃",
+          "phase": "形成期"
+        },
+        {
+          "historyId": "sg2hist-nobu-1553-shotokuji",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1553,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天文22年（1553）",
+          "phase": "形成期"
+        },
+        {
+          "historyId": "sg2hist-nobu-1554-1555-kiyosu",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1554,
+          "endYear": 1555,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "1554～1555年頃（資料に差）",
+          "phase": "形成期"
+        },
+        {
+          "historyId": "sg2hist-nobu-1556-inou",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1556,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "弘治2年（1556）",
+          "phase": "形成期"
+        },
+        {
+          "historyId": "sg2hist-nobu-1559-owari",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1559,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄2年（1559）",
+          "phase": "形成期"
+        },
+        {
+          "historyId": "sg2hist-nobu-1560-okehazama",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1560,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄3年（1560）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-nobu-1562-kiyosu-alliance",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1561,
+          "endYear": 1562,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄4～5年（1561～1562）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-nobu-1563-komaki",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1563,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄6年（1563）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1565-inuyama",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1565,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄8年（1565）",
+          "phase": "形成期"
+        },
+        {
+          "historyId": "sg2hist-nobu-1567-gifu",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1567,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄10年（1567）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-nobu-1568-kyoto",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1568,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄11年（1568）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-nobu-1569-ohkawachi",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1569,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄12年（1569）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1570-kanegasaki",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1570,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "元亀元年（1570）4月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-nobu-1570-anegawa",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1570,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "元亀元年（1570）6月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1571-enryakuji",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1571,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "元亀2年（1571）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1573-yoshiaki",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1573,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "元亀4年／天正元年（1573）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-nobu-1573-asakura",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1573,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正元年（1573）8月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1573-azai-odani",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1573,
+          "endYear": null,
+          "displayOrder": 30,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正元年（1573）8～9月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1574-nagashima",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1574,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正2年（1574）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1575-nagashino",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1575,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正3年（1575）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1575-nobutada-succession",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1575,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正3年（1575）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-nobu-1576-1579-azuchi",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1576,
+          "endYear": 1579,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正4～7年（1576～1579）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1577-azuchi-edict",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1577,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正5年（1577）6月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1578-1579-arioka",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1578,
+          "endYear": 1579,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正6～7年（1578～1579）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1580-honganji-peace",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1580,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正8年（1580）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-nobu-1581-umazoroe",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1581,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正9年（1581）2月",
+          "phase": "晩年"
+        },
+        {
+          "historyId": "sg2hist-nobu-1581-iga",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1581,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正9年（1581）",
+          "phase": "晩年"
+        },
+        {
+          "historyId": "sg2hist-nobu-1582-koshu",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1582,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正10年（1582）3月",
+          "phase": "晩年"
+        },
+        {
+          "historyId": "sg2hist-nobu-1582-honnoji",
+          "personId": "sg-6eaf66c3d7c8",
+          "startYear": 1582,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正10年（1582）旧暦6月2日",
+          "phase": "死去"
+        }
+      ],
+      "constraints": [
+        {
+          "beforeId": "sg2hist-nobu-1570-kanegasaki",
+          "afterId": "sg2hist-nobu-1570-anegawa",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-nobu-shiga-odani-booklet",
+            "sg2src-nobu-tsuruga-kanegasaki"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-nobu-1573-yoshiaki",
+          "afterId": "sg2hist-nobu-1573-asakura",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-nobu-kyoto-city",
+            "sg2src-nobu-aichi-lib",
+            "sg2src-nobu-shiga-odani-booklet",
+            "sg2src-nobu-fukui-asakura-museum",
+            "sg2src-nobu-fukui-asakura-voice"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-nobu-1573-asakura",
+          "afterId": "sg2hist-nobu-1573-azai-odani",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-nobu-shiga-odani-booklet",
+            "sg2src-nobu-fukui-asakura-museum",
+            "sg2src-nobu-fukui-asakura-voice"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-nobu-1575-nagashino",
+          "afterId": "sg2hist-nobu-1575-nobutada-succession",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-nobu-archives-nagashino",
+            "sg2src-nobu-shinshiro",
+            "sg2src-nobu-gifu-nobutada-succession"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-nobu-1581-umazoroe",
+          "afterId": "sg2hist-nobu-1581-iga",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-nobu-nishio-umazoroe-letter",
+            "sg2src-nobu-mie-iga-1581",
+            "sg2src-nobu-mie-iga-history"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-nobu-1582-koshu",
+          "afterId": "sg2hist-nobu-1582-honnoji",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-nobu-fujinomiya-koshu",
+            "sg2src-nobu-archives-nagashino",
+            "sg2src-nobu-gifu-nobutada-succession",
+            "sg2src-nobu-aichi-lib",
+            "sg2src-nobu-kyoto-city",
+            "sg2src-nobu-kyoto-honnoji"
+          ],
+          "calendarBasis": null
+        }
+      ],
+      "bReview": {
+        "reviewId": "②経歴S2-S33/B-reviewed",
+        "reviewedBy": "B",
+        "status": "合格",
+        "coveredHistoryIds": [
+          "sg2hist-nobu-1534-birth",
+          "sg2hist-nobu-1546-genpuku",
+          "sg2hist-nobu-1549-dosan-alliance",
+          "sg2hist-nobu-1551-family-head",
+          "sg2hist-nobu-1553-shotokuji",
+          "sg2hist-nobu-1554-1555-kiyosu",
+          "sg2hist-nobu-1556-inou",
+          "sg2hist-nobu-1559-owari",
+          "sg2hist-nobu-1560-okehazama",
+          "sg2hist-nobu-1562-kiyosu-alliance",
+          "sg2hist-nobu-1563-komaki",
+          "sg2hist-nobu-1565-inuyama",
+          "sg2hist-nobu-1567-gifu",
+          "sg2hist-nobu-1568-kyoto",
+          "sg2hist-nobu-1569-ohkawachi",
+          "sg2hist-nobu-1570-kanegasaki",
+          "sg2hist-nobu-1570-anegawa",
+          "sg2hist-nobu-1571-enryakuji",
+          "sg2hist-nobu-1573-yoshiaki",
+          "sg2hist-nobu-1573-asakura",
+          "sg2hist-nobu-1573-azai-odani",
+          "sg2hist-nobu-1574-nagashima",
+          "sg2hist-nobu-1575-nagashino",
+          "sg2hist-nobu-1575-nobutada-succession",
+          "sg2hist-nobu-1576-1579-azuchi",
+          "sg2hist-nobu-1577-azuchi-edict",
+          "sg2hist-nobu-1578-1579-arioka",
+          "sg2hist-nobu-1580-honganji-peace",
+          "sg2hist-nobu-1581-umazoroe",
+          "sg2hist-nobu-1581-iga",
+          "sg2hist-nobu-1582-koshu",
+          "sg2hist-nobu-1582-honnoji"
+        ],
+        "rowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+        "constraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+      },
+      "approvals": [
+        {
+          "historyId": "sg2hist-nobu-1534-birth",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 9,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "22efcad45ac53a6f290f8fa743e9c9b8bcaf10e6c101d55f71f484c737d83087",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1546-genpuku",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 10,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "6ed0cfcb7523093f8f427621ac033d636a3c66eef750dc472c7aef909dfd47d6",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1549-dosan-alliance",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 11,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "fd07bc0b349668342e36e93bc3dd11372e87ad3c705ad915e58dc5bdbfd8ff7f",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1551-family-head",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 12,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "88141bc940cb717750477363b30d552c025116b2f6120d475d846d579af1295e",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1553-shotokuji",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 13,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "b88ab73d289339b72499a3e8b0c8e6e154cc64aa23850fcef121eacfbb8a0271",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1554-1555-kiyosu",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 14,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "aea3f7a423237ab39624b3d9a500f9b9688b336fa2f427fb3e14ef25b5e946e6",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1556-inou",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 15,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "45384d2ef0735b7c93be7b57456f7af8afba55afb2e2fd1a87e3804851773bef",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1559-owari",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 16,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "20b3d19cfcd1093dcd3abbb7a481d88ad57d1c6099d1fdd09c3f3bc4c577a991",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1560-okehazama",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 17,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "d0b2f268f4e950834d55d04bab25a1883a54fb3da2ebd5f3356eeb9b6d62889a",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1562-kiyosu-alliance",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 18,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "4e81bf07c9a0e0222abe03c832fe1056857d8607acd43a5729f3f4891a185950",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1563-komaki",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 19,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "90f0b53d5ae33a0aeaf3bd87582f5cf628d9fc69e0a1d2791fa5f50da447b638",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1565-inuyama",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 20,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "9feae9a2771925f8b9b080a0266fe4fb3e701c2090b7bad1037133775aa9f065",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1567-gifu",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 21,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "8401d7ead03ccb9a82242b139f0a2379cc688ec792e60bea9239c4ea994260b5",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1568-kyoto",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 22,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "d1d9726c590bf8f749f96197368cac88eea341694a52c856d91a43ac73c86c00",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1569-ohkawachi",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 23,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "910047697c66918985181b203b636f2eaadef3486da7e210570a39dbf2ccbf7f",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1570-kanegasaki",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 1407,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "03ab96eb5ea92d389387f6a90e04c642352246f5a607a4337665d53ac9336d4f",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-6eaf66c3d7c8",
+            "historyId": "sg2hist-nobu-1570-kanegasaki",
+            "startYear": 1570,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "7d65f6a343476e825ee2e9361e5ae281b40b0598f6f686517fd08f197286de10",
+            "bReviewId": "②経歴S2-S33/B-reviewed",
+            "bRowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+            "bConstraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+          },
+          "qEvidence": {
+            "sheetRow": 1407,
+            "historyId": "sg2hist-nobu-1570-kanegasaki",
+            "bSheetRow": 17,
+            "qRawSha256": "c43eebde45b53124db7c31eb5c76ce49b4c724f72b7f19cde41dfe3c32fd8263",
+            "orderedHistoryIds": [
+              "sg2hist-nobu-1570-kanegasaki",
+              "sg2hist-nobu-1570-anegawa"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-nobu-1570-anegawa",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 1408,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "8285b036b69d463bdbefaa845cf7602f26b3757f1ee059cc8185ca2ff1c02894",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-6eaf66c3d7c8",
+            "historyId": "sg2hist-nobu-1570-anegawa",
+            "startYear": 1570,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "7d65f6a343476e825ee2e9361e5ae281b40b0598f6f686517fd08f197286de10",
+            "bReviewId": "②経歴S2-S33/B-reviewed",
+            "bRowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+            "bConstraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+          },
+          "qEvidence": {
+            "sheetRow": 1408,
+            "historyId": "sg2hist-nobu-1570-anegawa",
+            "bSheetRow": 18,
+            "qRawSha256": "9376629afd7190a26beff19a10a47d15829a7967a3f2c2491ea2c3caa1aeda58",
+            "orderedHistoryIds": [
+              "sg2hist-nobu-1570-kanegasaki",
+              "sg2hist-nobu-1570-anegawa"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-nobu-1571-enryakuji",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 26,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "710b1030c9731180658e5c0121b62a5156eebb69680349e42dacf409fde94184",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1573-yoshiaki",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 1409,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "9539cc255b25aa73966e8e15293c05dab588e377420976a31cf7d950235fa757",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-6eaf66c3d7c8",
+            "historyId": "sg2hist-nobu-1573-yoshiaki",
+            "startYear": 1573,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "2faa9ee30b5410d50a6d2f9ea8f13264d4badadb47d86cf9fd0cb224b3e38fe0",
+            "bReviewId": "②経歴S2-S33/B-reviewed",
+            "bRowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+            "bConstraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+          },
+          "qEvidence": {
+            "sheetRow": 1409,
+            "historyId": "sg2hist-nobu-1573-yoshiaki",
+            "bSheetRow": 20,
+            "qRawSha256": "e40ddcd7386fc443acc24f56ae04d41537e23ebe551ddd54934c9bc843db6129",
+            "orderedHistoryIds": [
+              "sg2hist-nobu-1573-yoshiaki",
+              "sg2hist-nobu-1573-asakura",
+              "sg2hist-nobu-1573-azai-odani"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-nobu-1573-asakura",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 1410,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "97ed892ddeec13029d12e69069d67f59e97707762279d8ab2650af257c776294",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-6eaf66c3d7c8",
+            "historyId": "sg2hist-nobu-1573-asakura",
+            "startYear": 1573,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "2faa9ee30b5410d50a6d2f9ea8f13264d4badadb47d86cf9fd0cb224b3e38fe0",
+            "bReviewId": "②経歴S2-S33/B-reviewed",
+            "bRowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+            "bConstraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+          },
+          "qEvidence": {
+            "sheetRow": 1410,
+            "historyId": "sg2hist-nobu-1573-asakura",
+            "bSheetRow": 21,
+            "qRawSha256": "93d9bd1367dcfba471db4d8184141ddee859e8b5e2a74552236b1c691259a371",
+            "orderedHistoryIds": [
+              "sg2hist-nobu-1573-yoshiaki",
+              "sg2hist-nobu-1573-asakura",
+              "sg2hist-nobu-1573-azai-odani"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-nobu-1573-azai-odani",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 1411,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "8176adbbb1fb3d4c7f522580e77e1fc14809f09f1e8a33f95b85951bdeaca703",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-6eaf66c3d7c8",
+            "historyId": "sg2hist-nobu-1573-azai-odani",
+            "startYear": 1573,
+            "endYear": null,
+            "displayOrder": 30,
+            "tieStatus": null,
+            "yearGroupSha256": "2faa9ee30b5410d50a6d2f9ea8f13264d4badadb47d86cf9fd0cb224b3e38fe0",
+            "bReviewId": "②経歴S2-S33/B-reviewed",
+            "bRowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+            "bConstraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+          },
+          "qEvidence": {
+            "sheetRow": 1411,
+            "historyId": "sg2hist-nobu-1573-azai-odani",
+            "bSheetRow": 22,
+            "qRawSha256": "0b808ec3055dd9c973489be0e5e3875d7b5e8ca216a0b2b0b6331e0e036985cf",
+            "orderedHistoryIds": [
+              "sg2hist-nobu-1573-yoshiaki",
+              "sg2hist-nobu-1573-asakura",
+              "sg2hist-nobu-1573-azai-odani"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-nobu-1574-nagashima",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 30,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "d0633b9ea99c05289d2938081480cedd3dc242c6599b07a2a556f65d9523cf82",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1575-nagashino",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 1412,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "13dfbea647daef6328002eb0e07abafe1b4ae1d92ae5c1c75530cbc8df3de9a1",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-6eaf66c3d7c8",
+            "historyId": "sg2hist-nobu-1575-nagashino",
+            "startYear": 1575,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "3631a5b1afb918ad3e438548efc4d6dd123a2bbf55dc4434049c5245d89ceb17",
+            "bReviewId": "②経歴S2-S33/B-reviewed",
+            "bRowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+            "bConstraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+          },
+          "qEvidence": {
+            "sheetRow": 1412,
+            "historyId": "sg2hist-nobu-1575-nagashino",
+            "bSheetRow": 24,
+            "qRawSha256": "acb6867bc3887af497c744a58e24ae709874b82850ead67ee541816f81815998",
+            "orderedHistoryIds": [
+              "sg2hist-nobu-1575-nagashino",
+              "sg2hist-nobu-1575-nobutada-succession"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-nobu-1575-nobutada-succession",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 1413,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "f16be383dd457cda4d9848bdc3d2a80a383b59595275966660ba9708b20f1f3b",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-6eaf66c3d7c8",
+            "historyId": "sg2hist-nobu-1575-nobutada-succession",
+            "startYear": 1575,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "3631a5b1afb918ad3e438548efc4d6dd123a2bbf55dc4434049c5245d89ceb17",
+            "bReviewId": "②経歴S2-S33/B-reviewed",
+            "bRowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+            "bConstraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+          },
+          "qEvidence": {
+            "sheetRow": 1413,
+            "historyId": "sg2hist-nobu-1575-nobutada-succession",
+            "bSheetRow": 25,
+            "qRawSha256": "e4aa834a79cdc881ace4dbb46690afeaae5e2538f910df0d25da5ad8b16ce33b",
+            "orderedHistoryIds": [
+              "sg2hist-nobu-1575-nagashino",
+              "sg2hist-nobu-1575-nobutada-succession"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-nobu-1576-1579-azuchi",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 33,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "6054c7ff3c5824e2bf1b6f488581f39402ff89387c78f165dbb4ffcd619e514e",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1577-azuchi-edict",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 34,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "9f3a256b336a4e130bd912ef072088201a17b2dcef587fd3f7589985faf530c7",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1578-1579-arioka",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 35,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "f95f1480fd10d1bc246a2a296331a0512b975b490e7dae952280f74e9da7d18d",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1580-honganji-peace",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 36,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "12d283730429e949cfb3df27a0451c44e475212c03a11e09aafe9ce38c7a8a02",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-nobu-1581-umazoroe",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 1414,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "4ad432b21c3e5bbff0ff9347a2c64177f0f1e6940ebd79cb3690a62343e6506d",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-6eaf66c3d7c8",
+            "historyId": "sg2hist-nobu-1581-umazoroe",
+            "startYear": 1581,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "8548c796fccc3dc7853d87a8932273cad87dc8eab535e19b8d508e494349bbf7",
+            "bReviewId": "②経歴S2-S33/B-reviewed",
+            "bRowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+            "bConstraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+          },
+          "qEvidence": {
+            "sheetRow": 1414,
+            "historyId": "sg2hist-nobu-1581-umazoroe",
+            "bSheetRow": 30,
+            "qRawSha256": "0c46bcb56b5b86d7b92b788c44d3adb22ef917f0ab9dfc4e4e68de59578a5b87",
+            "orderedHistoryIds": [
+              "sg2hist-nobu-1581-umazoroe",
+              "sg2hist-nobu-1581-iga"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-nobu-1581-iga",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 1415,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "331f1389056a9ff38c4a8b8cdd4be49d6aca8be2ff64dc9da96dadc55ca53e25",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-6eaf66c3d7c8",
+            "historyId": "sg2hist-nobu-1581-iga",
+            "startYear": 1581,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "8548c796fccc3dc7853d87a8932273cad87dc8eab535e19b8d508e494349bbf7",
+            "bReviewId": "②経歴S2-S33/B-reviewed",
+            "bRowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+            "bConstraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+          },
+          "qEvidence": {
+            "sheetRow": 1415,
+            "historyId": "sg2hist-nobu-1581-iga",
+            "bSheetRow": 31,
+            "qRawSha256": "3602c0b1e9bfb744b3653197a1b504ad58e02c8d0dfb9d5285e283dfffb54523",
+            "orderedHistoryIds": [
+              "sg2hist-nobu-1581-umazoroe",
+              "sg2hist-nobu-1581-iga"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-nobu-1582-koshu",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 1416,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "642543035a79164ad6d9d83647197dcfd7aae09b3362ade240d2cd5ae6ad2c4e",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-6eaf66c3d7c8",
+            "historyId": "sg2hist-nobu-1582-koshu",
+            "startYear": 1582,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "474d00489f99a8a90069c707183c8dc20205326960b3ffa1df1300e103f83385",
+            "bReviewId": "②経歴S2-S33/B-reviewed",
+            "bRowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+            "bConstraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+          },
+          "qEvidence": {
+            "sheetRow": 1416,
+            "historyId": "sg2hist-nobu-1582-koshu",
+            "bSheetRow": 32,
+            "qRawSha256": "7f2d14423d16a4d7dd74feb9c83e2a277379d191c43912c1855ecb48a5c96a35",
+            "orderedHistoryIds": [
+              "sg2hist-nobu-1582-koshu",
+              "sg2hist-nobu-1582-honnoji"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-nobu-1582-honnoji",
+          "personId": "sg-6eaf66c3d7c8",
+          "sheetRow": 1417,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "db3b076f6e0220271bb8d3511b069e0bf7d478a5f4c027f1b47b17247ec02df6",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-6eaf66c3d7c8",
+            "historyId": "sg2hist-nobu-1582-honnoji",
+            "startYear": 1582,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "474d00489f99a8a90069c707183c8dc20205326960b3ffa1df1300e103f83385",
+            "bReviewId": "②経歴S2-S33/B-reviewed",
+            "bRowsSha256": "110ea16a7172cff84aef740165f02ffa8ebb60b54deda6a7417479bb794a7ab0",
+            "bConstraintsSha256": "48b5ea55b94a2d101672f11a7e2a7fb7a9105e6fbb936ac09048f135b631a8f4"
+          },
+          "qEvidence": {
+            "sheetRow": 1417,
+            "historyId": "sg2hist-nobu-1582-honnoji",
+            "bSheetRow": 33,
+            "qRawSha256": "067b66c0d69b3b3792b21820e07d79e64cde0c7069ad326eb60111eb4a1bff55",
+            "orderedHistoryIds": [
+              "sg2hist-nobu-1582-koshu",
+              "sg2hist-nobu-1582-honnoji"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "personId": "sg-f47391608dbb",
+      "histories": [
+        {
+          "historyId": "sg2hist-hideyoshi-birth-1536-1537",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1536,
+          "endYear": 1537,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天文5～6年（1536～1537、異説）",
+          "phase": "出生"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-early-service",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1565,
+          "endYear": 1568,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "1565年までに（仕官年不詳）",
+          "phase": "形成期"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kohoku-1573",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1573,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正元年（1573）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-nagahama-1574-1575",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1574,
+          "endYear": 1575,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正2～3年（1574～1575年頃）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-chugoku-1577",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1577,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正5年（1577）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-miki-1578",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1578,
+          "endYear": 1580,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正6～8年（1578～1580）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-himeji-1580-1581",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1580,
+          "endYear": 1581,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正8～9年（1580～1581）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-tottori-1581",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1581,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正9年（1581）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-bitchu-siege-1582",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1582,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正10年（1582）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-mori-peace-1582",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1582,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正10年（1582）本能寺の変後",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-yamazaki-1582",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1582,
+          "endYear": null,
+          "displayOrder": 30,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正10年（1582）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-shizugatake-1583",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1583,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正11年（1583）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-osaka-castle-1583",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1583,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "1583年",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-komaki-1584",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1584,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "1584年",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kishu-1585",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1585,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正13年（1585）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kanpaku-1585",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1585,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正13年（1585）7月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-shikoku-1585",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1585,
+          "endYear": null,
+          "displayOrder": 30,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正13年（1585）7月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-juraku-1586-1587",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1586,
+          "endYear": 1587,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正14～15年（1586～1587）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-ieyasu-1586",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1586,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正14年（1586）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kyushu-1587",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1587,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正15年（1587）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-bateren-1587",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1587,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正15年（1587）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kitano-1587",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1587,
+          "endYear": null,
+          "displayOrder": 30,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正15年（1587）10月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-imperial-1588",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1588,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正16年（1588）4月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-katanagari-1588",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1588,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正16年（1588）7月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-odawara-1590",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1590,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正18年（1590）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kanto-transfer-1590",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1590,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正18年（1590）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-oshu-1590-1591",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1590,
+          "endYear": 1591,
+          "displayOrder": 30,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正18～19年（1590～1591）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-odoi-1591",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1591,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正19年（1591）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kanpaku-transfer-1591",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1591,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正19年（1591）12月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-taiko-kenchi",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1582,
+          "endYear": 1598,
+          "displayOrder": 40,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正10年（1582）以降（全国各地で継続）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-korea-1592",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1592,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正20年（1592）3月",
+          "phase": "晩年"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-fushimi-shigetsu-1592",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1592,
+          "endYear": 1594,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "文禄元～3年（1592～1594）",
+          "phase": "晩年"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-hideyori-1593",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1593,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "文禄2年（1593）",
+          "phase": "晩年"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-hidetsugu-1595",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1595,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "文禄4年（1595）",
+          "phase": "晩年"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-fushimi-kohata-1596",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1596,
+          "endYear": 1597,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長元～2年（1596～1597）",
+          "phase": "晩年"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-korea-1597",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1597,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長2年（1597）",
+          "phase": "晩年"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-daigo-1598",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1598,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長3年（1598）旧暦3月",
+          "phase": "晩年"
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-death-1598",
+          "personId": "sg-f47391608dbb",
+          "startYear": 1598,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長3年（1598）旧暦8月18日",
+          "phase": "死去"
+        }
+      ],
+      "constraints": [
+        {
+          "beforeId": "sg2hist-hideyoshi-bitchu-siege-1582",
+          "afterId": "sg2hist-hideyoshi-mori-peace-1582",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-okayama-takamatsu",
+            "sg2src-hideyoshi-okayama-takamatsu-library",
+            "sg2src-hideyoshi-osaka-2026"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-mori-peace-1582",
+          "afterId": "sg2hist-hideyoshi-yamazaki-1582",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-okayama-takamatsu-library",
+            "sg2src-hideyoshi-osaka-2026",
+            "sg2src-hideyoshi-aichi-lib",
+            "sg2src-hideyoshi-kyoto-yamazaki",
+            "sg2src-hideyoshi-oyamazaki-castle",
+            "sg2src-hideyoshi-oyamazaki-battle"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-yamazaki-1582",
+          "afterId": "sg2hist-hideyoshi-taiko-kenchi",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-osaka-2026",
+            "sg2src-hideyoshi-aichi-lib",
+            "sg2src-hideyoshi-kyoto-yamazaki",
+            "sg2src-hideyoshi-oyamazaki-castle",
+            "sg2src-hideyoshi-oyamazaki-battle",
+            "sg2src-hideyoshi-nagoya-kenchi",
+            "sg2src-a-kenchi-tax-20261108",
+            "sg2src-a-hideyoshi-taiko1582-historist-20261109"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-shizugatake-1583",
+          "afterId": "sg2hist-hideyoshi-osaka-castle-1583",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-nagahama-exhibition2026",
+            "sg2src-hideyoshi-nagahama-shizugatake",
+            "sg2src-hideyoshi-osaka-2026",
+            "sg2src-hideyoshi-osaka-pref",
+            "sg2src-hideyoshi-osaka-library"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-kishu-1585",
+          "afterId": "sg2hist-hideyoshi-kanpaku-1585",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-wakayama-negoro",
+            "sg2src-hideyoshi-iwade-negoro-history",
+            "sg2src-hideyoshi-nagoya-kanpaku"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-kanpaku-1585",
+          "afterId": "sg2hist-hideyoshi-shikoku-1585",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-nagoya-kanpaku",
+            "sg2src-hideyoshi-kagawa-shikoku"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-juraku-1586-1587",
+          "afterId": "sg2hist-hideyoshi-ieyasu-1586",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-kyotofu-juraku",
+            "sg2src-hideyoshi-kyoto-juraku",
+            "sg2src-hideyoshi-archives-vassal"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-kyushu-1587",
+          "afterId": "sg2hist-hideyoshi-bateren-1587",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-kagoshima-kyushu",
+            "sg2src-hideyoshi-kagoshima-pref-kyushu-1587",
+            "sg2src-hideyoshi-japan47go-taiheiji",
+            "sg2src-hideyoshi-nagasaki-bateren"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-bateren-1587",
+          "afterId": "sg2hist-hideyoshi-kitano-1587",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-nagasaki-bateren",
+            "sg2src-hideyoshi-bunka-kitano"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-imperial-1588",
+          "afterId": "sg2hist-hideyoshi-katanagari-1588",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-kyotofu-juraku",
+            "sg2src-hideyoshi-kyoto-juraku",
+            "sg2src-hideyoshi-rekihaku-katanagari",
+            "sg2src-a-katanagari-purpose-20261108"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-odawara-1590",
+          "afterId": "sg2hist-hideyoshi-kanto-transfer-1590",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-odawara-museum",
+            "sg2src-hideyoshi-odawara-ishigaki",
+            "sg2src-hideyoshi-archives-vassal",
+            "sg2src-a-ishigakiyama-80days-20261108"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-kanto-transfer-1590",
+          "afterId": "sg2hist-hideyoshi-oshu-1590-1591",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-archives-vassal",
+            "sg2src-hideyoshi-fukushima-oshu",
+            "sg2src-hideyoshi-oshu-history",
+            "sg2src-hideyoshi-hirosaki-1591"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-odoi-1591",
+          "afterId": "sg2hist-hideyoshi-kanpaku-transfer-1591",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-kyoto-odoi",
+            "sg2src-hideyoshi-kyoto-urban",
+            "sg2src-hideyoshi-archives-hidetsugu",
+            "sg2src-hideyoshi-kyoto-juraku"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-korea-1592",
+          "afterId": "sg2hist-hideyoshi-fushimi-shigetsu-1592",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-saga-nagoya",
+            "sg2src-hideyoshi-nagoya-korea1592",
+            "sg2src-a-korea-first-20261108",
+            "sg2src-hideyoshi-kyotofu-fushimi",
+            "sg2src-hideyoshi-hyogo-fushimi"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-hideyoshi-daigo-1598",
+          "afterId": "sg2hist-hideyoshi-death-1598",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-hideyoshi-daigo-hanami",
+            "sg2src-hideyoshi-kyoto-fushimi",
+            "sg2src-hideyoshi-hyogo-fushimi"
+          ],
+          "calendarBasis": null
+        }
+      ],
+      "bReview": {
+        "reviewId": "②経歴S34-S71/B-reviewed",
+        "reviewedBy": "B",
+        "status": "合格",
+        "coveredHistoryIds": [
+          "sg2hist-hideyoshi-birth-1536-1537",
+          "sg2hist-hideyoshi-early-service",
+          "sg2hist-hideyoshi-kohoku-1573",
+          "sg2hist-hideyoshi-nagahama-1574-1575",
+          "sg2hist-hideyoshi-chugoku-1577",
+          "sg2hist-hideyoshi-miki-1578",
+          "sg2hist-hideyoshi-himeji-1580-1581",
+          "sg2hist-hideyoshi-tottori-1581",
+          "sg2hist-hideyoshi-bitchu-siege-1582",
+          "sg2hist-hideyoshi-mori-peace-1582",
+          "sg2hist-hideyoshi-yamazaki-1582",
+          "sg2hist-hideyoshi-shizugatake-1583",
+          "sg2hist-hideyoshi-osaka-castle-1583",
+          "sg2hist-hideyoshi-komaki-1584",
+          "sg2hist-hideyoshi-kishu-1585",
+          "sg2hist-hideyoshi-kanpaku-1585",
+          "sg2hist-hideyoshi-shikoku-1585",
+          "sg2hist-hideyoshi-juraku-1586-1587",
+          "sg2hist-hideyoshi-ieyasu-1586",
+          "sg2hist-hideyoshi-kyushu-1587",
+          "sg2hist-hideyoshi-bateren-1587",
+          "sg2hist-hideyoshi-kitano-1587",
+          "sg2hist-hideyoshi-imperial-1588",
+          "sg2hist-hideyoshi-katanagari-1588",
+          "sg2hist-hideyoshi-odawara-1590",
+          "sg2hist-hideyoshi-kanto-transfer-1590",
+          "sg2hist-hideyoshi-oshu-1590-1591",
+          "sg2hist-hideyoshi-odoi-1591",
+          "sg2hist-hideyoshi-kanpaku-transfer-1591",
+          "sg2hist-hideyoshi-taiko-kenchi",
+          "sg2hist-hideyoshi-korea-1592",
+          "sg2hist-hideyoshi-fushimi-shigetsu-1592",
+          "sg2hist-hideyoshi-hideyori-1593",
+          "sg2hist-hideyoshi-hidetsugu-1595",
+          "sg2hist-hideyoshi-fushimi-kohata-1596",
+          "sg2hist-hideyoshi-korea-1597",
+          "sg2hist-hideyoshi-daigo-1598",
+          "sg2hist-hideyoshi-death-1598"
+        ],
+        "rowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+        "constraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+      },
+      "approvals": [
+        {
+          "historyId": "sg2hist-hideyoshi-birth-1536-1537",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 41,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "8c4b059bd3aeea5e51741b00e8bfc8ef307a147d43a658844b32876c30bcd088",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-early-service",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 42,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "95287eeefb4423113cf6b500d0063043f7b2ef6e9557f1a222c3937ef7ec3302",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kohoku-1573",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 43,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "4646244948720eb1a34fcebb4ea1455d1b10b2fb264faa09020be83427ef6c22",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-nagahama-1574-1575",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 44,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "6d884691fc4dd95985289c79acff77bf8253c835cfd34831ea9aafefa7bf791e",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-chugoku-1577",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 45,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "8b66ce899074cf2b6131d898f457137ebd76d74d2b0276ead1c858da471b72eb",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-miki-1578",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 46,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "dd30064fff2a49ebc6ee21601c99ca14d607fe834277f4d0352f0c03aeb36d76",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-himeji-1580-1581",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 47,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "40df89a51839267e9fb7ed9981b6de877d6fdf26ac5faa7352633cee24136165",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-tottori-1581",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 48,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "58d22b78ff4c0802eb1fa3184dcdc58046aacc7c1ab9e2ceedf1b0aa2cac0409",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-bitchu-siege-1582",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1475,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "4e852951c27dd022752a5337fac1790eea38b157458f2ed633985e7f6d2bd519",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-bitchu-siege-1582",
+            "startYear": 1582,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "95d5a30a65e096f6f1b64339655bb4a6fc29d273081f4c2773a9b5b04fcc0df8",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1475,
+            "historyId": "sg2hist-hideyoshi-bitchu-siege-1582",
+            "bSheetRow": 42,
+            "qRawSha256": "5477462b79c7ffc13999d99a86f1104af047c5c8632d041b9a9baa3dbbd16eeb",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-bitchu-siege-1582",
+              "sg2hist-hideyoshi-mori-peace-1582",
+              "sg2hist-hideyoshi-yamazaki-1582",
+              "sg2hist-hideyoshi-taiko-kenchi"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-mori-peace-1582",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1476,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "59b8afcf2a2e4932c33542f8aa6fdd3ba5bb438255622d06187600f00994b8b2",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-mori-peace-1582",
+            "startYear": 1582,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "95d5a30a65e096f6f1b64339655bb4a6fc29d273081f4c2773a9b5b04fcc0df8",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1476,
+            "historyId": "sg2hist-hideyoshi-mori-peace-1582",
+            "bSheetRow": 43,
+            "qRawSha256": "a2c965f4c627766f7a953fc5e554a9197532343ef9730a8f059127e282697a00",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-bitchu-siege-1582",
+              "sg2hist-hideyoshi-mori-peace-1582",
+              "sg2hist-hideyoshi-yamazaki-1582",
+              "sg2hist-hideyoshi-taiko-kenchi"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-yamazaki-1582",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1477,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "a43976160a183373955cfdb95dc8089df580923ba3dabce06814365ee6f31c3c",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-yamazaki-1582",
+            "startYear": 1582,
+            "endYear": null,
+            "displayOrder": 30,
+            "tieStatus": null,
+            "yearGroupSha256": "95d5a30a65e096f6f1b64339655bb4a6fc29d273081f4c2773a9b5b04fcc0df8",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1477,
+            "historyId": "sg2hist-hideyoshi-yamazaki-1582",
+            "bSheetRow": 44,
+            "qRawSha256": "af6e7f6bcd841c2cadcfe8b48eb7880187d6affcdb570a4a4734e7c6c4ec6bd1",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-bitchu-siege-1582",
+              "sg2hist-hideyoshi-mori-peace-1582",
+              "sg2hist-hideyoshi-yamazaki-1582",
+              "sg2hist-hideyoshi-taiko-kenchi"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-shizugatake-1583",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1418,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "c27b90056f66d0f7e2a46d84a5fa01c50cad9f651cca1dd674fffc7800968766",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-shizugatake-1583",
+            "startYear": 1583,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "e7388cf599e6ab03213104109338510217db22f2535bd918cc0c771829988f78",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1418,
+            "historyId": "sg2hist-hideyoshi-shizugatake-1583",
+            "bSheetRow": 45,
+            "qRawSha256": "3dc1b42a19e7c1f66362c07d12ac65561ff6fab7e74b87e366dc325e8743024d",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-shizugatake-1583",
+              "sg2hist-hideyoshi-osaka-castle-1583"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-osaka-castle-1583",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1419,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "f13762dafbcb26092356576b720a5258e670890e1033d3dbce4fa9841cb8e48e",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-osaka-castle-1583",
+            "startYear": 1583,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "e7388cf599e6ab03213104109338510217db22f2535bd918cc0c771829988f78",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1419,
+            "historyId": "sg2hist-hideyoshi-osaka-castle-1583",
+            "bSheetRow": 46,
+            "qRawSha256": "7784dc7f82224905d4070d658f564155f7290a0980924791e450fb339307d910",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-shizugatake-1583",
+              "sg2hist-hideyoshi-osaka-castle-1583"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-komaki-1584",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 54,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "4fc89cb6249d9305b9c2bb8896d45dfa4adf1152aa58697db689fc58d006f381",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kishu-1585",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1420,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "3afc5e35c41801f9bfa309198403312041d973d491959be438abf3e611ad133c",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-kishu-1585",
+            "startYear": 1585,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "cdefdba374eb202ff097dc13936a9ba02b27e9c849a7e816db61808b5a87a041",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1420,
+            "historyId": "sg2hist-hideyoshi-kishu-1585",
+            "bSheetRow": 48,
+            "qRawSha256": "179ae2931917ed4626fb21d6b9871e997b4d2b968ddd47dcfd352111c6ab4a2c",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-kishu-1585",
+              "sg2hist-hideyoshi-kanpaku-1585",
+              "sg2hist-hideyoshi-shikoku-1585"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kanpaku-1585",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1421,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "2fe8c2d060b34c70195a638bdd5fd9a9a8b7a5ca676c42932fda09eefe4feaf0",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-kanpaku-1585",
+            "startYear": 1585,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "cdefdba374eb202ff097dc13936a9ba02b27e9c849a7e816db61808b5a87a041",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1421,
+            "historyId": "sg2hist-hideyoshi-kanpaku-1585",
+            "bSheetRow": 49,
+            "qRawSha256": "466e3880a8d25d9d691f2e75140ba213f48941157ed5a3add00c345d437d18fd",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-kishu-1585",
+              "sg2hist-hideyoshi-kanpaku-1585",
+              "sg2hist-hideyoshi-shikoku-1585"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-shikoku-1585",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1422,
+          "version": "v3",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "dede95d846b8da3825edcf9e6905ef52635dc6660e7c7ec1eb1c94cf5b813c7e",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-shikoku-1585",
+            "startYear": 1585,
+            "endYear": null,
+            "displayOrder": 30,
+            "tieStatus": null,
+            "yearGroupSha256": "cdefdba374eb202ff097dc13936a9ba02b27e9c849a7e816db61808b5a87a041",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1422,
+            "historyId": "sg2hist-hideyoshi-shikoku-1585",
+            "bSheetRow": 50,
+            "qRawSha256": "bae91af8801fd655ab2a0db351cd38a730a3dd0c9b94372066c3773a31002a3e",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-kishu-1585",
+              "sg2hist-hideyoshi-kanpaku-1585",
+              "sg2hist-hideyoshi-shikoku-1585"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-juraku-1586-1587",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1423,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "360639c93fbaa8bd96138330deb435f870631cd25e869574329bf19995af8f3d",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-juraku-1586-1587",
+            "startYear": 1586,
+            "endYear": 1587,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "7495faade2dfda6347bcad155ad5d3e89e10a4be238ef44cea3e399d9eaaf225",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1423,
+            "historyId": "sg2hist-hideyoshi-juraku-1586-1587",
+            "bSheetRow": 51,
+            "qRawSha256": "cee7f6b62fc91fe638ba7ed98a3c2e3d407ca0c39cf1affc5bdf806b9f54786e",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-juraku-1586-1587",
+              "sg2hist-hideyoshi-ieyasu-1586"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-ieyasu-1586",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1424,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "44da61d94e0dd8c0ec39dc77aa49be4a1ebbbbaac47e47890afee979106a1bd6",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-ieyasu-1586",
+            "startYear": 1586,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "7495faade2dfda6347bcad155ad5d3e89e10a4be238ef44cea3e399d9eaaf225",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1424,
+            "historyId": "sg2hist-hideyoshi-ieyasu-1586",
+            "bSheetRow": 52,
+            "qRawSha256": "3b98d2fbb9227797ff7ce09c016276b170cbbd0107ab7c2c9cbbb0f938aa7a53",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-juraku-1586-1587",
+              "sg2hist-hideyoshi-ieyasu-1586"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kyushu-1587",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1425,
+          "version": "v3",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "6d58e5b54c757ebd8c456c8f2ad5144a503472b1b51ccd434110cad43d321cb5",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-kyushu-1587",
+            "startYear": 1587,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "6d1547adba1b461bad91f622a20b1aeb777e86db17e8b79f7463ea6694ba35db",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1425,
+            "historyId": "sg2hist-hideyoshi-kyushu-1587",
+            "bSheetRow": 53,
+            "qRawSha256": "67e6fbe0dcd87e2d31010fa377e297e025ef1d25f2930bbb9a1ef7b97eb3eee2",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-kyushu-1587",
+              "sg2hist-hideyoshi-bateren-1587",
+              "sg2hist-hideyoshi-kitano-1587"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-bateren-1587",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1426,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "1d23419e1f2f2be48cb3fa06064a43930a659115585a92d1b149a8775812cb4e",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-bateren-1587",
+            "startYear": 1587,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "6d1547adba1b461bad91f622a20b1aeb777e86db17e8b79f7463ea6694ba35db",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1426,
+            "historyId": "sg2hist-hideyoshi-bateren-1587",
+            "bSheetRow": 54,
+            "qRawSha256": "2788da675120cf88a85f89fca1bc2e544b9b340e7c23e6a446c9bd5c547296e1",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-kyushu-1587",
+              "sg2hist-hideyoshi-bateren-1587",
+              "sg2hist-hideyoshi-kitano-1587"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kitano-1587",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1427,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "d2cf1e41baab0e0b4d69848b8595dec740aaa42146236f4df2b2a9d4756ee706",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-kitano-1587",
+            "startYear": 1587,
+            "endYear": null,
+            "displayOrder": 30,
+            "tieStatus": null,
+            "yearGroupSha256": "6d1547adba1b461bad91f622a20b1aeb777e86db17e8b79f7463ea6694ba35db",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1427,
+            "historyId": "sg2hist-hideyoshi-kitano-1587",
+            "bSheetRow": 55,
+            "qRawSha256": "d3defef0aba908c46e43a59b9fd04b26c900fc6153c9dc46f34367b8faba895d",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-kyushu-1587",
+              "sg2hist-hideyoshi-bateren-1587",
+              "sg2hist-hideyoshi-kitano-1587"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-imperial-1588",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1428,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "e770f379a1223c4275650b092efb84e27d55c7ffee4ee3c7b005939875acfb6a",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-imperial-1588",
+            "startYear": 1588,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "4d3f8200a03fee91d7a99837df920ba6802a8b66695c1e7a2ce32fb304c5ac86",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1428,
+            "historyId": "sg2hist-hideyoshi-imperial-1588",
+            "bSheetRow": 56,
+            "qRawSha256": "0916165350c3f8cfd938aaed9346416b99268f789d769e141225e0e1c7803772",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-imperial-1588",
+              "sg2hist-hideyoshi-katanagari-1588"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-katanagari-1588",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1429,
+          "version": "v3",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "ba49ed2d8440cf828038451149ea8899b5f7d0f8805c854ca7b7e1ecea7d0a04",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-katanagari-1588",
+            "startYear": 1588,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "4d3f8200a03fee91d7a99837df920ba6802a8b66695c1e7a2ce32fb304c5ac86",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1429,
+            "historyId": "sg2hist-hideyoshi-katanagari-1588",
+            "bSheetRow": 57,
+            "qRawSha256": "e50a8bece640dbd321bc024c27971422e715ef84bfe8aa8dc5399c3b8cb797bf",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-imperial-1588",
+              "sg2hist-hideyoshi-katanagari-1588"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-odawara-1590",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1430,
+          "version": "v3",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "43969ec990767144717a47aa376fcd879727e410b1141f5b45c47fa2f31951c2",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-odawara-1590",
+            "startYear": 1590,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "be87cdff9b42c6cbccddb4f75f675c64d78812b055243949ee6150fe2bf8bd58",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1430,
+            "historyId": "sg2hist-hideyoshi-odawara-1590",
+            "bSheetRow": 58,
+            "qRawSha256": "81aa03ed6db6e00dca685f2858450d0990e4b34375b6493e71642bdc3ce612bb",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-odawara-1590",
+              "sg2hist-hideyoshi-kanto-transfer-1590",
+              "sg2hist-hideyoshi-oshu-1590-1591"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kanto-transfer-1590",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1431,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "3e39f73486b30891a9a40de10ff93b8cf0b27a468d9fedfa0810d8eb96b0a41e",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-kanto-transfer-1590",
+            "startYear": 1590,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "be87cdff9b42c6cbccddb4f75f675c64d78812b055243949ee6150fe2bf8bd58",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1431,
+            "historyId": "sg2hist-hideyoshi-kanto-transfer-1590",
+            "bSheetRow": 59,
+            "qRawSha256": "4982a093922a4a20b62905491b68c8d4c8d4dae8732539d304a890e502e6979b",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-odawara-1590",
+              "sg2hist-hideyoshi-kanto-transfer-1590",
+              "sg2hist-hideyoshi-oshu-1590-1591"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-oshu-1590-1591",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1432,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "24493fe6d2f9b0a355b528c20ee5bfe19efc4a907d94b199323016b14f621690",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-oshu-1590-1591",
+            "startYear": 1590,
+            "endYear": 1591,
+            "displayOrder": 30,
+            "tieStatus": null,
+            "yearGroupSha256": "be87cdff9b42c6cbccddb4f75f675c64d78812b055243949ee6150fe2bf8bd58",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1432,
+            "historyId": "sg2hist-hideyoshi-oshu-1590-1591",
+            "bSheetRow": 60,
+            "qRawSha256": "e705a29e5e19ccc8d12dc030d0fb7293fd58fb931cc0f014b4e8941bad90d5a8",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-odawara-1590",
+              "sg2hist-hideyoshi-kanto-transfer-1590",
+              "sg2hist-hideyoshi-oshu-1590-1591"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-odoi-1591",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1433,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "6c0578a753a6b21141cc30b2f4fcc82ffca4f44d5de59d0e5dd0a8d07ede8051",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-odoi-1591",
+            "startYear": 1591,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "0f45b9f83f441ed58ee4668b95a5d05b381fe934bfd14ea91cac37665af79cf4",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1433,
+            "historyId": "sg2hist-hideyoshi-odoi-1591",
+            "bSheetRow": 61,
+            "qRawSha256": "f82610d563c4ed42588dc57e71608f4bf8b0d1a6c9a09ff5388c449d879fbdf5",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-odoi-1591",
+              "sg2hist-hideyoshi-kanpaku-transfer-1591"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-kanpaku-transfer-1591",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1434,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "8ecd476c9d67ed51b31eba845b84017be3a676d8cca255968494a724fa97070b",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-kanpaku-transfer-1591",
+            "startYear": 1591,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "0f45b9f83f441ed58ee4668b95a5d05b381fe934bfd14ea91cac37665af79cf4",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1434,
+            "historyId": "sg2hist-hideyoshi-kanpaku-transfer-1591",
+            "bSheetRow": 62,
+            "qRawSha256": "71bbc8d464ae78a46e6cf709bc0656729f076dff84cd8099a92fd7be047596b4",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-odoi-1591",
+              "sg2hist-hideyoshi-kanpaku-transfer-1591"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-taiko-kenchi",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1478,
+          "version": "v3",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "f5d879faf0fce1301750872f249a90322abd0e2136859f51749c64ea99711951",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-taiko-kenchi",
+            "startYear": 1582,
+            "endYear": 1598,
+            "displayOrder": 40,
+            "tieStatus": null,
+            "yearGroupSha256": "95d5a30a65e096f6f1b64339655bb4a6fc29d273081f4c2773a9b5b04fcc0df8",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1478,
+            "historyId": "sg2hist-hideyoshi-taiko-kenchi",
+            "bSheetRow": 63,
+            "qRawSha256": "77dd508234b263455268dbeb1408716284294182e59bc48e277413eccb489ee7",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-bitchu-siege-1582",
+              "sg2hist-hideyoshi-mori-peace-1582",
+              "sg2hist-hideyoshi-yamazaki-1582",
+              "sg2hist-hideyoshi-taiko-kenchi"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-korea-1592",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1479,
+          "version": "v3",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "04b003f1e45afd274d273ba42192f3da522045a2b46c9c2b820a9c67cdff3c07",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-korea-1592",
+            "startYear": 1592,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "193a2d49c81db244fb4ce3658bf18ab5390b0183258b8d7c48ce7605de821a38",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1479,
+            "historyId": "sg2hist-hideyoshi-korea-1592",
+            "bSheetRow": 64,
+            "qRawSha256": "8f2a5597e783fed11546ce9f7e865ba0211368a241357c615741523aae75290a",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-korea-1592",
+              "sg2hist-hideyoshi-fushimi-shigetsu-1592"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-fushimi-shigetsu-1592",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1480,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "efb8c98c6a75501e0dbbb242067b95d9beef21bff76991c8f65f05d1d6eef65c",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-fushimi-shigetsu-1592",
+            "startYear": 1592,
+            "endYear": 1594,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "193a2d49c81db244fb4ce3658bf18ab5390b0183258b8d7c48ce7605de821a38",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1480,
+            "historyId": "sg2hist-hideyoshi-fushimi-shigetsu-1592",
+            "bSheetRow": 65,
+            "qRawSha256": "64acbb12440f2abac775a2cf9524a999f00c2f7da4e7340231518249a27a6a13",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-korea-1592",
+              "sg2hist-hideyoshi-fushimi-shigetsu-1592"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-hideyori-1593",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 73,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "b854bc238bdaab83159871d4d0f4c65560a0270e07371499cada172d3ee68e0b",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-hidetsugu-1595",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 74,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "9665ad38a74c602aa0dc0791c5c5d3c78a06432742f962f4fd6074fe6f7f78c9",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-fushimi-kohata-1596",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 75,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "48592b7ca54e6b51a62febdc8b4b0bacedb416df4c30c883be8135bb087838db",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-korea-1597",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 998,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "0e8bdb0f670c220b9d2f23be91e3db228cb5fd1150efa414a1ffc2e9193495bf",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-daigo-1598",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1435,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "fb72a741ae8b53fb06d4ac08aabd1de3f194bc9d15b94891cc748d0df09f98e4",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-daigo-1598",
+            "startYear": 1598,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "ca91eae3230e6244df33611a0af74ebd7ae30735410d19961d03804ea74ec865",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1435,
+            "historyId": "sg2hist-hideyoshi-daigo-1598",
+            "bSheetRow": 70,
+            "qRawSha256": "6e75c85f0da3ea9eb8059eb14d7153f53702f7e75bb9fe3506c2f2780f9a5488",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-daigo-1598",
+              "sg2hist-hideyoshi-death-1598"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-hideyoshi-death-1598",
+          "personId": "sg-f47391608dbb",
+          "sheetRow": 1436,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "c48bad24011bad157604029cc4a33ca109620e43052b394a79b009198f7d5daa",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-f47391608dbb",
+            "historyId": "sg2hist-hideyoshi-death-1598",
+            "startYear": 1598,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "ca91eae3230e6244df33611a0af74ebd7ae30735410d19961d03804ea74ec865",
+            "bReviewId": "②経歴S34-S71/B-reviewed",
+            "bRowsSha256": "3dfccc8b4fd337546e77a777c687b02eb0b4d4fd2fc00dc02452844d5d1ee1c8",
+            "bConstraintsSha256": "2f844c877ecef2d2f70e03d88efc2bfb5c8bc94760895b5e0df6d86a04bc0422"
+          },
+          "qEvidence": {
+            "sheetRow": 1436,
+            "historyId": "sg2hist-hideyoshi-death-1598",
+            "bSheetRow": 71,
+            "qRawSha256": "848ff4115758b4a7d275bef90bc89c874e38391db0eb33efc791ff31318e819c",
+            "orderedHistoryIds": [
+              "sg2hist-hideyoshi-daigo-1598",
+              "sg2hist-hideyoshi-death-1598"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "personId": "sg-a7bb09927601",
+      "histories": [
+        {
+          "historyId": "sg2hist-ieyasu-1542-birth",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1542,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天文11年（1542、旧暦）",
+          "phase": "出生"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1547-1549-hostage",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1547,
+          "endYear": 1549,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天文16～18年（1547～1549）",
+          "phase": "形成期"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1555-1557-genpuku",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1555,
+          "endYear": 1557,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天文24～弘治3年（1555～1557）",
+          "phase": "形成期"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1560-odaka",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1560,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄3年（1560）5月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1560-okazaki-return",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1560,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄3年（1560）5月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1561-1562-alliance",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1561,
+          "endYear": 1562,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄4～5年（1561～1562）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1563-1564-ikko",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1563,
+          "endYear": 1564,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄6～7年（1563～1564）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1563-1566-names",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1563,
+          "endYear": 1566,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄6～9年（1563～1566）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1568-1569-totomi",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1568,
+          "endYear": 1569,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "永禄11～12年（1568～1569）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1570-hamamatsu",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1570,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "元亀元年（1570）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1570-anegawa",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1570,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "元亀元年（1570）6月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1572-mikatagahara",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1572,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "元亀3年（1572）旧暦12月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1575-nagashino",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1575,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正3年（1575）5月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1579-nobuyasu",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1579,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正7年（1579）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1581-takatenjin",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1581,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正9年（1581）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1582-iga",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1582,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正10年（1582）旧暦6月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1582-kai",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1582,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正10年（1582）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1584-komaki",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1584,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正12年（1584）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1585-ishikawa",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1585,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正13年（1585）11月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1586-vassal",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1586,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正14年（1586）10月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1586-sunpu",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1586,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正14年（1586）12月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1590-kanto",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1590,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "天正18年（1590）7～8月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1598-1600-politics",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1598,
+          "endYear": 1600,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長3～5年（1598～1600）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1600-aizu-pivot",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1600,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長5年（1600）7月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1600-sekigahara",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1600,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長5年（1600）9月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1601-trade",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1601,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長6年（1601）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1603-shogun",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1603,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長8年（1603）2月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1603-nijo",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1603,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長8年（1603）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1605-succession",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1605,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長10年（1605）4月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1606-edo-rebuild",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1606,
+          "endYear": 1607,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長11～12年（1606～1607）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1607-sunpu",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1607,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長12年（1607）",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1611-hideyori-meeting",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1611,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長16年（1611）3月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1614-hokoji",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1614,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長19年（1614）",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1614-winter",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1614,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長19年（1614）11～12月",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1615-summer",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1615,
+          "endYear": null,
+          "displayOrder": 10,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長20年（1615）旧暦5月",
+          "phase": "転機"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1615-buke-law",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1615,
+          "endYear": null,
+          "displayOrder": 20,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "慶長20年（1615）旧暦7月7日",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1615-kinchu-law",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1615,
+          "endYear": null,
+          "displayOrder": 30,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "元和元年（1615）旧暦7月17日",
+          "phase": "主要活動"
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1616-death",
+          "personId": "sg-a7bb09927601",
+          "startYear": 1616,
+          "endYear": null,
+          "displayOrder": null,
+          "tieStatus": null,
+          "tieReason": null,
+          "tieEvidenceIds": [],
+          "yearText": "元和2年（1616）旧暦4月17日",
+          "phase": "死去"
+        }
+      ],
+      "constraints": [
+        {
+          "beforeId": "sg2hist-ieyasu-1560-odaka",
+          "afterId": "sg2hist-ieyasu-1560-okazaki-return",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-ieyasu-archives-okehazama",
+            "sg2src-ieyasu-nagoya-odaka",
+            "sg2src-ieyasu-okazaki-castle"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-ieyasu-1563-1566-names",
+          "afterId": "sg2hist-ieyasu-1563-1564-ikko",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-ieyasu-archives-names",
+            "sg2src-ieyasu-archives-chronology",
+            "sg2src-a-ieyasu-toshogu-chron-20261109",
+            "sg2src-ieyasu-anjo-honshoji"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-ieyasu-1570-hamamatsu",
+          "afterId": "sg2hist-ieyasu-1570-anegawa",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-ieyasu-hamamatsu-castle",
+            "sg2src-ieyasu-hamamatsu-cultural",
+            "sg2src-a-ieyasu-toshogu-chron-20261109",
+            "sg2src-ieyasu-archives-chronology",
+            "sg2src-nobu-shiga-odani-booklet"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-ieyasu-1582-iga",
+          "afterId": "sg2hist-ieyasu-1582-kai",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-ieyasu-archives-iga",
+            "sg2src-ieyasu-archives-chronology"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-ieyasu-1586-vassal",
+          "afterId": "sg2hist-ieyasu-1586-sunpu",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-ieyasu-archives-vassal",
+            "sg2src-ieyasu-archives-chronology",
+            "sg2src-ieyasu-shizuoka-sunpu-history"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-ieyasu-1600-aizu-pivot",
+          "afterId": "sg2hist-ieyasu-1600-sekigahara",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-ieyasu-oyama-campaign-1600",
+            "sg2src-ieyasu-niigata-kagekatsu-1600",
+            "sg2src-ieyasu-archives-sekigahara",
+            "sg2src-ieyasu-gifu-sekigahara"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-ieyasu-1603-shogun",
+          "afterId": "sg2hist-ieyasu-1603-nijo",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-ieyasu-archives-sekigahara",
+            "sg2src-ieyasu-archives-chronology",
+            "sg2src-ieyasu-archives-shogun-succession",
+            "sg2src-ieyasu-kyoto-fushimi1603",
+            "sg2src-ieyasu-kyoto-nijo"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-ieyasu-1614-hokoji",
+          "afterId": "sg2hist-ieyasu-1614-winter",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-ieyasu-archives-hokoji",
+            "sg2src-ieyasu-archives-osaka-sieges",
+            "sg2src-ieyasu-archives-chronology"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-ieyasu-1615-summer",
+          "afterId": "sg2hist-ieyasu-1615-buke-law",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-ieyasu-archives-osaka-sieges",
+            "sg2src-ieyasu-archives-chronology",
+            "sg2src-ieyasu-archives-domestic",
+            "sg2src-ieyasu-archives-buke-law"
+          ],
+          "calendarBasis": null
+        },
+        {
+          "beforeId": "sg2hist-ieyasu-1615-buke-law",
+          "afterId": "sg2hist-ieyasu-1615-kinchu-law",
+          "type": "b-reviewed-order",
+          "bVerified": true,
+          "evidenceIds": [
+            "sg2src-ieyasu-archives-domestic",
+            "sg2src-ieyasu-archives-chronology",
+            "sg2src-ieyasu-archives-buke-law",
+            "sg2src-ieyasu-archives-kinchu-law"
+          ],
+          "calendarBasis": null
+        }
+      ],
+      "bReview": {
+        "reviewId": "②経歴S72-S109/B-reviewed",
+        "reviewedBy": "B",
+        "status": "合格",
+        "coveredHistoryIds": [
+          "sg2hist-ieyasu-1542-birth",
+          "sg2hist-ieyasu-1547-1549-hostage",
+          "sg2hist-ieyasu-1555-1557-genpuku",
+          "sg2hist-ieyasu-1560-odaka",
+          "sg2hist-ieyasu-1560-okazaki-return",
+          "sg2hist-ieyasu-1561-1562-alliance",
+          "sg2hist-ieyasu-1563-1564-ikko",
+          "sg2hist-ieyasu-1563-1566-names",
+          "sg2hist-ieyasu-1568-1569-totomi",
+          "sg2hist-ieyasu-1570-hamamatsu",
+          "sg2hist-ieyasu-1570-anegawa",
+          "sg2hist-ieyasu-1572-mikatagahara",
+          "sg2hist-ieyasu-1575-nagashino",
+          "sg2hist-ieyasu-1579-nobuyasu",
+          "sg2hist-ieyasu-1581-takatenjin",
+          "sg2hist-ieyasu-1582-iga",
+          "sg2hist-ieyasu-1582-kai",
+          "sg2hist-ieyasu-1584-komaki",
+          "sg2hist-ieyasu-1585-ishikawa",
+          "sg2hist-ieyasu-1586-vassal",
+          "sg2hist-ieyasu-1586-sunpu",
+          "sg2hist-ieyasu-1590-kanto",
+          "sg2hist-ieyasu-1598-1600-politics",
+          "sg2hist-ieyasu-1600-aizu-pivot",
+          "sg2hist-ieyasu-1600-sekigahara",
+          "sg2hist-ieyasu-1601-trade",
+          "sg2hist-ieyasu-1603-shogun",
+          "sg2hist-ieyasu-1603-nijo",
+          "sg2hist-ieyasu-1605-succession",
+          "sg2hist-ieyasu-1606-edo-rebuild",
+          "sg2hist-ieyasu-1607-sunpu",
+          "sg2hist-ieyasu-1611-hideyori-meeting",
+          "sg2hist-ieyasu-1614-hokoji",
+          "sg2hist-ieyasu-1614-winter",
+          "sg2hist-ieyasu-1615-summer",
+          "sg2hist-ieyasu-1615-buke-law",
+          "sg2hist-ieyasu-1615-kinchu-law",
+          "sg2hist-ieyasu-1616-death"
+        ],
+        "rowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+        "constraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+      },
+      "approvals": [
+        {
+          "historyId": "sg2hist-ieyasu-1542-birth",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 79,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "6e11da7aac28bd577507377126bd232c2e7d88392547606b45bf4f6ca4b160e7",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1547-1549-hostage",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 80,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "e50faf6d6135b490f3b96834f3c6454101bc19a8d642a544181104adede4d3d1",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1555-1557-genpuku",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 81,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "8a9c5999f03a978e711dbc330ed8980f4e1f05662cd1ed4470f40b63540d2776",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1560-odaka",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1437,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "c3193481a9996f0889e97a62eb23ce90f035a7bc338758e20df5b1d0476db7ea",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1560-odaka",
+            "startYear": 1560,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "397f68d269c642801fb367e0b969736574e90a3fcc58295f94f0fb9ca3901e2e",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1437,
+            "historyId": "sg2hist-ieyasu-1560-odaka",
+            "bSheetRow": 75,
+            "qRawSha256": "acb822da482c745ae98b123376838d1b3113731427b0ede83db73b613a96f358",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1560-odaka",
+              "sg2hist-ieyasu-1560-okazaki-return"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1560-okazaki-return",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1438,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "3ef9baebb452412065c7c4fc85836fdeab51df4e3f95c10cb92fe4451ef50628",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1560-okazaki-return",
+            "startYear": 1560,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "397f68d269c642801fb367e0b969736574e90a3fcc58295f94f0fb9ca3901e2e",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1438,
+            "historyId": "sg2hist-ieyasu-1560-okazaki-return",
+            "bSheetRow": 76,
+            "qRawSha256": "dbe0ae37ea6aeed471a6ec8e5ed4fcc10117df3acb48f0506ce836f0329a7963",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1560-odaka",
+              "sg2hist-ieyasu-1560-okazaki-return"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1561-1562-alliance",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 84,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "24a8a2c411037d6f3b0fd3d6c8508bb1dfbe618e3fde9faba9c26db52d83f874",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1563-1564-ikko",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1481,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "f45f3c99f76ccd094518fd3611af159889d4c51445ae791fae4dfdcbef494d11",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1563-1564-ikko",
+            "startYear": 1563,
+            "endYear": 1564,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "17a2b6613462bdb2a41e9239df8ea936c5400a680acc37398347c11183f48339",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1481,
+            "historyId": "sg2hist-ieyasu-1563-1564-ikko",
+            "bSheetRow": 78,
+            "qRawSha256": "3a9e9067efbad7387471789f012a59dcc887388203e2a1c012f57abc78c1d08a",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1563-1566-names",
+              "sg2hist-ieyasu-1563-1564-ikko"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1563-1566-names",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1482,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "cde1768f7a17d92cefbbc141f0e95c4811c3308af587ca2b8a96b9b587c22219",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1563-1566-names",
+            "startYear": 1563,
+            "endYear": 1566,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "17a2b6613462bdb2a41e9239df8ea936c5400a680acc37398347c11183f48339",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1482,
+            "historyId": "sg2hist-ieyasu-1563-1566-names",
+            "bSheetRow": 79,
+            "qRawSha256": "ff4550b445d4385f0993b69eda9d4de5ca1e7e693f4b8e2d2354136b09fb189d",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1563-1566-names",
+              "sg2hist-ieyasu-1563-1564-ikko"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1568-1569-totomi",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 87,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "05b8f104414b79bcc1d7876aa6116bd158181a4f70acfa80541f5693e24841ef",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1570-hamamatsu",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1483,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "1acf15d8e6c6de910553ef8d7c2e74fa3ae61e8214239d6727a765bc11c7aa8a",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1570-hamamatsu",
+            "startYear": 1570,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "ac5c4390317be9d5208c9c93101ce921fe055b50f9647cf1fffbd231b4686a72",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1483,
+            "historyId": "sg2hist-ieyasu-1570-hamamatsu",
+            "bSheetRow": 81,
+            "qRawSha256": "1ba947bc1fda9e468dbd170894bf19ce14c34608b593da632ff329fde618536e",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1570-hamamatsu",
+              "sg2hist-ieyasu-1570-anegawa"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1570-anegawa",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1484,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "8d7e79dc64b0b88613654d608405cc046a24bf8d7374424a5497a08b7abc5f3c",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1570-anegawa",
+            "startYear": 1570,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "ac5c4390317be9d5208c9c93101ce921fe055b50f9647cf1fffbd231b4686a72",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1484,
+            "historyId": "sg2hist-ieyasu-1570-anegawa",
+            "bSheetRow": 82,
+            "qRawSha256": "2390f893b126ed8ef8ac7bc6ab997398831959f28932eb532aa7216f787f81ff",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1570-hamamatsu",
+              "sg2hist-ieyasu-1570-anegawa"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1572-mikatagahara",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 90,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "bc023447d545c1007eb62bd98382c0d2c57d5338625b243917a9739ce41bbb46",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1575-nagashino",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 91,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "3fbe5aef0672ec9f5fba20314ac3f5642fa06c064a00522db3f1cb5d54c6d3be",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1579-nobuyasu",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 92,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "44f64d063f410891bf5c5db0ab351e4be18f44b1abd231efb862b98c5dcd9d22",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1581-takatenjin",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 93,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "768fbb2970e7b677517ab4f569a128fc4b0864e62c26a7fe5c3152a483d1fb0f",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1582-iga",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1439,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "3f0410c40e2c69caed479c8f6722e62b01005fec671ab238acab5d0105138f4a",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1582-iga",
+            "startYear": 1582,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "56854910d7e3de2ddb10c91d87129e4216779794023844d0d2890e7c495d7fa2",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1439,
+            "historyId": "sg2hist-ieyasu-1582-iga",
+            "bSheetRow": 87,
+            "qRawSha256": "30821a30605309732d714b971a8ef9a1a0af2eadead5eaf55270b4c6cf4e1cdf",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1582-iga",
+              "sg2hist-ieyasu-1582-kai"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1582-kai",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1440,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "6aadd207ef809e02b9bebe96650287491b4b0448498b7496144e91933345f44b",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1582-kai",
+            "startYear": 1582,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "56854910d7e3de2ddb10c91d87129e4216779794023844d0d2890e7c495d7fa2",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1440,
+            "historyId": "sg2hist-ieyasu-1582-kai",
+            "bSheetRow": 88,
+            "qRawSha256": "123701f9ec4207431c0a58acb8fc2f453feb4672c0db2ab10b1c108b34d724e3",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1582-iga",
+              "sg2hist-ieyasu-1582-kai"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1584-komaki",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 96,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "dc8f589392a6366b17c113b002a3df97b90552dc67e1d6719e589ce1d6c8b9ea",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1585-ishikawa",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 97,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "d48be1024f5c712044a71884373c921619e9e2defc19a96a4dda249cfdd24fe7",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1586-vassal",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1441,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "86cab2c6720f86bf010c48a9d4e0eb74a0f6ebfb81b70185527aa9aef2fbc7e7",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1586-vassal",
+            "startYear": 1586,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "319ba85f5c8cefa1cad47be69e9892de4c87c08c58d8ff2becd55f5582ed789b",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1441,
+            "historyId": "sg2hist-ieyasu-1586-vassal",
+            "bSheetRow": 91,
+            "qRawSha256": "262e0c845e35ef6c2e9532f2b0581fbe7d78307ce8d89b1903fea009042b4d0e",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1586-vassal",
+              "sg2hist-ieyasu-1586-sunpu"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1586-sunpu",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1442,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "5ef9ab57e37faaa56eee9d315f0cad9af677e58a63096add1b1e7551536ffa4d",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1586-sunpu",
+            "startYear": 1586,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "319ba85f5c8cefa1cad47be69e9892de4c87c08c58d8ff2becd55f5582ed789b",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1442,
+            "historyId": "sg2hist-ieyasu-1586-sunpu",
+            "bSheetRow": 92,
+            "qRawSha256": "f3d5bb9fdf01d8f4ca901dfbfcf23845d2946d9631b3f758e77ff65d9a050b80",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1586-vassal",
+              "sg2hist-ieyasu-1586-sunpu"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1590-kanto",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 100,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "24015984d91abe3d691ec4f71d9d85552d382702159beec18bf8298be9780d13",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1598-1600-politics",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 101,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "d6edbaaf5d5bba3d9a4b1728cb32fd793da6f50cd9a8964ffe464e27ef3395c7",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1600-aizu-pivot",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1443,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "7b499bebce049fd7d473895a524318f3bca765b7c2a782b8855f155b07d8a10c",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1600-aizu-pivot",
+            "startYear": 1600,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "1bbbcec484575a1f9a1ff61dc00aa0a3aa6b38978e2b9880980fe3c1b6b7f719",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1443,
+            "historyId": "sg2hist-ieyasu-1600-aizu-pivot",
+            "bSheetRow": 95,
+            "qRawSha256": "8e1f14d7f587466eddecc412f4753236d2cb1c7ecd92660e2ce14e7b6498b068",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1600-aizu-pivot",
+              "sg2hist-ieyasu-1600-sekigahara"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1600-sekigahara",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1444,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "80acdbe5e3525ccfb49fa3ed9795ffd83007b6b193a085347bf624000c196f5b",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1600-sekigahara",
+            "startYear": 1600,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "1bbbcec484575a1f9a1ff61dc00aa0a3aa6b38978e2b9880980fe3c1b6b7f719",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1444,
+            "historyId": "sg2hist-ieyasu-1600-sekigahara",
+            "bSheetRow": 96,
+            "qRawSha256": "79cc8d581b7f45d2f1f2b971f14de3e0473b2b190d03dbba59e668e761a1ea0a",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1600-aizu-pivot",
+              "sg2hist-ieyasu-1600-sekigahara"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1601-trade",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 104,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "c23268ba7cd88ffb5ed916327dcc00ae6086dc6bd3b1a9775d0bfb4e09cc2d3e",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1603-shogun",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1445,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "9c53341dfebaa6f95a77ff6b08f1ba8a91cfb3ca11e3b9eb9241ced67bb66fc2",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1603-shogun",
+            "startYear": 1603,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "f2f3e8e4a1e185d295be6ab141dc686759a7d7d6f3da8758738010c21f5f4613",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1445,
+            "historyId": "sg2hist-ieyasu-1603-shogun",
+            "bSheetRow": 98,
+            "qRawSha256": "fb638739fdc8d72d7c434a5c7930eb6c63bac76cf7970d19965476084339d25c",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1603-shogun",
+              "sg2hist-ieyasu-1603-nijo"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1603-nijo",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1446,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "5ef7203c937a38faa644a7c6919a3a7e0a3ee36713e91a26a7aa1e0b315af0dd",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1603-nijo",
+            "startYear": 1603,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "f2f3e8e4a1e185d295be6ab141dc686759a7d7d6f3da8758738010c21f5f4613",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1446,
+            "historyId": "sg2hist-ieyasu-1603-nijo",
+            "bSheetRow": 99,
+            "qRawSha256": "c1789e176df6afa5d950a032d0150e6aea6b30e3a95327c412b55261f34aa6fc",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1603-shogun",
+              "sg2hist-ieyasu-1603-nijo"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1605-succession",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 107,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "c0e54ec086cf61ca9901fecd8ce219ce6aeee54a96314eaaeb645e7f1b079891",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1606-edo-rebuild",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 108,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "65f361f3471a2fa14a2a148c02e7b68725fec867e0118d252b71214155d1a88c",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1607-sunpu",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 109,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "c5286badf320959a9b81ecc3cadd00f02b1aae7d1bd462f3ac2fce90e5cd2aaa",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1611-hideyori-meeting",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 110,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "2417dd8cd91a948e33f4f4b85110b4195988cd052923661f7965ac3403d1fe2f",
+          "qSnapshot": null,
+          "qEvidence": null
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1614-hokoji",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1447,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "8aa184cd20e748e3a396323a9ba6656032495b1fd23dbc41f72a68adcf0b5265",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1614-hokoji",
+            "startYear": 1614,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "69f47f7c411c36fc82a508c06b17fa6fc12d4437e639fd84665b8599193b1472",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1447,
+            "historyId": "sg2hist-ieyasu-1614-hokoji",
+            "bSheetRow": 104,
+            "qRawSha256": "685a591465e40aa7420a7df677ebdf03374dfeb86ff0aea904e1c8cd31beb133",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1614-hokoji",
+              "sg2hist-ieyasu-1614-winter"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1614-winter",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1448,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "3838bdb7e1b61841009e7ead19f3949b7e7125d06f2da8ce796a19fc7e78aff1",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1614-winter",
+            "startYear": 1614,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "69f47f7c411c36fc82a508c06b17fa6fc12d4437e639fd84665b8599193b1472",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1448,
+            "historyId": "sg2hist-ieyasu-1614-winter",
+            "bSheetRow": 105,
+            "qRawSha256": "1a4d28df4597bd7c9b87fbcd9bf322f0536f8b173365eca4c8fad6a267606ec8",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1614-hokoji",
+              "sg2hist-ieyasu-1614-winter"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1615-summer",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1449,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "8cf0df342340c215aa91e69ce85e1c713f43123587d41aa54ea02acf49227532",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1615-summer",
+            "startYear": 1615,
+            "endYear": null,
+            "displayOrder": 10,
+            "tieStatus": null,
+            "yearGroupSha256": "f62278a67bf1682401643d260684e4664fc1d619fb55eac225b045a212208c48",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1449,
+            "historyId": "sg2hist-ieyasu-1615-summer",
+            "bSheetRow": 106,
+            "qRawSha256": "6fe3acd836901b2a19d94574e0af72f16e85f6185cf4cd49eecfd665a70d8bf1",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1615-summer",
+              "sg2hist-ieyasu-1615-buke-law",
+              "sg2hist-ieyasu-1615-kinchu-law"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1615-buke-law",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1450,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "09672a9c1ff38c85bca8cb06f972aa1b9742bea44ae9f9e6f2c168582616dc7e",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1615-buke-law",
+            "startYear": 1615,
+            "endYear": null,
+            "displayOrder": 20,
+            "tieStatus": null,
+            "yearGroupSha256": "f62278a67bf1682401643d260684e4664fc1d619fb55eac225b045a212208c48",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1450,
+            "historyId": "sg2hist-ieyasu-1615-buke-law",
+            "bSheetRow": 107,
+            "qRawSha256": "ce09ff5b3b25db7db0b7ccb4b486105726808f51fd066bf3dd809a2eefc67d8c",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1615-summer",
+              "sg2hist-ieyasu-1615-buke-law",
+              "sg2hist-ieyasu-1615-kinchu-law"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1615-kinchu-law",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 1451,
+          "version": "v2",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "2421ae73cc805fbd7f5c677e568b76c016351cd92b250bad7ebd56047ce80e19",
+          "qSnapshot": {
+            "schemaVersion": "walked.sengoku.chronology.snapshot.v1",
+            "personId": "sg-a7bb09927601",
+            "historyId": "sg2hist-ieyasu-1615-kinchu-law",
+            "startYear": 1615,
+            "endYear": null,
+            "displayOrder": 30,
+            "tieStatus": null,
+            "yearGroupSha256": "f62278a67bf1682401643d260684e4664fc1d619fb55eac225b045a212208c48",
+            "bReviewId": "②経歴S72-S109/B-reviewed",
+            "bRowsSha256": "776fc9834e89c9cc852389f37117dce32fb0ecd8306d7ea2a31172b6a568849b",
+            "bConstraintsSha256": "d9775b2c961b8a207aea11fd1a4e97df855dd6a11c35d6b4b04f44dcdb58b512"
+          },
+          "qEvidence": {
+            "sheetRow": 1451,
+            "historyId": "sg2hist-ieyasu-1615-kinchu-law",
+            "bSheetRow": 108,
+            "qRawSha256": "928cffbc301bf6ba7ee91fd1ef5352e4b643f14c9f9a3d56defd13cbba588b22",
+            "orderedHistoryIds": [
+              "sg2hist-ieyasu-1615-summer",
+              "sg2hist-ieyasu-1615-buke-law",
+              "sg2hist-ieyasu-1615-kinchu-law"
+            ]
+          }
+        },
+        {
+          "historyId": "sg2hist-ieyasu-1616-death",
+          "personId": "sg-a7bb09927601",
+          "sheetRow": 116,
+          "version": "v1",
+          "latest": true,
+          "user": "公開OK",
+          "sourceMatch": "一致",
+          "handoff": "C候補（別途公開承認）",
+          "textSha256": "a05a5f91ce74741a9cc308e137ed9dd7da99556bca61894e69213c5825b1a3cd",
+          "qSnapshot": null,
+          "qEvidence": null
+        }
+      ]
+    }
+  ]
 }
