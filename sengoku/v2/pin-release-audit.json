@@ -18,135 +18,149 @@
       "access": "green",
       "state": "published",
       "note": "Latest ⑥F1553=公開OK/P=一致/J=C候補 confirmed before C release."
-    }
-  ],
-  "awaitingNewUserApproval": [
+    },
     {
       "siteId": "sg2site-nobu-shitaragahara",
       "sourceRow": 6,
       "originalApprovalRow": 121,
-      "newApprovalRow": 1554,
+      "pinApprovalRow": 1554,
       "pinVersion": "v2",
       "access": "green",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-nobu-honnoji-old",
       "sourceRow": 8,
       "originalApprovalRow": 123,
-      "newApprovalRow": 1555,
+      "pinApprovalRow": 1555,
       "pinVersion": "v2",
       "access": "green",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-nobu-shotokuji-disputed",
       "sourceRow": 9,
       "originalApprovalRow": 124,
-      "newApprovalRow": 1556,
+      "pinApprovalRow": 1556,
       "pinVersion": "v2",
       "access": "green",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-nobu-anegawa",
       "sourceRow": 12,
       "originalApprovalRow": 127,
-      "newApprovalRow": 1557,
+      "pinApprovalRow": 1557,
       "pinVersion": "v2",
       "access": "yellow",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-nobu-enryakuji",
       "sourceRow": 13,
       "originalApprovalRow": 128,
-      "newApprovalRow": 1558,
+      "pinApprovalRow": 1558,
       "pinVersion": "v2",
       "access": "yellow",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-nobu-nagashima-castle",
       "sourceRow": 16,
       "originalApprovalRow": 131,
-      "newApprovalRow": 1559,
+      "pinApprovalRow": 1559,
       "pinVersion": "v2",
       "access": "yellow",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-nobu-azuchi-town",
       "sourceRow": 17,
       "originalApprovalRow": 132,
-      "newApprovalRow": 1560,
+      "pinApprovalRow": 1560,
       "pinVersion": "v2",
       "access": "green",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-nobu-ishiyama-honganji",
       "sourceRow": 19,
       "originalApprovalRow": 134,
-      "newApprovalRow": 1561,
+      "pinApprovalRow": 1561,
       "pinVersion": "v2",
       "access": "green",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-hideyoshi-bitchu-takamatsu",
       "sourceRow": 27,
       "originalApprovalRow": 142,
-      "newApprovalRow": 1562,
+      "pinApprovalRow": 1562,
       "pinVersion": "v2",
       "access": "green",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-hideyoshi-shizugatake",
       "sourceRow": 28,
       "originalApprovalRow": 143,
-      "newApprovalRow": 1563,
+      "pinApprovalRow": 1563,
       "pinVersion": "v2",
       "access": "yellow",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-hideyoshi-gakuden",
       "sourceRow": 30,
       "originalApprovalRow": 145,
-      "newApprovalRow": 1564,
+      "pinApprovalRow": 1564,
       "pinVersion": "v2",
       "access": "yellow",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-hideyoshi-juraku",
       "sourceRow": 31,
       "originalApprovalRow": 146,
-      "newApprovalRow": 1565,
+      "pinApprovalRow": 1565,
       "pinVersion": "v2",
       "access": "green",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-hideyoshi-fushimi-shigetsu",
       "sourceRow": 36,
       "originalApprovalRow": 151,
-      "newApprovalRow": 1566,
+      "pinApprovalRow": 1566,
       "pinVersion": "v2",
       "access": "yellow",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     },
     {
       "siteId": "sg2site-hideyoshi-fushimi-kohata",
       "sourceRow": 37,
       "originalApprovalRow": 152,
-      "newApprovalRow": 1567,
+      "pinApprovalRow": 1567,
       "pinVersion": "v2",
       "access": "yellow",
-      "state": "ユーザー確認待ち"
+      "state": "published"
     }
   ],
-  "processRule": "Every C release must fetch ③/④/⑥ live, reconcile ③G/⑥L/siteId against the published GitHub manifest, update this registry, and verify all unpinned in-scope sites are explicitly accounted for. Do not copy F/G decisions to new versions; never auto-release users' unapproved locations."
+  "awaitingNewUserApproval": [],
+  "processRule": "Every C release must fetch ③/④/⑥ live, reconcile ③G/⑥L/siteId against the published GitHub manifest, update this registry, and verify all unpinned in-scope sites are explicitly accounted for. Do not copy F/G decisions to new versions; never auto-release users' unapproved locations. Reclassify histories only from latest approved ⑥ rights, ② referenced site and ④ B=合格 direct relation. Preserve all existing stored cards and never revoke awarded histories.",
+  "hideyoshiAcquisitionCorrection": {
+    "historyId": "sg2hist-hideyoshi-kyushu-1587",
+    "historyRow": 53,
+    "relatedSiteId": "sg2site-hideyoshi-taiheiji",
+    "relationshipRow": 320,
+    "approvedHistoryRow": 1425,
+    "historyVersion": "v3",
+    "oldKind": "nonplace",
+    "newKind": "place",
+    "municipality": "46215",
+    "storyPlaceCountBefore": 25,
+    "storyPlaceCountAfter": 26,
+    "historyCountUnchanged": 38,
+    "existingCardsPreserved": true
+  }
 }
