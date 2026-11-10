@@ -10,6 +10,7 @@
   const PEOPLE=new Set(['sg-6eaf66c3d7c8','sg-f47391608dbb','sg-a7bb09927601']);
   // Immutable release manifest: ⑥ row, ③ row, [longitude,latitude], status, and reviewed date.
   const PIN_APPROVED_META=Object.freeze({
+  "sg2site-hideyoshi-taiheiji": [1553, 216, 130.305374, 31.824417, "green", "2026-11-08"],
   "sg2site-ieyasu-edo": [1546, 54, 139.7559375, 35.6861875, "yellow", "2026-11-10"],
   "sg2site-nobu-okehazama-tradition": [
     465,
