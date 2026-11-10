@@ -9,7 +9,7 @@ const placeCodes=[...new Set(approved.sites.filter(s=>approved.relations.some(r=
 async function mount(initial={}){
  const w=await app(initial);
  for(let i=0;i<100;i++){
-  if(w.document.getElementById('sengokuQuality').textContent.includes('公開人物 3人／承認経歴 108件'))return w;
+  if(w.document.getElementById('sengokuQuality').textContent.includes('公開人物 3人／承認経歴 108件')&&w.eval('sengokuChronology.size===3'))return w;
   await new Promise(r=>setTimeout(r,20));
  }
  const message=w.document.getElementById('sengokuQuality').textContent;
@@ -245,5 +245,63 @@ test('unconquered OR destination is not displayed, nearby unvisited regions neve
   assert.equal(date.includes('京都市左京区'),false);
   const other=rows.find(x=>x.querySelector('.sengoku-year').textContent.includes('未発見'));
   assert.equal(other,undefined);
+ }finally{w.close()}
+});
+
+test('isolated synthetic rank/tie view renders grouped histories without mutating actual 108 cards, places, titles or backup',async()=>{
+ const w=await mount({walked_municipal_v2:visit(placeCodes)});
+ try{
+  const personId=personIds[0],C=require('../sengoku-chronology.js');
+  const legacy=C.present(approved.histories.filter(h=>h.personId===personId),null);
+  const i=legacy.findIndex((h,j)=>legacy[j+1]?.eventYear===h.eventYear);
+  assert.ok(i>=0,'fixture requires same-year events');
+  const earlier=legacy[i],later=legacy[i+1];
+  const ordered=legacy.map(h=>h.historyId);
+  [ordered[i],ordered[i+1]]=[ordered[i+1],ordered[i]];
+  const group=personId+'|'+earlier.eventYear+'|20';
+  const ties=[
+   [later.historyId,{group,first:true,size:2}],
+   [earlier.historyId,{group,first:false,size:2}]
+  ];
+  const before=raw(w),previous=read(w);delete previous.createdAt;
+  w.eval('window.__realChronologyPreview=sengokuChronology.get('+JSON.stringify(personId)+')');
+  w.eval('sengokuChronology.set('+JSON.stringify(personId)+', {orderIds:'+JSON.stringify(ordered)+
+    ',tieById:new Map('+JSON.stringify(ties)+')})');
+  const detail=openSengoku(w,personId);
+  assert.equal(detail.querySelectorAll('.sengoku-era').length,32);
+  assert.equal(detail.querySelectorAll('.sengoku-chronology-tie').length,2);
+  assert.equal(detail.querySelectorAll('.sengoku-chronology-note').length,1);
+  assert.match(detail.textContent,/同年の出来事。前後関係は確定していません。/);
+  const rows=[...detail.querySelectorAll('.sengoku-era')];
+  assert.ok(rows[i].textContent.includes(later.title));
+  assert.ok(rows[i+1].textContent.includes(earlier.title));
+  assert.deepEqual(raw(w),before,'the test-only display order must not touch persisted records');
+  const afterBackup=read(w);delete afterBackup.createdAt;
+  assert.deepEqual(afterBackup,previous,'backup payload and story unlock remain the same (export timestamp excluded)');
+  w.eval('sengokuChronology.set('+JSON.stringify(personId)+',window.__realChronologyPreview);delete window.__realChronologyPreview');
+  const fallback=openSengoku(w,personId);
+  assert.equal(fallback.querySelectorAll('.sengoku-chronology-tie').length,0);
+  const restored=JSON.parse(w.eval('JSON.stringify(sengokuChronology.get('+JSON.stringify(personId)+').orderIds)'));
+  assert.ok(restored.includes(earlier.historyId));
+  assert.ok(restored.includes(later.historyId));
+  assert.equal(w.eval('sengokuChronology.size'),3);
+ }finally{w.close()}
+});
+
+test('real C chronology manifest renders approved rank order for all 3 people in the DOM',async()=>{
+ const w=await mount({walked_municipal_v2:visit(placeCodes)});
+ try{
+  const groups=[
+   [personIds[0],1570,['sg2hist-nobu-1570-kanegasaki','sg2hist-nobu-1570-anegawa']],
+   [personIds[1],1582,['sg2hist-hideyoshi-bitchu-siege-1582','sg2hist-hideyoshi-mori-peace-1582',
+     'sg2hist-hideyoshi-yamazaki-1582','sg2hist-hideyoshi-taiko-kenchi']],
+   [personIds[2],1615,['sg2hist-ieyasu-1615-summer','sg2hist-ieyasu-1615-buke-law','sg2hist-ieyasu-1615-kinchu-law']]
+  ];
+  for(const [id,year,expected] of groups){
+   const actual=JSON.parse(w.eval('JSON.stringify(SengokuChronology.present(approvedHistories('+JSON.stringify(id)+'),sengokuChronology.get('+JSON.stringify(id)+')).filter(h=>h.eventYear==='+year+').map(h=>h.historyId))'));
+   assert.deepEqual(actual,expected);
+  }
+  assert.equal(w.eval('sengokuChronology.size'),3);
+  assert.equal(countV2(w),108);
  }finally{w.close()}
 });

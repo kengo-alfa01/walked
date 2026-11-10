@@ -19,7 +19,7 @@ test('live ⑥ release has 3 people, 108 approved histories, 61 approved sites, 
  assert.equal([...index.histories.values()].filter(h=>h.kind==='nonplace').length,35);
  assert.equal(new Set(doc.relations.map(r=>r.siteId)).size,54);
  for(const [name,id] of Object.entries(ids)){const p=index.people.get(id);assert.ok(p,name);assert.equal(p.introduction.approval.user,'公開OK');assert.equal(p.story.approval.user,'公開OK');}
- assert.equal(index.people.get(ids.hideyoshi).story.approval.version,'v3');
+ assert.equal(index.people.get(ids.hideyoshi).story.approval.version,'v4');
 });
 test('⑥ history and site approvals all have fixed rows, IDs, versions and text fingerprints',()=>{
  const rows=new Set();
