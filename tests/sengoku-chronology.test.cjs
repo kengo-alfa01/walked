@@ -53,7 +53,7 @@ test('03 missing T same-year group or invalid T 0, fractional, string rejects',(
 test('04 confirmed causality and checked calendar date cannot be tied or reversed',()=>{
  const rows=[fixture('battle',1600,20),fixture('march',1600,10)];
  assert.doesNotThrow(()=>C.validateRows(rows,[constraint('march','battle')],hash));
- for(const n of [20,30]){const x=clone(rows);x[1].displayOrder=n;assert.throws(()=>C.validateRows(x,[constraint('march','battle')],hash),/逆転・同順位/);}
+ for(const n of [20,30]){const x=clone(rows);x[1].displayOrder=n;if(n===20)x.forEach(r=>r.tieStatus='unresolved');assert.throws(()=>C.validateRows(x,[constraint('march','battle')],hash),/逆転・同順位/);}
  const c=constraint('march','battle','confirmed-date');delete c.calendarBasis;
  assert.throws(()=>C.validateRows(rows,[c],hash),/旧暦・新暦/);
 });
@@ -67,6 +67,7 @@ test('05 death must follow own living activities; funeral/burial/reburial must f
  assert.doesNotThrow(()=>C.validateRows(rows,cs,hash));
  for(const id of ['activity','funeral','burial']){
   const x=clone(rows);x.find(r=>r.historyId===id).displayOrder=20;
+  x.filter(r=>r.startYear===1616&&r.displayOrder===20).forEach(r=>r.tieStatus='unresolved');
   assert.throws(()=>C.validateRows(x,cs,hash),/逆転・同順位/);
  }
 });
