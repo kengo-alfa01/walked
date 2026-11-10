@@ -223,3 +223,16 @@ test('⑥1546 Edo Castle information pin is yellow, separately approved and not 
  badColor.sites.find(x=>x.siteId===sid).pinReview.accessStatus='green';
  assert.throws(()=>verify(badColor),/座標・見学区分/);
 });
+
+// Regression: after updating site approval metadata (⑥1546, 47th pin), Safari must
+// not combine the previous cached JS with the new JSON. Version the browser JS URL.
+test('release-critical Sengoku scripts are cache-busted at the 47-pin Edo approval version',()=>{
+ const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
+ const token='edo47-20261110-1546';
+ assert.ok(html.includes('src="./sengoku-v2-core.js?v='+token+'"'));
+ assert.ok(html.includes('src="./sengoku-chronology.js?v='+token+'"'));
+ assert.ok(html.includes("fetch('./sengoku/v2/approved-three-person-staging.json',{cache:'no-store'})"));
+ assert.equal(doc.sites.filter(s=>s.publicPin).length,47);
+ const edo=doc.sites.find(s=>s.siteId==='sg2site-ieyasu-edo');
+ assert.equal(edo.pinApproval.sheetRow,1546);
+});
