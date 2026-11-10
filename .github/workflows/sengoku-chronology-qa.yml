@@ -6,6 +6,7 @@ on:
       - fix/ieyasu-edo-castle-approved-pin-20261110
       - hotfix/sengoku-stale-js-cache-edo47-20261110
       - fix/ios-sengoku-pin-tap-popup-20261110
+      - fix/sengoku-popup-controls-and-taiheiji-review-20261110
   workflow_dispatch:
 
 concurrency:
