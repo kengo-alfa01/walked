@@ -163,3 +163,9 @@ test('16 stricter chronology rejects changed current year, same-year group and o
  g.release.approvals[0].version='v1';
  assert.throws(()=>C.verifyRelease(g.release,g.catalog,hash,{allowTestFixtures:true}),/新規版/);
 });
+
+test('17 a ⑥ approval sheet row cannot be reused for two chronology histories',()=>{
+ const f=reviewAndApprove(base());
+ f.release.approvals[1].sheetRow=f.release.approvals[0].sheetRow;
+ assert.throws(()=>C.verifyRelease(f.release,f.catalog,hash,{allowTestFixtures:true}),/承認行の重複/);
+});
