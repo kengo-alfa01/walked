@@ -182,6 +182,10 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    }));
    console.log('REAL_WEBKIT_EDO_PIN_TAP_DIAGNOSTIC',JSON.stringify({target,tapped}));
    assert.match(tapped.popup,/江戸城跡/, 'a real iPhone tap must open the Edo Castle popup');
+   assert.equal(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none',
+     'Sengoku pin popup must hide background selector on iPhone');
+   assert.equal(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none',
+     'Sengoku pin popup must hide current location on iPhone');
    assert.ok(target.width<=16,'the visual pin dot must remain small');
    await page.evaluate(()=>{map.closePopup();});
    await page.waitForTimeout(340);
@@ -213,6 +217,10 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      'off-center finger tap must open the correct pin popup');
    await page.evaluate(()=>{map.closePopup();});
    await page.waitForTimeout(350);
+   assert.notEqual(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none',
+     'Sengoku popup close must restore background selector');
+   assert.notEqual(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none',
+     'Sengoku popup close must restore current location control');
 
    await page.evaluate(()=>{
      const marker=sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('岐阜城跡'));
@@ -310,6 +318,11 @@ test('PC desktop Chromium viewport: 47 pins, access categories, deduplication an
   assert.ok(values.find(v=>v.site==='岐阜城跡')?.popup.includes('一部立入制限'));
   await page.evaluate(()=>{sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('姫路城跡')).fire('click');});
   assert.match(await page.locator('.leaflet-popup-content').innerText(),/姫路城跡/);
+  assert.equal(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none');
+  assert.equal(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none');
+  await page.evaluate(()=>{map.closePopup();});
+  assert.notEqual(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none');
+  assert.notEqual(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none');
   const size=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
   assert.ok(size.scrollWidth<=size.width+2,'desktop horizontal overflow');
   assert.equal(await page.locator('#showUnknownPins').count(),0);
