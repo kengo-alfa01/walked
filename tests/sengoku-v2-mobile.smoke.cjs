@@ -142,6 +142,47 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    assert.deepEqual(pins.filter(p=>p.color==='#edb42d').map(p=>p.name).sort(),['岐阜城跡','安土城跡','姫路城跡','江戸城跡（家康入府の本拠）'].sort());
    assert.ok(pins.every(p=>p.popup.includes('現地の案内に従ってください。')));
    assert.equal(await page.locator('#showUnknownPins').count(),0);
+
+   // Real iPhone touch-event regression, not marker.fire('click') in test JavaScript.
+   await page.evaluate(()=>{
+     const marker=sengokuPins.getLayers().find(m=>
+       m.getPopup().getContent().textContent.includes('江戸城跡（家康入府の本拠）'));
+     window.__pinTapEvents=[];
+     marker.on('click',()=>window.__pinTapEvents.push('marker-click'));
+     map.on('click',()=>window.__pinTapEvents.push('map-click'));
+     map.on('popupopen',()=>window.__pinTapEvents.push('popup-open'));
+     map.on('popupclose',()=>window.__pinTapEvents.push('popup-close'));
+     map.setView(marker.getLatLng(),13,{animate:false});
+   });
+   await page.locator('#map').scrollIntoViewIfNeeded();
+   await page.waitForTimeout(300);
+   const target=await page.evaluate(()=>{
+     const marker=sengokuPins.getLayers().find(m=>
+       m.getPopup().getContent().textContent.includes('江戸城跡（家康入府の本拠）'));
+     map.invalidateSize();
+     const path=marker.getElement(),r=path?.getBoundingClientRect();
+     if(!r)throw Error('WebKit cannot get the marker SVG element');
+     const x=r.x+r.width/2,y=r.y+r.height/2;
+     const top=document.elementFromPoint(x,y);
+     path.addEventListener('touchstart',()=>window.__pinTapEvents.push('path-touchstart'));
+     path.addEventListener('click',()=>window.__pinTapEvents.push('path-click'));
+     return {x,y,width:r.width,height:r.height,tag:top?.tagName,
+       topClass:top?.getAttribute('class'),pathClass:path.getAttribute('class'),
+       parentPointer:getComputedStyle(map.getPane('sengoku-pins')).pointerEvents,
+       pathPointer:getComputedStyle(path).pointerEvents,
+       isTopPin:top===path,viewport:[innerWidth,innerHeight]};
+   });
+   await page.touchscreen.tap(target.x,target.y);
+   await page.waitForTimeout(300);
+   const tapped=await page.evaluate(()=>({
+     open:map._popup?.isOpen()||false,
+     popup:map._popup?.getContent()?.textContent?.slice(0,200)||'',
+     trace:window.__pinTapEvents,
+     popupNodes:document.querySelectorAll('.leaflet-popup-content').length
+   }));
+   console.log('REAL_WEBKIT_EDO_PIN_TAP_DIAGNOSTIC',JSON.stringify({target,tapped}));
+   assert.match(tapped.popup,/江戸城跡/, 'a real iPhone tap must open the Edo Castle popup');
+
    await page.evaluate(()=>{
      const marker=sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('岐阜城跡'));
      marker.fire('click');
