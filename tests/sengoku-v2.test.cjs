@@ -161,7 +161,7 @@ test('invalid municipality, indirect acquisition link, or exposed private coordi
 test('screens retain iPhone responsive UI and v2 integration JavaScript is syntactically valid',()=>{
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
  assert.match(html,/viewport-fit=cover/);assert.match(html,/overflow-wrap:anywhere/);
- assert.match(html,/<script src="\.\/sengoku-v2-core\.js"><\/script>/);
+ assert.match(html,/<script src="\.\/sengoku-v2-core\.js\?v=edo47-20261110-1546"><\/script>/);
  assert.doesNotMatch(html,/sengoku-v2-integration\.js|sengoku\/people\.json|sengoku\/cards\.json/);
 });
 test('all 108 approved histories are acquired once from 47 eligible municipalities; all biographies unlock',()=>{
@@ -222,4 +222,17 @@ test('⑥1546 Edo Castle information pin is yellow, separately approved and not 
  const badColor=clone(doc);
  badColor.sites.find(x=>x.siteId===sid).pinReview.accessStatus='green';
  assert.throws(()=>verify(badColor),/座標・見学区分/);
+});
+
+// Regression: after updating site approval metadata (⑥1546, 47th pin), Safari must
+// not combine the previous cached JS with the new JSON. Version the browser JS URL.
+test('release-critical Sengoku scripts are cache-busted at the 47-pin Edo approval version',()=>{
+ const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
+ const token='edo47-20261110-1546';
+ assert.ok(html.includes('src="./sengoku-v2-core.js?v='+token+'"'));
+ assert.ok(html.includes('src="./sengoku-chronology.js?v='+token+'"'));
+ assert.ok(html.includes("fetch('./sengoku/v2/approved-three-person-staging.json',{cache:'no-store'})"));
+ assert.equal(doc.sites.filter(s=>s.publicPin).length,47);
+ const edo=doc.sites.find(s=>s.siteId==='sg2site-ieyasu-edo');
+ assert.equal(edo.pinApproval.sheetRow,1546);
 });

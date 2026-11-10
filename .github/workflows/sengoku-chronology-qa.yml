@@ -4,6 +4,7 @@ on:
     branches:
       - feature/sengoku-chronology-gated-20261110
       - fix/ieyasu-edo-castle-approved-pin-20261110
+      - hotfix/sengoku-stale-js-cache-edo47-20261110
   workflow_dispatch:
 
 concurrency:
