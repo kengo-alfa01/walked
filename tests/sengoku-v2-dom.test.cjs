@@ -101,25 +101,25 @@ function capturePins(w){
   window.qaV2Markers.push(marker);return marker;
  };`);
 }
-test('46 approved pins are visible without visits and with old unknown-pin setting off or on',async()=>{
+test('47 approved pins are visible without visits and with old unknown-pin setting off or on',async()=>{
  for(const pref of ['false','true']){
   const w=await mount({walked_show_unknown_pins_v1:pref});
   try{
    capturePins(w);
    w.document.querySelector('[data-collection-mode="sengoku"]').click();
    const pins=w.qaV2Markers;
-   assert.equal(pins.length,46,'public pins should not depend on acquisition or legacy preference');
+   assert.equal(pins.length,47,'public pins should not depend on acquisition or legacy preference');
    assert.equal(w.eval('sengokuPinPane.style.zIndex'),'625','site markers must be above administrative area fills');
    assert.ok(pins.every(p=>p.opts.renderer?.options?.pane==='sengoku-pins'),'site pins need their own SVG pane');
-   assert.equal(new Set(pins.map(p=>p.popup.querySelector('h3').textContent)).size,46);
+   assert.equal(new Set(pins.map(p=>p.popup.querySelector('h3').textContent)).size,47);
    assert.equal(read(w).cards&&Object.keys(read(w).cards).length,0);
    assert.equal(w.document.getElementById('showUnknownPins'),null);
    assert.equal(w.localStorage.getItem('walked_show_unknown_pins_v1'),pref,'old preference left untouched');
    const colors=pins.reduce((a,p)=>(a[p.opts.fillColor]=(a[p.opts.fillColor]||0)+1,a),{});
-   assert.equal(colors['#21864e'],43);assert.equal(colors['#edb42d'],3);
+   assert.equal(colors['#21864e'],43);assert.equal(colors['#edb42d'],4);
    assert.equal(Object.keys(colors).length,2);
    const yellow=pins.filter(p=>p.opts.fillColor==='#edb42d').map(p=>p.popup.querySelector('h3').textContent).sort();
-   assert.deepEqual(Array.from(yellow),['安土城跡','姫路城跡','岐阜城跡'].sort());
+   assert.deepEqual(Array.from(yellow),['安土城跡','姫路城跡','岐阜城跡','江戸城跡（家康入府の本拠）'].sort());
    const gifu=pins.find(p=>p.popup.textContent.includes('岐阜城跡'));
    assert.ok(gifu.popup.textContent.includes('一部立入制限'));
    assert.ok(gifu.popup.textContent.includes('立入状況は変わる場合があります。現地の案内に従ってください。'));
@@ -162,7 +162,7 @@ test('selected person pins include undiscovered links, one pin per site ID, inde
  try{
   capturePins(w);
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
-  assert.equal(w.qaV2Markers.length,46);
+  assert.equal(w.qaV2Markers.length,47);
   for(const personId of personIds){
    openSengoku(w,personId);
    const expected=approved.sites.filter(s=>s.publicPin&&s.personIds.includes(personId));
@@ -303,5 +303,18 @@ test('real C chronology manifest renders approved rank order for all 3 people in
   }
   assert.equal(w.eval('sengokuChronology.size'),3);
   assert.equal(countV2(w),108);
+ }finally{w.close()}
+});
+
+test('new Edo Castle pin is labeled yellow and remains unlinked to any GPS arrival award',async()=>{
+ const w=await mount();try{
+  w.document.querySelector('[data-collection-mode="sengoku"]').click();
+  const match=w.qaV2Markers.find(x=>x.popup?.querySelector('h3')?.textContent==='江戸城跡（家康入府の本拠）');
+  assert.ok(match,'⑥1546 approved Edo site marker must be present');
+  assert.equal(match.opts.fillColor,'#edb42d');
+  assert.match(match.popup.textContent,/一部立入制限/);
+  assert.match(match.popup.textContent,/非公開/);
+  assert.ok(match.popup.textContent.includes('現地の案内'));
+  assert.equal(read(w).cards['sg2hist-ieyasu-1590-kanto'],undefined,'pin alone must not award cards');
  }finally{w.close()}
 });
