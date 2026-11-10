@@ -10,6 +10,48 @@ const base=process.env.WALKED_BASE_URL||'http://127.0.0.1:8765';
 const oldId='sg-card-legacy-for-qa';
 const old={at:'2000-01-01',siteId:'sg-site-odawara'};
 
+// This creates a *browser-memory-only* preview; it never writes a release JSON or approval.
+async function checkSyntheticChronologyScreen(page){
+ const before=await page.evaluate(()=>['walked_municipal_v2','walked_sengoku_cards_v1','walked_titles_v1'].map(k=>localStorage.getItem(k)));
+ const proof=await page.evaluate(()=>{
+  const person=sengokuPeople.find(p=>p.name==='織田信長');
+  if(!person||!countOwned(person.id))throw Error('preview person not acquired');
+  const legacy=SengokuChronology.present(approvedHistories(person.id),null);
+  const i=legacy.findIndex((h,j)=>legacy[j+1]?.eventYear===h.eventYear);
+  if(i<0)throw Error('no same-year preview candidate');
+  const idA=legacy[i].historyId,idB=legacy[i+1].historyId;
+  const ids=legacy.map(h=>h.historyId);
+  [ids[i],ids[i+1]]=[ids[i+1],ids[i]];
+  const group=person.id+'|'+legacy[i].eventYear+'|20';
+  sengokuChronology.set(person.id,{orderIds:ids,tieById:new Map([
+   [idB,{group,first:true,size:2}],[idA,{group,first:false,size:2}]
+  ])});
+  showSengokuPerson(person);
+  const root=document.getElementById('sengokuDetail');
+  const view={
+   count:root.querySelectorAll('.sengoku-era').length,
+   ties:root.querySelectorAll('.sengoku-chronology-tie').length,
+   notes:root.querySelectorAll('.sengoku-chronology-note').length,
+   noteText:root.querySelector('.sengoku-chronology-note')?.textContent,
+   firstRowGroup:root.querySelectorAll('.sengoku-era')[i].dataset.tieGroup,
+   viewportWidth:innerWidth,documentWidth:document.documentElement.scrollWidth
+  };
+  sengokuChronology.delete(person.id);showSengokuPerson(person);
+  view.reverted=root.querySelectorAll('.sengoku-chronology-note').length===0;
+  return view;
+ });
+ assert.equal(proof.count,32);
+ assert.equal(proof.ties,2);
+ assert.equal(proof.notes,1);
+ assert.match(proof.noteText,/前後関係は確定していません/);
+ assert.match(proof.firstRowGroup,/sg-/);
+ assert.equal(proof.reverted,true);
+ assert.ok(proof.documentWidth<=proof.viewportWidth+2,'synthetic tied group horizontal overflow');
+ const after=await page.evaluate(()=>['walked_municipal_v2','walked_sengoku_cards_v1','walked_titles_v1'].map(k=>localStorage.getItem(k)));
+ assert.deepEqual(after,before,'chronology preview must not mutate stored records');
+}
+
+
 test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup download/restore', {timeout:120000},async()=>{
  const browser=await webkit.launch({headless:true});
  let context=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:3,isMobile:true,hasTouch:true,acceptDownloads:true});
@@ -88,6 +130,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    assert.match(await narrative.innerText(),/比叡山延暦寺/);
    assert.ok(!(await narrative.innerText()).includes('1534年、織田信長は尾張の武将・織田信秀の子として生まれた。'),'locked biography should not be prematurely visible');
    assert.equal(await page.locator('.sengoku-profile').count(),0);
+   await checkSyntheticChronologyScreen(page);
    const size=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
    assert.ok(size.scrollWidth<=size.width+2,'horizontal overflow '+size.scrollWidth+' > '+size.width);
    const [download]=await Promise.all([page.waitForEvent('download'),page.locator('#save').click()]);
@@ -143,7 +186,7 @@ test('PC desktop Chromium viewport: 46 pins, access categories, deduplication an
   await page.route('**/prefectures.topojson',route=>route.abort());
  }
  try{
-  await routes();await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
+  await routes();await page.addInitScript(()=>localStorage.setItem('walked_municipal_v2',JSON.stringify({'25201':{first:'2022-01-02',last:'2022-01-02',source:'QA'}})));await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('公開人物 3人／承認経歴 108件'),null,{timeout:20000});
   await page.locator('[data-collection-mode="sengoku"]').click();
   const values=await page.evaluate(()=>sengokuPins.getLayers().map(m=>({
@@ -162,6 +205,7 @@ test('PC desktop Chromium viewport: 46 pins, access categories, deduplication an
   const size=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
   assert.ok(size.scrollWidth<=size.width+2,'desktop horizontal overflow');
   assert.equal(await page.locator('#showUnknownPins').count(),0);
+  await checkSyntheticChronologyScreen(page);
   console.log('PASS: Chromium desktop 46 unique public pins, yellow labels, safe popup',JSON.stringify(size));
  }finally{await context.close();await browser.close();}
 });
