@@ -263,7 +263,7 @@ test('isolated synthetic rank/tie view renders grouped histories without mutatin
    [later.historyId,{group,first:true,size:2}],
    [earlier.historyId,{group,first:false,size:2}]
   ];
-  const before=raw(w),previous=read(w);
+  const before=raw(w),previous=read(w);delete previous.createdAt;
   w.eval('sengokuChronology.set('+JSON.stringify(personId)+', {orderIds:'+JSON.stringify(ordered)+
     ',tieById:new Map('+JSON.stringify(ties)+')})');
   const detail=openSengoku(w,personId);
@@ -275,7 +275,8 @@ test('isolated synthetic rank/tie view renders grouped histories without mutatin
   assert.ok(rows[i].textContent.includes(later.title));
   assert.ok(rows[i+1].textContent.includes(earlier.title));
   assert.deepEqual(raw(w),before,'the test-only display order must not touch persisted records');
-  assert.deepEqual(read(w),previous,'backup JSON and story unlock remain bit-for-bit the same');
+  const afterBackup=read(w);delete afterBackup.createdAt;
+  assert.deepEqual(afterBackup,previous,'backup payload and story unlock remain the same (export timestamp excluded)');
   w.eval('sengokuChronology.delete('+JSON.stringify(personId)+')');
   const fallback=openSengoku(w,personId);
   assert.equal(fallback.querySelectorAll('.sengoku-chronology-tie').length,0);
