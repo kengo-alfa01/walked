@@ -308,6 +308,7 @@ test('real C chronology manifest renders approved rank order for all 3 people in
 
 test('new Edo Castle pin is labeled yellow and remains unlinked to any GPS arrival award',async()=>{
  const w=await mount();try{
+  capturePins(w);
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
   const match=w.qaV2Markers.find(x=>x.popup?.querySelector('h3')?.textContent==='江戸城跡（家康入府の本拠）');
   assert.ok(match,'⑥1546 approved Edo site marker must be present');
