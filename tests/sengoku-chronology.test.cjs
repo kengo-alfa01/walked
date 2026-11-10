@@ -105,13 +105,17 @@ test('10 fixtures never pass production gate; complete fixture release passes on
  const result=C.verifyRelease(f.release,f.catalog,hash,{allowTestFixtures:true});
  assert.deepEqual(result.orderIds,['test-a','test-b','test-c','test-d']);
 });
-test('11 legacy manifest absent/empty and real 108 baseline leave all cards, story and pins unchanged',()=>{
+test('11 all 3 approved chronology releases retain the 108 identity set; legacy fallback is always available',()=>{
  const root=path.join(__dirname,'..');
  const doc=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-three-person-staging.json'),'utf8'));
  const manifest=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/chronology-release.json'),'utf8'));
  const catalog={histories:new Map(doc.histories.map(h=>[h.historyId,h]))};
  assert.equal(doc.histories.length,108);assert.equal(doc.sites.filter(s=>s.publicPin).length,46);
- assert.equal(C.loadManifest(manifest,catalog,hash).size,0);
+ const verified=C.loadManifest(manifest,catalog,hash);
+ assert.equal(verified.size,3);
+ assert.equal(manifest.releases.reduce((n,r)=>n+r.histories.length,0),108);
+ assert.equal(manifest.releases.reduce((n,r)=>n+r.approvals.filter(a=>a.qSnapshot).length,0),55);
+ assert.equal(manifest.releases.reduce((n,r)=>n+r.constraints.length,0),31);
  for(const person of doc.people){
   const histories=doc.histories.filter(h=>h.personId===person.personId);
   const original=histories.map(h=>h.historyId).sort();
@@ -161,11 +165,55 @@ test('16 stricter chronology rejects changed current year, same-year group and o
  assert.throws(()=>C.verifyRelease(f.release,f.catalog,hash,{allowTestFixtures:true}));
  const g=reviewAndApprove(base());
  g.release.approvals[0].version='v1';
- assert.throws(()=>C.verifyRelease(g.release,g.catalog,hash,{allowTestFixtures:true}),/新規版/);
+ assert.throws(()=>C.verifyRelease(g.release,g.catalog,hash,{allowTestFixtures:true}),/新規版|旧版/);
 });
 
 test('17 a ⑥ approval sheet row cannot be reused for two chronology histories',()=>{
  const f=reviewAndApprove(base());
  f.release.approvals[1].sheetRow=f.release.approvals[0].sheetRow;
  assert.throws(()=>C.verifyRelease(f.release,f.catalog,hash,{allowTestFixtures:true}),/承認行の重複/);
+});
+
+test('18 real user-approved T chronology has the established 1570, 1582 and 1615 B order',()=>{
+ const root=path.join(__dirname,'..');
+ const doc=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-three-person-staging.json'),'utf8'));
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/chronology-release.json'),'utf8'));
+ const catalog={histories:new Map(doc.histories.map(h=>[h.historyId,h]))};
+ const view=C.loadManifest(manifest,catalog,hash);
+ const groups=[
+  ['sg-6eaf66c3d7c8',1570,['sg2hist-nobu-1570-kanegasaki','sg2hist-nobu-1570-anegawa']],
+  ['sg-f47391608dbb',1582,['sg2hist-hideyoshi-bitchu-siege-1582','sg2hist-hideyoshi-mori-peace-1582',
+    'sg2hist-hideyoshi-yamazaki-1582','sg2hist-hideyoshi-taiko-kenchi']],
+  ['sg-a7bb09927601',1615,['sg2hist-ieyasu-1615-summer','sg2hist-ieyasu-1615-buke-law','sg2hist-ieyasu-1615-kinchu-law']]
+ ];
+ for(const [person,year,expected] of groups){
+  const idList=view.get(person).orderIds.filter(id=>catalog.histories.get(id).eventYear===year);
+  assert.deepEqual(idList,expected);
+ }
+ for(const p of doc.people){
+  assert.equal(view.get(p.personId).orderIds.length,p.story.unlock.requiredHistoryCount);
+ }
+});
+test('19 actual approved chronology rejects tampered ⑥Q or B reviewer digest and keeps original manifest independent',()=>{
+ const root=path.join(__dirname,'..');
+ const doc=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-three-person-staging.json'),'utf8'));
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/chronology-release.json'),'utf8'));
+ const index={histories:new Map(doc.histories.map(h=>[h.historyId,h]))};
+ const tampered=clone(manifest);const v=tampered.releases[0].approvals.find(a=>a.qSnapshot);
+ v.qSnapshot.displayOrder=999;
+ assert.throws(()=>C.loadManifest(tampered,index,hash),/⑥Q順位スナップショット/);
+ const badB=clone(manifest);badB.releases[0].bReview.rowsSha256='0'.repeat(64);
+ assert.throws(()=>C.loadManifest(badB,index,hash),/B審査時/);
+ const badUser=clone(manifest);badUser.releases[0].approvals[0].user=''; 
+ assert.throws(()=>C.loadManifest(badUser,index,hash),/ユーザー承認/);
+ assert.equal(C.loadManifest(manifest,index,hash).size,3);
+});
+test('20 revised Hideyoshi history texts carry exact approved SHA while preserving card IDs and counts',()=>{
+ const root=path.join(__dirname,'..'),doc=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-three-person-staging.json'),'utf8'));
+ const ids=['sg2hist-hideyoshi-shikoku-1585','sg2hist-hideyoshi-katanagari-1588',
+  'sg2hist-hideyoshi-odawara-1590','sg2hist-hideyoshi-taiko-kenchi',
+  'sg2hist-hideyoshi-korea-1592','sg2hist-hideyoshi-korea-1597'];
+ for(const id of ids){const h=doc.histories.find(x=>x.historyId===id);assert.ok(h);assert.equal(h.approval.sha256,hash(h.text));}
+ assert.equal(doc.histories.find(x=>x.historyId==='sg2hist-hideyoshi-taiko-kenchi').eventYear,1582);
+ assert.equal(doc.people[1].story.unlock.requiredHistoryCount,38);
 });
