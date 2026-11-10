@@ -712,7 +712,9 @@ function showSengokuPerson(person){
  const introHead=document.createElement('h4');introHead.textContent='人物紹介';section.append(introHead);
  const intro=document.createElement('p');intro.textContent=approved.introduction.text;section.append(intro);
  const chronology=sengokuChronology.get(person.id);
- const histories=SengokuChronology.present(approvedHistories(person.id),chronology);
+ const histories=typeof SengokuChronology==='undefined'
+  ?approvedHistories(person.id).sort((a,b)=>(a.eventYear??9999)-(b.eventYear??9999)||a.historyId.localeCompare(b.historyId))
+  :SengokuChronology.present(approvedHistories(person.id),chronology);
  const progress=document.createElement('p');progress.className='small-note';
  progress.textContent='経歴カード '+countOwned(person.id)+' / '+histories.length+'枚';section.append(progress);
  const group=document.createElement('h4');group.textContent='生涯の歩み';section.append(group);
@@ -796,6 +798,32 @@ $('runSengokuTest').onclick=async()=>{
  }catch(e){result.textContent='確認できません：'+e.message+'（記録は変更していません）'}
  finally{button.disabled=false}
 };
+async function loadSengokuChronology(reviewed){
+ // Run after 108 legacy histories have been validated, rendered, and awarded.
+ try{
+  if(typeof SengokuChronology==='undefined')return;
+  const response=await fetch('./sengoku/v2/chronology-release.json',{cache:'no-cache'});
+  if(!response.ok||sengokuV2Catalog!==reviewed)return;
+  const manifest=await response.json();
+  if(manifest.schemaVersion!==SengokuChronology.SCHEMA||!Array.isArray(manifest.releases))return;
+  const next=new Map(),seen=new Set();
+  for(const release of manifest.releases){
+   if(!release||seen.has(release.personId)){console.warn('時系列版の人物IDが重複しています');return}
+   seen.add(release.personId);
+   try{
+    const one=SengokuChronology.loadManifest({
+     schemaVersion:SengokuChronology.SCHEMA,sourceSpreadsheetId:SengokuChronology.SOURCE,
+     releases:[release]},reviewed,PublicationRuntime.sha256);
+    next.set(release.personId,one.get(release.personId));
+   }catch(e){console.warn('時系列版は未承認または不整合。従来の表示順を維持:',e.message)}
+  }
+  if(sengokuV2Catalog!==reviewed)return;
+  sengokuChronology=next;
+  if(selectedSengokuPersonId&&next.has(selectedSengokuPersonId)){
+   showSengokuPerson({id:selectedSengokuPersonId});
+  }
+ }catch(e){console.warn('従来の表示順を維持:',e.message)}
+}
 async function loadSengoku(){
  try{
   const [r,areas]=await Promise.all([
@@ -806,31 +834,15 @@ async function loadSengoku(){
   const doc=await r.json(),registry=await areas.json();
   if(!Array.isArray(registry.areas))throw Error('自治体コード一覧が不正です');
   const reviewed=SengokuV2.validate(doc,new Set(registry.areas.map(a=>a.code)),PublicationRuntime.sha256);
-  // Absent/invalid new approvals never hide or rearrange the already published 108 histories.
-  // A malformed release for one person must not stop other legacy cards loading.
+  // Optional chronology must never delay legacy card/publication startup.
   sengokuChronology=new Map();
-  try{
-   const response=await fetch('./sengoku/v2/chronology-release.json',{cache:'no-cache'});
-   if(response.ok){
-    const manifest=await response.json();
-    if(manifest.schemaVersion===SengokuChronology.SCHEMA&&Array.isArray(manifest.releases)){
-     for(const release of manifest.releases){
-      try{
-       const one=SengokuChronology.loadManifest({
-        schemaVersion:SengokuChronology.SCHEMA,sourceSpreadsheetId:SengokuChronology.SOURCE,
-        releases:[release]},reviewed,PublicationRuntime.sha256);
-       sengokuChronology.set(release.personId,one.get(release.personId));
-      }catch(e){console.warn('時系列版は未承認または不整合。従来の表示順を維持:',e.message)}
-     }
-    }
-   }
-  }catch(e){console.warn('従来の表示順を維持:',e.message)}
   sengokuV2Catalog=reviewed;
   sengokuPeople=[...reviewed.people.values()].map(p=>({id:p.personId,name:p.name}));
   $('sengokuQuality').textContent='公開人物 '+reviewed.people.size+'人／承認経歴 '+reviewed.histories.size+
    '件／史跡 '+reviewed.sites.size+'件（新正本v2のみ）';
   refreshSengokuTestSites();renderSengoku();refreshSengokuPins();refreshSengokuAreaHighlights();
   try{reconcileSengokuVisits()}catch(e){status('経歴カードの保存に失敗しました：'+e.message)}
+  void loadSengokuChronology(reviewed);
  }catch(e){
   sengokuV2Catalog=null;sengokuPeople=[];
   $('sengokuQuality').textContent='承認済み戦国v2データの読み込み失敗：'+e.message;
