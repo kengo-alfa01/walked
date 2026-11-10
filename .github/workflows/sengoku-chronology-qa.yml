@@ -1,0 +1,53 @@
+name: Sengoku chronology isolated branch QA
+on:
+  push:
+    branches:
+      - feature/sengoku-chronology-gated-20261110
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  chronology-and-existing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Chronology B and Q approval gate tests
+        run: node --test tests/sengoku-chronology.test.cjs
+      - name: Existing 108 histories and pin regression
+        run: node --test tests/sengoku-v2.test.cjs
+
+  browser-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install test-only dependencies
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 jsdom@26.1.0 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Install browsers
+        run: npx playwright install --with-deps webkit chromium
+      - name: Prepare municipality QA fixture
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: PC DOM, backup, regional encyclopedia and legacy tests
+        env:
+          WALKED_BROWSER_ASSETS: .qa-assets
+        run: node --test tests/*.test.cjs
+      - name: Mobile Safari WebKit and PC Chromium
+        env:
+          WALKED_BROWSER_ASSETS: .qa-assets
+          WALKED_BASE_URL: http://127.0.0.1:8765
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/walked-chronology-http.log 2>&1 &
+          sleep 2
+          node --test tests/sengoku-v2-mobile.smoke.cjs
