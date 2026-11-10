@@ -2955,7 +2955,8 @@
       "sourceIds": [
         "sg2src-ieyasu-archives-vassal",
         "sg2src-ieyasu-chiyoda-edo",
-        "sg2src-ieyasu-archives-chronology"
+        "sg2src-ieyasu-archives-chronology",
+        "sg2src-b-pin-ieyasu-edo-userplus-20261108"
       ],
       "sourceUrls": [
         "https://www.archives.go.jp/exhibition/digital/ieyasu/contents2_03/",
@@ -2963,11 +2964,11 @@
         "https://www.archives.go.jp/exhibition/digital/ieyasu/history.html"
       ],
       "approval": {
-        "sheetRow": 100,
-        "version": "v1",
+        "sheetRow": 1547,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
-        "rights": "自治体確認済・権利OK",
+        "rights": "地点確認済・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
         "sha256": "24015984d91abe3d691ec4f71d9d85552d382702159beec18bf8298be9780d13",
@@ -3205,7 +3206,8 @@
       "sourceIds": [
         "sg2src-ieyasu-tokyo-archive-edo1606",
         "sg2src-ieyasu-tokyo-library-edo1607",
-        "sg2src-ieyasu-chiyoda-edo"
+        "sg2src-ieyasu-chiyoda-edo",
+        "sg2src-b-pin-ieyasu-edo-userplus-20261108"
       ],
       "sourceUrls": [
         "https://www.soumu.metro.tokyo.lg.jp/01soumu-archives/06kanko_butsu/0601sisiko/0601kojo01",
@@ -3213,11 +3215,11 @@
         "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/kioku/edojo.html"
       ],
       "approval": {
-        "sheetRow": 108,
-        "version": "v1",
+        "sheetRow": 1548,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
-        "rights": "自治体確認済・権利OK",
+        "rights": "地点確認済・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
         "sha256": "65f361f3471a2fa14a2a148c02e7b68725fec867e0118d252b71214155d1a88c",
@@ -6738,18 +6740,24 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
-      "locationAccuracy": "市区町村確認・地点非公開",
+      "publicPin": true,
+      "point": [
+        139.7559375,
+        35.6861875
+      ],
+      "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-ieyasu-chiyoda-edo",
         "sg2src-ieyasu-archives-vassal",
-        "sg2src-b-edo-minenv-20261106"
+        "sg2src-b-edo-minenv-20261106",
+        "sg2src-b-pin-ieyasu-edo-userplus-20261108"
       ],
       "sourceUrls": [
         "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/kioku/edojo.html",
         "https://www.archives.go.jp/exhibition/digital/ieyasu/contents2_03/",
-        "https://www.env.go.jp/garden/kokyogaien/1_intro/his_01.html"
+        "https://www.env.go.jp/garden/kokyogaien/1_intro/his_01.html",
+        "https://www.kunaicho.go.jp/visit/higashigyoen/index.html",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/723"
       ],
       "approval": {
         "sheetRow": 169,
@@ -6763,6 +6771,35 @@
         "kind": "史跡",
         "personId": "sg-a7bb09927601",
         "sourceId": "sg2site-ieyasu-edo"
+      },
+      "pinApproval": {
+        "sheetRow": 1546,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "d9bd76d926749c0953979e2d29f6c9691112189667cfd005856c5f4ab89ef0f9",
+        "kind": "史跡",
+        "personId": "sg-a7bb09927601",
+        "sourceId": "sg2site-ieyasu-edo"
+      },
+      "pinReview": {
+        "sourceSheetRow": 54,
+        "decision": "可",
+        "locationKind": "江戸城旧本丸周辺の歴史地名代表点（ユーザー指定MQP4+F9。入口・家康の居室・初代天守の位置ではない）",
+        "accessStatus": "yellow",
+        "restriction": "皇居東御苑など旧江戸城の一部は一般公開されていますが、皇居管理区域には通常非公開の部分があります。地図上の代表ピンは入園門や道順を示しません。必ず宮内庁の公式案内と現地規制に従い、非公開区域に立ち入らないでください。ピンへの接近はカード獲得条件ではありません。",
+        "checkedAt": "2026-11-10",
+        "municipality": "東京都千代田区",
+        "officialInfoUrl": "https://www.kunaicho.go.jp/visit/higashigyoen/index.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000023600.html",
+        "positionSourceIds": [
+          "sg2src-ieyasu-chiyoda-edo",
+          "sg2src-b-edo-minenv-20261106",
+          "sg2src-b-pin-ieyasu-edo-userplus-20261108"
+        ]
       }
     },
     {

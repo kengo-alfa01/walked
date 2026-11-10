@@ -4028,8 +4028,8 @@
         {
           "historyId": "sg2hist-ieyasu-1590-kanto",
           "personId": "sg-a7bb09927601",
-          "sheetRow": 100,
-          "version": "v1",
+          "sheetRow": 1547,
+          "version": "v2",
           "latest": true,
           "user": "公開OK",
           "sourceMatch": "一致",
@@ -4216,8 +4216,8 @@
         {
           "historyId": "sg2hist-ieyasu-1606-edo-rebuild",
           "personId": "sg-a7bb09927601",
-          "sheetRow": 108,
-          "version": "v1",
+          "sheetRow": 1548,
+          "version": "v2",
           "latest": true,
           "user": "公開OK",
           "sourceMatch": "一致",

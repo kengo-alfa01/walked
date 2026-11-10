@@ -71,13 +71,13 @@ test('Honnoji old location cannot be confused with the modern location or expose
  assert.equal(linkedHistory(hid,'26104'),true);
  assert.equal(linkedHistory(hid,'26103'),false);
 });
-test('⑥ pin release has exactly 46 latest v2 site approvals and 15 municipality-only sites',()=>{
+test('⑥ pin release has exactly 47 latest v2 site approvals and 14 municipality-only sites',()=>{
  const pinned=doc.sites.filter(s=>s.publicPin),unmapped=doc.sites.filter(s=>!s.publicPin);
- assert.equal(pinned.length,46);assert.equal(unmapped.length,15);
- assert.deepEqual(pinned.map(s=>s.pinApproval.sheetRow).sort((a,b)=>a-b),Array.from({length:46},(_,i)=>i+465));
- assert.equal(new Set(pinned.map(s=>s.siteId)).size,46);
+ assert.equal(pinned.length,47);assert.equal(unmapped.length,14);
+ assert.deepEqual(pinned.map(s=>s.pinApproval.sheetRow).sort((a,b)=>a-b),[...Array.from({length:46},(_,i)=>i+465),1546]);
+ assert.equal(new Set(pinned.map(s=>s.siteId)).size,47);
  const colors=pinned.reduce((a,s)=>(a[s.pinReview.accessStatus]++,a),{green:0,yellow:0,red:0});
- assert.deepEqual(colors,{green:43,yellow:3,red:0});
+ assert.deepEqual(colors,{green:43,yellow:4,red:0});
  for(const site of pinned){
   assert.equal(site.pinApproval.version,'v2');assert.equal(site.pinApproval.sourceId,site.siteId);
   assert.equal(site.pinApproval.sha256,hash(site.description));
@@ -90,7 +90,7 @@ test('⑥ pin release has exactly 46 latest v2 site approvals and 15 municipalit
   assert.ok(site.municipalityCodes.length>0,'no-coordinate site must retain municipality awards');
  }
  assert.deepEqual(pinned.filter(s=>s.pinReview.accessStatus==='yellow').map(s=>s.siteId).sort(),[
-  'sg2site-hideyoshi-himeji','sg2site-nobu-azuchi','sg2site-nobu-gifu']);
+  'sg2site-hideyoshi-himeji','sg2site-ieyasu-edo','sg2site-nobu-azuchi','sg2site-nobu-gifu']);
 });
 test('B coordinates and approved version cannot be bypassed by old v1 text approval',()=>{
  const sample=doc.sites.find(s=>s.siteId==='sg2site-nobu-gifu');
@@ -187,4 +187,39 @@ test('approved history municipality label only uses actual visited OR places',()
  assert.deepEqual(V.earnedMunicipalities(index,born,visits,owned),[]);
  assert.deepEqual(V.earnedMunicipalities(index,hid,visits,{}),[]);
  assert.deepEqual(V.earnedMunicipalities(index,'sg2hist-unknown',visits,owned),[]);
+});
+
+test('⑥1546 Edo Castle information pin is yellow, separately approved and not an entrance or prerequisite',()=>{
+ const sid='sg2site-ieyasu-edo',s=index.sites.get(sid);
+ assert.equal(s.publicPin,true);
+ assert.deepEqual(s.point,[139.7559375,35.6861875]);
+ assert.equal(s.approval.version,'v1','preserve approved historical site text and legacy user approval');
+ assert.equal(s.pinApproval.version,'v2');
+ assert.equal(s.pinApproval.sheetRow,1546);
+ assert.equal(s.pinReview.sourceSheetRow,54);
+ assert.equal(s.pinReview.accessStatus,'yellow');
+ const details=V.pinDetails(s);
+ assert.equal(details.access.colorName,'黄');
+ assert.match(details.positionKind,/代表点/);
+ assert.match(details.restriction,/非公開/);
+ assert.match(details.restriction,/入園門/);
+ assert.match(details.restriction,/ピンへの接近はカード獲得条件ではありません/);
+ for(const [hid,row] of [['sg2hist-ieyasu-1590-kanto',1547],['sg2hist-ieyasu-1606-edo-rebuild',1548]]){
+  const h=index.histories.get(hid);
+  assert.equal(h.approval.sheetRow,row);
+  assert.equal(h.approval.version,'v2');
+  assert.equal(h.approval.rights,'地点確認済・権利OK');
+  assert.ok(index.linkSites.get(hid).has(sid));
+  const earned=V.award(index,{'13101':{first:'2026-11-10'}},{},[],'2026-11-10');
+  assert.ok(earned.records[hid],'municipality visit should grant history without entering closed area');
+ }
+ const bad=clone(doc);
+ bad.sites.find(x=>x.siteId===sid).pinApproval.sheetRow=169;
+ assert.throws(()=>verify(bad),/⑥の同じ承認行|位置版v2/);
+ const wrong=clone(doc);
+ wrong.sites.find(x=>x.siteId===sid).point[0]+=0.001;
+ assert.throws(()=>verify(wrong),/座標・見学区分/);
+ const badColor=clone(doc);
+ badColor.sites.find(x=>x.siteId===sid).pinReview.accessStatus='green';
+ assert.throws(()=>verify(badColor),/座標・見学区分/);
 });

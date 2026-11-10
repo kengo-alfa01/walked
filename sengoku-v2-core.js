@@ -10,6 +10,7 @@
   const PEOPLE=new Set(['sg-6eaf66c3d7c8','sg-f47391608dbb','sg-a7bb09927601']);
   // Immutable release manifest: ⑥ row, ③ row, [longitude,latitude], status, and reviewed date.
   const PIN_APPROVED_META=Object.freeze({
+  "sg2site-ieyasu-edo": [1546, 54, 139.7559375, 35.6861875, "yellow", "2026-11-10"],
   "sg2site-nobu-okehazama-tradition": [
     465,
     2,
@@ -463,7 +464,7 @@
       check(typeof h.title==='string'&&h.title&&typeof h.yearText==='string','経歴の年次・タイトルがありません');
       approval(h.approval,h.text,sha256,{kind:'経歴',personId:h.personId,sourceId:h.historyId});
       uniqueApproval(h.approval);
-      check((h.kind==='place'&&h.approval.rights==='自治体確認済・権利OK')||(h.kind==='nonplace'&&h.approval.rights==='位置不要・権利OK'),'経歴の場所区分と権利承認が一致しません');
+      check((h.kind==='place'&&['自治体確認済・権利OK','地点確認済・権利OK'].includes(h.approval.rights))||(h.kind==='nonplace'&&h.approval.rights==='位置不要・権利OK'),'経歴の場所区分と権利承認が一致しません');
       check(Array.isArray(h.sourceUrls)&&h.sourceUrls.every(x=>typeof x==='string'&&/^https:\/\//.test(x)),'経歴出典URL不正');
       historyMap.set(h.historyId,h);
     }

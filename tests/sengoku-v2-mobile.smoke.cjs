@@ -118,14 +118,14 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      point:[marker.getLatLng().lat,marker.getLatLng().lng],
      color:marker.options.fillColor,popup:marker.getPopup().getContent().textContent
    })));
-   assert.equal(pins.length,46,'all 46 site pins must be present even when histories are locked');
+   assert.equal(pins.length,47,'all 47 site pins must be present even when histories are locked');
    const pane=await page.evaluate(()=>({z:getComputedStyle(map.getPane('sengoku-pins')).zIndex,overlay:getComputedStyle(map.getPane('overlayPane')).zIndex,renderer:sengokuPins.getLayers()[0]?.options.renderer?.options.pane}));
    assert.equal(pane.z,'625','historic pins must be in a high pane');
    assert.ok(Number(pane.z)>Number(pane.overlay),'pins must overlay administrative polygons');
    assert.equal(pane.renderer,'sengoku-pins','pins must not use administrative Canvas renderer');
-   assert.equal(new Set(pins.map(p=>p.name)).size,46);
+   assert.equal(new Set(pins.map(p=>p.name)).size,47);
    assert.equal(pins.filter(p=>p.color==='#21864e').length,43);
-   assert.deepEqual(pins.filter(p=>p.color==='#edb42d').map(p=>p.name).sort(),['岐阜城跡','安土城跡','姫路城跡'].sort());
+   assert.deepEqual(pins.filter(p=>p.color==='#edb42d').map(p=>p.name).sort(),['岐阜城跡','安土城跡','姫路城跡','江戸城跡（家康入府の本拠）'].sort());
    assert.ok(pins.every(p=>p.popup.includes('現地の案内に従ってください。')));
    assert.equal(await page.locator('#showUnknownPins').count(),0);
    await page.evaluate(()=>{
@@ -196,7 +196,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
  }
 });
 
-test('PC desktop Chromium viewport: 46 pins, access categories, deduplication and popup UI',{timeout:120000},async()=>{
+test('PC desktop Chromium viewport: 47 pins, access categories, deduplication and popup UI',{timeout:120000},async()=>{
  const browser=await chromium.launch({headless:true});
  const context=await browser.newContext({viewport:{width:1366,height:850},deviceScaleFactor:1});
  const page=await context.newPage();
@@ -216,9 +216,9 @@ test('PC desktop Chromium viewport: 46 pins, access categories, deduplication an
    point:[m.getLatLng().lat,m.getLatLng().lng],
    popup:m.getPopup().getContent().textContent
   })));
-  assert.equal(values.length,46);assert.equal(new Set(values.map(v=>v.site)).size,46);
+  assert.equal(values.length,47);assert.equal(new Set(values.map(v=>v.site)).size,47);
   assert.equal(values.filter(v=>v.color==='#21864e').length,43);
-  assert.equal(values.filter(v=>v.color==='#edb42d').length,3);
+  assert.equal(values.filter(v=>v.color==='#edb42d').length,4);
   assert.ok(values.find(v=>v.site==='姫路城跡')?.popup.includes('保存修理'));
   assert.ok(values.find(v=>v.site==='安土城跡')?.popup.includes('三重塔'));
   assert.ok(values.find(v=>v.site==='岐阜城跡')?.popup.includes('一部立入制限'));
@@ -228,7 +228,7 @@ test('PC desktop Chromium viewport: 46 pins, access categories, deduplication an
   assert.ok(size.scrollWidth<=size.width+2,'desktop horizontal overflow');
   assert.equal(await page.locator('#showUnknownPins').count(),0);
   await checkSyntheticChronologyScreen(page);
-  console.log('PASS: Chromium desktop 46 unique public pins, yellow labels, safe popup',JSON.stringify(size));
+  console.log('PASS: Chromium desktop 47 unique public pins, yellow labels, safe popup',JSON.stringify(size));
  }finally{await context.close();await browser.close();}
 });
 

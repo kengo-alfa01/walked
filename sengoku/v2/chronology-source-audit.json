@@ -1100,8 +1100,8 @@
       "historyId": "sg2hist-ieyasu-1590-kanto",
       "personId": "sg-a7bb09927601",
       "historyRow": 93,
-      "approvalRow": 100,
-      "version": "v1",
+      "approvalRow": 1547,
+      "version": "v2",
       "F": "公開OK",
       "P": "一致",
       "T": null,
@@ -1196,8 +1196,8 @@
       "historyId": "sg2hist-ieyasu-1606-edo-rebuild",
       "personId": "sg-a7bb09927601",
       "historyRow": 101,
-      "approvalRow": 108,
-      "version": "v1",
+      "approvalRow": 1548,
+      "version": "v2",
       "F": "公開OK",
       "P": "一致",
       "T": null,
@@ -1299,6 +1299,24 @@
       "T": null,
       "bTextSha256": "71465b1847b3fbf928135c1ad3e06ea6122277aa1ece34715a83548d7c508eda",
       "qRawSha256": null
+    }
+  ],
+  "sitePinUpdates": [
+    {
+      "siteId": "sg2site-ieyasu-edo",
+      "sourceSheetRow": 54,
+      "approvalRow": 1546,
+      "version": "v2",
+      "color": "yellow",
+      "point": [
+        139.7559375,
+        35.6861875
+      ],
+      "description": "皇居東御苑等の公開区画と皇居内の非公開区域が混在。ユーザー指定MQP4+F9は歴史地名の代表点であり入口・通行ルート・当時の居所を示さない。",
+      "approvedHistoryRows": [
+        1547,
+        1548
+      ]
     }
   ]
 }
