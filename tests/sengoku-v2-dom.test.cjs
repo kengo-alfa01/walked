@@ -52,8 +52,8 @@ test('past Enryakuji 26103 town visit retroactively awards Nobunaga card and non
 test('all eligible municipalities award 108 v2 histories, 3 complete biographies; hide old text, suppress duplicate notification',async()=>{
  const w=await mount({walked_municipal_v2:visit(placeCodes)});
  try{
-  const b=read(w);assert.equal(countV2(w),108);assert.equal(placeCodes.length,41);
-  assert.equal(Object.keys(b.visited).length,41);
+  const b=read(w);assert.equal(countV2(w),108);assert.equal(placeCodes.length,42);
+  assert.equal(Object.keys(b.visited).length,42);
   for(const person of approved.people){
    const detail=openSengoku(w,person.personId);
    assert.ok(detail.textContent.includes(person.story.text),person.name+' story remains locked');
@@ -101,25 +101,27 @@ function capturePins(w){
   window.qaV2Markers.push(marker);return marker;
  };`);
 }
-test('48 approved pins are visible without visits and with old unknown-pin setting off or on',async()=>{
+test('62 approved pins are visible without visits and with old unknown-pin setting off or on',async()=>{
  for(const pref of ['false','true']){
   const w=await mount({walked_show_unknown_pins_v1:pref});
   try{
    capturePins(w);
    w.document.querySelector('[data-collection-mode="sengoku"]').click();
    const pins=w.qaV2Markers;
-   assert.equal(pins.length,48,'public pins should not depend on acquisition or legacy preference');
+   assert.equal(pins.length,62,'public pins should not depend on acquisition or legacy preference');
    assert.equal(w.eval('sengokuPinPane.style.zIndex'),'625','site markers must be above administrative area fills');
    assert.ok(pins.every(p=>p.opts.renderer?.options?.pane==='sengoku-pins'),'site pins need their own SVG pane');
-   assert.equal(new Set(pins.map(p=>p.popup.querySelector('h3').textContent)).size,48);
+   assert.equal(new Set(pins.map(p=>p.popup.querySelector('h3').textContent)).size,62);
    assert.equal(read(w).cards&&Object.keys(read(w).cards).length,0);
    assert.equal(w.document.getElementById('showUnknownPins'),null);
    assert.equal(w.localStorage.getItem('walked_show_unknown_pins_v1'),pref,'old preference left untouched');
    const colors=pins.reduce((a,p)=>(a[p.opts.fillColor]=(a[p.opts.fillColor]||0)+1,a),{});
-   assert.equal(colors['#21864e'],44);assert.equal(colors['#edb42d'],4);
+   assert.equal(colors['#21864e'],51);assert.equal(colors['#edb42d'],11);
    assert.equal(Object.keys(colors).length,2);
    const yellow=pins.filter(p=>p.opts.fillColor==='#edb42d').map(p=>p.popup.querySelector('h3').textContent).sort();
-   assert.deepEqual(Array.from(yellow),['安土城跡','姫路城跡','岐阜城跡','江戸城跡（家康入府の本拠）'].sort());
+   assert.deepEqual(Array.from(yellow),['安土城跡','姫路城跡','岐阜城跡','江戸城跡（家康入府の本拠）',
+ '姉川古戦場','比叡山延暦寺（焼き討ち関連）','長島城跡（旧城郭範囲）',
+ '賤ヶ岳古戦場','楽田城跡（秀吉の陣）','伏見指月城跡','伏見木幡山城跡'].sort());
    const gifu=pins.find(p=>p.popup.textContent.includes('岐阜城跡'));
    assert.ok(gifu.popup.textContent.includes('一部立入制限'));
    assert.ok(gifu.popup.textContent.includes('立入状況は変わる場合があります。現地の案内に従ってください。'));
@@ -130,7 +132,7 @@ test('48 approved pins are visible without visits and with old unknown-pin setti
  }
 });
 
-test('selected commander is visibly marked and only no-pin approved acquisition areas pulse',async()=>{
+test('selected commander remains visible when all approved sites have pins and no area pulse is needed',async()=>{
  const w=await mount({walked_municipal_v2:visit(['23229','25201','26103','23219','26109'])});
  try{
   const before=raw(w);
@@ -140,14 +142,12 @@ test('selected commander is visibly marked and only no-pin approved acquisition 
   assert.equal(selected.getAttribute('aria-pressed'),'true');
   assert.match(w.document.getElementById('sengokuSelectedName').textContent,/選択中：織田信長/);
   const codes=JSON.parse(w.eval('JSON.stringify([...unpinnedMunicipalityCodes(selectedSengokuPersonId)].sort())'));
-  assert.deepEqual(codes,['23203','23221','24205','25201','25203','25204','26103','26104','27128']);
+  assert.deepEqual(codes,[],'no city-wide pulse is needed when all 62 sites have a published pin');
   assert.equal(w.eval('sengokuAreaPane.style.zIndex'),'550');
   assert.equal(w.eval('sengokuAreaRenderer.options.pane'),'sengoku-areas');
-  assert.match(detail.textContent,/ピンのない史跡の地域を地図で見る/);
+  assert.doesNotMatch(detail.textContent,/ピンのない史跡の地域を地図で見る/);
   const goto=[...detail.querySelectorAll('button')].find(x=>x.textContent.includes('地図で見る'));
-  assert.ok(goto);goto.click();
-  assert.equal(w.eval('state.mode'),'municipal');
-  assert.deepEqual(JSON.parse(w.eval('JSON.stringify([...unpinnedMunicipalityCodes(selectedSengokuPersonId)].sort())')),codes);
+  assert.equal(goto,undefined,'no invisible/pending pin destination is advertised');
   assert.deepEqual(raw(w),before,'person selection and area focus must not modify stored visits or cards');
   const reset=[...detail.querySelectorAll('button')].find(x=>x.textContent.includes('選択を解除'));
   assert.ok(reset);reset.click();
@@ -162,7 +162,7 @@ test('selected person pins include undiscovered links, one pin per site ID, inde
  try{
   capturePins(w);
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
-  assert.equal(w.qaV2Markers.length,48);
+  assert.equal(w.qaV2Markers.length,62);
   for(const personId of personIds){
    openSengoku(w,personId);
    const expected=approved.sites.filter(s=>s.publicPin&&s.personIds.includes(personId));
