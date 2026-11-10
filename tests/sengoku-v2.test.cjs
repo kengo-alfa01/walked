@@ -12,12 +12,12 @@ const ids={nobu:'sg-6eaf66c3d7c8',hideyoshi:'sg-f47391608dbb',ieyasu:'sg-a7bb099
 const clone=v=>structuredClone(v);
 const verify=d=>V.validate(d,known,hash);
 function linkedHistory(historyId,municipalCode){return [...index.codes.get(historyId)||[]].includes(municipalCode)}
-test('live ⑥ release has 3 people, 108 approved histories, 62 approved sites, 77 direct links',()=>{
+test('live ⑥ release has 3 people, 108 approved histories, 62 approved sites, 78 direct links',()=>{
  assert.equal(index.people.size,3);assert.equal(index.histories.size,108);
- assert.equal(index.sites.size,62);assert.equal(doc.relations.length,77);
- assert.equal([...index.histories.values()].filter(h=>h.kind==='place').length,73);
- assert.equal([...index.histories.values()].filter(h=>h.kind==='nonplace').length,35);
- assert.equal(new Set(doc.relations.map(r=>r.siteId)).size,54);
+ assert.equal(index.sites.size,62);assert.equal(doc.relations.length,78);
+ assert.equal([...index.histories.values()].filter(h=>h.kind==='place').length,74);
+ assert.equal([...index.histories.values()].filter(h=>h.kind==='nonplace').length,34);
+ assert.equal(new Set(doc.relations.map(r=>r.siteId)).size,55);
  for(const [name,id] of Object.entries(ids)){const p=index.people.get(id);assert.ok(p,name);assert.equal(p.introduction.approval.user,'公開OK');assert.equal(p.story.approval.user,'公開OK');}
  assert.equal(index.people.get(ids.hideyoshi).story.approval.version,'v4');
 });
@@ -34,16 +34,16 @@ test('⑥ old Hideyoshi v2, unapproved user record, modified copy, and mismatche
  const c=clone(doc);c.histories[0].text+='差替';assert.throws(()=>verify(c),/ハッシュ/);
  const d=clone(doc);d.sites[0].approval.sourceId='sg2site-other';assert.throws(()=>verify(d),/元ID/);
 });
-test('all four precise links types separate 7 indirect relations from the 77 release links',()=>{
+test('all four precise links types separate 7 indirect relations from the 78 release links',()=>{
  const classes={};for(const r of doc.relations)classes[r.classification]=(classes[r.classification]||0)+1;
- assert.equal(Object.values(classes).reduce((a,b)=>a+b,0),77);
+ assert.equal(Object.values(classes).reduce((a,b)=>a+b,0),78);
  assert.ok(doc.relations.every(r=>r.bStatus==='合格'&&r.linkDecision==='関係上対象'));
  const x=clone(doc);x.relations[0].classification='間接関連';assert.throws(()=>verify(x),/関連審査/);
 });
 test('Enryakuji OR 25201/26103: either and both award exactly one v2 history card',()=>{
  const hid='sg2hist-nobu-1571-enryakuji',sid='sg2site-nobu-enryakuji';
  assert.deepEqual(index.sites.get(sid).codes,['25201','26103']);
- assert.equal(index.sites.get(sid).point,null);
+ assert.deepEqual(index.sites.get(sid).point,[135.84096,35.070503]);
  for(const key of ['25201','26103','n:26103:001']){
   const a=V.award(index,{[key]:{}},{},[],'2026-11-07').records;
   assert.ok(a[hid]);const b=V.award(index,{'25201':{},'26103':{}},a,[],'2026-11-08').records;
@@ -65,19 +65,19 @@ test('Sekigahara two distinct camps award a single approved event history',()=>{
  const a=V.award(index,{'21362':{}},{},[],'2026-11-07');assert.ok(a.records[hid]);
  assert.equal(V.award(index,{'21362':{}},a.records,[]).added.includes(hid),false);
 });
-test('Honnoji old location cannot be confused with the modern location or expose a nonpublic pin',()=>{
+test('Honnoji old memorial public pin is distinct from the modern temple',()=>{
  const sid='sg2site-nobu-honnoji-old',hid='sg2hist-nobu-1582-honnoji';
- assert.equal(index.sites.get(sid).publicPin,false);assert.equal(index.sites.get(sid).point,null);
+ assert.equal(index.sites.get(sid).publicPin,true);assert.deepEqual(index.sites.get(sid).point,[135.7536875,35.0059375]);
  assert.equal(linkedHistory(hid,'26104'),true);
  assert.equal(linkedHistory(hid,'26103'),false);
 });
-test('⑥ pin release has exactly 48 latest v2 site approvals and 14 municipality-only sites',()=>{
+test('⑥ pin release has exactly 62 latest v2 site approvals and no municipality-only sites',()=>{
  const pinned=doc.sites.filter(s=>s.publicPin),unmapped=doc.sites.filter(s=>!s.publicPin);
- assert.equal(pinned.length,48);assert.equal(unmapped.length,14);
- assert.deepEqual(pinned.map(s=>s.pinApproval.sheetRow).sort((a,b)=>a-b),[...Array.from({length:46},(_,i)=>i+465),1546,1553]);
- assert.equal(new Set(pinned.map(s=>s.siteId)).size,48);
+ assert.equal(pinned.length,62);assert.equal(unmapped.length,0);
+ assert.deepEqual(pinned.map(s=>s.pinApproval.sheetRow).sort((a,b)=>a-b),[...Array.from({length:46},(_,i)=>i+465),1546,1553,...Array.from({length:14},(_,i)=>i+1554)]);
+ assert.equal(new Set(pinned.map(s=>s.siteId)).size,62);
  const colors=pinned.reduce((a,s)=>(a[s.pinReview.accessStatus]++,a),{green:0,yellow:0,red:0});
- assert.deepEqual(colors,{green:44,yellow:4,red:0});
+ assert.deepEqual(colors,{green:51,yellow:11,red:0});
  for(const site of pinned){
   assert.equal(site.pinApproval.version,'v2');assert.equal(site.pinApproval.sourceId,site.siteId);
   assert.equal(site.pinApproval.sha256,hash(site.description));
@@ -90,7 +90,10 @@ test('⑥ pin release has exactly 48 latest v2 site approvals and 14 municipalit
   assert.ok(site.municipalityCodes.length>0,'no-coordinate site must retain municipality awards');
  }
  assert.deepEqual(pinned.filter(s=>s.pinReview.accessStatus==='yellow').map(s=>s.siteId).sort(),[
-  'sg2site-hideyoshi-himeji','sg2site-ieyasu-edo','sg2site-nobu-azuchi','sg2site-nobu-gifu']);
+  'sg2site-hideyoshi-himeji','sg2site-ieyasu-edo','sg2site-nobu-azuchi','sg2site-nobu-gifu',
+ 'sg2site-nobu-anegawa','sg2site-nobu-enryakuji','sg2site-nobu-nagashima-castle',
+ 'sg2site-hideyoshi-shizugatake','sg2site-hideyoshi-gakuden',
+ 'sg2site-hideyoshi-fushimi-shigetsu','sg2site-hideyoshi-fushimi-kohata'].sort());
 });
 test('B coordinates and approved version cannot be bypassed by old v1 text approval',()=>{
  const sample=doc.sites.find(s=>s.siteId==='sg2site-nobu-gifu');
@@ -155,21 +158,21 @@ test('legacy saved awards and backed-up v3 data are not changed or deleted by ne
 test('invalid municipality, indirect acquisition link, or exposed private coordinates fail closed',()=>{
  const badCode=clone(doc);badCode.sites[0].municipalityCodes=['99999'];assert.throws(()=>verify(badCode),/未収録の自治体コード/);
  const badRelation=clone(doc);badRelation.relations[0].linkDecision='関係上対象外';assert.throws(()=>verify(badRelation),/関連審査/);
- const badPin=clone(doc);const privateSite=badPin.sites.find(s=>!s.publicPin);
- privateSite.point=[139.4,35.6];assert.throws(()=>verify(badPin),/未承認または範囲外のピン/);
+ const badPin=clone(doc);const exposed=badPin.sites.find(s=>s.siteId==='sg2site-nobu-honnoji-old');
+ exposed.publicPin=false;assert.throws(()=>verify(badPin),/未承認または範囲外のピン/);
 });
 test('screens retain iPhone responsive UI and v2 integration JavaScript is syntactically valid',()=>{
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
  assert.match(html,/viewport-fit=cover/);assert.match(html,/overflow-wrap:anywhere/);
- assert.match(html,/<script src="\.\/sengoku-v2-core\.js\?v=taiheiji48-20261110-1553"><\/script>/);
+ assert.match(html,/<script src="\.\/sengoku-v2-core\.js\?v=sengoku62-20261110"><\/script>/);
  assert.doesNotMatch(html,/sengoku-v2-integration\.js|sengoku\/people\.json|sengoku\/cards\.json/);
 });
-test('all 108 approved histories are acquired once from 41 eligible municipalities; all biographies unlock',()=>{
+test('all 108 approved histories are acquired once from 42 eligible municipalities; all biographies unlock',()=>{
  const codes=[...new Set(doc.sites.filter(s=>doc.relations.some(r=>r.siteId===s.siteId)).flatMap(s=>s.municipalityCodes))];
  const visited=Object.fromEntries(codes.map(c=>[c,{first:'2020-01-01'}]));
  const old={'sg-card-0001':{at:'2001-01-01',siteId:'sg-site-odawara'}};
  const a=V.award(index,visited,old,[],'2026-11-07');
- assert.equal(a.added.length,108);assert.equal(codes.length,41);
+ assert.equal(a.added.length,108);assert.equal(codes.length,42);
  for(const p of doc.people)assert.equal(V.canUnlockStory(index,p.personId,a.records,hash),true);
  assert.equal(V.award(index,visited,a.records,[]).added.length,0);
  const backup=W.backup(visited,a.records,{awards:{},selected:null});
@@ -226,13 +229,13 @@ test('⑥1546 Edo Castle information pin is yellow, separately approved and not 
 
 // Regression: after updating site approval metadata (⑥1546, 47th pin), Safari must
 // not combine the previous cached JS with the new JSON. Version the browser JS URL.
-test('release-critical Sengoku scripts are cache-busted at the 48-pin Taiheiji approval version',()=>{
+test('release-critical Sengoku scripts are cache-busted at the 62-pin B/⑥ approval version',()=>{
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
- const token='taiheiji48-20261110-1553';
+ const token='sengoku62-20261110';
  assert.ok(html.includes('src="./sengoku-v2-core.js?v='+token+'"'));
  assert.ok(html.includes('src="./sengoku-chronology.js?v='+token+'"'));
  assert.ok(html.includes("fetch('./sengoku/v2/approved-three-person-staging.json',{cache:'no-store'})"));
- assert.equal(doc.sites.filter(s=>s.publicPin).length,48);
+ assert.equal(doc.sites.filter(s=>s.publicPin).length,62);
  const edo=doc.sites.find(s=>s.siteId==='sg2site-ieyasu-edo');
  assert.equal(edo.pinApproval.sheetRow,1546);
 });
@@ -249,10 +252,18 @@ test('⑥1553 Taiheiji is separately approved for Hideyoshi 1587 Kyushu history'
  assert.equal(site.pinApproval.sha256,hash(site.description));
  assert.match(V.pinDetails(site).restriction,/CODH作成/);
  assert.match(V.pinDetails(site).restriction,/泰平寺公園|寺院内部/);
- assert.equal(index.histories.get(h).kind,'nonplace','existing approved history kind cannot be changed by a pin update');
- assert.equal(index.linkSites.get(h)?.has(id)||false,false,'location relation is deferred pending history-kind approval');
+ assert.equal(index.histories.get(h).kind,'place','latest ⑥1425 approved v3 overrides obsolete nonplace');
+ assert.equal(index.histories.get(h).approval.sheetRow,1425);
+ assert.equal(index.histories.get(h).approval.version,'v3');
+ assert.equal(index.histories.get(h).approval.rights,'地点確認済・権利OK');
+ assert.equal(doc.people.find(p=>p.personId===ids.hideyoshi).story.unlock.requiredPlaceHistoryCount,26);
+ assert.ok(index.linkSites.get(h).has(id),'④320 approved direct association must apply');
  const acquired=V.award(index,{'46215':{first:'2026-11-10'}},{},[],'2026-11-10');
- assert.equal(acquired.records[h],undefined,'pin update may not rewrite history acquisition conditions');
+ assert.ok(acquired.records[h],'visiting 薩摩川内市 awards approved Hideyoshi event');
+ assert.equal(acquired.records[h].siteId,id);
+ assert.equal(V.award(index,{'46215':{}},acquired.records,[]).added.includes(h),false);
+ const legacy={[h]:{at:'2023-01-01',basis:'legacy'}};
+ assert.deepEqual(V.award(index,{},legacy,[]).records[h],legacy[h],'previously earned card remains saved');
  const wrong=clone(doc);wrong.sites.find(s=>s.siteId===id).pinApproval.version='v1';
  assert.throws(()=>verify(wrong),/位置版v2/);
 });
