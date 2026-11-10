@@ -1634,7 +1634,7 @@
       "yearText": "天正13年（1585）7月",
       "eventYear": 1585,
       "eventYearEnd": null,
-      "text": "四国で勢力を拡大した長宗我部元親に対し、秀吉は配下の武将を率いる征討軍を送り込んだ。1585年7月、秀吉の命を受けた軍勢と長宗我部方の和議が成立し、元親は土佐へ退いた。秀吉は領地配分を進め、四国の大名を政権に組み入れていった。秀吉本人が四国へ渡って戦ったわけではない。",
+      "text": "四国で勢力を拡大した長宗我部元親に対し、秀吉は配下の武将を率いる征討軍を送り込んだ。1585年7月、秀吉の命を受けた軍勢と長宗我部方の和議が成立し、元親は土佐へ退いた。秀吉は領地配分を進め、四国の大名を政権に組み入れていった。",
       "sourceIds": [
         "sg2src-hideyoshi-kagawa-shikoku"
       ],
@@ -1642,14 +1642,14 @@
         "https://www.library.pref.kagawa.lg.jp/know/local/local_2033-02"
       ],
       "approval": {
-        "sheetRow": 57,
-        "version": "v1",
+        "sheetRow": 1422,
+        "version": "v3",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "位置不要・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
-        "sha256": "d4cd115f560e99f8b6a7b6e9d84a7a53b74197c66291243d17adcdeeaae750a2",
+        "sha256": "dede95d846b8da3825edcf9e6905ef52635dc6660e7c7ec1eb1c94cf5b813c7e",
         "kind": "経歴",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2hist-hideyoshi-shikoku-1585"
@@ -1841,22 +1841,23 @@
       "yearText": "天正16年（1588）7月",
       "eventYear": 1588,
       "eventYearEnd": null,
-      "text": "秀吉は1588年、百姓が刀や槍などの武器を持つことを制限する刀狩令を出した。三か条からなる命令書が伝わり、豊臣政権は戦争で使われる武器の管理を進めた。領地を安定して治めるための政策だったが、命令が出たその日に全国の武器が一斉に回収されたわけではない。",
+      "text": "1588年、秀吉は百姓が刀や槍などの武器を持つことを制限し、諸大名に取り上げを命じる刀狩令を出した。一揆を防ぎ、百姓を農業と年貢の納付に専念させる狙いがあった。武器を持つ武士と耕作に従事する百姓を分ける政策は、豊臣政権が全国を治める仕組みを整える一歩となった。",
       "sourceIds": [
-        "sg2src-hideyoshi-rekihaku-katanagari"
+        "sg2src-hideyoshi-rekihaku-katanagari",
+        "sg2src-a-katanagari-purpose-20261108"
       ],
       "sourceUrls": [
         "https://khirin.rekihaku.ac.jp/pid/nmjh_collection/H-358.html"
       ],
       "approval": {
-        "sheetRow": 64,
-        "version": "v1",
+        "sheetRow": 1429,
+        "version": "v3",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "位置不要・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
-        "sha256": "a9f173b464f028ba3754f2eaaaec8ed96b5f73dd46a3109496e33068aab687ee",
+        "sha256": "ba49ed2d8440cf828038451149ea8899b5f7d0f8805c854ca7b7e1ecea7d0a04",
         "kind": "経歴",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2hist-hideyoshi-katanagari-1588"
@@ -1870,11 +1871,12 @@
       "yearText": "天正18年（1590）",
       "eventYear": 1590,
       "eventYearEnd": null,
-      "text": "秀吉は関東の北条氏を従わせるため、1590年に大軍を率いて小田原城を包囲した。城を見下ろす石垣山には本陣となる城を築き、長期戦に備えた。7月、北条氏が降伏し、関東の大勢力が崩れた。秀吉はさらに東北へ進んで大名の領地を再編し、全国支配を固めていく。石垣山城を一夜で築いたという話は、実際の工事期間を示すものではない。",
+      "text": "1590年、秀吉は大軍で小田原城を包囲し、城を見下ろす石垣山に総石垣の本陣を築いた。築城に費やしたのは約80日。攻囲戦のさなか、短期間で本格的な城を築き上げた動員力は、籠城する北条方に豊臣軍の力を見せつけた。7月に北条氏が降伏すると、秀吉はさらに東北の大名の領地を再編し、全国支配を固めていった。",
       "sourceIds": [
         "sg2src-hideyoshi-odawara-museum",
         "sg2src-hideyoshi-odawara-ishigaki",
-        "sg2src-hideyoshi-archives-vassal"
+        "sg2src-hideyoshi-archives-vassal",
+        "sg2src-a-ishigakiyama-80days-20261108"
       ],
       "sourceUrls": [
         "https://odawara-digital-museum.jp/event/detail/20/",
@@ -1882,14 +1884,14 @@
         "https://www.archives.go.jp/exhibition/digital/ieyasu/contents2_03/"
       ],
       "approval": {
-        "sheetRow": 65,
-        "version": "v1",
+        "sheetRow": 1430,
+        "version": "v3",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
-        "sha256": "e02afcfebacb5fb62b07d0b24ab9ec8ba82e77c8feb7c38617c6758d4fe02d2a",
+        "sha256": "43969ec990767144717a47aa376fcd879727e410b1141f5b45c47fa2f31951c2",
         "kind": "経歴",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2hist-hideyoshi-odawara-1590"
@@ -2023,26 +2025,28 @@
       "historyId": "sg2hist-hideyoshi-taiko-kenchi",
       "personId": "sg-f47391608dbb",
       "kind": "nonplace",
-      "title": "各地で検地を進め、年貢の基準を整える",
-      "yearText": "天正20年（1592）頃",
-      "eventYear": 1592,
-      "eventYearEnd": null,
-      "text": "秀吉の政権は、田畑の面積や収穫高を調べる検地を各地で進めた。検地の結果は土地ごとの年貢を決め、領地を管理する基本となった。1592年には尾張でも秀吉の後継者・秀次が検地を命じている。調査は地域ごとに異なる時期に進められ、全国が一度に調べられたわけではなかった。",
+      "title": "山城から太閤検地を進め、全国へ広げる",
+      "yearText": "天正10年（1582）以降（全国各地で継続）",
+      "eventYear": 1582,
+      "eventYearEnd": 1598,
+      "text": "1582年、山崎の戦いで明智光秀を破った秀吉は、山城の寺社から土地台帳を提出させ、所領や年貢負担を確かめた。信長の家臣として1580年に播磨で検地を行った経験もあり、支配地が広がるたびに各地で検地を進めて石高に基づく土地支配を整えた。1592年の尾張検地は甥の秀次が命じた地域の一例であり、この政策は秀吉の晩年まで続いた。",
       "sourceIds": [
-        "sg2src-hideyoshi-nagoya-kenchi"
+        "sg2src-hideyoshi-nagoya-kenchi",
+        "sg2src-a-kenchi-tax-20261108",
+        "sg2src-a-hideyoshi-taiko1582-historist-20261109"
       ],
       "sourceUrls": [
         "https://www.museum.city.nagoya.jp/collection/data/data_59/index.html"
       ],
       "approval": {
-        "sheetRow": 70,
-        "version": "v1",
+        "sheetRow": 1478,
+        "version": "v3",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "位置不要・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
-        "sha256": "f7d03bbece74124cf5748ebb147ff2d5ef718c8a605f64e2f1b9e81be3455555",
+        "sha256": "f5d879faf0fce1301750872f249a90322abd0e2136859f51749c64ea99711951",
         "kind": "経歴",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2hist-hideyoshi-taiko-kenchi"
@@ -2056,24 +2060,25 @@
       "yearText": "天正20年（1592）3月",
       "eventYear": 1592,
       "eventYearEnd": null,
-      "text": "1592年、秀吉は朝鮮半島への軍事侵攻を命じ、九州の肥前名護屋城に陣を置いた。各地の大名から兵が集められ、朝鮮半島で戦争が始まる。戦闘によって現地の人々も大きな被害を受けた。秀吉自身は朝鮮へ渡らず、日本側の拠点から戦争を指揮した。",
+      "text": "1592年、秀吉は朝鮮への出兵を命じ、肥前名護屋城に各地の大名の軍勢を集めた。先鋒の小西行長、加藤清正らの軍は釜山に上陸して北上し、短期間で朝鮮王朝の都・漢城を占領した。国王は都を離れて北へ退き、各地では抵抗が続いた。秀吉は渡海せず名護屋から指揮を執ったが、やがて明も参戦して戦争は長期化する。",
       "sourceIds": [
         "sg2src-hideyoshi-saga-nagoya",
-        "sg2src-hideyoshi-nagoya-korea1592"
+        "sg2src-hideyoshi-nagoya-korea1592",
+        "sg2src-a-korea-first-20261108"
       ],
       "sourceUrls": [
         "https://www.pref.saga.lg.jp/kiji0031658/",
         "https://www.museum.city.nagoya.jp/collection/data/data_53/index.html"
       ],
       "approval": {
-        "sheetRow": 71,
-        "version": "v1",
+        "sheetRow": 1479,
+        "version": "v3",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
-        "sha256": "06a61289fcf878a54e0f3ad6f088cc075b96a99eee856048849ae3ecd14ca3cd",
+        "sha256": "04b003f1e45afd274d273ba42192f3da522045a2b46c9c2b820a9c67cdff3c07",
         "kind": "経歴",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2hist-hideyoshi-korea-1592"
@@ -2213,22 +2218,23 @@
       "yearText": "慶長2年（1597）",
       "eventYear": 1597,
       "eventYearEnd": null,
-      "text": "朝鮮での戦争は明との交渉を経ても終わらず、講和が決裂すると秀吉は1597年に再び軍勢を送り込んだ。前回と異なり秀吉自身は肥前名護屋へ赴かず、京都や大坂から書状で戦争を指揮した。再び朝鮮半島で戦いが続き、多くの人々が被害を受けた。",
+      "text": "明との講和交渉が決裂すると、秀吉は1597年に朝鮮への再出兵を命じた。日本軍は全羅道の要衝・南原城を攻略したが、その後も朝鮮・明の軍勢との戦闘が続いた。同年末には加藤清正らが守る蔚山城が明・朝鮮軍に包囲され、攻防は激しさを増した。秀吉は肥前名護屋には戻らず、京都や大坂から書状で軍勢を指揮した。",
       "sourceIds": [
-        "sg2src-hideyoshi-nagoya-korea1597"
+        "sg2src-hideyoshi-nagoya-korea1597",
+        "sg2src-a-keicho1597-namwon-20261108"
       ],
       "sourceUrls": [
         "https://www.museum.city.nagoya.jp/exhibition/owari_joyubi_news/tyousensyuppei/index.html"
       ],
       "approval": {
-        "sheetRow": 76,
-        "version": "v1",
+        "sheetRow": 998,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "位置不要・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
-        "sha256": "b8a36ec2d894f1bce0458caa51c5dab4924a3729774a3c8078bff6f979550db5",
+        "sha256": "0e8bdb0f670c220b9d2f23be91e3db228cb5fd1150efa414a1ffc2e9193495bf",
         "kind": "経歴",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2hist-hideyoshi-korea-1597"
