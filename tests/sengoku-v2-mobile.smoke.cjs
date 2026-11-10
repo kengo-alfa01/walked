@@ -183,7 +183,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    console.log('REAL_WEBKIT_EDO_PIN_TAP_DIAGNOSTIC',JSON.stringify({target,tapped}));
    assert.match(tapped.popup,/江戸城跡/, 'a real iPhone tap must open the Edo Castle popup');
    assert.ok(target.width<=16,'the visual pin dot must remain small');
-   await page.evaluate(()=>map.closePopup());
+   await page.evaluate(()=>{map.closePopup();});
    await page.waitForTimeout(340);
    const near=await page.evaluate(()=>{
      const marker=sengokuPins.getLayers().find(m=>
@@ -211,7 +211,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    assert.equal(offCenter.open,true);
    assert.equal(offCenter.name,'江戸城跡（家康入府の本拠）',
      'off-center finger tap must open the correct pin popup');
-   await page.evaluate(()=>map.closePopup());
+   await page.evaluate(()=>{map.closePopup();});
    await page.waitForTimeout(350);
 
    await page.evaluate(()=>{
@@ -343,7 +343,7 @@ test('iPhone WebKit: regional map popup shows unlocked content and Sengoku area 
   assert.match(await page.locator('.leaflet-popup-content').innerText(),/薬師池公園/);
   assert.equal(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none','hide map background selector while regional popup is open');
   assert.equal(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none','hide current-location control while regional popup is open');
-  await page.locator('.leaflet-popup-close-button').click();
+  await page.locator('.leaflet-popup-close-button').dispatchEvent('click'); // stable WebKit popup close without scrolling offscreen
   await page.locator('.leaflet-popup-content .regional-map-popup').waitFor({state:'detached',timeout:2500});
   assert.notEqual(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none','restore background selector when regional popup closes');
   assert.notEqual(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none','restore current-location control when regional popup closes');
