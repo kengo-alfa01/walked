@@ -7367,6 +7367,80 @@
           "sg2src-b-pin2-nikko-20261107"
         ]
       }
+    },
+    {
+      "siteId": "sg2site-hideyoshi-taiheiji",
+      "name": "泰平寺（秀吉・島津義久和睦の地）",
+      "description": "1587年、九州に進んだ豊臣秀吉のもとへ島津義久が降伏を申し入れ、二人が対面した泰平寺。島津氏の九州制覇の望みはここで断たれ、島津家は豊臣政権のもとに入った。隣の泰平寺公園には、和睦を伝える石が残る。",
+      "personIds": [
+        "sg-f47391608dbb"
+      ],
+      "municipalityCodes": [
+        "46215"
+      ],
+      "municipalityCode": "46215",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        130.305374,
+        31.824417
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-hideyoshi-kagoshima-pref-kyushu-1587",
+        "sg2src-hideyoshi-japan47go-taiheiji",
+        "sg2src-hideyoshi-kagoshima-taiheiji-address",
+        "sg2src-b-pin-next-216-20261108"
+      ],
+      "sourceUrls": [
+        "https://www.pref.kagoshima.jp/ab23/pr/gaiyou/rekishi/tyuusei/kyusyu.html",
+        "https://www.japan47go.travel/ja/detail/28ffd453-0557-4f14-b51e-78d932135f07",
+        "https://www.pref.kagoshima.jp/am01/event/2024100120.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/47/470000123400.html"
+      ],
+      "approval": {
+        "sheetRow": 970,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "c483f4de7dff74a022ff0758aee4ba8caf93d70eabd67d281b7af1b5c1730afd",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-taiheiji"
+      },
+      "pinApproval": {
+        "sheetRow": 1553,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "c483f4de7dff74a022ff0758aee4ba8caf93d70eabd67d281b7af1b5c1730afd",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-taiheiji"
+      },
+      "pinReview": {
+        "sourceSheetRow": 216,
+        "decision": "可",
+        "locationKind": "史跡現地（泰平寺跡の学術位置参照点。隣接する泰平寺公園・和睦石とは別）",
+        "accessStatus": "green",
+        "restriction": "公開位置は寺の歴史地名参照点で、1587年の会見場所の部屋や当時の伽藍の正確な位置を示しません。寺院内部・私有地・非公開区域へ無断で立ち入らず、現地案内に従ってください。位置データ出典：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。",
+        "checkedAt": "2026-11-08",
+        "municipality": "鹿児島県薩摩川内市",
+        "officialInfoUrl": "https://www.japan47go.travel/ja/detail/28ffd453-0557-4f14-b51e-78d932135f07",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/47/470000123400.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-japan47go-taiheiji",
+          "sg2src-b-pin-next-216-20261108"
+        ]
+      }
     }
   ],
   "relations": [
@@ -8524,6 +8598,22 @@
         "https://www.archives.go.jp/exhibition/digital/ieyasu/contents3_02/03/",
         "https://www.kyoto-be.ne.jp/bunkazai/cms/?p=2276",
         "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/nenpyou/htmlsheet/toshi20.html"
+      ]
+    },
+    {
+      "personId": "sg-f47391608dbb",
+      "historyId": "sg2hist-hideyoshi-kyushu-1587",
+      "siteId": "sg2site-hideyoshi-taiheiji",
+      "classification": "本人直接",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-hideyoshi-kagoshima-pref-kyushu-1587",
+        "sg2src-hideyoshi-japan47go-taiheiji"
+      ],
+      "sourceUrls": [
+        "https://www.pref.kagoshima.jp/ab23/pr/gaiyou/rekishi/tyuusei/kyusyu.html",
+        "https://www.japan47go.travel/ja/detail/28ffd453-0557-4f14-b51e-78d932135f07"
       ]
     }
   ],
