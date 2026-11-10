@@ -140,9 +140,11 @@
     check(Array.isArray(review.coveredHistoryIds)&&same([...review.coveredHistoryIds].sort(),rows.map(r=>r.historyId).sort()),
       'Bの確認対象経歴に漏れがあります');
     check(Array.isArray(release.approvals)&&release.approvals.length===rows.length,'⑥の順位新版が一部未承認');
-    const approvalById=new Map();
+    const approvalById=new Map(),approvalSheetRows=new Set();
     for(const a of release.approvals){
       check(obj(a)&&!approvalById.has(a.historyId)&&oldById.has(a.historyId),'⑥承認のID重複・対象外');
+      check(Number.isSafeInteger(a.sheetRow)&&!approvalSheetRows.has(a.sheetRow),'⑥承認行の重複・不正 '+a.sheetRow);
+      approvalSheetRows.add(a.sheetRow);
       approvalById.set(a.historyId,a);
     }
     for(const r of rows){
@@ -166,10 +168,15 @@
   function loadManifest(manifest,catalog,hash,options={}){
     check(obj(manifest)&&manifest.schemaVersion===SCHEMA&&manifest.sourceSpreadsheetId===SOURCE&&Array.isArray(manifest.releases),
       '順序版マニフェストのスキーマ・正本が違います');
-    const byPerson=new Map();
+    const byPerson=new Map(),approvalRowsAcrossPeople=new Set();
     for(const release of manifest.releases){
       check(!byPerson.has(release.personId),'同じ人物の順序版が複数あります');
-      byPerson.set(release.personId,verifyRelease(release,catalog,hash,options));
+      const view=verifyRelease(release,catalog,hash,options);
+      for(const a of release.approvals){
+        check(!approvalRowsAcrossPeople.has(a.sheetRow),'人物をまたいだ⑥承認行の重複 '+a.sheetRow);
+        approvalRowsAcrossPeople.add(a.sheetRow);
+      }
+      byPerson.set(release.personId,view);
     }
     return byPerson;
   }
