@@ -14,6 +14,7 @@ const old={at:'2000-01-01',siteId:'sg-site-odawara'};
 async function checkSyntheticChronologyScreen(page){
  const before=await page.evaluate(()=>['walked_municipal_v2','walked_sengoku_cards_v1','walked_titles_v1'].map(k=>localStorage.getItem(k)));
  const proof=await page.evaluate(()=>{
+  const realView=sengokuChronology.get('sg-6eaf66c3d7c8');
   const person=sengokuPeople.find(p=>p.name==='織田信長');
   if(!person||!countOwned(person.id))throw Error('preview person not acquired');
   const legacy=SengokuChronology.present(approvedHistories(person.id),null);
@@ -23,6 +24,7 @@ async function checkSyntheticChronologyScreen(page){
   const ids=legacy.map(h=>h.historyId);
   [ids[i],ids[i+1]]=[ids[i+1],ids[i]];
   const group=person.id+'|'+legacy[i].eventYear+'|20';
+  const previous=sengokuChronology.get(person.id);
   sengokuChronology.set(person.id,{orderIds:ids,tieById:new Map([
    [idB,{group,first:true,size:2}],[idA,{group,first:false,size:2}]
   ])});
@@ -36,7 +38,8 @@ async function checkSyntheticChronologyScreen(page){
    firstRowGroup:root.querySelectorAll('.sengoku-era')[i].dataset.tieGroup,
    viewportWidth:innerWidth,documentWidth:document.documentElement.scrollWidth
   };
-  sengokuChronology.delete(person.id);showSengokuPerson(person);
+  if(previous)sengokuChronology.set(person.id,previous);else sengokuChronology.delete(person.id);
+  showSengokuPerson(person);
   view.reverted=root.querySelectorAll('.sengoku-chronology-note').length===0;
   return view;
  });
@@ -51,6 +54,23 @@ async function checkSyntheticChronologyScreen(page){
  assert.deepEqual(after,before,'chronology preview must not mutate stored records');
 }
 
+
+
+async function checkRealApprovedOrder(page){
+ await page.waitForFunction(()=>typeof sengokuChronology!=='undefined'&&sengokuChronology.size===3,null,{timeout:20000});
+ const orders=await page.evaluate(()=>{
+  return [
+   ['sg-6eaf66c3d7c8',1570],
+   ['sg-f47391608dbb',1582],
+   ['sg-a7bb09927601',1615]
+  ].map(([id,year])=>
+   sengokuChronology.get(id).orderIds.filter(h=>sengokuV2Catalog.histories.get(h).eventYear===year));
+ });
+ assert.deepEqual(orders[0],['sg2hist-nobu-1570-kanegasaki','sg2hist-nobu-1570-anegawa']);
+ assert.deepEqual(orders[1],['sg2hist-hideyoshi-bitchu-siege-1582','sg2hist-hideyoshi-mori-peace-1582',
+  'sg2hist-hideyoshi-yamazaki-1582','sg2hist-hideyoshi-taiko-kenchi']);
+ assert.deepEqual(orders[2],['sg2hist-ieyasu-1615-summer','sg2hist-ieyasu-1615-buke-law','sg2hist-ieyasu-1615-kinchu-law']);
+}
 
 test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup download/restore', {timeout:120000},async()=>{
  const browser=await webkit.launch({headless:true});
@@ -90,7 +110,9 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      console.error('FIRST STARTUP WEBKIT DIAGNOSTIC',JSON.stringify({diagnostic,errors:errors.slice(-15)}));
      throw error;
    }
-   await page.locator('[data-collection-mode="sengoku"]').click();
+   await checkRealApprovedOrder(page);
+   await checkRealApprovedOrder(page);
+  await page.locator('[data-collection-mode="sengoku"]').click();
    const pins=await page.evaluate(()=>sengokuPins.getLayers().map(marker=>({
      name:marker.getPopup().getContent().querySelector('h3')?.textContent,
      point:[marker.getLatLng().lat,marker.getLatLng().lng],
