@@ -93,7 +93,10 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    localStorage.setItem('walked_sengoku_cards_v1',JSON.stringify({[oldId]:old}));
  },{oldId,old});
  try{
-   const errors=[];
+   const errors=[],coreScriptRequests=[];
+   page.on('request',request=>{
+     if(/\/sengoku-v2-core\.js(?:\?|$)/.test(request.url()))coreScriptRequests.push(request.url());
+   });
    page.on('pageerror',error=>errors.push('pageerror: '+error.message));
    page.on('requestfailed',request=>errors.push('requestfailed: '+request.url()+' '+request.failure()?.errorText));
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
@@ -110,8 +113,19 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      console.error('FIRST STARTUP WEBKIT DIAGNOSTIC',JSON.stringify({diagnostic,errors:errors.slice(-15)}));
      throw error;
    }
+   assert.equal(coreScriptRequests.length,1,'exactly one versioned Sengoku core must be requested');
+   assert.match(coreScriptRequests[0],/\/sengoku-v2-core\.js\?v=edo47-20261110-1546$/,
+     'unversioned cached core is incompatible with 47-pin Edo Castle approval data');
    await checkRealApprovedOrder(page);
-   await checkRealApprovedOrder(page);
+   const ieyasuVisit=await page.evaluate(()=>{
+     const awarded=SengokuV2.award(sengokuV2Catalog,{'13101':{first:'2026-11-10'}},{},[],'2026-11-10');
+     const pin=sengokuV2Catalog.sites.get('sg2site-ieyasu-edo');
+     return {publicPin:pin.publicPin,access:pin.pinReview.accessStatus,
+       entry:!!awarded.records['sg2hist-ieyasu-1590-kanto'],
+       rebuild:!!awarded.records['sg2hist-ieyasu-1606-edo-rebuild']};
+   });
+   assert.deepEqual(ieyasuVisit,{publicPin:true,access:'yellow',entry:true,rebuild:true},
+     'visited Chiyoda ward unlocks two Ieyasu histories without requiring GPS pin arrival');
   await page.locator('[data-collection-mode="sengoku"]').click();
    const pins=await page.evaluate(()=>sengokuPins.getLayers().map(marker=>({
      name:marker.getPopup().getContent().querySelector('h3')?.textContent,
