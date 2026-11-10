@@ -114,8 +114,8 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      throw error;
    }
    assert.equal(coreScriptRequests.length,1,'exactly one versioned Sengoku core must be requested');
-   assert.match(coreScriptRequests[0],/\/sengoku-v2-core\.js\?v=edo47-20261110-1546$/,
-     'unversioned cached core is incompatible with 47-pin Edo Castle approval data');
+   assert.match(coreScriptRequests[0],/\/sengoku-v2-core\.js\?v=sengoku62-20261110$/,
+     'unversioned cached core is incompatible with 62-pin Sengoku approved-site release data');
    await checkRealApprovedOrder(page);
    const ieyasuVisit=await page.evaluate(()=>{
      const awarded=SengokuV2.award(sengokuV2Catalog,{'13101':{first:'2026-11-10'}},{},[],'2026-11-10');
@@ -126,20 +126,33 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    });
    assert.deepEqual(ieyasuVisit,{publicPin:true,access:'yellow',entry:true,rebuild:true},
      'visited Chiyoda ward unlocks two Ieyasu histories without requiring GPS pin arrival');
+   const hideyoshi=await page.evaluate(()=>{
+     const history=sengokuV2Catalog.histories.get('sg2hist-hideyoshi-kyushu-1587');
+     const result=SengokuV2.award(sengokuV2Catalog,{'46215':{first:'2026-11-10'}},{},[],'2026-11-10');
+     const pin=sengokuV2Catalog.sites.get('sg2site-hideyoshi-taiheiji');
+     return {kind:history.kind,approvalRow:history.approval.sheetRow,awarded:!!result.records[history.historyId],
+       siteId:result.records[history.historyId]?.siteId,green:pin.pinReview.accessStatus};
+   });
+   assert.deepEqual(hideyoshi,{kind:'place',approvalRow:1425,awarded:true,siteId:'sg2site-hideyoshi-taiheiji',green:'green'},
+     'approved v3 Kyushu history must now be a Sakusen-dai city location card');
   await page.locator('[data-collection-mode="sengoku"]').click();
    const pins=await page.evaluate(()=>sengokuPins.getLayers().map(marker=>({
      name:marker.getPopup().getContent().querySelector('h3')?.textContent,
      point:[marker.getLatLng().lat,marker.getLatLng().lng],
      color:marker.options.fillColor,popup:marker.getPopup().getContent().textContent
    })));
-   assert.equal(pins.length,47,'all 47 site pins must be present even when histories are locked');
+   assert.equal(pins.length,62,'all 62 site pins must be present even when histories are locked');
    const pane=await page.evaluate(()=>({z:getComputedStyle(map.getPane('sengoku-pins')).zIndex,overlay:getComputedStyle(map.getPane('overlayPane')).zIndex,renderer:sengokuPins.getLayers()[0]?.options.renderer?.options.pane}));
    assert.equal(pane.z,'625','historic pins must be in a high pane');
    assert.ok(Number(pane.z)>Number(pane.overlay),'pins must overlay administrative polygons');
    assert.equal(pane.renderer,'sengoku-pins','pins must not use administrative Canvas renderer');
-   assert.equal(new Set(pins.map(p=>p.name)).size,47);
-   assert.equal(pins.filter(p=>p.color==='#21864e').length,43);
-   assert.deepEqual(pins.filter(p=>p.color==='#edb42d').map(p=>p.name).sort(),['岐阜城跡','安土城跡','姫路城跡','江戸城跡（家康入府の本拠）'].sort());
+   assert.equal(new Set(pins.map(p=>p.name)).size,62);
+   assert.equal(pins.filter(p=>p.color==='#21864e').length,51);
+   assert.ok(pins.some(p=>p.name==='泰平寺（秀吉・島津義久和睦の地）'&&p.color==='#21864e'));
+   assert.ok(pins.some(p=>p.name==='比叡山延暦寺（焼き討ち関連）'&&p.color==='#edb42d'));
+   assert.deepEqual(pins.filter(p=>p.color==='#edb42d').map(p=>p.name).sort(),['岐阜城跡','安土城跡','姫路城跡','江戸城跡（家康入府の本拠）',
+ '姉川古戦場','比叡山延暦寺（焼き討ち関連）','長島城跡（旧城郭範囲）',
+ '賤ヶ岳古戦場','楽田城跡（秀吉の陣）','伏見指月城跡','伏見木幡山城跡'].sort());
    assert.ok(pins.every(p=>p.popup.includes('現地の案内に従ってください。')));
    assert.equal(await page.locator('#showUnknownPins').count(),0);
 
@@ -182,8 +195,16 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    }));
    console.log('REAL_WEBKIT_EDO_PIN_TAP_DIAGNOSTIC',JSON.stringify({target,tapped}));
    assert.match(tapped.popup,/江戸城跡/, 'a real iPhone tap must open the Edo Castle popup');
+   assert.equal(await page.locator('.map-display-controls').evaluate(e=>getComputedStyle(e).display),'none','mobile Sengoku popup hides map background selector');
+   assert.equal(await page.locator('.map-center').evaluate(e=>getComputedStyle(e).display),'none','mobile Sengoku popup hides location button');
+   assert.equal(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none',
+     'Sengoku pin popup must hide background selector on iPhone');
+   assert.equal(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none',
+     'Sengoku pin popup must hide current location on iPhone');
    assert.ok(target.width<=16,'the visual pin dot must remain small');
    await page.evaluate(()=>{map.closePopup();});
+   assert.notEqual(await page.locator('.map-display-controls').evaluate(e=>getComputedStyle(e).display),'none','background selector restored when popup closes');
+   assert.notEqual(await page.locator('.map-center').evaluate(e=>getComputedStyle(e).display),'none','location button restored when popup closes');
    await page.waitForTimeout(340);
    const near=await page.evaluate(()=>{
      const marker=sengokuPins.getLayers().find(m=>
@@ -213,6 +234,10 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      'off-center finger tap must open the correct pin popup');
    await page.evaluate(()=>{map.closePopup();});
    await page.waitForTimeout(350);
+   assert.notEqual(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none',
+     'Sengoku popup close must restore background selector');
+   assert.notEqual(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none',
+     'Sengoku popup close must restore current location control');
 
    await page.evaluate(()=>{
      const marker=sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('岐阜城跡'));
@@ -230,8 +255,8 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    });
    assert.equal(glow.z,'550');
    assert.ok(Number(glow.z)<Number(glow.pins),'area pulse must remain behind historic site pins');
-   assert.ok(glow.count>=9,'unpinned municipality areas should have visible SVG pulse paths');
-   assert.equal(glow.animation,'3.8s','pulse should be gentle, not rapid flashing');
+   assert.ok(glow.count===0,'all approved places have pins; no regional placeholder pulse is needed');
+   assert.equal(glow.animation,null,'no pulse should exist when all historic sites have approved pins');
    const narrative=page.locator('.sengoku-v2-narrative');
    await narrative.waitFor();
    assert.match(await narrative.innerText(),/尾張から勢力を広げた戦国大名/);
@@ -282,7 +307,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
  }
 });
 
-test('PC desktop Chromium viewport: 47 pins, access categories, deduplication and popup UI',{timeout:120000},async()=>{
+test('PC desktop Chromium viewport: 62 pins, access categories, deduplication and popup UI',{timeout:120000},async()=>{
  const browser=await chromium.launch({headless:true});
  const context=await browser.newContext({viewport:{width:1366,height:850},deviceScaleFactor:1});
  const page=await context.newPage();
@@ -302,19 +327,25 @@ test('PC desktop Chromium viewport: 47 pins, access categories, deduplication an
    point:[m.getLatLng().lat,m.getLatLng().lng],
    popup:m.getPopup().getContent().textContent
   })));
-  assert.equal(values.length,47);assert.equal(new Set(values.map(v=>v.site)).size,47);
-  assert.equal(values.filter(v=>v.color==='#21864e').length,43);
-  assert.equal(values.filter(v=>v.color==='#edb42d').length,4);
+  assert.equal(values.length,62);assert.equal(new Set(values.map(v=>v.site)).size,62);
+  assert.equal(values.filter(v=>v.color==='#21864e').length,51);
+  assert.equal(values.filter(v=>v.color==='#edb42d').length,11);
   assert.ok(values.find(v=>v.site==='姫路城跡')?.popup.includes('保存修理'));
   assert.ok(values.find(v=>v.site==='安土城跡')?.popup.includes('三重塔'));
   assert.ok(values.find(v=>v.site==='岐阜城跡')?.popup.includes('一部立入制限'));
   await page.evaluate(()=>{sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('姫路城跡')).fire('click');});
   assert.match(await page.locator('.leaflet-popup-content').innerText(),/姫路城跡/);
+  assert.equal(await page.locator('.map-display-controls').evaluate(e=>getComputedStyle(e).display),'none');
+  assert.equal(await page.locator('.map-center').evaluate(e=>getComputedStyle(e).display),'none');
+  await page.evaluate(()=>{map.closePopup();});
+  assert.notEqual(await page.locator('.map-display-controls').evaluate(e=>getComputedStyle(e).display),'none');
+  assert.notEqual(await page.locator('.map-center').evaluate(e=>getComputedStyle(e).display),'none');
+
   const size=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
   assert.ok(size.scrollWidth<=size.width+2,'desktop horizontal overflow');
   assert.equal(await page.locator('#showUnknownPins').count(),0);
   await checkSyntheticChronologyScreen(page);
-  console.log('PASS: Chromium desktop 47 unique public pins, yellow labels, safe popup',JSON.stringify(size));
+  console.log('PASS: Chromium desktop 62 unique public pins, yellow labels, safe popup',JSON.stringify(size));
  }finally{await context.close();await browser.close();}
 });
 

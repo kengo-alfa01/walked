@@ -110,7 +110,7 @@ test('11 all 3 approved chronology releases retain the 108 identity set; legacy 
  const doc=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-three-person-staging.json'),'utf8'));
  const manifest=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/chronology-release.json'),'utf8'));
  const catalog={histories:new Map(doc.histories.map(h=>[h.historyId,h]))};
- assert.equal(doc.histories.length,108);assert.equal(doc.sites.filter(s=>s.publicPin).length,47);
+ assert.equal(doc.histories.length,108);assert.equal(doc.sites.filter(s=>s.publicPin).length,62);
  const verified=C.loadManifest(manifest,catalog,hash);
  assert.equal(verified.size,3);
  assert.equal(manifest.releases.reduce((n,r)=>n+r.histories.length,0),108);

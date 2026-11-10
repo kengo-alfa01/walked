@@ -1,7 +1,7 @@
 {
   "schemaVersion": "walked.sengoku.v2.approved.v1",
   "sourceSpreadsheetId": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
-  "version": "20261108-three-person-46-approved-location-v2-staging",
+  "version": "20261110-three-person-62-approved-pins-v2",
   "people": [
     {
       "personId": "sg-6eaf66c3d7c8",
@@ -84,7 +84,7 @@
         },
         "unlock": {
           "requiredHistoryCount": 38,
-          "requiredPlaceHistoryCount": 25,
+          "requiredPlaceHistoryCount": 26,
           "historyIdsSHA256": "762920a7a9e45a2dc6d4f528223cf08d134eec7adb79d2af8f5eef93032ac110"
         }
       }
@@ -1718,24 +1718,27 @@
     {
       "historyId": "sg2hist-hideyoshi-kyushu-1587",
       "personId": "sg-f47391608dbb",
-      "kind": "nonplace",
+      "kind": "place",
       "title": "九州へ出陣し、島津氏を降伏させる",
       "yearText": "天正15年（1587）",
       "eventYear": 1587,
       "eventYearEnd": null,
       "text": "秀吉の勢力が西国へ広がる一方、九州では島津氏がほかの大名を圧迫していた。秀吉は和睦を勧告したが受け入れられず、1587年に大軍を率いて九州へ進んだ。豊臣方の攻勢を受けて島津氏は降伏し、秀吉は各地の領地を配分し直す。九州の大名を自らの政権に従わせた大きな転機となった。",
       "sourceIds": [
-        "sg2src-hideyoshi-kagoshima-kyushu"
+        "sg2src-hideyoshi-kagoshima-kyushu",
+        "sg2src-hideyoshi-kagoshima-pref-kyushu-1587",
+        "sg2src-hideyoshi-japan47go-taiheiji"
       ],
       "sourceUrls": [
-        "https://www.pref.kagoshima.jp/ab23/pr/gaiyou/rekishi/tyuusei/kyusyu.html"
+        "https://www.pref.kagoshima.jp/ab23/pr/gaiyou/rekishi/tyuusei/kyusyu.html",
+        "https://www.japan47go.travel/ja/detail/28ffd453-0557-4f14-b51e-78d932135f07"
       ],
       "approval": {
-        "sheetRow": 60,
-        "version": "v1",
+        "sheetRow": 1425,
+        "version": "v3",
         "user": "公開OK",
         "quality": "品質合格",
-        "rights": "位置不要・権利OK",
+        "rights": "地点確認済・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
         "sha256": "6d58e5b54c757ebd8c456c8f2ad5144a503472b1b51ccd434110cad43d321cb5",
@@ -3782,16 +3785,21 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        137.52502778,
+        34.92175
+      ],
       "locationAccuracy": "市区町村確認・地点不明",
       "sourceIds": [
         "sg2src-nobu-archives-nagashino",
-        "sg2src-nobu-shinshiro"
+        "sg2src-nobu-shinshiro",
+        "sg2src-b-pin-batch2-6-20261108"
       ],
       "sourceUrls": [
         "https://www.archives.go.jp/exhibition/digital/ieyasu/contents1_06/",
-        "https://www.city.shinshiro.lg.jp/promotion/history/rekishi.html"
+        "https://www.city.shinshiro.lg.jp/promotion/history/rekishi.html",
+        "https://www.city.shinshiro.lg.jp/kanko/meisyo/babousaku.html"
       ],
       "approval": {
         "sheetRow": 121,
@@ -3805,6 +3813,33 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8\nsg-a7bb09927601",
         "sourceId": "sg2site-nobu-shitaragahara"
+      },
+      "pinApproval": {
+        "sheetRow": 1554,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "65c6cf9a10870481936500c0d41fb34264ce5fce8cb8d6090df76de35e503089",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8\nsg-a7bb09927601",
+        "sourceId": "sg2site-nobu-shitaragahara"
+      },
+      "pinReview": {
+        "sourceSheetRow": 6,
+        "decision": "可",
+        "locationKind": "公的伝承地（新城市竹広の連吾川沿い・1575年設楽原の戦いを伝える復元馬防柵の愛知県公表位置）",
+        "accessStatus": "green",
+        "restriction": "復元馬防柵の地理参照点で、1575年の全戦域や武将の陣地を示す一点ではありません。現地案内に従ってください。",
+        "checkedAt": "2026-11-08",
+        "municipality": "愛知県新城市",
+        "officialInfoUrl": "https://www.city.shinshiro.lg.jp/kanko/meisyo/babousaku.html",
+        "positionEvidenceUrl": "https://www.city.shinshiro.lg.jp/kanko/meisyo/babousaku.html",
+        "positionSourceIds": [
+          "sg2src-b-pin-batch2-6-20261108"
+        ]
       }
     },
     {
@@ -3889,16 +3924,21 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.7536875,
+        35.0059375
+      ],
       "locationAccuracy": "市区町村確認・地点非公開",
       "sourceIds": [
         "sg2src-nobu-kyoto-city",
-        "sg2src-nobu-kyoto-honnoji"
+        "sg2src-nobu-kyoto-honnoji",
+        "sg2src-b-user-plus-8-20261108"
       ],
       "sourceUrls": [
         "https://www.city.kyoto.lg.jp/sogo/page/0000015599.html",
-        "https://jmapps.ne.jp/kyotocity_bunka/det.html?data_id=370"
+        "https://jmapps.ne.jp/kyotocity_bunka/det.html?data_id=370",
+        "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/ishibumi/html/na149.html"
       ],
       "approval": {
         "sheetRow": 123,
@@ -3912,6 +3952,33 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-honnoji-old"
+      },
+      "pinApproval": {
+        "sheetRow": 1555,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "145c8dd142106cb97de54b3d285db15edae995acd44ccd1c6f04b5d3362a5c53",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-honnoji-old"
+      },
+      "pinReview": {
+        "sourceSheetRow": 8,
+        "decision": "可",
+        "locationKind": "京都市歴史資料館NA149『本能寺跡』公道沿い石標の公開参照点",
+        "accessStatus": "green",
+        "restriction": "公道側の本能寺跡石標を示します。1582年の本堂・自害室や現在の寺町本能寺の所在地とは区別します。周辺施設に無断で入らないでください。 出典：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。",
+        "checkedAt": "2026-11-08",
+        "municipality": "京都府京都市中京区",
+        "officialInfoUrl": "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/ishibumi/html/na149.html",
+        "positionEvidenceUrl": "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/ishibumi/html/na149.html",
+        "positionSourceIds": [
+          "sg2src-b-user-plus-8-20261108"
+        ]
       }
     },
     {
@@ -3928,11 +3995,15 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.7350625,
+        35.2991875
+      ],
       "locationAccuracy": "複数候補",
       "sourceIds": [
-        "sg2src-nobu-ichinomiya-shotokuji"
+        "sg2src-nobu-ichinomiya-shotokuji",
+        "sg2src-b-user-plus-9-20261108"
       ],
       "sourceUrls": [
         "https://www.city.ichinomiya.aichi.jp/rekimin/1010272/1067871.html"
@@ -3949,6 +4020,33 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-shotokuji-disputed"
+      },
+      "pinApproval": {
+        "sheetRow": 1556,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "1239ac5e5291b9a54321d51850eaed6a9d83f3a00450eb44072fe00d4b8f8bec",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-shotokuji-disputed"
+      },
+      "pinReview": {
+        "sourceSheetRow": 9,
+        "decision": "可",
+        "locationKind": "一宮市冨田字大堀の市指定『聖徳寺跡』公開石碑・説明板参照点",
+        "accessStatus": "green",
+        "restriction": "公開史跡碑の位置であり1553年の会見地には異説があります。当日の会見室の位置を確定しません。 出典：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。",
+        "checkedAt": "2026-11-08",
+        "municipality": "愛知県一宮市",
+        "officialInfoUrl": "https://www.city.ichinomiya.aichi.jp/rekimin/1010272/1067871.html",
+        "positionEvidenceUrl": "https://www.city.ichinomiya.aichi.jp/rekimin/1010272/1067871.html",
+        "positionSourceIds": [
+          "sg2src-b-user-plus-9-20261108"
+        ]
       }
     },
     {
@@ -4109,16 +4207,22 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.3222,
+        35.415961
+      ],
       "locationAccuracy": "市区町村確認・地点不明",
       "sourceIds": [
         "sg2src-nobu-shiga-odani-booklet",
-        "sg2src-b-anegawa-city-20261106"
+        "sg2src-b-anegawa-city-20261106",
+        "sg2src-b-pin-batch2-12-20261108"
       ],
       "sourceUrls": [
         "https://www.pref.shiga.lg.jp/file/attachment/2042772.pdf",
-        "https://www.city.nagahama.lg.jp/section/bunkazai/siteihyou.html"
+        "https://www.city.nagahama.lg.jp/section/bunkazai/siteihyou.html",
+        "https://www.biwako-visitors.jp/spot/detail/1656/",
+        "https://kitabiwako.jp/spot/spot_2012"
       ],
       "approval": {
         "sheetRow": 127,
@@ -4132,6 +4236,34 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8\nsg-a7bb09927601",
         "sourceId": "sg2site-nobu-anegawa"
+      },
+      "pinApproval": {
+        "sheetRow": 1557,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "44000184f7eb8e31a4b608150771bdb451b941d78e510815026faf2e86e4eec5",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8\nsg-a7bb09927601",
+        "sourceId": "sg2site-nobu-anegawa"
+      },
+      "pinReview": {
+        "sourceSheetRow": 12,
+        "decision": "可",
+        "locationKind": "公式案内地点（長浜米原観光協会の『姉川古戦場』Google地図参照点、野村橋付近の慰霊碑周辺）",
+        "accessStatus": "yellow",
+        "restriction": "野村橋付近の広域戦場案内参照点です。橋の車両通行規制・道路や河川敷の安全に注意してください。",
+        "checkedAt": "2026-11-08",
+        "municipality": "滋賀県長浜市",
+        "officialInfoUrl": "https://www.biwako-visitors.jp/spot/detail/1656/",
+        "positionEvidenceUrl": "https://kitabiwako.jp/spot/spot_2012",
+        "positionSourceIds": [
+          "sg2src-b-anegawa-city-20261106",
+          "sg2src-b-pin-batch2-12-20261108"
+        ]
       }
     },
     {
@@ -4149,18 +4281,24 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.84096,
+        35.070503
+      ],
       "locationAccuracy": "市区町村確認・地点不明",
       "sourceIds": [
         "sg2src-nobu-otsu-sakamoto",
         "sg2src-nobu-fukui-asakura-museum",
-        "sg2src-b-enryakuji-two-muni-20261106"
+        "sg2src-b-enryakuji-two-muni-20261106",
+        "sg2src-b-pin-batch2-13-20261108"
       ],
       "sourceUrls": [
         "https://www.city.otsu.lg.jp/bz/a/03/16/60747.html",
         "https://asakura-museum.pref.fukui.lg.jp/site/history",
-        "https://www.pref.kyoto.jp/isan/enryaku.html"
+        "https://www.pref.kyoto.jp/isan/enryaku.html",
+        "https://www.hieizan.or.jp/grounds/toudou.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/25/250000049700.html"
       ],
       "approval": {
         "sheetRow": 128,
@@ -4174,6 +4312,34 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-enryakuji"
+      },
+      "pinApproval": {
+        "sheetRow": 1558,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "75efeebbf2d46a6482ed573b84c2113232d1c91d135516694a3460c296d25bb7",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-enryakuji"
+      },
+      "pinReview": {
+        "sourceSheetRow": 13,
+        "decision": "可",
+        "locationKind": "公式公開案内地点（大津市坂本本町・延暦寺東塔の現根本中堂の歴史地名参照点）",
+        "accessStatus": "yellow",
+        "restriction": "延暦寺東塔の根本中堂周辺の代表点です。中堂内部は2028年1月頃まで通常拝観停止の案内があり、最新の公式情報を確認してください。 出典：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。",
+        "checkedAt": "2026-11-08",
+        "municipality": "滋賀県大津市・京都府京都市左京区",
+        "officialInfoUrl": "https://www.hieizan.or.jp/grounds/toudou.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/25/250000049700.html",
+        "positionSourceIds": [
+          "sg2src-b-enryakuji-two-muni-20261106",
+          "sg2src-b-pin-batch2-13-20261108"
+        ]
       }
     },
     {
@@ -4333,16 +4499,22 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.698899,
+        35.092373
+      ],
       "locationAccuracy": "市区町村確認・地点非公開",
       "sourceIds": [
         "sg2src-nobu-mie-nagashima-history",
-        "sg2src-nobu-mie-nagashima-ruins"
+        "sg2src-nobu-mie-nagashima-ruins",
+        "sg2src-b-user-plus-16-20261108",
+        "sg2src-b-nagashima-public-board-20261108"
       ],
       "sourceUrls": [
         "https://www.bunka.pref.mie.lg.jp/rekishi/kenshi/asp/arekore/detail8.html",
-        "https://www.pref.mie.lg.jp/maibun/hp/p0041000481.htm"
+        "https://www.pref.mie.lg.jp/maibun/hp/p0041000481.htm",
+        "https://shirobito.jp/castle/1722"
       ],
       "approval": {
         "sheetRow": 131,
@@ -4356,6 +4528,34 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-nagashima-castle"
+      },
+      "pinApproval": {
+        "sheetRow": 1559,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "aedde8878f73407d5973309d7eea2a819ef074d0b8d20a57dbc79fb10e33e1cd",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-nagashima-castle"
+      },
+      "pinReview": {
+        "sourceSheetRow": 16,
+        "decision": "可",
+        "locationKind": "公式史跡説明板の校外参照点（長島中部小学校東側道路沿い）",
+        "accessStatus": "yellow",
+        "restriction": "長島中部小学校外の公開説明板付近を示します。学校敷地に無断で立ち入らず、校門前で駐停車しないでください。 出典：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。",
+        "checkedAt": "2026-11-08",
+        "municipality": "三重県桑名市",
+        "officialInfoUrl": "https://www.pref.mie.lg.jp/maibun/hp/p0041000481.htm",
+        "positionEvidenceUrl": "https://shirobito.jp/castle/1722",
+        "positionSourceIds": [
+          "sg2src-b-user-plus-16-20261108",
+          "sg2src-b-nagashima-public-board-20261108"
+        ]
       }
     },
     {
@@ -4372,16 +4572,21 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.1352344,
+        35.15029465
+      ],
       "locationAccuracy": "市区町村確認・地点不明",
       "sourceIds": [
         "sg2src-nobu-bunka-azuchi-edict",
-        "sg2src-nobu-omihachiman-azuchi-edict"
+        "sg2src-nobu-omihachiman-azuchi-edict",
+        "sg2src-b-azuchi-seminario-17-20261108"
       ],
       "sourceUrls": [
         "https://online.bunka.go.jp/db/heritages/detail/197586",
-        "https://adeac.jp/omihachiman-city/catalog/mp210001-200010"
+        "https://adeac.jp/omihachiman-city/catalog/mp210001-200010",
+        "https://www.omi8.com/spot/detail_1197.html"
       ],
       "approval": {
         "sheetRow": 132,
@@ -4395,6 +4600,33 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-azuchi-town"
+      },
+      "pinApproval": {
+        "sheetRow": 1560,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "943a8593df8bf17ebf7ffc77eff411eb63bfb414883f15fca3ffe94b908d0c3e",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-azuchi-town"
+      },
+      "pinReview": {
+        "sourceSheetRow": 17,
+        "decision": "可",
+        "locationKind": "史跡現地の一部・公式案内地点（安土セミナリヨ跡公園／安土城下町域の一角）",
+        "accessStatus": "green",
+        "restriction": "安土城下町域の一角にある公開公園の参照点です。城下町全域・信長の当時の所在や城郭の中心点ではありません。",
+        "checkedAt": "2026-11-08",
+        "municipality": "滋賀県近江八幡市",
+        "officialInfoUrl": "https://www.omi8.com/spot/detail_1197.html",
+        "positionEvidenceUrl": "https://www.omi8.com/spot/detail_1197.html",
+        "positionSourceIds": [
+          "sg2src-b-azuchi-seminario-17-20261108"
+        ]
       }
     },
     {
@@ -4482,12 +4714,16 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.5244375,
+        34.6845625
+      ],
       "locationAccuracy": "市区町村確認・地点不明",
       "sourceIds": [
         "sg2src-nobu-osaka-honganji-place",
-        "sg2src-nobu-bunka-honganji-kyonyo"
+        "sg2src-nobu-bunka-honganji-kyonyo",
+        "sg2src-b-user-plus-19-20261108"
       ],
       "sourceUrls": [
         "https://www.city.osaka.lg.jp/chuo/page/0000641506.html",
@@ -4505,6 +4741,33 @@
         "kind": "史跡",
         "personId": "sg-6eaf66c3d7c8",
         "sourceId": "sg2site-nobu-ishiyama-honganji"
+      },
+      "pinApproval": {
+        "sheetRow": 1561,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "314f82fed65c22ff32a1af3dc7cd38031d4825a1d834f51b6e130b89aae61dd8",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-ishiyama-honganji"
+      },
+      "pinReview": {
+        "sourceSheetRow": 19,
+        "decision": "可",
+        "locationKind": "大阪城公園内の『石山本願寺推定地』碑・公開案内参照点",
+        "accessStatus": "green",
+        "restriction": "大阪城公園内の石山本願寺推定地碑の参照点です。旧本願寺の寺域や本堂の正確な位置ではありません。 出典：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。",
+        "checkedAt": "2026-11-08",
+        "municipality": "大阪府大阪市中央区",
+        "officialInfoUrl": "https://www.city.osaka.lg.jp/chuo/page/0000641506.html",
+        "positionEvidenceUrl": "https://www.city.osaka.lg.jp/chuo/page/0000641506.html",
+        "positionSourceIds": [
+          "sg2src-b-user-plus-19-20261108"
+        ]
       }
     },
     {
@@ -5011,16 +5274,22 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        133.822263,
+        34.692673
+      ],
       "locationAccuracy": "市区町村確認・地点不明",
       "sourceIds": [
         "sg2src-hideyoshi-okayama-takamatsu",
-        "sg2src-hideyoshi-okayama-takamatsu-library"
+        "sg2src-hideyoshi-okayama-takamatsu-library",
+        "sg2src-b-pin-batch2-27-20261108"
       ],
       "sourceUrls": [
         "https://www.city.okayama.jp/life/0000041573.html",
-        "https://www.city.okayama.jp/kurashi/0000008989.html"
+        "https://www.city.okayama.jp/kurashi/0000008989.html",
+        "https://www.okayama-kanko.jp/spot/detail_10102.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/34/340000230800.html"
       ],
       "approval": {
         "sheetRow": 142,
@@ -5034,6 +5303,33 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-bitchu-takamatsu"
+      },
+      "pinApproval": {
+        "sheetRow": 1562,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "cb1c85f3ff2a84c200985e821b7778def91b601dbda9d91f0fa15deac0716f6e",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-bitchu-takamatsu"
+      },
+      "pinReview": {
+        "sourceSheetRow": 27,
+        "decision": "可",
+        "locationKind": "史跡現地（岡山市北区高松・国史跡備中高松城跡の公開城址公園の歴史地名参照点）",
+        "accessStatus": "green",
+        "restriction": "備中高松城址公園の代表点です。水攻めの築堤跡は別地点のため、このピンを築堤遺構と同一視しないでください。 出典：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。",
+        "checkedAt": "2026-11-08",
+        "municipality": "岡山県岡山市北区",
+        "officialInfoUrl": "https://www.okayama-kanko.jp/spot/detail_10102.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/34/340000230800.html",
+        "positionSourceIds": [
+          "sg2src-b-pin-batch2-27-20261108"
+        ]
       }
     },
     {
@@ -5050,18 +5346,23 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.19306,
+        35.50611
+      ],
       "locationAccuracy": "市区町村確認・地点不明",
       "sourceIds": [
         "sg2src-hideyoshi-nagahama-shizugatake",
         "sg2src-hideyoshi-nagahama-exhibition2026",
-        "sg2src-b-shizugatake-shiga-20261106"
+        "sg2src-b-shizugatake-shiga-20261106",
+        "sg2src-b-pin-batch2-28-20261108"
       ],
       "sourceUrls": [
         "https://nagahama-rekihaku.jp/publication/461",
         "https://nagahama-rekihaku.jp/exhibit/599",
-        "https://www.biwako-visitors.jp/spot/detail/1648/"
+        "https://www.biwako-visitors.jp/spot/detail/1648/",
+        "https://www.shizugatakelift.jp/fee/"
       ],
       "approval": {
         "sheetRow": 143,
@@ -5075,6 +5376,34 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-shizugatake"
+      },
+      "pinApproval": {
+        "sheetRow": 1563,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "4a4a2e5c0232ac8a1f7009293b1cc29b4ca4d299ed594406ed9fe75187c2b2e9",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-shizugatake"
+      },
+      "pinReview": {
+        "sourceSheetRow": 28,
+        "decision": "可",
+        "locationKind": "公的伝承地（長浜市木之本町大音・賤ヶ岳の一般登山可能な山頂古戦場記念碑付近の地理参照点）",
+        "accessStatus": "yellow",
+        "restriction": "賤ヶ岳山頂古戦場の参照点です。リフトは冬季運休があり、積雪・悪天候の登山道での安全と通行規制に従ってください。",
+        "checkedAt": "2026-11-08",
+        "municipality": "滋賀県長浜市",
+        "officialInfoUrl": "https://www.shizugatakelift.jp/fee/",
+        "positionEvidenceUrl": "https://www.biwako-visitors.jp/spot/detail/1648/",
+        "positionSourceIds": [
+          "sg2src-b-shizugatake-shiga-20261106",
+          "sg2src-b-pin-batch2-28-20261108"
+        ]
       }
     },
     {
@@ -5166,16 +5495,22 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        136.950542,
+        35.32825
+      ],
       "locationAccuracy": "市区町村確認・地点非公開",
       "sourceIds": [
         "sg2src-hideyoshi-komaki-chronology",
-        "sg2src-b-gakuden-inuyama-20261106"
+        "sg2src-b-gakuden-inuyama-20261106",
+        "sg2src-b-user-plus-30-20261108",
+        "sg2src-b-gakuden-publicstone-20261108"
       ],
       "sourceUrls": [
         "https://www.city.komaki.aichi.jp/admin/soshiki/kyoiku/bunkazai/1_1/2/bunkazai/9161.html",
-        "https://www.city.inuyama.aichi.jp/kurashi/bunka/1001063/1011684/1011685.html"
+        "https://www.city.inuyama.aichi.jp/kurashi/bunka/1001063/1011684/1011685.html",
+        "https://shirobito.jp/report?page=815"
       ],
       "approval": {
         "sheetRow": 145,
@@ -5189,6 +5524,35 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-gakuden"
+      },
+      "pinApproval": {
+        "sheetRow": 1564,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "afee650a81cf835861a412dd65333a2a228d71e507f6d4fe0664b7a2deb6a750",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-gakuden"
+      },
+      "pinReview": {
+        "sourceSheetRow": 30,
+        "decision": "可",
+        "locationKind": "公式に公開案内される校外石碑の位置参照点（楽田城跡・楽田小学校北西側の城址碑）",
+        "accessStatus": "yellow",
+        "restriction": "楽田小学校外の城址碑付近を示します。城跡の校地内は一般見学対象外です。校内無断立入・児童への接近・校門前駐停車は禁止です。 出典：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。",
+        "checkedAt": "2026-11-08",
+        "municipality": "愛知県犬山市",
+        "officialInfoUrl": "https://www.city.inuyama.aichi.jp/kurashi/bunka/1001063/1011684/1011685.html",
+        "positionEvidenceUrl": "https://shirobito.jp/report?page=815",
+        "positionSourceIds": [
+          "sg2src-b-gakuden-inuyama-20261106",
+          "sg2src-b-user-plus-30-20261108",
+          "sg2src-b-gakuden-publicstone-20261108"
+        ]
       }
     },
     {
@@ -5205,16 +5569,21 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.7460625,
+        35.0249375
+      ],
       "locationAccuracy": "市区町村確認・地点非公開",
       "sourceIds": [
         "sg2src-hideyoshi-kyotofu-juraku",
-        "sg2src-hideyoshi-kyoto-juraku"
+        "sg2src-hideyoshi-kyoto-juraku",
+        "sg2src-b-user-plus-31-20261108"
       ],
       "sourceUrls": [
         "https://www.kyoto-be.ne.jp/bunkazai/cms/?p=2285",
-        "https://www.city.kyoto.lg.jp/kamigyo/page/0000012711.html"
+        "https://www.city.kyoto.lg.jp/kamigyo/page/0000012711.html",
+        "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/ishibumi/html/ka052.html"
       ],
       "approval": {
         "sheetRow": 146,
@@ -5228,6 +5597,33 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-juraku"
+      },
+      "pinApproval": {
+        "sheetRow": 1565,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "ec1e4b824bfc4b1337ab8f2eb46a4a149d286804acb219f3b45f2fa7e0d6bb56",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-juraku"
+      },
+      "pinReview": {
+        "sourceSheetRow": 31,
+        "decision": "可",
+        "locationKind": "上京区中立売通裏門西入の市公表『聚楽第址』石標参照点",
+        "accessStatus": "green",
+        "restriction": "京都市が案内する聚楽第址の公道沿い石標の参照点です。旧城域の中心・秀吉の居室ではありません。私有地へ入らないでください。 出典：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。",
+        "checkedAt": "2026-11-08",
+        "municipality": "京都府京都市上京区",
+        "officialInfoUrl": "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/ishibumi/html/ka052.html",
+        "positionEvidenceUrl": "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/ishibumi/html/ka052.html",
+        "positionSourceIds": [
+          "sg2src-b-user-plus-31-20261108"
+        ]
       }
     },
     {
@@ -5525,16 +5921,23 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.77034,
+        34.929703
+      ],
       "locationAccuracy": "市区町村確認・地点非公開",
       "sourceIds": [
         "sg2src-hideyoshi-kyotofu-fushimi",
-        "sg2src-hideyoshi-hyogo-fushimi"
+        "sg2src-hideyoshi-hyogo-fushimi",
+        "sg2src-b-user-plus-36-20261108",
+        "sg2src-b-fushimi-shigetsu-public-marker-review-20261109"
       ],
       "sourceUrls": [
         "https://www.kyoto-be.ne.jp/bunkazai/cms/?p=2276",
-        "https://rekihaku.pref.hyogo.lg.jp/database/shiryo/detail/?id=2791"
+        "https://rekihaku.pref.hyogo.lg.jp/database/shiryo/detail/?id=2791",
+        "https://lfb.mof.go.jp/kinki/kanzai/pagekk_cnt_20211020004.html",
+        "https://kyoto-bunkaisan.city.kyoto.lg.jp/report/pdf/tyousa/03/maizou_06.pdf"
       ],
       "approval": {
         "sheetRow": 151,
@@ -5548,6 +5951,34 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb",
         "sourceId": "sg2site-hideyoshi-fushimi-shigetsu"
+      },
+      "pinApproval": {
+        "sheetRow": 1566,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "800b45378f67abaabbe49022d57f106c8904345cb5db27ae7f013a82cf675fe8",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-fushimi-shigetsu"
+      },
+      "pinReview": {
+        "sourceSheetRow": 36,
+        "decision": "可",
+        "locationKind": "指月城跡の埋蔵文化財包蔵地内に現存する公開公園「泰長老公園」の公園参照点",
+        "accessStatus": "yellow",
+        "restriction": "指月城跡の歴史情報に関連する泰長老公園の公開参照点です。周辺の宿舎・住居・陵墓管理地には立ち入らないでください。 出典：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。",
+        "checkedAt": "2026-11-09",
+        "municipality": "京都府京都市伏見区",
+        "officialInfoUrl": "https://lfb.mof.go.jp/kinki/kanzai/pagekk_cnt_20211020004.html",
+        "positionEvidenceUrl": "https://kyoto-bunkaisan.city.kyoto.lg.jp/report/pdf/tyousa/03/maizou_06.pdf",
+        "positionSourceIds": [
+          "sg2src-b-user-plus-36-20261108",
+          "sg2src-b-fushimi-shigetsu-public-marker-review-20261109"
+        ]
       }
     },
     {
@@ -5565,8 +5996,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.780854,
+        34.941691
+      ],
       "locationAccuracy": "市区町村確認・地点非公開",
       "sourceIds": [
         "sg2src-hideyoshi-kyotofu-fushimi",
@@ -5574,7 +6008,8 @@
       ],
       "sourceUrls": [
         "https://www.kyoto-be.ne.jp/bunkazai/cms/?p=2276",
-        "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/nenpyou/htmlsheet/toshi20.html"
+        "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/nenpyou/htmlsheet/toshi20.html",
+        "https://www.city.kyoto.lg.jp/kensetu/page/0000257048.html"
       ],
       "approval": {
         "sheetRow": 152,
@@ -5588,6 +6023,34 @@
         "kind": "史跡",
         "personId": "sg-f47391608dbb\nsg-a7bb09927601",
         "sourceId": "sg2site-hideyoshi-fushimi-kohata"
+      },
+      "pinApproval": {
+        "sheetRow": 1567,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "c8a85587d32aea4dbdc8f7e3dd83fd308d3429f53b765b3552316a6a2d2b56f1",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb\nsg-a7bb09927601",
+        "sourceId": "sg2site-hideyoshi-fushimi-kohata"
+      },
+      "pinReview": {
+        "sourceSheetRow": 37,
+        "decision": "可",
+        "locationKind": "史跡外郭・公開公園内の伏見城北側外堀遺構を示す公式公園参照点「伏見北堀公園」",
+        "accessStatus": "yellow",
+        "restriction": "伏見北堀公園内の外堀遺構参照点です。伏見木幡山城の本丸や天守ではなく、伏見桃山陵墓地の管理区域には入らないでください。",
+        "checkedAt": "2026-11-08",
+        "municipality": "京都府京都市伏見区",
+        "officialInfoUrl": "https://www.city.kyoto.lg.jp/kensetu/page/0000257048.html",
+        "positionEvidenceUrl": "https://www.city.kyoto.lg.jp/kensetu/page/0000257048.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-kyotofu-fushimi",
+          "sg2src-hideyoshi-kyoto-fushimi"
+        ]
       }
     },
     {
@@ -7367,6 +7830,80 @@
           "sg2src-b-pin2-nikko-20261107"
         ]
       }
+    },
+    {
+      "siteId": "sg2site-hideyoshi-taiheiji",
+      "name": "泰平寺（秀吉・島津義久和睦の地）",
+      "description": "1587年、九州に進んだ豊臣秀吉のもとへ島津義久が降伏を申し入れ、二人が対面した泰平寺。島津氏の九州制覇の望みはここで断たれ、島津家は豊臣政権のもとに入った。隣の泰平寺公園には、和睦を伝える石が残る。",
+      "personIds": [
+        "sg-f47391608dbb"
+      ],
+      "municipalityCodes": [
+        "46215"
+      ],
+      "municipalityCode": "46215",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        130.305374,
+        31.824417
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-hideyoshi-kagoshima-pref-kyushu-1587",
+        "sg2src-hideyoshi-japan47go-taiheiji",
+        "sg2src-hideyoshi-kagoshima-taiheiji-address",
+        "sg2src-b-pin-next-216-20261108"
+      ],
+      "sourceUrls": [
+        "https://www.pref.kagoshima.jp/ab23/pr/gaiyou/rekishi/tyuusei/kyusyu.html",
+        "https://www.japan47go.travel/ja/detail/28ffd453-0557-4f14-b51e-78d932135f07",
+        "https://www.pref.kagoshima.jp/am01/event/2024100120.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/47/470000123400.html"
+      ],
+      "approval": {
+        "sheetRow": 970,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "c483f4de7dff74a022ff0758aee4ba8caf93d70eabd67d281b7af1b5c1730afd",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-taiheiji"
+      },
+      "pinApproval": {
+        "sheetRow": 1553,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "c483f4de7dff74a022ff0758aee4ba8caf93d70eabd67d281b7af1b5c1730afd",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-taiheiji"
+      },
+      "pinReview": {
+        "sourceSheetRow": 216,
+        "decision": "可",
+        "locationKind": "史跡現地（泰平寺跡の学術位置参照点。隣接する泰平寺公園・和睦石とは別）",
+        "accessStatus": "green",
+        "restriction": "公開位置は寺の歴史地名参照点で、1587年の会見場所の部屋や当時の伽藍の正確な位置を示しません。寺院内部・私有地・非公開区域へ無断で立ち入らず、現地案内に従ってください。位置データ出典：『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。",
+        "checkedAt": "2026-11-08",
+        "municipality": "鹿児島県薩摩川内市",
+        "officialInfoUrl": "https://www.japan47go.travel/ja/detail/28ffd453-0557-4f14-b51e-78d932135f07",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/47/470000123400.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-japan47go-taiheiji",
+          "sg2src-b-pin-next-216-20261108"
+        ]
+      }
     }
   ],
   "relations": [
@@ -8524,6 +9061,22 @@
         "https://www.archives.go.jp/exhibition/digital/ieyasu/contents3_02/03/",
         "https://www.kyoto-be.ne.jp/bunkazai/cms/?p=2276",
         "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/nenpyou/htmlsheet/toshi20.html"
+      ]
+    },
+    {
+      "personId": "sg-f47391608dbb",
+      "historyId": "sg2hist-hideyoshi-kyushu-1587",
+      "siteId": "sg2site-hideyoshi-taiheiji",
+      "classification": "本人直接",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-hideyoshi-kagoshima-pref-kyushu-1587",
+        "sg2src-hideyoshi-japan47go-taiheiji"
+      ],
+      "sourceUrls": [
+        "https://www.pref.kagoshima.jp/ab23/pr/gaiyou/rekishi/tyuusei/kyusyu.html",
+        "https://www.japan47go.travel/ja/detail/28ffd453-0557-4f14-b51e-78d932135f07"
       ]
     }
   ],

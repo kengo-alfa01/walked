@@ -10,6 +10,21 @@
   const PEOPLE=new Set(['sg-6eaf66c3d7c8','sg-f47391608dbb','sg-a7bb09927601']);
   // Immutable release manifest: ⑥ row, ③ row, [longitude,latitude], status, and reviewed date.
   const PIN_APPROVED_META=Object.freeze({
+  "sg2site-hideyoshi-fushimi-kohata": [1567, 37, 135.780854, 34.941691, "yellow", "2026-11-08"],
+  "sg2site-hideyoshi-fushimi-shigetsu": [1566, 36, 135.77034, 34.929703, "yellow", "2026-11-09"],
+  "sg2site-hideyoshi-juraku": [1565, 31, 135.7460625, 35.0249375, "green", "2026-11-08"],
+  "sg2site-hideyoshi-gakuden": [1564, 30, 136.950542, 35.32825, "yellow", "2026-11-08"],
+  "sg2site-hideyoshi-shizugatake": [1563, 28, 136.19306, 35.50611, "yellow", "2026-11-08"],
+  "sg2site-hideyoshi-bitchu-takamatsu": [1562, 27, 133.822263, 34.692673, "green", "2026-11-08"],
+  "sg2site-nobu-ishiyama-honganji": [1561, 19, 135.5244375, 34.6845625, "green", "2026-11-08"],
+  "sg2site-nobu-azuchi-town": [1560, 17, 136.1352344, 35.15029465, "green", "2026-11-08"],
+  "sg2site-nobu-nagashima-castle": [1559, 16, 136.698899, 35.092373, "yellow", "2026-11-08"],
+  "sg2site-nobu-enryakuji": [1558, 13, 135.84096, 35.070503, "yellow", "2026-11-08"],
+  "sg2site-nobu-anegawa": [1557, 12, 136.3222, 35.415961, "yellow", "2026-11-08"],
+  "sg2site-nobu-shotokuji-disputed": [1556, 9, 136.7350625, 35.2991875, "green", "2026-11-08"],
+  "sg2site-nobu-honnoji-old": [1555, 8, 135.7536875, 35.0059375, "green", "2026-11-08"],
+  "sg2site-nobu-shitaragahara": [1554, 6, 137.52502778, 34.92175, "green", "2026-11-08"],
+  "sg2site-hideyoshi-taiheiji": [1553, 216, 130.305374, 31.824417, "green", "2026-11-08"],
   "sg2site-ieyasu-edo": [1546, 54, 139.7559375, 35.6861875, "yellow", "2026-11-10"],
   "sg2site-nobu-okehazama-tradition": [
     465,
