@@ -31,7 +31,7 @@
   function rowWire(r){
     return {historyId:r.historyId,personId:r.personId,startYear:r.startYear,
       endYear:r.endYear,displayOrder:r.displayOrder,tieStatus:r.tieStatus,
-      yearText:r.yearText,phase:r.phase};
+      yearText:r.yearText,phase:r.phase,tieReason:r.tieReason,tieEvidenceIds:r.tieEvidenceIds};
   }
   function sortForHash(rows){return rows.map(rowWire).sort((a,b)=>a.historyId.localeCompare(b.historyId));}
   function constraintWire(c){
@@ -58,6 +58,8 @@
       check(typeof r.yearText==='string'&&r.yearText&&typeof r.phase==='string'&&r.phase,'年次表示・物語段階がありません '+r.historyId);
       check(r.displayOrder===null||Number.isSafeInteger(r.displayOrder)&&r.displayOrder>0,'Tは正の整数・単年1件のみ空欄 '+r.historyId);
       check(r.tieStatus===null||r.tieStatus==='unresolved','同順位理由が不正 '+r.historyId);
+      check(r.tieReason===null||typeof r.tieReason==='string','同順位根拠が不正 '+r.historyId);
+      check(Array.isArray(r.tieEvidenceIds)&&r.tieEvidenceIds.every(v=>typeof v==='string'&&v.trim()),'同順位の出典IDが不正 '+r.historyId);
       byId.set(r.historyId,{...r,_index:i});
       const groupKey=key(r);if(!years.has(groupKey))years.set(groupKey,[]);
       years.get(groupKey).push(r);
@@ -70,9 +72,11 @@
       for(const r of group){if(!byRank.has(r.displayOrder))byRank.set(r.displayOrder,[]);byRank.get(r.displayOrder).push(r);}
       for(const [rank,tied] of byRank){
         if(tied.length>1){
-          check(rank!==null&&tied.every(r=>r.tieStatus==='unresolved'),'同順位の留保がありません '+groupKey+' / '+rank);
+          check(rank!==null&&tied.every(r=>r.tieStatus==='unresolved'&&r.tieReason?.trim()&&r.tieEvidenceIds.length>0),
+            '同順位の留保・②Sの理由・⑤出典IDがありません '+groupKey+' / '+rank);
           tieEntries.set(groupKey+'|'+rank,tied.map(r=>r.historyId));
-        }else check(tied[0].tieStatus===null,'単独経歴に未確定同順位が付いています '+tied[0].historyId);
+        }else check(tied[0].tieStatus===null&&tied[0].tieReason===null&&tied[0].tieEvidenceIds.length===0,
+          '単独経歴に未確定同順位が付いています '+tied[0].historyId);
       }
       yearHashes.set(groupKey,digest(hash,sortForHash(group)));
     }
@@ -112,7 +116,7 @@
     return {schemaVersion:Q_SCHEMA,personId:row.personId,historyId:row.historyId,
       startYear:row.startYear,endYear:row.endYear,displayOrder:row.displayOrder,
       tieStatus:row.tieStatus,yearGroupSha256:verified.yearHashes.get(key(row)),
-      bReviewId:review.reviewId,bRowsSha256:review.rowsSha256};
+      bReviewId:review.reviewId,bRowsSha256:review.rowsSha256,bConstraintsSha256:review.constraintsSha256};
   }
   function versionNumber(version){const m=/^v([1-9]\d*)$/.exec(version||'');return m?Number(m[1]):0;}
   function verifyRelease(release,catalog,hash,options={}){
