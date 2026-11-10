@@ -8599,22 +8599,6 @@
         "https://www.kyoto-be.ne.jp/bunkazai/cms/?p=2276",
         "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/nenpyou/htmlsheet/toshi20.html"
       ]
-    },
-    {
-      "personId": "sg-f47391608dbb",
-      "historyId": "sg2hist-hideyoshi-kyushu-1587",
-      "siteId": "sg2site-hideyoshi-taiheiji",
-      "classification": "本人直接",
-      "bStatus": "合格",
-      "linkDecision": "関係上対象",
-      "sourceIds": [
-        "sg2src-hideyoshi-kagoshima-pref-kyushu-1587",
-        "sg2src-hideyoshi-japan47go-taiheiji"
-      ],
-      "sourceUrls": [
-        "https://www.pref.kagoshima.jp/ab23/pr/gaiyou/rekishi/tyuusei/kyusyu.html",
-        "https://www.japan47go.travel/ja/detail/28ffd453-0557-4f14-b51e-78d932135f07"
-      ]
     }
   ],
   "notes": {
