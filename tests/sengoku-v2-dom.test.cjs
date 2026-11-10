@@ -247,3 +247,38 @@ test('unconquered OR destination is not displayed, nearby unvisited regions neve
   assert.equal(other,undefined);
  }finally{w.close()}
 });
+
+test('isolated synthetic rank/tie view renders grouped histories without mutating actual 108 cards, places, titles or backup',async()=>{
+ const w=await mount({walked_municipal_v2:visit(placeCodes)});
+ try{
+  const personId=personIds[0],C=require('../sengoku-chronology.js');
+  const legacy=C.present(approved.histories.filter(h=>h.personId===personId),null);
+  const i=legacy.findIndex((h,j)=>legacy[j+1]?.eventYear===h.eventYear);
+  assert.ok(i>=0,'fixture requires same-year events');
+  const earlier=legacy[i],later=legacy[i+1];
+  const ordered=legacy.map(h=>h.historyId);
+  [ordered[i],ordered[i+1]]=[ordered[i+1],ordered[i]];
+  const group=personId+'|'+earlier.eventYear+'|20';
+  const ties=[
+   [later.historyId,{group,first:true,size:2}],
+   [earlier.historyId,{group,first:false,size:2}]
+  ];
+  const before=raw(w),previous=read(w);
+  w.eval('sengokuChronology.set('+JSON.stringify(personId)+', {orderIds:'+JSON.stringify(ordered)+
+    ',tieById:new Map('+JSON.stringify(ties)+')})');
+  const detail=openSengoku(w,personId);
+  assert.equal(detail.querySelectorAll('.sengoku-era').length,32);
+  assert.equal(detail.querySelectorAll('.sengoku-chronology-tie').length,2);
+  assert.equal(detail.querySelectorAll('.sengoku-chronology-note').length,1);
+  assert.match(detail.textContent,/同年の出来事。前後関係は確定していません。/);
+  const rows=[...detail.querySelectorAll('.sengoku-era')];
+  assert.ok(rows[i].textContent.includes(later.title));
+  assert.ok(rows[i+1].textContent.includes(earlier.title));
+  assert.deepEqual(raw(w),before,'the test-only display order must not touch persisted records');
+  assert.deepEqual(read(w),previous,'backup JSON and story unlock remain bit-for-bit the same');
+  w.eval('sengokuChronology.delete('+JSON.stringify(personId)+')');
+  const fallback=openSengoku(w,personId);
+  assert.equal(fallback.querySelectorAll('.sengoku-chronology-tie').length,0);
+  assert.equal([...fallback.querySelectorAll('.sengoku-era')][i].textContent.includes(earlier.title),true);
+ }finally{w.close()}
+});
