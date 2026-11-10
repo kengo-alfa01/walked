@@ -9,7 +9,7 @@
   const Q_SCHEMA='walked.sengoku.chronology.snapshot.v1';
   const SOURCE='1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw';
   const TIE_NOTE='同年の出来事。前後関係は確定していません。';
-  const TYPES=new Set(['confirmed-date','confirmed-causality','life-before-death','death-before-funeral','death-before-burial','death-before-reburial','posthumous-sequence']);
+  const TYPES=new Set(['confirmed-date','confirmed-causality','life-before-death','death-before-funeral','death-before-burial','death-before-reburial','posthumous-sequence','b-reviewed-order']);
   const own=(x,k)=>Object.prototype.hasOwnProperty.call(x,k);
   function check(condition,reason){if(!condition)throw Error('時系列承認ゲート: '+reason);}
   function obj(x){return x!==null&&typeof x==='object'&&!Array.isArray(x);}
@@ -150,12 +150,32 @@
     for(const r of rows){
       const a=approvalById.get(r.historyId),h=oldById.get(r.historyId);
       check(!!a,'⑥承認がありません '+r.historyId);
-      check(a.personId===r.personId&&a.sheetRow>h.approval.sheetRow&&Number.isSafeInteger(a.sheetRow)&&
-        versionNumber(a.version)>versionNumber(h.approval.version),'⑥の新規版・人物・承認行が不正 '+r.historyId);
+      const sameYearGroup=verified.years.get(key(r));
+      const needsRankApproval=sameYearGroup.length>1;
+      check(a.personId===r.personId&&a.sheetRow>=h.approval.sheetRow&&
+        versionNumber(a.version)>=versionNumber(h.approval.version),'⑥の新版・人物・承認行が不正 '+r.historyId);
+      if(needsRankApproval&&a.sheetRow!==h.approval.sheetRow)
+        check(versionNumber(a.version)>versionNumber(h.approval.version),'順位の⑥旧版を流用できません '+r.historyId);
       check(a.user==='公開OK'&&a.sourceMatch==='一致'&&a.handoff==='C候補（別途公開承認）'&&a.latest===true,
         '⑥最新版のユーザー承認・P照合が未完了 '+r.historyId);
       check(a.textSha256===h.approval.sha256,'⑥本文ハッシュと既存承認本文が不一致 '+r.historyId);
-      check(same(a.qSnapshot,snapshotFor(r,verified,review)),'⑥Q順位スナップショットが②T/B審査と不一致 '+r.historyId);
+      if(needsRankApproval||a.qSnapshot){
+        check(same(a.qSnapshot,snapshotFor(r,verified,review)),'⑥Q順位スナップショットが②T/B審査と不一致 '+r.historyId);
+      }else{
+        check(r.displayOrder===null,'単独年のT変更に順位承認がありません '+r.historyId);
+        check(a.qSnapshot==null,'未承認の⑥Qを流用できません '+r.historyId);
+      }
+      if(needsRankApproval&&!release.testFixture){
+        // The C importer independently parses the actual ⑥Q text and ②S B evidence
+        // into this compact source-attestation, without overwriting approved Q cells.
+        const evidence=a.qEvidence;
+        check(obj(evidence)&&evidence.sheetRow===a.sheetRow&&evidence.historyId===r.historyId&&
+          /^[a-f0-9]{64}$/.test(evidence.qRawSha256||'')&&Number.isInteger(evidence.bSheetRow)&&
+          Array.isArray(evidence.orderedHistoryIds)&&
+          same(evidence.orderedHistoryIds,[...sameYearGroup].sort((x,y)=>
+            x.displayOrder-y.displayOrder||rows.indexOf(x)-rows.indexOf(y)).map(x=>x.historyId)),
+          '⑥Qの承認時グループ順序証跡がありません '+r.historyId);
+      }
     }
     const tieById=new Map(),orderIds=verified.ordered.map(r=>r.historyId);
     for(const [groupKey,ids] of verified.tieEntries){
