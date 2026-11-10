@@ -142,11 +142,83 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    assert.deepEqual(pins.filter(p=>p.color==='#edb42d').map(p=>p.name).sort(),['岐阜城跡','安土城跡','姫路城跡','江戸城跡（家康入府の本拠）'].sort());
    assert.ok(pins.every(p=>p.popup.includes('現地の案内に従ってください。')));
    assert.equal(await page.locator('#showUnknownPins').count(),0);
+
+   // Real iPhone touch-event regression, not marker.fire('click') in test JavaScript.
+   await page.evaluate(()=>{
+     const marker=sengokuPins.getLayers().find(m=>
+       m.getPopup().getContent().textContent.includes('江戸城跡（家康入府の本拠）'));
+     window.__pinTapEvents=[];
+     marker.on('click',()=>window.__pinTapEvents.push('marker-click'));
+     map.on('click',()=>window.__pinTapEvents.push('map-click'));
+     map.on('popupopen',()=>window.__pinTapEvents.push('popup-open'));
+     map.on('popupclose',()=>window.__pinTapEvents.push('popup-close'));
+     map.setView(marker.getLatLng(),13,{animate:false});
+   });
+   await page.locator('#map').scrollIntoViewIfNeeded();
+   await page.waitForTimeout(300);
+   const target=await page.evaluate(()=>{
+     const marker=sengokuPins.getLayers().find(m=>
+       m.getPopup().getContent().textContent.includes('江戸城跡（家康入府の本拠）'));
+     map.invalidateSize();
+     const path=marker.getElement(),r=path?.getBoundingClientRect();
+     if(!r)throw Error('WebKit cannot get the marker SVG element');
+     const x=r.x+r.width/2,y=r.y+r.height/2;
+     const top=document.elementFromPoint(x,y);
+     path.addEventListener('touchstart',()=>window.__pinTapEvents.push('path-touchstart'));
+     path.addEventListener('click',()=>window.__pinTapEvents.push('path-click'));
+     return {x,y,width:r.width,height:r.height,tag:top?.tagName,
+       topClass:top?.getAttribute('class'),pathClass:path.getAttribute('class'),
+       parentPointer:getComputedStyle(map.getPane('sengoku-pins')).pointerEvents,
+       pathPointer:getComputedStyle(path).pointerEvents,
+       isTopPin:top===path,viewport:[innerWidth,innerHeight]};
+   });
+   await page.touchscreen.tap(target.x,target.y);
+   await page.waitForTimeout(300);
+   const tapped=await page.evaluate(()=>({
+     open:map._popup?.isOpen()||false,
+     popup:map._popup?.getContent()?.textContent?.slice(0,200)||'',
+     trace:window.__pinTapEvents,
+     popupNodes:document.querySelectorAll('.leaflet-popup-content').length
+   }));
+   console.log('REAL_WEBKIT_EDO_PIN_TAP_DIAGNOSTIC',JSON.stringify({target,tapped}));
+   assert.match(tapped.popup,/江戸城跡/, 'a real iPhone tap must open the Edo Castle popup');
+   assert.ok(target.width<=16,'the visual pin dot must remain small');
+   await page.evaluate(()=>{map.closePopup();});
+   await page.waitForTimeout(340);
+   const near=await page.evaluate(()=>{
+     const marker=sengokuPins.getLayers().find(m=>
+       m.getPopup().getContent().textContent.includes('江戸城跡（家康入府の本拠）'));
+     const path=marker.getElement(),r=path.getBoundingClientRect();
+     const x=r.x+r.width/2+15,y=r.y+r.height/2;
+     const hit=document.elementFromPoint(x,y),css=getComputedStyle(path);
+     return {x,y,tag:hit?.tagName,isTarget:hit===path,
+       mediaCoarse:matchMedia('(pointer:coarse)').matches,
+       strokeWidth:css.strokeWidth,stroke:css.stroke,
+       pointerEvents:css.pointerEvents,radius:marker.options.radius};
+   });
+   console.log('REAL_WEBKIT_PIN_15PX_OFFSET_HIT_TEST',JSON.stringify(near));
+   assert.equal(near.mediaCoarse,true,'iPhone-like WebKit must be a coarse-pointer device');
+   assert.equal(near.radius,7,'the visible dot retains its original size');
+   assert.equal(near.isTarget,true,'15px outside tiny dot must hit its transparent touch target');
+   await page.touchscreen.tap(near.x,near.y);
+   await page.waitForTimeout(260);
+   const offCenter=await page.evaluate(()=>({
+     open:map._popup?.isOpen()||false,
+     name:map._popup?.getContent()?.querySelector('h3')?.textContent||'',
+     events:window.__pinTapEvents.slice(-8)
+   }));
+   console.log('REAL_WEBKIT_EDO_PIN_OFFSET_TAP_RESULT',JSON.stringify(offCenter));
+   assert.equal(offCenter.open,true);
+   assert.equal(offCenter.name,'江戸城跡（家康入府の本拠）',
+     'off-center finger tap must open the correct pin popup');
+   await page.evaluate(()=>{map.closePopup();});
+   await page.waitForTimeout(350);
+
    await page.evaluate(()=>{
      const marker=sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('岐阜城跡'));
      marker.fire('click');
    });
-   assert.match(await page.locator('.leaflet-popup-content').innerText(),/一部立入制限.*史跡現地/s);
+   assert.match(await page.locator('.leaflet-popup-content').filter({hasText:'岐阜城跡'}).last().innerText(),/一部立入制限.*史跡現地/s);
    await page.locator('.sengoku-person').filter({hasText:'織田信長'}).click();
    assert.equal(await page.locator('.sengoku-person.is-selected[aria-pressed="true"]').count(),1);
    assert.match(await page.locator('#sengokuSelectedName').innerText(),/織田信長/);
@@ -271,7 +343,7 @@ test('iPhone WebKit: regional map popup shows unlocked content and Sengoku area 
   assert.match(await page.locator('.leaflet-popup-content').innerText(),/薬師池公園/);
   assert.equal(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none','hide map background selector while regional popup is open');
   assert.equal(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none','hide current-location control while regional popup is open');
-  await page.locator('.leaflet-popup-close-button').click();
+  await page.locator('.leaflet-popup-close-button').dispatchEvent('click'); // stable WebKit popup close without scrolling offscreen
   await page.locator('.leaflet-popup-content .regional-map-popup').waitFor({state:'detached',timeout:2500});
   assert.notEqual(await page.locator('.map-display-controls').evaluate(el=>getComputedStyle(el).display),'none','restore background selector when regional popup closes');
   assert.notEqual(await page.locator('.map-center').evaluate(el=>getComputedStyle(el).display),'none','restore current-location control when regional popup closes');
