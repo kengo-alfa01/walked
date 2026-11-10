@@ -182,12 +182,43 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    }));
    console.log('REAL_WEBKIT_EDO_PIN_TAP_DIAGNOSTIC',JSON.stringify({target,tapped}));
    assert.match(tapped.popup,/江戸城跡/, 'a real iPhone tap must open the Edo Castle popup');
+   assert.ok(target.width<=16,'the visual pin dot must remain small');
+   await page.evaluate(()=>map.closePopup());
+   await page.waitForTimeout(340);
+   const near=await page.evaluate(()=>{
+     const marker=sengokuPins.getLayers().find(m=>
+       m.getPopup().getContent().textContent.includes('江戸城跡（家康入府の本拠）'));
+     const path=marker.getElement(),r=path.getBoundingClientRect();
+     const x=r.x+r.width/2+15,y=r.y+r.height/2;
+     const hit=document.elementFromPoint(x,y),css=getComputedStyle(path);
+     return {x,y,tag:hit?.tagName,isTarget:hit===path,
+       mediaCoarse:matchMedia('(pointer:coarse)').matches,
+       strokeWidth:css.strokeWidth,stroke:css.stroke,
+       pointerEvents:css.pointerEvents,radius:marker.options.radius};
+   });
+   console.log('REAL_WEBKIT_PIN_15PX_OFFSET_HIT_TEST',JSON.stringify(near));
+   assert.equal(near.mediaCoarse,true,'iPhone-like WebKit must be a coarse-pointer device');
+   assert.equal(near.radius,7,'the visible dot retains its original size');
+   assert.equal(near.isTarget,true,'15px outside tiny dot must hit its transparent touch target');
+   await page.touchscreen.tap(near.x,near.y);
+   await page.waitForTimeout(260);
+   const offCenter=await page.evaluate(()=>({
+     open:map._popup?.isOpen()||false,
+     name:map._popup?.getContent()?.querySelector('h3')?.textContent||'',
+     events:window.__pinTapEvents.slice(-8)
+   }));
+   console.log('REAL_WEBKIT_EDO_PIN_OFFSET_TAP_RESULT',JSON.stringify(offCenter));
+   assert.equal(offCenter.open,true);
+   assert.equal(offCenter.name,'江戸城跡（家康入府の本拠）',
+     'off-center finger tap must open the correct pin popup');
+   await page.evaluate(()=>map.closePopup());
+   await page.waitForTimeout(350);
 
    await page.evaluate(()=>{
      const marker=sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('岐阜城跡'));
      marker.fire('click');
    });
-   assert.match(await page.locator('.leaflet-popup-content').innerText(),/一部立入制限.*史跡現地/s);
+   assert.match(await page.locator('.leaflet-popup-content').filter({hasText:'岐阜城跡'}).last().innerText(),/一部立入制限.*史跡現地/s);
    await page.locator('.sengoku-person').filter({hasText:'織田信長'}).click();
    assert.equal(await page.locator('.sengoku-person.is-selected[aria-pressed="true"]').count(),1);
    assert.match(await page.locator('#sengokuSelectedName').innerText(),/織田信長/);
