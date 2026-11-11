@@ -217,6 +217,23 @@ test('deleted legacy research and publication files are absent from shipping rep
 });
 
 
+test('only earned Sengoku histories become framed cards; viewing them does not change saved records',async()=>{
+ const w=await mount({walked_municipal_v2:visit(['25201'])});
+ try{
+  const before=raw(w);
+  const detail=openSengoku(w,personIds[0]);
+  const owned=[...detail.querySelectorAll('.sengoku-era-owned')];
+  const locked=[...detail.querySelectorAll('.sengoku-era:not(.sengoku-era-owned)')];
+  assert.ok(owned.length>0,'at least one approved history must be acquired');
+  assert.ok(locked.length>0,'unacquired histories must remain unframed');
+  assert.ok(owned.every(row=>row.querySelector('.sengoku-card-status')?.textContent==='獲得済み'));
+  assert.ok(owned.every(row=>row.querySelector('.sengoku-card-title')?.textContent.length>0));
+  assert.ok(owned.every(row=>row.querySelector('.sengoku-card-description')?.textContent.length>0));
+  assert.ok(locked.every(row=>!row.querySelector('.sengoku-card-status')&&!row.querySelector('.sengoku-card-title')));
+  assert.deepEqual(raw(w),before,'a display-only change must not modify visit or card storage');
+ }finally{w.close()}
+});
+
 test('year labels list only currently conquered municipalities for an acquired location-history card',async()=>{
  const w=await mount({
   walked_municipal_v2:visit(['25201','26103']),
