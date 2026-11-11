@@ -1,0 +1,17 @@
+[
+  {
+    "id": "pub-card-450a5da6b076b67bff0ea854",
+    "personId": "sg-76cf3b1e8681",
+    "siteId": "sg-site-ueda",
+    "title": "上田城を攻めた鳥居元忠",
+    "summary": "1585年、鳥居元忠は徳川方の将として上田城への攻撃に参加しました。真田昌幸の守る城を、この戦いで落とすことはできませんでした。\n史実：文化庁「国指定文化財等データベース」を参照しWALKEDが独自作成。位置情報：『日本歴史地名大系』施設・地点項目データセット（CODH作成、CC BY 4.0、doi:10.20676/00000456、https://geoshape.ex.nii.ac.jp/nrct-poi/）。代表点であり入口ではありません。",
+    "source": "https://kunishitei.bunka.go.jp/heritage/detail/401/1173",
+    "verification": "reviewed",
+    "unlockRule": "same_municipality",
+    "eventYear": 1585,
+    "yearEvidence": "publication_review",
+    "historyRecordId": "hist-687b7d0b467444708930",
+    "relationId": "rel-a5427068704bcf3ab9d1",
+    "publicationVersion": "20261031-stage1"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "version": "20261031-stage2-review",
+  "baselineMain": "1e3a66aceee0286e4509941deb6d189f62b90b41",
+  "siteId": "sg-site-hachigata",
+  "field": "municipalityCode",
+  "oldMunicipalityCode": "11362",
+  "newMunicipalityCode": "11408",
+  "point": [
+    139.193361,
+    36.107315
+  ],
+  "expectedRecordHash": "daf2a543af8b057255bf049bac4cc34e36e93f8c45bec786bfa0706dd66733c7",
+  "before": {
+    "id": "sg-site-hachigata",
+    "name": "鉢形城跡",
+    "point": [
+      139.193361,
+      36.107315
+    ],
+    "municipalityCode": "11362",
+    "region": "埼玉県大里郡寄居町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000238300.html",
+    "historySource": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
+    "note": "長尾景春の築城伝承と北条氏邦の整備。"
+  },
+  "after": {
+    "id": "sg-site-hachigata",
+    "name": "鉢形城跡",
+    "point": [
+      139.193361,
+      36.107315
+    ],
+    "municipalityCode": "11408",
+    "region": "埼玉県大里郡寄居町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000238300.html",
+    "historySource": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
+    "note": "長尾景春の築城伝承と北条氏邦の整備。"
+  },
+  "source": "https://www.j-lis.go.jp/spd/code-address/kantou/cms_13214181.html",
+  "locator": "皆野町113620、寄居町114081。末尾検査数字を除く5桁。",
+  "candidatePublicationState": "公開審査待ち",
+  "affectedLegacyCardIds": [
+    "sg-card-0025",
+    "sg-card-0026",
+    "sg-card-v074-007",
+    "sg-card-v074-008",
+    "sg-card-v074-009",
+    "sg-card-0175",
+    "sg-card-0176",
+    "sg-card-0177",
+    "sg-card-0178"
+  ],
+  "newCardCount": 0,
+  "appliedToGame": false,
+  "requiresUserApproval": true,
+  "preserve": [
+    "all existing site/person/card IDs",
+    "all visit keys and original dates",
+    "all previously acquired cards, including awards under the erroneous code"
+  ],
+  "note": "統合マスターのコードは訂正済み。現行ゲームへの適用は別審査・ユーザー承認後。皆野町の過去訪問を寄居町へ移し替えない。"
+}
