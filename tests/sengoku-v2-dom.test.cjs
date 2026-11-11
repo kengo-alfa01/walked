@@ -143,7 +143,7 @@ test('selected commander remains visible when all approved sites have pins and n
   assert.equal(selected.getAttribute('aria-pressed'),'true');
   assert.match(w.document.getElementById('sengokuSelectedName').textContent,/選択中：織田信長/);
   const codes=JSON.parse(w.eval('JSON.stringify([...unpinnedMunicipalityCodes(selectedSengokuPersonId)].sort())'));
-  assert.deepEqual(codes,[],'no city-wide pulse is needed for Nobunaga's existing pins');
+  assert.deepEqual(codes,[],'no city-wide pulse is needed for existing Nobunaga pins');
   assert.equal(w.eval('sengokuAreaPane.style.zIndex'),'550');
   assert.equal(w.eval('sengokuAreaRenderer.options.pane'),'sengoku-areas');
   assert.doesNotMatch(detail.textContent,/ピンのない史跡の地域を地図で見る/);

@@ -40,7 +40,7 @@ test('full 20-person catalog validates, refuses swapped pin coordinates, color, 
  const wrongVersion=clone();wrongVersion.sites.find(s=>s.siteId===sample.siteId).pinApproval.version='v2';
  assert.throws(()=>V.validate(wrongVersion,known,hash),/座標・見学区分|位置版/);
  const people=clone();people.sites.find(s=>s.siteId==='sg2site-kenshin-kasugayama').pinPersonIds=['sg-dc8c550d8769'];
- assert.throws(()=>V.validate(people,known,hash),/位置版⑥人物ID|元ID・人物/);
+ assert.throws(()=>V.validate(people,known,hash),/位置版⑥人物ID|元ID・人物|承認行の人物・文章種別・元ID/);
 });
 test('17 Date Masamune, seven Niigata sites and preserved visit/card records',()=>{
  const dateId='sg-31e0e85d7a10';

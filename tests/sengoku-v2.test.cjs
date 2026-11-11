@@ -218,7 +218,7 @@ test('⑥1546 Edo Castle information pin is yellow, separately approved and not 
  }
  const bad=clone(doc);
  bad.sites.find(x=>x.siteId===sid).pinApproval.sheetRow=169;
- assert.throws(()=>verify(bad),/⑥の同じ承認行|位置版v2/);
+ assert.throws(()=>verify(bad),/⑥の同じ承認行|位置版v2|史跡本文と位置版が同一/);
  const wrong=clone(doc);
  wrong.sites.find(x=>x.siteId===sid).point[0]+=0.001;
  assert.throws(()=>verify(wrong),/座標・見学区分/);
