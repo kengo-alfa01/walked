@@ -616,6 +616,16 @@ function ownsSengokuCard(id){
 }
 function countOwned(personId){return approvedHistories(personId).filter(h=>ownsSengokuCard(h.historyId)).length}
 function catalogCardCount(personId){return approvedHistories(personId).length}
+// Only histories linked to a location-approved, published historic-site pin get a collectible frame.
+// A 'place' history with no approved coordinates remains a normal chronology entry.
+function hasPublishedSengokuPin(history){
+ if(history.kind!=='place'||!sengokuV2Catalog)return false;
+ const siteIds=sengokuV2Catalog.linkSites.get(history.historyId);
+ return !!siteIds&&[...siteIds].some(siteId=>{
+  const site=sengokuV2Catalog.sites.get(siteId);
+  return site?.publicPin===true&&Array.isArray(site.point)&&site.point.length===2;
+ });
+}
 // Popup contents are built as text nodes: spreadsheet text is never interpreted as HTML.
 function sengokuPinPopup(site){
  const details=SengokuV2.pinDetails(site);
@@ -748,7 +758,8 @@ function showSengokuPerson(person){
  const group=document.createElement('h4');group.textContent='生涯の歩み';section.append(group);
  for(const history of histories){
   const owned=ownsSengokuCard(history.historyId);
-  const row=document.createElement('div');row.className='sengoku-era'+(owned?' sengoku-era-owned':'');
+  const framed=owned&&hasPublishedSengokuPin(history);
+  const row=document.createElement('div');row.className='sengoku-era'+(framed?' sengoku-era-owned':'');
   const tie=chronology?.tieById.get(history.historyId);
   if(tie){row.classList.add('sengoku-chronology-tie');row.dataset.tieGroup=tie.group;}
   const date=document.createElement('div');date.className='sengoku-year';date.textContent=history.yearText;
@@ -760,16 +771,18 @@ function showSengokuPerson(person){
   }
   const content=document.createElement('div');
   if(owned){
-   const title=document.createElement('strong');title.className='sengoku-card-title';title.textContent=history.title;
-   const description=document.createElement('p');description.className='sengoku-card-description';description.textContent=history.text;
-   content.append(title,description);
+   if(framed){
+    const title=document.createElement('strong');title.className='sengoku-card-title';title.textContent=history.title;
+    const description=document.createElement('p');description.className='sengoku-card-description';description.textContent=history.text;
+    content.append(title,description);
+   }else content.textContent=history.title+' — '+history.text;
    for(const url of history.sourceUrls||[]){
     if(!/^https:\/\/[^\s]+$/.test(url))continue;
     const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';
     a.textContent=' 出典を読む';content.append(a);
    }
   }else{content.className='sengoku-v2-locked';content.textContent='未発見の足跡'}
-  if(owned){
+  if(framed){
    const header=document.createElement('div');header.className='sengoku-card-header';
    const status=document.createElement('span');status.className='sengoku-card-status';status.textContent='獲得済み';
    header.append(date,status);row.append(header,content);
