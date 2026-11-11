@@ -769,6 +769,20 @@ function showSengokuPerson(person){
  const histories=typeof SengokuChronology==='undefined'
   ?approvedHistories(person.id).sort((a,b)=>(a.eventYear??9999)-(b.eventYear??9999)||a.historyId.localeCompare(b.historyId))
   :SengokuChronology.present(approvedHistories(person.id),chronology);
+ const fallbackTieById=new Map();
+ if(!chronology){
+  const byYearRank=new Map();
+  for(const h of histories){
+   if(!Number.isInteger(h.eventYear)||!Number.isInteger(h.displayOrder))continue;
+   const key=h.eventYear+'|'+h.displayOrder;
+   if(!byYearRank.has(key))byYearRank.set(key,[]);
+   byYearRank.get(key).push(h);
+  }
+  for(const [key,group] of byYearRank){
+   if(group.length<2)continue;
+   for(const [i,h] of group.entries())fallbackTieById.set(h.historyId,{group:key,first:i===0});
+  }
+ }
  const progress=document.createElement('p');progress.className='small-note';
  progress.textContent='経歴カード '+countOwned(person.id)+' / '+histories.length+'枚';section.append(progress);
  const group=document.createElement('h4');group.textContent='生涯の歩み';section.append(group);
@@ -782,7 +796,7 @@ function showSengokuPerson(person){
   const owned=ownsSengokuCard(history.historyId);
   const framed=owned&&hasPublishedSengokuPin(history);
   const row=document.createElement('div');row.className='sengoku-era'+(framed?' sengoku-era-owned':'');
-  const tie=chronology?.tieById.get(history.historyId);
+  const tie=chronology?.tieById.get(history.historyId)||fallbackTieById.get(history.historyId);
   if(tie){row.classList.add('sengoku-chronology-tie');row.dataset.tieGroup=tie.group;}
   const date=document.createElement('div');date.className='sengoku-year';date.textContent=history.yearText;
   if(owned&&history.kind==='place'&&sengokuV2Catalog){
