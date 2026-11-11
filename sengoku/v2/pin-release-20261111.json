@@ -1,0 +1,2973 @@
+{
+  "schemaVersion": "walked.sengoku.pin-release.v2",
+  "sourceSpreadsheetId": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
+  "snapshotDate": "2026-11-11",
+  "previousPublicPinCount": 62,
+  "addedApprovedPinCount": 172,
+  "totalPublishedPinCount": 234,
+  "totalApprovedSites": 236,
+  "statusCounts": {
+    "公開OK|C候補（別途公開承認）|一致|v2": 150,
+    "公開OK|C候補（別途公開承認）|一致|v3": 22,
+    "公開OK|C候補（別途公開承認）|一致|v1": 2
+  },
+  "hold": [
+    {
+      "id": "sg2site-a-naoe-uroko-yashiki",
+      "name": "上杉家江戸鱗屋敷旧地（直江兼続没地）",
+      "latestRow": 1393,
+      "status": "公開OK|C候補（別途公開承認）|一致|v1"
+    },
+    {
+      "id": "sg2site-kanbei-aga",
+      "name": "英賀城跡（三木氏の居城・1580年落城）",
+      "latestRow": 1396,
+      "status": "公開OK|C候補（別途公開承認）|一致|v1"
+    }
+  ],
+  "colors": {
+    "green": 128,
+    "yellow": 42,
+    "red": 2
+  },
+  "releasePolicy": "F=公開OK,H=品質合格,J=C候補,P=一致,承認版v2/v3。③B=可、WGS84、見学区分、安全・利用条件を照合。人物・経歴・史跡本文・リンク・カード・訪問記録の変更なし。",
+  "records": [
+    {
+      "siteId": "sg2site-soun-bitchu-takakoshi",
+      "sourceRow": 63,
+      "approvalRow": 1517,
+      "approvalVersion": "v2",
+      "position": [
+        133.5078,
+        34.608583
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "公開城址公園の史跡参照点",
+      "pinPersonIds": [
+        "sg-4cb1a557e060"
+      ]
+    },
+    {
+      "siteId": "sg2site-soun-koukokuji",
+      "sourceRow": 64,
+      "approvalRow": 1568,
+      "approvalVersion": "v2",
+      "position": [
+        138.807131,
+        35.141468
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（公開の城址・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-4cb1a557e060"
+      ]
+    },
+    {
+      "siteId": "sg2site-soun-horigoe",
+      "sourceRow": 65,
+      "approvalRow": 1569,
+      "approvalVersion": "v2",
+      "position": [
+        138.9393028,
+        35.04807222
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（静岡県公式地図の伝堀越御所跡・位置参照点）",
+      "pinPersonIds": [
+        "sg-4cb1a557e060"
+      ]
+    },
+    {
+      "siteId": "sg2site-soun-nirayama",
+      "sourceRow": 66,
+      "approvalRow": 1570,
+      "approvalVersion": "v2",
+      "position": [
+        138.955578,
+        35.053648
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（指定見学路がある私有山城）",
+      "pinPersonIds": [
+        "sg-4cb1a557e060"
+      ]
+    },
+    {
+      "siteId": "sg2site-soun-okazaki",
+      "sourceRow": 67,
+      "approvalRow": 1571,
+      "approvalVersion": "v3",
+      "position": [
+        139.312391,
+        35.378569
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "歴史地名参照点（後期岡崎城址、公開観光地・無量寺との関係）",
+      "pinPersonIds": [
+        "sg-4cb1a557e060"
+      ]
+    },
+    {
+      "siteId": "sg2site-soun-tamanawa",
+      "sourceRow": 68,
+      "approvalRow": 1572,
+      "approvalVersion": "v3",
+      "position": [
+        139.514551,
+        35.352222
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地の公開遺構・公的公開緑地案内点（玉縄城太鼓櫓址・植木1号市民緑地）",
+      "pinPersonIds": [
+        "sg-4cb1a557e060"
+      ]
+    },
+    {
+      "siteId": "sg2site-soun-sumiyoshi",
+      "sourceRow": 69,
+      "approvalRow": 1573,
+      "approvalVersion": "v3",
+      "position": [
+        139.552242,
+        35.299601
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公開説明板／史跡案内地点",
+      "pinPersonIds": [
+        "sg-4cb1a557e060"
+      ]
+    },
+    {
+      "siteId": "sg2site-soun-arai",
+      "sourceRow": 70,
+      "approvalRow": 1574,
+      "approvalVersion": "v3",
+      "position": [
+        139.6143125,
+        35.1605625
+      ],
+      "accessStatus": "red",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公に記録された新井城跡の史跡情報参照点（研究施設周辺・立入禁止）",
+      "pinPersonIds": [
+        "sg-4cb1a557e060"
+      ]
+    },
+    {
+      "siteId": "sg2site-soun-sounji",
+      "sourceRow": 71,
+      "approvalRow": 1575,
+      "approvalVersion": "v2",
+      "position": [
+        139.103561,
+        35.230217
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（公開参拝境内）",
+      "pinPersonIds": [
+        "sg-4cb1a557e060",
+        "sg-22f595e1c616"
+      ]
+    },
+    {
+      "siteId": "sg2site-soun-hosenji-documents",
+      "sourceRow": 72,
+      "approvalRow": 1576,
+      "approvalVersion": "v3",
+      "position": [
+        133.4980625,
+        34.6116875
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "井原市西江原町4841の現法泉寺・公開案内参照点",
+      "pinPersonIds": [
+        "sg-4cb1a557e060"
+      ]
+    },
+    {
+      "siteId": "sg2site-soun-oba",
+      "sourceRow": 73,
+      "approvalRow": 1577,
+      "approvalVersion": "v2",
+      "position": [
+        139.451582,
+        35.361743
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（大庭城址公園の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-4cb1a557e060"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-hyakushu",
+      "sourceRow": 74,
+      "approvalRow": 1578,
+      "approvalVersion": "v3",
+      "position": [
+        139.840532,
+        35.202674
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "城山の歴史地形参照点＝公開観光地点「燈籠坂大師の切通しトンネル」（造海城／百首城の城内遺構・登城口ではない）",
+      "pinPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-inamura",
+      "sourceRow": 75,
+      "approvalRow": 1579,
+      "approvalVersion": "v2",
+      "position": [
+        139.903391,
+        34.997582
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（稲村城跡・位置参照点）",
+      "pinPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-inukake",
+      "sourceRow": 76,
+      "approvalRow": 1580,
+      "approvalVersion": "v2",
+      "position": [
+        139.9033125,
+        35.0788125
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "犬掛古戦場の公表伝承地域・地名情報参照点／私有の里見氏墓所とは別",
+      "pinPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-takita",
+      "sourceRow": 77,
+      "approvalRow": 1581,
+      "approvalVersion": "v2",
+      "position": [
+        139.8933125,
+        35.0626875
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "南房総市上滝田の公開山城・滝田城址POI参照点",
+      "pinPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-minagami",
+      "sourceRow": 78,
+      "approvalRow": 1582,
+      "approvalVersion": "v2",
+      "position": [
+        139.9304343,
+        35.2131556
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "公開案内地点（富津市設置「峰上子どもの遊び場」の公園内、峯上城址案内板付近）",
+      "pinPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-sanuki",
+      "sourceRow": 79,
+      "approvalRow": 1583,
+      "approvalVersion": "v2",
+      "position": [
+        139.897263,
+        35.265362
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公開城跡POI・佐貫城址花木公園",
+      "pinPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-kururi",
+      "sourceRow": 80,
+      "approvalRow": 1584,
+      "approvalVersion": "v2",
+      "position": [
+        140.089913,
+        35.287636
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（久留里城跡の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-konodai",
+      "sourceRow": 81,
+      "approvalRow": 1585,
+      "approvalVersion": "v2",
+      "position": [
+        139.8987782,
+        35.7472002
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（市川市里見公園・国府台古戦場ゆかりの公開公園）",
+      "pinPersonIds": [
+        "sg-29c3bc68aa37",
+        "sg-22f595e1c616",
+        "sg-025ab3a6ee3f"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-mifune-hojo",
+      "sourceRow": 82,
+      "approvalRow": 1586,
+      "approvalVersion": "v2",
+      "position": [
+        139.894332,
+        35.30034
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的伝承地（三舟山山頂の公開散策路周辺・北条方陣跡の地理参照点）",
+      "pinPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-yonezawa",
+      "sourceRow": 113,
+      "approvalRow": 1611,
+      "approvalVersion": "v2",
+      "position": [
+        140.105056,
+        37.909274
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（旧米沢城・松が岬公園の位置参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10",
+        "sg-1a91ae29cb5a"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-hitotoribashi",
+      "sourceRow": 114,
+      "approvalRow": 1612,
+      "approvalVersion": "v2",
+      "position": [
+        140.388462,
+        37.49829
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "人取橋合戦跡の公開参照点",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-nihonmatsu",
+      "sourceRow": 115,
+      "approvalRow": 1613,
+      "approvalVersion": "v2",
+      "position": [
+        140.42824,
+        37.59989
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（二本松城跡・霞ヶ城公園の公開位置参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-tateyama",
+      "sourceRow": 116,
+      "approvalRow": 518,
+      "approvalVersion": "v2",
+      "position": [
+        140.062511,
+        37.912059
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（米沢市舘山・国指定舘山城跡の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-suriagehara",
+      "sourceRow": 117,
+      "approvalRow": 1614,
+      "approvalVersion": "v2",
+      "position": [
+        140.062231,
+        37.56031
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的伝承・顕彰地点（三忠碑／旧二本松街道、摺上原古戦場の歴史案内参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-kurokawa",
+      "sourceRow": 118,
+      "approvalRow": 1615,
+      "approvalVersion": "v2",
+      "position": [
+        139.9298613,
+        37.4877537
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（鶴ヶ城天守閣・一般公開される城址公園内の位置参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-sukagawa",
+      "sourceRow": 119,
+      "approvalRow": 1228,
+      "approvalVersion": "v2",
+      "position": [
+        140.37443,
+        37.28955
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（二階堂神社・須賀川城旧本丸跡の位置参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-iwadeyama",
+      "sourceRow": 120,
+      "approvalRow": 1616,
+      "approvalVersion": "v2",
+      "position": [
+        140.862615,
+        38.655615
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（岩出山城址・城山公園の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-sendai",
+      "sourceRow": 121,
+      "approvalRow": 1617,
+      "approvalVersion": "v2",
+      "position": [
+        140.856128,
+        38.253414
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（仙台城跡の本丸周辺史跡位置参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-godaido",
+      "sourceRow": 122,
+      "approvalRow": 519,
+      "approvalVersion": "v2",
+      "position": [
+        141.064207,
+        38.369718
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（松島町五大堂・公開見学できる島の堂宇位置）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-osaki-hachimangu",
+      "sourceRow": 123,
+      "approvalRow": 520,
+      "approvalVersion": "v2",
+      "position": [
+        140.8449,
+        38.27252
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（仙台市青葉区の大崎八幡宮・国宝社殿位置参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-kokubunji",
+      "sourceRow": 124,
+      "approvalRow": 521,
+      "approvalVersion": "v2",
+      "position": [
+        140.901428,
+        38.250732
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（陸奥国分寺跡の公開境内・薬師堂付近の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-zuiganji",
+      "sourceRow": 125,
+      "approvalRow": 522,
+      "approvalVersion": "v2",
+      "position": [
+        141.060089,
+        38.372021
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（瑞巌寺本堂を含む公開参拝寺域の位置参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-tsukinoura",
+      "sourceRow": 126,
+      "approvalRow": 1618,
+      "approvalVersion": "v3",
+      "position": [
+        141.4299055,
+        38.3816572
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（月浦の支倉常長像・公開展望台。出帆地域の公的伝承地点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-wakabayashi",
+      "sourceRow": 127,
+      "approvalRow": 1619,
+      "approvalVersion": "v3",
+      "position": [
+        140.902586,
+        38.238366
+      ],
+      "accessStatus": "red",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "仙台市教育委員会設置の若林城跡石柱・説明板を公道側から示す公開情報点（現役宮城刑務所の敷地内ではない）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-zuihoden",
+      "sourceRow": 128,
+      "approvalRow": 525,
+      "approvalVersion": "v2",
+      "position": [
+        140.866679,
+        38.2504692
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（瑞鳳殿・公開霊屋施設の位置参照点）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-sarukake",
+      "sourceRow": 129,
+      "approvalRow": 1620,
+      "approvalVersion": "v3",
+      "position": [
+        132.664167,
+        34.679929
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（多治比猿掛城跡の公開案内・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-koriyama",
+      "sourceRow": 130,
+      "approvalRow": 1621,
+      "approvalVersion": "v3",
+      "position": [
+        132.710575,
+        34.670078
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（吉田郡山城跡・一般見学可能な城山の位置参照点）",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-arita",
+      "sourceRow": 131,
+      "approvalRow": 1622,
+      "approvalVersion": "v3",
+      "position": [
+        132.530306,
+        34.670739
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（北広島町有田の茗荷丸城／有田城山頂城郭の公開登城地点地理参照点）",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-arita-field",
+      "sourceRow": 132,
+      "approvalRow": 1623,
+      "approvalVersion": "v3",
+      "position": [
+        132.5320472,
+        34.6682718
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的伝承地・公式観光案内地点（武田元繁戦死之地の碑）",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-kagamiyama",
+      "sourceRow": 133,
+      "approvalRow": 1518,
+      "approvalVersion": "v3",
+      "position": [
+        132.726991,
+        34.403688
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（東広島市鏡山公園の鏡山城山頂・公開できる山城所在地の地理参照点）",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-ginzan",
+      "sourceRow": 134,
+      "approvalRow": 1624,
+      "approvalVersion": "v3",
+      "position": [
+        132.448479,
+        34.455998
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（広島市武田山山頂の銀山城郭群の地理参照点）",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-sakurao",
+      "sourceRow": 135,
+      "approvalRow": 1625,
+      "approvalVersion": "v3",
+      "position": [
+        132.34226,
+        34.357514
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（桜尾城址・桂公園の公開案内・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-miyanoo",
+      "sourceRow": 136,
+      "approvalRow": 1626,
+      "approvalVersion": "v3",
+      "position": [
+        132.322299,
+        34.300531
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "宮島・要害山の一般見学可能な山頂付近参照点／厳密な戦国期本丸一点ではない",
+      "pinPersonIds": [
+        "sg-98139e31efb2",
+        "sg-master-0891"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-tsutsumigaura",
+      "sourceRow": 137,
+      "approvalRow": 1627,
+      "approvalVersion": "v3",
+      "position": [
+        132.3416439,
+        34.2957216
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公開海岸地点／上陸伝承地域の情報点",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-tounooka",
+      "sourceRow": 138,
+      "approvalRow": 1628,
+      "approvalVersion": "v3",
+      "position": [
+        132.320279,
+        34.297321
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "塔の岡の公開案内参照点",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-niitakayama",
+      "sourceRow": 139,
+      "approvalRow": 1629,
+      "approvalVersion": "v3",
+      "position": [
+        132.976328,
+        34.419327
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（新高山城跡の公開案内・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-98139e31efb2",
+        "sg-master-0891"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-toda",
+      "sourceRow": 140,
+      "approvalRow": 1630,
+      "approvalVersion": "v3",
+      "position": [
+        133.185265,
+        35.360805
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（月山富田城跡の公開案内・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-iwami",
+      "sourceRow": 141,
+      "approvalRow": 1519,
+      "approvalVersion": "v3",
+      "position": [
+        132.443739,
+        35.11313
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（石見銀山跡・歴史地名データの位置参照点）",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-motonari-grave",
+      "sourceRow": 142,
+      "approvalRow": 1520,
+      "approvalVersion": "v3",
+      "position": [
+        132.70400763,
+        34.67451155
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（安芸高田市観光ナビの現毛利元就墓所・旧洞春寺跡紹介地図の参照点）",
+      "pinPersonIds": [
+        "sg-98139e31efb2"
+      ]
+    },
+    {
+      "siteId": "sg2site-masamune-edo-sakurada",
+      "sourceRow": 205,
+      "approvalRow": 1690,
+      "approvalVersion": "v2",
+      "position": [
+        139.7585625,
+        35.6753125
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（仙台藩外桜田上屋敷跡・伊達政宗終焉の地説明サイン付近）",
+      "pinPersonIds": [
+        "sg-31e0e85d7a10"
+      ]
+    },
+    {
+      "siteId": "sg2site-motochika-hakuchi",
+      "sourceRow": 210,
+      "approvalRow": 1695,
+      "approvalVersion": "v2",
+      "position": [
+        133.781016,
+        34.015657
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（CODH歴史地名参照点・白地城旧城域）",
+      "pinPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-residence",
+      "sourceRow": 85,
+      "approvalRow": 1588,
+      "approvalVersion": "v2",
+      "position": [
+        138.57728,
+        35.686685
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（武田氏館跡・武田神社の公開参拝境内）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-uehara",
+      "sourceRow": 86,
+      "approvalRow": 1589,
+      "approvalVersion": "v2",
+      "position": [
+        138.149006,
+        36.008835
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（上原城跡・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-kuwabara",
+      "sourceRow": 87,
+      "approvalRow": 1590,
+      "approvalVersion": "v2",
+      "position": [
+        138.139674,
+        36.025793
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（桑原城跡・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-takato",
+      "sourceRow": 88,
+      "approvalRow": 1591,
+      "approvalVersion": "v2",
+      "position": [
+        138.062363,
+        35.83316
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（高遠城址公園・公開史跡位置参照点）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-uedahara",
+      "sourceRow": 89,
+      "approvalRow": 658,
+      "approvalVersion": "v2",
+      "position": [
+        138.2126875,
+        36.3950625
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "一般公開の記念碑／石久摩神社境内・上田原古戦場碑",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-toishi",
+      "sourceRow": 90,
+      "approvalRow": 1592,
+      "approvalVersion": "v2",
+      "position": [
+        138.291749,
+        36.424196
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（砥石・米山城郭群内の『戸石城跡』の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa",
+        "sg-b9bb61125a1b"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-ryuo-kawayo",
+      "sourceRow": 91,
+      "approvalRow": 1593,
+      "approvalVersion": "v2",
+      "position": [
+        138.5019977,
+        35.6674453
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（甲斐市竜王1989・信玄堤公園の公式地図参照点、釜無川堤防への情報案内）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-kaizu",
+      "sourceRow": 92,
+      "approvalRow": 1594,
+      "approvalVersion": "v2",
+      "position": [
+        138.19617,
+        36.566361
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（海津城跡・後の松代城跡の公開位置参照点）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-kawanakajima",
+      "sourceRow": 93,
+      "approvalRow": 1595,
+      "approvalVersion": "v2",
+      "position": [
+        138.185797,
+        36.591284
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的伝承地（長野市小島田町・八幡原古戦場と公開史跡公園内の歴史地名参照点）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa",
+        "sg-dc8c550d8769"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-erinji",
+      "sourceRow": 94,
+      "approvalRow": 1596,
+      "approvalVersion": "v2",
+      "position": [
+        138.713669,
+        35.730755
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（恵林寺・公開拝観境内の位置参照点）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-minowa",
+      "sourceRow": 95,
+      "approvalRow": 1597,
+      "approvalVersion": "v2",
+      "position": [
+        138.951932,
+        36.404195
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（箕輪城跡・公開散策区画の位置参照点）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-takiyama",
+      "sourceRow": 96,
+      "approvalRow": 1598,
+      "approvalVersion": "v2",
+      "position": [
+        139.328166,
+        35.701799
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（滝山城跡・都立公園の位置参照点）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-mimase",
+      "sourceRow": 97,
+      "approvalRow": 659,
+      "approvalVersion": "v2",
+      "position": [
+        139.2944375,
+        35.5350625
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "三増合戦場碑・公開の観光記念碑",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-futamata",
+      "sourceRow": 98,
+      "approvalRow": 1599,
+      "approvalVersion": "v2",
+      "position": [
+        137.808973,
+        34.862034
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（二俣城跡・城山公園の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-mikatagahara",
+      "sourceRow": 99,
+      "approvalRow": 663,
+      "approvalVersion": "v2",
+      "position": [
+        137.70422,
+        34.79678
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "三方ヶ原古戦場碑の公開案内参照点",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-shingen-nodajo",
+      "sourceRow": 100,
+      "approvalRow": 1600,
+      "approvalVersion": "v2",
+      "position": [
+        137.468389,
+        34.882196
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（公開の城址・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-kenshin-umayabashi",
+      "sourceRow": 107,
+      "approvalRow": 1606,
+      "approvalVersion": "v2",
+      "position": [
+        139.0615625,
+        36.3921875
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "市公開案内の前橋城址之碑・後世の前橋城土塁付近",
+      "pinPersonIds": [
+        "sg-dc8c550d8769"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanbei-gochaku",
+      "sourceRow": 143,
+      "approvalRow": 1631,
+      "approvalVersion": "v2",
+      "position": [
+        134.74088,
+        34.818759
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（御着城跡の公開案内・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-master-0817"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanbei-umagatake",
+      "sourceRow": 146,
+      "approvalRow": 1632,
+      "approvalVersion": "v2",
+      "position": [
+        130.946061,
+        33.679026
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（馬ヶ岳城跡の公開案内・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-master-0817"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanbei-nakatsu",
+      "sourceRow": 147,
+      "approvalRow": 1633,
+      "approvalVersion": "v2",
+      "position": [
+        131.186293,
+        33.606664
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（現在の中津城・奥平家歴史資料館の公開施設参照点）",
+      "pinPersonIds": [
+        "sg-master-0817"
+      ]
+    },
+    {
+      "siteId": "sg2site-kenshin-kasugayama",
+      "sourceRow": 102,
+      "approvalRow": 1601,
+      "approvalVersion": "v2",
+      "position": [
+        138.205549,
+        37.146655
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（春日山城跡・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-dc8c550d8769",
+        "sg-b9bb61125a1b",
+        "sg-1a91ae29cb5a"
+      ]
+    },
+    {
+      "siteId": "sg2site-kenshin-rinsenji",
+      "sourceRow": 103,
+      "approvalRow": 1602,
+      "approvalVersion": "v2",
+      "position": [
+        138.212906,
+        37.149742
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（上越市林泉寺・参拝境内の位置参照点）",
+      "pinPersonIds": [
+        "sg-dc8c550d8769"
+      ]
+    },
+    {
+      "siteId": "sg2site-kenshin-tochio",
+      "sourceRow": 104,
+      "approvalRow": 1603,
+      "approvalVersion": "v2",
+      "position": [
+        138.987799,
+        37.472351
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（栃尾城跡・市公式登城道案内に対応する位置参照点）",
+      "pinPersonIds": [
+        "sg-dc8c550d8769"
+      ]
+    },
+    {
+      "siteId": "sg2site-kenshin-joanji",
+      "sourceRow": 105,
+      "approvalRow": 1604,
+      "approvalVersion": "v2",
+      "position": [
+        138.995026,
+        37.473999
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（公開の参拝施設・建造物）",
+      "pinPersonIds": [
+        "sg-dc8c550d8769"
+      ]
+    },
+    {
+      "siteId": "sg2site-kenshin-sakado",
+      "sourceRow": 106,
+      "approvalRow": 1605,
+      "approvalVersion": "v2",
+      "position": [
+        138.898428,
+        37.059197
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（坂戸城跡・山城の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-dc8c550d8769",
+        "sg-1a91ae29cb5a"
+      ]
+    },
+    {
+      "siteId": "sg2site-kenshin-tsurugaoka",
+      "sourceRow": 108,
+      "approvalRow": 1607,
+      "approvalVersion": "v2",
+      "position": [
+        139.554749,
+        35.324554
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（鶴岡八幡宮・一般参拝境内の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-dc8c550d8769"
+      ]
+    },
+    {
+      "siteId": "sg2site-kenshin-iiyama",
+      "sourceRow": 110,
+      "approvalRow": 1608,
+      "approvalVersion": "v2",
+      "position": [
+        138.365847,
+        36.856271
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（公開の城址・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-dc8c550d8769"
+      ]
+    },
+    {
+      "siteId": "sg2site-kenshin-masuyama",
+      "sourceRow": 111,
+      "approvalRow": 1609,
+      "approvalVersion": "v2",
+      "position": [
+        137.040835,
+        36.651316
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（公開の城址・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-dc8c550d8769"
+      ]
+    },
+    {
+      "siteId": "sg2site-kenshin-nanao",
+      "sourceRow": 112,
+      "approvalRow": 1610,
+      "approvalVersion": "v2",
+      "position": [
+        136.985209,
+        37.009038
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（七尾城跡・公開見学可能な城域の位置参照点）",
+      "pinPersonIds": [
+        "sg-dc8c550d8769",
+        "sg-added-maeda-toshiie"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanbei-ishigakibaru",
+      "sourceRow": 148,
+      "approvalRow": 1634,
+      "approvalVersion": "v2",
+      "position": [
+        131.4753976,
+        33.29111932
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点・史跡情報点（別府市設置『石垣原合戦古戦場』説明板がある南立石公園内）",
+      "pinPersonIds": [
+        "sg-master-0817"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanbei-jissoji",
+      "sourceRow": 149,
+      "approvalRow": 1635,
+      "approvalVersion": "v2",
+      "position": [
+        131.487009,
+        33.299075
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公表公共公園情報点／実相寺山の歴史地名参照地点",
+      "pinPersonIds": [
+        "sg-master-0817"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanbei-yanagawa",
+      "sourceRow": 150,
+      "approvalRow": 1636,
+      "approvalVersion": "v2",
+      "position": [
+        130.4011837,
+        33.1607721
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "学校外から歴史を知るための柳川城址碑・説明板付近の公開史跡情報点",
+      "pinPersonIds": [
+        "sg-master-0817"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanbei-fukuoka",
+      "sourceRow": 152,
+      "approvalRow": 1638,
+      "approvalVersion": "v2",
+      "position": [
+        130.383216,
+        33.585245
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（福岡城跡・舞鶴公園の公開案内・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-master-0817"
+      ]
+    },
+    {
+      "siteId": "sg2site-sanada-ueda",
+      "sourceRow": 154,
+      "approvalRow": 1639,
+      "approvalVersion": "v2",
+      "position": [
+        138.24493,
+        36.404504
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（上田城跡公園の公開案内・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-b9bb61125a1b"
+      ]
+    },
+    {
+      "siteId": "sg2site-sanada-rengejoin",
+      "sourceRow": 155,
+      "approvalRow": 1640,
+      "approvalVersion": "v2",
+      "position": [
+        135.58429,
+        34.217842
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（高野山700・蓮華定院の歴史地名参照点、宿坊内部は制限）",
+      "pinPersonIds": [
+        "sg-b9bb61125a1b"
+      ]
+    },
+    {
+      "siteId": "sg2site-sanada-kudoyama",
+      "sourceRow": 156,
+      "approvalRow": 1641,
+      "approvalVersion": "v2",
+      "position": [
+        135.560211,
+        34.290245
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的伝承地（和歌山県九度山町九度山1413・真田屋敷跡の伝承寺院『善名稱院・真田庵』の公開境内参照点）",
+      "pinPersonIds": [
+        "sg-b9bb61125a1b"
+      ]
+    },
+    {
+      "siteId": "sg2site-sanada-sanadamaru",
+      "sourceRow": 157,
+      "approvalRow": 1642,
+      "approvalVersion": "v2",
+      "position": [
+        135.5269375,
+        34.6729375
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "大阪明星学園東側・公道に面した真田丸顕彰碑の公開参照点",
+      "pinPersonIds": [
+        "sg-b9bb61125a1b"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujiyasu-ozawa",
+      "sourceRow": 160,
+      "approvalRow": 1645,
+      "approvalVersion": "v2",
+      "position": [
+        139.521689,
+        35.631602
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（公開の城址・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-22f595e1c616"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujiyasu-kawagoe",
+      "sourceRow": 161,
+      "approvalRow": 1646,
+      "approvalVersion": "v2",
+      "position": [
+        139.491683,
+        35.924396
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（公開の参拝施設・建造物）",
+      "pinPersonIds": [
+        "sg-22f595e1c616"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujiyasu-toumyoji",
+      "sourceRow": 162,
+      "approvalRow": 1647,
+      "approvalVersion": "v2",
+      "position": [
+        139.484827,
+        35.9286264
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的伝承地（川越市志多町・市指定『川越夜戦跡』東明寺境内の公開参照点）",
+      "pinPersonIds": [
+        "sg-22f595e1c616"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujiyasu-matsuyama",
+      "sourceRow": 165,
+      "approvalRow": 1650,
+      "approvalVersion": "v2",
+      "position": [
+        139.421053,
+        36.036729
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（吉見町の国指定史跡・松山城跡の地名参照点）",
+      "pinPersonIds": [
+        "sg-22f595e1c616"
+      ]
+    },
+    {
+      "siteId": "sg2site-maeda-arako",
+      "sourceRow": 167,
+      "approvalRow": 1652,
+      "approvalVersion": "v2",
+      "position": [
+        136.856367,
+        35.135202
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（現冨士権現天満宮周辺の荒子城跡・歴史地名参照点）",
+      "pinPersonIds": [
+        "sg-added-maeda-toshiie"
+      ]
+    },
+    {
+      "siteId": "sg2site-maeda-fuchu",
+      "sourceRow": 168,
+      "approvalRow": 1653,
+      "approvalVersion": "v2",
+      "position": [
+        136.169444,
+        35.903502
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（越前市府中一丁目の旧府中城・市役所一帯の歴史地名参照点）",
+      "pinPersonIds": [
+        "sg-added-maeda-toshiie"
+      ]
+    },
+    {
+      "siteId": "sg2site-maeda-komaru",
+      "sourceRow": 169,
+      "approvalRow": 1654,
+      "approvalVersion": "v2",
+      "position": [
+        136.960124,
+        37.045654
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（小丸山城址公園の公開案内・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-added-maeda-toshiie"
+      ]
+    },
+    {
+      "siteId": "sg2site-maeda-kanazawa",
+      "sourceRow": 170,
+      "approvalRow": 1655,
+      "approvalVersion": "v2",
+      "position": [
+        136.658151,
+        36.564893
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-07",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（金沢城公園の公開案内・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-added-maeda-toshiie"
+      ]
+    },
+    {
+      "siteId": "sg2site-maeda-suemori",
+      "sourceRow": 171,
+      "approvalRow": 1656,
+      "approvalVersion": "v2",
+      "position": [
+        136.778412,
+        36.833927
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（公開の城址・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-added-maeda-toshiie"
+      ]
+    },
+    {
+      "siteId": "sg2site-mitsuhide-usayama",
+      "sourceRow": 173,
+      "approvalRow": 1658,
+      "approvalVersion": "v2",
+      "position": [
+        135.846446,
+        35.034052
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（大津市南滋賀町、近江神宮背後の宇佐山城跡山域・歴史地名参照点）",
+      "pinPersonIds": [
+        "sg-a94db8113d4e"
+      ]
+    },
+    {
+      "siteId": "sg2site-mitsuhide-sakamoto",
+      "sourceRow": 174,
+      "approvalRow": 1659,
+      "approvalVersion": "v2",
+      "position": [
+        135.878762,
+        35.05838
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（大津市下阪本三丁目の坂本城旧域・歴史地名参照点、公開公園入口ではない）",
+      "pinPersonIds": [
+        "sg-a94db8113d4e"
+      ]
+    },
+    {
+      "siteId": "sg2site-mitsuhide-kameyama",
+      "sourceRow": 175,
+      "approvalRow": 1660,
+      "approvalVersion": "v2",
+      "position": [
+        135.581467,
+        35.013284
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（京都府観光連盟の丹波亀山城跡案内参照点）",
+      "pinPersonIds": [
+        "sg-a94db8113d4e"
+      ]
+    },
+    {
+      "siteId": "sg2site-mitsuhide-yakami",
+      "sourceRow": 176,
+      "approvalRow": 1661,
+      "approvalVersion": "v2",
+      "position": [
+        135.25575,
+        35.061725
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（丹波篠山市八上内の高城山・八上城山頂城郭の山城現地参照点）",
+      "pinPersonIds": [
+        "sg-a94db8113d4e"
+      ]
+    },
+    {
+      "siteId": "sg2site-mitsuhide-kuroi",
+      "sourceRow": 177,
+      "approvalRow": 1662,
+      "approvalVersion": "v2",
+      "position": [
+        135.104057,
+        35.179276
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（丹波市春日町黒井・猪ノ口山の黒井城主郭山頂参照点）",
+      "pinPersonIds": [
+        "sg-a94db8113d4e"
+      ]
+    },
+    {
+      "siteId": "sg2site-mitsuhide-fukuchiyama",
+      "sourceRow": 178,
+      "approvalRow": 1663,
+      "approvalVersion": "v2",
+      "position": [
+        135.129709,
+        35.29687
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（福知山市字内記・福知山城の一般公開城址公園と天守閣の歴史地名参照点）",
+      "pinPersonIds": [
+        "sg-a94db8113d4e"
+      ]
+    },
+    {
+      "siteId": "sg2site-mitsuhide-atago",
+      "sourceRow": 179,
+      "approvalRow": 1664,
+      "approvalVersion": "v2",
+      "position": [
+        135.633436,
+        35.060345
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "愛宕神社の公開参拝参照点",
+      "pinPersonIds": [
+        "sg-a94db8113d4e"
+      ]
+    },
+    {
+      "siteId": "sg2site-mitsuhide-shoryuji",
+      "sourceRow": 180,
+      "approvalRow": 1665,
+      "approvalVersion": "v2",
+      "position": [
+        135.700654,
+        34.918135
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（長岡京市勝竜寺13-1・勝竜寺城公園の公開現在施設位置、歴史上の旧城全体の推定中心ではない）",
+      "pinPersonIds": [
+        "sg-a94db8113d4e"
+      ]
+    },
+    {
+      "siteId": "sg2site-mitsuhide-yamazaki",
+      "sourceRow": 181,
+      "approvalRow": 1666,
+      "approvalVersion": "v2",
+      "position": [
+        135.692,
+        34.906
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的公開史跡案内／公園の約100m精度の概略参照点",
+      "pinPersonIds": [
+        "sg-a94db8113d4e"
+      ]
+    },
+    {
+      "siteId": "sg2site-mitsuhide-bush",
+      "sourceRow": 182,
+      "approvalRow": 1667,
+      "approvalVersion": "v2",
+      "position": [
+        135.802194,
+        34.947167
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "京都市公表の『明智薮』石標（1975年建立）",
+      "pinPersonIds": [
+        "sg-a94db8113d4e"
+      ]
+    },
+    {
+      "siteId": "sg2site-takakage-kimura",
+      "sourceRow": 183,
+      "approvalRow": 1668,
+      "approvalVersion": "v2",
+      "position": [
+        132.892827,
+        34.381671
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（竹原市新庄町城ノ本・竹原小早川氏木村城の山城地理参照点）",
+      "pinPersonIds": [
+        "sg-master-0891"
+      ]
+    },
+    {
+      "siteId": "sg2site-takakage-takayama",
+      "sourceRow": 184,
+      "approvalRow": 1669,
+      "approvalVersion": "v2",
+      "position": [
+        132.984298,
+        34.418355
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（広島県三原市高坂町真良の国指定高山城跡の歴史地名参照点）",
+      "pinPersonIds": [
+        "sg-master-0891"
+      ]
+    },
+    {
+      "siteId": "sg2site-takakage-mihara",
+      "sourceRow": 185,
+      "approvalRow": 1670,
+      "approvalVersion": "v2",
+      "position": [
+        133.0826068,
+        34.40124433
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（三原城天主台・公開史跡の観光地図上の位置参照点）",
+      "pinPersonIds": [
+        "sg-master-0891"
+      ]
+    },
+    {
+      "siteId": "sg2site-takakage-yuzuki",
+      "sourceRow": 186,
+      "approvalRow": 1671,
+      "approvalVersion": "v2",
+      "position": [
+        132.78662,
+        33.84872
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（湯築城跡・道後公園の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-master-0891"
+      ]
+    },
+    {
+      "siteId": "sg2site-takakage-najima",
+      "sourceRow": 187,
+      "approvalRow": 1672,
+      "approvalVersion": "v2",
+      "position": [
+        130.423218,
+        33.6459
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "名島城址公園の公開参照点",
+      "pinPersonIds": [
+        "sg-master-0891"
+      ]
+    },
+    {
+      "siteId": "sg2site-takakage-hakozaki",
+      "sourceRow": 188,
+      "approvalRow": 1673,
+      "approvalVersion": "v2",
+      "position": [
+        130.424286,
+        33.613758
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（筥崎宮の公開境内・楼門を訪ねるための位置参照点）",
+      "pinPersonIds": [
+        "sg-master-0891"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-izaku",
+      "sourceRow": 190,
+      "approvalRow": 1675,
+      "approvalVersion": "v2",
+      "position": [
+        130.363493,
+        31.513941
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（伊作城跡・主郭亀丸城を含む広域山城の位置参照点）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-iwatsurugi",
+      "sourceRow": 191,
+      "approvalRow": 1676,
+      "approvalVersion": "v2",
+      "position": [
+        130.598548,
+        31.705866
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（姶良市平松5219-6付近の市指定岩剣城跡の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-gamou",
+      "sourceRow": 192,
+      "approvalRow": 1677,
+      "approvalVersion": "v2",
+      "position": [
+        130.572146,
+        31.756259
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（蒲生城跡・城山公園として公開中の史跡位置参照点）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-obi",
+      "sourceRow": 193,
+      "approvalRow": 1678,
+      "approvalVersion": "v2",
+      "position": [
+        131.350481,
+        31.628622
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（日南市飫肥10丁目・飫肥城跡の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-iino",
+      "sourceRow": 194,
+      "approvalRow": 1679,
+      "approvalVersion": "v2",
+      "position": [
+        130.867591,
+        32.054126
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（えびの市原田・飯野城跡の亀城公園にあたる城跡地名参照点）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-kizakibaru",
+      "sourceRow": 195,
+      "approvalRow": 1680,
+      "approvalVersion": "v2",
+      "position": [
+        130.83012519,
+        32.04105136
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（えびの市文化財案内が示す木崎原古戦場跡の公開資料・石碑周辺地図位置）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-nejiro",
+      "sourceRow": 197,
+      "approvalRow": 1682,
+      "approvalVersion": "v2",
+      "position": [
+        131.456417,
+        32.146
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（木城町公式・根白坂古戦場跡の地図参照点）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-chosa",
+      "sourceRow": 198,
+      "approvalRow": 1683,
+      "approvalVersion": "v2",
+      "position": [
+        130.627924,
+        31.745439
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（姶良市鍋倉776・777・帖佐稲荷神社の市指定『義弘居館跡石垣』公開文化財地図地点）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-sekigahara",
+      "sourceRow": 199,
+      "approvalRow": 1684,
+      "approvalVersion": "v2",
+      "position": [
+        136.45921,
+        35.367126
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的伝承地（関ヶ原の島津義弘陣跡・公開史跡碑位置）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-hiramatsu",
+      "sourceRow": 201,
+      "approvalRow": 1686,
+      "approvalVersion": "v2",
+      "position": [
+        130.604473,
+        31.706312
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "学校正門外の公道側にある平松城跡史跡標柱・解説板の位置参照点（校内は対象外）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-kajiki",
+      "sourceRow": 202,
+      "approvalRow": 1687,
+      "approvalVersion": "v2",
+      "position": [
+        130.66541,
+        31.741033
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（姶良市指定『加治木島津屋形跡』の市公式史跡地図地点・旧館域の一般見学可能範囲は未特定）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanbei-agaura1576",
+      "sourceRow": 204,
+      "approvalRow": 1689,
+      "approvalVersion": "v2",
+      "position": [
+        134.645178,
+        34.801103
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式紹介された公開碑（田井ヶ浜・英賀城の港跡／巽地蔵）",
+      "pinPersonIds": [
+        "sg-master-0817"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujiyasu-sunakubo",
+      "sourceRow": 163,
+      "approvalRow": 1648,
+      "approvalVersion": "v2",
+      "position": [
+        139.48571693,
+        35.88478109
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的伝承地（川越市砂久保の市指定砂久保陣場跡に隣接する砂久保稲荷神社・神社庁公開地図参照点）",
+      "pinPersonIds": [
+        "sg-22f595e1c616"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujiyasu-hirai",
+      "sourceRow": 164,
+      "approvalRow": 1649,
+      "approvalVersion": "v2",
+      "position": [
+        139.029865,
+        36.219229
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（藤岡市西平井・県指定平井城跡の整備復元史跡公園地名参照点）",
+      "pinPersonIds": [
+        "sg-22f595e1c616"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujiyasu-yamanaka",
+      "sourceRow": 166,
+      "approvalRow": 1651,
+      "approvalVersion": "v2",
+      "position": [
+        138.994284,
+        35.156622
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（公開の城址・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-22f595e1c616",
+        "sg-025ab3a6ee3f"
+      ]
+    },
+    {
+      "siteId": "sg2site-sanada-yasuijinja",
+      "sourceRow": 158,
+      "approvalRow": 1643,
+      "approvalVersion": "v2",
+      "position": [
+        135.510757,
+        34.653793
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的伝承地（安居／安井神社境内の真田幸村戦死跡碑がある公開参拝境内）",
+      "pinPersonIds": [
+        "sg-b9bb61125a1b"
+      ]
+    },
+    {
+      "siteId": "sg2site-sanada-shinganji",
+      "sourceRow": 159,
+      "approvalRow": 1644,
+      "approvalVersion": "v2",
+      "position": [
+        135.52707,
+        34.67282
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（大阪市天王寺区餌差町2-22、心眼寺の現公開寺域位置参照点）",
+      "pinPersonIds": [
+        "sg-b9bb61125a1b"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-enmeiji",
+      "sourceRow": 83,
+      "approvalRow": 1587,
+      "approvalVersion": "v2",
+      "position": [
+        139.9001778,
+        35.01754167
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（南房総市本織2014-1・現延命寺の公式観光地図参照点）",
+      "pinPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanbei-dazaifu",
+      "sourceRow": 151,
+      "approvalRow": 1637,
+      "approvalVersion": "v2",
+      "position": [
+        130.535431,
+        33.521496
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（太宰府天満宮の公開境内・位置参照点）",
+      "pinPersonIds": [
+        "sg-master-0817"
+      ]
+    },
+    {
+      "siteId": "sg2site-maeda-grave",
+      "sourceRow": 172,
+      "approvalRow": 1657,
+      "approvalVersion": "v2",
+      "position": [
+        136.666944,
+        36.528611
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（野田山・加賀藩主前田家墓所の奈良文化財研究所文化財総覧登録位置参照点）",
+      "pinPersonIds": [
+        "sg-added-maeda-toshiie"
+      ]
+    },
+    {
+      "siteId": "sg2site-takakage-yoneyama",
+      "sourceRow": 189,
+      "approvalRow": 1674,
+      "approvalVersion": "v2",
+      "position": [
+        132.999699,
+        34.391125
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（三原市沼田東町納所の小早川隆景墓・県史跡の公的文化財地理参照点）",
+      "pinPersonIds": [
+        "sg-master-0891"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-takajo",
+      "sourceRow": 196,
+      "approvalRow": 1681,
+      "approvalVersion": "v2",
+      "position": [
+        131.474761,
+        32.16771
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（木城町が一般公開する城山公園・高城城址の公的観光地図地点）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-utouzaka",
+      "sourceRow": 200,
+      "approvalRow": 1685,
+      "approvalVersion": "v2",
+      "position": [
+        136.4812177,
+        35.3511726
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的伝承地・公開碑の案内地点（烏頭坂案内板）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-yoshihiro-fukushoji",
+      "sourceRow": 203,
+      "approvalRow": 1688,
+      "approvalVersion": "v2",
+      "position": [
+        130.561649,
+        31.611057
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（CODH『福昌寺跡』の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-819c365a83e4"
+      ]
+    },
+    {
+      "siteId": "sg2site-motochika-okou",
+      "sourceRow": 206,
+      "approvalRow": 1691,
+      "approvalVersion": "v2",
+      "position": [
+        133.622552,
+        33.594974
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（公開の城址・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-motochika-tonomoto",
+      "sourceRow": 207,
+      "approvalRow": 1692,
+      "approvalVersion": "v2",
+      "position": [
+        133.537423,
+        33.498083
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公的伝承地（高知市長浜の戸ノ本古戦場跡公園・公的戦場伝承地点の地理参照点）",
+      "pinPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-motochika-asakura",
+      "sourceRow": 208,
+      "approvalRow": 1693,
+      "approvalVersion": "v2",
+      "position": [
+        133.479865,
+        33.549592
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（高知市朝倉丙・県指定朝倉城跡の歴史地名参照点）",
+      "pinPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-motochika-aki",
+      "sourceRow": 209,
+      "approvalRow": 1694,
+      "approvalVersion": "v2",
+      "position": [
+        133.91259,
+        33.519865
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（公開の城址・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-motochika-shouzui",
+      "sourceRow": 211,
+      "approvalRow": 1696,
+      "approvalVersion": "v2",
+      "position": [
+        134.522999,
+        34.132026
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（北側・勝瑞城跡／現見性寺付近の歴史地名参照点。南側勝瑞館跡とは県道14号線を挟む）",
+      "pinPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-motochika-otakasaka",
+      "sourceRow": 212,
+      "approvalRow": 1697,
+      "approvalVersion": "v2",
+      "position": [
+        133.530047,
+        33.560759
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（旧大高坂城の歴史地名POI参照点）",
+      "pinPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-motochika-urado",
+      "sourceRow": 213,
+      "approvalRow": 1698,
+      "approvalVersion": "v2",
+      "position": [
+        133.572018,
+        33.497165
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（高知市浦戸・旧浦戸城跡の歴史地名参照点）",
+      "pinPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-motochika-hetugi",
+      "sourceRow": 214,
+      "approvalRow": 1699,
+      "approvalVersion": "v2",
+      "position": [
+        131.6583311,
+        33.1389025
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（大分市観光協会・戸次川古戦場跡の位置参照点）",
+      "pinPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-motochika-grave",
+      "sourceRow": 215,
+      "approvalRow": 1700,
+      "approvalVersion": "v2",
+      "position": [
+        133.553047,
+        33.497387
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（高知市長浜・天甫寺山の元親墓の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanetsugu-untouan",
+      "sourceRow": 217,
+      "approvalRow": 1701,
+      "approvalVersion": "v2",
+      "position": [
+        138.89035,
+        37.030965
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（拝観可能な寺院境内）",
+      "pinPersonIds": [
+        "sg-1a91ae29cb5a"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanetsugu-yoita",
+      "sourceRow": 218,
+      "approvalRow": 1702,
+      "approvalVersion": "v2",
+      "position": [
+        138.800963,
+        37.534025
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（長岡市与板町・与板城跡城山の歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-1a91ae29cb5a"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanetsugu-aizu-residence",
+      "sourceRow": 219,
+      "approvalRow": 1703,
+      "approvalVersion": "v2",
+      "position": [
+        139.926564,
+        37.490577
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（会津若松観光ビューロー掲載・直江兼続屋敷跡／山鹿素行生誕地）",
+      "pinPersonIds": [
+        "sg-1a91ae29cb5a"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanetsugu-hasedo",
+      "sourceRow": 220,
+      "approvalRow": 1704,
+      "approvalVersion": "v2",
+      "position": [
+        140.272397,
+        38.212599
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（公開の城址・歴史地名位置参照点）",
+      "pinPersonIds": [
+        "sg-1a91ae29cb5a"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanetsugu-dike",
+      "sourceRow": 221,
+      "approvalRow": 1705,
+      "approvalVersion": "v2",
+      "position": [
+        140.120788,
+        37.865003
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "市指定史跡と同一の公開公園地点／公開案内参照点",
+      "pinPersonIds": [
+        "sg-1a91ae29cb5a"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanetsugu-guns",
+      "sourceRow": 222,
+      "approvalRow": 1706,
+      "approvalVersion": "v2",
+      "position": [
+        140.1191902,
+        37.7803192
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "白布温泉の公道側・1970年建立の『直江城州公鉄砲鍛造遺跡』碑を示す公開街路参照点",
+      "pinPersonIds": [
+        "sg-1a91ae29cb5a"
+      ]
+    },
+    {
+      "siteId": "sg2site-kanetsugu-grave",
+      "sourceRow": 223,
+      "approvalRow": 1707,
+      "approvalVersion": "v2",
+      "position": [
+        140.10126,
+        37.90097
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（山形県公式観光『直江兼続夫婦の墓』の専用観光マップ表示点・林泉寺墓域）",
+      "pinPersonIds": [
+        "sg-1a91ae29cb5a"
+      ]
+    },
+    {
+      "siteId": "sg2site-katsuie-kamewari",
+      "sourceRow": 224,
+      "approvalRow": 1708,
+      "approvalVersion": "v2",
+      "position": [
+        136.132027,
+        35.105579
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（長光寺城・瓶割山の歴史地名参照点）",
+      "pinPersonIds": [
+        "sg-2d3f90c28c8f"
+      ]
+    },
+    {
+      "siteId": "sg2site-katsuie-kitanosho",
+      "sourceRow": 225,
+      "approvalRow": 1709,
+      "approvalVersion": "v2",
+      "position": [
+        136.219666,
+        36.059982
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（北の庄城址・柴田公園に隣接する柴田神社の公開位置参照点）",
+      "pinPersonIds": [
+        "sg-2d3f90c28c8f"
+      ]
+    },
+    {
+      "siteId": "sg2site-katsuie-tsukumo",
+      "sourceRow": 226,
+      "approvalRow": 1710,
+      "approvalVersion": "v2",
+      "position": [
+        136.2113555,
+        36.0630818
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（福井市公式観光地図の現九十九橋の参照点、道路橋上の歩道・北南詰を現地案内）",
+      "pinPersonIds": [
+        "sg-2d3f90c28c8f"
+      ]
+    },
+    {
+      "siteId": "sg2site-katsuie-uozu",
+      "sourceRow": 227,
+      "approvalRow": 1711,
+      "approvalVersion": "v2",
+      "position": [
+        137.397553,
+        36.813238
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "魚津城跡・公開碑付近の歴史地名参照点",
+      "pinPersonIds": [
+        "sg-2d3f90c28c8f"
+      ]
+    },
+    {
+      "siteId": "sg2site-katsuie-genba",
+      "sourceRow": 228,
+      "approvalRow": 1712,
+      "approvalVersion": "v2",
+      "position": [
+        136.173449,
+        35.598548
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（福井県敦賀市刀根・滋賀県長浜市余呉町の国指定玄蕃尾城跡、公開山城の地理参照点）",
+      "pinPersonIds": [
+        "sg-2d3f90c28c8f"
+      ]
+    },
+    {
+      "siteId": "sg2site-katsuie-saikoji",
+      "sourceRow": 229,
+      "approvalRow": 1713,
+      "approvalVersion": "v2",
+      "position": [
+        136.213473,
+        36.059211
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（福井市公式観光地図掲載の西光寺境内所在地・資料館内部は事前連絡制）",
+      "pinPersonIds": [
+        "sg-2d3f90c28c8f"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujimasa-sekiyado",
+      "sourceRow": 230,
+      "approvalRow": 1714,
+      "approvalVersion": "v2",
+      "position": [
+        139.780067,
+        36.096661
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（野田市指定関宿城跡・旧本丸側の歴史地名参照点）",
+      "pinPersonIds": [
+        "sg-025ab3a6ee3f"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujimasa-nagurumi",
+      "sourceRow": 231,
+      "approvalRow": 1715,
+      "approvalVersion": "v2",
+      "position": [
+        138.990658,
+        36.668823
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（みなかみ町観光協会の名胡桃城址案内所・下津3462-2の公式Google地図参照点）",
+      "pinPersonIds": [
+        "sg-025ab3a6ee3f"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujimasa-hachigata",
+      "sourceRow": 232,
+      "approvalRow": 1716,
+      "approvalVersion": "v2",
+      "position": [
+        139.193361,
+        36.107315
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "史跡現地（鉢形城跡の歴史地名POI参照点）",
+      "pinPersonIds": [
+        "sg-025ab3a6ee3f"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujimasa-tamura",
+      "sourceRow": 233,
+      "approvalRow": 1717,
+      "approvalVersion": "v2",
+      "position": [
+        139.155663,
+        35.244923
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "歴史地名参照点（安斎小路／旧邸宅建物ではない）",
+      "pinPersonIds": [
+        "sg-025ab3a6ee3f"
+      ]
+    },
+    {
+      "siteId": "sg2site-ujimasa-grave",
+      "sourceRow": 234,
+      "approvalRow": 1718,
+      "approvalVersion": "v2",
+      "position": [
+        139.1576733,
+        35.25598004
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "公式案内地点（小田原市指定史跡『氏政・氏照の墓所』の市観光アクセス地図参照点）",
+      "pinPersonIds": [
+        "sg-025ab3a6ee3f"
+      ]
+    },
+    {
+      "siteId": "sg2site-a-shiojiri-nagaisaka",
+      "sourceRow": 294,
+      "approvalRow": 1719,
+      "approvalVersion": "v2",
+      "position": [
+        137.9893104,
+        36.0979656
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "塩尻市公式『首塚・胴塚』周辺地図の公開史跡参照点",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-a-shinano-zenkoji",
+      "sourceRow": 295,
+      "approvalRow": 1720,
+      "approvalVersion": "v2",
+      "position": [
+        138.187714,
+        36.661549
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "CODH『日本歴史地名大系』善光寺の歴史地名・寺院参照点",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-a-kai-zenkoji",
+      "sourceRow": 296,
+      "approvalRow": 1721,
+      "approvalVersion": "v2",
+      "position": [
+        138.592606,
+        35.666664
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "CODH『日本歴史地名大系』善光寺（甲府）の寺院参照点",
+      "pinPersonIds": [
+        "sg-4c0c12460efa"
+      ]
+    },
+    {
+      "siteId": "sg2site-a-kenshin-kyoto-gosho",
+      "sourceRow": 298,
+      "approvalRow": 1722,
+      "approvalVersion": "v2",
+      "position": [
+        135.762144,
+        35.024098
+      ],
+      "accessStatus": "yellow",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "CODH『日本歴史地名大系』京都御所の史跡・施設参照点",
+      "pinPersonIds": [
+        "sg-dc8c550d8769"
+      ]
+    },
+    {
+      "siteId": "sg2site-a-maeda-moribe",
+      "sourceRow": 299,
+      "approvalRow": 1723,
+      "approvalVersion": "v2",
+      "position": [
+        136.6773479,
+        35.3299437
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-08",
+      "sourceMatch": "一致",
+      "kind": "岐阜県公式観光・同一史跡専用地図に示された歴史情報参照点",
+      "pinPersonIds": [
+        "sg-added-maeda-toshiie"
+      ]
+    },
+    {
+      "siteId": "sg2site-a-watarigawa-monument",
+      "sourceRow": 309,
+      "approvalRow": 1724,
+      "approvalVersion": "v2",
+      "position": [
+        132.9240625,
+        32.9885625
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "観光協会が公表した1575年渡川古戦場碑の公的伝承地点に対応するユーザー指定情報点",
+      "pinPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-a-tedorigawa-monument",
+      "sourceRow": 311,
+      "approvalRow": 1725,
+      "approvalVersion": "v2",
+      "position": [
+        136.4794425,
+        36.47851679
+      ],
+      "accessStatus": "green",
+      "checkedAt": "2026-11-09",
+      "sourceMatch": "一致",
+      "kind": "手取川古戦場碑の県公式観光施設案内参照点",
+      "pinPersonIds": [
+        "sg-2d3f90c28c8f"
+      ]
+    }
+  ]
+}

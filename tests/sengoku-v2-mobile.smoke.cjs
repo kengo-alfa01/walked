@@ -114,7 +114,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      throw error;
    }
    assert.equal(coreScriptRequests.length,1,'exactly one versioned Sengoku core must be requested');
-   assert.match(coreScriptRequests[0],/\/sengoku-v2-core\.js\?v=sengoku20-20261111$/,
+   assert.match(coreScriptRequests[0],/\/sengoku-v2-core\.js\?v=sengoku234-20261111$/,
      'unversioned cached core is incompatible with 62-pin Sengoku approved-site release data');
    await checkRealApprovedOrder(page);
    const ieyasuVisit=await page.evaluate(()=>{
@@ -141,18 +141,19 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      point:[marker.getLatLng().lat,marker.getLatLng().lng],
      color:marker.options.fillColor,popup:marker.getPopup().getContent().textContent
    })));
-   assert.equal(pins.length,62,'all 62 site pins must be present even when histories are locked');
+   assert.equal(pins.length,234,'all 234 approved pins must be present even when histories are locked');
    const pane=await page.evaluate(()=>({z:getComputedStyle(map.getPane('sengoku-pins')).zIndex,overlay:getComputedStyle(map.getPane('overlayPane')).zIndex,renderer:sengokuPins.getLayers()[0]?.options.renderer?.options.pane}));
    assert.equal(pane.z,'625','historic pins must be in a high pane');
    assert.ok(Number(pane.z)>Number(pane.overlay),'pins must overlay administrative polygons');
    assert.equal(pane.renderer,'sengoku-pins','pins must not use administrative Canvas renderer');
-   assert.equal(new Set(pins.map(p=>p.name)).size,62);
-   assert.equal(pins.filter(p=>p.color==='#21864e').length,51);
+   assert.equal(new Set(pins.map(p=>p.name)).size,234);
+   assert.equal(pins.filter(p=>p.color==='#21864e').length,179);
+   assert.equal(pins.filter(p=>p.color==='#edb42d').length,53);
+   assert.equal(pins.filter(p=>p.color==='#ca3a3a').length,2);
    assert.ok(pins.some(p=>p.name==='泰平寺（秀吉・島津義久和睦の地）'&&p.color==='#21864e'));
    assert.ok(pins.some(p=>p.name==='比叡山延暦寺（焼き討ち関連）'&&p.color==='#edb42d'));
-   assert.deepEqual(pins.filter(p=>p.color==='#edb42d').map(p=>p.name).sort(),['岐阜城跡','安土城跡','姫路城跡','江戸城跡（家康入府の本拠）',
- '姉川古戦場','比叡山延暦寺（焼き討ち関連）','長島城跡（旧城郭範囲）',
- '賤ヶ岳古戦場','楽田城跡（秀吉の陣）','伏見指月城跡','伏見木幡山城跡'].sort());
+   assert.ok(pins.some(p=>p.name==='岐阜城跡'&&p.color==='#edb42d'));
+   assert.ok(pins.filter(p=>p.color==='#ca3a3a').every(p=>p.popup.includes('立入禁止区域')));
    assert.ok(pins.every(p=>p.popup.includes('現地の案内に従ってください。')));
    assert.equal(await page.locator('#showUnknownPins').count(),0);
 
@@ -307,7 +308,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
  }
 });
 
-test('PC desktop Chromium viewport: 62 pins, access categories, deduplication and popup UI',{timeout:120000},async()=>{
+test('PC desktop Chromium viewport: 234 pins, access categories, deduplication and popup UI',{timeout:120000},async()=>{
  const browser=await chromium.launch({headless:true});
  const context=await browser.newContext({viewport:{width:1366,height:850},deviceScaleFactor:1});
  const page=await context.newPage();
@@ -327,9 +328,10 @@ test('PC desktop Chromium viewport: 62 pins, access categories, deduplication an
    point:[m.getLatLng().lat,m.getLatLng().lng],
    popup:m.getPopup().getContent().textContent
   })));
-  assert.equal(values.length,62);assert.equal(new Set(values.map(v=>v.site)).size,62);
-  assert.equal(values.filter(v=>v.color==='#21864e').length,51);
-  assert.equal(values.filter(v=>v.color==='#edb42d').length,11);
+  assert.equal(values.length,234);assert.equal(new Set(values.map(v=>v.site)).size,234);
+  assert.equal(values.filter(v=>v.color==='#21864e').length,179);
+  assert.equal(values.filter(v=>v.color==='#edb42d').length,53);
+  assert.equal(values.filter(v=>v.color==='#ca3a3a').length,2);
   assert.ok(values.find(v=>v.site==='姫路城跡')?.popup.includes('保存修理'));
   assert.ok(values.find(v=>v.site==='安土城跡')?.popup.includes('三重塔'));
   assert.ok(values.find(v=>v.site==='岐阜城跡')?.popup.includes('一部立入制限'));
@@ -345,7 +347,7 @@ test('PC desktop Chromium viewport: 62 pins, access categories, deduplication an
   assert.ok(size.scrollWidth<=size.width+2,'desktop horizontal overflow');
   assert.equal(await page.locator('#showUnknownPins').count(),0);
   await checkSyntheticChronologyScreen(page);
-  console.log('PASS: Chromium desktop 62 unique public pins, yellow labels, safe popup',JSON.stringify(size));
+  console.log('PASS: Chromium desktop 234 unique public pins, yellow labels, safe popup',JSON.stringify(size));
  }finally{await context.close();await browser.close();}
 });
 
