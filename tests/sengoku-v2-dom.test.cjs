@@ -96,11 +96,14 @@ test('legacy location acquisition and regional UI continue to operate under v2 b
  }finally{w.close();}
 });
 function capturePins(w){
- w.eval(`window.qaV2Markers=[];
+ w.eval(`window.qaV2Markers=[];window.qaV2Halos=[];
  sengokuPins.clearLayers=()=>{window.qaV2Markers.length=0};
+ sengokuPinHalos.clearLayers=()=>{window.qaV2Halos.length=0};
  L.circleMarker=(xy,opts)=>{
   const marker={xy:Array.from(xy),opts,popup:null,bindPopup(v){this.popup=v;return this},addTo(){return this}};
-  window.qaV2Markers.push(marker);return marker;
+  if(opts.interactive===false)window.qaV2Halos.push(marker);
+  else window.qaV2Markers.push(marker);
+  return marker;
  };`);
 }
 test('234 approved pins are visible without visits and with old unknown-pin setting off or on',async()=>{
@@ -111,6 +114,13 @@ test('234 approved pins are visible without visits and with old unknown-pin sett
    w.document.querySelector('[data-collection-mode="sengoku"]').click();
    const pins=w.qaV2Markers;
    assert.equal(pins.length,234,'public pins should not depend on acquisition or legacy preference');
+   const halos=w.qaV2Halos;
+   assert.equal(halos.length,234,'each public pin needs exactly one real white underlay');
+   assert.ok(halos.every((p,i)=>p.opts.className==='sengoku-pin-halo'&&
+    p.opts.interactive===false&&p.opts.fillColor==='#ffffff'&&p.opts.fillOpacity===1&&
+    p.opts.radius===10.5&&p.opts.renderer===pins[i].opts.renderer&&
+    p.xy[0]===pins[i].xy[0]&&p.xy[1]===pins[i].xy[1]),'underlays must be white, non-interactive and exactly colocated');
+   assert.ok(pins.every(p=>p.opts.radius===7&&p.popup),'colored pins retain popup and original visual diameter');
    assert.equal(w.eval('sengokuPinPane.style.zIndex'),'625','site markers must be above administrative area fills');
    assert.ok(pins.every(p=>p.opts.renderer?.options?.pane==='sengoku-pins'),'site pins need their own SVG pane');
    assert.equal(new Set(pins.map(p=>p.popup.querySelector('h3').textContent)).size,234);

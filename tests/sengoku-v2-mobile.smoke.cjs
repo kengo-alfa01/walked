@@ -144,12 +144,22 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    assert.equal(pins.length,234,'all 234 approved pins must be present even when histories are locked');
    const haloOnIPhone=await page.evaluate(()=>{
      const marker=sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('江戸城跡'));
-     const path=marker.getElement(),css=getComputedStyle(path);
-     return {filter:css.filter,stroke:css.stroke,strokeWidth:css.strokeWidth,pointer:css.pointerEvents,
-       radius:marker.options.radius,color:marker.options.fillColor};
+     const halo=sengokuPinHalos.getLayers().find(h=>h.getLatLng().equals(marker.getLatLng()));
+     const pinPath=marker.getElement(),haloPath=halo?.getElement();
+     return {haloCount:sengokuPinHalos.getLayers().length,haloRadius:halo?.options.radius,
+       white:halo?.options.fillColor,fill:haloPath?.getAttribute('fill'),
+       interactive:halo?.options.interactive,
+       haloClass:haloPath?.getAttribute('class'),
+       haloBeforePin:haloPath&&pinPath?!!(haloPath.compareDocumentPosition(pinPath)&Node.DOCUMENT_POSITION_FOLLOWING):false,
+       strokeWidth:getComputedStyle(pinPath).strokeWidth,radius:marker.options.radius};
    });
-   assert.match(haloOnIPhone.filter,/drop-shadow/,'iPhone published site marker must render a white halo');
-   assert.match(haloOnIPhone.filter,/rgb\(255,\s*255,\s*255\)|#fff|white/i,'halo must actually be white on WebKit');
+   assert.equal(haloOnIPhone.haloCount,234,'each published location has a solid white underlay');
+   assert.equal(haloOnIPhone.haloRadius,10.5);
+   assert.equal(haloOnIPhone.white,'#ffffff');
+   assert.equal(haloOnIPhone.fill,'#ffffff','actual SVG path is painted white');
+   assert.equal(haloOnIPhone.interactive,false,'the halo itself must not intercept taps');
+   assert.match(haloOnIPhone.haloClass,/sengoku-pin-halo/);
+   assert.equal(haloOnIPhone.haloBeforePin,true,'white disks must render below colored pins');
    assert.equal(haloOnIPhone.strokeWidth,'32px','white halo must not shrink the finger-sized touch stroke');
    assert.equal(haloOnIPhone.radius,7,'site marker geometry is unchanged');
 
@@ -197,6 +207,26 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
        pathPointer:getComputedStyle(path).pointerEvents,
        isTopPin:top===path,viewport:[innerWidth,innerHeight]};
    });
+   // Raster check: the ring must actually appear as white pixels in a real
+   // iPhone WebKit screenshot, not merely have a CSS property assigned.
+   const mapScreenshot=await page.screenshot({scale:'css'});
+   const whiteRing=await page.evaluate(async ({png,x,y})=>{
+     const img=new Image();
+     img.src='data:image/png;base64,'+png;
+     await img.decode();
+     const canvas=document.createElement('canvas');canvas.width=img.width;canvas.height=img.height;
+     const context=canvas.getContext('2d');context.drawImage(img,0,0);
+     const colors=[];
+     for(let i=0;i<12;i++){
+       const angle=2*Math.PI*i/12,px=Math.round(x+9.5*Math.cos(angle)),py=Math.round(y+9.5*Math.sin(angle));
+       if(px<0||py<0||px>=canvas.width||py>=canvas.height)continue;
+       const c=context.getImageData(px,py,1,1).data;
+       colors.push([c[0],c[1],c[2]]);
+     }
+     return {samples:colors.length,white:colors.filter(c=>c.every(v=>v>=245)).length,colors};
+   },{png:mapScreenshot.toString('base64'),x:target.x,y:target.y});
+   assert.ok(whiteRing.samples>=8&&whiteRing.white>=3,
+     'real WebKit pixels must reveal the ring around Edo Castle: '+JSON.stringify(whiteRing));
    await page.touchscreen.tap(target.x,target.y);
    await page.waitForTimeout(300);
    const tapped=await page.evaluate(()=>({
@@ -365,12 +395,18 @@ test('PC desktop Chromium viewport: 234 pins, access categories, deduplication a
   assert.equal(values.length,234);assert.equal(new Set(values.map(v=>v.site)).size,234);
   const haloOnDesktop=await page.evaluate(()=>{
    const pin=sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('姫路城跡'));
-   const computed=getComputedStyle(pin.getElement());
-   return {filter:computed.filter,strokeWidth:computed.strokeWidth,radius:pin.options.radius};
+   const halo=sengokuPinHalos.getLayers().find(h=>h.getLatLng().equals(pin.getLatLng()));
+   return {haloCount:sengokuPinHalos.getLayers().length,white:halo?.getElement()?.getAttribute('fill'),
+     haloRadius:halo?.options.radius,interactive:halo?.options.interactive,
+     pinRadius:pin.options.radius,
+     haloBeforePin:!!(halo?.getElement()?.compareDocumentPosition(pin.getElement())&Node.DOCUMENT_POSITION_FOLLOWING)};
   });
-  assert.match(haloOnDesktop.filter,/drop-shadow/,'desktop site marker must retain the white halo');
-  assert.match(haloOnDesktop.filter,/rgb\(255,\s*255,\s*255\)|#fff|white/i);
-  assert.equal(haloOnDesktop.radius,7,'desktop pin radius must not change');
+  assert.equal(haloOnDesktop.haloCount,234);
+  assert.equal(haloOnDesktop.white,'#ffffff');
+  assert.equal(haloOnDesktop.haloRadius,10.5);
+  assert.equal(haloOnDesktop.interactive,false);
+  assert.equal(haloOnDesktop.haloBeforePin,true);
+  assert.equal(haloOnDesktop.pinRadius,7,'desktop pin radius must not change');
 
   assert.equal(values.filter(v=>v.color==='#21864e').length,179);
   assert.equal(values.filter(v=>v.color==='#edb42d').length,53);
