@@ -217,20 +217,47 @@ test('deleted legacy research and publication files are absent from shipping rep
 });
 
 
-test('only earned Sengoku histories become framed cards; viewing them does not change saved records',async()=>{
+test('only acquired histories linked to published site coordinates become framed cards',async()=>{
  const w=await mount({walked_municipal_v2:visit(['25201'])});
  try{
   const before=raw(w);
   const detail=openSengoku(w,personIds[0]);
-  const owned=[...detail.querySelectorAll('.sengoku-era-owned')];
-  const locked=[...detail.querySelectorAll('.sengoku-era:not(.sengoku-era-owned)')];
-  assert.ok(owned.length>0,'at least one approved history must be acquired');
-  assert.ok(locked.length>0,'unacquired histories must remain unframed');
-  assert.ok(owned.every(row=>row.querySelector('.sengoku-card-status')?.textContent==='獲得済み'));
-  assert.ok(owned.every(row=>row.querySelector('.sengoku-card-title')?.textContent.length>0));
-  assert.ok(owned.every(row=>row.querySelector('.sengoku-card-description')?.textContent.length>0));
-  assert.ok(locked.every(row=>!row.querySelector('.sengoku-card-status')&&!row.querySelector('.sengoku-card-title')));
-  assert.deepEqual(raw(w),before,'a display-only change must not modify visit or card storage');
+  const framed=[...detail.querySelectorAll('.sengoku-era-owned')];
+  const ordinary=[...detail.querySelectorAll('.sengoku-era:not(.sengoku-era-owned)')];
+  const born=ordinary.find(row=>row.textContent.includes('尾張の織田家に生まれる'));
+  const enryakuji=framed.find(row=>row.textContent.includes('比叡山延暦寺を焼き討ちする'));
+  assert.ok(enryakuji,'acquired history with an approved site pin must have a card frame');
+  assert.ok(born,'acquired non-location history must remain a normal entry');
+  assert.equal(born.querySelector('.sengoku-v2-locked'),null,'unframed acquired text must remain visible');
+  assert.equal(born.querySelector('.sengoku-card-status'),null);
+  assert.ok(framed.every(row=>row.querySelector('.sengoku-card-status')?.textContent==='獲得済み'));
+  assert.ok(framed.every(row=>row.querySelector('.sengoku-card-title')?.textContent.length>0));
+  assert.ok(framed.every(row=>row.querySelector('.sengoku-card-description')?.textContent.length>0));
+  assert.ok(ordinary.every(row=>!row.querySelector('.sengoku-card-status')&&!row.querySelector('.sengoku-card-title')));
+  assert.deepEqual(raw(w),before,'display-only cards must not modify visit or acquisition storage');
+ }finally{w.close()}
+});
+
+test('even an acquired place history loses its card frame if no linked approved pin has coordinates',async()=>{
+ const w=await mount({walked_municipal_v2:visit(['25201'])});
+ try{
+  const before=raw(w),person=personIds[0],historyId='sg2hist-nobu-1571-enryakuji';
+  const personArg=JSON.stringify(person),historyArg=JSON.stringify(historyId);
+  const original=JSON.parse(w.eval(`JSON.stringify([...sengokuV2Catalog.linkSites.get(${historyArg})].map(id=>[id,sengokuV2Catalog.sites.get(id).publicPin]))`));
+  assert.ok(original.some(([,isPin])=>isPin));
+  w.eval(`for(const id of sengokuV2Catalog.linkSites.get(${historyArg}))sengokuV2Catalog.sites.get(id).publicPin=false`);
+  const withoutCoordinates=openSengoku(w,person);
+  const plain=[...withoutCoordinates.querySelectorAll('.sengoku-era')]
+    .find(row=>row.textContent.includes('比叡山延暦寺を焼き討ちする'));
+  assert.ok(plain);
+  assert.equal(plain.classList.contains('sengoku-era-owned'),false);
+  assert.equal(plain.querySelector('.sengoku-card-status'),null);
+  assert.equal(plain.querySelector('.sengoku-v2-locked'),null,'approved acquired content remains visible');
+  w.eval(`for(const [id,published] of ${JSON.stringify(original)})sengokuV2Catalog.sites.get(id).publicPin=published`);
+  const restored=openSengoku(w,person);
+  assert.ok([...restored.querySelectorAll('.sengoku-era-owned')].some(row=>
+    row.textContent.includes('比叡山延暦寺を焼き討ちする')));
+  assert.deepEqual(raw(w),before,'a rendering-only pin fixture must not change saved records');
  }finally{w.close()}
 });
 
