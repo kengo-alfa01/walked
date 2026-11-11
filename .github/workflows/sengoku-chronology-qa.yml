@@ -10,7 +10,6 @@ on:
       - feature/sengoku-20-ujimasa-20261111
       - fix/sengoku-published-pin-count-20261111
       - feature/sengoku-234-approved-pins-20261111
-      - fix/sengoku-solid-white-pin-ring-20261111
       - fix/sengoku-popup-controls-and-taiheiji-review-20261110
   workflow_dispatch:
 
