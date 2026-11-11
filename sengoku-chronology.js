@@ -202,7 +202,10 @@
   }
   function present(legacyHistories,view){
     if(!view)return [...legacyHistories].sort((a,b)=>
-      (a.eventYear??9999)-(b.eventYear??9999)||a.historyId.localeCompare(b.historyId));
+      (a.eventYear??9999)-(b.eventYear??9999)||
+      (a.displayOrder??0)-(b.displayOrder??0)||
+      (a.sourceOrder??0)-(b.sourceOrder??0)||
+      a.historyId.localeCompare(b.historyId));
     const byId=new Map(legacyHistories.map(h=>[h.historyId,h]));
     check(byId.size===view.orderIds.length&&view.orderIds.every(id=>byId.has(id)),'公開経歴リストと順序版のIDが異なります');
     return view.orderIds.map(id=>byId.get(id));
