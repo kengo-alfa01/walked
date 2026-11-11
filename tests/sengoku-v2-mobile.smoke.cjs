@@ -274,6 +274,8 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
        earned:earned.length,locked:locked.length,
        status:earned[0]?.querySelector('.sengoku-card-status')?.textContent,
        title:earned[0]?.querySelector('.sengoku-card-title')?.textContent,
+       born:locked.find(row=>row.textContent.includes('尾張の織田家に生まれる'))?.textContent,
+       bornBadge:locked.find(row=>row.textContent.includes('尾張の織田家に生まれる'))?.querySelector('.sengoku-card-status')?.textContent,
        earnedRightBorder:ownedStyle?parseFloat(ownedStyle.borderRightWidth):0,
        lockedRightBorder:lockedStyle?parseFloat(lockedStyle.borderRightWidth):0
      };
@@ -281,8 +283,10 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    assert.ok(cardAppearance.earned>0&&cardAppearance.locked>0,'earned and locked histories must both be visible');
    assert.equal(cardAppearance.status,'獲得済み');
    assert.ok(cardAppearance.title?.length>0,'earned card title must be readable');
-   assert.ok(cardAppearance.earnedRightBorder>=1,'earned history must have a full frame');
-   assert.equal(cardAppearance.lockedRightBorder,0,'locked timeline item must remain unframed');
+   assert.ok(cardAppearance.earnedRightBorder>=1,'acquired place with an approved pin must have a full frame');
+   assert.equal(cardAppearance.lockedRightBorder,0,'ordinary timeline entry must remain unframed');
+   assert.ok(cardAppearance.born?.includes('尾張の織田家に生まれる'),'acquired non-place history must stay readable');
+   assert.equal(cardAppearance.bornBadge,undefined,'acquired non-place history must not receive a card badge');
    await checkSyntheticChronologyScreen(page);
    const size=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
    assert.ok(size.scrollWidth<=size.width+2,'horizontal overflow '+size.scrollWidth+' > '+size.width);
