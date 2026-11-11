@@ -2,14 +2,14 @@ const {test}=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path');
 const {app,read,restore,raw}=require('./support/app.cjs');
 const root=path.join(__dirname,'..');
-const approved=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-up-to-ujimasa.json'),'utf8'));
+const approved=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-up-to-muneshige.json'),'utf8'));
 const personIds=approved.people.map(p=>p.personId);
 const approvedIds=approved.histories.map(h=>h.historyId);
 const placeCodes=[...new Set(approved.sites.filter(s=>approved.relations.some(r=>r.siteId===s.siteId)).flatMap(s=>s.municipalityCodes))];
 async function mount(initial={}){
  const w=await app(initial);
  for(let i=0;i<100;i++){
-  if(w.document.getElementById('sengokuQuality').textContent.includes('公開人物 20人／承認経歴 515件')&&w.eval('sengokuChronology.size===3'))return w;
+  if(w.document.getElementById('sengokuQuality').textContent.includes('公開人物 43人／承認経歴 980件')&&w.eval('sengokuChronology.size===3'))return w;
   await new Promise(r=>setTimeout(r,20));
  }
  const message=w.document.getElementById('sengokuQuality').textContent;
@@ -28,8 +28,8 @@ test('v2 JS bridge boots in actual DOM, with no visit awards and no premature 10
   assert.ok(read(w).cards&&Object.keys(read(w).cards).length===0);
   assert.equal(w.document.getElementById('sengokuPanel').hidden,true);
   assert.equal(w.eval('countOwned('+JSON.stringify(personIds[0])+')'),0);
-  assert.ok(w.document.getElementById('sengokuQuality').textContent.includes('承認経歴 515件'));
-  assert.match(w.document.getElementById('sengokuQuality').textContent,/史跡 236件／公開ピン 234件（ピン未公開 2件）/);
+  assert.ok(w.document.getElementById('sengokuQuality').textContent.includes('承認経歴 980件'));
+  assert.match(w.document.getElementById('sengokuQuality').textContent,/史跡 350件／公開ピン 234件（ピン未公開 116件）/);
  }finally{w.close();}
 });
 test('past Enryakuji 26103 town visit retroactively awards Nobunaga card and nonplace, keeps retired old ID',async()=>{
@@ -53,7 +53,7 @@ test('past Enryakuji 26103 town visit retroactively awards Nobunaga card and non
 test('all eligible municipalities award 108 v2 histories, 3 complete biographies; hide old text, suppress duplicate notification',async()=>{
  const w=await mount({walked_municipal_v2:visit(placeCodes)});
  try{
-  const b=read(w);assert.equal(countV2(w),515);assert.ok(placeCodes.length>=42);
+  const b=read(w);assert.equal(countV2(w),980);assert.ok(placeCodes.length>=42);
   assert.equal(Object.keys(b.visited).length,placeCodes.length);
   for(const person of approved.people){
    const detail=openSengoku(w,person.personId);
@@ -64,7 +64,7 @@ test('all eligible municipalities award 108 v2 histories, 3 complete biographies
    assert.equal(detail.querySelector('.sengoku-profile'),null,'legacy profile should not be duplicated');
   }
   const before=raw(w);w.eval('reconcileSengokuVisits()');
-  assert.deepEqual(raw(w),before);assert.equal(countV2(w),515);
+  assert.deepEqual(raw(w),before);assert.equal(countV2(w),980);
  }finally{w.close();}
 });
 test('existing backup-v3 restore UI merges v2 card records and preserves dates, titles, and old cards',async()=>{
@@ -202,7 +202,7 @@ test('retired cards remain intact while Hōjō Ujimasa joins the approved catalo
   const saved=read(w);
   assert.deepEqual(saved.cards['sg-card-0004'],initial.walked_sengoku_cards_v1['sg-card-0004']);
   assert.deepEqual(saved.cards['sg-card-0063'],initial.walked_sengoku_cards_v1['sg-card-0063']);
-  assert.equal(JSON.parse(w.eval('JSON.stringify(sengokuPeople.map(p=>p.name))')).length,20);
+  assert.equal(JSON.parse(w.eval('JSON.stringify(sengokuPeople.map(p=>p.name))')).length,43);
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
   assert.ok(JSON.parse(w.eval('JSON.stringify(sengokuPeople.map(p=>p.name))')).includes('北条氏政'));
   assert.ok(!w.document.getElementById('sengokuPanel').textContent.includes('太田道灌'));
@@ -223,7 +223,7 @@ test('deleted legacy research and publication files are absent from shipping rep
   'scripts/merge_sengoku_batch.py','sengoku-v2-integration.js'
  ])assert.equal(fs.existsSync(path.join(root,p)),false,'obsolete published file retained: '+p);
  assert.ok(fs.existsSync(path.join(root,'sengoku/v2/approved-three-person-staging.json')));
- assert.ok(fs.existsSync(path.join(root,'sengoku/v2/approved-up-to-ujimasa.json')));
+ assert.ok(fs.existsSync(path.join(root,'sengoku/v2/approved-up-to-muneshige.json')));
 });
 
 
@@ -358,7 +358,7 @@ test('real C chronology manifest renders approved rank order for all 3 people in
    assert.deepEqual(actual,expected);
   }
   assert.equal(w.eval('sengokuChronology.size'),3);
-  assert.equal(countV2(w),515);
+  assert.equal(countV2(w),980);
  }finally{w.close()}
 });
 

@@ -101,7 +101,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    page.on('requestfailed',request=>errors.push('requestfailed: '+request.url()+' '+request.failure()?.errorText));
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
    try{
-     await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('公開人物 20人／承認経歴 515件'),null,{timeout:20000});
+     await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('公開人物 43人／承認経歴 980件'),null,{timeout:20000});
    }catch(error){
      const diagnostic=await page.evaluate(()=>({
        location:location.href,ready:document.readyState,
@@ -114,7 +114,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      throw error;
    }
    assert.equal(coreScriptRequests.length,1,'exactly one versioned Sengoku core must be requested');
-   assert.match(coreScriptRequests[0],/\/sengoku-v2-core\.js\?v=sengoku234-20261111$/,
+   assert.match(coreScriptRequests[0],/\/sengoku-v2-core\.js\?v=sengoku43-20261112$/,
      'unversioned cached core is incompatible with 62-pin Sengoku approved-site release data');
    await checkRealApprovedOrder(page);
    const ieyasuVisit=await page.evaluate(()=>{
@@ -346,7 +346,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
    await routes(page);
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
    try {
-     await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('公開人物 20人／承認経歴 515件'),null,{timeout:20000});
+     await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('公開人物 43人／承認経歴 980件'),null,{timeout:20000});
    }catch(error){
      const diagnostic=await page.evaluate(()=>({url:location.href,ready:document.readyState,quality:document.getElementById('sengokuQuality')?.textContent,status:document.getElementById('status')?.textContent,core:!!window.SengokuV2}));
      console.error('Empty-context reload diagnostics',diagnostic);throw error;
@@ -385,7 +385,7 @@ test('PC desktop Chromium viewport: 234 pins, access categories, deduplication a
  }
  try{
   await routes();await page.addInitScript(()=>localStorage.setItem('walked_municipal_v2',JSON.stringify({'25201':{first:'2022-01-02',last:'2022-01-02',source:'QA'}})));await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
-  await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('公開人物 20人／承認経歴 515件'),null,{timeout:20000});
+  await page.waitForFunction(()=>document.getElementById('sengokuQuality')?.textContent.includes('公開人物 43人／承認経歴 980件'),null,{timeout:20000});
   await page.locator('[data-collection-mode="sengoku"]').click();
   const values=await page.evaluate(()=>sengokuPins.getLayers().map(m=>({
    site:m.getPopup().getContent().querySelector('h3')?.textContent,color:m.options.fillColor,
