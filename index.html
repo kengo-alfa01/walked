@@ -855,8 +855,9 @@ async function loadSengoku(){
   sengokuChronology=new Map();
   sengokuV2Catalog=reviewed;
   sengokuPeople=[...reviewed.people.values()].map(p=>({id:p.personId,name:p.name}));
+  const publishedPinCount=[...reviewed.sites.values()].filter(site=>site.publicPin).length;
   $('sengokuQuality').textContent='公開人物 '+reviewed.people.size+'人／承認経歴 '+reviewed.histories.size+
-   '件／史跡 '+reviewed.sites.size+'件（新正本v2のみ）';
+   '件／史跡 '+reviewed.sites.size+'件／公開ピン '+publishedPinCount+'件（ピン未公開 '+(reviewed.sites.size-publishedPinCount)+'件）';
   refreshSengokuTestSites();renderSengoku();refreshSengokuPins();refreshSengokuAreaHighlights();
   try{reconcileSengokuVisits()}catch(e){status('経歴カードの保存に失敗しました：'+e.message)}
   void loadSengokuChronology(reviewed);
