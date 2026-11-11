@@ -7,7 +7,8 @@
   'use strict';
   const SCHEMA='walked.sengoku.v2.approved.v1';
   const SOURCE='1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw';
-  const PEOPLE=new Set(['sg-6eaf66c3d7c8','sg-f47391608dbb','sg-a7bb09927601']);
+  const PEOPLE=new Set(["sg-6eaf66c3d7c8","sg-f47391608dbb","sg-a7bb09927601","sg-4cb1a557e060","sg-29c3bc68aa37","sg-4c0c12460efa","sg-dc8c550d8769","sg-31e0e85d7a10","sg-98139e31efb2","sg-master-0817","sg-b9bb61125a1b","sg-22f595e1c616","sg-added-maeda-toshiie","sg-a94db8113d4e","sg-master-0891","sg-819c365a83e4","sg-281d92dc2e0f","sg-1a91ae29cb5a","sg-2d3f90c28c8f","sg-025ab3a6ee3f"]);
+  const INTRO_PENDING=new Set(["sg-281d92dc2e0f","sg-1a91ae29cb5a","sg-2d3f90c28c8f","sg-025ab3a6ee3f"]);
   // Immutable release manifest: ⑥ row, ③ row, [longitude,latitude], status, and reviewed date.
   const PIN_APPROVED_META=Object.freeze({
   "sg2site-hideyoshi-fushimi-kohata": [1567, 37, 135.780854, 34.941691, "yellow", "2026-11-08"],
@@ -430,7 +431,8 @@
     for(const p of doc.people){
       check(PEOPLE.has(p.personId)&&!personMap.has(p.personId)&&typeof p.name==='string','対象外・重複人物');
       for(const type of ['introduction','story']){
-        const t=p[type];check(plain(t),'人物紹介・通史の欠落 '+p.personId);
+        const t=p[type];if(type==='introduction'&&!t&&INTRO_PENDING.has(p.personId))continue;
+        check(plain(t),'人物紹介・通史の欠落 '+p.personId);
         approval(t.approval,t.text,sha256,{kind:type==='introduction'?'人物紹介':'完成版ストーリー',personId:p.personId,sourceId:null});
         uniqueApproval(t.approval);
         check(t.approval.rights==='位置不要・権利OK'||t.approval.rights==='自治体確認済・権利OK','権利が未確認');
@@ -439,7 +441,7 @@
       check(plain(unlock)&&Number.isInteger(unlock.requiredHistoryCount)&&unlock.requiredHistoryCount>0&&Number.isInteger(unlock.requiredPlaceHistoryCount)&&unlock.requiredPlaceHistoryCount>=0&&unlock.requiredPlaceHistoryCount<=unlock.requiredHistoryCount&&/^[a-f0-9]{64}$/.test(unlock.historyIdsSHA256||''),'完成版ストーリーの全経歴解放条件が不正です');
       personMap.set(p.personId,p);
     }
-    check(personMap.size===3,'先行3人物以外を混入させないでください');
+    check(personMap.size===3||personMap.size===20,'先行3人物または承認20人物以外を混入させないでください');
     for(const s of doc.sites){
       check(id(s.siteId)&&!siteMap.has(s.siteId),'史跡IDの重複・欠落');
       check(Array.isArray(s.personIds)&&s.personIds.length>0&&s.personIds.every(x=>personMap.has(x)),'史跡承認に対象外人物を含む');
