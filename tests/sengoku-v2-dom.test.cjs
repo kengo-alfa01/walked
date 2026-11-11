@@ -53,7 +53,7 @@ test('all eligible municipalities award 108 v2 histories, 3 complete biographies
  const w=await mount({walked_municipal_v2:visit(placeCodes)});
  try{
   const b=read(w);assert.equal(countV2(w),515);assert.ok(placeCodes.length>=42);
-  assert.equal(Object.keys(b.visited).length,42);
+  assert.equal(Object.keys(b.visited).length,placeCodes.length);
   for(const person of approved.people){
    const detail=openSengoku(w,person.personId);
    assert.ok(detail.textContent.includes(person.story.text),person.name+' story remains locked');
