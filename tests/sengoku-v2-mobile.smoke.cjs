@@ -149,7 +149,7 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
        radius:marker.options.radius,color:marker.options.fillColor};
    });
    assert.match(haloOnIPhone.filter,/drop-shadow/,'iPhone published site marker must render a white halo');
-   assert.match(haloOnIPhone.filter,/rgb\\(255, 255, 255\\)|#fff|white/i,'halo must actually be white on WebKit');
+   assert.match(haloOnIPhone.filter,/rgb\(255,\s*255,\s*255\)|#fff|white/i,'halo must actually be white on WebKit');
    assert.equal(haloOnIPhone.strokeWidth,'32px','white halo must not shrink the finger-sized touch stroke');
    assert.equal(haloOnIPhone.radius,7,'site marker geometry is unchanged');
 
@@ -369,7 +369,7 @@ test('PC desktop Chromium viewport: 234 pins, access categories, deduplication a
    return {filter:computed.filter,strokeWidth:computed.strokeWidth,radius:pin.options.radius};
   });
   assert.match(haloOnDesktop.filter,/drop-shadow/,'desktop site marker must retain the white halo');
-  assert.match(haloOnDesktop.filter,/rgb\\(255, 255, 255\\)|#fff|white/i);
+  assert.match(haloOnDesktop.filter,/rgb\(255,\s*255,\s*255\)|#fff|white/i);
   assert.equal(haloOnDesktop.radius,7,'desktop pin radius must not change');
 
   assert.equal(values.filter(v=>v.color==='#21864e').length,179);
