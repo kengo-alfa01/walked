@@ -142,6 +142,17 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
      color:marker.options.fillColor,popup:marker.getPopup().getContent().textContent
    })));
    assert.equal(pins.length,234,'all 234 approved pins must be present even when histories are locked');
+   const haloOnIPhone=await page.evaluate(()=>{
+     const marker=sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('江戸城跡'));
+     const path=marker.getElement(),css=getComputedStyle(path);
+     return {filter:css.filter,stroke:css.stroke,strokeWidth:css.strokeWidth,pointer:css.pointerEvents,
+       radius:marker.options.radius,color:marker.options.fillColor};
+   });
+   assert.match(haloOnIPhone.filter,/drop-shadow/,'iPhone published site marker must render a white halo');
+   assert.match(haloOnIPhone.filter,/rgb\\(255, 255, 255\\)|#fff|white/i,'halo must actually be white on WebKit');
+   assert.equal(haloOnIPhone.strokeWidth,'32px','white halo must not shrink the finger-sized touch stroke');
+   assert.equal(haloOnIPhone.radius,7,'site marker geometry is unchanged');
+
    const pane=await page.evaluate(()=>({z:getComputedStyle(map.getPane('sengoku-pins')).zIndex,overlay:getComputedStyle(map.getPane('overlayPane')).zIndex,renderer:sengokuPins.getLayers()[0]?.options.renderer?.options.pane}));
    assert.equal(pane.z,'625','historic pins must be in a high pane');
    assert.ok(Number(pane.z)>Number(pane.overlay),'pins must overlay administrative polygons');
@@ -352,6 +363,15 @@ test('PC desktop Chromium viewport: 234 pins, access categories, deduplication a
    popup:m.getPopup().getContent().textContent
   })));
   assert.equal(values.length,234);assert.equal(new Set(values.map(v=>v.site)).size,234);
+  const haloOnDesktop=await page.evaluate(()=>{
+   const pin=sengokuPins.getLayers().find(m=>m.getPopup().getContent().textContent.includes('姫路城跡'));
+   const computed=getComputedStyle(pin.getElement());
+   return {filter:computed.filter,strokeWidth:computed.strokeWidth,radius:pin.options.radius};
+  });
+  assert.match(haloOnDesktop.filter,/drop-shadow/,'desktop site marker must retain the white halo');
+  assert.match(haloOnDesktop.filter,/rgb\\(255, 255, 255\\)|#fff|white/i);
+  assert.equal(haloOnDesktop.radius,7,'desktop pin radius must not change');
+
   assert.equal(values.filter(v=>v.color==='#21864e').length,179);
   assert.equal(values.filter(v=>v.color==='#edb42d').length,53);
   assert.equal(values.filter(v=>v.color==='#ca3a3a').length,2);
