@@ -7,6 +7,7 @@ on:
       - hotfix/sengoku-stale-js-cache-edo47-20261110
       - fix/ios-sengoku-pin-tap-popup-20261110
       - fix/sengoku-popup-controls-and-taiheiji-review-20261110
+      - feature/sengoku-20-ujimasa-20261111
       - fix/sengoku-popup-controls-and-taiheiji-review-20261110
   workflow_dispatch:
 

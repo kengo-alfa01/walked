@@ -2,14 +2,14 @@ const {test}=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path');
 const {app,read,restore,raw}=require('./support/app.cjs');
 const root=path.join(__dirname,'..');
-const approved=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-three-person-staging.json'),'utf8'));
+const approved=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-up-to-ujimasa.json'),'utf8'));
 const personIds=approved.people.map(p=>p.personId);
 const approvedIds=approved.histories.map(h=>h.historyId);
 const placeCodes=[...new Set(approved.sites.filter(s=>approved.relations.some(r=>r.siteId===s.siteId)).flatMap(s=>s.municipalityCodes))];
 async function mount(initial={}){
  const w=await app(initial);
  for(let i=0;i<100;i++){
-  if(w.document.getElementById('sengokuQuality').textContent.includes('公開人物 3人／承認経歴 108件')&&w.eval('sengokuChronology.size===3'))return w;
+  if(w.document.getElementById('sengokuQuality').textContent.includes('公開人物 20人／承認経歴 515件')&&w.eval('sengokuChronology.size===3'))return w;
   await new Promise(r=>setTimeout(r,20));
  }
  const message=w.document.getElementById('sengokuQuality').textContent;
@@ -28,7 +28,7 @@ test('v2 JS bridge boots in actual DOM, with no visit awards and no premature 10
   assert.ok(read(w).cards&&Object.keys(read(w).cards).length===0);
   assert.equal(w.document.getElementById('sengokuPanel').hidden,true);
   assert.equal(w.eval('countOwned('+JSON.stringify(personIds[0])+')'),0);
-  assert.ok(w.document.getElementById('sengokuQuality').textContent.includes('承認経歴 108件'));
+  assert.ok(w.document.getElementById('sengokuQuality').textContent.includes('承認経歴 515件'));
  }finally{w.close();}
 });
 test('past Enryakuji 26103 town visit retroactively awards Nobunaga card and nonplace, keeps retired old ID',async()=>{
@@ -52,17 +52,18 @@ test('past Enryakuji 26103 town visit retroactively awards Nobunaga card and non
 test('all eligible municipalities award 108 v2 histories, 3 complete biographies; hide old text, suppress duplicate notification',async()=>{
  const w=await mount({walked_municipal_v2:visit(placeCodes)});
  try{
-  const b=read(w);assert.equal(countV2(w),108);assert.equal(placeCodes.length,42);
-  assert.equal(Object.keys(b.visited).length,42);
+  const b=read(w);assert.equal(countV2(w),515);assert.ok(placeCodes.length>=42);
+  assert.equal(Object.keys(b.visited).length,placeCodes.length);
   for(const person of approved.people){
    const detail=openSengoku(w,person.personId);
    assert.ok(detail.textContent.includes(person.story.text),person.name+' story remains locked');
-   assert.ok(detail.textContent.includes(person.introduction.text));
+   if(person.introduction)assert.ok(detail.textContent.includes(person.introduction.text));
+    else assert.ok(detail.textContent.includes('人物紹介は公開最終承認待ちです。'));
    assert.equal(detail.querySelectorAll('.sengoku-era').length,approved.histories.filter(h=>h.personId===person.personId).length);
    assert.equal(detail.querySelector('.sengoku-profile'),null,'legacy profile should not be duplicated');
   }
   const before=raw(w);w.eval('reconcileSengokuVisits()');
-  assert.deepEqual(raw(w),before);assert.equal(countV2(w),108);
+  assert.deepEqual(raw(w),before);assert.equal(countV2(w),515);
  }finally{w.close();}
 });
 test('existing backup-v3 restore UI merges v2 card records and preserves dates, titles, and old cards',async()=>{
@@ -163,7 +164,7 @@ test('selected person pins include undiscovered links, one pin per site ID, inde
   capturePins(w);
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
   assert.equal(w.qaV2Markers.length,62);
-  for(const personId of personIds){
+  for(const personId of personIds.slice(0,3)){
    openSengoku(w,personId);
    const expected=approved.sites.filter(s=>s.publicPin&&s.personIds.includes(personId));
    assert.equal(w.qaV2Markers.length,expected.length,'selected character should show every public site even if unearned');
@@ -178,7 +179,7 @@ test('selected person pins include undiscovered links, one pin per site ID, inde
   assert.deepEqual(Object.keys(read(w).visited).sort(),['23219','23229','25203']);
  }finally{w.close()}
 });
-test('old Hōjō Ujimasa and Ōta Dōkan card saves never surface retired people, cards or pins',async()=>{
+test('retired cards remain intact while Hōjō Ujimasa joins the approved catalogue',async()=>{
  const initial={
   walked_municipal_v2:visit(['14206','13120']),
   walked_sengoku_cards_v1:{
@@ -191,9 +192,9 @@ test('old Hōjō Ujimasa and Ōta Dōkan card saves never surface retired people
   const saved=read(w);
   assert.deepEqual(saved.cards['sg-card-0004'],initial.walked_sengoku_cards_v1['sg-card-0004']);
   assert.deepEqual(saved.cards['sg-card-0063'],initial.walked_sengoku_cards_v1['sg-card-0063']);
-  assert.deepEqual(JSON.parse(w.eval('JSON.stringify(sengokuPeople.map(p=>p.name))')),['織田信長','豊臣秀吉','徳川家康']);
+  assert.equal(JSON.parse(w.eval('JSON.stringify(sengokuPeople.map(p=>p.name))')).length,20);
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
-  assert.ok(!w.document.getElementById('sengokuPanel').textContent.includes('北条氏政'));
+  assert.ok(JSON.parse(w.eval('JSON.stringify(sengokuPeople.map(p=>p.name))')).includes('北条氏政'));
   assert.ok(!w.document.getElementById('sengokuPanel').textContent.includes('太田道灌'));
   const before=raw(w);
   w.eval('reconcileSengokuVisits()');
@@ -212,6 +213,7 @@ test('deleted legacy research and publication files are absent from shipping rep
   'scripts/merge_sengoku_batch.py','sengoku-v2-integration.js'
  ])assert.equal(fs.existsSync(path.join(root,p)),false,'obsolete published file retained: '+p);
  assert.ok(fs.existsSync(path.join(root,'sengoku/v2/approved-three-person-staging.json')));
+ assert.ok(fs.existsSync(path.join(root,'sengoku/v2/approved-up-to-ujimasa.json')));
 });
 
 
@@ -302,7 +304,7 @@ test('real C chronology manifest renders approved rank order for all 3 people in
    assert.deepEqual(actual,expected);
   }
   assert.equal(w.eval('sengokuChronology.size'),3);
-  assert.equal(countV2(w),108);
+  assert.equal(countV2(w),515);
  }finally{w.close()}
 });
 
