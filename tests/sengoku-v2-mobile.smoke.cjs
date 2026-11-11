@@ -207,6 +207,26 @@ test('iPhone-like WebKit viewport: approved v2 biography, privacy, and backup do
        pathPointer:getComputedStyle(path).pointerEvents,
        isTopPin:top===path,viewport:[innerWidth,innerHeight]};
    });
+   // Raster check: the ring must actually appear as white pixels in a real
+   // iPhone WebKit screenshot, not merely have a CSS property assigned.
+   const mapScreenshot=await page.screenshot({scale:'css'});
+   const whiteRing=await page.evaluate(async ({png,x,y})=>{
+     const img=new Image();
+     img.src='data:image/png;base64,'+png;
+     await img.decode();
+     const canvas=document.createElement('canvas');canvas.width=img.width;canvas.height=img.height;
+     const context=canvas.getContext('2d');context.drawImage(img,0,0);
+     const colors=[];
+     for(let i=0;i<12;i++){
+       const angle=2*Math.PI*i/12,px=Math.round(x+9.5*Math.cos(angle)),py=Math.round(y+9.5*Math.sin(angle));
+       if(px<0||py<0||px>=canvas.width||py>=canvas.height)continue;
+       const c=context.getImageData(px,py,1,1).data;
+       colors.push([c[0],c[1],c[2]]);
+     }
+     return {samples:colors.length,white:colors.filter(c=>c.every(v=>v>=245)).length,colors};
+   },{png:mapScreenshot.toString('base64'),x:target.x,y:target.y});
+   assert.ok(whiteRing.samples>=8&&whiteRing.white>=3,
+     'real WebKit pixels must reveal the ring around Edo Castle: '+JSON.stringify(whiteRing));
    await page.touchscreen.tap(target.x,target.y);
    await page.waitForTimeout(300);
    const tapped=await page.evaluate(()=>({
