@@ -16,7 +16,13 @@ test('⑥ approval SHA, unique rows, pin gates and location based awards validat
  const rows=new Set(),ck=(a,s)=>{assert.equal(a.user,'公開OK');assert.equal(a.quality,'品質合格');assert.equal(a.handoff,'C候補（別途公開承認）');assert.equal(a.sourceMatch,'一致');assert.equal(a.sha256,hash(s));assert.equal(rows.has(a.sheetRow),false);rows.add(a.sheetRow);};
  for(const p of d.people){if(p.introduction)ck(p.introduction.approval,p.introduction.text);ck(p.story.approval,p.story.text);}
  for(const h of d.histories)ck(h.approval,h.text);
- for(const s of d.sites){ck(s.approval,s.description);if(s.publicPin)ck(s.pinApproval,s.description);else assert.equal(s.point,null);}
+ for(const s of d.sites){
+  ck(s.approval,s.description);
+  if(s.publicPin){
+    if(s.pinApproval.sheetRow!==s.approval.sheetRow)ck(s.pinApproval,s.description);
+    else assert.deepEqual(s.pinApproval,s.approval,'同一行の本文と位置承認が一致すること');
+  }else assert.equal(s.point,null);
+ }
  const catalog=V.validate(d,known,hash);assert.equal(catalog.people.size,20);assert.equal(catalog.histories.size,515);assert.equal(catalog.sites.size,236);
  for(const h of d.histories)if(h.kind==='place')assert.ok(catalog.codes.get(h.historyId)?.size>0,h.historyId);
 });

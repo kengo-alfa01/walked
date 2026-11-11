@@ -631,7 +631,10 @@
         const approvedPinPersonIds=s.pinPersonIds||s.personIds;
         check(Array.isArray(approvedPinPersonIds)&&approvedPinPersonIds.length>0&&approvedPinPersonIds.every(x=>personMap.has(x))&&s.personIds.every(x=>approvedPinPersonIds.includes(x))&&new Set(approvedPinPersonIds).size===approvedPinPersonIds.length,'位置版⑥人物IDが未承認です');
         approval(s.pinApproval,s.description,sha256,{kind:'史跡',personId:approvedPinPersonIds.join('\n'),sourceId:s.siteId});
-        uniqueApproval(s.pinApproval);
+        if(s.pinApproval.sheetRow!==s.approval.sheetRow)uniqueApproval(s.pinApproval);
+        else check(s.pinApproval.version===s.approval.version&&s.pinApproval.sha256===s.approval.sha256&&
+          s.pinApproval.personId===s.approval.personId&&s.pinApproval.sourceId===s.approval.sourceId,
+          '史跡本文と位置版が同一⑥承認行の場合の根拠が一致しません');
         check(['v2','v3'].includes(s.pinApproval.version)&&s.pinApproval.sheetRow===PIN_APPROVED_META[s.siteId]?.[0],'位置版v2と史跡IDの⑥承認行が一致しません');
         check(['自治体確認済・権利OK','地点確認済・権利OK'].includes(s.pinApproval.rights),'位置版の権利・所在地確認が未承認');
         const p=s.pinReview;
