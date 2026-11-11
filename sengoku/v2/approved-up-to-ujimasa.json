@@ -30517,22 +30517,6 @@
     },
     {
       "personId": "sg-dc8c550d8769",
-      "historyId": "sg2hist-kenshin-1530-birth",
-      "siteId": "sg2site-kenshin-kasugayama",
-      "classification": "出来事直接（公的伝承）",
-      "bStatus": "合格",
-      "linkDecision": "関係上対象",
-      "sourceIds": [
-        "sg2src-kenshin-chron",
-        "sg2src-kenshin-kasugayama"
-      ],
-      "sourceUrls": [
-        "https://joetsukankonavi.jp/kenshinkousai/chronology/",
-        "https://www.city.joetsu.niigata.jp/site/cultural-property/cultural-property-jpn002.html"
-      ]
-    },
-    {
-      "personId": "sg-dc8c550d8769",
       "historyId": "sg2hist-kenshin-1536-rinsenji",
       "siteId": "sg2site-kenshin-rinsenji",
       "classification": "本人直接",
@@ -30625,20 +30609,6 @@
       ],
       "sourceUrls": [
         "https://www.city.minamiuonuma.niigata.jp/docs/3818.html"
-      ]
-    },
-    {
-      "personId": "sg-dc8c550d8769",
-      "historyId": "sg2hist-kenshin-1560-ecchu",
-      "siteId": "sg2site-kenshin-masuyama",
-      "classification": "出来事直接（史料）",
-      "bStatus": "合格",
-      "linkDecision": "関係上対象",
-      "sourceIds": [
-        "sg2src-kenshin-tonami"
-      ],
-      "sourceUrls": [
-        "https://www.city.tonami.lg.jp/photop/9602p/?print=page"
       ]
     },
     {
@@ -31513,20 +31483,6 @@
     },
     {
       "personId": "sg-master-0817",
-      "historyId": "sg2hist-kanbei-takamatsu-peace1582",
-      "siteId": "sg2site-hideyoshi-bitchu-takamatsu",
-      "classification": "出来事直接（史料）",
-      "bStatus": "合格",
-      "linkDecision": "関係上対象",
-      "sourceIds": [
-        "sg2src-kanbei-okaya-exhibit"
-      ],
-      "sourceUrls": [
-        "https://www.city.okayama.jp/kurashi/0000009173.html"
-      ]
-    },
-    {
-      "personId": "sg-master-0817",
       "historyId": "sg2hist-kanbei-kyushu1586",
       "siteId": "sg2site-kanbei-umagatake",
       "classification": "出来事直接（史料）",
@@ -31567,20 +31523,6 @@
       ],
       "sourceUrls": [
         "https://www.city-nakatsu.jp/doc/2013100100011/file_contents/nakatsujo.pdf"
-      ]
-    },
-    {
-      "personId": "sg-master-0817",
-      "historyId": "sg2hist-kanbei-odawara1590",
-      "siteId": "sg2site-hideyoshi-odawara",
-      "classification": "出来事直接（史料）",
-      "bStatus": "合格",
-      "linkDecision": "関係上対象",
-      "sourceIds": [
-        "sg2src-kanbei-himeji-life"
-      ],
-      "sourceUrls": [
-        "https://www.city.himeji.lg.jp/kanko/cmsfiles/contents/0000005/5242/kanbei_web.pdf"
       ]
     },
     {
@@ -32563,22 +32505,6 @@
     },
     {
       "personId": "sg-master-0891",
-      "historyId": "sg2hist-takakage-1555-itsukushima",
-      "siteId": "sg2site-motonari-miyanoo",
-      "classification": "出来事直接（史料）",
-      "bStatus": "合格",
-      "linkDecision": "関係上対象",
-      "sourceIds": [
-        "sg2src-takakage-hiroshima-chron",
-        "sg2src-takakage-takehara-nomi"
-      ],
-      "sourceUrls": [
-        "https://www.pref.hiroshima.lg.jp/soshiki_file/monjokan/nenpyou/nenpyou-cyusei2.pdf",
-        "https://www.city.takehara.lg.jp/material/files/group/19/03_dai1shouR4.pdf"
-      ]
-    },
-    {
-      "personId": "sg-master-0891",
       "historyId": "sg2hist-takakage-1567-mihara",
       "siteId": "sg2site-takakage-mihara",
       "classification": "出来事直接（史料）",
@@ -32808,22 +32734,6 @@
       ],
       "sourceUrls": [
         "https://www.city.ebino.lg.jp/soshiki/shakaikyoiku/5/896.html",
-        "https://www.kagoshima-kankou.com/feature/shimadu2019/introduction2"
-      ]
-    },
-    {
-      "personId": "sg-819c365a83e4",
-      "historyId": "sg2hist-yoshihiro-mimigawa1578",
-      "siteId": "sg2site-yoshihiro-takajo",
-      "classification": "出来事直接（史料）",
-      "bStatus": "合格",
-      "linkDecision": "関係上対象",
-      "sourceIds": [
-        "sg2src-yoshihiro-kijo-takajo",
-        "sg2src-yoshihiro-kagoshima-battle1"
-      ],
-      "sourceUrls": [
-        "https://www.town.kijo.lg.jp/sosikikarasagasu/kyouikuiinkai_kyouikuka/1_1/1/513.html",
         "https://www.kagoshima-kankou.com/feature/shimadu2019/introduction2"
       ]
     },
