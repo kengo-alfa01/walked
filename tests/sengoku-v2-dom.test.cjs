@@ -29,6 +29,7 @@ test('v2 JS bridge boots in actual DOM, with no visit awards and no premature 10
   assert.equal(w.document.getElementById('sengokuPanel').hidden,true);
   assert.equal(w.eval('countOwned('+JSON.stringify(personIds[0])+')'),0);
   assert.ok(w.document.getElementById('sengokuQuality').textContent.includes('承認経歴 515件'));
+  assert.match(w.document.getElementById('sengokuQuality').textContent,/史跡 236件／公開ピン 62件（ピン未公開 174件）/);
  }finally{w.close();}
 });
 test('past Enryakuji 26103 town visit retroactively awards Nobunaga card and nonplace, keeps retired old ID',async()=>{
