@@ -7,8 +7,8 @@ test('20 approved ranks to Hōjō Ujimasa preserve the original approved 3 and p
  assert.deepEqual(d.people.slice(0,3),old.people);assert.deepEqual(d.histories.slice(0,108),old.histories);
  assert.deepEqual(d.sites.slice(0,62),old.sites);assert.deepEqual(d.relations.slice(0,78),old.relations);
  assert.equal(d.histories.length,515);assert.equal(d.sites.length,236);
- assert.equal(d.sites.filter(x=>x.publicPin).length,62);
- assert.equal(d.sites.filter(x=>!x.publicPin&&x.point===null).length,174);
+ assert.equal(d.sites.filter(x=>x.publicPin).length,234);
+ assert.equal(d.sites.filter(x=>!x.publicPin&&x.point===null).length,2);
  assert.deepEqual(d.people.filter(p=>!p.introduction).map(p=>p.name),['長宗我部元親','直江兼続','柴田勝家','北条氏政']);
  assert.equal(d.histories.some(h=>h.historyId==='sg2hist-ujiyasu-konodai1538'),false);
 });

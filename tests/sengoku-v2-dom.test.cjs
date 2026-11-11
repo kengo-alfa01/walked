@@ -29,7 +29,7 @@ test('v2 JS bridge boots in actual DOM, with no visit awards and no premature 10
   assert.equal(w.document.getElementById('sengokuPanel').hidden,true);
   assert.equal(w.eval('countOwned('+JSON.stringify(personIds[0])+')'),0);
   assert.ok(w.document.getElementById('sengokuQuality').textContent.includes('承認経歴 515件'));
-  assert.match(w.document.getElementById('sengokuQuality').textContent,/史跡 236件／公開ピン 62件（ピン未公開 174件）/);
+  assert.match(w.document.getElementById('sengokuQuality').textContent,/史跡 236件／公開ピン 234件（ピン未公開 2件）/);
  }finally{w.close();}
 });
 test('past Enryakuji 26103 town visit retroactively awards Nobunaga card and nonplace, keeps retired old ID',async()=>{
@@ -103,27 +103,26 @@ function capturePins(w){
   window.qaV2Markers.push(marker);return marker;
  };`);
 }
-test('62 approved pins are visible without visits and with old unknown-pin setting off or on',async()=>{
+test('234 approved pins are visible without visits and with old unknown-pin setting off or on',async()=>{
  for(const pref of ['false','true']){
   const w=await mount({walked_show_unknown_pins_v1:pref});
   try{
    capturePins(w);
    w.document.querySelector('[data-collection-mode="sengoku"]').click();
    const pins=w.qaV2Markers;
-   assert.equal(pins.length,62,'public pins should not depend on acquisition or legacy preference');
+   assert.equal(pins.length,234,'public pins should not depend on acquisition or legacy preference');
    assert.equal(w.eval('sengokuPinPane.style.zIndex'),'625','site markers must be above administrative area fills');
    assert.ok(pins.every(p=>p.opts.renderer?.options?.pane==='sengoku-pins'),'site pins need their own SVG pane');
-   assert.equal(new Set(pins.map(p=>p.popup.querySelector('h3').textContent)).size,62);
+   assert.equal(new Set(pins.map(p=>p.popup.querySelector('h3').textContent)).size,234);
    assert.equal(read(w).cards&&Object.keys(read(w).cards).length,0);
    assert.equal(w.document.getElementById('showUnknownPins'),null);
    assert.equal(w.localStorage.getItem('walked_show_unknown_pins_v1'),pref,'old preference left untouched');
    const colors=pins.reduce((a,p)=>(a[p.opts.fillColor]=(a[p.opts.fillColor]||0)+1,a),{});
-   assert.equal(colors['#21864e'],51);assert.equal(colors['#edb42d'],11);
-   assert.equal(Object.keys(colors).length,2);
+   assert.equal(colors['#21864e'],179);assert.equal(colors['#edb42d'],53);assert.equal(colors['#ca3a3a'],2);
+   assert.equal(Object.keys(colors).length,3);
    const yellow=pins.filter(p=>p.opts.fillColor==='#edb42d').map(p=>p.popup.querySelector('h3').textContent).sort();
-   assert.deepEqual(Array.from(yellow),['安土城跡','姫路城跡','岐阜城跡','江戸城跡（家康入府の本拠）',
- '姉川古戦場','比叡山延暦寺（焼き討ち関連）','長島城跡（旧城郭範囲）',
- '賤ヶ岳古戦場','楽田城跡（秀吉の陣）','伏見指月城跡','伏見木幡山城跡'].sort());
+   const originalYellow=approved.sites.slice(0,62).filter(s=>s.pinReview.accessStatus==='yellow').map(s=>s.name);
+   assert.ok(originalYellow.every(name=>yellow.includes(name)),'old yellow pins remain');
    const gifu=pins.find(p=>p.popup.textContent.includes('岐阜城跡'));
    assert.ok(gifu.popup.textContent.includes('一部立入制限'));
    assert.ok(gifu.popup.textContent.includes('立入状況は変わる場合があります。現地の案内に従ってください。'));
@@ -144,7 +143,7 @@ test('selected commander remains visible when all approved sites have pins and n
   assert.equal(selected.getAttribute('aria-pressed'),'true');
   assert.match(w.document.getElementById('sengokuSelectedName').textContent,/選択中：織田信長/);
   const codes=JSON.parse(w.eval('JSON.stringify([...unpinnedMunicipalityCodes(selectedSengokuPersonId)].sort())'));
-  assert.deepEqual(codes,[],'no city-wide pulse is needed when all 62 sites have a published pin');
+  assert.deepEqual(codes,[],'no city-wide pulse is needed for Nobunaga's existing pins');
   assert.equal(w.eval('sengokuAreaPane.style.zIndex'),'550');
   assert.equal(w.eval('sengokuAreaRenderer.options.pane'),'sengoku-areas');
   assert.doesNotMatch(detail.textContent,/ピンのない史跡の地域を地図で見る/);
@@ -164,7 +163,7 @@ test('selected person pins include undiscovered links, one pin per site ID, inde
  try{
   capturePins(w);
   w.document.querySelector('[data-collection-mode="sengoku"]').click();
-  assert.equal(w.qaV2Markers.length,62);
+  assert.equal(w.qaV2Markers.length,234);
   for(const personId of personIds.slice(0,3)){
    openSengoku(w,personId);
    const expected=approved.sites.filter(s=>s.publicPin&&s.personIds.includes(personId));

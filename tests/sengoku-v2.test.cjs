@@ -164,7 +164,7 @@ test('invalid municipality, indirect acquisition link, or exposed private coordi
 test('screens retain iPhone responsive UI and v2 integration JavaScript is syntactically valid',()=>{
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
  assert.match(html,/viewport-fit=cover/);assert.match(html,/overflow-wrap:anywhere/);
- assert.match(html,/<script src="\.\/sengoku-v2-core\.js\?v=sengoku20-20261111"><\/script>/);
+ assert.match(html,/<script src="\.\/sengoku-v2-core\.js\?v=sengoku234-20261111"><\/script>/);
  assert.doesNotMatch(html,/sengoku-v2-integration\.js|sengoku\/people\.json|sengoku\/cards\.json/);
 });
 test('all 108 approved histories are acquired once from 42 eligible municipalities; all biographies unlock',()=>{
@@ -231,7 +231,7 @@ test('⑥1546 Edo Castle information pin is yellow, separately approved and not 
 // not combine the previous cached JS with the new JSON. Version the browser JS URL.
 test('release-critical Sengoku scripts are cache-busted at the 62-pin B/⑥ approval version',()=>{
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
- const token='sengoku20-20261111';
+ const token='sengoku234-20261111';
  assert.ok(html.includes('src="./sengoku-v2-core.js?v='+token+'"'));
  assert.ok(html.includes('src="./sengoku-chronology.js?v='+token+'"'));
  assert.ok(html.includes("fetch('./sengoku/v2/approved-up-to-ujimasa.json',{cache:'no-store'})"));
