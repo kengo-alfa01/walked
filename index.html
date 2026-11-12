@@ -911,7 +911,7 @@ async function loadSengokuChronology(reviewed){
 async function loadSengoku(){
  try{
   const [r,areas]=await Promise.all([
-   fetch('./sengoku/v2/approved-up-to-muneshige.json',{cache:'no-store'}),
+   fetch('./sengoku/v2/approved-up-to-muneshige-pins-100.json',{cache:'no-store'}),
    fetch('./data/title-registry.json',{cache:'no-cache'})
   ]);
   if(!r.ok||!areas.ok)throw Error('承認済み戦国v2のデータを読み込めません');
