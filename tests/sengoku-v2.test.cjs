@@ -98,13 +98,13 @@ test('⑥ pin release has exactly 62 latest v2 site approvals and no municipalit
 test('B coordinates and approved version cannot be bypassed by old v1 text approval',()=>{
  const sample=doc.sites.find(s=>s.siteId==='sg2site-nobu-gifu');
  const wrongVersion=clone(doc);wrongVersion.sites.find(s=>s.siteId===sample.siteId).pinApproval.version='v1';
- assert.throws(()=>verify(wrongVersion),/位置版v2/);
+ assert.throws(()=>verify(wrongVersion),/位置版v2|座標・見学区分/);
  const wrongRow=clone(doc);wrongRow.sites.find(s=>s.siteId===sample.siteId).pinApproval.sheetRow=465;
- assert.throws(()=>verify(wrongRow),/位置版v2|同じ承認行/);
+ assert.throws(()=>verify(wrongRow),/位置版v2|同じ承認行|座標・見学区分/);
  const missing=clone(doc);delete missing.sites.find(s=>s.siteId===sample.siteId).pinApproval;
  assert.throws(()=>verify(missing),/位置更新版/);
  const copiedApproval=clone(doc);copiedApproval.sites.find(s=>s.siteId===sample.siteId).pinApproval={...sample.approval};
- assert.throws(()=>verify(copiedApproval),/位置版v2|同じ承認行/);
+ assert.throws(()=>verify(copiedApproval),/位置版v2|同じ承認行|座標・見学区分/);
  const moved=clone(doc);moved.sites.find(s=>s.siteId===sample.siteId).point[0]+=0.01;
  assert.throws(()=>verify(moved),/座標・見学区分/);
  const guessedGreen=clone(doc);guessedGreen.sites.find(s=>s.siteId===sample.siteId).pinReview.accessStatus='green';
@@ -164,7 +164,7 @@ test('invalid municipality, indirect acquisition link, or exposed private coordi
 test('screens retain iPhone responsive UI and v2 integration JavaScript is syntactically valid',()=>{
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
  assert.match(html,/viewport-fit=cover/);assert.match(html,/overflow-wrap:anywhere/);
- assert.match(html,/<script src="\.\/sengoku-v2-core\.js\?v=sengoku234-20261111"><\/script>/);
+ assert.match(html,/<script src="\.\/sengoku-v2-core\.js\?v=sengoku334-20261112"><\/script>/);
  assert.doesNotMatch(html,/sengoku-v2-integration\.js|sengoku\/people\.json|sengoku\/cards\.json/);
 });
 test('all 108 approved histories are acquired once from 42 eligible municipalities; all biographies unlock',()=>{
@@ -229,12 +229,12 @@ test('⑥1546 Edo Castle information pin is yellow, separately approved and not 
 
 // Regression: after updating site approval metadata (⑥1546, 47th pin), Safari must
 // not combine the previous cached JS with the new JSON. Version the browser JS URL.
-test('release-critical Sengoku scripts are cache-busted at the 62-pin B/⑥ approval version',()=>{
+test('release-critical Sengoku scripts are cache-busted at the 334-pin B/⑥ approval version',()=>{
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
- const token='sengoku234-20261111';
+ const token='sengoku334-20261112';
  assert.ok(html.includes('src="./sengoku-v2-core.js?v='+token+'"'));
  assert.ok(html.includes('src="./sengoku-chronology.js?v='+token+'"'));
- assert.ok(html.includes("fetch('./sengoku/v2/approved-up-to-ujimasa.json',{cache:'no-store'})"));
+ assert.ok(html.includes("fetch('./sengoku/v2/approved-up-to-muneshige-pins-100.json',{cache:'no-store'})"));
  assert.equal(doc.sites.filter(s=>s.publicPin).length,62);
  const edo=doc.sites.find(s=>s.siteId==='sg2site-ieyasu-edo');
  assert.equal(edo.pinApproval.sheetRow,1546);
@@ -265,5 +265,5 @@ test('⑥1553 Taiheiji is separately approved for Hideyoshi 1587 Kyushu history'
  const legacy={[h]:{at:'2023-01-01',basis:'legacy'}};
  assert.deepEqual(V.award(index,{},legacy,[]).records[h],legacy[h],'previously earned card remains saved');
  const wrong=clone(doc);wrong.sites.find(s=>s.siteId===id).pinApproval.version='v1';
- assert.throws(()=>verify(wrong),/位置版v2/);
+ assert.throws(()=>verify(wrong),/位置版v2|座標・見学区分/);
 });
