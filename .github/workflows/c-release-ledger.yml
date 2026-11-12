@@ -1,0 +1,31 @@
+name: C publication ledger gate
+on:
+  pull_request:
+    paths:
+      - "index.html"
+      - "sengoku/v2/approved-*.json"
+      - "scripts/export-c-release-ledger.cjs"
+      - "data/c-release/**"
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "sengoku/v2/approved-*.json"
+      - "scripts/export-c-release-ledger.cjs"
+      - "data/c-release/**"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-ledger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify approved package and published ledger
+        run: node scripts/export-c-release-ledger.cjs --check
+      - name: No uncommitted generated data
+        run: git diff --exit-code -- data/c-release/records.csv data/c-release/status.csv
