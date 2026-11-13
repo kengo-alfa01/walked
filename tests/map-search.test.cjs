@@ -123,8 +123,31 @@ test('unvisited map areas use a single pale grey across all modes; visited retai
  w.close();
 });
 
+
+test('municipal mode groups visited cities by prefecture while national detail retains municipal colors',async()=>{
+ const w=await app();
+ w.eval("prefecturePalette=MapColoring.assign(['13','14','19'],[[1,2],[0,2],[0,1]])");
+ w.eval("state.visited['13209']={};state.visited['13101']={};state.visited['14151']={};state.visited['m:1320900101']={};state.visited['n:13101:1310100101']={}");
+ const color=(id,mode)=>w.eval(`styleFor(${JSON.stringify(id)},${JSON.stringify(mode)}).fillColor`);
+ const prefColor=p=>w.eval(`MapColoring.PALETTE[prefecturePalette.colors.get(${JSON.stringify(p)})].hex`);
+ const municipalColor=m=>w.eval(`MapColoring.PALETTE[municipalPalette.colors.get(${JSON.stringify(m)})].hex`);
+ assert.equal(color('13209','municipal'),prefColor('13'));
+ assert.equal(color('13101','municipal'),prefColor('13'),'different Tokyo municipalities share one color');
+ assert.equal(color('14151','municipal'),prefColor('14'));
+ assert.notEqual(color('13209','municipal'),color('14151','municipal'),'neighboring prefectures differ');
+ assert.equal(color('13210','municipal'),'#e5e7eb','unvisited areas remain grey even within a visited prefecture');
+ assert.equal(color('p:13','prefecture'),prefColor('13'),'prefecture layer matches municipal grouping');
+ assert.equal(color('n:13209:1320900101','nationwideDetail'),municipalColor('13209'));
+ assert.equal(color('n:13101:1310100101','nationwideDetail'),municipalColor('13101'));
+ assert.equal(color('m:1320900101','nearby'),municipalColor('13209'));
+ assert.equal(w.eval("colorInfoFor('13209','municipal').kind"),'pref');
+ assert.equal(w.eval("colorInfoFor('n:13209:1320900101','nationwideDetail').kind"),'municipal');
+ w.close();
+});
+
 test('region colors, basemap selection, and manual override preserve saved game state',async()=>{
  const w=await app();
+ w.eval("prefecturePalette=MapColoring.assign(['13','14','19'],[[1,2],[0,2],[0,1]]);state.prefById.set('p:13',{id:'13',properties:{name:'東京都'}})");
  const colorsOk=w.eval('municipalPalette.colors.size===1905&&[...municipalPalette.neighbors].every(([id,ns])=>[...ns].every(n=>municipalPalette.colors.get(n)!==municipalPalette.colors.get(id)))');
  assert.equal(colorsOk,true,'all adjacent municipalities receive different colors');
  assert.equal(w.document.getElementById('mapBaseMode').value,'pale');
@@ -141,16 +164,18 @@ test('region colors, basemap selection, and manual override preserve saved game 
  checkbox.checked=true;checkbox.dispatchEvent(new w.Event('change'));
  const colorSelect=w.document.getElementById('mapRegionColor');
  assert.equal(colorSelect.disabled,false);
+ assert.equal(w.document.getElementById('selectedMapRegion').textContent,'東京都（都道府県単位）');
  const options=[...colorSelect.options].filter(o=>o.value!=='auto'&&!o.disabled);
  assert.ok(options.length>0);
  colorSelect.value=options[0].value;colorSelect.dispatchEvent(new w.Event('change'));
- assert.equal(JSON.parse(w.localStorage.getItem('walked_map_display_v1')).overrides.municipal['13209'],Number(options[0].value));
+ assert.equal(JSON.parse(w.localStorage.getItem('walked_map_display_v1')).overrides.pref['13'],Number(options[0].value));
+ assert.equal(JSON.parse(w.localStorage.getItem('walked_map_display_v1')).overrides.municipal['13209'],undefined,'municipal mode no longer stores a city-level override');
  assert.deepEqual(raw(w),before,'color customization may not change game records');
  const config=w.localStorage.getItem('walked_map_display_v1');
  w.close();
  const next=await app({'walked_map_display_v1':config});
  assert.equal(next.document.getElementById('mapBaseMode').value,'blank');
- assert.equal(JSON.parse(next.localStorage.getItem('walked_map_display_v1')).overrides.municipal['13209'],Number(options[0].value));
+ assert.equal(JSON.parse(next.localStorage.getItem('walked_map_display_v1')).overrides.pref['13'],Number(options[0].value));
  next.close();
 });
 
