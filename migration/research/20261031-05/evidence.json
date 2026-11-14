@@ -1,0 +1,675 @@
+{
+  "round": "20261031-05",
+  "reviewedOn": "2026-10-31",
+  "scope": "未着手6人。少弐・十河・畠山・別所氏の生没年、世代、寺社文書・領地の移動と事績を精査。",
+  "sources": {
+    "shoni-dictionary": {
+      "url": "https://kotobank.jp/word/少弐時尚-1082513",
+      "title": "講談社デジタル版日本人名大辞典：少弐時尚",
+      "locator": "資元の子、興経→冬尚→時尚の名の対応、龍造寺家兼の援助、1559隆信に攻められ自害。旧暦正月11日は新暦換算未実施。生年不詳。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "sogo-dictionary": {
+      "url": "https://kotobank.jp/word/十河一存-1086071",
+      "title": "平凡社世界大百科事典（今谷明）・講談社辞典：十河一存",
+      "locator": "長慶弟、景滋の猶子/養子、1549江口、実子義継と後継存保を区別。生年不詳、1561没。講談社は旧3/18、長正・之虎・又四郎。正本孫六郎との全照合未了。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "kishiwada-battle": {
+      "url": "https://www.city.kishiwada.lg.jp/kinenshi/m100th_p10-11.html",
+      "title": "岸和田市100周年記念誌10–11頁：岸和田を巡る武将たちの攻防",
+      "locator": "十河一存1561年4月急死・岸和田城主、高政ら挙兵、1562久米田で畠山勢勝利。貝吹山本陣は三好実休側。4月表示の暦基準は未確認。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "tonda-first": {
+      "url": "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000117",
+      "title": "富田林市史2：富田林の初見史料 pp289–291",
+      "locator": "1559高政高屋復帰、同年富田林宛禁制写。ただし市史自身が誤字・他文書混同の可能性を指摘。写本を確実な原本と扱わない。",
+      "kind": "municipal_history",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "tonda-sogo": {
+      "url": "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000118",
+      "title": "富田林市史2：三好軍の禁制 pp291–294",
+      "locator": "1560七月十河一存の上河内石川道場宛禁制原本の紹介。禁制の条項差と同八月観心寺文書558の家原寺交付記事。掲載された長慶の全文翻刻を一存の翻刻と誤認しない。",
+      "kind": "municipal_history",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "tonda-counter": {
+      "url": "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000119",
+      "title": "富田林市史2：畠山勢の反撃 pp294–297",
+      "locator": "1561前守護高政の禁制、1562久米田勝利・高屋回復。興正寺原本の宛先は河内富田中村で富田林への比定は市史の判断。",
+      "kind": "municipal_history",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "tonda-kyokoji": {
+      "url": "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000120",
+      "title": "富田林市史2：教興寺の戦い pp297–299",
+      "locator": "1562教興寺付近の紀伊勢敗北時、高政は高屋城にいて退散。1566反撃後堺へ退く。本文内の松永久秀讒言説など本件に不要な旧説は採用しない。",
+      "kind": "municipal_history",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "tonda-expulsion": {
+      "url": "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000122",
+      "title": "富田林市史2：反信長の動きの中で pp301–304",
+      "locator": "1569高政が遊佐信教らに追放され弟昭高擁立。昭高の後の高屋防衛を高政の事績にしない。",
+      "kind": "municipal_history",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "yoshitsuna-dictionary": {
+      "url": "https://kotobank.jp/word/畠山義綱-1101244",
+      "title": "講談社デジタル版日本人名大辞典：畠山義綱",
+      "locator": "義続長男、1552家督、1566近江追放・再三の回復失敗。1594に星印、文禄2年12月21日没と伝える。旧暦年末と西暦翌年の可能性を暦確認前に異説と断定しない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "ishikawa-yoshitsuna": {
+      "url": "https://www.library.pref.ishikawa.lg.jp/shosho/furucolle/list/prsn09922",
+      "title": "石川県立図書館ふるさとコレクション：畠山義綱",
+      "locator": "人物概要の義胤・義則、義続の子、9代当主、1594没。出典は鹿島郡誌上p1001ほか。出典書の本文は未読。",
+      "kind": "library_biography_metadata",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "nanao-banquet": {
+      "url": "https://www.city.nanao.lg.jp/koho/shise/koho/kohonanao/r3/tekisuto-06/02-05.html",
+      "title": "広報ななお2021年6月号5頁：能登畠山饗応御膳の再現",
+      "locator": "1561義綱が七尾城下の長続連自邸で饗応を受けたと解説。長家文書雑記参照。現代の懐古館での映像撮影や復元料理を当時の居所・原史料本文と取り違えない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "hakui-wakamiya": {
+      "url": "https://www.city.hakui.lg.jp/rekimin/history/culturalproperties/ketajinjasesshawakamiyajinjahonden.html",
+      "title": "羽咋市歴史民俗資料館：気多神社摂社若宮神社本殿",
+      "locator": "1569義綱再建と記す。1566追放後であり再建主体・寄進との関係を要照合。市がそう記すことの確認で、本人帰国・工事指揮を確認したものではない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "bunka-wakamiya": {
+      "url": "https://kunishitei.bunka.go.jp/heritage/detail/102/793",
+      "title": "国指定文化財等DB：気多神社摂社若宮神社本殿",
+      "locator": "建造年代永禄12/1569を確認。再建主体の人物名は記載なし。年代一致だけで義綱関与の独立確認としない。",
+      "kind": "cultural_property_database",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "bessho-shigemune": {
+      "url": "https://kotobank.jp/word/別所重棟-1107290",
+      "title": "講談社デジタル版日本人名大辞典：別所重棟",
+      "locator": "長治叔父、秀吉側で三木攻め、1585八木、1591旧6/6没。生年不詳。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "bessho-yoshiharu": {
+      "url": "https://kotobank.jp/word/別所吉治-1107297",
+      "title": "講談社デジタル版日本人名大辞典：別所吉治",
+      "locator": "重棟長男、1591継承、1600改易・翌年北由良、大坂の陣後2万石。生不詳、1652/1654旧7/13没。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "yabu-bessho": {
+      "url": "https://www.city.yabu.hyogo.jp/soshiki/kyoikuiinkai/shakaikyoiku/1/1/2183.html",
+      "title": "養父市まちの文化財115：八木城跡と別所重棟",
+      "locator": "1585重棟入城1万5千石、1591吉治継承、御里遺跡、慶長初期石垣を吉治と推定。吉の偏諱はでしょうという推測。北由良2万石の授与時期は詳述せず。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "yabu-town": {
+      "url": "https://www.city.yabu.hyogo.jp/soshiki/kyoikuiinkai/shakaikyoiku/1/4/yagi/1911.html",
+      "title": "養父市：八木の城下町",
+      "locator": "1585重棟入城1万2千石、別所氏の楽市楽座・町整備、1601吉治丹波由良移封。1597園部移封説を否定。御里は八木豊信から別所氏にかけての館跡とする。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "yabu-gold": {
+      "url": "https://www.city.yabu.hyogo.jp/soshiki/kyoikuiinkai/shakaikyoiku/1/1/6831.html",
+      "title": "養父市まちの文化財184：中瀬金山町と寺院",
+      "locator": "慶長3年蔵納目録の中瀬黄金山、生野代官と八木城主吉治が太閤蔵入地を支配。金山が本人の私領だったとはしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "miki-surrender": {
+      "url": "https://www.city.miki.lg.jp/site/mikirekishishiryokan/26531.html",
+      "title": "三木市みき歴史資料館：三木城跡及び付城跡・土塁",
+      "locator": "1580旧正月15日、織田方の叔父重棟が小森与三左衛門を呼び出し、長治らの切腹を促す。17日開城。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "hyogo-bessho-catalog": {
+      "url": "https://rekihaku.pref.hyogo.lg.jp/wp-content/uploads/2024/04/47b7e733021a1207ce553339720e0626.pdf",
+      "title": "兵庫県立歴史博物館2024：三木合戦と羽柴秀吉 出品資料一覧",
+      "locator": "1頁No4別所重棟書状写。（1578）7/8、差出別孫右（別所孫右衛門）重棟、宛筑州。正本は大東急記念文庫集古筆翰三。目録の解読表示のみで書状原本・本文未実見。",
+      "kind": "museum_catalog_metadata",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "yabu-terms": {
+      "url": "https://www.city.yabu.hyogo.jp/site/copyright.html",
+      "title": "養父市：免責事項・著作権",
+      "locator": "文字写真等の著作権と法定例外外の無断転載・複製・改変制限。事実参照と原著作物の再利用を区別。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "市サイト条件を部分確認。画像・文章転載なし。",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    }
+  },
+  "people": {
+    "1091": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "興経",
+        "時尚"
+      ],
+      "note": "正本名は少弐冬尚のまま。辞典見出し時尚との対応は部分確認。生年1510/1529の根拠を未取得。家兼の援助と後継隆信との対立を区別。松法師丸・家督年の市史抽出は要画像照合。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "辞典で冬尚と時尚の名の対応を確認。主表示名は変更しない。",
+          "sourceIds": [
+            "shoni-dictionary"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "資元の子で家兼の援助を受け、後に隆信に攻められた人物。父資元・少弐政興との事績を混同しない。",
+          "sourceIds": [
+            "shoni-dictionary"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "興経・冬尚・時尚の対応を辞典で確認。全改名時期と花押、松法師丸は追加照合。",
+          "sourceIds": [
+            "shoni-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "正本1510/1529に対し辞典は不詳。いずれも確定しない。",
+          "sourceIds": [
+            "shoni-dictionary"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1559没を辞典本文で年単位確認。旧正月11日の換算は未実施。",
+          "sourceIds": [
+            "shoni-dictionary"
+          ],
+          "value": 1559
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "大内氏に追われ、龍造寺家兼の援助で回復、後に隆信に攻められ自害した経過を独自要約。",
+          "sourceIds": [
+            "shoni-dictionary"
+          ]
+        }
+      ],
+      "biography": "肥前で勢力を保った少弐氏の当主。大内氏に勢福寺城を追われた後、龍造寺家兼らの援助で勢力を取り戻した。各地で戦いを続けたが、家兼の後を継いだ龍造寺隆信に攻められ、1559年に自害した。"
+    },
+    "1179": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "鬼十河",
+        "左衛門尉",
+        "民部大夫"
+      ],
+      "note": "実子三好義継と、兄義賢の子で十河家を継いだ存保を分離。孫六郎と辞典の又四郎・長正・之虎の照合未了。1561没は一致、旧3/18と4月ごろの暦基準は未照合。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "十河一存を市史の禁制解説で確認。",
+          "sourceIds": [
+            "tonda-sogo"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "長慶弟・景滋猶子。実子義継と後継存保を区別。",
+          "sourceIds": [
+            "sogo-dictionary"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "鬼十河・左衛門尉・民部大夫を辞典で部分確認。孫六郎は未確認、長正・之虎・又四郎は辞典記載の候補で文書対照未了。",
+          "sourceIds": [
+            "sogo-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "両辞典とも生年不詳。推定補完しない。",
+          "sourceIds": [
+            "sogo-dictionary"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1561没は市記念誌・市史・辞典一致。辞典旧3/18と市の4月記載は暦基準照合待ち。月日差を独立した没年異説としない。",
+          "sourceIds": [
+            "sogo-dictionary",
+            "kishiwada-battle",
+            "tonda-counter"
+          ],
+          "value": 1561
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "長慶弟・十河家養子、江口の戦い、岸和田城主と寺社保護の禁制を要約。",
+          "sourceIds": [
+            "sogo-dictionary",
+            "kishiwada-battle",
+            "tonda-sogo"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "1560上河内石川道場宛禁制、八月観心寺宛禁制は家原寺で交付と市史解説。宛先を本人訪問先としない。",
+          "sourceIds": [
+            "tonda-sogo"
+          ]
+        }
+      ],
+      "biography": "三好長慶の弟で、讃岐の十河家に養子として入った。1549年の江口の戦いで長慶を助け、のち岸和田城主となる。河内の寺社に軍勢の乱暴や徴発を禁じる命令も出し、三好氏の畿内支配を支えた。"
+    },
+    "1619": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [],
+      "note": "1527/1531生・1576没の原資料は今回未取得。高屋城の高政・弟昭高・三好氏の城主交代を区別。教興寺の戦場に本人がいたとはしない。1559禁制写の誤写可能性を保持。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "高政を市史の興正寺伝来文書解説で確認。",
+          "sourceIds": [
+            "tonda-counter"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "高屋城主の高政と1569後に擁立された弟昭高を分離。",
+          "sourceIds": [
+            "tonda-expulsion"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "次郎四郎の名乗りを今回の資料では照合できない。",
+          "sourceIds": [
+            "tonda-counter"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "正本1527/1531の出生根拠未取得。市史の活動年から逆算しない。",
+          "sourceIds": [
+            "tonda-counter"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "unverified",
+          "result": "正本1576の根拠本文未取得。活動終見を死亡年としない。",
+          "sourceIds": [
+            "tonda-expulsion"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "高屋拠点・久米田勝利・教興寺敗戦後撤退・信長の安堵後家臣による追放を要約。",
+          "sourceIds": [
+            "tonda-counter",
+            "tonda-kyokoji",
+            "tonda-expulsion"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "1559高屋復帰、1561禁制、1562教興寺敗戦時の高屋在城、1566堺退却。禁制写の誤写と宛所比定の留保を保持。",
+          "sourceIds": [
+            "tonda-first",
+            "tonda-counter",
+            "tonda-kyokoji"
+          ]
+        }
+      ],
+      "biography": "高屋城を拠点とした河内の守護。三好氏と争い、1562年の久米田の戦いで勝って城を取り戻したが、教興寺で味方が敗れると撤退した。のち信長に所領を認められたものの、家臣に追放され、弟の昭高が擁立された。"
+    },
+    "1625": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "義胤",
+        "義則"
+      ],
+      "note": "1566追放と1569若宮社殿再建の関与を要照合。建物年代の一致だけで再建主体を独立確認しない。没1594と文禄2年旧12/21は年末換算の可能性があり、単純な1593/1594異説にしない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "義綱を市広報の1561饗応記事で確認。",
+          "sourceIds": [
+            "nanao-banquet"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "義続の子・能登9代当主。河内高政と別系統、追放後の当主義慶らと区別。",
+          "sourceIds": [
+            "ishikawa-yoshitsuna",
+            "yoshitsuna-dictionary"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "図書館人物概要に義胤・義則。出典本は未読、改名順・徳栄・次郎は未照合。",
+          "sourceIds": [
+            "ishikawa-yoshitsuna"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "正本1536の根拠未取得。辞典は不詳。",
+          "sourceIds": [
+            "yoshitsuna-dictionary"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "partially_verified",
+          "result": "辞典と図書館は1594。辞典本文は文禄2年12月21日没と伝える。伝承の原資料と暦換算が未確認のため確定値にしない。",
+          "sourceIds": [
+            "yoshitsuna-dictionary",
+            "ishikawa-yoshitsuna"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "能登七尾城主・家督継承、家臣との対立、近江追放と回復不成功、1561長氏邸饗応を要約。",
+          "sourceIds": [
+            "yoshitsuna-dictionary",
+            "nanao-banquet"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "七尾城・長氏自邸・近江。羽咋市1569若宮再建記事は主体確認保留。文化財DBは建築年のみ。",
+          "sourceIds": [
+            "nanao-banquet",
+            "yoshitsuna-dictionary",
+            "hakui-wakamiya",
+            "bunka-wakamiya"
+          ]
+        }
+      ],
+      "biography": "能登の七尾城主。父義続から家督を継いだが、重臣の対立や反乱に苦しみ、1566年に近江へ追われた。その後も領国の回復を試みたが果たせなかった。城主時代には長続連の屋敷で饗応を受けた記録が伝わる。"
+    },
+    "1736": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "孫右衛門"
+      ],
+      "note": "正本重棟を維持。孫右衛門は県博目録の差出解読で部分確認、原本未読。重宗・長棟・法号の全照合未了。1585石高は同じ市サイトに12000/15000の差があるため略歴から除外。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "重棟表記を三木市・養父市で確認。",
+          "sourceIds": [
+            "miki-surrender",
+            "yabu-bessho"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "長治叔父、吉治父として確認。長治と反対側で三木攻め。",
+          "sourceIds": [
+            "bessho-shigemune",
+            "bessho-yoshiharu",
+            "yabu-bessho"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "孫右衛門を県博目録の書状差出欄で部分確認。花押影・原本自体は未読。重宗との名乗り時期など未照合。",
+          "sourceIds": [
+            "hyogo-bessho-catalog"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "辞典は生年不詳。",
+          "sourceIds": [
+            "bessho-shigemune"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1591没を辞典で年単位確認。旧6/6は新暦へ未換算。家督交代年だけから死亡を推定していない。",
+          "sourceIds": [
+            "bessho-shigemune"
+          ],
+          "value": 1591
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "長治叔父・織田側三木攻め・降伏勧告・八木城主を要約。石高の市内記載差は保留。",
+          "sourceIds": [
+            "miki-surrender",
+            "yabu-bessho",
+            "yabu-town"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "養父市の転載制限を部分確認。県博目録・辞典・三木市等は個別条件未確認。",
+          "sourceIds": [
+            "yabu-terms"
+          ]
+        }
+      ],
+      "biography": "三木城主・別所長治の叔父。長治が織田信長に背いた後も織田方に残り、羽柴秀吉の三木攻めに加わった。1580年には長治らに降伏を促す役を担い、1585年に但馬の八木城主となった。"
+    },
+    "1740": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [],
+      "note": "生1579は未確認、没1652/1654を保持。父重棟と後継吉治の支配時期を分離。関ヶ原後の処分と石高授与の時期は要文書照合。1597園部移封説は養父市が否定。1628処分や綾部移封説は追加本文未確認で採用せず。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "別所吉治を市の中瀬金山解説で確認。",
+          "sourceIds": [
+            "yabu-gold"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "重棟長男で1591八木城主継承。父との事績を分離。",
+          "sourceIds": [
+            "bessho-yoshiharu",
+            "yabu-bessho"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "豊治・孫四郎・孫七郎・孫右衛門の全てを未照合。父の孫右衛門を自動継承しない。",
+          "sourceIds": [
+            "bessho-yoshiharu"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "正本1579の出生根拠未取得。辞典は不詳。",
+          "sourceIds": [
+            "bessho-yoshiharu"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "disputed",
+          "result": "辞典は承応元/3年（1652/1654）旧7/13。どちらも確定せず並記。",
+          "sourceIds": [
+            "bessho-yoshiharu"
+          ],
+          "candidateYears": [
+            1652,
+            1654
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "八木継承・中瀬金山の管理・関ヶ原西軍・丹波北由良と大坂の陣後加増を要約。",
+          "sourceIds": [
+            "bessho-yoshiharu",
+            "yabu-gold",
+            "yabu-town"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "1591八木、1598中瀬金山管理、1601丹波由良。石垣築造主体は構法からの推定。園部移封を年表に採用しない。",
+          "sourceIds": [
+            "yabu-bessho",
+            "yabu-town",
+            "yabu-gold"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "養父市条件を部分確認。辞典や原文書等の個別条件未確認。",
+          "sourceIds": [
+            "yabu-terms"
+          ]
+        }
+      ],
+      "biography": "父重棟を継いで但馬の八木城主となり、豊臣政権下で中瀬金山の管理にも携わった。関ヶ原の戦いでは西軍に属し、のち丹波の北由良を領した。大坂の陣で戦功を挙げ、所領を加えられて2万石となった。"
+    }
+  },
+  "attempts": [],
+  "retrievalNotes": [
+    "Web本文・市史解説・辞典・図書館人物概要・博物館目録を区別。目録や書誌の元資料まで読んだとはしない。",
+    "佐賀市の縦書きPDF s34623_20130321113942.pdf は部分抽出に重複があり、少弐の出生や家督年の確定に使わない。原本画像で再照合が必要。",
+    "七尾城保存計画 nanaojyou-plan-10_s.pdf は404。検索結果のみを確認完了へ数えない。富田林市史ht000118は初回タイムアウト、再取得で本文確認。",
+    "丹波市2025/10/26香良志講座PDF3頁は別所領1601→幕府領1628を記すが個人の処分・理由まで独立確認できない。4頁別所豊後守重治息女の棟札も吉治本人の造営としない。次回照合先：https://www.city.tamba.lg.jp/material/files/group/50/20251026_rekisi-kouza4.pdf",
+    "重棟の石高差、吉治の園部移封説否定、義綱の社殿再建主体を保留。資料差を機械的に統一しない。"
+  ]
+}

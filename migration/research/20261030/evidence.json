@@ -1,0 +1,414 @@
+{
+  "round": "20261030",
+  "reviewedOn": "2026-10-30",
+  "scope": "機械的略歴2人を改稿、黒田長政の原略歴は保持。年代・父子・同名城を精査し場所情報を候補化。",
+  "sources": {
+    "kuroda-ndl": {
+      "url": "https://id.ndl.go.jp/auth/ndlna/01150199",
+      "title": "国立国会図書館：黒田長政 典拠",
+      "locator": "生年1568・没年1623・通称吉兵衛。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "kuroda-pref": {
+      "url": "https://www.pref.fukuoka.lg.jp/somu/graph-f/2013summer/walk/",
+      "title": "福岡県：グラフふくおか2013夏号",
+      "locator": "長政の1568～1623、父孝高の長男、1589家督継承、朝鮮出兵・1600筑前入国。父の事績を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "kuroda-museum": {
+      "url": "https://museum.city.fukuoka.jp/sp/exhibition/599/",
+      "title": "福岡市博物館：没後400年 黒田長政",
+      "locator": "生年・没年、松寿・吉兵衛尉、1577長浜人質、1582巣雲塚初陣（場所不詳）、九州・朝鮮・関ヶ原、家督継承、大坂城接収。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "najima": {
+      "url": "https://bunkazai.city.fukuoka.lg.jp/sp/cultural_properties/detail/490",
+      "title": "福岡市文化財：名島城跡",
+      "locator": "1600黒田入城、1601福岡築城開始、1607完成・移転とする紹介文。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "fukuoka-castle": {
+      "url": "https://bunkazai.city.fukuoka.lg.jp/cultural_properties/detail/62/?from_sp=1",
+      "title": "福岡市文化財：福岡城跡",
+      "locator": "中津12万石→筑前52万石、1601から7年がかりの築城。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "kyusan": {
+      "url": "https://www.kyusan-u.ac.jp/J/uchiyama/tosikenmap.pdf",
+      "title": "内山敏典：福岡都市圏歴史散策マップ記（九州産業大学掲載）",
+      "locator": "PDF40頁／印刷33頁「名島城址」。慶長7年（1602）に長政が福岡城へ移り名島廃城と記す。引用原著は未読。",
+      "kind": "university_publication",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "tokushima-town": {
+      "url": "https://www.city.tokushima.tokushima.jp/johaku/meihin/page02-00/tokushimahistory01.html",
+      "title": "徳島城博物館：とくしまヒストリー第1回",
+      "locator": "1585家政の阿波拝領、父正勝との区別、徳島築城・商人誘致・城下町形成。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "ichinomiya": {
+      "url": "https://www.city.tokushima.tokushima.jp/kankou/bunkazai/ichinomiya2018.html",
+      "title": "徳島市：一宮城跡国史跡推進事業",
+      "locator": "1585家政入城、石垣整備、翌年徳島へ本拠移転。廃城年や現在の指定状況は今回の確認対象外。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "tokushima-years": {
+      "url": "https://www.city.tokushima.tokushima.jp/smph/johaku/meihin/page02-00/tokushimahistory12.html",
+      "title": "徳島城博物館：とくしまヒストリー第12回",
+      "locator": "二軒屋町の説明中に家政1558～1638。町名伝承は年表へ抽出しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "keio": {
+      "url": "https://objecthub.keio.ac.jp/ja/object/328",
+      "title": "慶應義塾：蜂須賀家政筆書状 AW-CEN-002337-0000",
+      "locator": "人物解説：1558～1638、正勝の子、蓬庵、至鎮との区別、寛永15年12月30日没。画像ライセンス欄CC BY。",
+      "kind": "university_collection",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "一部確認：画像CC BY表示・指定クレジットを確認。版・全文への適用は未確認。画像不使用。",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "hachisuka-dict": {
+      "url": "https://kotobank.jp/word/%E8%9C%82%E9%A0%88%E8%B3%80%E5%AE%B6%E6%94%BF-114794",
+      "title": "コトバンク：蜂須賀家政（出典別辞典）",
+      "locator": "大辞泉1558～1639、世界大百科・日本大百科1558～1638。日本大百科は関ヶ原後に至鎮・忠英の後見。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "uto-bunka": {
+      "url": "https://online.bunka.go.jp/heritages/detail/206723",
+      "title": "文化遺産オンライン：宇土城跡",
+      "locator": "解説末尾：1588行長築城の宇土城は指定された中世城跡の東にあり、指定範囲に含まれない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "uto-tourism": {
+      "url": "https://utobiyori.jp/spot/utojokinsei/",
+      "title": "宇土市観光サイト：宇土城跡／城山公園（近世）",
+      "locator": "行長の秀吉仕官・1588領主・新城と町づくり、朝鮮出兵・関ヶ原西軍・処刑、弟隼人と清正の工事を区別。本文に新城を中世と呼ぶ不整合があり見出し・文化庁解説と照合。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "konishi-dict": {
+      "url": "https://kotobank.jp/word/%E5%B0%8F%E8%A5%BF%E8%A1%8C%E9%95%B7-65676",
+      "title": "コトバンク：小西行長（出典別辞典）",
+      "locator": "日本大百科の生年不明・水軍・講和交渉・処刑。山川日本史小辞典1558、1581室津・1585小豆島。講談社日本人名大辞典は生年不明・1600没・弥九郎。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実の独自要約。原文・画像の転載なし。"
+    },
+    "naoj-hachisuka-calendar": {
+      "url": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi?type=0&gengo=a000&year=1639&month=2&day=2&jg=1&div=1&divu=3&len=1&lenu=3&gen=1",
+      "title": "国立天文台：日本の暦日データベース（1639年2月2日・グレゴリオ暦指定）",
+      "locator": "出力表の西暦1639/02/02に和暦寛永15年12月30日が対応。jg=1を指定。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "日付対応の事実のみ記録。画面・データベース全体の転載なし。"
+    }
+  },
+  "people": {
+    "820": {
+      "bodyForSelectedPerson": true,
+      "biography": null,
+      "verifiedAliases": [
+        "吉兵衛",
+        "松寿",
+        "吉兵衛尉"
+      ],
+      "note": "原略歴は内容が具体的で本文でも主要記述を確認できたため変更不要。別名は確認した表記だけを追加。福岡への移居は市文化財解説1607と大学掲載書1602で説明差。築城開始・完成・居住開始を区別し、移居年を一本化しない。父孝高の有岡幽閉・中津築城を長政本人の事績と混同しない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "黒田長政の個人名典拠を確認。",
+          "sourceIds": [
+            "kuroda-ndl"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "孝高の子長政、後継忠之と区別。孝高の有岡幽閉中、長政は長浜で人質生活。",
+          "sourceIds": [
+            "kuroda-museum",
+            "kuroda-pref"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "吉兵衛（NDL）、松寿・吉兵衛尉（博物館）を確認。全別名の精査未了。",
+          "sourceIds": [
+            "kuroda-ndl",
+            "kuroda-museum"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "1568年を典拠・博物館で年単位確認。旧暦12月3日の独立換算は未実施。",
+          "sourceIds": [
+            "kuroda-ndl",
+            "kuroda-museum"
+          ],
+          "value": 1568
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1623年没を典拠・博物館で確認。旧暦月日の独立換算なし。",
+          "sourceIds": [
+            "kuroda-ndl",
+            "kuroda-museum"
+          ],
+          "value": 1623
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "原略歴の父子関係、九州攻め・朝鮮出兵、関ヶ原東軍での功績、筑前52万石を本文で確認。",
+          "sourceIds": [
+            "kuroda-museum",
+            "kuroda-pref",
+            "fukuoka-castle"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1600名島入城、1601福岡築城を確認。移居年は1602／1607の資料差を残す。",
+          "sourceIds": [
+            "najima",
+            "kyusan"
+          ]
+        },
+        {
+          "field": "biographyQuality",
+          "status": "unchanged_appropriate",
+          "result": "原略歴の文章品質は適切。新規改稿数に加えない。",
+          "sourceIds": [
+            "kuroda-museum"
+          ]
+        }
+      ],
+      "biographyQuality": "unchanged_appropriate"
+    },
+    "1634": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣秀吉から阿波を与えられ、一宮城を経て徳島に本拠を移した大名。徳島城を築くとともに商人を招いて城下町を整えた。関ヶ原の際には子の至鎮を徳川方につかせ、隠居後も蜂須賀家の藩政を支えた。",
+      "verifiedAliases": [
+        "蓬庵"
+      ],
+      "note": "没年は正本1639に対し徳島城博物館・慶應の1638、辞典にも両表記。慶應は寛永15年12月30日と記すため旧暦年末と西暦年の対応が論点。独立換算未了として両候補保持。関ヶ原の子至鎮の参戦・1615淡路加増を家政本人の参戦や個人拝領にしない。 追加照合：国立天文台の暦日DBで寛永15年12月30日＝グレゴリオ暦1639-02-02を確認。独立換算未了という前段の状態を更新し、没年1639を確認済みとする。資料表記1638は消さず暦基準を区別。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "蜂須賀家政の市立博物館解説を確認。",
+          "sourceIds": [
+            "tokushima-town"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "父正勝、子至鎮、孫忠英と区別。父の龍野拝領や子の関ヶ原参戦を家政の事績へ混入させない。",
+          "sourceIds": [
+            "tokushima-town",
+            "keio",
+            "hachisuka-dict"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "蓬庵の署名と人物対応を大学所蔵品解説で確認。その他候補は未確認。",
+          "sourceIds": [
+            "keio"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "1558を市立博物館と大学解説で年単位確認。",
+          "sourceIds": [
+            "tokushima-years",
+            "keio"
+          ],
+          "value": 1558
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "慶應の没日「寛永15年12月30日」を国立天文台の暦日DBで照合し、グレゴリオ暦1639-02-02を確認。1638は和暦年への西暦年併記として保持し、換算後の没年1639とは区別する。各資料の編集方針自体は未確認。",
+          "sourceIds": [
+            "tokushima-years",
+            "keio",
+            "hachisuka-dict",
+            "naoj-hachisuka-calendar"
+          ],
+          "candidateYears": [
+            1638,
+            1639
+          ],
+          "previousAssessment": {
+            "status": "calendar_basis_requires_review",
+            "result": "1638（博物館・大学・複数辞典）／1639（大辞泉・正本）。寛永15年12月30日という和暦日付を記録し、独立換算まで確定値にしない。"
+          },
+          "value": 1639,
+          "calendar": "Gregorian",
+          "originalDate": "寛永15年12月30日",
+          "convertedDate": "1639-02-02"
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1585阿波拝領・一宮入城、翌年徳島へ。築城・町人誘致、隠居と子孫の後見を各資料で確認。",
+          "sourceIds": [
+            "tokushima-town",
+            "ichinomiya",
+            "keio",
+            "hachisuka-dict"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "慶應の画像CC BY・指定クレジット表示を確認。版や解説文への適用は未確認。原文・画像不使用。他サイトは未確認。",
+          "sourceIds": [
+            "keio"
+          ]
+        }
+      ]
+    },
+    "886": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣秀吉に仕え、水軍を率いたキリシタン大名。肥後南部を領し、宇土に新たな城と城下町を整えた。朝鮮出兵では先鋒を務める一方、明との講和を進めたが実らず、関ヶ原では西軍に属して敗れ、処刑された。",
+      "verifiedAliases": [
+        "弥九郎"
+      ],
+      "note": "出生1558と不明を辞典ごとに記録。通称弥九郎は辞典本文確認、如信や洗礼名の各表記は全件照合未了。所領石高も資料・時点で差があり略歴に採らない。行長の近世宇土城と国史跡の中世宇土城は別の城域。市観光本文の「中世」という新城表記は見出し・文化庁との不整合として保留。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "小西行長が近世宇土城の築城者であるとの公的解説を確認。",
+          "sourceIds": [
+            "uto-bunka",
+            "uto-tourism"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "行長と城代の弟隼人、後任清正を区別。現在の遺構全体を行長の工事としない。",
+          "sourceIds": [
+            "uto-tourism",
+            "uto-bunka"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "secondary_source_checked",
+          "result": "弥九郎を複数辞典本文で確認。原史料との独立照合は未了。",
+          "sourceIds": [
+            "konishi-dict"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "山川日本史小辞典1558に対し日本大百科・講談社辞典は不明。正本の推定注記を保持し確定年にしない。",
+          "sourceIds": [
+            "konishi-dict"
+          ],
+          "candidateYears": [
+            1558
+          ]
+        },
+        {
+          "field": "death",
+          "status": "secondary_source_checked",
+          "result": "1600年没を辞典本文で確認。公的資料による年の独立確認と旧暦10月1日の換算は未了。",
+          "sourceIds": [
+            "konishi-dict"
+          ],
+          "candidateYears": [
+            1600
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "秀吉仕官、水軍、1588肥後領主、宇土新城と町づくり、朝鮮出兵・講和交渉、関ヶ原西軍・処刑を公的解説と辞典で照合。",
+          "sourceIds": [
+            "uto-bunka",
+            "uto-tourism",
+            "konishi-dict"
+          ]
+        }
+      ]
+    }
+  },
+  "attempts": [],
+  "sourceAccessFailures": [
+    {
+      "rosterId": "886",
+      "url": "https://www.uto.kumamoto.jp/article/view/1102/1805.html",
+      "status": "502_body_unread"
+    },
+    {
+      "rosterId": "886",
+      "url": "https://www.city.uto.lg.jp/d?q=fcedec812ee1fd38ca6f272054c98ad4.pdf",
+      "status": "unavailable_body_unread"
+    }
+  ]
+}

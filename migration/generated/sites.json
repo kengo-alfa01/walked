@@ -1,0 +1,3286 @@
+[
+  {
+    "id": "sg-site-odawara",
+    "name": "小田原城跡",
+    "point": [
+      139.1534559,
+      35.2510296
+    ],
+    "municipalityCode": "14206",
+    "region": "神奈川県小田原市",
+    "verification": "reviewed",
+    "coordinateSource": "https://mapfan.com/spots/SC3WQ%2CJ%2CB",
+    "historySource": "https://odawaracastle.com/history/hojo-godai/",
+    "note": "現在の城址公園の代表点。戦国期の総構全域を示すものではない。"
+  },
+  {
+    "id": "sg-site-hachioji",
+    "name": "八王子城跡",
+    "point": [
+      139.256515,
+      35.652617
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000433500.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+    "note": "城跡の代表点。広範な指定史跡全体とは一致しない。"
+  },
+  {
+    "id": "sg-site-tsutsujigasaki",
+    "name": "武田氏館跡",
+    "point": [
+      138.5775,
+      35.6869
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "reviewed",
+    "coordinateSource": "https://openhistory.wiki/ja/w/%E8%BA%91%E8%BA%85%E3%83%B6%E5%B4%8E%E9%A4%A8",
+    "historySource": "https://www.kobushi-br.org/kobushi_info/16618",
+    "note": "後世創建の武田神社境内付近にある武田氏館跡。"
+  },
+  {
+    "id": "sg-site-shinpu",
+    "name": "新府城跡",
+    "point": [
+      138.42524,
+      35.735151
+    ],
+    "municipalityCode": "19207",
+    "region": "山梨県韮崎市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000156100.html",
+    "historySource": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/meisho_kyuseki/6562.html",
+    "note": "武田勝頼の築城した城跡。"
+  },
+  {
+    "id": "sg-site-nirayama",
+    "name": "韮山城跡",
+    "point": [
+      138.955578,
+      35.053648
+    ],
+    "municipalityCode": "22225",
+    "region": "静岡県伊豆の国市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000033100.html",
+    "historySource": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09347.html",
+    "note": "北条早雲が拠点とした城跡。"
+  },
+  {
+    "id": "sg-site-ishigakiyama",
+    "name": "石垣山城跡",
+    "point": [
+      139.127337,
+      35.235484
+    ],
+    "municipalityCode": "14206",
+    "region": "神奈川県小田原市",
+    "verification": "reviewed",
+    "coordinateSource": "https://www.nightview.info/detail/ishigakiyama_history_park/",
+    "historySource": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-ishigakiyama.html",
+    "note": "歴史公園付近の代表点。指定史跡全域を表すものではない。"
+  },
+  {
+    "id": "sg-site-takiyama",
+    "name": "滝山城跡",
+    "point": [
+      139.328166,
+      35.701799
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000431400.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+    "note": "歴史地名POIの代表点。史跡全体の範囲ではない。"
+  },
+  {
+    "id": "sg-site-tamanawa",
+    "name": "玉縄城跡",
+    "point": [
+      139.507838,
+      35.35448
+    ],
+    "municipalityCode": "14204",
+    "region": "神奈川県鎌倉市",
+    "verification": "reviewed",
+    "coordinateSource": "https://heritagemap.nabunken.go.jp/statistic/151082-%E7%8E%89%E7%B8%84%E5%9F%8E%E8%B7%A1.html",
+    "historySource": "https://www.city.kamakura.kanagawa.jp/rekibun/sengoku.html",
+    "note": "奈文研掲載の調査地点付近。広い城域全体の代表点とは限らない。"
+  },
+  {
+    "id": "sg-site-yougai",
+    "name": "要害山城跡",
+    "point": [
+      138.598345,
+      35.703075
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000084000.html",
+    "historySource": "https://online.bunka.go.jp/heritages/detail/138304",
+    "note": "城跡の代表点。信玄出生の地との伝承は断定しない。"
+  },
+  {
+    "id": "sg-site-kofu",
+    "name": "甲府城跡",
+    "point": [
+      138.571391,
+      35.665369
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000071300.html",
+    "historySource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0016.html",
+    "note": "甲府城跡の代表点。築城過程には諸説がある。"
+  },
+  {
+    "id": "sg-site-kozukue",
+    "name": "小机城跡",
+    "point": [
+      139.594124,
+      35.51236
+    ],
+    "municipalityCode": "14109",
+    "region": "神奈川県横浜市港北区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000057400.html",
+    "historySource": "https://www.pref.kanagawa.jp/documents/8040/r4kouza4.pdf",
+    "note": "後北条氏の支城。関連人物を特定するには追加調査が必要。"
+  },
+  {
+    "id": "sg-site-tsukui",
+    "name": "津久井城跡",
+    "point": [
+      139.278755,
+      35.583275
+    ],
+    "municipalityCode": "14151",
+    "region": "神奈川県相模原市緑区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000159000.html",
+    "historySource": "https://www.pref.kanagawa.jp/documents/95200/r02zuroku2.pdf",
+    "note": "相模と甲斐の境を守る後北条氏支城。"
+  },
+  {
+    "id": "sg-site-misaki",
+    "name": "三崎城跡",
+    "point": [
+      139.621665,
+      35.143924
+    ],
+    "municipalityCode": "14210",
+    "region": "神奈川県三浦市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000129200.html",
+    "historySource": "https://www.city.miura.kanagawa.jp/soshiki/kankoshokoka/kankoshokoka_kanko/kankoukaisetsuban/kankokaisetsuban_miuraichizoku/10015.html",
+    "note": "北条早雲による三浦氏攻略と関係。"
+  },
+  {
+    "id": "sg-site-hachigata",
+    "name": "鉢形城跡",
+    "point": [
+      139.193361,
+      36.107315
+    ],
+    "municipalityCode": "11362",
+    "region": "埼玉県大里郡寄居町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000238300.html",
+    "historySource": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
+    "note": "長尾景春の築城伝承と北条氏邦の整備。"
+  },
+  {
+    "id": "sg-site-oshi",
+    "name": "忍城跡",
+    "point": [
+      139.454862,
+      36.136906
+    ],
+    "municipalityCode": "11206",
+    "region": "埼玉県行田市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000272700.html",
+    "historySource": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2296.html",
+    "note": "忍城水攻め、石田三成らの包囲と関係。"
+  },
+  {
+    "id": "sg-site-iwatsuki",
+    "name": "岩槻城跡",
+    "point": [
+      139.701428,
+      35.95593
+    ],
+    "municipalityCode": "11110",
+    "region": "埼玉県さいたま市岩槻区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000306900.html",
+    "historySource": "https://www.city.saitama.lg.jp/004/005/006/013/002/p078002_d/fil/sinshoujiguruwatohisaizud.pdf",
+    "note": "太田資正の居城。"
+  },
+  {
+    "id": "sg-site-minowa",
+    "name": "箕輪城跡",
+    "point": [
+      138.951932,
+      36.404195
+    ],
+    "municipalityCode": "10202",
+    "region": "群馬県高崎市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/10/100000109300.html",
+    "historySource": "https://www.city.takasaki.gunma.jp/site/sightseeing/6449.html",
+    "note": "長野氏、井伊直政の時代に使用された城。"
+  },
+  {
+    "id": "sg-site-katsunuma",
+    "name": "勝沼氏館跡",
+    "point": [
+      138.731754,
+      35.659884
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県甲州市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000050000.html",
+    "historySource": "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_kanseiban_.pdf",
+    "note": "武田信虎の弟勝沼信友の居館。信玄の時代に勝沼氏が滅亡。"
+  },
+  {
+    "id": "sg-site-yamanaka",
+    "name": "山中城跡",
+    "point": [
+      138.994284,
+      35.156622
+    ],
+    "municipalityCode": "22206",
+    "region": "静岡県三島市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000026000.html",
+    "historySource": "https://www.city.mishima.shizuoka.jp/page/3516.html",
+    "note": "後北条氏が西方防備のため築城した山城。"
+  },
+  {
+    "id": "sg-site-sunpu",
+    "name": "駿府城跡",
+    "point": [
+      138.383163,
+      34.979285
+    ],
+    "municipalityCode": "22101",
+    "region": "静岡県静岡市葵区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000168700.html",
+    "historySource": "https://www.city.shizuoka.lg.jp/s6725/p009496.html",
+    "note": "徳川家康が居城として整備した駿府城。"
+  },
+  {
+    "id": "sg-site-sounji",
+    "name": "早雲寺",
+    "point": [
+      139.103561,
+      35.230217
+    ],
+    "municipalityCode": "14382",
+    "region": "神奈川県箱根町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000207800.html",
+    "historySource": "https://www.hakone.or.jp/529?gana=member",
+    "note": "史跡の代表点。町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-kawamura",
+    "name": "河村城跡",
+    "point": [
+      139.077409,
+      35.355366
+    ],
+    "municipalityCode": "14364",
+    "region": "神奈川県山北町",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000199400.html",
+    "historySource": "https://www.town.yamakita.kanagawa.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-okazaki-sagami",
+    "name": "岡崎城跡",
+    "point": [
+      139.312391,
+      35.378569
+    ],
+    "municipalityCode": "14214",
+    "region": "神奈川県伊勢原市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000174700.html",
+    "historySource": "https://www.city.yokosuka.kanagawa.jp/2120/culture_info/miura_ichizoku/outline4.html",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-yusaka",
+    "name": "湯坂城跡",
+    "point": [
+      139.09476,
+      35.23102
+    ],
+    "municipalityCode": "14382",
+    "region": "神奈川県箱根町",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000208000.html",
+    "historySource": "https://www.hakone.or.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-iwadono",
+    "name": "岩殿城跡",
+    "point": [
+      138.949603,
+      35.621656
+    ],
+    "municipalityCode": "19206",
+    "region": "山梨県大月市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000024400.html",
+    "historySource": "https://www.city.otsuki.yamanashi.jp/gatewaycity/lp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-erinji",
+    "name": "恵林寺",
+    "point": [
+      138.713669,
+      35.730755
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県甲州市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000057100.html",
+    "historySource": "https://www.city.koshu.yamanashi.jp/iju/54things/articles/no-139.html",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-kai-zenkoji",
+    "name": "甲斐善光寺",
+    "point": [
+      138.592606,
+      35.666664
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000088300.html",
+    "historySource": "https://kofu-tourism.com/spot/index.php?p=17",
+    "note": "史跡の代表点。町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-yumura",
+    "name": "湯村山城跡",
+    "point": [
+      138.552261,
+      35.684227
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000085600.html",
+    "historySource": "https://yumura.org/attractions/yumurayama/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-katsuyama-tsuru",
+    "name": "勝山城跡（都留）",
+    "point": [
+      138.904086,
+      35.554395
+    ],
+    "municipalityCode": "19204",
+    "region": "山梨県都留市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000038400.html",
+    "historySource": "https://www.city.tsuru.yamanashi.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-hosenji",
+    "name": "法泉寺",
+    "point": [
+      138.559326,
+      35.686039
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000084700.html",
+    "historySource": "https://www.city.kofu.yamanashi.jp/toshikekaku/shise/shisaku/machi/toshi/documents/dai2syou3_1.pdf",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "researchStatus": "person_verified"
+  },
+  {
+    "id": "sg-site-sekisuiji",
+    "name": "積翠寺",
+    "point": [
+      138.591904,
+      35.702633
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000084100.html",
+    "historySource": "https://www.city.kofu.yamanashi.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-jindaiji",
+    "name": "深大寺城跡",
+    "point": [
+      139.551157,
+      35.664392
+    ],
+    "municipalityCode": "13208",
+    "region": "東京都調布市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000381200.html",
+    "historySource": "https://www.city.chofu.lg.jp/100200/p073026.html",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-kawagoe",
+    "name": "川越城跡",
+    "point": [
+      139.491683,
+      35.924396
+    ],
+    "municipalityCode": "11201",
+    "region": "埼玉県川越市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000103200.html",
+    "historySource": "https://www.city.sayama.saitama.jp/manabu/dentou/minwa_densyo/kasiwabara_chiku/siroyamanohanasi.html",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-musashi-matsuyama",
+    "name": "武蔵松山城跡",
+    "point": [
+      139.421053,
+      36.036729
+    ],
+    "municipalityCode": "11347",
+    "region": "埼玉県吉見町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000165400.html",
+    "historySource": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-sugaya",
+    "name": "菅谷館跡",
+    "point": [
+      139.32274,
+      36.03507
+    ],
+    "municipalityCode": "11342",
+    "region": "埼玉県嵐山町",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000170900.html",
+    "historySource": "https://www.ranzan-shiseki.spec.ed.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-ueda",
+    "name": "上田城跡",
+    "point": [
+      138.24493,
+      36.404504
+    ],
+    "municipalityCode": "20203",
+    "region": "長野県上田市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000076900.html",
+    "historySource": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "note": "史跡の代表点。"
+  },
+  {
+    "id": "sg-site-takato",
+    "name": "高遠城跡",
+    "point": [
+      138.062363,
+      35.83316
+    ],
+    "municipalityCode": "20209",
+    "region": "長野県伊那市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000136900.html",
+    "historySource": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
+    "note": "史跡の代表点。町丁照合は継続確認対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-komoro",
+    "name": "小諸城跡",
+    "point": [
+      138.417462,
+      36.327162
+    ],
+    "municipalityCode": "20208",
+    "region": "長野県小諸市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000050400.html",
+    "historySource": "https://www.city.komoro.lg.jp/",
+    "note": "史跡の代表点。史実関係・町丁照合は継続確認対象。"
+  },
+  {
+    "id": "sg-site-kawanakajima",
+    "name": "川中島八幡原古戦場",
+    "point": [
+      138.185797,
+      36.591284
+    ],
+    "municipalityCode": "20201",
+    "region": "長野県長野市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000324200.html",
+    "historySource": "https://www.city.nagano.nagano.jp/n150800/contents/p002956.html",
+    "note": "史跡の代表点。"
+  },
+  {
+    "id": "sg-site-matsushiro",
+    "name": "松代城跡（海津城）",
+    "point": [
+      138.19617,
+      36.566361
+    ],
+    "municipalityCode": "20201",
+    "region": "長野県長野市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000325300.html",
+    "historySource": "https://www.city.nagano.nagano.jp/n151100/contents/p006083.html",
+    "note": "史跡の代表点。"
+  },
+  {
+    "id": "sg-site-ozawa",
+    "name": "小沢城跡",
+    "point": [
+      139.521689,
+      35.631602
+    ],
+    "municipalityCode": "14135",
+    "region": "神奈川県川崎市多摩区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000022500.html",
+    "historySource": "https://www.city.kawasaki.jp/880/page/0000000108.html",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-masugata",
+    "name": "桝形城跡",
+    "point": [
+      139.560769,
+      35.611241
+    ],
+    "municipalityCode": "14135",
+    "region": "神奈川県川崎市多摩区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000022700.html",
+    "historySource": "https://www.city.kawasaki.jp/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-kosugi-goten",
+    "name": "小杉御殿跡",
+    "point": [
+      139.650948,
+      35.582945
+    ],
+    "municipalityCode": "14133",
+    "region": "神奈川県川崎市中原区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000016300.html",
+    "historySource": "https://www.city.kawasaki.jp/170/cmsfiles/contents/0000155/155498/ieyasu.pdf",
+    "note": "川崎市公式資料で将軍家による御殿利用を確認。公開地理データは代表地点。"
+  },
+  {
+    "id": "sg-site-chigasaki",
+    "name": "茅ヶ崎城跡",
+    "point": [
+      139.57925,
+      35.544621
+    ],
+    "municipalityCode": "14118",
+    "region": "神奈川県横浜市都筑区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000059100.html",
+    "historySource": "https://www.city.yokohama.lg.jp/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-oba",
+    "name": "大庭城跡",
+    "point": [
+      139.451582,
+      35.361743
+    ],
+    "municipalityCode": "14205",
+    "region": "神奈川県藤沢市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000136300.html",
+    "historySource": "https://www.city.fujisawa.kanagawa.jp/bunkazai/obajyou.html",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-fujisawa-goten",
+    "name": "藤沢御殿跡",
+    "point": [
+      139.482834,
+      35.345271
+    ],
+    "municipalityCode": "14205",
+    "region": "神奈川県藤沢市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000135700.html",
+    "historySource": "https://fujisawa-miyu.net/f/summer-fujisawasyuku/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-koyabe",
+    "name": "小矢部城跡",
+    "point": [
+      139.667266,
+      35.253287
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県横須賀市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000120700.html",
+    "historySource": "https://www.city.yokosuka.kanagawa.jp/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-oyabe",
+    "name": "大矢部城跡",
+    "point": [
+      139.667507,
+      35.236165
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県横須賀市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121400.html",
+    "historySource": "https://www.city.yokosuka.kanagawa.jp/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-shakujii",
+    "name": "石神井城跡",
+    "point": [
+      139.596782,
+      35.737391
+    ],
+    "municipalityCode": "13120",
+    "region": "東京都練馬区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000346500.html",
+    "historySource": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/rekishiwoshiru/rekishibunkazai/isekihogo/shakujii.html",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。座標・町丁境界の正確さは別途確認対象。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-takatsuki",
+    "name": "高月城跡",
+    "point": [
+      139.318423,
+      35.714553
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000431600.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-karakai",
+    "name": "辛垣城跡",
+    "point": [
+      139.220533,
+      35.811849
+    ],
+    "municipalityCode": "13205",
+    "region": "東京都青梅市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000464400.html",
+    "historySource": "https://www.city.ome.tokyo.jp/uploaded/attachment/72908.pdf",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。",
+    "researchStatus": "person_verified"
+  },
+  {
+    "id": "sg-site-yamura",
+    "name": "谷村城跡",
+    "point": [
+      138.906538,
+      35.551495
+    ],
+    "municipalityCode": "19204",
+    "region": "山梨県都留市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000034700.html",
+    "historySource": "https://www.city.tsuru.yamanashi.jp/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-nomi",
+    "name": "能見城跡",
+    "point": [
+      138.418231,
+      35.751082
+    ],
+    "municipalityCode": "19207",
+    "region": "山梨県韮崎市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000156700.html",
+    "historySource": "https://www.city.nirasaki.lg.jp/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-hakusan",
+    "name": "白山城跡",
+    "point": [
+      138.422055,
+      35.700638
+    ],
+    "municipalityCode": "19207",
+    "region": "山梨県韮崎市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000158600.html",
+    "historySource": "https://www.city.nirasaki.lg.jp/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-takeda-hachimangu",
+    "name": "武田八幡宮",
+    "point": [
+      138.420425,
+      35.704582
+    ],
+    "municipalityCode": "19207",
+    "region": "山梨県韮崎市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000158300.html",
+    "historySource": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/jinjya_bukkaku/4320.html",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。"
+  },
+  {
+    "id": "sg-site-ganjoji",
+    "name": "願成寺",
+    "point": [
+      138.433044,
+      35.707352
+    ],
+    "municipalityCode": "19207",
+    "region": "山梨県韮崎市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000158500.html",
+    "historySource": "https://www.nirasaki-kankou.jp/kankou_spot/jinjya_bukkaku_rekishi/jinjya_bukkaku/4323.html",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-chozenji",
+    "name": "長禅寺",
+    "point": [
+      138.577194,
+      35.6651
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000074100.html",
+    "historySource": "https://www.city.kofu.yamanashi.jp/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-komamiya",
+    "name": "駒宮砦跡",
+    "point": [
+      138.982026,
+      35.665813
+    ],
+    "municipalityCode": "19206",
+    "region": "山梨県大月市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000025400.html",
+    "historySource": "https://www.city.otsuki.yamanashi.jp/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-odano",
+    "name": "小田野城跡",
+    "point": [
+      138.674612,
+      35.742615
+    ],
+    "municipalityCode": "19205",
+    "region": "山梨県山梨市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000046200.html",
+    "historySource": "https://www.city.yamanashi.yamanashi.jp/site/cultural-assets/1672.html",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。"
+  },
+  {
+    "id": "sg-site-jokyoji",
+    "name": "浄居寺城跡",
+    "point": [
+      138.710359,
+      35.744402
+    ],
+    "municipalityCode": "19205",
+    "region": "山梨県山梨市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000045200.html",
+    "historySource": "https://www.city.yamanashi.yamanashi.jp/",
+    "note": "代表座標。町丁判定は現地GPS・境界品質に依存。人物の直接関係は追加検証対象。"
+  },
+  {
+    "id": "sg-site-sannomaru",
+    "name": "三の丸遺跡",
+    "point": [
+      139.54964,
+      35.528958
+    ],
+    "municipalityCode": "14118",
+    "region": "神奈川県横浜市都筑区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000060500.html",
+    "historySource": "https://www.city.yokohama.lg.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-unshoin",
+    "name": "雲松院",
+    "point": [
+      139.598114,
+      35.506683
+    ],
+    "municipalityCode": "14109",
+    "region": "神奈川県横浜市港北区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000057300.html",
+    "historySource": "https://www.city.yokohama.lg.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-kawashiri-iseki",
+    "name": "川尻遺跡",
+    "point": [
+      139.300103,
+      35.591644
+    ],
+    "municipalityCode": "14151",
+    "region": "神奈川県相模原市緑区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000160200.html",
+    "historySource": "https://www.city.sagamihara.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-komatsu",
+    "name": "小松城跡",
+    "point": [
+      139.290916,
+      35.602803
+    ],
+    "municipalityCode": "14151",
+    "region": "神奈川県相模原市緑区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000160600.html",
+    "historySource": "https://www.city.sagamihara.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-nuta",
+    "name": "怒田城跡",
+    "point": [
+      139.701864,
+      35.238159
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県横須賀市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000118900.html",
+    "historySource": "https://www.city.yokosuka.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-sahara",
+    "name": "佐原城跡",
+    "point": [
+      139.683417,
+      35.237855
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県横須賀市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000119400.html",
+    "historySource": "https://www.city.yokosuka.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-kinugasa",
+    "name": "衣笠城跡",
+    "point": [
+      139.654991,
+      35.245591
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県横須賀市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121700.html",
+    "historySource": "https://www.city.yokosuka.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-arai",
+    "name": "新井城跡",
+    "point": [
+      139.614263,
+      35.160578
+    ],
+    "municipalityCode": "14210",
+    "region": "神奈川県三浦市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000127400.html",
+    "historySource": "https://ch.kanagawa-museum.jp/dm/gohojyo/relation/d_houjyo_01.html",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。",
+    "historyReviewOn": "2026-10-25"
+  },
+  {
+    "id": "sg-site-oba-jinja",
+    "name": "大庭神社",
+    "point": [
+      139.458517,
+      35.360481
+    ],
+    "municipalityCode": "14205",
+    "region": "神奈川県藤沢市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000136700.html",
+    "historySource": "https://www.city.fujisawa.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-yagurasawa",
+    "name": "矢倉沢関所跡",
+    "point": [
+      139.056695,
+      35.327907
+    ],
+    "municipalityCode": "14217",
+    "region": "神奈川県南足柄市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000205300.html",
+    "historySource": "https://www.city.minamiashigara.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-numata-sagami",
+    "name": "沼田城跡",
+    "point": [
+      139.12662,
+      35.290896
+    ],
+    "municipalityCode": "14217",
+    "region": "神奈川県南足柄市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000203100.html",
+    "historySource": "https://www.city.minamiashigara.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-ashigara",
+    "name": "足柄城跡",
+    "point": [
+      139.031216,
+      35.305677
+    ],
+    "municipalityCode": "14217",
+    "region": "神奈川県南足柄市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000205200.html",
+    "historySource": "https://www.city.minamiashigara.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-hakone-jinja",
+    "name": "箱根神社",
+    "point": [
+      139.021118,
+      35.207062
+    ],
+    "municipalityCode": "14382",
+    "region": "神奈川県足柄下郡箱根町",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000208800.html",
+    "historySource": "https://www.town.hakone.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-inaridai",
+    "name": "稲荷台地遺跡",
+    "point": [
+      139.480927,
+      35.349673
+    ],
+    "municipalityCode": "14205",
+    "region": "神奈川県藤沢市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000136800.html",
+    "historySource": "https://www.city.fujisawa.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-manshoji",
+    "name": "満昌寺",
+    "point": [
+      139.66629,
+      35.241405
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県横須賀市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121000.html",
+    "historySource": "https://www.city.yokosuka.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-daichinji",
+    "name": "大椿寺",
+    "point": [
+      139.623016,
+      35.14043
+    ],
+    "municipalityCode": "14210",
+    "region": "神奈川県三浦市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000128100.html",
+    "historySource": "https://www.city.miura.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-honzui",
+    "name": "本瑞寺",
+    "point": [
+      139.620514,
+      35.14209
+    ],
+    "municipalityCode": "14210",
+    "region": "神奈川県三浦市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000128900.html",
+    "historySource": "https://www.city.miura.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-seiunji",
+    "name": "清雲寺",
+    "point": [
+      139.277084,
+      35.525723
+    ],
+    "municipalityCode": "14151",
+    "region": "神奈川県相模原市緑区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121300.html",
+    "historySource": "https://www.city.sagamihara.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-sokenin",
+    "name": "宗賢院",
+    "point": [
+      139.45015,
+      35.352188
+    ],
+    "municipalityCode": "14205",
+    "region": "神奈川県藤沢市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000136500.html",
+    "historySource": "https://www.city.fujisawa.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-tokoji",
+    "name": "東光寺",
+    "point": [
+      139.266235,
+      35.361931
+    ],
+    "municipalityCode": "14211",
+    "region": "神奈川県秦野市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000176100.html",
+    "historySource": "https://www.city.hadano.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-kofukuji",
+    "name": "広福寺",
+    "point": [
+      139.559586,
+      35.615036
+    ],
+    "municipalityCode": "14135",
+    "region": "神奈川県川崎市多摩区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000022800.html",
+    "historySource": "https://www.city.kawasaki.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-myorakuji",
+    "name": "妙楽寺",
+    "point": [
+      139.577866,
+      35.60788
+    ],
+    "municipalityCode": "14136",
+    "region": "神奈川県川崎市宮前区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000021600.html",
+    "historySource": "https://www.city.kawasaki.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-ozenji",
+    "name": "王禅寺",
+    "point": [
+      139.521973,
+      35.584377
+    ],
+    "municipalityCode": "14137",
+    "region": "神奈川県川崎市麻生区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000023500.html",
+    "historySource": "https://www.city.kawasaki.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-jorakuji",
+    "name": "浄楽寺",
+    "point": [
+      139.608932,
+      35.235428
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県横須賀市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000122200.html",
+    "historySource": "https://www.city.yokosuka.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-shogenji",
+    "name": "正眼寺",
+    "point": [
+      139.101303,
+      35.228443
+    ],
+    "municipalityCode": "14382",
+    "region": "神奈川県足柄下郡箱根町",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000207900.html",
+    "historySource": "https://www.town.hakone.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-chosenin",
+    "name": "長泉院",
+    "point": [
+      139.102112,
+      35.297882
+    ],
+    "municipalityCode": "14217",
+    "region": "神奈川県南足柄市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000202800.html",
+    "historySource": "https://www.city.minamiashigara.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-daimyoji",
+    "name": "大明寺",
+    "point": [
+      139.65918,
+      35.260555
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県横須賀市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000120500.html",
+    "historySource": "https://www.city.yokosuka.kanagawa.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-saneji",
+    "name": "三会寺",
+    "point": [
+      139.60466,
+      35.504108
+    ],
+    "municipalityCode": "14109",
+    "region": "神奈川県横浜市港北区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000057100.html",
+    "historySource": "https://www.city.yokohama.lg.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-shimura",
+    "name": "志村城跡",
+    "point": [
+      139.687529,
+      35.775041
+    ],
+    "municipalityCode": "13119",
+    "region": "東京都板橋区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000350600.html",
+    "historySource": "https://www.city.itabashi.tokyo.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-katakura",
+    "name": "片倉城跡",
+    "point": [
+      139.337649,
+      35.639285
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000427900.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-narahara",
+    "name": "楢原遺跡",
+    "point": [
+      139.303119,
+      35.683836
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000432400.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-sokanji",
+    "name": "宗関寺",
+    "point": [
+      139.260193,
+      35.657169
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000433700.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/001/p031207_d/fil/3syou.pdf",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-entsuji",
+    "name": "円通寺",
+    "point": [
+      139.32035,
+      35.713903
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000431700.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-horenji",
+    "name": "法蓮寺",
+    "point": [
+      139.285965,
+      35.696739
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000432200.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-shorinji",
+    "name": "少林寺",
+    "point": [
+      139.338058,
+      35.694061
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000429900.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-kaizenji",
+    "name": "海禅寺",
+    "point": [
+      139.22052,
+      35.80611
+    ],
+    "municipalityCode": "13205",
+    "region": "東京都青梅市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000464500.html",
+    "historySource": "https://www.city.ome.tokyo.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-hoshoji",
+    "name": "宝生寺",
+    "point": [
+      139.272141,
+      35.685936
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000434400.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-ryukoji",
+    "name": "龍光寺",
+    "point": [
+      139.350769,
+      35.684315
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000429200.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-chiseiji",
+    "name": "智清寺",
+    "point": [
+      139.705261,
+      35.758373
+    ],
+    "municipalityCode": "13119",
+    "region": "東京都板橋区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000349600.html",
+    "historySource": "https://www.city.itabashi.tokyo.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。"
+  },
+  {
+    "id": "sg-site-anyoin",
+    "name": "安養院",
+    "point": [
+      139.709732,
+      35.626762
+    ],
+    "municipalityCode": "13109",
+    "region": "東京都品川区",
+    "verification": "review_needed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000348700.html",
+    "historySource": "https://www.city.ota.tokyo.jp/",
+    "note": "地名データで存在・代表点を確認。人物との直接の歴史的関連は未検証のため暫定登録。",
+    "municipalityAudit": "v0.6.5: Source confirms Shinagawa (13109); polygon mismatch still unexplained. Do not alter point/code without boundary inspection.",
+    "boundaryAudit": "unresolved_polygon_mismatch",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000348700.html",
+    "catalogEligibility": "boundary_pending"
+  },
+  {
+    "id": "sg-site-nrct-130000022400",
+    "name": "江戸城跡",
+    "point": [
+      139.754418,
+      35.688371
+    ],
+    "municipalityCode": "13101",
+    "region": "東京都",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000022400.html",
+    "historySource": "https://kunishitei.bunka.go.jp/heritage/detail/401/723",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "confirmed_for_listed_cards"
+  },
+  {
+    "id": "sg-site-nrct-130000368700",
+    "name": "葛西城跡",
+    "point": [
+      139.855015,
+      35.755101
+    ],
+    "municipalityCode": "13122",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000368700.html",
+    "historySource": "https://www2.city.katsushika.lg.jp/tourism/1027563/1002869/1003140.html",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "medieval_context_confirmed_person_pending"
+  },
+  {
+    "id": "sg-site-nrct-130000183500",
+    "name": "宗参寺",
+    "point": [
+      139.725235,
+      35.704948
+    ],
+    "municipalityCode": "13104",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000183500.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000172400",
+    "name": "安養寺",
+    "point": [
+      139.720825,
+      35.693958
+    ],
+    "municipalityCode": "13104",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000172400.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000173400",
+    "name": "月桂寺",
+    "point": [
+      139.722183,
+      35.696484
+    ],
+    "municipalityCode": "13104",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000173400.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000177100",
+    "name": "善国寺",
+    "point": [
+      139.739197,
+      35.701447
+    ],
+    "municipalityCode": "13104",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000177100.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000181800",
+    "name": "赤城神社",
+    "point": [
+      139.726257,
+      35.708118
+    ],
+    "municipalityCode": "13104",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000181800.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000186200",
+    "name": "熊野神社（新宿）",
+    "point": [
+      139.688465,
+      35.690213
+    ],
+    "municipalityCode": "13104",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000186200.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000349500",
+    "name": "乗蓮寺跡",
+    "point": [
+      139.709646,
+      35.755663
+    ],
+    "municipalityCode": "13119",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000349500.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000369700",
+    "name": "葛西神社",
+    "point": [
+      139.878189,
+      35.770958
+    ],
+    "municipalityCode": "13122",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000369700.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000361400",
+    "name": "国土安穏寺",
+    "point": [
+      139.795547,
+      35.781353
+    ],
+    "municipalityCode": "13121",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000361400.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000357500",
+    "name": "素盞雄神社",
+    "point": [
+      139.795654,
+      35.737015
+    ],
+    "municipalityCode": "13118",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000357500.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000389300",
+    "name": "浄牧院",
+    "point": [
+      139.538467,
+      35.763027
+    ],
+    "municipalityCode": "13222",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000389300.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000432900",
+    "name": "西蓮寺跡",
+    "point": [
+      139.300857,
+      35.669697
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000432900.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000016100",
+    "name": "泉沢寺",
+    "point": [
+      139.649673,
+      35.581886
+    ],
+    "municipalityCode": "14133",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000016100.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000020100",
+    "name": "影向寺",
+    "point": [
+      139.619003,
+      35.578434
+    ],
+    "municipalityCode": "14136",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000020100.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000122000",
+    "name": "円乗院",
+    "point": [
+      139.587997,
+      35.249882
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000122000.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000122300",
+    "name": "十二所神社",
+    "point": [
+      139.581223,
+      35.32486
+    ],
+    "municipalityCode": "14204",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000122300.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000122800",
+    "name": "無量寺（横須賀）",
+    "point": [
+      139.619797,
+      35.231705
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000122800.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000123400",
+    "name": "東漸寺",
+    "point": [
+      139.560501,
+      35.520432
+    ],
+    "municipalityCode": "14118",
+    "region": "神奈川県横浜市都筑区",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000123400.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "2026-10-25 corrected based on published location information"
+  },
+  {
+    "id": "sg-site-nrct-140000135500",
+    "name": "感応院",
+    "point": [
+      139.488358,
+      35.346268
+    ],
+    "municipalityCode": "14205",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000135500.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000199500",
+    "name": "河村関所跡",
+    "point": [
+      139.079848,
+      35.361704
+    ],
+    "municipalityCode": "14364",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000199500.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000200100",
+    "name": "谷ヶ関所跡",
+    "point": [
+      139.017981,
+      35.347549
+    ],
+    "municipalityCode": "14364",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000200100.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000203700",
+    "name": "最乗寺",
+    "point": [
+      139.075195,
+      35.30188
+    ],
+    "municipalityCode": "14217",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000203700.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000204600",
+    "name": "足柄神社",
+    "point": [
+      139.07843,
+      35.333775
+    ],
+    "municipalityCode": "14217",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000204600.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000207100",
+    "name": "仙石原関所跡",
+    "point": [
+      139.011999,
+      35.27238
+    ],
+    "municipalityCode": "14382",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000207100.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000208900",
+    "name": "金剛王院東福寺跡",
+    "point": [
+      139.031592,
+      35.20299
+    ],
+    "municipalityCode": "14382",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000208900.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000121100",
+    "name": "大矢部磨崖仏",
+    "point": [
+      139.665269,
+      35.242429
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121100.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000121200",
+    "name": "薬王寺跡（横須賀）",
+    "point": [
+      139.668807,
+      35.241596
+    ],
+    "municipalityCode": "14201",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000121200.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000161900",
+    "name": "八菅神社",
+    "point": [
+      139.319031,
+      35.512966
+    ],
+    "municipalityCode": "14401",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000161900.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000162000",
+    "name": "八菅山経塚",
+    "point": [
+      139.322178,
+      35.51369
+    ],
+    "municipalityCode": "14401",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000162000.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000012300",
+    "name": "稲毛神社",
+    "point": [
+      139.704651,
+      35.53059
+    ],
+    "municipalityCode": "14131",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000012300.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000017500",
+    "name": "内城館跡",
+    "point": [
+      139.111355,
+      35.629037
+    ],
+    "municipalityCode": "19212",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000017500.html",
+    "historySource": "https://sitereports.nabunken.go.jp/files/attach/32/32022/22704_1_%E5%B1%B1%E6%A2%A8%E7%9C%8C%E4%B8%8A%E9%87%8E%E5%8E%9F%E5%B8%82%E5%B8%82%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "medieval_context_confirmed_person_pending"
+  },
+  {
+    "id": "sg-site-nrct-190000019400",
+    "name": "長峰砦跡",
+    "point": [
+      139.076305,
+      35.632421
+    ],
+    "municipalityCode": "19212",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000019400.html",
+    "historySource": "https://www.pref.yamanashi.jp/maizou-bnk/topics/101-200/0132.html",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "medieval_context_confirmed_person_pending"
+  },
+  {
+    "id": "sg-site-nrct-190000017600",
+    "name": "牛倉神社",
+    "point": [
+      139.115616,
+      35.625469
+    ],
+    "municipalityCode": "19212",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000017600.html",
+    "historySource": "https://www.yamanashi-jinjacho.or.jp/intro/search/detail/8089",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "historical_link_reviewed"
+  },
+  {
+    "id": "sg-site-nrct-190000017700",
+    "name": "保福寺",
+    "point": [
+      139.113967,
+      35.631912
+    ],
+    "municipalityCode": "19212",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000017700.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000018100",
+    "name": "一宮神社（上野原）",
+    "point": [
+      139.012415,
+      35.705904
+    ],
+    "municipalityCode": "19212",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000018100.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000018200",
+    "name": "宝珠寺（上野原）",
+    "point": [
+      139.01736,
+      35.706717
+    ],
+    "municipalityCode": "19212",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000018200.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000018500",
+    "name": "法性寺（上野原）",
+    "point": [
+      139.116135,
+      35.609226
+    ],
+    "municipalityCode": "19212",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000018500.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000018900",
+    "name": "四方津館跡",
+    "point": [
+      139.085501,
+      35.614839
+    ],
+    "municipalityCode": "19212",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000018900.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000021900",
+    "name": "三島神社（大月）",
+    "point": [
+      138.965698,
+      35.614056
+    ],
+    "municipalityCode": "19206",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000021900.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000024500",
+    "name": "円通寺跡（大月）",
+    "point": [
+      138.954296,
+      35.622473
+    ],
+    "municipalityCode": "19206",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000024500.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000031300",
+    "name": "河口浅間神社",
+    "point": [
+      138.774719,
+      35.530796
+    ],
+    "municipalityCode": "19430",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000031300.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000031700",
+    "name": "妙法寺（富士河口湖）",
+    "point": [
+      138.75116,
+      35.509762
+    ],
+    "municipalityCode": "19430",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000031700.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000031800",
+    "name": "常在寺",
+    "point": [
+      138.746445,
+      35.509644
+    ],
+    "municipalityCode": "19430",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000031800.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000032500",
+    "name": "富士御室浅間神社",
+    "point": [
+      138.7459888889,
+      35.5104369444
+    ],
+    "municipalityCode": "19430",
+    "region": "山梨県南都留郡富士河口湖町",
+    "verification": "reviewed",
+    "coordinateSource": "https://jmapps.ne.jp/kokugakuin/det.html?data_id=53936",
+    "historySource": "https://www.yamanashi-jinjacho.or.jp/intro/search/detail/7150",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link",
+    "sitePositionNote": "現在参拝可能な里宮の代表地点を使用。旧来の富士山二合目本宮と区別する。",
+    "municipalityAudit": "2026-10-25 corrected based on published location information"
+  },
+  {
+    "id": "sg-site-nrct-190000035200",
+    "name": "谷村陣屋跡",
+    "point": [
+      138.907421,
+      35.552049
+    ],
+    "municipalityCode": "19204",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000035200.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000035900",
+    "name": "長生寺（都留）",
+    "point": [
+      138.903351,
+      35.565964
+    ],
+    "municipalityCode": "19204",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000035900.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000036000",
+    "name": "円通院（都留）",
+    "point": [
+      138.910767,
+      35.553696
+    ],
+    "municipalityCode": "19204",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000036000.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000030300",
+    "name": "城屋敷遺跡",
+    "point": [
+      138.83471,
+      35.540045
+    ],
+    "municipalityCode": "19423",
+    "region": "山梨県南都留郡西桂町",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000030300.html",
+    "historySource": "",
+    "note": "歴史地名大系による代表座標を確認済み。戦国期の関連人物・史跡の時代は未検証。カードは史料確認まで非公開。",
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "2026-10-25 corrected based on published location information"
+  },
+  {
+    "id": "sg-site-nrct-130000172000",
+    "name": "薬王寺跡",
+    "point": [
+      139.72509,
+      35.696049
+    ],
+    "municipalityCode": "13104",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000172000.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000172700",
+    "name": "自証院",
+    "point": [
+      139.716965,
+      35.692162
+    ],
+    "municipalityCode": "13104",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000172700.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000174800",
+    "name": "戸山遺跡",
+    "point": [
+      139.717307,
+      35.703702
+    ],
+    "municipalityCode": "13104",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000174800.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000175200",
+    "name": "南山伏町遺跡",
+    "point": [
+      139.730875,
+      35.69897
+    ],
+    "municipalityCode": "13104",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000175200.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000427700",
+    "name": "御殿山窯跡群",
+    "point": [
+      139.33835,
+      35.617444
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000427700.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "out_of_scope_pending",
+    "boundaryAudit": "unresolved_polygon_mismatch",
+    "municipalityAudit": "v0.6.5: Source confirms Hachioji (13201); large archaeological zone / polygon coverage needs examination. Not Sengoku period (Heian-era kiln complex).",
+    "municipalityAuditSource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/monogatari/p026821.html",
+    "historicalScope": "out_of_sengoku_scope_review",
+    "catalogEligibility": "boundary_pending"
+  },
+  {
+    "id": "sg-site-nrct-130000346800",
+    "name": "扇山遺跡",
+    "point": [
+      139.586258,
+      35.731694
+    ],
+    "municipalityCode": "13120",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000346800.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000350100",
+    "name": "前野町遺跡",
+    "point": [
+      139.693758,
+      35.766638
+    ],
+    "municipalityCode": "13119",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000350100.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000350800",
+    "name": "志村古墳群",
+    "point": [
+      139.699434,
+      35.77677
+    ],
+    "municipalityCode": "13119",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000350800.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000428700",
+    "name": "北大谷古墳",
+    "point": [
+      139.348374,
+      35.672405
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000428700.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000428500",
+    "name": "中田遺跡",
+    "point": [
+      139.323323,
+      35.674237
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000428500.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000429300",
+    "name": "宇津木遺跡",
+    "point": [
+      139.354855,
+      35.680608
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000429300.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000329700",
+    "name": "豪徳寺",
+    "point": [
+      139.647202,
+      35.647671
+    ],
+    "municipalityCode": "13112",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000329700.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000329800",
+    "name": "世田谷代官屋敷",
+    "point": [
+      139.647663,
+      35.641411
+    ],
+    "municipalityCode": "13112",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000329800.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000378400",
+    "name": "泉龍寺",
+    "point": [
+      139.575699,
+      35.632984
+    ],
+    "municipalityCode": "13219",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000378400.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000378600",
+    "name": "伊豆美神社",
+    "point": [
+      139.568893,
+      35.635658
+    ],
+    "municipalityCode": "13219",
+    "region": "東京都",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000378600.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-130000381100",
+    "name": "深大寺",
+    "point": [
+      139.541,
+      35.692692
+    ],
+    "municipalityCode": "13204",
+    "region": "東京都三鷹市",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000381100.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "v0.6.5: CODH source address confirms 東京都三鷹市; prior code 13208 incorrect",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000381100.html"
+  },
+  {
+    "id": "sg-site-nrct-140000060600",
+    "name": "池辺第一四遺跡",
+    "point": [
+      139.569352,
+      35.520427
+    ],
+    "municipalityCode": "14118",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000060600.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000059000",
+    "name": "綱崎山遺跡",
+    "point": [
+      139.582037,
+      35.547967
+    ],
+    "municipalityCode": "14118",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000059000.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000022400",
+    "name": "菅寺尾台廃堂跡",
+    "point": [
+      139.533727,
+      35.619444
+    ],
+    "municipalityCode": "14135",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000022400.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-140000021500",
+    "name": "下原遺跡",
+    "point": [
+      139.58339,
+      35.60738
+    ],
+    "municipalityCode": "14135",
+    "region": "神奈川県川崎市多摩区",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000021500.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "v0.6.5: CODH source address confirms 神奈川県川崎市多摩区; prior code 14136 incorrect",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000021500.html"
+  },
+  {
+    "id": "sg-site-nrct-140000021200",
+    "name": "東高根遺跡",
+    "point": [
+      139.58665,
+      35.605056
+    ],
+    "municipalityCode": "14136",
+    "region": "神奈川県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000021200.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000022200",
+    "name": "大月遺跡",
+    "point": [
+      138.940565,
+      35.611063
+    ],
+    "municipalityCode": "19206",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000022200.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000023000",
+    "name": "外ガイド遺跡",
+    "point": [
+      138.885031,
+      35.588192
+    ],
+    "municipalityCode": "19206",
+    "region": "山梨県大月市",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000023000.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "v0.6.5: CODH source address confirms 山梨県大月市; prior code 19204 incorrect",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000023000.html"
+  },
+  {
+    "id": "sg-site-nrct-190000023100",
+    "name": "原平遺跡",
+    "point": [
+      138.864898,
+      35.588988
+    ],
+    "municipalityCode": "19206",
+    "region": "山梨県大月市",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000023100.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "v0.6.5: CODH source address confirms 山梨県大月市; prior code 19204 incorrect",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000023100.html"
+  },
+  {
+    "id": "sg-site-nrct-190000020400",
+    "name": "仲大地遺跡",
+    "point": [
+      139.060161,
+      35.620646
+    ],
+    "municipalityCode": "19212",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000020400.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000050100",
+    "name": "宮之上遺跡",
+    "point": [
+      138.731693,
+      35.663514
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000050100.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000050400",
+    "name": "白山平経塚",
+    "point": [
+      138.748306,
+      35.655737
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000050400.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000050300",
+    "name": "大善寺",
+    "point": [
+      138.743179,
+      35.657021
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000050300.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000050700",
+    "name": "万福寺",
+    "point": [
+      138.712219,
+      35.669472
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000050700.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000051000",
+    "name": "立正寺",
+    "point": [
+      138.716263,
+      35.680031
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000051000.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000051400",
+    "name": "三光寺",
+    "point": [
+      138.747757,
+      35.677727
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000051400.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000051800",
+    "name": "岩崎氏館跡",
+    "point": [
+      138.722311,
+      35.652929
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000051800.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000052800",
+    "name": "景徳院",
+    "point": [
+      138.803513,
+      35.64085
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000052800.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000058900",
+    "name": "慈雲寺",
+    "point": [
+      138.755783,
+      35.717491
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000058900.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000059200",
+    "name": "雲峰寺",
+    "point": [
+      138.695007,
+      35.776985
+    ],
+    "municipalityCode": "19205",
+    "region": "山梨県山梨市",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000059200.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link",
+    "municipalityAudit": "v0.6.5: CODH source address confirms 山梨県山梨市; prior code 19213 incorrect",
+    "municipalityAuditSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000059200.html",
+    "locationAuditV122": {
+      "status": "hold_municipality_mismatch",
+      "finding": "現登録の山梨市・自治体コード19205に対し、甲州市公式案内の雲峰寺は甲州市塩山上萩原2678。別史跡同名の可能性もあるため位置を自動修正せず、カード連携を保留。",
+      "officialSource": "https://www.koshu-kankou.jp/map/m4940.html",
+      "need": "歴史地名IDの実体と現存寺院の対応を再照合"
+    }
+  },
+  {
+    "id": "sg-site-nrct-190000059800",
+    "name": "黒川金山跡",
+    "point": [
+      138.846797,
+      35.790168
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県甲州市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000059800.html",
+    "historySource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0010.html",
+    "note": "国指定史跡「甲斐金山遺跡」の黒川金山部分。史跡の代表座標であり、鉱山全域や登山口・入場可能地点を意味しない。武田氏との関係は史料上の限界があるため、直接経営と断定しない。",
+    "researchStatus": "historical_context_verified"
+  },
+  {
+    "id": "sg-site-nrct-190000061100",
+    "name": "永昌院",
+    "point": [
+      138.650925,
+      35.698532
+    ],
+    "municipalityCode": "19205",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000061100.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000061700",
+    "name": "金桜神社",
+    "point": [
+      138.663132,
+      35.690273
+    ],
+    "municipalityCode": "19205",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000061700.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000098900",
+    "name": "石和八幡神社",
+    "point": [
+      138.636673,
+      35.650996
+    ],
+    "municipalityCode": "19211",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000098900.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000099000",
+    "name": "遠妙寺",
+    "point": [
+      138.639954,
+      35.650867
+    ],
+    "municipalityCode": "19211",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000099000.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000099200",
+    "name": "八田氏屋敷跡",
+    "point": [
+      138.642647,
+      35.654855
+    ],
+    "municipalityCode": "19211",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000099200.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000100300",
+    "name": "武田信重館跡",
+    "point": [
+      138.618445,
+      35.628345
+    ],
+    "municipalityCode": "19211",
+    "region": "山梨県笛吹市石和町小石和",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000100300.html",
+    "historySource": "https://kotobank.jp/word/%E6%AD%A6%E7%94%B0%E4%BF%A1%E9%87%8D%E9%A4%A8%E8%B7%A1-3057274",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "historical_link_reviewed"
+  },
+  {
+    "id": "sg-site-nrct-190000101800",
+    "name": "大蔵経寺",
+    "point": [
+      138.633652,
+      35.661003
+    ],
+    "municipalityCode": "19211",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000101800.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000104700",
+    "name": "甲斐奈神社",
+    "point": [
+      138.678635,
+      35.647533
+    ],
+    "municipalityCode": "19211",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000104700.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000105400",
+    "name": "瑞蓮寺",
+    "point": [
+      138.673782,
+      35.657848
+    ],
+    "municipalityCode": "19211",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000105400.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000106400",
+    "name": "超願寺",
+    "point": [
+      138.691284,
+      35.633186
+    ],
+    "municipalityCode": "19211",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000106400.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000109900",
+    "name": "美和神社",
+    "point": [
+      138.653229,
+      35.629162
+    ],
+    "municipalityCode": "19211",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000109900.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000110900",
+    "name": "福光園寺",
+    "point": [
+      138.675827,
+      35.608807
+    ],
+    "municipalityCode": "19211",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000110900.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000111000",
+    "name": "小物成山城跡",
+    "point": [
+      138.676493,
+      35.60872
+    ],
+    "municipalityCode": "19211",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000111000.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-nrct-190000141200",
+    "name": "朝日山砦跡",
+    "point": [
+      138.416288,
+      35.844513
+    ],
+    "municipalityCode": "19209",
+    "region": "山梨県",
+    "verification": "site_verified_person_pending",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000141200.html",
+    "historySource": "",
+    "note": "公開歴史地名データの代表地点。人物との関連・実際の史跡年代は未検証。歴史カードは未公開。",
+    "researchStatus": "needs_historical_link"
+  },
+  {
+    "id": "sg-site-akatsuka",
+    "name": "赤塚城跡",
+    "point": [
+      139.643515,
+      35.784545
+    ],
+    "municipalityCode": "13119",
+    "region": "東京都板橋区",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000352200.html",
+    "historySource": "https://www.city.itabashi.tokyo.jp/1014983/1015442/1015448/1015450/1015799.html",
+    "note": "板橋区公式資料は千葉氏の居城と説明。個々の人物カードは人物との個別の結びつきが確認できるまで保留。",
+    "coordinateVerification": "published_poi",
+    "sourceAddress": "東京都板橋区赤塚5-35"
+  },
+  {
+    "id": "sg-site-nakahara-goten",
+    "name": "中原御殿跡",
+    "point": [
+      139.330568,
+      35.343872
+    ],
+    "municipalityCode": "14203",
+    "region": "神奈川県平塚市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/14/140000182700.html",
+    "historySource": "https://www.city.hiratsuka.kanagawa.jp/press/page02_e00001_02139.html",
+    "coordinateVerification": "published_poi",
+    "researchStatus": "person_verified",
+    "note": "平塚市博物館資料が徳川家康の宿所と確認。公開歴史地名データ代表座標は跡地の厳密な境界を保証しない。"
+  },
+  {
+    "id": "sg-site-jofukuji-castle-entry",
+    "name": "浄福寺城跡（浄福寺側入口）",
+    "point": [
+      139.248489,
+      35.669819
+    ],
+    "municipalityCode": "13201",
+    "region": "東京都八王子市下恩方町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000434600.html",
+    "historySource": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/003/p005289.html",
+    "coordinateVerification": "published_poi_at_access_temple",
+    "researchStatus": "person_verified",
+    "note": "座標は浄福寺（下恩方町3259）の代表点。城の主郭・史跡範囲を指す座標ではない。八王子市は城跡を寺の裏山一帯と説明し、氏照の入城先には諸説ある。"
+  },
+  {
+    "id": "sg-site-daisenji-kofu",
+    "name": "大泉寺",
+    "point": [
+      138.580048,
+      35.675903
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市古府中町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000083100.html",
+    "historySource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0004.html",
+    "coordinateVerification": "published_point",
+    "researchStatus": "person_verified",
+    "note": "新規地点。史実の直接人物リンクを確認していない場合はカード未発行。町丁判定はGitHub Actions生成後に実機確認。"
+  },
+  {
+    "id": "sg-site-enko-in-kofu",
+    "name": "円光院",
+    "point": [
+      138.586563,
+      35.682869
+    ],
+    "municipalityCode": "19201",
+    "region": "山梨県甲府市岩窪町",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000083400.html",
+    "historySource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0010.html",
+    "coordinateVerification": "published_point",
+    "researchStatus": "person_verified",
+    "note": "新規地点。史実の直接人物リンクを確認していない場合はカード未発行。町丁判定はGitHub Actions生成後に実機確認。"
+  },
+  {
+    "id": "sg-site-katsunuma-ome",
+    "name": "勝沼城跡（青梅）",
+    "point": [
+      139.2744,
+      35.7954222
+    ],
+    "municipalityCode": "13205",
+    "region": "東京都青梅市東青梅",
+    "verification": "reviewed",
+    "coordinateSource": "https://ja.wikipedia.org/wiki/%E5%8B%9D%E6%B2%BC%E5%9F%8E",
+    "historySource": "https://www.city.ome.tokyo.jp/site/provincial-history-museum/2956.html",
+    "coordinateVerification": "secondary_point_check_required",
+    "researchStatus": "person_verified",
+    "note": "新規地点。史実の直接人物リンクを確認していない場合はカード未発行。町丁判定はGitHub Actions生成後に実機確認。"
+  },
+  {
+    "id": "sg-site-sugiyama-ranzan",
+    "name": "杉山城跡",
+    "point": [
+      139.312093,
+      36.062639
+    ],
+    "municipalityCode": "11342",
+    "region": "埼玉県比企郡嵐山町",
+    "verification": "site_verified",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000172700.html",
+    "historySource": "https://www.ranzan-kanko.jp/castle",
+    "coordinateVerification": "published_point",
+    "researchStatus": "site_verified_person_pending",
+    "note": "新規地点。史実の直接人物リンクを確認していない場合はカード未発行。町丁判定はGitHub Actions生成後に実機確認。"
+  },
+  {
+    "id": "sg-site-yato-hokuto",
+    "name": "谷戸城跡",
+    "point": [
+      138.386016,
+      35.856665
+    ],
+    "municipalityCode": "19209",
+    "region": "山梨県北杜市大泉町谷戸",
+    "verification": "site_verified",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000142500.html",
+    "historySource": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0009.html",
+    "coordinateVerification": "published_point",
+    "researchStatus": "site_verified_person_pending",
+    "note": "新規地点。史実の直接人物リンクを確認していない場合はカード未発行。町丁判定はGitHub Actions生成後に実機確認。"
+  },
+  {
+    "id": "sg-site-tomyoji-kawagoe",
+    "name": "東明寺・川越合戦跡",
+    "point": [
+      139.484827,
+      35.9286264
+    ],
+    "municipalityCode": "11201",
+    "region": "埼玉県川越市志多町付近",
+    "verification": "reviewed",
+    "researchStatus": "person_verified",
+    "coordinateSource": "https://mapfan.com/spots/SWQY%2CJ%2C8YJR0",
+    "coordinateVerification": "modern_temple_map_point",
+    "historySource": "https://www.city.kawagoe.saitama.jp/shisei/toshikei/1010554/1010635/1010678/1010684/1010688.html",
+    "note": "市の史跡案内と現存寺院の現代地図座標を別々に照合。史実の河越夜戦の細部は再検討があり、夜間奇襲などを確定史実としない。実機での町丁一致は未確認。"
+  },
+  {
+    "id": "sg-site-kanayama-ota",
+    "name": "金山城跡（太田市）",
+    "point": [
+      139.37783,
+      36.316947
+    ],
+    "municipalityCode": "10205",
+    "region": "群馬県太田市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/10/100000230300.html",
+    "historySource": "https://www.city.ota.gunma.jp/page/4378.html",
+    "note": "地名大系の代表座標。広大な史跡全域を示さない。CODH CC BY 4.0 / DOI:10.20676/00000456。"
+  },
+  {
+    "id": "sg-site-tomono-saku",
+    "name": "伴野城跡（野沢城）",
+    "point": [
+      138.469635,
+      36.225358
+    ],
+    "municipalityCode": "20217",
+    "region": "長野県佐久市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000035800.html",
+    "historySource": "https://www.city.saku.nagano.jp/kanko/kanko/spot/meisho_shiseki/tomonojoseki.html",
+    "note": "地名大系の代表座標。城跡全体を示さない。CODH CC BY 4.0 / DOI:10.20676/00000456。"
+  },
+  {
+    "id": "sg-site-fukasawa",
+    "name": "深沢城跡",
+    "point": [
+      138.954709,
+      35.323086
+    ],
+    "municipalityCode": "22215",
+    "region": "静岡県御殿場市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000113400.html",
+    "historySource": "https://www.pref.shizuoka.jp/kankosports/bunkageijutsu/bunkazai/1002825/1041003/1041885/1004965/1020879.html",
+    "note": "『日本歴史地名大系』施設・地点項目データセット（CODH、CC BY 4.0、doi:10.20676/00000456）に基づく代表座標。史跡範囲・入口・訪問可能地点との一致は未確認。現地解放地点の最終検証が必要。"
+  },
+  {
+    "id": "sg-site-nagashino",
+    "name": "長篠城跡",
+    "point": [
+      137.559791,
+      34.922635
+    ],
+    "municipalityCode": "23221",
+    "region": "愛知県新城市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/23/230000453200.html",
+    "historySource": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/nagashinojyoato.html",
+    "note": "『日本歴史地名大系』施設・地点項目データセット（CODH、CC BY 4.0、doi:10.20676/00000456）に基づく代表座標。史跡範囲・入口・訪問可能地点との一致は未確認。現地解放地点の最終検証が必要。"
+  },
+  {
+    "id": "sg-site-suwahara",
+    "name": "諏訪原城跡",
+    "point": [
+      138.119899,
+      34.81833
+    ],
+    "municipalityCode": "22209",
+    "region": "静岡県島田市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000269800.html",
+    "historySource": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/kuni-01.html",
+    "note": "『日本歴史地名大系』施設・地点項目データセット（CODH、CC BY 4.0、doi:10.20676/00000456）に基づく代表座標。史跡範囲・入口・訪問可能地点との一致は未確認。現地解放地点の最終検証が必要。"
+  },
+  {
+    "id": "sg-site-ooga",
+    "name": "大桑城跡",
+    "point": [
+      136.768752,
+      35.563094
+    ],
+    "municipalityCode": "21215",
+    "region": "岐阜県山県市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/21/210000155000.html",
+    "historySource": "https://www.city.yamagata.gifu.jp/site/oogajoato/48580.html",
+    "note": "『日本歴史地名大系』施設・地点項目データセット（CODH、CC BY 4.0、doi:10.20676/00000456）に基づく代表座標。史跡範囲・入口・訪問可能地点との一致は未確認。現地解放地点の最終検証が必要。"
+  },
+  {
+    "id": "sg-site-makabe",
+    "name": "真壁城跡",
+    "point": [
+      140.107692,
+      36.27537
+    ],
+    "municipalityCode": "08231",
+    "region": "茨城県桜川市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/08/080000241600.html",
+    "historySource": "https://bunka.nii.ac.jp/db/heritages/detail/138047",
+    "note": "『日本歴史地名大系』施設・地点項目データセット（CODH、CC BY 4.0、doi:10.20676/00000456）に基づく代表座標。史跡範囲・入口・訪問可能地点との一致は未確認。現地解放地点の最終検証が必要。"
+  },
+  {
+    "id": "sg-site-masuyama",
+    "name": "増山城跡",
+    "point": [
+      137.040835,
+      36.651316
+    ],
+    "municipalityCode": "16208",
+    "region": "富山県砺波市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/16/160000364500.html",
+    "historySource": "https://www.city.tonami.lg.jp/kanko/midokoro/755p/",
+    "note": "『日本歴史地名大系』施設・地点項目データセット（CODH、CC BY 4.0、doi:10.20676/00000456）に基づく代表座標。史跡範囲・入口・訪問可能地点との一致は未確認。現地解放地点の最終検証が必要。"
+  },
+  {
+    "id": "sg-site-shinshiro",
+    "name": "新城城跡",
+    "point": [
+      137.498824,
+      34.896464
+    ],
+    "municipalityCode": "23221",
+    "region": "愛知県新城市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/23/230000466600.html",
+    "historySource": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/shinshirojyoato.html",
+    "note": "1576年築城と市が記載。ただし発掘で確認された遺構は江戸期が中心。現校地の代表点で、立入・解放可能地点ではない。"
+  },
+  {
+    "id": "sg-site-gifu",
+    "name": "岐阜城跡",
+    "point": [
+      136.782034,
+      35.433927
+    ],
+    "municipalityCode": "21201",
+    "region": "岐阜県岐阜市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/21/210000161100.html",
+    "historySource": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+    "note": "金華山の歴史地名代表点。天守の現位置・登山入口や訪問可能地点とは限らない。"
+  },
+  {
+    "id": "sg-site-takatenjin",
+    "name": "高天神城跡",
+    "point": [
+      138.035571,
+      34.698262
+    ],
+    "municipalityCode": "22213",
+    "region": "静岡県掛川市",
+    "verification": "reviewed",
+    "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000287700.html",
+    "historySource": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/8328.html",
+    "note": "城郭の歴史地名代表点。登城口、曲輪、GPS解放点は現地検証が必要。"
+  },
+  {
+    "id": "sg-site-unpoji-koshu",
+    "name": "雲峰寺（甲州市）",
+    "point": [
+      138.804546,
+      35.739364
+    ],
+    "municipalityCode": "19213",
+    "region": "山梨県甲州市塩山上萩原",
+    "verification": "reviewed",
+    "coordinateSource": "https://heritagemap.nabunken.go.jp/statistic/99007731-%E6%97%A5%E3%81%AE%E4%B8%B8%E3%81%AE%E5%BE%A1%E6%97%97.html",
+    "historySource": "https://www.pref.yamanashi.jp/bunka/bunkazaihogo/bunkazai_data/yamanashinobunkazai_kb0023.html",
+    "note": "山梨市牧丘町の同名「雲峰寺」と別地点。代表座標は同じ境内所蔵文化財の国立文化財機構データ。現地GPS解放点は未検証。"
+  },
+  {
+    "id": "sg-site-kanazawa-katada",
+    "name": "堅田城跡",
+    "point": [
+      136.706821,
+      36.612213
+    ],
+    "municipalityCode": "17201",
+    "region": "石川県金沢市",
+    "verification": "reviewed",
+    "coordinateSource": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-cultural_property",
+    "historySource": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/bunkazaihogoka/gyomuannai/3/1/1/siteibunkazai/5/5818.html",
+    "note": "公的オープンデータの代表座標。遺構の全範囲・立入可否を示さない。出典表示要（CC BY）。"
+  },
+  {
+    "id": "sg-site-nerima-castle",
+    "name": "練馬城跡",
+    "point": [
+      139.645057,
+      35.744056
+    ],
+    "municipalityCode": "13120",
+    "region": "東京都練馬区",
+    "verification": "reviewed",
+    "coordinateSource": "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/bunka/cultural_property.html",
+    "historySource": "https://www.nerima-archives.jp/column/3438/",
+    "note": "公的オープンデータの代表座標。遺構の全範囲・立入可否を示さない。出典表示要（CC BY）。"
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "round": "20261030-04",
+  "reviewedOn": "2026-10-30",
+  "scope": "桑山重晴の本人事績を確認し独自略歴を作成。同族と区別して場所を抽出。",
+  "sources": {
+    "katsuragi": {
+      "url": "https://www.city.katsuragi.nara.jp/soshiki/rekishihakubutsukan/4/2/15/1503.html",
+      "title": "葛城市歴史博物館：第16回特別展 桑山一族",
+      "locator": "開催にあたって第1～3段落。重晴の1583賤ヶ岳軍功、1585紀伊入部・和歌山築城、城代から城主。一晴の1601転封・新庄陣屋と区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "keio": {
+      "url": "https://objecthub.keio.ac.jp/ja/object/420",
+      "title": "慶應義塾：桑山宗仙筆消息",
+      "locator": "作品解説冒頭：宗仙の父として重晴1524–1606を明記。画像ライセンス欄CC BY。宗仙の別名・茶歴を父へ転用しない。",
+      "kind": "university_collection",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "画像CC BY表示のみ確認。説明文の条件・版は未確認。画像不使用。",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    }
+  },
+  "people": {
+    "826": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣秀長の重臣として紀伊の支配を担った武将。1583年の賤ヶ岳の戦いで軍功を挙げ、1585年には紀伊に入った。藤堂高虎らと和歌山城の築城に携わり、城代を経て城主となった。1606年に没した。",
+      "verifiedAliases": [],
+      "note": "新庄転封・陣屋建設は孫一晴、高田整備は一直。宗仙の茶歴・別名も重晴へ転用しない。出生年は元値の留保を保持。竹田・岸和田・1586在城説は今回本文未取得で確認扱いしない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "正本名桑山重晴を維持。",
+          "sourceIds": [
+            "katsuragi"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "一晴の祖父、宗仙の父。別世代の事績を区別。",
+          "sourceIds": [
+            "katsuragi",
+            "keio"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "partially_verified",
+          "result": "大学解説は1524。正本の不詳・一説という留保の根拠は未解決のため確定へ昇格しない。",
+          "sourceIds": [
+            "keio"
+          ],
+          "candidateYears": [
+            1524
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "大学解説に1606と明記。年単位の記載確認、月日換算未実施。",
+          "sourceIds": [
+            "keio"
+          ],
+          "value": 1606
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "重勝・彦次郎・宗栄等の改名・通称は未確認。",
+          "sourceIds": [
+            "keio"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "秀長重臣、紀伊支配、賤ヶ岳軍功、紀伊入部、和歌山築城・城代から城主、没年を独自要約。",
+          "sourceIds": [
+            "katsuragi",
+            "keio"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "1583賤ヶ岳参戦、1585和歌山築城、城代から城主。入城年月と前後の居城移転は未確認。",
+          "sourceIds": [
+            "katsuragi"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "慶應の画像にCC BY表示。解説文章への適用や版は未確認。画像・文章は転載しない。葛城市の詳細条件は未確認。",
+          "sourceIds": [
+            "keio"
+          ]
+        }
+      ]
+    }
+  },
+  "attempts": [],
+  "sourceAccessFailures": [
+    {
+      "url": "https://wakayamacity-bunkazai.jp/wakayamajo/",
+      "status": "HTTP403・本文未取得、確認済みに算入しない"
+    },
+    {
+      "url": "https://wakayamajo.jp/history/",
+      "status": "HTTP403・本文未取得、確認済みに算入しない"
+    }
+  ]
+}

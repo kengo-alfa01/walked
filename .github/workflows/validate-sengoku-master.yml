@@ -1,0 +1,41 @@
+name: Validate Sengoku master migration candidate
+on:
+  pull_request:
+    paths:
+      - 'migration/**'
+      - 'scripts/*master*.py'
+      - 'scripts/build_migration_preview.py'
+      - 'tests/**'
+      - 'index.html'
+      - '.github/workflows/validate-sengoku-master.yml'
+  push:
+    branches: ['feature/sengoku-master-migration-20261026']
+permissions:
+  contents: read
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python scripts/generate_sengoku_master.py
+      - run: python scripts/build_migration_preview.py
+      - run: git diff --exit-code -- migration/generated migration/preview.html
+      - run: python scripts/validate_sengoku_master.py
+      - run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - run: node --test tests/runtime.test.js
+      - name: Enforce release hold while research is incomplete
+        run: |
+          python - <<'PY'
+          import json
+          from scripts.validate_sengoku_master import validate
+          report = validate('migration/generated', release=True)
+          summary = json.load(open('migration/generated/summary.json'))
+          assert bool(report['failed']) == (not summary['releaseReady'])
+          print('Candidate validation is distinct from release approval.')
+          PY

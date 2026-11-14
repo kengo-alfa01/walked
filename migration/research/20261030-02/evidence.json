@@ -1,0 +1,180 @@
+{
+  "round": "20261030-02",
+  "reviewedOn": "2026-10-30",
+  "scope": "既存部分確認の島津家久を再精査し機械的略歴1案改稿。",
+  "sources": {
+    "tokyo": {
+      "url": "https://www.hi.u-tokyo.ac.jp/publication/syoho/51/pub_komonjo-iewake-16-05.html",
+      "title": "東京大学史料編纂所：島津家文書之五",
+      "locator": "御文書家久公一の段。忠恒は義弘の子で慶長11年改名、義弘の末弟家久と区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "sadowara": {
+      "url": "https://online.bunka.go.jp/heritages/detail/212050",
+      "title": "文化遺産オンライン：佐土原城跡",
+      "locator": "解説：1579家久入城、次代豊久、1603以久を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "hioki": {
+      "url": "https://hioki-pr-bushotai.com/pr-member/",
+      "title": "日置市観光PR武将隊：島津家久",
+      "locator": "貴久四男、沖田畷・戸次川での勝利、降伏後の急死。",
+      "kind": "municipal_tourism",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "okita": {
+      "url": "https://www.mlit.go.jp/tagengo-db/R2-00440.html",
+      "title": "観光庁：沖田畷古戦場跡",
+      "locator": "日本語解説：1547～1587、義久の弟、1584指揮。有馬との連合軍が龍造寺軍に勝利。兵数・細部は未採用。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "hetsugi": {
+      "url": "https://oitacity-archive.jp/tsurugajou/",
+      "title": "大分市：戸次川の合戦と鶴賀城",
+      "locator": "オープニング：天正14年12月12日（1587年1月20日）、家久率いる島津勢。エンディングは和暦年1586を併記。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "oita-terms": {
+      "url": "https://oitacity-archive.jp/kiyaku/",
+      "title": "大分市デジタルアーカイブ利用規約",
+      "locator": "画像は資料ごとのCC表示または所蔵館確認。リンク自由。文章・動画の一括転載許可とはしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    },
+    "mlit-terms": {
+      "url": "https://www.mlit.go.jp/tagengo-db/attention.html",
+      "title": "観光庁解説文利用注意事項",
+      "locator": "商業利用可だが文章改変には制限・協議条件、表示要件あり。事実参照と原文利用を分離。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約。説明文・画像・動画の転載なし。"
+    }
+  },
+  "people": {
+    "1046": {
+      "bodyForSelectedPerson": true,
+      "biography": "島津貴久の四男で、兄の義久を支えた武将。日向の佐土原城を居城とし、沖田畷では有馬氏とともに龍造寺軍を破った。戸次川でも島津軍を率いて豊臣方に勝利したが、豊臣政権への降伏後に急死した。",
+      "verifiedAliases": [],
+      "note": "忠恒改名後の家久と自動統合しない。佐土原入城年・没年は未取得の市資料を再照合。戸次川の1586/1587は和暦年と月日換算を区別。毒殺説を史実として採用しない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "主表示名島津家久を維持。",
+          "sourceIds": [
+            "tokyo",
+            "hioki"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "貴久四男・義弘末弟の家久。義弘の子忠恒（後の家久）と別人。豊久・以久とも区別。",
+          "sourceIds": [
+            "tokyo",
+            "hioki",
+            "sadowara"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "原値の又七郎と官途の全件確認は未完了。",
+          "sourceIds": [
+            "tokyo"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "1547を観光庁の本人記述で年単位確認。月日・暦換算未確認。",
+          "sourceIds": [
+            "okita"
+          ],
+          "value": 1547
+        },
+        {
+          "field": "death",
+          "status": "partially_verified",
+          "result": "1587を観光庁で確認。ただし宮崎市広報検索抄録に1588という要照合箇所があり、PDF本文未取得。誤植・別時点か未判定のため確認完了数に加算しない。",
+          "sourceIds": [
+            "okita",
+            "hioki"
+          ],
+          "candidateYears": [
+            1587
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "佐土原を居城とし、義久を支えて九州で戦い、沖田畷・戸次川を指揮。降伏後急死。毒殺説・兵数・人物本人の直接討取りは採用しない。",
+          "sourceIds": [
+            "sadowara",
+            "hioki",
+            "okita",
+            "hetsugi"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "文化庁は1579佐土原入城。市資料検索抄録1577は本文未取得で年を断定せず留保。1584沖田畷、天正14年12月12日（資料換算1587-01-20）戸次川。",
+          "sourceIds": [
+            "sadowara",
+            "okita",
+            "hetsugi"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "観光庁の営利利用可と文章改変条件、大分市の資料別画像条件を確認。原文・画像・動画は使用しない。他出典と既存表現は未完了。",
+          "sourceIds": [
+            "mlit-terms",
+            "oita-terms"
+          ]
+        }
+      ]
+    }
+  },
+  "attempts": [],
+  "sourceAccessFailures": [
+    {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/7/9/3/1/7/3/_/2024_1all.pdf",
+      "reason": "web取得容量超過。検索抄録の1588没は未確認。"
+    },
+    {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/4/2/_/531942.pdf",
+      "reason": "404。検索抄録の1577入城は未確認。"
+    },
+    {
+      "url": "https://id.ndl.go.jp/auth/ndlna/001142969",
+      "reason": "web本文取得不可。"
+    }
+  ]
+}

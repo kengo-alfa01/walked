@@ -1,0 +1,607 @@
+{
+  "round": "20261031-07",
+  "reviewedOn": "2026-10-31",
+  "scope": "未着手6人を調査。本人本文は5人、独自略歴4案。鈴木重朝は書誌・混在記事のみのため本人本文確認に算入せず、土岐政頼は頼武との対応未確定で改稿保留。",
+  "sources": {
+    "shima-sekigahara": {
+      "url": "https://sekigahara.pref.gifu.lg.jp/kuroda-nagamasa/",
+      "title": "岐阜関ケ原古戦場記念館：黒田長政コース",
+      "locator": "島左近陣跡。1600杭瀬川勝利、笹尾山麓の布陣、黒田隊射撃で負傷・離脱。山頂の三成陣と区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "shima-nara": {
+      "url": "https://www.pref.nara.lg.jp/ikasu-nara/bunkashigen/main10517.html",
+      "title": "奈良県歴史文化資源：椿井城跡",
+      "locator": "嶋左近（島清興）と筒井・石田への仕官。椿井城は嶋氏の拠点と伝承される。地域・所有者提供情報であり県による独立した全史実保証ではない。",
+      "kind": "prefecture_hosted_community_description",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "shima-ndl": {
+      "url": "https://id.ndl.go.jp/auth/ndlna/00863084",
+      "title": "国立国会図書館典拠：島清興",
+      "locator": "島清興 -1600、異形に島左近・島勝猛。典拠に花ヶ前盛明編著書と国史大辞典。元の著書本文は未読。",
+      "kind": "library_authority_metadata",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "典拠レコードを実読。著書・原史料本文の実読には算入しない。"
+    },
+    "shima-dictionary": {
+      "url": "https://kotobank.jp/word/島清興-1080757",
+      "title": "講談社デジタル版日本人名大辞典：島清興",
+      "locator": "生年不詳・1600没、島友保の子、筒井順慶の臣から三成参謀、左近・勝猛。父名は正本清国と異なり要照合。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "suzuki-reference": {
+      "url": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000279554&page=ref_view",
+      "title": "国立国会図書館レファレンス協同DB：鈴木重朝の感状・翻刻調査",
+      "locator": "回答は重朝（孫三郎）宛連署状の所在を案内。追加回答に『徳川家康文書の研究 中巻』2017年pp925–928、慶長5旧8/5の連署感状。質問欄の元和9没・伏見の戦功を独立検証済みにしない。",
+      "kind": "library_reference_answer",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "回答本文・書誌案内を実読。紹介された書籍、翻刻、原文書そのものは未読。"
+    },
+    "suzuki-mixed": {
+      "url": "https://kotobank.jp/word/鈴木孫一-1084272",
+      "title": "講談社デジタル版日本人名大辞典：鈴木孫一",
+      "locator": "重朝見出しから孫一へ誘導。名として重秀・重朝、通称孫三郎等を同じ記事に列記し石山合戦以後の事績をまとめる。個々の事績を重朝だけに帰属させられない。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "記事本文を実読。同名・世代混同の防止資料としてのみ使用。採用本人の事績本文確認数へ加えない。"
+    },
+    "taga-nara": {
+      "url": "https://www.pref.nara.lg.jp/ikasu-nara/naranoshiro/udamatsuyamajo/index.html",
+      "title": "奈良県：宇陀松山城",
+      "locator": "文禄元1592多賀秀種が城主。酢漿草紋瓦から多賀氏段階の大改修を推定。改修主体を確定事実にしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "taga-uda": {
+      "url": "https://www.uda-kankou.jp/feature/3076",
+      "title": "宇陀市うだ探訪ナビ：宇陀松山城主たち／多賀秀種",
+      "locator": "1565–1616、秀政の弟、出雲守、1592宇陀入部、1600西軍改易、越後の堀秀治を頼り後に前田利常へ仕官。冒頭一覧の永禄元1592は年対応誤記として留保。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "takenaka-dictionary": {
+      "url": "https://kotobank.jp/word/竹中重次-1088746",
+      "title": "講談社デジタル版日本人名大辞典：竹中重次",
+      "locator": "生年不詳・1634没、重利の子、1615府内2代、1629長崎奉行、1633解職、翌旧2/22長男と切腹、別名重義。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "takenaka-oita": {
+      "url": "https://www.city.oita.oita.jp/o204/shitsumon/shogaigakushu/1211853934515.html",
+      "title": "大分市文化財課：府内城の藩主",
+      "locator": "父重利の城下整備と次代重義の不正・切腹を区別。次は日根野吉明。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "takenaka-manjuji": {
+      "url": "https://www.city.oita.oita.jp/o204/bunkasports/rekishi/map/route3.html",
+      "title": "大分市文化財課：南蛮文化の薫るまち・府内めぐり",
+      "locator": "「万寿寺」節。江戸時代、丹山和尚が竹中重義の援助で再興。旧万寿寺跡と現在金池町の寺を区別。若宮八幡再建は父重利らの別記事。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "toyama-naegi": {
+      "url": "https://www.city.nakatsugawa.lg.jp/museum/t/exhibits/themed/39822.html",
+      "title": "中津川市苗木遠山史料館：苗木城築城500年展",
+      "locator": "1583冬、友忠父子は苗木を去り浜松の家康に従う。1600苗木奪還・初代藩主は息子友政であり友忠へ転記しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "toyama-kiso": {
+      "url": "https://www.city.nakatsugawa.lg.jp/museum/t/archives/materials/1584.html",
+      "title": "中津川市苗木遠山史料館：二つの涅槃図",
+      "locator": "1582年1月、友忠が木曽義昌の武田からの離反と信長への取り次ぎに関与。鳥居峠の戦闘の苗木遠山氏という集団名から友忠個人の現地参戦を推定しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "toki-kawabe": {
+      "url": "https://www.kawabe-gifu.jp/wp-content/uploads/2015/10/007_%E5%B7%9D%E8%BE%BA%E7%94%BA%E5%8F%B2-%E9%80%9A%E5%8F%B2%E7%B7%A8_%E7%AC%AC%E4%BA%8C%E7%B7%A8-%E6%AD%B4%E5%8F%B2%E7%9A%84%E8%83%8C%E6%99%AF-%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%8F%A4%E4%BB%A3%EF%BD%A5%E4%B8%AD%E4%B8%96.pdf",
+      "title": "川辺町史通史編：歴史的背景 古代・中世",
+      "locator": "第七節 武士の世代／美濃の雄斎藤道三。政房から政頼への継承、弟頼芸との対立、系図の政房→政頼/頼芸。古い道三伝の叙述を現行研究へ無条件に転用しない。",
+      "kind": "municipal_history",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "公開PDF本文テキストを実読。頼武との同名対応を直接証する記述は未確認。"
+    },
+    "toki-gifu-letter": {
+      "url": "https://www.pref.gifu.lg.jp/page/129194.html",
+      "title": "岐阜県歴史資料館：土岐頼武書状写",
+      "locator": "徳山家文書A-(2)-3、1520–24頃と比定。牛洞・揖深の所領給付、徳山次郎右衛門尉宛。1518越前逃亡の解説。政頼との名寄せ確定前は選定人物の活動へ転記しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "toki-transcription": {
+      "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/229295.pdf",
+      "title": "岐阜県歴史資料館：土岐頼武書状写 翻刻",
+      "locator": "1頁。8月24日頼武（花押影）、徳山次郎右衛門尉宛、牛洞・揖深の知行。刊行翻刻の確認であって原文書実見ではない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "公開PDFの本文抽出と紙面画像を実読して照合。政頼への帰属は保留。"
+    },
+    "toki-name-correction": {
+      "url": "https://www.pref.gifu.lg.jp/page/129385.html",
+      "title": "岐阜県歴史資料館：中比濃州之司土岐成頼公之事",
+      "locator": "上田家文書301・江戸時代成立。解説が「土岐盛頼（正しくは頼武）」と校訂する。盛頼を本人の実在した改名として確定しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "未確認",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    },
+    "nara-terms": {
+      "url": "https://www.pref.nara.lg.jp/link.html",
+      "title": "奈良県：リンク・著作権等",
+      "locator": "著作権は県または情報提供者。法定例外等以外の無断転載を制限。オープンデータ等の個別規約は別途。第三者資料まで一括許諾されたとは判断しない。",
+      "kind": "site_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-31",
+      "reuseStatus": "一部確認：県または提供者の権利と転載制限。史実の独自要約のみ。",
+      "usage": "史実を独自要約。説明文・画像・翻刻の転載なし。",
+      "verificationMethod": "Web取得本文の該当箇所を実読。"
+    }
+  },
+  "people": {
+    "1045": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "島清興",
+        "島勝猛",
+        "左近"
+      ],
+      "note": "正本の島左近を維持。生1540は未確認。父は正本清国と辞典友保の差を残す。椿井城の伝承・清興/勝猛の典拠対応と全別名確認を区別。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "島左近と清興の対応を辞典で確認。",
+          "sourceIds": [
+            "shima-dictionary"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "筒井から三成への仕官を確認。父名清国/友保の記載差は未解決。",
+          "sourceIds": [
+            "shima-dictionary",
+            "shima-nara"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "清興・勝猛・左近を辞典とNDL典拠で部分確認。友之・清胤・昌仲等は未確認。",
+          "sourceIds": [
+            "shima-dictionary",
+            "shima-ndl"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "正本1540の根拠未取得。辞典は不詳。",
+          "sourceIds": [
+            "shima-dictionary"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "辞典は1600没、NDL典拠も同年。年単位に限り、旧9/15を新暦日付へ変換しない。",
+          "sourceIds": [
+            "shima-dictionary",
+            "shima-ndl"
+          ],
+          "value": 1600
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "筒井・石田への仕官、杭瀬川と笹尾山麓の戦闘を要約。負傷・離脱地点を戦死地点にしない。",
+          "sourceIds": [
+            "shima-dictionary",
+            "shima-sekigahara"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "奈良県の転載制限を確認。辞典・記念館等の全個別条件は未確認。",
+          "sourceIds": [
+            "nara-terms"
+          ]
+        }
+      ],
+      "biography": "筒井順慶に仕え、のち石田三成の軍事を支えた。1600年の関ヶ原合戦では、前日の杭瀬川で勝利し、本戦では笹尾山の麓で東軍を迎え撃った。黒田勢の射撃で負傷し、戦列を離れたと伝えられる。"
+    },
+    "1138": {
+      "bodyForSelectedPerson": false,
+      "verifiedAliases": [],
+      "note": "重朝の文書書誌と孫一記事の混在を確認した調査記録。本人の事績本文確認数へ算入しない。紹介された翻刻・水府系纂等の確認後に事績を分離する。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "partially_verified",
+          "result": "図書館回答に重朝（孫三郎）宛連署感状の案内。ただし元文書・翻刻は未読。",
+          "sourceIds": [
+            "suzuki-reference"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "unverified",
+          "result": "孫一記事は重秀と重朝を同じ記事へ併記。石山合戦等の事績を重朝へ自動帰属させない。",
+          "sourceIds": [
+            "suzuki-mixed"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "孫三郎は回答内の書誌案内まで。孫一の世代対応未解決。",
+          "sourceIds": [
+            "suzuki-reference",
+            "suzuki-mixed"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "本人に帰属する生年根拠未取得。",
+          "sourceIds": [
+            "suzuki-mixed"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "unverified",
+          "result": "正本1624の根拠未取得。質問者の元和9没という申告を独立した1623没説として追加しない。",
+          "sourceIds": [
+            "suzuki-reference"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "unverified",
+          "result": "紹介された原文書・翻刻を未読で、混在記事から完成案を作らない。",
+          "sourceIds": [
+            "suzuki-reference",
+            "suzuki-mixed"
+          ]
+        }
+      ],
+      "biography": null
+    },
+    "1200": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "出雲守"
+      ],
+      "note": "生1565/1567を保持。城改修は家紋瓦からの推定。市ページ一覧の永禄元1592は対応誤記で、県の文禄元1592を採用する。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "県城郭解説と市人物解説で多賀秀種を確認。",
+          "sourceIds": [
+            "taga-nara",
+            "taga-uda"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "堀秀政の弟と確認。多賀家養子先の原系譜等は未照合。",
+          "sourceIds": [
+            "taga-uda"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "出雲守は市解説。源千代・政勝・秀家・鴎庵等の改名順は未確認。",
+          "sourceIds": [
+            "taga-uda"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "市は1565生、正本は1565/1567。1567の原根拠未取得で一説に統一しない。",
+          "sourceIds": [
+            "taga-uda"
+          ],
+          "candidateYears": [
+            1565,
+            1567
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "市解説に1616没。年単位の確認で没日・系譜原本は未確認。",
+          "sourceIds": [
+            "taga-uda"
+          ],
+          "value": 1616
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "宇陀城主、推定改修、関ヶ原後の改易と越後寄寓・前田仕官を要約。",
+          "sourceIds": [
+            "taga-nara",
+            "taga-uda"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "奈良県資料の転載制限のみ部分確認。市観光資料などの個別条件は未確認。",
+          "sourceIds": [
+            "nara-terms"
+          ]
+        }
+      ],
+      "biography": "堀秀政の弟で、豊臣政権下で大和の宇陀松山城主となった。出土した家紋瓦から、在城中に城の大改修を進めたと考えられる。関ヶ原で西軍に属して領地を失い、越後の堀家を頼った後、前田利常に仕えた。"
+    },
+    "1250": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [
+        "重次"
+      ],
+      "note": "父重利の城下整備・若宮八幡再築と、本人の万寿寺再興援助を区別。重興は未確認。処分理由を未読の密貿易・女性逸話で補わない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "市の重義と辞典の重次（別名重義）を確認。",
+          "sourceIds": [
+            "takenaka-oita",
+            "takenaka-dictionary"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "重利の子で府内2代。父の功績を転記しない。",
+          "sourceIds": [
+            "takenaka-oita",
+            "takenaka-dictionary"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "辞典で重次/重義の対応を確認。重興・官途の全照合は未完。",
+          "sourceIds": [
+            "takenaka-dictionary"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "辞典も不詳。推定年を補わない。",
+          "sourceIds": [
+            "takenaka-dictionary"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "辞典に1634没。旧2/22の新暦日付換算は未実施。",
+          "sourceIds": [
+            "takenaka-dictionary"
+          ],
+          "value": 1634
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "府内継承、万寿寺再興援助、長崎奉行と解職・切腹を要約。",
+          "sourceIds": [
+            "takenaka-oita",
+            "takenaka-manjuji",
+            "takenaka-dictionary"
+          ]
+        }
+      ],
+      "biography": "父重利を継いだ豊後府内藩主。万寿寺の再興を援助し、1629年には長崎奉行となってキリシタンの取締りに当たった。のち不正を訴えられて奉行職を解かれ、1634年に長男とともに切腹した。"
+    },
+    "1379": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [],
+      "note": "1583苗木退去・浜松移動は市史料館の最新展示解説による。1600の城奪還は友政であり友忠へ移さない。生没年と久兵衛等の異称は未確認。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "史料館資料解説で友忠を確認。",
+          "sourceIds": [
+            "toyama-naegi",
+            "toyama-kiso"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "友忠父子と友政の事績を分離。父子の全系譜は未照合。",
+          "sourceIds": [
+            "toyama-naegi"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "飯羽間久兵衛・苗木久兵衛等は今回の資料で未確認。",
+          "sourceIds": [
+            "toyama-naegi"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "根拠未取得。",
+          "sourceIds": [
+            "toyama-naegi"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "unverified",
+          "result": "根拠未取得。1583退去を没年としない。",
+          "sourceIds": [
+            "toyama-naegi"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "木曽義昌の離反への関与、苗木退去と浜松への移動を要約。",
+          "sourceIds": [
+            "toyama-naegi",
+            "toyama-kiso"
+          ]
+        }
+      ],
+      "biography": "苗木城を拠点とした遠山氏の当主。1582年には木曽義昌を武田氏から離反させ、織田信長への取り次ぎに携わった。のち森長可と対立し、1583年に子の友政と苗木を去って浜松の徳川家康に従った。"
+    },
+    "1386": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [],
+      "note": "町史に政頼の本文あり。ただし正本別名の頼武との直接対応未確定。県の「盛頼（正しくは頼武）」は江戸期編纂史料の校訂で、実際の改名の証拠にしない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "川辺町史に政房の子・政頼として記載。",
+          "sourceIds": [
+            "toki-kawabe"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "町史の政頼と県資料の頼武の対応は未確定。頼武文書の事績を正本政頼へ転記しない。",
+          "sourceIds": [
+            "toki-kawabe",
+            "toki-gifu-letter"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "頼武との直接対応は未確認。県解説の盛頼は後世史料の誤記校訂であり、本人の改名と認定しない。恵胤・次郎も未確認。",
+          "sourceIds": [
+            "toki-name-correction",
+            "toki-kawabe"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "生年根拠未取得。",
+          "sourceIds": [
+            "toki-kawabe"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "unverified",
+          "result": "正本1530の根拠未取得。失脚年代・終見から推定しない。",
+          "sourceIds": [
+            "toki-kawabe"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "partially_verified",
+          "result": "町史の政房後継・頼芸との対立までは確認。頼武の所領給付・越前逃亡を加えた完成案は名寄せ確定まで保留。",
+          "sourceIds": [
+            "toki-kawabe",
+            "toki-gifu-letter",
+            "toki-transcription"
+          ]
+        }
+      ],
+      "biography": null
+    }
+  },
+  "attempts": [
+    {
+      "rosterId": "1138",
+      "reason": "書誌・質問回答と重秀/重朝が混在した孫一記事まで。本人事績を独立確認できず改稿・本人本文集計を保留。",
+      "next": "徳川家康文書の研究 中巻pp925–928の慶長5旧8/5感状と水府系纂・新補水城実録を実読し、世代・宛名・没年を照合。"
+    }
+  ],
+  "retrievalNotes": [
+    "鈴木重朝は調査着手1人としてのみ加算。図書館の質問欄は質問者の前提、回答は書誌紹介。紹介文書の本文実読や元和9没の独立確認には数えない。孫一辞典の重秀/重朝混在を未解決として残す。",
+    "長崎市サイト掲載の陳情書PDF https://www.city.nagasaki.lg.jp/uploaded/attachment/18539.pdf は民間提出文書であり、市の歴史見解として使用しない。東京都公文書館の東京市史稿索引の検索候補も原史料実読へ昇格しない。",
+    "島左近の椿井城は県サイトの地域提供情報。本人の居住根拠が足りないため今回は生涯イベントへ追加しない。父清国/友保、生1540は要照合。",
+    "多賀秀種の市ページには一覧の年号対応や別人物見出しに誤記候補がある。1592入城は県資料とも照合。1565/1567と養父系譜・名乗りは未解決。",
+    "土岐頼武書状写は県公開の刊行翻刻PDF本文と画像を実読。原本の判読ではなく、名簿1386政頼への帰属確定でもない。頼武の贈与先を本人の訪問先にしない。",
+    "奈良県の著作権方針のみ部分確認。他のサイト・資料・第三者画像・既存Wikipedia由来表現の条件は未確認。独自文章で史実を要約し、画像・説明文・翻刻は転載していない。"
+  ]
+}

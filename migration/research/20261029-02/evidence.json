@@ -1,0 +1,341 @@
+{
+  "round": "20261029-02",
+  "reviewedOn": "2026-10-29",
+  "scope": "review_proposals_only",
+  "sources": {
+    "hino": {
+      "url": "https://www.town.shiga-hino.lg.jp/0000000236.html",
+      "title": "日野町：蒲生氏郷",
+      "locator": "人物本文および生涯年表。1582年欄の本能寺日付「6月10日」は要照合として採用しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "matsusaka": {
+      "url": "https://www.city.matsusaka.mie.jp/site/kanko/gamouujisato.html",
+      "title": "松阪市：松阪の礎を築いた戦国武将「蒲生氏郷」",
+      "locator": "信長が一目で認めた大器／松坂城築城／有力商人の誘致／氏郷が残した功績",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "aizu": {
+      "url": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2012110600030/",
+      "title": "会津若松市：若松城跡（鶴ヶ城）",
+      "locator": "1590蒲生氏郷入城と近世城郭への改築。具体的竣工年はこの頁では未確認。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "ono": {
+      "url": "https://www.city.ono.fukui.jp/kosodate/bunka-rekishi/hakubutsukan/kanko/echizenonojyo/oonojyoushu.html",
+      "title": "大野市：越前大野城主一覧",
+      "locator": "金森長近の項。1524～1608、1575大野郡、1585飛騨授与、1600郡上八幡攻め。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "takayama": {
+      "url": "https://www.city.takayama.lg.jp/kurashi/1000021/1000119/1000846.html",
+      "title": "高山市：高山の歴史",
+      "locator": "金森時代：1585長近軍／可重軍を区別、1586入府、鍋山から高山城への拠点選択、築城。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "gifu-castle": {
+      "url": "https://www.pref.gifu.lg.jp/page/7369.html",
+      "title": "岐阜県：高山城跡",
+      "locator": "1588長近着工・1600本丸二の丸完成、1603可重による三の丸を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "mino": {
+      "url": "https://www.city.mino.gifu.jp/docs/1203.html",
+      "title": "美濃市：小倉山城跡",
+      "locator": "1601築城、越前大野・飛騨高山に続く隠居城とする本文。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "university": {
+      "url": "https://digitalarchiveproject.jp/information/関ケ原の合戦場・金森氏の布陣場所/",
+      "title": "岐阜女子大学デジタルアーカイブ研究所：関ケ原の合戦場・金森氏の布陣場所",
+      "locator": "4 小倉山城築城と上有知繁栄。森政治『関ヶ原合戦と美濃・飛騨』65～67頁（2000）を引用する解説。原著未読。上部の合戦日・西暦表示は本記録に採用しない。",
+      "kind": "university_secondary_commentary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "niwa-dict": {
+      "url": "https://kotobank.jp/word/丹羽長秀-17349",
+      "title": "小学館：丹羽長秀（デジタル大辞泉・日本大百科全書など）",
+      "locator": "1535～1585、幼名万千代・五郎左衛門・惟住、佐和山・山崎・賤ヶ岳・北ノ庄。",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "hikone": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/52/20101215KH.pdf",
+      "title": "彦根市：広報ひこね2010年12月15日号",
+      "locator": "PDF2頁目（印刷頁3）の画像を確認。「佐和山城主丹羽長秀」「信長の大船建造」「安土城の築城」。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "obama": {
+      "url": "https://www1.city.obama.fukui.jp/obm/rekisi/sekai_isan/Japanese/data/324.htm",
+      "title": "小浜市：後瀬山城跡",
+      "locator": "1573入部の丹羽長秀による補強。入部年と改修年の確定は区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    },
+    "echizen": {
+      "url": "https://www.city.echizen.lg.jp/office/090/030/echizenshinorekisi.html",
+      "title": "越前市：歴史年表",
+      "locator": "1583年欄、丹羽長秀の大滝寺への禁制と大滝掃部への奉書紙職安堵。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実を参照し独自要約。原文・画像・データセットの転載なし。"
+    }
+  },
+  "people": {
+    "680": {
+      "bodyForSelectedPerson": true,
+      "biography": "織田信長、豊臣秀吉に仕えた大名。近江日野から伊勢松ヶ島へ移り、松坂城と城下町を築いて商業を振興した。のち会津へ転封され、黒川城を改修して若松の町を整えた。茶の湯にも親しんだ。",
+      "verifiedAliases": [
+        "鶴千代",
+        "忠三郎",
+        "賦秀"
+      ],
+      "note": "生没年は自治体本文で年単位確認。元服年は日野町1570と松阪市1569で記載差。教秀ほか全別名の裏付けは未完。日野年表の本能寺日付は転記せず、避難主導の父賢秀／氏郷の区別も未解決。生涯場所抽出を開始し、生誕地・墓所は対象外。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "自治体の蒲生氏郷項目を確認。",
+          "sourceIds": [
+            "hino",
+            "matsusaka"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "賢秀の子氏郷として確認。父の救出活動を本人の行動と自動同一視しない。",
+          "sourceIds": [
+            "hino",
+            "matsusaka"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "鶴千代、忠三郎賦秀、氏郷を確認。元服年は1569/1570で記載差。教秀の全照合は未了。",
+          "sourceIds": [
+            "hino",
+            "matsusaka"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "1556年（弘治2）。年のみ確認、日付換算なし。",
+          "sourceIds": [
+            "hino",
+            "matsusaka"
+          ],
+          "value": 1556
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1595年（文禄4）。年のみ確認。",
+          "sourceIds": [
+            "hino",
+            "matsusaka"
+          ],
+          "value": 1595
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "信長・秀吉仕官、1584松ヶ島転封、1588松坂築城と商業育成、1590会津転封と城・町整備、茶の湯。",
+          "sourceIds": [
+            "matsusaka",
+            "aizu"
+          ]
+        }
+      ]
+    },
+    "651": {
+      "bodyForSelectedPerson": true,
+      "biography": "越前大野を経て、豊臣秀吉の命で飛騨を攻めた大名。入国後に高山城と城下町の整備を進めた。関ヶ原では徳川方で戦い、戦後に美濃の領地を加えられると、小倉山城を築いて隠居の拠点とした。",
+      "verifiedAliases": [
+        "兵部卿法印"
+      ],
+      "note": "高山三の丸の完成は可重の事績として分離。飛騨授与1585（大野市）と入府1586（高山市）は出来事を分ける。小倉山城は市1601築城、大学解説1601着工・1605完成。隠居入居の正確な年は未確認。素玄等の別名・役職全部は未精査。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "金森長近の城主項目を確認。",
+          "sourceIds": [
+            "ono"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "長近と養子可重の攻城経路・築城担当を区別。",
+          "sourceIds": [
+            "takayama",
+            "gifu-castle"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "剃髪後に兵部卿法印を称したとの記載。原値可近・五郎八・素玄の全面照合は未了。",
+          "sourceIds": [
+            "ono"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "1524年（大永4）。年単位確認。",
+          "sourceIds": [
+            "ono"
+          ],
+          "value": 1524
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1608年（慶長13）。市は旧暦8月12日・西暦9月20日を併記。年の記載を確認したのみで、日付の独立換算はしていない。",
+          "sourceIds": [
+            "ono"
+          ],
+          "value": 1608
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "越前大野城主から秀吉の命で飛騨攻略、高山城整備、関ヶ原徳川方、小倉山の隠居城。",
+          "sourceIds": [
+            "ono",
+            "takayama",
+            "gifu-castle",
+            "mino",
+            "university"
+          ]
+        }
+      ]
+    },
+    "1582": {
+      "bodyForSelectedPerson": true,
+      "biography": null,
+      "biographyQuality": "unchanged_appropriate",
+      "verifiedAliases": [
+        "万千代",
+        "五郎左衛門",
+        "惟住"
+      ],
+      "note": "既存略歴は具体的で本文と整合するため変更不要。惟住の称号年は辞典間も含め別途照合。没年は辞典本文のみで追加照合待ち。長重など次世代への自動統合なし。安土普請・松原造船・後瀬山補強・大滝寺禁制を場所付きで抽出。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "丹羽長秀の公的解説・辞典項目を確認。",
+          "sourceIds": [
+            "hikone",
+            "niwa-dict"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "佐和山城主・信長重臣の長秀と確認。全系譜は未了。",
+          "sourceIds": [
+            "hikone"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "辞典で幼名万千代、通称五郎左衛門、惟住の姓を確認。渾名など全候補は未精査。",
+          "sourceIds": [
+            "niwa-dict"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "彦根市解説と辞典で1535年（天文4）。",
+          "sourceIds": [
+            "hikone",
+            "niwa-dict"
+          ],
+          "value": 1535
+        },
+        {
+          "field": "death",
+          "status": "secondary_source_checked",
+          "result": "辞典が1585年を記載。追加の公的本文照合は未了。",
+          "sourceIds": [
+            "niwa-dict"
+          ],
+          "candidateYears": [
+            1585
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "既存略歴の信長仕官・佐和山・秀吉支援・山崎賤ヶ岳・北ノ庄は資料本文と整合。改稿不要。",
+          "sourceIds": [
+            "hikone",
+            "niwa-dict"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1573松原造船、1576安土築城総奉行、後瀬山城補強、1583大滝寺禁制と紙職安堵を追加確認。",
+          "sourceIds": [
+            "hikone",
+            "obama",
+            "echizen"
+          ]
+        }
+      ]
+    }
+  },
+  "attempts": []
+}

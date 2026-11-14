@@ -1,0 +1,687 @@
+{
+  "round": "20261029",
+  "reviewedOn": "2026-10-29",
+  "scope": "review_proposals_only",
+  "sources": {
+    "gifu": {
+      "url": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+      "title": "岐阜市：岐阜城歴代城主",
+      "locator": "5 斎藤龍興（1548～1573）、家督・落城後の遍歴と刀禰坂",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "takamatsu-history": {
+      "url": "https://www.city.takamatsu.kagawa.jp/kurashi/kurashi/shisetsu/park/tamamo/bunzai201806051.html",
+      "title": "高松市：高松城の歴史",
+      "locator": "生駒親正への1587年讃岐授与、翌年着工・地名変更",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "takamatsu-lords": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kurashi/shisetsu/park/tamamo/joshu.html",
+      "title": "高松市：歴代城主",
+      "locator": "生駒親正1526～1603、一正1555～1610の表",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "naotora-study": {
+      "url": "https://adeac.jp/hamamatsu-city/texthtml/d300060/mp003160-200010/ht000010",
+      "title": "浜松市図書館：井伊直虎～戦国を生きぬいた女領主～（夏目琢史、2017）",
+      "locator": "冒頭の生年不明、次郎法師、史料の限界、龍潭寺寄進・置文解説",
+      "kind": "public_library_scholarly_commentary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "jiro-catalog": {
+      "url": "https://adeac.jp/hamamatsu-city/catalog/mp300010-200010",
+      "title": "浜松市：次郎法師置文の目録",
+      "locator": "永禄8年1565、作成次郎法師・宛先南渓和尚、龍潭寺諸役免除の解題。原史料画像の判読は未実施。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "ii-dispute": {
+      "url": "https://www.ii-museum.jp/naotora",
+      "title": "井伊美術館：直虎関係解説",
+      "locator": "次郎法師と直虎の同一視に関する異論、および頁頭の転載禁止表示",
+      "kind": "private_museum_opinion",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "頁頭で無断転載・二次利用禁止（法令の例外を除く）を確認。本文・画像は転載しない。",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "akizuki": {
+      "url": "https://www.city.asakura.lg.jp/site/furusato/1234.html",
+      "title": "朝倉市：ふるさと人物誌 秋月種実",
+      "locator": "広報2009年掲載の人物解説、1544出生・黒帽子、毛利庇護・大友対立・島津同盟・隠居宗全・日向移転・1596没",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "ukita": {
+      "url": "https://www.city.okayama.jp/shisei/0000079212.html",
+      "title": "岡山市：まちしるべ C76 宇喜多直家・秀家",
+      "locator": "直家の1529年出生伝承、乙子・亀山・1573年頃岡山、1581/1582没、秀家との段落区別",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "otani": {
+      "url": "https://tsuruga-yama-museum.jp/ootani/",
+      "title": "みなとつるが山車会館：敦賀城主 大谷吉継",
+      "locator": "大谷吉継とは／敦賀城主として／関ヶ原合戦にて",
+      "kind": "museum",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "tsuyama": {
+      "url": "https://tsuyama-machijuu.jp/guide/tsuyamajo04/",
+      "title": "津山まちじゅう博物館：津山城跡",
+      "locator": "森可成の子・蘭丸の弟、1603入封・築城13年。1604年に慶長4年を併記した箇所は誤記疑いとして不採用。",
+      "kind": "local_heritage_project",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "tsuyama-area": {
+      "url": "https://tsuyama-machijuu.jp/area/shiroshita/",
+      "title": "津山まちじゅう博物館：城下エリア",
+      "locator": "1604（慶長9）～1616（元和2）の築城期間",
+      "kind": "local_heritage_project",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "ishikawa": {
+      "url": "https://kotobank.jp/word/石川貞清-1053091",
+      "title": "講談社デジタル版日本人名大辞典+Plus／平凡社世界大百科事典旧版：石川貞清",
+      "locator": "人名項目の生没年・名前・秀吉への仕官・関ヶ原／別項目「尾張国」の1595就封",
+      "kind": "historical_dictionary",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "akamatsu": {
+      "url": "https://www.city.himeji.lg.jp/kanko/0000001839.html",
+      "title": "姫路市：置塩城跡",
+      "locator": "政則・義村・晴政・義祐・則房の5代の居城とする説明",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "oda-exhibit": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/3/47687168.pdf",
+      "title": "つくば市：小田氏治展示の報道資料（2018）",
+      "locator": "3頁のPDF本文：15代・最後の小田城主という紹介",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "oda-brochure": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/156/oda.pdf",
+      "title": "つくば市：小田城跡歴史ひろばパンフレット",
+      "locator": "2頁PDFのスクリーンショットを閲覧。2頁右下年表：1548父政治死去、1564上杉攻撃、1569佐竹に敗北、1590領地没収、1601氏治死去。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の参照と独自要約のみ。原文・画像・データセットの転載なし。"
+    }
+  },
+  "people": {
+    "915": {
+      "bodyForSelectedPerson": true,
+      "biography": "父・義龍の死後に美濃の斎藤家を継ぎ、稲葉山城を守った。織田信長に城を奪われた後は伊勢などを転々とし、越前の朝倉義景を頼る。1573年、刀禰坂の戦いで敗死した。",
+      "verifiedAliases": [],
+      "note": "生年1547/1548の旧候補を維持。市の1548説だけで異説を消さない。一色など別名の根拠は未確認。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "岐阜城主の斎藤龍興という表記を確認。",
+          "sourceIds": [
+            "gifu"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "父義龍を継いだ城主として確認。別名の全体同定は未了。",
+          "sourceIds": [
+            "gifu"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "岐阜市は1548年。正本の1547年説の根拠未再確認。",
+          "sourceIds": [
+            "gifu"
+          ],
+          "candidateYears": [
+            1548
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1573年、刀禰坂で敗死との記載。年単位の確認。",
+          "sourceIds": [
+            "gifu"
+          ],
+          "value": 1573
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1561家督・1567落城後伊勢などを経て朝倉方、1573刀禰坂で死去。",
+          "sourceIds": [
+            "gifu"
+          ]
+        }
+      ]
+    },
+    "196": {
+      "bodyForSelectedPerson": true,
+      "biography": "信長、秀吉に仕え、1587年に讃岐を与えられた。翌年から海に面する高松城を築き、城下町の基礎を築く。関ヶ原では西軍についたが、東軍で戦った子の一正が讃岐の領有を認められた。",
+      "verifiedAliases": [],
+      "note": "市は1526～1603とするが、正本の出生年推定注記は保存する。別名全体と三中老の位置付けは未精査。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "初代城主として生駒親正の表記を確認。",
+          "sourceIds": [
+            "takamatsu-lords"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "親正と2代一正を別人として表が区別。",
+          "sourceIds": [
+            "takamatsu-lords"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "partially_verified",
+          "result": "市の年表は1526年。正本の推定注記を解決する原史料は未確認。",
+          "sourceIds": [
+            "takamatsu-lords"
+          ],
+          "candidateYears": [
+            1526
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "高松市表で1603年。年単位の記載確認。",
+          "sourceIds": [
+            "takamatsu-lords"
+          ],
+          "value": 1603
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "信長・秀吉仕官、1587讃岐、1588築城開始、親正西軍・一正東軍と領国安堵。",
+          "sourceIds": [
+            "takamatsu-history",
+            "takamatsu-lords"
+          ]
+        }
+      ]
+    },
+    "39": {
+      "bodyForSelectedPerson": true,
+      "biography": "筑前秋月を拠点とした大名。毛利氏の庇護を受けて旧領に戻り、大友氏と争いながら島津氏と結んで勢力を広げた。豊臣秀吉の九州攻めで降伏した後、家督を譲っていた子の種長とともに日向へ移った。",
+      "verifiedAliases": [],
+      "note": "正本の幼名「黒法師」・法号「宗誾」と市の「黒帽子」・「宗全」が不一致。表記・史料差を未解決として保存。生年3候補も維持。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "秋月種実の人物項目を確認。",
+          "sourceIds": [
+            "akizuki"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "1587時点の当主種長と隠居種実を区別。",
+          "sourceIds": [
+            "akizuki"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "disputed",
+          "result": "市は幼名黒帽子・隠居後宗全。正本黒法師・宗誾との関係は未確認。",
+          "sourceIds": [
+            "akizuki"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "市は1544年。正本1545/1548の根拠は未再確認。",
+          "sourceIds": [
+            "akizuki"
+          ],
+          "candidateYears": [
+            1544
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1596年京都で死去との記載。",
+          "sourceIds": [
+            "akizuki"
+          ],
+          "value": 1596
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "毛利庇護、旧領回復、大友との抗争、島津同盟、秀吉に降伏後種長と日向移転。復帰年の異説や助命逸話は案に採らない。",
+          "sourceIds": [
+            "akizuki"
+          ]
+        }
+      ]
+    },
+    "344": {
+      "bodyForSelectedPerson": true,
+      "biography": "備前で勢力を広げ、乙子城、亀山城を経て岡山に拠点を移した。家臣を集め、商人や職人を城下に住まわせて町の成長を促した。岡山の城下町の土台を築き、その後の城の整備は子の秀家へ引き継がれた。",
+      "verifiedAliases": [
+        "八郎"
+      ],
+      "note": "直家と秀家の幼名八郎が重なるため単独検索名から自動同定しない。天守完成を直家の功績としない。生没年の断定は保留。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "直家・秀家それぞれの解説を確認。",
+          "sourceIds": [
+            "ukita"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "父直家による岡山への移転と子秀家による1591以降の城整備を区別。",
+          "sourceIds": [
+            "ukita"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "幼名八郎は父子双方に記載。残りの通称・謀聖は未確認。",
+          "sourceIds": [
+            "ukita"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "partially_verified",
+          "result": "1529年生まれと伝える表現。確定出生年の独立確認にはしない。",
+          "sourceIds": [
+            "ukita"
+          ],
+          "candidateYears": [
+            1529
+          ]
+        },
+        {
+          "field": "death",
+          "status": "disputed",
+          "result": "市本文にも1582年または1581年と併記。統一しない。",
+          "sourceIds": [
+            "ukita"
+          ],
+          "candidateYears": [
+            1581,
+            1582
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "乙子・亀山を経て1573年頃岡山へ移り、家臣・商工を集めた。秀家築城と区別。",
+          "sourceIds": [
+            "ukita"
+          ]
+        }
+      ]
+    },
+    "460": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣政権で行政を担い、刑部少輔に任じられた。1589年に敦賀の領主となり、城と港を整えて物資輸送や朝鮮出兵の補給を支えた。関ヶ原では石田三成に味方して戦い、敗れて自害した。",
+      "verifiedAliases": [
+        "大谷刑部"
+      ],
+      "note": "父「大谷吉房」は正本の未検証値。会館解説は父不明とするため父子関係を断定しない。1559/1565の候補も未解決。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "敦賀城主大谷吉継として確認。",
+          "sourceIds": [
+            "otani"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "会館は母東殿、父不明と明記。正本の父吉房には追加根拠が必要。",
+          "sourceIds": [
+            "otani"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "大谷刑部は刑部少輔に由来する呼称。紀之介・吉隆などは未確認。",
+          "sourceIds": [
+            "otani"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "会館は1565年。正本1559年説の根拠は未再確認。",
+          "sourceIds": [
+            "otani"
+          ],
+          "candidateYears": [
+            1565
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1600年関ヶ原で敗れて自刃。",
+          "sourceIds": [
+            "otani"
+          ],
+          "value": 1600
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "行政実務・刑部少輔、1589敦賀領主、城と港整備・兵粮船舶等の補給、関ヶ原で三成方として戦う。",
+          "sourceIds": [
+            "otani"
+          ]
+        }
+      ]
+    },
+    "2032": {
+      "bodyForSelectedPerson": true,
+      "biography": "森可成の子で、蘭丸の弟。1603年に美作の領主となり、翌年から津山城と城下町の整備を進めた。築城には1616年までの13年を費やし、江戸時代の津山の中心となる城と町を形づくった。",
+      "verifiedAliases": [],
+      "note": "前回は本文未確認。今回は対象人物の本文を取得。出生・死去年と別名は今回資料では確認できず未確認のまま。築城開始年の和暦誤記疑いを別頁で照合。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "津山城を築いた森忠政と確認。",
+          "sourceIds": [
+            "tsuyama"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "森可成の子・蘭丸の弟として確認。幼名や改名は未確認。",
+          "sourceIds": [
+            "tsuyama"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1603美作入封、1604～1616築城と城下町整備。個別城頁の1604（慶長4）はエリア頁1604（慶長9）と不一致で後者を採る。",
+          "sourceIds": [
+            "tsuyama",
+            "tsuyama-area"
+          ]
+        }
+      ]
+    },
+    "205": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣秀吉に仕え、尾張の犬山城主となった。関ヶ原の戦いでは石田三成方につき、犬山城を失った後も関ヶ原で戦った。敗走後は池田輝政に命を助けられたと、人物辞典に記されている。",
+      "verifiedAliases": [
+        "光吉",
+        "三吉",
+        "兵蔵",
+        "宗林"
+      ],
+      "note": "辞典のみの本文確認で全項目確認とはしない。就封年1590/1595、没年1626/1625、旧暦閏4月の扱いを要照合。生年不詳のまま。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "石川貞清の人物項目を確認。",
+          "sourceIds": [
+            "ishikawa"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "秀吉の臣・犬山城主として確認。父系と徳川秀忠への仕官は未確認。",
+          "sourceIds": [
+            "ishikawa"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "初名光吉（三吉）・通称兵蔵・号宗林。三吉を独立改名段階と断定しない。",
+          "sourceIds": [
+            "ishikawa"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "出生年は不詳。数字を補わない。",
+          "sourceIds": [
+            "ishikawa"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "disputed",
+          "result": "人名辞典は1626年、寛永3年閏4月8日（2年とも）。1625説と閏月の基準を保存し独立換算はしない。",
+          "sourceIds": [
+            "ishikawa"
+          ],
+          "candidateYears": [
+            1625,
+            1626
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "秀吉仕官・犬山城主・三成方で関ヶ原に参戦・敗走後輝政に助命。就封年は人名辞典1590、世界大百科事典尾張国1595のため案から除外。",
+          "sourceIds": [
+            "ishikawa"
+          ]
+        }
+      ]
+    },
+    "538": {
+      "bodyForSelectedPerson": true,
+      "biography": "常陸の小田氏15代当主。1548年に父・政治を失って家を継ぎ、小田城を拠点に上杉氏や佐竹氏と争った。佐竹氏に敗れて城を失い、1590年には領地も没収され、小田氏の大名としての支配は終わった。",
+      "verifiedAliases": [],
+      "note": "末尾の不自然な官位定型文を改稿。市年表は1601没、正本1602。旧暦年と西暦日付の関係は未確認で換算未解決扱い。近年の異名「常陸の不死鳥」は史料上の通称へ入れない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "小田氏治・15代城主と確認。",
+          "sourceIds": [
+            "oda-exhibit"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "父政治の後を継ぐ15代当主。近年の宣伝呼称を別名としない。",
+          "sourceIds": [
+            "oda-exhibit",
+            "oda-brochure"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "calendar_basis_requires_review",
+          "result": "市パンフ年表は1601年、正本は1602年。日付と旧暦年の対応を独立確認するまで両値を保存。",
+          "sourceIds": [
+            "oda-brochure"
+          ],
+          "candidateYears": [
+            1601,
+            1602
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1548父政治死去後の継承、上杉・佐竹との抗争、1569佐竹に敗北、1590領地没収。",
+          "sourceIds": [
+            "oda-brochure"
+          ]
+        }
+      ]
+    },
+    "31": {
+      "bodyForSelectedPerson": true,
+      "biography": null,
+      "verifiedAliases": [],
+      "note": "今回は置塩城を拠点とした世代の確認のみ。生年1495/1513、改名政村、守護職と政治活動の根拠は不足。薄い略歴案で埋めず改稿を保留。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "置塩城跡の説明に赤松晴政。",
+          "sourceIds": [
+            "akamatsu"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "政則・義村・晴政・義祐・則房の5代を区別。その他の系譜や別名は未確認。",
+          "sourceIds": [
+            "akamatsu"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "partially_verified",
+          "result": "置塩城を5代にわたる拠点とする記述中の晴政を確認。政治史全体の本文は不足。",
+          "sourceIds": [
+            "akamatsu"
+          ]
+        }
+      ]
+    },
+    "170": {
+      "bodyForSelectedPerson": true,
+      "biography": null,
+      "verifiedAliases": [],
+      "note": "浜松市の解説は次郎法師＝直虎という整理。井伊美術館は同一視に異論。資料の重みを同等とは扱わず、原史料・成立時期を再検討するまで別名の確定・自動統合と完成略歴案を保留。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "浜松市図書館の直虎研究解説を確認。",
+          "sourceIds": [
+            "naotora-study"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "disputed",
+          "result": "市掲載の研究解説は直盛娘の次郎法師と直虎を結び付ける一方、私立井伊美術館が同一視に異論。後者だけで前者を否定しない。",
+          "sourceIds": [
+            "naotora-study",
+            "ii-dispute"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "disputed",
+          "result": "次郎法師と直虎の同一性に検討が残る。次郎法師の1565置文自体は目録・解説で確認、直虎への直接帰属を独立確定したものではない。",
+          "sourceIds": [
+            "jiro-catalog",
+            "naotora-study",
+            "ii-dispute"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "研究解説は生年不明。正本の推定1536年を確定しない。",
+          "sourceIds": [
+            "naotora-study"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "partially_verified",
+          "result": "次郎法師の龍潭寺への寄進・諸役免除を解説と目録で確認。原史料本文の直接判読や直虎同定の完了とはしない。",
+          "sourceIds": [
+            "jiro-catalog",
+            "naotora-study"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "井伊美術館頁頭は法令の例外を除く無断転載・二次利用を禁じる。他資料の利用条件は未確認。本文・画像は利用しない。",
+          "sourceIds": [
+            "ii-dispute"
+          ]
+        }
+      ]
+    }
+  },
+  "attempts": []
+}
