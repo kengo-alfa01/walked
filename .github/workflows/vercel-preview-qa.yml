@@ -27,5 +27,5 @@ jobs:
           npx playwright install --with-deps chromium webkit
       - name: Load real public Vercel preview, maps, and dashboard
         env:
-          HOMEBASE_VERCEL_PREVIEW_URL: https://nihon-kenfuroku-homebase-preview-ka6kwvfdi-5q9zpz7rdk-2400.vercel.app/
+          HOMEBASE_VERCEL_PREVIEW_URL: https://nihon-kenfuroku-homebase-preview-4gqjakuu1-5q9zpz7rdk-2400.vercel.app/
         run: node --test tests/vercel-preview.smoke.cjs
