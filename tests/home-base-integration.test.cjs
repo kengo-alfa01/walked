@@ -103,3 +103,40 @@ test('layout keeps actual operation controls between search and usage sections',
   assert.equal(w.document.getElementById('areaAddIndicator').hidden,true);
  }finally{w.close();}
 });
+
+test('historical card simulator is removed from settings without altering stored visits/cards/titles',async()=>{
+ const w=await app(seed);
+ try{
+  const before=raw(w),settings=w.document.getElementById('settings');
+  assert.equal(settings.querySelector('.test-panel'),null);
+  for(const id of ['testSite','runSengokuTest','testSengokuResult'])assert.equal(w.document.getElementById(id),null,id);
+  assert.equal(settings.textContent.includes('歴史カードの動作テスト'),false);
+  for(const id of ['beforeRestore','rescueStorage','clear','homePrefecture','homeMunicipality'])assert.ok(w.document.getElementById(id),id+' must be retained');
+  assert.deepEqual(raw(w),before);
+ }finally{w.close();}
+});
+
+test('page pinch is blocked only outside the Leaflet map; map pinch remains available',async()=>{
+ const w=await app(seed);
+ try{
+  const meta=w.document.querySelector('meta[name="viewport"]').content;
+  assert.match(meta,/maximum-scale=1/);
+  assert.match(meta,/user-scalable=no/);
+  const outside=w.document.querySelector('.title-profile'),map=w.document.getElementById('map');
+  const pinch=(target,type,withTouches=false)=>{
+   const ev=new w.Event(type,{bubbles:true,cancelable:true});
+   if(withTouches)Object.defineProperty(ev,'touches',{value:[{},{}]});
+   target.dispatchEvent(ev);return ev.defaultPrevented;
+  };
+  assert.equal(pinch(outside,'gesturestart'),true);
+  assert.equal(pinch(outside,'gesturechange'),true);
+  assert.equal(pinch(outside,'touchmove',true),true);
+  assert.equal(pinch(map,'gesturestart'),false);
+  assert.equal(pinch(map,'gesturechange'),false);
+  assert.equal(pinch(map,'touchmove',true),false);
+  const oneFinger=new w.Event('touchmove',{bubbles:true,cancelable:true});
+  Object.defineProperty(oneFinger,'touches',{value:[{}]});
+  outside.dispatchEvent(oneFinger);
+  assert.equal(oneFinger.defaultPrevented,false,'ordinary page scrolling remains enabled');
+ }finally{w.close();}
+});
