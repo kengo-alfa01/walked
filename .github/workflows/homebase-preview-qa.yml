@@ -1,0 +1,88 @@
+name: Home base review branch - iPhone QA and preview
+
+on:
+  push:
+    branches:
+      - feature/homebase-dashboard-preview-20261114
+    paths:
+      - 'index.html'
+      - 'walked-core.js'
+      - 'tests/home-base*'
+      - 'tests/title-backup.test.cjs'
+      - 'scripts/build-homebase-preview.py'
+      - '.github/workflows/homebase-preview-qa.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: homebase-qa-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  iphone-webkit-and-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install test dependencies without changing tracked files
+        run: npm install --no-save --no-package-lock --ignore-scripts jsdom@26.1.0 topojson-client@3.1.0 playwright@1.56.1 leaflet@1.9.4
+      - name: Install WebKit browser
+        run: npx playwright install --with-deps webkit
+      - name: Download pinned municipality fixture
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error \
+            'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' \
+            --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+          test -s .qa-assets/municipalities.topojson
+      - name: Syntax checks
+        run: |
+          node --check walked-core.js
+          python3 - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text()
+          assert '<script>' in s
+          Path('/tmp/walked-homebase-inline.js').write_text(s.rsplit('<script>',1)[-1].split('</script>',1)[0])
+          PY
+          node --check /tmp/walked-homebase-inline.js
+          python3 -m py_compile scripts/build-homebase-preview.py
+      - name: Unit tests and application integration tests
+        env:
+          WALKED_BROWSER_ASSETS: ${{ github.workspace }}/.qa-assets
+        run: node --test tests/home-base.test.cjs tests/home-base-integration.test.cjs tests/title-backup.test.cjs
+      - name: Start private test HTTP server
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/walked-homebase-http.log 2>&1 &
+          sleep 2
+      - name: Verify iPhone WebKit 390px and capture screenshots
+        env:
+          WALKED_BROWSER_ASSETS: ${{ github.workspace }}/.qa-assets
+          WALKED_BASE_URL: http://127.0.0.1:8765
+        run: node --test tests/home-base-mobile.smoke.cjs
+      - name: Package isolated review site ZIP
+        run: python3 scripts/build-homebase-preview.py --output dist/homebase-preview
+      - name: Full existing Node regression suite (non-blocking; report legacy mismatches)
+        continue-on-error: true
+        env:
+          WALKED_BROWSER_ASSETS: ${{ github.workspace }}/.qa-assets
+        run: |
+          set -o pipefail
+          node --test tests/*.test.cjs 2>&1 | tee homebase-full-regression.log
+      - name: Upload iPhone screenshots and packaged preview
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: homebase-iphone-review
+          path: |
+            preview-artifacts/*.png
+            dist/homebase-preview-site.zip
+            homebase-full-regression.log
+          if-no-files-found: warn
