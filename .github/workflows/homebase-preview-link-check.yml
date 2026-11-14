@@ -1,0 +1,39 @@
+name: Home base preview link check
+
+on:
+  push:
+    branches:
+      - feature/homebase-dashboard-preview-20261114
+    paths:
+      - 'package.json'
+      - 'scripts/serve-homebase-preview.cjs'
+      - '.github/workflows/homebase-preview-link-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preview-link:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Serve branch without publishing
+        run: |
+          node scripts/serve-homebase-preview.cjs > /tmp/walked-preview.log 2>&1 &
+          sleep 2
+          curl --fail --silent --show-error --head http://127.0.0.1:3000/ > /tmp/index-head
+          curl --fail --silent --show-error http://127.0.0.1:3000/walked-core.js -o /tmp/walked-preview-core.js
+          curl --fail --silent --show-error http://127.0.0.1:3000/data/title-registry.json -o /tmp/walked-preview-registry.json
+          node -e "const fs=require('fs'); const a=JSON.parse(fs.readFileSync('/tmp/walked-preview-registry.json')); if(a.areas.length!==1892)process.exit(1);"
+      - name: Check public StackBlitz importer status
+        run: |
+          set -e
+          URL="https://stackblitz.com/github/kengo-alfa01/walked/tree/${GITHUB_SHA}?startScript=dev&view=preview"
+          echo "URL: $URL"
+          curl --location --retry 2 --max-time 35 --silent --show-error --output /tmp/stackblitz.html --write-out "HTTP_CODE=%{http_code} CONTENT_TYPE=%{content_type} FINAL_URL=%{url_effective}\n" "$URL" | tee /tmp/stackblitz-result
+          grep -q "HTTP_CODE=200" /tmp/stackblitz-result
