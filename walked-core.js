@@ -14,14 +14,62 @@
  function later(a,b){if(!a)return b;if(!b)return a;const x=Date.parse(a),y=Date.parse(b);return Number.isFinite(x)&&Number.isFinite(y)?(x>=y?a:b):a;}
  function mergeRecord(a,b){const r={...b,...a};for(const k of ['first','at','acquiredAt'])if(a[k]||b[k])r[k]=earlier(a[k],b[k]);if(a.last||b.last)r.last=later(a.last,b.last);return r;}
  function mergeRecords(a,b,normalize=x=>x){const out={};for(const map of [a,b])for(const [raw,r] of Object.entries(map)){const k=normalize(raw);out[k]=own(out,k)?mergeRecord(out[k],r):{...r};}return out;}
+ // Home base is a preference, never a visit, award, title, or discovery.
+ function validHomeBase(code,registry){
+  return typeof code==='string'&&/^\\d{5}$/.test(code)&&!!registry?.areas?.some(a=>a.code===code);
+ }
+ function checkHomeBase(code){
+  if(code!==null&&(typeof code!=='string'||!/^\\d{5}$/.test(code)))throw Error('本拠地コードは5桁の自治体コードか未設定である必要があります');
+  return code;
+ }
+ function ownedMunicipalities(visited,registry){
+  const allowed=new Set(registry.areas.map(a=>a.code));
+  return new Set(Object.keys(visited).map(municipality).filter(c=>allowed.has(c)));
+ }
+ function townStats(ids,visited,allowedCodes){
+  if(!Array.isArray(ids)||!ids.length)return null;
+  const known=new Set(allowedCodes),unique=new Set();
+  for(const id of ids){
+   if(typeof id!=='string'||!/^([ms]:\\d{6,}|n:\\d{5}:.+)$/.test(id)||!known.has(municipality(id)))
+    throw Error('町丁境界の自治体コードまたは区域IDが不正です');
+   unique.add(canonical(id));
+  }
+  const visitedKeys=new Set(Object.keys(visited).map(canonical));
+  return {total:unique.size,count:[...unique].filter(id=>visitedKeys.has(id)).length};
+ }
+ function dashboard(mode,visited,registry,homeBase,homeTownIds,nearbyTownIds){
+  if(!registry?.areas?.length||!registry?.prefectures?.length)return null;
+  const owned=ownedMunicipalities(visited,registry);
+  if(mode==='prefecture'){
+   const prefs=new Set([...owned].map(code=>code.slice(0,2)));
+   return {total:registry.prefectures.length,count:prefs.size};
+  }
+  if(mode==='municipal'){
+   if(!validHomeBase(homeBase,registry))return null;
+   const code=homeBase.slice(0,2),areas=registry.areas.filter(a=>a.prefecture===code);
+   return {total:areas.length,count:areas.filter(a=>owned.has(a.code)).length};
+  }
+  if(mode==='nationwideDetail'){
+   if(!validHomeBase(homeBase,registry))return null;
+   return townStats(homeTownIds,visited,[homeBase]);
+  }
+  if(mode==='nearby')return townStats(nearbyTownIds,visited,['13209','14151','14152','14153']);
+  return null;
+ }
  function parseBackup(doc){
-  if(!object(doc)||!['walked-backup-v2','walked-backup-v3'].includes(doc.format))throw Error('対応する日本見風録（旧WALKED）のバックアップではありません');
+  if(!object(doc)||!['walked-backup-v2','walked-backup-v3','walked-backup-v4'].includes(doc.format))throw Error('対応する日本見風録（旧WALKED）のバックアップではありません');
   records(doc.visited,'制覇');
-  if(doc.format==='walked-backup-v2')return {visited:doc.visited,cards:{},titles:{awards:{},selected:null},legacy:true};
+  if(doc.format==='walked-backup-v2')return {visited:doc.visited,cards:{},titles:{awards:{},selected:null},legacy:true,hasHomeBase:false};
   records(doc.cards,'カード');titleState(doc.titles);
-  return {visited:doc.visited,cards:doc.cards,titles:doc.titles,legacy:false};
+  const isV4=doc.format==='walked-backup-v4';
+  if(isV4){if(!own(doc,'homeBase'))throw Error('本拠地が含まれていません');checkHomeBase(doc.homeBase);}
+  return {visited:doc.visited,cards:doc.cards,titles:doc.titles,legacy:false,hasHomeBase:isV4,homeBase:isV4?doc.homeBase:undefined};
  }
  function backup(visited,cards,titles,at=new Date().toISOString()){records(visited,'制覇');records(cards,'カード');titleState(titles);return {format:'walked-backup-v3',createdAt:at,visited:JSON.parse(JSON.stringify(visited)),cards:JSON.parse(JSON.stringify(cards)),titles:JSON.parse(JSON.stringify(titles))};}
+ function backupWithHomeBase(visited,cards,titles,homeBase,at=new Date().toISOString()){
+  checkHomeBase(homeBase);
+  return {...backup(visited,cards,titles,at),format:'walked-backup-v4',homeBase};
+ }
  function mergeBackup(current,incoming){const awards=mergeRecords(current.titles.awards,incoming.titles.awards);let selected=current.titles.selected||incoming.titles.selected||null;if(selected&&!own(awards,selected))selected=null;return {visited:mergeRecords(current.visited,incoming.visited,canonical),cards:mergeRecords(current.cards,incoming.cards),titles:{awards,selected}};}
  function catalog(registry){
   const out=nationalNames.map((name,i)=>({id:'national-'+(i+1),kind:'national',name,threshold:i===9?registry.areas.length:nationalThresholds[i]}));
@@ -50,5 +98,5 @@
   try{for(const [k,v] of Object.entries(values))storage.setItem(k,v);storage.removeItem(journalKey);}
   catch(error){try{recover(storage,journalKey);}catch{throw Error('保存に失敗しました。復元保護記録を保持しています。空き容量を確保し再読み込みしてください。');}throw error;}
  }
- return {canonical,municipality,records,titleState,parseBackup,backup,mergeBackup,catalog,progress,qualifies,evaluate,transaction,recover};
+ return {canonical,municipality,records,titleState,parseBackup,backup,backupWithHomeBase,mergeBackup,catalog,progress,qualifies,evaluate,transaction,recover,checkHomeBase,validHomeBase,dashboard,townStats};
 });
