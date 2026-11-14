@@ -85,6 +85,12 @@ function readStore(key,fallback,validate){try{const raw=localStorage.getItem(key
 function writeStore(key,value){if(localStorage.getItem(restoreJournalKey))throw Error('復元保護記録の回復待ちです。空き容量を確保して再読み込みしてください。');if(lockedStorageKeys.has(key))throw Error('元データ保護のため保存を停止しています。バックアップから復元してください。');localStorage.setItem(key,JSON.stringify(value));if(key==='walked_municipal_v2')window.regionEncyclopedia?.refresh();}
 const titleStoreKey='walked_titles_v1';
 let titleState=readStore(titleStoreKey,{awards:{},selected:null},WalkedCore.titleState),titleRegistry=null,titleView=null;
+const homeBaseKey='walked_home_base_v1';
+let homeBaseCode=null,homeTownSnapshot={code:null,status:'idle',ids:null,error:''},nearbyLoadError='';
+try{
+ const raw=localStorage.getItem(homeBaseKey);
+ if(raw!==null)homeBaseCode=WalkedCore.checkHomeBase(JSON.parse(raw));
+}catch(e){homeBaseCode=null;storageWarnings.push('本拠地設定を読み込めません。訪問履歴は保持されています。再選択してください。');}
 const DBKEY='walked_municipal_v2',state={visited:readSaved(),features:[],featureById:new Map(),layers:new Map(),points:[],busy:false,mode:"nearby",machida:[],machidaById:new Map(),sagamihara:[],sagamiharaById:new Map(),prefFeatures:[],prefById:new Map(),activeGroup:null,nationById:new Map(),nationCache:new Map(),nationErrors:new Set(),nationLoading:new Set(),detailGroup:null,locationDot:null};
 // Map presentation is stored independently from visits, cards and titles.
 const mapDisplayKey='walked_map_display_v1';
@@ -110,7 +116,7 @@ function persist(){
 }
 // walked-area-add-mode-v1
 let areaAddModeEnabled=false;
-function syncAreaAddMode(){const indicator=document.getElementById('areaAddIndicator');indicator.textContent=areaAddModeEnabled?'✏️ エリア追加モード：地図・検索結果から登録／解除できます。':'🔒 閲覧モード：地図・検索結果からエリアは変更されません。';indicator.style.background=areaAddModeEnabled?'#fff1d5':'#e2f1e9';}
+function syncAreaAddMode(){const indicator=document.getElementById('areaAddIndicator');indicator.hidden=!areaAddModeEnabled;if(areaAddModeEnabled){indicator.textContent='✏️ エリア追加モードON：地図・検索結果から登録／解除できます。誤登録に注意してください。';indicator.style.background='#fff1d5';}}
 document.getElementById('areaAddMode').addEventListener('change',e=>{areaAddModeEnabled=e.target.checked;syncAreaAddMode();renderMapSearch();});syncAreaAddMode();
 const map=L.map('map',{preferCanvas:true,zoomControl:false}).setView([36.3,138.2],5);L.control.zoom({position:'bottomright'}).addTo(map);
  // Region encyclopedia and Sengoku historic-site popups both hide map controls.
@@ -250,14 +256,105 @@ $('mapRegionColor').onchange=e=>{
  repaint();renderMapColorEditor();
 };
 renderMapColorEditor();
+// Home base selection only changes display preferences; never mutate visit, card or title stores.
+function describeHomeBase(code=homeBaseCode){
+ if(!titleRegistry||!WalkedCore.validHomeBase(code,titleRegistry))return '未設定';
+ const area=titleRegistry.areas.find(a=>a.code===code),pref=titleRegistry.prefectures.find(p=>p.code===area.prefecture);
+ return (pref?.name||'')+' '+area.name;
+}
+function populateHomeMunicipalities(pref,selected=''){
+ const select=$('homeMunicipality');select.replaceChildren(new Option('市区町村・行政区を選択',''));
+ for(const a of titleRegistry?.areas||[])if(a.prefecture===pref)select.add(new Option(a.name+' ('+a.code+')',a.code));
+ select.disabled=!pref||!titleRegistry;select.value=selected||'';
+}
+function syncHomeBaseSelectors(){
+ if(!titleRegistry)return;
+ const pref=$('homePrefecture');pref.replaceChildren(new Option('都道府県を選択',''));
+ for(const p of titleRegistry.prefectures)pref.add(new Option(p.name,p.code));
+ if(homeBaseCode!==null&&!WalkedCore.validHomeBase(homeBaseCode,titleRegistry)){
+  homeBaseCode=null;storageWarnings.push('本拠地コードが現行の自治体マスターにありません。再選択してください。');
+  status('⚠️ 本拠地コードが無効です。訪問記録を変更せず、設定を未設定にしました。');
+ }
+ pref.value=homeBaseCode?homeBaseCode.slice(0,2):'';
+ populateHomeMunicipalities(pref.value,homeBaseCode||'');
+ $('homeBaseState').textContent='保存済みの本拠地：'+describeHomeBase();
+}
+$('homePrefecture').onchange=()=>populateHomeMunicipalities($('homePrefecture').value);
+$('saveHomeBase').onclick=()=>{
+ const code=$('homeMunicipality').value;
+ if(!WalkedCore.validHomeBase(code,titleRegistry))return status('⚠️ 都道府県と市区町村・行政区を選択してください。');
+ try{
+  writeStore(homeBaseKey,code);
+  homeBaseCode=code;homeTownSnapshot={code:null,status:'idle',ids:null,error:''};
+  $('homeBaseState').textContent='保存済みの本拠地：'+describeHomeBase();
+  updateStats();status('✅ 本拠地を'+describeHomeBase()+'に設定しました。制覇・カード・称号の記録は変更していません。');
+ }catch(e){status('⚠️ 本拠地を保存できません：'+e.message)}
+};
 function regionalFeatures(){return [...state.machida,...state.sagamihara]}
 function areaModeForFeature(f,mode){
  if(mode!=='nearby')return mode;
  return f.properties?.WARD_NAME?'sagamihara':'machida';
 }
-function coveredPrefCodes(){const set=new Set();for(const id of Object.keys(state.visited)){if(id.startsWith(MACHIDA_PREFIX)||id===MACHIDA_CODE)set.add('13');else if(id.startsWith(SAGAMIHARA_PREFIX))set.add('14');else if(id.startsWith(NATION_PREFIX))set.add(id.slice(2,4));else if(!id.startsWith(PREF_PREFIX)&&state.featureById.has(id))set.add(id.slice(0,2));}return set}
+function coveredPrefCodes(){const set=new Set(),valid=titleRegistry?new Set(titleRegistry.areas.map(a=>a.code)):null;
+ for(const id of Object.keys(state.visited)){
+  const code=WalkedCore.municipality(id);
+  if(valid){if(valid.has(code))set.add(code.slice(0,2));}
+  else if(code&&state.featureById.has(code)||id.startsWith(MACHIDA_PREFIX)||id.startsWith(SAGAMIHARA_PREFIX)||id.startsWith(NATION_PREFIX))set.add(code.slice(0,2));
+ }
+ return set;
+}
 function isVisited(id){if(id.startsWith(PREF_PREFIX))return coveredPrefCodes().has(id.slice(2));/* 町田市の町丁は独立記録。市区町村の13209を継承しない。 */return areaRecordKeys(id).some(k=>!!state.visited[k])}
-function updateStats(){let all=state.mode==='nearby'?regionalFeatures():state.mode==='prefecture'?state.prefFeatures:state.mode==='nationwideDetail'?[...state.nationById.values()]:state.features;let codes=all.filter(f=>isVisited(keyForMode(f,state.mode)));let total=all.length;$('cnt').textContent=codes.length.toLocaleString('ja-JP');$('rate').textContent=total?(codes.length/total*100).toFixed(1)+'%':'--';$('pref').textContent=coveredPrefCodes().size;}
+function refreshHomeTownSnapshot(){
+ const code=homeBaseCode;
+ if(!WalkedCore.validHomeBase(code,titleRegistry))return;
+ if(homeTownSnapshot.code===code&&['loading','ready','error'].includes(homeTownSnapshot.status))return;
+ homeTownSnapshot={code,status:'loading',ids:null,error:''};
+ loadTownForCode(code).then(features=>{
+  if(code!==homeBaseCode)return;
+  try{
+   const ids=features.map(f=>keyForMode(f,'nationwideDetail'));
+   WalkedCore.townStats(ids,{},[code]); // Reject empty/mismatched/invalid boundaries.
+   if(!ids.length)throw Error('町丁・字の全区域が取得できませんでした');
+   homeTownSnapshot={code,status:'ready',ids,error:''};
+  }catch(error){homeTownSnapshot={code,status:'error',ids:null,error:error.message};}
+  updateStats();
+ }).catch(error=>{
+  if(code!==homeBaseCode)return;
+  homeTownSnapshot={code,status:'error',ids:null,error:error.message};updateStats();
+ });
+}
+function updateStats(){
+ const mode=state.mode,valid=WalkedCore.validHomeBase(homeBaseCode,titleRegistry);
+ const nearbyComplete=state.machida.length>0&&state.sagamihara.length>0&&
+  SAGAMIHARA_WARDS.every(code=>state.sagamihara.some(f=>String(f.properties?.KEY_CODE||f.id||'').startsWith(code)));
+ const nearbyIds=nearbyComplete?regionalFeatures().map(f=>keyForMode(f,'nearby')):null;
+ if(mode==='nationwideDetail'&&valid)refreshHomeTownSnapshot();
+ const detailIds=homeTownSnapshot.code===homeBaseCode&&homeTownSnapshot.status==='ready'?homeTownSnapshot.ids:null;
+ let metric=null,error='';
+ try{metric=WalkedCore.dashboard(mode,state.visited,titleRegistry,homeBaseCode,detailIds,nearbyIds);}
+ catch(e){error=e.message;}
+ const labels={
+  prefecture:['全都道府県数','制覇率','制覇都道府県数'],
+  municipal:['本拠地県の市区町村・行政区総数','制覇率','制覇市区町村・行政区数'],
+  nationwideDetail:['本拠地自治体の町丁・字総数','町丁・字制覇率','制覇町丁・字数'],
+  nearby:['町田市・相模原市の町丁・字総数','制覇率','制覇町丁・字数']
+ }[mode]||['対象総数','制覇率','制覇数'];
+ for(const [i,id] of ['cntLabel','rateLabel','prefLabel'].entries())$(id).textContent=labels[i];
+ $('cnt').textContent=metric?metric.total.toLocaleString('ja-JP'):'—';
+ $('rate').textContent=metric&&metric.total>0?(metric.count/metric.total*100).toFixed(1)+'%':'—';
+ $('pref').textContent=metric?metric.count.toLocaleString('ja-JP'):'—';
+ const context=$('dashboardContext');
+ if(error){context.textContent='取得できません：'+error;return;}
+ if(!titleRegistry){context.textContent='自治体マスター取得中…';return;}
+ if((mode==='municipal'||mode==='nationwideDetail')&&!valid){context.textContent='本拠地を設定してください（設定 → 本拠地）';return;}
+ if(mode==='municipal'){context.textContent='集計対象：'+describeHomeBase().split(' ')[0]+'（本拠地：'+describeHomeBase()+'）';return;}
+ if(mode==='nationwideDetail'){
+  context.textContent='本拠地：'+describeHomeBase()+' ／ '+(metric?'全町丁・字の集計済み':homeTownSnapshot.status==='error'?'取得できません：'+homeTownSnapshot.error:'全町丁・字を取得中…');
+  return;
+ }
+ if(mode==='nearby'){context.textContent=metric?'町田市＋相模原市3区の全区域を集計':'町田・相模原の全区域を'+(nearbyLoadError?'取得できません：'+nearbyLoadError:'取得中…');return;}
+ context.textContent='全国47都道府県（各県内1自治体以上の制覇で1県制覇）';
+}
 function toggleFeature(f){if(!areaAddModeEnabled)return;const mode=state.mode,id=keyForMode(f,mode),name=labelFor(f,mode);if(state.mode==='prefecture'){status('都道府県は市区町村の制覇履歴から自動集計します。市区町村モードで登録してください。');return}if(isVisited(id)){if(confirm(name+'の制覇登録を解除しますか？')&&areaAddModeEnabled&&state.mode===mode)unmark(id)}else{mark(id);persist();status('✅ '+name+'を制覇！')} }
 function regionalAreaPopup(code,areaLabel){
  const info=window.regionEncyclopedia?.previewArea(code)||{status:'loading'};
