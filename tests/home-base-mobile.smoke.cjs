@@ -29,6 +29,38 @@ test('iPhone WebKit: home base, dashboard, backup and touch layout (synthetic vi
   await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>typeof titleRegistry!=='undefined'&&titleRegistry?.areas?.length===1892&&state.machida.length>100&&state.sagamihara.length>90,null,{timeout:65000});
   const before=await page.evaluate(keys=>keys.map(k=>localStorage.getItem(k)),gameKeys);
+  // iOS page zoom is disabled while Leaflet's map zoom gestures remain untouched.
+  const zoomGuards=await page.evaluate(()=>{
+   const meta=document.querySelector('meta[name="viewport"]').content;
+   const outside=document.querySelector('.title-profile'),onMap=document.getElementById('map');
+   const trigger=(target,type,multi=false)=>{
+    const event=new Event(type,{bubbles:true,cancelable:true});
+    if(multi)Object.defineProperty(event,'touches',{value:[{},{}]});
+    target.dispatchEvent(event);
+    return event.defaultPrevented;
+   };
+   return {
+    meta,
+    historyTest:document.getElementById('runSengokuTest'),
+    testPanel:document.querySelector('.test-panel'),
+    outsideGesture:trigger(outside,'gesturestart'),
+    onMapGesture:trigger(onMap,'gesturestart'),
+    outsideTouch:trigger(outside,'touchmove',true),
+    onMapTouch:trigger(onMap,'touchmove',true),
+    focusFontSize:parseFloat(getComputedStyle(document.getElementById('homeMunicipality')).fontSize),
+    mapTouchZoomEnabled:!!map.touchZoom?.enabled?.()
+   };
+  });
+  assert.match(zoomGuards.meta,/maximum-scale=1/);
+  assert.match(zoomGuards.meta,/user-scalable=no/);
+  assert.equal(zoomGuards.historyTest,null);
+  assert.equal(zoomGuards.testPanel,null);
+  assert.equal(zoomGuards.outsideGesture,true);
+  assert.equal(zoomGuards.outsideTouch,true);
+  assert.equal(zoomGuards.onMapGesture,false);
+  assert.equal(zoomGuards.onMapTouch,false);
+  assert.ok(zoomGuards.focusFontSize>=16,'iPhone focus zoom must not be triggered by small selects');
+  assert.equal(zoomGuards.mapTouchZoomEnabled,true,'Leaflet touch pinch zoom must stay enabled');
   const modes=await page.locator('.filters .filter').evaluateAll(nodes=>nodes.map(n=>n.dataset.mode));
   assert.deepEqual(modes,['prefecture','municipal','nationwideDetail','nearby']);
   assert.equal(await page.locator('#areaAddIndicator').isVisible(),false);
