@@ -16,10 +16,10 @@
  function mergeRecords(a,b,normalize=x=>x){const out={};for(const map of [a,b])for(const [raw,r] of Object.entries(map)){const k=normalize(raw);out[k]=own(out,k)?mergeRecord(out[k],r):{...r};}return out;}
  // Home base is a preference, never a visit, award, title, or discovery.
  function validHomeBase(code,registry){
-  return typeof code==='string'&&/^\\d{5}$/.test(code)&&!!registry?.areas?.some(a=>a.code===code);
+  return typeof code==='string'&&/^\d{5}$/.test(code)&&!!registry?.areas?.some(a=>a.code===code);
  }
  function checkHomeBase(code){
-  if(code!==null&&(typeof code!=='string'||!/^\\d{5}$/.test(code)))throw Error('本拠地コードは5桁の自治体コードか未設定である必要があります');
+  if(code!==null&&(typeof code!=='string'||!/^\d{5}$/.test(code)))throw Error('本拠地コードは5桁の自治体コードか未設定である必要があります');
   return code;
  }
  function ownedMunicipalities(visited,registry){
@@ -30,7 +30,7 @@
   if(!Array.isArray(ids)||!ids.length)return null;
   const known=new Set(allowedCodes),unique=new Set();
   for(const id of ids){
-   if(typeof id!=='string'||!/^([ms]:\\d{6,}|n:\\d{5}:.+)$/.test(id)||!known.has(municipality(id)))
+   if(typeof id!=='string'||!/^([ms]:\d{6,}|n:\d{5}:.+)$/.test(id)||!known.has(municipality(id)))
     throw Error('町丁境界の自治体コードまたは区域IDが不正です');
    unique.add(canonical(id));
   }
