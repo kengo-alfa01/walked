@@ -16,6 +16,29 @@ async function check(browserType,name){
   assert.equal(response.status(),200,'HTML must be served');
   await page.waitForFunction(()=>typeof titleRegistry!=='undefined'&&titleRegistry?.areas?.length===1892&&state.features.length>1800&&state.machida.length>100&&state.sagamihara.length>90,null,{timeout:90000});
   assert.equal(await page.locator('title').textContent(),'日本見風録・本拠地検証版');
+  const controls=await page.evaluate(()=>{
+   const outside=document.querySelector('.title-profile'),inside=document.getElementById('map');
+   const gesture=(node,type)=>{
+    const event=new Event(type,{bubbles:true,cancelable:true});
+    if(type==='touchmove')Object.defineProperty(event,'touches',{value:[{},{}]});
+    node.dispatchEvent(event);return event.defaultPrevented;
+   };
+   return {
+    viewport:document.querySelector('meta[name="viewport"]').content,
+    tester:document.getElementById('runSengokuTest'),
+    testerPanel:document.querySelector('.test-panel'),
+    pagePinchBlocked:gesture(outside,'gesturestart')&&gesture(outside,'touchmove'),
+    mapPinchAllowed:!gesture(inside,'gesturestart')&&!gesture(inside,'touchmove'),
+    leafletTouchZoom:!!map.touchZoom?.enabled?.()
+   };
+  });
+  assert.match(controls.viewport,/maximum-scale=1/);
+  assert.match(controls.viewport,/user-scalable=no/);
+  assert.equal(controls.tester,null);
+  assert.equal(controls.testerPanel,null);
+  assert.equal(controls.pagePinchBlocked,true);
+  assert.equal(controls.mapPinchAllowed,true);
+  assert.equal(controls.leafletTouchZoom,true);
   assert.deepEqual(await page.locator('.filters button').evaluateAll(a=>a.map(x=>x.dataset.mode)),['prefecture','municipal','nationwideDetail','nearby']);
   await page.locator('#settings').evaluate(el=>el.open=true);
   await page.locator('#homePrefecture').selectOption('13');
