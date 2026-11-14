@@ -1,0 +1,31 @@
+name: Verify Vercel preview on iPhone browsers
+
+on:
+  push:
+    branches:
+      - feature/homebase-dashboard-preview-20261114
+    paths:
+      - 'tests/vercel-preview.smoke.cjs'
+      - '.github/workflows/vercel-preview-qa.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright
+        run: |
+          npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium webkit
+      - name: Load real public Vercel preview, maps, and dashboard
+        env:
+          HOMEBASE_VERCEL_PREVIEW_URL: https://nihon-kenfuroku-homebase-preview-ka6kwvfdi-5q9zpz7rdk-2400.vercel.app/
+        run: node --test tests/vercel-preview.smoke.cjs
