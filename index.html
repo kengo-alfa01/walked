@@ -459,7 +459,7 @@ function normalizeMachida(doc){
  let features=doc?.type==='FeatureCollection'?doc.features:doc?.type==='Feature'?[doc]:[];
  return features.filter(f=>f.geometry&&['Polygon','MultiPolygon'].includes(f.geometry.type));
 } 
-function applyMachida(doc){const features=normalizeMachida(doc);if(features.length<100)throw Error('町田市の町丁ポリゴン数が不足しています: '+features.length);state.machida=features;state.machidaById.clear();features.forEach(f=>state.machidaById.set(keyForMode(f,'machida'),f));if(state.mode==='nearby')changeMode('nearby');status('✅ 町田市の詳細境界 '+features.length+'区域を読み込みました。');return features.length;}
+function applyMachida(doc){const features=normalizeMachida(doc);if(features.length<100)throw Error('町田市の町丁ポリゴン数が不足しています: '+features.length);state.machida=features;state.machidaById.clear();features.forEach(f=>state.machidaById.set(keyForMode(f,'machida'),f));if(state.mode==='nearby')changeMode('nearby');if(homeBaseCode===MACHIDA_CODE&&homeTownSnapshot.status==='error')homeTownSnapshot={code:null,status:'idle',ids:null,error:''};updateStats();status('✅ 町田市の詳細境界 '+features.length+'区域を読み込みました。');return features.length;}
 $('boundaryFile').onchange=async e=>{try{const f=e.target.files?.[0];if(f){const raw=await f.text();applyMachida(JSON.parse(raw));try{localStorage.setItem('walked_machida_boundary_cache_v1',raw)}catch(e){}}}catch(ex){status('境界ファイルを開けません：'+ex.message)}e.target.value=''};
 async function loadMachida(){
  // アプリに同梱した境界ファイルを最優先。古いローカルキャッシュは最後の予備手段。
@@ -481,7 +481,7 @@ async function loadMachida(){
    }catch(e){}
  }
  try{const saved=localStorage.getItem('walked_machida_boundary_cache_v1');if(saved){applyMachida(JSON.parse(saved));return}}catch(e){}
- status('⚠️ 町田市の境界ファイルが見つかりません。GitHub Actions の『Bundle Machida boundaries』を実行してから再表示してください。「町田市の境界GeoJSONを選択」から手動読込できます（TopoJSONも対応）。読み込めるまでは町田市モードの塗り分けは使えません。');
+ nearbyLoadError='町田市の境界ファイルがありません';updateStats();status('⚠️ 町田市の境界ファイルが見つかりません。GitHub Actions の『Bundle Machida boundaries』を実行してから再表示してください。「町田市の境界GeoJSONを選択」から手動読込できます（TopoJSONも対応）。読み込めるまでは町田市モードの塗り分けは使えません。');
 }
 
 async function loadSagamihara(){
@@ -497,11 +497,11 @@ async function loadSagamihara(){
    const features=topojson.feature(doc,obj).features.filter(f=>f.geometry&&['Polygon','MultiPolygon'].includes(f.geometry.type));
    if(features.length<30)throw Error(ward+' の区域数が不足: '+features.length);
    for(const f of features){f.properties={...f.properties,WARD_NAME:['緑区','中央区','南区'][i]};out.push(f)}
-  }catch(e){status('⚠️ 相模原市の詳細境界が未準備です。GitHub Actionsの「Bundle Sagamihara boundaries」を実行してください。 '+ward+': '+e.message);return}
+  }catch(e){nearbyLoadError=ward+'の境界ファイルがありません';updateStats();status('⚠️ 相模原市の詳細境界が未準備です。GitHub Actionsの「Bundle Sagamihara boundaries」を実行してください。 '+ward+': '+e.message);return}
  }
  state.sagamihara=out;state.sagamiharaById.clear();for(const f of out)state.sagamiharaById.set(keyForMode(f,'sagamihara'),f);
  if(state.mode==='nearby')changeMode('nearby');
- status('✅ 相模原市の町丁・字境界 '+out.length+'区域を読み込みました。過去に取り込んだタイムラインは再取り込みすると詳細に反映されます。');
+ if(SAGAMIHARA_WARDS.includes(homeBaseCode)&&homeTownSnapshot.status==='error')homeTownSnapshot={code:null,status:'idle',ids:null,error:''};nearbyLoadError='';updateStats();status('✅ 相模原市の町丁・字境界 '+out.length+'区域を読み込みました。過去に取り込んだタイムラインは再取り込みすると詳細に反映されます。');
 }
 async function loadPrefectures(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/prefectures.topojson';const r=await fetch(url);if(!r.ok)throw Error('HTTP '+r.status);const t=await r.json(),obj=t.objects.prefectures||Object.values(t.objects)[0];state.prefFeatures=topojson.feature(t,obj).features;try{prefecturePalette=MapColoring.fromTopology(t,obj,topojson)}catch(error){prefecturePalette=null;console.warn('都道府県6色配色を生成できません',error)}state.prefById.clear();state.prefFeatures.forEach(f=>state.prefById.set(PREF_PREFIX+key(f),f));if(state.mode==='prefecture')changeMode('prefecture');else{drawPrefectureBorders();repaint()}renderMapColorEditor()}catch(e){status('都道府県境界の読込失敗：'+e.message)}}
 async function boundaries(){try{const url='https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson';let res=await fetch(url);if(!res.ok)throw Error('行政区域データ HTTP '+res.status);const topo=await res.json();const obj=topo.objects.municipalities||Object.values(topo.objects)[0];state.features=topojson.feature(topo,obj).features;try{municipalPalette=MapColoring.fromTopology(topo,obj,topojson)}catch(error){municipalPalette=null;console.warn('市区町村6色配色を生成できません',error)}state.featureById.clear();state.features.forEach(f=>state.featureById.set(key(f),f));changeMode(state.mode);refreshSengokuAreaHighlights();renderMapColorEditor();$('loading')?.remove();updateStats();status('地図の準備完了。登録は現在地・タイムライン・エリア追加モードから行えます。');if(state.pending){const p=state.pending;state.pending=null;await processRecords(p)}}catch(err){if($('loading'))$('loading').textContent='境界データの取得に失敗しました';status('⚠️ '+err.message+'。ネット接続とGitHub Pages公開を確認してください。')}}
@@ -683,23 +683,31 @@ function renderMapSearch(){
 }
 $('mapSearchPref').addEventListener('change',renderMapSearch);
 function download(name,obj){const b=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}),url=URL.createObjectURL(b),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
-function currentBackup(){if(lockedStorageKeys.size)throw Error('読み込めない保存記録があります。「保存データ救出」を先に実行してください。');return WalkedCore.backup(state.visited,sengokuFound,titleState);}
-$('save').onclick=()=>{try{download('日本見風録-backup-'+new Date().toISOString().slice(0,10)+'.json',currentBackup());status('✅ 制覇・カード・称号記録をバックアップしました。')}catch(e){status('⚠️ '+e.message)}};
-$('rescueStorage').onclick=()=>{try{download('日本見風録-storage-rescue.json',{format:'walked-storage-rescue-v1',savedAt:new Date().toISOString(),raw:Object.fromEntries([DBKEY,sengokuStoreKey,titleStoreKey,restoreJournalKey,restoreCheckpointKey].map(k=>[k,localStorage.getItem(k)]))});status('保存データをそのまま救出しました。このファイルは調査・修復用です。')}catch(e){status('⚠️ 保存データを読み取れません：'+e.message)}};
+function currentBackup(){if(lockedStorageKeys.size)throw Error('読み込めない保存記録があります。「保存データ救出」を先に実行してください。');return WalkedCore.backupWithHomeBase(state.visited,sengokuFound,titleState,homeBaseCode);}
+$('save').onclick=()=>{try{download('日本見風録-backup-'+new Date().toISOString().slice(0,10)+'.json',currentBackup());status('✅ 制覇・カード・称号・本拠地設定をバックアップしました。')}catch(e){status('⚠️ '+e.message)}};
+$('rescueStorage').onclick=()=>{try{download('日本見風録-storage-rescue.json',{format:'walked-storage-rescue-v1',savedAt:new Date().toISOString(),raw:Object.fromEntries([DBKEY,sengokuStoreKey,titleStoreKey,homeBaseKey,restoreJournalKey,restoreCheckpointKey].map(k=>[k,localStorage.getItem(k)]))});status('保存データをそのまま救出しました。このファイルは調査・修復用です。')}catch(e){status('⚠️ 保存データを読み取れません：'+e.message)}};
 $('restore').onclick=()=>$('restoreFile').click();
 $('restoreFile').onchange=async e=>{
  try{
   const f=e.target.files?.[0];if(!f)return;if(state.busy)throw Error('タイムラインの処理終了後に復元してください');
   if(lockedStorageKeys.size)throw Error('保存記録に読込エラーがあります。保存データ救出を実行し、修復してから復元してください。');
   const incoming=WalkedCore.parseBackup(JSON.parse(await f.text())),before=currentBackup(),merged=WalkedCore.mergeBackup(before,incoming);
+  if(incoming.hasHomeBase&&incoming.homeBase!==null&&!WalkedCore.validHomeBase(incoming.homeBase,titleRegistry))throw Error('バックアップの本拠地が現行自治体マスターにありません。訪問記録も変更していません。');
   const counts=v=>`制覇記録 ${Object.keys(v.visited).length}件／カード ${Object.keys(v.cards).length}件／称号 ${Object.keys(v.titles.awards).length}件`;
   if(!confirm('バックアップを現在の記録に追加・統合します。\n現在：'+counts(before)+'\n統合後：'+counts(merged)+(incoming.legacy?'\n旧v2形式：カード・称号は現在の記録を維持します。':'')+'\n既存記録は削除しません。復元前の控えを端末内に保存します。続けますか？'))return;
-  // Fail closed if checkpoint or journal cannot be written. No in-memory edits before commit.
+  let nextHome=homeBaseCode;
+  if(incoming.hasHomeBase&&incoming.homeBase!==homeBaseCode){
+   nextHome=confirm('バックアップと現在の本拠地が異なります。\n現在：'+describeHomeBase()+'\nバックアップ：'+describeHomeBase(incoming.homeBase)+'\n\nOK：バックアップの本拠地に置換\nキャンセル：現在の本拠地を保持')?incoming.homeBase:homeBaseCode;
+  }
+  // The journal rolls back all modified keys, including home base, on partial failures.
+  const values={[DBKEY]:JSON.stringify(merged.visited),[sengokuStoreKey]:JSON.stringify(merged.cards),[titleStoreKey]:JSON.stringify(merged.titles)};
+  if(nextHome!==homeBaseCode)values[homeBaseKey]=JSON.stringify(nextHome);
   localStorage.setItem(restoreCheckpointKey,JSON.stringify(before));
-  WalkedCore.transaction(localStorage,{[DBKEY]:JSON.stringify(merged.visited),[sengokuStoreKey]:JSON.stringify(merged.cards),[titleStoreKey]:JSON.stringify(merged.titles)},restoreJournalKey);
+  WalkedCore.transaction(localStorage,values,restoreJournalKey);
   state.visited=merged.visited;for(const k of Object.keys(sengokuFound))delete sengokuFound[k];Object.assign(sengokuFound,merged.cards);titleState=merged.titles;
+  homeBaseCode=nextHome;homeTownSnapshot={code:null,status:'idle',ids:null,error:''};syncHomeBaseSelectors();
   repaint();renderSengoku();refreshSengokuPins();
-  status('✅ 制覇・カード・称号の記録を統合しました。');
+  status('✅ 制覇・カード・称号を統合しました。本拠地：'+describeHomeBase()+'。');
   try{updateTitles();reconcileSengokuVisits()}catch(error){status('記録の復元は完了しました。追加獲得の保存は未完了です：'+error.message)}
  }catch(err){status('⚠️ 復元できません：'+err.message)}finally{e.target.value=''}
 };
@@ -1140,9 +1148,9 @@ $('closeTitleToast').onclick=()=>$('titleToast').hidden=true;
 async function loadTitles(){try{
  const response=await fetch('./data/title-registry.json');if(!response.ok)throw Error('HTTP '+response.status);const registry=await response.json();
  if(registry.areas?.length!==1892||registry.prefectures?.length!==47||registry.regions?.length!==8||new Set(registry.areas.map(a=>a.code)).size!==1892)throw Error('対象地域表が不正です');
- titleRegistry=registry;for(const p of registry.prefectures){$('titlePrefecture').add(new Option(p.name,p.code));$('mapSearchPref').add(new Option(p.name,p.code));}$('titlePrefecture').value='13';renderMapSearch();
+ titleRegistry=registry;for(const p of registry.prefectures){$('titlePrefecture').add(new Option(p.name,p.code));$('mapSearchPref').add(new Option(p.name,p.code));}$('titlePrefecture').value='13';syncHomeBaseSelectors();renderMapSearch();
  $('titlePolicy').textContent='称号は対象地域の固定一覧で集計します。市区町村・政令指定都市の行政区を1エリアとし、町丁目の重複は数えません。地方称号は対象の各県が条件を満たす必要があり、平均では判定しません。歴史的な名称はゲームの称号として使用しており、当時の国境・管轄とは一致しません。';
- updateTitles();
+ updateTitles();repaint();updateStats();
  }catch(e){$('titleProgress').textContent='称号を集計できません：'+e.message;}
 }
 loadTitles();
