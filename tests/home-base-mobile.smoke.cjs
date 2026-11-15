@@ -91,6 +91,29 @@ test('iPhone WebKit: home base, dashboard, backup and touch layout (synthetic vi
   const detail=await page.evaluate(()=>({denominator:+document.getElementById('cnt').textContent.replaceAll(',',''),unique:new Set(homeTownSnapshot.ids).size}));
   assert.equal(detail.denominator,detail.unique);
   assert.ok(detail.denominator>100,'home town full boundary, not a viewport slice');
+  const outlines=await page.evaluate(()=>{
+   const feature=municipalBorderGroup?.getLayers?.()[0];
+   const municipalPaths=[...document.querySelectorAll('.leaflet-overlay-pane path')]
+    .filter(p=>p.getAttribute('stroke')==='#29576a');
+   return {
+    meshType:municipalBoundaryMesh?.type,
+    visible:!!municipalBorderGroup&&map.hasLayer(municipalBorderGroup),
+    paths:municipalPaths.length,
+    interactive:feature?.options?.interactive,
+    fill:feature?.options?.fill,
+    weight:feature?.options?.weight,
+    prefVisible:!!prefBorderGroup&&map.hasLayer(prefBorderGroup)
+   };
+  });
+  assert.equal(outlines.meshType,'MultiLineString','municipality outline must come from entire official topology');
+  assert.equal(outlines.visible,true,'municipality outline is visible in nationwide detail');
+  assert.ok(outlines.paths>0,'outline strokes are physically present in the SVG map');
+  assert.equal(outlines.interactive,false,'boundary must not block map gestures');
+  assert.equal(outlines.fill,false,'town fills must remain visible');
+  assert.ok(outlines.weight>0.95&&outlines.weight<2.5,'municipality boundary is thicker than towns, thinner than prefectures');
+  // The prefab prefecture overlay remains a separate, higher-priority group if loaded.
+  assert.equal(typeof outlines.prefVisible,'boolean');
+
   assert.deepEqual(await page.evaluate(keys=>keys.map(k=>localStorage.getItem(k)),gameKeys),before);
   const overflow=await page.evaluate(()=>({viewport:innerWidth,document:document.documentElement.scrollWidth}));
   assert.ok(overflow.document<=overflow.viewport+2,'iPhone horizontal overflow');
