@@ -122,6 +122,15 @@ test('iPhone WebKit: home base, dashboard, backup and touch layout (synthetic vi
   const overflow=await page.evaluate(()=>({viewport:innerWidth,document:document.documentElement.scrollWidth}));
   assert.ok(overflow.document<=overflow.viewport+2,'iPhone horizontal overflow');
   await page.screenshot({path:path.join(screenshotDir,'homebase-iphone-detail.png')});
+  // Visual QA for the reported iPhone case: Machida outlines above its detailed towns.
+  await page.evaluate(()=>map.setView([35.56,139.44],12));
+  await page.waitForFunction(()=>
+    state.mode==='nationwideDetail'&&state.detailGroup&&
+    [...state.layers.keys()].some(id=>id.startsWith('m:13209'))&&
+    municipalBorderGroup&&map.hasLayer(municipalBorderGroup)
+  ,null,{timeout:20000});
+  await page.locator('.mapwrap').screenshot({path:path.join(screenshotDir,'nationwide-municipal-borders-machida.png')});
+
   await page.locator('#settings').evaluate(el=>el.open=true);
   await page.locator('#homePrefecture').scrollIntoViewIfNeeded();
   await page.screenshot({path:path.join(screenshotDir,'homebase-iphone-settings.png')});
