@@ -91,10 +91,46 @@ test('iPhone WebKit: home base, dashboard, backup and touch layout (synthetic vi
   const detail=await page.evaluate(()=>({denominator:+document.getElementById('cnt').textContent.replaceAll(',',''),unique:new Set(homeTownSnapshot.ids).size}));
   assert.equal(detail.denominator,detail.unique);
   assert.ok(detail.denominator>100,'home town full boundary, not a viewport slice');
+  const outlines=await page.evaluate(()=>{
+   const feature=municipalBorderGroup?.getLayers?.()[0];
+   const canvas=feature?._renderer?._container;
+   const municipalPaths=[...document.querySelectorAll('.leaflet-overlay-pane path')]
+    .filter(p=>p.getAttribute('stroke')==='#29576a');
+   return {
+    meshType:municipalBoundaryMesh?.type,
+    visible:!!municipalBorderGroup&&map.hasLayer(municipalBorderGroup),
+    painted:municipalPaths.length>0||(canvas?.tagName==='CANVAS'&&canvas.isConnected),
+    renderer:canvas?.tagName||null,
+    interactive:feature?.options?.interactive,
+    fill:feature?.options?.fill,
+    color:feature?.options?.color,
+    weight:feature?.options?.weight,
+    prefVisible:!!prefBorderGroup&&map.hasLayer(prefBorderGroup)
+   };
+  });
+  assert.equal(outlines.meshType,'MultiLineString','municipality outline must come from entire official topology');
+  assert.equal(outlines.visible,true,'municipality outline is visible in nationwide detail');
+  assert.equal(outlines.painted,true,'municipality outline is rendered through Leaflet Canvas or SVG');
+  assert.equal(outlines.color,'#29576a','municipality outline uses distinct stroke');
+  assert.equal(outlines.interactive,false,'boundary must not block map gestures');
+  assert.equal(outlines.fill,false,'town fills must remain visible');
+  assert.ok(outlines.weight>0.95&&outlines.weight<2.5,'municipality boundary is thicker than towns, thinner than prefectures');
+  // The prefab prefecture overlay remains a separate, higher-priority group if loaded.
+  assert.equal(typeof outlines.prefVisible,'boolean');
+
   assert.deepEqual(await page.evaluate(keys=>keys.map(k=>localStorage.getItem(k)),gameKeys),before);
   const overflow=await page.evaluate(()=>({viewport:innerWidth,document:document.documentElement.scrollWidth}));
   assert.ok(overflow.document<=overflow.viewport+2,'iPhone horizontal overflow');
   await page.screenshot({path:path.join(screenshotDir,'homebase-iphone-detail.png')});
+  // Visual QA for the reported iPhone case: Machida outlines above its detailed towns.
+  await page.evaluate(()=>map.setView([35.56,139.44],12));
+  await page.waitForFunction(()=>
+    state.mode==='nationwideDetail'&&state.detailGroup&&
+    [...state.layers.keys()].some(id=>id.startsWith('m:13209'))&&
+    municipalBorderGroup&&map.hasLayer(municipalBorderGroup)
+  ,null,{timeout:20000});
+  await page.locator('.mapwrap').screenshot({path:path.join(screenshotDir,'nationwide-municipal-borders-machida.png')});
+
   await page.locator('#settings').evaluate(el=>el.open=true);
   await page.locator('#homePrefecture').scrollIntoViewIfNeeded();
   await page.screenshot({path:path.join(screenshotDir,'homebase-iphone-settings.png')});
