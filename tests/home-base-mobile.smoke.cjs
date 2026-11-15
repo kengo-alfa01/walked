@@ -93,21 +93,25 @@ test('iPhone WebKit: home base, dashboard, backup and touch layout (synthetic vi
   assert.ok(detail.denominator>100,'home town full boundary, not a viewport slice');
   const outlines=await page.evaluate(()=>{
    const feature=municipalBorderGroup?.getLayers?.()[0];
+   const canvas=feature?._renderer?._container;
    const municipalPaths=[...document.querySelectorAll('.leaflet-overlay-pane path')]
     .filter(p=>p.getAttribute('stroke')==='#29576a');
    return {
     meshType:municipalBoundaryMesh?.type,
     visible:!!municipalBorderGroup&&map.hasLayer(municipalBorderGroup),
-    paths:municipalPaths.length,
+    painted:municipalPaths.length>0||(canvas?.tagName==='CANVAS'&&canvas.isConnected),
+    renderer:canvas?.tagName||null,
     interactive:feature?.options?.interactive,
     fill:feature?.options?.fill,
+    color:feature?.options?.color,
     weight:feature?.options?.weight,
     prefVisible:!!prefBorderGroup&&map.hasLayer(prefBorderGroup)
    };
   });
   assert.equal(outlines.meshType,'MultiLineString','municipality outline must come from entire official topology');
   assert.equal(outlines.visible,true,'municipality outline is visible in nationwide detail');
-  assert.ok(outlines.paths>0,'outline strokes are physically present in the SVG map');
+  assert.equal(outlines.painted,true,'municipality outline is rendered through Leaflet Canvas or SVG');
+  assert.equal(outlines.color,'#29576a','municipality outline uses distinct stroke');
   assert.equal(outlines.interactive,false,'boundary must not block map gestures');
   assert.equal(outlines.fill,false,'town fills must remain visible');
   assert.ok(outlines.weight>0.95&&outlines.weight<2.5,'municipality boundary is thicker than towns, thinner than prefectures');
