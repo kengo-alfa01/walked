@@ -1,0 +1,37 @@
+name: C 2026-11-19 real browser QA
+on:
+  push:
+    branches: [c/release-20261119-approved-delta]
+    paths:
+      - .github/workflows/c-release-20261119-browser.yml
+      - tests/c-20261119-browser.smoke.cjs
+      - sengoku/v2/approved-c-20261119.json
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  mobile-and-desktop:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install temporary browser test dependencies
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Install WebKit and Chromium headless
+        run: npx playwright install --with-deps webkit chromium
+      - name: Prepare tested official municipality source
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Run real WebKit touch and desktop Chromium smoke
+        env:
+          WALKED_BROWSER_ASSETS: .qa-assets
+          WALKED_BASE_URL: http://127.0.0.1:8765
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/walked-c-http.log 2>&1 &
+          sleep 2
+          node --test tests/c-20261119-browser.smoke.cjs
