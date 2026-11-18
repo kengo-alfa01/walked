@@ -34,6 +34,8 @@ for(const [name,browserType,options] of [
      const msg=await page.locator('#sengokuQuality').textContent().catch(()=>null);
      throw new Error('C catalog startup failed: '+msg+'; '+issues.slice(-3).join('; '));
    });
+   await page.locator('[data-collection-mode="sengoku"]').click();
+   await page.waitForTimeout(180);
    const state=await page.evaluate(()=>{
      const ids=[...sengokuV2Catalog.retiredHistories.keys()];
      const marker=sengokuPins.getLayers().find(x=>x.options.siteId==='sg2site-a-shigezane-omori-20261112'
@@ -56,7 +58,6 @@ for(const [name,browserType,options] of [
    assert.equal(state.oldOwned,'2020-01-02');assert.equal(state.oldOwnedStable,true);
    assert.equal(state.newSiteStatus,'green');assert.equal(state.markerExists,true);
    assert.ok(state.width<=state.viewport+3,'responsive layout overflow '+JSON.stringify(state));
-   await page.locator('[data-collection-mode="sengoku"]').click();
    await page.evaluate(()=>{
      const marker=sengokuPins.getLayers().find(x=>x.getPopup()?.getContent()?.textContent?.includes('大森城跡'));
      if(!marker)throw Error('C approved pin missing on map');
