@@ -11,6 +11,153 @@
   const C20261119_PEOPLE=new Set(["sg-c33de3cf7739","sg-master-1321","sg-master-1337","sg-e64d13aedffc","sg-master-1516","sg-c594233cb2b7","sg-master-2001","sg-master-2169","sg-person-saito-dosan","sg-master-1119","sg-901256a2d908","sg-bdc70f64e638","sg-1cc5e9da1135","sg-a8cfe1245acb","sg-0b974357bac7","sg-master-0734","sg-24684888730a","sg-fa0a6f0c8900","sg-fc948f16832f","sg-master-0970","sg-added-nanbu-harumasa-20261114","sg-added-kunohe-masazane-20261114"]);
   const INTRO_PENDING=new Set(["sg-281d92dc2e0f","sg-1a91ae29cb5a","sg-2d3f90c28c8f","sg-025ab3a6ee3f"]);
   // Immutable release manifest: ⑥ row, ③ row, [longitude,latitude], status, and reviewed date.
+  // C 2026-11-19: independent approved positioning, tied to ⑥ E/F/J/P and ③ WGS84/B record.
+  const C20261119_PIN_META=Object.freeze({
+  "sg2site-a-naoe-uroko-yashiki": [
+    2656,
+    310,
+    139.7513876,
+    35.675644,
+    "red",
+    "2026-11-14",
+    "v4"
+  ],
+  "sg2site-a-nobutora-iidagawara-20261111": [
+    2232,
+    335,
+    138.5489375,
+    35.6710625,
+    "yellow",
+    "2026-11-14",
+    "v3"
+  ],
+  "sg2site-a-nobutora-kamijogawara-20261111": [
+    2233,
+    336,
+    138.5329375,
+    35.6851875,
+    "yellow",
+    "2026-11-14",
+    "v3"
+  ],
+  "sg2site-a-muneshige-akadate-20261111": [
+    2238,
+    353,
+    140.3766875,
+    37.0410625,
+    "red",
+    "2026-11-14",
+    "v2"
+  ],
+  "sg2site-a-muneshige-old-kotokuji-20261111": [
+    2239,
+    357,
+    139.7806875,
+    35.7125625,
+    "yellow",
+    "2026-11-14",
+    "v3"
+  ],
+  "sg2site-a-shigezane-omori-20261112": [
+    2240,
+    359,
+    140.433404,
+    37.725872,
+    "green",
+    "2026-11-14",
+    "v2"
+  ],
+  "sg2site-a-shigezane-kakuda-20261112": [
+    2241,
+    360,
+    140.777834,
+    37.969328,
+    "red",
+    "2026-11-14",
+    "v2"
+  ],
+  "sg2site-a-shigezane-watari-20261112": [
+    2243,
+    362,
+    140.851309,
+    38.033491,
+    "green",
+    "2026-11-14",
+    "v2"
+  ],
+  "sg2site-a-tamenobu-namioka-20261112": [
+    2244,
+    367,
+    140.604406,
+    40.718131,
+    "green",
+    "2026-11-14",
+    "v2"
+  ],
+  "sg2site-a-tamenobu-horikoshi-20261112": [
+    2246,
+    370,
+    140.522096,
+    40.572671,
+    "yellow",
+    "2026-11-14",
+    "v2"
+  ],
+  "sg2site-a-tamenobu-kakushu-20261112": [
+    2247,
+    372,
+    140.450363,
+    40.612537,
+    "yellow",
+    "2026-11-14",
+    "v2"
+  ],
+  "sg2site-a-tamenobu-hirosaki-20261112": [
+    2248,
+    373,
+    140.465065,
+    40.605953,
+    "yellow",
+    "2026-11-14",
+    "v2"
+  ],
+  "sg2site-a-tamenobu-iwakisan-20261112": [
+    2249,
+    374,
+    140.340621,
+    40.621863,
+    "yellow",
+    "2026-11-14",
+    "v2"
+  ],
+  "sg2site-a-haruhisa-grave-20261113": [
+    2299,
+    395,
+    133.1862903,
+    35.3600956,
+    "yellow",
+    "2026-11-14",
+    "v1"
+  ],
+  "sg2site-a-kaki-castle-20261114": [
+    2254,
+    412,
+    138.387355,
+    37.271775,
+    "red",
+    "2026-11-14",
+    "v1"
+  ],
+  "sg2site-a-murakami-katsurao-20261114": [
+    2259,
+    417,
+    138.173121,
+    36.473901,
+    "yellow",
+    "2026-11-14",
+    "v1"
+  ]
+});
   const PIN_APPROVED_META=Object.freeze({
   "sg2site-hideyoshi-fushimi-kohata": [1567, 37, 135.780854, 34.941691, "yellow", "2026-11-08"],
   "sg2site-hideyoshi-fushimi-shigetsu": [1566, 36, 135.77034, 34.929703, "yellow", "2026-11-09"],
@@ -744,11 +891,11 @@
         else check(s.pinApproval.version===s.approval.version&&s.pinApproval.sha256===s.approval.sha256&&
           s.pinApproval.personId===s.approval.personId&&s.pinApproval.sourceId===s.approval.sourceId,
           '史跡本文と位置版が同一⑥承認行の場合の根拠が一致しません');
-        check(['v1','v2','v3'].includes(s.pinApproval.version)&&s.pinApproval.sheetRow===PIN_APPROVED_META[s.siteId]?.[0],'位置版v2と史跡IDの⑥承認行が一致しません');
+        check(['v1','v2','v3','v4'].includes(s.pinApproval.version)&&s.pinApproval.sheetRow===(PIN_APPROVED_META[s.siteId]||C20261119_PIN_META[s.siteId])?.[0],'位置版v2と史跡IDの⑥承認行が一致しません');
         check(['自治体確認済・権利OK','地点確認済・権利OK'].includes(s.pinApproval.rights),'位置版の権利・所在地確認が未承認');
         const p=s.pinReview;
         check(plain(p)&&p.decision==='可'&&['green','yellow','red'].includes(p.accessStatus),'Bの最新公開ピン・見学区分が未確認');
-        const expected=PIN_APPROVED_META[s.siteId];
+        const expected=(PIN_APPROVED_META[s.siteId]||C20261119_PIN_META[s.siteId]);
         check(!!expected&&p.sourceSheetRow===expected[1]&&s.point[0]===expected[2]&&s.point[1]===expected[3]&&p.accessStatus===expected[4]&&p.checkedAt===expected[5]&&s.pinApproval.version===(expected[6]||'v2'),'⑥位置版と③最新B記録の座標・見学区分が一致しません');
         check(typeof p.locationKind==='string'&&p.locationKind.length>0&&p.locationKind!=='未設定','表示位置の種別が未確認');
         check(typeof p.municipality==='string'&&p.municipality.length>0&&Number.isInteger(p.sourceSheetRow)&&p.sourceSheetRow>=2,'③史跡の参照行・市区町村がありません');
