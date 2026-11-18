@@ -735,7 +735,7 @@
         check(Array.isArray(s.point),'公開ピンの位置がありません');
         check(plain(s.pinApproval),'位置更新版の⑥公開承認がありません');
         const approvedPinPersonIds=s.pinPersonIds||String(s.pinApproval.personId||'').split('\n').filter(Boolean);
-        check(Array.isArray(approvedPinPersonIds)&&approvedPinPersonIds.length>0&&approvedPinPersonIds.every(x=>personMap.has(x)&&s.personIds.includes(x))&&new Set(approvedPinPersonIds).size===approvedPinPersonIds.length,'位置版⑥人物IDが未承認です');
+        check(Array.isArray(approvedPinPersonIds)&&approvedPinPersonIds.length>0&&approvedPinPersonIds.every(x=>personMap.has(x)&&s.personIds.includes(x))&&new Set(approvedPinPersonIds).size===approvedPinPersonIds.length,'位置版⑥人物IDが未承認です: '+s.siteId+' pin='+JSON.stringify(approvedPinPersonIds)+' site='+JSON.stringify(s.personIds)+' approval='+String(s.pinApproval.personId||''));
         // Existing approved pin coordinates and published access color remain immutable.
         // The old position approval MUST validate against its own archived pinned text,
         // never substitute as approval of a newly edited body.
