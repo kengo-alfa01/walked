@@ -30,7 +30,7 @@ for(const [name,browserType,options] of [
   });
   try{
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
-   await page.waitForFunction(()=>window.sengokuV2Catalog?.people?.size===65 && window.sengokuV2Catalog?.histories?.size===1203,null,{timeout:30000}).catch(async e=>{
+   await page.waitForFunction(()=>typeof sengokuV2Catalog!=='undefined' && sengokuV2Catalog?.people?.size===65 && sengokuV2Catalog?.histories?.size===1203,null,{timeout:30000}).catch(async e=>{
      const msg=await page.locator('#sengokuQuality').textContent().catch(()=>null);
      throw new Error('C catalog startup failed: '+msg+'; '+issues.slice(-3).join('; '));
    });
