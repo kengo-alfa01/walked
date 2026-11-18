@@ -1,0 +1,575 @@
+{
+  "id": "C-20261119-A-PIN",
+  "fixedBatchId": "C-20261119-A",
+  "pinPolicy": "Only current C-approved ⑥ with explicit coordinate AND color, exact ③ WGS84, not inherited old approvals",
+  "ready": [
+    {
+      "siteId": "sg2site-a-naoe-uroko-yashiki",
+      "sourceSheetRow": 310,
+      "approvedSheetRow": 2656,
+      "version": "v4",
+      "lat": 35.675644,
+      "lng": 139.7513876,
+      "accessStatus": "red",
+      "municipality": "東京都千代田区",
+      "siteName": "上杉家江戸鱗屋敷旧地（直江兼続没地）",
+      "approvedBody": "1619年旧暦12月19日、直江兼続は江戸にあった上杉家の鱗屋敷で亡くなった。ここはその屋敷の旧地とされる地域で、米沢の重臣だった兼続が最後に滞在した場所を伝える。しかし江戸時代の屋敷建物は残らず、敷地の境界や死去した部屋の位置も確定していない。兼続の墓は米沢の林泉寺にあり、江戸の死去場所とは別の史跡である。現在の公的施設の敷地への立ち入りを促す場所ではなく、歴史を知らせるための地点である。",
+      "sourceIds": [
+        "sg2src-a-kanetsugu-nagaoka-uroko-20261109",
+        "sg2src-a-kanetsugu-uroko-location-candidate-20261109",
+        "sg2src-b-uroko-chiyoda-official-20261109",
+        "sg2src-b-sakurada-uroko-distinct-marker-20261109"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③310位置版】WGS84=35.675644, 139.7513876。見学信号色=赤。B関係審査済み経歴：江戸の鱗屋敷で死去する［④558］。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-nobutora-iidagawara-20261111",
+      "sourceSheetRow": 335,
+      "approvedSheetRow": 2232,
+      "version": "v3",
+      "lat": 35.6710625,
+      "lng": 138.5489375,
+      "accessStatus": "yellow",
+      "municipality": "山梨県甲府市",
+      "siteName": "飯田河原古戦場跡（1521年今川勢との戦い）",
+      "approvedBody": "1521年10月、武田信虎の軍が甲府近くの飯田河原で今川方の軍勢を退けた合戦地域。新しい府中を守る戦いの舞台となった。",
+      "sourceIds": [
+        "sg2src-a-nobutora-heibonsha-iida-20261111",
+        "sg2src-a-nobutora-yamanashi-iida-20261111",
+        "sg2src-b-iidagawara-regional-20261114",
+        "sg2src-b-iida-yaimanashi-memorial-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③335位置版】WGS84=35.6710625, 138.5489375。見学信号色=黄。B関係審査済み経歴：飯田河原で今川勢を破る［④615］。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-nobutora-kamijogawara-20261111",
+      "sourceSheetRow": 336,
+      "approvedSheetRow": 2233,
+      "version": "v3",
+      "lat": 35.6851875,
+      "lng": 138.5329375,
+      "accessStatus": "yellow",
+      "municipality": "山梨県甲斐市",
+      "siteName": "上条河原合戦伝承地（1521年今川勢との戦い）",
+      "approvedBody": "1521年11月23日、武田信虎軍が今川勢と戦ったと伝わる上条河原の地域。飯田河原の戦いとは別の日の衝突である。",
+      "sourceIds": [
+        "sg2src-a-nobutora-heibonsha-iida-20261111",
+        "sg2src-b-kamijo-kai-monument-20261114",
+        "sg2src-b-iidagawara-regional-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③336位置版】WGS84=35.6851875, 138.5329375。見学信号色=黄。B関係審査済み経歴：上条河原で再び今川勢を退ける［④617］。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-muneshige-akadate-20261111",
+      "sourceSheetRow": 353,
+      "approvedSheetRow": 2238,
+      "version": "v2",
+      "lat": 37.0410625,
+      "lng": 140.3766875,
+      "accessStatus": "red",
+      "municipality": "福島県東白川郡棚倉町",
+      "siteName": "赤館城跡（宗茂の南郷時代の拠点候補）",
+      "approvedBody": "赤館城は棚倉の中世以来の山城。棚倉町の歴史資料によると、立花宗茂は1606年に赤館城主となり、南郷・棚倉の領地を治めた。1622年に丹羽長重が入封し、後に築かれた棚倉城へ拠点が移った。現在は赤館公園に遺構が残る。",
+      "sourceIds": [
+        "sg2src-a-muneshige-m-20261111",
+        "sg2src-a-muneshige-k-20261111",
+        "sg2src-a-recheck-akadate-tanagura-20261112"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③353位置版】WGS84=37.0410625, 140.3766875。見学信号色=赤。B関係審査済み経歴：陸奥の赤館城を奪取する［④746］。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-muneshige-old-kotokuji-20261111",
+      "sourceSheetRow": 357,
+      "approvedSheetRow": 2239,
+      "version": "v3",
+      "lat": 35.7125625,
+      "lng": 139.7806875,
+      "accessStatus": "yellow",
+      "municipality": "東京都台東区",
+      "siteName": "旧広徳寺下谷寺域跡（立花宗茂埋葬の歴史地）",
+      "approvedBody": "立花宗茂が1642年に没した後、江戸下谷の広徳寺へ葬られたという歴史に関係する旧寺域。広徳寺は関東大震災後の区画整理などを経て現在の練馬区桜台へ移転し、旧下谷の墓石・現在の墓域と1642年当時の埋葬地は同一地点ではない。",
+      "sourceIds": [
+        "sg2src-a-muneshige-old-kotokuji-taito-20261111",
+        "sg2src-b-kotokuji-old-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③357位置版】WGS84=35.7125625, 139.7806875。見学信号色=黄。経歴獲得条件は④B独立審査待ち（史跡位置公開とは別）。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-shigezane-omori-20261112",
+      "sourceSheetRow": 359,
+      "approvedSheetRow": 2240,
+      "version": "v2",
+      "lat": 37.725872,
+      "lng": 140.433404,
+      "accessStatus": "green",
+      "municipality": "福島県福島市",
+      "siteName": "大森城跡（伊達成実生誕・伊達実元居城）",
+      "approvedBody": "大森城は伊達実元が拠った福島盆地の山城で、1568年に子の伊達成実が生まれたと伝えられる。山の地形を利用した城郭で、伊達氏の南奥羽での支配を支えた。",
+      "sourceIds": [
+        "sg2src-a-shigezane-life-20261112",
+        "sg2src-a-shigezane-fukushima-20261112",
+        "sg2src-b-geoshape-site359-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③359位置版】WGS84=37.725872, 140.433404。見学信号色=緑。B関係審査済み経歴：大森城で伊達実元の子として生まれる［④690］／大森城で元服し藤五郎成実と名乗る［④691］／父実元から家督を継ぐ［④692］。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-shigezane-kakuda-20261112",
+      "sourceSheetRow": 360,
+      "approvedSheetRow": 2241,
+      "version": "v2",
+      "lat": 37.969328,
+      "lng": 140.777834,
+      "accessStatus": "red",
+      "municipality": "宮城県角田市",
+      "siteName": "角田城跡（伊達成実の1591年居城）",
+      "approvedBody": "1591年、豊臣政権下の伊達家領地替えに伴い成実が入った角田城の跡。臥牛館とも呼ばれ、後に石川氏の居城となった。現在の主郭一帯は学校敷地であり、史跡案内と立入範囲は別となる。",
+      "sourceIds": [
+        "sg2src-a-shigezane-kakuda-20261112",
+        "sg2src-a-shigezane-life-20261112",
+        "sg2src-b-geoshape-site360-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③360位置版】WGS84=37.969328, 140.777834。見学信号色=赤。B関係審査済み経歴：二本松から角田城へ拠点を移す［④696］。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-shigezane-watari-20261112",
+      "sourceSheetRow": 362,
+      "approvedSheetRow": 2243,
+      "version": "v2",
+      "lat": 38.033491,
+      "lng": 140.851309,
+      "accessStatus": "green",
+      "municipality": "宮城県亘理郡亘理町",
+      "siteName": "亘理要害跡（亘理神社・伊達成実の館）",
+      "approvedBody": "1602年末の伊達政宗の配置命令で成実が領主となった亘理城・亘理要害の跡。成実は城と町場を整え、南方への守りと領内の農地開発を進めた。現在の亘理神社・旧舘公園一帯は後世の姿である。",
+      "sourceIds": [
+        "sg2src-a-shigezane-watariCastle-20261112",
+        "sg2src-a-shigezane-life-20261112",
+        "sg2src-a-shigezane-letter1602-20261112",
+        "sg2src-a-shigezane-museum171-20261112",
+        "sg2src-b-geoshape-site362-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③362位置版】WGS84=38.033491, 140.851309。見学信号色=緑。B関係審査済み経歴：政宗の命で亘理城を任される［④698］／亘理の館と城下町の整備を進める［④699］／養嗣子の宗実に家督を譲る［④700］。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-tamenobu-namioka-20261112",
+      "sourceSheetRow": 367,
+      "approvedSheetRow": 2244,
+      "version": "v2",
+      "lat": 40.718131,
+      "lng": 140.604406,
+      "accessStatus": "green",
+      "municipality": "青森県青森市",
+      "siteName": "浪岡城跡（浪岡北畠氏の居城）",
+      "approvedBody": "浪岡北畠氏が本拠とした城跡で、1578年に為信の勢力によって落城したとされる。現在は国指定史跡として史跡公園が整備されている。",
+      "sourceIds": [
+        "sg2src-a-tamenobu-aomori-namioka-20261112",
+        "sg2src-a-tamenobu-aomori-namioka-pref-20261112",
+        "sg2src-b-geoshape-site367-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③367位置版】WGS84=40.718131, 140.604406。見学信号色=緑。B関係審査済み経歴：浪岡城を攻略し北畠氏を滅ぼす［④707］。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-tamenobu-horikoshi-20261112",
+      "sourceSheetRow": 370,
+      "approvedSheetRow": 2246,
+      "version": "v2",
+      "lat": 40.572671,
+      "lng": 140.522096,
+      "accessStatus": "yellow",
+      "municipality": "青森県弘前市",
+      "siteName": "堀越城跡（津軽為信の居城）",
+      "approvedBody": "為信が1594年に大浦城から居城を移し、大改修した城跡。家臣や商人も集めて津軽の政治拠点とした。国指定の津軽氏城跡の一部である。",
+      "sourceIds": [
+        "sg2src-a-tamenobu-hirosaki-horikoshi-20261112",
+        "sg2src-a-tamenobu-hirosaki-horikoshi-cultural-20261112",
+        "sg2src-b-geoshape-site370-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③370位置版】WGS84=40.572671, 140.522096。見学信号色=黄。B関係審査済み経歴：堀越城へ居城を移し城下を整える［④711］。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-tamenobu-kakushu-20261112",
+      "sourceSheetRow": 372,
+      "approvedSheetRow": 2247,
+      "version": "v2",
+      "lat": 40.612537,
+      "lng": 140.450363,
+      "accessStatus": "yellow",
+      "municipality": "青森県弘前市",
+      "siteName": "革秀寺（津軽為信霊屋）",
+      "approvedBody": "津軽為信を祀る霊屋のある寺。為信の死後、信枚が葬儀と供養のために寺院と霊廟を整えた。為信が1598年頃に寺の前身を支えたという伝承とは年代を区別する。",
+      "sourceIds": [
+        "sg2src-a-tamenobu-hirosaki-kakushu-20261112",
+        "sg2src-a-tamenobu-aomori-tamenobu-tamaya-20261112",
+        "sg2src-b-geoshape-site372-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③372位置版】WGS84=40.612537, 140.450363。見学信号色=黄。経歴獲得条件は④B独立審査待ち（史跡位置公開とは別）。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-tamenobu-hirosaki-20261112",
+      "sourceSheetRow": 373,
+      "approvedSheetRow": 2248,
+      "version": "v2",
+      "lat": 40.605953,
+      "lng": 140.465065,
+      "accessStatus": "yellow",
+      "municipality": "青森県弘前市",
+      "siteName": "弘前城跡（高岡城跡）",
+      "approvedBody": "津軽為信が1603年頃に高岡の新たな城下を計画し、子の信枚が1611年に築いた城の跡。為信が完成後の弘前城に住んだという説明は正しくない。",
+      "sourceIds": [
+        "sg2src-a-tamenobu-hirosaki-hirosaki-planning-20261112",
+        "sg2src-a-tamenobu-hirosaki-hirosaki-castle-20261112",
+        "sg2src-b-geoshape-site373-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③373位置版】WGS84=40.605953, 140.465065。見学信号色=黄。経歴獲得条件は④B独立審査待ち（史跡位置公開とは別）。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-tamenobu-iwakisan-20261112",
+      "sourceSheetRow": 374,
+      "approvedSheetRow": 2249,
+      "version": "v2",
+      "lat": 40.621863,
+      "lng": 140.340621,
+      "accessStatus": "yellow",
+      "municipality": "青森県弘前市",
+      "siteName": "岩木山神社拝殿（旧百沢寺大堂）",
+      "approvedBody": "岩木山麓の岩木山神社拝殿は、もとは百沢寺の大堂として造られた重要文化財。1589年の噴火で寺院が焼失した後、津軽為信が慶長8年（通常の西暦換算では1603年）に起工し、為信没後の1640年に三代信義の代で完成した。青森県公式の説明には同じ慶長8年を1602年と併記するものがあり、西暦表記の差は留保する。現在の拝殿と創建時の建築工程を区別する。",
+      "sourceIds": [
+        "sg2src-a-tamenobu-hirosaki-iwakisan-20261112",
+        "sg2src-b-iwakisan-public-20261114",
+        "sg2src-a-tamenobu-iwakisan-hirosaki-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③374位置版】WGS84=40.621863, 140.340621。見学信号色=黄。B関係審査済み経歴：百沢寺大堂の再建を始める［④715］。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。慶長8年の西暦換算に公式間の食い違いあり。"
+    },
+    {
+      "siteId": "sg2site-a-haruhisa-grave-20261113",
+      "sourceSheetRow": 395,
+      "approvedSheetRow": 2299,
+      "version": "v1",
+      "lat": 35.3600956,
+      "lng": 133.1862903,
+      "accessStatus": "yellow",
+      "municipality": "島根県安来市",
+      "siteName": "伝尼子晴久の墓（富田城南麓）",
+      "approvedBody": "出雲の戦国大名尼子晴久の墓と伝わる宝篋印塔。月山富田城南麓の塩谷に残るが、墓の比定には伝承としての留保が必要。晴久は1560年に没した。",
+      "sourceIds": [
+        "sg2src-a-haruhisa-grave-20261113",
+        "sg2src-b-hold-haruhisa-tomb-20261114",
+        "sg2src-b-haruhisa-grave-shimane-map-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③395公開位置版】WGS84=35.3600956,133.1862903／見学信号色=黄／所在地=島根県安来市。島根県公式観光が公表する『伝・尼子晴久の墓』固有の地図地点。『伝』を保持し本人の真墓・死去地点と断定せず、足元と墓域管理・案内に従う。これらは登山口・私有地への誘導や立入許可の保証ではない。④人物経歴獲得連携はB別審査、ユーザー本文位置承認は⑥本行で行う。"
+    },
+    {
+      "siteId": "sg2site-a-kaki-castle-20261114",
+      "sourceSheetRow": 412,
+      "approvedSheetRow": 2254,
+      "version": "v1",
+      "lat": 37.271775,
+      "lng": 138.387355,
+      "accessStatus": "red",
+      "municipality": "新潟県上越市",
+      "siteName": "柿崎城跡（柿崎氏の本拠）",
+      "approvedBody": "上杉謙信に仕えた柿崎氏が越後頸城で拠点とした城跡。景家らの領地との歴史的関係があるが、現在見える道路や後世の構造物を戦国期の柿崎城の建物と同一視しない。",
+      "sourceIds": [
+        "sg2src-a-kaki-01-20261114",
+        "sg2src-a-site-kakizaki-joetsu-20261114",
+        "sg2src-b-kakizaki-public-codh-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③412位置版】WGS84=37.271775, 138.387355。見学信号色=赤。経歴獲得条件は④B独立審査待ち（史跡位置公開とは別）。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    },
+    {
+      "siteId": "sg2site-a-murakami-katsurao-20261114",
+      "sourceSheetRow": 417,
+      "approvedSheetRow": 2259,
+      "version": "v1",
+      "lat": 36.473901,
+      "lng": 138.173121,
+      "accessStatus": "yellow",
+      "municipality": "長野県埴科郡坂城町",
+      "siteName": "葛尾城跡（村上義清の居城）",
+      "approvedBody": "北信濃の村上義清が本拠とした葛尾城の跡。義清は1548年上田原、1550年砥石で武田軍を破ったが、1553年に武田勢の圧力を受けて居城を離れ、越後の長尾景虎を頼った。山城遺構の範囲や安全な入口は別審査。",
+      "sourceIds": [
+        "sg2src-a-murakami-02-20261114",
+        "sg2src-b-katsurao-codh-20261114"
+      ],
+      "pinWorkflow": "C候補（別途公開承認）",
+      "checkedAt": "2026-11-14",
+      "disclaimer": "【③417位置版】WGS84=36.473901, 138.173121。見学信号色=黄。B関係審査済み経歴：葛尾城を放棄して北信濃を離れる［④833］。公開情報点は当時の本人の所在・施設内部・安全な登山入口を保証しない。"
+    }
+  ],
+  "held": [
+    {
+      "siteId": "sg2site-yoshiteru-nakao",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-iehisa-ten-shoji",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-rikyu-old-myokakuji-20261109",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-joun-homan-20261111",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-joun-head-mound-20261111",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-kazumasu-kanie-20261111",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-kazumasu-kannagawa-20261111",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-kazumasu-otakiji-20261111",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-hanbei-omido-birth-20261111",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-hanbei-hirai-camp-20261111",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-hanbei-hirai-grave-20261111",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-hanbei-gomyo-inari-20261111",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-dosetsu-kitano-camp-20261111",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-muneshige-egami-yain-20261111",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-muneshige-terayama-20261111",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-shigezane-shiroishi-20261112",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-tamenobu-oura-20261112",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-tamenobu-ishikawa-20261112",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-tamenobu-daikoji-20261112",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-tamenobu-kunohe-20261112",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-junkei-tsutsui-castle-20261112",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-junkei-tatsuichi-20261112",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-junkei-tamon-20261112",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-junkei-shigisan-20261112",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-junkei-koriyama-20261112",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-junkei-grave-20261112",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-junkei-denkoji-20261112",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-joun-1583-konomi-20261113",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-joun-1583-komenoyama-20261113",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-satake-ota-20261113",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-ujiteru-hachioji-20261113",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-takanobu-mizugae-20261113",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-takanobu-muranaka-20261113",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-takanobu-imayama-20261113",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-yoshitaka-ouchi-20261113",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-yoshitaka-tsukiyama-20261113",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-yoshitaka-taineiji-20261113",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-haruhisa-shingu-20261113",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-nanbu-seijuji-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-nanbu-sannohe-20261114",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-kunohe-sanohazama-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-kunohe-kubizuka-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-takatora-wakayama-20261114",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-takatora-uwajima-20261114",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-takatora-imabari-20261114",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-takatora-tsu-20261114",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-takatora-iga-ueno-20261114",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-kunohe-kumanodate-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-miy-akutagawa-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-miy-iimori-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-kaki-ryogonji-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-kita-taki-residence-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-sue-wakayama-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-dosan-mound-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-nabe-birth-honjo-20261114",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-sorin-funai-residence-20261114",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-sorin-usuki-castle-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-audit-sorin-moji-castle-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-audit-nabe-ise-shrine-20261114",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    },
+    {
+      "siteId": "sg2site-a-miy-koshimizu-20261114",
+      "reason": "⑥最新版にB公表参考座標が記載されていない"
+    },
+    {
+      "siteId": "sg2site-a-kiyomasa-kumamoto-castle-20261115",
+      "reason": "⑥最新版に見学信号色の明示がない"
+    }
+  ]
+}
