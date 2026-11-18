@@ -1600,6 +1600,7 @@
     ]
   },
   "checks": {
+    "existingVersionSynced": 49,
     "sharedSites": 51,
     "unexpectedHistoricLoss": 0,
     "unexpectedSiteLoss": 0,

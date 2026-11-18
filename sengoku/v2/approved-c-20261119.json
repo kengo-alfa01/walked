@@ -42206,8 +42206,8 @@
         "https://hyakugo.pref.kyoto.lg.jp/contents/detail.php?id=28572&p=2"
       ],
       "approval": {
-        "sheetRow": 120,
-        "version": "v1",
+        "sheetRow": 468,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -43058,11 +43058,11 @@
         "https://shirobito.jp/castle/1722"
       ],
       "approval": {
-        "sheetRow": 131,
-        "version": "v1",
+        "sheetRow": 1559,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
-        "rights": "自治体確認済・権利OK",
+        "rights": "地点確認済・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
         "sha256": "aedde8878f73407d5973309d7eea2a819ef074d0b8d20a57dbc79fb10e33e1cd",
@@ -43356,8 +43356,8 @@
         "https://www.city.matsusaka.mie.jp/site/culture-info/okawatijyoato.html"
       ],
       "approval": {
-        "sheetRow": 135,
-        "version": "v1",
+        "sheetRow": 475,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -43581,8 +43581,8 @@
         "https://inuyama-castle.jp/about/"
       ],
       "approval": {
-        "sheetRow": 138,
-        "version": "v1",
+        "sheetRow": 478,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -45723,8 +45723,8 @@
         "https://www.archives.go.jp/exhibition/digital/ieyasu/contents1_05/"
       ],
       "approval": {
-        "sheetRow": 166,
-        "version": "v1",
+        "sheetRow": 500,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -46326,8 +46326,8 @@
         "https://www.toshogu.or.jp/worship/precincts.php"
       ],
       "approval": {
-        "sheetRow": 174,
-        "version": "v1",
+        "sheetRow": 507,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -46468,8 +46468,8 @@
         "https://www.city.oyama.tochigi.jp/kankou-bunka/rekishi_bunka/bunkazai/page000011.html"
       ],
       "approval": {
-        "sheetRow": 176,
-        "version": "v1",
+        "sheetRow": 509,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -46620,8 +46620,8 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/47/470000123400.html"
       ],
       "approval": {
-        "sheetRow": 970,
-        "version": "v1",
+        "sheetRow": 1553,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -48163,11 +48163,11 @@
         "https://www.city.kimitsu.lg.jp/site/kanko/2219.html"
       ],
       "approval": {
-        "sheetRow": 236,
-        "version": "v1",
+        "sheetRow": 1586,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
-        "rights": "自治体確認済・権利OK",
+        "rights": "地点確認済・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
         "sha256": "476e350290a89273d19453f8d2b3e7a61bca2e0bb92991038eda0157d500234d",
@@ -49268,11 +49268,11 @@
         "https://www.city.sendai.jp/shisekichosa/kurashi/manabu/kyoiku/inkai/bunkazai/bunkazai/joseki/wakabayashijo.html"
       ],
       "approval": {
-        "sheetRow": 524,
-        "version": "v2",
+        "sheetRow": 1619,
+        "version": "v3",
         "user": "公開OK",
         "quality": "品質合格",
-        "rights": "自治体確認済・権利OK",
+        "rights": "地点確認済・権利OK",
         "handoff": "C候補（別途公開承認）",
         "sourceMatch": "一致",
         "sha256": "d290d64154b3e5af3eb6ecb0bd342f238e53c0a91754a12df68a2c85e1d6fdc5",
@@ -50482,8 +50482,8 @@
         "https://www.city.sendai.jp/tokyojimu/shise/tokyo/masamuneko/kamiyashiki1.html"
       ],
       "approval": {
-        "sheetRow": 517,
-        "version": "v1",
+        "sheetRow": 1690,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -50711,8 +50711,8 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000115700.html"
       ],
       "approval": {
-        "sheetRow": 538,
-        "version": "v1",
+        "sheetRow": 1589,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -50784,8 +50784,8 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000111900.html"
       ],
       "approval": {
-        "sheetRow": 539,
-        "version": "v1",
+        "sheetRow": 1590,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -51767,8 +51767,8 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/23/230000468700.html"
       ],
       "approval": {
-        "sheetRow": 571,
-        "version": "v1",
+        "sheetRow": 1600,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -56199,8 +56199,8 @@
         "https://www.saitama-jinjacho.or.jp/shrine/9560/"
       ],
       "approval": {
-        "sheetRow": 1259,
-        "version": "v1",
+        "sheetRow": 1648,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -56500,8 +56500,8 @@
         "https://ja.aroundus.com/p/11814742-xin-yan-si"
       ],
       "approval": {
-        "sheetRow": 1284,
-        "version": "v1",
+        "sheetRow": 1644,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -56572,8 +56572,8 @@
         "https://www.mboso-etoko.jp/mboso_map/detail.php?poi=51"
       ],
       "approval": {
-        "sheetRow": 1320,
-        "version": "v1",
+        "sheetRow": 1587,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -58867,8 +58867,8 @@
         "https://www.enjoy-minakami.jp/spot/8065/"
       ],
       "approval": {
-        "sheetRow": 1350,
-        "version": "v1",
+        "sheetRow": 1715,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -59020,8 +59020,8 @@
         "https://geoshape.ex.nii.ac.jp/nrct/resource/14/140000217700.html"
       ],
       "approval": {
-        "sheetRow": 1352,
-        "version": "v1",
+        "sheetRow": 1717,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -59096,8 +59096,8 @@
         "https://www.city.odawara.kanagawa.jp/kanko/corridor/castle/p10000.html"
       ],
       "approval": {
-        "sheetRow": 1353,
-        "version": "v1",
+        "sheetRow": 1718,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -59730,8 +59730,8 @@
         "https://shirobito.jp/castle/1979"
       ],
       "approval": {
-        "sheetRow": 1396,
-        "version": "v1",
+        "sheetRow": 2011,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -61121,8 +61121,8 @@
         "https://jodoshuzensho.jp/daijiten/index.php/良玄寺"
       ],
       "approval": {
-        "sheetRow": 972,
-        "version": "v1",
+        "sheetRow": 2045,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -61872,8 +61872,8 @@
         "https://yamadera-benibana.jp/experience/yamadera/%E7%AB%8B%E7%9F%B3%E5%AF%BA/"
       ],
       "approval": {
-        "sheetRow": 1267,
-        "version": "v1",
+        "sheetRow": 2009,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -61948,8 +61948,8 @@
         "https://kojodan.jp/castle/728/"
       ],
       "approval": {
-        "sheetRow": 1276,
-        "version": "v1",
+        "sheetRow": 2070,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -62027,8 +62027,8 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/47/470000098300.html"
       ],
       "approval": {
-        "sheetRow": 1277,
-        "version": "v1",
+        "sheetRow": 2071,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -62108,8 +62108,8 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/46/index.html"
       ],
       "approval": {
-        "sheetRow": 1278,
-        "version": "v1",
+        "sheetRow": 2072,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -62186,8 +62186,8 @@
         "https://www2.lib.pref.miyazaki.lg.jp/07_history/040/010/040/44_1.pdf"
       ],
       "approval": {
-        "sheetRow": 1279,
-        "version": "v1",
+        "sheetRow": 2073,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -62339,8 +62339,8 @@
         "https://mapfan.com/spots/SC543%2CJ%2CEW"
       ],
       "approval": {
-        "sheetRow": 1311,
-        "version": "v1",
+        "sheetRow": 2064,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -62417,8 +62417,8 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/26/260000080100.html"
       ],
       "approval": {
-        "sheetRow": 1312,
-        "version": "v1",
+        "sheetRow": 2065,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -62494,8 +62494,8 @@
         "https://www2.city.kyoto.lg.jp/html/somu/rekishi/fm/ishibumi/html/ka121.html"
       ],
       "approval": {
-        "sheetRow": 1313,
-        "version": "v1",
+        "sheetRow": 2066,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -62572,8 +62572,8 @@
         "https://vinformation.net/blog/2012/07/29/201207-article_11/"
       ],
       "approval": {
-        "sheetRow": 1314,
-        "version": "v1",
+        "sheetRow": 2067,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -62652,8 +62652,8 @@
         "https://mapfan.com/spots/SC3WC%2CJ%2C99"
       ],
       "approval": {
-        "sheetRow": 1315,
-        "version": "v1",
+        "sheetRow": 2068,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -63038,8 +63038,8 @@
         "https://yamabiko.ciao.jp/05_root-map/25ns/25n_toragozenyama130909/25n_toragozenyama130909.html"
       ],
       "approval": {
-        "sheetRow": 1357,
-        "version": "v1",
+        "sheetRow": 2015,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -63194,8 +63194,8 @@
         "https://www.courts.go.jp/nara/about/syokai/index.html"
       ],
       "approval": {
-        "sheetRow": 1359,
-        "version": "v1",
+        "sheetRow": 2017,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -63661,8 +63661,8 @@
         "https://map.yahoo.co.jp/v3/place/2TGVccaktHM"
       ],
       "approval": {
-        "sheetRow": 1365,
-        "version": "v1",
+        "sheetRow": 2023,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -63823,8 +63823,8 @@
         "https://fukubun.net/collection/381"
       ],
       "approval": {
-        "sheetRow": 1367,
-        "version": "v1",
+        "sheetRow": 2025,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -64149,8 +64149,8 @@
         "https://map.yahoo.co.jp/v3/place/k55AruBLNNU"
       ],
       "approval": {
-        "sheetRow": 1371,
-        "version": "v1",
+        "sheetRow": 2031,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -64465,8 +64465,8 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/23/230000453200.html"
       ],
       "approval": {
-        "sheetRow": 1375,
-        "version": "v1",
+        "sheetRow": 2040,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -64618,8 +64618,8 @@
         "https://www.numata-kankou.jp/activity/shrine-temple/shogakuji/index.html"
       ],
       "approval": {
-        "sheetRow": 1377,
-        "version": "v1",
+        "sheetRow": 2050,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -65511,8 +65511,8 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/35/350000208400.html"
       ],
       "approval": {
-        "sheetRow": 1399,
-        "version": "v1",
+        "sheetRow": 2074,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -65585,8 +65585,8 @@
         "https://www.city.hioki.kagoshima.jp/bunkazai/kurashi/kosodate-kyoiku/shakaikyoiku/bunkazai/fukiage/baitenjiato.html"
       ],
       "approval": {
-        "sheetRow": 1400,
-        "version": "v1",
+        "sheetRow": 2075,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "地点確認済・権利OK",
@@ -65858,8 +65858,8 @@
         "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/2333.pdf"
       ],
       "approval": {
-        "sheetRow": 1921,
-        "version": "v1",
+        "sheetRow": 2081,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -66268,8 +66268,8 @@
         "https://www.kankou-gifu.jp/spot/detail_6027.html"
       ],
       "approval": {
-        "sheetRow": 1929,
-        "version": "v1",
+        "sheetRow": 2084,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -66339,8 +66339,8 @@
         "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/3/1344.html"
       ],
       "approval": {
-        "sheetRow": 1930,
-        "version": "v1",
+        "sheetRow": 2085,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -66791,8 +66791,8 @@
         "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html"
       ],
       "approval": {
-        "sheetRow": 1937,
-        "version": "v1",
+        "sheetRow": 2088,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -66984,8 +66984,8 @@
         "https://www.kankou-gifu.jp/spot/detail_6875.html"
       ],
       "approval": {
-        "sheetRow": 1940,
-        "version": "v1",
+        "sheetRow": 2090,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -67259,8 +67259,8 @@
         "https://www.town.shingu.fukuoka.jp/kanko_bunka/kanko/4/2306.html"
       ],
       "approval": {
-        "sheetRow": 1945,
-        "version": "v1",
+        "sheetRow": 2092,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -67336,8 +67336,8 @@
         "https://www.town.shingu.fukuoka.jp/kanko_bunka/kanko/4/2304.html"
       ],
       "approval": {
-        "sheetRow": 1946,
-        "version": "v1",
+        "sheetRow": 2093,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
@@ -67826,8 +67826,8 @@
         "https://www.kankomie.or.jp/spot/8301"
       ],
       "approval": {
-        "sheetRow": 1987,
-        "version": "v1",
+        "sheetRow": 2098,
+        "version": "v2",
         "user": "公開OK",
         "quality": "品質合格",
         "rights": "自治体確認済・権利OK",
