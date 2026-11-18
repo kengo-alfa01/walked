@@ -81,3 +81,23 @@ test('retired cards remain retrievable but cannot be newly awarded',()=>{
  const awarded=V.award(catalog,visit,{},[]);
  assert.ok(awarded.added.every(x=>!retiredIds.has(x)));
 });
+test('520 already-published C candidates use exact latest ⑥ version and unchanged body',()=>{
+ const audit=read('docs/c-release/20261119-existing-approved-audit.json');
+ assert.equal(audit.count,520);
+ let revised=0;
+ for(const c of audit.alreadyPublishedC){
+  const bodyPart=c.type==='人物紹介'?mp.get(c.id)?.introduction:
+    c.type==='完成版ストーリー'?mp.get(c.id)?.story:
+    c.type==='経歴'?mh.get(c.id):ms.get(c.id);
+  assert.ok(bodyPart,'approved existing item unavailable: '+c.key);
+  const body=c.type==='史跡'?bodyPart.description:bodyPart.text;
+  assert.equal(hash(body),c.sha256,'published body changed: '+c.key);
+  assert.equal(bodyPart.approval.sheetRow,c.sheetRow,'⑥ approval row mismatch: '+c.key);
+  assert.equal(bodyPart.approval.version,c.version,'⑥ version mismatch: '+c.key);
+  assert.equal(bodyPart.approval.user,'公開OK');
+  assert.equal(bodyPart.approval.sourceMatch,'一致');
+  if(c.sheetRow!==c.previousApprovalRow||c.version!==c.previousVersion)revised++;
+ }
+ assert.equal(revised,49);
+ assert.equal(qa.checks.existingVersionSynced,49);
+});
