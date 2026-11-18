@@ -14,9 +14,9 @@ const kept=new Set([...r.histories.map(x=>x.historyId),...r.sites.map(x=>x.siteI
 test('fixed C batch, exact published scope, no guessed new pins',()=>{
  assert.equal(snap.fixed.length,1230);assert.equal(snap.legacy.length,31);assert.equal(snap.pinCandidates.length,77);
  assert.equal(r.people.length,65);assert.equal(r.histories.length,1203);assert.equal(r.sites.length,417);
- assert.equal(r.sites.filter(x=>x.publicPin).length,334);
+ assert.equal(r.sites.filter(x=>x.publicPin).length,350);
  assert.equal(r.retiredHistories.length,31);
- assert.equal(qa.holds.history.length,6);assert.equal(qa.holds.site.length,1);assert.equal(qa.holds.pin.length,77);
+ assert.equal(qa.holds.history.length,6);assert.equal(qa.holds.site.length,1);assert.equal(qa.holds.pin.length,61);assert.equal(qa.processed.pin.length,16);
  assert.equal(qa.counts.records,65*2+1203+417);
 });
 test('existing content preserved except explicit old ID retirement',()=>{
@@ -27,12 +27,26 @@ test('existing content preserved except explicit old ID retirement',()=>{
 });
 test('334 existing published pins preserve exact public coordinates and access conditions',()=>{
  const before=new Map(prev.sites.filter(x=>x.publicPin).map(x=>[x.siteId,x]));
- for(const s of r.sites.filter(x=>x.publicPin)){
-  const old=before.get(s.siteId);assert.ok(old,'unauthorized pin '+s.siteId);
+ for(const old of prev.sites.filter(x=>x.publicPin)){
+  const s=ms.get(old.siteId);assert.ok(s,'lost previously published pin '+old.siteId);
   assert.deepEqual(s.point,old.point);assert.equal(s.pinReview.accessStatus,old.pinReview.accessStatus);
   assert.equal(s.pinReview.sourceSheetRow,old.pinReview.sourceSheetRow);
   assert.equal(hash(s.pinApprovalText||s.description),s.pinApproval.sha256);
  }
+ const manifest=read('docs/c-release/20261119-approved-pin-projection.json');
+ assert.equal(manifest.ready.length,16);assert.equal(manifest.held.length,61);
+ const newPinIds=new Set(r.sites.filter(x=>x.publicPin&&!before.has(x.siteId)).map(x=>x.siteId));
+ assert.deepEqual(newPinIds,new Set(manifest.ready.map(x=>x.siteId)));
+ for(const pin of manifest.ready){
+  const site=ms.get(pin.siteId);
+  assert.ok(site.publicPin);assert.deepEqual(site.point,[pin.lng,pin.lat]);
+  assert.equal(site.pinReview.accessStatus,pin.accessStatus);
+  assert.equal(site.pinApproval.sheetRow,pin.approvedSheetRow);
+  assert.equal(site.pinReview.sourceSheetRow,pin.sourceSheetRow);
+  assert.equal(site.pinReview.checkedAt,pin.checkedAt);
+  assert.equal(site.pinApproval.sha256,site.approval.sha256);
+ }
+ for(const pin of manifest.held)assert.ok(!ms.get(pin.siteId)?.publicPin,'unapproved pin '+pin.siteId);
 });
 test('new content references only ⑥F=公開OK P=一致 and all ④B-qualified acquisition links',()=>{
  for(const f of snap.fixed){
