@@ -32,7 +32,8 @@ for(const h of pkg.histories)add('経歴',h.historyId,h.title,h.approval,h.perso
 for(const s of pkg.sites){
  if(s.publicPin && (!s.pinApproval || !Array.isArray(s.point) || s.point.length!==2))
   throw Error('Published pin missing approved location: '+s.siteId);
- add('史跡',s.siteId,s.name,s.publicPin?s.pinApproval:s.approval,s.personIds||[],s.publicPin);
+ // Content uses the latest ⑥-approved text; pin approval is independently retained.
+ add('史跡',s.siteId,s.name,s.approval,s.personIds||[],s.publicPin);
 }
 const csvCell=v=>{
  let s=String(v??'');
