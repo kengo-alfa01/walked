@@ -103,11 +103,35 @@ for(const p of people.values()){if(!p.story||!p.introduction)throw Error('Missin
 const hh=[...histories.values()].filter(h=>h.personId===p.personId);
 if(!hh.length)throw Error('No published history for '+p.personId);
 p.story.unlock={requiredHistoryCount:hh.length,requiredPlaceHistoryCount:hh.filter(h=>h.kind==='place').length,historyIdsSHA256:hash(hh.map(h=>h.historyId).sort().join('\n'))};}
+// Audit existing, already-published C candidates against the latest approved ⑥ row.
+// Text is unchanged; only the provenance row/version may be synchronized here.
+const existingAudit=read('docs/c-release/20261119-existing-approved-audit.json');
+if(existingAudit.snapshotId!==snap.id||existingAudit.count!==520||existingAudit.alreadyPublishedC.length!==520||existingAudit.bodyDiff.length||existingAudit.missing.length)throw Error('Already-published candidate audit invalid');
+let existingVersionSynced=0;
+for(const row of existingAudit.alreadyPublishedC){
+ if(row.type!=='史跡'&&row.type!=='経歴'&&row.type!=='人物紹介'&&row.type!=='完成版ストーリー')throw Error('Invalid audited C kind '+row.key);
+ if(row.user!=='公開OK'||row.quality!=='品質合格'||row.handoff!=='C候補（別途公開承認）'||row.sourceMatch!=='一致'||row.key!==row.type+'|'+row.id)throw Error('Unapproved audit record '+row.key);
+ const p=row.type==='史跡'?sites.get(row.id):row.type==='経歴'?histories.get(row.id):people.get(row.id);
+ if(!p)throw Error('Existing approved release record missing '+row.key);
+ const field=row.type==='人物紹介'?'introduction':row.type==='完成版ストーリー'?'story':null;
+ const part=field?p[field]:p;
+ const body=row.type==='史跡'?part.description:part.text;
+ if(hash(body)!==row.sha256)throw Error('Existing approved release body hash changed '+row.key);
+ const prev=part.approval;
+ if(!prev)throw Error('Previous approved release row missing '+row.key);
+ if(row.personIds.join('\n')!==prev.personId||prev.sourceId!==(field?null:row.id)||prev.kind!==row.type)throw Error('Existing entity ID/kind changed '+row.key);
+ if(prev.sheetRow!==row.sheetRow||prev.version!==row.version){
+  part.approval={...prev,sheetRow:row.sheetRow,version:row.version,user:row.user,quality:row.quality,rights:row.rights,handoff:row.handoff,sourceMatch:row.sourceMatch,sha256:row.sha256};
+  existingVersionSynced++;
+ }
+}
+if(existingVersionSynced!==49)throw Error('Unexpected count of metadata-only approved version updates '+existingVersionSynced);
+
 const retiredHistories=snap.legacy.map(r=>({history:oldHist.get(r.key.split('|')[1]),type:r.category,successors:fields(r.targetIds),formerSiteIds:base.relations.filter(x=>x.historyId===r.key.split('|')[1]).map(x=>x.siteId)}));
 for(const x of pinBatch.held)holds.pin.push({...x});
 const pkg={schemaVersion:base.schemaVersion,sourceSpreadsheetId:base.sourceSpreadsheetId,version:'v2-approved-c-20261119',people:[...people.values()],histories:[...histories.values()],sites:[...sites.values()],relations:[...relations.values()],retiredHistories,notes:{...base.notes,cRelease:{snapshotId:snap.id,baseBlob:'0b137f46487e5ff5bf85444d060e22a080867211',preserveHistoricalPinApproval:true,addedPinCount:pinBatch.ready.length}}};
 const counts={people:pkg.people.length,histories:pkg.histories.length,sites:pkg.sites.length,publicPins:pkg.sites.filter(x=>x.publicPin).length,relations:pkg.relations.length,legacy:retiredHistories.length,records:pkg.people.length*2+pkg.histories.length+pkg.sites.length};
-const audit={releaseVersion:pkg.version,snapshotId:snap.id,baseVersion:base.version,counts,processed:done,holds,checks:{sharedSites,unexpectedHistoricLoss:base.histories.filter(x=>!histories.has(x.historyId)&&!retiredIds.has(x.historyId)).length,unexpectedSiteLoss:base.sites.filter(x=>!sites.has(x.siteId)).length,unapprovedNewPins:pkg.sites.filter(x=>x.publicPin&&!oldSites.get(x.siteId)?.publicPin&&!pinBatch.ready.some(y=>y.siteId===x.siteId)).length,duplicates:{people:pkg.people.length-new Set(pkg.people.map(x=>x.personId)).size,histories:pkg.histories.length-new Set(pkg.histories.map(x=>x.historyId)).size,sites:pkg.sites.length-new Set(pkg.sites.map(x=>x.siteId)).size,relations:pkg.relations.length-new Set(pkg.relations.map(x=>x.historyId+'|'+x.siteId)).size}}};
+const audit={releaseVersion:pkg.version,snapshotId:snap.id,baseVersion:base.version,counts,processed:done,holds,checks:{existingVersionSynced,sharedSites,unexpectedHistoricLoss:base.histories.filter(x=>!histories.has(x.historyId)&&!retiredIds.has(x.historyId)).length,unexpectedSiteLoss:base.sites.filter(x=>!sites.has(x.siteId)).length,unapprovedNewPins:pkg.sites.filter(x=>x.publicPin&&!oldSites.get(x.siteId)?.publicPin&&!pinBatch.ready.some(y=>y.siteId===x.siteId)).length,duplicates:{people:pkg.people.length-new Set(pkg.people.map(x=>x.personId)).size,histories:pkg.histories.length-new Set(pkg.histories.map(x=>x.historyId)).size,sites:pkg.sites.length-new Set(pkg.sites.map(x=>x.siteId)).size,relations:pkg.relations.length-new Set(pkg.relations.map(x=>x.historyId+'|'+x.siteId)).size}}};
 if(audit.checks.unexpectedHistoricLoss||audit.checks.unexpectedSiteLoss||audit.checks.unapprovedNewPins||Object.values(audit.checks.duplicates).some(Boolean))throw Error('C release QA failed');
 if(pkg.people.length!==65||retiredHistories.length!==31)throw Error('Unexpected frozen C scope output');
 const release='sengoku/v2/approved-c-20261119.json';
