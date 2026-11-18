@@ -1565,7 +1565,7 @@ kind,content_id,name,approval_row,approval_version,approval_sha256,person_ids,pu
 史跡,sg2site-a-kenshin-kyoto-gosho,京都御所（歴代天皇の居所）,2885,v3,183dfe900fd70b4faad396a5550a1206dc7d80c423f72370f1e4728091d53881,sg-dc8c550d8769,1,v2-approved-c-20261119
 史跡,sg2site-a-maeda-moribe,森部薬師堂・出世の松（1561年森部合戦古戦場）,2847,v3,a629129744319411b31c5ad3723b22f22987d772af325ad892d8d9ecd348e7b7,sg-added-maeda-toshiie,1,v2-approved-c-20261119
 史跡,sg2site-a-watarigawa-monument,渡川古戦場跡の石碑（四万十川橋西詰）,3320,v3,e01ab8ce853bb29542ccf98c0c5473c074ee821f54d39b49f6a9268e9b574eb2,sg-281d92dc2e0f,1,v2-approved-c-20261119
-史跡,sg2site-a-naoe-uroko-yashiki,上杉家江戸鱗屋敷旧地（直江兼続没地）,2656,v4,19ddc8f89fa5105632eb59a6396fed4831c0993dfbdc5aa2ca7b75b8adcd71ee,sg-1a91ae29cb5a,0,v2-approved-c-20261119
+史跡,sg2site-a-naoe-uroko-yashiki,上杉家江戸鱗屋敷旧地（直江兼続没地）,2656,v4,19ddc8f89fa5105632eb59a6396fed4831c0993dfbdc5aa2ca7b75b8adcd71ee,sg-1a91ae29cb5a,1,v2-approved-c-20261119
 史跡,sg2site-a-tedorigawa-monument,手取川古戦場の碑（呉竹文庫前）,3321,v3,38f95eda98aeb72392cb685b383a1f41d3dd9021c0d35ed9f6df6bf965e1ddb6,sg-2d3f90c28c8f,1,v2-approved-c-20261119
 史跡,sg2site-kanbei-aga,英賀城跡（三木氏の居城・1580年落城）,1396,v1,5fc3e56c4b088556f387eb9042c2178a4ce07585cca870824092106072a12970,sg-master-0817,1,v2-approved-c-20261119
 史跡,sg2site-mogami-yamagata-castle,山形城跡（最上義光の居城）,2653,v3,ed88a56cb245678200c88b45b015c943b75f6511cfb82a57fefe77c39c371960,sg-e04b78ac874d,1,v2-approved-c-20261119
@@ -1660,8 +1660,8 @@ kind,content_id,name,approval_row,approval_version,approval_sha256,person_ids,pu
 史跡,sg2site-a-katsuyori-tano-20261111,田野・武田勝頼終焉の地（1582年）,1931,v1,58922d98bf9ce637c139acbafab7324ca3cca9aa677be15855e52b5793f44c53,sg-e00b2631eded,0,v2-approved-c-20261119
 史跡,sg2site-a-katsuyori-keitokuin-20261111,景徳院（武田勝頼の墓所）,3563,v3,5182a72f976bca1a5f02b91dc74e4a60d4dd833362462f8dd46c71d08bd7da38,sg-e00b2631eded,1,v2-approved-c-20261119
 史跡,sg2site-a-nobutora-kawada-old-20261111,川田館跡（信虎の旧本拠・推定地）,1933,v1,efc1a3146dcbda46f5dea5534fd3cbc76cd614d4fbe18c965d32143150711ffd,sg-98514cee0056,0,v2-approved-c-20261119
-史跡,sg2site-a-nobutora-iidagawara-20261111,飯田河原古戦場跡（1521年今川勢との戦い）,2232,v3,2be20b9ae80b26009864179250659a10814ea1f4921202b43d1fa2f048e4d4d8,sg-98514cee0056,0,v2-approved-c-20261119
-史跡,sg2site-a-nobutora-kamijogawara-20261111,上条河原合戦伝承地（1521年今川勢との戦い）,2233,v3,3f28f314cfcbbbbd7e6633e881d5dc73048c14f3110cdf7844622d05d84155bc,sg-98514cee0056,0,v2-approved-c-20261119
+史跡,sg2site-a-nobutora-iidagawara-20261111,飯田河原古戦場跡（1521年今川勢との戦い）,2232,v3,2be20b9ae80b26009864179250659a10814ea1f4921202b43d1fa2f048e4d4d8,sg-98514cee0056,1,v2-approved-c-20261119
+史跡,sg2site-a-nobutora-kamijogawara-20261111,上条河原合戦伝承地（1521年今川勢との戦い）,2233,v3,3f28f314cfcbbbbd7e6633e881d5dc73048c14f3110cdf7844622d05d84155bc,sg-98514cee0056,1,v2-approved-c-20261119
 史跡,sg2site-a-nobutora-daisenji-20261111,大泉寺（武田信虎の葬儀・墓所）,3522,v3,5173ab8ab3ef8b9408c2c572a3e1779f5a0edb7b3ab5e55255403c31407ca703,sg-98514cee0056,1,v2-approved-c-20261119
 史跡,sg2site-a-nobutora-keisenin-20261111,桂泉院（武田信虎の墓所伝承・高遠）,1937,v1,ee406e6c9facfaf97bea665413f71a2a01c0b6f5dac4efab388f1a71948190ad,sg-98514cee0056,1,v2-approved-c-20261119
 史跡,sg2site-a-takeda-nobushige-tenkyuji-20261111,典厩寺（武田信繁墓・旧鶴巣寺）,3523,v3,b8362480f294da31632bec2eeac44d455c1c0dc942d0a7e9cbf3994f60642a3b,sg-c091a1f2c530,1,v2-approved-c-20261119
@@ -1681,7 +1681,7 @@ kind,content_id,name,approval_row,approval_version,approval_sha256,person_ids,pu
 史跡,sg2site-a-muneshige-fukugonji-20261111,福嚴寺（立花家菩提寺・宗茂御霊屋）,3343,v3,a8f1bb1d86c00dca1eb507b1efd2857b6a8b156efb6b94379482c1a43090cfc0,sg-master-1262,1,v2-approved-c-20261119
 史跡,sg2site-a-joun-homan-20261111,宝満城跡（紹運の高橋家城督拠点）,3325,v3,02303db83202d672a9048c711e6f04406e92f187e1f4aa22448b65a79150a5c3,sg-05d4ad2ca192,0,v2-approved-c-20261119
 史跡,sg2site-a-kazumasu-yadacastle-20261111,矢田城跡（滝川一益の長島攻め前進拠点）,1987,v1,ad911654ddfdffc860069fc5ce3cd6d6387c636af3dc07930a077bfa5740e73d,sg-6b9e823e7bf5,1,v2-approved-c-20261119
-史跡,sg2site-a-muneshige-old-kotokuji-20261111,旧広徳寺下谷寺域跡（立花宗茂埋葬の歴史地）,2239,v3,617dcc03acbf7ba7b27831fb15bc79139aa9e32a1bdece3cdb767d06c3a6ed12,sg-master-1262,0,v2-approved-c-20261119
+史跡,sg2site-a-muneshige-old-kotokuji-20261111,旧広徳寺下谷寺域跡（立花宗茂埋葬の歴史地）,2239,v3,617dcc03acbf7ba7b27831fb15bc79139aa9e32a1bdece3cdb767d06c3a6ed12,sg-master-1262,1,v2-approved-c-20261119
 史跡,sg2site-shingen-komaba,信玄終焉の地（信濃駒場の伝承地域）,2077,v1,3c0e51a90e79085e2f80def99c2e7e2c73d20d0f530cbea28ee9b4d10a8189b1,sg-4c0c12460efa,1,v2-approved-c-20261119
 史跡,sg2site-kenshin-tsumeyama,伝妻女山陣跡（上杉陣地の伝承地点）,2078,v1,c1de6f5aa99a26bc816fab5adb39514ac21756bb5890bebb84084b44c5507be1,sg-dc8c550d8769,1,v2-approved-c-20261119
 史跡,sg2site-kanbei-aoyama,青山・土器山古戦場（官兵衛の1569年合戦）,3263,v2,e4599d38ed9b9c24251933d5e0869d7d1196fa71b147735495719bb812520376,sg-master-0817,1,v2-approved-c-20261119
@@ -1693,11 +1693,11 @@ kind,content_id,name,approval_row,approval_version,approval_sha256,person_ids,pu
 史跡,sg2site-a-sorin-usuki-castle-20261114,臼杵城跡（丹生島城）,3361,v2,fb5e995ca9397f9a7e9cf85a271de12a0e02f5e308495d708c4f47dd4b2a0261,sg-1cc5e9da1135,0,v2-approved-c-20261119
 史跡,sg2site-a-miy-koshimizu-20261114,越水城跡（碑は大社小学校南東角）,3364,v1,59d1fe411e5deae205ec358d3093ed5ff27509bc639705e191f9545fe59d36e9,sg-24684888730a,0,v2-approved-c-20261119
 史跡,sg2site-a-miy-akutagawa-20261114,芥川山城跡,3354,v2,e0e7030bc72f954f57fe3c98bd23df4ddaba1a0430f80240d081cdd832a8557e,sg-24684888730a,0,v2-approved-c-20261119
-史跡,sg2site-a-kaki-castle-20261114,柿崎城跡（柿崎氏の本拠）,2254,v1,65a3ea682bbbc14c266c14dcbca4b9944e10fd5d79011ddd023df67d5ac32128,sg-a8cfe1245acb,0,v2-approved-c-20261119
-史跡,sg2site-a-shigezane-kakuda-20261112,角田城跡（伊達成実の1591年居城）,2241,v2,95c56a2e4f61db4a7a6544aee92f53d644a89ff7fe39c689205eff1d7a68b0f1,sg-c33de3cf7739,0,v2-approved-c-20261119
-史跡,sg2site-a-tamenobu-kakushu-20261112,革秀寺（津軽為信霊屋）,2247,v2,c22a2871b3349fdce3bb22f666f47ae17f94e5a7724b2e062595d9a520f0529d,sg-master-1321,0,v2-approved-c-20261119
-史跡,sg2site-a-murakami-katsurao-20261114,葛尾城跡（村上義清の居城）,2259,v1,a51101b793b7b6d0dd4144ea7188e57e0817e34164066ed1a68aa076b58c1bd5,sg-master-2001,0,v2-approved-c-20261119
-史跡,sg2site-a-tamenobu-iwakisan-20261112,岩木山神社拝殿（旧百沢寺大堂）,2249,v2,82f98f88a378049acf5183456a12ab30de7eb9e5b938a76ff76f2cd5686ded5f,sg-master-1321,0,v2-approved-c-20261119
+史跡,sg2site-a-kaki-castle-20261114,柿崎城跡（柿崎氏の本拠）,2254,v1,65a3ea682bbbc14c266c14dcbca4b9944e10fd5d79011ddd023df67d5ac32128,sg-a8cfe1245acb,1,v2-approved-c-20261119
+史跡,sg2site-a-shigezane-kakuda-20261112,角田城跡（伊達成実の1591年居城）,2241,v2,95c56a2e4f61db4a7a6544aee92f53d644a89ff7fe39c689205eff1d7a68b0f1,sg-c33de3cf7739,1,v2-approved-c-20261119
+史跡,sg2site-a-tamenobu-kakushu-20261112,革秀寺（津軽為信霊屋）,2247,v2,c22a2871b3349fdce3bb22f666f47ae17f94e5a7724b2e062595d9a520f0529d,sg-master-1321,1,v2-approved-c-20261119
+史跡,sg2site-a-murakami-katsurao-20261114,葛尾城跡（村上義清の居城）,2259,v1,a51101b793b7b6d0dd4144ea7188e57e0817e34164066ed1a68aa076b58c1bd5,sg-master-2001,1,v2-approved-c-20261119
+史跡,sg2site-a-tamenobu-iwakisan-20261112,岩木山神社拝殿（旧百沢寺大堂）,2249,v2,82f98f88a378049acf5183456a12ab30de7eb9e5b938a76ff76f2cd5686ded5f,sg-master-1321,1,v2-approved-c-20261119
 史跡,sg2site-a-joun-1583-konomi-20261113,許斐城跡（宗像氏貞の山城）,3348,v3,82c3663d22774b76b80b1c2fdcab4ddcebc3b38910de151b32372c33d409e65b,sg-05d4ad2ca192,0,v2-approved-c-20261119
 史跡,sg2site-a-kiyomasa-uto-castle-20261115,近世宇土城跡（城山・1600年清正攻城）,3366,v1,fa6f55a67ecced658e2cea9d020f2cc758e168bab115beaae80638d9b65ee6e7,sg-0b974357bac7,0,v2-approved-c-20261119
 史跡,sg2site-a-tamenobu-kunohe-20261112,九戸城跡（九戸政実の居城）,3526,v3,d4271f529e49f8e5be39ed2067f75c2d15d72db716f72fd1f513bcd51f4364f2,sg-master-1321;sg-added-kunohe-masazane-20261114,0,v2-approved-c-20261119
@@ -1706,7 +1706,7 @@ kind,content_id,name,approval_row,approval_version,approval_sha256,person_ids,pu
 史跡,sg2site-a-kiyomasa-kumamoto-castle-20261115,熊本城跡（加藤清正築城）,3365,v1,66d6fa79ab4b0ff239144e1903919681bf398a80fbaf1cdf9f4b497390718610,sg-0b974357bac7,0,v2-approved-c-20261119
 史跡,sg2site-a-kunohe-kumanodate-20261114,熊野館跡（九戸氏関連の館跡）,3562,v1,3473658d39c923011eb520cbe6b7b3edf28ea662b477b0c920b09967c06ac509,sg-added-kunohe-masazane-20261114,0,v2-approved-c-20261119
 史跡,sg2site-a-junkei-koriyama-20261112,郡山城跡（筒井順慶の新居城）,2190,v1,fb685d6efe0ffccf54e87c5eabd23f3d362425db09540baec7db51e40bdb1ffc,sg-master-1337,0,v2-approved-c-20261119
-史跡,sg2site-a-tamenobu-hirosaki-20261112,弘前城跡（高岡城跡）,2248,v2,bdeabbe08dd0d8c278315069fed3c3f7c86df1efc33d5eed520d80d98ea1e745,sg-master-1321,0,v2-approved-c-20261119
+史跡,sg2site-a-tamenobu-hirosaki-20261112,弘前城跡（高岡城跡）,2248,v2,bdeabbe08dd0d8c278315069fed3c3f7c86df1efc33d5eed520d80d98ea1e745,sg-master-1321,1,v2-approved-c-20261119
 史跡,sg2site-a-muneshige-egami-yain-20261111,江上・八院合戦伝承地域（1600年）,3340,v2,8d894e4d76f84cd75ef897d2b26bf8f437021f06732c587eb074bd14184eee46,sg-master-1262,0,v2-approved-c-20261119
 史跡,sg2site-a-takanobu-imayama-20261113,今山合戦跡（1570年龍造寺・大友の戦い）,3350,v1,9bcb3f7dbe723f87641ed55c42a89e00ef9f0726d91cdc4470e3a98d2c9f91e2,sg-master-2169;sg-master-1516;sg-1cc5e9da1135,0,v2-approved-c-20261119
 史跡,sg2site-a-takatora-imabari-20261114,今治城跡,2911,v2,9fbf3ff2c4a8111dfedd4fba69debc5288c61d98977f468c9a74167ca0b494c4,sg-e64d13aedffc,0,v2-approved-c-20261119
@@ -1717,7 +1717,7 @@ kind,content_id,name,approval_row,approval_version,approval_sha256,person_ids,pu
 史跡,sg2site-a-takanobu-mizugae-20261113,水ヶ江城跡（龍造寺隆信の生誕・旧拠点）,3349,v2,7cc77bd505cf91a84e956d8cbe1362d1dd07a719b21af466fda3e4cb09752e2e,sg-master-2169,0,v2-approved-c-20261119
 史跡,sg2site-a-nanbu-seijuji-20261114,聖寿寺館跡（本三戸城）,2228,v1,d69a1831379657bb5ed1b52965f84bc4aa6e56a2cbd69cd9be473f34b13013a8,sg-added-nanbu-harumasa-20261114,0,v2-approved-c-20261119
 史跡,sg2site-a-tamenobu-ishikawa-20261112,石川城跡（南部高信の城）,2935,v2,83ff742a7e43109f1e2b4a27032df302869648b36337376a7a0b9e753343eeef,sg-master-1321,0,v2-approved-c-20261119
-史跡,sg2site-a-muneshige-akadate-20261111,赤館城跡（宗茂の南郷時代の拠点候補）,2238,v2,93e34a8691121c9042f85e5701deefe8d406232fcb4ac7c02a45eb4f25c20f7f,sg-master-1262;sg-master-0970,0,v2-approved-c-20261119
+史跡,sg2site-a-muneshige-akadate-20261111,赤館城跡（宗茂の南郷時代の拠点候補）,2238,v2,93e34a8691121c9042f85e5701deefe8d406232fcb4ac7c02a45eb4f25c20f7f,sg-master-1262;sg-master-0970,1,v2-approved-c-20261119
 史跡,sg2site-a-tamenobu-asaseishi-20261112,浅瀬石城跡（千徳氏の居城）,3561,v2,b77f35d20403068135179949292f1930d13ec7be6dacf30c78cfc53462c2ec29,sg-master-1321,0,v2-approved-c-20261119
 史跡,sg2site-a-takanobu-muranaka-20261113,村中城跡（龍造寺氏の旧本拠・後の佐賀城）,2195,v1,64496827fd2dcd1295eccf522216c114fdcce61a6e8cfa57a8b3d633e0860714,sg-master-2169,0,v2-approved-c-20261119
 史跡,sg2site-a-kita-taki-residence-20261114,多気北畠氏館跡（北畠神社境内）,3356,v2,0df152fc033eced905fc77f6afb150819f767136ea803f050a9e7826ad447df1,sg-master-0734,0,v2-approved-c-20261119
@@ -1725,7 +1725,7 @@ kind,content_id,name,approval_row,approval_version,approval_sha256,person_ids,pu
 史跡,sg2site-a-satake-ota-20261113,太田城跡（佐竹義重の居城）,2193,v1,da35b18cd901a887866c0510d996376d57cbd528309c4e7de7600c7fe6bb579b,sg-master-0970,0,v2-approved-c-20261119
 史跡,sg2site-a-tamenobu-oura-20261112,大浦城跡（大浦氏の居城）,2934,v2,0dbd3e1a266d43067209e9603139d7374c29bc63a7fab02bf96bd1d03de30b6d,sg-master-1321,0,v2-approved-c-20261119
 史跡,sg2site-a-tamenobu-daikoji-20261112,大光寺城跡（南部方の津軽南部拠点）,3525,v2,6b9bf22aed37ffbd3cf4bd74df6b11ea48166448dbb926040ffb53745289fa85,sg-master-1321,0,v2-approved-c-20261119
-史跡,sg2site-a-shigezane-omori-20261112,大森城跡（伊達成実生誕・伊達実元居城）,2240,v2,6936f5fb9051b4033f0c6975fe5b9f49cf38b62a25ac9e048805d2430d1705f7,sg-c33de3cf7739,0,v2-approved-c-20261119
+史跡,sg2site-a-shigezane-omori-20261112,大森城跡（伊達成実生誕・伊達実元居城）,2240,v2,6936f5fb9051b4033f0c6975fe5b9f49cf38b62a25ac9e048805d2430d1705f7,sg-c33de3cf7739,1,v2-approved-c-20261119
 史跡,sg2site-a-yoshitaka-ouchi-20261113,大内氏館跡（龍福寺境内・山口）,3351,v2,93e7fb82814e960a1e36e297271b95e85214fad6891691701aba71f1548d3a21,sg-bdc70f64e638,0,v2-approved-c-20261119
 史跡,sg2site-a-yoshitaka-taineiji-20261113,大寧寺・大内義隆主従の墓所,3352,v2,671729f353db270cf11042746e02a4dc70e9eff49795e8623e2c477ff26e8ec3,sg-bdc70f64e638;sg-master-1119,0,v2-approved-c-20261119
 史跡,sg2site-a-sorin-funai-residence-20261114,大友氏館跡（豊後府内）,3360,v1,4c1fc9979646396ff5f148a31bd7f7aab998da781a1aae012587d86b91f9cb96,sg-1cc5e9da1135,0,v2-approved-c-20261119
@@ -1733,7 +1733,7 @@ kind,content_id,name,approval_row,approval_version,approval_sha256,person_ids,pu
 史跡,sg2site-a-yoshitaka-tsukiyama-20261113,築山館跡（大内氏の山口別邸）,2196,v1,054a840fe46fbb6bcc55ae84d36596341ee2eaa9b863617ac93e66b01757f74d,sg-bdc70f64e638,0,v2-approved-c-20261119
 史跡,sg2site-a-takatora-tsu-20261114,津城跡,2912,v2,fd5bd32212dc3b0e56b0d1f4920d1273afb91fd7aeba76429dd214b8235ffce9,sg-e64d13aedffc,0,v2-approved-c-20261119
 史跡,sg2site-a-junkei-denkoji-20261112,伝香寺（筒井順慶の菩提寺）,2192,v1,522a80c40d66b98a3a76c594ccde587fa7dc685616e26f6dade035bf7b374a3c,sg-master-1337,0,v2-approved-c-20261119
-史跡,sg2site-a-haruhisa-grave-20261113,伝尼子晴久の墓（富田城南麓）,2299,v1,dd73c4d6ed65f10a8ed9fd0d25e7f693aca95c7badaf088d6f142dfa34169abd,sg-901256a2d908,0,v2-approved-c-20261119
+史跡,sg2site-a-haruhisa-grave-20261113,伝尼子晴久の墓（富田城南麓）,2299,v1,dd73c4d6ed65f10a8ed9fd0d25e7f693aca95c7badaf088d6f142dfa34169abd,sg-901256a2d908,1,v2-approved-c-20261119
 史跡,sg2site-a-junkei-grave-20261112,筒井順慶墓所（五輪塔覆堂・長安寺）,3347,v2,a355802085f1c9dbf622034cbfc725943c7949a08baf06dde675a921e65207cf,sg-master-1337,0,v2-approved-c-20261119
 史跡,sg2site-a-junkei-tsutsui-castle-20261112,筒井城跡（筒井順慶の旧居城）,3344,v1,d34fcb72379494ff470565dbb7cba1b4f11894838219a5aa62a1804b0305cbc0,sg-master-1337,0,v2-approved-c-20261119
 史跡,sg2site-a-dosan-mound-20261114,道三塚（斎藤道三の墓）,3358,v2,4e1f10dd3d49de2a3ae4ddf8528eb7190470465b5bd842a73a368402e749c2ae,sg-person-saito-dosan,0,v2-approved-c-20261119
@@ -1741,11 +1741,11 @@ kind,content_id,name,approval_row,approval_version,approval_sha256,person_ids,pu
 史跡,sg2site-a-ujiteru-hachioji-20261113,八王子城跡（北条氏照の居城）,2194,v1,c69eccf105ff04047646aa5e938446613cb870ff68d2a12f65fb933ad282c004,sg-fc948f16832f,0,v2-approved-c-20261119
 史跡,sg2site-a-miy-iimori-20261114,飯盛城跡,3355,v2,30ebe3366d2088c6564f31f7ff5659cf0b235873b679130dc3c6bfdd15847d37,sg-24684888730a,0,v2-approved-c-20261119
 史跡,sg2site-a-joun-1583-komenoyama-20261113,米ノ山城跡（2011年までに採石で消失）,3397,v1,3127809d9b546d342de25424fdbe257034e44211b03c714b033ce5ecb3c7c48c,sg-05d4ad2ca192,0,v2-approved-c-20261119
-史跡,sg2site-a-tamenobu-horikoshi-20261112,堀越城跡（津軽為信の居城）,2246,v2,645b33fe08b791c031dbd276b2069eed83ede9cee92456786d2a314ee12136f8,sg-master-1321,0,v2-approved-c-20261119
+史跡,sg2site-a-tamenobu-horikoshi-20261112,堀越城跡（津軽為信の居城）,2246,v2,645b33fe08b791c031dbd276b2069eed83ede9cee92456786d2a314ee12136f8,sg-master-1321,1,v2-approved-c-20261119
 史跡,sg2site-a-nabe-birth-honjo-20261114,本庄館跡（鍋島直茂誕生伝承地）,3359,v1,e7c0086729ae33db4749fb49f936a0d962551e9994caadefa525cedffd060507,sg-master-1516,0,v2-approved-c-20261119
 史跡,sg2site-a-kiyomasa-honmyoji-20261115,本妙寺・浄池廟（加藤清正の霊廟）,3367,v1,5bf22788e73fe068139fedf571d9a6eb9ab066c204d5fc09290fcf72e5c9aa77,sg-0b974357bac7,0,v2-approved-c-20261119
 史跡,sg2site-a-audit-sorin-moji-castle-20261114,門司城跡（大友・毛利の関門海峡争奪）,3362,v2,f603239472121d6781d400e7287b498fe7732d6d5a0e74d97ff6bc151a11cfe4,sg-1cc5e9da1135,0,v2-approved-c-20261119
-史跡,sg2site-a-tamenobu-namioka-20261112,浪岡城跡（浪岡北畠氏の居城）,2244,v2,2b1b7ad194c6213004958eb0825ee73fcb6f8c9a77bcc874c96654b2b8200bec,sg-master-1321,0,v2-approved-c-20261119
+史跡,sg2site-a-tamenobu-namioka-20261112,浪岡城跡（浪岡北畠氏の居城）,2244,v2,2b1b7ad194c6213004958eb0825ee73fcb6f8c9a77bcc874c96654b2b8200bec,sg-master-1321,1,v2-approved-c-20261119
 史跡,sg2site-a-takatora-wakayama-20261114,和歌山城跡,2909,v2,4841744cef0ac5192ccaf886949c4531509c2e9ab7221b789b4f058706e3e5bf,sg-e64d13aedffc,0,v2-approved-c-20261119
-史跡,sg2site-a-shigezane-watari-20261112,亘理要害跡（亘理神社・伊達成実の館）,2243,v2,d6221535bc4cd8bff2fb8e9abfd79390a6c5f3a048ba74b76225fa4013add52b,sg-c33de3cf7739,0,v2-approved-c-20261119
+史跡,sg2site-a-shigezane-watari-20261112,亘理要害跡（亘理神社・伊達成実の館）,2243,v2,d6221535bc4cd8bff2fb8e9abfd79390a6c5f3a048ba74b76225fa4013add52b,sg-c33de3cf7739,1,v2-approved-c-20261119
 史跡,sg2site-a-kaki-ryogonji-20261114,楞厳寺（柿崎氏ゆかり・創建再興に諸説）,3529,v2,f1a577d2348f104c8faa69e82da55d6f542942da0ccba4485c3b9fd629661f53,sg-a8cfe1245acb,0,v2-approved-c-20261119

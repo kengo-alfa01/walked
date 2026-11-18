@@ -6,7 +6,7 @@
     "people": 65,
     "histories": 1203,
     "sites": 417,
-    "publicPins": 334,
+    "publicPins": 350,
     "relations": 659,
     "legacy": 31,
     "records": 1750
@@ -1274,7 +1274,24 @@
       "経歴|sg2hist-yoshihiro-territory1602",
       "経歴|sg2hist-yoshitaka-1567-son-mifune"
     ],
-    "pin": []
+    "pin": [
+      "sg2site-a-naoe-uroko-yashiki",
+      "sg2site-a-nobutora-iidagawara-20261111",
+      "sg2site-a-nobutora-kamijogawara-20261111",
+      "sg2site-a-muneshige-akadate-20261111",
+      "sg2site-a-muneshige-old-kotokuji-20261111",
+      "sg2site-a-shigezane-omori-20261112",
+      "sg2site-a-shigezane-kakuda-20261112",
+      "sg2site-a-shigezane-watari-20261112",
+      "sg2site-a-tamenobu-namioka-20261112",
+      "sg2site-a-tamenobu-horikoshi-20261112",
+      "sg2site-a-tamenobu-kakushu-20261112",
+      "sg2site-a-tamenobu-hirosaki-20261112",
+      "sg2site-a-tamenobu-iwakisan-20261112",
+      "sg2site-a-haruhisa-grave-20261113",
+      "sg2site-a-kaki-castle-20261114",
+      "sg2site-a-murakami-katsurao-20261114"
+    ]
   },
   "holds": {
     "history": [
@@ -1338,311 +1355,247 @@
     "pin": [
       {
         "siteId": "sg2site-yoshiteru-nakao",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-iehisa-ten-shoji",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-naoe-uroko-yashiki",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-rikyu-old-myokakuji-20261109",
-        "reason": "公開する数値座標が③に未登録"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-joun-homan-20261111",
-        "reason": "公開する数値座標が③に未登録"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-joun-head-mound-20261111",
-        "reason": "公開する数値座標が③に未登録"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-kazumasu-kanie-20261111",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-kazumasu-kannagawa-20261111",
-        "reason": "公開する数値座標が③に未登録"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-kazumasu-otakiji-20261111",
-        "reason": "公開する数値座標が③に未登録"
-      },
-      {
-        "siteId": "sg2site-a-nobutora-iidagawara-20261111",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-nobutora-kamijogawara-20261111",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-hanbei-omido-birth-20261111",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-hanbei-hirai-camp-20261111",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-hanbei-hirai-grave-20261111",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-hanbei-gomyo-inari-20261111",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-dosetsu-kitano-camp-20261111",
-        "reason": "公開する数値座標が③に未登録"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-muneshige-egami-yain-20261111",
-        "reason": "公開する数値座標が③に未登録"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-muneshige-terayama-20261111",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-muneshige-akadate-20261111",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-muneshige-old-kotokuji-20261111",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-shigezane-omori-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-shigezane-kakuda-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-shigezane-shiroishi-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-shigezane-watari-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-tamenobu-oura-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-tamenobu-ishikawa-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-tamenobu-daikoji-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-tamenobu-namioka-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-tamenobu-kunohe-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-tamenobu-horikoshi-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-tamenobu-kakushu-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-tamenobu-hirosaki-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-tamenobu-iwakisan-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-junkei-tsutsui-castle-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-junkei-tatsuichi-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-junkei-tamon-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-junkei-shigisan-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-junkei-koriyama-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-junkei-grave-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-junkei-denkoji-20261112",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-joun-1583-konomi-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-joun-1583-komenoyama-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-satake-ota-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-ujiteru-hachioji-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-takanobu-mizugae-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-takanobu-muranaka-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-takanobu-imayama-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-yoshitaka-ouchi-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-yoshitaka-tsukiyama-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-yoshitaka-taineiji-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-haruhisa-shingu-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-haruhisa-grave-20261113",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-nanbu-seijuji-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-nanbu-sannohe-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-kunohe-sanohazama-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-kunohe-kubizuka-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-takatora-wakayama-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-takatora-uwajima-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-takatora-imabari-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-takatora-tsu-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-takatora-iga-ueno-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-kunohe-kumanodate-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-miy-akutagawa-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-miy-iimori-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-kaki-castle-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-kaki-ryogonji-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-kita-taki-residence-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-sue-wakayama-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-dosan-mound-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
-      },
-      {
-        "siteId": "sg2site-a-murakami-katsurao-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-nabe-birth-honjo-20261114",
-        "reason": "公開する数値座標が③に未登録"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-sorin-funai-residence-20261114",
-        "reason": "公開する数値座標が③に未登録"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-sorin-usuki-castle-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-audit-sorin-moji-castle-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-audit-nabe-ise-shrine-20261114",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       },
       {
         "siteId": "sg2site-a-miy-koshimizu-20261114",
-        "reason": "公開する数値座標が③に未登録"
+        "reason": "⑥最新版にB公表参考座標が記載されていない"
       },
       {
         "siteId": "sg2site-a-kiyomasa-kumamoto-castle-20261115",
-        "reason": "最新版の⑥位置承認とB見学色の一対一照合待ち"
+        "reason": "⑥最新版に見学信号色の明示がない"
       }
     ]
   },
