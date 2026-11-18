@@ -723,7 +723,7 @@
       // A site can be shared by independently B-approved histories. ⑥M still approves
       // the historical site TEXT's original attribution; additional users are from ④.
       const textPersonIds=s.approvedPersonIds||s.personIds;
-      check(Array.isArray(textPersonIds)&&textPersonIds.length>0&&textPersonIds.every(id=>s.personIds.includes(id)),'史跡の⑥承認済み人物が失われました');
+      check(Array.isArray(textPersonIds)&&textPersonIds.length>0&&textPersonIds.every(id=>s.personIds.includes(id)),'史跡の⑥承認済み人物が失われました: '+s.siteId+' / '+JSON.stringify(textPersonIds)+' -> '+JSON.stringify(s.personIds));
       approval(s.approval,s.description,sha256,{kind:'史跡',personId:textPersonIds.join('\n'),sourceId:s.siteId});
       uniqueApproval(s.approval);
       check(['自治体確認済・権利OK','地点確認済・権利OK'].includes(s.approval.rights),'史跡の権利・所在地確認が未承認');
