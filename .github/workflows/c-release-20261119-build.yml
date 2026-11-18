@@ -1,0 +1,44 @@
+name: C 2026-11-19 approved release preparation
+on:
+  push:
+    branches:
+      - c/release-20261119-approved-delta
+    paths:
+      - .github/workflows/c-release-20261119-build.yml
+      - scripts/build-c-20261119.cjs
+      - docs/c-release/20261119-fixed-approved-snapshot.json
+      - docs/c-release/20261119-approved-source-projection.json
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-review-only:
+    if: github.repository == 'kengo-alfa01/walked'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: c/release-20261119-approved-delta
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build approved C release from frozen source
+        run: node scripts/build-c-20261119.cjs
+      - name: Generate matching publication ledger
+        run: node scripts/export-c-release-ledger.cjs
+      - name: Validate C release and existing 3/20/43-person compatibility
+        run: |
+          node --test tests/c-20261119-release.test.cjs tests/sengoku-100-pin-qa.test.cjs tests/sengoku-43-release.test.cjs tests/sengoku-v2.test.cjs tests/sengoku-chronology.test.cjs
+      - name: Validate ledger reproducibility
+        run: node scripts/export-c-release-ledger.cjs --check
+      - name: Commit generated release assets to work branch (never main)
+        run: |
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git add sengoku/v2/approved-c-20261119.json docs/c-release/20261119-delta-qa.json data/c-release/records.csv data/c-release/status.csv
+          if ! git diff --cached --quiet; then
+            git commit -m 'build(c): generated approved 2026-11-19 publication and verified ledger'
+            git push origin HEAD:refs/heads/c/release-20261119-approved-delta
+          fi
