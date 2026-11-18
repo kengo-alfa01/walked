@@ -21,7 +21,7 @@ jobs:
       - name: Install temporary browser test dependencies
         run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
       - name: Install WebKit and Chromium headless
-        run: npx playwright install --with-deps webkit chromium
+        run: npx playwright install webkit chromium
       - name: Prepare tested official municipality source
         run: |
           mkdir -p .qa-assets
