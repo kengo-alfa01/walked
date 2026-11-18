@@ -8,6 +8,7 @@
   const SCHEMA='walked.sengoku.v2.approved.v1';
   const SOURCE='1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw';
   const PEOPLE=new Set(["sg-6eaf66c3d7c8","sg-f47391608dbb","sg-a7bb09927601","sg-4cb1a557e060","sg-29c3bc68aa37","sg-4c0c12460efa","sg-dc8c550d8769","sg-31e0e85d7a10","sg-98139e31efb2","sg-master-0817","sg-b9bb61125a1b","sg-22f595e1c616","sg-added-maeda-toshiie","sg-a94db8113d4e","sg-master-0891","sg-819c365a83e4","sg-281d92dc2e0f","sg-1a91ae29cb5a","sg-2d3f90c28c8f","sg-025ab3a6ee3f","sg-master-0052","sg-master-0077","sg-master-0080","sg-49819a572b8c","sg-60127e5bb054","sg-master-2013","sg-e04b78ac874d","sg-f510c1a0d1ab","sg-af4aa93fd365","sg-416baa3d4e63","sg-53d7309718ae","sg-61b29c703206","sg-master-1045","sg-41b3835895a3","sg-31e7289f7720","sg-05d4ad2ca192","sg-6b9e823e7bf5","sg-e00b2631eded","sg-c091a1f2c530","sg-98514cee0056","sg-master-1251","sg-fa767bbaaf2c","sg-master-1262"]);
+  const C20261119_PEOPLE=new Set(["sg-c33de3cf7739","sg-master-1321","sg-master-1337","sg-e64d13aedffc","sg-master-1516","sg-c594233cb2b7","sg-master-2001","sg-master-2169","sg-person-saito-dosan","sg-master-1119","sg-901256a2d908","sg-bdc70f64e638","sg-1cc5e9da1135","sg-a8cfe1245acb","sg-0b974357bac7","sg-master-0734","sg-24684888730a","sg-fa0a6f0c8900","sg-fc948f16832f","sg-master-0970","sg-added-nanbu-harumasa-20261114","sg-added-kunohe-masazane-20261114"]);
   const INTRO_PENDING=new Set(["sg-281d92dc2e0f","sg-1a91ae29cb5a","sg-2d3f90c28c8f","sg-025ab3a6ee3f"]);
   // Immutable release manifest: ⑥ row, ③ row, [longitude,latitude], status, and reviewed date.
   const PIN_APPROVED_META=Object.freeze({
@@ -701,7 +702,7 @@
     const known=codeSet(knownCodes), personMap=new Map(),siteMap=new Map(),historyMap=new Map(),linkKeys=new Set(),regionMap=new Map(),linkSites=new Map(),approvalRows=new Set();
     function uniqueApproval(a){check(!approvalRows.has(a.sheetRow),'⑥の同じ承認行を重複流用できません');approvalRows.add(a.sheetRow);}
     for(const p of doc.people){
-      check(PEOPLE.has(p.personId)&&!personMap.has(p.personId)&&typeof p.name==='string','対象外・重複人物');
+      check((PEOPLE.has(p.personId)||C20261119_PEOPLE.has(p.personId))&&!personMap.has(p.personId)&&typeof p.name==='string','対象外・重複人物');
       for(const type of ['introduction','story']){
         const t=p[type];if(type==='introduction'&&!t&&doc.people.length===20&&INTRO_PENDING.has(p.personId))continue;
         check(plain(t),'人物紹介・通史の欠落 '+p.personId);
@@ -713,12 +714,17 @@
       check(plain(unlock)&&Number.isInteger(unlock.requiredHistoryCount)&&unlock.requiredHistoryCount>0&&Number.isInteger(unlock.requiredPlaceHistoryCount)&&unlock.requiredPlaceHistoryCount>=0&&unlock.requiredPlaceHistoryCount<=unlock.requiredHistoryCount&&/^[a-f0-9]{64}$/.test(unlock.historyIdsSHA256||''),'完成版ストーリーの全経歴解放条件が不正です');
       personMap.set(p.personId,p);
     }
-    check(personMap.size===3||personMap.size===20||personMap.size===43,'承認済み3・20・43人物以外を混入させないでください');
+    check([3,20,43,65].includes(personMap.size),'承認済み3・20・43・65人物以外を混入させないでください');
+    if(personMap.size===65)check([...C20261119_PEOPLE].every(id=>personMap.has(id)),'C20261119の承認済み新人物が欠けています');
     for(const s of doc.sites){
       check(id(s.siteId)&&!siteMap.has(s.siteId),'史跡IDの重複・欠落');
       check(Array.isArray(s.personIds)&&s.personIds.length>0&&s.personIds.every(x=>personMap.has(x)),'史跡承認に対象外人物を含む');
       check(s.locationReviewed===true&&s.rightsReviewed===true&&s.bStatus==='合格','史跡B審査・権利が未完了');
-      approval(s.approval,s.description,sha256,{kind:'史跡',personId:s.personIds.join('\n'),sourceId:s.siteId});
+      // A site can be shared by independently B-approved histories. ⑥M still approves
+      // the historical site TEXT's original attribution; additional users are from ④.
+      const textPersonIds=s.approvedPersonIds||s.personIds;
+      check(Array.isArray(textPersonIds)&&textPersonIds.length>0&&textPersonIds.every(id=>s.personIds.includes(id)),'史跡の⑥承認済み人物が失われました');
+      approval(s.approval,s.description,sha256,{kind:'史跡',personId:textPersonIds.join('\n'),sourceId:s.siteId});
       uniqueApproval(s.approval);
       check(['自治体確認済・権利OK','地点確認済・権利OK'].includes(s.approval.rights),'史跡の権利・所在地確認が未承認');
       check(typeof s.name==='string'&&s.name&&typeof s.description==='string'&&s.description,'史跡の表示名・本文がありません');
@@ -728,9 +734,12 @@
       if(s.publicPin===true){
         check(Array.isArray(s.point),'公開ピンの位置がありません');
         check(plain(s.pinApproval),'位置更新版の⑥公開承認がありません');
-        const approvedPinPersonIds=s.pinPersonIds||s.personIds;
-        check(Array.isArray(approvedPinPersonIds)&&approvedPinPersonIds.length>0&&approvedPinPersonIds.every(x=>personMap.has(x))&&s.personIds.every(x=>approvedPinPersonIds.includes(x))&&new Set(approvedPinPersonIds).size===approvedPinPersonIds.length,'位置版⑥人物IDが未承認です');
-        approval(s.pinApproval,s.description,sha256,{kind:'史跡',personId:approvedPinPersonIds.join('\n'),sourceId:s.siteId});
+        const approvedPinPersonIds=s.pinPersonIds||s.approvedPersonIds||s.personIds;
+        check(Array.isArray(approvedPinPersonIds)&&approvedPinPersonIds.length>0&&approvedPinPersonIds.every(x=>personMap.has(x)&&s.personIds.includes(x))&&new Set(approvedPinPersonIds).size===approvedPinPersonIds.length,'位置版⑥人物IDが未承認です');
+        // Existing approved pin coordinates and published access color remain immutable.
+        // The old position approval MUST validate against its own archived pinned text,
+        // never substitute as approval of a newly edited body.
+        approval(s.pinApproval,s.pinApprovalText||s.description,sha256,{kind:'史跡',personId:approvedPinPersonIds.join('\n'),sourceId:s.siteId});
         if(s.pinApproval.sheetRow!==s.approval.sheetRow)uniqueApproval(s.pinApproval);
         else check(s.pinApproval.version===s.approval.version&&s.pinApproval.sha256===s.approval.sha256&&
           s.pinApproval.personId===s.approval.personId&&s.pinApproval.sourceId===s.approval.sourceId,
@@ -786,7 +795,16 @@
         check(sha256(histories.map(h=>h.historyId).sort().join('\n'))===unlock.historyIdsSHA256,'通史の対象経歴ID集合が承認版と一致しません');
       }
     }
-    return {people:personMap,histories:historyMap,sites:siteMap,codes:regionMap,linkSites,version:doc.version||'v2-stage'};
+    const retiredHistories=new Map();
+    for(const entry of doc.retiredHistories||[]){
+      check(plain(entry)&&plain(entry.history)&&['統合','除外'].includes(entry.type)&&Array.isArray(entry.successors),'旧公開版の保全形式が不正です');
+      const h=entry.history;
+      check(id(h.historyId)&&!historyMap.has(h.historyId)&&!retiredHistories.has(h.historyId)&&personMap.has(h.personId),'旧公開カードIDが有効版と衝突');
+      check(plain(h.approval)&&typeof h.text==='string'&&sha256(h.text)===h.approval.sha256,'旧カードの公開版本文ハッシュが一致しません');
+      retiredHistories.set(h.historyId,entry);
+    }
+    if(personMap.size===65)check(retiredHistories.size===31,'今回の旧公開31件の保全が欠落');
+    return {people:personMap,histories:historyMap,sites:siteMap,codes:regionMap,linkSites,retiredHistories,version:doc.version||'v2-stage'};
   }
   function municipalityFromKey(key){
     const raw=String(key||'');
