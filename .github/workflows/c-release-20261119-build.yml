@@ -6,6 +6,7 @@ on:
     paths:
       - .github/workflows/c-release-20261119-build.yml
       - scripts/build-c-20261119.cjs
+      - sengoku-v2-core.js
       - docs/c-release/20261119-fixed-approved-snapshot.json
       - docs/c-release/20261119-approved-source-projection.json
   workflow_dispatch:
