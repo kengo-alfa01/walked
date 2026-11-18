@@ -29,11 +29,19 @@ test('51 approved history revisions and two city-award corrections',()=>{
  const p=current.people.find(p=>p.name==='最上義光');
  assert.equal(p.story.unlock.requiredPlaceHistoryCount,14);
 });
-test('published source is the index release and C ledger is current',()=>{
+test('new C release is the actual index source, and its ledger records its exact git blob',()=>{
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
- assert.ok(html.includes("fetch('./sengoku/v2/approved-up-to-muneshige-pins-100.json'"));
+ const p='sengoku/v2/approved-c-20261119.json';
+ assert.ok(html.includes("fetch('./"+p+"'"));
  const csv=fs.readFileSync(path.join(root,'data/c-release/status.csv'),'utf8');
- const source=fs.readFileSync(path.join(root,'sengoku/v2/approved-up-to-muneshige-pins-100.json'));
- const hash=crypto.createHash('sha1').update(Buffer.from('blob '+source.length+'\0')).update(source).digest('hex');
- assert.ok(csv.includes(hash));assert.ok(csv.includes(',43,980,355,334,1421'));
+ const source=fs.readFileSync(path.join(root,p));
+ const doc=JSON.parse(source);
+ const sha=crypto.createHash('sha1').update(Buffer.from('blob '+source.length+'\0')).update(source).digest('hex');
+ assert.ok(csv.includes(sha));
+ assert.ok(csv.includes(doc.version+','+p));
+ assert.ok(csv.includes(','+doc.people.length+','+doc.histories.length+','+doc.sites.length+','));
+ assert.equal(doc.retiredHistories.length,31);
+ assert.equal(doc.people.length,65);
+ const active=new Set(doc.histories.map(h=>h.historyId));
+ for(const r of doc.retiredHistories)assert.ok(!active.has(r.history.historyId));
 });
