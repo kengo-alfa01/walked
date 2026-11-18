@@ -13,11 +13,11 @@ const mp=new Map(r.people.map(x=>[x.personId,x])),mh=new Map(r.histories.map(x=>
 const kept=new Set([...r.histories.map(x=>x.historyId),...r.sites.map(x=>x.siteId)]);
 test('fixed C batch, exact published scope, no guessed new pins',()=>{
  assert.equal(snap.fixed.length,1230);assert.equal(snap.legacy.length,31);assert.equal(snap.pinCandidates.length,77);
- assert.equal(r.people.length,65);assert.equal(r.histories.length,1202);assert.equal(r.sites.length,417);
+ assert.equal(r.people.length,65);assert.equal(r.histories.length,1203);assert.equal(r.sites.length,417);
  assert.equal(r.sites.filter(x=>x.publicPin).length,334);
  assert.equal(r.retiredHistories.length,31);
  assert.equal(qa.holds.history.length,6);assert.equal(qa.holds.site.length,1);assert.equal(qa.holds.pin.length,77);
- assert.equal(qa.counts.records,65*2+1202+417);
+ assert.equal(qa.counts.records,65*2+1203+417);
 });
 test('existing content preserved except explicit old ID retirement',()=>{
  const retired=new Set(r.retiredHistories.map(x=>x.history.historyId));
