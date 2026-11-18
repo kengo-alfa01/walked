@@ -51,7 +51,9 @@ if(!src||src.text!==a.text)throw Error('Site source mismatch '+key);
 if(src.name!==a.title){holds.site.push({key,reason:'⑥承認タイトルと③史跡名が異なる',approvedTitle:a.title,sourceTitle:src.name});continue;}
 const codes=fields(src.multiMunicipality||src.municipalityCode);
 if(!codes.length||codes.some(c=>!(/^\d{5}$/.test(c)))){holds.site.push({key,reason:'取得自治体コードの確定が必要',codes});continue;}
-const ids=fields(src.sourceIds),site={siteId:a.id,name:a.title,description:a.text,personIds:[...a.personIds],municipalityCodes:codes,municipalityCode:src.municipalityCode,locationReviewed:true,rightsReviewed:true,bStatus:'合格',publicPin:false,point:null,locationAccuracy:src.accuracy,sourceIds:ids,sourceUrls:sourceUrls(ids),approval:approved(a)};
+const authorizedOwners=a.personIds.length?a.personIds:(prev?.personIds?.length?prev.personIds:[...(usersBySite.get(a.id)||[])]);
+if(!authorizedOwners.length){holds.site.push({key,reason:'⑥人物欄が空欄で旧公開／B合格④にも人物がない'});continue;}
+const ids=fields(src.sourceIds),site={siteId:a.id,name:a.title,description:a.text,personIds:[...authorizedOwners],...(a.personIds.length?{}:{approvedPersonIds:[]}),municipalityCodes:codes,municipalityCode:src.municipalityCode,locationReviewed:true,rightsReviewed:true,bStatus:'合格',publicPin:false,point:null,locationAccuracy:src.accuracy,sourceIds:ids,sourceUrls:sourceUrls(ids),approval:approved(a)};
 if(prev?.publicPin){site.publicPin=true;site.point=prev.point;site.pinApproval=prev.pinApproval;site.pinReview=prev.pinReview;if(prev.pinPersonIds)site.pinPersonIds=prev.pinPersonIds;
 if(prev.description!==site.description)site.pinApprovalText=prev.description;}
 sites.set(a.id,site);done.site.push(key)}
