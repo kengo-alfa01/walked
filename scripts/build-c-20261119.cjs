@@ -12,6 +12,7 @@ const fields=v=>unique(String(v??'').split(/[\n,]/).map(x=>x.trim()).filter(Bool
 const base=read('sengoku/v2/approved-up-to-muneshige-pins-100.json');
 const snap=read('docs/c-release/20261119-fixed-approved-snapshot.json');
 const d=read('docs/c-release/20261119-approved-source-projection.json');
+const pinBatch=read('docs/c-release/20261119-approved-pin-projection.json');
 if(snap.id!=='C-20261119-A'||snap.fixed.length!==1230||snap.legacy.length!==31||snap.pinCandidates.length!==77)throw Error('Frozen C batch changed');
 const sources=new Map(d.sources.map(x=>[x.sourceId,x]));
 const sourceUrls=a=>unique(a.map(id=>sources.get(id)?.url).filter(u=>typeof u==='string'&&u.startsWith('https://')));
@@ -61,6 +62,33 @@ let sharedSites=0;
 for(const [id,additional] of usersBySite){const site=sites.get(id);if(!site)continue;
 const all=unique([...site.personIds,...additional]);if(all.length===site.personIds.length)continue;
 site.approvedPersonIds=site.approvedPersonIds||[...site.personIds];site.personIds=all;sharedSites++;}
+
+if(pinBatch.fixedBatchId!==snap.id||pinBatch.ready.length+pinBatch.held.length!==77||pinBatch.ready.length!==16)throw Error('Pin approval manifest differs from frozen 77');
+const approvedSites=new Map(snap.fixed.filter(x=>x.approval.type==='史跡').map(x=>[x.approval.id,x.approval]));
+for(const p of pinBatch.ready){
+ const site=sites.get(p.siteId),a=approvedSites.get(p.siteId),src=rawSites.get(p.siteId);
+ if(!site||!a||!src||site.publicPin||a.sheetRow!==p.approvedSheetRow||a.version!==p.version||
+    src.municipality!==p.municipality||src.name!==p.siteName||+src.lat!==p.lat||+src.lng!==p.lng||
+    !['green','yellow','red'].includes(p.accessStatus)||!Number.isFinite(p.lat)||!Number.isFinite(p.lng)||
+    !/^\d{4}-\d{2}-\d{2}$/.test(p.checkedAt))throw Error('Missing separate pin evidence '+p.siteId);
+ const hint=String(snap.pinCandidates.find(x=>x.siteId===p.siteId)?.coordinateRaw||'');
+ if(hint!==''&&(!hint.includes(String(p.lat))||!hint.includes(String(p.lng))))throw Error('Pinned GPS not in frozen C list '+p.siteId);
+ const srcIds=fields(p.sourceIds),evidence=sourceUrls(srcIds);
+ const pinReview={
+   decision:'可',accessStatus:p.accessStatus,sourceSheetRow:p.sourceSheetRow,
+   municipality:p.municipality,locationKind:'Bが確認した公開史跡の情報参照点',
+   checkedAt:p.checkedAt,
+   restriction:p.accessStatus==='green'?'':'史跡情報表示用の参照点です。本人の精密な所在・安全な入口は示していません。立入制限・通行条件を確認し、非公開区域には進入しないでください。',
+   officialInfoUrl:evidence[0]||null,positionEvidenceUrl:evidence.at(-1)||null,positionSourceIds:srcIds
+ };
+ // ⑥ latest C candidate is the approved source of BOTH text and position/color,
+ // never use older rejected location versions or infer a municipality centroid.
+ site.publicPin=true;site.point=[p.lng,p.lat];site.pinApproval=site.approval;site.pinReview=pinReview;
+ site.pinPersonIds=[...a.personIds];if(!site.pinPersonIds.length)throw Error('No ⑥ approved pin person '+p.siteId);
+ done.pin.push(p.siteId);
+}
+if(done.pin.length!==pinBatch.ready.length)throw Error('Pinned sites missing');
+
 const doneHistIDs=new Set(done.history.map(x=>x.split('|')[1]));
 const relations=new Map();
 for(const r of base.relations){if(!histories.has(r.historyId)||!sites.has(r.siteId))continue;
@@ -76,10 +104,10 @@ const hh=[...histories.values()].filter(h=>h.personId===p.personId);
 if(!hh.length)throw Error('No published history for '+p.personId);
 p.story.unlock={requiredHistoryCount:hh.length,requiredPlaceHistoryCount:hh.filter(h=>h.kind==='place').length,historyIdsSHA256:hash(hh.map(h=>h.historyId).sort().join('\n'))};}
 const retiredHistories=snap.legacy.map(r=>({history:oldHist.get(r.key.split('|')[1]),type:r.category,successors:fields(r.targetIds),formerSiteIds:base.relations.filter(x=>x.historyId===r.key.split('|')[1]).map(x=>x.siteId)}));
-for(const x of snap.pinCandidates)holds.pin.push({siteId:x.siteId,reason:/^\s*\d+(?:\.\d+)?,\s*\d+(?:\.\d+)?\s*$/.test(x.coordinateRaw||'')?'最新版の⑥位置承認とB見学色の一対一照合待ち':'公開する数値座標が③に未登録'});
-const pkg={schemaVersion:base.schemaVersion,sourceSpreadsheetId:base.sourceSpreadsheetId,version:'v2-approved-c-20261119',people:[...people.values()],histories:[...histories.values()],sites:[...sites.values()],relations:[...relations.values()],retiredHistories,notes:{...base.notes,cRelease:{snapshotId:snap.id,baseBlob:'0b137f46487e5ff5bf85444d060e22a080867211',preserveHistoricalPinApproval:true,addedPinCount:0}}};
+for(const x of pinBatch.held)holds.pin.push({...x});
+const pkg={schemaVersion:base.schemaVersion,sourceSpreadsheetId:base.sourceSpreadsheetId,version:'v2-approved-c-20261119',people:[...people.values()],histories:[...histories.values()],sites:[...sites.values()],relations:[...relations.values()],retiredHistories,notes:{...base.notes,cRelease:{snapshotId:snap.id,baseBlob:'0b137f46487e5ff5bf85444d060e22a080867211',preserveHistoricalPinApproval:true,addedPinCount:pinBatch.ready.length}}};
 const counts={people:pkg.people.length,histories:pkg.histories.length,sites:pkg.sites.length,publicPins:pkg.sites.filter(x=>x.publicPin).length,relations:pkg.relations.length,legacy:retiredHistories.length,records:pkg.people.length*2+pkg.histories.length+pkg.sites.length};
-const audit={releaseVersion:pkg.version,snapshotId:snap.id,baseVersion:base.version,counts,processed:done,holds,checks:{sharedSites,unexpectedHistoricLoss:base.histories.filter(x=>!histories.has(x.historyId)&&!retiredIds.has(x.historyId)).length,unexpectedSiteLoss:base.sites.filter(x=>!sites.has(x.siteId)).length,unapprovedNewPins:pkg.sites.filter(x=>x.publicPin&&!oldSites.get(x.siteId)?.publicPin).length,duplicates:{people:pkg.people.length-new Set(pkg.people.map(x=>x.personId)).size,histories:pkg.histories.length-new Set(pkg.histories.map(x=>x.historyId)).size,sites:pkg.sites.length-new Set(pkg.sites.map(x=>x.siteId)).size,relations:pkg.relations.length-new Set(pkg.relations.map(x=>x.historyId+'|'+x.siteId)).size}}};
+const audit={releaseVersion:pkg.version,snapshotId:snap.id,baseVersion:base.version,counts,processed:done,holds,checks:{sharedSites,unexpectedHistoricLoss:base.histories.filter(x=>!histories.has(x.historyId)&&!retiredIds.has(x.historyId)).length,unexpectedSiteLoss:base.sites.filter(x=>!sites.has(x.siteId)).length,unapprovedNewPins:pkg.sites.filter(x=>x.publicPin&&!oldSites.get(x.siteId)?.publicPin&&!pinBatch.ready.some(y=>y.siteId===x.siteId)).length,duplicates:{people:pkg.people.length-new Set(pkg.people.map(x=>x.personId)).size,histories:pkg.histories.length-new Set(pkg.histories.map(x=>x.historyId)).size,sites:pkg.sites.length-new Set(pkg.sites.map(x=>x.siteId)).size,relations:pkg.relations.length-new Set(pkg.relations.map(x=>x.historyId+'|'+x.siteId)).size}}};
 if(audit.checks.unexpectedHistoricLoss||audit.checks.unexpectedSiteLoss||audit.checks.unapprovedNewPins||Object.values(audit.checks.duplicates).some(Boolean))throw Error('C release QA failed');
 if(pkg.people.length!==65||retiredHistories.length!==31)throw Error('Unexpected frozen C scope output');
 const release='sengoku/v2/approved-c-20261119.json';
