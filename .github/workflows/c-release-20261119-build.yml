@@ -12,6 +12,7 @@ on:
       - tests/sengoku-v2.test.cjs
       - docs/c-release/20261119-fixed-approved-snapshot.json
       - docs/c-release/20261119-approved-source-projection.json
+      - docs/c-release/20261119-approved-pin-projection.json
   workflow_dispatch:
 permissions:
   contents: write
