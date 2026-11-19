@@ -1,0 +1,68 @@
+name: C fixed57 independent Pages exact-byte audit
+on:
+  pull_request:
+    paths:
+      - .github/workflows/c-fixed57-live-independent-proof.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-pages:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify latest approved C release against real GitHub Pages assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          files=(
+            index.html
+            sengoku-v2-core.js
+            sengoku/v2/approved-c-20261119-57.json
+            data/c-release/records.csv
+            data/c-release/status.csv
+          )
+          base=https://kengo-alfa01.github.io/walked
+          for attempt in $(seq 1 60); do
+            ok=true
+            for f in "${files[@]}"; do
+              mkdir -p "/tmp/live-fixed57/$(dirname "$f")"
+              if ! curl -fLsS --retry 2 --max-time 35 -H 'Cache-Control: no-cache' "$base/$f?audit=${GITHUB_SHA}&attempt=$attempt" -o "/tmp/live-fixed57/$f"; then
+                ok=false; break
+              fi
+              if ! cmp -s "$f" "/tmp/live-fixed57/$f"; then ok=false;break;fi
+            done
+            if $ok; then
+              echo "C_FIXED57_PAGES_FULL_BYTES_MATCH attempt=$attempt"
+              break
+            fi
+            if [ "$attempt" -eq 60 ]; then
+              echo "C_FIXED57_PAGES_EXACT_BYTES_UNVERIFIED"
+              exit 1
+            fi
+            sleep 8
+          done
+          node <<'NODE'
+          const fs=require('fs'),crypto=require('crypto'),assert=require('assert/strict');
+          const base='/tmp/live-fixed57/';
+          const obj=JSON.parse(fs.readFileSync(base+'sengoku/v2/approved-c-20261119-57.json','utf8'));
+          const qa=JSON.parse(fs.readFileSync('docs/c-release/20261119-fixed57-delta-qa.json','utf8'));
+          const manifest=JSON.parse(fs.readFileSync('docs/c-release/20261119-fixed57-approved-manifest.json','utf8'));
+          const b=fs.readFileSync(base+'sengoku/v2/approved-c-20261119-57.json');
+          const blob=crypto.createHash('sha1').update(Buffer.from('blob '+b.length+'\\0')).update(b).digest('hex');
+          const status=fs.readFileSync(base+'data/c-release/status.csv','utf8').trim().split('\n');
+          const records=fs.readFileSync(base+'data/c-release/records.csv','utf8').trim().split('\n');
+          assert.equal(obj.version,'v2-approved-c-20261119-57');
+          assert.deepEqual([obj.people.length,obj.histories.length,obj.sites.length,obj.sites.filter(x=>x.publicPin).length,obj.municipalityAwards.length],[65,1208,417,400,6]);
+          assert.equal(manifest.items.length,57);
+          assert.equal(manifest.heldFixedIds.length,11);
+          assert.equal(qa.completedCount,57);
+          assert.equal(status.length,2);
+          assert.equal(records.length,1756);
+          const fields=status[1].split(',');
+          assert.equal(fields[0],obj.version);
+          assert.equal(fields[2],blob);
+          assert.equal(fields[7],'1755');
+          console.log('C_FIXED57_PAGES_RELEASE_PROOF '+JSON.stringify({version:obj.version,people:65,histories:1208,sites:417,pins:400,awards:6,completed:57,held:11,ledgerRows:1755,blobSha:blob,commit:process.env.GITHUB_SHA}));
+          NODE
