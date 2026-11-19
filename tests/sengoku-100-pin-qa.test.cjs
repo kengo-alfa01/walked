@@ -31,7 +31,7 @@ test('51 approved history revisions and two city-award corrections',()=>{
 });
 test('new C release is the actual index source, and its ledger records its exact git blob',()=>{
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
- const p='sengoku/v2/approved-c-20261119.json';
+ const p='sengoku/v2/approved-c-20261119-57.json';
  assert.ok(html.includes("fetch('./"+p+"'"));
  const csv=fs.readFileSync(path.join(root,'data/c-release/status.csv'),'utf8');
  const source=fs.readFileSync(path.join(root,p));
@@ -42,6 +42,9 @@ test('new C release is the actual index source, and its ledger records its exact
  assert.ok(csv.includes(','+doc.people.length+','+doc.histories.length+','+doc.sites.length+','));
  assert.equal(doc.retiredHistories.length,31);
  assert.equal(doc.people.length,65);
+ assert.equal(doc.histories.length,1208);
+ assert.equal(doc.sites.filter(s=>s.publicPin).length,400);
+ assert.equal(doc.municipalityAwards.length,6);
  const active=new Set(doc.histories.map(h=>h.historyId));
  for(const r of doc.retiredHistories)assert.ok(!active.has(r.history.historyId));
 });
