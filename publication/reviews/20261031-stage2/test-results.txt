@@ -1,0 +1,14 @@
+✔ only municipalityCode changes; every existing site ID and coordinate survives (5.686634ms)
+✔ pinned boundary audit distinguishes Minano from Yorii at the same point (1.617858ms)
+✔ past Yorii visits unlock eligible legacy Hachigata cards without revisiting (10.203552ms)
+✔ Minano-only visits cannot newly unlock Hachigata after the correction (2.73941ms)
+✔ previous awards and visit dates survive even when obtained under the old code (2.478109ms)
+✔ proposal remains unapproved and cannot masquerade as an added publication delta (0.138497ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 110.79821
