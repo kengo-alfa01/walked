@@ -359,7 +359,8 @@
           "sg2src-b-pin-others-139-20261107",
           "sg2src-takakage-mihara-niitakayama"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "広島県三原市"
       }
     },
     {
@@ -400,7 +401,8 @@
           "sg2src-b-nakao-safety-hold-20261108",
           "sg2src-b-nakao-newplus-safety-20261109"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "京都府京都市左京区"
       },
       "pin": {
         "lat": 35.0285625,
@@ -444,7 +446,8 @@
           "sg2src-a-kazumasu-kanie-20261111",
           "sg2src-b-kanie-official-parkmap-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "愛知県海部郡蟹江町"
       },
       "pin": {
         "lat": 35.1365901,
@@ -490,7 +493,8 @@
           "sg2src-a-hanbei-tarui-profile-20261111",
           "sg2src-b-hanbei-omido-birth-gifu-poi-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "岐阜県揖斐郡大野町"
       },
       "pin": {
         "lat": 35.4522232,
@@ -536,7 +540,8 @@
           "sg2src-a-hanbei-miki-historic-site-20261111",
           "sg2src-b-hanbei-camp-miki-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "兵庫県三木市"
       },
       "pin": {
         "lat": 34.8118125,
@@ -582,7 +587,8 @@
           "sg2src-a-hanbei-miki-hirai-camp-20261111",
           "sg2src-b-hanbei-grave-harima-poi-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "兵庫県三木市"
       },
       "pin": {
         "lat": 34.8092222,
@@ -630,7 +636,8 @@
           "sg2src-b-gomyo-gifujinja-map-20261114",
           "sg2src-b-gomyo-nishimino-open-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "岐阜県不破郡垂井町"
       },
       "pin": {
         "lat": 35.381055214799,
@@ -676,7 +683,8 @@
           "sg2src-a-muneshige-k-20261111",
           "sg2src-b-tanagura-terayama-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "福島県東白川郡棚倉町"
       },
       "pin": {
         "lat": 37.0066875,
@@ -724,7 +732,8 @@
           "sg2src-a-shigezane-life-20261112",
           "sg2src-b-geoshape-site361-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "宮城県白石市"
       },
       "pin": {
         "lat": 38.002576,
@@ -774,7 +783,8 @@
           "sg2src-b-geoshape-site364-20261114",
           "sg2src-b-oura-schoolmarker-city-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "青森県弘前市"
       },
       "pin": {
         "lat": 40.617204,
@@ -826,7 +836,8 @@
           "sg2src-b-ishikawa-park-season-20261114",
           "sg2src-b-ishikawa-park-poi-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "青森県弘前市"
       },
       "pin": {
         "lat": 40.5478584,
@@ -879,7 +890,8 @@
           "sg2src-a-kunohe-iwate-bio-20261114",
           "sg2src-b-pin-unified-369-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "岩手県二戸市"
       },
       "pin": {
         "lat": 40.267583,
@@ -927,7 +939,8 @@
           "sg2src-a-junkei-city-yearbook-20261112",
           "sg2src-b-pin-unified-375-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "奈良県大和郡山市"
       },
       "pin": {
         "lat": 34.62206,
@@ -973,7 +986,8 @@
           "sg2src-a-junkei-kotobank-junkei-20261112",
           "sg2src-a-junkei-tatsuichi-candidate-20261112"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "奈良県奈良市"
       },
       "pin": {
         "lat": 34.657454,
@@ -1021,7 +1035,8 @@
           "sg2src-a-junkei-tsutsui-castle-20261112",
           "sg2src-b-pin-unified-377-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "奈良県奈良市"
       },
       "pin": {
         "lat": 34.694368,
@@ -1069,7 +1084,8 @@
           "sg2src-a-junkei-city-yearbook-20261112",
           "sg2src-b-pin-unified-378-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "奈良県生駒郡平群町"
       },
       "pin": {
         "lat": 34.616335,
@@ -1117,7 +1133,8 @@
           "sg2src-a-junkei-koriyama-heritage-20261112",
           "sg2src-b-koriyama-heritagemap-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "奈良県大和郡山市"
       },
       "pin": {
         "lat": 34.650976,
@@ -1167,7 +1184,8 @@
           "sg2src-a-junkei-city-profile-20261112",
           "sg2src-b-junkei-grave-tourism-map-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "奈良県大和郡山市"
       },
       "pin": {
         "lat": 34.608717912842906,
@@ -1215,7 +1233,8 @@
           "sg2src-a-junkei-nara-tourism-20261112",
           "sg2src-b-pin-unified-381-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "奈良県奈良市"
       },
       "pin": {
         "lat": 34.680546,
@@ -1261,7 +1280,8 @@
           "sg2src-b-review-konomi-codh-20261114",
           "sg2src-b-review-konomi-munakata-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "福岡県宗像市・福津市"
       },
       "pin": {
         "lat": 33.77615,
@@ -1301,7 +1321,8 @@
         "sourceIds": [
           "sg2src-a-joun-1583-komenoyama-study-20261113"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "福岡県飯塚市"
       },
       "pin": {
         "lat": 33.544726,
@@ -1347,7 +1368,8 @@
           "sg2src-a-satake-nara-20261113",
           "sg2src-b-pin-unified-385-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "茨城県常陸太田市"
       },
       "pin": {
         "lat": 36.546388,
@@ -1393,7 +1415,8 @@
           "sg2src-a-ujiteru-kanagawa-20261113",
           "sg2src-b-pin-unified-387-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "東京都八王子市"
       },
       "pin": {
         "lat": 35.652617,
@@ -1443,7 +1466,8 @@
           "sg2src-b-pin-unified-388-20261114",
           "sg2src-b-mizugae-public-park-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "佐賀県佐賀市"
       },
       "pin": {
         "lat": 33.24284,
@@ -1487,7 +1511,8 @@
           "sg2src-a-takanobu-muranaka-20261113",
           "sg2src-b-pin-unified-389-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "佐賀県佐賀市"
       },
       "pin": {
         "lat": 33.245342,
@@ -1531,7 +1556,8 @@
           "sg2src-a-takanobu-muranaka-20261113",
           "sg2src-b-hold-imayama-monument-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "佐賀県佐賀市"
       },
       "pin": {
         "lat": 33.312198,
@@ -1579,7 +1605,8 @@
           "sg2src-b-review-ouchi-public-20261114",
           "sg2src-b-review-ouchi-geo-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "山口県山口市"
       },
       "pin": {
         "lat": 34.184542,
@@ -1623,7 +1650,8 @@
           "sg2src-a-yoshitaka-yamaguchi-20261113",
           "sg2src-b-pin-unified-392-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "山口県山口市"
       },
       "pin": {
         "lat": 34.1854,
@@ -1669,7 +1697,8 @@
           "sg2src-a-yoshitaka-portrait-20261113",
           "sg2src-b-pin-unified-393-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "山口県長門市"
       },
       "pin": {
         "lat": 34.331688,
@@ -1719,7 +1748,8 @@
           "sg2src-b-shingu-shimane-map-20261114",
           "sg2src-b-haruhisa-shimane-research-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "島根県安来市"
       },
       "pin": {
         "lat": 35.36783926,
@@ -1767,7 +1797,8 @@
           "sg2src-b-review-shojuji-opendata-20261114",
           "sg2src-b-review-shojuji-visitor-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "青森県三戸郡南部町"
       },
       "pin": {
         "lat": 40.413998158427,
@@ -1811,7 +1842,8 @@
           "sg2src-a-nanbu-sannohe-20261114",
           "sg2src-b-sannohe-town-map-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "青森県三戸郡三戸町"
       },
       "pin": {
         "lat": 40.3819126,
@@ -1855,7 +1887,8 @@
           "sg2src-a-kunohe-iwate-bio-20261114",
           "sg2src-b-kunohe-kurihara-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "宮城県栗原市"
       },
       "pin": {
         "lat": 38.8145625,
@@ -1897,7 +1930,8 @@
         "sourceIds": [
           "sg2src-a-kunohe-iwate-sites-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "岩手県九戸郡九戸村"
       },
       "pin": {
         "lat": 40.220417,
@@ -1943,7 +1977,8 @@
           "sg2src-a-takatora-tsu-bio-20261114",
           "sg2src-b-pin-unified-403-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "和歌山県和歌山市"
       },
       "pin": {
         "lat": 34.228281,
@@ -1989,7 +2024,8 @@
           "sg2src-a-takatora-tsu-chron-20261114",
           "sg2src-b-pin-unified-404-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "愛媛県宇和島市"
       },
       "pin": {
         "lat": 33.219327,
@@ -2033,7 +2069,8 @@
           "sg2src-a-takatora-imabari-20261114",
           "sg2src-b-pin-unified-405-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "愛媛県今治市"
       },
       "pin": {
         "lat": 34.063448,
@@ -2081,7 +2118,8 @@
           "sg2src-b-pin-unified-406-20261114",
           "sg2src-a-takatora-tsu-remodel-20261115"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "三重県津市"
       },
       "pin": {
         "lat": 34.71778,
@@ -2129,7 +2167,8 @@
           "sg2src-b-pin-unified-407-20261114",
           "sg2src-a-takatora-tsu-remodel-20261115"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "三重県伊賀市"
       },
       "pin": {
         "lat": 34.770200161,
@@ -2173,7 +2212,8 @@
           "sg2src-b-kunohe-kumano-daimei-20261114",
           "sg2src-a2post-kunohe-kumanopark-village-20261118"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "岩手県九戸郡九戸村"
       },
       "pin": {
         "lat": 40.2138125,
@@ -2217,7 +2257,8 @@
           "sg2src-a-miy-02-20261114",
           "sg2src-b-akutagawa-hmap-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "大阪府高槻市"
       },
       "pin": {
         "lat": 34.881,
@@ -2261,7 +2302,8 @@
           "sg2src-a-miy-01-20261114",
           "sg2src-b-iimori-codh-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "大阪府大東市・四條畷市"
       },
       "pin": {
         "lat": 34.726531,
@@ -2307,7 +2349,8 @@
           "sg2src-b-kaki-ryogonji-codh-20261114",
           "sg2src-a-audit-kaki-kotobank-ryogonji-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "新潟県上越市"
       },
       "pin": {
         "lat": 37.244601,
@@ -2351,7 +2394,8 @@
           "sg2src-a-kita-03-20261114",
           "sg2src-b-kitabatake-nabunken-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "三重県津市"
       },
       "pin": {
         "lat": 34.518333,
@@ -2395,7 +2439,8 @@
           "sg2src-a-sue-02-20261114",
           "sg2src-b-wakayama-codh-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "山口県周南市"
       },
       "pin": {
         "lat": 34.084329,
@@ -2439,7 +2484,8 @@
           "sg2src-a-dosan-02-20261114",
           "sg2src-b-dosan-city-public-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "岐阜県岐阜市"
       },
       "pin": {
         "lat": 35.445083,
@@ -2485,7 +2531,8 @@
           "sg2src-a-site-otomo-oita-20261114",
           "sg2src-b-otomo-city-garden-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "大分県大分市"
       },
       "pin": {
         "lat": 33.2303125,
@@ -2531,7 +2578,8 @@
           "sg2src-a-site-usuki-city-20261114",
           "sg2src-b-usuki-codh-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "大分県臼杵市"
       },
       "pin": {
         "lat": 33.121615,
@@ -2577,7 +2625,8 @@
           "sg2src-b-moji-codh-20261114",
           "sg2src-b-moji-kitakyu-museum-1561-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "福岡県北九州市門司区"
       },
       "pin": {
         "lat": 33.958334,
@@ -2629,7 +2678,8 @@
           "sg2src-a-nabe-ise-official1605-20261114",
           "sg2src-a-nabe-ise-saga-library-20261114"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "佐賀県佐賀市"
       },
       "pin": {
         "lat": 33.25238,
@@ -2679,7 +2729,8 @@
           "sg2src-b-kiyomasa-kumamoto-codh-20261115",
           "sg2src-b-kiyomasa-kumamoto-opening-20261115"
         ],
-        "license": "条件付き"
+        "license": "条件付き",
+        "municipalityName": "熊本県熊本市中央区"
       },
       "pin": {
         "lat": 32.80582,
