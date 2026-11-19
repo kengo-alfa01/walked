@@ -1,49 +1,54 @@
-name: C 2026-11-19 approved release preparation
+name: C approved 2026-11-19 fixed57 release build
 on:
   push:
-    branches:
-      - c/release-20261119-approved-delta
+    branches: [c/fixed57-20261119-approval]
     paths:
       - .github/workflows/c-release-20261119-build.yml
-      - scripts/build-c-20261119.cjs
+      - scripts/build-c-20261119-57.cjs
       - sengoku-v2-core.js
       - index.html
-      - tests/c-20261119-release.test.cjs
-      - tests/sengoku-v2.test.cjs
-      - docs/c-release/20261119-fixed-approved-snapshot.json
-      - docs/c-release/20261119-approved-source-projection.json
-      - docs/c-release/20261119-approved-pin-projection.json
+      - tests/c-20261119-fixed57-release.test.cjs
+      - docs/c-release/20261119-fixed57-approved-manifest.json
+  pull_request:
+    branches: [main]
+    paths:
+      - .github/workflows/c-release-20261119-build.yml
+      - scripts/build-c-20261119-57.cjs
+      - sengoku-v2-core.js
+      - index.html
+      - tests/c-20261119-fixed57-release.test.cjs
+      - docs/c-release/20261119-fixed57-approved-manifest.json
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
   build-review-only:
-    if: github.repository == 'kengo-alfa01/walked'
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: c/release-20261119-approved-delta
+          ref: c/fixed57-20261119-approval
           fetch-depth: 1
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Build approved C release from frozen source
-        run: node scripts/build-c-20261119.cjs
-      - name: Generate matching publication ledger
+      - name: Apply latest ⑥-approved fixed57 over exact public JSON
+        run: node scripts/build-c-20261119-57.cjs
+      - name: Publish JSON-derived records and status ledgers
         run: node scripts/export-c-release-ledger.cjs
-      - name: Validate C release and existing 3/20/43-person compatibility
+      - name: Independent release QA and backward-compatible tests
         run: |
-          node --test tests/c-20261119-release.test.cjs tests/sengoku-100-pin-qa.test.cjs tests/sengoku-43-release.test.cjs tests/sengoku-v2.test.cjs tests/sengoku-chronology.test.cjs
-      - name: Validate ledger reproducibility
+          node --test tests/c-20261119-fixed57-release.test.cjs tests/c-20261119-release.test.cjs tests/sengoku-v2.test.cjs tests/sengoku-chronology.test.cjs
+      - name: Ledger reproducibility
         run: node scripts/export-c-release-ledger.cjs --check
-      - name: Commit generated release assets to work branch (never main)
+      - name: Commit generated assets ONLY to work branch
         run: |
+          set -euo pipefail
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git config user.name 'github-actions[bot]'
-          git add sengoku/v2/approved-c-20261119.json docs/c-release/20261119-delta-qa.json data/c-release/records.csv data/c-release/status.csv
+          git add sengoku/v2/approved-c-20261119-57.json docs/c-release/20261119-fixed57-delta-qa.json data/c-release/records.csv data/c-release/status.csv
           if ! git diff --cached --quiet; then
-            git commit -m 'build(c): generated approved 2026-11-19 publication and verified ledger'
-            git push origin HEAD:refs/heads/c/release-20261119-approved-delta
+            git commit -m 'build(c): fixed 57 approved JSON and synchronized ledgers'
+            git push origin HEAD:refs/heads/c/fixed57-20261119-approval
           fi
