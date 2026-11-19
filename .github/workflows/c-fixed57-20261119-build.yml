@@ -1,5 +1,14 @@
 name: C fixed 57 approved release build and regression QA
 on:
+  pull_request:
+    branches: [main]
+    paths:
+      - .github/workflows/c-fixed57-20261119-build.yml
+      - scripts/build-c-20261119-57.cjs
+      - sengoku-v2-core.js
+      - index.html
+      - tests/c-20261119-fixed57-release.test.cjs
+      - docs/c-release/20261119-fixed57-approved-manifest.json
   push:
     branches: [c/fixed57-20261119-approval]
     paths:
