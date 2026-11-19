@@ -30,6 +30,7 @@ for(const i of manifest.items){
   handoff:'C候補（別途公開承認）',sourceMatch:'一致',sha256:hash(i.text),kind:i.type,personId:i.approvalPersonRaw,sourceId:i.sourceId};
  expect(i.type==='史跡'||i.personIds.length===1,'History approval person missing '+i.fixedId);
  const previousHistory=histories.get(i.sourceId),previousSite=sites.get(i.sourceId);
+ const oldStateJSON=JSON.stringify(previousHistory||previousSite||null);
  if(i.kind==='自治体獲得の実装整合'){
   expect(i.type==='経歴'&&i.history&&!previousSite,'Municipality history malformed '+i.fixedId);
   const r=i.history.relation;
@@ -106,7 +107,7 @@ for(const i of manifest.items){
   }
  }
  status.push({fixedId:i.fixedId,sourceId:i.sourceId,approvalRow:i.approvedRow,approvalVersion:i.approvedVersion,
-  action:i.kind,approvalSHA256:approval.sha256,changedFromPrior:JSON.stringify(previousHistory||previousSite)!==JSON.stringify(i.type==='経歴'?histories.get(i.sourceId):sites.get(i.sourceId))});
+  action:i.kind,approvalSHA256:approval.sha256,changedFromPrior:oldStateJSON!==JSON.stringify(i.type==='経歴'?histories.get(i.sourceId):sites.get(i.sourceId))});
  updates.add(i.sourceId);
 }
 expect(municipalityAwards.length===6&&status.length===57,'Processing incomplete');
