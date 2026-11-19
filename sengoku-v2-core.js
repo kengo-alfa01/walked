@@ -884,12 +884,13 @@
         check(Array.isArray(s.point),'公開ピンの位置がありません');
         check(plain(s.pinApproval),'位置更新版の⑥公開承認がありません');
         const approvedPinPersonIds=s.pinPersonIds||String(s.pinApproval.personId||'').split('\n').filter(Boolean);
-        check(Array.isArray(approvedPinPersonIds)&&approvedPinPersonIds.length>0&&approvedPinPersonIds.every(x=>personMap.has(x)&&s.personIds.includes(x))&&new Set(approvedPinPersonIds).size===approvedPinPersonIds.length,'位置版⑥人物IDが未承認です: '+s.siteId+' pin='+JSON.stringify(approvedPinPersonIds)+' site='+JSON.stringify(s.personIds)+' approval='+String(s.pinApproval.personId||''));
+        check(Array.isArray(approvedPinPersonIds)&&approvedPinPersonIds.length>0&&approvedPinPersonIds.every(x=>personMap.has(x))&&new Set(approvedPinPersonIds).size===approvedPinPersonIds.length,'位置版⑥人物IDが未承認です: '+s.siteId+' pin='+JSON.stringify(approvedPinPersonIds)+' site='+JSON.stringify(s.personIds)+' approval='+String(s.pinApproval.personId||''));
         // In the fixed 57 set, a blank ⑥M stays blank: separately prove pin owners
         // with existing published attribution or B-approved ④, without new awards.
         const isNewC57Pin=!!C20261119_57_PIN_META[s.siteId]&&
           s.pinApproval.sheetRow===C20261119_57_PIN_META[s.siteId][0];
         if(isNewC57Pin){
+          check(approvedPinPersonIds.every(x=>s.personIds.includes(x)),'今回の公開ピンに未承認の人物が混入: '+s.siteId);
           const declared=String(s.pinApproval.personId||'').split('\n').filter(Boolean);
           check(declared.every(x=>approvedPinPersonIds.includes(x)),'⑥Mの人物がピンに欠けています: '+s.siteId);
           if(!declared.length)
