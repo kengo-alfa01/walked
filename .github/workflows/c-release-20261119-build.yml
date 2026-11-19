@@ -8,6 +8,7 @@ on:
       - sengoku-v2-core.js
       - index.html
       - tests/c-20261119-fixed57-release.test.cjs
+      - tests/sengoku-v2.test.cjs
       - docs/c-release/20261119-fixed57-approved-manifest.json
   pull_request:
     branches: [main]
@@ -17,6 +18,7 @@ on:
       - sengoku-v2-core.js
       - index.html
       - tests/c-20261119-fixed57-release.test.cjs
+      - tests/sengoku-v2.test.cjs
       - docs/c-release/20261119-fixed57-approved-manifest.json
   workflow_dispatch:
 permissions:
