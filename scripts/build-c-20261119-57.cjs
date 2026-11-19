@@ -38,12 +38,19 @@ for(const i of manifest.items){
    r.bStatus==='合格'&&r.linkDecision==='関係上対象'&&
    i.related.includes(i.history.municipalityCode)&&/^\d{5}$/.test(i.history.municipalityCode),'Unapproved municipality link '+i.fixedId);
   expect(!sites.has(r.siteId),'Non-public source site unexpectedly published; separate review needed '+i.fixedId);
-  expect(!previousHistory||previousHistory.kind==='place','Cannot convert an existing nonplace history '+i.fixedId);
+  expect(!previousHistory||['place','nonplace'].includes(previousHistory.kind),'Invalid previous history type '+i.fixedId);
   const h={...(previousHistory||{}),historyId:i.sourceId,personId:i.personIds[0],kind:'place',
     title:i.title,text:i.text,yearText:i.history.yearText,
     eventYear:/^\d{3,4}$/.test(i.history.startYear)?Number(i.history.startYear):null,
     eventYearEnd:/^\d{3,4}$/.test(i.history.endYear)?Number(i.history.endYear):null,
     sourceIds:i.sourceIds,sourceUrls:goodUrls(i.sourceIds,previousHistory?.sourceUrls||[]),approval};
+  if(previousHistory?.kind==='nonplace'){
+   // The latest ⑥ explicitly upgrades an older nonplace version to a B-confirmed
+   // municipality-place history; preserve the former user-approved version as history.
+   h.priorApprovedVersions=[...(previousHistory.priorApprovedVersions||[]),{
+    kind:previousHistory.kind,title:previousHistory.title,text:previousHistory.text,
+    yearText:previousHistory.yearText,approval:previousHistory.approval}];
+  }
   if(i.history.displayOrder!==''&&Number.isFinite(+i.history.displayOrder))h.displayOrder=Number(i.history.displayOrder);
   const award={historyId:i.sourceId,personId:i.personIds[0],municipalityCode:i.history.municipalityCode,
     relationSheetRow:r.sheetRow,relatedSiteId:r.siteId,classification:r.classification,bStatus:r.bStatus,
