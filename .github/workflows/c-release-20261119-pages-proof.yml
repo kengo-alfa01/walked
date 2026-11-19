@@ -1,4 +1,4 @@
-name: C 2026-11-19 GitHub Pages deployed bytes proof
+name: C fixed57 GitHub Pages deployed bytes proof
 on:
   push:
     branches: [main]
@@ -6,7 +6,7 @@ on:
       - .github/workflows/c-release-20261119-pages-proof.yml
       - index.html
       - sengoku-v2-core.js
-      - sengoku/v2/approved-c-20261119.json
+      - sengoku/v2/approved-c-20261119-57.json
       - data/c-release/records.csv
       - data/c-release/status.csv
   workflow_dispatch:
@@ -18,41 +18,42 @@ jobs:
     timeout-minutes: 18
     steps:
       - uses: actions/checkout@v4
-      - name: Wait for exact GitHub Pages publication, not merely build success
+      - name: Compare actual Pages bytes to checked-out merge commit
         shell: bash
         run: |
           set -euo pipefail
           base=https://kengo-alfa01.github.io/walked
-          files=(
-            index.html
-            sengoku-v2-core.js
-            sengoku/v2/approved-c-20261119.json
-            data/c-release/records.csv
-            data/c-release/status.csv
-          )
+          files=(index.html sengoku-v2-core.js sengoku/v2/approved-c-20261119-57.json data/c-release/records.csv data/c-release/status.csv)
           for i in $(seq 1 90); do
             ok=true
             for f in "${files[@]}"; do
               mkdir -p "/tmp/pages/$(dirname "$f")"
               if ! curl --fail --location --silent --show-error --retry 2 --max-time 30 --header 'Cache-Control: no-cache' "$base/$f?audit=$GITHUB_SHA" --output "/tmp/pages/$f" 2>/dev/null; then
-                ok=false
-                break
+                ok=false;break
               fi
-              if ! cmp -s "$f" "/tmp/pages/$f"; then
-                ok=false
-                break
-              fi
+              if ! cmp -s "$f" "/tmp/pages/$f"; then ok=false;break;fi
             done
             if $ok; then
               echo "PAGES_FULL_BYTES_MATCH_GITHUB_MAIN sha=$GITHUB_SHA attempt=$i"
               break
             fi
-            if [ "$i" -eq 90 ]; then
-              echo 'PAGES_MISMATCH_AFTER_90_ATTEMPTS'
-              exit 1
-            fi
+            if [ "$i" -eq 90 ]; then echo 'PAGES_MISMATCH_AFTER_90_ATTEMPTS';exit 1;fi
             sleep 8
           done
-          git hash-object data/c-release/status.csv
-          cat /tmp/pages/data/c-release/status.csv
-          node -e "const fs=require('fs');const f=JSON.parse(fs.readFileSync('/tmp/pages/sengoku/v2/approved-c-20261119.json'));const s=JSON.parse(fs.readFileSync('docs/c-release/20261119-fixed-approved-snapshot.json'));const p=JSON.parse(fs.readFileSync('docs/c-release/20261119-approved-pin-projection.json'));if(f.people.length!==65||f.histories.length!==1203||f.sites.length!==417||f.sites.filter(x=>x.publicPin).length!==350||f.retiredHistories.length!==31||s.fixed.length!==1230||p.ready.length!==16)process.exit(2);console.log('PAGES_RELEASE_PROOF',JSON.stringify({version:f.version,people:f.people.length,histories:f.histories.length,sites:f.sites.length,pins:350,retired:31}));"
+          node - <<'NODE'
+          const fs=require('fs'),crypto=require('crypto');
+          const f=JSON.parse(fs.readFileSync('/tmp/pages/sengoku/v2/approved-c-20261119-57.json'));
+          const m=JSON.parse(fs.readFileSync('docs/c-release/20261119-fixed57-approved-manifest.json'));
+          const qa=JSON.parse(fs.readFileSync('docs/c-release/20261119-fixed57-delta-qa.json'));
+          const status=fs.readFileSync('/tmp/pages/data/c-release/status.csv','utf8').trim().split('\n');
+          if(f.version!=='v2-approved-c-20261119-57'||f.people.length!==65||f.histories.length!==1208||
+            f.sites.length!==417||f.sites.filter(x=>x.publicPin).length!==400||
+            f.retiredHistories.length!==31||f.municipalityAwards.length!==6||
+            m.items.length!==57||m.heldFixedIds.length!==11||qa.completedCount!==57||
+            status.length!==2||!status[1].startsWith(f.version+','))process.exit(2);
+          const b=fs.readFileSync('/tmp/pages/sengoku/v2/approved-c-20261119-57.json');
+          const sha=crypto.createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex');
+          if(!status[1].includes(sha))process.exit(3);
+          console.log('PAGES_FIXED57_RELEASE_PROOF',JSON.stringify({version:f.version,people:65,histories:1208,sites:417,pins:400,awards:6,
+            completed:qa.completedCount,held:m.heldFixedIds.length,blobSha:sha,commit:process.env.GITHUB_SHA}));
+          NODE

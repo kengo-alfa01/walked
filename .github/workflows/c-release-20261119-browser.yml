@@ -1,11 +1,19 @@
 name: C 2026-11-19 real browser QA
 on:
   push:
-    branches: [c/release-20261119-approved-delta]
+    branches: [c/fixed57-20261119-approval]
     paths:
       - .github/workflows/c-release-20261119-browser.yml
       - tests/c-20261119-browser.smoke.cjs
-      - sengoku/v2/approved-c-20261119.json
+      - sengoku/v2/approved-c-20261119-57.json
+  pull_request:
+    branches: [main]
+    paths:
+      - .github/workflows/c-release-20261119-browser.yml
+      - tests/c-20261119-browser.smoke.cjs
+      - sengoku/v2/approved-c-20261119-57.json
+      - sengoku-v2-core.js
+      - index.html
   workflow_dispatch:
 permissions:
   contents: read

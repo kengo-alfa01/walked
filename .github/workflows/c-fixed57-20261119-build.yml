@@ -1,0 +1,56 @@
+name: C fixed 57 approved release build and regression QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - .github/workflows/c-fixed57-20261119-build.yml
+      - scripts/build-c-20261119-57.cjs
+      - sengoku-v2-core.js
+      - index.html
+      - tests/c-20261119-fixed57-release.test.cjs
+      - tests/sengoku-v2.test.cjs
+      - docs/c-release/20261119-fixed57-approved-manifest.json
+  push:
+    branches: [c/fixed57-20261119-approval]
+    paths:
+      - .github/workflows/c-fixed57-20261119-build.yml
+      - scripts/build-c-20261119-57.cjs
+      - sengoku-v2-core.js
+      - index.html
+      - tests/c-20261119-fixed57-release.test.cjs
+      - tests/sengoku-v2.test.cjs
+      - docs/c-release/20261119-fixed57-approved-manifest.json
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-test-ledger:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: c/fixed57-20261119-approval
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build ONLY the approved fixed 57 on the currently published base
+        run: node scripts/build-c-20261119-57.cjs
+      - name: Export the active C JSON and proof ledgers
+        run: node scripts/export-c-release-ledger.cjs
+      - name: Fixed 57 QA plus previously published content regression QA
+        run: |
+          node --test tests/c-20261119-fixed57-release.test.cjs tests/c-20261119-release.test.cjs tests/sengoku-v2.test.cjs tests/sengoku-chronology.test.cjs
+      - name: Ledger reproducibility
+        run: node scripts/export-c-release-ledger.cjs --check
+      - name: Commit generated release, audit and ledgers to work branch only
+        run: |
+          set -euo pipefail
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git add sengoku/v2/approved-c-20261119-57.json docs/c-release/20261119-fixed57-delta-qa.json data/c-release/records.csv data/c-release/status.csv
+          if ! git diff --cached --quiet; then
+            git commit -m 'build(c): approved fixed 57 release plus reproducible ledger and QA'
+            git push origin HEAD:refs/heads/c/fixed57-20261119-approval
+          fi

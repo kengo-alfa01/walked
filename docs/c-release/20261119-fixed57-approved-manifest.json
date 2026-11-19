@@ -1,0 +1,2746 @@
+{
+  "schema": "walked.c.20261119.fixed57.v1",
+  "createdFrom": "live C配信保留_20261119!M:Z and latest ⑥ A:P",
+  "baseCommit": "824f1b362059333be9130f8a6a38b8f17a72fe4f",
+  "baseVersion": "v2-approved-c-20261119",
+  "baseBlobSha": "e89499fb7fa0d6117c7ef59d0cb6917fff175bd5",
+  "fixedCount": 57,
+  "segments": {
+    "municipalityHistories": 6,
+    "namedSiteText": 1,
+    "pins": 50
+  },
+  "heldFixedIds": [
+    "CR20261119-009",
+    "CR20261119-010",
+    "CR20261119-011",
+    "CR20261119-012",
+    "CR20261119-014",
+    "CR20261119-015",
+    "CR20261119-020",
+    "CR20261119-021",
+    "CR20261119-026",
+    "CR20261119-062",
+    "CR20261119-067"
+  ],
+  "items": [
+    {
+      "fixedId": "CR20261119-001",
+      "lotRow": 2,
+      "kind": "自治体獲得の実装整合",
+      "sourceId": "sg2hist-a-kiyomasa-1589-amakusa-20261115",
+      "key": "経歴|sg2hist-a-kiyomasa-1589-amakusa-20261115",
+      "approvedRow": 3391,
+      "approvedVersion": "v2",
+      "title": "小西行長とともに天草一揆の鎮圧に出兵する",
+      "text": "1589年、天草の国人衆が小西行長の支配に抵抗して戦いになると、加藤清正も軍勢を率いて天草へ渡った。行長は清正自身の渡海を思いとどまらせようとしたが、清正は豊臣政権の責務を背負い、鎮圧軍に加わった。鎮圧軍は11月に志岐城を降し、天草種元が籠もる本渡城も攻略した。新たに肥後を治める二人の領主にとって、失敗の許されない戦いだった。",
+      "related": "本渡城跡（1589年天草国人一揆の戦場）［熊本県天草市／43215／④869・出来事直接（史料）・B合格］。GPS未設定につきピン非公開、史跡の位置版は別管理",
+      "type": "経歴",
+      "personIds": [
+        "sg-0b974357bac7"
+      ],
+      "approvalPersonRaw": "sg-0b974357bac7",
+      "sourceIds": [
+        "sg2src-a-kiyomasa-kumamoto-series-20261115",
+        "sg2src-a1-kiyomasa-hondo-citysurvey-20261116",
+        "sg2src-a1-kiyomasa-hondo-kumamotomuseum-20261116",
+        "sg2src-a1-kiyomasa-hondo-kiyama-20261116"
+      ],
+      "rights": "自治体確認済・権利OK",
+      "evidenceFromLot": "②経歴!1308／⑥公開最終承認!3391／④経歴・史跡対応!869／③史跡!431／管理整理_C移管!55",
+      "previousPublishedId": "sg2hist-a-kiyomasa-1589-amakusa-20261115",
+      "previousApprovalRow": "3391",
+      "oldHold": "承認済み④の公開可能な取得先史跡が存在しない。関係先：sg2site-a1-kiyomasa-hondo-castle-20261116",
+      "history": {
+        "historySheetRow": 1308,
+        "yearText": "天正17年（1589）",
+        "startYear": "1589",
+        "endYear": "",
+        "displayOrder": "",
+        "relation": {
+          "sheetRow": 869,
+          "personId": "sg-0b974357bac7",
+          "historyId": "sg2hist-a-kiyomasa-1589-amakusa-20261115",
+          "siteId": "sg2site-a1-kiyomasa-hondo-castle-20261116",
+          "sourceIds": [
+            "sg2src-a1-kiyomasa-hondo-citysurvey-20261116",
+            "sg2src-a1-kiyomasa-hondo-kumamotomuseum-20261116",
+            "sg2src-a1-kiyomasa-hondo-kiyama-20261116",
+            "sg2src-a-kiyomasa-kumamoto-series-20261115"
+          ],
+          "classification": "出来事直接（史料）",
+          "bStatus": "合格",
+          "linkDecision": "関係上対象"
+        },
+        "municipalityCode": "43215",
+        "sitePublished": false
+      }
+    },
+    {
+      "fixedId": "CR20261119-002",
+      "lotRow": 3,
+      "kind": "自治体獲得の実装整合",
+      "sourceId": "sg2hist-a-satake-1584-numajiri-20261114",
+      "key": "経歴|sg2hist-a-satake-1584-numajiri-20261114",
+      "approvedRow": 3554,
+      "approvedVersion": "v1",
+      "title": "沼尻合戦で北条氏政・氏直の軍勢と対陣する",
+      "text": "1584年、佐竹義重は宇都宮国綱ら北関東の諸将と連携し、下野の沼尻で北条氏政・氏直の軍勢と対峙した。5月から続いた対陣は約3か月に及び、7月、北条方が佐竹・宇都宮方の退路に当たる岩船山を押さえたことを機に終結した。大規模な決戦には至らなかったものの、北関東の大名たちが北条氏の進出に対抗した重要な戦いだった。",
+      "related": "沼尻合戦古戦場（三毳山南東麓）［09203／④858 出来事直接（史料）・B合格／ピン位置未確定］\n※経歴の獲得は自治体訪問判定。ピン未承認の施設へ誘導しない。",
+      "type": "経歴",
+      "personIds": [
+        "sg-master-0970"
+      ],
+      "approvalPersonRaw": "sg-master-0970",
+      "sourceIds": [
+        "sg2src-b-satake-numajiri-kanagawa-20261114",
+        "sg2src-a2-satake-numajiri-tochigi-20261115"
+      ],
+      "rights": "自治体確認済・権利OK",
+      "evidenceFromLot": "②経歴!1302／⑥公開最終承認!3554／④経歴・史跡対応!858／③史跡!423／管理整理_C移管!49",
+      "previousPublishedId": "sg2hist-a-satake-1584-numajiri-20261114",
+      "previousApprovalRow": "3554",
+      "oldHold": "承認済み④の公開可能な取得先史跡が存在しない。関係先：sg2site-a-satake-numajiri-20261114",
+      "history": {
+        "historySheetRow": 1302,
+        "yearText": "天正12年（1584）5月～7月",
+        "startYear": "1584",
+        "endYear": "",
+        "displayOrder": "",
+        "relation": {
+          "sheetRow": 858,
+          "personId": "sg-master-0970",
+          "historyId": "sg2hist-a-satake-1584-numajiri-20261114",
+          "siteId": "sg2site-a-satake-numajiri-20261114",
+          "sourceIds": [
+            "sg2src-b-satake-numajiri-kanagawa-20261114",
+            "sg2src-a2-satake-numajiri-tochigi-20261115",
+            "sg2src-a2-numajiri-moriya-library-20261116"
+          ],
+          "classification": "出来事直接（史料）",
+          "bStatus": "合格",
+          "linkDecision": "関係上対象"
+        },
+        "municipalityCode": "09203",
+        "sitePublished": false
+      }
+    },
+    {
+      "fixedId": "CR20261119-003",
+      "lotRow": 4,
+      "kind": "自治体獲得の実装整合",
+      "sourceId": "sg2hist-a-satake-015-20261113",
+      "key": "経歴|sg2hist-a-satake-015-20261113",
+      "approvedRow": 3539,
+      "approvedVersion": "v2",
+      "title": "常陸から秋田へ移り六郷城に入る",
+      "text": "1602年、関ヶ原の戦いの後、徳川家康の命によって佐竹家は常陸から出羽への国替えを余儀なくされた。義重も長年暮らした太田城を去り、家臣たちを連れて秋田へ向かう。子の義宣が新しい領国の統治を進める一方、義重は仙北郡の六郷城に入り、かつて戦って広げた常陸ではなく、出羽を晩年の拠点とすることになった。",
+      "related": "六郷城跡（佐竹義重の秋田移封後の居城）［05434／④750 本人直接・B合格／ピン位置未確定］\n※経歴の獲得は自治体訪問判定。ピン未承認の施設へ誘導しない。",
+      "type": "経歴",
+      "personIds": [
+        "sg-master-0970"
+      ],
+      "approvalPersonRaw": "sg-master-0970",
+      "sourceIds": [
+        "sg2src-a-satake-ibaraki-20261113",
+        "sg2src-a-satake-clan-20261113"
+      ],
+      "rights": "自治体確認済・権利OK",
+      "evidenceFromLot": "②経歴!1105／⑥公開最終承認!3539／④経歴・史跡対応!750／③史跡!386／管理整理_C移管!45",
+      "previousPublishedId": "sg2hist-a-satake-015-20261113",
+      "previousApprovalRow": "3539",
+      "oldHold": "承認済み④の公開可能な取得先史跡が存在しない。関係先：sg2site-a-satake-rokugo-20261113",
+      "history": {
+        "historySheetRow": 1105,
+        "yearText": "慶長7年（1602）",
+        "startYear": "1602",
+        "endYear": "",
+        "displayOrder": "",
+        "relation": {
+          "sheetRow": 750,
+          "personId": "sg-master-0970",
+          "historyId": "sg2hist-a-satake-015-20261113",
+          "siteId": "sg2site-a-satake-rokugo-20261113",
+          "sourceIds": [
+            "sg2src-a-satake-ibaraki-20261113",
+            "sg2src-a-satake-clan-20261113"
+          ],
+          "classification": "本人直接",
+          "bStatus": "合格",
+          "linkDecision": "関係上対象"
+        },
+        "municipalityCode": "05434",
+        "sitePublished": false
+      }
+    },
+    {
+      "fixedId": "CR20261119-004",
+      "lotRow": 5,
+      "kind": "自治体獲得の実装整合",
+      "sourceId": "sg2hist-nobuyuki-1620-komatsu",
+      "key": "経歴|sg2hist-nobuyuki-1620-komatsu",
+      "approvedRow": 3533,
+      "approvedVersion": "v2",
+      "title": "妻小松姫を弔い上田に墓塔を建てる",
+      "text": "1620年2月、信之の妻・小松姫は療養の旅の途中、武蔵国鴻巣で亡くなった。信之はその死を悼み、翌1621年、上田の菩提寺・常福寺（現在の芳泉寺）に墓塔を建てた。塔には建立に関わった「施主信之」の名が刻まれている。小松姫の遺骨は鴻巣の勝願寺や沼田の正覚寺にも分けて葬られ、徳川家と真田家を結んだ女性の記憶が各地に残った。",
+      "related": "芳泉寺・小松姫の墓（信之施主の宝篋印塔）［20203／④868 本人直接・B合格／ピン位置未確定］\n※経歴の獲得は自治体訪問判定。ピン未承認の施設へ誘導しない。",
+      "type": "経歴",
+      "personIds": [
+        "sg-53d7309718ae"
+      ],
+      "approvalPersonRaw": "sg-53d7309718ae",
+      "sourceIds": [
+        "sg2src-nobuyuki-numatakomatsu",
+        "sg2src-nobuyuki-numatachron",
+        "sg2src-a2-komatsu-ueda-personbio-20261116",
+        "sg2src-a2-komatsu-chiba-citymuseum-20261116"
+      ],
+      "rights": "自治体確認済・権利OK",
+      "evidenceFromLot": "②経歴!731／⑥公開最終承認!3533／④経歴・史跡対応!868／③史跡!430／管理整理_C移管!54",
+      "previousPublishedId": "sg2hist-nobuyuki-1620-komatsu",
+      "previousApprovalRow": "3533",
+      "oldHold": "承認済み④の公開可能な取得先史跡が存在しない。関係先：sg2site-a2-nobuyuki-hosenji-komatsu-20261116",
+      "history": {
+        "historySheetRow": 731,
+        "yearText": "元和6～7年（1620～1621）",
+        "startYear": "1620",
+        "endYear": "1621",
+        "displayOrder": "",
+        "relation": {
+          "sheetRow": 868,
+          "personId": "sg-53d7309718ae",
+          "historyId": "sg2hist-nobuyuki-1620-komatsu",
+          "siteId": "sg2site-a2-nobuyuki-hosenji-komatsu-20261116",
+          "sourceIds": [
+            "sg2src-a2-komatsu-ueda-museum-20261116",
+            "sg2src-a2-komatsu-hachijuni-20261116",
+            "sg2src-a2-komatsu-ueda-personbio-20261116",
+            "sg2src-a2-komatsu-chiba-citymuseum-20261116",
+            "sg2src-a2-komatsu-jodoshu-dictionary-20261116"
+          ],
+          "classification": "本人直接",
+          "bStatus": "合格",
+          "linkDecision": "関係上対象"
+        },
+        "municipalityCode": "20203",
+        "sitePublished": false
+      }
+    },
+    {
+      "fixedId": "CR20261119-005",
+      "lotRow": 6,
+      "kind": "自治体獲得の実装整合",
+      "sourceId": "sg2hist-audit-tamenobu-1585-inakadate-20261113",
+      "key": "経歴|sg2hist-audit-tamenobu-1585-inakadate-20261113",
+      "approvedRow": 3537,
+      "approvedVersion": "v2",
+      "title": "田舎館城を攻め千徳氏を破る",
+      "text": "1585年5月、津軽為信の軍勢は田舎館の千徳氏を攻め、城を落とした。千徳氏の城をめぐる戦いは南津軽の支配争いを示す出来事である。城跡は村の文化財として語り継がれている。",
+      "related": "田舎舘城跡（千徳氏の城・村指定史跡）［02367／④741 出来事直接（史料）・B合格／ピン位置未確定］\n※経歴の獲得は自治体訪問判定。ピン未承認の施設へ誘導しない。",
+      "type": "経歴",
+      "personIds": [
+        "sg-master-1321"
+      ],
+      "approvalPersonRaw": "sg-master-1321",
+      "sourceIds": [
+        "sg2src-audit-tamenobu-inakadate-village-20261113",
+        "sg2src-audit-tamenobu-hirosaki-timeline-20261113"
+      ],
+      "rights": "自治体確認済・権利OK",
+      "evidenceFromLot": "②経歴!1083／⑥公開最終承認!3537／④経歴・史跡対応!741／③史跡!384／管理整理_C移管!44",
+      "previousPublishedId": "sg2hist-audit-tamenobu-1585-inakadate-20261113",
+      "previousApprovalRow": "3537",
+      "oldHold": "承認済み④の公開可能な取得先史跡が存在しない。関係先：sg2site-audit-tamenobu-inakadate-20261113",
+      "history": {
+        "historySheetRow": 1083,
+        "yearText": "天正13年（1585）旧暦5月",
+        "startYear": "1585",
+        "endYear": "",
+        "displayOrder": "20",
+        "relation": {
+          "sheetRow": 741,
+          "personId": "sg-master-1321",
+          "historyId": "sg2hist-audit-tamenobu-1585-inakadate-20261113",
+          "siteId": "sg2site-audit-tamenobu-inakadate-20261113",
+          "sourceIds": [
+            "sg2src-audit-tamenobu-inakadate-village-20261113",
+            "sg2src-audit-tamenobu-hirosaki-timeline-20261113"
+          ],
+          "classification": "出来事直接（史料）",
+          "bStatus": "合格",
+          "linkDecision": "関係上対象"
+        },
+        "municipalityCode": "02367",
+        "sitePublished": false
+      }
+    },
+    {
+      "fixedId": "CR20261119-006",
+      "lotRow": 7,
+      "kind": "自治体獲得の実装整合",
+      "sourceId": "sg2hist-a-harumasa-1570-heir-20261114",
+      "key": "経歴|sg2hist-a-harumasa-1570-heir-20261114",
+      "approvedRow": 3541,
+      "approvedVersion": "v2",
+      "title": "家督をめぐり信直派の城へ出兵し一族に協力を求める",
+      "text": "男子のなかった南部晴政は娘婿の田子信直を後継者に迎えたが、のちに実子晴継が生まれると南部家は二派に割れた。元亀年間、晴政は信直を支える剣吉城主・北信愛や浅水城主・南盛義らと争い、兵を動かして七戸・八戸の一族にも加勢を求めた。家中の争いは周辺の城々に広がり、南部家の結束を揺るがした。",
+      "related": "剣吉城跡（北信愛の城）［02445／④795 出来事直接（公的伝承）・B合格／ピン位置未確定］\n※経歴の獲得は自治体訪問判定。ピン未承認の施設へ誘導しない。",
+      "type": "経歴",
+      "personIds": [
+        "sg-added-nanbu-harumasa-20261114"
+      ],
+      "approvalPersonRaw": "sg-added-nanbu-harumasa-20261114",
+      "sourceIds": [
+        "sg2src-a-nanbu-hirosaki-1539-20261114",
+        "sg2src-a-nanbu-aomori-goki-20261114"
+      ],
+      "rights": "自治体確認済・権利OK",
+      "evidenceFromLot": "②経歴!1165／⑥公開最終承認!3541／④経歴・史跡対応!795／③史跡!402／管理整理_C移管!48",
+      "previousPublishedId": "sg2hist-a-harumasa-1570-heir-20261114",
+      "previousApprovalRow": "3541",
+      "oldHold": "承認済み④の公開可能な取得先史跡が存在しない。関係先：sg2site-a-nanbu-kenyoshi-20261114",
+      "history": {
+        "historySheetRow": 1165,
+        "yearText": "元亀年間（1570～1572）頃〈継嗣争い〉",
+        "startYear": "1570",
+        "endYear": "1572",
+        "displayOrder": "10",
+        "relation": {
+          "sheetRow": 795,
+          "personId": "sg-added-nanbu-harumasa-20261114",
+          "historyId": "sg2hist-a-harumasa-1570-heir-20261114",
+          "siteId": "sg2site-a-nanbu-kenyoshi-20261114",
+          "sourceIds": [
+            "sg2src-a-nanbu-hirosaki-1539-20261114",
+            "sg2src-a-nanbu-aomori-goki-20261114"
+          ],
+          "classification": "出来事直接（公的伝承）",
+          "bStatus": "合格",
+          "linkDecision": "関係上対象"
+        },
+        "municipalityCode": "02445",
+        "sitePublished": false
+      }
+    },
+    {
+      "fixedId": "CR20261119-007",
+      "lotRow": 8,
+      "kind": "承認済み名称版の反映",
+      "sourceId": "sg2site-motonari-niitakayama",
+      "key": "史跡|sg2site-motonari-niitakayama",
+      "approvedRow": 3564,
+      "approvedVersion": "v5",
+      "title": "新高山城跡（小早川隆景の居城）",
+      "text": "1552年、小早川隆景が沼田川の西岸に築き、本拠とした新高山城の跡。隆景はそれまで本家の城だった高山城から川を挟んだ新城へ移り、小早川家の家臣と領地を統率した。1561年には父の毛利元就と兄・隆元がこの城を訪れたと伝わり、毛利家と小早川家の結びつきを示す場所となった。山中に残る曲輪や井戸が、瀬戸内海へ勢力を伸ばす前の隆景の山城を物語る。",
+      "related": "毛利元就：sg2hist-motonari-1561-niitakayama（④190／本人直接・関係上対象）\n小早川隆景：sg2hist-takakage-1552-niitakayama（④280／出来事直接（史料）・関係上対象）\n【ピン位置版③139】WGS84=34.419327,132.976328、見学緑（緑：通常見学可能とする情報点。現時点の開放や安全な登城経路までは保証せず現地掲示を優先。）。獲得自治体=34204。位置接近を獲得条件にしない。",
+      "type": "史跡",
+      "personIds": [
+        "sg-98139e31efb2",
+        "sg-master-0891"
+      ],
+      "approvalPersonRaw": "sg-98139e31efb2\nsg-master-0891",
+      "sourceIds": [
+        "sg2src-motonari-niitakayama",
+        "sg2src-motonari-chron",
+        "sg2src-b-pin-others-139-20261107",
+        "sg2src-takakage-mihara-niitakayama"
+      ],
+      "rights": "自治体確認済・権利OK",
+      "evidenceFromLot": "③史跡!139／⑥公開最終承認!3150",
+      "previousPublishedId": "sg2site-motonari-niitakayama",
+      "previousApprovalRow": "3150",
+      "oldHold": "⑥承認タイトルと③史跡名が異なる。③「新高山城跡（小早川隆景の居城）」／⑥「新高山城跡（1561年元就の訪問先）」",
+      "site": {
+        "sourceSheetRow": 139,
+        "municipalityCode": "34204",
+        "sourceIds": [
+          "sg2src-motonari-niitakayama",
+          "sg2src-motonari-chron",
+          "sg2src-b-pin-others-139-20261107",
+          "sg2src-takakage-mihara-niitakayama"
+        ],
+        "license": "条件付き",
+        "municipalityName": "広島県三原市"
+      }
+    },
+    {
+      "fixedId": "CR20261119-008",
+      "lotRow": 9,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-yoshiteru-nakao",
+      "key": "ピン|sg2site-yoshiteru-nakao",
+      "approvedRow": 3565,
+      "approvedVersion": "v5",
+      "title": "中尾城跡（1550年義輝の戦時拠点）",
+      "text": "1549年、足利義晴が三好長慶との戦いに備えて京都東山に築いた中尾城。翌1550年には息子の将軍義藤（後の義輝）が拠点としたが、三好方の攻勢を受け、城を離れて近江へ退いた。尾根を断ち切る堀や、鉄砲の攻撃を防ぐための備えが文献に記され、今も山中に曲輪や堀切などの城跡が残る。",
+      "related": "【③250・史跡位置】京都府京都市左京区［26103］。B公表参考点=35.0285625,135.8033125。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得2件】足利義輝 sg2hist-yoshiteru-1550-nakao（④401）／足利義輝 sg2hist-yoshiteru-1550-gohanjyo（④402）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-008｜統合A・位置明示新版③250】位置WGS84=35.0285625,135.8033125、見学信号色=赤。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：急峻な山林・複数尾根。入山路や入口の安全保証・経路誘導は禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-yoshiteru-kyoto-pref-nakao、sg2src-yoshiteru-kyoto-lib-nakao、sg2src-yoshiteru-tachibana1550、sg2src-b-nakao-safety-hold-20261108、sg2src-b-nakao-newplus-safety-20261109。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-0080"
+      ],
+      "approvalPersonRaw": "sg-master-0080",
+      "sourceIds": [
+        "sg2src-yoshiteru-kyoto-pref-nakao",
+        "sg2src-yoshiteru-kyoto-lib-nakao",
+        "sg2src-yoshiteru-tachibana1550",
+        "sg2src-b-nakao-safety-hold-20261108",
+        "sg2src-b-nakao-newplus-safety-20261109"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!250／⑥公開最終承認!3309",
+      "previousPublishedId": "sg2site-yoshiteru-nakao",
+      "previousApprovalRow": "3309",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 250,
+        "municipalityCode": "26103",
+        "sourceIds": [
+          "sg2src-yoshiteru-kyoto-pref-nakao",
+          "sg2src-yoshiteru-kyoto-lib-nakao",
+          "sg2src-yoshiteru-tachibana1550",
+          "sg2src-b-nakao-safety-hold-20261108",
+          "sg2src-b-nakao-newplus-safety-20261109"
+        ],
+        "license": "条件付き",
+        "municipalityName": "京都府京都市左京区"
+      },
+      "pin": {
+        "lat": 35.0285625,
+        "lng": 135.8033125,
+        "accessStatus": "red",
+        "sourceSheetRow": 250,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③250・史跡位置】京都府京都市左京区［26103］。B公表参考点=35.0285625,135.8033125。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得2件】足利義輝 sg2hist-yoshiteru-1550-nakao（④401）／足利義輝 sg2hist-yoshiteru-1550-gohanjyo（④402）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-008｜統合A・位置明示新版③250】位置WGS84=35.0285625,135.8033125、見学信号色=赤。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：急峻な山林・複数尾根。入山路や入口の安全保証・経路誘導は禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-yoshiteru-kyoto-pref-nakao、sg2src-yoshiteru-kyoto-lib-nakao、sg2src-yoshiteru-tachibana1550、sg2src-b-nakao-safety-hold-20261108、sg2src-b-nakao-newplus-safety-20261109。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-013",
+      "lotRow": 14,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-kazumasu-kanie-20261111",
+      "key": "ピン|sg2site-a-kazumasu-kanie-20261111",
+      "approvedRow": 3566,
+      "approvedVersion": "v5",
+      "title": "蟹江城址（1584年滝川一益の攻防）",
+      "text": "1584年6月、羽柴秀吉方の滝川一益は九鬼嘉隆の水軍とともに海路で蟹江城へ進み、城内の内応も得て一時城を占拠した。織田信雄・徳川家康方は反撃し、翌7月には一益が城を明け渡した。蟹江城址は小牧・長久手戦役の攻防を伝えるが、城や海岸線の当時の姿は現在と異なる。",
+      "related": "【③325・史跡位置】愛知県海部郡蟹江町［23425］。B公表参考点=35.1365901,136.7902698。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得2件】滝川一益 sg2hist-kazumasu-kanie-attack（④594）／滝川一益 sg2hist-kazumasu-kanie-surrender（④595）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-013｜統合A・位置明示新版③325】位置WGS84=35.1365901,136.7902698、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：城址公園の公表参照点。非公開の旧本丸井戸・私有地への誘導禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-kazumasu-kanie-20261111、sg2src-b-kanie-official-parkmap-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-6b9e823e7bf5"
+      ],
+      "approvalPersonRaw": "sg-6b9e823e7bf5",
+      "sourceIds": [
+        "sg2src-a-kazumasu-kanie-20261111",
+        "sg2src-b-kanie-official-parkmap-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!325／⑥公開最終承認!3327",
+      "previousPublishedId": "sg2site-a-kazumasu-kanie-20261111",
+      "previousApprovalRow": "3327",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 325,
+        "municipalityCode": "23425",
+        "sourceIds": [
+          "sg2src-a-kazumasu-kanie-20261111",
+          "sg2src-b-kanie-official-parkmap-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "愛知県海部郡蟹江町"
+      },
+      "pin": {
+        "lat": 35.1365901,
+        "lng": 136.7902698,
+        "accessStatus": "green",
+        "sourceSheetRow": 325,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③325・史跡位置】愛知県海部郡蟹江町［23425］。B公表参考点=35.1365901,136.7902698。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得2件】滝川一益 sg2hist-kazumasu-kanie-attack（④594）／滝川一益 sg2hist-kazumasu-kanie-surrender（④595）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-013｜統合A・位置明示新版③325】位置WGS84=35.1365901,136.7902698、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：城址公園の公表参照点。非公開の旧本丸井戸・私有地への誘導禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-kazumasu-kanie-20261111、sg2src-b-kanie-official-parkmap-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-016",
+      "lotRow": 17,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-hanbei-omido-birth-20261111",
+      "key": "ピン|sg2site-a-hanbei-omido-birth-20261111",
+      "approvedRow": 3567,
+      "approvedVersion": "v5",
+      "title": "竹中半兵衛生誕地（美濃大御堂・伝承地）",
+      "text": "1544年、竹中半兵衛は美濃国大御堂の竹中家に生まれたと伝わる。父の重元はこの地方で勢力を持ち、のちに半兵衛も美濃の戦いに加わった。生誕伝承地には若き軍師の出発をしのぶ記念碑がある。小さな村に始まった半兵衛の生涯は、やがて稲葉山城の奪取や秀吉を支える戦いへと続いていく。",
+      "related": "【③340・史跡位置】岐阜県揖斐郡大野町［21403］。B公表参考点=35.4522232,136.6032806。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】竹中半兵衛 sg2hist-hanbei-birth（④630）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-016｜統合A・位置明示新版③340】位置WGS84=35.4522232,136.6032806、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：後世の生誕記念碑であり当時の出産室の実測点ではない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-hanbei-tarui-chron-20261111、sg2src-a-hanbei-tarui-profile-20261111、sg2src-b-hanbei-omido-birth-gifu-poi-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1251"
+      ],
+      "approvalPersonRaw": "sg-master-1251",
+      "sourceIds": [
+        "sg2src-a-hanbei-tarui-chron-20261111",
+        "sg2src-a-hanbei-tarui-profile-20261111",
+        "sg2src-b-hanbei-omido-birth-gifu-poi-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!340／⑥公開最終承認!3332",
+      "previousPublishedId": "sg2site-a-hanbei-omido-birth-20261111",
+      "previousApprovalRow": "3332",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 340,
+        "municipalityCode": "21403",
+        "sourceIds": [
+          "sg2src-a-hanbei-tarui-chron-20261111",
+          "sg2src-a-hanbei-tarui-profile-20261111",
+          "sg2src-b-hanbei-omido-birth-gifu-poi-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "岐阜県揖斐郡大野町"
+      },
+      "pin": {
+        "lat": 35.4522232,
+        "lng": 136.6032806,
+        "accessStatus": "green",
+        "sourceSheetRow": 340,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③340・史跡位置】岐阜県揖斐郡大野町［21403］。B公表参考点=35.4522232,136.6032806。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】竹中半兵衛 sg2hist-hanbei-birth（④630）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-016｜統合A・位置明示新版③340】位置WGS84=35.4522232,136.6032806、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：後世の生誕記念碑であり当時の出産室の実測点ではない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-hanbei-tarui-chron-20261111、sg2src-a-hanbei-tarui-profile-20261111、sg2src-b-hanbei-omido-birth-gifu-poi-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-017",
+      "lotRow": 18,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-hanbei-hirai-camp-20261111",
+      "key": "ピン|sg2site-a-hanbei-hirai-camp-20261111",
+      "approvedRow": 3568,
+      "approvedVersion": "v5",
+      "title": "竹中半兵衛陣所跡（平井村中村間ノ山付城跡）",
+      "text": "播磨の三木城を包囲した羽柴秀吉軍は、周囲の山々にいくつもの付城を築いた。半兵衛が北側の守りを担ったと伝わるのが、平井村中村間ノ山の陣所跡である。兵糧攻めが長引くなか、半兵衛は1579年に病没し、三木城落城を見ることはなかった。山に残る陣跡は包囲戦の長い時間を伝えている。",
+      "related": "【③342・史跡位置】兵庫県三木市［28215］。B公表参考点=34.8118125,135.0161875。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得3件】竹中半兵衛 sg2hist-hanbei-miki-siege-1578（④645）／竹中半兵衛 sg2hist-hanbei-miki-return-1579（④648）／竹中半兵衛 sg2hist-hanbei-death-1579（④650）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-017｜統合A・位置明示新版③342】位置WGS84=34.8118125,135.0161875、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：付城山道と斜面に注意。別の秀吉本陣付城とは区別。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-hanbei-miki-hirai-camp-20261111、sg2src-a-hanbei-miki-historic-site-20261111、sg2src-b-hanbei-camp-miki-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1251"
+      ],
+      "approvalPersonRaw": "sg-master-1251",
+      "sourceIds": [
+        "sg2src-a-hanbei-miki-hirai-camp-20261111",
+        "sg2src-a-hanbei-miki-historic-site-20261111",
+        "sg2src-b-hanbei-camp-miki-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!342／⑥公開最終承認!3333",
+      "previousPublishedId": "sg2site-a-hanbei-hirai-camp-20261111",
+      "previousApprovalRow": "3333",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 342,
+        "municipalityCode": "28215",
+        "sourceIds": [
+          "sg2src-a-hanbei-miki-hirai-camp-20261111",
+          "sg2src-a-hanbei-miki-historic-site-20261111",
+          "sg2src-b-hanbei-camp-miki-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "兵庫県三木市"
+      },
+      "pin": {
+        "lat": 34.8118125,
+        "lng": 135.0161875,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 342,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③342・史跡位置】兵庫県三木市［28215］。B公表参考点=34.8118125,135.0161875。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得3件】竹中半兵衛 sg2hist-hanbei-miki-siege-1578（④645）／竹中半兵衛 sg2hist-hanbei-miki-return-1579（④648）／竹中半兵衛 sg2hist-hanbei-death-1579（④650）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-017｜統合A・位置明示新版③342】位置WGS84=34.8118125,135.0161875、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：付城山道と斜面に注意。別の秀吉本陣付城とは区別。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-hanbei-miki-hirai-camp-20261111、sg2src-a-hanbei-miki-historic-site-20261111、sg2src-b-hanbei-camp-miki-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-018",
+      "lotRow": 19,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-hanbei-hirai-grave-20261111",
+      "key": "ピン|sg2site-a-hanbei-hirai-grave-20261111",
+      "approvedRow": 3569,
+      "approvedVersion": "v5",
+      "title": "竹中半兵衛の墓（三木市平井）",
+      "text": "三木市平井には、1579年に三木城包囲の陣中で病没した竹中半兵衛の墓が残る。半兵衛はまだ三十代半ばで、秀吉の中国攻めが続くなか、城の陥落を見届けずに生涯を閉じた。地元の人々による供養が今も続き、三木合戦で戦い、若くして亡くなった武将の記憶を伝えている。",
+      "related": "【③343・史跡位置】兵庫県三木市［28215］。B公表参考点=34.8092222,135.0111111。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得0件】直接リンクなし。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-018｜統合A・位置明示新版③343】位置WGS84=34.8092222,135.0111111、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：墓域周辺のぶどう畑・非公開農地への進入禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-hanbei-miki-grave-20261111、sg2src-a-hanbei-miki-hirai-camp-20261111、sg2src-b-hanbei-grave-harima-poi-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1251"
+      ],
+      "approvalPersonRaw": "sg-master-1251",
+      "sourceIds": [
+        "sg2src-a-hanbei-miki-grave-20261111",
+        "sg2src-a-hanbei-miki-hirai-camp-20261111",
+        "sg2src-b-hanbei-grave-harima-poi-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!343／⑥公開最終承認!3334",
+      "previousPublishedId": "sg2site-a-hanbei-hirai-grave-20261111",
+      "previousApprovalRow": "3334",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 343,
+        "municipalityCode": "28215",
+        "sourceIds": [
+          "sg2src-a-hanbei-miki-grave-20261111",
+          "sg2src-a-hanbei-miki-hirai-camp-20261111",
+          "sg2src-b-hanbei-grave-harima-poi-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "兵庫県三木市"
+      },
+      "pin": {
+        "lat": 34.8092222,
+        "lng": 135.0111111,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 343,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③343・史跡位置】兵庫県三木市［28215］。B公表参考点=34.8092222,135.0111111。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得0件】直接リンクなし。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-018｜統合A・位置明示新版③343】位置WGS84=34.8092222,135.0111111、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：墓域周辺のぶどう畑・非公開農地への進入禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-hanbei-miki-grave-20261111、sg2src-a-hanbei-miki-hirai-camp-20261111、sg2src-b-hanbei-grave-harima-poi-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-019",
+      "lotRow": 20,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-hanbei-gomyo-inari-20261111",
+      "key": "ピン|sg2site-a-hanbei-gomyo-inari-20261111",
+      "approvedRow": 3570,
+      "approvedVersion": "v5",
+      "title": "五明稲荷神社（松寿丸保護の伝承地）",
+      "text": "黒田官兵衛が幽閉された際、竹中半兵衛はその子・松寿丸を美濃岩手で匿ったと伝わる。五明稲荷神社には、松寿丸が植えたというイチョウの話も残されている。戦国の厳しい主従関係のなか、幼い命を守ろうとした半兵衛の逸話を伝える神社である。",
+      "related": "【③345・史跡位置】岐阜県不破郡垂井町［21361］。B公表参考点=35.381055214799,136.50810956954。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】竹中半兵衛 sg2hist-hanbei-matsujumaru-1578（④646）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-019｜統合A・位置明示新版③345】位置WGS84=35.381055214799,136.50810956954、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：通常参拝区画のみ公開。社務所・隣接宅地・管理区域には立ち入らない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-hanbei-tarui-gomyo-20261111、sg2src-a-hanbei-tarui-profile-20261111、sg2src-b-gomyo-gifujinja-map-20261114、sg2src-b-gomyo-nishimino-open-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1251"
+      ],
+      "approvalPersonRaw": "sg-master-1251",
+      "sourceIds": [
+        "sg2src-a-hanbei-tarui-gomyo-20261111",
+        "sg2src-a-hanbei-tarui-profile-20261111",
+        "sg2src-b-gomyo-gifujinja-map-20261114",
+        "sg2src-b-gomyo-nishimino-open-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!345／⑥公開最終承認!3336",
+      "previousPublishedId": "sg2site-a-hanbei-gomyo-inari-20261111",
+      "previousApprovalRow": "3336",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 345,
+        "municipalityCode": "21361",
+        "sourceIds": [
+          "sg2src-a-hanbei-tarui-gomyo-20261111",
+          "sg2src-a-hanbei-tarui-profile-20261111",
+          "sg2src-b-gomyo-gifujinja-map-20261114",
+          "sg2src-b-gomyo-nishimino-open-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "岐阜県不破郡垂井町"
+      },
+      "pin": {
+        "lat": 35.381055214799,
+        "lng": 136.50810956954,
+        "accessStatus": "green",
+        "sourceSheetRow": 345,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③345・史跡位置】岐阜県不破郡垂井町［21361］。B公表参考点=35.381055214799,136.50810956954。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】竹中半兵衛 sg2hist-hanbei-matsujumaru-1578（④646）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-019｜統合A・位置明示新版③345】位置WGS84=35.381055214799,136.50810956954、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：通常参拝区画のみ公開。社務所・隣接宅地・管理区域には立ち入らない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-hanbei-tarui-gomyo-20261111、sg2src-a-hanbei-tarui-profile-20261111、sg2src-b-gomyo-gifujinja-map-20261114、sg2src-b-gomyo-nishimino-open-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-022",
+      "lotRow": 23,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-muneshige-terayama-20261111",
+      "key": "ピン|sg2site-a-muneshige-terayama-20261111",
+      "approvedRow": 3571,
+      "approvedVersion": "v5",
+      "title": "寺山館跡（棚倉町の中世城館）",
+      "text": "棚倉町の寺山に残る中世山城・寺山館（蛇頭館）の跡。白川氏が築き、後に佐竹氏が拠点とした。現在も曲輪や虎口、大規模な二重堀切などの遺構が残るが、1590年に廃城となった。戦国期の山城の守りを実感できる史跡である。",
+      "related": "【③352・史跡位置】福島県東白川郡棚倉町［07481］。B公表参考点=37.0066875,140.3985625。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得0件】直接リンクなし。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-022｜統合A・位置明示新版③352】位置WGS84=37.0066875,140.3985625、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：中世城館の情報点。現況山道・見学制限は現地掲示に従う。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-muneshige-l-20261111、sg2src-a-muneshige-k-20261111、sg2src-b-tanagura-terayama-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1262"
+      ],
+      "approvalPersonRaw": "sg-master-1262",
+      "sourceIds": [
+        "sg2src-a-muneshige-l-20261111",
+        "sg2src-a-muneshige-k-20261111",
+        "sg2src-b-tanagura-terayama-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!352／⑥公開最終承認!3341",
+      "previousPublishedId": "sg2site-a-muneshige-terayama-20261111",
+      "previousApprovalRow": "3341",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 352,
+        "municipalityCode": "07481",
+        "sourceIds": [
+          "sg2src-a-muneshige-l-20261111",
+          "sg2src-a-muneshige-k-20261111",
+          "sg2src-b-tanagura-terayama-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "福島県東白川郡棚倉町"
+      },
+      "pin": {
+        "lat": 37.0066875,
+        "lng": 140.3985625,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 352,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③352・史跡位置】福島県東白川郡棚倉町［07481］。B公表参考点=37.0066875,140.3985625。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得0件】直接リンクなし。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-022｜統合A・位置明示新版③352】位置WGS84=37.0066875,140.3985625、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：中世城館の情報点。現況山道・見学制限は現地掲示に従う。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-muneshige-l-20261111、sg2src-a-muneshige-k-20261111、sg2src-b-tanagura-terayama-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-023",
+      "lotRow": 24,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-shigezane-shiroishi-20261112",
+      "key": "ピン|sg2site-a-shigezane-shiroishi-20261112",
+      "approvedRow": 3572,
+      "approvedVersion": "v4",
+      "title": "白石城跡（1600年の伊達・上杉戦役）",
+      "text": "1600年、伊達政宗の軍勢は上杉方が守る白石城を攻め、城を奪い返した。白石城は伊達氏と上杉氏が対立する奥羽の重要な拠点だった。現在は益岡公園として整備され、復元された三階櫓や門が戦国の城をしのばせる。",
+      "related": "④B審査済の直接獲得リンクなし（史跡閲覧・ピン表示とカード獲得を区別）\n【ピン位置版③361】WGS84=38.002576,140.6171。見学黄（当日の安全・公開範囲は現地掲示を優先）。獲得対象自治体=04206。ピン接近をカード獲得条件にしない。\n【C20261119-FOLLOWUP／CR20261119-023｜統合A・位置明示新版③361】位置WGS84=38.002576,140.6171、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：天守等の開館範囲・入館料・当日通行条件は別。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-shigezane-shiroishi-20261112、sg2src-a-shigezane-letter1602-20261112、sg2src-a-shigezane-life-20261112、sg2src-b-geoshape-site361-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-c33de3cf7739"
+      ],
+      "approvalPersonRaw": "sg-c33de3cf7739",
+      "sourceIds": [
+        "sg2src-a-shigezane-shiroishi-20261112",
+        "sg2src-a-shigezane-letter1602-20261112",
+        "sg2src-a-shigezane-life-20261112",
+        "sg2src-b-geoshape-site361-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!361／⑥公開最終承認!3524",
+      "previousPublishedId": "sg2site-a-shigezane-shiroishi-20261112",
+      "previousApprovalRow": "3524",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 361,
+        "municipalityCode": "04206",
+        "sourceIds": [
+          "sg2src-a-shigezane-shiroishi-20261112",
+          "sg2src-a-shigezane-letter1602-20261112",
+          "sg2src-a-shigezane-life-20261112",
+          "sg2src-b-geoshape-site361-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "宮城県白石市"
+      },
+      "pin": {
+        "lat": 38.002576,
+        "lng": 140.6171,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 361,
+        "checkedAt": "2026-11-19",
+        "evidence": "④B審査済の直接獲得リンクなし（史跡閲覧・ピン表示とカード獲得を区別）\n【ピン位置版③361】WGS84=38.002576,140.6171。見学黄（当日の安全・公開範囲は現地掲示を優先）。獲得対象自治体=04206。ピン接近をカード獲得条件にしない。\n【C20261119-FOLLOWUP／CR20261119-023｜統合A・位置明示新版③361】位置WGS84=38.002576,140.6171、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：天守等の開館範囲・入館料・当日通行条件は別。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-shigezane-shiroishi-20261112、sg2src-a-shigezane-letter1602-20261112、sg2src-a-shigezane-life-20261112、sg2src-b-geoshape-site361-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-024",
+      "lotRow": 25,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-tamenobu-oura-20261112",
+      "key": "ピン|sg2site-a-tamenobu-oura-20261112",
+      "approvedRow": 2934,
+      "approvedVersion": "v2",
+      "title": "大浦城跡（大浦氏の居城）",
+      "text": "大浦氏が津軽で拠点とした城の跡。為信は1567年に大浦城主となり、この城を本拠に周囲の国衆へ勢力を広げた。1594年に堀越城へ移るまで政治の拠点となった。",
+      "related": "【公開位置新版｜赤・情報点】大浦城跡（大浦氏の居城）（青森県弘前市）／WGS84 40.617204, 140.415837。学校・私有地が重なる旧城址の公開地名情報点。校内・宅地・畑への立入やルート案内をしない。人物の歴史上の立ち位置、学校内・民有地の入口を示す座標ではない。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1321"
+      ],
+      "approvalPersonRaw": "sg-master-1321",
+      "sourceIds": [
+        "sg2src-a-tamenobu-hirosaki-profile-20261112",
+        "sg2src-a-tamenobu-aomori-chron-20261112",
+        "sg2src-a-tamenobu-ajigasawa-tanesato-20261112",
+        "sg2src-b-geoshape-site364-20261114",
+        "sg2src-b-oura-schoolmarker-city-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!364N／⑥公開最終承認!2934E:P",
+      "previousPublishedId": "sg2site-a-tamenobu-oura-20261112",
+      "previousApprovalRow": "2934",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 364,
+        "municipalityCode": "02202",
+        "sourceIds": [
+          "sg2src-a-tamenobu-hirosaki-profile-20261112",
+          "sg2src-a-tamenobu-aomori-chron-20261112",
+          "sg2src-a-tamenobu-ajigasawa-tanesato-20261112",
+          "sg2src-b-geoshape-site364-20261114",
+          "sg2src-b-oura-schoolmarker-city-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "青森県弘前市"
+      },
+      "pin": {
+        "lat": 40.617204,
+        "lng": 140.415837,
+        "accessStatus": "red",
+        "sourceSheetRow": 364,
+        "checkedAt": "2026-11-19",
+        "evidence": "【公開位置新版｜赤・情報点】大浦城跡（大浦氏の居城）（青森県弘前市）／WGS84 40.617204, 140.415837。学校・私有地が重なる旧城址の公開地名情報点。校内・宅地・畑への立入やルート案内をしない。人物の歴史上の立ち位置、学校内・民有地の入口を示す座標ではない。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-025",
+      "lotRow": 26,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-tamenobu-ishikawa-20261112",
+      "key": "ピン|sg2site-a-tamenobu-ishikawa-20261112",
+      "approvedRow": 2935,
+      "approvedVersion": "v2",
+      "title": "石川城跡（南部高信の城）",
+      "text": "津軽南部の石川にあった南部氏ゆかりの城跡。1571年に大浦為信が攻略したという津軽側の記録があるが、攻防の詳細には異説が残る。",
+      "related": "【公開位置新版｜黄・情報点】石川城跡（南部高信の城）（青森県弘前市）／WGS84 40.5478584, 140.5438877。大仏公園の一般公開区域を位置参照点とする。冬季閉園に注意し、園外私有地・洞窟・宗教施設へ誘導しない。人物の歴史上の立ち位置、学校内・民有地の入口を示す座標ではない。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1321"
+      ],
+      "approvalPersonRaw": "sg-master-1321",
+      "sourceIds": [
+        "sg2src-a-tamenobu-hirosaki-horikoshi-20261112",
+        "sg2src-a-tamenobu-hirosaki-source-ishikawa-20261112",
+        "sg2src-b-geoshape-site365-20261114",
+        "sg2src-b-ishikawa-park-city-20261114",
+        "sg2src-b-ishikawa-park-season-20261114",
+        "sg2src-b-ishikawa-park-poi-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!365N／⑥公開最終承認!2935E:P",
+      "previousPublishedId": "sg2site-a-tamenobu-ishikawa-20261112",
+      "previousApprovalRow": "2935",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 365,
+        "municipalityCode": "02202",
+        "sourceIds": [
+          "sg2src-a-tamenobu-hirosaki-horikoshi-20261112",
+          "sg2src-a-tamenobu-hirosaki-source-ishikawa-20261112",
+          "sg2src-b-geoshape-site365-20261114",
+          "sg2src-b-ishikawa-park-city-20261114",
+          "sg2src-b-ishikawa-park-season-20261114",
+          "sg2src-b-ishikawa-park-poi-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "青森県弘前市"
+      },
+      "pin": {
+        "lat": 40.5478584,
+        "lng": 140.5438877,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 365,
+        "checkedAt": "2026-11-19",
+        "evidence": "【公開位置新版｜黄・情報点】石川城跡（南部高信の城）（青森県弘前市）／WGS84 40.5478584, 140.5438877。大仏公園の一般公開区域を位置参照点とする。冬季閉園に注意し、園外私有地・洞窟・宗教施設へ誘導しない。人物の歴史上の立ち位置、学校内・民有地の入口を示す座標ではない。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-027",
+      "lotRow": 28,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-tamenobu-kunohe-20261112",
+      "key": "ピン|sg2site-a-tamenobu-kunohe-20261112",
+      "approvedRow": 3573,
+      "approvedVersion": "v4",
+      "title": "九戸城跡（九戸政実の居城）",
+      "text": "九戸政実が本拠とした九戸城の跡。1591年、南部信直と対立した政実は城に籠もり、豊臣政権の奥州再仕置軍に抗戦した。しかし包囲の末に降伏し、政実は処刑された。城はのちに福岡城として改修され、北奥羽の勢力争いが豊臣政権による支配へ移る転機を今に伝える。",
+      "related": "九戸政実：sg2hist-a-masazane-1591-siege-20261114（④792／出来事直接（史料）・関係上対象）\n【ピン位置版③369】WGS84=40.267583,141.3034。見学黄（当日の安全・公開範囲は現地掲示を優先）。獲得対象自治体=03213。ピン接近をカード獲得条件にしない。\n【C20261119-FOLLOWUP／CR20261119-027｜統合A・位置明示新版③369】位置WGS84=40.267583,141.3034、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：史跡公園の発掘・保全区域等の一部制限に従う。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-tamenobu-hirosaki-kunohe-20261112、sg2src-a-tamenobu-hirosaki-kunohe-chron-20261112、sg2src-a-kunohe-ninohe-20261114、sg2src-a-kunohe-bunka-castle-20261114、sg2src-a-kunohe-iwate-bio-20261114、sg2src-b-pin-unified-369-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1321",
+        "sg-added-kunohe-masazane-20261114"
+      ],
+      "approvalPersonRaw": "sg-master-1321\nsg-added-kunohe-masazane-20261114",
+      "sourceIds": [
+        "sg2src-a-tamenobu-hirosaki-kunohe-20261112",
+        "sg2src-a-tamenobu-hirosaki-kunohe-chron-20261112",
+        "sg2src-a-kunohe-ninohe-20261114",
+        "sg2src-a-kunohe-bunka-castle-20261114",
+        "sg2src-a-kunohe-iwate-bio-20261114",
+        "sg2src-b-pin-unified-369-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!369／⑥公開最終承認!3526",
+      "previousPublishedId": "sg2site-a-tamenobu-kunohe-20261112",
+      "previousApprovalRow": "3526",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 369,
+        "municipalityCode": "03213",
+        "sourceIds": [
+          "sg2src-a-tamenobu-hirosaki-kunohe-20261112",
+          "sg2src-a-tamenobu-hirosaki-kunohe-chron-20261112",
+          "sg2src-a-kunohe-ninohe-20261114",
+          "sg2src-a-kunohe-bunka-castle-20261114",
+          "sg2src-a-kunohe-iwate-bio-20261114",
+          "sg2src-b-pin-unified-369-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "岩手県二戸市"
+      },
+      "pin": {
+        "lat": 40.267583,
+        "lng": 141.3034,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 369,
+        "checkedAt": "2026-11-19",
+        "evidence": "九戸政実：sg2hist-a-masazane-1591-siege-20261114（④792／出来事直接（史料）・関係上対象）\n【ピン位置版③369】WGS84=40.267583,141.3034。見学黄（当日の安全・公開範囲は現地掲示を優先）。獲得対象自治体=03213。ピン接近をカード獲得条件にしない。\n【C20261119-FOLLOWUP／CR20261119-027｜統合A・位置明示新版③369】位置WGS84=40.267583,141.3034、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：史跡公園の発掘・保全区域等の一部制限に従う。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-tamenobu-hirosaki-kunohe-20261112、sg2src-a-tamenobu-hirosaki-kunohe-chron-20261112、sg2src-a-kunohe-ninohe-20261114、sg2src-a-kunohe-bunka-castle-20261114、sg2src-a-kunohe-iwate-bio-20261114、sg2src-b-pin-unified-369-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-028",
+      "lotRow": 29,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-junkei-tsutsui-castle-20261112",
+      "key": "ピン|sg2site-a-junkei-tsutsui-castle-20261112",
+      "approvedRow": 3594,
+      "approvedVersion": "v2",
+      "title": "筒井城跡（筒井順慶の旧居城）",
+      "text": "筒井城は大和の筒井氏が本拠とした平城で、幼くして家督を継いだ順慶も松永久秀との長い抗争に向き合った。1559年に松永久秀方に城を奪われた順慶は、1566年に奪回したものの、1568年に再び失った。1571年、辰市の戦いで松永勢を破ると、筒井城を再度取り戻した。1580年には信長による諸城整理を受けて廃され、順慶は郡山へ移る。城跡は大和の争乱と城の移り変わりを伝えている。",
+      "related": "【③375・史跡位置】奈良県大和郡山市［29203］。B公表参考点=34.62206,135.784347。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得6件】筒井順慶 sg2hist-a-junkei-head-20261112（④718）／筒井順慶 sg2hist-a-junkei-matsunaga-20261112（④719）／筒井順慶 sg2hist-a-junkei-lose-20261112（④720）／筒井順慶 sg2hist-a-junkei-retake-20261112（④721）／筒井順慶 sg2hist-a-junkei-reversal-20261112（④723）／筒井順慶 sg2hist-a-junkei-castle-policy-20261112（④730）。④保留・不採用1件は獲得対象外。\n【CR20261119-028／統合A B結果反映・位置v2｜③375】WGS84=34.62206,135.784347。見学信号色＝緑。Bの史跡公開参照点（戦国期の本人位置・安全入口や当日通行可能性を保証しない）。県公式『筒井城跡』が見学自由とする城跡碑・菅田比売神社鳥居前の公開通路のみ。住宅地や非公開境内への立入不可、夜間や車両の自由通行は保証しない。 現地掲示を優先し、位置接近をカード獲得条件にしない。③K/⑤出典ID：sg2src-a-junkei-tsutsui-castle-20261112、sg2src-a-junkei-tsutsuijo-dictionary-20261112、sg2src-a-junkei-city-yearbook-20261112、sg2src-b-pin-unified-375-20261114。歴史と座標の事実を独自記述する『条件付き』利用、写真・地図画像・本文・図版は無断転載禁止。CODH地点採用時はCC BY4.0『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456をC公開QAで帰属表示。B公的根拠：https://www.pref.nara.lg.jp/site/aruku/1166.html。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1337"
+      ],
+      "approvalPersonRaw": "sg-master-1337",
+      "sourceIds": [
+        "sg2src-a-junkei-tsutsui-castle-20261112",
+        "sg2src-a-junkei-tsutsuijo-dictionary-20261112",
+        "sg2src-a-junkei-city-yearbook-20261112",
+        "sg2src-b-pin-unified-375-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!375／⑥公開最終承認!3344",
+      "previousPublishedId": "sg2site-a-junkei-tsutsui-castle-20261112",
+      "previousApprovalRow": "3344",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 375,
+        "municipalityCode": "29203",
+        "sourceIds": [
+          "sg2src-a-junkei-tsutsui-castle-20261112",
+          "sg2src-a-junkei-tsutsuijo-dictionary-20261112",
+          "sg2src-a-junkei-city-yearbook-20261112",
+          "sg2src-b-pin-unified-375-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "奈良県大和郡山市"
+      },
+      "pin": {
+        "lat": 34.62206,
+        "lng": 135.784347,
+        "accessStatus": "green",
+        "sourceSheetRow": 375,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③375・史跡位置】奈良県大和郡山市［29203］。B公表参考点=34.62206,135.784347。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得6件】筒井順慶 sg2hist-a-junkei-head-20261112（④718）／筒井順慶 sg2hist-a-junkei-matsunaga-20261112（④719）／筒井順慶 sg2hist-a-junkei-lose-20261112（④720）／筒井順慶 sg2hist-a-junkei-retake-20261112（④721）／筒井順慶 sg2hist-a-junkei-reversal-20261112（④723）／筒井順慶 sg2hist-a-junkei-castle-policy-20261112（④730）。④保留・不採用1件は獲得対象外。\n【CR20261119-028／統合A B結果反映・位置v2｜③375】WGS84=34.62206,135.784347。見学信号色＝緑。Bの史跡公開参照点（戦国期の本人位置・安全入口や当日通行可能性を保証しない）。県公式『筒井城跡』が見学自由とする城跡碑・菅田比売神社鳥居前の公開通路のみ。住宅地や非公開境内への立入不可、夜間や車両の自由通行は保証しない。 現地掲示を優先し、位置接近をカード獲得条件にしない。③K/⑤出典ID：sg2src-a-junkei-tsutsui-castle-20261112、sg2src-a-junkei-tsutsuijo-dictionary-20261112、sg2src-a-junkei-city-yearbook-20261112、sg2src-b-pin-unified-375-20261114。歴史と座標の事実を独自記述する『条件付き』利用、写真・地図画像・本文・図版は無断転載禁止。CODH地点採用時はCC BY4.0『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456をC公開QAで帰属表示。B公的根拠：https://www.pref.nara.lg.jp/site/aruku/1166.html。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-029",
+      "lotRow": 30,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-junkei-tatsuichi-20261112",
+      "key": "ピン|sg2site-a-junkei-tatsuichi-20261112",
+      "approvedRow": 3574,
+      "approvedVersion": "v2",
+      "title": "辰市城跡（1571年筒井・松永合戦の城）",
+      "text": "1571年、筒井順慶方と松永久秀の軍勢が大和で激突した辰市城の跡。順慶方の勝利は、長く劣勢にあった筒井氏が大和で勢力を盛り返すきっかけとなった。陣城を舞台とする激しい攻防は、戦国時代の大和で続いた主導権争いを伝えている。",
+      "related": "【③376・史跡位置】奈良県奈良市［29201］。B公表参考点=34.657454,135.810802。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】筒井順慶 sg2hist-a-junkei-tatsuichi-20261112（④724）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-029｜統合A・位置明示新版③376】位置WGS84=34.657454,135.810802、見学信号色=赤。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：南部公民館東九条分館の公道側情報点。学校・農地・私宅への誘導禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-junkei-city-yearbook-20261112、sg2src-a-junkei-kotobank-junkei-20261112、sg2src-a-junkei-tatsuichi-candidate-20261112。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1337"
+      ],
+      "approvalPersonRaw": "sg-master-1337",
+      "sourceIds": [
+        "sg2src-a-junkei-city-yearbook-20261112",
+        "sg2src-a-junkei-kotobank-junkei-20261112",
+        "sg2src-a-junkei-tatsuichi-candidate-20261112"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!376／⑥公開最終承認!3345",
+      "previousPublishedId": "sg2site-a-junkei-tatsuichi-20261112",
+      "previousApprovalRow": "3345",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 376,
+        "municipalityCode": "29201",
+        "sourceIds": [
+          "sg2src-a-junkei-city-yearbook-20261112",
+          "sg2src-a-junkei-kotobank-junkei-20261112",
+          "sg2src-a-junkei-tatsuichi-candidate-20261112"
+        ],
+        "license": "条件付き",
+        "municipalityName": "奈良県奈良市"
+      },
+      "pin": {
+        "lat": 34.657454,
+        "lng": 135.810802,
+        "accessStatus": "red",
+        "sourceSheetRow": 376,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③376・史跡位置】奈良県奈良市［29201］。B公表参考点=34.657454,135.810802。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】筒井順慶 sg2hist-a-junkei-tatsuichi-20261112（④724）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-029｜統合A・位置明示新版③376】位置WGS84=34.657454,135.810802、見学信号色=赤。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：南部公民館東九条分館の公道側情報点。学校・農地・私宅への誘導禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-junkei-city-yearbook-20261112、sg2src-a-junkei-kotobank-junkei-20261112、sg2src-a-junkei-tatsuichi-candidate-20261112。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-030",
+      "lotRow": 31,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-junkei-tamon-20261112",
+      "key": "ピン|sg2site-a-junkei-tamon-20261112",
+      "approvedRow": 2188,
+      "approvedVersion": "v1",
+      "title": "多聞城跡（松永久秀の大和拠点）",
+      "text": "松永久秀が奈良の高台に築いた城の跡。順慶は1566年や1572年に攻略を試み、1573年に多聞城が落ちると、松永方は信貴山城へ退いた。廃城後の石材は大和の他の城に運ばれた。",
+      "related": "【位置公開版・③377】B地点確認済（2026-11-14）。WGS84：34.694368, 135.831428（公表情報参照点）。見学区分：赤。経歴との対応：多聞城へ出陣し松永方を攻める（④722・出来事直接（史料））／多聞城を攻め、翌年落城に追い込む（④725・出来事直接（史料））。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1337"
+      ],
+      "approvalPersonRaw": "sg-master-1337",
+      "sourceIds": [
+        "sg2src-a-junkei-tamon-castle-20261112",
+        "sg2src-a-junkei-city-yearbook-20261112",
+        "sg2src-a-junkei-tsutsui-castle-20261112",
+        "sg2src-b-pin-unified-377-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!377N／⑥公開最終承認!2188E:P",
+      "previousPublishedId": "sg2site-a-junkei-tamon-20261112",
+      "previousApprovalRow": "2188",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 377,
+        "municipalityCode": "29201",
+        "sourceIds": [
+          "sg2src-a-junkei-tamon-castle-20261112",
+          "sg2src-a-junkei-city-yearbook-20261112",
+          "sg2src-a-junkei-tsutsui-castle-20261112",
+          "sg2src-b-pin-unified-377-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "奈良県奈良市"
+      },
+      "pin": {
+        "lat": 34.694368,
+        "lng": 135.831428,
+        "accessStatus": "red",
+        "sourceSheetRow": 377,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③377】B地点確認済（2026-11-14）。WGS84：34.694368, 135.831428（公表情報参照点）。見学区分：赤。経歴との対応：多聞城へ出陣し松永方を攻める（④722・出来事直接（史料））／多聞城を攻め、翌年落城に追い込む（④725・出来事直接（史料））。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-031",
+      "lotRow": 32,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-junkei-shigisan-20261112",
+      "key": "ピン|sg2site-a-junkei-shigisan-20261112",
+      "approvedRow": 3575,
+      "approvedVersion": "v3",
+      "title": "信貴山城跡（松永久秀最後の城）",
+      "text": "信貴山城は松永久秀が大和で拠点とした山城である。1577年、久秀が織田信長に背いて籠もると、信忠を大将とする織田軍が攻め寄せ、筒井順慶も攻城に加わった。城は落ち、久秀は自害した。信貴山城跡は順慶が長く争った相手の最後の城であり、順慶自身が守った居城ではない。",
+      "related": "【③378・史跡位置】奈良県生駒郡平群町［29342］。B公表参考点=34.616335,135.67871。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】筒井順慶 sg2hist-a-junkei-shigisan-20261112（④727）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-031｜統合A・位置明示新版③378】位置WGS84=34.616335,135.67871、見学信号色=赤。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：険しい山城。登山ルート・立入安全を保証しない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-junkei-shigisan-castle-20261112、sg2src-a-junkei-tsutsui-castle-20261112、sg2src-a-junkei-city-yearbook-20261112、sg2src-b-pin-unified-378-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1337"
+      ],
+      "approvalPersonRaw": "sg-master-1337",
+      "sourceIds": [
+        "sg2src-a-junkei-shigisan-castle-20261112",
+        "sg2src-a-junkei-tsutsui-castle-20261112",
+        "sg2src-a-junkei-city-yearbook-20261112",
+        "sg2src-b-pin-unified-378-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!378／⑥公開最終承認!3346",
+      "previousPublishedId": "sg2site-a-junkei-shigisan-20261112",
+      "previousApprovalRow": "3346",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 378,
+        "municipalityCode": "29342",
+        "sourceIds": [
+          "sg2src-a-junkei-shigisan-castle-20261112",
+          "sg2src-a-junkei-tsutsui-castle-20261112",
+          "sg2src-a-junkei-city-yearbook-20261112",
+          "sg2src-b-pin-unified-378-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "奈良県生駒郡平群町"
+      },
+      "pin": {
+        "lat": 34.616335,
+        "lng": 135.67871,
+        "accessStatus": "red",
+        "sourceSheetRow": 378,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③378・史跡位置】奈良県生駒郡平群町［29342］。B公表参考点=34.616335,135.67871。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】筒井順慶 sg2hist-a-junkei-shigisan-20261112（④727）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-031｜統合A・位置明示新版③378】位置WGS84=34.616335,135.67871、見学信号色=赤。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：険しい山城。登山ルート・立入安全を保証しない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-junkei-shigisan-castle-20261112、sg2src-a-junkei-tsutsui-castle-20261112、sg2src-a-junkei-city-yearbook-20261112、sg2src-b-pin-unified-378-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-032",
+      "lotRow": 33,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-junkei-koriyama-20261112",
+      "key": "ピン|sg2site-a-junkei-koriyama-20261112",
+      "approvedRow": 2190,
+      "approvedVersion": "v1",
+      "title": "郡山城跡（筒井順慶の新居城）",
+      "text": "1580年、筒井順慶が大和の新しい支配拠点として入城した城跡。明智光秀も普請を見舞った。順慶死後には豊臣秀長らが大規模に整備したため、現存石垣のすべてを順慶時代の築造とは言えない。",
+      "related": "【位置公開版・③379】B地点確認済（2026-11-14）。WGS84：34.650976, 135.780383（公表情報参照点）。見学区分：緑。経歴との対応：郡山城へ移り築城と城下町整備を進める（④731・本人直接）／病により36歳で死去する（④734・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1337"
+      ],
+      "approvalPersonRaw": "sg-master-1337",
+      "sourceIds": [
+        "sg2src-a-junkei-pref-koriyama-20261112",
+        "sg2src-a-junkei-koriyama-history-20261112",
+        "sg2src-a-junkei-koriyama-heritage-20261112",
+        "sg2src-b-koriyama-heritagemap-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!379N／⑥公開最終承認!2190E:P",
+      "previousPublishedId": "sg2site-a-junkei-koriyama-20261112",
+      "previousApprovalRow": "2190",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 379,
+        "municipalityCode": "29203",
+        "sourceIds": [
+          "sg2src-a-junkei-pref-koriyama-20261112",
+          "sg2src-a-junkei-koriyama-history-20261112",
+          "sg2src-a-junkei-koriyama-heritage-20261112",
+          "sg2src-b-koriyama-heritagemap-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "奈良県大和郡山市"
+      },
+      "pin": {
+        "lat": 34.650976,
+        "lng": 135.780383,
+        "accessStatus": "green",
+        "sourceSheetRow": 379,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③379】B地点確認済（2026-11-14）。WGS84：34.650976, 135.780383（公表情報参照点）。見学区分：緑。経歴との対応：郡山城へ移り築城と城下町整備を進める（④731・本人直接）／病により36歳で死去する（④734・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-033",
+      "lotRow": 34,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-junkei-grave-20261112",
+      "key": "ピン|sg2site-a-junkei-grave-20261112",
+      "approvedRow": 3576,
+      "approvedVersion": "v3",
+      "title": "筒井順慶墓所（五輪塔覆堂・長安寺）",
+      "text": "1584年に病没した筒井順慶は、いったん奈良の円証寺で葬られた後、郡山の長安寺に移葬されたと伝わる。長安寺に残る五輪塔とそれを覆う小堂は、順慶の生涯を今に伝える重要な墓所である。ここは没後に営まれた供養の場所であり、順慶が最後の息を引き取った郡山城内の地点とは別である。",
+      "related": "【③380・史跡位置】奈良県大和郡山市［29203］。B公表参考点=34.60871791,135.7834384。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得0件】直接リンクなし。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-033｜統合A・位置明示新版③380】位置WGS84=34.608717912842906,135.78343837210537、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：寺院墓域の公開・参拝範囲と現地管理案内を優先。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-junkei-grave-culture-20261112、sg2src-a-junkei-grave-bunka-20261112、sg2src-a-junkei-grave-tourism-20261112、sg2src-a-junkei-city-profile-20261112、sg2src-b-junkei-grave-tourism-map-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1337"
+      ],
+      "approvalPersonRaw": "sg-master-1337",
+      "sourceIds": [
+        "sg2src-a-junkei-grave-culture-20261112",
+        "sg2src-a-junkei-grave-bunka-20261112",
+        "sg2src-a-junkei-grave-tourism-20261112",
+        "sg2src-a-junkei-city-profile-20261112",
+        "sg2src-b-junkei-grave-tourism-map-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!380／⑥公開最終承認!3347",
+      "previousPublishedId": "sg2site-a-junkei-grave-20261112",
+      "previousApprovalRow": "3347",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 380,
+        "municipalityCode": "29203",
+        "sourceIds": [
+          "sg2src-a-junkei-grave-culture-20261112",
+          "sg2src-a-junkei-grave-bunka-20261112",
+          "sg2src-a-junkei-grave-tourism-20261112",
+          "sg2src-a-junkei-city-profile-20261112",
+          "sg2src-b-junkei-grave-tourism-map-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "奈良県大和郡山市"
+      },
+      "pin": {
+        "lat": 34.608717912842906,
+        "lng": 135.78343837210537,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 380,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③380・史跡位置】奈良県大和郡山市［29203］。B公表参考点=34.60871791,135.7834384。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得0件】直接リンクなし。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-033｜統合A・位置明示新版③380】位置WGS84=34.608717912842906,135.78343837210537、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：寺院墓域の公開・参拝範囲と現地管理案内を優先。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-junkei-grave-culture-20261112、sg2src-a-junkei-grave-bunka-20261112、sg2src-a-junkei-grave-tourism-20261112、sg2src-a-junkei-city-profile-20261112、sg2src-b-junkei-grave-tourism-map-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-034",
+      "lotRow": 35,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-junkei-denkoji-20261112",
+      "key": "ピン|sg2site-a-junkei-denkoji-20261112",
+      "approvedRow": 2192,
+      "approvedVersion": "v1",
+      "title": "伝香寺（筒井順慶の菩提寺）",
+      "text": "順慶の死後、1585年に母が再興した菩提寺。順慶を弔うため本堂が整えられ、後に順慶を僧形に描いた肖像画も伝えられている。本人が生前に再興した寺院ではない。",
+      "related": "【位置公開版・③381】B地点確認済（2026-11-14）。WGS84：34.680546, 135.825592（公表情報参照点）。見学区分：黄。独立の獲得経歴リンクは未確定（④の別審査対象）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1337"
+      ],
+      "approvalPersonRaw": "sg-master-1337",
+      "sourceIds": [
+        "sg2src-a-junkei-denkoji-painting-20261112",
+        "sg2src-a-junkei-denkoji-statue-20261112",
+        "sg2src-a-junkei-nara-tourism-20261112",
+        "sg2src-b-pin-unified-381-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!381N／⑥公開最終承認!2192E:P",
+      "previousPublishedId": "sg2site-a-junkei-denkoji-20261112",
+      "previousApprovalRow": "2192",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 381,
+        "municipalityCode": "29201",
+        "sourceIds": [
+          "sg2src-a-junkei-denkoji-painting-20261112",
+          "sg2src-a-junkei-denkoji-statue-20261112",
+          "sg2src-a-junkei-nara-tourism-20261112",
+          "sg2src-b-pin-unified-381-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "奈良県奈良市"
+      },
+      "pin": {
+        "lat": 34.680546,
+        "lng": 135.825592,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 381,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③381】B地点確認済（2026-11-14）。WGS84：34.680546, 135.825592（公表情報参照点）。見学区分：黄。独立の獲得経歴リンクは未確定（④の別審査対象）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-035",
+      "lotRow": 36,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-joun-1583-konomi-20261113",
+      "key": "ピン|sg2site-a-joun-1583-konomi-20261113",
+      "approvedRow": 3577,
+      "approvedVersion": "v4",
+      "title": "許斐城跡（宗像氏貞の山城）",
+      "text": "許斐山に築かれた宗像氏の山城跡。1583年春、戸次道雪や高橋紹運の軍勢がこの城を攻めたと伝わる。攻防の結末には異なる記録が残り、落城したのか、城方が撃退したのかは説が分かれる。筑前東部で宗像氏と道雪・紹運勢が激しく争った時代を伝える。",
+      "related": "【③382・史跡位置】福岡県宗像市・福津市［40220］。B公表参考点=33.77615,130.539768。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】高橋紹運 sg2hist-a-joun-1583-konomi-castle-20261113（④739）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-035｜統合A・位置明示新版③382】位置WGS84=33.77615,130.539768、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：山城の急斜面・立入制限に注意。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-joun-1583-komenoyama-study-20261113、sg2src-b-review-konomi-codh-20261114、sg2src-b-review-konomi-munakata-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-05d4ad2ca192"
+      ],
+      "approvalPersonRaw": "sg-05d4ad2ca192",
+      "sourceIds": [
+        "sg2src-a-joun-1583-komenoyama-study-20261113",
+        "sg2src-b-review-konomi-codh-20261114",
+        "sg2src-b-review-konomi-munakata-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!382／⑥公開最終承認!3348",
+      "previousPublishedId": "sg2site-a-joun-1583-konomi-20261113",
+      "previousApprovalRow": "3348",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 382,
+        "municipalityCode": "40220",
+        "sourceIds": [
+          "sg2src-a-joun-1583-komenoyama-study-20261113",
+          "sg2src-b-review-konomi-codh-20261114",
+          "sg2src-b-review-konomi-munakata-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "福岡県宗像市・福津市"
+      },
+      "pin": {
+        "lat": 33.77615,
+        "lng": 130.539768,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 382,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③382・史跡位置】福岡県宗像市・福津市［40220］。B公表参考点=33.77615,130.539768。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】高橋紹運 sg2hist-a-joun-1583-konomi-castle-20261113（④739）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-035｜統合A・位置明示新版③382】位置WGS84=33.77615,130.539768、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：山城の急斜面・立入制限に注意。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-joun-1583-komenoyama-study-20261113、sg2src-b-review-konomi-codh-20261114、sg2src-b-review-konomi-munakata-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-036",
+      "lotRow": 37,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-joun-1583-komenoyama-20261113",
+      "key": "ピン|sg2site-a-joun-1583-komenoyama-20261113",
+      "approvedRow": 3397,
+      "approvedVersion": "v1",
+      "title": "米ノ山城跡（2011年までに採石で消失）",
+      "text": "高橋紹運が秋月氏への備えとして築いたと伝わる米ノ山城は、1583年に秋月勢に奪われ、紹運の反撃によって取り戻されたとされる。戦いの具体的な日付には資料の差がある。城域はその後の採石によって失われ、現在は中世の山城を見学できる遺構が残っていない。城の姿は失われたが、秋月氏と高橋紹運が筑前の山々を争った歴史は、今も米ノ山の名に残る。",
+      "related": "【③383／赤い歴史情報ピン・見学不可】自治体=福岡県飯塚市[40205]。公開参照点=33.544726,130.611737は旧城域の歴史情報点であり、採石・急崖・制限区域への立入り、現在の見学入口/安全な経路を案内しない。城域は2011年までの採石で消失、Bの赤ピン情報点判定のみ。④740：高橋紹運の1583年米ノ山城奪還=出来事直接（史料）/B合格/関係上対象。史跡本文の⑥承認と位置ピン実装は別。",
+      "type": "史跡",
+      "personIds": [],
+      "approvalPersonRaw": "",
+      "sourceIds": [
+        "sg2src-a-joun-1583-komenoyama-study-20261113"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!383N／⑥公開最終承認!3397E:P",
+      "previousPublishedId": "sg2site-a-joun-1583-komenoyama-20261113",
+      "previousApprovalRow": "3397",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 383,
+        "municipalityCode": "40205",
+        "sourceIds": [
+          "sg2src-a-joun-1583-komenoyama-study-20261113"
+        ],
+        "license": "条件付き",
+        "municipalityName": "福岡県飯塚市"
+      },
+      "pin": {
+        "lat": 33.544726,
+        "lng": 130.611737,
+        "accessStatus": "red",
+        "sourceSheetRow": 383,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③383／赤い歴史情報ピン・見学不可】自治体=福岡県飯塚市[40205]。公開参照点=33.544726,130.611737は旧城域の歴史情報点であり、採石・急崖・制限区域への立入り、現在の見学入口/安全な経路を案内しない。城域は2011年までの採石で消失、Bの赤ピン情報点判定のみ。④740：高橋紹運の1583年米ノ山城奪還=出来事直接（史料）/B合格/関係上対象。史跡本文の⑥承認と位置ピン実装は別。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-037",
+      "lotRow": 38,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-satake-ota-20261113",
+      "key": "ピン|sg2site-a-satake-ota-20261113",
+      "approvedRow": 2193,
+      "approvedVersion": "v1",
+      "title": "太田城跡（佐竹義重の居城）",
+      "text": "佐竹氏が常陸の本拠として用いた太田城の跡。義重は1562年に家督を譲られ、義宣が水戸へ移る後も当地に残って家中を支えた。城郭の中心部は後世の土地利用で変化している。",
+      "related": "【位置公開版・③385】B地点確認済（2026-11-14）。WGS84：36.546388, 140.521388（公表情報参照点）。見学区分：赤。経歴との対応：父佐竹義昭から家督を譲られる（④744・本人直接）／家督を子の義宣へ譲る（④748・本人直接）／義宣の水戸移城後も太田に残る（④749・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-0970"
+      ],
+      "approvalPersonRaw": "sg-master-0970",
+      "sourceIds": [
+        "sg2src-a-satake-ibaraki-20261113",
+        "sg2src-a-satake-nara-20261113",
+        "sg2src-b-pin-unified-385-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!385N／⑥公開最終承認!2193E:P",
+      "previousPublishedId": "sg2site-a-satake-ota-20261113",
+      "previousApprovalRow": "2193",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 385,
+        "municipalityCode": "08212",
+        "sourceIds": [
+          "sg2src-a-satake-ibaraki-20261113",
+          "sg2src-a-satake-nara-20261113",
+          "sg2src-b-pin-unified-385-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "茨城県常陸太田市"
+      },
+      "pin": {
+        "lat": 36.546388,
+        "lng": 140.521388,
+        "accessStatus": "red",
+        "sourceSheetRow": 385,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③385】B地点確認済（2026-11-14）。WGS84：36.546388, 140.521388（公表情報参照点）。見学区分：赤。経歴との対応：父佐竹義昭から家督を譲られる（④744・本人直接）／家督を子の義宣へ譲る（④748・本人直接）／義宣の水戸移城後も太田に残る（④749・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-038",
+      "lotRow": 39,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-ujiteru-hachioji-20261113",
+      "key": "ピン|sg2site-a-ujiteru-hachioji-20261113",
+      "approvedRow": 3595,
+      "approvedVersion": "v2",
+      "title": "八王子城跡（北条氏照の居城）",
+      "text": "北条氏照が1584～1587年頃に滝山城から移った山城の跡。1590年6月23日に豊臣軍に攻められ落城したが、氏照本人は小田原城に籠っていた。国史跡である。",
+      "related": "【位置公開版・③387】B地点確認済（2026-11-14）。WGS84：35.652617, 139.256515（公表情報参照点）。見学区分：黄。経歴との対応：八王子城を築き新拠点へ移る（④754・本人直接）／氏照不在の八王子城が落城する（④755・出来事直接（史料））。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。\n【CR20261119-038／統合A B結果反映・位置v2｜③387】WGS84=35.652617,139.256515。見学信号色＝黄。Bの史跡公開参照点（戦国期の本人位置・安全入口や当日通行可能性を保証しない）。御主殿跡散策路と本丸への整備登山道は見学可能、未整備箇所/夜間の立入禁止。駐車場9:00～17:00、クマ目撃と山頂トイレ閉鎖に注意。公開GPSは登山口ではない。 現地掲示を優先し、位置接近をカード獲得条件にしない。③K/⑤出典ID：sg2src-a-ujiteru-hachioji-20261113、sg2src-a-ujiteru-kanagawa-20261113、sg2src-b-pin-unified-387-20261114。歴史と座標の事実を独自記述する『条件付き』利用、写真・地図画像・本文・図版は無断転載禁止。CODH地点採用時はCC BY4.0『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456をC公開QAで帰属表示。B公的根拠：https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html。",
+      "type": "史跡",
+      "personIds": [
+        "sg-fc948f16832f"
+      ],
+      "approvalPersonRaw": "sg-fc948f16832f",
+      "sourceIds": [
+        "sg2src-a-ujiteru-hachioji-20261113",
+        "sg2src-a-ujiteru-kanagawa-20261113",
+        "sg2src-b-pin-unified-387-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!387N／⑥公開最終承認!2194E:P",
+      "previousPublishedId": "sg2site-a-ujiteru-hachioji-20261113",
+      "previousApprovalRow": "2194",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 387,
+        "municipalityCode": "13201",
+        "sourceIds": [
+          "sg2src-a-ujiteru-hachioji-20261113",
+          "sg2src-a-ujiteru-kanagawa-20261113",
+          "sg2src-b-pin-unified-387-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "東京都八王子市"
+      },
+      "pin": {
+        "lat": 35.652617,
+        "lng": 139.256515,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 387,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③387】B地点確認済（2026-11-14）。WGS84：35.652617, 139.256515（公表情報参照点）。見学区分：黄。経歴との対応：八王子城を築き新拠点へ移る（④754・本人直接）／氏照不在の八王子城が落城する（④755・出来事直接（史料））。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。\n【CR20261119-038／統合A B結果反映・位置v2｜③387】WGS84=35.652617,139.256515。見学信号色＝黄。Bの史跡公開参照点（戦国期の本人位置・安全入口や当日通行可能性を保証しない）。御主殿跡散策路と本丸への整備登山道は見学可能、未整備箇所/夜間の立入禁止。駐車場9:00～17:00、クマ目撃と山頂トイレ閉鎖に注意。公開GPSは登山口ではない。 現地掲示を優先し、位置接近をカード獲得条件にしない。③K/⑤出典ID：sg2src-a-ujiteru-hachioji-20261113、sg2src-a-ujiteru-kanagawa-20261113、sg2src-b-pin-unified-387-20261114。歴史と座標の事実を独自記述する『条件付き』利用、写真・地図画像・本文・図版は無断転載禁止。CODH地点採用時はCC BY4.0『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456をC公開QAで帰属表示。B公的根拠：https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-039",
+      "lotRow": 40,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-takanobu-mizugae-20261113",
+      "key": "ピン|sg2site-a-takanobu-mizugae-20261113",
+      "approvedRow": 3578,
+      "approvedVersion": "v3",
+      "title": "水ヶ江城跡（龍造寺隆信の生誕・旧拠点）",
+      "text": "水ヶ江城は肥前佐賀の水ヶ江龍造寺氏の拠点だった城で、1529年に龍造寺隆信が東館・天神屋敷で生まれたと伝わる。仏門に入った隆信は1546年に還俗して水ヶ江家を継ぎ、のちに肥前の勢力を大きく広げた。現在の生誕碑はその出自を伝える顕彰地点であり、当時の産室の正確な位置を示すものではない。",
+      "related": "【③388・史跡位置】佐賀県佐賀市［41201］。B公表参考点=33.24284,130.30507。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得2件】龍造寺隆信 sg2hist-a-takanobu-001-20261113（④758）／龍造寺隆信 sg2hist-a-takanobu-003-20261113（④759）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-039｜統合A・位置明示新版③388】位置WGS84=33.24284,130.30507、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：公開城址情報点。戦国期の旧城と現市街地を区別。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-takanobu-birth-20261113、sg2src-a-takanobu-muranaka-20261113、sg2src-a-takanobu-saga-date-20261113、sg2src-b-pin-unified-388-20261114、sg2src-b-mizugae-public-park-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-2169"
+      ],
+      "approvalPersonRaw": "sg-master-2169",
+      "sourceIds": [
+        "sg2src-a-takanobu-birth-20261113",
+        "sg2src-a-takanobu-muranaka-20261113",
+        "sg2src-a-takanobu-saga-date-20261113",
+        "sg2src-b-pin-unified-388-20261114",
+        "sg2src-b-mizugae-public-park-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!388／⑥公開最終承認!3349",
+      "previousPublishedId": "sg2site-a-takanobu-mizugae-20261113",
+      "previousApprovalRow": "3349",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 388,
+        "municipalityCode": "41201",
+        "sourceIds": [
+          "sg2src-a-takanobu-birth-20261113",
+          "sg2src-a-takanobu-muranaka-20261113",
+          "sg2src-a-takanobu-saga-date-20261113",
+          "sg2src-b-pin-unified-388-20261114",
+          "sg2src-b-mizugae-public-park-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "佐賀県佐賀市"
+      },
+      "pin": {
+        "lat": 33.24284,
+        "lng": 130.30507,
+        "accessStatus": "green",
+        "sourceSheetRow": 388,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③388・史跡位置】佐賀県佐賀市［41201］。B公表参考点=33.24284,130.30507。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得2件】龍造寺隆信 sg2hist-a-takanobu-001-20261113（④758）／龍造寺隆信 sg2hist-a-takanobu-003-20261113（④759）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-039｜統合A・位置明示新版③388】位置WGS84=33.24284,130.30507、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：公開城址情報点。戦国期の旧城と現市街地を区別。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-takanobu-birth-20261113、sg2src-a-takanobu-muranaka-20261113、sg2src-a-takanobu-saga-date-20261113、sg2src-b-pin-unified-388-20261114、sg2src-b-mizugae-public-park-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-040",
+      "lotRow": 41,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-takanobu-muranaka-20261113",
+      "key": "ピン|sg2site-a-takanobu-muranaka-20261113",
+      "approvedRow": 2195,
+      "approvedVersion": "v1",
+      "title": "村中城跡（龍造寺氏の旧本拠・後の佐賀城）",
+      "text": "龍造寺隆信が1548年に宗家を継ぎ、本拠とした村中城の旧城域。1551年に退去し1553年に取り返した。現佐賀城の城郭施設と龍造寺期の建物を混同してはならない。",
+      "related": "【位置公開版・③389】B地点確認済（2026-11-14）。WGS84：33.245342, 130.302581（公表情報参照点）。見学区分：緑。経歴との対応：家中の反発で村中城を明け渡す（④761・出来事直接（史料））／村中城を奪い返して復帰する（④762・出来事直接（史料））。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-2169"
+      ],
+      "approvalPersonRaw": "sg-master-2169",
+      "sourceIds": [
+        "sg2src-a-takanobu-muranaka-20261113",
+        "sg2src-b-pin-unified-389-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!389N／⑥公開最終承認!2195E:P",
+      "previousPublishedId": "sg2site-a-takanobu-muranaka-20261113",
+      "previousApprovalRow": "2195",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 389,
+        "municipalityCode": "41201",
+        "sourceIds": [
+          "sg2src-a-takanobu-muranaka-20261113",
+          "sg2src-b-pin-unified-389-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "佐賀県佐賀市"
+      },
+      "pin": {
+        "lat": 33.245342,
+        "lng": 130.302581,
+        "accessStatus": "green",
+        "sourceSheetRow": 389,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③389】B地点確認済（2026-11-14）。WGS84：33.245342, 130.302581（公表情報参照点）。見学区分：緑。経歴との対応：家中の反発で村中城を明け渡す（④761・出来事直接（史料））／村中城を奪い返して復帰する（④762・出来事直接（史料））。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-041",
+      "lotRow": 42,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-takanobu-imayama-20261113",
+      "key": "ピン|sg2site-a-takanobu-imayama-20261113",
+      "approvedRow": 3596,
+      "approvedVersion": "v2",
+      "title": "今山合戦跡（1570年龍造寺・大友の戦い）",
+      "text": "1570年、龍造寺氏を包囲した大友勢に対し鍋島直茂らが夜襲し、大友親貞が討たれた今山の戦いを伝える史跡地域。直茂の奇襲で大友勢の包囲が崩れると、龍造寺隆信は佐嘉を守り抜き、のちに肥前で勢力を伸ばした。今山の古戦場碑は、その転機を伝えている。",
+      "related": "【③390・史跡位置】佐賀県佐賀市［41201］。B公表参考点=33.312198,130.2388295。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得3件】龍造寺隆信 sg2hist-a-takanobu-009-20261113（④764）／鍋島直茂 sg2hist-a-nabe-1570-imayama-20261114（④835）／大友宗麟 sg2hist-audit-sorin-1570-3-20261114（④855）。④保留・不採用0件は獲得対象外。\n【CR20261119-041／統合A B結果反映・位置v2｜③390】WGS84=33.312198,130.2388295。見学信号色＝黄。Bの史跡公開参照点（戦国期の本人位置・安全入口や当日通行可能性を保証しない）。今山古戦場碑と大友公園の一般公開範囲のみ。徒歩坂道約1km、周辺みかん畑と林道あり。車両進入/駐車/見学時間の許可未確認。私人の果樹園・管理外斜面・夜間へ誘導しない。 現地掲示を優先し、位置接近をカード獲得条件にしない。③K/⑤出典ID：sg2src-a-takanobu-muranaka-20261113、sg2src-b-hold-imayama-monument-20261114。歴史と座標の事実を独自記述する『条件付き』利用、写真・地図画像・本文・図版は無断転載禁止。CODH地点採用時はCC BY4.0『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456をC公開QAで帰属表示。B公的根拠：https://www.saga-otakara.jp/search/detail.html?cultureId=2220。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-2169"
+      ],
+      "approvalPersonRaw": "sg-master-2169",
+      "sourceIds": [
+        "sg2src-a-takanobu-muranaka-20261113",
+        "sg2src-b-hold-imayama-monument-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!390／⑥公開最終承認!3350",
+      "previousPublishedId": "sg2site-a-takanobu-imayama-20261113",
+      "previousApprovalRow": "3350",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 390,
+        "municipalityCode": "41201",
+        "sourceIds": [
+          "sg2src-a-takanobu-muranaka-20261113",
+          "sg2src-b-hold-imayama-monument-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "佐賀県佐賀市"
+      },
+      "pin": {
+        "lat": 33.312198,
+        "lng": 130.2388295,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 390,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③390・史跡位置】佐賀県佐賀市［41201］。B公表参考点=33.312198,130.2388295。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得3件】龍造寺隆信 sg2hist-a-takanobu-009-20261113（④764）／鍋島直茂 sg2hist-a-nabe-1570-imayama-20261114（④835）／大友宗麟 sg2hist-audit-sorin-1570-3-20261114（④855）。④保留・不採用0件は獲得対象外。\n【CR20261119-041／統合A B結果反映・位置v2｜③390】WGS84=33.312198,130.2388295。見学信号色＝黄。Bの史跡公開参照点（戦国期の本人位置・安全入口や当日通行可能性を保証しない）。今山古戦場碑と大友公園の一般公開範囲のみ。徒歩坂道約1km、周辺みかん畑と林道あり。車両進入/駐車/見学時間の許可未確認。私人の果樹園・管理外斜面・夜間へ誘導しない。 現地掲示を優先し、位置接近をカード獲得条件にしない。③K/⑤出典ID：sg2src-a-takanobu-muranaka-20261113、sg2src-b-hold-imayama-monument-20261114。歴史と座標の事実を独自記述する『条件付き』利用、写真・地図画像・本文・図版は無断転載禁止。CODH地点採用時はCC BY4.0『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456をC公開QAで帰属表示。B公的根拠：https://www.saga-otakara.jp/search/detail.html?cultureId=2220。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-042",
+      "lotRow": 43,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-yoshitaka-ouchi-20261113",
+      "key": "ピン|sg2site-a-yoshitaka-ouchi-20261113",
+      "approvedRow": 3579,
+      "approvedVersion": "v3",
+      "title": "大内氏館跡（龍福寺境内・山口）",
+      "text": "山口の大内氏館は、周防・長門を治めた大内家が政務や外交を行った中心である。1528年に家督を継いだ大内義隆もこの館を拠点としたが、1551年に陶隆房の反乱で山口を追われて命を落とす。後に毛利隆元が義隆を弔って龍福寺を再興した。現在の龍福寺境内に残る館跡は、義隆の生前の政庁と没後の追悼の歴史を伝えている。",
+      "related": "【③391・史跡位置】山口県山口市［35203］。B公表参考点=34.184542,131.479762。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得3件】大内義隆 sg2hist-a-yoshitaka-002-20261113（④768）／大内義隆 sg2hist-a-yoshitaka-011-20261113（④774）／大内義隆 sg2hist-a-yoshitaka-012-20261113（④775）。④保留・不採用3件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-042｜統合A・位置明示新版③391】位置WGS84=34.184542,131.479762、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：龍福寺の参拝可能な境内のみ。非公開区画へは誘導禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-yoshitaka-yamaguchi-20261113、sg2src-a-yoshitaka-chron-20261113、sg2src-b-review-ouchi-public-20261114、sg2src-b-review-ouchi-geo-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-bdc70f64e638"
+      ],
+      "approvalPersonRaw": "sg-bdc70f64e638",
+      "sourceIds": [
+        "sg2src-a-yoshitaka-yamaguchi-20261113",
+        "sg2src-a-yoshitaka-chron-20261113",
+        "sg2src-b-review-ouchi-public-20261114",
+        "sg2src-b-review-ouchi-geo-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!391／⑥公開最終承認!3351",
+      "previousPublishedId": "sg2site-a-yoshitaka-ouchi-20261113",
+      "previousApprovalRow": "3351",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 391,
+        "municipalityCode": "35203",
+        "sourceIds": [
+          "sg2src-a-yoshitaka-yamaguchi-20261113",
+          "sg2src-a-yoshitaka-chron-20261113",
+          "sg2src-b-review-ouchi-public-20261114",
+          "sg2src-b-review-ouchi-geo-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "山口県山口市"
+      },
+      "pin": {
+        "lat": 34.184542,
+        "lng": 131.479762,
+        "accessStatus": "green",
+        "sourceSheetRow": 391,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③391・史跡位置】山口県山口市［35203］。B公表参考点=34.184542,131.479762。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得3件】大内義隆 sg2hist-a-yoshitaka-002-20261113（④768）／大内義隆 sg2hist-a-yoshitaka-011-20261113（④774）／大内義隆 sg2hist-a-yoshitaka-012-20261113（④775）。④保留・不採用3件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-042｜統合A・位置明示新版③391】位置WGS84=34.184542,131.479762、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：龍福寺の参拝可能な境内のみ。非公開区画へは誘導禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-yoshitaka-yamaguchi-20261113、sg2src-a-yoshitaka-chron-20261113、sg2src-b-review-ouchi-public-20261114、sg2src-b-review-ouchi-geo-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-043",
+      "lotRow": 44,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-yoshitaka-tsukiyama-20261113",
+      "key": "ピン|sg2site-a-yoshitaka-tsukiyama-20261113",
+      "approvedRow": 2196,
+      "approvedVersion": "v1",
+      "title": "築山館跡（大内氏の山口別邸）",
+      "text": "大内教弘が築いたと伝わる築山館の別邸跡で、大内氏が政治や文化の活動を行った山口の史跡。現在は八坂神社・築山神社の区域を含む。義隆個人の具体的な儀式地点は資料上未確定。",
+      "related": "【位置公開版・③392】B地点確認済（2026-11-14）。WGS84：34.1854, 131.478149（公表情報参照点）。見学区分：黄。独立の獲得経歴リンクは未確定（④の別審査対象）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+      "type": "史跡",
+      "personIds": [
+        "sg-bdc70f64e638"
+      ],
+      "approvalPersonRaw": "sg-bdc70f64e638",
+      "sourceIds": [
+        "sg2src-a-yoshitaka-yamaguchi-20261113",
+        "sg2src-b-pin-unified-392-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!392N／⑥公開最終承認!2196E:P",
+      "previousPublishedId": "sg2site-a-yoshitaka-tsukiyama-20261113",
+      "previousApprovalRow": "2196",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 392,
+        "municipalityCode": "35203",
+        "sourceIds": [
+          "sg2src-a-yoshitaka-yamaguchi-20261113",
+          "sg2src-b-pin-unified-392-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "山口県山口市"
+      },
+      "pin": {
+        "lat": 34.1854,
+        "lng": 131.478149,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 392,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③392】B地点確認済（2026-11-14）。WGS84：34.1854, 131.478149（公表情報参照点）。見学区分：黄。独立の獲得経歴リンクは未確定（④の別審査対象）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-044",
+      "lotRow": 45,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-yoshitaka-taineiji-20261113",
+      "key": "ピン|sg2site-a-yoshitaka-taineiji-20261113",
+      "approvedRow": 3580,
+      "approvedVersion": "v3",
+      "title": "大寧寺・大内義隆主従の墓所",
+      "text": "1551年旧暦9月1日、家臣陶隆房の反乱で山口を追われた大内義隆は、長門深川湯本の大寧寺で自害した。西国の大勢力を率いた当主の最期を伝える寺には、義隆父子や家臣らの墓所が今も残る。大寧寺は義隆が追い詰められた場所だが、現在の墓塔が立つ一点を本人が自害した部屋と同一視できない。",
+      "related": "【③393・史跡位置】山口県長門市［35211］。B公表参考点=34.331688,131.158539。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得2件】大内義隆 sg2hist-a-yoshitaka-013-20261113（④776）／陶晴賢 sg2hist-a-sue-1551-coup-20261114（④825）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-044｜統合A・位置明示新版③393】位置WGS84=34.331688,131.158539、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：寺院墓所の現地管理と墓域・立入区画に従う。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-yoshitaka-nagato-20261113、sg2src-a-yoshitaka-portrait-20261113、sg2src-b-pin-unified-393-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-bdc70f64e638"
+      ],
+      "approvalPersonRaw": "sg-bdc70f64e638",
+      "sourceIds": [
+        "sg2src-a-yoshitaka-nagato-20261113",
+        "sg2src-a-yoshitaka-portrait-20261113",
+        "sg2src-b-pin-unified-393-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!393／⑥公開最終承認!3352",
+      "previousPublishedId": "sg2site-a-yoshitaka-taineiji-20261113",
+      "previousApprovalRow": "3352",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 393,
+        "municipalityCode": "35211",
+        "sourceIds": [
+          "sg2src-a-yoshitaka-nagato-20261113",
+          "sg2src-a-yoshitaka-portrait-20261113",
+          "sg2src-b-pin-unified-393-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "山口県長門市"
+      },
+      "pin": {
+        "lat": 34.331688,
+        "lng": 131.158539,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 393,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③393・史跡位置】山口県長門市［35211］。B公表参考点=34.331688,131.158539。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得2件】大内義隆 sg2hist-a-yoshitaka-013-20261113（④776）／陶晴賢 sg2hist-a-sue-1551-coup-20261114（④825）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-044｜統合A・位置明示新版③393】位置WGS84=34.331688,131.158539、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：寺院墓所の現地管理と墓域・立入区画に従う。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-yoshitaka-nagato-20261113、sg2src-a-yoshitaka-portrait-20261113、sg2src-b-pin-unified-393-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-045",
+      "lotRow": 46,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-haruhisa-shingu-20261113",
+      "key": "ピン|sg2site-a-haruhisa-shingu-20261113",
+      "approvedRow": 3581,
+      "approvedVersion": "v3",
+      "title": "新宮党館跡（尼子国久の館）",
+      "text": "尼子家で大きな軍事力を持った一門・新宮党の館跡。1554年、当主の尼子晴久は叔父の国久とその子誠久らを粛清した。後世の軍記には、毛利元就が新宮党の内通を疑わせて晴久との仲を裂いたという謀略説が伝わる。だが、その策が実行されたことを確証する同時代史料は確認されていない。新宮党は一門の有力な軍事集団として独自の基盤を持ち、晴久が当主権力を強めるために排除したとする見方もある。この決断は家中の統制を進める一方、尼子家から有力な将兵を失わせた。毛利の離間策だったのか、晴久自身の決断だったのか。新宮党の粛清は、尼子氏の運命を変えた事件として問いを残す。",
+      "related": "【③394・史跡位置】島根県安来市［32206］。B公表参考点=35.36783926,133.1937636。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】尼子晴久 sg2hist-a-haruhisa-010-20261113（④784）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-045｜統合A・位置明示新版③394】位置WGS84=35.36783926,133.1937636、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：山道・隣接私有地の立入区分に注意。国久居室の確定測量点ではない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-haruhisa-shingu-20261113、sg2src-a-haruhisa-yasugi-20261113、sg2src-b-pin-unified-394-20261114、sg2src-b-shingu-shimane-map-20261114、sg2src-b-haruhisa-shimane-research-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-901256a2d908"
+      ],
+      "approvalPersonRaw": "sg-901256a2d908",
+      "sourceIds": [
+        "sg2src-a-haruhisa-shingu-20261113",
+        "sg2src-a-haruhisa-yasugi-20261113",
+        "sg2src-b-pin-unified-394-20261114",
+        "sg2src-b-shingu-shimane-map-20261114",
+        "sg2src-b-haruhisa-shimane-research-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!394／⑥公開最終承認!3353",
+      "previousPublishedId": "sg2site-a-haruhisa-shingu-20261113",
+      "previousApprovalRow": "3353",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 394,
+        "municipalityCode": "32206",
+        "sourceIds": [
+          "sg2src-a-haruhisa-shingu-20261113",
+          "sg2src-a-haruhisa-yasugi-20261113",
+          "sg2src-b-pin-unified-394-20261114",
+          "sg2src-b-shingu-shimane-map-20261114",
+          "sg2src-b-haruhisa-shimane-research-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "島根県安来市"
+      },
+      "pin": {
+        "lat": 35.36783926,
+        "lng": 133.1937636,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 394,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③394・史跡位置】島根県安来市［32206］。B公表参考点=35.36783926,133.1937636。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】尼子晴久 sg2hist-a-haruhisa-010-20261113（④784）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-045｜統合A・位置明示新版③394】位置WGS84=35.36783926,133.1937636、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：山道・隣接私有地の立入区分に注意。国久居室の確定測量点ではない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-haruhisa-shingu-20261113、sg2src-a-haruhisa-yasugi-20261113、sg2src-b-pin-unified-394-20261114、sg2src-b-shingu-shimane-map-20261114、sg2src-b-haruhisa-shimane-research-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-046",
+      "lotRow": 47,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-nanbu-seijuji-20261114",
+      "key": "ピン|sg2site-a-nanbu-seijuji-20261114",
+      "approvedRow": 3598,
+      "approvedVersion": "v3",
+      "title": "聖寿寺館跡（本三戸城）",
+      "text": "馬淵川沿いで奥州街道と鹿角街道が交わる地に築かれ、室町時代から戦国時代前半まで三戸南部氏の本拠となった聖寿寺館。発掘調査では大きな建物跡や堀跡、武具や茶道具が見つかり、北奥州に勢力を広げた南部氏の暮らしと力を伝えている。江戸時代の盛岡藩の史書には、1539年、南部晴政の代に家中の争いで館が焼失し、南部氏が三戸城へ本拠を移したと記されている。",
+      "related": "【③396位置新版】WGS84=40.41399816, 141.2673534、B確認済の公表史跡情報点。見学色：黄。関連経歴：聖寿寺館焼失後、三戸城を本拠とする（④788、B関係合格）。座標は登城入口・本人所在・見学安全を保証しない。\n【C20261119-FOLLOWUP／CR20261119-046｜統合A・位置明示新版③396】位置WGS84=40.413998158427,141.26735342341、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：聖寿寺館跡案内所の参照点。展示室時間・ガイド予約を要確認。館跡内民家・果樹園・調査区画への誘導禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-nanbu-seijuji-20261114、sg2src-a-nanbu-nanbutown-site-20261114、sg2src-b-review-shojuji-opendata-20261114、sg2src-b-review-shojuji-visitor-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-added-nanbu-harumasa-20261114"
+      ],
+      "approvalPersonRaw": "sg-added-nanbu-harumasa-20261114",
+      "sourceIds": [
+        "sg2src-a-nanbu-seijuji-20261114",
+        "sg2src-a-nanbu-nanbutown-site-20261114",
+        "sg2src-b-review-shojuji-opendata-20261114",
+        "sg2src-b-review-shojuji-visitor-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!C396/N396／⑥公開最終承認!3582 G（ユーザー修正依頼・v2）／⑤出典・根拠!1499・1509・1569・1570／④経歴・史跡対応!788／C配信保留_20261119!47",
+      "previousPublishedId": "sg2site-a-nanbu-seijuji-20261114",
+      "previousApprovalRow": "2228",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 396,
+        "municipalityCode": "02445",
+        "sourceIds": [
+          "sg2src-a-nanbu-seijuji-20261114",
+          "sg2src-a-nanbu-nanbutown-site-20261114",
+          "sg2src-b-review-shojuji-opendata-20261114",
+          "sg2src-b-review-shojuji-visitor-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "青森県三戸郡南部町"
+      },
+      "pin": {
+        "lat": 40.413998158427,
+        "lng": 141.26735342341,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 396,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③396位置新版】WGS84=40.41399816, 141.2673534、B確認済の公表史跡情報点。見学色：黄。関連経歴：聖寿寺館焼失後、三戸城を本拠とする（④788、B関係合格）。座標は登城入口・本人所在・見学安全を保証しない。\n【C20261119-FOLLOWUP／CR20261119-046｜統合A・位置明示新版③396】位置WGS84=40.413998158427,141.26735342341、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：聖寿寺館跡案内所の参照点。展示室時間・ガイド予約を要確認。館跡内民家・果樹園・調査区画への誘導禁止。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-nanbu-seijuji-20261114、sg2src-a-nanbu-nanbutown-site-20261114、sg2src-b-review-shojuji-opendata-20261114、sg2src-b-review-shojuji-visitor-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-047",
+      "lotRow": 48,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-nanbu-sannohe-20261114",
+      "key": "ピン|sg2site-a-nanbu-sannohe-20261114",
+      "approvedRow": 2198,
+      "approvedVersion": "v1",
+      "title": "三戸城跡（三戸南部氏の本城）",
+      "text": "戦国時代の三戸南部氏の本城。晴政の代に聖寿寺館から移ったと伝えられ、後に信直も本拠とした。現存遺構と江戸時代・近現代の再整備施設を混同しない。",
+      "related": "【位置公開版・③397】B地点確認済（2026-11-14）。WGS84：40.3819126, 141.2653136（公表情報参照点）。見学区分：緑。経歴との対応：聖寿寺館焼失後、三戸城を本拠とする（④789・出来事直接（公的伝承））。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+      "type": "史跡",
+      "personIds": [
+        "sg-added-nanbu-harumasa-20261114"
+      ],
+      "approvalPersonRaw": "sg-added-nanbu-harumasa-20261114",
+      "sourceIds": [
+        "sg2src-a-nanbu-sannohe-20261114",
+        "sg2src-b-sannohe-town-map-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!397N／⑥公開最終承認!2198E:P",
+      "previousPublishedId": "sg2site-a-nanbu-sannohe-20261114",
+      "previousApprovalRow": "2198",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 397,
+        "municipalityCode": "02441",
+        "sourceIds": [
+          "sg2src-a-nanbu-sannohe-20261114",
+          "sg2src-b-sannohe-town-map-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "青森県三戸郡三戸町"
+      },
+      "pin": {
+        "lat": 40.3819126,
+        "lng": 141.2653136,
+        "accessStatus": "green",
+        "sourceSheetRow": 397,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③397】B地点確認済（2026-11-14）。WGS84：40.3819126, 141.2653136（公表情報参照点）。見学区分：緑。経歴との対応：聖寿寺館焼失後、三戸城を本拠とする（④789・出来事直接（公的伝承））。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-048",
+      "lotRow": 49,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-kunohe-sanohazama-20261114",
+      "key": "ピン|sg2site-a-kunohe-sanohazama-20261114",
+      "approvedRow": 3527,
+      "approvedVersion": "v2",
+      "title": "九戸政実斬首伝承地（三迫）",
+      "text": "1591年、九戸城で抗戦した九戸政実らは降伏の後、陸奥国栗原郡三迫へ連行され、処刑されたと伝わる。現在の宮城県栗原市には、その最期を伝える伝承地が残り、北奥羽の戦いで命を落とした政実への追悼が続いている。",
+      "related": "九戸政実：sg2hist-a-masazane-1591-death-20261114（④794／出来事直接（公的伝承）・関係上対象）\n【ピン位置版③400】WGS84=38.8145625,140.9859375。見学黄（当日の安全・公開範囲は現地掲示を優先）。獲得対象自治体=04213。ピン接近をカード獲得条件にしない。",
+      "type": "史跡",
+      "personIds": [
+        "sg-added-kunohe-masazane-20261114"
+      ],
+      "approvalPersonRaw": "sg-added-kunohe-masazane-20261114",
+      "sourceIds": [
+        "sg2src-a-kunohe-iwate-bio-20261114",
+        "sg2src-b-kunohe-kurihara-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!400／⑥公開最終承認!3527",
+      "previousPublishedId": "sg2site-a-kunohe-sanohazama-20261114",
+      "previousApprovalRow": "3527",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 400,
+        "municipalityCode": "04213",
+        "sourceIds": [
+          "sg2src-a-kunohe-iwate-bio-20261114",
+          "sg2src-b-kunohe-kurihara-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "宮城県栗原市"
+      },
+      "pin": {
+        "lat": 38.8145625,
+        "lng": 140.9859375,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 400,
+        "checkedAt": "2026-11-19",
+        "evidence": "九戸政実：sg2hist-a-masazane-1591-death-20261114（④794／出来事直接（公的伝承）・関係上対象）\n【ピン位置版③400】WGS84=38.8145625,140.9859375。見学黄（当日の安全・公開範囲は現地掲示を優先）。獲得対象自治体=04213。ピン接近をカード獲得条件にしない。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-049",
+      "lotRow": 50,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-kunohe-kubizuka-20261114",
+      "key": "ピン|sg2site-a-kunohe-kubizuka-20261114",
+      "approvedRow": 3583,
+      "approvedVersion": "v2",
+      "title": "九戸政実公首塚（埋葬伝承地）",
+      "text": "1591年に処刑された九戸政実の首を、家臣が故郷に持ち帰って埋めたと伝えられる塚。伝承の真偽を確定するものではないが、九戸政実の最期とその死を悼む人々の記憶を今に伝える史跡である。",
+      "related": "④B審査済の直接獲得リンクなし（史跡閲覧・ピン表示とカード獲得を区別）\n【ピン位置版③401】WGS84=40.220417,141.409806。見学黄（当日の安全・公開範囲は現地掲示を優先）。獲得対象自治体=03506。ピン接近をカード獲得条件にしない。\n【C20261119-FOLLOWUP／CR20261119-049｜統合A・位置明示新版③401】位置WGS84=40.220417,141.409806、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：九戸村小倉の首塚への公道側案内点。墓域・山道・積雪注意。処刑現場ではない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-kunohe-iwate-sites-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-added-kunohe-masazane-20261114"
+      ],
+      "approvalPersonRaw": "sg-added-kunohe-masazane-20261114",
+      "sourceIds": [
+        "sg2src-a-kunohe-iwate-sites-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!401／⑥公開最終承認!3528",
+      "previousPublishedId": "sg2site-a-kunohe-kubizuka-20261114",
+      "previousApprovalRow": "3528",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 401,
+        "municipalityCode": "03506",
+        "sourceIds": [
+          "sg2src-a-kunohe-iwate-sites-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "岩手県九戸郡九戸村"
+      },
+      "pin": {
+        "lat": 40.220417,
+        "lng": 141.409806,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 401,
+        "checkedAt": "2026-11-19",
+        "evidence": "④B審査済の直接獲得リンクなし（史跡閲覧・ピン表示とカード獲得を区別）\n【ピン位置版③401】WGS84=40.220417,141.409806。見学黄（当日の安全・公開範囲は現地掲示を優先）。獲得対象自治体=03506。ピン接近をカード獲得条件にしない。\n【C20261119-FOLLOWUP／CR20261119-049｜統合A・位置明示新版③401】位置WGS84=40.220417,141.409806、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：九戸村小倉の首塚への公道側案内点。墓域・山道・積雪注意。処刑現場ではない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-kunohe-iwate-sites-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-050",
+      "lotRow": 51,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-takatora-wakayama-20261114",
+      "key": "ピン|sg2site-a-takatora-wakayama-20261114",
+      "approvedRow": 2909,
+      "approvedVersion": "v2",
+      "title": "和歌山城跡",
+      "text": "1585年、豊臣秀長が紀州支配の拠点として築いた和歌山城の跡。藤堂高虎は築城奉行を務め、根来衆らとの戦いを経て新たな領国を治める城づくりに関わった。戦場で功績を重ねた高虎が、築城でも力量を示し始めた場所である。",
+      "related": "【位置公開版・③403】B地点確認済（2026-11-14）。WGS84：34.228281, 135.172261（公表情報参照点）。見学区分：緑。経歴との対応：紀州・四国の攻略と和歌山城築城に関わる（④798・出来事直接（史料））。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+      "type": "史跡",
+      "personIds": [
+        "sg-e64d13aedffc"
+      ],
+      "approvalPersonRaw": "sg-e64d13aedffc",
+      "sourceIds": [
+        "sg2src-a-takatora-tsu-chron-20261114",
+        "sg2src-a-takatora-tsu-bio-20261114",
+        "sg2src-b-pin-unified-403-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!403N／⑥公開最終承認!2909E:P",
+      "previousPublishedId": "sg2site-a-takatora-wakayama-20261114",
+      "previousApprovalRow": "2909",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 403,
+        "municipalityCode": "30201",
+        "sourceIds": [
+          "sg2src-a-takatora-tsu-chron-20261114",
+          "sg2src-a-takatora-tsu-bio-20261114",
+          "sg2src-b-pin-unified-403-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "和歌山県和歌山市"
+      },
+      "pin": {
+        "lat": 34.228281,
+        "lng": 135.172261,
+        "accessStatus": "green",
+        "sourceSheetRow": 403,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③403】B地点確認済（2026-11-14）。WGS84：34.228281, 135.172261（公表情報参照点）。見学区分：緑。経歴との対応：紀州・四国の攻略と和歌山城築城に関わる（④798・出来事直接（史料））。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-051",
+      "lotRow": 52,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-takatora-uwajima-20261114",
+      "key": "ピン|sg2site-a-takatora-uwajima-20261114",
+      "approvedRow": 2910,
+      "approvedVersion": "v2",
+      "title": "宇和島城跡（藤堂高虎期の板島城）",
+      "text": "1595年に伊予板島7万石の領主となった藤堂高虎が、1596年から中世の板島丸串城を改修し、1601年に完成させた海城の跡。宇和島湾に面した丘陵を生かした縄張りで、領地を守り海上交通を押さえる拠点となった。高虎が築いた城の基本構造は、後の宇和島城にも受け継がれた。",
+      "related": "【位置公開版・③404】B地点確認済（2026-11-14）。WGS84：33.219327, 132.565054（公表情報参照点）。見学区分：黄。経歴との対応：板島城を築き宇和島の海城を整える（④799・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+      "type": "史跡",
+      "personIds": [
+        "sg-e64d13aedffc"
+      ],
+      "approvalPersonRaw": "sg-e64d13aedffc",
+      "sourceIds": [
+        "sg2src-a-takatora-uwajima-20261114",
+        "sg2src-a-takatora-tsu-chron-20261114",
+        "sg2src-b-pin-unified-404-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!404N／⑥公開最終承認!2910E:P",
+      "previousPublishedId": "sg2site-a-takatora-uwajima-20261114",
+      "previousApprovalRow": "2910",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 404,
+        "municipalityCode": "38203",
+        "sourceIds": [
+          "sg2src-a-takatora-uwajima-20261114",
+          "sg2src-a-takatora-tsu-chron-20261114",
+          "sg2src-b-pin-unified-404-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "愛媛県宇和島市"
+      },
+      "pin": {
+        "lat": 33.219327,
+        "lng": 132.565054,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 404,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③404】B地点確認済（2026-11-14）。WGS84：33.219327, 132.565054（公表情報参照点）。見学区分：黄。経歴との対応：板島城を築き宇和島の海城を整える（④799・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-052",
+      "lotRow": 53,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-takatora-imabari-20261114",
+      "key": "ピン|sg2site-a-takatora-imabari-20261114",
+      "approvedRow": 2911,
+      "approvedVersion": "v2",
+      "title": "今治城跡",
+      "text": "1602年から藤堂高虎が瀬戸内海に面した地に築いた今治城の跡。海水を引き込んだ広い堀と城内に船が入れる港を備え、海上交通と領国防衛を結び付けた。1604年に主な土木工事を終え、1608年頃までに城全体が整った。海と城を一体にした高虎の構想を伝える史跡である。",
+      "related": "【位置公開版・③405】B地点確認済（2026-11-14）。WGS84：34.063448, 133.006735（公表情報参照点）。見学区分：緑。経歴との対応：今治城の築城と海辺の城下町整備を進める（④800・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+      "type": "史跡",
+      "personIds": [
+        "sg-e64d13aedffc"
+      ],
+      "approvalPersonRaw": "sg-e64d13aedffc",
+      "sourceIds": [
+        "sg2src-a-takatora-imabari-20261114",
+        "sg2src-b-pin-unified-405-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!405N／⑥公開最終承認!2911E:P",
+      "previousPublishedId": "sg2site-a-takatora-imabari-20261114",
+      "previousApprovalRow": "2911",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 405,
+        "municipalityCode": "38202",
+        "sourceIds": [
+          "sg2src-a-takatora-imabari-20261114",
+          "sg2src-b-pin-unified-405-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "愛媛県今治市"
+      },
+      "pin": {
+        "lat": 34.063448,
+        "lng": 133.006735,
+        "accessStatus": "green",
+        "sourceSheetRow": 405,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③405】B地点確認済（2026-11-14）。WGS84：34.063448, 133.006735（公表情報参照点）。見学区分：緑。経歴との対応：今治城の築城と海辺の城下町整備を進める（④800・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-053",
+      "lotRow": 54,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-takatora-tsu-20261114",
+      "key": "ピン|sg2site-a-takatora-tsu-20261114",
+      "approvedRow": 2912,
+      "approvedVersion": "v2",
+      "title": "津城跡",
+      "text": "関ヶ原の戦いに伴う攻防で傷んだ津城を、1608年に入封した藤堂高虎が1611年から大きく改修した城跡。本丸と周囲の曲輪・堀を広げ、伊勢街道に沿って町づくりを進めた。現在も本丸・西之丸の石垣と内堀の一部が残り、戦乱の城から津藩の城下町へ変わった歩みを伝える。",
+      "related": "【位置公開版・③406】B地点確認済（2026-11-14）。WGS84：34.71778, 136.50749（公表情報参照点）。見学区分：緑。経歴との対応：伊予から伊勢・伊賀へ移り津藩の基礎を築く（④802・本人直接）／津城と伊賀上野城の改修に着手する（④804・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+      "type": "史跡",
+      "personIds": [
+        "sg-e64d13aedffc"
+      ],
+      "approvalPersonRaw": "sg-e64d13aedffc",
+      "sourceIds": [
+        "sg2src-a-takatora-tsu-castle-20261114",
+        "sg2src-a-takatora-tsu-chron-20261114",
+        "sg2src-b-pin-unified-406-20261114",
+        "sg2src-a-takatora-tsu-remodel-20261115"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!406N／⑥公開最終承認!2912E:P",
+      "previousPublishedId": "sg2site-a-takatora-tsu-20261114",
+      "previousApprovalRow": "2912",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 406,
+        "municipalityCode": "24201",
+        "sourceIds": [
+          "sg2src-a-takatora-tsu-castle-20261114",
+          "sg2src-a-takatora-tsu-chron-20261114",
+          "sg2src-b-pin-unified-406-20261114",
+          "sg2src-a-takatora-tsu-remodel-20261115"
+        ],
+        "license": "条件付き",
+        "municipalityName": "三重県津市"
+      },
+      "pin": {
+        "lat": 34.71778,
+        "lng": 136.50749,
+        "accessStatus": "green",
+        "sourceSheetRow": 406,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③406】B地点確認済（2026-11-14）。WGS84：34.71778, 136.50749（公表情報参照点）。見学区分：緑。経歴との対応：伊予から伊勢・伊賀へ移り津藩の基礎を築く（④802・本人直接）／津城と伊賀上野城の改修に着手する（④804・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-054",
+      "lotRow": 55,
+      "kind": "既承認ピンの抽出・同版照合",
+      "sourceId": "sg2site-a-takatora-iga-ueno-20261114",
+      "key": "ピン|sg2site-a-takatora-iga-ueno-20261114",
+      "approvedRow": 2913,
+      "approvedVersion": "v2",
+      "title": "伊賀上野城跡",
+      "text": "1608年に伊賀・伊勢の領主となった藤堂高虎が、1611年に大改修した伊賀上野城の跡。高い石垣を巡らせた堅固な城は、大坂の豊臣方をにらむ徳川方の要地だった。津城で進めた城下町づくりと対をなす防備の拠点として、高虎の築城の工夫が残る。",
+      "related": "【位置公開版・③407】B地点確認済（2026-11-14）。WGS84：34.770200161, 136.127174173（公表情報参照点）。見学区分：緑。経歴との対応：伊予から伊勢・伊賀へ移り津藩の基礎を築く（④803・本人直接）／津城と伊賀上野城の改修に着手する（④805・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。三重県公式で修正済みの伊賀上野城座標を使用（津市の別『上野城跡』の座標は不採用）。",
+      "type": "史跡",
+      "personIds": [
+        "sg-e64d13aedffc"
+      ],
+      "approvalPersonRaw": "sg-e64d13aedffc",
+      "sourceIds": [
+        "sg2src-a-takatora-tsu-chron-20261114",
+        "sg2src-a-takatora-tsu-bio-20261114",
+        "sg2src-b-pin-unified-407-20261114",
+        "sg2src-a-takatora-tsu-remodel-20261115"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!407N／⑥公開最終承認!2913E:P",
+      "previousPublishedId": "sg2site-a-takatora-iga-ueno-20261114",
+      "previousApprovalRow": "2913",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 407,
+        "municipalityCode": "24216",
+        "sourceIds": [
+          "sg2src-a-takatora-tsu-chron-20261114",
+          "sg2src-a-takatora-tsu-bio-20261114",
+          "sg2src-b-pin-unified-407-20261114",
+          "sg2src-a-takatora-tsu-remodel-20261115"
+        ],
+        "license": "条件付き",
+        "municipalityName": "三重県伊賀市"
+      },
+      "pin": {
+        "lat": 34.770200161,
+        "lng": 136.127174173,
+        "accessStatus": "green",
+        "sourceSheetRow": 407,
+        "checkedAt": "2026-11-19",
+        "evidence": "【位置公開版・③407】B地点確認済（2026-11-14）。WGS84：34.770200161, 136.127174173（公表情報参照点）。見学区分：緑。経歴との対応：伊予から伊勢・伊賀へ移り津藩の基礎を築く（④803・本人直接）／津城と伊賀上野城の改修に着手する（④805・本人直接）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。三重県公式で修正済みの伊賀上野城座標を使用（津市の別『上野城跡』の座標は不採用）。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-055",
+      "lotRow": 56,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-kunohe-kumanodate-20261114",
+      "key": "ピン|sg2site-a-kunohe-kumanodate-20261114",
+      "approvedRow": 3584,
+      "approvedVersion": "v2",
+      "title": "熊野館跡（九戸氏関連の館跡）",
+      "text": "九戸村伊保内の丘には、九戸氏にゆかりのある熊野館が伝わる。周囲を見渡す地形を利用した軍事拠点だったともいわれ、いまは住民の手で整えられた熊野館公園となっている。丘の上から町を望めば、北奥羽に根を張った九戸一族の歴史が感じられる。",
+      "related": "本人カード獲得リンクなし（史跡単独の閲覧）\n【③409位置参照】WGS84=40.2138125,141.4178125／自治体=03506。公開施設の情報点であり当時の本人所在位置ではない。現地見学は管理者の案内を優先。C公開は⑥本人承認後の別工程。\n【C20261119-FOLLOWUP／CR20261119-055｜統合A・位置明示新版③409】位置WGS84=40.2138125,141.4178125、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：熊野館公園の情報点。斜面・積雪・自然条件に注意。登城口と混同しない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-b-kunohe-kumano-daimei-20261114、sg2src-a2post-kunohe-kumanopark-village-20261118。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-added-kunohe-masazane-20261114"
+      ],
+      "approvalPersonRaw": "sg-added-kunohe-masazane-20261114",
+      "sourceIds": [
+        "sg2src-b-kunohe-kumano-daimei-20261114",
+        "sg2src-a2post-kunohe-kumanopark-village-20261118"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!409／⑥公開最終承認!3562",
+      "previousPublishedId": "sg2site-a-kunohe-kumanodate-20261114",
+      "previousApprovalRow": "3562",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 409,
+        "municipalityCode": "03506",
+        "sourceIds": [
+          "sg2src-b-kunohe-kumano-daimei-20261114",
+          "sg2src-a2post-kunohe-kumanopark-village-20261118"
+        ],
+        "license": "条件付き",
+        "municipalityName": "岩手県九戸郡九戸村"
+      },
+      "pin": {
+        "lat": 40.2138125,
+        "lng": 141.4178125,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 409,
+        "checkedAt": "2026-11-19",
+        "evidence": "本人カード獲得リンクなし（史跡単独の閲覧）\n【③409位置参照】WGS84=40.2138125,141.4178125／自治体=03506。公開施設の情報点であり当時の本人所在位置ではない。現地見学は管理者の案内を優先。C公開は⑥本人承認後の別工程。\n【C20261119-FOLLOWUP／CR20261119-055｜統合A・位置明示新版③409】位置WGS84=40.2138125,141.4178125、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：熊野館公園の情報点。斜面・積雪・自然条件に注意。登城口と混同しない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-b-kunohe-kumano-daimei-20261114、sg2src-a2post-kunohe-kumanopark-village-20261118。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-056",
+      "lotRow": 57,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-miy-akutagawa-20261114",
+      "key": "ピン|sg2site-a-miy-akutagawa-20261114",
+      "approvedRow": 3585,
+      "approvedVersion": "v3",
+      "title": "芥川山城跡",
+      "text": "三好長慶が1553年から1560年にかけて拠点とした摂津の芥川山城跡。長慶はここで畿内の政務を進め、領内の水争いを裁定する文書も残した。山中の曲輪や石垣などの遺構は、戦場だけでなく政治の中心でもあった戦国の山城の姿を伝えている。",
+      "related": "【③410・史跡位置】大阪府高槻市［27207］。B公表参考点=34.881,135.5883。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得2件】三好長慶 sg2hist-a-miy-1553-akutagawa-20261114（④811）／三好長慶 sg2hist-a-miy-1553-1560-local-rule-20261114（④812）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-056｜統合A・位置明示新版③410】位置WGS84=34.881,135.5883、見学信号色=赤。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：険しい山城。未整備・制限区域の立入を勧めない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-miy-02-20261114、sg2src-b-akutagawa-hmap-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-24684888730a"
+      ],
+      "approvalPersonRaw": "sg-24684888730a",
+      "sourceIds": [
+        "sg2src-a-miy-02-20261114",
+        "sg2src-b-akutagawa-hmap-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!410／⑥公開最終承認!3354",
+      "previousPublishedId": "sg2site-a-miy-akutagawa-20261114",
+      "previousApprovalRow": "3354",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 410,
+        "municipalityCode": "27207",
+        "sourceIds": [
+          "sg2src-a-miy-02-20261114",
+          "sg2src-b-akutagawa-hmap-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "大阪府高槻市"
+      },
+      "pin": {
+        "lat": 34.881,
+        "lng": 135.5883,
+        "accessStatus": "red",
+        "sourceSheetRow": 410,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③410・史跡位置】大阪府高槻市［27207］。B公表参考点=34.881,135.5883。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得2件】三好長慶 sg2hist-a-miy-1553-akutagawa-20261114（④811）／三好長慶 sg2hist-a-miy-1553-1560-local-rule-20261114（④812）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-056｜統合A・位置明示新版③410】位置WGS84=34.881,135.5883、見学信号色=赤。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：険しい山城。未整備・制限区域の立入を勧めない。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-miy-02-20261114、sg2src-b-akutagawa-hmap-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-057",
+      "lotRow": 58,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-miy-iimori-20261114",
+      "key": "ピン|sg2site-a-miy-iimori-20261114",
+      "approvedRow": 3586,
+      "approvedVersion": "v3",
+      "title": "飯盛城跡",
+      "text": "三好長慶が1560年に芥川山城から移り、1564年に没するまで畿内政治の本拠とした山城。長慶はこの城を拠点に畿内の諸勢力と向き合い、連歌の催し「飯盛千句」も行われた。現在も石垣や曲輪、礎石などが残り、山上に築かれた大規模な拠点の姿を伝える。",
+      "related": "【③411・史跡位置】大阪府大東市・四條畷市［27218］。B公表参考点=34.726531,135.653641。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得5件】三好長慶 sg2hist-a-miy-1560-iimori-20261114（④813）／三好長慶 sg2hist-a-miy-1561-renga-20261114（④814）／三好長慶 sg2hist-a-miy-1564-death-20261114（④815）／三好長慶 sg2hist-audit-miy-1564-4-20261114（④848）／三好長慶 sg2hist-a1-miy-1563-christian-20261115（④866）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-057｜統合A・位置明示新版③411】位置WGS84=34.726531,135.653641、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：山道・坂道・保全区域の規制を現地案内で確認。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-miy-01-20261114、sg2src-b-iimori-codh-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-24684888730a"
+      ],
+      "approvalPersonRaw": "sg-24684888730a",
+      "sourceIds": [
+        "sg2src-a-miy-01-20261114",
+        "sg2src-b-iimori-codh-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!411／⑥公開最終承認!3355",
+      "previousPublishedId": "sg2site-a-miy-iimori-20261114",
+      "previousApprovalRow": "3355",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 411,
+        "municipalityCode": "27218",
+        "sourceIds": [
+          "sg2src-a-miy-01-20261114",
+          "sg2src-b-iimori-codh-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "大阪府大東市・四條畷市"
+      },
+      "pin": {
+        "lat": 34.726531,
+        "lng": 135.653641,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 411,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③411・史跡位置】大阪府大東市・四條畷市［27218］。B公表参考点=34.726531,135.653641。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得5件】三好長慶 sg2hist-a-miy-1560-iimori-20261114（④813）／三好長慶 sg2hist-a-miy-1561-renga-20261114（④814）／三好長慶 sg2hist-a-miy-1564-death-20261114（④815）／三好長慶 sg2hist-audit-miy-1564-4-20261114（④848）／三好長慶 sg2hist-a1-miy-1563-christian-20261115（④866）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-057｜統合A・位置明示新版③411】位置WGS84=34.726531,135.653641、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：山道・坂道・保全区域の規制を現地案内で確認。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-miy-01-20261114、sg2src-b-iimori-codh-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-058",
+      "lotRow": 59,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-kaki-ryogonji-20261114",
+      "key": "ピン|sg2site-a-kaki-ryogonji-20261114",
+      "approvedRow": 3587,
+      "approvedVersion": "v3",
+      "title": "楞厳寺（柿崎氏ゆかり・創建再興に諸説）",
+      "text": "上越市柿崎区芋島にある楞厳寺。柿崎景家が1534年に建立したという寺伝がある一方、1450年の開基や1558年の柿崎氏による再興を伝える資料もある。寺の歩みは創建・再興の伝承を通じ、越後の柿崎氏と地域の信仰との結びつきを今に伝えている。",
+      "related": "柿崎景家：sg2hist-a-kaki-1534-ryogonji-20261114（④819／出来事直接（公的伝承）・関係上対象）\n【ピン位置版③413】WGS84=37.244601,138.451269。見学黄（当日の安全・公開範囲は現地掲示を優先）。獲得対象自治体=15222。ピン接近をカード獲得条件にしない。\n【C20261119-FOLLOWUP／CR20261119-058｜統合A・位置明示新版③413】位置WGS84=37.244601,138.451269、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：寺院の参拝可能範囲のみ。管理者の案内優先。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-kaki-02-20261114、sg2src-b-kaki-ryogonji-codh-20261114、sg2src-a-audit-kaki-kotobank-ryogonji-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-a8cfe1245acb"
+      ],
+      "approvalPersonRaw": "sg-a8cfe1245acb",
+      "sourceIds": [
+        "sg2src-a-kaki-02-20261114",
+        "sg2src-b-kaki-ryogonji-codh-20261114",
+        "sg2src-a-audit-kaki-kotobank-ryogonji-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!413／⑥公開最終承認!3529",
+      "previousPublishedId": "sg2site-a-kaki-ryogonji-20261114",
+      "previousApprovalRow": "3529",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 413,
+        "municipalityCode": "15222",
+        "sourceIds": [
+          "sg2src-a-kaki-02-20261114",
+          "sg2src-b-kaki-ryogonji-codh-20261114",
+          "sg2src-a-audit-kaki-kotobank-ryogonji-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "新潟県上越市"
+      },
+      "pin": {
+        "lat": 37.244601,
+        "lng": 138.451269,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 413,
+        "checkedAt": "2026-11-19",
+        "evidence": "柿崎景家：sg2hist-a-kaki-1534-ryogonji-20261114（④819／出来事直接（公的伝承）・関係上対象）\n【ピン位置版③413】WGS84=37.244601,138.451269。見学黄（当日の安全・公開範囲は現地掲示を優先）。獲得対象自治体=15222。ピン接近をカード獲得条件にしない。\n【C20261119-FOLLOWUP／CR20261119-058｜統合A・位置明示新版③413】位置WGS84=37.244601,138.451269、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：寺院の参拝可能範囲のみ。管理者の案内優先。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-kaki-02-20261114、sg2src-b-kaki-ryogonji-codh-20261114、sg2src-a-audit-kaki-kotobank-ryogonji-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-059",
+      "lotRow": 60,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-kita-taki-residence-20261114",
+      "key": "ピン|sg2site-a-kita-taki-residence-20261114",
+      "approvedRow": 3588,
+      "approvedVersion": "v3",
+      "title": "多気北畠氏館跡（北畠神社境内）",
+      "text": "南伊勢を治めた伊勢国司・北畠氏の居館跡。北畠具教・具房の時代にも、ここは領国の政治を支える重要な拠点だった。現在は北畠神社の境内周辺に館跡や庭園が残り、山あいの土地に居を構えて南伊勢を治めた北畠氏の姿をしのばせる。",
+      "related": "【③414・史跡位置】三重県津市［24201］。B公表参考点=34.518333,136.299166。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】北畠具教 sg2hist-a-kita-1539-head-20261114（④821）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-059｜統合A・位置明示新版③414】位置WGS84=34.518333,136.299166、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：北畠神社参拝と名勝庭園の有料拝観は別。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-kita-03-20261114、sg2src-b-kitabatake-nabunken-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-0734"
+      ],
+      "approvalPersonRaw": "sg-master-0734",
+      "sourceIds": [
+        "sg2src-a-kita-03-20261114",
+        "sg2src-b-kitabatake-nabunken-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!414／⑥公開最終承認!3356",
+      "previousPublishedId": "sg2site-a-kita-taki-residence-20261114",
+      "previousApprovalRow": "3356",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 414,
+        "municipalityCode": "24201",
+        "sourceIds": [
+          "sg2src-a-kita-03-20261114",
+          "sg2src-b-kitabatake-nabunken-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "三重県津市"
+      },
+      "pin": {
+        "lat": 34.518333,
+        "lng": 136.299166,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 414,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③414・史跡位置】三重県津市［24201］。B公表参考点=34.518333,136.299166。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】北畠具教 sg2hist-a-kita-1539-head-20261114（④821）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-059｜統合A・位置明示新版③414】位置WGS84=34.518333,136.299166、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：北畠神社参拝と名勝庭園の有料拝観は別。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-kita-03-20261114、sg2src-b-kitabatake-nabunken-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-060",
+      "lotRow": 61,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-sue-wakayama-20261114",
+      "key": "ピン|sg2site-a-sue-wakayama-20261114",
+      "approvedRow": 3589,
+      "approvedVersion": "v3",
+      "title": "若山城跡（陶氏の居城）",
+      "text": "山口県周南市の若山に築かれた、陶氏歴代の居城。山陽道と瀬戸内海を望む交通の要衝にあり、大内氏を支える重臣・陶氏の力を物語る。1555年、陶晴賢が毛利元就との厳島の戦いに敗れて死ぬと、若山城も杉重輔の軍に攻められて落城した。山の尾根には本丸・二の丸・三の丸などの曲輪が連なり、空堀や段状の平坦地が今も残る。陶氏の興隆と没落を伝える山城である。",
+      "related": "【③415・史跡位置】山口県周南市［35215］。B公表参考点=34.084329,131.7278。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】陶晴賢 sg2hist-audit-sue-1539-1-20261114（④849）。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-060｜統合A・位置明示新版③415】位置WGS84=34.084329,131.7278、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：山城の登城坂・空堀周辺の足元と立入規制に注意。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-sue-02-20261114、sg2src-b-wakayama-codh-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1119"
+      ],
+      "approvalPersonRaw": "sg-master-1119",
+      "sourceIds": [
+        "sg2src-a-sue-02-20261114",
+        "sg2src-b-wakayama-codh-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!415／⑥公開最終承認!3357",
+      "previousPublishedId": "sg2site-a-sue-wakayama-20261114",
+      "previousApprovalRow": "3357",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 415,
+        "municipalityCode": "35215",
+        "sourceIds": [
+          "sg2src-a-sue-02-20261114",
+          "sg2src-b-wakayama-codh-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "山口県周南市"
+      },
+      "pin": {
+        "lat": 34.084329,
+        "lng": 131.7278,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 415,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③415・史跡位置】山口県周南市［35215］。B公表参考点=34.084329,131.7278。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】陶晴賢 sg2hist-audit-sue-1539-1-20261114（④849）。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-060｜統合A・位置明示新版③415】位置WGS84=34.084329,131.7278、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：山城の登城坂・空堀周辺の足元と立入規制に注意。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-sue-02-20261114、sg2src-b-wakayama-codh-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-061",
+      "lotRow": 62,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-dosan-mound-20261114",
+      "key": "ピン|sg2site-a-dosan-mound-20261114",
+      "approvedRow": 3590,
+      "approvedVersion": "v3",
+      "title": "道三塚（斎藤道三の墓）",
+      "text": "1556年、斎藤道三は美濃長良川で息子義龍の軍勢に敗れ、戦死した。その道三を弔う墓が「道三塚」として伝わるが、洪水などの影響を受けて後世に移された墓所である。塚は父子が争った戦国の悲劇をしのぶ場所であり、合戦時の道三の陣所や最期の地点を正確に示すものではない。",
+      "related": "【③416・史跡位置】岐阜県岐阜市［21201］。B公表参考点=35.445083,136.7635。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得0件】直接リンクなし。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-061｜統合A・位置明示新版③416】位置WGS84=35.445083,136.7635、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：後世移転の墓所であり戦国期の陣所ではない。住宅地・墓域の管理区分を確認。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-dosan-02-20261114、sg2src-b-dosan-city-public-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-person-saito-dosan"
+      ],
+      "approvalPersonRaw": "sg-person-saito-dosan",
+      "sourceIds": [
+        "sg2src-a-dosan-02-20261114",
+        "sg2src-b-dosan-city-public-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!416／⑥公開最終承認!3358",
+      "previousPublishedId": "sg2site-a-dosan-mound-20261114",
+      "previousApprovalRow": "3358",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 416,
+        "municipalityCode": "21201",
+        "sourceIds": [
+          "sg2src-a-dosan-02-20261114",
+          "sg2src-b-dosan-city-public-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "岐阜県岐阜市"
+      },
+      "pin": {
+        "lat": 35.445083,
+        "lng": 136.7635,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 416,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③416・史跡位置】岐阜県岐阜市［21201］。B公表参考点=35.445083,136.7635。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得0件】直接リンクなし。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-061｜統合A・位置明示新版③416】位置WGS84=35.445083,136.7635、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：後世移転の墓所であり戦国期の陣所ではない。住宅地・墓域の管理区分を確認。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-dosan-02-20261114、sg2src-b-dosan-city-public-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-063",
+      "lotRow": 64,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-sorin-funai-residence-20261114",
+      "key": "ピン|sg2site-a-sorin-funai-residence-20261114",
+      "approvedRow": 3599,
+      "approvedVersion": "v2",
+      "title": "大友氏館跡（豊後府内）",
+      "text": "豊後府内に営まれた大友氏の館跡。1550年に家督を継いだ大友義鎮（宗麟）が政治を進めた拠点で、府内は西国の政治や人々の交流の舞台となった。発掘調査では方形の館を構成した遺構が見つかっており、大友氏が府内を治めた往時の姿を今に伝える。",
+      "related": "【③419・B確定位置新版｜CR20261119-063】大分県大分市［44201］。ユーザー提供Plus Code「6JJ9+44 大分市、大分県」からの歴史情報参照点 WGS84=33.2303125,131.6178125（Plus Code復元値8Q5H6JJ9+44の格子中心、約14m×12m。公式測量点・庭園入口ではない）。見学信号色＝赤（約200m四方の館跡全体の一部に発掘・整備・私有・立入制限区画があるため）。公表表示点は入場可の点・史跡内の安全移動経路・本人居室を示さない。庭園公開施設（顕徳町3丁目2番45号）の指定園路のみ一般見学が可能で、開園9:00–17:00、最終入園16:30、月曜等休園・現地最新掲示を優先。非公開区画、近隣民有地、夜間散策へは誘導しない。\n【④B直接獲得0件】直接リンクなし。④保留・不採用3件は獲得対象外。\n【条件付き出典・権利】位置はユーザー提供Plus Codeの数値復元によるもので、OSMノードの座標/図形をゲームへ転写していない。OSMは史跡同名・地理的近接の独立照合のみ。大分市の公表施設情報（https://www.city.oita.oita.jp/o204/20200605teienopen/2000605teienopen.html）および遺跡紹介（https://www.city.oita.oita.jp/o204/bunkasports/rekishi/1118118836045.html）で史跡と庭園の実体/公開範囲を照合。⑤登録3出典は本文確認済・利用条件付き。歴史事実・位置数値を独自文章化し、原文/写真/地図/復元図・OSM由来データを無断転載せず、もし後日OSM直接利用ならODbLを別途審査。獲得自治体44201を維持し、史跡ピンへの接近をカード獲得条件としない。",
+      "type": "史跡",
+      "personIds": [
+        "sg-1cc5e9da1135"
+      ],
+      "approvalPersonRaw": "sg-1cc5e9da1135",
+      "sourceIds": [
+        "sg2src-a-sorin-02-20261114",
+        "sg2src-a-site-otomo-oita-20261114",
+        "sg2src-b-otomo-city-garden-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!419／⑥公開最終承認!3360",
+      "previousPublishedId": "sg2site-a-sorin-funai-residence-20261114",
+      "previousApprovalRow": "3360",
+      "oldHold": "⑥最新版にB公表参考座標が記載されていない",
+      "site": {
+        "sourceSheetRow": 419,
+        "municipalityCode": "44201",
+        "sourceIds": [
+          "sg2src-a-sorin-02-20261114",
+          "sg2src-a-site-otomo-oita-20261114",
+          "sg2src-b-otomo-city-garden-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "大分県大分市"
+      },
+      "pin": {
+        "lat": 33.2303125,
+        "lng": 131.6178125,
+        "accessStatus": "red",
+        "sourceSheetRow": 419,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③419・B確定位置新版｜CR20261119-063】大分県大分市［44201］。ユーザー提供Plus Code「6JJ9+44 大分市、大分県」からの歴史情報参照点 WGS84=33.2303125,131.6178125（Plus Code復元値8Q5H6JJ9+44の格子中心、約14m×12m。公式測量点・庭園入口ではない）。見学信号色＝赤（約200m四方の館跡全体の一部に発掘・整備・私有・立入制限区画があるため）。公表表示点は入場可の点・史跡内の安全移動経路・本人居室を示さない。庭園公開施設（顕徳町3丁目2番45号）の指定園路のみ一般見学が可能で、開園9:00–17:00、最終入園16:30、月曜等休園・現地最新掲示を優先。非公開区画、近隣民有地、夜間散策へは誘導しない。\n【④B直接獲得0件】直接リンクなし。④保留・不採用3件は獲得対象外。\n【条件付き出典・権利】位置はユーザー提供Plus Codeの数値復元によるもので、OSMノードの座標/図形をゲームへ転写していない。OSMは史跡同名・地理的近接の独立照合のみ。大分市の公表施設情報（https://www.city.oita.oita.jp/o204/20200605teienopen/2000605teienopen.html）および遺跡紹介（https://www.city.oita.oita.jp/o204/bunkasports/rekishi/1118118836045.html）で史跡と庭園の実体/公開範囲を照合。⑤登録3出典は本文確認済・利用条件付き。歴史事実・位置数値を独自文章化し、原文/写真/地図/復元図・OSM由来データを無断転載せず、もし後日OSM直接利用ならODbLを別途審査。獲得自治体44201を維持し、史跡ピンへの接近をカード獲得条件としない。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-064",
+      "lotRow": 65,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-sorin-usuki-castle-20261114",
+      "key": "ピン|sg2site-a-sorin-usuki-castle-20261114",
+      "approvedRow": 3591,
+      "approvedVersion": "v3",
+      "title": "臼杵城跡（丹生島城）",
+      "text": "大友宗麟が1562～63年頃、豊後臼杵の丹生島に築いたとされる海辺の城が臼杵城である。宗麟はこの地を政治と軍事の拠点とし、海外からの人々や文化との接点も持った。現在は周囲の埋め立てで海岸線が変わり、公園や後世の建造物も残るため、戦国時代の島の地形と現在の姿をそのまま重ねることはできない。",
+      "related": "【③420・史跡位置】大分県臼杵市［44206］。B公表参考点=33.121615,131.803124。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】大友宗麟 sg2hist-a-sorin-1562-usuki-20261114（④844）。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-064｜統合A・位置明示新版③420】位置WGS84=33.121615,131.803124、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：臼杵公園の公開区画。後世埋立と戦国期の島の地形は異なる。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-sorin-01-20261114、sg2src-a-site-usuki-city-20261114、sg2src-b-usuki-codh-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-1cc5e9da1135"
+      ],
+      "approvalPersonRaw": "sg-1cc5e9da1135",
+      "sourceIds": [
+        "sg2src-a-sorin-01-20261114",
+        "sg2src-a-site-usuki-city-20261114",
+        "sg2src-b-usuki-codh-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!420／⑥公開最終承認!3361",
+      "previousPublishedId": "sg2site-a-sorin-usuki-castle-20261114",
+      "previousApprovalRow": "3361",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 420,
+        "municipalityCode": "44206",
+        "sourceIds": [
+          "sg2src-a-sorin-01-20261114",
+          "sg2src-a-site-usuki-city-20261114",
+          "sg2src-b-usuki-codh-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "大分県臼杵市"
+      },
+      "pin": {
+        "lat": 33.121615,
+        "lng": 131.803124,
+        "accessStatus": "green",
+        "sourceSheetRow": 420,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③420・史跡位置】大分県臼杵市［44206］。B公表参考点=33.121615,131.803124。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】大友宗麟 sg2hist-a-sorin-1562-usuki-20261114（④844）。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-064｜統合A・位置明示新版③420】位置WGS84=33.121615,131.803124、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：臼杵公園の公開区画。後世埋立と戦国期の島の地形は異なる。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-sorin-01-20261114、sg2src-a-site-usuki-city-20261114、sg2src-b-usuki-codh-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-065",
+      "lotRow": 66,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-audit-sorin-moji-castle-20261114",
+      "key": "ピン|sg2site-a-audit-sorin-moji-castle-20261114",
+      "approvedRow": 3592,
+      "approvedVersion": "v3",
+      "title": "門司城跡（大友・毛利の関門海峡争奪）",
+      "text": "関門海峡を見下ろす古城山に築かれた門司城の跡。1561年には大友義鎮（宗麟）の軍勢が毛利方の守る城を攻めたが、敗退した。瀬戸内海と九州を結ぶ海上交通の要衝であったため、両氏はこの城を奪い合った。現在も和布刈公園には、当時の争いを伝える城跡の石碑が残る。",
+      "related": "【③421・史跡位置】福岡県北九州市門司区［40101］。B公表参考点=33.958334,130.968758。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】大友宗麟 sg2hist-audit-sorin-1561-2-20261114（④854）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-065｜統合A・位置明示新版③421】位置WGS84=33.958334,130.968758、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：和布刈公園の山道・傾斜に注意。現地通行条件優先。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-audit-sorin-kitakyushu-moji-20261114、sg2src-b-moji-codh-20261114、sg2src-b-moji-kitakyu-museum-1561-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-1cc5e9da1135"
+      ],
+      "approvalPersonRaw": "sg-1cc5e9da1135",
+      "sourceIds": [
+        "sg2src-a-audit-sorin-kitakyushu-moji-20261114",
+        "sg2src-b-moji-codh-20261114",
+        "sg2src-b-moji-kitakyu-museum-1561-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!421／⑥公開最終承認!3362",
+      "previousPublishedId": "sg2site-a-audit-sorin-moji-castle-20261114",
+      "previousApprovalRow": "3362",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 421,
+        "municipalityCode": "40101",
+        "sourceIds": [
+          "sg2src-a-audit-sorin-kitakyushu-moji-20261114",
+          "sg2src-b-moji-codh-20261114",
+          "sg2src-b-moji-kitakyu-museum-1561-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "福岡県北九州市門司区"
+      },
+      "pin": {
+        "lat": 33.958334,
+        "lng": 130.968758,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 421,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③421・史跡位置】福岡県北九州市門司区［40101］。B公表参考点=33.958334,130.968758。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】大友宗麟 sg2hist-audit-sorin-1561-2-20261114（④854）。④保留・不採用0件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-065｜統合A・位置明示新版③421】位置WGS84=33.958334,130.968758、見学信号色=黄。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：和布刈公園の山道・傾斜に注意。現地通行条件優先。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-audit-sorin-kitakyushu-moji-20261114、sg2src-b-moji-codh-20261114、sg2src-b-moji-kitakyu-museum-1561-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-066",
+      "lotRow": 67,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-audit-nabe-ise-shrine-20261114",
+      "key": "ピン|sg2site-a-audit-nabe-ise-shrine-20261114",
+      "approvedRow": 3593,
+      "approvedVersion": "v3",
+      "title": "伊勢神社（鍋島家ゆかり・遷座年に異説）",
+      "text": "佐賀城下町の形成に深く関わる伊勢神社で、鍋島直茂・勝茂父子ゆかりの社として知られる。現在地への遷座には、1591年に直茂が移したとする佐賀市の解説、1603年とする市の郷土資料、1605年に建立したとする神社の伝えがあり、年代には複数の説が残る。境内には1607年の銘を持つ鳥居が残り、近世佐賀の城下と信仰の歴史を伝える。",
+      "related": "【③422・史跡位置】佐賀県佐賀市［41201］。B公表参考点=33.25238,130.290131。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得0件】直接リンクなし。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-066｜統合A・位置明示新版③422】位置WGS84=33.25238,130.290131、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：屋外の一般参拝区画のみ。②1293・④853は人物獲得非対象。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-audit-nabe-saga-ise1591-20261114、sg2src-b-ise-saga-codh-20261114、sg2src-b-ise-shrine-1605-20261114、sg2src-a-nabe-ise-saga-1603-20261114、sg2src-a-nabe-ise-official1605-20261114、sg2src-a-nabe-ise-saga-library-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+      "type": "史跡",
+      "personIds": [
+        "sg-master-1516"
+      ],
+      "approvalPersonRaw": "sg-master-1516",
+      "sourceIds": [
+        "sg2src-a-audit-nabe-saga-ise1591-20261114",
+        "sg2src-b-ise-saga-codh-20261114",
+        "sg2src-b-ise-shrine-1605-20261114",
+        "sg2src-a-nabe-ise-saga-1603-20261114",
+        "sg2src-a-nabe-ise-official1605-20261114",
+        "sg2src-a-nabe-ise-saga-library-20261114"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!422／⑥公開最終承認!3363",
+      "previousPublishedId": "sg2site-a-audit-nabe-ise-shrine-20261114",
+      "previousApprovalRow": "3363",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 422,
+        "municipalityCode": "41201",
+        "sourceIds": [
+          "sg2src-a-audit-nabe-saga-ise1591-20261114",
+          "sg2src-b-ise-saga-codh-20261114",
+          "sg2src-b-ise-shrine-1605-20261114",
+          "sg2src-a-nabe-ise-saga-1603-20261114",
+          "sg2src-a-nabe-ise-official1605-20261114",
+          "sg2src-a-nabe-ise-saga-library-20261114"
+        ],
+        "license": "条件付き",
+        "municipalityName": "佐賀県佐賀市"
+      },
+      "pin": {
+        "lat": 33.25238,
+        "lng": 130.290131,
+        "accessStatus": "green",
+        "sourceSheetRow": 422,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③422・史跡位置】佐賀県佐賀市［41201］。B公表参考点=33.25238,130.290131。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得0件】直接リンクなし。④保留・不採用1件は獲得対象外。\n【C20261119-FOLLOWUP／CR20261119-066｜統合A・位置明示新版③422】位置WGS84=33.25238,130.290131、見学信号色=緑。B確定の史跡情報参照点であり、当時の人物一点所在・安全な見学入口・現在の開放保証ではない。見学注意：屋外の一般参拝区画のみ。②1293・④853は人物獲得非対象。 現地の案内・規制を優先する。位置接近をカード獲得条件にせず、④B確定関係・既得履歴は保持。③K/⑤出典ID：sg2src-a-audit-nabe-saga-ise1591-20261114、sg2src-b-ise-saga-codh-20261114、sg2src-b-ise-shrine-1605-20261114、sg2src-a-nabe-ise-saga-1603-20261114、sg2src-a-nabe-ise-official1605-20261114、sg2src-a-nabe-ise-saga-library-20261114。事実の独自文章のみ利用し、原文・写真・地図/図版の転載禁止。CODH座標採用時はCC BY指定帰属を表示。",
+        "isNew": true
+      }
+    },
+    {
+      "fixedId": "CR20261119-068",
+      "lotRow": 69,
+      "kind": "承認済み最新版のピン反映",
+      "sourceId": "sg2site-a-kiyomasa-kumamoto-castle-20261115",
+      "key": "ピン|sg2site-a-kiyomasa-kumamoto-castle-20261115",
+      "approvedRow": 3597,
+      "approvedVersion": "v2",
+      "title": "熊本城跡（加藤清正築城）",
+      "text": "加藤清正が旧隈本城の周辺に大規模な築城を進め、1607年に完成させた近世熊本城の跡。高い石垣や複雑な曲輪を備えた城は、肥後を治める清正の権力を示す象徴となった。今も石垣や再建された建物に往時の城郭の姿が残り、地震による被害からの修復を通じて守り継がれている。",
+      "related": "【③425・史跡位置】熊本県熊本市中央区［43101］。B公表参考点=32.80582,130.702314。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】加藤清正 sg2hist-a-kiyomasa-1601-kumamoto-20261115（④863）。④保留・不採用0件は獲得対象外。\n【CR20261119-068／統合A B結果反映・位置v2｜③425】WGS84=32.80582,130.702314。見学信号色＝黄。Bの史跡公開参照点（戦国期の本人位置・安全入口や当日通行可能性を保証しない）。公式の2026年9月通常営業の指定された特別見学ルートのみ。復旧工事区画/公開外の石垣・櫓へ進入不可。GPSは歴史地名参照点で入場ゲートではない。最新現地案内優先。 現地掲示を優先し、位置接近をカード獲得条件にしない。③K/⑤出典ID：sg2src-a-kiyomasa-kumamoto-castle-20261115、sg2src-a-kiyomasa-kumamoto-nishi-20261115、sg2src-a-kiyomasa-maff-irrigation-20261115、sg2src-b-kiyomasa-kumamoto-codh-20261115、sg2src-b-kiyomasa-kumamoto-opening-20261115。歴史と座標の事実を独自記述する『条件付き』利用、写真・地図画像・本文・図版は無断転載禁止。CODH地点採用時はCC BY4.0『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456をC公開QAで帰属表示。B公的根拠：https://castle.kumamoto-guide.jp/news/detail/1459。",
+      "type": "史跡",
+      "personIds": [
+        "sg-0b974357bac7"
+      ],
+      "approvalPersonRaw": "sg-0b974357bac7",
+      "sourceIds": [
+        "sg2src-a-kiyomasa-kumamoto-castle-20261115",
+        "sg2src-a-kiyomasa-kumamoto-nishi-20261115",
+        "sg2src-a-kiyomasa-maff-irrigation-20261115",
+        "sg2src-b-kiyomasa-kumamoto-codh-20261115",
+        "sg2src-b-kiyomasa-kumamoto-opening-20261115"
+      ],
+      "rights": "地点確認済・権利OK",
+      "evidenceFromLot": "③史跡!425／⑥公開最終承認!3365",
+      "previousPublishedId": "sg2site-a-kiyomasa-kumamoto-castle-20261115",
+      "previousApprovalRow": "3365",
+      "oldHold": "⑥最新版に見学信号色の明示がない",
+      "site": {
+        "sourceSheetRow": 425,
+        "municipalityCode": "43101",
+        "sourceIds": [
+          "sg2src-a-kiyomasa-kumamoto-castle-20261115",
+          "sg2src-a-kiyomasa-kumamoto-nishi-20261115",
+          "sg2src-a-kiyomasa-maff-irrigation-20261115",
+          "sg2src-b-kiyomasa-kumamoto-codh-20261115",
+          "sg2src-b-kiyomasa-kumamoto-opening-20261115"
+        ],
+        "license": "条件付き",
+        "municipalityName": "熊本県熊本市中央区"
+      },
+      "pin": {
+        "lat": 32.80582,
+        "lng": 130.702314,
+        "accessStatus": "yellow",
+        "sourceSheetRow": 425,
+        "checkedAt": "2026-11-19",
+        "evidence": "【③425・史跡位置】熊本県熊本市中央区［43101］。B公表参考点=32.80582,130.702314。本人の精密な所在・安全な入口とは限らない。B位置=地点確認済、史跡ピン接近不要。\n【④B直接獲得1件】加藤清正 sg2hist-a-kiyomasa-1601-kumamoto-20261115（④863）。④保留・不採用0件は獲得対象外。\n【CR20261119-068／統合A B結果反映・位置v2｜③425】WGS84=32.80582,130.702314。見学信号色＝黄。Bの史跡公開参照点（戦国期の本人位置・安全入口や当日通行可能性を保証しない）。公式の2026年9月通常営業の指定された特別見学ルートのみ。復旧工事区画/公開外の石垣・櫓へ進入不可。GPSは歴史地名参照点で入場ゲートではない。最新現地案内優先。 現地掲示を優先し、位置接近をカード獲得条件にしない。③K/⑤出典ID：sg2src-a-kiyomasa-kumamoto-castle-20261115、sg2src-a-kiyomasa-kumamoto-nishi-20261115、sg2src-a-kiyomasa-maff-irrigation-20261115、sg2src-b-kiyomasa-kumamoto-codh-20261115、sg2src-b-kiyomasa-kumamoto-opening-20261115。歴史と座標の事実を独自記述する『条件付き』利用、写真・地図画像・本文・図版は無断転載禁止。CODH地点採用時はCC BY4.0『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456をC公開QAで帰属表示。B公的根拠：https://castle.kumamoto-guide.jp/news/detail/1459。",
+        "isNew": true
+      }
+    }
+  ]
+}

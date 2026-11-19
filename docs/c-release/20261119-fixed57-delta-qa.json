@@ -1,0 +1,733 @@
+{
+  "baseVersion": "v2-approved-c-20261119",
+  "releaseVersion": "v2-approved-c-20261119-57",
+  "baseCommit": "824f1b362059333be9130f8a6a38b8f17a72fe4f",
+  "fixedCount": 57,
+  "completedCount": 57,
+  "completedIds": [
+    "CR20261119-001",
+    "CR20261119-002",
+    "CR20261119-003",
+    "CR20261119-004",
+    "CR20261119-005",
+    "CR20261119-006",
+    "CR20261119-007",
+    "CR20261119-008",
+    "CR20261119-013",
+    "CR20261119-016",
+    "CR20261119-017",
+    "CR20261119-018",
+    "CR20261119-019",
+    "CR20261119-022",
+    "CR20261119-023",
+    "CR20261119-024",
+    "CR20261119-025",
+    "CR20261119-027",
+    "CR20261119-028",
+    "CR20261119-029",
+    "CR20261119-030",
+    "CR20261119-031",
+    "CR20261119-032",
+    "CR20261119-033",
+    "CR20261119-034",
+    "CR20261119-035",
+    "CR20261119-036",
+    "CR20261119-037",
+    "CR20261119-038",
+    "CR20261119-039",
+    "CR20261119-040",
+    "CR20261119-041",
+    "CR20261119-042",
+    "CR20261119-043",
+    "CR20261119-044",
+    "CR20261119-045",
+    "CR20261119-046",
+    "CR20261119-047",
+    "CR20261119-048",
+    "CR20261119-049",
+    "CR20261119-050",
+    "CR20261119-051",
+    "CR20261119-052",
+    "CR20261119-053",
+    "CR20261119-054",
+    "CR20261119-055",
+    "CR20261119-056",
+    "CR20261119-057",
+    "CR20261119-058",
+    "CR20261119-059",
+    "CR20261119-060",
+    "CR20261119-061",
+    "CR20261119-063",
+    "CR20261119-064",
+    "CR20261119-065",
+    "CR20261119-066",
+    "CR20261119-068"
+  ],
+  "heldCount": 11,
+  "heldIds": [
+    "CR20261119-009",
+    "CR20261119-010",
+    "CR20261119-011",
+    "CR20261119-012",
+    "CR20261119-014",
+    "CR20261119-015",
+    "CR20261119-020",
+    "CR20261119-021",
+    "CR20261119-026",
+    "CR20261119-062",
+    "CR20261119-067"
+  ],
+  "historyUpdates": 6,
+  "addedHistories": 5,
+  "existingHistoryUpdates": 1,
+  "nameBodyUpdates": 1,
+  "approvedPinUpdates": 50,
+  "counts": {
+    "people": 65,
+    "histories": 1208,
+    "sites": 417,
+    "pins": 400,
+    "relations": 659,
+    "retiredHistories": 31
+  },
+  "preservation": {
+    "priorSitesKept": true,
+    "priorHistoryIdsKept": true,
+    "priorPublishedPinsKept": true,
+    "retiredHistoriesUnchanged": true,
+    "relationsUnchanged": true,
+    "heldUnchanged": true,
+    "noUnapprovedPins": true
+  },
+  "completed": [
+    {
+      "fixedId": "CR20261119-001",
+      "sourceId": "sg2hist-a-kiyomasa-1589-amakusa-20261115",
+      "approvalRow": 3391,
+      "approvalVersion": "v2",
+      "action": "自治体獲得の実装整合",
+      "approvalSHA256": "27c13fb8982e14aac7e7c5063ef1ebe0d80602496dc9f65d7d69f0404ef7b490",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-002",
+      "sourceId": "sg2hist-a-satake-1584-numajiri-20261114",
+      "approvalRow": 3554,
+      "approvalVersion": "v1",
+      "action": "自治体獲得の実装整合",
+      "approvalSHA256": "a7f26577f8595e0cb5116449c553e62e357512b258a695e604de7099f1a83116",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-003",
+      "sourceId": "sg2hist-a-satake-015-20261113",
+      "approvalRow": 3539,
+      "approvalVersion": "v2",
+      "action": "自治体獲得の実装整合",
+      "approvalSHA256": "51ba6a083e726b6af464fa0009e9f6ab5f4f64bfaf82e06f37bd9493f0377d28",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-004",
+      "sourceId": "sg2hist-nobuyuki-1620-komatsu",
+      "approvalRow": 3533,
+      "approvalVersion": "v2",
+      "action": "自治体獲得の実装整合",
+      "approvalSHA256": "690097cf07928dd40ef0ab404e5908ca54c639d484e4a1dfefdcfe7adca5aae9",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-005",
+      "sourceId": "sg2hist-audit-tamenobu-1585-inakadate-20261113",
+      "approvalRow": 3537,
+      "approvalVersion": "v2",
+      "action": "自治体獲得の実装整合",
+      "approvalSHA256": "3d19aaf7bf89c595507b7825b4a86069938de0faca6149a3dc7a688812b24c52",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-006",
+      "sourceId": "sg2hist-a-harumasa-1570-heir-20261114",
+      "approvalRow": 3541,
+      "approvalVersion": "v2",
+      "action": "自治体獲得の実装整合",
+      "approvalSHA256": "1c6e29ce2d0fcc250c9b44b25223a83e2a6938d3c2d98d1e5daf8bbb9ac7a0cf",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-007",
+      "sourceId": "sg2site-motonari-niitakayama",
+      "approvalRow": 3564,
+      "approvalVersion": "v5",
+      "action": "承認済み名称版の反映",
+      "approvalSHA256": "855c0c4659c4835a492202ad97f96b3e262f7f6bb823bfc977c7ecf70b139b83",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-008",
+      "sourceId": "sg2site-yoshiteru-nakao",
+      "approvalRow": 3565,
+      "approvalVersion": "v5",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "d59269ce97f4c092cdafd332eb40ee5bfa75de55e7f533271e882b709772fec8",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-013",
+      "sourceId": "sg2site-a-kazumasu-kanie-20261111",
+      "approvalRow": 3566,
+      "approvalVersion": "v5",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "ea8976ca4e3b2b9a8026b4208257e223a9e599903f2ca2b58cb1a9e8391759d6",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-016",
+      "sourceId": "sg2site-a-hanbei-omido-birth-20261111",
+      "approvalRow": 3567,
+      "approvalVersion": "v5",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "8e8060b50a0680cdc345a72a022a625ef1a4d96ce79db422855693754d30a834",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-017",
+      "sourceId": "sg2site-a-hanbei-hirai-camp-20261111",
+      "approvalRow": 3568,
+      "approvalVersion": "v5",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "1a6b90fd7fd13a3be151ffaa254832715f0b40dcb8e0b1b7987b44d5de3f34be",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-018",
+      "sourceId": "sg2site-a-hanbei-hirai-grave-20261111",
+      "approvalRow": 3569,
+      "approvalVersion": "v5",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "c3256fadee0a06fcf915ef6b765f5632a704136f37e9ff6e0212112b7ad78bed",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-019",
+      "sourceId": "sg2site-a-hanbei-gomyo-inari-20261111",
+      "approvalRow": 3570,
+      "approvalVersion": "v5",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "53b40f23508625835b46a3eff4e5f8b7572c02910f2fa1d0b9d1c50bc2ec2103",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-022",
+      "sourceId": "sg2site-a-muneshige-terayama-20261111",
+      "approvalRow": 3571,
+      "approvalVersion": "v5",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "1d5e94025cf4543847d370cf981922ccc01b2d7778368b08e2afd9a659f20e3c",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-023",
+      "sourceId": "sg2site-a-shigezane-shiroishi-20261112",
+      "approvalRow": 3572,
+      "approvalVersion": "v4",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "1c9adc2b50ee522676053135fb2443153da814298f22e8a0a93bdc313c92681c",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-024",
+      "sourceId": "sg2site-a-tamenobu-oura-20261112",
+      "approvalRow": 2934,
+      "approvalVersion": "v2",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "0dbd3e1a266d43067209e9603139d7374c29bc63a7fab02bf96bd1d03de30b6d",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-025",
+      "sourceId": "sg2site-a-tamenobu-ishikawa-20261112",
+      "approvalRow": 2935,
+      "approvalVersion": "v2",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "83ff742a7e43109f1e2b4a27032df302869648b36337376a7a0b9e753343eeef",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-027",
+      "sourceId": "sg2site-a-tamenobu-kunohe-20261112",
+      "approvalRow": 3573,
+      "approvalVersion": "v4",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "d4271f529e49f8e5be39ed2067f75c2d15d72db716f72fd1f513bcd51f4364f2",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-028",
+      "sourceId": "sg2site-a-junkei-tsutsui-castle-20261112",
+      "approvalRow": 3594,
+      "approvalVersion": "v2",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "d34fcb72379494ff470565dbb7cba1b4f11894838219a5aa62a1804b0305cbc0",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-029",
+      "sourceId": "sg2site-a-junkei-tatsuichi-20261112",
+      "approvalRow": 3574,
+      "approvalVersion": "v2",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "c6939f40277c18aba25e73a43069006a0ddf6a6ccab20faf9cf917c83d166785",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-030",
+      "sourceId": "sg2site-a-junkei-tamon-20261112",
+      "approvalRow": 2188,
+      "approvalVersion": "v1",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "aaa6415a4a8474d9089c6c20b7f9803ed7bb0f51a9147df4422e0ebe5281f34d",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-031",
+      "sourceId": "sg2site-a-junkei-shigisan-20261112",
+      "approvalRow": 3575,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "72a1e9ecdeb2392d0e04d4a6c25146b7a9bdd2b3ebfef405933596bf500d5ace",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-032",
+      "sourceId": "sg2site-a-junkei-koriyama-20261112",
+      "approvalRow": 2190,
+      "approvalVersion": "v1",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "fb685d6efe0ffccf54e87c5eabd23f3d362425db09540baec7db51e40bdb1ffc",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-033",
+      "sourceId": "sg2site-a-junkei-grave-20261112",
+      "approvalRow": 3576,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "a355802085f1c9dbf622034cbfc725943c7949a08baf06dde675a921e65207cf",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-034",
+      "sourceId": "sg2site-a-junkei-denkoji-20261112",
+      "approvalRow": 2192,
+      "approvalVersion": "v1",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "522a80c40d66b98a3a76c594ccde587fa7dc685616e26f6dade035bf7b374a3c",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-035",
+      "sourceId": "sg2site-a-joun-1583-konomi-20261113",
+      "approvalRow": 3577,
+      "approvalVersion": "v4",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "82c3663d22774b76b80b1c2fdcab4ddcebc3b38910de151b32372c33d409e65b",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-036",
+      "sourceId": "sg2site-a-joun-1583-komenoyama-20261113",
+      "approvalRow": 3397,
+      "approvalVersion": "v1",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "3127809d9b546d342de25424fdbe257034e44211b03c714b033ce5ecb3c7c48c",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-037",
+      "sourceId": "sg2site-a-satake-ota-20261113",
+      "approvalRow": 2193,
+      "approvalVersion": "v1",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "da35b18cd901a887866c0510d996376d57cbd528309c4e7de7600c7fe6bb579b",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-038",
+      "sourceId": "sg2site-a-ujiteru-hachioji-20261113",
+      "approvalRow": 3595,
+      "approvalVersion": "v2",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "c69eccf105ff04047646aa5e938446613cb870ff68d2a12f65fb933ad282c004",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-039",
+      "sourceId": "sg2site-a-takanobu-mizugae-20261113",
+      "approvalRow": 3578,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "7cc77bd505cf91a84e956d8cbe1362d1dd07a719b21af466fda3e4cb09752e2e",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-040",
+      "sourceId": "sg2site-a-takanobu-muranaka-20261113",
+      "approvalRow": 2195,
+      "approvalVersion": "v1",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "64496827fd2dcd1295eccf522216c114fdcce61a6e8cfa57a8b3d633e0860714",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-041",
+      "sourceId": "sg2site-a-takanobu-imayama-20261113",
+      "approvalRow": 3596,
+      "approvalVersion": "v2",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "9bcb3f7dbe723f87641ed55c42a89e00ef9f0726d91cdc4470e3a98d2c9f91e2",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-042",
+      "sourceId": "sg2site-a-yoshitaka-ouchi-20261113",
+      "approvalRow": 3579,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "93e7fb82814e960a1e36e297271b95e85214fad6891691701aba71f1548d3a21",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-043",
+      "sourceId": "sg2site-a-yoshitaka-tsukiyama-20261113",
+      "approvalRow": 2196,
+      "approvalVersion": "v1",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "054a840fe46fbb6bcc55ae84d36596341ee2eaa9b863617ac93e66b01757f74d",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-044",
+      "sourceId": "sg2site-a-yoshitaka-taineiji-20261113",
+      "approvalRow": 3580,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "671729f353db270cf11042746e02a4dc70e9eff49795e8623e2c477ff26e8ec3",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-045",
+      "sourceId": "sg2site-a-haruhisa-shingu-20261113",
+      "approvalRow": 3581,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "0a2fb88765373c4a2ee4ee188dbc56fd2cfe94adc83a38b46605a161301d2c95",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-046",
+      "sourceId": "sg2site-a-nanbu-seijuji-20261114",
+      "approvalRow": 3598,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "422d6700101b69f89c6fade4a5e7e4f4dee69755681f3ac2ccf4bd2b206b7ac6",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-047",
+      "sourceId": "sg2site-a-nanbu-sannohe-20261114",
+      "approvalRow": 2198,
+      "approvalVersion": "v1",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "29d57a77d8952385bf9d1887b59b3f9c770cb2e987985567fe90da6cfe413be9",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-048",
+      "sourceId": "sg2site-a-kunohe-sanohazama-20261114",
+      "approvalRow": 3527,
+      "approvalVersion": "v2",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "638375a2fc7939539369049aa187b31ec277b6b121de0b56b859f2c64e8f9664",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-049",
+      "sourceId": "sg2site-a-kunohe-kubizuka-20261114",
+      "approvalRow": 3583,
+      "approvalVersion": "v2",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "749a46ffc3fb1d746d8025e3a6351c33808994c8b59d96702055efa020e3c7e0",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-050",
+      "sourceId": "sg2site-a-takatora-wakayama-20261114",
+      "approvalRow": 2909,
+      "approvalVersion": "v2",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "4841744cef0ac5192ccaf886949c4531509c2e9ab7221b789b4f058706e3e5bf",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-051",
+      "sourceId": "sg2site-a-takatora-uwajima-20261114",
+      "approvalRow": 2910,
+      "approvalVersion": "v2",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "e48ece8238b37397907b222daa9eecd46e9c4685263affc80d1e587b4a197dad",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-052",
+      "sourceId": "sg2site-a-takatora-imabari-20261114",
+      "approvalRow": 2911,
+      "approvalVersion": "v2",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "9fbf3ff2c4a8111dfedd4fba69debc5288c61d98977f468c9a74167ca0b494c4",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-053",
+      "sourceId": "sg2site-a-takatora-tsu-20261114",
+      "approvalRow": 2912,
+      "approvalVersion": "v2",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "fd5bd32212dc3b0e56b0d1f4920d1273afb91fd7aeba76429dd214b8235ffce9",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-054",
+      "sourceId": "sg2site-a-takatora-iga-ueno-20261114",
+      "approvalRow": 2913,
+      "approvalVersion": "v2",
+      "action": "既承認ピンの抽出・同版照合",
+      "approvalSHA256": "598686b648248c3b69eab57bb60caa65260bc1071342ccdd93436cff50463947",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-055",
+      "sourceId": "sg2site-a-kunohe-kumanodate-20261114",
+      "approvalRow": 3584,
+      "approvalVersion": "v2",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "3473658d39c923011eb520cbe6b7b3edf28ea662b477b0c920b09967c06ac509",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-056",
+      "sourceId": "sg2site-a-miy-akutagawa-20261114",
+      "approvalRow": 3585,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "e0e7030bc72f954f57fe3c98bd23df4ddaba1a0430f80240d081cdd832a8557e",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-057",
+      "sourceId": "sg2site-a-miy-iimori-20261114",
+      "approvalRow": 3586,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "30ebe3366d2088c6564f31f7ff5659cf0b235873b679130dc3c6bfdd15847d37",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-058",
+      "sourceId": "sg2site-a-kaki-ryogonji-20261114",
+      "approvalRow": 3587,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "f1a577d2348f104c8faa69e82da55d6f542942da0ccba4485c3b9fd629661f53",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-059",
+      "sourceId": "sg2site-a-kita-taki-residence-20261114",
+      "approvalRow": 3588,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "0df152fc033eced905fc77f6afb150819f767136ea803f050a9e7826ad447df1",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-060",
+      "sourceId": "sg2site-a-sue-wakayama-20261114",
+      "approvalRow": 3589,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "c154dd8b708f71da885e6a19ae01742fbbc59b401c02e8fb3ee188c97f44e0ed",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-061",
+      "sourceId": "sg2site-a-dosan-mound-20261114",
+      "approvalRow": 3590,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "4e1f10dd3d49de2a3ae4ddf8528eb7190470465b5bd842a73a368402e749c2ae",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-063",
+      "sourceId": "sg2site-a-sorin-funai-residence-20261114",
+      "approvalRow": 3599,
+      "approvalVersion": "v2",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "4c1fc9979646396ff5f148a31bd7f7aab998da781a1aae012587d86b91f9cb96",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-064",
+      "sourceId": "sg2site-a-sorin-usuki-castle-20261114",
+      "approvalRow": 3591,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "fb5e995ca9397f9a7e9cf85a271de12a0e02f5e308495d708c4f47dd4b2a0261",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-065",
+      "sourceId": "sg2site-a-audit-sorin-moji-castle-20261114",
+      "approvalRow": 3592,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "f603239472121d6781d400e7287b498fe7732d6d5a0e74d97ff6bc151a11cfe4",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-066",
+      "sourceId": "sg2site-a-audit-nabe-ise-shrine-20261114",
+      "approvalRow": 3593,
+      "approvalVersion": "v3",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "f7c7ae596fd43654567b40a26ca05c84081305bfb8b49ce7bf775cf2056b7c4d",
+      "changedFromPrior": true
+    },
+    {
+      "fixedId": "CR20261119-068",
+      "sourceId": "sg2site-a-kiyomasa-kumamoto-castle-20261115",
+      "approvalRow": 3597,
+      "approvalVersion": "v2",
+      "action": "承認済み最新版のピン反映",
+      "approvalSHA256": "66d6fa79ab4b0ff239144e1903919681bf398a80fbaf1cdf9f4b497390718610",
+      "changedFromPrior": true
+    }
+  ],
+  "municipalityAwards": [
+    {
+      "historyId": "sg2hist-a-kiyomasa-1589-amakusa-20261115",
+      "personId": "sg-0b974357bac7",
+      "municipalityCode": "43215",
+      "relationSheetRow": 869,
+      "relatedSiteId": "sg2site-a1-kiyomasa-hondo-castle-20261116",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "relationSourceIds": [
+        "sg2src-a1-kiyomasa-hondo-citysurvey-20261116",
+        "sg2src-a1-kiyomasa-hondo-kumamotomuseum-20261116",
+        "sg2src-a1-kiyomasa-hondo-kiyama-20261116",
+        "sg2src-a-kiyomasa-kumamoto-series-20261115"
+      ],
+      "approvalRow": 3391,
+      "approvalVersion": "v2",
+      "processId": "CR20261119-001",
+      "historySheetRow": 1308
+    },
+    {
+      "historyId": "sg2hist-a-satake-1584-numajiri-20261114",
+      "personId": "sg-master-0970",
+      "municipalityCode": "09203",
+      "relationSheetRow": 858,
+      "relatedSiteId": "sg2site-a-satake-numajiri-20261114",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "relationSourceIds": [
+        "sg2src-b-satake-numajiri-kanagawa-20261114",
+        "sg2src-a2-satake-numajiri-tochigi-20261115",
+        "sg2src-a2-numajiri-moriya-library-20261116"
+      ],
+      "approvalRow": 3554,
+      "approvalVersion": "v1",
+      "processId": "CR20261119-002",
+      "historySheetRow": 1302
+    },
+    {
+      "historyId": "sg2hist-a-satake-015-20261113",
+      "personId": "sg-master-0970",
+      "municipalityCode": "05434",
+      "relationSheetRow": 750,
+      "relatedSiteId": "sg2site-a-satake-rokugo-20261113",
+      "classification": "本人直接",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "relationSourceIds": [
+        "sg2src-a-satake-ibaraki-20261113",
+        "sg2src-a-satake-clan-20261113"
+      ],
+      "approvalRow": 3539,
+      "approvalVersion": "v2",
+      "processId": "CR20261119-003",
+      "historySheetRow": 1105
+    },
+    {
+      "historyId": "sg2hist-nobuyuki-1620-komatsu",
+      "personId": "sg-53d7309718ae",
+      "municipalityCode": "20203",
+      "relationSheetRow": 868,
+      "relatedSiteId": "sg2site-a2-nobuyuki-hosenji-komatsu-20261116",
+      "classification": "本人直接",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "relationSourceIds": [
+        "sg2src-a2-komatsu-ueda-museum-20261116",
+        "sg2src-a2-komatsu-hachijuni-20261116",
+        "sg2src-a2-komatsu-ueda-personbio-20261116",
+        "sg2src-a2-komatsu-chiba-citymuseum-20261116",
+        "sg2src-a2-komatsu-jodoshu-dictionary-20261116"
+      ],
+      "approvalRow": 3533,
+      "approvalVersion": "v2",
+      "processId": "CR20261119-004",
+      "historySheetRow": 731
+    },
+    {
+      "historyId": "sg2hist-audit-tamenobu-1585-inakadate-20261113",
+      "personId": "sg-master-1321",
+      "municipalityCode": "02367",
+      "relationSheetRow": 741,
+      "relatedSiteId": "sg2site-audit-tamenobu-inakadate-20261113",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "relationSourceIds": [
+        "sg2src-audit-tamenobu-inakadate-village-20261113",
+        "sg2src-audit-tamenobu-hirosaki-timeline-20261113"
+      ],
+      "approvalRow": 3537,
+      "approvalVersion": "v2",
+      "processId": "CR20261119-005",
+      "historySheetRow": 1083
+    },
+    {
+      "historyId": "sg2hist-a-harumasa-1570-heir-20261114",
+      "personId": "sg-added-nanbu-harumasa-20261114",
+      "municipalityCode": "02445",
+      "relationSheetRow": 795,
+      "relatedSiteId": "sg2site-a-nanbu-kenyoshi-20261114",
+      "classification": "出来事直接（公的伝承）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "relationSourceIds": [
+        "sg2src-a-nanbu-hirosaki-1539-20261114",
+        "sg2src-a-nanbu-aomori-goki-20261114"
+      ],
+      "approvalRow": 3541,
+      "approvalVersion": "v2",
+      "processId": "CR20261119-006",
+      "historySheetRow": 1165
+    }
+  ]
+}
