@@ -68,7 +68,7 @@ for(const i of manifest.items){
     i.title==='新高山城跡（小早川隆景の居城）','New Takayama version mismatch');
    // This site has an OLD independently approved pin; keep its GPS, B color, historical pin approval.
    if(s.publicPin&&s.pinApproval&&s.pinApproval.sha256!==approval.sha256&&
-      !s.pinApprovalText)s.pinApprovalText=previousSite.description===i.text?'':baseline.sites.find(x=>x.siteId===s.siteId).description;
+      !s.pinApprovalText)s.pinApprovalText=baseline.sites.find(x=>x.siteId===s.siteId).description;
   }else{
    expect(i.pin&&i.pin.isNew===true&&s.publicPin===false&&s.point===null,'Unintended pin overwrite '+i.fixedId);
    expect(i.pin.sourceSheetRow===i.site.sourceSheetRow&&
