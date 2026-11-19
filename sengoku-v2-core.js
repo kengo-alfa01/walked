@@ -10,6 +10,8 @@
   const PEOPLE=new Set(["sg-6eaf66c3d7c8","sg-f47391608dbb","sg-a7bb09927601","sg-4cb1a557e060","sg-29c3bc68aa37","sg-4c0c12460efa","sg-dc8c550d8769","sg-31e0e85d7a10","sg-98139e31efb2","sg-master-0817","sg-b9bb61125a1b","sg-22f595e1c616","sg-added-maeda-toshiie","sg-a94db8113d4e","sg-master-0891","sg-819c365a83e4","sg-281d92dc2e0f","sg-1a91ae29cb5a","sg-2d3f90c28c8f","sg-025ab3a6ee3f","sg-master-0052","sg-master-0077","sg-master-0080","sg-49819a572b8c","sg-60127e5bb054","sg-master-2013","sg-e04b78ac874d","sg-f510c1a0d1ab","sg-af4aa93fd365","sg-416baa3d4e63","sg-53d7309718ae","sg-61b29c703206","sg-master-1045","sg-41b3835895a3","sg-31e7289f7720","sg-05d4ad2ca192","sg-6b9e823e7bf5","sg-e00b2631eded","sg-c091a1f2c530","sg-98514cee0056","sg-master-1251","sg-fa767bbaaf2c","sg-master-1262"]);
   const C20261119_PEOPLE=new Set(["sg-c33de3cf7739","sg-master-1321","sg-master-1337","sg-e64d13aedffc","sg-master-1516","sg-c594233cb2b7","sg-master-2001","sg-master-2169","sg-person-saito-dosan","sg-master-1119","sg-901256a2d908","sg-bdc70f64e638","sg-1cc5e9da1135","sg-a8cfe1245acb","sg-0b974357bac7","sg-master-0734","sg-24684888730a","sg-fa0a6f0c8900","sg-fc948f16832f","sg-master-0970","sg-added-nanbu-harumasa-20261114","sg-added-kunohe-masazane-20261114"]);
   const INTRO_PENDING=new Set(["sg-281d92dc2e0f","sg-1a91ae29cb5a","sg-2d3f90c28c8f","sg-025ab3a6ee3f"]);
+  // Frozen latest ⑥ / B-reviewed ③ coordinates, approved titles and access for fixed C57.
+  const C20261119_57_PIN_META=Object.freeze({"sg2site-yoshiteru-nakao":[3565,250,135.8033125,35.0285625,"red","2026-11-19","v5"],"sg2site-a-kazumasu-kanie-20261111":[3566,325,136.7902698,35.1365901,"green","2026-11-19","v5"],"sg2site-a-hanbei-omido-birth-20261111":[3567,340,136.6032806,35.4522232,"green","2026-11-19","v5"],"sg2site-a-hanbei-hirai-camp-20261111":[3568,342,135.0161875,34.8118125,"yellow","2026-11-19","v5"],"sg2site-a-hanbei-hirai-grave-20261111":[3569,343,135.0111111,34.8092222,"yellow","2026-11-19","v5"],"sg2site-a-hanbei-gomyo-inari-20261111":[3570,345,136.50810956954,35.381055214799,"green","2026-11-19","v5"],"sg2site-a-muneshige-terayama-20261111":[3571,352,140.3985625,37.0066875,"yellow","2026-11-19","v5"],"sg2site-a-shigezane-shiroishi-20261112":[3572,361,140.6171,38.002576,"yellow","2026-11-19","v4"],"sg2site-a-tamenobu-oura-20261112":[2934,364,140.415837,40.617204,"red","2026-11-19","v2"],"sg2site-a-tamenobu-ishikawa-20261112":[2935,365,140.5438877,40.5478584,"yellow","2026-11-19","v2"],"sg2site-a-tamenobu-kunohe-20261112":[3573,369,141.3034,40.267583,"yellow","2026-11-19","v4"],"sg2site-a-junkei-tsutsui-castle-20261112":[3594,375,135.784347,34.62206,"green","2026-11-19","v2"],"sg2site-a-junkei-tatsuichi-20261112":[3574,376,135.810802,34.657454,"red","2026-11-19","v2"],"sg2site-a-junkei-tamon-20261112":[2188,377,135.831428,34.694368,"red","2026-11-19","v1"],"sg2site-a-junkei-shigisan-20261112":[3575,378,135.67871,34.616335,"red","2026-11-19","v3"],"sg2site-a-junkei-koriyama-20261112":[2190,379,135.780383,34.650976,"green","2026-11-19","v1"],"sg2site-a-junkei-grave-20261112":[3576,380,135.78343837210537,34.608717912842906,"yellow","2026-11-19","v3"],"sg2site-a-junkei-denkoji-20261112":[2192,381,135.825592,34.680546,"yellow","2026-11-19","v1"],"sg2site-a-joun-1583-konomi-20261113":[3577,382,130.539768,33.77615,"yellow","2026-11-19","v4"],"sg2site-a-joun-1583-komenoyama-20261113":[3397,383,130.611737,33.544726,"red","2026-11-19","v1"],"sg2site-a-satake-ota-20261113":[2193,385,140.521388,36.546388,"red","2026-11-19","v1"],"sg2site-a-ujiteru-hachioji-20261113":[3595,387,139.256515,35.652617,"yellow","2026-11-19","v2"],"sg2site-a-takanobu-mizugae-20261113":[3578,388,130.30507,33.24284,"green","2026-11-19","v3"],"sg2site-a-takanobu-muranaka-20261113":[2195,389,130.302581,33.245342,"green","2026-11-19","v1"],"sg2site-a-takanobu-imayama-20261113":[3596,390,130.2388295,33.312198,"yellow","2026-11-19","v2"],"sg2site-a-yoshitaka-ouchi-20261113":[3579,391,131.479762,34.184542,"green","2026-11-19","v3"],"sg2site-a-yoshitaka-tsukiyama-20261113":[2196,392,131.478149,34.1854,"yellow","2026-11-19","v1"],"sg2site-a-yoshitaka-taineiji-20261113":[3580,393,131.158539,34.331688,"yellow","2026-11-19","v3"],"sg2site-a-haruhisa-shingu-20261113":[3581,394,133.1937636,35.36783926,"yellow","2026-11-19","v3"],"sg2site-a-nanbu-seijuji-20261114":[3598,396,141.26735342341,40.413998158427,"yellow","2026-11-19","v3"],"sg2site-a-nanbu-sannohe-20261114":[2198,397,141.2653136,40.3819126,"green","2026-11-19","v1"],"sg2site-a-kunohe-sanohazama-20261114":[3527,400,140.9859375,38.8145625,"yellow","2026-11-19","v2"],"sg2site-a-kunohe-kubizuka-20261114":[3583,401,141.409806,40.220417,"yellow","2026-11-19","v2"],"sg2site-a-takatora-wakayama-20261114":[2909,403,135.172261,34.228281,"green","2026-11-19","v2"],"sg2site-a-takatora-uwajima-20261114":[2910,404,132.565054,33.219327,"yellow","2026-11-19","v2"],"sg2site-a-takatora-imabari-20261114":[2911,405,133.006735,34.063448,"green","2026-11-19","v2"],"sg2site-a-takatora-tsu-20261114":[2912,406,136.50749,34.71778,"green","2026-11-19","v2"],"sg2site-a-takatora-iga-ueno-20261114":[2913,407,136.127174173,34.770200161,"green","2026-11-19","v2"],"sg2site-a-kunohe-kumanodate-20261114":[3584,409,141.4178125,40.2138125,"yellow","2026-11-19","v2"],"sg2site-a-miy-akutagawa-20261114":[3585,410,135.5883,34.881,"red","2026-11-19","v3"],"sg2site-a-miy-iimori-20261114":[3586,411,135.653641,34.726531,"yellow","2026-11-19","v3"],"sg2site-a-kaki-ryogonji-20261114":[3587,413,138.451269,37.244601,"yellow","2026-11-19","v3"],"sg2site-a-kita-taki-residence-20261114":[3588,414,136.299166,34.518333,"yellow","2026-11-19","v3"],"sg2site-a-sue-wakayama-20261114":[3589,415,131.7278,34.084329,"yellow","2026-11-19","v3"],"sg2site-a-dosan-mound-20261114":[3590,416,136.7635,35.445083,"yellow","2026-11-19","v3"],"sg2site-a-sorin-funai-residence-20261114":[3599,419,131.6178125,33.2303125,"red","2026-11-19","v2"],"sg2site-a-sorin-usuki-castle-20261114":[3591,420,131.803124,33.121615,"green","2026-11-19","v3"],"sg2site-a-audit-sorin-moji-castle-20261114":[3592,421,130.968758,33.958334,"yellow","2026-11-19","v3"],"sg2site-a-audit-nabe-ise-shrine-20261114":[3593,422,130.290131,33.25238,"green","2026-11-19","v3"],"sg2site-a-kiyomasa-kumamoto-castle-20261115":[3597,425,130.702314,32.80582,"yellow","2026-11-19","v2"]});
   // Immutable release manifest: ⑥ row, ③ row, [longitude,latitude], status, and reviewed date.
   // C 2026-11-19: independent approved positioning, tied to ⑥ E/F/J/P and ③ WGS84/B record.
   const C20261119_PIN_META=Object.freeze({
@@ -846,7 +848,7 @@
     check(plain(doc)&&doc.schemaVersion===SCHEMA&&doc.sourceSpreadsheetId===SOURCE,'正本・スキーマが違います');
     check(Array.isArray(doc.people)&&Array.isArray(doc.histories)&&Array.isArray(doc.sites)&&Array.isArray(doc.relations),'台帳の構造が不正です');
     check(typeof sha256==='function','本文照合関数がありません');
-    const known=codeSet(knownCodes), personMap=new Map(),siteMap=new Map(),historyMap=new Map(),linkKeys=new Set(),regionMap=new Map(),linkSites=new Map(),approvalRows=new Set();
+    const known=codeSet(knownCodes), personMap=new Map(),siteMap=new Map(),historyMap=new Map(),linkKeys=new Set(),regionMap=new Map(),linkSites=new Map(),approvalRows=new Set(),municipalityAwards=new Map();
     function uniqueApproval(a){check(!approvalRows.has(a.sheetRow),'⑥の同じ承認行を重複流用できません');approvalRows.add(a.sheetRow);}
     for(const p of doc.people){
       check((PEOPLE.has(p.personId)||C20261119_PEOPLE.has(p.personId))&&!personMap.has(p.personId)&&typeof p.name==='string','対象外・重複人物');
@@ -882,20 +884,32 @@
         check(Array.isArray(s.point),'公開ピンの位置がありません');
         check(plain(s.pinApproval),'位置更新版の⑥公開承認がありません');
         const approvedPinPersonIds=s.pinPersonIds||String(s.pinApproval.personId||'').split('\n').filter(Boolean);
-        check(Array.isArray(approvedPinPersonIds)&&approvedPinPersonIds.length>0&&approvedPinPersonIds.every(x=>personMap.has(x))&&new Set(approvedPinPersonIds).size===approvedPinPersonIds.length,'位置版⑥人物IDが未承認です: '+s.siteId+' pin='+JSON.stringify(approvedPinPersonIds)+' site='+JSON.stringify(s.personIds)+' approval='+String(s.pinApproval.personId||''));
-        // Existing approved pin coordinates and published access color remain immutable.
-        // The old position approval MUST validate against its own archived pinned text,
-        // never substitute as approval of a newly edited body.
-        approval(s.pinApproval,s.pinApprovalText||s.description,sha256,{kind:'史跡',personId:approvedPinPersonIds.join('\n'),sourceId:s.siteId});
+        check(Array.isArray(approvedPinPersonIds)&&approvedPinPersonIds.length>0&&approvedPinPersonIds.every(x=>personMap.has(x)&&s.personIds.includes(x))&&new Set(approvedPinPersonIds).size===approvedPinPersonIds.length,'位置版⑥人物IDが未承認です: '+s.siteId+' pin='+JSON.stringify(approvedPinPersonIds)+' site='+JSON.stringify(s.personIds)+' approval='+String(s.pinApproval.personId||''));
+        // In the fixed 57 set, a blank ⑥M stays blank: separately prove pin owners
+        // with existing published attribution or B-approved ④, without new awards.
+        const isNewC57Pin=!!C20261119_57_PIN_META[s.siteId]&&
+          s.pinApproval.sheetRow===C20261119_57_PIN_META[s.siteId][0];
+        if(isNewC57Pin){
+          const declared=String(s.pinApproval.personId||'').split('\n').filter(Boolean);
+          check(declared.every(x=>approvedPinPersonIds.includes(x)),'⑥Mの人物がピンに欠けています: '+s.siteId);
+          if(!declared.length)
+            check(s.pinOwnerEvidence?.approvalRow===s.pinApproval.sheetRow&&
+              Array.isArray(s.pinOwnerEvidence.priorSitePersonIds)&&
+              approvedPinPersonIds.every(x=>s.pinOwnerEvidence.priorSitePersonIds.includes(x)),
+              '⑥M空欄のピンに先行承認の根拠がありません: '+s.siteId);
+        }
+        // Old pin approval is checked against its own archived body, not a
+        // later site description.
+        approval(s.pinApproval,s.pinApprovalText||s.description,sha256,{kind:'史跡',personId:isNewC57Pin?s.pinApproval.personId:approvedPinPersonIds.join('\n'),sourceId:s.siteId});
         if(s.pinApproval.sheetRow!==s.approval.sheetRow)uniqueApproval(s.pinApproval);
         else check(s.pinApproval.version===s.approval.version&&s.pinApproval.sha256===s.approval.sha256&&
           s.pinApproval.personId===s.approval.personId&&s.pinApproval.sourceId===s.approval.sourceId,
           '史跡本文と位置版が同一⑥承認行の場合の根拠が一致しません');
-        check(['v1','v2','v3','v4'].includes(s.pinApproval.version)&&s.pinApproval.sheetRow===(PIN_APPROVED_META[s.siteId]||C20261119_PIN_META[s.siteId])?.[0],'位置版v2と史跡IDの⑥承認行が一致しません');
+        check(['v1','v2','v3','v4','v5'].includes(s.pinApproval.version)&&s.pinApproval.sheetRow===(C20261119_57_PIN_META[s.siteId]||PIN_APPROVED_META[s.siteId]||C20261119_PIN_META[s.siteId])?.[0],'位置版v2と史跡IDの⑥承認行が一致しません');
         check(['自治体確認済・権利OK','地点確認済・権利OK'].includes(s.pinApproval.rights),'位置版の権利・所在地確認が未承認');
         const p=s.pinReview;
         check(plain(p)&&p.decision==='可'&&['green','yellow','red'].includes(p.accessStatus),'Bの最新公開ピン・見学区分が未確認');
-        const expected=(PIN_APPROVED_META[s.siteId]||C20261119_PIN_META[s.siteId]);
+        const expected=(C20261119_57_PIN_META[s.siteId]||PIN_APPROVED_META[s.siteId]||C20261119_PIN_META[s.siteId]);
         check(!!expected&&p.sourceSheetRow===expected[1]&&s.point[0]===expected[2]&&s.point[1]===expected[3]&&p.accessStatus===expected[4]&&p.checkedAt===expected[5]&&s.pinApproval.version===(expected[6]||'v2'),'⑥位置版と③最新B記録の座標・見学区分が一致しません');
         check(typeof p.locationKind==='string'&&p.locationKind.length>0&&p.locationKind!=='未設定','表示位置の種別が未確認');
         check(typeof p.municipality==='string'&&p.municipality.length>0&&Number.isInteger(p.sourceSheetRow)&&p.sourceSheetRow>=2,'③史跡の参照行・市区町村がありません');
@@ -930,6 +944,25 @@
       linkSites.get(r.historyId).add(r.siteId);
       for(const code of siteMap.get(r.siteId).codes)regionMap.get(r.historyId).add(code);
     }
+    // Municipality eligibility from ⑥E + independently B-approved ④;
+    // a held/unpublished GPS site is not required and must not be created.
+    const awards=doc.municipalityAwards||[];
+    check(Array.isArray(awards),'自治体獲得参照が配列ではありません');
+    if(doc.version==='v2-approved-c-20261119-57')check(awards.length===6,'今回6件の自治体獲得参照が不足');
+    for(const a of awards){
+      check(plain(a)&&Number.isInteger(a.relationSheetRow)&&a.relationSheetRow>=2&&
+        Number.isInteger(a.approvalRow)&&a.approvalRow>=2&&id(a.relatedSiteId)&&
+        historyMap.has(a.historyId)&&!municipalityAwards.has(a.historyId),'自治体獲得参照の重複・欠落');
+      const h=historyMap.get(a.historyId);
+      check(h.kind==='place'&&h.personId===a.personId&&h.approval.sheetRow===a.approvalRow&&
+        h.approval.version===a.approvalVersion&&h.approval.sourceId===a.historyId&&
+        a.bStatus==='合格'&&a.linkDecision==='関係上対象'&&
+        ['本人直接','出来事直接（史料）','出来事直接（公的伝承）'].includes(a.classification),'自治体獲得参照の承認版・④Bが不正');
+      const [code]=normalizeCodes([a.municipalityCode],known);
+      if(!regionMap.has(a.historyId))regionMap.set(a.historyId,new Set());
+      regionMap.get(a.historyId).add(code);
+      municipalityAwards.set(a.historyId,a);
+    }
     for(const h of historyMap.values()){
       if(h.kind==='place')check(regionMap.has(h.historyId)&&regionMap.get(h.historyId).size>0,'経歴に承認済みの獲得リンクがありません: '+h.historyId);
       else check(!regionMap.has(h.historyId),'場所不要経歴には史跡獲得リンクを設定できません');
@@ -951,7 +984,7 @@
       retiredHistories.set(h.historyId,entry);
     }
     if(personMap.size===65)check(retiredHistories.size===31,'今回の旧公開31件の保全が欠落');
-    return {people:personMap,histories:historyMap,sites:siteMap,codes:regionMap,linkSites,retiredHistories,version:doc.version||'v2-stage'};
+    return {people:personMap,histories:historyMap,sites:siteMap,codes:regionMap,linkSites,municipalityAwards,retiredHistories,version:doc.version||'v2-stage'};
   }
   function municipalityFromKey(key){
     const raw=String(key||'');
