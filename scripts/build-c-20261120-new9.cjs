@@ -174,5 +174,9 @@ const htmlFile=path.join(root,'index.html'),html=fs.readFileSync(htmlFile,'utf8'
 const oldRef="fetch('./sengoku/v2/approved-c-20261119-57.json'";
 const newRef="fetch('./sengoku/v2/approved-c-20261120-new9-80.json'";
 assert(html.includes(oldRef)||html.includes(newRef),'app release pointer altered');
-if(html.includes(oldRef))fs.writeFileSync(htmlFile,html.replace(oldRef,newRef));
+const oldCoreUrl='src="./sengoku-v2-core.js?v=c20261119-fixed57"';
+const newCoreUrl='src="./sengoku-v2-core.js?v=c20261120-new9"';
+let nextHtml=html.replace(oldRef,newRef).replace(oldCoreUrl,newCoreUrl);
+assert(nextHtml.includes(newCoreUrl),'Safari must load updated C core using new cache key');
+if(nextHtml!==html)fs.writeFileSync(htmlFile,nextHtml);
 console.log('C_NEW9_BUILT',JSON.stringify({version:p.version,after:audit.after,release:audit.released,prefectures:audit.pinPrefectureDelta,relations:m.relations.length}));
