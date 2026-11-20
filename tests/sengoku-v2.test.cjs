@@ -164,7 +164,7 @@ test('invalid municipality, indirect acquisition link, or exposed private coordi
 test('screens retain iPhone responsive UI and v2 integration JavaScript is syntactically valid',()=>{
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
  assert.match(html,/viewport-fit=cover/);assert.match(html,/overflow-wrap:anywhere/);
- assert.match(html,/<script src="\.\/sengoku-v2-core\.js\?v=c20261119-fixed57"><\/script>/);
+ assert.match(html,/<script src="\.\/sengoku-v2-core\.js\?v=c202611(?:19-fixed57|20-new9)"><\/script>/);
  assert.doesNotMatch(html,/sengoku-v2-integration\.js|sengoku\/people\.json|sengoku\/cards\.json/);
 });
 test('all 108 approved histories are acquired once from 42 eligible municipalities; all biographies unlock',()=>{
