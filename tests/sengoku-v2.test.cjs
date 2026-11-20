@@ -231,10 +231,11 @@ test('⑥1546 Edo Castle information pin is yellow, separately approved and not 
 // not combine the previous cached JS with the new JSON. Version the browser JS URL.
 test('release-critical Sengoku scripts are cache-busted at the 334-pin B/⑥ approval version',()=>{
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
- const token='c20261119-fixed57';
+ const newRelease=html.includes("fetch('./sengoku/v2/approved-c-20261120-new9-80.json',{cache:'no-store'})");
+ const token=newRelease?'c20261120-new9':'c20261119-fixed57';
  assert.ok(html.includes('src="./sengoku-v2-core.js?v='+token+'"'));
  assert.ok(html.includes('src="./sengoku-chronology.js?v=c20261119"'));
- assert.ok(html.includes("fetch('./sengoku/v2/approved-c-20261119-57.json',{cache:'no-store'})"));
+ assert.ok(newRelease||html.includes("fetch('./sengoku/v2/approved-c-20261119-57.json',{cache:'no-store'})"));
  assert.equal(doc.sites.filter(s=>s.publicPin).length,62);
  const edo=doc.sites.find(s=>s.siteId==='sg2site-ieyasu-edo');
  assert.equal(edo.pinApproval.sheetRow,1546);
