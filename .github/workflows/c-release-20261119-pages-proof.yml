@@ -22,6 +22,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          # Historical proof applies only while fixed57 is the active release.
+          if ! grep -Fq "fetch('./sengoku/v2/approved-c-20261119-57.json'" index.html; then
+            echo 'C_FIXED57_PROOF_ARCHIVED_NEW_RELEASE_IS_ACTIVE'
+            exit 0
+          fi
           base=https://kengo-alfa01.github.io/walked
           files=(index.html sengoku-v2-core.js sengoku/v2/approved-c-20261119-57.json data/c-release/records.csv data/c-release/status.csv)
           for i in $(seq 1 90); do

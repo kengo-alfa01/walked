@@ -1,0 +1,45 @@
+name: C new9 approved 80 GitHub Pages live-byte proof
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/c-20261120-new9-pages-proof.yml
+      - index.html
+      - sengoku-v2-core.js
+      - sengoku/v2/approved-c-20261120-new9-80.json
+      - data/c-release/records.csv
+      - data/c-release/status.csv
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-live-pages:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare actual GitHub Pages file bytes against merged main
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=https://kengo-alfa01.github.io/walked
+          files=(index.html sengoku-v2-core.js sengoku/v2/approved-c-20261120-new9-80.json data/c-release/records.csv data/c-release/status.csv)
+          for attempt in $(seq 1 90); do
+            all=true
+            for f in "${files[@]}"; do
+              mkdir -p "/tmp/new9-pages/$(dirname "$f")"
+              if ! curl --fail --location --silent --show-error --retry 1 --max-time 40 --header 'Cache-Control: no-cache' "$base/$f?new9=$GITHUB_SHA" -o "/tmp/new9-pages/$f" 2>/dev/null; then
+                all=false
+                break
+              fi
+              if ! cmp -s "$f" "/tmp/new9-pages/$f"; then all=false;break;fi
+            done
+            if $all; then
+              echo "PAGES_NEW9_BYTES_EQUAL_MAIN sha=$GITHUB_SHA attempt=$attempt"
+              break
+            fi
+            if [ "$attempt" -eq 90 ]; then echo 'PAGES_NEW9_BYTES_MISMATCH';exit 1;fi
+            sleep 8
+          done
+      - name: Check live JSON exact ⑥ and status/records ledgers
+        run: node scripts/verify-c-20261120-live.cjs

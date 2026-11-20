@@ -1,0 +1,625 @@
+{
+  "batch": "C-20261120-NEW9-80",
+  "release": "v2-approved-c-20261120-new9-80",
+  "baseCommit": "96f9a1caadb6ee8ad3501a8563af6265524a8247",
+  "baseBlob": "847d8faf19979c9a496910fe1637d1bc3a5accf3",
+  "frozenApprovedRows": [
+    {
+      "row": 3600,
+      "kind": "史跡",
+      "id": "sg2site-new9-aso-shrine-20261119",
+      "version": "v1",
+      "bodySHA256": "bec9cd08dc25161f83cd5970142ef8385a770457a8156ff806dd2e96e75a0fbc"
+    },
+    {
+      "row": 3601,
+      "kind": "史跡",
+      "id": "sg2site-new9-sagara-grave-20261119",
+      "version": "v1",
+      "bodySHA256": "de823c17d2bc284a62b3ddc218a00349b2ee4d5ecf110ff4670b23229c955e8c"
+    },
+    {
+      "row": 3602,
+      "kind": "史跡",
+      "id": "sg2site-new9-sagara-hibikinohara-20261119",
+      "version": "v1",
+      "bodySHA256": "d61cb97d84e593d6686af6dc1b377e5aaa220d7b619f311b6677ac2e5f1a6ebc"
+    },
+    {
+      "row": 3603,
+      "kind": "史跡",
+      "id": "sg2site-new9-oda-castle-20261119",
+      "version": "v1",
+      "bodySHA256": "c7e516a20ceac421e97ae388ed11738cc21908f15f545163b691b1badec74283"
+    },
+    {
+      "row": 3604,
+      "kind": "史跡",
+      "id": "sg2site-new9-ando-wakimoto-20261119",
+      "version": "v1",
+      "bodySHA256": "922d56b8004cad86fdcbdf53d81c72789cd9010f491ed36e46cfb064b5ec70ec"
+    },
+    {
+      "row": 3605,
+      "kind": "史跡",
+      "id": "sg2site-new9-sogo-castle-20261119",
+      "version": "v1",
+      "bodySHA256": "f8cfa45cb8b78fe997972a3b5e94790ed63887a90460b4b133ce0e1787bcb7bf"
+    },
+    {
+      "row": 3606,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-sagara-hitoyoshi-20261120",
+      "version": "v1",
+      "bodySHA256": "557b94105e2c3aaa022b1193c0a820824da14af1312c66365672fdec00b7f218"
+    },
+    {
+      "row": 3607,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-sagara-furufumoto-20261120",
+      "version": "v1",
+      "bodySHA256": "38638e09c21350c319bfba5c30231c8bfb21928cd8a1c8380f595f60c56d0c44"
+    },
+    {
+      "row": 3608,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-yamana-fuse-20261120",
+      "version": "v1",
+      "bodySHA256": "81ceddeb883ecb9f821ca9670669971536ebe54dc9861e5179fe36777565de06"
+    },
+    {
+      "row": 3609,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-oda-tsuchiura-20261120",
+      "version": "v1",
+      "bodySHA256": "7a2e50dd3bad6d401a0c9a09b31d767d73fa03db40e30e7c132406ff8b8f6bfd"
+    },
+    {
+      "row": 3610,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-sogo-toramaru-20261120",
+      "version": "v1",
+      "bodySHA256": "924f28ed0fa44576cabe55edb2c837184b10e28379f9d8b8147babd3ee0f61b4"
+    },
+    {
+      "row": 3611,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-matsu-todaiji-20261120",
+      "version": "v1",
+      "bodySHA256": "a828400df82444f812d17ee3ec44aaddf0f53b164f80a298403445eca16b5c6c"
+    },
+    {
+      "row": 3612,
+      "kind": "人物紹介",
+      "id": "sg-40aa320a08e4",
+      "version": "v1",
+      "bodySHA256": "6fd30e9f59ec5965ae27ee97182380e29b896a39c8d2db9f5f245b6e4634a62a"
+    },
+    {
+      "row": 3613,
+      "kind": "完成版ストーリー",
+      "id": "sg-40aa320a08e4",
+      "version": "v1",
+      "bodySHA256": "43775589580e03052cd9b3c8cb7e5073c61079f60e326a3c746a8d927f648331"
+    },
+    {
+      "row": 3614,
+      "kind": "人物紹介",
+      "id": "sg-added-aso-koremasa-20261119",
+      "version": "v1",
+      "bodySHA256": "299a54961333180e598a2bd3f6a8776100326cf062532a5d1277995ed15e4975"
+    },
+    {
+      "row": 3615,
+      "kind": "完成版ストーリー",
+      "id": "sg-added-aso-koremasa-20261119",
+      "version": "v1",
+      "bodySHA256": "8a45b9beaac0417c4083e0a8f96a7f53d60962cf76863488904c0b17e7b60a49"
+    },
+    {
+      "row": 3616,
+      "kind": "人物紹介",
+      "id": "sg-added-sagara-yoshihi-20261119",
+      "version": "v1",
+      "bodySHA256": "4d5695c893d388c49e2fd01d54ed7edd1de9168bc9c4d676d985e8ed86671cb9"
+    },
+    {
+      "row": 3617,
+      "kind": "完成版ストーリー",
+      "id": "sg-added-sagara-yoshihi-20261119",
+      "version": "v1",
+      "bodySHA256": "40e07e2e8f9a71e0d878ed89a1f7270bc5f738102c64fc804922e7c6d0548651"
+    },
+    {
+      "row": 3618,
+      "kind": "人物紹介",
+      "id": "sg-added-yamana-toyokuni-20261119",
+      "version": "v1",
+      "bodySHA256": "666aed21949fba9d89bbf6d19ceecc1ad5f04cfb6829c51473435a95a5cbe90d"
+    },
+    {
+      "row": 3619,
+      "kind": "完成版ストーリー",
+      "id": "sg-added-yamana-toyokuni-20261119",
+      "version": "v1",
+      "bodySHA256": "009a7cec524d4bdbaea4eb85882364704d970270dbd3968d64238e46d6c50936"
+    },
+    {
+      "row": 3620,
+      "kind": "人物紹介",
+      "id": "sg-added-kikkawa-tsuneie-20261119",
+      "version": "v1",
+      "bodySHA256": "93d79964326e2de0eba54d917583beefebf05c9476f58283461b8cc049099cf7"
+    },
+    {
+      "row": 3621,
+      "kind": "完成版ストーリー",
+      "id": "sg-added-kikkawa-tsuneie-20261119",
+      "version": "v1",
+      "bodySHA256": "5794112a99ae0a14d90b7e94049b43a794c417b371d0283bb7815ab4a03d0613"
+    },
+    {
+      "row": 3622,
+      "kind": "人物紹介",
+      "id": "sg-added-oda-ujiharu-20261119",
+      "version": "v1",
+      "bodySHA256": "684bff9c36b15715c89ce8b37eaabcf9f88b032bef1b7ba9272f15cd84883746"
+    },
+    {
+      "row": 3623,
+      "kind": "完成版ストーリー",
+      "id": "sg-added-oda-ujiharu-20261119",
+      "version": "v1",
+      "bodySHA256": "4041bba72e75d5d954e587345afbd8a44e68a555fafc86544f695fc403a7c115"
+    },
+    {
+      "row": 3624,
+      "kind": "完成版ストーリー",
+      "id": "sg-added-ando-chikasue-20261119",
+      "version": "v1",
+      "bodySHA256": "bc74811175768196f9fe5ab6e0a10f880d7e5ae054af27abb1ea20fd391f4001"
+    },
+    {
+      "row": 3625,
+      "kind": "完成版ストーリー",
+      "id": "sg-added-tozawa-moriyasu-20261119",
+      "version": "v1",
+      "bodySHA256": "18eddc6a5b5db296ec39cc55e8bd2e62367b461abf195ecec383d96fd0433aab"
+    },
+    {
+      "row": 3626,
+      "kind": "人物紹介",
+      "id": "sg-added-sogo-masayasu-20261119",
+      "version": "v1",
+      "bodySHA256": "22c3ba80294015558a5921fdb6035cd69f0c1edc755bd16cf15247008095e584"
+    },
+    {
+      "row": 3627,
+      "kind": "完成版ストーリー",
+      "id": "sg-added-sogo-masayasu-20261119",
+      "version": "v1",
+      "bodySHA256": "4a61a5cdddbcd17b475394fe8a1afb6cd9f45eeebb150b55bffe444a85de1a22"
+    },
+    {
+      "row": 3628,
+      "kind": "経歴",
+      "id": "sg2hist-new9-matsu-1559-1-20261119",
+      "version": "v1",
+      "bodySHA256": "7717ebaad9e44a6b52a11eed43279fc7b80286763cfdc6b2914dff5b750eb754"
+    },
+    {
+      "row": 3629,
+      "kind": "経歴",
+      "id": "sg2hist-new9-matsu-1560-1-20261119",
+      "version": "v1",
+      "bodySHA256": "5ebb2e56f82c19faac305bb3541eb6dcfdf08a833e18c13e745721cf1a854fd6"
+    },
+    {
+      "row": 3630,
+      "kind": "経歴",
+      "id": "sg2hist-new9-matsu-1567-1-20261119",
+      "version": "v1",
+      "bodySHA256": "a00171821decb57b6fa45c35c79f6aa5a36554e5a4aae6c099d95fed78e41770"
+    },
+    {
+      "row": 3631,
+      "kind": "経歴",
+      "id": "sg2hist-new9-matsu-1568-1-20261119",
+      "version": "v1",
+      "bodySHA256": "f752d883a70e4493ed44c2f2ac23fb657a7dacc7075aadd35c19b1dd18bba9e1"
+    },
+    {
+      "row": 3632,
+      "kind": "経歴",
+      "id": "sg2hist-new9-matsu-1571-1-20261119",
+      "version": "v1",
+      "bodySHA256": "eda5a13c5a13310ebb9dc38ae454782073380bbed915ed05a2f15caedfd44cb8"
+    },
+    {
+      "row": 3633,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-matsu-1573-rebellion-20261120",
+      "version": "v1",
+      "bodySHA256": "18ab4f508c7380a1765ef54e65d2b54bc0b0615d8dd7b89cd8982ae3750c0a87"
+    },
+    {
+      "row": 3634,
+      "kind": "経歴",
+      "id": "sg2hist-new9-matsu-1577-1-20261119",
+      "version": "v1",
+      "bodySHA256": "d6ee3a562215494bada40ed2468735da0b3abf58a871afc6f6c21256e3a01597"
+    },
+    {
+      "row": 3635,
+      "kind": "経歴",
+      "id": "sg2hist-new9-aso-1559-1-20261119",
+      "version": "v1",
+      "bodySHA256": "7f1ad9866d6c277c4e268a203ea449f7b4e712c14f7e6fd4675c84504cfac175"
+    },
+    {
+      "row": 3636,
+      "kind": "経歴",
+      "id": "sg2hist-new9-aso-1583-1-20261119",
+      "version": "v1",
+      "bodySHA256": "5c1d322e6f4c89f3821e98caa8e640f18d6f98421c94a7e57de0af1897ca9cbf"
+    },
+    {
+      "row": 3637,
+      "kind": "経歴",
+      "id": "sg2hist-new9-sagara-1555-1-20261119",
+      "version": "v1",
+      "bodySHA256": "85dd10185f45ea0cca282fee371290d9b2eb78b13dd3e1324780586757327bd0"
+    },
+    {
+      "row": 3638,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-sagara-1579-five-castles-20261120",
+      "version": "v1",
+      "bodySHA256": "bcbdd2532f93c18230eed481f2a7cb19532e0cd0b84f2cc8873f5438abe9fd32"
+    },
+    {
+      "row": 3639,
+      "kind": "経歴",
+      "id": "sg2hist-new9-sagara-1581-2-20261119",
+      "version": "v1",
+      "bodySHA256": "93ec379503d6fae233b0b13fd1bf23758a52e204fe419259771326d3938bc2b0"
+    },
+    {
+      "row": 3640,
+      "kind": "経歴",
+      "id": "sg2hist-new9-yamana-1573-1-20261119",
+      "version": "v1",
+      "bodySHA256": "e1e60f6900d2019d9653bd3144b5588939b8fd3d8f8d10be273810d4ee37d0f2"
+    },
+    {
+      "row": 3641,
+      "kind": "経歴",
+      "id": "sg2hist-new9-yamana-1580-1-20261119",
+      "version": "v1",
+      "bodySHA256": "d9de8acee0e0991668d75fbc8e509eb165a52faff2a4cdca264ccab2ff6f96e0"
+    },
+    {
+      "row": 3642,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-yamana-1580-expulsion-20261120",
+      "version": "v1",
+      "bodySHA256": "00d90ec3a24a64e54e32889160b45176249c63608a9280d360080125d2f38431"
+    },
+    {
+      "row": 3643,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-yamana-after1580-otogi-20261120",
+      "version": "v1",
+      "bodySHA256": "885c52b60f7d6eeebddec6c28bf1cf26c58f2cd6ca55db81501c15889870eee7"
+    },
+    {
+      "row": 3644,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-yamana-after1598-tokugawa-20261120",
+      "version": "v1",
+      "bodySHA256": "0f9cb5e1d0346d132132797edc7c2e385d7c7115dfbb0ba6c2aa476f13d1d249"
+    },
+    {
+      "row": 3645,
+      "kind": "経歴",
+      "id": "sg2hist-new9-kikkawa-1581-1-20261119",
+      "version": "v1",
+      "bodySHA256": "f58f7de1b5e16d24af775ace654e1ef0e27ecba3d8ebd90aaf76f96994a2afe3"
+    },
+    {
+      "row": 3646,
+      "kind": "経歴",
+      "id": "sg2hist-new9-kikkawa-1581-2-20261119",
+      "version": "v1",
+      "bodySHA256": "636c4a6d1b44754216e469c652053a3e6ed31fbb587c3e2369825b43cd459e57"
+    },
+    {
+      "row": 3647,
+      "kind": "経歴",
+      "id": "sg2hist-new9-kikkawa-1581-3-20261119",
+      "version": "v1",
+      "bodySHA256": "2599f82b89b7f4b5afccc66fbdf30ef85c873e757862b620fe0d2e8432609327"
+    },
+    {
+      "row": 3648,
+      "kind": "経歴",
+      "id": "sg2hist-new9-kikkawa-1581-4-20261119",
+      "version": "v1",
+      "bodySHA256": "4eff2cf31a85ac92b5bf039d2dab474dd3f56aff3cfe8c6d88d7e28d85e90ad0"
+    },
+    {
+      "row": 3649,
+      "kind": "経歴",
+      "id": "sg2hist-new9-oda-1556-1-20261119",
+      "version": "v1",
+      "bodySHA256": "1990c1e838496935b4fd5ec44236d2a38ba9d7733044953d4b110ef3db04a33b"
+    },
+    {
+      "row": 3650,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-oda-1562-hojo-alignment-20261120",
+      "version": "v1",
+      "bodySHA256": "30303c612bad0af209915fa33eccbf504b773e52f0ce514a2fbab526c125e01a"
+    },
+    {
+      "row": 3651,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-oda-1564-usugi-loss-20261120",
+      "version": "v1",
+      "bodySHA256": "9c061765d70b19276db0205aa419c85dd657b43c6c0521b750fd5b5f9f22ced0"
+    },
+    {
+      "row": 3652,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-oda-1565-recapture-20261120",
+      "version": "v1",
+      "bodySHA256": "3e22dab20fccb9819dddef49e9a478291fc20404135eaa7a45679ca9a95a797a"
+    },
+    {
+      "row": 3653,
+      "kind": "経歴",
+      "id": "sg2hist-new9-oda-1569-1-20261119",
+      "version": "v1",
+      "bodySHA256": "2c8cffce48559f2bb66e861c990dc623d84a3ff960b01d792e0a432b0abfe886"
+    },
+    {
+      "row": 3654,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-oda-1583-satake-surrender-20261120",
+      "version": "v1",
+      "bodySHA256": "6769f9c1e2c60f662b2456b4550ca90e62200f9a5e0591df7a74bb1e969a97f1"
+    },
+    {
+      "row": 3655,
+      "kind": "経歴",
+      "id": "sg2hist-new9-oda-1590-1-20261119",
+      "version": "v1",
+      "bodySHA256": "0616a06acbf13c7862c22d51a210d0b88eb8d94b96d9d592831b6bbdb5605f22"
+    },
+    {
+      "row": 3656,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-oda-1601-echizen-move-20261120",
+      "version": "v1",
+      "bodySHA256": "9bde355dbac0769ed397a6c5222fb550cc1d8874019c28e1894823ba6f397f4e"
+    },
+    {
+      "row": 3657,
+      "kind": "経歴",
+      "id": "sg2hist-new9-oda-1601-1-20261119",
+      "version": "v1",
+      "bodySHA256": "b9cc45457a1966ea5b94b16b0e54743aa7ed07a5149d6c0924663dcfc683fb35"
+    },
+    {
+      "row": 3658,
+      "kind": "経歴",
+      "id": "sg2hist-new9-ando-1570-1-20261119",
+      "version": "v1",
+      "bodySHA256": "47ba176cac4222483b2c1433a4b8bea8447d67f7f553aafe029e7bf9e36564ce"
+    },
+    {
+      "row": 3659,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-ando-1575-hawk-nobunaga-20261120",
+      "version": "v1",
+      "bodySHA256": "c254f6303da3488bab8ce892c14cf8f9c04255bd3c95f68346e8c455d862fefb"
+    },
+    {
+      "row": 3660,
+      "kind": "経歴",
+      "id": "sg2hist-new9-ando-1577-1-20261119",
+      "version": "v1",
+      "bodySHA256": "3dd73c62e581dec1e002217acc823783aeff815336a5ec5504ab26c8ea399837"
+    },
+    {
+      "row": 3661,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-ando-1580-wakimoto-transfer-20261120",
+      "version": "v1",
+      "bodySHA256": "f6528f71b333fbf60d9139dfda9066d04a8a541cff3e5ead950cd0f420ff1d33"
+    },
+    {
+      "row": 3662,
+      "kind": "経歴",
+      "id": "sg2hist-new9-ando-1587-1-20261119",
+      "version": "v1",
+      "bodySHA256": "fa38acd6ef3049f420d49f8b72ebdee7bec42bc28caaa4fc2a682169850eb3bd"
+    },
+    {
+      "row": 3663,
+      "kind": "経歴",
+      "id": "sg2hist-new9-tozawa-1578-1-20261119",
+      "version": "v1",
+      "bodySHA256": "063068b9ca91688af9eacd4f3167a7a512d2d38cbfe5500e14b216e1ce0f32cb"
+    },
+    {
+      "row": 3664,
+      "kind": "経歴",
+      "id": "sg2hist-new9-tozawa-1590-1-20261119",
+      "version": "v1",
+      "bodySHA256": "02beae26c4961631142ed7558374adce690827bcc1d2ad702201a976113cbfea"
+    },
+    {
+      "row": 3665,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-sogo-1582-nakutomi-20261120",
+      "version": "v1",
+      "bodySHA256": "cdaf40c8434e8db56fab8293a3431a094671658354e118ba2992fa5bf4b54bca"
+    },
+    {
+      "row": 3666,
+      "kind": "経歴",
+      "id": "sg2hist-new9-sogo-1582-2-20261119",
+      "version": "v1",
+      "bodySHA256": "f3fc0440bd36a44308b6242ff58d31b975d3410ddf34b8e1e423ae81680f63cb"
+    },
+    {
+      "row": 3667,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-sogo-1583-shikakuji-exemption-20261120",
+      "version": "v1",
+      "bodySHA256": "6bbee20e174e5771c309421c376b02f00c690e5120d5601744ca17c0bf081a2a"
+    },
+    {
+      "row": 3668,
+      "kind": "経歴",
+      "id": "sg2hist-new9-deep-sogo-1584-sogo-castle-loss-20261120",
+      "version": "v1",
+      "bodySHA256": "f7bac012efe85c60e8b7b2c9aeda39df41174255825ee91f0da65b95237bbe15"
+    },
+    {
+      "row": 3669,
+      "kind": "経歴",
+      "id": "sg2hist-new9-sogo-1585-1-20261119",
+      "version": "v1",
+      "bodySHA256": "9ff73e86fe6df8890c50e1763263b70d1da5828c4c0931aecdb5c0575616abd3"
+    },
+    {
+      "row": 3670,
+      "kind": "経歴",
+      "id": "sg2hist-new9-sogo-1586-1-20261119",
+      "version": "v1",
+      "bodySHA256": "c349fe225d9e3ad1d78c549bce511c12e7ca449592e8107e403d4d4cfc44ba6d"
+    },
+    {
+      "row": 3671,
+      "kind": "人物紹介",
+      "id": "sg-added-ando-chikasue-20261119",
+      "version": "v1",
+      "bodySHA256": "be592abdcd6eac061537e97623e6d40a49620408a2f015111b09ff80bc65d1a8"
+    },
+    {
+      "row": 3672,
+      "kind": "人物紹介",
+      "id": "sg-added-tozawa-moriyasu-20261119",
+      "version": "v1",
+      "bodySHA256": "eb09fffa2e11467877c347463b1f6da50a7e6a34d9bbb02eca41da51172ed05c"
+    },
+    {
+      "row": 3673,
+      "kind": "史跡",
+      "id": "sg2site-new9-tozawa-kojoyama-20261119",
+      "version": "v1",
+      "bodySHA256": "e1c5124ab44da2be7afb62194f188221eec53f809ccfa78c460a4ca1696d8fcf"
+    },
+    {
+      "row": 3674,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-aso-hama-20261120",
+      "version": "v1",
+      "bodySHA256": "a580700eea7dfeb188f8977370a2eb963502b44f22e9e80c8d123af38c5bca1d"
+    },
+    {
+      "row": 3675,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-aso-mifune-20261120",
+      "version": "v1",
+      "bodySHA256": "0efd1b1152b10e18fcfb705afeb15d7b41ac5ac2c436ae082626a1111ebbe12b"
+    },
+    {
+      "row": 3676,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-sagara-minamata-20261120",
+      "version": "v1",
+      "bodySHA256": "31e64b34cbaaaffba9473ab5eb6bdef1419a9bffa970fa6c3153f96331ed3a8a"
+    },
+    {
+      "row": 3677,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-kikkawa-grave-20261120",
+      "version": "v1",
+      "bodySHA256": "154dc9a5489554fb3074259fe1c417517e757222fdb4448ac46a1faf4df40828"
+    },
+    {
+      "row": 3678,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-ando-hiyama-20261120",
+      "version": "v1",
+      "bodySHA256": "00e93430e950343d46816ddd1212b2c816fb17de32cf305411e3966aa0ad2ff0"
+    },
+    {
+      "row": 3679,
+      "kind": "史跡",
+      "id": "sg2site-new9-sweep-ando-minato-20261120",
+      "version": "v1",
+      "bodySHA256": "9fe967a13dd614a12fec949be998e18625f6331bf9d26960aa077311b4b3d8c9"
+    }
+  ],
+  "before": {
+    "people": 65,
+    "histories": 1208,
+    "sites": 417,
+    "pins": 400,
+    "relations": 659
+  },
+  "after": {
+    "people": 74,
+    "histories": 1251,
+    "sites": 436,
+    "pins": 419,
+    "relations": 687
+  },
+  "released": {
+    "introductions": 9,
+    "stories": 9,
+    "histories": 43,
+    "sites": 19,
+    "relations": 28,
+    "redPins": 10,
+    "yellowPins": 5,
+    "greenPins": 4
+  },
+  "pinPrefectureDelta": {
+    "熊本県": 8,
+    "茨城県": 2,
+    "秋田県": 4,
+    "香川県": 2,
+    "鳥取県": 2,
+    "奈良県": 1
+  },
+  "holds": [],
+  "priorPublishedUnchanged": true,
+  "priorRetiredCardsPreserved": true,
+  "approvedBodyExact": true,
+  "approvedLocationExact": true,
+  "onlyBQualifiedLinks": true,
+  "excluded12UnapprovedRelations": true,
+  "excludedDuplicateTamon": true,
+  "redPinNoRouting": true,
+  "no100mRequirement": true,
+  "municipalityAcquisitionTested": true,
+  "unrelatedManagementWarnings": [
+    {
+      "case": "越水城跡⑥3681 v2",
+      "resolution": "別案件。今回の80件に属さず配信しない"
+    },
+    {
+      "case": "管理整理_C移管の整合エラー2",
+      "resolution": "旧管理警告。今回80の原本・版・IDは全件一致、④採用リンクのみ使用。管理修正は別件"
+    },
+    {
+      "case": "古城山城跡・浜の館跡",
+      "resolution": "過去の位置保留は管理J列で解除済、最新③赤情報GPSおよび⑥3673/3674 v1公開OKを採用。100m接近不要、立入禁止情報を強調"
+    }
+  ]
+}

@@ -31,8 +31,10 @@ test('51 approved history revisions and two city-award corrections',()=>{
 });
 test('new C release is the actual index source, and its ledger records its exact git blob',()=>{
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
- const p='sengoku/v2/approved-c-20261119-57.json';
- assert.ok(html.includes("fetch('./"+p+"'"));
+ const found=html.match(/fetch\('\.\/(sengoku\/v2\/approved-c-[^']+\.json)'/);
+ assert.ok(found,'active release must be explicit and local');
+ const p=found[1];
+ assert.ok(['sengoku/v2/approved-c-20261119-57.json','sengoku/v2/approved-c-20261120-new9-80.json'].includes(p));
  const csv=fs.readFileSync(path.join(root,'data/c-release/status.csv'),'utf8');
  const source=fs.readFileSync(path.join(root,p));
  const doc=JSON.parse(source);
@@ -41,9 +43,11 @@ test('new C release is the actual index source, and its ledger records its exact
  assert.ok(csv.includes(doc.version+','+p));
  assert.ok(csv.includes(','+doc.people.length+','+doc.histories.length+','+doc.sites.length+','));
  assert.equal(doc.retiredHistories.length,31);
- assert.equal(doc.people.length,65);
- assert.equal(doc.histories.length,1208);
- assert.equal(doc.sites.filter(s=>s.publicPin).length,400);
+ const new9=p==='sengoku/v2/approved-c-20261120-new9-80.json';
+ assert.equal(doc.people.length,new9?74:65);
+ assert.equal(doc.histories.length,new9?1251:1208);
+ assert.equal(doc.sites.length,new9?436:417);
+ assert.equal(doc.sites.filter(s=>s.publicPin).length,new9?419:400);
  assert.equal(doc.municipalityAwards.length,6);
  const active=new Set(doc.histories.map(h=>h.historyId));
  for(const r of doc.retiredHistories)assert.ok(!active.has(r.history.historyId));

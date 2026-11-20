@@ -25,6 +25,7 @@ permissions:
   contents: write
 jobs:
   build-review-only:
+    if: github.event_name != 'pull_request' || github.head_ref == 'c/fixed57-20261119-approval'
     runs-on: ubuntu-24.04
     timeout-minutes: 25
     steps:
