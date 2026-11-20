@@ -8,6 +8,7 @@ on:
       - docs/c-release/20261120-new9-approved-manifest.json
       - sengoku-v2-core.js
       - tests/c-20261120-new9-release.test.cjs
+      - tests/sengoku-v2.test.cjs
   pull_request:
     branches: [main]
     paths:
@@ -16,6 +17,7 @@ on:
       - docs/c-release/20261120-new9-approved-manifest.json
       - sengoku-v2-core.js
       - tests/c-20261120-new9-release.test.cjs
+      - tests/sengoku-v2.test.cjs
       - index.html
       - sengoku/v2/approved-c-20261120-new9-80.json
       - data/c-release/records.csv
