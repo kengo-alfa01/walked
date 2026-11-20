@@ -3,7 +3,7 @@ const {test}=require('node:test'),assert=require('node:assert/strict');
 const {webkit,chromium}=require('playwright'),fs=require('node:fs'),path=require('node:path');
 const root=path.join(__dirname,'..'),base=process.env.WALKED_BASE_URL||'http://127.0.0.1:8765';
 const assets=process.env.WALKED_BROWSER_ASSETS||path.join(root,'.qa-assets');
-const release=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-c-20261120-57.json'),'utf8'));
+const release=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-c-20261120-new9-80.json'),'utf8'));
 const pinId='sg2site-new9-aso-shrine-20261119';
 async function routeAssets(page){
  await page.route('**/municipalities.topojson',route=>route.fulfill({path:path.join(assets,'municipalities.topojson'),contentType:'application/json'}));
