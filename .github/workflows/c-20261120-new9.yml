@@ -1,0 +1,56 @@
+name: C 2026-11-20 approved 9 people / fixed 80 publication QA
+on:
+  push:
+    branches: [c/new9-approved80-20261120]
+    paths:
+      - .github/workflows/c-20261120-new9.yml
+      - scripts/build-c-20261120-new9.cjs
+      - docs/c-release/20261120-new9-approved-manifest.json
+      - sengoku-v2-core.js
+      - tests/c-20261120-new9-release.test.cjs
+  pull_request:
+    branches: [main]
+    paths:
+      - .github/workflows/c-20261120-new9.yml
+      - scripts/build-c-20261120-new9.cjs
+      - docs/c-release/20261120-new9-approved-manifest.json
+      - sengoku-v2-core.js
+      - tests/c-20261120-new9-release.test.cjs
+      - index.html
+      - sengoku/v2/approved-c-20261120-new9-80.json
+      - data/c-release/records.csv
+      - data/c-release/status.csv
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build exactly 80 ⑥-approved records over exact frozen main
+        run: node scripts/build-c-20261120-new9.cjs
+      - name: Export the actual active JSON-derived C ledgers
+        run: node scripts/export-c-release-ledger.cjs
+      - name: Independent new-nine and legacy release QA
+        run: |
+          node --test tests/c-20261120-new9-release.test.cjs tests/c-20261119-fixed57-release.test.cjs tests/c-20261119-release.test.cjs tests/sengoku-v2.test.cjs tests/sengoku-chronology.test.cjs
+      - name: Verify reproducible status and records
+        run: node scripts/export-c-release-ledger.cjs --check
+      - name: Commit generated JSON, QA, pointer and ledger ONLY to work branch
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+        run: |
+          set -euo pipefail
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git add sengoku/v2/approved-c-20261120-new9-80.json docs/c-release/20261120-new9-qa.json index.html data/c-release/records.csv data/c-release/status.csv
+          if ! git diff --cached --quiet; then
+            git commit -m 'build(c): approved 9 people 80 records plus live-ledger QA'
+            git push origin HEAD:refs/heads/c/new9-approved80-20261120
+          fi
