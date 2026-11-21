@@ -83,7 +83,13 @@ for(const [name,browserType,options] of [
     return {x:rect.left+rect.width/2,y:rect.top+rect.height/2};
    });
    if(options.hasTouch)await page.touchscreen.tap(center.x,center.y);
-   else await page.mouse.click(center.x,center.y);
+   else{
+    await page.evaluate(()=>{
+     const marker=sengokuPins.getLayers().find(x=>x.getPopup()?.getContent()?.textContent?.includes('阿蘇神社'));
+     marker.getElement().setAttribute('data-qa-historic-pin','aso');
+    });
+    await page.locator('[data-qa-historic-pin="aso"]').click({timeout:7000});
+   }
    await page.waitForTimeout(250);
    const popup=await page.evaluate(()=>map._popup?.getContent()?.textContent||'');
    assert.match(popup,/阿蘇神社/);
