@@ -109,8 +109,40 @@ for(const [name,browserType,options] of [
    assert.match(popup,/見学状況/);
    assert.ok(!popup.includes('【③史跡!'));
    assert.ok(!popup.includes('100m接近による獲得判定'));
+   // Exercise the actual earned-history card, not only the separator helper.
+   const card=await page.evaluate(()=>{
+    const h=[...sengokuV2Catalog.histories.values()]
+     .find(x=>(x.sourceUrls||[]).filter(SengokuPinDisplay.safeUrl).length>=3);
+    if(!h)throw Error('No published 3+ link card was found');
+    const expected=h.sourceUrls.filter(SengokuPinDisplay.safeUrl);
+    sengokuFound[h.historyId]={at:'2026-11-22T00:00:00Z',basis:'qa-display-only'};
+    const person=sengokuPeople.find(p=>p.id===h.personId);
+    showSengokuPerson(person);
+    const groups=[...document.querySelectorAll('#sengokuDetail .sengoku-source-links')];
+    const match=groups.find(g=>{
+     const urls=[...g.querySelectorAll('a')].map(a=>a.getAttribute('href'));
+     return urls.length===expected.length&&urls.every((x,i)=>x===expected[i]);
+    });
+    if(!match)throw Error('Real earned-history card did not show the approved source URLs');
+    match.setAttribute('data-qa-source-group','selected');
+    return {historyId:h.historyId,expected,rendered:match.textContent,
+      separators:[...match.childNodes].filter(x=>x.nodeType===3).map(x=>x.textContent)};
+   });
+   assert.equal(card.rendered,Array(card.expected.length).fill('出典を読む').join(' / '));
+   assert.equal(card.separators.length,card.expected.length-1);
+   assert.ok(card.separators.every(s=>s===' / '));
+   const link=page.locator('[data-qa-source-group="selected"] a').first();
+   await link.scrollIntoViewIfNeeded();
+   const popEvent=page.waitForEvent('popup',{timeout:12000});
+   if(options.hasTouch){
+    const bounds=await link.boundingBox();
+    if(!bounds)throw Error('iPhone source anchor not visible');
+    await page.touchscreen.tap(bounds.x+bounds.width/2,bounds.y+bounds.height/2);
+   }else await link.click({timeout:7000});
+   const opened=await popEvent;
+   await opened.close();
    assert.equal(errors.length,0,'browser errors '+errors.join('; '));
-   console.log('PIN_DISPLAY_BROWSER_PASS',JSON.stringify({name,...all,popup:popup.slice(0,260)}));
+   console.log('PIN_DISPLAY_BROWSER_PASS',JSON.stringify({name,...all,popup:popup.slice(0,260),card:{historyId:card.historyId,links:card.expected.length,realLinkPopup:true}}));
   }finally{await browser.close()}
  });
 }
