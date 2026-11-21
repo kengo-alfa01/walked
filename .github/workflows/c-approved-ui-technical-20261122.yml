@@ -1,0 +1,47 @@
+name: C approved display-only link and legend publication gate
+on:
+  push:
+    branches: [c/approved-ui-technical-20261122]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  node-regression:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Display-only source links and access label QA
+        run: node --test tests/c-approved-ui-only-20261122.test.cjs
+      - name: Previous 419-pin, 80 approved histories and municipality award regressions
+        run: node --test tests/sengoku-v2.test.cjs tests/c-20261120-new9-release.test.cjs tests/c-20261119-fixed57-release.test.cjs
+  mobile-desktop:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated browser dependencies
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Prepare vetted geometry fixtures
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Real iPhone WebKit, desktop Chromium and old pin click regression
+        env:
+          WALKED_BROWSER_ASSETS: .qa-assets
+          WALKED_BASE_URL: http://127.0.0.1:8765
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/walked-approved-ui-http.log 2>&1 &
+          sleep 2
+          node --test tests/c-approved-ui-only-browser.smoke.cjs tests/c-20261120-new9-browser.smoke.cjs

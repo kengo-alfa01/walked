@@ -1055,8 +1055,8 @@
   function pinPresentation(status){
     const config={
       green:{label:'通常見学可能',symbol:'○',fill:'#21864e',stroke:'#125c35'},
-      yellow:{label:'一部立入制限',symbol:'△',fill:'#edb42d',stroke:'#77510c'},
-      red:{label:'全面立入禁止',symbol:'×',fill:'#ca3a3a',stroke:'#7f1d1d'}
+      yellow:{label:'注意あり',symbol:'△',fill:'#edb42d',stroke:'#77510c'},
+      red:{label:'危険・立入制限あり',symbol:'×',fill:'#ca3a3a',stroke:'#7f1d1d'}
     };
     const selected=config[status];
     check(!!selected,'未確認の立入区分はピンに表示できません');
