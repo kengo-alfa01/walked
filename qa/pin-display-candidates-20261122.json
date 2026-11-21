@@ -1,0 +1,2958 @@
+{
+  "schemaVersion": "walked.sengoku.pin-display-candidates.v1",
+  "sourceSpreadsheet": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
+  "sourceSheet": "B公開見学・帰属審査_20261122",
+  "generatedFor": "C technical QA 2026-11-22",
+  "policy": "Unapproved draft. No runtime import. No promotion to public without B+⑥ individual version approval.",
+  "counts": {
+    "total": 140,
+    "new19": 19,
+    "legacy121": 121,
+    "notices": 55,
+    "licenses": 140,
+    "official": 131,
+    "pending": 140
+  },
+  "records": [
+    {
+      "siteId": "sg2site-new9-aso-shrine-20261119",
+      "siteName": "阿蘇神社（阿蘇大宮司家ゆかり）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 2,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "緑",
+      "bProposedColor": "緑",
+      "bDecision": "B合格｜現行緑・注意文案妥当",
+      "notice": "一般の参拝区域を利用してください。祭祀・管理区域には立ち入らず、行事による変更は神社の案内に従ってください。",
+      "officialInfoUrl": "https://asojinja.or.jp/faq/",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "神社公式のFAQ・参拝案内に差替｜旧URL=https://asojinja.or.jp/about/"
+    },
+    {
+      "siteId": "sg2site-new9-sagara-grave-20261119",
+      "siteName": "相良義陽の墓（八代市古麓町）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 3,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "黄",
+      "bProposedColor": "黄",
+      "bDecision": "B条件付合格｜現行黄・注意文案妥当",
+      "notice": "墓所には石段があります。墓参の際は足元に注意し、墓域の管理者や現地の表示に従ってください。戦死地点ではありません。",
+      "officialInfoUrl": null,
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "八代市の文化財解説は公式見学条件の案内とは区別｜旧URL=https://www.city.yatsushiro.lg.jp/kiji003600/index.html"
+    },
+    {
+      "siteId": "sg2site-new9-sagara-hibikinohara-20261119",
+      "siteName": "響野原古戦場（相良義陽戦死の地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 4,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "赤",
+      "bProposedColor": "赤（暫定維持）",
+      "bDecision": "B本文案合格／見学色保留・赤根拠不足",
+      "notice": "古戦場の歴史上の位置を示す情報ピンです。田畑・私有地には立ち入らず、現地の案内に従ってください。相良堂の所在地とは異なり、この点への接近は不要です。",
+      "officialInfoUrl": null,
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "宇城市の相良堂案内は別地点。古戦場現地の公式見学案内としては不適合｜旧URL=https://www.city.uki.kumamoto.jp/hihyoji0/hihyoji/2267272"
+    },
+    {
+      "siteId": "sg2site-new9-oda-castle-20261119",
+      "siteName": "小田城跡（小田氏治の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 5,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "緑",
+      "bProposedColor": "緑",
+      "bDecision": "B合格｜現行緑・注意文案妥当",
+      "notice": "小田城跡歴史ひろばの公開区域を見学できます。案内所の開所時間や休館日は広場と別なので、利用時はつくば市の案内を確認してください。",
+      "officialInfoUrl": "https://www.city.tsukuba.lg.jp/kankobunka/bunka/rekishi/1001640.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "つくば市の史跡・広場案内に適合｜旧URL=https://www.city.tsukuba.lg.jp/kankobunka/bunka/rekishi/1001640.html"
+    },
+    {
+      "siteId": "sg2site-new9-ando-wakimoto-20261119",
+      "siteName": "脇本城跡（安東愛季の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 6,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "赤",
+      "bProposedColor": "赤",
+      "bDecision": "B合格｜現行赤はクマ危険表示",
+      "notice": "2026年に脇本城跡の駐車場付近でクマの目撃情報がありました。山城の登城や斜面での行動には危険が伴います。城域全体が立入禁止という意味ではなく、最新の市の警戒情報と現地規制を確認してください。",
+      "officialInfoUrl": null,
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "男鹿市の城跡紹介とクマ注意を根拠欄へ。入場案内URLは未特定｜旧URL=https://www.city.oga.akita.jp/soshik/bunkasportska/bunkazai/2/1514.html"
+    },
+    {
+      "siteId": "sg2site-new9-sogo-castle-20261119",
+      "siteName": "十河城跡（十河存保の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 7,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "赤",
+      "bProposedColor": "赤（暫定維持）",
+      "bDecision": "B本文改稿案合格／赤の制限範囲は保留",
+      "notice": "城跡は現在の称念寺周辺に所在します。寺院・墓域の管理区域には無断で入らず、見学可能な範囲は現地管理者の案内に従ってください。周辺の公道まで一律立入禁止ではありません。",
+      "officialInfoUrl": null,
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "高松市史跡解説は位置根拠であり、公開見学条件とは別｜旧URL=https://www.city.takamatsu.kagawa.jp/kurashi/kosodate/bunka/bunkazai/shiteibunkazai/shiseki/sogojo.html"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-sagara-hitoyoshi-20261120",
+      "siteName": "人吉城跡（相良氏の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 8,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "赤",
+      "bProposedColor": "赤",
+      "bDecision": "B合格｜改稿本文・現行赤・案内URL",
+      "notice": "令和8年熊本地震の影響で人吉城跡の本丸は終日立入禁止です。城跡のほかの一部園路も復旧工事の規制があるため、公開区域と通行止めを人吉市の案内で確認してください。城跡全域の立入禁止ではありません。",
+      "officialInfoUrl": "https://www.city.hitoyoshi.lg.jp/kanko/kankojyoho/21341",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "Wikipediaを人吉市の観光案内・本丸規制に差替｜現登録はWikipedia｜旧URL=https://ja.wikipedia.org/wiki/人吉城"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-sagara-furufumoto-20261120",
+      "siteName": "古麓城跡（八代の中世城館群）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 9,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "赤",
+      "bProposedColor": "赤（暫定維持）",
+      "bDecision": "B本文合格／赤の具体的安全根拠は保留",
+      "notice": "古麓城群は複数の城郭遺構からなる丘陵地です。確認できない山道や私有地に入らず、見学できる区域は八代市や管理者の案内に従ってください。この地点は安全な登山口ではありません。",
+      "officialInfoUrl": null,
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "Wikipediaは公式案内から除外。八代市の城群解説は歴史的根拠｜現登録はWikipedia｜旧URL=https://ja.wikipedia.org/wiki/古麓城"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-yamana-fuse-20261120",
+      "siteName": "布勢天神山城跡（因幡山名氏の旧守護所）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 10,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "赤",
+      "bProposedColor": "未確定（現行赤を変更しない）",
+      "bDecision": "B本文史実合格／赤の根拠不足で色保留",
+      "notice": "天神山城跡は丘陵に残る史跡です。公式に確認できない経路や私有区画への立入は避け、見学条件を現地の案内で確認してください。ピンは登山口を示しません。",
+      "officialInfoUrl": null,
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "Wikipediaは公式見学案内として不適合。県の埋蔵文化財情報は見学可否の保証ではない｜現登録はWikipedia｜旧URL=https://ja.wikipedia.org/wiki/布勢天神山城"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-oda-tsuchiura-20261120",
+      "siteName": "土浦城跡（小田氏治の退避先・亀城公園）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 11,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "緑",
+      "bProposedColor": "緑",
+      "bDecision": "B合格｜現行緑・公開公園",
+      "notice": "土浦城跡は亀城公園として公開されています。園内で利用できる区域を見学し、建物内部や行事等の利用条件は土浦市の案内に従ってください。",
+      "officialInfoUrl": "https://www.city.tsuchiura.lg.jp/kankyo-kotsu-machizukuri/koen/koenichiran/page000785.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "土浦市の亀城公園紹介に差替｜旧URL=https://www.city.tsuchiura.lg.jp/page/page001098.html"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-sogo-toramaru-20261120",
+      "siteName": "虎丸城跡（十河存保の退避先）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 12,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "赤",
+      "bProposedColor": "黄（変更提案・旧赤維持）",
+      "bDecision": "B黄への変更案合格｜旧赤の公開を保持",
+      "notice": "虎丸山は一般向けの登山コースが案内されていますが、急斜面があるため歩きやすい靴などの装備が必要です。城跡の位置と登山口は別で、私有地や規制区域には立ち入らないでください。",
+      "officialInfoUrl": "https://higashikagawa.net/sightseeing/mizushisanzan",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "Wikipediaを東かがわ市観光情報サイトの虎丸山登山案内に差替（城跡一点ではなく山の公開コース）｜現登録はWikipedia｜旧URL=https://ja.wikipedia.org/wiki/虎丸城"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-matsu-todaiji-20261120",
+      "siteName": "東大寺大仏殿（1567年兵火の旧地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 13,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "黄",
+      "bProposedColor": "黄",
+      "bDecision": "B合格｜現行黄・公式拝観案内",
+      "notice": "東大寺大仏殿の拝観は有料で、季節により拝観時間が異なります。拝観可能な区域・時間と寺院の案内を確認してください。現在の大仏殿は戦国時代に焼失した建物の再建です。",
+      "officialInfoUrl": "https://www.todaiji.or.jp/information/haikan/",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "奈良市の文化財紹介だけでなく東大寺の実際の拝観案内を設定｜旧URL=https://www.city.nara.lg.jp/site/bunkazai/2331.html"
+    },
+    {
+      "siteId": "sg2site-new9-tozawa-kojoyama-20261119",
+      "siteName": "古城山城跡（角館・戸沢氏の館跡）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 14,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "赤",
+      "bProposedColor": "赤",
+      "bDecision": "B合格｜現行赤・公園全域禁止",
+      "notice": "クマの出没を受け、仙北市は2026年5月15日から古城山公園全域を関係者以外立入禁止にしています。解除の発表があるまで公園内に入らないでください。",
+      "officialInfoUrl": "https://www.city.semboku.akita.jp/news_topics/whatsnew.php?id=4988",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "仙北市の全面立入禁止告知を直接案内｜旧URL=https://www.city.semboku.akita.jp/sightseeing/spot/07_shiroato.html"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-aso-hama-20261120",
+      "siteName": "浜の館跡（阿蘇氏の矢部政庁）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 15,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "赤",
+      "bProposedColor": "赤",
+      "bDecision": "B限定差分再審査合格｜浜の館跡・許可条件明記",
+      "notice": "浜の館跡は現在の矢部高校敷地に重なる歴史上の場所です。学校内の見学を案内するものではありません。学校の管理区域には立ち入らず、周辺の公道などまで一律立入禁止とは扱いません。",
+      "officialInfoUrl": null,
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "Wikipediaを公式見学案内から除外。山都町の史跡紹介は所在地の根拠｜現登録はWikipedia｜旧URL=https://ja.wikipedia.org/wiki/浜の館"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-aso-mifune-20261120",
+      "siteName": "御船城跡（阿蘇氏・甲斐宗運ゆかり）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 16,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "緑",
+      "bProposedColor": "緑",
+      "bDecision": "B合格｜御船城・甲斐宗運の史実と緑",
+      "notice": "御船城跡の歴史を伝える城山公園の公開区域を見学できます。公園の外にある住宅地や非公開区画には立ち入らず、現地の案内に従ってください。",
+      "officialInfoUrl": "https://www.mifune-kankou.jp/spot/499/",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "Wikipediaから御船町観光協会の城山公園案内へ差替｜現登録はWikipedia｜旧URL=https://ja.wikipedia.org/wiki/御船城"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-sagara-minamata-20261120",
+      "siteName": "水俣城跡（相良・島津の境目）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 17,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "黄",
+      "bProposedColor": "黄",
+      "bDecision": "B条件付合格｜現行黄・地震情報は施設限定",
+      "notice": "2026年11月19日の地震に伴い市内施設の利用状況が変更されました。城山公園庭球場は11月20日に利用再開と発表されていますが、城跡全体の安全を保証するものではありません。見学は現地の開放区域・掲示に従ってください。",
+      "officialInfoUrl": null,
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "Wikipediaを公式見学案内から除外。市の体育施設案内は庭球場に限定｜現登録はWikipedia｜旧URL=https://ja.wikipedia.org/wiki/水俣城"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-kikkawa-grave-20261120",
+      "siteName": "吉川経家公墓所（鳥取市円護寺）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 18,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "黄",
+      "bProposedColor": "黄",
+      "bDecision": "B合格｜現行黄・墓域注意",
+      "notice": "吉川経家公墓所がある円護寺吉川公園は鳥取市の公開公園です。墓所付近の石段や足元に注意し、墓域・管理施設では現地のルールに従ってください。",
+      "officialInfoUrl": "https://www.city.tottori.lg.jp/site/kasenkouen-kouenn/5767.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "人物Wikipediaを除外し、鳥取市公園一覧の『円護寺吉川公園』に差替｜現登録はWikipedia｜旧URL=https://ja.wikipedia.org/wiki/吉川経家"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-ando-hiyama-20261120",
+      "siteName": "檜山城跡（檜山安東氏の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 19,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "黄",
+      "bProposedColor": "黄",
+      "bDecision": "B合格｜現行黄・解除後の山城注意",
+      "notice": "能代市は檜山城跡の工事による立入禁止を2026年10月1日から解除すると公表しました。ただし山城の道は険しく滑りやすい場所があるため、市の登山案内と現地の通行規制を確認してください。",
+      "officialInfoUrl": "https://www.city.noshiro.lg.jp/res/rekishi/hiyamajyou/22625",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "男鹿市の脇本城PDFは他史跡の資料で誤設定。能代市の城跡案内と解除告知に差替｜旧URL=https://www.city.oga.akita.jp/material/files/group/12/2026wakimoto_5.pdf"
+    },
+    {
+      "siteId": "sg2site-new9-sweep-ando-minato-20261120",
+      "siteName": "湊城跡（土崎湊・湊安東氏の拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 20,
+      "cohort": "新規19（2026-11-20公開）",
+      "currentColor": "赤",
+      "bProposedColor": "赤",
+      "bDecision": "B合格｜現行赤・旧城域の私的区域保護",
+      "notice": "湊城跡の旧城域には現在の宅地などが含まれます。公表された史跡の位置を示す情報ピンで、個人宅や非公開の土地への入場を案内するものではありません。公開区域の見学は現地管理者の案内に従ってください。",
+      "officialInfoUrl": null,
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "Wikipediaを公式見学案内から除外し、秋田県埋蔵文化財情報を所在根拠として扱う｜現登録はWikipedia｜旧URL=https://ja.wikipedia.org/wiki/湊城"
+    },
+    {
+      "siteId": "sg2site-nobu-honnoji-old",
+      "siteName": "本能寺跡（旧所在地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 21,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "公道側の本能寺跡石標を示します。1582年の本堂・自害室や現在の寺町本能寺の所在地とは区別します。周辺施設に無断で入らないでください。",
+      "officialInfoUrl": "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/ishibumi/html/na149.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-nobu-shotokuji-disputed",
+      "siteName": "聖徳寺跡（会見地候補）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 22,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "公開史跡碑の位置であり1553年の会見地には異説があります。当日の会見室の位置を確定しません。",
+      "officialInfoUrl": "https://www.city.ichinomiya.aichi.jp/rekimin/1010272/1067871.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-nobu-enryakuji",
+      "siteName": "比叡山延暦寺（焼き討ち関連）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 23,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "延暦寺東塔の根本中堂周辺の代表点です。中堂内部は2028年1月頃まで通常拝観停止の案内があり、最新の公式情報を確認してください。",
+      "officialInfoUrl": "https://www.hieizan.or.jp/grounds/toudou.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-nobu-nagashima-castle",
+      "siteName": "長島城跡（旧城郭範囲）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 24,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "長島中部小学校外の公開説明板付近を示します。学校敷地に無断で立ち入らず、校門前で駐停車しないでください。",
+      "officialInfoUrl": "https://www.pref.mie.lg.jp/maibun/hp/p0041000481.htm",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-nobu-ishiyama-honganji",
+      "siteName": "石山（大坂）本願寺推定地",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 25,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "大阪城公園内の石山本願寺推定地碑の参照点です。旧本願寺の寺域や本堂の正確な位置ではありません。",
+      "officialInfoUrl": "https://www.city.osaka.lg.jp/chuo/page/0000641506.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-hideyoshi-bitchu-takamatsu",
+      "siteName": "高松城跡附水攻築堤跡",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 26,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "備中高松城址公園の代表点です。水攻めの築堤跡は別地点のため、このピンを築堤遺構と同一視しないでください。",
+      "officialInfoUrl": "https://www.okayama-kanko.jp/spot/detail_10102.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-hideyoshi-gakuden",
+      "siteName": "楽田城跡（秀吉の陣）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 27,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "楽田小学校外の城址碑付近を示します。城跡の校地内は一般見学対象外です。校内無断立入・児童への接近・校門前駐停車は禁止です。",
+      "officialInfoUrl": "https://www.city.inuyama.aichi.jp/kurashi/bunka/1001063/1011684/1011685.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-hideyoshi-juraku",
+      "siteName": "聚楽第跡",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 28,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "京都市が案内する聚楽第址の公道沿い石標の参照点です。旧城域の中心・秀吉の居室ではありません。私有地へ入らないでください。",
+      "officialInfoUrl": "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/ishibumi/html/ka052.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-hideyoshi-fushimi-shigetsu",
+      "siteName": "伏見指月城跡",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 29,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "指月城跡の歴史情報に関連する泰長老公園の公開参照点です。周辺の宿舎・住居・陵墓管理地には立ち入らないでください。",
+      "officialInfoUrl": "https://lfb.mof.go.jp/kinki/kanzai/pagekk_cnt_20211020004.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-hideyoshi-taiheiji",
+      "siteName": "泰平寺（秀吉・島津義久和睦の地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 30,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "公開位置は寺の歴史地名参照点で、1587年の会見場所の部屋や当時の伽藍の正確な位置を示しません。寺院内部・私有地・非公開区域へ無断で立ち入らず、現地案内に従ってください。位置データ",
+      "officialInfoUrl": "https://www.japan47go.travel/ja/detail/28ffd453-0557-4f14-b51e-78d932135f07",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-soun-bitchu-takakoshi",
+      "siteName": "高越山城跡（早雲出生地の伝承）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 31,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.ibara.okayama.jp/site/kids/7500.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-soun-koukokuji",
+      "siteName": "興国寺城跡",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 32,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.numazu.shizuoka.jp/shisei/profile/bunkazai/siro/kouk.htm",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-soun-nirayama",
+      "siteName": "韮山城跡（早雲の本拠）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 33,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://kunishitei.bunka.go.jp/bsys/maindetails/401/00004231",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-soun-okazaki",
+      "siteName": "岡崎城跡（後期・三浦義同の拠点／無量寺周辺）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 34,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.hiratsuka.kanagawa.jp/bunka/page-c_01260.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-soun-sumiyoshi",
+      "siteName": "住吉城跡（三浦氏との攻防）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 35,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.yokosuka.kanagawa.jp/2120/culture_info/miura_ichizoku/outline4.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-soun-arai",
+      "siteName": "新井城址（三浦氏の終焉地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 36,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "赤",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "史跡内部などの立入禁止区域には入れません。このピンは所在地の情報表示のみで、立入禁止区域への経路案内・接近誘導は行いません。",
+      "officialInfoUrl": "https://www.city.miura.kanagawa.jp/soshiki/kankoshokoka/kankoshokoka_kanko/kankoukaisetsuban/kankokaisetsuban_miuraichizoku/10012.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-soun-sounji",
+      "siteName": "早雲寺（没後の菩提寺）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 37,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.odawara.kanagawa.jp/kanko/hojo/p09005.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-soun-oba",
+      "siteName": "大庭城跡（扇谷上杉氏の拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 38,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.fujisawa.kanagawa.jp/bunkazai/obajyou.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-satomi-hyakushu",
+      "siteName": "百首城跡（真里谷武田氏の城・義堯の避難と後年攻略）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 39,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_2shou/k2shou_4/k2shou_4min.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-satomi-inamura",
+      "siteName": "稲村城跡（義豊の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 40,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.tateyama.chiba.jp/syougaigaku/page100239.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-satomi-sanuki",
+      "siteName": "佐貫城址（里見氏の上総拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 41,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.futtsu.lg.jp/0000000553.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-satomi-kururi",
+      "siteName": "久留里城跡（義堯の本拠）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 42,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.kimitsu.lg.jp/uploaded/attachment/50088.pdf",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-masamune-yonezawa",
+      "siteName": "米沢城跡（伊達氏・上杉氏の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 43,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.sendai.jp/museum/shuzohin/shuzohin/shuzohin-21.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-masamune-hitotoribashi",
+      "siteName": "人取橋合戦跡（1585年伊達・連合軍の戦場）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 44,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.motomiya.lg.jp/site/kanko/230-1.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-masamune-nihonmatsu",
+      "siteName": "二本松城跡（畠山氏の城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 45,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.nihonmatsu.lg.jp/bunka_sports_syo/bunka_rekishi/page001304.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-masamune-tateyama",
+      "siteName": "舘山城跡（伊達氏と上杉氏の山城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 46,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.yonezawa.yamagata.jp/category/bunka_sports/2/5005.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-masamune-sukagawa",
+      "siteName": "須賀川城跡（二階堂氏の城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 47,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.sukagawa.fukushima.jp/bunka_sports/bunka_geijyutsu/1013435/1016436/1008740.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-masamune-iwadeyama",
+      "siteName": "岩出山城跡（伊達政宗の新しい本拠）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 48,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.osaki.miyagi.jp/shisei/soshikikarasagasu/iwadeyamasogoushisho/chiikishinkoka/1/3/2955.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-masamune-sendai",
+      "siteName": "仙台城跡（青葉城・伊達政宗の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 49,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.sendai.jp/shisekichosa/kurashi/manabu/kyoiku/inkai/bunkazai/bunkazai/joseki/rekishi.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-masamune-godaido",
+      "siteName": "瑞巌寺五大堂（1604年政宗造営）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 50,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.pref.miyagi.jp/soshiki/bunkazai/03godaidou.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-masamune-kokubunji",
+      "siteName": "陸奥国分寺薬師堂（政宗による1607年再建）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 51,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.pref.miyagi.jp/soshiki/bunkazai/08kokubunji.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-masamune-zuiganji",
+      "siteName": "瑞巌寺本堂（伊達政宗が1609年再建）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 52,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.pref.miyagi.jp/soshiki/bunkazai/04zuiganji.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-masamune-wakabayashi",
+      "siteName": "若林城跡（伊達政宗晩年の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 53,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "赤",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "史跡内部などの立入禁止区域には入れません。このピンは所在地の情報表示のみで、立入禁止区域への経路案内・接近誘導は行いません。 見学禁止区域・矯正施設への誘導は行いません。",
+      "officialInfoUrl": "https://www.city.sendai.jp/shisekichosa/kurashi/manabu/kyoiku/inkai/bunkazai/bunkazai/joseki/wakabayashijo.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motonari-sarukake",
+      "siteName": "多治比猿掛城跡（元就の幼少期・青年期の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 54,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://kunishitei.bunka.go.jp/bsys/maindetails/401/2331",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motonari-koriyama",
+      "siteName": "吉田郡山城跡（毛利元就の本拠）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 55,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://kunishitei.bunka.go.jp/bsys/maindetails/401/2331",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motonari-sakurao",
+      "siteName": "桜尾城址（毛利が1554年に攻略した城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 56,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://hatsu-navi.jp/nature-camp/sakuraojyo/",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motonari-tounooka",
+      "siteName": "塔の岡（厳島合戦で陶軍が陣した伝承地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 57,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.miyajima.or.jp/history/chronology.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motonari-niitakayama",
+      "siteName": "新高山城跡（小早川隆景の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 58,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.mihara.hiroshima.jp/soshiki/50/139862.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motonari-toda",
+      "siteName": "月山富田城跡（尼子氏の本拠）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 59,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://yasugi-kankou.com/spot/gassan-toda-castle-ruins/",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motonari-iwami",
+      "siteName": "石見銀山遺跡（元就の領国経営の対象）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 60,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://shimane-kodaibunka.jp/history/history-3363/",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motochika-hakuchi",
+      "siteName": "白地城跡（元親の阿波進出拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 61,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.miyoshi.i-tokushima.jp/fs/5/1/1/9/7/9/_/2rekimachi-miyoshi2.pdf",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-residence",
+      "siteName": "武田氏館跡（躑躅ヶ崎館）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 62,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-uehara",
+      "siteName": "上原城跡（諏訪氏の城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 63,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.chino.lg.jp/soshiki/bunkazai/1667.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-kuwabara",
+      "siteName": "桑原城跡（諏訪氏の降伏地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 64,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://kawanakajima.nagano.jp/timeline/",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-takato",
+      "siteName": "高遠城跡（南信濃攻略の対象）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 65,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.inacity.jp/kurashi/shogaigakushu_bunka/bunkazai/takatojyoseki.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-uedahara",
+      "siteName": "上田原古戦場（1548年）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 66,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://museum.umic.jp/ikushima/history/shinano-uedahara.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-toishi",
+      "siteName": "砥石米山城跡（攻城失敗）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 67,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.ueda.nagano.jp/contents/sanadakaidou/ueda-city.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-kaizu",
+      "siteName": "海津城跡（現在の松代城跡）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 68,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.nagano.nagano.jp/n151100/contents/p006083.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-kawanakajima",
+      "siteName": "川中島古戦場（八幡原・本陣伝承地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 69,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.nagano.nagano.jp/n150800/contents/p002956.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-erinji",
+      "siteName": "恵林寺（信玄の菩提所）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 70,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.pref.yamanashi.jp/bunka/bunkazaihogo/bunkazai_data/yamanashinobunkazai_wc0001.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-minowa",
+      "siteName": "箕輪城跡（西上野の拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 71,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.takasaki.gunma.jp/site/cultural-assets/6450.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-takiyama",
+      "siteName": "滝山城跡（北条氏照の守城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 72,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.hachioji.tokyo.jp/kankobunka/003/003/001/001/p005254.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-futamata",
+      "siteName": "二俣城跡（1572年武田軍の攻城対象）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 73,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.hamamatsu.shizuoka.jp/bunkazai/info/bunkazaijyoho94.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-shingen-nodajo",
+      "siteName": "三河野田城跡（1573年の攻城対象）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 74,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.shinshiro.lg.jp/kanko/meisyo/nodajyoato.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kenshin-umayabashi",
+      "siteName": "厩橋城跡（景虎の関東拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 75,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.maebashi.gunma.jp/bunka_sports_kanko/7/4/11342.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kanbei-gochaku",
+      "siteName": "御着城跡（官兵衛が仕えた小寺氏の城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 76,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.himeji.lg.jp/maibun-center/0000008424.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kanbei-umagatake",
+      "siteName": "馬ヶ岳城跡（官兵衛の九州最初の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 77,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.yukuhashi.fukuoka.jp/site/bunkazai/1998.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kenshin-kasugayama",
+      "siteName": "春日山城跡（上杉謙信の本拠）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 78,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.joetsu.niigata.jp/site/cultural-property/cultural-property-jpn002.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kenshin-rinsenji",
+      "siteName": "林泉寺（長尾虎千代の修行寺）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 79,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.joetsu.niigata.jp/site/cultural-property/cultural-property-city014.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kenshin-tochio",
+      "siteName": "栃尾城跡（若き景虎の拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 80,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/shiro/tochiojyoato.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kenshin-joanji",
+      "siteName": "常安寺（長尾景虎開基の寺）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 81,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/jinjya/jyoanji.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kenshin-sakado",
+      "siteName": "坂戸城跡（長尾政景の拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 82,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.minamiuonuma.niigata.jp/docs/3818.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kenshin-tsurugaoka",
+      "siteName": "鶴岡八幡宮（上杉家継承の儀式伝承地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 83,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://museum.umic.jp/ikushima/history/takeda-tairitsu.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kenshin-iiyama",
+      "siteName": "飯山城跡（上杉氏の北信濃拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 84,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.iiyama.nagano.jp/soshiki/shimingakusyuusien/bunkazai/sitei_bunkazai/46374",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kenshin-masuyama",
+      "siteName": "増山城跡（1576年上杉軍の攻城対象）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 85,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.tonami.lg.jp/photop/9602p/?print=page",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kenshin-nanao",
+      "siteName": "七尾城跡（1576・1577年上杉軍攻城対象）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 86,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.nanao.lg.jp/syougai/nanaojoushi.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kanbei-fukuoka",
+      "siteName": "福岡城跡（黒田長政・官兵衛父子の築城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 87,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://bunkazai.city.fukuoka.lg.jp/sp/cultural_properties/detail/62",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-sanada-ueda",
+      "siteName": "上田城跡（真田昌幸・信繁の1600年籠城地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 88,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-sanada-rengejoin",
+      "siteName": "蓮華定院（真田父子の高野山配流時の仮寓寺院）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 89,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.koya.org/shukubo/",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-sanada-kudoyama",
+      "siteName": "真田屋敷跡（九度山・善名稱院境内）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 90,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://town.kudoyama.lg.jp/kyouiku/bunkazai/kinenbutsu.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-ujiyasu-ozawa",
+      "siteName": "小沢城跡（氏康の初陣・小沢原合戦北条方拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 91,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.kawasaki.jp/880/page/0000000108.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-ujiyasu-kawagoe",
+      "siteName": "河越城跡（1546年河越合戦の北条側拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 92,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.kawagoe.saitama.jp/kurashi/bunka/1003787/1003798/1003828/1003875/1003876.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-ujiyasu-matsuyama",
+      "siteName": "武蔵松山城跡（1562～1563年北条・武田軍の攻略対象）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 93,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.kawagoe.saitama.jp/kanko/k-about/1011706.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-maeda-arako",
+      "siteName": "荒子城跡（冨士権現天満宮周辺）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 94,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.nagoya.jp/nakagawa/miryoku/1022715/1022744/1022754.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-maeda-fuchu",
+      "siteName": "越前府中城跡（現越前市役所付近）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 95,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.ishibi.pref.ishikawa.jp/exhibition/exhibition-17400-3-3-3-2-3-3-3-3-4-2/",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-maeda-komaru",
+      "siteName": "小丸山城跡",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 96,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.nanao.lg.jp/syougai/nanaojoushi.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-maeda-kanazawa",
+      "siteName": "金沢城跡（前田利家入城期）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 97,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.pref.ishikawa.lg.jp/kyoiku/bunkazai/kanazawazyo/history2.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-maeda-suemori",
+      "siteName": "末森城跡",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 98,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.pref.ishikawa.lg.jp/kyoiku/bunkazai/siseki/ken1-11.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-mitsuhide-usayama",
+      "siteName": "宇佐山城跡",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 99,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.rekihaku.otsu.shiga.jp/db/jiten/data/069.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-mitsuhide-sakamoto",
+      "siteName": "坂本城跡（明智光秀の琵琶湖岸の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 100,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.otsu.lg.jp/bz/a/03/16/60747.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-mitsuhide-kuroi",
+      "siteName": "黒井城跡（明智光秀の丹波攻め対象）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 101,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/7/1/1922.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-mitsuhide-fukuchiyama",
+      "siteName": "福知山城跡（明智光秀の築城期）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 102,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.fukuchiyama.lg.jp/soshiki/7/1298.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-mitsuhide-atago",
+      "siteName": "愛宕山・愛宕神社（光秀参詣と連歌の旧威徳院）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 103,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.kameoka.kyoto.jp/site/kirin/1245.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-mitsuhide-shoryuji",
+      "siteName": "勝龍寺城跡（山崎敗戦後の光秀退却地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 104,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.nagaokakyo.lg.jp/0000008493.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-takakage-takayama",
+      "siteName": "高山城跡（沼田小早川家の旧居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 105,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.mihara.hiroshima.jp/soshiki/50/139858.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-takakage-yuzuki",
+      "siteName": "湯築城跡（1585年隆景が河野氏を包囲）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 106,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.pref.ehime.jp/ehimenotakara/371.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-takakage-najima",
+      "siteName": "名島城跡（小早川隆景の筑前居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 107,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://museum.city.fukuoka.jp/archives/leaflet/016/index.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-takakage-hakozaki",
+      "siteName": "筥崎宮楼門（小早川隆景1594年建立）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 108,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://bunkazai.city.fukuoka.lg.jp/cultural_properties/detail/136",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-yoshihiro-izaku",
+      "siteName": "伊作城跡（亀丸城・島津義弘生誕地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 109,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.hioki.kagoshima.jp/bunkazai/kurashi/kosodate-kyoiku/shakaikyoiku/bunkazai/fukiage/izakuzixyou.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-yoshihiro-iwatsurugi",
+      "siteName": "岩剣城跡（1554年島津義弘初陣）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 110,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.aira.lg.jp/bunkazai/kanko/bunka/bunkazai/shisiteisiseki.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-yoshihiro-gamou",
+      "siteName": "蒲生城跡（竜ヶ城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 111,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://online.bunka.go.jp/db/heritages/detail/389788",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-yoshihiro-obi",
+      "siteName": "飫肥城跡",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 112,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.nichinan.lg.jp/museum/shishiteibunnkazai/iseki_shiseki/5/3785.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-yoshihiro-iino",
+      "siteName": "飯野城跡（義弘の真幸院の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 113,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.ebino.lg.jp/kanko/rekishi_bunka/3188.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-yoshihiro-kajiki",
+      "siteName": "加治木島津屋形跡",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 114,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.aira.lg.jp/bunkazai/kanko/bunka/bunkazai/shisiteisiseki.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-ujiyasu-hirai",
+      "siteName": "平井城跡（山内上杉憲政の旧居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 115,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.fujioka.gunma.jp/soshiki/kyoikuiinkai/bunkazaihogo/2/3/siseki/1063.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-ujiyasu-yamanaka",
+      "siteName": "山中城跡（後北条氏の西方防衛城・氏康築城説）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 116,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.mishima.shizuoka.jp/page/1542.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-sanada-yasuijinja",
+      "siteName": "安居神社（真田信繁戦死跡の伝承地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 117,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.osaka.lg.jp/kensetsu/page/0000009754.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kanbei-dazaifu",
+      "siteName": "太宰府天満宮周辺（如水の隠棲地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 118,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.dazaifu.lg.jp/site/bunkazai/33997.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-yoshihiro-takajo",
+      "siteName": "高城城跡（1578年耳川の戦い）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 119,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.town.kijo.lg.jp/sosikikarasagasu/kyouikuiinkai_kyouikuka/1_1/1/513.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-yoshihiro-fukushoji",
+      "siteName": "福昌寺跡（島津義弘の墓所）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 120,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.pref.kagoshima.jp/ba08/pr/gaiyou/rekishi/bunka/zinja.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motochika-okou",
+      "siteName": "岡豊城跡（長宗我部氏の本拠）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 121,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://online.bunka.go.jp/db/heritages/detail/207413",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motochika-asakura",
+      "siteName": "朝倉城跡（本山氏の城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 122,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.kochi.kochi.jp/soshiki/90/cas-pref-2400400.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motochika-aki",
+      "siteName": "安芸城跡（安芸国虎の旧居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 123,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.aki.kochi.jp/rekimin/info/dtl.php?hdnKey=7964",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motochika-shouzui",
+      "siteName": "勝瑞城館跡（三好氏旧拠点）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 124,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://online.bunka.go.jp/db/heritages/detail/140094",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motochika-otakasaka",
+      "siteName": "大高坂城跡（現・高知城跡）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 125,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.kochi.kochi.jp/soshiki/90/cas-state-1600200.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motochika-urado",
+      "siteName": "浦戸城跡（長宗我部氏最後の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 126,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.kochi.kochi.jp/site/kanko/uradojyou.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-motochika-grave",
+      "siteName": "長宗我部元親墓（天甫寺山）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 127,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.kochi.kochi.jp/site/kanko/motochikanohaka.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kanetsugu-untouan",
+      "siteName": "雲洞庵（兼続・景勝の修学伝承地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 128,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.pref.niigata.lg.jp/site/minamiuonuma-miryoku/1348088416638.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kanetsugu-yoita",
+      "siteName": "与板城跡（直江兼続の居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 129,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/ijin/kanetsugu/yoitajyoato.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-kanetsugu-hasedo",
+      "siteName": "長谷堂城跡（慶長出羽合戦）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 130,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.yamagata-yamagata.lg.jp/shiseijoho/shicho/1006787/1006792/1005474.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-katsuie-kamewari",
+      "siteName": "長光寺城跡（瓶割山城・1570年柴田勝家籠城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 131,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://history-museum.city.fukui.lg.jp/tenji/tenran/katsuie.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-katsuie-kitanosho",
+      "siteName": "北庄城跡（柴田勝家の越前居城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 132,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.fukui.lg.jp/kankou/kankou/sisetu/kitanosyou.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-katsuie-uozu",
+      "siteName": "魚津城跡（1582年織田軍の攻城対象）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 133,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.uozu.toyama.jp/guide/svGuideDtl.aspx?cdkb=ctg&servno=25191&topkb=H",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-katsuie-saikoji",
+      "siteName": "西光寺（柴田勝家・お市の墓所）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 134,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://history-museum.city.fukui.lg.jp/tenji/tenran/katsuie.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-ujimasa-sekiyado",
+      "siteName": "関宿城跡（1574年北条氏の支城となった城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 135,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.city.noda.chiba.jp/kanko/1021220/1018424/1037040.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-ujimasa-nagurumi",
+      "siteName": "名胡桃城址（1589年北条方の侵奪事件）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 136,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.town.minakami.gunma.jp/life/10bunka_sports/bunkazai/shitei_bunkazai/2025-0114-0946-68.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-ujimasa-hachigata",
+      "siteName": "鉢形城跡（1590年北条氏邦の守城）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 137,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.town.yorii.saitama.jp/map/hacigatajoumeisho-map.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-ujimasa-tamura",
+      "siteName": "田村阿安斎邸旧地（北条氏政・氏照の自刃地）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 138,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://www.city.odawara.kanagawa.jp/field/lifelong/property/cultural/historic/s-uzimasa.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-a-shinano-zenkoji",
+      "siteName": "信濃善光寺（信玄の本尊移転ゆかり）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 139,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.zenkoji.jp/about/",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-a-kai-zenkoji",
+      "siteName": "甲斐善光寺（信玄の本尊遷座・寺域整備）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 140,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "緑",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": null,
+      "officialInfoUrl": "https://www.kai-zenkoji.or.jp/cultural.html",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    },
+    {
+      "siteId": "sg2site-a-kenshin-kyoto-gosho",
+      "siteName": "京都御所（歴代天皇の居所）",
+      "source": "B公開見学・帰属審査_20261122",
+      "bRow": 141,
+      "cohort": "既存121（CODH帰属分離のみ）",
+      "currentColor": "黄",
+      "bProposedColor": "現行維持（新たな安全/位置審査なし）",
+      "bDecision": "B帰属分離合格（旧B安全判定維持）",
+      "notice": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+      "officialInfoUrl": "https://kyoto-gosho.kunaicho.go.jp/",
+      "attributions": [
+        {
+          "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+          "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+        }
+      ],
+      "approval": null,
+      "permission": "PENDING_⑥_PUBLIC_OK",
+      "urlReviewScope": "旧B登録済み。今回は公式URLの網羅再審査を実施していない"
+    }
+  ]
+}
