@@ -1,0 +1,32 @@
+test_birth_dispute_is_not_chosen (test_master_migration.MigrationTest.test_birth_dispute_is_not_chosen) ... ok
+test_changed_master_invalidates_prior_review (test_master_migration.MigrationTest.test_changed_master_invalidates_prior_review) ... ok
+test_csv_export_has_same_selected_ids (test_master_migration.MigrationTest.test_csv_export_has_same_selected_ids) ... ok
+test_dangling_reference_detected (test_master_migration.MigrationTest.test_dangling_reference_detected) ... ok
+test_delta_preserves_previous_612_ids_and_reviews_added_twelve (test_master_migration.MigrationTest.test_delta_preserves_previous_612_ids_and_reviews_added_twelve) ... ok
+test_duplicate_key_rejected (test_master_migration.MigrationTest.test_duplicate_key_rejected) ... ok
+test_excluding_linked_person_preserves_cards_and_archive (test_master_migration.MigrationTest.test_excluding_linked_person_preserves_cards_and_archive) ... ok
+test_full_dataset_and_zero_structural_orphans (test_master_migration.MigrationTest.test_full_dataset_and_zero_structural_orphans) ... ok
+test_id_stable_when_row_order_changes (test_master_migration.MigrationTest.test_id_stable_when_row_order_changes) ... ok
+test_new_calendar_conflict_remains_unresolved (test_master_migration.MigrationTest.test_new_calendar_conflict_remains_unresolved) ... ok
+test_renaming_never_changes_id_and_is_flagged (test_master_migration.MigrationTest.test_renaming_never_changes_id_and_is_flagged) ... ok
+test_reproducibility_same_input_bytes (test_master_migration.MigrationTest.test_reproducibility_same_input_bytes) ... ok
+test_resolved_calendar_year_keeps_candidate_history (test_master_migration.MigrationTest.test_resolved_calendar_year_keeps_candidate_history) ... ok
+test_round_evidence_rejects_unread_sources_and_false_biography_completion (test_master_migration.MigrationTest.test_round_evidence_rejects_unread_sources_and_false_biography_completion) ... ok
+test_same_alias_distinct_people_remain_separate (test_master_migration.MigrationTest.test_same_alias_distinct_people_remain_separate) ... ok
+test_same_name_generation_research_is_not_promoted (test_master_migration.MigrationTest.test_same_name_generation_research_is_not_promoted) ... ok
+test_second_round_conflicts_do_not_erase_master_values (test_master_migration.MigrationTest.test_second_round_conflicts_do_not_erase_master_values) ... ok
+test_source_http_check_never_promotes_facts (test_master_migration.MigrationTest.test_source_http_check_never_promotes_facts) ... ok
+test_unregistered_new_id_rejected (test_master_migration.MigrationTest.test_unregistered_new_id_rejected) ... ok
+test_unverified_correction_and_disputed_single_year_are_not_promoted (test_master_migration.MigrationTest.test_unverified_correction_and_disputed_single_year_are_not_promoted) ... ok
+test_unverified_facts_block_release (test_master_migration.MigrationTest.test_unverified_facts_block_release) ... ok
+test_verified_correction_preserves_unknown_master_text (test_master_migration.MigrationTest.test_verified_correction_preserves_unknown_master_text) ... ok
+test_excluded_birth_grave_and_bodaiji_relationships_are_rejected (test_person_life_timeline.PersonLifeTimelineTest.test_excluded_birth_grave_and_bodaiji_relationships_are_rejected) ... ok
+test_handoff_does_not_silently_publish_coordinates_or_duplicate_events (test_person_life_timeline.PersonLifeTimelineTest.test_handoff_does_not_silently_publish_coordinates_or_duplicate_events) ... ok
+test_search_snippet_or_wrong_generation_is_not_evidence (test_person_life_timeline.PersonLifeTimelineTest.test_search_snippet_or_wrong_generation_is_not_evidence) ... ok
+test_unknown_dates_remain_blank_and_output_order_does_not_change_ids (test_person_life_timeline.PersonLifeTimelineTest.test_unknown_dates_remain_blank_and_output_order_does_not_change_ids) ... ok
+test_wrong_person_id_and_unselected_roster_cannot_enter_handoff (test_person_life_timeline.PersonLifeTimelineTest.test_wrong_person_id_and_unselected_roster_cannot_enter_handoff) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 5.514s
+
+OK

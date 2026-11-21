@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-28",
+  "fullIntegration": "local_complete_public_github_upload_blocked",
+  "remoteBranch": "feature/sengoku-master-migration-20261026",
+  "remoteCommit": "9a1e51e4d6db908777d7e86e7966864385dad27f",
+  "remoteFiles": [
+    "migration/research/20261028/PUBLIC-RESEARCH.md",
+    "migration/research/20261028/public-biography-proposals.json"
+  ],
+  "pr": "https://github.com/kengo-alfa01/walked/pull/2",
+  "prDraft": true,
+  "merged": false,
+  "blockingReview": "Automatic approval review rejected uploading the complete master-derived selected-people.csv to public GitHub, even after confirming it already exists there. Do not bypass. Ask for explicit approval for the complete review/derived-candidate payload and this public repository.",
+  "unaffectedWork": "Independent public-source biographies saved on PR branch; full validated candidate packaged for the user; management sheet appended.",
+  "management": {
+    "spreadsheetId": "193_Rl1ROGjv7-pa_DgIA2wsEu3xlmfjXo-8pZ9JC8nQ",
+    "range": "やること!A23:F28",
+    "priorRowsUnchanged": true,
+    "appendVerified": true
+  },
+  "masterEdited": false,
+  "productionChanged": false,
+  "supersededBy": "../person-quality-20261029/README.md",
+  "followup": {
+    "date": "2026-10-29",
+    "userInstruction": "続けて（前回の全面公開反映の確認質問への回答）",
+    "status": "authorized_full_candidate_integration"
+  }
+}

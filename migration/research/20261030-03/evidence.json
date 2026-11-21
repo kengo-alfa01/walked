@@ -1,0 +1,200 @@
+{
+  "round": "20261030-03",
+  "reviewedOn": "2026-10-30",
+  "scope": "未着手2人の本人本文を確認。織田信包1案改稿、石川康勝は根拠不足で完成略歴保留。",
+  "sources": {
+    "tsu-excavation": {
+      "url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/004/709/maibuntsu16.pdf",
+      "title": "津市埋蔵文化財センター：高虎以前―津城跡天守台下発掘調査の成果から",
+      "locator": "PDF1頁：1568長野養子・長野信良→織田信包、上野城、津城は遅くとも1583年11月居城。1580移転・五重天守は同時代史料未確認。2頁は1594没収後柏原と略記、丹波市1598との関係留保。3～4頁の天守台は富田期とする成果。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "tamba-lords": {
+      "url": "https://www.city.tamba.lg.jp/material/files/group/50/4354.pdf",
+      "title": "丹波市：柏原藩歴代藩主",
+      "locator": "PDF1頁：信長弟、北伊勢経営、秀吉所属、1594没収・剃髪謹慎、1614大坂城内死去。信則・信勝と世代を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "tamba-history": {
+      "url": "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/7/1/2441.html",
+      "title": "丹波市：柏原藩陣屋跡",
+      "locator": "柏原藩の歴史：1598信包へ3万6千石、前期3代と後期信休系を区別。現存陣屋は後期の造営・再建。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "matsumoto": {
+      "url": "https://www.matsumoto-castle.jp/about/history",
+      "title": "国宝松本城：松本城の歴史",
+      "locator": "年表1614欄：数正の2男康勝が豊臣方へ加わる。本文と歴代城主表は数正・康長を記す。HTMLを直接取得して該当行確認。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    },
+    "ishikawa-guide": {
+      "url": "https://www.oshiro-m.org/wp-content/uploads/2015/04/g3_2.pdf",
+      "title": "松本城関連研修資料：石川氏はなぜ改易されたか",
+      "locator": "PDF1頁冒頭：1613康長の改易と弟康勝・半三郎の所領没収。佐伯預けは康長の記述で康勝へ転用しない。",
+      "kind": "local_history_training_material",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "歴史的事実の独自要約。文章・画像転載なし。"
+    }
+  },
+  "people": {
+    "544": {
+      "bodyForSelectedPerson": true,
+      "biography": "織田信長の弟で、伊勢の支配を担った大名。長野氏の養子となり、上野城を経て津城を居城とした。信長の死後は豊臣秀吉に仕え、所領没収と謹慎を経験。のち丹波柏原の領主となり、1614年に大坂城で没した。",
+      "verifiedAliases": [
+        "長野信良"
+      ],
+      "note": "生年1543/1548は未解決。津城移居1580は伝承に基づく説明で、遅くとも1583年11月居城という研究整理を採用。五重天守・現存天守台を信包の確定事績としない。柏原領主就任1598と津市資料1594後移転の略記は同時点と断定しない。後期柏原陣屋と前期館を混同しない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "正本名織田信包を維持。",
+          "sourceIds": [
+            "tamba-lords"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "信長の弟。子信則・孫信勝と後期信休系を区別。",
+          "sourceIds": [
+            "tamba-lords",
+            "tamba-history"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "長野氏養子時に長野信良、後に織田信包という改名を確認。他の別名は未確認。",
+          "sourceIds": [
+            "tsu-excavation"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "既存1543/1548を保持。今回の公的本文では出生年を確認できない。",
+          "sourceIds": [
+            "tamba-lords"
+          ],
+          "candidateYears": [
+            1543,
+            1548
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1614年に大坂城内で死去と年単位確認。月日は未確認。",
+          "sourceIds": [
+            "tamba-lords"
+          ],
+          "value": 1614
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "伊勢経営・長野養子・上野→津・秀吉仕官・1594没収謹慎・柏原領主・1614大坂没を独自要約。",
+          "sourceIds": [
+            "tsu-excavation",
+            "tamba-lords",
+            "tamba-history"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "上野城から津城へ。移居日は未確定、1583年11月までに津居城。1598柏原領主は確認、到着日や館所在地は未確定。1614大坂城で死去。",
+          "sourceIds": [
+            "tsu-excavation",
+            "tamba-history",
+            "tamba-lords"
+          ]
+        }
+      ]
+    },
+    "213": {
+      "bodyForSelectedPerson": true,
+      "verifiedAliases": [],
+      "note": "数正の次男康勝と兄康長を区別。公的本文で1614冬の陣豊臣方参加を確認。奥仁科領の詳細・別名・生没年・最期が未確認なので完成略歴案を作らない。佐伯配流・松本天守築造を兄から誤転用しない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "石川康勝の記名を松本城公式年表で確認。",
+          "sourceIds": [
+            "matsumoto"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "石川数正の次男。松本城主・築城主体として記される康長と区別。",
+          "sourceIds": [
+            "matsumoto",
+            "ishikawa-guide"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "partially_verified",
+          "result": "1614大坂冬の陣で豊臣方参加。研修資料では1613所領没収。生涯要約に必要な追加資料が不足。",
+          "sourceIds": [
+            "matsumoto",
+            "ishikawa-guide"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "原値不詳を保持。出生年は未確認。",
+          "sourceIds": [
+            "matsumoto"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "unverified",
+          "result": "原値1615を保持するが、この資料は本人の没年を裏付けない。",
+          "sourceIds": [
+            "matsumoto"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "勝千代・員矩等を今回独立確認できていない。",
+          "sourceIds": [
+            "matsumoto"
+          ]
+        }
+      ]
+    }
+  },
+  "attempts": [
+    {
+      "rosterId": "217",
+      "name": "石田正澄",
+      "reason": "検索着手のみ。本人の事績を裏付ける資料本文は未確認。三成の記事を正澄の根拠に転用しない。",
+      "next": "行政実務と佐和山籠城を本人名義の公的・研究資料で照合"
+    }
+  ]
+}

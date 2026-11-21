@@ -1,0 +1,464 @@
+{
+  "round": "20261029-05",
+  "reviewedOn": "2026-10-29",
+  "scope": "機械的略歴4人と父子誤帰属・城郭年代を精査。藤堂高虎の大洲経歴を追加照合。未承認の修正候補のみ。",
+  "sources": {
+    "tamba": {
+      "url": "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/7/1/1922.html",
+      "title": "丹波市：黒井城跡",
+      "locator": "黒井城跡の歴史。1554入城・悪右衛門、1565勢力拡大、1570安堵、1578病死、1579落城。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "kuroi-museum": {
+      "url": "https://rekihaku.pref.hyogo.lg.jp/castle/kuroi/",
+      "title": "兵庫県立歴史博物館：黒井城",
+      "locator": "冒頭。1554荻野［赤井］直正が城主。山上石垣は光秀攻略・斎藤利三城主化以降との見解。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "matsuyama": {
+      "url": "https://www.matsuyamajo.jp/discover/history.html",
+      "title": "松山城公式サイト：歴史と人物",
+      "locator": "歴史の中の松山城・沿革・ゆかりの人物「加藤嘉明」。1563～1631、孫六、賤ヶ岳、1602着工、1603移居、1627会津転封。",
+      "kind": "official_castle_site",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "matsuyama-city": {
+      "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/matsuyamajyo/nenpyou.html",
+      "title": "松山市：松山城年表",
+      "locator": "1603年加藤嘉明欄：1601許可、1602着工、1603正木から移居、1627会津。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "kato-ndl": {
+      "url": "https://id.ndl.go.jp/auth/ndlna/00757866",
+      "title": "国立国会図書館：加藤嘉明 個人名典拠",
+      "locator": "生年1563・没年1631・初名茂勝。事績の裏付けには使わない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "wakisaka-museum": {
+      "url": "https://rekihaku.pref.hyogo.lg.jp/digital_museum/legend3/term/",
+      "title": "兵庫県立歴史博物館：用語解説「脇坂安治」",
+      "locator": "わ行「脇坂安治」項のみ。1554～1626、秀吉仕官、1583賤ヶ岳、1585洲本、1600関ヶ原、1609大洲。伝説本文を史実の根拠としない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "wakisaka-son": {
+      "url": "https://rekihaku.pref.hyogo.lg.jp/database/shiryo/detail/?id=2771",
+      "title": "兵庫県立歴史博物館：脇坂安元像（資料ID2771）",
+      "locator": "資料解説の安治と子安元、1615継承・1617飯田転封。画像自体の同定根拠には使わない。個別二次利用欄も確認。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "一部確認：個別欄に申請不要・商業利用不可。方針ページでは目録CC0／解説CC BY 4.0／コンテンツ商用除外を区別。画像不使用、個別適用範囲は未解決。",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "rekihaku-terms": {
+      "url": "https://rekihaku.pref.hyogo.lg.jp/database/about-usage/",
+      "title": "兵庫県立歴史博物館：れきはくSearch 二次利用について",
+      "locator": "条項1目録CC0、2解説・編集CC BY 4.0、3コンテンツ商用除外、5デジタルミュージアム別手続き。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "一部確認：対象種別ごとに条件が異なる。全ページ・画像の商用許諾と扱わない。",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "iida": {
+      "url": "https://www.city.iida.lg.jp/soshiki/160/rekisi.html",
+      "title": "飯田市：飯田市のあゆみ",
+      "locator": "近世の段落、1617大洲から脇坂安元が移封。安治本人の転封としない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "ozu": {
+      "url": "https://ozucastle.jp/ozu_castle/history/",
+      "title": "大洲城公式サイト：歴史・沿革",
+      "locator": "藤堂高虎の時代（1595～）、脇坂安治の時代（1609～）。1617の「脇坂」は安元資料と照合。天守移築は研究者の推定と明記。",
+      "kind": "official_castle_site",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "sumoto": {
+      "url": "https://www.city.sumoto.lg.jp/soshiki/34/13025.html",
+      "title": "洲本市：洲本城跡整備基本計画 策定案内",
+      "locator": "冒頭本文：1585脇坂安治入城、総石垣化、1609大洲移封。リンク先計画全冊を読んだという意味ではない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "fukushima-city": {
+      "url": "https://www.city.hiroshima.lg.jp/tourism-culture/history/1026883/1026891/1038090/1030815.html",
+      "title": "広島市：福島正則没後400年記念事業",
+      "locator": "福島正則について（1）（2）。1561～1624、秀吉仕官・1595清洲・関ヶ原東軍、広島での改修・検地・町づくり。支城の創建年はこの要約だけで確定しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "hiroshima-years": {
+      "url": "https://www.city.hiroshima.lg.jp/shisei/toukei/1006109/1027849/1027859/1017269.html",
+      "title": "広島市：主要年表（平成26年版市勢要覧）",
+      "locator": "慶長6年1601入城、元和5年1619改易・川中島転封。年月日の旧暦換算は未実施。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "hiroshima-pref": {
+      "url": "https://www.pref.hiroshima.lg.jp/soshiki_file/monjokan/nenpyou/nenpyou-kinsei1.pdf",
+      "title": "広島県立文書館：広島県史年表 近世1",
+      "locator": "PDF1頁1601清洲から入城・厳島寄進・検地、2頁1602平家納経修復、4頁1614正則江戸留置と子忠勝参戦、5頁1619改易・高野井蟄居。該当頁のPDF本文を確認。括弧内史料の原本は未読。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    },
+    "fukushima-library": {
+      "url": "https://www.library.pref.ishikawa.lg.jp/shosho/furucolle/list/prsn15394",
+      "title": "石川県立図書館：福島正則 人物詳細",
+      "locator": "人物詳細の生没年欄1561～1624。文献リストの原著を読了とはしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-29",
+      "reuseStatus": "未確認",
+      "usage": "史実の独自要約のみ。原文・画像・データセットの転載なし。"
+    }
+  },
+  "people": {
+    "12": {
+      "bodyForSelectedPerson": true,
+      "biography": "丹波の黒井城を拠点に赤井・荻野一族を率いた武将。内藤宗勝を破って勢力を広げ、一度は織田信長に所領を認められたが、のち反織田勢力と連携した。光秀による黒井城落城の前年、1578年に病死した。",
+      "verifiedAliases": [
+        "荻野直正",
+        "悪右衛門"
+      ],
+      "note": "探索のみだった記録を本文確認へ更新。生年1529・才丸などの別名は未確認。丹波市は現遺構の大半を直正期の改修とするが、県立博物館は山上石垣を光秀攻略後とする。対象遺構の範囲が異なる可能性もあり、石垣全体を直正の工事と断定しない。主表示名は赤井直正を保持。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "荻野［赤井］直正の表記を確認。",
+          "sourceIds": [
+            "kuroi-museum"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "荻野直正と赤井直正の対応を確認。1579落城時の子悪七郎・甥赤井忠家と区別。",
+          "sourceIds": [
+            "kuroi-museum",
+            "tamba"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "荻野直正・悪右衛門を確認。幼名・渾名の全件確認は未了。",
+          "sourceIds": [
+            "kuroi-museum",
+            "tamba"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "今回実読した本文では1529出生の根拠を確認できず、元値保持。",
+          "sourceIds": [
+            "tamba",
+            "kuroi-museum"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1578年病死。翌1579年の落城と区別。",
+          "sourceIds": [
+            "tamba"
+          ],
+          "value": 1578
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1554黒井入城、1565内藤宗勝を破る。1570信長の丹波奥三郡安堵を受け、のち反織田勢力と連携。",
+          "sourceIds": [
+            "tamba"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "上記略歴の範囲を確認。石垣の築造主体は資料間の説明差があり、略歴へ採用しない。",
+          "sourceIds": [
+            "tamba",
+            "kuroi-museum"
+          ]
+        }
+      ]
+    },
+    "646": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣秀吉に仕え、賤ヶ岳の戦いで功を立てた大名。関ヶ原の戦い後に伊予二十万石を領し、正木城から松山へ拠点を移した。足立重信らと松山城の築城を進めたが、完成前に会津へ転封された。",
+      "verifiedAliases": [
+        "茂勝",
+        "孫六"
+      ],
+      "note": "正木城と松山城、築城許可1601・着工1602・移居1603を区別。二之丸完成は後任蒲生忠知期であり、嘉明が城郭全体を完成したとは書かない。NDL初名茂勝と公式サイトの改名逸話は独立照合未了、逸話自体は採用しない。松前入封年1595の県史ページは403で本文取得できず今回の確定年表に追加しない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "加藤嘉明の個人名典拠を確認。",
+          "sourceIds": [
+            "kato-ndl"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "初代松山城主嘉明を後任蒲生忠知・家臣足立重信と区別。",
+          "sourceIds": [
+            "matsuyama",
+            "matsuyama-city"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "NDLの初名茂勝、公式サイトの通称孫六を確認。左馬助・改名の経緯は未照合。",
+          "sourceIds": [
+            "kato-ndl",
+            "matsuyama"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "1563年を典拠と人物解説で確認。年単位、月日換算未実施。",
+          "sourceIds": [
+            "kato-ndl",
+            "matsuyama"
+          ],
+          "value": 1563
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1631年没を典拠と人物解説で確認。",
+          "sourceIds": [
+            "kato-ndl",
+            "matsuyama"
+          ],
+          "value": 1631
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "秀吉配下として賤ヶ岳参戦。正木を旧居城とし1602松山築城、1603移居、1627会津転封。城の未完成段階を区別。",
+          "sourceIds": [
+            "matsuyama",
+            "matsuyama-city"
+          ]
+        }
+      ]
+    },
+    "2187": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣秀吉に仕え、賤ヶ岳の七本槍に数えられた大名。淡路の洲本城を総石垣の城へ改修した。関ヶ原では西軍から東軍へ転じ、のち伊予大洲へ移封。晩年に子の安元へ家督を譲り、脇坂家の基礎を築いた。",
+      "verifiedAliases": [],
+      "note": "安元の1615家督継承・1617飯田転封を安治本人の事績にしない。大洲城の説明の「脇坂」は世代省略がある。大洲天守の洲本からの移築・大津からの改称は推定として保留。甚内・臨松院は未確認。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "脇坂安治の人物解説を確認。",
+          "sourceIds": [
+            "wakisaka-museum"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "安治と子安元を区別。1617飯田移封は安元。大洲の文中で世代省略された「脇坂」を安治へ一括帰属させない。",
+          "sourceIds": [
+            "wakisaka-son",
+            "iida",
+            "ozu"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "甚内・臨松院の根拠は今回実読した本文では確認できない。",
+          "sourceIds": [
+            "wakisaka-museum"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "1554年の表記を博物館人物解説で確認。月日未確認。",
+          "sourceIds": [
+            "wakisaka-museum"
+          ],
+          "value": 1554
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1626年没を博物館人物解説で確認。",
+          "sourceIds": [
+            "wakisaka-museum"
+          ],
+          "value": 1626
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "秀吉仕官・1583賤ヶ岳、1585洲本入城と石垣化、1600関ヶ原で東軍へ、1609大洲、1615子への継承。",
+          "sourceIds": [
+            "wakisaka-museum",
+            "sumoto",
+            "ozu",
+            "wakisaka-son"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "目録CC0、解説CC BY 4.0、コンテンツ商用除外、個別画像商業利用不可の表示を確認。適用対象の差を記録し、画像・原文は不使用。他の出典の条件は未確認。",
+          "sourceIds": [
+            "wakisaka-son",
+            "rekihaku-terms"
+          ]
+        }
+      ]
+    },
+    "1713": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣秀吉のもとで武功を重ね、尾張清洲を治めた大名。関ヶ原では徳川方で戦い、安芸・備後へ移って広島城や城下町を整備し、検地を進めた。のち城の修築を問題とされて領国を失い、信濃へ移された。",
+      "verifiedAliases": [],
+      "note": "1600所領授与と1601広島入城を分ける。1619は津軽授与の記録から川中島転封・高野井村蟄居へ変更されており、津軽での実際の居住は確認していない。正則の江戸留置と子忠勝の大坂参戦を区別。改易に至る申請・許可の経緯の詳細、既存別名は未確認。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "福島正則の人物解説を確認。",
+          "sourceIds": [
+            "fukushima-city"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "正則と子忠勝を区別。1614大坂出陣を本人の参戦としない。",
+          "sourceIds": [
+            "hiroshima-pref"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "市松・市兵衛・高斎等は今回本文の確認範囲外。",
+          "sourceIds": [
+            "fukushima-city"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "verified",
+          "result": "1561年を市の人物紹介と県立図書館の人物欄で確認。年単位のみ。",
+          "sourceIds": [
+            "fukushima-city",
+            "fukushima-library"
+          ],
+          "value": 1561
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1624年没を市の人物紹介と県立図書館の人物欄で確認。",
+          "sourceIds": [
+            "fukushima-city",
+            "fukushima-library"
+          ],
+          "value": 1624
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "秀吉仕官・1595清洲・関ヶ原東軍、1601広島入城、領内検地・城下町整備、1619領国没収と信濃への転封。",
+          "sourceIds": [
+            "fukushima-city",
+            "hiroshima-years",
+            "hiroshima-pref"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "県史年表に1601厳島大明神への米寄進、1602平家納経修復、1619高野井村蟄居。史料原本の独立確認ではない。",
+          "sourceIds": [
+            "hiroshima-pref"
+          ]
+        }
+      ]
+    },
+    "1370": {
+      "bodyForSelectedPerson": true,
+      "biography": null,
+      "verifiedAliases": [],
+      "note": "大洲の公式解説で1595年板島拝領後の大洲居城を追記。前回の粉河→宇和島→今治という主要拠点列に大洲を補う。ただし宇和島本城の位置づけと実際の居住順序・往復は未確定。旧イベント・出典を残し、大洲で高吉が城代となる1602年の記述と区別。",
+      "claims": [
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "1595板島拝領と蔵入地代官の任命後、大津（大洲）を居城としたとの公式解説を確認。実際の移居年月日は未確認。",
+          "sourceIds": [
+            "ozu"
+          ]
+        }
+      ]
+    }
+  },
+  "attempts": [],
+  "sourceAccessFailures": [
+    {
+      "rosterId": "646",
+      "url": "https://www.i-manabi.jp/system/regionals/regionals/ecode%3A2/64/view/8039",
+      "status": "403_body_unread",
+      "note": "検索抄録のみで県史を実読済みとしない。別の松山公式資料で確認できた事実のみ使用。"
+    }
+  ]
+}

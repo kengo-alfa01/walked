@@ -1,0 +1,713 @@
+{
+  "round": "20261030-05",
+  "reviewedOn": "2026-10-30",
+  "scope": "機械的略歴と年代・人物識別課題を持つ採用6人を優先。全体精査完了とはしない。",
+  "sources": {
+    "maruoka": {
+      "url": "https://www.city.fukui-sakai.lg.jp/kokuhou/maruokajyou/kihonjohhoh.html",
+      "title": "坂井市：丸岡城基本情報",
+      "locator": "概要・歴代城主・略年表。勝家の越前支配、甥勝豊への豊原授与、1575豊原築城、1576丸岡移転・築城説、勝豊在任1576–1582。現存天守は寛永期。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "maruoka-study": {
+      "url": "https://www.city.fukui-sakai.lg.jp/kokuhou/maruokajyou/akiraka-jijitsu.html",
+      "title": "坂井市：丸岡城の調査で明らかになった事実",
+      "locator": "「現在の天守は寛永年間」節。科学調査と歴史背景から本多成重期整備とする。勝豊期の築城と区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "maruoka-pref": {
+      "url": "https://bunkazai.pref.fukui.lg.jp/search_category/content?detail_id=379-0",
+      "title": "福井県：丸岡城天守 文化財解説",
+      "locator": "文化財解説は1576勝豊築造・現存最古と記載。市の学術調査結果と説明差があるため旧説明を確定根拠にしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "kitanosho": {
+      "url": "https://www.city.fukui.lg.jp/kankou/kankou/sisetu/kitanosyou.html?path=C50000/C50100/C50103/P9453",
+      "title": "福井市：北の庄城址・柴田公園",
+      "locator": "冒頭の勝家1523？～1583、1575築城開始。北庄遺構と結城秀康による福井城造営の層位を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "katsuie-museum": {
+      "url": "https://www.pref.fukui.lg.jp/muse/Cul-Hist/kikaku/kako/2023/20230729_onishibata.html",
+      "title": "福井県立歴史博物館：「鬼柴田」勝家の実像",
+      "locator": "展示趣旨と第2・3章。信長重臣、鬼柴田、北庄城下町建設・検地・知行制、秀吉との対立。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "genbao": {
+      "url": "https://www.city.tsuruga.lg.jp/page/4438.html",
+      "title": "敦賀市：国指定史跡玄蕃尾城跡",
+      "locator": "本文の賤ヶ岳合戦時の勝家本陣、城からの撤退。PDF本体は未読。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "nagahama": {
+      "url": "https://www.nagahama-sengoku.jp/story/shichihonyari/",
+      "title": "長浜市・北近江豊臣博覧会：賤ヶ岳七本槍",
+      "locator": "賤ヶ岳の戦い節：1582長浜入城・降伏、1583勝家の玄蕃尾着陣・北庄撤退。大岩山の奇襲主体は佐久間盛政。",
+      "kind": "municipal_history_portal",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "katsutoyo-library": {
+      "url": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000250921",
+      "title": "滋賀県立図書館：清須会議後の柴田勝豊の長浜支配",
+      "locator": "回答本文と参考文献。長浜支配、竹生島安堵・浄信寺寄進。天正8年(1580)と清須会議後という前後関係に不整合。長浜市史2巻379–383頁等の原資料は未読。",
+      "kind": "public_library_reference",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "tomita-portraits": {
+      "url": "https://www.city.uwajima.ehime.jp/site/sizen-bunka/1516tomita.html",
+      "title": "宇和島市：富田知信画像・富田信高画像",
+      "locator": "父の交渉活動と1599没、子の1600籠城・1608板島入城・1613改易・1633没。堀切未成と大隆寺建立。父子の画像制作・事績を区別。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "ippaku-letter": {
+      "url": "https://online.bunka.go.jp/db/heritages/detail/529941",
+      "title": "文化遺産DB：千利休筆書状",
+      "locator": "解説：富左近殿を富田一白(知信)と同定し、秀吉家臣・茶人とする。",
+      "kind": "national_cultural_database",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "tsu-tomita": {
+      "url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/004/602/kawaraban2.pdf",
+      "title": "津市教育委員会：津城かわら版② 富田氏とその時代の津城",
+      "locator": "広報津2023-08-16号7頁。1595父子入城、1599継承、1600小山から帰還・籠城・専修寺→高野山→津復帰、宇和島12万石・岩城閉居・1633没。PDF本文テキスト確認。",
+      "kind": "municipal_education_publication",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "uwajima-castle": {
+      "url": "https://www.pref.ehime.jp/ehimenotakara/373.html",
+      "title": "愛媛県：宇和島城",
+      "locator": "解説：1608富田信高入部、1615伊達秀宗入部。現存天守等は後代の改修であり信高築造としない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "sakazaki": {
+      "url": "https://shimane-kodaibunka.jp/history/history-3056/",
+      "title": "島根県古代文化センター：第117話 津和野藩主 酒井出羽守",
+      "locator": "矢野健太郎研究員2024-04-03。直盛の城・城下整備と1616没、元和期武具引渡文書の酒井出羽守表記。改姓時点・断絶後の家の存続は未解明。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "tsuwano-castle": {
+      "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/2206",
+      "title": "国指定文化財等DB：津和野城跡",
+      "locator": "詳細解説：坂崎成正の慶長6年入城・織部丸増築・元和2年死去。同一城主を指す文脈だが改名順序は未確定。",
+      "kind": "national_cultural_database",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "ota-letter": {
+      "url": "https://online.bunka.go.jp/db/heritages/detail/540111",
+      "title": "文化遺産DB：徳川家康書状（太田一吉宛）",
+      "locator": "1598年1月30日付書状解説。太田？～1617、小早川秀俊(秀秋)の目付、朝鮮渡海・蔚山城籠城。朝鮮の地は全国史跡候補へ追加しない。",
+      "kind": "national_cultural_database",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "usuki-battle": {
+      "url": "https://www.city.usuki.oita.jp/docs/2014020300376/",
+      "title": "臼杵市：野村台地の二つの墓石",
+      "locator": "解説冒頭および慶長5年の戦闘。太田一吉は臼杵城主・西軍、中川秀成と臼杵で戦う。墓石地点を本人の陣地にしない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "usuki-museum": {
+      "url": "https://www.city.usuki.oita.jp/event_list/2019/01/",
+      "title": "臼杵市歴史資料館企画展：近世臼杵の幕開け",
+      "locator": "2019年1月一覧の企画展説明。大友除国後の太田入部、慶長の役の軍目付、1600西軍・戦後没収。入部年を1593と断定しない。",
+      "kind": "public_institution",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "未確認",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "fukui-policy": {
+      "url": "https://www.city.fukui.lg.jp/sisei/kohou/hp/site-p.html",
+      "title": "福井市：サイトポリシー",
+      "locator": "著作権節。文章は原則CC BY-SA、写真・画像・映像・個別指定は除外。版と資料別例外は未確定。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "本文方針一部確認。画像除外・個別条件あり。商用再利用全体の承認ではない。",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "sakai-policy": {
+      "url": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/chosakuken.html",
+      "title": "坂井市：著作権・リンク等について",
+      "locator": "著作権節。法令上認められる場合等以外の無断転載等を認めない。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "転載等に制限あり。文章画像の再利用なし。事実参照と素材利用を分離。",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    },
+    "usuki-policy": {
+      "url": "https://www.city.usuki.oita.jp/docs/2014031200023",
+      "title": "臼杵市：リンク・著作権・免責事項",
+      "locator": "著作権節。法定例外以外の無断利用・複製・転載等を認めず、担当課への事前相談。個別規定優先。",
+      "kind": "usage_policy",
+      "access": "body_read",
+      "checkedOn": "2026-10-30",
+      "reuseStatus": "転載等に制限あり。文章画像の再利用なし。事実参照と素材利用を分離。",
+      "usage": "事実を独自要約。説明文・画像・翻刻・データセットの転載なし。"
+    }
+  },
+  "people": {
+    "1038": {
+      "bodyForSelectedPerson": true,
+      "biography": "織田信長の重臣で、越前を治めた武将。北ノ庄城と城下町を整え、検地などの領国支配に取り組んだ。本能寺の変後は羽柴秀吉と対立。1583年の賤ヶ岳の戦いで敗れて北ノ庄へ退き、同年に没した。",
+      "verifiedAliases": [
+        "鬼柴田"
+      ],
+      "note": "出生原値1522／1530は期間端点の機械抽出も含み、独立した二説と断定しない。市の1523？を追加候補として保持。勝豊への領地授与を勝家の丸岡居住としない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "正本表示名を維持。",
+          "sourceIds": [
+            "katsuie-museum"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "越前統治の勝家と甥勝豊を区別。",
+          "sourceIds": [
+            "maruoka"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "異名鬼柴田を確認。権六等の全候補は未照合。",
+          "sourceIds": [
+            "katsuie-museum"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "disputed",
+          "result": "市解説は1523？。原値1522／1530と出典別に保持、確定年にしない。",
+          "sourceIds": [
+            "kitanosho"
+          ],
+          "candidateYears": [
+            1523
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1583没を年単位で確認。没日の暦換算未実施。",
+          "sourceIds": [
+            "kitanosho"
+          ],
+          "value": 1583
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "信長重臣・越前統治・城下整備・検地・秀吉との戦争と北庄撤退を独自要約。",
+          "sourceIds": [
+            "katsuie-museum",
+            "nagahama",
+            "kitanosho"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "北庄築城・城下整備、玄蕃尾本陣、賤ヶ岳の戦闘参加と北庄への撤退。",
+          "sourceIds": [
+            "kitanosho",
+            "katsuie-museum",
+            "genbao",
+            "nagahama"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "福井市文章の基本CC BY-SAと画像等例外を確認。他出典・版・個別権利未確認。",
+          "sourceIds": [
+            "fukui-policy"
+          ]
+        }
+      ]
+    },
+    "1039": {
+      "bodyForSelectedPerson": true,
+      "biography": "柴田勝家の甥で、越前の丸岡城主。豊原を拠点とし、1576年に丸岡へ移って築城したとされる。本能寺の変後は長浜城に入り、城下や寺社の支配に携わったが、羽柴秀吉に攻められて降伏した。",
+      "verifiedAliases": [],
+      "note": "図書館回答の天正8年(1580)と清須会議後の文脈に不整合。寄進等の年を1582へ自動訂正しない。現存丸岡天守は市調査で本多成重期。県解説の1576天守築造・現存最古とは差がある。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "正本表示名を維持。",
+          "sourceIds": [
+            "maruoka"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "勝家の甥・丸岡と長浜の城主を対応。",
+          "sourceIds": [
+            "maruoka",
+            "nagahama"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "伊介・伊賀守は今回未確認。",
+          "sourceIds": [
+            "maruoka"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "数値生年は今回資料に根拠なし。不詳の元値を保持。",
+          "sourceIds": [
+            "maruoka"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "unverified",
+          "result": "元値1583を独立に確認できる本文は今回未取得。",
+          "sourceIds": [
+            "maruoka"
+          ]
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "豊原→丸岡、長浜支配・寺社への施策・秀吉への降伏。年代矛盾を含む寄進は略歴に具体年を入れない。",
+          "sourceIds": [
+            "maruoka",
+            "nagahama",
+            "katsutoyo-library"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "豊原・丸岡・長浜、竹生島安堵と浄信寺寄進を抽出。寺社訪問は推定しない。",
+          "sourceIds": [
+            "maruoka",
+            "nagahama",
+            "katsutoyo-library"
+          ]
+        },
+        {
+          "field": "materialDating",
+          "status": "disputed",
+          "result": "県解説は天守1576とするが、市学術調査では現存天守は本多成重期。城成立と現存建築を分離。",
+          "sourceIds": [
+            "maruoka-study",
+            "maruoka-pref"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "坂井市の転載制限を確認。史実を独自要約し画像不使用。他資料条件未確認。",
+          "sourceIds": [
+            "sakai-policy"
+          ]
+        }
+      ]
+    },
+    "1425": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣秀吉の側近として、織田信雄や徳川家康との和平交渉を担った武将。富田知信とも呼ばれ、茶人として千利休とも交流した。1595年に子の信高と安濃津城へ入り、津の支配に当たった。1599年没。",
+      "verifiedAliases": [
+        "富田知信",
+        "富左近殿"
+      ],
+      "note": "一白＝知信を文化遺産DBで照合してから市の知信記録へ接続。信高の別名欄にも知信があるが父子を自動統合しない。一白の号・諱の位置付け、他名の順序は未解決。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "一白の表示名を維持。",
+          "sourceIds": [
+            "ippaku-letter"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "文化遺産DBの一白(知信)と、市解説の信高の父知信を対応。",
+          "sourceIds": [
+            "ippaku-letter",
+            "tomita-portraits"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "知信および書状の富左近殿を確認。他候補未照合。",
+          "sourceIds": [
+            "ippaku-letter"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "出生年を今回資料で確認できず。",
+          "sourceIds": [
+            "tomita-portraits"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1599没。年単位確認、没日換算は未実施。",
+          "sourceIds": [
+            "tomita-portraits"
+          ],
+          "value": 1599
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "和平交渉・茶人と利休の書状・1595津入城・1599没を独自要約。",
+          "sourceIds": [
+            "tomita-portraits",
+            "ippaku-letter",
+            "tsu-tomita"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "1595安濃津入城、1599までの統治。秀吉像の所在を一白の訪問地としない。",
+          "sourceIds": [
+            "tsu-tomita"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "unverified",
+          "result": "各資料の個別利用条件は未確認。",
+          "sourceIds": [
+            "ippaku-letter"
+          ]
+        }
+      ]
+    },
+    "1429": {
+      "bodyForSelectedPerson": true,
+      "biography": "富田一白の子で、安濃津城を継いだ大名。1600年に徳川方として西軍の攻撃を受け、開城後は専修寺や高野山に身を寄せた。のち津へ戻り、1608年に伊予板島へ移ったが、1613年に改易され岩城へ移された。",
+      "verifiedAliases": [],
+      "note": "宇和島の石高は市10万石／津市12万石で不一致。略歴には石高を採用しない。父知信の交渉・利休交流を信高へ転用しない。配流と閉居という資料語の違いは保持。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "正本信高を維持。",
+          "sourceIds": [
+            "tomita-portraits"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "知信の子信高。父一白と別人物。",
+          "sourceIds": [
+            "tomita-portraits",
+            "tsu-tomita"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "知勝・知治・信勝等は未確認。父と共通する知信候補を同一性根拠にしない。",
+          "sourceIds": [
+            "tomita-portraits"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "生年は未確認。",
+          "sourceIds": [
+            "tomita-portraits"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1633没を市2資料で照合。年単位、没日換算未実施。",
+          "sourceIds": [
+            "tomita-portraits",
+            "tsu-tomita"
+          ],
+          "value": 1633
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "安濃津継承・籠城・退去と復帰・1608板島・1613改易を独自要約。",
+          "sourceIds": [
+            "tsu-tomita",
+            "tomita-portraits",
+            "uwajima-castle"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "安濃津、専修寺、高野山、板島、塩成の堀切、岩城。領地石高の資料差は保留。",
+          "sourceIds": [
+            "tsu-tomita",
+            "tomita-portraits",
+            "uwajima-castle"
+          ]
+        },
+        {
+          "field": "holdings",
+          "status": "disputed",
+          "result": "1608宇和島は宇和島市10万石、津市12万石。対象領域・時点・出典を追加照合。",
+          "sourceIds": [
+            "tomita-portraits",
+            "tsu-tomita"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "unverified",
+          "result": "各資料の個別利用条件は未確認。",
+          "sourceIds": [
+            "tomita-portraits"
+          ]
+        }
+      ]
+    },
+    "940": {
+      "bodyForSelectedPerson": true,
+      "biography": "宇喜多家を離れて徳川家康に仕え、関ヶ原の功績で津和野藩主となった大名。城の改修と城下町の整備を進めた。大坂の陣では千姫を家康のもとへ護送。1616年の千姫をめぐる事件後に没した。",
+      "verifiedAliases": [
+        "酒井出羽守"
+      ],
+      "note": "研究員は元和期の武具引渡文書に酒井出羽守を確認。改姓の正確な時期・家の後続は未解明。成正を記す文化財DBと直盛表記は同じ城主文脈だが、全改名順序を確定しない。千姫救出の細部や殺害方法は採らない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "主表示名坂崎直盛を維持。",
+          "sourceIds": [
+            "sakazaki"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "宇喜多出身の津和野藩主。元和期酒井出羽守表記を研究員が同定。",
+          "sourceIds": [
+            "sakazaki"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "partially_verified",
+          "result": "酒井出羽守を追加の確認別名とする。成正の表記も出典別に保存するが改名順序未確認。",
+          "sourceIds": [
+            "sakazaki",
+            "tsuwano-castle"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "1563の一説留保を解消する根拠は未取得。",
+          "sourceIds": [
+            "sakazaki"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "1616没を研究機関の本文で確認。日付は未精査。",
+          "sourceIds": [
+            "sakazaki"
+          ],
+          "value": 1616
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "宇喜多家離脱・家康仕官・津和野統治と城下整備・千姫護送・没年を独自要約。",
+          "sourceIds": [
+            "sakazaki"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "津和野城への慶長6年入城、織部丸増築・城下整備を記録。改修完成年不明。",
+          "sourceIds": [
+            "tsuwano-castle",
+            "sakazaki"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "unverified",
+          "result": "解説文・個別文書画像の条件未確認。いずれも転載なし。",
+          "sourceIds": [
+            "sakazaki"
+          ]
+        }
+      ]
+    },
+    "445": {
+      "bodyForSelectedPerson": true,
+      "biography": "豊臣政権下で臼杵城主を務めた武将。慶長の役では小早川秀秋の目付として朝鮮へ渡り、蔚山城を守った。1600年には西軍に属して臼杵で中川秀成と戦い、戦後に領地を失った。1617年没。",
+      "verifiedAliases": [],
+      "note": "1593は大友除国年であり太田の入城年を断定しない。蔚山籠城は本文確認したが海外地点として全国候補へ不算入。リーフデ号保護は今回本人根拠未確認のため略歴へ入れない。",
+      "claims": [
+        {
+          "field": "name",
+          "status": "verified",
+          "result": "正本表示名を維持。",
+          "sourceIds": [
+            "ota-letter"
+          ]
+        },
+        {
+          "field": "identity",
+          "status": "partially_verified",
+          "result": "臼杵城主と1598家康書状宛先の目付太田一吉を対応。",
+          "sourceIds": [
+            "ota-letter",
+            "usuki-museum"
+          ]
+        },
+        {
+          "field": "aliases",
+          "status": "unverified",
+          "result": "宗隆・政信・政之等の改名候補は未確認。",
+          "sourceIds": [
+            "ota-letter"
+          ]
+        },
+        {
+          "field": "birth",
+          "status": "unverified",
+          "result": "文化遺産DBも生年疑問符。未確認を維持。",
+          "sourceIds": [
+            "ota-letter"
+          ]
+        },
+        {
+          "field": "death",
+          "status": "verified",
+          "result": "文化遺産DBに1617没と明記。年単位確認。",
+          "sourceIds": [
+            "ota-letter"
+          ],
+          "value": 1617
+        },
+        {
+          "field": "biography",
+          "status": "verified",
+          "result": "臼杵統治・慶長の役の目付と蔚山籠城・1600臼杵での対中川戦・領地没収・没年。",
+          "sourceIds": [
+            "ota-letter",
+            "usuki-battle",
+            "usuki-museum"
+          ]
+        },
+        {
+          "field": "lifePlaces",
+          "status": "partially_verified",
+          "result": "臼杵城と1600臼杵合戦。墓石の場所を本人の所在地としない。",
+          "sourceIds": [
+            "usuki-battle",
+            "usuki-museum"
+          ]
+        },
+        {
+          "field": "license",
+          "status": "partially_verified",
+          "result": "臼杵市の文書画像無断利用制限・個別規定優先を確認。素材再利用なし。他資料条件未確認。",
+          "sourceIds": [
+            "usuki-policy"
+          ]
+        }
+      ]
+    }
+  },
+  "attempts": [],
+  "sourceAccessFailures": [
+    {
+      "url": "https://anshinanzen.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/chosakuken.html",
+      "status": "502。通常wwwドメインで本文確認"
+    }
+  ],
+  "excludedPlaceCandidates": [
+    {
+      "rosterId": "445",
+      "place": "蔚山城",
+      "reason": "本人関係は資料本文で確認。海外地点のため全国史跡候補へ未追加。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "events": 284,
+  "candidatePlaces": 202,
+  "people": 74,
+  "selected": 624,
+  "peopleWithoutExtraction": 550,
+  "completeLifeTimelines": 0,
+  "publishedSites": 0,
+  "publishedLinks": 0,
+  "definition": "候補数は抽出用の場所単位。全国データとの照合前であり、新規史跡数・独立訪問先数ではない。"
+}
