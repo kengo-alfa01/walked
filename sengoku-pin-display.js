@@ -21,7 +21,7 @@
   if(!p||!a||p.siteId!==site.siteId||a.user!=='公開OK'||
       a.bReview!=='B合格'||!Number.isInteger(a.sheetRow)||a.sheetRow<2||
       !/^v[1-9]\d*$/.test(a.version||'')||
-      a.sourceId!==site.siteId||a.kind!=='史跡見学表示')return null;
+      a.sourceId!==site.siteId||a.kind!=='史跡')return null;
   if(p.notice!==null&&p.notice!==undefined&&typeof p.notice!=='string')return null;
   if(p.officialInfoUrl!==null&&p.officialInfoUrl!==undefined&&!safeUrl(p.officialInfoUrl))return null;
   if(!Array.isArray(p.attributions)||!p.attributions.every(x=>
