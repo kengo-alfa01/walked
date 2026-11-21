@@ -75,6 +75,17 @@ for(const [name,browserType,options] of [
    });
    await page.locator('#map').scrollIntoViewIfNeeded();
    await page.waitForTimeout(430);
+   // Municipality geometry can finish auto-centering after the catalog appears on desktop.
+   // Center AFTER initial async map setup, then verify the SVG was projected onscreen.
+   await page.evaluate(()=>{
+    map.invalidateSize();
+    const marker=sengokuPins.getLayers().find(x=>x.getPopup()?.getContent()?.textContent?.includes('阿蘇神社'));
+    map.setView(marker.getLatLng(),13,{animate:false});
+   });
+   await page.waitForFunction(()=>{
+    const m=sengokuPins.getLayers().find(x=>x.getPopup()?.getContent()?.textContent?.includes('阿蘇神社'));
+    return map.getBounds().contains(m.getLatLng())&&m.getElement()?.getAttribute('d')!=='M0 0';
+   },null,{timeout:6000});
    const center=await page.evaluate(()=>{
     map.invalidateSize();
     const marker=sengokuPins.getLayers().find(x=>x.getPopup()?.getContent()?.textContent?.includes('阿蘇神社'));
@@ -82,12 +93,7 @@ for(const [name,browserType,options] of [
     if(!rect)throw Error('pin SVG not visible');
     return {x:rect.left+rect.width/2,y:rect.top+rect.height/2};
    });
-   console.log('PIN_DEBUG_BEFORE',name,JSON.stringify(await page.evaluate(()=>{
-    const m=sengokuPins.getLayers().find(x=>x.getPopup()?.getContent()?.textContent?.includes('阿蘇神社'));
-    const el=m.getElement(),r=el?.getBoundingClientRect(),mapRect=document.getElementById('map').getBoundingClientRect();
-    const ll=m.getLatLng(),center=map.getCenter();
-    return {path:el?.getAttribute('d'),latlng:[ll.lat,ll.lng],center:[center.lat,center.lng],zoom:map.getZoom(),mapSize:map.getSize(),mapRect:{x:mapRect.x,y:mapRect.y,width:mapRect.width,height:mapRect.height},rect:r&&{x:r.x,y:r.y,width:r.width,height:r.height},inside:map.getBounds().contains(ll),mode:activeCollectionMode};
-   })));
+
    if(options.hasTouch)await page.touchscreen.tap(center.x,center.y);
    else{
     await page.evaluate(()=>{
