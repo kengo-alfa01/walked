@@ -1,0 +1,54 @@
+name: C approved UI actual GitHub Pages byte proof
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/c-approved-ui-live-proof-20261122.yml
+      - index.html
+      - sengoku-source-links.js
+      - sengoku-v2-core.js
+      - sengoku/v2/approved-c-20261120-new9-80.json
+      - data/c-release/records.csv
+      - data/c-release/status.csv
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pages-byte-proof:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify UI, approved JSON and ledgers are byte-identical to deployed Pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          base='https://kengo-alfa01.github.io/walked'
+          files=(index.html sengoku-source-links.js sengoku-v2-core.js sengoku/v2/approved-c-20261120-new9-80.json data/c-release/records.csv data/c-release/status.csv)
+          for attempt in $(seq 1 90); do
+            all=true
+            for f in "${files[@]}"; do
+              mkdir -p "/tmp/c-approved-ui/$(dirname "$f")"
+              if ! curl --fail --location --silent --show-error --retry 1 --max-time 35 --header "Cache-Control: no-cache" "$base/$f?c-approved-ui=$GITHUB_SHA" -o "/tmp/c-approved-ui/$f" 2>/dev/null; then
+                all=false
+                break
+              fi
+              if ! cmp -s "$f" "/tmp/c-approved-ui/$f"; then
+                all=false
+                break
+              fi
+            done
+            if $all; then
+              echo "C_APPROVED_UI_ALL_PAGES_BYTES_EQUAL_MAIN sha=$GITHUB_SHA attempt=$attempt"
+              break
+            fi
+            if [ "$attempt" -eq 90 ]; then echo 'C_APPROVED_UI_PAGES_BYTES_MISMATCH';exit 1;fi
+            sleep 8
+          done
+      - name: Verify no history, pin, ownership or awarded-area changes
+        run: |
+          node --test tests/c-approved-ui-only-20261122.test.cjs tests/sengoku-v2.test.cjs tests/c-20261120-new9-release.test.cjs
+          node scripts/export-c-release-ledger.cjs --check
