@@ -22,7 +22,7 @@ function approvedPreview(candidate){
   siteId:candidate.siteId,notice:candidate.notice,
   officialInfoUrl:candidate.officialInfoUrl,
   attributions:candidate.attributions,
-  approval:{kind:'史跡見学表示',sourceId:candidate.siteId,version:'v2',sheetRow:99999,user:'公開OK',bReview:'B合格'}
+  approval:{kind:'史跡',sourceId:candidate.siteId,version:'v2',sheetRow:99999,user:'公開OK',bReview:'B合格'}
  };
 }
 const publicPins=catalog.sites.filter(s=>s.publicPin);
