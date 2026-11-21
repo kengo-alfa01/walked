@@ -31,10 +31,11 @@ for(const [name,browserType,options] of [
    await page.locator('[data-collection-mode="sengoku"]').click();
    const all=await page.evaluate(()=>{
     const seen=sengokuPins.getLayers(),sites=sengokuV2Catalog.sites;
+    const published=[...sites.values()].filter(x=>x.publicPin&&Array.isArray(x.point));
     let leaks=0,missing=0,badColors=0;
-    for(const marker of seen){
+    for(const [i,marker] of seen.entries()){
      const popup=marker.getPopup()?.getContent(),t=popup?.textContent||'';
-     const s=[...sites.values()].find(x=>x.publicPin&&t.includes(x.name));
+     const s=published[i];
      if(!s||!t.includes(s.description))missing++;
      if(t.includes('【③史跡!')||t.includes('【④経歴と史跡の関係】')||t.includes('【出典・利用】'))leaks++;
      if(s&&!t.includes(SengokuPinDisplay.POLICY_LABELS[s.pinReview.accessStatus]))badColors++;
