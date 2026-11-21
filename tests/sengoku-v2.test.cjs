@@ -117,7 +117,7 @@ test('access colors are not discovery colors, and future red forbids routing',()
  assert.deepEqual(['green','yellow','red'].map(x=>V.pinPresentation(x).colorName),['緑','黄','赤']);
  assert.throws(()=>V.pinPresentation('unknown'),/未確認/);
  const gifu=index.sites.get('sg2site-nobu-gifu'),himeji=index.sites.get('sg2site-hideyoshi-himeji');
- assert.equal(V.pinDetails(gifu).access.label,'一部立入制限');
+ assert.equal(V.pinDetails(gifu).access.label,'注意あり');
  assert.match(V.pinDetails(himeji).restriction,/ニの櫓/);
  const red=clone(gifu);red.pinReview.accessStatus='red';red.pinReview.restriction='公開区域を全面立入禁止';
  assert.equal(V.pinDetails(red).noRouting,true);
