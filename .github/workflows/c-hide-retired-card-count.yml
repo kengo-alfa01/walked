@@ -1,0 +1,67 @@
+name: C hide old-card count annotations in all character tiles
+on:
+  push:
+    branches: [c/hide-legacy-card-count-ui-20261122, main]
+    paths:
+      - index.html
+      - tests/c-hide-retired-card-count.test.cjs
+      - tests/c-hide-retired-card-count.browser.cjs
+      - .github/workflows/c-hide-retired-card-count.yml
+  pull_request:
+    branches: [main]
+    paths:
+      - index.html
+      - tests/c-hide-retired-card-count.test.cjs
+      - tests/c-hide-retired-card-count.browser.cjs
+      - .github/workflows/c-hide-retired-card-count.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  node-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: All-character count display and old-card safety regressions
+        run: |
+          node --test tests/c-hide-retired-card-count.test.cjs
+          node --test tests/sengoku-v2.test.cjs tests/c-approved16-pin-display-20261122.test.cjs tests/c-20261120-new9-release.test.cjs
+  real-browser-qa:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify actual Pages bytes match main before declaring a live success
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: node scripts/verify-c-bottom-sheet-live.cjs
+      - name: Install isolated browser QA dependencies
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Prepare approved pinned municipality geometry
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Serve branch candidate without modifying repository content
+        if: github.ref != 'refs/heads/main'
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/walked-c-oldcard-http.log 2>&1 &
+          sleep 2
+      - name: WebKit iPhone + Chromium PC - every person, Tachibana, preserved retired cards
+        env:
+          WALKED_BROWSER_ASSETS: .qa-assets
+        run: |
+          if [ "$GITHUB_REF" = 'refs/heads/main' ]; then
+            export WALKED_BASE_URL='https://kengo-alfa01.github.io/walked'
+          else
+            export WALKED_BASE_URL='http://127.0.0.1:8765'
+          fi
+          node --test tests/c-hide-retired-card-count.browser.cjs

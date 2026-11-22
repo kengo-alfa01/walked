@@ -1,0 +1,30 @@
+'use strict';
+const {test}=require('node:test'),assert=require('node:assert/strict');
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
+const root=path.join(__dirname,'..');
+const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+const doc=JSON.parse(fs.readFileSync(path.join(root,'sengoku/v2/approved-c-20261120-new9-80.json'),'utf8'));
+const lines=html.split('\n');
+const render=html.slice(html.indexOf('function renderSengoku(){'),html.indexOf('function showSengokuPerson(person){'));
+test('All per-person tiles show only current approved X / Y cards with no obsolete-card suffix',()=>{
+ const inline=html.split('<script>').at(-1).split('</script>')[0];
+ new vm.Script(inline,{filename:'index.html'});
+ assert.match(render,/count\.textContent=countOwned\(person\.id\)\+'\s*\/\s*'\+catalogCardCount\(person\.id\)\+' 枚';/);
+ assert.ok(!render.includes('legacyCount'));
+ assert.ok(!render.includes('旧カード'));
+ assert.ok(!render.includes('archivedCount'));
+ assert.ok(!render.includes('retiredHistories.values()'));
+ assert.match(render,/'獲得人物 '\+owned\.length\+'人／カード '\+activeCount\+'枚'/);
+});
+test('Retired records and old-only person accessibility remain intact, but not in displayed card totals',()=>{
+ assert.equal(doc.sites.filter(s=>s.publicPin).length,419);
+ assert.equal(doc.people.length,74);
+ assert.equal(doc.histories.length,1251);
+ assert.equal(doc.retiredHistories.length,31);
+ assert.match(render,/countOwned\(p\.id\)>0\|\|ownedRetiredHistories\(p\.id\)\.length>0/);
+ assert.ok(html.includes("const archive=ownedRetiredHistories(person.id);"));
+ assert.ok(html.includes("archiveHead.textContent='旧公開版・取得済みカード（記録を保全）'"));
+ assert.ok(html.includes("const sengokuFound=readStore(sengokuStoreKey,{},v=>WalkedCore.records(v,'カード'))"));
+ assert.ok(!html.includes('・旧カード'+ "'+legacyCount"));
+ assert.ok(!html.includes('（旧カード保存 '));
+});

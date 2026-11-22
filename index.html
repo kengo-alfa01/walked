@@ -902,9 +902,8 @@ function refreshSengokuAreaHighlights(){
 function renderSengoku(){
  const owned=sengokuPeople.filter(p=>countOwned(p.id)>0||ownedRetiredHistories(p.id).length>0);
  const activeCount=sengokuV2Catalog?[...sengokuV2Catalog.histories.values()].filter(h=>ownsSengokuCard(h.historyId)).length:0;
- const archivedCount=sengokuV2Catalog?[...sengokuV2Catalog.retiredHistories.values()]
-  .filter(r=>Object.prototype.hasOwnProperty.call(sengokuFound,r.history.historyId)).length:0;
- $('sengokuCount').textContent='獲得人物 '+owned.length+'人／カード '+(activeCount+archivedCount)+'枚（旧カード保存 '+archivedCount+'枚）';
+ // Show current approved card counts only. Retired card records remain preserved.
+ $('sengokuCount').textContent='獲得人物 '+owned.length+'人／カード '+activeCount+'枚';
  const selected=sengokuPeople.find(p=>p.id===selectedSengokuPersonId);
  const count=selected?unpinnedMunicipalityCodes(selected.id).size:0;
  $('sengokuSelectedName').textContent=selected
@@ -925,8 +924,7 @@ function renderSengoku(){
   button.setAttribute('aria-pressed',String(selected));
   const title=document.createElement('strong');title.textContent=person.name;
   const count=document.createElement('small');
-  const legacyCount=ownedRetiredHistories(person.id).length;
-  count.textContent=countOwned(person.id)+' / '+catalogCardCount(person.id)+' 枚'+(legacyCount?'・旧カード'+legacyCount+'枚':'');
+  count.textContent=countOwned(person.id)+' / '+catalogCardCount(person.id)+' 枚';
   button.append(title,count);button.onclick=()=>showSengokuPerson(person);target.append(button);
  }
 }
