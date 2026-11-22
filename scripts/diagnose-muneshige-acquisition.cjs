@@ -33,3 +33,28 @@ const out={person:person.name,personId:person.personId,approvedTotal:h.length,pl
  exampleAutomaticAwards:guesses,
  note:'This is a catalogue-only diagnostic; no user browser storage or exact visit records were accessed.'};
 console.log('MUNESHIGE_DIAGNOSTIC '+JSON.stringify(out));
+
+
+const tokyo=new Set(['13106','13120']);
+const tokyoSites=[...idx.sites.values()].filter(s=>(s.codes||[]).some(code=>tokyo.has(code)));
+const matchedSites=tokyoSites.map(site=>{
+ const linkedHistories=[...idx.linkSites].filter(([h,sites])=>sites.has(site.siteId)).map(([id])=>{
+  const h=idx.histories.get(id);
+  return {historyId:id,personId:h?.personId,personName:idx.people.get(h?.personId)?.name,historyTitle:h?.title,kind:h?.kind,eligible:[...(idx.codes.get(id)||[])]};
+ });
+ const relevantPersonIds=[...(site.pinPersonIds||site.personIds||[])];
+ return {siteId:site.siteId,name:site.name,siteDescription:(site.description||'').slice(0,250),
+  municipality:site.pinReview?.municipality,municipalityCodes:site.codes,publicPin:site.publicPin,
+  pinPersonIds:site.pinPersonIds||null,personIds:site.personIds||null,
+  names:relevantPersonIds.map(id=>idx.people.get(id)?.name),
+  associations:linkedHistories,mentionsTachibana:JSON.stringify(site).includes('宗茂')};
+});
+const personRelevantTokyos=matchedSites.filter(x=>x.names.includes('立花宗茂')||x.associations.some(h=>h.personId===person.personId)||x.mentionsTachibana);
+const tokyoTachibanaHistory=[...idx.histories.values()].filter(h=>h.personId===person.personId&&[...(idx.codes.get(h.historyId)||[])].some(c=>tokyo.has(c)));
+const visitAward=V.award(idx,{'13106':{first:'2026-11-22'},'13120':{first:'2026-11-22'}},{},[],'2026-11-22');
+const visitMuneshige=visitAward.added.filter(id=>idx.histories.get(id)?.personId===person.personId);
+const result={tokyoSiteCount:tokyoSites.length,personRelevantTokyos,allSites:matchedSites,
+  muneshigeHistoryEligibleTaitoNerima:tokyoTachibanaHistory.map(x=>x.historyId),
+  visitingOnlyTaitoNerimaAwardsMuneshige:visitMuneshige,
+  sameVisitAwardsOtherPeople:visitAward.added.map(id=>({historyId:id,person:idx.people.get(idx.histories.get(id)?.personId)?.name})).slice(0,50)};
+console.log('MUNESHIGE_TOKYO_SITE_CAUSE '+JSON.stringify(result));
