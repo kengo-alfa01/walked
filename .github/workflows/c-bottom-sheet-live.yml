@@ -1,4 +1,4 @@
-name: C bottom-sheet Pages live byte proof and real mobile tap
+name: C bottom-sheet Pages live byte proof with desktop and mobile taps
 on:
   push:
     branches: [main]
@@ -31,7 +31,7 @@ jobs:
           mkdir -p .qa-assets .qa-screenshots
           curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
           cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
-      - name: Actual published website — real WebKit Safari and Chromium taps
+      - name: Actual published website — Safari touch, PC Imabari sheet and Chromium clicks
         env:
           WALKED_BROWSER_ASSETS: .qa-assets
           WALKED_BASE_URL: https://kengo-alfa01.github.io/walked
