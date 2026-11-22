@@ -149,10 +149,20 @@ for(const [name,type,opts,mobile] of devices){
     const content=await page.locator('#sengokuPinSheet .sps-scroll').textContent();
     assert.match(content,/立入制限/,'critical preapproved safety notes lost');
     const metrics=await sheetGeometry(page);geometry(metrics);
-    assert.ok(metrics.scrollHeight>metrics.scrollClientHeight+30,'long Horikoshi detail must be scrollable');
     assert.equal(await page.evaluate(()=>document.body.style.position),'fixed','background page must be scroll locked');
     if(name==='iPhone Safari 390')
      await page.screenshot({path:path.join(shots,'after-iphone-horikoshi.png')});
+    // The approved Horikoshi text fits on some tall phones; append a test-only
+    // long paragraph to verify scrolling without modifying published content.
+    if(metrics.scrollHeight<=metrics.scrollClientHeight+30){
+     await page.evaluate(()=>{
+      const p=document.createElement('p');p.className='qa-only-long-description';
+      p.textContent='城跡の長文表示と末尾の閲覧確認。'.repeat(100);
+      document.querySelector('#sengokuPinSheet .sengoku-pin-popup').append(p);
+     });
+    }
+    const longMetrics=await sheetGeometry(page);geometry(longMetrics);
+    assert.ok(longMetrics.scrollHeight>longMetrics.scrollClientHeight+30,'extreme long detail must scroll internally');
     await page.locator('#sengokuPinSheet .sps-scroll').evaluate(el=>el.scrollTop=el.scrollHeight);
     await page.waitForTimeout(100);
     const bottom=await page.evaluate(()=>{
@@ -263,11 +273,18 @@ for(const [name,type,opts,mobile] of devices){
     assert.ok(await page.locator('.leaflet-popup-content .sengoku-pin-popup').isVisible(),'PC Leaflet popup absent');
     const title=await page.locator('.leaflet-popup-content .sengoku-pin-popup h3').textContent();
     assert.match(title,/堀越城跡/);
-    const metrics=await page.locator('.leaflet-popup-content .sengoku-pin-popup').evaluate(el=>({
+    await page.screenshot({path:path.join(shots,'pc-leaflet-horikoshi.png')});
+    let metrics=await page.locator('.leaflet-popup-content .sengoku-pin-popup').evaluate(el=>({
       height:el.getBoundingClientRect().height,scrollHeight:el.scrollHeight,clientHeight:el.clientHeight, viewport:innerHeight}));
     assert.ok(metrics.height<=Math.min(metrics.viewport*.65,490)+5,'PC popup unbounded '+JSON.stringify(metrics));
-    assert.ok(metrics.scrollHeight>metrics.clientHeight+25,'PC long popup must scroll inside itself');
-    await page.screenshot({path:path.join(shots,'pc-leaflet-horikoshi.png')});
+    if(metrics.scrollHeight<=metrics.clientHeight+25){
+     await page.locator('.leaflet-popup-content .sengoku-pin-popup').evaluate(el=>{
+      const p=document.createElement('p');p.textContent='長いPC史跡表示の限界テスト。'.repeat(110);el.append(p);
+     });
+     metrics=await page.locator('.leaflet-popup-content .sengoku-pin-popup').evaluate(el=>({
+      height:el.getBoundingClientRect().height,scrollHeight:el.scrollHeight,clientHeight:el.clientHeight,viewport:innerHeight}));
+    }
+    assert.ok(metrics.scrollHeight>metrics.clientHeight+25,'extreme long PC popup must scroll inside itself');
     console.log('SHEET_PC_PASS',JSON.stringify({name,pins:catalog.publicPins,existingLeaflet:true,scroll:metrics}));
    }
    assert.deepEqual(errors,[],'uncaught browser JS errors '+errors.join('; '));
