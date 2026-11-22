@@ -58,3 +58,15 @@ const result={tokyoSiteCount:tokyoSites.length,personRelevantTokyos,allSites:mat
   visitingOnlyTaitoNerimaAwardsMuneshige:visitMuneshige,
   sameVisitAwardsOtherPeople:visitAward.added.map(id=>({historyId:id,person:idx.people.get(idx.histories.get(id)?.personId)?.name})).slice(0,50)};
 console.log('MUNESHIGE_TOKYO_SITE_CAUSE '+JSON.stringify(result));
+
+const publicSites=[...idx.sites.values()].filter(s=>s.publicPin&&Array.isArray(s.point));
+const playableLinkedIds=new Set([...idx.linkSites.values()].flatMap(ids=>[...ids]));
+const unmatched=publicSites.filter(s=>!playableLinkedIds.has(s.siteId));
+const directRelevance=new Map([...idx.people.values()].map(p=>[p.personId,[]]));
+for(const s of unmatched){
+ for(const personId of (s.pinPersonIds||s.personIds||[]))if(directRelevance.has(personId))directRelevance.get(personId).push({name:s.name,siteId:s.siteId,city:s.pinReview?.municipality});
+}
+console.log('UNLINKED_PUBLIC_PINS '+JSON.stringify({
+ totalPublic:publicSites.length,linkedToCurrentHistory:publicSites.length-unmatched.length,
+ unlinkedCount:unmatched.length,unlinkedByPerson:[...directRelevance].filter(([id,sites])=>sites.length).map(([id,sites])=>({person:idx.people.get(id)?.name,count:sites.length,sites:sites.slice(0,7)})).slice(0,55)
+}));
