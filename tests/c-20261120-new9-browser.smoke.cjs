@@ -46,7 +46,7 @@ for(const [name,browserType,options] of [
        sites:sengokuV2Catalog.sites.size,
        publicPins:sengokuPins.getLayers().length,
        archived:sengokuV2Catalog.retiredHistories.size,
-       oldOwned:sengokuFound['sg2hist-nobuyuki-1620-komatsu']?.at,
+       retiredStillSaved:Object.prototype.hasOwnProperty.call(sengokuFound,'sg2hist-nobuyuki-1620-komatsu'),
        oldOwnedStable:!!sengokuFound['sg2hist-nobu-1534-birth'],
        newSiteStatus:sengokuV2Catalog.sites.get('sg2site-new9-aso-shrine-20261119')?.pinReview?.accessStatus,
        markerExists:!!marker,
@@ -57,7 +57,7 @@ for(const [name,browserType,options] of [
    });
    assert.equal(state.catalogPeople,74);assert.equal(state.histories,1251);assert.equal(state.sites,436);
    assert.equal(state.publicPins,419);assert.equal(state.archived,31);
-   assert.equal(state.oldOwned,'2020-01-02');assert.equal(state.oldOwnedStable,true);
+   assert.equal(state.retiredStillSaved,false);assert.equal(state.oldOwnedStable,true);
    assert.equal(state.newSiteStatus,'green');assert.equal(state.markerExists,true);
    assert.equal(state.latestHistoricalPinStatus,'red');assert.equal(state.newMunicipalityAward,6);
    
@@ -84,10 +84,10 @@ for(const [name,browserType,options] of [
    const buttonState=await page.evaluate(()=>({
      hiddenBackground:getComputedStyle(document.querySelector('.map-display-controls')).display==='none',
      hiddenCurrent:getComputedStyle(document.querySelector('.map-center')).display==='none',
-     oldOwned:sengokuFound['sg2hist-nobuyuki-1620-komatsu'].at
+     retiredStillSaved:Object.prototype.hasOwnProperty.call(sengokuFound,'sg2hist-nobuyuki-1620-komatsu')
    }));
    assert.equal(buttonState.hiddenBackground,true);assert.equal(buttonState.hiddenCurrent,true);
-   assert.equal(buttonState.oldOwned,'2020-01-02');
+   assert.equal(buttonState.retiredStillSaved,false);
    assert.deepEqual(issues,[],'no script page exceptions');
    console.log('C_20261120_BROWSER_PASS',JSON.stringify({name,...state,popup:popup.slice(0,140),buttonState}));
   }finally{await browser.close();}
