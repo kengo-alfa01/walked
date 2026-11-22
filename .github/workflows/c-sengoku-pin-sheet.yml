@@ -54,6 +54,7 @@ jobs:
           mkdir -p .qa-assets .qa-screenshots /tmp/walked-before
           curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
           cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git fetch --depth=1 origin c59103e1d65d56ef4f066273046390d26c056a0b
           git archive FETCH_HEAD | tar -x -C /tmp/walked-before
       - name: Real Safari Chrome 390, small 320, landscape, PC; screenshot before and after
