@@ -59,6 +59,8 @@ for(const [name,browserType,options] of [
     const group=[...document.querySelectorAll('#sengokuDetail .sengoku-source-links')].find(g=>JSON.stringify([...g.querySelectorAll('a')].map(a=>a.getAttribute('href')))===JSON.stringify(expected));
     if(!group)throw Error('source group not visible');
     group.setAttribute('data-qa-3links','yes');
+    // Restoring all-person pins after opening the earned card keeps source DOM visible.
+    selectedSengokuPersonId=null;refreshSengokuPins();
     return{pins:pins.length,markers:markers.length,structured,legacy,historyMissing,approvedLeaks,legacySafetyLost,wrongColors,creditsMissing,officialMismatch,
       toramaruLegacyStatus:toramaru.pinReview.accessStatus,toramaruLiveStatus:SengokuPinDisplay.statusFor(toramaru,approved),
       oldCard,historyLinks:expected.length,historyRendered:group.textContent,viewport:innerWidth,pageWidth:document.documentElement.scrollWidth};
