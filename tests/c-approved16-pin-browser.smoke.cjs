@@ -95,7 +95,7 @@ for(const [name,browserType,options] of [
     await page.touchscreen.tap(box.x+box.width/2,box.y+box.height/2);
    }else await page.locator('[data-qa-aso="yes"]').click({timeout:10000});
    await page.waitForTimeout(250);
-   const popupText=await page.evaluate(()=>map._popup?.getContent()?.textContent||'');
+   const popupText=await page.evaluate(mobile=>mobile?document.querySelector('#sengokuPinSheet .sps-scroll')?.textContent||'':map._popup?.getContent()?.textContent||'',options.hasTouch);
    assert.match(popupText,/阿蘇神社/);assert.match(popupText,/見学上の注意/);assert.match(popupText,/CODH作成/);
    assert.equal(popupText.includes('【管理用・非表示'),false);
    const link=page.locator('[data-qa-3links="yes"] a').first();
