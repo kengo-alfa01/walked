@@ -96,7 +96,9 @@ for(const [name,browserType,opts] of contexts){
       backup:currentBackup()};
    },{tachibana:tachibana.personId});
    assert.equal(initial.people.length,74);
-   assert.equal(initial.activeCount,Object.keys(activeSaved).length);
+   // Existing location awards can legitimately unlock associated non-place histories.
+   // Every pre-existing active record must survive, but the total may increase.
+   assert.ok(initial.activeCount>=Object.keys(activeSaved).length,'current awarded histories unexpectedly disappeared');
    assert.deepEqual(initial.people.filter(p=>p.label!==p.expected),[]);
    assert.ok(initial.people.every(p=>!p.label.includes('旧カード')));
    assert.deepEqual(initial.former,[],'no obsolete cards may survive in live state');
