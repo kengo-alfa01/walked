@@ -29,7 +29,7 @@ test('C sheet: mobile marker retains approved popup data, disables only its mobi
 });
 test('C sheet: fixed visual viewport, 74% cap, scroll containment, close, no map pan or zoom logic',()=>{
  assert.ok(css.includes('position:fixed'));
- assert.ok(css.includes('max-height:var(--sps-max-height,74dvh)'));
+ assert.ok(css.includes('max-height:min(var(--sps-max-height,74dvh),74dvh)'));
  assert.ok(css.includes('overscroll-behavior:contain'));
  assert.ok(css.includes('touch-action:pan-y'));
  assert.ok(css.includes('max-height:min(65dvh,490px)'));
