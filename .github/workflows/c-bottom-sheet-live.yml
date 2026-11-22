@@ -1,0 +1,47 @@
+name: C bottom-sheet Pages live byte proof and real mobile tap
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - sengoku-pin-sheet.js
+      - sengoku-pin-sheet.css
+      - scripts/verify-c-bottom-sheet-live.cjs
+      - .github/workflows/c-bottom-sheet-live.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bytes-and-live-browser:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Exact GitHub Pages 7-file byte equivalence
+        run: node scripts/verify-c-bottom-sheet-live.cjs
+      - name: Install WebKit Chromium testing dependencies
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Prepare pinned municipality topology
+        run: |
+          mkdir -p .qa-assets .qa-screenshots
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Actual published website — real WebKit Safari and Chromium taps
+        env:
+          WALKED_BROWSER_ASSETS: .qa-assets
+          WALKED_BASE_URL: https://kengo-alfa01.github.io/walked
+          WALKED_SCREENSHOT_DIR: .qa-screenshots
+        run: node --test tests/c-sengoku-pin-sheet.browser.cjs
+      - name: Archive published website QA screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: C-bottom-sheet-live-20261122
+          path: .qa-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
