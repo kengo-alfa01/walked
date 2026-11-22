@@ -1,0 +1,65 @@
+/* Only the mobile historic-site detail uses a fixed viewport bottom sheet.
+ * All PC Leaflet popups and region encyclopedia windows retain their behavior.
+ */
+.sengoku-pin-sheet[hidden]{display:none!important}
+.sengoku-pin-sheet{
+ position:fixed;inset-inline:0;bottom:var(--sps-bottom-gap,0px);
+ z-index:2000;display:flex;align-items:flex-end;justify-content:center;
+ padding-inline:max(8px,env(safe-area-inset-left)) max(8px,env(safe-area-inset-right));
+ pointer-events:none;box-sizing:border-box;
+}
+.sengoku-pin-sheet .sps-panel{
+ display:flex;flex-direction:column;min-height:0;max-height:var(--sps-max-height,74dvh);
+ width:min(760px,100%);margin:0 auto;background:#fff;color:#183a30;
+ border:1px solid #c7d7cc;border-bottom:0;border-radius:17px 17px 0 0;
+ box-shadow:0 -8px 34px #102b2745;pointer-events:auto;
+ overflow:hidden;overscroll-behavior:contain;
+ padding-bottom:max(10px,env(safe-area-inset-bottom));
+ box-sizing:border-box;
+}
+.sengoku-pin-sheet.is-open .sps-panel{animation:sps-enter .17s ease-out both}
+@keyframes sps-enter{from{transform:translateY(18px);opacity:.8}to{transform:translateY(0);opacity:1}}
+.sengoku-pin-sheet .sps-header{
+ display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex:0 0 auto;
+ padding:13px 13px 9px 16px;background:#fff;
+ border-bottom:1px solid #dce7df;
+}
+.sengoku-pin-sheet .sps-title-group{flex:1;min-width:0}
+.sengoku-pin-sheet .sps-title{margin:2px 0 0;font-size:16px;line-height:1.4;color:#214d3a;overflow-wrap:anywhere}
+.sengoku-pin-sheet .sps-risk{
+ display:inline-block;margin-top:6px;padding:3px 8px;border-radius:6px;
+ font-size:12px;font-weight:700;background:#fceae7;color:#9e3025
+}
+.sengoku-pin-sheet .sps-risk[hidden]{display:none}
+.sengoku-pin-sheet .sps-close{
+ flex:0 0 46px;display:grid;place-items:center;width:46px;height:46px;
+ min-width:46px;min-height:46px;margin:-3px -2px 0 0;padding:0;
+ border:1px solid #d3e0d9;border-radius:50%;background:#f0f5f2;
+ color:#254b3d;font-size:28px;font-weight:400;line-height:1;
+ cursor:pointer;touch-action:manipulation;
+}
+.sengoku-pin-sheet .sps-close:focus-visible{outline:3px solid #0e8a66;outline-offset:2px}
+.sengoku-pin-sheet .sps-scroll{
+ flex:0 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;
+ overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
+ touch-action:pan-y;padding:11px 17px 18px;
+ font-size:13px;line-height:1.7;overflow-wrap:anywhere;
+}
+.sengoku-pin-sheet .sps-scroll .sengoku-pin-popup{
+ max-height:none;max-width:none;overflow:visible;
+}
+.sengoku-pin-sheet .sps-scroll a{overflow-wrap:anywhere;word-break:break-word;min-height:42px}
+.sengoku-pin-sheet .sps-scroll .sengoku-pin-history{line-height:1.75}
+@media (max-width:359px){
+ .sengoku-pin-sheet .sps-header{padding:10px 10px 7px 12px}
+ .sengoku-pin-sheet .sps-scroll{padding:9px 12px 16px}
+ .sengoku-pin-sheet .sps-title{font-size:15px}
+}
+@media (prefers-reduced-motion:reduce){
+ .sengoku-pin-sheet.is-open .sps-panel{animation:none}
+}
+/* Desktop Leaflet remains a popup, but never expands past the visible viewport. */
+.sengoku-pin-popup{
+ max-height:min(65dvh,490px);overflow-y:auto;overflow-x:hidden;
+ overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
+}
