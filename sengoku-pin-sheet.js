@@ -1,4 +1,4 @@
-/* Responsive, non-modal historic-site bottom sheet.
+/* Shared smartphone and desktop, non-modal historic-site bottom sheet.
  * Reuses the exact approved DOM content built by SengokuPinDisplay.
  * Never modifies site data, map center/zoom, card acquisition or other popups.
  */
@@ -9,7 +9,7 @@
 })(typeof globalThis!=='undefined'?globalThis:this,function(){
  'use strict';
  const MOBILE_QUERY='(max-width: 700px), (pointer: coarse) and (max-width: 1024px)';
- function create({document,window,map,renderContent,statusFor,onModeChange}){
+ function create({document,window,map,renderContent,statusFor}){
   const mq=window.matchMedia(MOBILE_QUERY),body=document.body,html=document.documentElement;
   const root=document.createElement('section');
   root.id='sengokuPinSheet';root.className='sengoku-pin-sheet';
@@ -70,7 +70,6 @@
    return true;
   }
   function open(site){
-   if(!isMobile())return false;
    if(!site?.siteId)return false;
    // The existing source renderer constructs links and paragraphs from text nodes.
    const popup=renderContent(site);
@@ -85,8 +84,6 @@
    map.closePopup();
    preventPageScroll();
    root.hidden=false;root.classList.remove('is-open');
-   // Restart the short entrance animation when replacing an existing pin.
-   void panel.offsetWidth;
    root.classList.add('is-open');
    document.querySelector('.mapwrap')?.classList.add('map-info-popup-open');
    closeButton.focus({preventScroll:true});
@@ -98,14 +95,11 @@
   });
   // Leaflet receives background-map taps; historic markers suppress map click bubbling.
   map.on('click',()=>{if(isOpen())close()});
-  function changeMode(){
-   const wasOpen=isOpen();
-   if(wasOpen)close();
-   onModeChange?.();
-  }
+  // Viewport breakpoints now change presentation width only, never close the shared sheet.
+  function changeMode(){if(isOpen())viewport();}
   if(typeof mq.addEventListener==='function')mq.addEventListener('change',changeMode);
   else mq.addListener?.(changeMode);
-  window.addEventListener('resize',()=>{if(isOpen()){if(!isMobile())close();else viewport();}});
+  window.addEventListener('resize',()=>{if(isOpen())viewport();});
   window.visualViewport?.addEventListener('resize',()=>{if(isOpen())viewport();});
   window.visualViewport?.addEventListener('scroll',()=>{if(isOpen())viewport();});
   return {isMobile,isOpen,open,close,get activeSiteId(){return activeId},element:root,scrollElement:scroll,
