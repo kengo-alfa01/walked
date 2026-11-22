@@ -1,5 +1,5 @@
-/* Only the mobile historic-site detail uses a fixed viewport bottom sheet.
- * All PC Leaflet popups and region encyclopedia windows retain their behavior.
+/* Shared viewport-fixed historic-site bottom sheet on phones and desktop.
+ * Other Leaflet / regional encyclopedia content stays unchanged.
  */
 .sengoku-pin-sheet[hidden]{display:none!important}
 .sengoku-pin-sheet{
@@ -61,8 +61,14 @@ body.sps-page-locked #titleToast{visibility:hidden;pointer-events:none}
 @media (prefers-reduced-motion:reduce){
  .sengoku-pin-sheet.is-open .sps-panel{animation:none}
 }
-/* Desktop Leaflet remains a popup, but never expands past the visible viewport. */
-.sengoku-pin-popup{
- max-height:min(65dvh,490px);overflow-y:auto;overflow-x:hidden;
- overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
+/* On PC use a readable central panel instead of the narrow Leaflet popup.
+   The same approved content, safety fields and links are used on every device. */
+@media (min-width:701px){
+ .sengoku-pin-sheet{padding-inline:24px}
+ .sengoku-pin-sheet .sps-panel{width:min(860px,100%);border-radius:18px 18px 0 0}
+ .sengoku-pin-sheet .sps-header{padding:17px 23px 11px 25px}
+ .sengoku-pin-sheet .sps-title{font-size:19px;line-height:1.45}
+ .sengoku-pin-sheet .sps-scroll{font-size:15px;line-height:1.8;padding:15px 26px 25px}
+ .sengoku-pin-sheet .sps-scroll .sengoku-pin-popup{font-size:15px;line-height:1.8}
+ .sengoku-pin-sheet .sps-scroll .sengoku-pin-attribution{font-size:13px}
 }
