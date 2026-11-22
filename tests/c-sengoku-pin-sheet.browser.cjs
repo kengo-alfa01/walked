@@ -98,14 +98,14 @@ async function sheetGeometry(page){
 }
 async function currentMap(page){
  return page.evaluate(()=>({lat:map.getCenter().lat,lng:map.getCenter().lng,zoom:map.getZoom(),mode:activeCollectionMode,
-  visits:JSON.stringify(state.visited),oldCard:sengokuFound['sg2hist-nobuyuki-1620-komatsu']?.at}));
+  visits:JSON.stringify(state.visited),retiredStillSaved:Object.prototype.hasOwnProperty.call(sengokuFound,'sg2hist-nobuyuki-1620-komatsu')}));
 }
 function sameMap(a,b){
  assert.equal(a.zoom,b.zoom,'zoom must be preserved after closing');
  assert.equal(a.mode,b.mode,'display mode must be preserved after closing');
  assert.ok(Math.abs(a.lat-b.lat)<.00001&&Math.abs(a.lng-b.lng)<.00001,'map center must be preserved');
  assert.equal(a.visits,b.visits,'municipality visit records modified');
- assert.equal(a.oldCard,b.oldCard,'existing acquired card modified');
+ assert.equal(a.retiredStillSaved,b.retiredStillSaved,'obsolete card must not reappear');
 }
 const devices=[
  ['iPhone Safari 390',webkit,{viewport:{width:390,height:844},deviceScaleFactor:3,isMobile:true,hasTouch:true},true],
@@ -128,7 +128,7 @@ for(const [name,type,opts,mobile] of devices){
     halos:sengokuPinHalos.getLayers().length,
     people:sengokuV2Catalog.people.size,histories:sengokuV2Catalog.histories.size,
     site:sengokuV2Catalog.sites.size,
-    mobile:sitePinSheet.isMobile(),storage:sengokuFound['sg2hist-nobuyuki-1620-komatsu']?.at,
+    mobile:sitePinSheet.isMobile(),storage:Object.prototype.hasOwnProperty.call(sengokuFound,'sg2hist-nobuyuki-1620-komatsu'),
     regionalHidden:document.querySelector('#regionalPanel').hidden
    }));
    assert.equal(catalog.publicPins,419);
@@ -137,7 +137,7 @@ for(const [name,type,opts,mobile] of devices){
    assert.equal(catalog.histories,1251);
    assert.equal(catalog.site,436);
    assert.equal(catalog.mobile,mobile);
-   assert.equal(catalog.storage,'2020-01-02');
+   assert.equal(catalog.storage,false,'retired cards must not stay owned');
    assert.equal(catalog.regionalHidden,true);
    const initialMap=await currentMap(page);
    const coord=await focusPin(page,mobile?'堀越城跡':'今治城跡');
@@ -273,7 +273,7 @@ for(const [name,type,opts,mobile] of devices){
     await page.evaluate(()=>selectCollectionMode('sengoku'));
     assert.equal(await page.evaluate(()=>sengokuPins.getLayers().length),419);
     const after=await currentMap(page);
-    assert.equal(after.oldCard,initialMap.oldCard);
+    assert.equal(after.retiredStillSaved,initialMap.retiredStillSaved);
     assert.equal(after.visits,initialMap.visits);
     console.log('SHEET_MOBILE_PASS',JSON.stringify({name,pins:catalog.publicPins,longScrollable:true,bottomVisible:true,outsideClose:true,
       realLinkTap:true,modeSwitch:true,colors:['red','yellow','green'],screen:opts.viewport,secondPin:afterSwitch.site,short:compact}));
@@ -332,7 +332,7 @@ for(const [name,type,opts,mobile] of devices){
     assert.ok(await page.locator('#sengokuPinSheet').isHidden(),'outside PC map click did not dismiss');
     sameMap(beforeOutside,await currentMap(page));
     const state=await currentMap(page);
-    assert.equal(state.oldCard,initialMap.oldCard);
+    assert.equal(state.retiredStillSaved,initialMap.retiredStillSaved);
     assert.equal(state.visits,initialMap.visits);
     console.log('SHEET_PC_PASS',JSON.stringify({name,pins:catalog.publicPins,wideBottomSheet:true,noLeafletPopup:true,
       testedSite:'今治城跡',width:geometryPC.sheet.width,scroll:longMetrics.scrollHeight,
