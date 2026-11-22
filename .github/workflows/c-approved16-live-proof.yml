@@ -1,0 +1,25 @@
+name: C approved16 Pages exact published byte proof
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - sengoku-pin-approved-v2.js
+      - sengoku-pin-display.js
+      - sengoku/v2/approved-pin-display-20261122-v2.json
+      - .github/workflows/c-approved16-live-proof.yml
+      - scripts/verify-c-approved16-live.cjs
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prove-pages:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Exact byte equality, source JSON 419, and approved display 16
+        run: node scripts/verify-c-approved16-live.cjs
