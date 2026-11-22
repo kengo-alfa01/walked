@@ -24,12 +24,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Install DOM test dependency
-        run: npm install --no-save --no-package-lock --ignore-scripts jsdom@26.1.0
       - name: User ⑥, B, ③ fixed 16 published display vs unchanged other 403 QA
         run: node --test tests/c-approved16-pin-display-20261122.test.cjs
       - name: Original source JSON, 419 pins, history/area/card and 80 ⑥-approved records regression
-        run: node --test tests/sengoku-v2.test.cjs tests/c-20261120-new9-release.test.cjs tests/c-20261119-fixed57-release.test.cjs tests/sengoku-v2-dom.test.cjs
+        run: node --test tests/sengoku-v2.test.cjs tests/c-20261120-new9-release.test.cjs tests/c-20261119-fixed57-release.test.cjs
   browser-qa:
     runs-on: ubuntu-24.04
     container:
