@@ -64,7 +64,7 @@ async function beforeScreenshot(context){
   const p=await focusPin(page,'堀越城跡');
   await page.touchscreen.tap(p.x,p.y);
   await page.waitForTimeout(200);
-  const popup=await page.evaluate(()=>map._popup?.getContent()?.textContent||'');
+  const popup=await page.evaluate(()=>document.querySelector('#sengokuPinSheetTitle')?.textContent+' '+(document.querySelector('#sengokuPinSheet .sps-scroll')?.textContent||'') || map._popup?.getContent()?.textContent||'');
   assert.match(popup,/堀越城跡/);
   await page.screenshot({path:path.join(shots,'before-iphone-horikoshi.png')});
  }finally{await page.close()}
@@ -285,7 +285,11 @@ for(const [name,type,opts,mobile] of devices){
     const explanation=await page.locator('#sengokuPinSheet .sps-scroll').textContent();
     assert.match(explanation,/1602年|1604年/,'existing Imabari Castle explanation missing');
     assert.match(explanation,/見学状況：/,'visit category missing on PC');
-    assert.match(explanation,/立入制限|見学上の注意/,'previously approved safety information must remain');
+    const originalRestriction=await page.evaluate(()=>{
+     const site=[...sengokuV2Catalog.sites.values()].find(s=>s.publicPin&&s.name.includes('今治城跡'));
+     return SengokuV2.pinDetails(site).restriction||'';
+    });
+    if(originalRestriction)assert.ok(explanation.includes(originalRestriction),'previously approved restriction was truncated or omitted');
     const geometryPC=await sheetGeometry(page);geometry(geometryPC);
     assert.ok(geometryPC.sheet.width>=600&&geometryPC.sheet.width<=865,
       'PC detail must be readable rather than narrow Leaflet text column '+JSON.stringify(geometryPC));
