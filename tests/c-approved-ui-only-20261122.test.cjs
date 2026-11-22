@@ -48,7 +48,9 @@ test('C technical-only: all 1251 histories retain source URL order and content, 
  assert.ok(doc.sites.filter(s=>s.publicPin).every(s=>typeof s.pinReview.restriction==='string'));
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
  assert.ok(html.includes("SengokuSourceLinks.append(content,history.sourceUrls,document)"));
- assert.ok(html.includes("if(details.restriction)field('立入制限：',details.restriction)"),'current safety notes must not silently disappear');
+ const display=fs.readFileSync(path.join(__dirname,'../sengoku-pin-display.js'),'utf8');
+ assert.ok(display.includes("if(d.restriction)field('立入制限：',d.restriction)"),'legacy 403 safety notes must not silently disappear');
+ assert.ok(html.includes('SengokuPinDisplay.makePopup(site,SengokuV2,document,SengokuPinApprovedV2)'),'approved popup migration must be wired');
  assert.ok(html.includes("黄：注意あり"));
  assert.ok(html.includes("赤：危険・立入制限あり"));
 });
