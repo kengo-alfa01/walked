@@ -1,7 +1,7 @@
-name: C historic-site mobile bottom sheet and PC popup QA
+name: C shared desktop and smartphone historic-site bottom sheet QA
 on:
   push:
-    branches: [c/mobile-sengoku-pin-sheet-20261122]
+    branches: [c/desktop-sengoku-bottom-sheet-20261122]
   pull_request:
     branches: [main]
     paths:
@@ -54,7 +54,7 @@ jobs:
           mkdir -p .qa-assets .qa-screenshots
           curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
           cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
-      - name: Real Safari Chrome 390, small 320, landscape, PC; screenshot before and after
+      - name: Real Safari Chrome 390, small 320, landscape, PC Imabari bottom sheet and before-after screenshots
         env:
           WALKED_BROWSER_ASSETS: .qa-assets
           WALKED_SCREENSHOT_DIR: .qa-screenshots

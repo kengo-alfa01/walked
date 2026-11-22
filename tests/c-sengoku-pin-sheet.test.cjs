@@ -14,16 +14,16 @@ test('C sheet: controller is self-contained and JavaScript syntax is valid',()=>
  assert.ok(api.MOBILE_QUERY.includes('pointer: coarse'));
  assert.ok(api.MOBILE_QUERY.includes('max-width: 700px'));
  assert.equal(typeof api.create,'function');
- assert.ok(index.includes('sengoku-pin-sheet.css?v=c20261122-sheet'));
- assert.ok(index.includes('sengoku-pin-sheet.js?v=c20261122-sheet'));
+ assert.ok(index.includes('sengoku-pin-sheet.css?v=c20261122-pc-sheet'));
+ assert.ok(index.includes('sengoku-pin-sheet.js?v=c20261122-pc-sheet'));
 });
-test('C sheet: mobile marker retains approved popup data, disables only its mobile open event',()=>{
+test('C sheet: mobile and desktop markers retain approved DOM and suppress Leaflet popup',()=>{
  assert.ok(index.includes(".bindPopup(sengokuPinPopup(site))"));
  assert.ok(index.includes("marker.off('click',marker._openPopup)"));
  assert.ok(index.includes("marker.off('keypress',marker._onKeyPress)"));
- assert.ok(index.includes("bubblingMouseEvents:!mobile"));
- assert.ok(index.includes("mobilePinSheet.open(site)"));
- assert.ok(index.includes("if(mode!=='sengoku')mobilePinSheet.close();"));
+ assert.ok(index.includes("bubblingMouseEvents:false"));
+ assert.ok(index.includes("sitePinSheet.open(site)"));
+ assert.ok(index.includes("if(mode!=='sengoku')sitePinSheet.close();"));
  assert.ok(index.includes("SengokuPinDisplay.makePopup(site,SengokuV2,document,SengokuPinApprovedV2)"));
  assert.ok(index.includes("SengokuPinDisplay.statusFor(site,SengokuPinApprovedV2)"));
 });
@@ -32,8 +32,10 @@ test('C sheet: fixed visual viewport, 74% cap, scroll containment, close, no map
  assert.ok(css.includes('max-height:min(var(--sps-max-height,74dvh),74dvh)'));
  assert.ok(css.includes('overscroll-behavior:contain'));
  assert.ok(css.includes('touch-action:pan-y'));
- assert.ok(css.includes('max-height:min(65dvh,490px)'));
+ assert.ok(css.includes('width:min(860px,100%)'));
  assert.ok(sheet.includes('window.visualViewport'));
+ assert.ok(!sheet.includes('if(!isMobile())return false'),'desktop site must never be rejected');
+ assert.ok(!sheet.includes('if(!isMobile())close()'),'resize must not close desktop sheet');
  assert.ok(sheet.includes('window.scrollTo(old.x,old.y)'));
  assert.ok(sheet.includes("map.on('click',()=>{if(isOpen())close()})"));
  assert.ok(sheet.includes("closeButton.addEventListener('click',close)"));
@@ -46,6 +48,7 @@ test('C sheet: immutable catalog, exact 419 published pins and 16 approved displ
  assert.equal(original.histories.length,1251);
  assert.equal(Object.keys(approved).length,16);
  assert.ok(original.sites.some(s=>s.publicPin&&s.name.includes('堀越城跡')));
+ assert.ok(original.sites.some(s=>s.publicPin&&s.name.includes('今治城跡')));
  assert.ok(Object.values(approved).every(a=>a.approval.user==='公開OK'));
  assert.ok(index.includes('SengokuSourceLinks.append(content,history.sourceUrls,document)'));
 });

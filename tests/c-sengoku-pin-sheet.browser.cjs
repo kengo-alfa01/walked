@@ -64,7 +64,7 @@ async function beforeScreenshot(context){
   const p=await focusPin(page,'堀越城跡');
   await page.touchscreen.tap(p.x,p.y);
   await page.waitForTimeout(200);
-  const popup=await page.evaluate(()=>map._popup?.getContent()?.textContent||'');
+  const popup=await page.evaluate(()=>document.querySelector('#sengokuPinSheetTitle')?.textContent+' '+(document.querySelector('#sengokuPinSheet .sps-scroll')?.textContent||'') || map._popup?.getContent()?.textContent||'');
   assert.match(popup,/堀越城跡/);
   await page.screenshot({path:path.join(shots,'before-iphone-horikoshi.png')});
  }finally{await page.close()}
@@ -112,7 +112,7 @@ const devices=[
  ['iPhone Chrome 390',chromium,{viewport:{width:390,height:844},deviceScaleFactor:3,isMobile:true,hasTouch:true},true],
  ['Small phone Safari 320',webkit,{viewport:{width:320,height:700},deviceScaleFactor:2,isMobile:true,hasTouch:true},true],
  ['iPhone landscape Safari',webkit,{viewport:{width:844,height:390},deviceScaleFactor:3,isMobile:true,hasTouch:true},true],
- ['Desktop Chromium',chromium,{viewport:{width:1366,height:900},deviceScaleFactor:1,isMobile:false,hasTouch:false},false]
+ ['Desktop Chromium 1332',chromium,{viewport:{width:1332,height:717},deviceScaleFactor:1,isMobile:false,hasTouch:false},false]
 ];
 for(const [name,type,opts,mobile] of devices){
  test('C bottom sheet: '+name,{timeout:160000},async()=>{
@@ -128,7 +128,7 @@ for(const [name,type,opts,mobile] of devices){
     halos:sengokuPinHalos.getLayers().length,
     people:sengokuV2Catalog.people.size,histories:sengokuV2Catalog.histories.size,
     site:sengokuV2Catalog.sites.size,
-    mobile:mobilePinSheet.isMobile(),storage:sengokuFound['sg2hist-nobuyuki-1620-komatsu']?.at,
+    mobile:sitePinSheet.isMobile(),storage:sengokuFound['sg2hist-nobuyuki-1620-komatsu']?.at,
     regionalHidden:document.querySelector('#regionalPanel').hidden
    }));
    assert.equal(catalog.publicPins,419);
@@ -140,7 +140,7 @@ for(const [name,type,opts,mobile] of devices){
    assert.equal(catalog.storage,'2020-01-02');
    assert.equal(catalog.regionalHidden,true);
    const initialMap=await currentMap(page);
-   const coord=await focusPin(page,'堀越城跡');
+   const coord=await focusPin(page,mobile?'堀越城跡':'今治城跡');
    if(mobile)await page.touchscreen.tap(coord.x,coord.y);
    else await page.mouse.click(coord.x,coord.y);
    await page.waitForTimeout(230);
@@ -185,7 +185,7 @@ for(const [name,type,opts,mobile] of devices){
     // Outside-map tap closes sheet without moving or zooming the map.
     await page.evaluate(()=>{
       const site=[...sengokuV2Catalog.sites.values()].find(s=>s.publicPin&&s.name.includes('堀越城跡'));
-      mobilePinSheet.open(site);
+      sitePinSheet.open(site);
     });
     const beforeOutside=await currentMap(page);
     const xy=await page.evaluate(()=>{
@@ -201,7 +201,7 @@ for(const [name,type,opts,mobile] of devices){
     // Opening a different pin replaces the detail without showing Leaflet popup.
     await page.evaluate(()=>{
       const site=[...sengokuV2Catalog.sites.values()].find(s=>s.publicPin&&s.name.includes('堀越城跡'));
-      mobilePinSheet.open(site);
+      sitePinSheet.open(site);
       const m=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.querySelector('h3')?.textContent?.includes('阿蘇神社'));
       if(!m)throw Error('Missing approved Aso marker');
       map.setView(m.getLatLng(),13,{animate:false});
@@ -224,7 +224,7 @@ for(const [name,type,opts,mobile] of devices){
     assert.equal(hit.same,true,'upper UI blocks real second pin tap '+JSON.stringify(hit));
     await page.touchscreen.tap(nextRect.x+nextRect.width/2,nextRect.y+nextRect.height/2);
     assert.match(await page.locator('#sengokuPinSheetTitle').textContent(),/阿蘇神社/,'second pin did not replace active site: '+JSON.stringify(hit));
-    const afterSwitch=await page.evaluate(()=>({site:mobilePinSheet.activeSiteId,popup:!!map._popup?.isOpen(),body:document.querySelector('#sengokuPinSheet .sps-scroll').textContent}));
+    const afterSwitch=await page.evaluate(()=>({site:sitePinSheet.activeSiteId,popup:!!map._popup?.isOpen(),body:document.querySelector('#sengokuPinSheet .sps-scroll').textContent}));
     assert.ok(afterSwitch.site?.includes('aso-shrine')&&!afterSwitch.popup);
     assert.match(afterSwitch.body,/出典・ライセンス帰属/);
     // Real external link tap inside a scrollable sheet.
@@ -238,7 +238,7 @@ for(const [name,type,opts,mobile] of devices){
       const result={};
       for(const status of ['red','yellow','green']){
        const s=[...sengokuV2Catalog.sites.values()].find(s=>s.publicPin&&SengokuPinDisplay.statusFor(s,SengokuPinApprovedV2)===status);
-       mobilePinSheet.open(s);
+       sitePinSheet.open(s);
        result[status]={header:document.getElementById('sengokuPinSheetTitle').textContent,
         note:document.querySelector('#sengokuPinSheet .sps-scroll').textContent,
         riskShown:!document.querySelector('#sengokuPinSheet .sps-risk').hidden};
@@ -252,7 +252,7 @@ for(const [name,type,opts,mobile] of devices){
     const compact=await page.evaluate(()=>{
       const sites=[...sengokuV2Catalog.sites.values()].filter(s=>s.publicPin);
       const shortest=sites.reduce((a,b)=>sengokuPinPopup(a).textContent.length<sengokuPinPopup(b).textContent.length?a:b);
-      mobilePinSheet.open(shortest);
+      sitePinSheet.open(shortest);
       return {name:shortest.name,length:sengokuPinPopup(shortest).textContent.length};
     });
     const shortMetrics=await sheetGeometry(page);geometry(shortMetrics);
@@ -278,23 +278,66 @@ for(const [name,type,opts,mobile] of devices){
     console.log('SHEET_MOBILE_PASS',JSON.stringify({name,pins:catalog.publicPins,longScrollable:true,bottomVisible:true,outsideClose:true,
       realLinkTap:true,modeSwitch:true,colors:['red','yellow','green'],screen:opts.viewport,secondPin:afterSwitch.site,short:compact}));
    }else{
-    assert.ok(await page.locator('#sengokuPinSheet').isHidden(),'PC sheet must stay hidden');
-    assert.ok(await page.locator('.leaflet-popup-content .sengoku-pin-popup').isVisible(),'PC Leaflet popup absent');
-    const title=await page.locator('.leaflet-popup-content .sengoku-pin-popup h3').textContent();
-    assert.match(title,/堀越城跡/);
-    await page.screenshot({path:path.join(shots,'pc-leaflet-horikoshi.png')});
-    let metrics=await page.locator('.leaflet-popup-content .sengoku-pin-popup').evaluate(el=>({
-      height:el.getBoundingClientRect().height,scrollHeight:el.scrollHeight,clientHeight:el.clientHeight, viewport:innerHeight}));
-    assert.ok(metrics.height<=Math.min(metrics.viewport*.65,490)+5,'PC popup unbounded '+JSON.stringify(metrics));
-    if(metrics.scrollHeight<=metrics.clientHeight+25){
-     await page.locator('.leaflet-popup-content .sengoku-pin-popup').evaluate(el=>{
-      const p=document.createElement('p');p.textContent='長いPC史跡表示の限界テスト。'.repeat(110);el.append(p);
+    assert.ok(await page.locator('#sengokuPinSheet').isVisible(),'PC bottom sheet did not open');
+    assert.equal(await page.evaluate(()=>!!map._popup?.isOpen()),false,'old PC Leaflet balloon must not open');
+    const title=await page.locator('#sengokuPinSheetTitle').textContent();
+    assert.match(title,/今治城跡/,'PC must display the historic site from the reported screenshot');
+    const explanation=await page.locator('#sengokuPinSheet .sps-scroll').textContent();
+    assert.match(explanation,/1602年|1604年/,'existing Imabari Castle explanation missing');
+    assert.match(explanation,/見学状況：/,'visit category missing on PC');
+    const originalRestriction=await page.evaluate(()=>{
+     const site=[...sengokuV2Catalog.sites.values()].find(s=>s.publicPin&&s.name.includes('今治城跡'));
+     return SengokuV2.pinDetails(site).restriction||'';
+    });
+    if(originalRestriction)assert.ok(explanation.includes(originalRestriction),'previously approved restriction was truncated or omitted');
+    const geometryPC=await sheetGeometry(page);geometry(geometryPC);
+    assert.ok(geometryPC.sheet.width>=600&&geometryPC.sheet.width<=865,
+      'PC detail must be readable rather than narrow Leaflet text column '+JSON.stringify(geometryPC));
+    assert.equal(await page.evaluate(()=>document.body.style.position),'fixed','PC background scroll not locked');
+    await page.screenshot({path:path.join(shots,'pc-bottom-sheet-imabari.png')});
+    const beforeClose=await currentMap(page);
+    // A huge paragraph is used only for overflow testing, never written to published site data.
+    if(geometryPC.scrollHeight<=geometryPC.scrollClientHeight+30){
+     await page.locator('#sengokuPinSheet .sengoku-pin-popup').evaluate(el=>{
+      const p=document.createElement('p');p.className='qa-only-long-description';
+      p.textContent='今治城跡の説明が非常に長い場合も最終行まで閲覧できる。'.repeat(110);
+      el.append(p);
      });
-     metrics=await page.locator('.leaflet-popup-content .sengoku-pin-popup').evaluate(el=>({
-      height:el.getBoundingClientRect().height,scrollHeight:el.scrollHeight,clientHeight:el.clientHeight,viewport:innerHeight}));
     }
-    assert.ok(metrics.scrollHeight>metrics.clientHeight+25,'extreme long PC popup must scroll inside itself');
-    console.log('SHEET_PC_PASS',JSON.stringify({name,pins:catalog.publicPins,existingLeaflet:true,scroll:metrics}));
+    const longMetrics=await sheetGeometry(page);geometry(longMetrics);
+    assert.ok(longMetrics.scrollHeight>longMetrics.scrollClientHeight+30,'PC long detail must scroll inside its panel');
+    await page.locator('#sengokuPinSheet .sps-scroll').evaluate(el=>el.scrollTop=el.scrollHeight);
+    const finalLine=await page.locator('#sengokuPinSheet .sps-scroll').evaluate(el=>{
+      const last=el.querySelector('.sengoku-pin-popup').lastElementChild.getBoundingClientRect();
+      const box=el.getBoundingClientRect();
+      return {scrollTop:el.scrollTop,lastBottom:last.bottom,bottom:box.bottom};
+    });
+    assert.ok(finalLine.scrollTop>20&&finalLine.lastBottom<=finalLine.bottom+4,
+      'PC last line not reachable '+JSON.stringify(finalLine));
+    // Keyboard and pointer dismissal both preserve map location and zoom.
+    await page.keyboard.press('Escape');
+    assert.ok(await page.locator('#sengokuPinSheet').isHidden(),'Escape did not close PC sheet');
+    sameMap(beforeClose,await currentMap(page));
+    assert.equal(await page.evaluate(()=>document.body.style.position),'','PC page scroll lock not restored');
+    await page.evaluate(()=>{
+     const s=[...sengokuV2Catalog.sites.values()].find(s=>s.publicPin&&s.name.includes('今治城跡'));
+     sitePinSheet.open(s);
+    });
+    const beforeOutside=await currentMap(page);
+    const bg=await page.evaluate(()=>{
+     const r=document.getElementById('map').getBoundingClientRect(),sheet=document.querySelector('#sengokuPinSheet .sps-panel').getBoundingClientRect();
+     return {x:r.left+30,y:Math.max(r.top+35,Math.min(sheet.top-35,r.top+80))};
+    });
+    await page.mouse.click(bg.x,bg.y);
+    assert.ok(await page.locator('#sengokuPinSheet').isHidden(),'outside PC map click did not dismiss');
+    sameMap(beforeOutside,await currentMap(page));
+    const state=await currentMap(page);
+    assert.equal(state.oldCard,initialMap.oldCard);
+    assert.equal(state.visits,initialMap.visits);
+    console.log('SHEET_PC_PASS',JSON.stringify({name,pins:catalog.publicPins,wideBottomSheet:true,noLeafletPopup:true,
+      testedSite:'今治城跡',width:geometryPC.sheet.width,scroll:longMetrics.scrollHeight,
+      escClose:true,outsideClose:true,preserveMap:true}));
+
    }
    assert.deepEqual(errors,[],'uncaught browser JS errors '+errors.join('; '));
   }finally{await browser.close()}
