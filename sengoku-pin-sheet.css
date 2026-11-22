@@ -18,7 +18,8 @@
  box-sizing:border-box;
 }
 .sengoku-pin-sheet.is-open .sps-panel{animation:sps-enter .17s ease-out both}
-@keyframes sps-enter{from{transform:translateY(18px);opacity:.8}to{transform:translateY(0);opacity:1}}
+/* Fade only: a translated panel can temporarily protrude below Safari's visual viewport. */
+@keyframes sps-enter{from{opacity:.8}to{opacity:1}}
 .sengoku-pin-sheet .sps-header{
  display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex:0 0 auto;
  padding:13px 13px 9px 16px;background:#fff;
