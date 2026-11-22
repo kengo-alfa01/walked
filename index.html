@@ -1074,12 +1074,18 @@ function reconcileSengokuVisits(){
  const already=new Set([...sengokuV2Catalog.histories.values()]
   .filter(h=>h.kind==='place'&&ownsSengokuCard(h.historyId)).map(h=>h.personId));
  const result=SengokuV2.award(sengokuV2Catalog,state.visited,sengokuFound,already);
- if(!result.added.length){if(activeCollectionMode==='sengoku')refreshSengokuPins();return 0;}
- writeStore(sengokuStoreKey,result.records);
- Object.assign(sengokuFound,result.records);
+ // Defensive last gate: even after a failed startup migration, never persist
+ // a retired/unknown ID when new current cards are awarded.
+ const clean=SengokuCardCleanup.prune(result.records,sengokuV2Catalog);
+ if(!result.added.length&&!clean.removedIds.length){if(activeCollectionMode==='sengoku')refreshSengokuPins();return 0;}
+ writeStore(sengokuStoreKey,clean.records);
+ for(const id of Object.keys(sengokuFound))delete sengokuFound[id];
+ Object.assign(sengokuFound,clean.records);
  renderSengoku();refreshSengokuPins();
- if(sengokuBulkImport)sengokuBatchDiscoveries.push(...result.added);
- else toastSengokuCards(result.added);
+ if(result.added.length){
+  if(sengokuBulkImport)sengokuBatchDiscoveries.push(...result.added);
+  else toastSengokuCards(result.added);
+ }
  return result.added.length;
 }
 async function loadSengokuChronology(reviewed){
