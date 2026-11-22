@@ -208,13 +208,22 @@ for(const [name,type,opts,mobile] of devices){
     await page.waitForTimeout(120);
     const next=page.locator('[data-qa-next="aso"]');
     const nextRect=await next.boundingBox(),panelRect=await page.locator('#sengokuPinSheet .sps-panel').boundingBox();
-    if(nextRect&&nextRect.y+nextRect.height/2<panelRect.y-5&&nextRect.y+nextRect.height/2>0)
+    const hit=await page.evaluate(()=>{
+     const m=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.querySelector('h3')?.textContent?.includes('阿蘇神社'));
+     const el=m.getElement(),r=el?.getBoundingClientRect(),pt=r&&{x:r.left+r.width/2,y:r.top+r.height/2};
+     const at=pt&&document.elementFromPoint(pt.x,pt.y);
+     return {path:el?.getAttribute('d'),hit:at?.outerHTML?.slice(0,180),same:at===el,
+       marker:r&&{x:r.x,y:r.y,w:r.width,h:r.height},map:document.getElementById('map').getBoundingClientRect().toJSON?.(),
+       sheet:document.querySelector('#sengokuPinSheet .sps-panel').getBoundingClientRect().toJSON?.()};
+    });
+    console.log('PIN_SWITCH_HIT_DEBUG',JSON.stringify({name,hit}));
+    if(nextRect&&nextRect.y+nextRect.height/2<panelRect.y-5&&nextRect.y+nextRect.height/2>0&&hit.same)
       await page.touchscreen.tap(nextRect.x+nextRect.width/2,nextRect.y+nextRect.height/2);
     else await page.evaluate(()=>{
      const marker=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.querySelector('h3')?.textContent?.includes('阿蘇神社'));
      marker.fire('click');
     });
-    assert.match(await page.locator('#sengokuPinSheetTitle').textContent(),/阿蘇神社/,'second pin did not replace active site');
+    assert.match(await page.locator('#sengokuPinSheetTitle').textContent(),/阿蘇神社/,'second pin did not replace active site: '+JSON.stringify(hit));
     const afterSwitch=await page.evaluate(()=>({site:mobilePinSheet.activeSiteId,popup:!!map._popup?.isOpen(),body:document.querySelector('#sengokuPinSheet .sps-scroll').textContent}));
     assert.ok(afterSwitch.site?.includes('aso-shrine')&&!afterSwitch.popup);
     assert.match(afterSwitch.body,/出典・ライセンス帰属/);
