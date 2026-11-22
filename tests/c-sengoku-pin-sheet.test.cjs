@@ -1,0 +1,51 @@
+'use strict';
+const {test}=require('node:test'),assert=require('node:assert/strict');
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
+const root=path.join(__dirname,'..');
+const read=file=>fs.readFileSync(path.join(root,file),'utf8');
+const index=read('index.html'),sheet=read('sengoku-pin-sheet.js'),css=read('sengoku-pin-sheet.css');
+const original=JSON.parse(read('sengoku/v2/approved-c-20261120-new9-80.json'));
+const approved=require('../sengoku-pin-approved-v2.js');
+test('C sheet: controller is self-contained and JavaScript syntax is valid',()=>{
+ new vm.Script(sheet,{filename:'sengoku-pin-sheet.js'});
+ const inline=index.split('<script>').at(-1).split('</script>')[0];
+ new vm.Script(inline,{filename:'index-inline.js'});
+ const api=require('../sengoku-pin-sheet.js');
+ assert.ok(api.MOBILE_QUERY.includes('pointer: coarse'));
+ assert.ok(api.MOBILE_QUERY.includes('max-width: 700px'));
+ assert.equal(typeof api.create,'function');
+ assert.ok(index.includes('sengoku-pin-sheet.css?v=c20261122-sheet'));
+ assert.ok(index.includes('sengoku-pin-sheet.js?v=c20261122-sheet'));
+});
+test('C sheet: mobile marker retains approved popup data, disables only its mobile open event',()=>{
+ assert.ok(index.includes(".bindPopup(sengokuPinPopup(site))"));
+ assert.ok(index.includes("marker.off('click',marker._openPopup)"));
+ assert.ok(index.includes("marker.off('keypress',marker._onKeyPress)"));
+ assert.ok(index.includes("bubblingMouseEvents:!mobile"));
+ assert.ok(index.includes("mobilePinSheet.open(site)"));
+ assert.ok(index.includes("if(mode!=='sengoku')mobilePinSheet.close();"));
+ assert.ok(index.includes("SengokuPinDisplay.makePopup(site,SengokuV2,document,SengokuPinApprovedV2)"));
+ assert.ok(index.includes("SengokuPinDisplay.statusFor(site,SengokuPinApprovedV2)"));
+});
+test('C sheet: fixed visual viewport, 74% cap, scroll containment, close, no map pan or zoom logic',()=>{
+ assert.ok(css.includes('position:fixed'));
+ assert.ok(css.includes('max-height:min(var(--sps-max-height,74dvh),74dvh)'));
+ assert.ok(css.includes('overscroll-behavior:contain'));
+ assert.ok(css.includes('touch-action:pan-y'));
+ assert.ok(css.includes('max-height:min(65dvh,490px)'));
+ assert.ok(sheet.includes('window.visualViewport'));
+ assert.ok(sheet.includes('window.scrollTo(old.x,old.y)'));
+ assert.ok(sheet.includes("map.on('click',()=>{if(isOpen())close()})"));
+ assert.ok(sheet.includes("closeButton.addEventListener('click',close)"));
+ assert.ok(sheet.includes("if(event.key==='Escape'&&isOpen())"));
+ assert.ok(!/\bmap\.(?:panTo|setView|flyTo|fitBounds|setZoom)\s*\(/.test(sheet),'bottom sheet must not change map center or zoom');
+});
+test('C sheet: immutable catalog, exact 419 published pins and 16 approved display revisions',()=>{
+ assert.equal(original.sites.filter(s=>s.publicPin).length,419);
+ assert.equal(original.people.length,74);
+ assert.equal(original.histories.length,1251);
+ assert.equal(Object.keys(approved).length,16);
+ assert.ok(original.sites.some(s=>s.publicPin&&s.name.includes('堀越城跡')));
+ assert.ok(Object.values(approved).every(a=>a.approval.user==='公開OK'));
+ assert.ok(index.includes('SengokuSourceLinks.append(content,history.sourceUrls,document)'));
+});

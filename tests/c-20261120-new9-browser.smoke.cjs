@@ -79,7 +79,7 @@ for(const [name,browserType,options] of [
    if(options.hasTouch)await page.touchscreen.tap(center.x,center.y);
    else await page.mouse.click(center.x,center.y);
    await page.waitForTimeout(280);
-   let popup=await page.evaluate(()=>map._popup?.getContent()?.textContent||'');
+   let popup=await page.evaluate(mobile=>mobile?document.querySelector('#sengokuPinSheet .sps-scroll')?.textContent||'':map._popup?.getContent()?.textContent||'',options.hasTouch);
    assert.match(popup,/阿蘇神社/,'real pin click/tap must show approved description');
    const buttonState=await page.evaluate(()=>({
      hiddenBackground:getComputedStyle(document.querySelector('.map-display-controls')).display==='none',
