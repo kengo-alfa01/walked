@@ -1,0 +1,81 @@
+name: C purge retired Sengoku acquisitions and backup revival
+on:
+  push:
+    branches: [c/purge-retired-sengoku-card-records-20261122, main]
+    paths:
+      - index.html
+      - sengoku-card-cleanup.js
+      - tests/c-hide-retired-card-count*
+      - tests/app-integration.test.cjs
+      - tests/support/app.cjs
+      - scripts/verify-c-card-purge-live.cjs
+      - .github/workflows/c-retired-card-purge.yml
+  pull_request:
+    branches: [main]
+    paths:
+      - index.html
+      - sengoku-card-cleanup.js
+      - tests/c-hide-retired-card-count*
+      - tests/app-integration.test.cjs
+      - scripts/verify-c-card-purge-live.cjs
+      - .github/workflows/c-retired-card-purge.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  catalogue-and-restore:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated JSDOM and topology dependencies
+        run: npm install --no-save --no-package-lock --ignore-scripts jsdom@26.1.0 topojson-client@3.1.0
+      - name: Prepare vetted municipalities topology for application integration QA
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Current-only card storage, backup, transaction, title and 419-pin regressions
+        env:
+          WALKED_BROWSER_ASSETS: .qa-assets
+        run: |
+          node --test tests/c-hide-retired-card-count.test.cjs tests/sengoku-v2.test.cjs tests/c-approved16-pin-display-20261122.test.cjs tests/c-20261120-new9-release.test.cjs tests/title-backup.test.cjs
+          node --test tests/app-integration.test.cjs
+  browser-qa:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Live byte proof when validating merged main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: node scripts/verify-c-card-purge-live.cjs
+      - name: Install isolated WebKit and Chromium QA dependencies
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Prepare pinned approved municipality source
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Start candidate server
+        if: github.ref != 'refs/heads/main'
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/walked-card-prune.log 2>&1 &
+          sleep 2
+      - name: Safari/Chrome retired-only, mixed approved, restore, 419 pins, map and sources
+        env:
+          WALKED_BROWSER_ASSETS: .qa-assets
+        run: |
+          if [ "$GITHUB_REF" = 'refs/heads/main' ]; then
+            export WALKED_BASE_URL='https://kengo-alfa01.github.io/walked'
+          else
+            export WALKED_BASE_URL='http://127.0.0.1:8765'
+          fi
+          node --test tests/c-hide-retired-card-count.browser.cjs tests/c-approved16-pin-browser.smoke.cjs tests/c-20261120-new9-browser.smoke.cjs tests/c-approved-ui-only-browser.smoke.cjs
