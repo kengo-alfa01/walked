@@ -45,3 +45,4 @@ jobs:
           path: .qa-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+          include-hidden-files: true
