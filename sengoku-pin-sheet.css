@@ -51,6 +51,9 @@
 }
 .sengoku-pin-sheet .sps-scroll a{overflow-wrap:anywhere;word-break:break-word;min-height:42px}
 .sengoku-pin-sheet .sps-scroll .sengoku-pin-history{line-height:1.75}
+/* The existing fixed title notification covers the entire upper map on narrow iPhones.
+ * Temporarily hide it while a site is being read; its state remains unchanged. */
+body.sps-page-locked #titleToast{visibility:hidden;pointer-events:none}
 @media (max-width:359px){
  .sengoku-pin-sheet .sps-header{padding:10px 10px 7px 12px}
  .sengoku-pin-sheet .sps-scroll{padding:9px 12px 16px}
