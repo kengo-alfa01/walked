@@ -72,7 +72,11 @@ for(const [name,browserType,options] of [
    await page.locator('#sengokuList .sengoku-person').filter({hasText:'立花宗茂'}).click();
    const detail=await page.locator('#sengokuDetail').textContent();
    assert.ok(detail.includes('旧公開版・取得済みカード（記録を保全）'),'retired records must remain available in details');
-   assert.equal(await page.evaluate(()=>Object.keys(sengokuFound).length),Object.keys(saved).length);
+   // Startup may legitimately award additional current histories; only check
+   // that every originally saved legacy/current card and date remains intact.
+   const originals=await page.evaluate(ids=>ids.map(id=>({id,at:sengokuFound[id]?.at})),Object.keys(saved));
+   assert.equal(originals.length,Object.keys(saved).length);
+   for(const item of originals)assert.equal(item.at,saved[item.id].at,'original saved card changed '+item.id);
    assert.deepEqual(errors,[]);
    console.log('C_LEGACY_COUNT_HIDDEN_PASS',JSON.stringify({name,people:result.people.length,retiredRecords:result.archived,
       activeCards:result.current,Tachibana:{label:tachibana.actual,oldPreserved:tachibana.legacy},
