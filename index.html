@@ -814,13 +814,6 @@ const sengokuAreaHighlights=L.layerGroup().addTo(map);
 function approvedHistories(personId){
  return sengokuV2Catalog?[...sengokuV2Catalog.histories.values()].filter(h=>h.personId===personId):[];
 }
-// Retired public IDs remain read-only and appear only when a prior acquisition exists.
-function ownedRetiredHistories(personId){
- if(!sengokuV2Catalog?.retiredHistories)return [];
- return [...sengokuV2Catalog.retiredHistories.values()]
-  .map(record=>record.history)
-  .filter(h=>h.personId===personId&&Object.prototype.hasOwnProperty.call(sengokuFound,h.historyId));
-}
 function ownsSengokuCard(id){
  return !!sengokuV2Catalog?.histories.has(id)&&Object.prototype.hasOwnProperty.call(sengokuFound,id);
 }
@@ -937,9 +930,12 @@ function refreshSengokuAreaHighlights(){
  }).addTo(sengokuAreaHighlights);
 }
 function renderSengoku(){
- const owned=sengokuPeople.filter(p=>countOwned(p.id)>0||ownedRetiredHistories(p.id).length>0);
+ const owned=sengokuPeople.filter(p=>countOwned(p.id)>0);
+ if(selectedSengokuPersonId&&!owned.some(p=>p.id===selectedSengokuPersonId)){
+  selectedSengokuPersonId=null;$('sengokuDetail').replaceChildren();
+ }
  const activeCount=sengokuV2Catalog?[...sengokuV2Catalog.histories.values()].filter(h=>ownsSengokuCard(h.historyId)).length:0;
- // Show current approved card counts only. Retired card records remain preserved.
+ // Only current approved cards count toward earned people and totals.
  $('sengokuCount').textContent='獲得人物 '+owned.length+'人／カード '+activeCount+'枚';
  const selected=sengokuPeople.find(p=>p.id===selectedSengokuPersonId);
  const count=selected?unpinnedMunicipalityCodes(selected.id).size:0;
@@ -967,7 +963,7 @@ function renderSengoku(){
 }
 function showSengokuPerson(person){
  const approved=sengokuV2Catalog?.people.get(person?.id);
- if(!approved||(!countOwned(person.id)&&!ownedRetiredHistories(person.id).length))return;
+ if(!approved||countOwned(person.id)===0)return;
  selectedSengokuPersonId=person.id;refreshSengokuPins();refreshSengokuAreaHighlights();renderSengoku();
  const detail=$('sengokuDetail');detail.replaceChildren();
  const head=document.createElement('h3');head.textContent=person.name+' ― 人生の足跡';detail.append(head);
@@ -1050,22 +1046,6 @@ function showSengokuPerson(person){
   }else row.append(date,content);
   if(tie&&tie.first){const note=document.createElement('span');note.className='sengoku-chronology-note';note.textContent=SengokuChronology.TIE_NOTE;row.append(note)}
   section.append(row);
- }
- // Do not migrate or award retired IDs: display only cards already owned by this device.
- const archive=ownedRetiredHistories(person.id);
- if(archive.length){
-  const archiveHead=document.createElement('h4');
-  archiveHead.textContent='旧公開版・取得済みカード（記録を保全）';
-  section.append(archiveHead);
-  for(const old of archive){
-   const row=document.createElement('div');row.className='sengoku-era sengoku-era-owned';
-   const when=document.createElement('div');when.className='sengoku-year';
-   when.textContent=old.yearText+' ／ 旧版';
-   const text=document.createElement('div');
-   const heading=document.createElement('strong');heading.textContent=old.title;
-   const paragraph=document.createElement('p');paragraph.textContent=old.text;
-   text.append(heading,paragraph);row.append(when,text);section.append(row);
-  }
  }
  const storyHead=document.createElement('h4');storyHead.textContent='完成版ストーリー';section.append(storyHead);
  const story=document.createElement('p');
