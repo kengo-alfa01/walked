@@ -47,14 +47,14 @@ for(const [name,type,options] of [
      return {n,text:el.textContent,slashes:[...el.querySelectorAll('span')].flatMap(x=>[...x.childNodes].filter(n=>n.nodeType===3).map(n=>n.textContent))};
     });
     return {pins:pins.length,people:sengokuV2Catalog.people.size,histories:sengokuV2Catalog.histories.size,
-      oldCard:sengokuFound['sg2hist-nobuyuki-1620-komatsu']?.at,popupKeepsSafety:popup.includes(sample.pinReview.restriction),
+      retiredStillSaved:Object.prototype.hasOwnProperty.call(sengokuFound,'sg2hist-nobuyuki-1620-komatsu'),popupKeepsSafety:popup.includes(sample.pinReview.restriction),
       green:SengokuV2.pinPresentation('green').label,yellow:SengokuV2.pinPresentation('yellow').label,red:SengokuV2.pinPresentation('red').label,
       sourceCount:urls.length,sourceUrls:urls,groupText:group.textContent,samples,
       fullWidth:document.documentElement.scrollWidth,viewport:innerWidth};
    });
    assert.equal(state.pins,419);
    assert.equal(state.people,74);assert.equal(state.histories,1251);
-   assert.equal(state.oldCard,'2020-01-02');
+   assert.equal(state.retiredStillSaved,false);
    assert.equal(state.popupKeepsSafety,true);
    assert.equal(state.green,'通常見学可能');assert.equal(state.yellow,'注意あり');assert.equal(state.red,'危険・立入制限あり');
    assert.equal(state.groupText,Array(state.sourceCount).fill('出典を読む').join(' / '));
@@ -70,7 +70,7 @@ for(const [name,type,options] of [
    else await link.click({timeout:7000});
    const opened=await pop;await opened.close();
    assert.deepEqual(errors,[],'no JS browser errors');
-   console.log('SAFE_SOURCE_BROWSER_PASS',JSON.stringify({name,pins:state.pins,sourceCount:state.sourceCount,realLinkClick:true,oldCard:state.oldCard,securityNotesRetained:state.popupKeepsSafety}));
+   console.log('SAFE_SOURCE_BROWSER_PASS',JSON.stringify({name,pins:state.pins,sourceCount:state.sourceCount,realLinkClick:true,retiredStillSaved:state.retiredStillSaved,securityNotesRetained:state.popupKeepsSafety}));
   }finally{await browser.close()}
  });
 }
