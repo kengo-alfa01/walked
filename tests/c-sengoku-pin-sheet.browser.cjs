@@ -217,12 +217,9 @@ for(const [name,type,opts,mobile] of devices){
        sheet:document.querySelector('#sengokuPinSheet .sps-panel').getBoundingClientRect().toJSON?.()};
     });
     console.log('PIN_SWITCH_HIT_DEBUG',JSON.stringify({name,hit}));
-    if(nextRect&&nextRect.y+nextRect.height/2<panelRect.y-5&&nextRect.y+nextRect.height/2>0&&hit.same)
-      await page.touchscreen.tap(nextRect.x+nextRect.width/2,nextRect.y+nextRect.height/2);
-    else await page.evaluate(()=>{
-     const marker=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.querySelector('h3')?.textContent?.includes('阿蘇神社'));
-     marker.fire('click');
-    });
+    assert.ok(nextRect&&nextRect.y+nextRect.height/2<panelRect.y-5&&nextRect.y+nextRect.height/2>0,'second pin must be above sheet');
+    assert.equal(hit.same,true,'upper UI blocks real second pin tap '+JSON.stringify(hit));
+    await page.touchscreen.tap(nextRect.x+nextRect.width/2,nextRect.y+nextRect.height/2);
     assert.match(await page.locator('#sengokuPinSheetTitle').textContent(),/阿蘇神社/,'second pin did not replace active site: '+JSON.stringify(hit));
     const afterSwitch=await page.evaluate(()=>({site:mobilePinSheet.activeSiteId,popup:!!map._popup?.isOpen(),body:document.querySelector('#sengokuPinSheet .sps-scroll').textContent}));
     assert.ok(afterSwitch.site?.includes('aso-shrine')&&!afterSwitch.popup);
