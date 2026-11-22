@@ -77,6 +77,8 @@ function geometry(s){
  assert.ok(s.sheet.bottom<=vv.offsetTop+vv.height+3,'sheet clipped below visual viewport '+JSON.stringify(s));
  assert.ok(s.sheet.height<=vv.height*.75+4,'sheet taller than 75% visual viewport '+JSON.stringify(s));
  assert.ok(s.closeVisible&&s.titleVisible,'fixed sheet header not visible');
+ assert.equal(s.opacity,'1','sheet must remain fully opaque over underlying UI');
+ assert.equal(s.background,'rgb(255, 255, 255)','sheet background must be opaque white');
  assert.ok(s.scrollWidth<=s.scrollClientWidth+3,'sheet horizontal overflow');
 }
 async function sheetGeometry(page){
@@ -90,7 +92,8 @@ async function sheetGeometry(page){
    sheet:rect(r),scroll:rect(body),scrollHeight:scroll.scrollHeight,scrollClientHeight:scroll.clientHeight,
    scrollWidth:scroll.scrollWidth,scrollClientWidth:scroll.clientWidth,
    closeVisible:closeRect.width>=44&&closeRect.height>=44&&closeRect.top>=r.top&&closeRect.bottom<=r.bottom+2,
-   titleVisible:titleRect.top>=r.top-1&&titleRect.bottom<=r.bottom+2};
+   titleVisible:titleRect.top>=r.top-1&&titleRect.bottom<=r.bottom+2,
+   opacity:getComputedStyle(sheet).opacity,background:getComputedStyle(sheet).backgroundColor};
  });
 }
 async function currentMap(page){
