@@ -32,11 +32,11 @@ jobs:
           mkdir -p .qa-assets
           curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
           cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
-      - name: Source-only mobile sheet, approved 419/16, original cards, municipality and legacy DOM QA
+      - name: Mobile sheet, approved 419/16, saved cards, chronology, map colors and backup QA
         env:
           WALKED_BROWSER_ASSETS: .qa-assets
         run: |
-          node --test tests/c-sengoku-pin-sheet.test.cjs tests/c-approved16-pin-display-20261122.test.cjs tests/c-approved-ui-only-20261122.test.cjs tests/sengoku-v2.test.cjs tests/c-20261120-new9-release.test.cjs tests/sengoku-v2-dom.test.cjs tests/app-integration.test.cjs
+          node --test tests/c-sengoku-pin-sheet.test.cjs tests/c-approved16-pin-display-20261122.test.cjs tests/c-approved-ui-only-20261122.test.cjs tests/sengoku-v2.test.cjs tests/c-20261120-new9-release.test.cjs tests/sengoku-100-pin-qa.test.cjs tests/sengoku-chronology.test.cjs tests/map-coloring.test.cjs tests/title-backup.test.cjs
   webkit-chromium:
     runs-on: ubuntu-24.04
     container:
