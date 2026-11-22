@@ -50,7 +50,7 @@ for(const [name,browserType,options] of [
      }
     }
     const toramaru= pins.find(s=>s.siteId==='sg2site-new9-sweep-sogo-toramaru-20261120');
-    const retiredStillSaved=Object.prototype.hasOwnProperty.call(sengokuFound,'sg2hist-nobuyuki-1620-komatsu');
+    const oldCard=sengokuFound['sg2hist-nobuyuki-1620-komatsu']?.at;
     const h=[...sengokuV2Catalog.histories.values()].find(h=>(h.sourceUrls||[]).filter(SengokuSourceLinks.validSourceUrl).length>=3);
     if(!h)throw Error('No 3-link history');
     sengokuFound[h.historyId]={at:'2026-11-22',basis:'qa'};
@@ -63,13 +63,13 @@ for(const [name,browserType,options] of [
     selectedSengokuPersonId=null;refreshSengokuPins();
     return{pins:pins.length,markers:markers.length,structured,legacy,historyMissing,approvedLeaks,legacySafetyLost,wrongColors,creditsMissing,officialMismatch,
       toramaruLegacyStatus:toramaru.pinReview.accessStatus,toramaruLiveStatus:SengokuPinDisplay.statusFor(toramaru,approved),
-      retiredStillSaved,historyLinks:expected.length,historyRendered:group.textContent,viewport:innerWidth,pageWidth:document.documentElement.scrollWidth};
+      oldCard,historyLinks:expected.length,historyRendered:group.textContent,viewport:innerWidth,pageWidth:document.documentElement.scrollWidth};
    });
    assert.equal(report.pins,419);assert.equal(report.markers,419);
    assert.equal(report.structured,16);assert.equal(report.legacy,403);
    for(const k of ['historyMissing','approvedLeaks','legacySafetyLost','wrongColors','creditsMissing','officialMismatch'])assert.equal(report[k],0,k);
    assert.equal(report.toramaruLegacyStatus,'red');assert.equal(report.toramaruLiveStatus,'yellow');
-   assert.equal(report.retiredStillSaved,false,'retired card must be permanently removed');
+   assert.equal(report.oldCard,'2020-01-02');
    assert.equal(report.historyRendered,Array(report.historyLinks).fill('出典を読む').join(' / '));
    assert.ok(report.pageWidth<=report.viewport+3,'screen overflow '+JSON.stringify(report));
    // Real approved pin tap/click on the map after async municipality initialization.
