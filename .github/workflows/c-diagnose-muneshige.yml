@@ -1,0 +1,17 @@
+name: Investigate Tachibana Muneshige current card provenance
+on:
+  push:
+    branches: [c/diagnose-muneshige-earned-20261122]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  catalogue-diagnostic:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Report Tachibana's current approved card eligibility and automatic grant behavior
+        run: node scripts/diagnose-muneshige-acquisition.cjs
