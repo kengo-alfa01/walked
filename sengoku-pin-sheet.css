@@ -9,7 +9,7 @@
  pointer-events:none;box-sizing:border-box;
 }
 .sengoku-pin-sheet .sps-panel{
- display:flex;flex-direction:column;min-height:0;max-height:var(--sps-max-height,74dvh);
+ display:flex;flex-direction:column;min-height:0;max-height:min(var(--sps-max-height,74dvh),74dvh);
  width:min(760px,100%);margin:0 auto;background:#fff;color:#183a30;
  border:1px solid #c7d7cc;border-bottom:0;border-radius:17px 17px 0 0;
  box-shadow:0 -8px 34px #102b2745;pointer-events:auto;
