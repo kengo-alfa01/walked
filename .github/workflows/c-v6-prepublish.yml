@@ -4,6 +4,7 @@ on:
     paths:
       - 'sengoku-v2-core.js'
       - 'scripts/check-c-v6-prepublish.cjs'
+      - 'scripts/c-v6-sanitize.cjs'
       - 'docs/c-release/20261124-v6-approved-diff.json'
       - 'tests/c-v6-*.test.cjs'
       - '.github/workflows/c-v6-prepublish.yml'
@@ -24,6 +25,6 @@ jobs:
       - name: Verify frozen ⑥ approval manifest and fail-closed release check
         run: node scripts/check-c-v6-prepublish.cjs --check-manifest
       - name: Run 88-person allowlist and manifest regression tests
-        run: node --test tests/c-v6-88-approval-gate.test.cjs tests/c-v6-prepublish.test.cjs
+        run: node --test tests/c-v6-88-approval-gate.test.cjs tests/c-v6-prepublish.test.cjs tests/c-v6-sanitize.test.cjs
       - name: Ensure published C CSV still matches existing release
         run: node scripts/export-c-release-ledger.cjs --check
