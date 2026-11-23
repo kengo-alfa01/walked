@@ -20,8 +20,6 @@ function sanitize(input){
  if(!input||!Array.isArray(input.people)||!Array.isArray(input.histories)||!Array.isArray(input.relations))throw Error('C候補JSONの形式が不正');
  const doc=structuredClone(input);
  const peopleBefore=new Set(doc.people.map(p=>p.personId));
- const oldIds=new Set(doc.histories.map(h=>h.historyId));
- for(const id of retired)if(!oldIds.has(id))throw Error('統合対象の旧経歴IDがありません: '+id);
  doc.histories=doc.histories.filter(h=>!retired.has(h.historyId));
  const current=new Set(doc.histories.map(h=>h.historyId));
  doc.relations=doc.relations.filter(r=>current.has(r.historyId)&&!removedRelations.has(r.historyId+'|'+r.siteId));
