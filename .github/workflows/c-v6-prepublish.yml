@@ -1,0 +1,29 @@
+name: C v6 prepublication gate (88 people / 764 revisions)
+on:
+  pull_request:
+    paths:
+      - 'sengoku-v2-core.js'
+      - 'scripts/check-c-v6-prepublish.cjs'
+      - 'docs/c-release/20261124-v6-approved-diff.json'
+      - 'tests/c-v6-*.test.cjs'
+      - '.github/workflows/c-v6-prepublish.yml'
+  push:
+    branches:
+      - c/v6-preflight-20261124
+permissions:
+  contents: read
+jobs:
+  frozen-approval-and-backward-compat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify frozen ⑥ approval manifest and fail-closed release check
+        run: node scripts/check-c-v6-prepublish.cjs --check-manifest
+      - name: Run 88-person allowlist and manifest regression tests
+        run: node --test tests/c-v6-88-approval-gate.test.cjs tests/c-v6-prepublish.test.cjs
+      - name: Ensure published C CSV still matches existing release
+        run: node scripts/export-c-release-ledger.cjs --check
