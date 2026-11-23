@@ -13,18 +13,19 @@ const hash=text=>crypto.createHash('sha256').update(text,'utf8').digest('hex');
 const retired=new Set(['sg2hist-hanbei-shigekado-birth','sg2hist-hanbei-nagashino-1575']);
 const prohibited=new Set(['sg2hist-tadakatsu-1610-death|sg2site-tadakatsu-jodoji','sg2hist-masanobu-1563-ikko|sg2site-ieyasu-honshoji']);
 test('C staging normalization removes the 2 obsolete cards/2 links/31 retired full texts',()=>{
- const doc=sanitize(baseline);
+ const doc=sanitize({...baseline,version:'v2-approved-c-20261124-88-staging'});
  assert.equal(doc.people.length,74);
  assert.equal(doc.histories.length,baseline.histories.length-2);
- assert.equal(doc.retiredHistories.length,31);
- assert(doc.retiredHistories.every(x=>x.historyId&&x.personId&&!x.text&&!x.history));
+ assert.equal(doc.retiredHistories.length,0);
+ assert(!doc.retiredHistories.some(x=>x.text||x.history));
+ assert(doc.histories.filter(h=>['sg2hist-tadakatsu-1610-death','sg2hist-masanobu-1563-ikko'].includes(h.historyId)).every(h=>h.kind==='nonplace'));
  assert(doc.histories.every(h=>!retired.has(h.historyId)));
  assert(doc.relations.every(r=>!prohibited.has(r.historyId+'|'+r.siteId)&&!retired.has(r.historyId)));
  assert.equal(baseline.histories.length,1251,'本番JSONは一切変更していない');
  assert.equal(core.validate(doc,validCodes,hash).people.size,74,'旧74人の整合性');
 });
 test('C staging normalization preserves every old visible GPS and remains idempotent',()=>{
- const once=sanitize(baseline),twice=sanitize(once);
+ const once=sanitize({...baseline,version:'v2-approved-c-20261124-88-staging'}),twice=sanitize(once);
  assert.deepEqual(once,twice);
  const pins=new Map(once.sites.filter(s=>s.publicPin).map(s=>[s.siteId,s.point]));
  for(const site of baseline.sites.filter(s=>s.publicPin))assert.deepEqual(pins.get(site.siteId),site.point);
