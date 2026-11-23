@@ -21,15 +21,18 @@ function sanitize(input){
  const doc=structuredClone(input);
  const peopleBefore=new Set(doc.people.map(p=>p.personId));
  doc.histories=doc.histories.filter(h=>!retired.has(h.historyId));
+ // The B-reviewed ④ now rejects these two direct acquisition links. Keep
+ // their approved history bodies/IDs, but never grant them from the old sites.
+ // V6 core explicitly allows ONLY these two history IDs to become nonplace.
+ const unlinked=new Set([...removedRelations].map(k=>k.split('|')[0]));
+ for(const h of doc.histories)if(unlinked.has(h.historyId))h.kind='nonplace';
  const current=new Set(doc.histories.map(h=>h.historyId));
  doc.relations=doc.relations.filter(r=>current.has(r.historyId)&&!removedRelations.has(r.historyId+'|'+r.siteId));
  for(const id of retired)if(doc.relations.some(r=>r.historyId===id))throw Error('廃止カードの関係が残っています: '+id);
  for(const rel of removedRelations)if(doc.relations.some(r=>r.historyId+'|'+r.siteId===rel))throw Error('廃止関係が残っています: '+rel);
- doc.retiredHistories=(doc.retiredHistories||[]).map(entry=>{
-  const h=entry.history||entry;
-  if(!h.historyId||!h.personId||!peopleBefore.has(h.personId))throw Error('退役記録の帰属不明');
-  return {historyId:h.historyId,personId:h.personId,type:entry.type||'旧公開記録'};
- });
+ // Old full-text retirement records belong in the audit archive, never
+ // the next player-visible JSON. Their IDs do not grant cards or unlocks.
+ doc.retiredHistories=[];
  for(const p of doc.people){
   const histories=doc.histories.filter(h=>h.personId===p.personId);
   if(!histories.length)throw Error('経歴がゼロ件の人物は公開不可: '+p.personId);
