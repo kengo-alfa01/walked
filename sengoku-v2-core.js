@@ -940,7 +940,7 @@
       uniqueApproval(h.approval);
       // This release has ⑥-approved location-free prose, independently linked to B-qualified ④ sites.
       // The original ⑥ I is preserved: municipality acquisition is from ④, not a new text-location approval.
-      const new9MunicipalHistory=(doc.version==='v2-approved-c-20261120-new9-80'||personMap.size===88)&&C20261120_9_LINKED_HISTORIES.has(h.historyId);
+      const new9MunicipalHistory=(doc.version==='v2-approved-c-20261120-new9-80'||doc.version.startsWith('v2-approved-c-20261124-')||personMap.size===88)&&C20261120_9_LINKED_HISTORIES.has(h.historyId);
       // An approved 88-person package may use a municipality acquisition for a
       // location-free ⑥ prose record only when it has a separately B-approved ④ link.
       const cV6QualifiedPlace=personMap.size===88&&doc.relations.some(r=>r.historyId===h.historyId&&r.personId===h.personId&&r.bStatus==='合格'&&r.linkDecision==='関係上対象'&&['本人直接','出来事直接（史料）','出来事直接（公的伝承）'].includes(r.classification));
