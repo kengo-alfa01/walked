@@ -40,7 +40,7 @@ function checkManifest(){
  assert.equal(frozen.status,'PREPUBLISH_ONLY_NOT_LIVE');
  assert.equal(frozen.approvedDiffCount,765);
  assert.equal(frozen.items.length,765);
- assert.deepEqual(frozen.kinds,{史跡:195,経歴:464,完成版ストーリー:57,人物紹介:48});
+ assert.deepEqual(frozen.kinds,{史跡:195,経歴:465,完成版ストーリー:57,人物紹介:48});
  assert.equal(frozen.sourceReferenceCount,2809);
  assert.equal(published.size,1835);
  const unique=new Set(keys(frozen.items));
