@@ -10,12 +10,10 @@ on:
       - sengoku-v2-core.js
   pull_request:
     branches: [main]
+    # Historical fixture only: active Phase1/2 runtime is verified by C v8 release QA.
     paths:
-      - .github/workflows/c-20261120-new9-browser.yml
-      - tests/c-20261120-new9-browser.smoke.cjs
-      - sengoku/v2/approved-c-20261120-new9-80.json
-      - index.html
-      - sengoku-v2-core.js
+      - 'tests/c-20261120-new9-browser.smoke.cjs'
+      - 'sengoku/v2/approved-c-20261120-new9-80.json'
   workflow_dispatch:
 permissions:
   contents: read

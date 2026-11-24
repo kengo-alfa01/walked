@@ -3,13 +3,8 @@ on:
   push:
     branches: [main]
     paths:
-      - .github/workflows/c-approved-ui-live-proof-20261122.yml
-      - index.html
       - sengoku-source-links.js
-      - sengoku-v2-core.js
       - sengoku/v2/approved-c-20261120-new9-80.json
-      - data/c-release/records.csv
-      - data/c-release/status.csv
   workflow_dispatch:
 permissions:
   contents: read

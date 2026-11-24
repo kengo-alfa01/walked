@@ -81,6 +81,22 @@
     official.append(link(document,d.officialInfoUrl,'見学案内・制限情報（外部サイト）'));
     popup.append(official);
    }
+   // Independently B/⑥-approved Phase1 pins carry their own position-license
+   // credits. Keep earlier published legacy pin display and the 16 structured
+   // v2 approvals unchanged. Never expose unapproved ③/⑤ management notes.
+   const credits=site.pinReview?.attributions;
+   if(Array.isArray(credits)&&credits.length&&credits.every(a=>
+     a&&typeof a.label==='string'&&a.label.trim()&&safeUrl(a.url))){
+    const line=document.createElement('p'),heading=document.createElement('strong');
+    line.className='sengoku-pin-attribution';
+    heading.textContent='出典・ライセンス帰属：';
+    line.append(heading);
+    for(let i=0;i<credits.length;i++){
+     if(i)line.append(document.createTextNode(' / '));
+     line.append(link(document,credits[i].url,credits[i].label));
+    }
+    popup.append(line);
+   }
   }
   const note=document.createElement('p');note.className='pin-caution';
   const isRestricted=statusFor(site,registry)==='red';

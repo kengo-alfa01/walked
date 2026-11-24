@@ -1,0 +1,67 @@
+name: C v8 Phase1 production PR QA
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'sengoku-v2-core.js'
+      - 'sengoku-pin-display.js'
+      - 'sengoku/v2/approved-c-20261124-p1-74.json'
+      - 'data/c-release/**'
+      - 'tests/c-v8-phase1-release.browser.cjs'
+      - '.github/workflows/c-v8-phase1-release-qa.yml'
+  push:
+    branches: ['release/c-phase1-minimal-20261124']
+
+permissions:
+  contents: read
+
+jobs:
+  approved-phase1-and-browser:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated browser dependencies
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Validate immutable approval and release ledger (no writing)
+        run: |
+          node scripts/export-c-release-ledger.cjs --check
+          node - <<'NODE'
+          const fs=require('fs'),crypto=require('crypto'),assert=require('assert/strict');
+          const core=require('./sengoku-v2-core.js');
+          const pack=JSON.parse(fs.readFileSync('sengoku/v2/approved-c-20261124-p1-74.json'));
+          const old=JSON.parse(fs.readFileSync('sengoku/v2/approved-c-20261120-new9-80.json'));
+          const codes=new Set(JSON.parse(fs.readFileSync('data/title-registry.json')).areas.map(x=>x.code));
+          const sha=s=>crypto.createHash('sha256').update(s).digest('hex');
+          const validated=core.validate(pack,codes,sha);
+          assert.deepEqual([pack.people.length,pack.histories.length,pack.sites.length,pack.relations.length,pack.sites.filter(s=>s.publicPin).length],[74,1421,506,791,473]);
+          assert.equal(validated.people.size,74);
+          assert.equal(new Set(pack.people.map(x=>x.personId)).size,74);
+          const oldIds=new Set(old.people.map(x=>x.personId));
+          assert(pack.people.every(x=>oldIds.has(x.personId)),'Phase2 person leaked');
+          for(const s of old.sites.filter(x=>x.publicPin)){
+            const newer=pack.sites.find(x=>x.siteId===s.siteId);
+            assert(newer&&newer.publicPin);
+            assert.deepEqual(newer.point,s.point);
+            assert.deepEqual(newer.pinReview,s.pinReview);
+          }
+          assert.equal(pack.notes.cRelease.v8.extraFromNov24,19);
+          assert.equal(pack.retiredHistories.length,0);
+          assert(!pack.histories.some(h=>h.approval.sheetRow===4041));
+          console.log('PHASE1_APPROVED_RELEASE_PASS 74 people / 1421 histories / 506 sites / 473 pins');
+          NODE
+      - name: Prepare deterministic geometry
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Verify actual index pointer on iPhone WebKit and PC Chromium
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/c-p1-http.log 2>&1 &
+          sleep 2
+          node --test tests/c-v8-phase1-release.browser.cjs

@@ -11,17 +11,12 @@ on:
       - tests/sengoku-v2.test.cjs
   pull_request:
     branches: [main]
+    # Historical fixture only: active Phase1/2 runtime is verified by C v8 release QA.
     paths:
-      - .github/workflows/c-20261120-new9.yml
-      - scripts/build-c-20261120-new9.cjs
-      - docs/c-release/20261120-new9-approved-manifest.json
-      - sengoku-v2-core.js
-      - tests/c-20261120-new9-release.test.cjs
-      - tests/sengoku-v2.test.cjs
-      - index.html
-      - sengoku/v2/approved-c-20261120-new9-80.json
-      - data/c-release/records.csv
-      - data/c-release/status.csv
+      - 'scripts/build-c-20261120-new9.cjs'
+      - 'docs/c-release/20261120-new9-approved-manifest.json'
+      - 'tests/c-20261120-new9-release.test.cjs'
+      - 'sengoku/v2/approved-c-20261120-new9-80.json'
   workflow_dispatch:
 permissions:
   contents: write

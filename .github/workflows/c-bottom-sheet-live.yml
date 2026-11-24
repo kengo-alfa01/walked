@@ -3,11 +3,9 @@ on:
   push:
     branches: [main]
     paths:
-      - index.html
       - sengoku-pin-sheet.js
       - sengoku-pin-sheet.css
       - scripts/verify-c-bottom-sheet-live.cjs
-      - .github/workflows/c-bottom-sheet-live.yml
   workflow_dispatch:
 permissions:
   contents: read
