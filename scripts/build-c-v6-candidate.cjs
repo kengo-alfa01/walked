@@ -163,7 +163,7 @@ const index=core.validate(safe,known,hash);
 assert(noPlaceRights.every(h=>!index.codes.has(h.historyId)), '16件にB未承認の自治体取得コードが混入');
 console.log('C_V6_NO_AWARD_LOCATION_RIGHTS',noPlaceRights.length);
 assert.equal(index.people.size,88);
-assert.equal(safe.histories.length,1590);
+assert.equal(safe.histories.length,1591); // 1,251 baseline +342 new (Ando v3 included) -2 retired
 assert.equal(safe.sites.length,556);
 assert.equal(new Set(safe.relations.map(x=>x.historyId+'|'+x.siteId)).size,safe.relations.length);
 const output='sengoku/v2/approved-c-20261124-v6-staging.json';
