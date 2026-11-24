@@ -1,0 +1,74 @@
+name: C v8 Phase2 release candidate (no production merge)
+on:
+  push:
+    branches: ['release/c-phase2-build-20261124-88']
+    paths: ['.github/workflows/c-v8-phase2-release-candidate.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: c-v8-p2-candidate-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate-and-check:
+    if: github.repository == 'kengo-alfa01/walked' && github.ref == 'refs/heads/release/c-phase2-build-20261124-88'
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated browser QA dependencies
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Preflight frozen 765 and build identical phase candidates
+        run: |
+          node scripts/check-c-v6-prepublish.cjs --check-manifest
+          node scripts/build-c-v6-candidate.cjs
+          node scripts/check-c-v6-prepublish.cjs --candidate sengoku/v2/approved-c-20261124-v6-staging.json
+          node scripts/build-c-v7-phases.cjs
+          node --test tests/c-v7-phase-pin-gate.test.cjs
+      - name: Produce Phase2-only release data and pointer
+        run: |
+          node scripts/prepare-c-v8-phase2-release.cjs
+          node scripts/export-c-release-ledger.cjs
+          node scripts/export-c-release-ledger.cjs --check
+          node --check scripts/prepare-c-v8-phase2-release.cjs
+      - name: Install deterministic municipality geometry for browser QA
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Phase2 production-pointer real browser WebKit and Chromium
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/c-p2-http.log 2>&1 &
+          sleep 2
+          node --test tests/c-v8-phase2-release.browser.cjs
+      - name: Commit release candidate only (not main)
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = 'refs/heads/release/c-phase2-build-20261124-88'
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html sengoku/v2/approved-c-20261124-p2-88.json data/c-release/records.csv data/c-release/status.csv
+          test -n "$(git diff --cached --name-only)"
+          git commit -m 'C Phase2: stage verified 88-person 517-pin approved release candidate'
+          git push origin HEAD:refs/heads/release/c-phase2-build-20261124-88
+      - name: Archive exact release candidate for rollback
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase2-88p-517pins-release-candidate
+          path: |
+            sengoku/v2/approved-c-20261124-p2-88.json
+            data/c-release/records.csv
+            data/c-release/status.csv
+          retention-days: 30
