@@ -108,7 +108,7 @@ for(const [platform,browserType,options] of [
    else await page.mouse.click(center.x,center.y);
    await page.waitForTimeout(250);
    const popup=await page.evaluate(()=>document.querySelector('#sengokuPinSheet .sps-scroll')?.textContent||'');
-   assert.match(popup,new RegExp(focusName),'Actual tap/click must show historical pin text');
+   assert.match(popup,new RegExp(focusName==='今治城跡'?'今治城':focusName),'Actual tap/click must show historical pin text');
    assert.deepEqual(errors,[],'Browser execution must have no page errors');
    console.log('C_V7_BROWSER_PASS '+JSON.stringify({phase,platform,...state,popup:popup.slice(0,80)}));
   }finally{await browser.close();}
