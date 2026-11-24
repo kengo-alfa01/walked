@@ -261,7 +261,8 @@ for(const [platform,browserType,options] of [
      hits:SengokuV2.collectedRelatedSites(sengokuV2Catalog,state.visited,pid).map(e=>e.siteId),
      visited:SengokuV2.visitedCodes(state.visited).has('05209'),
      storyUnlocked:SengokuV2.canUnlockStory(sengokuV2Catalog,pid,sengokuFound,PublicationRuntime.sha256),
-     relatedSite:sengokuV2Catalog.sites.get('sg2site-a6-nanbu-nagau-20261121')
+     relatedSite:sengokuV2Catalog.sites.get('sg2site-a6-nanbu-nagau-20261121'),
+     noRouting:SengokuV2.pinDetails(sengokuV2Catalog.sites.get('sg2site-a6-nanbu-nagau-20261121')).noRouting
     };
    });
    assert.equal(relatedCount.visited,true);
@@ -269,7 +270,7 @@ for(const [platform,browserType,options] of [
    assert.equal(relatedCount.relatedSite.publicPin,true,'B approved 長牛館 red informational pin must be published');
    assert.deepEqual(relatedCount.relatedSite.point,[140.7678125,40.1156875]);
    assert.equal(relatedCount.relatedSite.pinReview.accessStatus,'red');
-   assert.equal(SengokuV2.pinDetails(relatedCount.relatedSite).noRouting,true);
+   assert.equal(relatedCount.noRouting,true,'Red B-approved information pin must not route visitors');
    // Clicking a character with related sites must show them *after* the
    // history and biography sections, without changing event-card counts.
    await page.locator('#sengokuPinSheet .sps-close').click();
