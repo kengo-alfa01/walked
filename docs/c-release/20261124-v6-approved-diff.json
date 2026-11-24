@@ -3584,30 +3584,30 @@
       ]
     },
     {
-      "row": 3891,
+      "row": 4477,
       "kind": "史跡",
       "id": "sg2site-a5-kita-mise-yakata-20261121",
       "personIds": [
         "sg-master-0734"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "f2a59e0acea5d7f4ea45317acbd20205c4ff96e2cb6b78d4739b0f4674f685f2",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a5-kita-mie-mise-20261121",
         "sg2src-a5-kita-kankomie-mise-20261121"
       ]
     },
     {
-      "row": 3892,
+      "row": 4479,
       "kind": "史跡",
       "id": "sg2site-a6-nanbu-asamizu-20261121",
       "personIds": [
         "sg-added-nanbu-harumasa-20261114"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "775b90e3cae53f111de32f7664788743da68a6e75c34fdc27e10d9d55dad5b49",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a6-nanbu-town-chron-20261121",
         "sg2src-a6-nanbu-asamizu-kadokawa-20261121"
@@ -3809,30 +3809,30 @@
       ]
     },
     {
-      "row": 3906,
+      "row": 4480,
       "kind": "史跡",
       "id": "sg2site-a30-takanobu-seifukuji-1559-20261121",
       "personIds": [
         "sg-master-2169"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "ba70b00149b2a3113d91c4c995b47183c710664a2492637880c20d7ee0cfbd24",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a30-takanobu-saga-shoni-1559-20261121",
         "sg2src-a30-takanobu-saga-ryuzoji-20261121"
       ]
     },
     {
-      "row": 3907,
+      "row": 4481,
       "kind": "史跡",
       "id": "sg2site-a30-takanobu-suko-20261121",
       "personIds": [
         "sg-master-2169"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "b7ae5778c093577964ef5f79deffb6598b3e433476d63e6d1d2c036feb9682c6",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a30-takanobu-shiroishi-life-20261121",
         "sg2src-a30-takanobu-shiroishi-suko-castle-20261121"
@@ -3871,45 +3871,45 @@
       ]
     },
     {
-      "row": 3910,
+      "row": 4469,
       "kind": "史跡",
       "id": "sg2site-a34-naoie-otogo-20261121",
       "personIds": [
         "sg-master-0344"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "8f09fc6a7ca5ae45ef317dda0873676feef21125385d7cbc9e4c6c8402b26a33",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a34-naoie-okayama-hisho-20261121",
         "sg2src-a34-naoie-okayama-kameyama-excavation-20261121"
       ]
     },
     {
-      "row": 3911,
+      "row": 4470,
       "kind": "史跡",
       "id": "sg2site-a34-naoie-shinjoyama-20261121",
       "personIds": [
         "sg-master-0344"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "1bb518edc3972f120003927468ff50e13e91278c6fd0448bcbde189c3c633a38",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a34-naoie-okayama-hisho-20261121",
         "sg2src-a34-naoie-okayama-kameyama-excavation-20261121"
       ]
     },
     {
-      "row": 3912,
+      "row": 4471,
       "kind": "史跡",
       "id": "sg2site-a34-naoie-kameyama-bizen-20261121",
       "personIds": [
         "sg-master-0344"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "2db931635a065bd5994d960ffb5a1b96bb0f68ca560d6a0cf79192a8e5f05d0a",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a34-naoie-okayama-kameyama-designation-20261121",
         "sg2src-a34-naoie-okayama-castles-20261121",
@@ -3917,45 +3917,45 @@
       ]
     },
     {
-      "row": 3913,
+      "row": 4472,
       "kind": "史跡",
       "id": "sg2site-a34-naoie-meizenji-20261121",
       "personIds": [
         "sg-master-0344"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "a257f98893a8dfc68d9516b4ac1a1c8637725a19261303b2d4ce56675fb6f0de",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a34-naoie-okayama-meizenji-20261121",
         "sg2src-a34-naoie-okayama-mimura-20261121"
       ]
     },
     {
-      "row": 3914,
+      "row": 4473,
       "kind": "史跡",
       "id": "sg2site-a34-naoie-kanagawa-20261121",
       "personIds": [
         "sg-master-0344"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "b60d908d4ecdb5f646578a39d877c81896e79e0c882ba2a5b147a816c5fff504",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a34-naoie-okayama-kanagawa-20261121",
         "sg2src-a34-naoie-okayama-kanagawa-designated-20261121"
       ]
     },
     {
-      "row": 3915,
+      "row": 4474,
       "kind": "史跡",
       "id": "sg2site-a34-naoie-tenjinyama-bizen-20261121",
       "personIds": [
         "sg-master-0344"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "76a5f84f2e09a89795aa5fa731b71f63292a6fea91d120761ef5e3f48c833f55",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a34-naoie-pref-tenjinyama-20261121",
         "sg2src-a34-naoie-bizen-uragami-20261121"
@@ -3978,15 +3978,15 @@
       ]
     },
     {
-      "row": 3917,
+      "row": 4475,
       "kind": "史跡",
       "id": "sg2site-a39-gamou-matsugashima-20261121",
       "personIds": [
         "sg-master-0680"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "fabb6b21f1f2b08a49b35aed132d6a7611354a887d5e1ea000d3b4f80a1f0bf6",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a39-gamou-matsusaka-matsugashima-20261121",
         "sg2src-a39-gamou-mie-matsugashima-20261121"
@@ -4038,15 +4038,15 @@
       ]
     },
     {
-      "row": 3921,
+      "row": 4467,
       "kind": "史跡",
       "id": "sg2site-a40-yoshimoto-azukizaka-20261121",
       "personIds": [
         "sg-master-0301"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "840946ba9aeeb60da05c61a985bfaf474d1c50e2d6702ef15ab14064dc7177fb",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a40-yoshimoto-okazaki-azukizaka-20261121",
         "sg2src-a40-yoshimoto-toyota-1548-azuki-20261121"
@@ -4171,15 +4171,15 @@
       ]
     },
     {
-      "row": 3930,
+      "row": 4493,
       "kind": "史跡",
       "id": "sg2site-a46-yoshihisa-maizuru-20261121",
       "personIds": [
         "sg-fa0a6f0c8900"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "617b7d6fb83653013a66e761336f69ae67096318825d10de1cd465d117266d73",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a46-yoshihisa-kirishima-history-20261121",
         "sg2src-a46-yoshihisa-kokubu-highschool-20261121",
@@ -4371,15 +4371,15 @@
       ]
     },
     {
-      "row": 3943,
+      "row": 4476,
       "kind": "史跡",
       "id": "sg2site-a60-nagano-chonenji-graves-20261121",
       "personIds": [
         "sg-added-new14-nagano-narimasa-20261120"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "9f11f402ed1da86b62ee7db66b8f22cdcd3cc230df120c7c852ef85f1b3d94da",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a60-nagano-chonenji-graves-20261121"
       ]
@@ -4415,15 +4415,15 @@
       ]
     },
     {
-      "row": 3946,
+      "row": 4489,
       "kind": "史跡",
       "id": "sg2site-a5-kita-douzuka-20261121",
       "personIds": [
         "sg-master-0734"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "e808d8e869b9f7e21cc3e20242f5684811d0e03d648b3a0574726469a56432cb",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a5-kita-odai-douzuka-20261121",
         "sg2src-a5-kita-kankomie-mise-20261121"
@@ -4445,15 +4445,15 @@
       ]
     },
     {
-      "row": 3948,
+      "row": 4478,
       "kind": "史跡",
       "id": "sg2site-a6-nanbu-shizukuishi-20261121",
       "personIds": [
         "sg-added-nanbu-harumasa-20261114"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "365051e6ddfee5cc23a8f7e175308de5bdb9c3ae8985c029af0fef60dc9a53bd",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a6-nanbu-shizukuishi-town-20261121",
         "sg2src-a6-nanbu-shizukuishi-history-20261121",
@@ -4461,15 +4461,15 @@
       ]
     },
     {
-      "row": 3949,
+      "row": 4490,
       "kind": "史跡",
       "id": "sg2site-a6-nanbu-nagau-20261121",
       "personIds": [
         "sg-added-nanbu-harumasa-20261114"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "53b6d4eb2f0c949aa045f4582f0d9dadca35893f59b19cac48494ef7637fcd56",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a6-nanbu-akita-nagau-20261121",
         "sg2src-a6-nanbu-kazuno-city-20261121",
@@ -4524,15 +4524,15 @@
       ]
     },
     {
-      "row": 3953,
+      "row": 4492,
       "kind": "史跡",
       "id": "sg2site-a30-takanobu-kamachi-108-memorial-20261121",
       "personIds": [
         "sg-master-2169"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "25062ffbcf92c9494381862d3d2e4f51b9091b328d72ab62a8f2382788c217ed",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a30-takanobu-yanagawa-108-grave-1581-20261121",
         "sg2src-a30-takanobu-yanagawa-shiotsuka-1581-20261121"
@@ -4629,15 +4629,15 @@
       ]
     },
     {
-      "row": 3961,
+      "row": 4485,
       "kind": "史跡",
       "id": "sg2site-a49-aso-iwao-castle-20261121",
       "personIds": [
         "sg-added-aso-koremasa-20261119"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "148c5a55eaf2ebf59ef8bd722db59b396be08a9e89b1e265d6fba8c490c45401",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a49-aso-yamato-history-20261121",
         "sg2src-a49-aso-yamato-iwao-society-20261121"
@@ -4721,15 +4721,15 @@
       ]
     },
     {
-      "row": 3967,
+      "row": 4494,
       "kind": "史跡",
       "id": "sg2site-a51-yamana-hitoi-toge-tomb-20261121",
       "personIds": [
         "sg-added-yamana-toyokuni-20261119"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "64e7b639b27512b5db415eef5b0f6839df31586fc414d251d30f066ff7252e39",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a51-yamana-kami-hitoi-tomb-20261121",
         "sg2src-a51-yamana-yabu-1601-20261121"
@@ -4805,15 +4805,15 @@
       ]
     },
     {
-      "row": 3972,
+      "row": 4468,
       "kind": "史跡",
       "id": "sg2site-a42-murakami-genshoji-grave-20261121",
       "personIds": [
         "sg-master-1996"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "78f18a17e6f354fed06353f30873dd90ecd85c684d744ee673a243ca167505cb",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a42-murakami-suou-tourism-20261121",
         "sg2src-a42-murakami-ehime-bio-20261121"
@@ -4836,15 +4836,15 @@
       ]
     },
     {
-      "row": 3974,
+      "row": 4483,
       "kind": "史跡",
       "id": "sg2site-a38-kiyomasa-myogyoji-20261121",
       "personIds": [
         "sg-0b974357bac7"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "f253da716a356c4b15919593cf733ddc59205fb58380a620725d4d158e96970a",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a38-kiyomasa-nagoya-city-myogyoji-20261121"
       ]
@@ -4865,15 +4865,15 @@
       ]
     },
     {
-      "row": 3976,
+      "row": 4487,
       "kind": "史跡",
       "id": "sg2site-a52-kikkawa-fukumitsu-castle-20261121",
       "personIds": [
         "sg-added-kikkawa-tsuneie-20261119"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "1dd75ab4d10754db7f66e63cbff51e4bf861e6e37ef83255db63bf47eca28de7",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a52-kikkawa-shimane-tourism-fukumitsu-20261121",
         "sg2src-a52-kikkawa-oda-library-fukumitsu-20261121"
@@ -4924,15 +4924,15 @@
       ]
     },
     {
-      "row": 3980,
+      "row": 4484,
       "kind": "史跡",
       "id": "sg2site-a44-miyoshi-shibojyo-birthtradition-20261121",
       "personIds": [
         "sg-24684888730a"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "8a138f4619488b697b316001d90d73211f37e133177433dda74db5f45154725d",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a44-miyoshi-shibojyo-birthstone-20261121"
       ]
@@ -4983,15 +4983,15 @@
       ]
     },
     {
-      "row": 3984,
+      "row": 4491,
       "kind": "史跡",
       "id": "sg2site-a9-masanobu-ueno-castle-20261121",
       "personIds": [
         "sg-416baa3d4e63"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "e67caa0fb90682b6db1c5814e88550719b012d9564cf7876ab6489045ae63104",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a9-masanobu-toyota-history-20261121",
         "sg2src-a9-masanobu-toyota-ueno-20261121",
@@ -5030,30 +5030,30 @@
       ]
     },
     {
-      "row": 3987,
+      "row": 4482,
       "kind": "史跡",
       "id": "sg2site-a33-haruhisa-yamabuki-1556-20261121",
       "personIds": [
         "sg-901256a2d908"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "f84408027e1c4949485fd45a947bff76156939776c86eaa6f58d5cdf107556c5",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a1-haruhisa-oda-ginzan-study-20261117",
         "sg2src-a1-haruhisa-shimane-u-ginzan-2018-20261117"
       ]
     },
     {
-      "row": 3989,
+      "row": 4486,
       "kind": "史跡",
       "id": "sg2site-a50-sagara-yunomae-castle-20261121",
       "personIds": [
         "sg-added-sagara-yoshihi-20261119"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "f001271c449fe2b9488ebe225e11b387c587ae3692b1228909d3c3fe67c34304",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a50-sagara-yunomae-castle-town-20261121",
         "sg2src-a50-sagara-yunomae-codh-20261121",
@@ -5076,15 +5076,15 @@
       ]
     },
     {
-      "row": 3991,
+      "row": 4495,
       "kind": "史跡",
       "id": "sg2site-a53-oda-kidayu-castle-20261121",
       "personIds": [
         "sg-added-oda-ujiharu-20261119"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "348db23559d459868a8bff72c9ed7a17910e27638f9168362766dad99dde0163",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a53-oda-tsuchiura-kidayu-2022-20261121"
       ]
@@ -5119,15 +5119,15 @@
       ]
     },
     {
-      "row": 3994,
+      "row": 4488,
       "kind": "史跡",
       "id": "sg2site-a55-tozawa-numadate-castle-20261121",
       "personIds": [
         "sg-added-tozawa-moriyasu-20261119"
       ],
-      "version": "v1",
+      "version": "v2",
       "bodySha256": "94a0588cda9e25dbf43b678df49ed8b7e4649f21714029546c060926f53e1583",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "sourceIds": [
         "sg2src-a55-tozawa-yokote-numadate-20261121",
         "sg2src-a55-tozawa-daisen-naraoka-20261121"
@@ -12792,5 +12792,13 @@
         "sg2src-a-ando-aomori-minato-genealogy-1554-20261123"
       ]
     }
-  ]
+  ],
+  "pinVersionOverlay20261124": {
+    "includedInExistingApprovedDiff": true,
+    "changedPinOnly": 30,
+    "phase1": 19,
+    "phase2": 11,
+    "latestApprovalRowsVerified": 30,
+    "contentCountUnchanged": 765
+  }
 }
