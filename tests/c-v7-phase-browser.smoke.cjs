@@ -37,6 +37,8 @@ for(const [platform,browserType,options] of [
   try{
    await routeStage(page,phase);
    await page.addInitScript(()=>{
+    // Related-only site: 鹿角市 should collect 長牛館 without needing a site GPS.
+    localStorage.setItem('walked_municipal_v2',JSON.stringify({'05209':{first:'2026-11-24',last:'2026-11-24'}}));
     localStorage.setItem('walked_sengoku_cards_v1',JSON.stringify({
      'sg2hist-nobu-1534-birth':{at:'2026-11-21',basis:'approved'},
      'sg2hist-hanbei-nagashino-1575':{at:'2020-01-02',basis:'retired'},
@@ -159,6 +161,34 @@ for(const [platform,browserType,options] of [
    assert.match(newText.popup,/CODH/,'CODH attribution must be visible');
    assert.equal(newText.heldPublic,false,'B denied site must not become a map marker');
    assert.equal(newText.heldPoint,null,'B denied site GPS must remain suppressed');
+   // A separate B-approved related site must be acquired from a municipal visit
+   // even though no ④ direct event-card link or public GPS exists.
+   const relatedCount=await page.evaluate(()=>{
+    const pid='sg-added-nanbu-harumasa-20261114';
+    return {
+     hits:SengokuV2.collectedRelatedSites(sengokuV2Catalog,state.visited,pid).map(e=>e.siteId),
+     visited:SengokuV2.visitedCodes(state.visited).has('05209'),
+     storyUnlocked:SengokuV2.canUnlockStory(sengokuV2Catalog,pid,sengokuFound,PublicationRuntime.sha256),
+     relatedSite:sengokuV2Catalog.sites.get('sg2site-a6-nanbu-nagau-20261121')
+    };
+   });
+   assert.equal(relatedCount.visited,true);
+   assert(relatedCount.hits.includes('sg2site-a6-nanbu-nagau-20261121'));
+   assert.equal(relatedCount.relatedSite.publicPin,false);
+   assert.equal(relatedCount.relatedSite.point,null);
+   // Clicking a character with related sites must show them *after* the
+   // history and biography sections, without changing event-card counts.
+   await page.locator('#sengokuPinSheet .sps-close').click();
+   await page.locator('#sengokuSearch').fill('南部晴政');
+   await page.locator('#sengokuList button').first().click();
+   const siteDetail=await page.locator('#sengokuDetail').textContent();
+   assert.match(siteDetail,/関連史跡/,'Related site section must exist');
+   assert.match(siteDetail,/長牛館跡/,'Municipal-only B-approved site must appear');
+   assert.match(siteDetail,/史跡獲得済み/,'Collected site must be marked');
+   assert(siteDetail.lastIndexOf('関連史跡')>siteDetail.indexOf('完成版ストーリー'),
+    'Related sites must follow lifetime card/story section');
+   assert(!relatedCount.storyUnlocked,'Related-only site cannot auto-unlock all historical event cards');
+
    assert.deepEqual(errors,[],'Browser execution must have no page errors');
    console.log('C_V7_BROWSER_PASS '+JSON.stringify({phase,platform,...state,popup:popup.slice(0,80)}));
   }finally{await browser.close();}
