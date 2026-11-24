@@ -52,7 +52,7 @@
       "bReviewedAt": "2026-11-20",
       "bPositionEvidence": "【B旧非公開理由の再点検・公表位置確認｜2026-11-20 17:41:34 JST｜③402/sg2site-a-nanbu-kenyoshi-20261114】",
       "positionEvidenceUrl": "https://www.town.aomori-nanbu.lg.jp/page/1839.html",
-      "officialInfoUrl": "https://www.town.aomori-nanbu.lg.jp/page/1839.html",
+      "officialInfoUrl": "https://opendata.pref.aomori.lg.jp/dataset/2006/resource/24462/content.html",
       "sourceUrls": [
         "https://adeac.jp/hirosaki-lib/texthtml/d100010/mp000020-100010/ht030540",
         "https://www.town.aomori-nanbu.lg.jp/page/1839.html",
@@ -62,7 +62,7 @@
         "https://opendata.pref.aomori.lg.jp/dataset/2006/resource/24462/content.html"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": "県が公表する旧剣吉小学校の施設代表点。城址公園の公開区域と旧校舎・私的管理区画を区別。学校敷地内への自由立入を案内しない。 地図は旧史跡の公表歴史/公共施設代表点を示すものであり、現代の入場口、当時の本人所在地、私有地へのアクセス、通行安全を保証しない。赤情報ピンの場合は立入禁止とし、100m接近は獲得条件にしない。市区町村制覇に基づくカード獲得は④B合格の対応関係で別判定。"
+      "visitorNotice": "県が公表する旧剣吉小学校の施設代表点。城址公園の公開区域と旧校舎・私的管理区画を区別。学校敷地内への自由立入を案内しない。"
     },
     {
       "id": "sg2site-a-masakage-asuke-castle-20261115",
@@ -98,7 +98,7 @@
       "bReviewedAt": "2026-11-20",
       "bPositionEvidence": "【B旧非公開理由の再点検・公表位置確認｜2026-11-20 17:41:34 JST｜③428/sg2site-a-masakage-asuke-castle-20261115】",
       "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/23/230000424400.html",
-      "officialInfoUrl": "https://clioweb.hi.u-tokyo.ac.jp/publication/syoho/52/pub_shiryo-10-29.html",
+      "officialInfoUrl": null,
       "sourceUrls": [
         "https://clioweb.hi.u-tokyo.ac.jp/publication/syoho/52/pub_shiryo-10-29.html",
         "https://www.city.toyota.aichi.jp/shisei/shisetsu/bunka/bunkasonohoka/1053006/index.html",
@@ -107,7 +107,7 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": "城跡公園足助城は有料・9時から16時30分（最終入城16時）、原則木曜等休。坂道・園路に注意。現復元施設は1575年の建造物でない。 地図は旧史跡の公表歴史/公共施設代表点を示すものであり、現代の入場口、当時の本人所在地、私有地へのアクセス、通行安全を保証しない。赤情報ピンの場合は立入禁止とし、100m接近は獲得条件にしない。市区町村制覇に基づくカード獲得は④B合格の対応関係で別判定。"
+      "visitorNotice": "城跡公園足助城は有料・9時から16時30分（最終入城16時）、原則木曜等休。坂道・園路に注意。現復元施設は1575年の建造物でない。"
     },
     {
       "id": "sg2site-a2-nobuyuki-hosenji-komatsu-20261116",
@@ -146,7 +146,7 @@
       "bReviewedAt": "2026-11-20",
       "bPositionEvidence": "【B旧非公開理由の再点検・公表位置確認｜2026-11-20 17:41:34 JST｜③430/sg2site-a2-nobuyuki-hosenji-komatsu-20261116】",
       "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000080600.html",
-      "officialInfoUrl": "https://museum.umic.jp/bunkazai/document/dot62.php",
+      "officialInfoUrl": null,
       "sourceUrls": [
         "https://museum.umic.jp/bunkazai/document/dot62.php",
         "https://www.82bunka.or.jp/bunkazai/detail.php?no=472&seq=0",
@@ -158,7 +158,7 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": "芳泉寺の公開寺院参照点。小松姫墓塔は本堂裏の管理墓域にあり、墓塔一点GPSを示さない。拝観・供養・階段・寺院の規定を優先。 地図は旧史跡の公表歴史/公共施設代表点を示すものであり、現代の入場口、当時の本人所在地、私有地へのアクセス、通行安全を保証しない。赤情報ピンの場合は立入禁止とし、100m接近は獲得条件にしない。市区町村制覇に基づくカード獲得は④B合格の対応関係で別判定。"
+      "visitorNotice": "芳泉寺の公開寺院参照点。小松姫墓塔は本堂裏の管理墓域にあり、墓塔一点GPSを示さない。拝観・供養・階段・寺院の規定を優先。"
     },
     {
       "id": "sg2site-a1-kiyomasa-hondo-castle-20261116",
@@ -194,7 +194,7 @@
       "bReviewedAt": "2026-11-20",
       "bPositionEvidence": "【B旧非公開理由の再点検・公表位置確認｜2026-11-20 17:41:34 JST｜③431/sg2site-a1-kiyomasa-hondo-castle-20261116】",
       "positionEvidenceUrl": "https://www.city.amakusa.kumamoto.jp/kiji0037216/index.html",
-      "officialInfoUrl": "https://www.city.amakusa.kumamoto.jp/kiji0037216/index.html",
+      "officialInfoUrl": "https://hp.amakusa-web.jp/a0905/MyHp/Pub/Free.aspx?CNo=2",
       "sourceUrls": [
         "https://www.city.amakusa.kumamoto.jp/kiji0037216/index.html",
         "https://www.city.kumamoto.jp/kiji0032846/Bun_89200_21_0151n_11_201203.pdf",
@@ -203,7 +203,7 @@
         "https://hp.amakusa-web.jp/a0905/MyHp/Pub/Free.aspx?CNo=2"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": "城山公園・天草キリシタン館の公開施設代表点で、本渡城旧本丸の厳密点ではない。公園・館の指定ルート/休館・有料展示条件と非公開遺構を区別。 地図は旧史跡の公表歴史/公共施設代表点を示すものであり、現代の入場口、当時の本人所在地、私有地へのアクセス、通行安全を保証しない。赤情報ピンの場合は立入禁止とし、100m接近は獲得条件にしない。市区町村制覇に基づくカード獲得は④B合格の対応関係で別判定。"
+      "visitorNotice": "城山公園・天草キリシタン館の公開施設代表点で、本渡城旧本丸の厳密点ではない。公園・館の指定ルート/休館・有料展示条件と非公開遺構を区別。"
     },
     {
       "id": "sg2site-a2post-toyama-castle-20261118",
@@ -239,7 +239,7 @@
       "bReviewedAt": "2026-11-20",
       "bPositionEvidence": "【B旧非公開理由の再点検・公表位置確認｜2026-11-20 17:41:34 JST｜③432/sg2site-a2post-toyama-castle-20261118】",
       "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/16/160000180800.html",
-      "officialInfoUrl": "https://joetsukankonavi.jp/kenshinkousai/chronology/",
+      "officialInfoUrl": null,
       "sourceUrls": [
         "https://joetsukankonavi.jp/kenshinkousai/chronology/",
         "https://www.city.toyama.toyama.jp/etc/maibun/toyamajyo/nenpyo/nenpyo.htm",
@@ -248,7 +248,7 @@
         "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": "富山市城址公園の公的開放部の歴史情報点。博物館・復元天守など個別施設の有料/利用時間/立入禁止区域は別。現建物は戦国期のままでない。 地図は旧史跡の公表歴史/公共施設代表点を示すものであり、現代の入場口、当時の本人所在地、私有地へのアクセス、通行安全を保証しない。赤情報ピンの場合は立入禁止とし、100m接近は獲得条件にしない。市区町村制覇に基づくカード獲得は④B合格の対応関係で別判定。"
+      "visitorNotice": "富山市城址公園の公的開放部の歴史情報点。博物館・復元天守など個別施設の有料/利用時間/立入禁止区域は別。現建物は戦国期のままでない。"
     },
     {
       "id": "sg2site-dosan-ogawa-20261121",
@@ -320,7 +320,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③466最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://www.city.gifu.lg.jp/kankoubunka/bunkazai/1005545/1037915.html",
-      "officialInfoUrl": "https://www.city.gifu.lg.jp/kankoubunka/bunkazai/1005545/1037915.html",
+      "officialInfoUrl": "https://www.kankou-gifu.jp/spot/detail_5815.html",
       "sourceUrls": [
         "https://www.kankou-gifu.jp/spot/detail_5815.html",
         "https://www.city.gifu.lg.jp/kankoubunka/bunkazai/1005545/1037915.html"
@@ -365,7 +365,7 @@
         "https://www.pref-lib.niigata.niigata.jp/wysiwyg/file/download/1/1314"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": ""
+      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。"
     },
     {
       "id": "sg2site-a5-kita-mise-yakata-20261121",
@@ -454,13 +454,13 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B返却33史跡・元ID=sg2site-a5-kita-kiriyama-castle-20261121・③470｜2026-11-22】",
       "positionEvidenceUrl": "https://www.bunka.pref.mie.lg.jp/Miebunka/detail?cls=cult_col01&pkey=0000000673",
-      "officialInfoUrl": "https://www.bunka.pref.mie.lg.jp/Miebunka/detail?cls=cult_col01&pkey=0000000673",
+      "officialInfoUrl": "https://tsukanko.jp/spot/s222/",
       "sourceUrls": [
         "https://www.bunka.pref.mie.lg.jp/Miebunka/detail?cls=cult_col01&pkey=0000000673",
         "https://heritagemap.nabunken.go.jp/statistic/494905-%E5%A4%9A%E6%B0%97%E5%8C%97%E7%95%A0%E6%B0%8F%E9%81%BA%E8%B7%A1%20%20%E9%9C%A7%E5%B1%B1%E5%9F%8E%E8%B7%A1.html"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": ""
+      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。"
     },
     {
       "id": "sg2site-a6-nanbu-shizukuishi-20261121",
@@ -589,7 +589,7 @@
         "https://www.vill.kunohe.iwate.jp/docs/251.html"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": ""
+      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。"
     },
     {
       "id": "sg2site-a7-kunohe-shrine1538-20261121",
@@ -622,13 +622,13 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B返却33史跡・元ID=sg2site-a7-kunohe-shrine1538-20261121・③475｜2026-11-22】",
       "positionEvidenceUrl": "https://vill.kunohe.iwate.jp/docs/233.html",
-      "officialInfoUrl": "https://vill.kunohe.iwate.jp/docs/233.html",
+      "officialInfoUrl": "https://www.vill.kunohe.iwate.jp/docs/233.html",
       "sourceUrls": [
         "https://vill.kunohe.iwate.jp/docs/233.html",
         "https://www.pref.iwate.jp/kenpoku/nino_chiiki/1053577/1053581/index.html"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": ""
+      "visitorNotice": "史跡の情報点です。一般公開区域に限り、管理区域には立ち入らず現地の案内に従ってください。"
     },
     {
       "id": "sg2site-a8-honda-sekigahara-jin-20261121",
@@ -661,7 +661,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③476最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://sekigahara.pref.gifu.lg.jp/tokugawa-ieyasu/",
-      "officialInfoUrl": "https://sekigahara.pref.gifu.lg.jp/tokugawa-ieyasu/",
+      "officialInfoUrl": "https://www.sekigahara1600.com/feature/tougun.html",
       "sourceUrls": [
         "https://sekigahara.pref.gifu.lg.jp/tokugawa-ieyasu/",
         "https://www.kankou-gifu.jp/spot/detail_6812.html"
@@ -731,7 +731,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③479最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://kunishitei.bunka.go.jp/heritage/detail/401/722",
-      "officialInfoUrl": "https://kunishitei.bunka.go.jp/heritage/detail/401/722",
+      "officialInfoUrl": "https://search.showakan.go.jp/search/photo/detail.php?id=90254933",
       "sourceUrls": [
         "https://adeac.jp/npmh/texthtml/d100010/mp000000/ht262820",
         "https://adeac.jp/nagano-city/texthtml/d100030/ct00000003/ht000270",
@@ -772,7 +772,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③480最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000333343",
-      "officialInfoUrl": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000333343",
+      "officialInfoUrl": "https://www.isejingu.or.jp/visit/",
       "sourceUrls": [
         "https://www.isejingu.or.jp/access/",
         "https://ise-kanko.jp/purpose/naiku/",
@@ -849,7 +849,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③482最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://www.pref.shizuoka.jp/kankosports/bunkageijutsu/bunkazai/1002825/1041003/1041886/1004979/1021251.html",
-      "officialInfoUrl": "https://www.pref.shizuoka.jp/kankosports/bunkageijutsu/bunkazai/1002825/1041003/1041886/1004979/1021251.html",
+      "officialInfoUrl": "https://shimada-ta.jp/tourist/suwaharajyouato/",
       "sourceUrls": [
         "https://www.pref.shizuoka.jp/kankosports/bunkageijutsu/bunkazai/1002825/1041003/1041886/1004979/1021251.html",
         "https://shimada-ta.jp/tourist/suwaharajyouato/"
@@ -887,7 +887,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③483最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://museum.umic.jp/bunkazai/document2/100.php",
-      "officialInfoUrl": "https://museum.umic.jp/bunkazai/document2/100.php",
+      "officialInfoUrl": "https://www.city.ueda.nagano.jp/site/nihonisan/60346.html",
       "sourceUrls": [
         "https://museum.umic.jp/bunkazai/document2/100.php"
       ],
@@ -980,7 +980,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③488最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://www.pref.shiga.lg.jp/ab00/23188.html",
-      "officialInfoUrl": "https://www.pref.shiga.lg.jp/ab00/23188.html",
+      "officialInfoUrl": "https://www.city.otsu.lg.jp/i/f/a/south/koen/1388102751950.html",
       "sourceUrls": [
         "https://www.pref.shiga.lg.jp/ab00/23188.html",
         "https://www.rekihaku.otsu.shiga.jp/db/jiten/data/129.html"
@@ -1018,7 +1018,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③489最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://rekihaku.pref.hyogo.lg.jp/castle/sasayama/",
-      "officialInfoUrl": "https://rekihaku.pref.hyogo.lg.jp/castle/sasayama/",
+      "officialInfoUrl": "https://www.city.tambasasayama.lg.jp/soshikikarasagasu/shinbunkazai/sasayamajo/2858.html",
       "sourceUrls": [
         "https://rekihaku.pref.hyogo.lg.jp/castle/sasayama/"
       ],
@@ -1056,7 +1056,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③490最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://www.nanzenji.or.jp/equipment/sanmon",
-      "officialInfoUrl": "https://www.nanzenji.or.jp/equipment/sanmon",
+      "officialInfoUrl": "https://www.nanzenji.or.jp/about_rinzaishu/visit",
       "sourceUrls": [
         "https://www.nanzenji.or.jp/equipment/sanmon",
         "https://ja.kyoto.travel/tourism/single01.php?category_id=7&tourism_id=436"
@@ -1095,7 +1095,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③491最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://www.pref.osaka.lg.jp/o070080/toshimiryoku/osakathemuseum/toyotomihideyoshi.html",
-      "officialInfoUrl": "https://www.pref.osaka.lg.jp/o070080/toshimiryoku/osakathemuseum/toyotomihideyoshi.html",
+      "officialInfoUrl": "https://www.city.yao.osaka.jp/bunka_sports_event/bunka_geijutsu_reikishi/1011330/1011406/1011409/1011415/1011419.html",
       "sourceUrls": [
         "https://www.city.yao.osaka.jp/bunka_sports_event/bunka_geijutsu_reikishi/1011330/1011406/1011409/1011415/1011419.html",
         "https://www.pref.osaka.lg.jp/o070080/toshimiryoku/osakathemuseum/toyotomihideyoshi.html"
@@ -1374,14 +1374,14 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B返却33史跡・元ID=sg2site-a31-sue-daiganji-maritime-20261121・③501｜2026-11-22】",
       "positionEvidenceUrl": "https://proto.harisen.jp/koramu/itsukusima-sakai1.htm",
-      "officialInfoUrl": "https://proto.harisen.jp/koramu/itsukusima-sakai1.htm",
+      "officialInfoUrl": "https://www.miyajima.or.jp/member/temple.html",
       "sourceUrls": [
         "https://proto.harisen.jp/koramu/itsukusima-sakai1.htm",
         "https://proto.harisen.jp/koramu/itsukusima-sakai3.htm",
         "https://www.miyajima.or.jp/member/temple.html"
       ],
       "codhAttributionRequired": false,
-      "visitorNotice": ""
+      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。"
     },
     {
       "id": "sg2site-a31-sue-dounji-grave-20261121",
@@ -1526,7 +1526,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B返却33史跡・元ID=sg2site-a36-yoshitaka-hakozaki-honden-haiden-20261121・③513｜2026-11-22】",
       "positionEvidenceUrl": "https://bunkazai.city.fukuoka.lg.jp/sp/cultural_properties/detail/137",
-      "officialInfoUrl": "https://bunkazai.city.fukuoka.lg.jp/sp/cultural_properties/detail/137",
+      "officialInfoUrl": "https://bunkazai.city.fukuoka.lg.jp/cultural-properties/detail/498/",
       "sourceUrls": [
         "https://bunkazai.city.fukuoka.lg.jp/sp/cultural_properties/detail/137",
         "https://bunkazai.city.fukuoka.lg.jp/sp/cultural_properties/detail/138",
@@ -1534,7 +1534,7 @@
         "https://kunishitei.bunka.go.jp/heritage/detail/102/3460"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": ""
+      "visitorNotice": "史跡の情報点です。危険・立入制限のある区域への入場や経路案内は行いません。現地の案内に従ってください。"
     },
     {
       "id": "sg2site-a37-sorin-tsukumi-grave-20261121",
@@ -1567,7 +1567,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・A33返却の墓所個別審査｜③514／sg2site-a37-sorin-tsukumi-grave-20261121｜2026-11-22】",
       "positionEvidenceUrl": "https://www.city.tsukumi.oita.jp/site/kanko2/1522.html",
-      "officialInfoUrl": "https://www.city.tsukumi.oita.jp/site/kanko2/1522.html",
+      "officialInfoUrl": "https://www.visit-oita.jp/spots/detail/4597",
       "sourceUrls": [
         "https://www.city.tsukumi.oita.jp/site/kanko2/1522.html",
         "https://www.visit-oita.jp/spots/detail/4597"
@@ -1607,7 +1607,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③515最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://www.nagoyajo.city.nagoya.jp/learn/history/kinse/",
-      "officialInfoUrl": "https://www.nagoyajo.city.nagoya.jp/learn/history/kinse/",
+      "officialInfoUrl": "https://www.nagoyajo.city.nagoya.jp/learn/construction/hori/",
       "sourceUrls": [
         "https://www.nagoyajo.city.nagoya.jp/learn/history/kinse/",
         "https://www.nagoyajo.city.nagoya.jp/learn/construction/hori/",
@@ -1774,7 +1774,7 @@
         "https://www.lib-sakai.jp/kyoudo/sakai_taikan/sakaiTaikan_19.htm"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": ""
+      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。"
     },
     {
       "id": "sg2site-a46-yoshihisa-tomikuma-20261121",
@@ -1971,7 +1971,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③543最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://www.city.mito.lg.jp/site/education/4400.html",
-      "officialInfoUrl": "https://www.city.mito.lg.jp/site/education/4400.html",
+      "officialInfoUrl": "https://www.ibaraki-maibun.org/report/%E6%B0%B4%E6%88%B8%E5%9F%8E%E8%B7%A1/",
       "sourceUrls": [
         "https://www.city.mito.lg.jp/site/education/4400.html",
         "https://www.city.mito.lg.jp/site/education/3910.html",
@@ -2011,7 +2011,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③544最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://www.akitasuwagu.jp/pages/7/",
-      "officialInfoUrl": "https://www.akitasuwagu.jp/pages/7/",
+      "officialInfoUrl": "https://ja.wikipedia.org/wiki/%E7%A7%8B%E7%94%B0%E8%AB%8F%E8%A8%AA%E5%AE%AE",
       "sourceUrls": [
         "https://www.akitasuwagu.jp/pages/7/",
         "https://akita-jinjacho.sakura.ne.jp/shrine_search/%E7%A7%8B%E7%94%B0%E8%AB%8F%E8%A8%AA%E5%AE%AE/"
@@ -2136,7 +2136,7 @@
       "bReviewedAt": "2026-11-22",
       "bPositionEvidence": "【B・GATE-110S-17R-20261122・③548最終位置/取得判定・2026-11-22】",
       "positionEvidenceUrl": "https://tusyoji.wixsite.com/tusyojinokai/sarasojyunotera",
-      "officialInfoUrl": "https://tusyoji.wixsite.com/tusyojinokai/sarasojyunotera",
+      "officialInfoUrl": "https://souda-kyoto.jp/guide/spot/myoshinji-torinin.html",
       "sourceUrls": [
         "https://tusyoji.wixsite.com/tusyojinokai/sarasojyunotera",
         "https://souda-kyoto.jp/guide/spot/myoshinji-torinin.html",
