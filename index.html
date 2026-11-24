@@ -953,8 +953,10 @@ function renderSengoku(){
  }
  const activeCount=sengokuV2Catalog?[...sengokuV2Catalog.histories.values()].filter(h=>ownsSengokuCard(h.historyId)).length:0;
  // Only current approved cards count toward earned people and totals.
- const relatedCollected=sengokuPeople.reduce((n,p)=>n+collectedRelatedSengokuSites(p.id).length,0);
- $('sengokuCount').textContent='獲得人物 '+owned.length+'人／カード '+activeCount+'枚／関連史跡 '+relatedCollected+'件';
+ const relatedFeatureAvailable=sengokuV2Catalog&&[...sengokuV2Catalog.sites.values()].some(s=>s.relatedOnly===true);
+ const relatedCollected=relatedFeatureAvailable?sengokuPeople.reduce((n,p)=>n+collectedRelatedSengokuSites(p.id).length,0):0;
+ $('sengokuCount').textContent='獲得人物 '+owned.length+'人／カード '+activeCount+'枚'+
+  (relatedFeatureAvailable?'／関連史跡 '+relatedCollected+'件':'');
  const selected=sengokuPeople.find(p=>p.id===selectedSengokuPersonId);
  const count=selected?unpinnedMunicipalityCodes(selected.id).size:0;
  $('sengokuSelectedName').textContent=selected
