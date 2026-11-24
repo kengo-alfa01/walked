@@ -15,6 +15,7 @@ const stages=[
  ['P1',read('sengoku/v2/approved-c-20261124-v7-phase1-staging.json')],
  ['P2',read('sengoku/v2/approved-c-20261124-v7-phase2-staging.json')]
 ];
+const phase2Audit=read('docs/c-release/20261124-v7-phase2-pin-preaudit.json');
 const approved=audit.sites.filter(x=>x.decision==='PIN_OK');
 const withheld=audit.sites.filter(x=>x.decision==='NO_PIN');
 const oldPins=base.sites.filter(s=>s.publicPin);
@@ -56,6 +57,33 @@ test('16 approved related-only site IDs never gain phantom history links',()=>{
    const site=doc.sites.find(x=>x.siteId===rec.id);
    assert.equal(site.relatedOnly,true,'Missing related-only flag '+rec.id);
    assert(!doc.relations.some(r=>r.siteId===rec.id),'Made-up history link '+rec.id);
+  }
+ }
+});
+test('Phase2 has 22 explicit B approved pins, 17 no-pins, 11 B-only position decisions pending',()=>{
+ assert.equal(phase2Audit.counts.total,50);
+ assert.deepEqual([phase2Audit.counts.explicitPinOK,phase2Audit.counts.explicitNoPin,phase2Audit.counts.needsBPinDecision],[22,17,11]);
+ assert.equal(phase2Audit.counts.noPinInternalGps,9);
+ assert.equal(phase2Audit.counts.noPinGpsBlank,8);
+ const held=phase2Audit.sites.filter(x=>x.decision!=='PIN_OK');
+ assert.equal(held.length,28);
+ for(const x of phase2Audit.sites){
+  assert.equal(x.sourceIds.length>0,true);
+  assert(/^[0-9a-f]{64}$/.test(x.textSha256));
+  const inPhase2=stages[1][1].sites.find(s=>s.siteId===x.id);
+  assert(inPhase2,'Phase2 site content missing '+x.id);
+  assert.equal(inPhase2.publicPin,false,'Unreviewed Phase2 pin leaked '+x.id);
+  assert.equal(inPhase2.point,null,'Phase2 GPS leaked into staging '+x.id);
+  if(x.decision==='PIN_OK'){
+   assert(Array.isArray(x.point)&&x.point.length===2&&x.point.every(Number.isFinite));
+   assert(['red','yellow','green'].includes(x.accessColor));
+   assert(/^\d{4}-\d{2}-\d{2}$/.test(x.bReviewDate));
+   assert(x.approvedEHasMatchingCoordinate);
+  }else{
+   assert(!('point'in x),'Unapproved B decision has coordinate in audit '+x.id);
+   assert(!('accessColor'in x));
+   assert(x.gpsOmitted);
+   if(x.decision==='NEEDS_B_PIN_DECISION')assert(x.specificNextGate.includes('B独立'));
   }
  }
 });
