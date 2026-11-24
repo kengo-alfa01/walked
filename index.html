@@ -967,6 +967,23 @@ function renderSengoku(){
   button.append(title,count);button.onclick=()=>showSengokuPerson(person);target.append(button);
  }
 }
+// The approved catalogue may not carry ②経歴F=出生 or an exact birth year.
+ // Identify the subject's own birth without treating a child's birth as the subject's.
+function isSengokuBirthHistory(history){
+ if(!history)return false;
+ const phase=history.phase??history.lifePhase;
+ if(phase!=null&&phase!=='')return phase==='出生';
+ const title=String(history.title||''),id=String(history.historyId||'');
+ if(/(?:実子|嫡男|長男|次男|三男|娘|息子|孫|子・)[^、。]*が(?:生まれ|誕生)/.test(title)||
+    /(?:基礎|制度|文化)[^、。]*が生まれ/.test(title)||/誕生後/.test(title))return false;
+ return /(?:^|[-_])birth(?:[-_]|$)/i.test(id)||
+   /(?:生まれ|出生|誕生|生を受け|出自と生年)/.test(title);
+}
+function sengokuBirthFirst(ordered){
+ const births=[],other=[];
+ for(const history of ordered)(isSengokuBirthHistory(history)?births:other).push(history);
+ return births.concat(other);
+}
 function showSengokuPerson(person){
  const approved=sengokuV2Catalog?.people.get(person?.id);
  if(!approved||(countOwned(person.id)===0&&!collectedRelatedSengokuSites(person.id).length))return;
@@ -1001,9 +1018,12 @@ function showSengokuPerson(person){
  if(countOwned(person.id)===0)intro.className='sengoku-v2-locked';
  section.append(intro);
  const chronology=sengokuChronology.get(person.id);
- const histories=typeof SengokuChronology==='undefined'
+ const chronologicalHistories=typeof SengokuChronology==='undefined'
   ?approvedHistories(person.id).sort((a,b)=>(a.eventYear??9999)-(b.eventYear??9999)||a.historyId.localeCompare(b.historyId))
   :SengokuChronology.present(approvedHistories(person.id),chronology);
+ // Birth is always the first chapter of a life, even when the exact year is disputed.
+ // Preserve the approved chronology and tie order for every other history.
+ const histories=sengokuBirthFirst(chronologicalHistories);
  const fallbackTieById=new Map();
  if(!chronology){
   const byYearRank=new Map();
@@ -1023,7 +1043,7 @@ function showSengokuPerson(person){
  const group=document.createElement('h4');group.textContent='生涯の歩み';section.append(group);
  let undatedHeadingShown=false;
  for(const history of histories){
-  if(history.eventYear===null&&!undatedHeadingShown){
+  if(history.eventYear==null&&!isSengokuBirthHistory(history)&&!undatedHeadingShown){
    const undatedHead=document.createElement('h4');
    undatedHead.textContent='年代未詳の経歴（時系列とは別表示）';
    section.append(undatedHead);undatedHeadingShown=true;
