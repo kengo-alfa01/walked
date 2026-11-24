@@ -15,7 +15,7 @@ const stages=[
  ['P1',read('sengoku/v2/approved-c-20261124-v7-phase1-staging.json')],
  ['P2',read('sengoku/v2/approved-c-20261124-v7-phase2-staging.json')]
 ];
-const phase2Audit=read('docs/c-release/20261124-v7-phase2-pin-preaudit.json');
+const phase2Audit=read('docs/c-release/20261124-v7-phase2-pin-reconciled.json');
 const approved=audit.sites.filter(x=>x.decision==='PIN_OK');
 const withheld=audit.sites.filter(x=>x.decision==='NO_PIN');
 const oldPins=base.sites.filter(s=>s.publicPin);
@@ -60,21 +60,26 @@ test('16 approved related-only site IDs never gain phantom history links',()=>{
   }
  }
 });
-test('Phase2 has 22 explicit B approved pins, 17 no-pins, 11 B-only position decisions pending',()=>{
+test('Phase2 exact B approvals have 32 pinned, 17 nonpin and 1 held private residential site',()=>{
  assert.equal(phase2Audit.counts.total,50);
- assert.deepEqual([phase2Audit.counts.explicitPinOK,phase2Audit.counts.explicitNoPin,phase2Audit.counts.needsBPinDecision],[22,17,11]);
- assert.equal(phase2Audit.counts.noPinInternalGps,9);
- assert.equal(phase2Audit.counts.noPinGpsBlank,8);
+ assert.deepEqual([phase2Audit.counts.approvedPins,phase2Audit.counts.noPin,phase2Audit.counts.conditionalPrivateHold],[32,17,1]);
+ assert.equal(phase2Audit.counts.recoveredBDecisions,10);
+ assert.equal(phase2Audit.counts.independentRelatedSites,8);
  const held=phase2Audit.sites.filter(x=>x.decision!=='PIN_OK');
- assert.equal(held.length,28);
+ assert.equal(held.length,18);
  for(const x of phase2Audit.sites){
   assert.equal(x.sourceIds.length>0,true);
   assert(/^[0-9a-f]{64}$/.test(x.textSha256));
   const inPhase2=stages[1][1].sites.find(s=>s.siteId===x.id);
   assert(inPhase2,'Phase2 site content missing '+x.id);
-  assert.equal(inPhase2.publicPin,false,'Unreviewed Phase2 pin leaked '+x.id);
-  assert.equal(inPhase2.point,null,'Phase2 GPS leaked into staging '+x.id);
+  assert.equal(inPhase2.publicPin,x.decision==='PIN_OK','Phase2 reviewed visibility mismatch '+x.id);
+  assert.equal(inPhase2.point===null,x.decision!=='PIN_OK','Phase2 GPS safety gate mismatch '+x.id);
+  if(x.relatedOnly)assert.equal(inPhase2.relatedOnly,true,'Phase2 related-only collectible missing '+x.id);
   if(x.decision==='PIN_OK'){
+   assert.deepEqual(inPhase2.point,x.point,'Phase2 B-approved coordinate drift '+x.id);
+   assert.equal(inPhase2.pinReview.accessStatus,x.accessColor);
+   assert(inPhase2.pinReview.attributions.length>0);
+   assert.equal(inPhase2.pinReview.checkedAt,x.bReviewDate);
    assert(Array.isArray(x.point)&&x.point.length===2&&x.point.every(Number.isFinite));
    assert(['red','yellow','green'].includes(x.accessColor));
    assert(/^\d{4}-\d{2}-\d{2}$/.test(x.bReviewDate));
@@ -83,15 +88,15 @@ test('Phase2 has 22 explicit B approved pins, 17 no-pins, 11 B-only position dec
    assert(!('point'in x),'Unapproved B decision has coordinate in audit '+x.id);
    assert(!('accessColor'in x));
    assert(x.gpsOmitted);
-   if(x.decision==='NEEDS_B_PIN_DECISION')assert(x.specificNextGate.includes('B独立'));
+   if(x.decision==='HOLD_CONDITIONAL_PRIVATE_SITE')assert(x.specificNextGate.includes('配信禁止'));
   }
  }
 });
 for(const [phase,data] of stages){
- test(phase+': 35 independently approved new pins, 35 site-only, preserve all 419 baseline pins',()=>{
+ test(phase+': exactly 35 Phase1 and 32 Phase2 new pins, all 419 baseline locations preserved',()=>{
   const catalog=core.validate(data,known,sha);
   assert.equal(catalog.people.size,phase==='P1'?74:88);
-  assert.equal(data.sites.filter(s=>s.publicPin).length,454);
+  assert.equal(data.sites.filter(s=>s.publicPin).length,phase==='P1'?454:486);
   const siteMap=new Map(data.sites.map(s=>[s.siteId,s]));
   for(const rec of approved){
    const s=siteMap.get(rec.id);
@@ -120,6 +125,16 @@ for(const [phase,data] of stages){
    assert.equal(s.point,null,'Held ③ GPS leaked to game '+rec.id);
    assert.equal(s.pinApproval,null);
    assert.equal(s.pinReview,null);
+  }
+  const phase2Ids=new Set(phase2Audit.sites.map(x=>x.id));
+  if(phase==='P1'){
+   for(const id of phase2Ids)assert(!siteMap.has(id),'Phase2-only site leaked to Phase1 '+id);
+  }else{
+   assert.equal(phase2Audit.sites.filter(x=>x.decision==='PIN_OK').length,32);
+   assert.equal(phase2Audit.sites.filter(x=>x.relatedOnly===true).length,8);
+   const priv=siteMap.get('sg2site-a-hachijo-hideie-residence-20261123');
+   assert(priv&&!priv.publicPin&&priv.point===null&&priv.pinApproval===null,
+    'Private residence cannot have a new public GPS pin');
   }
   for(const s of oldPins){
    const now=siteMap.get(s.siteId);
