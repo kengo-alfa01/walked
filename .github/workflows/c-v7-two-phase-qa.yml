@@ -50,7 +50,7 @@ jobs:
         run: node scripts/check-c-v6-prepublish.cjs --candidate sengoku/v2/approved-c-20261124-v6-staging.json
       - name: Split into phase 1 (74 existing) and phase 2 (14 new) and recheck every SHA
         run: node scripts/build-c-v7-phases.cjs
-      - name: Validate all 70 Phase1 B decisions, 35 new pins, 35 withheld and old 419 protected
+      - name: Validate all 70 Phase1 B decisions, 54 new pins, 16 withheld and old 419 protected
         run: node --test tests/c-v7-phase-pin-gate.test.cjs
       - name: Check three-person original model and 74-person live release regressions
         run: node --test tests/sengoku-v2.test.cjs tests/c-20261120-new9-release.test.cjs
