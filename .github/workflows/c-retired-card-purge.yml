@@ -8,7 +8,6 @@ on:
       - tests/app-integration.test.cjs
       - tests/support/app.cjs
       - scripts/verify-c-card-purge-live.cjs
-      - .github/workflows/c-retired-card-purge.yml
   pull_request:
     branches: [main]
     paths:
@@ -16,7 +15,6 @@ on:
       - tests/c-hide-retired-card-count*
       - tests/app-integration.test.cjs
       - scripts/verify-c-card-purge-live.cjs
-      - .github/workflows/c-retired-card-purge.yml
   workflow_dispatch:
 permissions:
   contents: read
