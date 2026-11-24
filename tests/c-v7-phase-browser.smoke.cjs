@@ -51,7 +51,7 @@ for(const [platform,browserType,options] of [
     .catch(async e=>{throw Error('Catalogue startup failed in '+phase+': '+await page.locator('#sengokuQuality').textContent().catch(()=>'(none)')+
     ' pageerrors='+errors.join('|')+' original='+e.message)});
    await page.locator('[data-collection-mode="sengoku"]').click();
-   await page.waitForFunction(()=>sengokuPins.getLayers().length===454,null,{timeout:12000});
+   await page.waitForFunction(n=>sengokuPins.getLayers().length===n,phase==='P1'?454:486,{timeout:12000});
    const state=await page.evaluate(id=>{
     const newSites=[...sengokuV2Catalog.sites.values()].filter(s=>!s.publicPin);
     return {
@@ -70,7 +70,7 @@ for(const [platform,browserType,options] of [
    assert.equal(state.people,expected);
    assert.equal(state.histories,stages[phase].histories.length);
    assert.equal(state.sites,stages[phase].sites.length);
-   assert.equal(state.publicPins,454);
+   assert.equal(state.publicPins,phase==='P1'?454:486);
    assert.equal(state.novel,phase==='P2');
    assert.equal(state.oldCard,'2026-11-21');
    assert.equal(state.retiredCard,false);
@@ -161,6 +161,54 @@ for(const [platform,browserType,options] of [
    assert.match(newText.popup,/CODH/,'CODH attribution must be visible');
    assert.equal(newText.heldPublic,false,'B denied site must not become a map marker');
    assert.equal(newText.heldPoint,null,'B denied site GPS must remain suppressed');
+   if(phase==='P2'){
+    // Phase2 must include 32 independently B and ⑥ approved new site pins,
+    // but never publish the conditional private Hachijo residence GPS.
+    const safety=await page.evaluate(()=>{
+     const s=sengokuV2Catalog.sites.get('sg2site-new14-gamou-matsusaka-20261120');
+     const privateSite=sengokuV2Catalog.sites.get('sg2site-a-hachijo-hideie-residence-20261123');
+     return {added:s?.publicPin===true,point:s?.point,credits:s?.pinReview?.attributions?.map(x=>x.label),
+       privateSitePublic:privateSite?.publicPin,privatePoint:privateSite?.point,
+       newerSites:[...sengokuV2Catalog.sites.values()].filter(x=>x.publicPin&&
+        x.approval?.sheetRow>=3909&&x.approval?.sheetRow<=4445).length};
+    });
+    assert.equal(safety.added,true);
+    assert(Array.isArray(safety.point)&&safety.point.length===2);
+    assert(safety.credits?.some(x=>x.includes('CODH')),'Phase2 licensed POI missing CODH credit');
+    assert.equal(safety.privateSitePublic,false);
+    assert.equal(safety.privatePoint,null,'Private Hachijo home GPS must stay suppressed');
+    await page.locator('#sengokuPinSheet .sps-close').click();
+    const newName='松坂城跡';
+    await page.locator('#map').scrollIntoViewIfNeeded();
+    await page.evaluate(name=>{
+     map.invalidateSize();
+     const marker=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
+     if(!marker)throw Error('P2 vetted pin missing: '+name);
+     map.setView(marker.getLatLng(),13,{animate:false});
+    },newName);
+    await page.waitForTimeout(450);
+    await page.evaluate(name=>{
+     map.invalidateSize();
+     const marker=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
+     map.setView(marker.getLatLng(),13,{animate:false});
+    },newName);
+    await page.waitForFunction(name=>{
+     const marker=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
+     const box=marker?.getElement()?.getBoundingClientRect();
+     return box&&box.width>0&&box.height>0&&map.getBounds().contains(marker.getLatLng());
+    },newName,{timeout:12000});
+    const pos=await page.evaluate(name=>{
+     const marker=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
+     const box=marker.getElement().getBoundingClientRect();
+     return{x:box.left+box.width/2,y:box.top+box.height/2};
+    },newName);
+    if(options.hasTouch)await page.touchscreen.tap(pos.x,pos.y);
+    else await page.mouse.click(pos.x,pos.y);
+    await page.waitForTimeout(250);
+    const body=await page.evaluate(()=>document.querySelector('#sengokuPinSheet .sps-scroll')?.textContent||'');
+    assert.match(body,/松坂城|松阪城/,'Phase2 real touch/click must show Matsusaka Castle text');
+    assert.match(body,/CODH/,'Phase2 POI attribution must be visible');
+   }
    // A separate B-approved related site must be acquired from a municipal visit
    // even though no ④ direct event-card link or public GPS exists.
    const relatedCount=await page.evaluate(()=>{
