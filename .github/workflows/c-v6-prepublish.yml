@@ -31,6 +31,8 @@ jobs:
         run: node --test tests/c-v6-88-approval-gate.test.cjs tests/c-v6-prepublish.test.cjs tests/c-v6-sanitize.test.cjs
       - name: Assemble and validate C v6 staging JSON (without touching live)
         run: node scripts/build-c-v6-candidate.cjs
+      - name: Run 88-person acquisition / Ando v3 / backup / location regression
+        run: node --test tests/c-v6-candidate-gameplay.test.cjs
       - name: Run strict C v6 approval SHA / ID / unlock / GPS prepublish QA
         run: node scripts/check-c-v6-prepublish.cjs --candidate sengoku/v2/approved-c-20261124-v6-staging.json
       - name: Upload non-live candidate and C QA results
