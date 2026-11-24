@@ -14,7 +14,8 @@
       "red": 10,
       "yellow": 16,
       "green": 9
-    }
+    },
+    "independentRelatedSites": 16
   },
   "sites": [
     {
@@ -421,7 +422,8 @@
       "reason": "GPS未設定または公表不可",
       "gpsHeldInCanonical": false,
       "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [],
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a5-kita-kiriyama-castle-20261121",
@@ -460,7 +462,8 @@
         "https://heritagemap.nabunken.go.jp/statistic/494905-%E5%A4%9A%E6%B0%97%E5%8C%97%E7%95%A0%E6%B0%8F%E9%81%BA%E8%B7%A1%20%20%E9%9C%A7%E5%B1%B1%E5%9F%8E%E8%B7%A1.html"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。"
+      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。",
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a6-nanbu-shizukuishi-20261121",
@@ -489,7 +492,8 @@
       "reason": "B最終判定によるピンなし取得",
       "gpsHeldInCanonical": true,
       "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [],
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a6-nanbu-nagau-20261121",
@@ -518,7 +522,8 @@
       "reason": "GPS未設定または公表不可",
       "gpsHeldInCanonical": false,
       "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [],
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a6-nanbu-asamizu-20261121",
@@ -589,7 +594,8 @@
         "https://www.vill.kunohe.iwate.jp/docs/251.html"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。"
+      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。",
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a7-kunohe-shrine1538-20261121",
@@ -628,7 +634,8 @@
         "https://www.pref.iwate.jp/kenpoku/nino_chiiki/1053577/1053581/index.html"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": "史跡の情報点です。一般公開区域に限り、管理区域には立ち入らず現地の案内に従ってください。"
+      "visitorNotice": "史跡の情報点です。一般公開区域に限り、管理区域には立ち入らず現地の案内に従ってください。",
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a8-honda-sekigahara-jin-20261121",
@@ -1170,7 +1177,8 @@
       "reason": "GPS未設定または公表不可",
       "gpsHeldInCanonical": false,
       "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [],
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a27-ujitsuna-taisekiji-1537-20261121",
@@ -1340,7 +1348,8 @@
       "reason": "GPS未設定または公表不可",
       "gpsHeldInCanonical": false,
       "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [],
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a31-sue-daiganji-maritime-20261121",
@@ -1381,7 +1390,8 @@
         "https://www.miyajima.or.jp/member/temple.html"
       ],
       "codhAttributionRequired": false,
-      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。"
+      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。",
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a31-sue-dounji-grave-20261121",
@@ -1422,7 +1432,8 @@
         "https://www.miyajima.or.jp/history/chronology.html"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": "史跡を示す公表参照点であり、厳密な墓石位置・入場許可・最適な経路ではありません。現地案内に従ってください。"
+      "visitorNotice": "史跡を示す公表参照点であり、厳密な墓石位置・入場許可・最適な経路ではありません。現地案内に従ってください。",
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a33-haruhisa-nakayama-shrine-1559-20261121",
@@ -1573,7 +1584,8 @@
         "https://www.visit-oita.jp/spots/detail/4597"
       ],
       "codhAttributionRequired": false,
-      "visitorNotice": "史跡を示す公表参照点であり、厳密な墓石位置・入場許可・最適な経路ではありません。現地案内に従ってください。"
+      "visitorNotice": "史跡を示す公表参照点であり、厳密な墓石位置・入場許可・最適な経路ではありません。現地案内に従ってください。",
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a38-kiyomasa-nagoya-tenshudai-20261121",
@@ -1680,7 +1692,8 @@
         "https://www.darumaji.jp/temple.html"
       ],
       "codhAttributionRequired": false,
-      "visitorNotice": "史跡を示す公表参照点であり、厳密な墓石位置・入場許可・最適な経路ではありません。現地案内に従ってください。"
+      "visitorNotice": "史跡を示す公表参照点であり、厳密な墓石位置・入場許可・最適な経路ではありません。現地案内に従ってください。",
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a44-miyoshi-shibojyo-birthtradition-20261121",
@@ -1774,7 +1787,8 @@
         "https://www.lib-sakai.jp/kyoudo/sakai_taikan/sakaiTaikan_19.htm"
       ],
       "codhAttributionRequired": true,
-      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。"
+      "visitorNotice": "史跡の情報点です。見学可能な区域・拝観時間・地形に注意し、管理者の案内に従ってください。",
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a46-yoshihisa-tomikuma-20261121",
@@ -2045,7 +2059,8 @@
       "reason": "B最終判定によるピンなし取得",
       "gpsHeldInCanonical": true,
       "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [],
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a50-sagara-yunomae-castle-20261121",
@@ -2171,7 +2186,8 @@
       "reason": "GPS未設定または公表不可",
       "gpsHeldInCanonical": false,
       "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [],
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a52-kikkawa-fukumitsu-castle-20261121",
@@ -2366,7 +2382,8 @@
       "reason": "B最終判定によるピンなし取得",
       "gpsHeldInCanonical": true,
       "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [],
+      "relatedOnly": true
     },
     {
       "id": "sg2site-a56-sogo-nakatomigawa-battle-20261121",
