@@ -3,14 +3,12 @@ on:
   push:
     branches: [c/hide-legacy-card-count-ui-20261122, main]
     paths:
-      - index.html
       - tests/c-hide-retired-card-count.test.cjs
       - tests/c-hide-retired-card-count.browser.cjs
       - .github/workflows/c-hide-retired-card-count.yml
   pull_request:
     branches: [main]
     paths:
-      - index.html
       - tests/c-hide-retired-card-count.test.cjs
       - tests/c-hide-retired-card-count.browser.cjs
       - .github/workflows/c-hide-retired-card-count.yml
