@@ -977,7 +977,7 @@
       check(h.kind==='place'&&h.personId===a.personId&&h.approval.sheetRow===a.approvalRow&&
         h.approval.version===a.approvalVersion&&h.approval.sourceId===a.historyId&&
         a.bStatus==='合格'&&a.linkDecision==='関係上対象'&&
-        ['本人直接','出来事直接（史料）','出来事直接（公的伝承）'].includes(a.classification),'自治体獲得参照の承認版・④Bが不正');
+        ['本人直接','出来事直接（史料）','出来事直接（公的伝承）'].includes(a.classification),'自治体獲得参照の承認版・④Bが不正 '+a.historyId+' kind='+h.kind+' approval='+h.approval.sheetRow+'/'+h.approval.version+' award='+a.approvalRow+'/'+a.approvalVersion);
       const [code]=normalizeCodes([a.municipalityCode],known);
       if(!regionMap.has(a.historyId))regionMap.set(a.historyId,new Set());
       regionMap.get(a.historyId).add(code);
