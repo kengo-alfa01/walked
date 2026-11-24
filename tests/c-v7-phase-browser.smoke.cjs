@@ -37,7 +37,7 @@ for(const [platform,browserType,options] of [
   try{
    await routeStage(page,phase);
    await page.addInitScript(()=>{
-    // Related-only site: 鹿角市 should collect 長牛館 without needing a site GPS.
+    // Municipality visit should award approved content irrespective of any pin proximity.
     localStorage.setItem('walked_municipal_v2',JSON.stringify({'05209':{first:'2026-11-24',last:'2026-11-24'}}));
     localStorage.setItem('walked_sengoku_cards_v1',JSON.stringify({
      'sg2hist-nobu-1534-birth':{at:'2026-11-21',basis:'approved'},
@@ -149,8 +149,11 @@ for(const [platform,browserType,options] of [
      publicPin:s?.publicPin,
      access:s?.pinReview?.accessStatus,
      attrs:s?.pinReview?.attributions?.length,
-     heldPublic:sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121')?.publicPin,
-     heldPoint:sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121')?.point
+     heldPublic:sengokuV2Catalog.sites.get('sg2site-a27-ujitsuna-taisekiji-1537-20261121')?.publicPin,
+     heldPoint:sengokuV2Catalog.sites.get('sg2site-a27-ujitsuna-taisekiji-1537-20261121')?.point,
+     bAdded:sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121')?.publicPin,
+     bAddedPoint:sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121')?.point,
+     bAddedColor:sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121')?.pinReview?.accessStatus
     };
    });
    assert.equal(newText.publicPin,true);
@@ -161,6 +164,9 @@ for(const [platform,browserType,options] of [
    assert.match(newText.popup,/CODH/,'CODH attribution must be visible');
    assert.equal(newText.heldPublic,false,'B denied site must not become a map marker');
    assert.equal(newText.heldPoint,null,'B denied site GPS must remain suppressed');
+   assert.equal(newText.bAdded,true,'2026-11-24 B-approved formerly pinless site must now be visible');
+   assert.deepEqual(newText.bAddedPoint,[136.4188125,34.4061875]);
+   assert.equal(newText.bAddedColor,'yellow','C cannot change B color');
    if(phase==='P2'){
     // Phase2 has 44 user/B-approved new pins, including the Hachijo red public
     // historical reference point; do not route visitors into private areas.
