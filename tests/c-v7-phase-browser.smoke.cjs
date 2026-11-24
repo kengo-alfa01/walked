@@ -51,7 +51,7 @@ for(const [platform,browserType,options] of [
     .catch(async e=>{throw Error('Catalogue startup failed in '+phase+': '+await page.locator('#sengokuQuality').textContent().catch(()=>'(none)')+
     ' pageerrors='+errors.join('|')+' original='+e.message)});
    await page.locator('[data-collection-mode="sengoku"]').click();
-   await page.waitForFunction(n=>sengokuPins.getLayers().length===n,phase==='P1'?454:487,{timeout:12000});
+   await page.waitForFunction(n=>sengokuPins.getLayers().length===n,phase==='P1'?473:517,{timeout:12000});
    const state=await page.evaluate(id=>{
     const newSites=[...sengokuV2Catalog.sites.values()].filter(s=>!s.publicPin);
     return {
@@ -70,7 +70,7 @@ for(const [platform,browserType,options] of [
    assert.equal(state.people,expected);
    assert.equal(state.histories,stages[phase].histories.length);
    assert.equal(state.sites,stages[phase].sites.length);
-   assert.equal(state.publicPins,phase==='P1'?454:487);
+   assert.equal(state.publicPins,phase==='P1'?473:517);
    assert.equal(state.novel,phase==='P2');
    assert.equal(state.oldCard,'2026-11-21');
    assert.equal(state.retiredCard,false);
@@ -162,7 +162,7 @@ for(const [platform,browserType,options] of [
    assert.equal(newText.heldPublic,false,'B denied site must not become a map marker');
    assert.equal(newText.heldPoint,null,'B denied site GPS must remain suppressed');
    if(phase==='P2'){
-    // Phase2 has 33 user/B-approved pins, including the Hachijo red public
+    // Phase2 has 44 user/B-approved new pins, including the Hachijo red public
     // historical reference point; do not route visitors into private areas.
     const safety=await page.evaluate(()=>{
      const s=sengokuV2Catalog.sites.get('sg2site-new14-gamou-matsusaka-20261120');
