@@ -189,3 +189,32 @@ for(const [phase,data] of stages){
   assert.throws(()=>core.validate(badNoPin,known,sha),/未承認または範囲外のピン/);
  });
 }
+
+test('v8 B-approved 30 positions are included once within existing phases',()=>{
+ const a=read('docs/c-release/20261124-b-pin30-preflight.json');
+ assert.equal(a.sites.length,30);
+ assert.equal(a.integration.approvedContentTotal,765);
+ assert.equal(a.integration.approvedContentDelta,0);
+ const phaseCounts={Phase1:0,Phase2:0};
+ for(const item of a.sites){
+  assert(['Phase1','Phase2'].includes(item.phase));
+  const phase=item.phase==='Phase1'?'P1':'P2';
+  const stage=stages.find(x=>x[0]===phase)?.[1];
+  assert(stage);
+  const matches=stage.sites.filter(x=>x.siteId===item.siteId);
+  assert.equal(matches.length,1,'Duplicate or missing B-approved site '+item.siteId);
+  const site=matches[0];
+  assert.equal(site.publicPin,true,'B-approved info pin absent '+item.siteId);
+  assert.deepEqual(site.point,item.point,'B-approved coordinate drift '+item.siteId);
+  assert.equal(site.pinReview.accessStatus,item.accessStatus,'C must not change B color '+item.siteId);
+  assert.equal(site.pinApproval.sheetRow,item.approval.sheetRow);
+  assert.equal(site.pinApproval.version,item.approval.version);
+  assert.equal(core.pinDetails(site).noRouting,item.accessStatus==='red','B red informational pin no-routing');
+  if(phase==='P2'){
+   const p1=stages.find(x=>x[0]==='P1')?.[1];
+   assert(!p1.sites.some(x=>x.siteId===item.siteId),'Phase2 pin leaked into Phase1');
+  }
+  phaseCounts[item.phase]++;
+ }
+ assert.deepEqual(phaseCounts,{Phase1:19,Phase2:11});
+});
