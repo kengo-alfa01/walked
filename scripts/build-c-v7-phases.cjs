@@ -153,7 +153,7 @@ function activatePhase1Pins(doc){
 // non-pin until a safe public reference point is independently verified.
 assert.equal(phase2PinAudit.schema,'nmf-c-v7-phase2-pin-reconciled-v1');
 assert.deepEqual([phase2PinAudit.counts.total,phase2PinAudit.counts.approvedPins,
- phase2PinAudit.counts.noPin,phase2PinAudit.counts.conditionalPrivateHold],[50,32,17,1]);
+ phase2PinAudit.counts.noPin,phase2PinAudit.counts.conditionalPrivateHold],[50,33,17,0]);
 const phase2SiteIds=new Set(groups.P2.filter(x=>x.kind==='史跡').map(x=>x.id));
 function activatePhase2Pins(doc){
  const byId=new Map(doc.sites.map(s=>[s.siteId,s]));
@@ -217,7 +217,7 @@ function activatePhase2Pins(doc){
   added++;
  }
  assert.equal(once.size,50);
- assert.deepEqual([added,without,privateHeld,standalone],[32,17,1,8]);
+ assert.deepEqual([added,without,privateHeld,standalone],[33,17,0,8]);
  return {added,without,privateHeld,standalone};
 }
 for(const [phase,doc] of [['P1',phase1],['P2',phase2]]){
@@ -229,8 +229,8 @@ for(const [phase,doc] of [['P1',phase1],['P2',phase2]]){
    includedApprovalRows:(phase==='P1'?groups.P1:frozen.items).map(i=>i.row),
    newlyApprovedPins:pinGate.newPins+phase2Gate.added,heldP1Pins:pinGate.heldGPS+pinGate.missingGPS,
    phase2NewPins:phase2Gate.added,phase2NoPin:phase2Gate.without,phase2PrivateHeld:phase2Gate.privateHeld,
-   blockedNewPins:phase==='P1'?35:53,
-   reason:'Phase1 35 pins; Phase2 independently adds 32 pinned and withholds 18 incl 1 private residential site. Pages not published'}}};
+   blockedNewPins:phase==='P1'?35:52,
+   reason:'Phase1 35 pins; Phase2 independently adds 33 B/⑥-approved public information pins incl Hachijo red (no routing), holds 17 no-pin sites. Pages not published'}}};
  delete doc.notes.cRelease.v6;
  const index=core.validate(doc,known,sha);
  assert.equal(index.people.size,phase==='P1'?74:88,'Person count');
@@ -254,8 +254,8 @@ for(const [phase,doc] of [['P1',phase1],['P2',phase2]]){
    'Phase2 approval incorrectly activated in Phase1 '+i.kind+'|'+i.id);
  }
  const pins=doc.sites.filter(s=>s.publicPin);
- assert.equal(pins.length,phase==='P1'?454:486,'Phase1 419+35, Phase2 419+35+32 pinned');
- assert.equal(pins.filter(s=>!bSites.has(s.siteId)).length,phase==='P1'?35:67);
+ assert.equal(pins.length,phase==='P1'?454:487,'Phase1 419+35, Phase2 419+35+33 pinned');
+ assert.equal(pins.filter(s=>!bSites.has(s.siteId)).length,phase==='P1'?35:68);
  const bySite=new Map(doc.sites.map(s=>[s.siteId,s]));
  for(const old of base.sites.filter(s=>s.publicPin)){
   const s=bySite.get(old.siteId);
@@ -285,8 +285,8 @@ const report={schema:'nmf-c-v7-two-phase-staging-v1',
   P2:{newPeople:14,newApprovedDiff:248,combinedPeople:88,rows:groups.P2.map(i=>i.row)}},
  newSitePins:{phase1Audited:70,phase1BApprovedPins:35,phase1Withheld:35,
   phase1WithheldGPS:16,phase1MissingGPS:19,phase2Audited:50,phase2BApprovedPins:32,
-  phase2ExplicitNoPin:17,phase2ConditionalPrivateHold:1,
-  stagedPhase1Pins:35,stagedPhase2NewPins:32,liveNewPublicPins:0},
+  phase2ExplicitNoPin:17,phase2ConditionalPrivateHold:0,
+  stagedPhase1Pins:35,stagedPhase2NewPins:33,liveNewPublicPins:0},
  releaseGate:'NO-GO until location/safety provenance, browser QA and explicit release approval'};
 write('docs/c-release/20261124-v7-phases-staging-qa.json',report);
 console.log('C_V7_SPLIT_PASS '+JSON.stringify({phase1Diff:517,phase2Diff:248,total:765,
