@@ -21,6 +21,9 @@ const version='v2-approved-c-20261124-88-staging';
 const p=clone(base);p.version=version;p.retiredHistories=[];
 const personMap=new Map(p.people.map(x=>[x.personId,x]));
 const historyMap=new Map(p.histories.map(x=>[x.historyId,x]));
+// Freeze an already-approved site's TEXT owner before adding new ④ owners.
+for(const site of p.sites)if(!site.approvedPersonIds)
+ site.approvedPersonIds=String(site.approval.personId||'').split('\\n').filter(Boolean);
 const siteMap=new Map(p.sites.map(x=>[x.siteId,x]));
 const hMaster=new Map(master.history.map(x=>[x.id,x]));
 const sMaster=new Map(master.sites.map(x=>[x.id,x]));
