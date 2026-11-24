@@ -49,7 +49,7 @@ for(const [platform,browserType,options] of [
     .catch(async e=>{throw Error('Catalogue startup failed in '+phase+': '+await page.locator('#sengokuQuality').textContent().catch(()=>'(none)')+
     ' pageerrors='+errors.join('|')+' original='+e.message)});
    await page.locator('[data-collection-mode="sengoku"]').click();
-   await page.waitForFunction(()=>sengokuPins.getLayers().length===419,null,{timeout:12000});
+   await page.waitForFunction(()=>sengokuPins.getLayers().length===454,null,{timeout:12000});
    const state=await page.evaluate(id=>{
     const newSites=[...sengokuV2Catalog.sites.values()].filter(s=>!s.publicPin);
     return {
@@ -68,7 +68,7 @@ for(const [platform,browserType,options] of [
    assert.equal(state.people,expected);
    assert.equal(state.histories,stages[phase].histories.length);
    assert.equal(state.sites,stages[phase].sites.length);
-   assert.equal(state.publicPins,419);
+   assert.equal(state.publicPins,454);
    assert.equal(state.novel,phase==='P2');
    assert.equal(state.oldCard,'2026-11-21');
    assert.equal(state.retiredCard,false);
@@ -109,6 +109,56 @@ for(const [platform,browserType,options] of [
    await page.waitForTimeout(250);
    const popup=await page.evaluate(()=>document.querySelector('#sengokuPinSheet .sps-scroll')?.textContent||'');
    assert.match(popup,new RegExp(focusName==='今治城跡'?'今治城':focusName),'Actual tap/click must show historical pin text');
+   // Independently approved newly published Phase1 position: perform an actual
+   // tap/click, verify historical prose, color/caution and required source credit.
+   // The older popup is closed through the same user-facing × control.
+   await page.locator('#sengokuPinSheet .sps-close').click();
+   const newPinName='富山城跡';
+   await page.evaluate(name=>{
+    map.invalidateSize();
+    const mark=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
+    if(!mark)throw Error('New Phase1 pin missing: '+name);
+    map.setView(mark.getLatLng(),13,{animate:false});
+   },newPinName);
+   await page.waitForTimeout(450);
+   await page.evaluate(name=>{
+    map.invalidateSize();
+    const mark=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
+    map.setView(mark.getLatLng(),13,{animate:false});
+   },newPinName);
+   await page.waitForFunction(name=>{
+    const m=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
+    const r=m?.getElement()?.getBoundingClientRect();
+    return !!r&&r.width>0&&r.height>0&&map.getBounds().contains(m.getLatLng());
+   },newPinName,{timeout:12000});
+   const fresh=await page.evaluate(name=>{
+    const m=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
+    const r=m.getElement()?.getBoundingClientRect();
+    if(!r)throw Error('New pin not visible');
+    return{x:r.left+r.width/2,y:r.top+r.height/2};
+   },newPinName);
+   if(options.hasTouch)await page.touchscreen.tap(fresh.x,fresh.y);
+   else await page.mouse.click(fresh.x,fresh.y);
+   await page.waitForTimeout(250);
+   const newText=await page.evaluate(()=>{
+    const s=sengokuV2Catalog.sites.get('sg2site-a2post-toyama-castle-20261118');
+    return{
+     popup:document.querySelector('#sengokuPinSheet .sps-scroll')?.textContent||'',
+     publicPin:s?.publicPin,
+     access:s?.pinReview?.accessStatus,
+     attrs:s?.pinReview?.attributions?.length,
+     heldPublic:sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121')?.publicPin,
+     heldPoint:sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121')?.point
+    };
+   });
+   assert.equal(newText.publicPin,true);
+   assert.equal(newText.access,'green');
+   assert(newText.attrs>=2);
+   assert.match(newText.popup,/富山城/,'New pin must display its historical prose');
+   assert.match(newText.popup,/出典・ライセンス帰属/,'New pin must show source license');
+   assert.match(newText.popup,/CODH/,'CODH attribution must be visible');
+   assert.equal(newText.heldPublic,false,'B denied site must not become a map marker');
+   assert.equal(newText.heldPoint,null,'B denied site GPS must remain suppressed');
    assert.deepEqual(errors,[],'Browser execution must have no page errors');
    console.log('C_V7_BROWSER_PASS '+JSON.stringify({phase,platform,...state,popup:popup.slice(0,80)}));
   }finally{await browser.close();}
