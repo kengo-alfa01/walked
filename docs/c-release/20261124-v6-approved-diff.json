@@ -9,17 +9,16 @@
     "publishedRecords": 1835,
     "sourceBlobSha": "7b4506b92518e3ff2b24b13c8ba24e22eeaa7585"
   },
-  "approvedDiffCount": 764,
+  "approvedDiffCount": 765,
   "kinds": {
     "史跡": 195,
-    "経歴": 464,
+    "経歴": 465,
     "完成版ストーリー": 57,
     "人物紹介": 48
   },
-  "sourceReferenceCount": 2807,
+  "sourceReferenceCount": 2809,
   "holds": {
     "sourceRow4041": "旧版・C禁止",
-    "sourceRow4466": "J根拠待ち・C禁止",
     "retiredHistoryIds": [
       "sg2hist-hanbei-shigekado-birth",
       "sg2hist-hanbei-nagashino-1575"
@@ -27,7 +26,8 @@
     "retiredRelationKeys": [
       "sg2hist-tadakatsu-1610-death|sg2site-tadakatsu-jodoji",
       "sg2hist-masanobu-1563-ikko|sg2site-ieyasu-honshoji"
-    ]
+    ],
+    "resolvedAndoRow4466": "v3本人F公開OK・管理J71解除済／C候補"
   },
   "items": [
     {
@@ -12775,6 +12775,21 @@
         "sg2src-a61-sogo-kotobank-biography-20261121",
         "sg2src-new14-sogo-takamatsu-20261120",
         "sg2src-new14-sogo-dict-20261120"
+      ]
+    },
+    {
+      "row": 4466,
+      "kind": "経歴",
+      "id": "sg2hist-a54-ando-succession-1553-54-20261121",
+      "personIds": [
+        "sg-added-ando-chikasue-20261119"
+      ],
+      "version": "v3",
+      "bodySha256": "cd02c0fcdcd4cca1767aa48de1dab352f2a067d674a98560ae8cf8741dcee042",
+      "rights": "地点確認済・権利OK",
+      "sourceIds": [
+        "sg2src-a54-ando-hiyama-1552-tsugaru-history-20261122",
+        "sg2src-a-ando-aomori-minato-genealogy-1554-20261123"
       ]
     }
   ]
