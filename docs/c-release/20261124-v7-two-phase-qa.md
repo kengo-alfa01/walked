@@ -27,7 +27,7 @@
 - `sengoku-v2-core.js` は74人Phase 1でも、**④の独立B合格・直接関係がある場合に限って**⑥位置不要経歴の自治体取得を許可する。旧74人本番の判定は変更しない。
 - `tests/c-v7-phase-browser.smoke.cjs`：Phase 1とPhase 2それぞれでPC Chromium、iPhone WebKitを実ブラウザで起動、図鑑表示・新人物混入の有無・419既存ピンのタップ・旧取得データ浄化・横はみ出しを検証。
 - `.github/workflows/c-v7-two-phase-qa.yml`：両Phaseの候補生成と端末実機相当ブラウザQA。候補JSONはCI artifact専用、`index.html`、main、GitHub Pages、本番CSVには触れない。
-- [分割候補QA](https://github.com/kengo-alfa01/walked/actions/runs/45306847190) のPhase modelはPASS。**ブラウザ試験は完了結果が揃った際にのみPASSと記録**。
+- [分割候補・ブラウザQA（全成功）](https://github.com/kengo-alfa01/walked/actions/runs/45307420769)：Phaseモデル合格、Phase 1×iPhone WebKit／PC Chromium、Phase 2×iPhone WebKit／PC Chromiumの**4/4件PASS**。既存419公開ピンのタップ、保存済み有効カードの保持、廃止/未知カード除外、横はみ出しなしを自動検証。CI artifact `c-v7-phase1-phase2-staging-not-live` は公開JSONではない。**端末実物・新120史跡の現地/位置安全審査とPages本番配信は別ゲート**。
 
 ## 公開前に必須の残ゲート
 1. Phase 1の新70史跡・Phase 2の新50史跡について、GPSあり51/42件は独立B位置・見学色・第三者施設への誤誘導回避・公的根拠・帰属表示・⑥位置版を個別照合する。GPSなし19/8件は、ピンなし説明・取得条件を安全に統一する。
