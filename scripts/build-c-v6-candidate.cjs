@@ -142,6 +142,21 @@ safe.notes={...safe.notes,cRelease:{...safe.notes?.cRelease,
   excludedRelations:rejected,publication:'STAGING_ONLY_NOT_LIVE'}}};
 const reg=load('data/title-registry.json');
 const known=new Set(reg.areas.map(x=>x.code));
+const noPlaceRights=safe.histories.filter(h=>h.kind==='nonplace'&&
+ h.approval.rights!=='位置不要・権利OK'&&
+ !['sg2hist-tadakatsu-1610-death','sg2hist-masanobu-1563-ikko'].includes(h.historyId));
+const activePlaceRights=safe.histories.filter(h=>h.kind==='place'&&![
+ '位置不要・権利OK','自治体確認済・権利OK','地点確認済・権利OK'
+].includes(h.approval.rights));
+if(noPlaceRights.length||activePlaceRights.length){
+ console.error('C_V6_RIGHTS_AUDIT',JSON.stringify({
+  countNoPlaceRights:noPlaceRights.length,
+  examples:noPlaceRights.slice(0,30).map(h=>({id:h.historyId,personId:h.personId,rights:h.approval.rights,row:h.approval.sheetRow})),
+  countPlaceRights:activePlaceRights.length,
+  placeExamples:activePlaceRights.slice(0,8).map(h=>h.historyId)
+ }));
+ throw Error('B関連と⑥権利区分の整合検査未通過');
+}
 const index=core.validate(safe,known,hash);
 assert.equal(index.people.size,88);
 assert.equal(safe.histories.length,1590);
