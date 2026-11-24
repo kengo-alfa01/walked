@@ -1,0 +1,220 @@
+'use strict';
+const {test}=require('node:test');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const crypto=require('node:crypto');
+const core=require('../sengoku-v2-core.js');
+const root=path.join(__dirname,'..');
+const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+const sha=s=>crypto.createHash('sha256').update(s,'utf8').digest('hex');
+const known=new Set(read('data/title-registry.json').areas.map(x=>x.code));
+const base=read('sengoku/v2/approved-c-20261120-new9-80.json');
+const audit=read('docs/c-release/20261124-v7-phase1-pin-review.json');
+const stages=[
+ ['P1',read('sengoku/v2/approved-c-20261124-v7-phase1-staging.json')],
+ ['P2',read('sengoku/v2/approved-c-20261124-v7-phase2-staging.json')]
+];
+const phase2Audit=read('docs/c-release/20261124-v7-phase2-pin-reconciled.json');
+const approved=audit.sites.filter(x=>x.decision==='PIN_OK');
+const withheld=audit.sites.filter(x=>x.decision==='NO_PIN');
+const oldPins=base.sites.filter(s=>s.publicPin);
+test('all 70 latest B site decisions are fixed and source-linked, including 16 held GPS',()=>{
+ assert.equal(audit.sourceSpreadsheetId,'1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw');
+ assert.equal(audit.counts.total,70);
+ assert.equal(approved.length,54);
+ assert.equal(withheld.length,16);
+ assert.equal(withheld.filter(x=>x.gpsHeldInCanonical).length,4);
+ assert.equal(withheld.filter(x=>!x.gpsHeldInCanonical).length,12);
+ assert.equal(oldPins.length,419);
+ assert.equal(new Set(audit.sites.map(x=>x.id)).size,70);
+ for(const rec of audit.sites){
+  assert(rec.bEvidence&&!rec.bEvidence.includes('管理用'));
+  assert(rec.approvalRow>=2&&/^v[1-9]\d*$/.test(rec.approvalVersion));
+  assert(/^[0-9a-f]{64}$/.test(rec.textSha256));
+  if(rec.decision==='PIN_OK'){
+   assert.equal(rec.rights,'地点確認済・権利OK');
+   assert.equal(rec.license,'条件付き');
+   assert(Array.isArray(rec.point)&&rec.point.length===2);
+   assert(['red','yellow','green'].includes(rec.accessColor));
+   assert(/^\d{4}-\d\d-\d\d$/.test(rec.bReviewedAt));
+   assert(rec.visitorNotice.length>10);
+  }else{
+   // Even a private coordinate from ③ is not copied to the user-facing manifest.
+   assert(!('point'in rec),'Prohibited held GPS in public audit: '+rec.id);
+   assert(!('positionEvidenceUrl'in rec));
+   assert(!('accessColor'in rec));
+  }
+ }
+});
+test('16 approved related-only site IDs never gain phantom history links',()=>{
+ const flagged=audit.sites.filter(x=>x.relatedOnly===true);
+ assert.equal(flagged.length,16);
+ assert.equal(audit.counts.independentRelatedSites,16);
+ for(const rec of flagged){
+  assert(rec.personIds.length>0);
+  for(const [,doc] of stages){
+   const site=doc.sites.find(x=>x.siteId===rec.id);
+   assert.equal(site.relatedOnly,true,'Missing related-only flag '+rec.id);
+   assert(!doc.relations.some(r=>r.siteId===rec.id),'Made-up history link '+rec.id);
+  }
+ }
+});
+test('Phase2 44 approved location pins include B-agreed Hachijo red info pin; 6 sites remain no-pin',()=>{
+ assert.equal(phase2Audit.counts.total,50);
+ assert.deepEqual([phase2Audit.counts.approvedPins,phase2Audit.counts.noPin,phase2Audit.counts.conditionalPrivateHold],[44,6,0]);
+ assert.equal(phase2Audit.counts.recoveredBDecisions,10);
+ assert.equal(phase2Audit.counts.independentRelatedSites,8);
+ const held=phase2Audit.sites.filter(x=>x.decision!=='PIN_OK');
+ assert.equal(held.length,6);
+ for(const x of phase2Audit.sites){
+  assert.equal(x.sourceIds.length>0,true);
+  assert(/^[0-9a-f]{64}$/.test(x.textSha256));
+  const inPhase2=stages[1][1].sites.find(s=>s.siteId===x.id);
+  assert(inPhase2,'Phase2 site content missing '+x.id);
+  assert.equal(inPhase2.publicPin,x.decision==='PIN_OK','Phase2 reviewed visibility mismatch '+x.id);
+  assert.equal(inPhase2.point===null,x.decision!=='PIN_OK','Phase2 GPS safety gate mismatch '+x.id);
+  if(x.relatedOnly)assert.equal(inPhase2.relatedOnly,true,'Phase2 related-only collectible missing '+x.id);
+  if(x.decision==='PIN_OK'){
+   assert.deepEqual(inPhase2.point,x.point,'Phase2 B-approved coordinate drift '+x.id);
+   assert.equal(inPhase2.pinReview.accessStatus,x.accessColor);
+   assert(inPhase2.pinReview.attributions.length>0);
+   assert.equal(inPhase2.pinReview.checkedAt,x.bReviewDate);
+   assert(Array.isArray(x.point)&&x.point.length===2&&x.point.every(Number.isFinite));
+   assert(['red','yellow','green'].includes(x.accessColor));
+   assert(/^\d{4}-\d{2}-\d{2}$/.test(x.bReviewDate));
+   assert(x.approvedEHasMatchingCoordinate);
+  }else{
+   assert(!('point'in x),'Unapproved B decision has coordinate in audit '+x.id);
+   assert(!('accessColor'in x));
+   assert(x.gpsOmitted);
+   assert.equal(x.decision,'NO_PIN');
+  }
+ }
+});
+for(const [phase,data] of stages){
+ test(phase+': exactly 54 Phase1 and 44 Phase2 new pins, all 419 baseline locations preserved',()=>{
+  const catalog=core.validate(data,known,sha);
+  assert.equal(catalog.people.size,phase==='P1'?74:88);
+  assert.equal(data.sites.filter(s=>s.publicPin).length,phase==='P1'?473:517);
+  const siteMap=new Map(data.sites.map(s=>[s.siteId,s]));
+  for(const rec of approved){
+   const s=siteMap.get(rec.id);
+   assert(s,'Missing approved pin '+rec.id);
+   assert.equal(s.publicPin,true);
+   assert.deepEqual(s.point,rec.point);
+   assert.equal(s.pinApproval.sheetRow,rec.approvalRow);
+   assert.equal(s.pinApproval.version,rec.approvalVersion);
+   assert.equal(s.approval.sha256,rec.textSha256);
+   assert.deepEqual(s.pinPersonIds,rec.personIds);
+   assert.equal(s.pinReview.sourceSheetRow,rec.siteRow);
+   assert.equal(s.pinReview.accessStatus,rec.accessColor);
+   assert.equal(s.pinReview.checkedAt,rec.bReviewedAt);
+   assert.equal(s.pinReview.restriction,rec.visitorNotice);
+   assert(s.pinReview.attributions.length>0,'Missing visible credit '+rec.id);
+   assert(s.pinReview.attributions.every(a=>a.url.startsWith('https://')&&a.label));
+   if(rec.codhAttributionRequired){
+    assert(s.pinReview.attributions.some(a=>a.label.includes('CODH')),'CODH license missing '+rec.id);
+    assert(s.pinReview.attributions.some(a=>a.label.includes('CC BY')),'CC BY condition missing '+rec.id);
+   }
+  }
+  for(const rec of withheld){
+   const s=siteMap.get(rec.id);
+   assert(s,'Missing no-pin site prose '+rec.id);
+   assert.equal(s.publicPin,false);
+   assert.equal(s.point,null,'Held ③ GPS leaked to game '+rec.id);
+   assert.equal(s.pinApproval,null);
+   assert.equal(s.pinReview,null);
+  }
+  const phase2Ids=new Set(phase2Audit.sites.map(x=>x.id));
+  if(phase==='P1'){
+   for(const id of phase2Ids)assert(!siteMap.has(id),'Phase2-only site leaked to Phase1 '+id);
+  }else{
+   assert.equal(phase2Audit.sites.filter(x=>x.decision==='PIN_OK').length,44);
+   assert.equal(phase2Audit.sites.filter(x=>x.relatedOnly===true).length,8);
+   const priv=siteMap.get('sg2site-a-hachijo-hideie-residence-20261123');
+   assert(priv&&priv.publicPin===true,'B-agreed Hachijo public historical pin missing');
+   assert.deepEqual(priv.point,[139.7894375,33.1044375]);
+   assert.equal(priv.pinApproval.sheetRow,4446);
+   assert.equal(priv.pinApproval.version,'v1');
+   assert.equal(priv.pinReview.accessStatus,'red');
+   assert.equal(priv.pinReview.sourceSheetRow,575);
+   assert.match(priv.pinReview.restriction,/所有者の許可のない見学・撮影/);
+   assert.match(priv.pinReview.restriction,/100m以内への接近は不要/);
+   assert(priv.pinReview.attributions.some(x=>x.url.includes('hachijo.gr.jp/okago')));
+   assert.equal(core.pinDetails(priv).noRouting,true,'Red location must not recommend routing');
+   assert.equal(catalog.codes.get('sg2hist-new14-ukita-hideie-1606-1-20261120')?.has('13401'),true,
+    'Hachijo visit must award its existing approved 1606 history');
+  }
+  for(const s of oldPins){
+   const now=siteMap.get(s.siteId);
+   assert(now&&now.publicPin);
+   assert.deepEqual(now.point,s.point,'419 baseline coordinate changed '+s.siteId);
+   assert.deepEqual(now.pinReview,s.pinReview,'419 baseline access changed '+s.siteId);
+  }
+  assert.equal(data.histories.length,phase==='P1'?1421:1591);
+  assert.equal(data.relations.length,phase==='P1'?791:871);
+ });
+ test(phase+': independently collected related-only sites do not mint event cards or bypass story unlock',()=>{
+  const catalog=core.validate(data,known,sha);
+  const related= audit.sites.filter(x=>x.relatedOnly===true);
+  for(const rec of related){
+   const site=catalog.sites.get(rec.id);
+   assert(site,'related-only canonical site missing '+rec.id);
+   const visited={};
+   for(const c of site.codes)visited[c]={first:'2026-11-24'};
+   const before=core.collectedRelatedSites(catalog,{},rec.personIds[0]);
+   assert(!before.some(x=>x.siteId===rec.id),'Unvisited site revealed '+rec.id);
+   const after=core.collectedRelatedSites(catalog,visited,rec.personIds[0]);
+   assert(after.some(x=>x.siteId===rec.id),'Previously visited site not collected '+rec.id);
+   assert(after.find(x=>x.siteId===rec.id).visitedMunicipalityCodes.length>0);
+   assert(!data.relations.some(r=>r.siteId===rec.id),'Related-only site has extra event relation '+rec.id);
+   const awards=core.award(catalog,visited,{},[]);
+   for(const h of awards.added)assert(catalog.histories.has(h),'Unknown synthetic history ID '+h);
+   assert(!core.canUnlockStory(catalog,rec.personIds[0],{},sha),'Independent site unlocks biography '+rec.id);
+  }
+ });
+ test(phase+': public position and B color are tamper-evident',()=>{
+  const modified=structuredClone(data);
+  const s=modified.sites.find(s=>s.siteId===approved[0].id);
+  s.point=[s.point[0]+0.00001,s.point[1]];
+  assert.throws(()=>core.validate(modified,known,sha),/位置版と③最新B記録/);
+  const modifiedColor=structuredClone(data);
+  const c=modifiedColor.sites.find(s=>s.siteId===approved[0].id);
+  c.pinReview.accessStatus=c.pinReview.accessStatus==='red'?'green':'red';
+  assert.throws(()=>core.validate(modifiedColor,known,sha),/位置版と③最新B記録/);
+  const badNoPin=structuredClone(data);
+  const n=badNoPin.sites.find(s=>s.siteId===withheld.find(x=>x.gpsHeldInCanonical).id);
+  n.point=[130.0,35.0];
+  assert.throws(()=>core.validate(badNoPin,known,sha),/未承認または範囲外のピン/);
+ });
+}
+
+test('v8 B-approved 30 positions are included once within existing phases',()=>{
+ const a=read('docs/c-release/20261124-b-pin30-preflight.json');
+ assert.equal(a.sites.length,30);
+ assert.equal(a.integration.approvedContentTotal,765);
+ assert.equal(a.integration.approvedContentDelta,0);
+ const phaseCounts={Phase1:0,Phase2:0};
+ for(const item of a.sites){
+  assert(['Phase1','Phase2'].includes(item.phase));
+  const phase=item.phase==='Phase1'?'P1':'P2';
+  const stage=stages.find(x=>x[0]===phase)?.[1];
+  assert(stage);
+  const matches=stage.sites.filter(x=>x.siteId===item.siteId);
+  assert.equal(matches.length,1,'Duplicate or missing B-approved site '+item.siteId);
+  const site=matches[0];
+  assert.equal(site.publicPin,true,'B-approved info pin absent '+item.siteId);
+  assert.deepEqual(site.point,item.point,'B-approved coordinate drift '+item.siteId);
+  assert.equal(site.pinReview.accessStatus,item.accessStatus,'C must not change B color '+item.siteId);
+  assert.equal(site.pinApproval.sheetRow,item.approval.sheetRow);
+  assert.equal(site.pinApproval.version,item.approval.version);
+  assert.equal(core.pinDetails(site).noRouting,item.accessStatus==='red','B red informational pin no-routing');
+  if(phase==='P2'){
+   const p1=stages.find(x=>x[0]==='P1')?.[1];
+   assert(!p1.sites.some(x=>x.siteId===item.siteId),'Phase2 pin leaked into Phase1');
+  }
+  phaseCounts[item.phase]++;
+ }
+ assert.deepEqual(phaseCounts,{Phase1:19,Phase2:11});
+});

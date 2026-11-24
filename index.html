@@ -819,6 +819,9 @@ function ownsSengokuCard(id){
 }
 function countOwned(personId){return approvedHistories(personId).filter(h=>ownsSengokuCard(h.historyId)).length}
 function catalogCardCount(personId){return approvedHistories(personId).length}
+function collectedRelatedSengokuSites(personId){
+ return sengokuV2Catalog?SengokuV2.collectedRelatedSites(sengokuV2Catalog,state.visited,personId):[];
+}
 // Only histories linked to a location-approved, published historic-site pin get a collectible frame.
 // A 'place' history with no approved coordinates remains a normal chronology entry.
 function hasPublishedSengokuPin(history){
@@ -867,6 +870,11 @@ function refreshSengokuPins(){
     acquiredPinIds.add(siteId);
   }
  }
+ // Related-only sites are acquired independently by approved municipality,
+ // without fabricating a historical event card.
+ for(const site of visibleSites)
+  if(site.relatedOnly===true&&site.codes.some(code=>visitedCodes.has(code)))
+   acquiredPinIds.add(site.siteId);
  // Paint every non-interactive white/black underlay first, so overlapping
  // colored centers remain on top. SVG underlays stay visible on touchscreens.
  for(const site of visibleSites){
@@ -907,6 +915,13 @@ function unpinnedMunicipalityCodes(personId){
    if(site?.publicPin===false)for(const code of site.codes)codes.add(code);
   }
  }
+ // Independently collectible related sites also have no history-card link.
+ // Their municipality-only locations must remain discoverable on the map.
+ for(const site of sengokuV2Catalog.sites.values()){
+  if(site.relatedOnly!==true||site.publicPin!==false||
+     !(site.approvedPersonIds||site.personIds||[]).includes(personId))continue;
+  for(const code of site.codes||[])codes.add(code);
+ }
  // B-approved municipality-only awards have no public site object/GPS.
  for(const [historyId,placeCodes] of sengokuV2Catalog.codes){
   if(sengokuV2Catalog.histories.get(historyId)?.personId!==personId||
@@ -931,12 +946,17 @@ function refreshSengokuAreaHighlights(){
 }
 function renderSengoku(){
  const owned=sengokuPeople.filter(p=>countOwned(p.id)>0);
- if(selectedSengokuPersonId&&!owned.some(p=>p.id===selectedSengokuPersonId)){
+ const relatedOnlyPeople=sengokuPeople.filter(p=>countOwned(p.id)===0&&collectedRelatedSengokuSites(p.id).length>0);
+ const visible=[...owned,...relatedOnlyPeople];
+ if(selectedSengokuPersonId&&!visible.some(p=>p.id===selectedSengokuPersonId)){
   selectedSengokuPersonId=null;$('sengokuDetail').replaceChildren();
  }
  const activeCount=sengokuV2Catalog?[...sengokuV2Catalog.histories.values()].filter(h=>ownsSengokuCard(h.historyId)).length:0;
  // Only current approved cards count toward earned people and totals.
- $('sengokuCount').textContent='獲得人物 '+owned.length+'人／カード '+activeCount+'枚';
+ const relatedFeatureAvailable=sengokuV2Catalog&&[...sengokuV2Catalog.sites.values()].some(s=>s.relatedOnly===true);
+ const relatedCollected=relatedFeatureAvailable?sengokuPeople.reduce((n,p)=>n+collectedRelatedSengokuSites(p.id).length,0):0;
+ $('sengokuCount').textContent='獲得人物 '+owned.length+'人／カード '+activeCount+'枚'+
+  (relatedFeatureAvailable?'／関連史跡 '+relatedCollected+'件':'');
  const selected=sengokuPeople.find(p=>p.id===selectedSengokuPersonId);
  const count=selected?unpinnedMunicipalityCodes(selected.id).size:0;
  $('sengokuSelectedName').textContent=selected
@@ -944,10 +964,10 @@ function renderSengoku(){
   :'選択中：なし（全人物の史跡ピン）';
  if(!sengokuOpen)return;
  const target=$('sengokuList');target.replaceChildren();
- const q=$('sengokuSearch').value.trim(),people=owned.filter(p=>!q||p.name.includes(q));
+ const q=$('sengokuSearch').value.trim(),people=visible.filter(p=>!q||p.name.includes(q));
  if(!people.length){
   const p=document.createElement('p');p.className='sengoku-empty';
-  p.textContent=q?'条件に合う獲得済み人物がいません。':'まだ獲得した人物はいません。訪問地域を登録すると経歴が増えます。';
+  p.textContent=q?'条件に合う獲得済み人物・関連史跡がありません。':'まだ獲得した経歴カード・関連史跡がありません。訪問地域を登録すると収集できます。';
   target.append(p);return;
  }
  for(const person of people){
@@ -957,13 +977,15 @@ function renderSengoku(){
   button.setAttribute('aria-pressed',String(selected));
   const title=document.createElement('strong');title.textContent=person.name;
   const count=document.createElement('small');
-  count.textContent=countOwned(person.id)+' / '+catalogCardCount(person.id)+' 枚';
+  const relatedCount=collectedRelatedSengokuSites(person.id).length;
+  count.textContent=countOwned(person.id)+' / '+catalogCardCount(person.id)+' 枚'+
+   (relatedCount?' ／ 関連史跡'+relatedCount+'件':'');
   button.append(title,count);button.onclick=()=>showSengokuPerson(person);target.append(button);
  }
 }
 function showSengokuPerson(person){
  const approved=sengokuV2Catalog?.people.get(person?.id);
- if(!approved||countOwned(person.id)===0)return;
+ if(!approved||(countOwned(person.id)===0&&!collectedRelatedSengokuSites(person.id).length))return;
  selectedSengokuPersonId=person.id;refreshSengokuPins();refreshSengokuAreaHighlights();renderSengoku();
  const detail=$('sengokuDetail');detail.replaceChildren();
  const head=document.createElement('h3');head.textContent=person.name+' ― 人生の足跡';detail.append(head);
@@ -989,7 +1011,11 @@ function showSengokuPerson(person){
  }
  const section=document.createElement('section');section.className='sengoku-v2-narrative';
  const introHead=document.createElement('h4');introHead.textContent='人物紹介';section.append(introHead);
- const intro=document.createElement('p');intro.textContent=approved.introduction?.text||'人物紹介は公開最終承認待ちです。';section.append(intro);
+ const intro=document.createElement('p');
+ intro.textContent=countOwned(person.id)>0?(approved.introduction?.text||'人物紹介は公開最終承認待ちです。'):
+  '関連史跡を収集しました。人物紹介は経歴カード獲得後に表示します。';
+ if(countOwned(person.id)===0)intro.className='sengoku-v2-locked';
+ section.append(intro);
  const chronology=sengokuChronology.get(person.id);
  const histories=typeof SengokuChronology==='undefined'
   ?approvedHistories(person.id).sort((a,b)=>(a.eventYear??9999)-(b.eventYear??9999)||a.historyId.localeCompare(b.historyId))
@@ -1052,7 +1078,32 @@ function showSengokuPerson(person){
  if(SengokuV2.canUnlockStory(sengokuV2Catalog,person.id,sengokuFound,PublicationRuntime.sha256))
   story.textContent=approved.story.text;
  else{story.className='sengoku-v2-locked';story.textContent='全経歴カードを集めると解放されます。'}
- section.append(story);detail.append(section);
+ section.append(story);
+ // Standalone related sites appear after the lifetime and full biography.
+ // They are acquired by municipality visit even when there is no ④ history
+ // relation, but NEVER increase event-card or biography-unlock counts.
+ const collectedSites=collectedRelatedSengokuSites(person.id);
+ if(collectedSites.length){
+  const relatedHead=document.createElement('h4');relatedHead.textContent='関連史跡';section.append(relatedHead);
+  const hint=document.createElement('p');hint.className='small-note';
+  hint.textContent='訪問した自治体の史跡です。経歴カードとは別に収集し、完成版ストーリーの解放枚数には加算しません。';
+  section.append(hint);
+  for(const entry of collectedSites){
+   const site=entry.site;
+   const block=document.createElement('div');block.className='sengoku-era sengoku-era-owned sengoku-related-site';
+   block.dataset.siteId=site.siteId;
+   const title=document.createElement('strong');title.className='sengoku-card-title';title.textContent=site.name;
+   const label=document.createElement('span');label.className='sengoku-card-status';label.textContent='史跡獲得済み';
+   const body=document.createElement('p');body.className='sengoku-card-description';body.textContent=site.description;
+   const codes=document.createElement('p');codes.className='small-note';
+   const areaNames=entry.visitedMunicipalityCodes.map(code=>titleRegistry?.areas?.find(a=>a.code===code)?.name||code);
+   codes.textContent='制覇：'+areaNames.join('・')+(site.publicPin?' ／ 史跡ピン表示あり':' ／ ピンなし');
+   block.append(title,label,body,codes);
+   SengokuSourceLinks.append(block,site.sourceUrls,document);
+   section.append(block);
+  }
+ }
+ detail.append(section);
 }
 function toastSengokuCards(ids){
  const awards=[...new Set(ids||[])].filter(id=>sengokuV2Catalog?.histories.has(id));

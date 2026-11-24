@@ -1,0 +1,49 @@
+name: C v6 prepublication gate (88 people / 764 revisions)
+on:
+  pull_request:
+    paths:
+      - 'sengoku-v2-core.js'
+      - 'scripts/check-c-v6-prepublish.cjs'
+      - 'scripts/build-c-v6-candidate.cjs'
+      - 'docs/c-release/20261124-v6-approved-prose.json'
+      - 'docs/c-release/20261124-v6-master-metadata.json'
+      - 'scripts/c-v6-sanitize.cjs'
+      - 'docs/c-release/20261124-v6-approved-diff.json'
+      - 'tests/c-v6-*.test.cjs'
+      - '.github/workflows/c-v6-prepublish.yml'
+  push:
+    branches:
+      - c/v6-preflight-20261124
+permissions:
+  contents: read
+jobs:
+  frozen-approval-and-backward-compat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify frozen ⑥ approval manifest and fail-closed release check
+        run: node scripts/check-c-v6-prepublish.cjs --check-manifest
+      - name: Run 88-person allowlist and manifest regression tests
+        run: node --test tests/c-v6-88-approval-gate.test.cjs tests/c-v6-prepublish.test.cjs tests/c-v6-sanitize.test.cjs
+      - name: Assemble and validate C v6 staging JSON (without touching live)
+        run: node scripts/build-c-v6-candidate.cjs
+      - name: Run 88-person acquisition / Ando v3 / backup / location regression
+        run: node --test tests/c-v6-candidate-gameplay.test.cjs
+      - name: Run strict C v6 approval SHA / ID / unlock / GPS prepublish QA
+        run: node scripts/check-c-v6-prepublish.cjs --candidate sengoku/v2/approved-c-20261124-v6-staging.json
+      - name: Upload non-live candidate and C QA results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: c-v6-staging-88-765
+          path: |
+            sengoku/v2/approved-c-20261124-v6-staging.json
+            docs/c-release/20261124-v6-build-qa.json
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Ensure published C CSV still matches existing release
+        run: node scripts/export-c-release-ledger.cjs --check

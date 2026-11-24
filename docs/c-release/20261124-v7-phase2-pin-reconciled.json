@@ -1,0 +1,2011 @@
+{
+  "schema": "nmf-c-v7-phase2-pin-reconciled-v1",
+  "sourceSpreadsheetId": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
+  "asOf": "2026-11-24",
+  "release": "STAGING_ONLY_NOT_LIVE",
+  "supersedes": "docs/c-release/20261124-v7-phase2-pin-preaudit.json",
+  "notes": "44 B-approved informational pins, 6 without pins; includes 11 newly accepted 2026-11-24 PlusCode pins and previously approved Hachijo red information pin. No access/routing encouragement.",
+  "counts": {
+    "total": 50,
+    "approvedPins": 44,
+    "previousExplicitPins": 22,
+    "recoveredBDecisions": 10,
+    "noPin": 6,
+    "conditionalPrivateHold": 0,
+    "independentRelatedSites": 8,
+    "conditionalBRedPinAccepted": 1,
+    "additionalB20261124Approved": 11
+  },
+  "sites": [
+    {
+      "id": "sg2site-new14-asakura-final-20261120",
+      "name": "朝倉義景墓所・六坊賢松寺伝承地",
+      "siteRow": 455,
+      "approvalRow": 4436,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0062"
+      ],
+      "municipality": "福井県大野市",
+      "municipalityCodes": [
+        "18205"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B全国史跡位置・独立最終審査2026-11-23｜③455・ID=sg2site-new14-asakura-final-20261120】B判定=地点確認済／公開位置可・見学色=黄／自治体コード=18205／WGS84代表点=35.980935,136.485372",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "6b7f3447f83de57b6def3e53e59ab04b04d0ab210026c10a1a9928809ee4979e",
+      "sourceIds": [
+        "sg2src-new14-asakura-chron-20261120",
+        "sg2src-new14-asakura-grave-20261120",
+        "sg2src-b23loc-site455-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        136.485372,
+        35.980935
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-23",
+      "reconciledFrom": "既存B全国史跡最終審査の「公開位置可」を再読。旧監査の検出漏れを修正",
+      "sourceUrls": [
+        "https://www.library-archives.pref.fukui.lg.jp/fukui/07/nenpyo/rekishi/chrn24.html",
+        "https://fuku-iro.jp/spot/detail_10001.html",
+        "https://steam.fukui.jp/opendata/pref-fukui/datasets/kanko-gourmet-268a09a8/"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.library-archives.pref.fukui.lg.jp/fukui/07/nenpyo/rekishi/chrn24.html",
+      "officialInfoUrl": null,
+      "visitorNotice": "今ある義景墓所は旧六坊賢松寺の自害現場ではありません。公園内の一般公開区域と墓域の管理区画を区別してください。",
+      "relatedOnly": true
+    },
+    {
+      "id": "sg2site-new14-gamou-matsusaka-20261120",
+      "name": "松坂城跡（蒲生氏郷の1588年築城）",
+      "siteRow": 456,
+      "approvalRow": 4437,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0680"
+      ],
+      "municipality": "三重県松阪市",
+      "municipalityCodes": [
+        "24204"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B全国史跡位置・独立最終審査2026-11-23｜③456・ID=sg2site-new14-gamou-matsusaka-20261120】B判定=地点確認済／公開位置可・見学色=緑／自治体コード=24204／WGS84代表点=34.575932,136.52581",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "2d2b21245aaa7aa5605e27489592c6df16ed41b9bda3b151b6bfd8877f34eddd",
+      "sourceIds": [
+        "sg2src-new14-gamou-matsusaka-20261120",
+        "sg2src-new14-gamou-hino-20261120",
+        "sg2src-b23loc-site456-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        136.52581,
+        34.575932
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-23",
+      "reconciledFrom": "既存B全国史跡最終審査の「公開位置可」を再読。旧監査の検出漏れを修正",
+      "sourceUrls": [
+        "https://www.city.matsusaka.mie.jp/site/culture-info/matsusakajyoato.html",
+        "https://www.town.shiga-hino.lg.jp/0000000236.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/24/240000184000.html"
+      ],
+      "codhAttributionRequired": true,
+      "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/24/240000184000.html",
+      "officialInfoUrl": "https://www.city.matsusaka.mie.jp/site/culture-info/matsusakajyoato.html",
+      "visitorNotice": "史跡の公表情報点です。見学可能な区域を守り、施設内の非公開区画には入らず、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-new14-gamou-hino-20261120",
+      "name": "中野城（日野城）跡（蒲生氏郷の出身地）",
+      "siteRow": 457,
+      "approvalRow": 4438,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0680"
+      ],
+      "municipality": "滋賀県蒲生郡日野町",
+      "municipalityCodes": [
+        "25383"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B全国史跡位置・独立最終審査2026-11-23｜③457・ID=sg2site-new14-gamou-hino-20261120】B判定=地点確認済／公開位置可・見学色=黄／自治体コード=25383／WGS84代表点=35.008697,136.265061",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "ca5d9ca9a78b67eea6f68848d089721e20e43525dd4f513cfc52005f031ddde8",
+      "sourceIds": [
+        "sg2src-new14-gamou-hino2-20261120",
+        "sg2src-new14-gamou-hino-20261120",
+        "sg2src-b23loc-site457-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        136.265061,
+        35.008697
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-23",
+      "reconciledFrom": "既存B全国史跡最終審査の「公開位置可」を再読。旧監査の検出漏れを修正",
+      "sourceUrls": [
+        "https://www.town.shiga-hino.lg.jp/0000003695.html",
+        "https://www.town.shiga-hino.lg.jp/0000000236.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/25/250000169900.html"
+      ],
+      "codhAttributionRequired": true,
+      "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/25/250000169900.html",
+      "officialInfoUrl": "https://www.town.shiga-hino.lg.jp/0000003695.html",
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-new14-yamanaka-ai-20261120",
+      "name": "山中鹿介墓（阿井の渡し付近の供養塔）",
+      "siteRow": 458,
+      "approvalRow": 4439,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-596de9e9d2c2"
+      ],
+      "municipality": "岡山県高梁市",
+      "municipalityCodes": [
+        "33209"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B全国史跡位置・独立最終審査2026-11-23｜③458・ID=sg2site-new14-yamanaka-ai-20261120】B判定=地点確認済／公開位置可・見学色=黄／自治体コード=33209／WGS84代表点=34.779782,133.597832",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "548e1fe4b9d6809284c2b35e1d974727d776ed48bebabcc1aea02181d82cc9d7",
+      "sourceIds": [
+        "sg2src-new14-yamanaka-takahashi-20261120",
+        "sg2src-b23loc-site458-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        133.597832,
+        34.779782
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-23",
+      "reconciledFrom": "既存B全国史跡最終審査の「公開位置可」を再読。旧監査の検出漏れを修正",
+      "sourceUrls": [
+        "https://www.city.takahashi.lg.jp/bunkazai/map/0056.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/34/340000332800.html"
+      ],
+      "codhAttributionRequired": true,
+      "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/34/340000332800.html",
+      "officialInfoUrl": "https://www.city.takahashi.lg.jp/bunkazai/map/0056.html",
+      "visitorNotice": "山中鹿介墓の供養塔は後世の建立・移設です。国道付近での歩行と交通に注意し、近隣の私有駐車場へ無断で立ち入らないでください。",
+      "relatedOnly": true
+    },
+    {
+      "id": "sg2site-new14-ukita-okayama-20261120",
+      "name": "岡山城跡（宇喜多直家・秀家の居城）",
+      "siteRow": 459,
+      "approvalRow": 4440,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0344",
+        "sg-master-0345"
+      ],
+      "municipality": "岡山県岡山市北区",
+      "municipalityCodes": [
+        "33101"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B全国史跡位置・独立最終審査2026-11-23｜③459・ID=sg2site-new14-ukita-okayama-20261120】B判定=地点確認済／公開位置可・見学色=緑／自治体コード=33101／WGS84代表点=34.664991,133.93605",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "a753257d750c0169af6133afe1733b2facdfbbfff79e7ee11ddd1e441517c5c4",
+      "sourceIds": [
+        "sg2src-new14-ukita-okayama-20261120",
+        "sg2src-new14-ukita-cultural-20261120",
+        "sg2src-new14-ukita-castle-20261120",
+        "sg2src-b23loc-site459-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        133.93605,
+        34.664991
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-23",
+      "reconciledFrom": "既存B全国史跡最終審査の「公開位置可」を再読。旧監査の検出漏れを修正",
+      "sourceUrls": [
+        "https://www.city.okayama.jp/shisei/0000079212.html",
+        "https://online.bunka.go.jp/db/heritages/detail/202586",
+        "https://okayama-castle.jp/learn-history/",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/34/340000185900.html"
+      ],
+      "codhAttributionRequired": true,
+      "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/34/340000185900.html",
+      "officialInfoUrl": "https://www.city.okayama.jp/shisei/0000079212.html",
+      "visitorNotice": "史跡の公表情報点です。見学可能な区域を守り、施設内の非公開区画には入らず、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-new14-murakami-noshima-20261120",
+      "name": "能島城跡（能島村上海賊の本拠）",
+      "siteRow": 460,
+      "approvalRow": 4441,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-1996"
+      ],
+      "municipality": "愛媛県今治市",
+      "municipalityCodes": [
+        "38202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B全国史跡位置・独立最終審査2026-11-23｜③460・ID=sg2site-new14-murakami-noshima-20261120】B判定=地点確認済／公開位置可・見学色=赤／自治体コード=38202／WGS84代表点=34.183058,133.080872",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "f08f0befc390cfdd42f2850532f3caafc2a93f9848730e3482c6d841ca6dc410",
+      "sourceIds": [
+        "sg2src-new14-murakami-noshima-20261120",
+        "sg2src-new14-murakami-ehime-20261120",
+        "sg2src-b23loc-site460-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        133.080872,
+        34.183058
+      ],
+      "accessColor": "red",
+      "bReviewDate": "2026-11-23",
+      "reconciledFrom": "既存B全国史跡最終審査の「公開位置可」を再読。旧監査の検出漏れを修正",
+      "sourceUrls": [
+        "https://japan-heritage.bunka.go.jp/ja/culturalproperties/result/2501/",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode%3A4/85/view/14635",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/39/390000073500.html"
+      ],
+      "codhAttributionRequired": true,
+      "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/39/390000073500.html",
+      "officialInfoUrl": null,
+      "visitorNotice": "能島は定期航路のない国史跡です。上陸には公式の事前予約ツアーが必要です。危険な潮流や許可のない上陸は避け、管理者の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-new14-ishida-sawayama-20261120",
+      "name": "佐和山城跡（石田三成の居城）",
+      "siteRow": 461,
+      "approvalRow": 4442,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "滋賀県彦根市",
+      "municipalityCodes": [
+        "25202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B全国史跡位置・独立最終審査2026-11-23｜③461・ID=sg2site-new14-ishida-sawayama-20261120】B判定=地点確認済／公開位置可・見学色=黄／自治体コード=25202／WGS84代表点=35.27964,136.269383",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "23ad59a5ca214cb88d6886a0cb7f63776b23eba6e4c65b4e1fae22159c3b37cb",
+      "sourceIds": [
+        "sg2src-new14-ishida-sawayama-20261120",
+        "sg2src-new14-ishida-kyoto-20261120",
+        "sg2src-b23loc-site461-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        136.269383,
+        35.27964
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-23",
+      "reconciledFrom": "既存B全国史跡最終審査の「公開位置可」を再読。旧監査の検出漏れを修正",
+      "sourceUrls": [
+        "https://www.city.hikone.lg.jp/kanko/rekishi/9/6/7608.html",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000092622&page=ref_view",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/25/250000296900.html"
+      ],
+      "codhAttributionRequired": true,
+      "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/25/250000296900.html",
+      "officialInfoUrl": "https://www.city.hikone.lg.jp/kanko/rekishi/9/6/7608.html",
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-new14-ishida-sekigahara-20261120",
+      "name": "石田三成陣跡（関ヶ原・笹尾山）",
+      "siteRow": 462,
+      "approvalRow": 4443,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "岐阜県不破郡関ケ原町",
+      "municipalityCodes": [
+        "21362"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B全国史跡位置・独立最終審査2026-11-23｜③462・ID=sg2site-new14-ishida-sekigahara-20261120】B判定=地点確認済／公開位置可・見学色=黄／自治体コード=21362／WGS84代表点=35.371796,136.458746",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "f262ae90de52367f30cad13d621335be8ff60669e55b489f3f806b42000957a1",
+      "sourceIds": [
+        "sg2src-new14-ishida-battle-20261120",
+        "sg2src-b23loc-site462-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        136.458746,
+        35.371796
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-23",
+      "reconciledFrom": "既存B全国史跡最終審査の「公開位置可」を再読。旧監査の検出漏れを修正",
+      "sourceUrls": [
+        "https://sekigahara.pref.gifu.lg.jp/tokugawa-ieyasu/",
+        "https://herica.net/detail/card/89/"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://sekigahara.pref.gifu.lg.jp/tokugawa-ieyasu/",
+      "officialInfoUrl": null,
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-new14-ukita-sekigahara-20261120",
+      "name": "宇喜多秀家陣跡（関ヶ原）",
+      "siteRow": 463,
+      "approvalRow": 4444,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0345"
+      ],
+      "municipality": "岐阜県不破郡関ケ原町",
+      "municipalityCodes": [
+        "21362"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B全国史跡位置・独立最終審査2026-11-23｜③463・ID=sg2site-new14-ukita-sekigahara-20261120】B判定=地点確認済／公開位置可・見学色=黄／自治体コード=21362／WGS84代表点=35.36281,136.454857",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "5a1e5f519b2a1e4225540fe6faf76292401028fcfc61e82b1c56990a57cfb277",
+      "sourceIds": [
+        "sg2src-new14-ukita-sekigahara-20261120",
+        "sg2src-b23loc-site463-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        136.454857,
+        35.36281
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-23",
+      "reconciledFrom": "既存B全国史跡最終審査の「公開位置可」を再読。旧監査の検出漏れを修正",
+      "sourceUrls": [
+        "https://sekigahara.pref.gifu.lg.jp/fukushima-masanori/",
+        "https://linkdata.org/work/rdf1s884i/SekigaharaLocationData.html"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://sekigahara.pref.gifu.lg.jp/fukushima-masanori/",
+      "officialInfoUrl": null,
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-new14-ashina-mukaihaguro-20261120",
+      "name": "向羽黒山城跡（蘆名盛氏の築城）",
+      "siteRow": 464,
+      "approvalRow": 4445,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-ashina-moriuji-20261120"
+      ],
+      "municipality": "福島県大沼郡会津美里町",
+      "municipalityCodes": [
+        "07447"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B全国史跡位置・独立最終審査2026-11-23｜③464・ID=sg2site-new14-ashina-mukaihaguro-20261120】B判定=地点確認済／公開位置可・見学色=黄／自治体コード=07447／WGS84代表点=37.442931,139.901746",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "7fb005839a07f7cb0f1f893eda9e47defbec028997fb3b64ee6f7534301edbb5",
+      "sourceIds": [
+        "sg2src-new14-ashina-aizumisato-20261120",
+        "sg2src-b23loc-site464-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.901746,
+        37.442931
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-23",
+      "reconciledFrom": "既存B全国史跡最終審査の「公開位置可」を再読。旧監査の検出漏れを修正",
+      "sourceUrls": [
+        "https://www.town.aizumisato.fukushima.jp/soshiki/1006/3/4/2/1/6/7967.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/07/070000316200.html"
+      ],
+      "codhAttributionRequired": true,
+      "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/07/070000316200.html",
+      "officialInfoUrl": "https://www.town.aizumisato.fukushima.jp/soshiki/1006/3/4/2/1/6/7967.html",
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a29-yamanaka-wakasa-onigajo-20261121",
+      "name": "若桜鬼ヶ城跡（1575年山中鹿介攻防）",
+      "siteRow": 497,
+      "approvalRow": 3979,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-596de9e9d2c2"
+      ],
+      "municipality": "鳥取県八頭郡若桜町",
+      "municipalityCodes": [
+        "31325"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③497最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "ac66135a79fbdf4548a8fc2b47be5ed7e804c5701b13f280d47d5ca16db86655",
+      "sourceIds": [
+        "sg2src-a29-yamanaka-wakasa-town-castle-20261121",
+        "sg2src-a29-yamanaka-wakasa-leaflet-20261121",
+        "sg2src-a29-yamanaka-wakasa-tourism-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        134.39852,
+        35.336976
+      ],
+      "accessColor": "red",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.town.wakasa.tottori.jp/soshikikarasagasu/kyoikuiinkai/1/5/591.html",
+        "https://kanko.town.wakasa.tottori.jp/wordpress/wp-content/uploads/2022/04/onigajyou.pdf",
+        "https://kanko.town.wakasa.tottori.jp/watch/1278/"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.town.wakasa.tottori.jp/soshikikarasagasu/kyoikuiinkai/1/5/591.html",
+      "officialInfoUrl": "https://www.town.wakasa.tottori.jp/soshikikarasagasu/kyoikuiinkai/1/5/591.html",
+      "visitorNotice": "危険や立入制限を伴う公表史跡の情報点です。入口や通行経路ではなく、区域への入場を勧めません。現地の規制に従ってください。"
+    },
+    {
+      "id": "sg2site-a34-naoie-toishi-20261121",
+      "name": "砥石城跡（備前宇喜多氏ゆかり・直家生誕伝承地）",
+      "siteRow": 505,
+      "approvalRow": 3909,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県瀬戸内市",
+      "municipalityCodes": [
+        "33212"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③505最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "dd8d763add822d692cbdaea33f526a2730f5926492531bc86bf9a037b8727997",
+      "sourceIds": [
+        "sg2src-a34-naoie-setouchi-toishi-20261121",
+        "sg2src-new14-ukita-okayama-20261120",
+        "sg2src-a34-naoie-okayama-kameyama-excavation-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        134.084617,
+        34.646483
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.city.setouchi.lg.jp/soshiki/23/3525.html",
+        "https://www.city.okayama.jp/shisei/0000079212.html",
+        "https://www.city.okayama.jp/kurashi/cmsfiles/contents/0000005/5093/kameyamajo.pdf"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.city.setouchi.lg.jp/soshiki/23/3525.html",
+      "officialInfoUrl": "https://www.city.setouchi.lg.jp/soshiki/23/3525.html",
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a34-naoie-otogo-20261121",
+      "name": "乙子城跡（直家最初期の居城）",
+      "siteRow": 506,
+      "approvalRow": 4469,
+      "approvalVersion": "v2",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県岡山市東区",
+      "municipalityCodes": [
+        "33103"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B現地案内PlusCode限定再審査2026-11-24】③506、元ID=sg2site-a34-naoie-otogo-20261121。B最終判断=公開ピン可、見学色=黄。ユーザー提供の現地情報「案内看板あり」、PlusCode J2JQ+6R（8Q6PJ2JQ+6R）中心 WGS84=34.6305625,134.0395625（1辺約14mのコード格子） を独立検算。既存③GPSとPlusCode中心の距離=約3m。岡山市が乙子城跡を神社と主郭丘陵の文化史跡として紹介。ユーザー申告で案内看板あり。神社境内や墓地への無条件立入りは案内しない。【安全】乙子城の史跡情報点です。神社の通常参拝可能な区域と墓地・私的管理区域を区別し、坂道・足元に注意してください。 位置は史跡の公表情報参照点で、個人宅の厳密所在地・自由な立入許可・見学入口・推奨ルートの保証ではない。取得=従来の市区町村制覇、100m接近不要。Bが史跡位置/安全可否のみ再判定、④O/P/Qと経歴・既得は不変更。【参照】https://www.city.okayama.jp/0000054792.html / https://www.city.okayama.jp/higashiku/0000083111.html。【権利】既存③K⑤出典の史実は独自叙述し、原画像・図面・地図タイル・資料全文転載不可。既存③I/JのCODH史跡参照点を維持し、帰属『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の表示を要する。【⑥/C】旧⑥史跡v1はピンなしの承認版なので、Aが同じ史跡IDのv2位置/色/注意文を安全に別行提出→ユーザー最新版F承認→C Phase2反映。旧F/G・本番・既得は変更しない。。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "8f09fc6a7ca5ae45ef317dda0873676feef21125385d7cbc9e4c6c8402b26a33",
+      "sourceIds": [
+        "sg2src-a34-naoie-okayama-hisho-20261121",
+        "sg2src-a34-naoie-okayama-kameyama-excavation-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "noRouting": false,
+      "point": [
+        134.039537,
+        34.630544
+      ],
+      "accessColor": "yellow",
+      "sourceUrls": [
+        "https://www.city.okayama.jp/0000054792.html",
+        "https://www.city.okayama.jp/kurashi/cmsfiles/contents/0000005/5093/kameyamajo.pdf"
+      ],
+      "positionEvidenceUrl": "https://www.city.okayama.jp/0000054792.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "神社の参拝可能区域と墓地・私有管理区域を区別し、坂道・足元に注意してください。\n表示する位置は史跡の参照点で、見学入口・立入許可・安全な通行経路の保証ではありません。現地の掲示を優先してください。",
+      "bReviewDate": "2026-11-24",
+      "reconciledFrom": "B最終公開ピン判定2026-11-24／最新版⑥承認"
+    },
+    {
+      "id": "sg2site-a34-naoie-shinjoyama-20261121",
+      "name": "新庄山城跡（宇喜多直家が内陸へ進む拠点）",
+      "siteRow": 507,
+      "approvalRow": 4470,
+      "approvalVersion": "v2",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県岡山市東区",
+      "municipalityCodes": [
+        "33103"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B現地案内PlusCode限定再審査2026-11-24】③507、元ID=sg2site-a34-naoie-shinjoyama-20261121。B最終判断=公開ピン可、見学色=黄。ユーザー提供の現地情報「案内看板あり」、PlusCode M3V3+QM（8Q6PM3V3+QM）中心 WGS84=34.6944375,134.0541875（1辺約14mのコード格子） を独立検算。既存③GPSとPlusCode中心の距離=約3m。岡山市公式は東区竹原の新庄山城を紹介し、急傾斜山道を明示。ユーザー申告で案内看板あり。注意付き公開情報点は可、急坂の通行は取得条件としない。【安全】新庄山城の案内情報点です。急な山道・悪天候時の滑落等に注意し、通行が危険なら登らず、現地の案内に従ってください。 位置は史跡の公表情報参照点で、個人宅の厳密所在地・自由な立入許可・見学入口・推奨ルートの保証ではない。取得=従来の市区町村制覇、100m接近不要。Bが史跡位置/安全可否のみ再判定、④O/P/Qと経歴・既得は不変更。【参照】https://www.city.okayama.jp/0000054792.html / https://www.city.okayama.jp/higashiku/0000083111.html。【権利】既存③K⑤出典の史実は独自叙述し、原画像・図面・地図タイル・資料全文転載不可。既存③I/JのCODH史跡参照点を維持し、帰属『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の表示を要する。【⑥/C】旧⑥史跡v1はピンなしの承認版なので、Aが同じ史跡IDのv2位置/色/注意文を安全に別行提出→ユーザー最新版F承認→C Phase2反映。旧F/G・本番・既得は変更しない。。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "1bb518edc3972f120003927468ff50e13e91278c6fd0448bcbde189c3c633a38",
+      "sourceIds": [
+        "sg2src-a34-naoie-okayama-hisho-20261121",
+        "sg2src-a34-naoie-okayama-kameyama-excavation-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "noRouting": false,
+      "point": [
+        134.054156,
+        34.694435
+      ],
+      "accessColor": "yellow",
+      "sourceUrls": [
+        "https://www.city.okayama.jp/0000054792.html",
+        "https://www.city.okayama.jp/kurashi/cmsfiles/contents/0000005/5093/kameyamajo.pdf"
+      ],
+      "positionEvidenceUrl": "https://www.city.okayama.jp/0000054792.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "急な山道があります。悪天候時や足場の悪いときは無理に登らず、現地案内に従ってください。\n表示する位置は史跡の参照点で、見学入口・立入許可・安全な通行経路の保証ではありません。現地の掲示を優先してください。",
+      "bReviewDate": "2026-11-24",
+      "reconciledFrom": "B最終公開ピン判定2026-11-24／最新版⑥承認"
+    },
+    {
+      "id": "sg2site-a34-naoie-kameyama-bizen-20261121",
+      "name": "亀山城跡（備前沼城・宇喜多直家の居城）",
+      "siteRow": 508,
+      "approvalRow": 4471,
+      "approvalVersion": "v2",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県岡山市東区",
+      "municipalityCodes": [
+        "33103"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B現地案内PlusCode限定再審査2026-11-24】③508、元ID=sg2site-a34-naoie-kameyama-bizen-20261121。B最終判断=公開ピン可、見学色=赤。ユーザー提供の現地情報「近隣に営業中の施設ありとのユーザー報告」、PlusCode P24P+MG（8Q6PP24P+MG）中心 WGS84=34.7066875,134.0363125（1辺約14mのコード格子） を独立検算。既存③GPSとPlusCode中心の距離=約5m。岡山市指定亀山城跡。岡山市公式は所有・管理が個人と市教委の混在を明記、ユーザーは付近に営業中施設があると申告。史跡名の赤い情報点は可だが、営業中という事実だけで個人敷地・学校の自由立入りを認めない。【安全】亀山城（沼城）跡の歴史情報点です。城域には個人所有地や学校等が含まれるため、営業中施設があっても立入り可能な範囲は別です。私有地・校内には許可なく入らないでください。 位置は史跡の公表情報参照点で、個人宅の厳密所在地・自由な立入許可・見学入口・推奨ルートの保証ではない。取得=従来の市区町村制覇、100m接近不要。Bが史跡位置/安全可否のみ再判定、④O/P/Qと経歴・既得は不変更。【参照】https://www.city.okayama.jp/life/0000041845.html / https://www.city.okayama.jp/higashiku/0000083111.html。【権利】既存③K⑤出典の史実は独自叙述し、原画像・図面・地図タイル・資料全文転載不可。既存③I/JのCODH史跡参照点を維持し、帰属『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の表示を要する。【⑥/C】旧⑥史跡v1はピンなしの承認版なので、Aが同じ史跡IDのv2位置/色/注意文を安全に別行提出→ユーザー最新版F承認→C Phase2反映。旧F/G・本番・既得は変更しない。。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "2db931635a065bd5994d960ffb5a1b96bb0f68ca560d6a0cf79192a8e5f05d0a",
+      "sourceIds": [
+        "sg2src-a34-naoie-okayama-kameyama-designation-20261121",
+        "sg2src-a34-naoie-okayama-castles-20261121",
+        "sg2src-a34-naoie-okayama-kameyama-excavation-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "noRouting": true,
+      "point": [
+        134.036354,
+        34.706659
+      ],
+      "accessColor": "red",
+      "sourceUrls": [
+        "https://www.city.okayama.jp/life/0000041845.html",
+        "https://www.city.okayama.jp/0000055497.html",
+        "https://www.city.okayama.jp/kurashi/cmsfiles/contents/0000005/5093/kameyamajo.pdf"
+      ],
+      "positionEvidenceUrl": "https://www.city.okayama.jp/life/0000041845.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "私有地・学校等の区画には立ち入らないでください。公開参照点は歴史情報の表示であり、自由な入場を意味しません。\n表示する位置は史跡の参照点で、見学入口・立入許可・安全な通行経路の保証ではありません。現地の掲示を優先してください。",
+      "bReviewDate": "2026-11-24",
+      "reconciledFrom": "B最終公開ピン判定2026-11-24／最新版⑥承認"
+    },
+    {
+      "id": "sg2site-a34-naoie-meizenji-20261121",
+      "name": "明禅寺城跡（1567年宇喜多・三村合戦）",
+      "siteRow": 509,
+      "approvalRow": 4472,
+      "approvalVersion": "v2",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県岡山市中区",
+      "municipalityCodes": [
+        "33102"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B現地案内PlusCode限定再審査2026-11-24】③509、元ID=sg2site-a34-naoie-meizenji-20261121。B最終判断=公開ピン可、見学色=赤。ユーザー提供の現地情報「案内看板あり・道悪い・赤ピン指定」、PlusCode MX76+V4（8Q6MMX76+V4）中心 WGS84=34.6646875,133.9603125（1辺約14mのコード格子） を独立検算。既存③GPSとPlusCode中心の距離=約7m。岡山市の歴史文化案内・既存CODH公表地点に一致。ユーザー申告で案内看板あり、道が悪いため明示的に赤指定。注意喚起情報ピンとして公開可。【安全】明禅寺城跡の案内情報点です。付近の道は状態が悪く、転倒・斜面・私有地に注意してください。危険な登城路への接近は必要ありません。 位置は史跡の公表情報参照点で、個人宅の厳密所在地・自由な立入許可・見学入口・推奨ルートの保証ではない。取得=従来の市区町村制覇、100m接近不要。Bが史跡位置/安全可否のみ再判定、④O/P/Qと経歴・既得は不変更。【参照】https://www.city.okayama.jp/0000067159.html。【権利】既存③K⑤出典の史実は独自叙述し、原画像・図面・地図タイル・資料全文転載不可。既存③I/JのCODH史跡参照点を維持し、帰属『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の表示を要する。【⑥/C】旧⑥史跡v1はピンなしの承認版なので、Aが同じ史跡IDのv2位置/色/注意文を安全に別行提出→ユーザー最新版F承認→C Phase2反映。旧F/G・本番・既得は変更しない。。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "a257f98893a8dfc68d9516b4ac1a1c8637725a19261303b2d4ce56675fb6f0de",
+      "sourceIds": [
+        "sg2src-a34-naoie-okayama-meizenji-20261121",
+        "sg2src-a34-naoie-okayama-mimura-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "noRouting": true,
+      "point": [
+        133.960286,
+        34.66463
+      ],
+      "accessColor": "red",
+      "sourceUrls": [
+        "https://www.city.okayama.jp/0000067159.html",
+        "https://www.pref.okayama.jp/site/kodai/622719.html"
+      ],
+      "positionEvidenceUrl": "https://www.city.okayama.jp/0000067159.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "道の状態が悪く、斜面で転倒する危険があります。危険な登城路や私有地には近づかないでください。\n表示する位置は史跡の参照点で、見学入口・立入許可・安全な通行経路の保証ではありません。現地の掲示を優先してください。",
+      "bReviewDate": "2026-11-24",
+      "reconciledFrom": "B最終公開ピン判定2026-11-24／最新版⑥承認"
+    },
+    {
+      "id": "sg2site-a34-naoie-kanagawa-20261121",
+      "name": "金川城跡（1568年宇喜多直家の攻略）",
+      "siteRow": 510,
+      "approvalRow": 4473,
+      "approvalVersion": "v2",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県岡山市北区",
+      "municipalityCodes": [
+        "33101"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B現地案内PlusCode限定再審査2026-11-24】③510、元ID=sg2site-a34-naoie-kanagawa-20261121。B最終判断=公開ピン可、見学色=赤。ユーザー提供の現地情報「案内看板あり・道悪い・赤ピン指定」、PlusCode RW3J+3G（8Q6MRW3J+3G）中心 WGS84=34.8026875,133.9313125（1辺約14mのコード格子） を独立検算。既存③GPSとPlusCode中心の距離=約7m。岡山市指定金川城跡・所有者は国（林野庁）。ユーザー申告で案内看板あり、道が悪いため赤指定。登城を推奨しない赤情報点として公開可。【安全】金川城跡の案内情報点です。山道の状態が悪く、斜面・林道での事故に注意してください。赤ピンは見学を推奨する表示ではなく、史跡を示すためのものです。 位置は史跡の公表情報参照点で、個人宅の厳密所在地・自由な立入許可・見学入口・推奨ルートの保証ではない。取得=従来の市区町村制覇、100m接近不要。Bが史跡位置/安全可否のみ再判定、④O/P/Qと経歴・既得は不変更。【参照】https://www.city.okayama.jp/life/0000041843.html。【権利】既存③K⑤出典の史実は独自叙述し、原画像・図面・地図タイル・資料全文転載不可。既存③I/JのCODH史跡参照点を維持し、帰属『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の表示を要する。【⑥/C】旧⑥史跡v1はピンなしの承認版なので、Aが同じ史跡IDのv2位置/色/注意文を安全に別行提出→ユーザー最新版F承認→C Phase2反映。旧F/G・本番・既得は変更しない。。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "b60d908d4ecdb5f646578a39d877c81896e79e0c882ba2a5b147a816c5fff504",
+      "sourceIds": [
+        "sg2src-a34-naoie-okayama-kanagawa-20261121",
+        "sg2src-a34-naoie-okayama-kanagawa-designated-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "noRouting": true,
+      "point": [
+        133.93125,
+        34.802645
+      ],
+      "accessColor": "red",
+      "sourceUrls": [
+        "https://www.city.okayama.jp/0000066273.html",
+        "https://www.city.okayama.jp/life/0000041843.html"
+      ],
+      "positionEvidenceUrl": "https://www.city.okayama.jp/life/0000041843.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "山道や林道の状態が悪く危険です。赤ピンは史跡の位置を示すだけで、登城や立入りを勧めるものではありません。\n表示する位置は史跡の参照点で、見学入口・立入許可・安全な通行経路の保証ではありません。現地の掲示を優先してください。",
+      "bReviewDate": "2026-11-24",
+      "reconciledFrom": "B最終公開ピン判定2026-11-24／最新版⑥承認"
+    },
+    {
+      "id": "sg2site-a34-naoie-tenjinyama-bizen-20261121",
+      "name": "天神山城跡（備前浦上宗景の本拠）",
+      "siteRow": 511,
+      "approvalRow": 4474,
+      "approvalVersion": "v2",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県和気郡和気町",
+      "municipalityCodes": [
+        "33346"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B現地案内PlusCode限定再審査2026-11-24】③511、元ID=sg2site-a34-naoie-tenjinyama-bizen-20261121。B最終判断=公開ピン可、見学色=赤。ユーザー提供の現地情報「案内看板あり・道悪い・赤ピン指定」、PlusCode R4XG+JH（8Q6PR4XG+JH）中心 WGS84=34.8490625,134.1264375（1辺約14mのコード格子） を独立検算。既存③GPSとPlusCode中心の距離=約2m。岡山県指定天神山城跡、県公式は山上の大規模城郭と登城距離を案内。ユーザー申告で案内看板あり、道が悪いため赤指定。公開情報点は可、登山・100m接近は不要。【安全】天神山城跡の案内情報点です。山道・急斜面には危険があるため、無理に登らないでください。赤ピンは登城口や安全な経路を保証しません。 位置は史跡の公表情報参照点で、個人宅の厳密所在地・自由な立入許可・見学入口・推奨ルートの保証ではない。取得=従来の市区町村制覇、100m接近不要。Bが史跡位置/安全可否のみ再判定、④O/P/Qと経歴・既得は不変更。【参照】https://www.pref.okayama.jp/site/kodai/628749.html。【権利】既存③K⑤出典の史実は独自叙述し、原画像・図面・地図タイル・資料全文転載不可。既存③I/JのCODH史跡参照点を維持し、帰属『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の表示を要する。【⑥/C】旧⑥史跡v1はピンなしの承認版なので、Aが同じ史跡IDのv2位置/色/注意文を安全に別行提出→ユーザー最新版F承認→C Phase2反映。旧F/G・本番・既得は変更しない。。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "76a5f84f2e09a89795aa5fa731b71f63292a6fea91d120761ef5e3f48c833f55",
+      "sourceIds": [
+        "sg2src-a34-naoie-pref-tenjinyama-20261121",
+        "sg2src-a34-naoie-bizen-uragami-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "noRouting": true,
+      "point": [
+        134.126431,
+        34.849084
+      ],
+      "accessColor": "red",
+      "sourceUrls": [
+        "https://www.pref.okayama.jp/site/kodai/628749.html",
+        "https://www.city.bizen.lg.jp/soshiki/33/551.html"
+      ],
+      "positionEvidenceUrl": "https://www.pref.okayama.jp/site/kodai/628749.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "山道や急斜面には危険があります。無理に登らず、登城口や安全な経路が保証されていると考えないでください。\n表示する位置は史跡の参照点で、見学入口・立入許可・安全な通行経路の保証ではありません。現地の掲示を優先してください。",
+      "bReviewDate": "2026-11-24",
+      "reconciledFrom": "B最終公開ピン判定2026-11-24／最新版⑥承認"
+    },
+    {
+      "id": "sg2site-a35-hideie-hachijo-grave-20261121",
+      "name": "宇喜多秀家墓（八丈島・東京都指定旧跡）",
+      "siteRow": 512,
+      "approvalRow": 3964,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0345"
+      ],
+      "municipality": "東京都八丈町",
+      "municipalityCodes": [
+        "13401"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "史跡B位置判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "9d0f1053f9bc1ab206de66ca09b68ab17e0ae9141c5094b0c2364d89da570937",
+      "sourceIds": [
+        "sg2src-a35-hideie-hachijo-town-grave-20261121",
+        "sg2src-a35-hideie-okayama-tokyo-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.789564,
+        33.104892
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.town.hachijo.tokyo.jp/bunkazai/tokyo/shisekikyusekimeishotennen/ukitahideiehaka/",
+        "https://www.pref.okayama.lg.jp/page/detail-29247.html"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.town.hachijo.tokyo.jp/bunkazai/tokyo/shisekikyusekimeishotennen/ukitahideiehaka/",
+      "officialInfoUrl": "https://www.town.hachijo.tokyo.jp/bunkazai/tokyo/shisekikyusekimeishotennen/ukitahideiehaka/",
+      "visitorNotice": "史跡の公表情報点です。見学可能な区域を守り、施設内の非公開区画には入らず、現地の案内に従ってください。",
+      "relatedOnly": true
+    },
+    {
+      "id": "sg2site-a39-gamou-matsugashima-20261121",
+      "name": "松ヶ島城跡（蒲生氏郷の1584年伊勢拠点）",
+      "siteRow": 517,
+      "approvalRow": 4475,
+      "approvalVersion": "v2",
+      "personIds": [
+        "sg-master-0680"
+      ],
+      "municipality": "三重県松阪市",
+      "municipalityCodes": [
+        "24204"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B現地案内PlusCode限定再審査2026-11-24】③517、元ID=sg2site-a39-gamou-matsugashima-20261121。B最終判断=公開ピン可、見学色=黄。ユーザー提供の現地情報「案内看板あり」、PlusCode JG4M+53（8Q6RJG4M+53）中心 WGS84=34.6054375,136.5326875（1辺約14mのコード格子） を独立検算。既存③GPSとPlusCode中心の距離=約3m。松阪市の県指定松ヶ島城跡の案内と公表史跡位置に一致。ユーザー申告で案内看板あり。農地や隣接私有区画に立ち入らない条件で情報ピン可。【安全】松ヶ島城跡の案内情報点です。史跡指定区域と周辺の農地・私有地を区別し、案内板や通行可能な範囲から見学してください。 位置は史跡の公表情報参照点で、個人宅の厳密所在地・自由な立入許可・見学入口・推奨ルートの保証ではない。取得=従来の市区町村制覇、100m接近不要。Bが史跡位置/安全可否のみ再判定、④O/P/Qと経歴・既得は不変更。【参照】https://www.city.matsusaka.mie.jp/site/culture-info/matsugashimajyoato.html。【権利】既存③K⑤出典の史実は独自叙述し、原画像・図面・地図タイル・資料全文転載不可。既存③I/JのCODH史跡参照点を維持し、帰属『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の表示を要する。【⑥/C】旧⑥史跡v1はピンなしの承認版なので、Aが同じ史跡IDのv2位置/色/注意文を安全に別行提出→ユーザー最新版F承認→C Phase2反映。旧F/G・本番・既得は変更しない。。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "fabb6b21f1f2b08a49b35aed132d6a7611354a887d5e1ea000d3b4f80a1f0bf6",
+      "sourceIds": [
+        "sg2src-a39-gamou-matsusaka-matsugashima-20261121",
+        "sg2src-a39-gamou-mie-matsugashima-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "noRouting": false,
+      "point": [
+        136.532654,
+        34.605448
+      ],
+      "accessColor": "yellow",
+      "sourceUrls": [
+        "https://www.city.matsusaka.mie.jp/site/culture-info/matsugashimajyoato.html",
+        "https://www.bunka.pref.mie.lg.jp/Miebunka/detail?cls=cult_col01&pkey=0000000833"
+      ],
+      "positionEvidenceUrl": "https://www.city.matsusaka.mie.jp/site/culture-info/matsugashimajyoato.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "案内板や通行可能な場所から見学し、周辺の農地・私有地には立ち入らないでください。\n表示する位置は史跡の参照点で、見学入口・立入許可・安全な通行経路の保証ではありません。現地の掲示を優先してください。",
+      "bReviewDate": "2026-11-24",
+      "reconciledFrom": "B最終公開ピン判定2026-11-24／最新版⑥承認"
+    },
+    {
+      "id": "sg2site-a39-gamou-rinkaku-20261121",
+      "name": "茶室麟閣（蒲生氏郷と千少庵）",
+      "siteRow": 518,
+      "approvalRow": 3918,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0680"
+      ],
+      "municipality": "福島県会津若松市",
+      "municipalityCodes": [
+        "07202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③518最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "10d535c3c8aa8894a86c04fae79388d9b0dbe7f40d0e545702a866deebd7d826",
+      "sourceIds": [
+        "sg2src-a39-gamou-fukushima-rinkaku-20261121",
+        "sg2src-a39-gamou-omotesenke-shoan-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.93093,
+        37.486778
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.pref.fukushima.lg.jp/sec/41340a/www-wakamatsu-kensetsu74.html",
+        "https://www.omotesenke.jp/chanoyu/tizu/t_japan/t_fukushima.html"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.pref.fukushima.lg.jp/sec/41340a/www-wakamatsu-kensetsu74.html",
+      "officialInfoUrl": "https://www.pref.fukushima.lg.jp/sec/41340a/www-wakamatsu-kensetsu74.html",
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a39-gamou-kotokuji-20261121",
+      "name": "興徳寺・蒲生氏郷五輪塔（分骨供養墓）",
+      "siteRow": 519,
+      "approvalRow": 3956,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0680"
+      ],
+      "municipality": "福島県会津若松市",
+      "municipalityCodes": [
+        "07202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "B最終判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "41d4619c9f5b521c9dcd4e63f38f61ce1952e7b76eb1d3f0d94b14360ee0a6ef",
+      "sourceIds": [
+        "sg2src-a39-gamou-aizuwakamatsu-gorin-20261121",
+        "sg2src-a39-gamou-aizu-kotokuji-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.92868,
+        37.495937
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.city.aizuwakamatsu.fukushima.jp/docs/2012110900048/",
+        "https://www.aizukanko.com/spot/144/"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2012110900048/",
+      "officialInfoUrl": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2012110900048/",
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。",
+      "relatedOnly": true
+    },
+    {
+      "id": "sg2site-a40-yoshimoto-zentokuji-20261121",
+      "name": "善得寺跡（今川義元幼年の修行寺）",
+      "siteRow": 520,
+      "approvalRow": 3919,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0301"
+      ],
+      "municipality": "静岡県富士市",
+      "municipalityCodes": [
+        "22210"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③520最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "16564dba20a860ff74efc2ccf5758f3f27098b1815c29ab31c47cb90b6c9b97a",
+      "sourceIds": [
+        "sg2src-a40-yoshimoto-fuji-zentoku-20261121",
+        "sg2src-new14-imagawa-museum-20261120"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        138.696257,
+        35.168798
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://houunji.jp/aboutus/matsuji-zentokuji/",
+        "https://scmh.jp/special_exhibition/20240427.html"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://houunji.jp/aboutus/matsuji-zentokuji/",
+      "officialInfoUrl": null,
+      "visitorNotice": "史跡の公表情報点です。見学可能な区域を守り、施設内の非公開区画には入らず、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a40-yoshimoto-hanakurajo-20261121",
+      "name": "葉梨城（花倉城）跡（1536年花蔵の乱）",
+      "siteRow": 521,
+      "approvalRow": 3920,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0301"
+      ],
+      "municipality": "静岡県藤枝市",
+      "municipalityCodes": [
+        "22214"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③521最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "d2bfb60ec07a3ea7698167186cac9873f4466cb271b243a3c35bad911f7ac965",
+      "sourceIds": [
+        "sg2src-a40-yoshimoto-fujieda-hanakura-20261121",
+        "sg2src-new14-imagawa-museum-20261120"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        138.22255,
+        34.91573
+      ],
+      "accessColor": "red",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.city.fujieda.shizuoka.jp/kyodomuse/11/shizuokaisantop/24500.html",
+        "https://scmh.jp/special_exhibition/20240427.html"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.city.fujieda.shizuoka.jp/kyodomuse/11/shizuokaisantop/24500.html",
+      "officialInfoUrl": "https://www.city.fujieda.shizuoka.jp/kyodomuse/11/shizuokaisantop/24500.html",
+      "visitorNotice": "危険や立入制限を伴う公表史跡の情報点です。入口や通行経路ではなく、区域への入場を勧めません。現地の規制に従ってください。"
+    },
+    {
+      "id": "sg2site-a40-yoshimoto-azukizaka-20261121",
+      "name": "小豆坂古戦場跡（1548年今川・織田の戦い）",
+      "siteRow": 522,
+      "approvalRow": 4467,
+      "approvalVersion": "v2",
+      "personIds": [
+        "sg-master-0301"
+      ],
+      "municipality": "愛知県岡崎市",
+      "municipalityCodes": [
+        "23202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B現地案内PlusCode限定再審査2026-11-24】③522、元ID=sg2site-a40-yoshimoto-azukizaka-20261121。B最終判断=公開ピン可、見学色=緑。ユーザー提供の現地情報「案内看板あり」、PlusCode W5JJ+45（8Q6VW5JJ+45）中心 WGS84=34.9303125,137.1804375（1辺約14mのコード格子） を独立検算。旧③GPS空欄を本提供位置コードで補完。岡崎市指定史跡・岡崎市公式『通常見学可』。ユーザー申告で現地案内看板あり。史跡の一般見学区域から見られる公表歴史情報点として公開可。【安全】小豆坂古戦場の指定史跡付近の案内点です。案内看板と公道などの見学可能な範囲を利用し、車道や周辺の私有地に立ち入らないでください。 位置は史跡の公表情報参照点で、個人宅の厳密所在地・自由な立入許可・見学入口・推奨ルートの保証ではない。取得=従来の市区町村制覇、100m接近不要。Bが史跡位置/安全可否のみ再判定、④O/P/Qと経歴・既得は不変更。【参照】https://www.city.okazaki.lg.jp/bunka/torikumi_bunka/1004568/1004592/1004726/1004757.html / https://okazaki-kanko.jp/point/475。【権利】既存③K⑤出典の史実は独自叙述し、原画像・図面・地図タイル・資料全文転載不可。位置はユーザー指定PlusCodeの数値復元でありCODH等の点座標を転載していない。【⑥/C】旧⑥史跡v1はピンなしの承認版なので、Aが同じ史跡IDのv2位置/色/注意文を安全に別行提出→ユーザー最新版F承認→C Phase2反映。旧F/G・本番・既得は変更しない。。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "840946ba9aeeb60da05c61a985bfaf474d1c50e2d6702ef15ab14064dc7177fb",
+      "sourceIds": [
+        "sg2src-a40-yoshimoto-okazaki-azukizaka-20261121",
+        "sg2src-a40-yoshimoto-toyota-1548-azuki-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "noRouting": false,
+      "point": [
+        137.1804375,
+        34.9303125
+      ],
+      "accessColor": "green",
+      "sourceUrls": [
+        "https://www.city.okazaki.lg.jp/bunka/torikumi_bunka/1004568/1004592/1004726/1004757.html",
+        "https://adeac.jp/toyota-city/texthtml/d100010/ct00000001/ht000370"
+      ],
+      "positionEvidenceUrl": "https://www.city.okazaki.lg.jp/bunka/torikumi_bunka/1004568/1004592/1004726/1004757.html",
+      "officialInfoUrl": "https://www.city.okazaki.lg.jp/bunka/torikumi_bunka/1004568/1004592/1004726/1004757.html",
+      "codhAttributionRequired": false,
+      "visitorNotice": "市公式の通常見学可能な範囲と案内板から見学し、車道・私有地に立ち入らないでください。\n表示する位置は史跡の参照点で、見学入口・立入許可・安全な通行経路の保証ではありません。現地の掲示を優先してください。",
+      "bReviewDate": "2026-11-24",
+      "reconciledFrom": "B最終公開ピン判定2026-11-24／最新版⑥承認"
+    },
+    {
+      "id": "sg2site-a40-yoshimoto-ansho-20261121",
+      "name": "安祥城址（1549年今川・松平軍の攻城）",
+      "siteRow": 523,
+      "approvalRow": 3922,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0301"
+      ],
+      "municipality": "愛知県安城市",
+      "municipalityCodes": [
+        "23212"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B現地案内PlusCode限定再審査2026-11-24】③523、元ID=sg2site-a40-yoshimoto-ansho-20261121。B最終判断=公開ピン可、見学色=緑。ユーザー提供の現地情報「公園の公開案内・既B緑／⑥3922承認済」、PlusCode W3WX+48（8Q6VW3WX+48）中心 WGS84=34.9453125,137.0983125（1辺約14mのコード格子） を独立検算。既存③GPSとPlusCode中心の距離=約2m。安祥城址は安城市の公共歴史公園。③523 B最新『公開ピン可（緑）』・⑥3922 v1 F公開OK、座標と色も現行承認一致。C Phase2マニフェストのNO_PINは古いB記録を誤採用した分類ミス。【安全】安祥城址公園の公開史跡情報点です。公園区域は見学できますが、寺院の非公開建物・墓域や周辺私有地には立ち入らないでください。 位置は史跡の公表情報参照点で、個人宅の厳密所在地・自由な立入許可・見学入口・推奨ルートの保証ではない。取得=従来の市区町村制覇、100m接近不要。Bが史跡位置/安全可否のみ再判定、④O/P/Qと経歴・既得は不変更。【参照】https://www.city.anjo.aichi.jp/shisei/shisetsu/shisetsu1021.html / https://www.city.anjo.aichi.jp/shisei/shisetsu/kyoikushisetsu/maibun-sites-ansyoujou.html。【権利】既存③K⑤出典の史実は独自叙述し、原画像・図面・地図タイル・資料全文転載不可。既存③I/JのCODH史跡参照点を維持し、帰属『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の表示を要する。【⑥/C】⑥3922v1 F公開OK/E緑GPS一致。B再判定・ユーザー再承認不要。C Phase2抽出の旧NO_PINが誤分類、緑PIN_OKへ是正する。。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "e9b41eb5c2de7e8b9ffc570e592ccf756287991570c6bee926406cdca0430308",
+      "sourceIds": [
+        "sg2src-a40-yoshimoto-anjo-ansho-20261121",
+        "sg2src-a40-yoshimoto-anjo-takenobu-1549-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "noRouting": false,
+      "point": [
+        137.09833,
+        34.945309
+      ],
+      "accessColor": "green",
+      "sourceUrls": [
+        "https://www.city.anjo.aichi.jp/shisei/shisetsu/kyoikushisetsu/maibun-sites-ansyoujou.html",
+        "https://kanko.anjo-tanabata.jp/ieyasu/curator/"
+      ],
+      "positionEvidenceUrl": "https://www.city.anjo.aichi.jp/shisei/shisetsu/shisetsu1021.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "見学状況：緑。③I/Jの公開史跡/施設代表点を用い、一般立入りや内部アクセスの可否はB再審査で確認済み。最新の根拠・制限範囲は下記履歴の末尾『B追加公的現地見学条件の独立確認』参照。旧『ピンなし獲得可』は旧審査版であり、現行最終判定ではない。",
+      "bReviewDate": "2026-11-24",
+      "reconciledFrom": "B最終公開ピン判定2026-11-24／最新版⑥承認"
+    },
+    {
+      "id": "sg2site-a40-yoshimoto-daishoji-20261121",
+      "name": "大聖寺・今川義元胴塚（桶狭間後の供養墓）",
+      "siteRow": 524,
+      "approvalRow": 3957,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0301"
+      ],
+      "municipality": "愛知県豊川市",
+      "municipalityCodes": [
+        "23207"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "B最終判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "dab357b8b98c6113b3e70bae4e9b9f0110efde97d219cd974fec6bc64a9c1a0d",
+      "sourceIds": [
+        "sg2src-a40-yoshimoto-toyokawa-daishoji-20261121",
+        "sg2src-a40-yoshimoto-jodo-daishoji-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        137.384506,
+        34.810654
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.toyokawa-map.net/spot/000080.html",
+        "https://jodoshuzensho.jp/daijiten/index.php/%E5%A4%A7%E8%81%96%E5%AF%BA"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.toyokawa-map.net/spot/000080.html",
+      "officialInfoUrl": null,
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。",
+      "relatedOnly": true
+    },
+    {
+      "id": "sg2site-a42-murakami-genshoji-grave-20261121",
+      "name": "元正寺・村上武吉夫妻宝篋印塔（周防大島）",
+      "siteRow": 526,
+      "approvalRow": 4468,
+      "approvalVersion": "v2",
+      "personIds": [
+        "sg-master-1996"
+      ],
+      "municipality": "山口県大島郡周防大島町",
+      "municipalityCodes": [
+        "35305"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B現地案内PlusCode限定再審査2026-11-24】③526、元ID=sg2site-a42-murakami-genshoji-grave-20261121。B最終判断=公開ピン可、見学色=黄。ユーザー提供の現地情報「案内看板あり」、PlusCode W9FX+J8（8Q5JW9FX+J8）中心 WGS84=33.9240625,132.3983125（1辺約14mのコード格子） を独立検算。旧③GPS空欄を本提供位置コードで補完。周防大島の観光案内が元正寺と村上武吉夫妻の墓を史跡として掲載、ユーザー申告で案内看板あり。寺院・墓地の公開情報点として可、管理墓域の参拝許可は別。【安全】元正寺に伝わる村上武吉夫妻の宝篋印塔です。案内看板から史跡を確認できます。墓域・法要区画・隣接する私有地への立入りは管理者の案内に従ってください。 位置は史跡の公表情報参照点で、個人宅の厳密所在地・自由な立入許可・見学入口・推奨ルートの保証ではない。取得=従来の市区町村制覇、100m接近不要。Bが史跡位置/安全可否のみ再判定、④O/P/Qと経歴・既得は不変更。【参照】https://www.suouoshima.com/kanko/rekishi.html / https://www.town.suo-oshima.lg.jp/soshiki/7/1776.html。【権利】既存③K⑤出典の史実は独自叙述し、原画像・図面・地図タイル・資料全文転載不可。位置はユーザー指定PlusCodeの数値復元でありCODH等の点座標を転載していない。【⑥/C】旧⑥史跡v1はピンなしの承認版なので、Aが同じ史跡IDのv2位置/色/注意文を安全に別行提出→ユーザー最新版F承認→C Phase2反映。旧F/G・本番・既得は変更しない。。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "78f18a17e6f354fed06353f30873dd90ecd85c684d744ee673a243ca167505cb",
+      "sourceIds": [
+        "sg2src-a42-murakami-suou-tourism-20261121",
+        "sg2src-a42-murakami-ehime-bio-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "noRouting": false,
+      "relatedOnly": true,
+      "point": [
+        132.3983125,
+        33.9240625
+      ],
+      "accessColor": "yellow",
+      "sourceUrls": [
+        "https://www.suouoshima.com/kanko/rekishi.html",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:4/85/view/14635"
+      ],
+      "positionEvidenceUrl": "https://www.suouoshima.com/kanko/rekishi.html",
+      "officialInfoUrl": "https://www.town.suo-oshima.lg.jp/soshiki/7/1776.html",
+      "codhAttributionRequired": false,
+      "visitorNotice": "墓域・法要区画・隣接私有地への立入りは管理者の指示に従ってください。案内板のある公開範囲から確認してください。\n表示する位置は史跡の参照点で、見学入口・立入許可・安全な通行経路の保証ではありません。現地の掲示を優先してください。",
+      "bReviewDate": "2026-11-24",
+      "reconciledFrom": "B最終公開ピン判定2026-11-24／最新版⑥承認"
+    },
+    {
+      "id": "sg2site-a43-ishida-birthplace-monument-20261121",
+      "name": "石田三成出生地碑（近江石田村）",
+      "siteRow": 527,
+      "approvalRow": 3923,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "滋賀県長浜市",
+      "municipalityCodes": [
+        "25203"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③527最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "32f5c8e6a3d399c44d51b9570c676c5d365246c1f81f0c76ec0e3e5326b292b9",
+      "sourceIds": [
+        "sg2src-a43-ishida-nagahama-exhibit-20261121",
+        "sg2src-a43-ishida-shiga-birthplace-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        136.320936,
+        35.38642
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://nagahama-rekihaku.jp/exhibit/604",
+        "https://www.biwako-visitors.jp/spot/detail/960/"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://nagahama-rekihaku.jp/exhibit/604",
+      "officialInfoUrl": null,
+      "visitorNotice": "史跡の公表情報点です。見学可能な区域を守り、施設内の非公開区画には入らず、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a43-ishida-kannonji-tradition-20261121",
+      "name": "大原観音寺（石田三成・三献の茶伝承地）",
+      "siteRow": 528,
+      "approvalRow": 3958,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "滋賀県米原市",
+      "municipalityCodes": [
+        "25214"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "B最終判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "2d62547902bf09c22779e60d80ca830ffabb6429a55808745018fb7520e3c57f",
+      "sourceIds": [
+        "sg2src-a43-ishida-nagahama-sengoku-20261121",
+        "sg2src-a43-ishida-maibara-kannon-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        136.337833,
+        35.389306
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.nagahama-sengoku.jp/story/mitsunari/",
+        "https://www.city.maibara.lg.jp/soshiki/seisaku/kohotoukei/shityouteireikisyakaiken/R8kisyakaiken/24359.html"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.nagahama-sengoku.jp/story/mitsunari/",
+      "officialInfoUrl": "https://www.city.maibara.lg.jp/soshiki/seisaku/kohotoukei/shityouteireikisyakaiken/R8kisyakaiken/24359.html",
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。",
+      "relatedOnly": true
+    },
+    {
+      "id": "sg2site-a43-ishida-sangenin-20261121",
+      "name": "三玄院（石田三成の創建ゆかり・墓所）",
+      "siteRow": 529,
+      "approvalRow": 3924,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "京都府京都市北区",
+      "municipalityCodes": [
+        "26101"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③529最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "dbc54d7be9aecddbef257c49a493df10e60d7c95195f7b3eaaeb2d2c78efb7d4",
+      "sourceIds": [
+        "sg2src-a43-ishida-kyoto-sangenin-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        135.745862,
+        35.043284
+      ],
+      "accessColor": "red",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://ja.kyoto.travel/tourism/single01.php?category_id=7&tourism_id=589"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://ja.kyoto.travel/tourism/single01.php?category_id=7&tourism_id=589",
+      "officialInfoUrl": null,
+      "visitorNotice": "危険や立入制限を伴う公表史跡の情報点です。入口や通行経路ではなく、区域への入場を勧めません。現地の規制に従ってください。"
+    },
+    {
+      "id": "sg2site-a43-ishida-oshi-20261121",
+      "name": "忍城跡（1590年石田三成の水攻め）",
+      "siteRow": 530,
+      "approvalRow": 3925,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "埼玉県行田市",
+      "municipalityCodes": [
+        "11206"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③530最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "01eb854ec8287779c9ca4389f42654d2158c45ff61db5fbc02c5dae44d114716",
+      "sourceIds": [
+        "sg2src-a43-ishida-gyoda-oshi-castle-20261121",
+        "sg2src-a43-ishida-gyoda-ishidazutsumi-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.454862,
+        36.136906
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2261.html",
+        "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2282.html"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2261.html",
+      "officialInfoUrl": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2261.html",
+      "visitorNotice": "史跡の公表情報点です。見学可能な区域を守り、施設内の非公開区画には入らず、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a43-ishida-levee-20261121",
+      "name": "石田堤（1590年忍城水攻めの遺構）",
+      "siteRow": 531,
+      "approvalRow": 3926,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "埼玉県行田市",
+      "municipalityCodes": [
+        "11206"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③531最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "b8d4d2314ea28220b2ac5b00e1e7e661f0437418304c3a6d20b8136ef3fbff53",
+      "sourceIds": [
+        "sg2src-a43-ishida-gyoda-ishidazutsumi-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.47822,
+        36.1285
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2282.html"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2282.html",
+      "officialInfoUrl": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/bunkazaihogo/gyomu/rekishi_bunkazai/1/2282.html",
+      "visitorNotice": "史跡の公表情報点です。見学可能な区域を守り、施設内の非公開区画には入らず、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a43-ishida-nagoya-camp-20261121",
+      "name": "石田三成陣跡（肥前名護屋・私有地）",
+      "siteRow": 532,
+      "approvalRow": 3927,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "佐賀県唐津市",
+      "municipalityCodes": [
+        "41202"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③532最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "0ef17f53b5c133be68ac530a215551bb0faedeea897b57ff781a914adf42e07f",
+      "sourceIds": [
+        "sg2src-a43-ishida-saga-camp-20261121",
+        "sg2src-a43-ishida-saga-nagoya-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a45-asakura-gosho-anyo-20261121",
+      "name": "御所・安養寺跡（足利義秋の1567年滞在地）",
+      "siteRow": 536,
+      "approvalRow": 3981,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0062"
+      ],
+      "municipality": "福井県福井市",
+      "municipalityCodes": [
+        "18201"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③536最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "c8b94943ccd0dd01c8c80d340072e531a32679d4e110159dfbe064f7874619db",
+      "sourceIds": [
+        "sg2src-a45-asakura-museum-dynasty-20261121",
+        "sg2src-a45-asakura-museum-chronology-20261121",
+        "sg2src-a45-asakura-fukui-anyo-current-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a45-asakura-tonezaka-wide-20261121",
+      "name": "刀根坂古戦場関連地（柳ヶ瀬～刀根の旧北国街道）",
+      "siteRow": 537,
+      "approvalRow": 3928,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0062"
+      ],
+      "municipality": "福井県敦賀市・滋賀県長浜市",
+      "municipalityCodes": [
+        "18202",
+        "25203"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③537最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "71363c4835f4a2f3dbd74f0fa8a430d3e072e1d08b895ed1b71eb59ecf20c023",
+      "sourceIds": [
+        "sg2src-a45-asakura-fukui-history-fall-1573-20261121",
+        "sg2src-a45-asakura-fukui-pref-chron-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a57-soteki-kuzuryu-nakanogo-20261121",
+      "name": "九頭竜川・中ノ郷合戦推定地（1506年）",
+      "siteRow": 561,
+      "approvalRow": 3939,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-asakura-soteki-20261120"
+      ],
+      "municipality": "福井県福井市",
+      "municipalityCodes": [
+        "18201"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③561最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "5c0942c8204479ad6baf564673bc6436af68a0780597eaf41db2543d82225764",
+      "sourceIds": [
+        "sg2src-a57-soteki-fukui-kuzuryu-nakanogo-20261121",
+        "sg2src-new14-soteki-kuzuryu-20261120"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a58-katakura-kessanji-1608-20261121",
+      "name": "傑山寺（片倉景綱が創建した菩提寺）",
+      "siteRow": 563,
+      "approvalRow": 3940,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-katakura-kagetsuna-20261120"
+      ],
+      "municipality": "宮城県白石市",
+      "municipalityCodes": [
+        "04206"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③563最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "be865a74ca28e08e154c663e952bd47734210c8f686010202e1a6a23275a4f94",
+      "sourceIds": [
+        "sg2src-a58-katakura-shiroishi-kessanji-20261121",
+        "sg2src-a58-katakura-kessanji-chron-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        140.617058,
+        37.995115
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.city.shiroishi.miyagi.jp/soshiki/17/922.html",
+        "https://kessanji.jp/history/katakura"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.city.shiroishi.miyagi.jp/soshiki/17/922.html",
+      "officialInfoUrl": "https://www.city.shiroishi.miyagi.jp/soshiki/17/922.html",
+      "visitorNotice": "史跡の公表情報点です。見学可能な区域を守り、施設内の非公開区画には入らず、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a58-katakura-mausoleum-1680-20261121",
+      "name": "片倉家御廟所（1680年の改葬先・愛宕山）",
+      "siteRow": 564,
+      "approvalRow": 3941,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-katakura-kagetsuna-20261120"
+      ],
+      "municipality": "宮城県白石市",
+      "municipalityCodes": [
+        "04206"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③564最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "e04c0634211c98f33fb43a856db0090365981a2c9af2badbca26d8109e64fb2f",
+      "sourceIds": [
+        "sg2src-a58-katakura-shiroishi-mausoleum-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        140.590758,
+        38.001735
+      ],
+      "accessColor": "red",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.city.shiroishi.miyagi.jp/soshiki/30/30773.html"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.city.shiroishi.miyagi.jp/soshiki/30/30773.html",
+      "officialInfoUrl": "https://www.city.shiroishi.miyagi.jp/soshiki/30/30773.html",
+      "visitorNotice": "危険や立入制限を伴う公表史跡の情報点です。入口や通行経路ではなく、区域への入場を勧めません。現地の規制に従ってください。"
+    },
+    {
+      "id": "sg2site-a59-ashina-nakaji-battle-20261121",
+      "name": "中地合戦推定地（1550年・蘆名と田村の戦い）",
+      "siteRow": 565,
+      "approvalRow": 3995,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-ashina-moriuji-20261120"
+      ],
+      "municipality": "福島県郡山市",
+      "municipalityCodes": [
+        "07203"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③565最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "57d6e1266b19f1d43fe5392ffe1d6d0c461d5a8564226b266d2b16206c78ca86",
+      "sourceIds": [
+        "sg2src-a59-ashina-asaka-study-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a59-ashina-hanamigamori-20261121",
+      "name": "花見ヶ森廟所（蘆名盛氏・盛興・盛隆の墓）",
+      "siteRow": 566,
+      "approvalRow": 3942,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-ashina-moriuji-20261120"
+      ],
+      "municipality": "福島県会津若松市",
+      "municipalityCodes": [
+        "07202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③566最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "a76ca6c76f0dd441f5c213b4b988c17f97c89d692a002a85930dd19708319b3b",
+      "sourceIds": [
+        "sg2src-a59-ashina-hanamigamori-20261121",
+        "sg2src-a59-ashina-dictionaries-rank-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.944047,
+        37.485178
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.aizukanko.com/spot/142/",
+        "https://kotobank.jp/word/%E8%98%86%E5%90%8D%E7%9B%9B%E6%B0%8F-25307"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.aizukanko.com/spot/142/",
+      "officialInfoUrl": null,
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a59-ashina-soeiji-20261121",
+      "name": "宗英寺（蘆名盛氏の木像を伝える寺）",
+      "siteRow": 567,
+      "approvalRow": 3978,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-ashina-moriuji-20261120"
+      ],
+      "municipality": "福島県会津若松市",
+      "municipalityCodes": [
+        "07202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "B最終判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "6befc93cc702713120ee993d0e62908906754290088a296f45b786e685515d61",
+      "sourceIds": [
+        "sg2src-a59-ashina-soeiji-historical-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.94458,
+        37.488342
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/07/070000344900.html"
+      ],
+      "codhAttributionRequired": true,
+      "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/07/070000344900.html",
+      "officialInfoUrl": null,
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。",
+      "relatedOnly": true
+    },
+    {
+      "id": "sg2site-a60-nagano-chojunji-20261121",
+      "name": "長純寺（長野業政が再建した菩提寺）",
+      "siteRow": 568,
+      "approvalRow": 3996,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-nagano-narimasa-20261120"
+      ],
+      "municipality": "群馬県高崎市",
+      "municipalityCodes": [
+        "10202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③568最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "6431a80de6d746167609faa646fec2e070db446c529ea503998b58b96e101dc2",
+      "sourceIds": [
+        "sg2src-a60-nagano-chojunji-statue-20261121",
+        "sg2src-a60-nagano-city-quiz-1557-20261121",
+        "sg2src-a60-nagano-chojunji-archives-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        138.941406,
+        36.398724
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.city.takasaki.gunma.jp/site/cultural-assets/5509.html",
+        "https://www.city.takasaki.gunma.jp/uploaded/attachment/16025.pdf",
+        "https://archive.keiyou.jp/gpa/komonjo/104/detail"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.city.takasaki.gunma.jp/site/cultural-assets/5509.html",
+      "officialInfoUrl": "https://www.city.takasaki.gunma.jp/site/cultural-assets/5509.html",
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a60-nagano-haruna-shrine-20261121",
+      "name": "榛名神社（1535年の祭礼制札伝来地）",
+      "siteRow": 569,
+      "approvalRow": 3962,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-nagano-narimasa-20261120"
+      ],
+      "municipality": "群馬県高崎市",
+      "municipalityCodes": [
+        "10202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "B最終判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "1612867379348313a7216bf9791efac9824d98dadfde935deeefea090425bfe4",
+      "sourceIds": [
+        "sg2src-a60-nagano-haruna-document-20261121",
+        "sg2src-a60-nagano-haruna-shrine-20261121",
+        "sg2src-a60-nagano-harunachoshi-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        138.844771,
+        36.451153
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://archive.keiyou.jp/gpa/komonjo/catalog/h20-5%E4%B8%AD%E4%B8%96",
+        "https://www.city.takasaki.gunma.jp/site/cultural-assets/4631.html",
+        "https://lib.city.takasaki.gunma.jp/viewer/info.html?g=13&id=99"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://archive.keiyou.jp/gpa/komonjo/catalog/h20-5%E4%B8%AD%E4%B8%96",
+      "officialInfoUrl": "https://www.city.takasaki.gunma.jp/site/cultural-assets/4631.html",
+      "visitorNotice": "史跡の公表情報点です。見学可能な区域を守り、施設内の非公開区画には入らず、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a60-nagano-chonenji-graves-20261121",
+      "name": "長年寺長野氏の墓（累代の五輪塔）",
+      "siteRow": 570,
+      "approvalRow": 4476,
+      "approvalVersion": "v2",
+      "personIds": [
+        "sg-added-new14-nagano-narimasa-20261120"
+      ],
+      "municipality": "群馬県高崎市",
+      "municipalityCodes": [
+        "10202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B現地案内PlusCode限定再審査2026-11-24】③570、元ID=sg2site-a60-nagano-chonenji-graves-20261121。B最終判断=公開ピン可、見学色=黄。ユーザー提供の現地情報「旧榛名町指定史跡とのユーザー指摘（現高崎市指定）」、PlusCode 9VPR+28（8Q8W9VPR+28）中心 WGS84=36.3850625,138.8908125（1辺約14mのコード格子） を独立検算。既存③GPSとPlusCode中心の距離=約98m。既存POIは寺院代表点であり墓所側のユーザー指定情報点とは約98m離れるため、公開版は新ユーザー指定点を優先。高崎市指定史跡・長年寺長野氏の墓。旧榛名町の指定は現市指定として継承。ユーザー位置コードは旧CODH寺院参照点から約98m離れた墓所側の案内情報点、墓地への立入許可とは別。【安全】長年寺の長野氏累代の墓を示す史跡情報点です。寺院の墓域・法要場所には管理者の許可がない限り立ち入らず、参拝可能な範囲と現地案内を守ってください。 位置は史跡の公表情報参照点で、個人宅の厳密所在地・自由な立入許可・見学入口・推奨ルートの保証ではない。取得=従来の市区町村制覇、100m接近不要。Bが史跡位置/安全可否のみ再判定、④O/P/Qと経歴・既得は不変更。【参照】https://www.city.takasaki.gunma.jp/site/cultural-assets/5513.html。【権利】既存③K⑤出典の史実は独自叙述し、原画像・図面・地図タイル・資料全文転載不可。位置はユーザー指定PlusCodeの数値復元でありCODH等の点座標を転載していない。【⑥/C】旧⑥史跡v1はピンなしの承認版なので、Aが同じ史跡IDのv2位置/色/注意文を安全に別行提出→ユーザー最新版F承認→C Phase2反映。旧F/G・本番・既得は変更しない。。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "9f11f402ed1da86b62ee7db66b8f22cdcd3cc230df120c7c852ef85f1b3d94da",
+      "sourceIds": [
+        "sg2src-a60-nagano-chonenji-graves-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "noRouting": false,
+      "point": [
+        138.8908125,
+        36.3850625
+      ],
+      "accessColor": "yellow",
+      "sourceUrls": [
+        "https://www.city.takasaki.gunma.jp/site/cultural-assets/5513.html"
+      ],
+      "positionEvidenceUrl": "https://www.city.takasaki.gunma.jp/site/cultural-assets/5513.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "高崎市指定史跡ですが、寺院の墓域・法要場所には管理者の許可なく立ち入らず、参拝可能な範囲を守ってください。\n表示する位置は史跡の参照点で、見学入口・立入許可・安全な通行経路の保証ではありません。現地の掲示を優先してください。",
+      "bReviewDate": "2026-11-24",
+      "reconciledFrom": "B最終公開ピン判定2026-11-24／最新版⑥承認"
+    },
+    {
+      "id": "sg2site-a61-sogo-kishiwada-1558-20261121",
+      "name": "岸和田城跡（十河一存の和泉支配）",
+      "siteRow": 571,
+      "approvalRow": 3982,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-sogo-kazumasa-20261120"
+      ],
+      "municipality": "大阪府岸和田市",
+      "municipalityCodes": [
+        "27202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③571最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "a9be4b1ea9839f280b3f8a3b76e718188db44e29a91d3226fdfbde757c70ebb0",
+      "sourceIds": [
+        "sg2src-a61-sogo-kishiwada-castle-1558-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        135.370786,
+        34.45876
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://www.city.kishiwada.lg.jp/page/36-kishiwadajorinyuarl.html"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://www.city.kishiwada.lg.jp/page/36-kishiwadajorinyuarl.html",
+      "officialInfoUrl": "https://www.city.kishiwada.lg.jp/page/36-kishiwadajorinyuarl.html",
+      "visitorNotice": "史跡の公表情報点です。見学可能な区域を守り、施設内の非公開区画には入らず、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a61-sogo-kanshinji-1560-20261121",
+      "name": "観心寺（1560年十河一存禁制の伝来地）",
+      "siteRow": 572,
+      "approvalRow": 3944,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-sogo-kazumasa-20261120"
+      ],
+      "municipality": "大阪府河内長野市",
+      "municipalityCodes": [
+        "27216"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③572最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "24b18481f71487610e6ec82972c1a24ee31048cb3e4c1f2e55257a36a7d32551",
+      "sourceIds": [
+        "sg2src-a61-sogo-kawachinagano-kanshinji-1560-20261121",
+        "sg2src-a61-sogo-tondabayashi-1560-temple-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        135.60112,
+        34.436787
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://adeac.jp/kawachinagano-city/catalog/c00000329",
+        "https://adeac.jp/tondabayashi-city/texthtml/d000020/cp000002/ht000118"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://adeac.jp/kawachinagano-city/catalog/c00000329",
+      "officialInfoUrl": null,
+      "visitorNotice": "史跡の公表情報点です。安全な入口ではありません。地形・見学時間・管理区域に注意し、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a61-sogo-rikyu-hachimangu-1549-20261121",
+      "name": "離宮八幡宮（1549年十河一存禁制が伝わる社）",
+      "siteRow": 573,
+      "approvalRow": 3945,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-sogo-kazumasa-20261120"
+      ],
+      "municipality": "京都府乙訓郡大山崎町",
+      "municipalityCodes": [
+        "26303"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③573最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "475ae4b1cf6c09b13b41ac9f5b4517f31dbdac81ce8b8970ae188d3a61d5092e",
+      "sourceIds": [
+        "sg2src-a61-sogo-bunka-rikyu-documents-20261121",
+        "sg2src-a61-sogo-oyamazaki-prohibition-1549-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        135.679581,
+        34.891644
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22",
+      "sourceUrls": [
+        "https://online.bunka.go.jp/db/heritages/detail/134387",
+        "https://rekimoku.xsrv.jp/2-zinbutu-15-sogou-kazumasa.html"
+      ],
+      "codhAttributionRequired": false,
+      "positionEvidenceUrl": "https://online.bunka.go.jp/db/heritages/detail/134387",
+      "officialInfoUrl": null,
+      "visitorNotice": "史跡の公表情報点です。見学可能な区域を守り、施設内の非公開区画には入らず、現地の案内に従ってください。"
+    },
+    {
+      "id": "sg2site-a61-sogo-graves-takamatsu-20261121",
+      "name": "十河一存・存保・千松丸墓所（十川東町）",
+      "siteRow": 574,
+      "approvalRow": 3997,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-sogo-kazumasa-20261120"
+      ],
+      "municipality": "香川県高松市",
+      "municipalityCodes": [
+        "37201"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③574最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "a5304bc5e4044ae09b78464813d01f31ec320b63d1d9d0442118ee3c0540c02a",
+      "sourceIds": [
+        "sg2src-a61-sogo-takamatsu-graves-2014-20261121",
+        "sg2src-a61-sogo-takamatsu-castle-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a-hachijo-hideie-residence-20261123",
+      "name": "宇喜多秀家住居跡（八丈島・大賀郷）",
+      "siteRow": 575,
+      "approvalRow": 4446,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0345"
+      ],
+      "municipality": "東京都八丈町",
+      "municipalityCodes": [
+        "13401"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B限定独立再審査2026-11-23｜③575｜公開案内ピン条件付き合格】公開史跡情報点として赤ピン可。③F列（最新）は『赤の情報ピンとして公開可』。⑥4446 v1 F公開OK／E公表参照点WGS84=33.1044375,139.7894375・赤に一致。",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "4a816df6679cf35ce3e8b245dce92968e1568c9798593f6eabb9e8a26ef79084",
+      "sourceIds": [
+        "sg2src-a-hachijo-tourism-hideie-residence-20261123",
+        "sg2src-a-hachijo-tourism-welcome-20261123",
+        "sg2src-a-hachijo-yahoo-poi-20261123",
+        "sg2src-a-hachijo-visit-2026-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": false,
+      "bReviewDate": "2026-11-23",
+      "point": [
+        139.7894375,
+        33.1044375
+      ],
+      "accessColor": "red",
+      "positionKind": "八丈島観光協会が公表する歴史スポットの情報参照点。ユーザー指定PlusCode中心で、個人宅入口・敷地内部・見学ルートではない",
+      "reconciledFrom": "本人確認：Bとは『観光案内に載る公開史跡として赤の公開ピン』で合意済み。Cの独自保留は撤回し、入口・私的生活区画に近づける誘導を禁止",
+      "codhAttributionRequired": false,
+      "sourceUrls": [
+        "https://www.hachijo.gr.jp/okago",
+        "https://ameblo.jp/team8jo/entry-12101147415.html",
+        "https://map.yahoo.co.jp/v3/place/CN2nNRRFBf6",
+        "https://note.com/art_guide_mugen/n/nef6efdc5e6df"
+      ],
+      "positionEvidenceUrl": "https://map.yahoo.co.jp/v3/place/CN2nNRRFBf6",
+      "officialInfoUrl": "https://www.hachijo.gr.jp/okago",
+      "visitorNotice": "八丈島観光協会が案内する宇喜多秀家住居跡の歴史情報点です。赤ピンは所在地の案内のみです。現在の住居や庭・駐車場など私的生活区画への立入り、所有者の許可のない見学・撮影、接近や経路案内を勧めません。現地掲示・管理者の案内に従ってください。市区町村制覇で取得でき、100m以内への接近は不要です。"
+    }
+  ],
+  "reconciliationNote": "The user's explicit correction applies the preexisting conditional B approval for ③575 and the matching published-tourism historical reference location already approved at ⑥4446 v1. This is not a new B fact finding or a bypass of permission to enter private property."
+}
