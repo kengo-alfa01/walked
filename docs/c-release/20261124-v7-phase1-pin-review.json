@@ -3,17 +3,17 @@
   "sourceSpreadsheetId": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
   "checked": "2026-11-24",
   "release": "STAGING_ONLY_NOT_LIVE",
-  "method": "③B final pin gate and E approved coordinates/access, F/H/I/J/O/P checked. NO_PIN coordinates are not copied to this file.",
+  "method": "B final position/access gate and latest ⑥ GPS, color and display conditions checked; the 19 newly approved pins supersede historic NO_PIN. No C safety re-adjudication.",
   "counts": {
     "total": 70,
-    "yes": 35,
-    "no": 35,
-    "heldWithGps": 16,
-    "gpsMissing": 19,
+    "yes": 54,
+    "no": 16,
+    "heldWithGps": 4,
+    "gpsMissing": 12,
     "colors": {
-      "red": 10,
-      "yellow": 16,
-      "green": 9
+      "red": 14,
+      "yellow": 29,
+      "green": 11
     },
     "independentRelatedSites": 16
   },
@@ -371,8 +371,8 @@
     {
       "id": "sg2site-a5-kita-mise-yakata-20261121",
       "siteRow": 468,
-      "approvalRow": 3891,
-      "approvalVersion": "v1",
+      "approvalRow": 4477,
+      "approvalVersion": "v2",
       "name": "北畠具教三瀬館跡（晩年の隠棲地）",
       "personIds": [
         "sg-master-0734"
@@ -382,25 +382,36 @@
         "24443"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③468最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③468 元ID=sg2site-a5-kita-mise-yakata-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code CC49+FG（復元完全コード=8Q6RCC49+FG、WGS84情報点中心=34.4061875,136.4188125、約14mコード格子）。ユーザー観察=案内看板あり。県指定史跡、段丘の斜面や見学範囲に注意。③旧GPS=34.407219,136.418501と位置コードの距離約118m、今回は案内看板/顕彰碑を示すユーザー指定の情報点へ変更する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=24443制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://web-odai.info/look/look-4776.html。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】三重県多気郡大台町上三瀬字大戸地1012番地ほか・県指定史跡『北畠具教三瀬館跡』。現在の見学可能な代表点と入口はB未審査",
       "textSha256": "f2a59e0acea5d7f4ea45317acbd20205c4ff96e2cb6b78d4739b0f4674f685f2",
       "sourceIds": [
         "sg2src-a5-kita-mie-mise-20261121",
         "sg2src-a5-kita-kankomie-mise-20261121"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://www.bunka.pref.mie.lg.jp/Miebunka/detail?cls=cult_col01&pkey=0000000374",
+        "https://www.kankomie.or.jp/spot/19419"
+      ],
+      "point": [
+        136.4188125,
+        34.4061875
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://web-odai.info/look/look-4776.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "県指定史跡、段丘の斜面や見学範囲に注意。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③468 元ID=sg2site-a5-kita-mise-yakata-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code CC49+FG（復元完全コード=8Q6RCC49+FG、WGS84情報点中心=34.4061875,136.4188125、約14mコード格子）。ユーザー観察=案内看板あり。県指定史跡、段丘の斜面や見学範囲に注意。③旧GPS=34.407219,136.418501と位置コードの距離約118m、今回は案内看板/顕彰碑を示すユーザー指定の情報点へ変更する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=24443制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https"
     },
     {
       "id": "sg2site-a5-kita-douzuka-20261121",
       "siteRow": 469,
-      "approvalRow": 3946,
-      "approvalVersion": "v1",
+      "approvalRow": 4489,
+      "approvalVersion": "v2",
       "name": "北畠具教の胴塚（三瀬の変追善地）",
       "personIds": [
         "sg-master-0734"
@@ -409,21 +420,32 @@
       "municipalityCodes": [
         "24443"
       ],
-      "bSiteStatus": "自治体確認済",
-      "rights": "自治体確認済・権利OK",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "B最終判定=ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③469 元ID=sg2site-a5-kita-douzuka-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code CC49+6Q（復元完全コード=8Q6RCC49+6Q、WGS84情報点中心=34.4055625,136.4194375、約14mコード格子）。ユーザー観察=案内看板あり。三瀬館とは別の塚。小川・段差に注意、本人の首塚や死亡室と同一視しない。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=24443制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://web-odai.info/look/look-4874.html。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】三重県多気郡大台町上三瀬・三瀬館跡南方の高地（胴塚、独立した公開情報点はB未設定）",
       "textSha256": "e808d8e869b9f7e21cc3e20242f5684811d0e03d648b3a0574726469a56432cb",
       "sourceIds": [
         "sg2src-a5-kita-odai-douzuka-20261121",
         "sg2src-a5-kita-kankomie-mise-20261121"
       ],
-      "reason": "GPS未設定または公表不可",
-      "gpsHeldInCanonical": false,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": [],
-      "relatedOnly": true
+      "sourceUrls": [
+        "https://web-odai.info/look/look-4874.html",
+        "https://www.kankomie.or.jp/spot/19419"
+      ],
+      "relatedOnly": true,
+      "point": [
+        136.4194375,
+        34.4055625
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://web-odai.info/look/look-4874.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "三瀬館とは別の塚。小川・段差に注意、本人の首塚や死亡室と同一視しない。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③469 元ID=sg2site-a5-kita-douzuka-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code CC49+6Q（復元完全コード=8Q6RCC49+6Q、WGS84情報点中心=34.4055625,136.4194375、約14mコード格子）。ユーザー観察=案内看板あり。三瀬館とは別の塚。小川・段差に注意、本人の首塚や死亡室と同一視しない。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=24443制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://web-odai.info/look/look-4874."
     },
     {
       "id": "sg2site-a5-kita-kiriyama-castle-20261121",
@@ -468,8 +490,8 @@
     {
       "id": "sg2site-a6-nanbu-shizukuishi-20261121",
       "siteRow": 471,
-      "approvalRow": 3948,
-      "approvalVersion": "v1",
+      "approvalRow": 4478,
+      "approvalVersion": "v2",
       "name": "滴石城跡（雫石城跡）",
       "personIds": [
         "sg-added-nanbu-harumasa-20261114"
@@ -479,27 +501,39 @@
         "03301"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "B最終判定=ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③471 元ID=sg2site-a6-nanbu-shizukuishi-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code MXQJ+HV（復元完全コード=8RF2MXQJ+HV、WGS84情報点中心=39.6889375,140.9821875、約14mコード格子）。ユーザー観察=『雫石城跡』の案内看板あり。城域内の斜面・土地管理と案内点を区別。③旧GPS=39.688889,140.982197と位置コードの距離約5m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=03301制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.town.shizukuishi.iwate.jp/shoukai/ayumi.html。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】岩手県岩手郡雫石町雫石・古館付近（旧滴石城跡の城域は要B調査）",
       "textSha256": "365051e6ddfee5cc23a8f7e175308de5bdb9c3ae8985c029af0fef60dc9a53bd",
       "sourceIds": [
         "sg2src-a6-nanbu-shizukuishi-town-20261121",
         "sg2src-a6-nanbu-shizukuishi-history-20261121",
         "sg2src-a6-nanbu-shizukuishi-heibonsha-20261121"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": [],
-      "relatedOnly": true
+      "sourceUrls": [
+        "https://www.town.shizukuishi.iwate.jp/shoukai/ayumi.html",
+        "https://www.town.shizukuishi.iwate.jp/docs/2014120800189/",
+        "https://kotobank.jp/word/%E9%9B%AB%E7%9F%B3%E5%9F%8E%E8%B7%A1-3023649"
+      ],
+      "relatedOnly": true,
+      "point": [
+        140.982197,
+        39.688889
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://www.town.shizukuishi.iwate.jp/shoukai/ayumi.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "城域内の斜面・土地管理と案内点を区別。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③471 元ID=sg2site-a6-nanbu-shizukuishi-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code MXQJ+HV（復元完全コード=8RF2MXQJ+HV、WGS84情報点中心=39.6889375,140.9821875、約14mコード格子）。ユーザー観察=『雫石城跡』の案内看板あり。城域内の斜面・土地管理と案内点を区別。③旧GPS=39.688889,140.982197と位置コードの距離約5m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=03301制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=http"
     },
     {
       "id": "sg2site-a6-nanbu-nagau-20261121",
       "siteRow": 472,
-      "approvalRow": 3949,
-      "approvalVersion": "v1",
+      "approvalRow": 4490,
+      "approvalVersion": "v2",
       "name": "長牛館跡（鹿角の長牛城跡）",
       "personIds": [
         "sg-added-nanbu-harumasa-20261114"
@@ -508,28 +542,40 @@
       "municipalityCodes": [
         "05209"
       ],
-      "bSiteStatus": "自治体確認済",
-      "rights": "自治体確認済・権利OK",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "B最終判定=ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③472 元ID=sg2site-a6-nanbu-nagau-20261121。最新B判定=公開情報ピン可・赤。ユーザー提供Plus Code 4Q89+74（復元完全コード=8RG24Q89+74、WGS84情報点中心=40.1156875,140.7678125、約14mコード格子）。ユーザー観察=古い木の角棒に館名がある。秋田県埋蔵文化財分布の館跡・民有農地/山林。古木標は見学許可を示さない。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=05209制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://common3.pref.akita.lg.jp/heritage-map/ruins/detail.html?ruins_id=476。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】秋田県鹿角市八幡平字長牛・カラメ田・指鳥の長牛館（県埋蔵文化財包蔵地、敷地は民有・畑地山林）",
       "textSha256": "53b6d4eb2f0c949aa045f4582f0d9dadca35893f59b19cac48494ef7637fcd56",
       "sourceIds": [
         "sg2src-a6-nanbu-akita-nagau-20261121",
         "sg2src-a6-nanbu-kazuno-city-20261121",
         "sg2src-a-nanbu-hirosaki-1539-20261114"
       ],
-      "reason": "GPS未設定または公表不可",
-      "gpsHeldInCanonical": false,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": [],
-      "relatedOnly": true
+      "sourceUrls": [
+        "https://common3.pref.akita.lg.jp/heritage-map/ruins/detail.html?ruins_id=476",
+        "https://www.city.kazuno.lg.jp/soshiki/bunkazai_sekai-isan/gyomu/1/3/1383.html",
+        "https://adeac.jp/hirosaki-lib/texthtml/d100010/mp000020-100010/ht030540"
+      ],
+      "relatedOnly": true,
+      "point": [
+        140.7678125,
+        40.1156875
+      ],
+      "accessColor": "red",
+      "positionEvidenceUrl": "https://common3.pref.akita.lg.jp/heritage-map/ruins/detail.html?ruins_id=476",
+      "officialInfoUrl": "https://common3.pref.akita.lg.jp/heritage-map/ruins/detail.html?ruins_id=476",
+      "codhAttributionRequired": false,
+      "visitorNotice": "秋田県埋蔵文化財分布の館跡・民有農地/山林。古木標は見学許可を示さない。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③472 元ID=sg2site-a6-nanbu-nagau-20261121。最新B判定=公開情報ピン可・赤。ユーザー提供Plus Code 4Q89+74（復元完全コード=8RG24Q89+74、WGS84情報点中心=40.1156875,140.7678125、約14mコード格子）。ユーザー観察=古い木の角棒に館名がある。秋田県埋蔵文化財分布の館跡・民有農地/山林。古木標は見学許可を示さない。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=05209制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://common3.pref.akita.lg.j"
     },
     {
       "id": "sg2site-a6-nanbu-asamizu-20261121",
       "siteRow": 473,
-      "approvalRow": 3892,
-      "approvalVersion": "v1",
+      "approvalRow": 4479,
+      "approvalVersion": "v2",
       "name": "浅水城跡（南氏の城）",
       "personIds": [
         "sg-added-nanbu-harumasa-20261114"
@@ -539,19 +585,30 @@
         "02442"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③473最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③473 元ID=sg2site-a6-nanbu-asamizu-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code F7GX+FW（復元完全コード=8RG3F7GX+FW、WGS84情報点中心=40.4761875,141.2998125、約14mコード格子）。ユーザー観察=案内看板あり。旧城域の尾根・急斜面・周辺私有地へ誘導しない。③旧GPS=40.47621,141.29977と位置コードの距離約4m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=02442制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.town.aomori-nanbu.lg.jp/page/1842.html。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】青森県三戸郡五戸町浅水・浅水川左岸の尾根先端（旧城域。公開地名参照点はB未確認）",
       "textSha256": "775b90e3cae53f111de32f7664788743da68a6e75c34fdc27e10d9d55dad5b49",
       "sourceIds": [
         "sg2src-a6-nanbu-town-chron-20261121",
         "sg2src-a6-nanbu-asamizu-kadokawa-20261121"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://www.town.aomori-nanbu.lg.jp/page/1842.html",
+        "https://jlogos.com/ausp/word.html?id=7009809"
+      ],
+      "point": [
+        141.29977,
+        40.47621
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://www.town.aomori-nanbu.lg.jp/page/1842.html",
+      "officialInfoUrl": "https://www.town.aomori-nanbu.lg.jp/page/1842.html",
+      "codhAttributionRequired": false,
+      "visitorNotice": "旧城域の尾根・急斜面・周辺私有地へ誘導しない。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③473 元ID=sg2site-a6-nanbu-asamizu-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code F7GX+FW（復元完全コード=8RG3F7GX+FW、WGS84情報点中心=40.4761875,141.2998125、約14mコード格子）。ユーザー観察=案内看板あり。旧城域の尾根・急斜面・周辺私有地へ誘導しない。③旧GPS=40.47621,141.29977と位置コードの距離約4m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=02442制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.t"
     },
     {
       "id": "sg2site-a7-kunohe-chokoji-20261121",
@@ -679,8 +736,8 @@
     {
       "id": "sg2site-a9-masanobu-ueno-castle-20261121",
       "siteRow": 477,
-      "approvalRow": 3984,
-      "approvalVersion": "v1",
+      "approvalRow": 4491,
+      "approvalVersion": "v2",
       "name": "上野城跡（三河一向一揆・酒井忠尚の城）",
       "personIds": [
         "sg-416baa3d4e63"
@@ -689,21 +746,33 @@
       "municipalityCodes": [
         "23211"
       ],
-      "bSiteStatus": "自治体確認済",
-      "rights": "自治体確認済・権利OK",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③477最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③477 元ID=sg2site-a9-masanobu-ueno-castle-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 246P+CW（復元完全コード=8Q7V246P+CW、WGS84情報点中心=35.0110625,137.1373125、約14mコード格子）。ユーザー観察=墓石か不確かな石造物に城名がある。上野上村城の史跡碑周辺。石造物が墓石かどうかは未確認、寺社・近隣私有地は尊重。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=23211制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.tourismtoyota.jp/spots/detail/2175/。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】愛知県豊田市上郷町薮間・上野上村城跡（酒井忠尚の居城、豊田市観光協会公表の史跡。公開用の安全な代表点はB位置審査前）",
       "textSha256": "e67caa0fb90682b6db1c5814e88550719b012d9564cf7876ab6489045ae63104",
       "sourceIds": [
         "sg2src-a9-masanobu-toyota-history-20261121",
         "sg2src-a9-masanobu-toyota-ueno-20261121",
         "sg2src-a9-masanobu-doho-shinshu-20261121"
       ],
-      "reason": "GPS未設定または公表不可",
-      "gpsHeldInCanonical": false,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://adeac.jp/toyota-city/texthtml/d100010/ct00000001/ht019640",
+        "https://www.tourismtoyota.jp/spots/detail/2175/",
+        "https://www.doho.ac.jp/media/36__36.pdf"
+      ],
+      "point": [
+        137.1373125,
+        35.0110625
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://www.tourismtoyota.jp/spots/detail/2175/",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "上野上村城の史跡碑周辺。石造物が墓石かどうかは未確認、寺社・近隣私有地は尊重。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③477 元ID=sg2site-a9-masanobu-ueno-castle-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 246P+CW（復元完全コード=8Q7V246P+CW、WGS84情報点中心=35.0110625,137.1373125、約14mコード格子）。ユーザー観察=墓石か不確かな石造物に城名がある。上野上村城の史跡碑周辺。石造物が墓石かどうかは未確認、寺社・近隣私有地は尊重。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=23211制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.tou"
     },
     {
       "id": "sg2site-a10-nobuyuki-sanadabori-20261121",
@@ -1269,8 +1338,8 @@
     {
       "id": "sg2site-a30-takanobu-seifukuji-1559-20261121",
       "siteRow": 498,
-      "approvalRow": 3906,
-      "approvalVersion": "v1",
+      "approvalRow": 4480,
+      "approvalVersion": "v2",
       "name": "勢福寺城跡（1559年少弐冬尚の終焉地）",
       "personIds": [
         "sg-master-2169"
@@ -1280,25 +1349,36 @@
         "41210"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③498最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③498 元ID=sg2site-a30-takanobu-seifukuji-1559-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 89V3+W5（復元完全コード=8Q5G89V3+W5、WGS84情報点中心=33.3448125,130.3529375、約14mコード格子）。ユーザー観察=案内看板あり。山城の登山道・斜面の安全。既存山頂GPSではなく案内点。③旧GPS=33.34405,130.353631と位置コードの距離約106m、今回は案内看板/顕彰碑を示すユーザー指定の情報点へ変更する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=41210制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.city.kanzaki.saga.jp/。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】佐賀県神埼市神埼町城原・勢福寺城旧城域（範囲・訪問可能地点B審査待ち）",
       "textSha256": "ba70b00149b2a3113d91c4c995b47183c710664a2492637880c20d7ee0cfbd24",
       "sourceIds": [
         "sg2src-a30-takanobu-saga-shoni-1559-20261121",
         "sg2src-a30-takanobu-saga-ryuzoji-20261121"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://www.saga-otakara.jp/search/detail.html?cultureId=345",
+        "https://www.saga-otakara.jp/search/detail.html?cultureId=2061&parentsId=1"
+      ],
+      "point": [
+        130.3529375,
+        33.3448125
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://www.city.kanzaki.saga.jp/",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "山城の登山道・斜面の安全。既存山頂GPSではなく案内点。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③498 元ID=sg2site-a30-takanobu-seifukuji-1559-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 89V3+W5（復元完全コード=8Q5G89V3+W5、WGS84情報点中心=33.3448125,130.3529375、約14mコード格子）。ユーザー観察=案内看板あり。山城の登山道・斜面の安全。既存山頂GPSではなく案内点。③旧GPS=33.34405,130.353631と位置コードの距離約106m、今回は案内看板/顕彰碑を示すユーザー指定の情報点へ変更する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=41210制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しな"
     },
     {
       "id": "sg2site-a30-takanobu-suko-20261121",
       "siteRow": 499,
-      "approvalRow": 3907,
-      "approvalVersion": "v1",
+      "approvalRow": 4481,
+      "approvalVersion": "v2",
       "name": "須古城跡（龍造寺隆信が1574年攻略・改修）",
       "personIds": [
         "sg-master-2169"
@@ -1308,25 +1388,36 @@
         "41425"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③499最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③499 元ID=sg2site-a30-takanobu-suko-20261121。最新B判定=公開情報ピン可・赤。ユーザー提供Plus Code 54H3+XJ（復元完全コード=8Q5G54H3+XJ、WGS84情報点中心=33.1799375,130.1040625、約14mコード格子）。ユーザー観察=案内看板あり。旧城域に小学校の敷地を含むため、校内立入り禁止の赤情報点。③旧GPS=33.179999,130.10405と位置コードの距離約7m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=41425制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://geoshape.ex.nii.ac.jp/nrct-poi/resource/42/420000181600.html。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】佐賀県杵島郡白石町堤・須古城跡（須古小学校敷地を含む旧城域／公開参照地点B審査待ち）",
       "textSha256": "b7ae5778c093577964ef5f79deffb6598b3e433476d63e6d1d2c036feb9682c6",
       "sourceIds": [
         "sg2src-a30-takanobu-shiroishi-life-20261121",
         "sg2src-a30-takanobu-shiroishi-suko-castle-20261121"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://www.town.shiroishi.lg.jp/jyuumin/manabu/yukari/_1152.html",
+        "https://www.town.shiroishi.lg.jp/jyuumin/manabu/shougai_gakushuu/_4235/_5064.html"
+      ],
+      "point": [
+        130.10405,
+        33.179999
+      ],
+      "accessColor": "red",
+      "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/42/420000181600.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "旧城域に小学校の敷地を含むため、校内立入り禁止の赤情報点。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③499 元ID=sg2site-a30-takanobu-suko-20261121。最新B判定=公開情報ピン可・赤。ユーザー提供Plus Code 54H3+XJ（復元完全コード=8Q5G54H3+XJ、WGS84情報点中心=33.1799375,130.1040625、約14mコード格子）。ユーザー観察=案内看板あり。旧城域に小学校の敷地を含むため、校内立入り禁止の赤情報点。③旧GPS=33.179999,130.10405と位置コードの距離約7m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=41425制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https"
     },
     {
       "id": "sg2site-a30-takanobu-kamachi-108-memorial-20261121",
       "siteRow": 500,
-      "approvalRow": 3953,
-      "approvalVersion": "v1",
+      "approvalRow": 4492,
+      "approvalVersion": "v2",
       "name": "蒲池氏百八人塚（1581年柳川・塩塚の犠牲者追悼）",
       "personIds": [
         "sg-master-2169"
@@ -1335,21 +1426,32 @@
       "municipalityCodes": [
         "40207"
       ],
-      "bSiteStatus": "自治体確認済",
-      "rights": "自治体確認済・権利OK",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "B最終判定=ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③500 元ID=sg2site-a30-takanobu-kamachi-108-memorial-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 4CRF+35（復元完全コード=8Q5G4CRF+35、WGS84情報点中心=33.1401875,130.4229375、約14mコード格子）。ユーザー観察=史跡のPlus Codeをユーザー指定（看板有無は未申告）。柳川市指定史跡・追善塚。宗樹寺周辺の墓域と隣接私有地の立入りは管理者に従う。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=40207制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.city.yanagawa.fukuoka.jp/rekishibunka/bunkazai/yanagawabunkazai/5766.html。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】福岡県柳川市大和町塩塚字下塩塚・宗樹寺周辺の蒲池氏百八人塚（一般の参拝位置・私有墓域はB審査）",
       "textSha256": "25062ffbcf92c9494381862d3d2e4f51b9091b328d72ab62a8f2382788c217ed",
       "sourceIds": [
         "sg2src-a30-takanobu-yanagawa-108-grave-1581-20261121",
         "sg2src-a30-takanobu-yanagawa-shiotsuka-1581-20261121"
       ],
-      "reason": "GPS未設定または公表不可",
-      "gpsHeldInCanonical": false,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": [],
-      "relatedOnly": true
+      "sourceUrls": [
+        "https://www.city.yanagawa.fukuoka.jp/rekishibunka/bunkazai/yanagawabunkazai/5766.html",
+        "https://www.city.yanagawa.fukuoka.jp/rekishibunka/bunkazai/yanagawabunkazai/yanagawabunkazai_shiotsukajyo.html"
+      ],
+      "relatedOnly": true,
+      "point": [
+        130.4229375,
+        33.1401875
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://www.city.yanagawa.fukuoka.jp/rekishibunka/bunkazai/yanagawabunkazai/5766.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "柳川市指定史跡・追善塚。宗樹寺周辺の墓域と隣接私有地の立入りは管理者に従う。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③500 元ID=sg2site-a30-takanobu-kamachi-108-memorial-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 4CRF+35（復元完全コード=8Q5G4CRF+35、WGS84情報点中心=33.1401875,130.4229375、約14mコード格子）。ユーザー観察=史跡のPlus Codeをユーザー指定（看板有無は未申告）。柳川市指定史跡・追善塚。宗樹寺周辺の墓域と隣接私有地の立入りは管理者に従う。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=40207制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位"
     },
     {
       "id": "sg2site-a31-sue-daiganji-maritime-20261121",
@@ -1479,8 +1581,8 @@
     {
       "id": "sg2site-a33-haruhisa-yamabuki-1556-20261121",
       "siteRow": 504,
-      "approvalRow": 3987,
-      "approvalVersion": "v1",
+      "approvalRow": 4482,
+      "approvalVersion": "v2",
       "name": "山吹城跡（1556年尼子氏の銀山支配拠点）",
       "personIds": [
         "sg-901256a2d908"
@@ -1490,19 +1592,30 @@
         "32205"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③504最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③504 元ID=sg2site-a33-haruhisa-yamabuki-1556-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 4C3J+M8（復元完全コード=8Q7J4C3J+M8、WGS84情報点中心=35.1041875,132.4308125、約14mコード格子）。ユーザー観察=案内看板あり。石見銀山内の山城。登城路・急斜面に注意。③旧GPS=35.104145,132.430863と位置コードの距離約7m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=32205制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.kankou-shimane.com/。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】島根県大田市大森町・石見銀山遺跡内の山吹城跡（山城登山道・公開地点はB審査）",
       "textSha256": "f84408027e1c4949485fd45a947bff76156939776c86eaa6f58d5cdf107556c5",
       "sourceIds": [
         "sg2src-a1-haruhisa-oda-ginzan-study-20261117",
         "sg2src-a1-haruhisa-shimane-u-ginzan-2018-20261117"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://ginzan.city.oda.lg.jp/wp-content/uploads/2020/04/b10b1aa9502c20ae6af005a03b414f60.pdf",
+        "https://www.shimane-u.ac.jp/docs/2018071000018/"
+      ],
+      "point": [
+        132.430863,
+        35.104145
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://www.kankou-shimane.com/",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "石見銀山内の山城。登城路・急斜面に注意。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③504 元ID=sg2site-a33-haruhisa-yamabuki-1556-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 4C3J+M8（復元完全コード=8Q7J4C3J+M8、WGS84情報点中心=35.1041875,132.4308125、約14mコード格子）。ユーザー観察=案内看板あり。石見銀山内の山城。登城路・急斜面に注意。③旧GPS=35.104145,132.430863と位置コードの距離約7m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=32205制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=http"
     },
     {
       "id": "sg2site-a36-yoshitaka-hakozaki-honden-haiden-20261121",
@@ -1631,8 +1744,8 @@
     {
       "id": "sg2site-a38-kiyomasa-myogyoji-20261121",
       "siteRow": 516,
-      "approvalRow": 3974,
-      "approvalVersion": "v1",
+      "approvalRow": 4483,
+      "approvalVersion": "v2",
       "name": "妙行寺（加藤清正生誕地伝承・1610年再建）",
       "personIds": [
         "sg-0b974357bac7"
@@ -1642,18 +1755,28 @@
         "23105"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③516最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③516 元ID=sg2site-a38-kiyomasa-myogyoji-20261121。最新B判定=公開情報ピン可・緑。ユーザー提供Plus Code 5VF4+C9（復元完全コード=8Q7R5VF4+C9、WGS84情報点中心=35.1735625,136.8559375、約14mコード格子）。ユーザー観察=公開寺院の所在地とPlus Code提示。名古屋市・寺院公式が一般訪問の情報を公開。堂内・法要区画は別。③旧GPS=35.173609,136.855932と位置コードの距離約5m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=23105制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.myougyouji.jp/。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】愛知県名古屋市中村区中村町字木下屋敷22・妙行寺境内（宗教法人管理、入口・公的情報点・一般参拝条件はB審査）",
       "textSha256": "f253da716a356c4b15919593cf733ddc59205fb58380a620725d4d158e96970a",
       "sourceIds": [
         "sg2src-a38-kiyomasa-nagoya-city-myogyoji-20261121"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://www.city.nagoya.jp/nakamura/miryoku/1020748/1020764/1020768.html"
+      ],
+      "point": [
+        136.855932,
+        35.173609
+      ],
+      "accessColor": "green",
+      "positionEvidenceUrl": "https://www.myougyouji.jp/",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "名古屋市・寺院公式が一般訪問の情報を公開。堂内・法要区画は別。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③516 元ID=sg2site-a38-kiyomasa-myogyoji-20261121。最新B判定=公開情報ピン可・緑。ユーザー提供Plus Code 5VF4+C9（復元完全コード=8Q7R5VF4+C9、WGS84情報点中心=35.1735625,136.8559375、約14mコード格子）。ユーザー観察=公開寺院の所在地とPlus Code提示。名古屋市・寺院公式が一般訪問の情報を公開。堂内・法要区画は別。③旧GPS=35.173609,136.855932と位置コードの距離約5m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=23105制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既"
     },
     {
       "id": "sg2site-a41-matsunaga-darumaji-grave-20261121",
@@ -1698,8 +1821,8 @@
     {
       "id": "sg2site-a44-miyoshi-shibojyo-birthtradition-20261121",
       "siteRow": 533,
-      "approvalRow": 3980,
-      "approvalVersion": "v1",
+      "approvalRow": 4484,
+      "approvalVersion": "v2",
       "name": "芝生城跡・三好長慶生誕地碑（出生伝承地）",
       "personIds": [
         "sg-24684888730a"
@@ -1709,18 +1832,28 @@
         "36208"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③533最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③533 元ID=sg2site-a44-miyoshi-shibojyo-birthtradition-20261121。最新B判定=公開情報ピン可・緑。ユーザー提供Plus Code 2XX8+5W（復元完全コード=8Q6M2XX8+5W、WGS84情報点中心=34.0479375,133.9673125、約14mコード格子）。ユーザー観察=三好長慶生誕地の案内看板あり。旧城域は農地のため、旧GPSでなく現代の生誕地顕彰碑の公開点に限定。③旧GPS=34.044953,133.969899と位置コードの距離約409m、今回は案内看板/顕彰碑を示すユーザー指定の情報点へ変更する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=36208制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。生誕地碑と旧芝生城跡の私有農地は別位置、元史跡IDを保持し、出生室の位置を断定しない。位置・案内根拠=https://miyoshi-tourism.jp/。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】徳島県三好市三野町芝生字殿屋敷周辺・2019年建立の三好長慶公生誕碑（旧芝生城は水田等、個人所有地への立入り不可）",
       "textSha256": "8a138f4619488b697b316001d90d73211f37e133177433dda74db5f45154725d",
       "sourceIds": [
         "sg2src-a44-miyoshi-shibojyo-birthstone-20261121"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://kinki-tokushimakenjinkai.betoku.jp/article/2019073100027/"
+      ],
+      "point": [
+        133.9673125,
+        34.0479375
+      ],
+      "accessColor": "green",
+      "positionEvidenceUrl": "https://miyoshi-tourism.jp/",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "旧城域は農地のため、旧GPSでなく現代の生誕地顕彰碑の公開点に限定。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③533 元ID=sg2site-a44-miyoshi-shibojyo-birthtradition-20261121。最新B判定=公開情報ピン可・緑。ユーザー提供Plus Code 2XX8+5W（復元完全コード=8Q6M2XX8+5W、WGS84情報点中心=34.0479375,133.9673125、約14mコード格子）。ユーザー観察=三好長慶生誕地の案内看板あり。旧城域は農地のため、旧GPSでなく現代の生誕地顕彰碑の公開点に限定。③旧GPS=34.044953,133.969899と位置コードの距離約409m、今回は案内看板/顕彰碑を示すユーザー指定の情報点へ変更する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=36208制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K"
     },
     {
       "id": "sg2site-a44-miyoshi-eguchi-battle-castle-20261121",
@@ -1832,8 +1965,8 @@
     {
       "id": "sg2site-a46-yoshihisa-maizuru-20261121",
       "siteRow": 539,
-      "approvalRow": 3930,
-      "approvalVersion": "v1",
+      "approvalRow": 4493,
+      "approvalVersion": "v2",
       "name": "舞鶴城跡（島津義久の国分御屋形）",
       "personIds": [
         "sg-fa0a6f0c8900"
@@ -1842,21 +1975,33 @@
       "municipalityCodes": [
         "46218"
       ],
-      "bSiteStatus": "自治体確認済",
-      "rights": "自治体確認済・権利OK",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③539最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③539 元ID=sg2site-a46-yoshihisa-maizuru-20261121。最新B判定=公開情報ピン可・赤。ユーザー提供Plus Code PQRF+69（復元完全コード=8Q3GPQRF+69、WGS84情報点中心=31.7405625,130.7734375、約14mコード格子）。ユーザー観察=学校施設内のため赤ピン指定。鹿児島県公式観光の国分小学校・国分高校周辺の旧城域。校内・運動場へ入らず公道で見る。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=46218制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.kagoshima-kankou.com/guide/10070。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】鹿児島県霧島市国分中央2丁目・国分小学校/県立国分高校周辺、舞鶴城跡（学校敷地内立入禁止のため公道からの情報点はB審査）",
       "textSha256": "617b7d6fb83653013a66e761336f69ae67096318825d10de1cd465d117266d73",
       "sourceIds": [
         "sg2src-a46-yoshihisa-kirishima-history-20261121",
         "sg2src-a46-yoshihisa-kokubu-highschool-20261121",
         "sg2src-a46-yoshihisa-kirishima-kokubu-20261121"
       ],
-      "reason": "GPS未設定または公表不可",
-      "gpsHeldInCanonical": false,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://www.city-kirishima.jp/bunka/rekissintobunkazai.html",
+        "https://www.edu.pref.kagoshima.jp/sh/kokubu/docs/2023021600064/",
+        "https://www.city-kirishima.jp/bunka/kyoiku/rekishi/bunkazai/shitebunkazai/bunka-kokubu.html"
+      ],
+      "point": [
+        130.7734375,
+        31.7405625
+      ],
+      "accessColor": "red",
+      "positionEvidenceUrl": "https://www.kagoshima-kankou.com/guide/10070",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "鹿児島県公式観光の国分小学校・国分高校周辺の旧城域。校内・運動場へ入らず公道で見る。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③539 元ID=sg2site-a46-yoshihisa-maizuru-20261121。最新B判定=公開情報ピン可・赤。ユーザー提供Plus Code PQRF+69（復元完全コード=8Q3GPQRF+69、WGS84情報点中心=31.7405625,130.7734375、約14mコード格子）。ユーザー観察=学校施設内のため赤ピン指定。鹿児島県公式観光の国分小学校・国分高校周辺の旧城域。校内・運動場へ入らず公道で見る。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=46218制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.kagos"
     },
     {
       "id": "sg2site-a47-ujiteru-kurihashi-20261121",
@@ -2036,8 +2181,8 @@
     {
       "id": "sg2site-a49-aso-iwao-castle-20261121",
       "siteRow": 545,
-      "approvalRow": 3961,
-      "approvalVersion": "v1",
+      "approvalRow": 4485,
+      "approvalVersion": "v2",
       "name": "岩尾城跡（阿蘇大宮司家の矢部の山城）",
       "personIds": [
         "sg-added-aso-koremasa-20261119"
@@ -2047,26 +2192,37 @@
         "43447"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "B最終判定=ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③545 元ID=sg2site-a49-aso-iwao-castle-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code MXMV+H8（復元完全コード=8Q4GMXMV+H8、WGS84情報点中心=32.6839375,130.9933125、約14mコード格子）。ユーザー観察=案内看板あり。城跡の斜面・通路を優先し私有地に入らない。③旧GPS=32.683913,130.993292と位置コードの距離約3m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=43447制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.town.kumamoto-yamato.lg.jp/。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】熊本県上益城郡山都町城原・通潤橋近辺、岩尾城跡（町指定史跡とする町郷土史資料）",
       "textSha256": "148c5a55eaf2ebf59ef8bd722db59b396be08a9e89b1e265d6fba8c490c45401",
       "sourceIds": [
         "sg2src-a49-aso-yamato-history-20261121",
         "sg2src-a49-aso-yamato-iwao-society-20261121"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": [],
-      "relatedOnly": true
+      "sourceUrls": [
+        "https://www.town.kumamoto-yamato.lg.jp/kiji0034551/index.html",
+        "https://www.town.kumamoto-yamato.lg.jp/ijyuuhp/a0022/Oshirase/Pub/Shosai.aspx?AUNo=286&OsNo=182"
+      ],
+      "relatedOnly": true,
+      "point": [
+        130.993292,
+        32.683913
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://www.town.kumamoto-yamato.lg.jp/",
+      "officialInfoUrl": "https://www.town.kumamoto-yamato.lg.jp/",
+      "codhAttributionRequired": false,
+      "visitorNotice": "城跡の斜面・通路を優先し私有地に入らない。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③545 元ID=sg2site-a49-aso-iwao-castle-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code MXMV+H8（復元完全コード=8Q4GMXMV+H8、WGS84情報点中心=32.6839375,130.9933125、約14mコード格子）。ユーザー観察=案内看板あり。城跡の斜面・通路を優先し私有地に入らない。③旧GPS=32.683913,130.993292と位置コードの距離約3m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=43447制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://ww"
     },
     {
       "id": "sg2site-a50-sagara-yunomae-castle-20261121",
       "siteRow": 546,
-      "approvalRow": 3989,
-      "approvalVersion": "v1",
+      "approvalRow": 4486,
+      "approvalVersion": "v2",
       "name": "湯前城跡（1559年の相良氏家中争乱）",
       "personIds": [
         "sg-added-sagara-yoshihi-20261119"
@@ -2076,20 +2232,32 @@
         "43506"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③546最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③546 元ID=sg2site-a50-sagara-yunomae-castle-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 7XPQ+X5（復元完全コード=8Q4G7XPQ+X5、WGS84情報点中心=32.2874375,130.9879375、約14mコード格子）。ユーザー観察=案内看板あり。里宮神社の参拝区域と城址遺構/斜面の管理範囲を区別。③旧GPS=32.287441,130.987869と位置コードの距離約6m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=43506制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.town.yunomae.lg.jp/。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】熊本県球磨郡湯前町下城・野首・古城台地の湯前城跡（里宮神社北側の丘陵。私有地/整備許可区画有）",
       "textSha256": "f001271c449fe2b9488ebe225e11b387c587ae3692b1228909d3c3fe67c34304",
       "sourceIds": [
         "sg2src-a50-sagara-yunomae-castle-town-20261121",
         "sg2src-a50-sagara-yunomae-codh-20261121",
         "sg2src-a50-sagara-usonohara-kotobank-20261121"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://www.town.yunomae.lg.jp/kiji0032477/3_2477_up_hiwvsqkj.pdf",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/44/440000316400.html",
+        "https://kotobank.jp/word/%E7%8D%BA%E9%87%8E%E5%8E%9F-3102958"
+      ],
+      "point": [
+        130.987869,
+        32.287441
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://www.town.yunomae.lg.jp/",
+      "officialInfoUrl": "https://www.town.yunomae.lg.jp/",
+      "codhAttributionRequired": false,
+      "visitorNotice": "里宮神社の参拝区域と城址遺構/斜面の管理範囲を区別。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③546 元ID=sg2site-a50-sagara-yunomae-castle-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 7XPQ+X5（復元完全コード=8Q4G7XPQ+X5、WGS84情報点中心=32.2874375,130.9879375、約14mコード格子）。ユーザー観察=案内看板あり。里宮神社の参拝区域と城址遺構/斜面の管理範囲を区別。③旧GPS=32.287441,130.987869と位置コードの距離約6m、同一史跡点とみなし既存CODH歴史地名点を維持する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=43506制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠"
     },
     {
       "id": "sg2site-a50-sagara-usonohara-battle-20261121",
@@ -2163,8 +2331,8 @@
     {
       "id": "sg2site-a51-yamana-hitoi-toge-tomb-20261121",
       "siteRow": 549,
-      "approvalRow": 3967,
-      "approvalVersion": "v1",
+      "approvalRow": 4494,
+      "approvalVersion": "v2",
       "name": "一二峠御廟（山名豊国の奉安墓）",
       "personIds": [
         "sg-added-yamana-toyokuni-20261119"
@@ -2173,27 +2341,38 @@
       "municipalityCodes": [
         "28585"
       ],
-      "bSiteStatus": "自治体確認済",
-      "rights": "自治体確認済・権利OK",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "史跡B位置判定=ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③549 元ID=sg2site-a51-yamana-hitoi-toge-tomb-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code FH78+28（復元完全コード=8Q7PFH78+28、WGS84情報点中心=35.4625625,134.5658125、約14mコード格子）。ユーザー観察=案内看板あり。香美町指定の山名家奉安墓所。豊国の実埋葬地とは断定せず、墓域の管理を尊重。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=28585制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。一二峠御廟の山名豊国本人埋葬は別B保留を維持し、死亡経歴カードへのOR条件は加えない。位置・案内根拠=https://www.town.mikata-kami.lg.jp/kanko-bunka-sports/rekishi-bunkazai/1/3/3797.html。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】兵庫県美方郡香美町村岡区萩山・町指定史跡『村岡藩主山名氏墓所』の一部、一二峠御廟（他の壺渓・桜山御廟とは異なる）",
       "textSha256": "64e7b639b27512b5db415eef5b0f6839df31586fc414d251d30f066ff7252e39",
       "sourceIds": [
         "sg2src-a51-yamana-kami-hitoi-tomb-20261121",
         "sg2src-a51-yamana-yabu-1601-20261121"
       ],
-      "reason": "GPS未設定または公表不可",
-      "gpsHeldInCanonical": false,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": [],
-      "relatedOnly": true
+      "sourceUrls": [
+        "https://www.town.mikata-kami.lg.jp/soshiki/shogaigakushu/23/1/3/1205.html",
+        "https://www.city.yabu.hyogo.jp/soshiki/kyoikuiinkai/shakaikyoiku/1/1/1752.html"
+      ],
+      "relatedOnly": true,
+      "point": [
+        134.5658125,
+        35.4625625
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://www.town.mikata-kami.lg.jp/kanko-bunka-sports/rekishi-bunkazai/1/3/3797.html",
+      "officialInfoUrl": "https://www.town.mikata-kami.lg.jp/kanko-bunka-sports/rekishi-bunkazai/1/3/3797.html",
+      "codhAttributionRequired": false,
+      "visitorNotice": "香美町指定の山名家奉安墓所。豊国の実埋葬地とは断定せず、墓域の管理を尊重。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③549 元ID=sg2site-a51-yamana-hitoi-toge-tomb-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code FH78+28（復元完全コード=8Q7PFH78+28、WGS84情報点中心=35.4625625,134.5658125、約14mコード格子）。ユーザー観察=案内看板あり。香美町指定の山名家奉安墓所。豊国の実埋葬地とは断定せず、墓域の管理を尊重。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=28585制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。一二峠御廟の山名豊国本人埋葬は別B保留を維持し、死亡経歴カードへ"
     },
     {
       "id": "sg2site-a52-kikkawa-fukumitsu-castle-20261121",
       "siteRow": 550,
-      "approvalRow": 3976,
-      "approvalVersion": "v1",
+      "approvalRow": 4487,
+      "approvalVersion": "v2",
       "name": "不言城跡（石見吉川氏の福光城）",
       "personIds": [
         "sg-added-kikkawa-tsuneie-20261119"
@@ -2203,19 +2382,30 @@
         "32205"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③550最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③550 元ID=sg2site-a52-kikkawa-fukumitsu-castle-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 389W+8M（復元完全コード=8Q7J389W+8M、WGS84情報点中心=35.0683125,132.3466875、約14mコード格子）。ユーザー観察=案内看板あり。城跡の石碑・山道であり、踏み分け道や草地に注意。③旧GPS=35.06852,132.346751と位置コードの距離約24m、今回は案内看板/顕彰碑を示すユーザー指定の情報点へ変更する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=32205制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.kankou-shimane.com/destination/20554。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】島根県大田市温泉津町福光の不言城（福光城）跡。登城路・見学可能点・安全色は未確認。",
       "textSha256": "1dd75ab4d10754db7f66e63cbff51e4bf861e6e37ef83255db63bf47eca28de7",
       "sourceIds": [
         "sg2src-a52-kikkawa-shimane-tourism-fukumitsu-20261121",
         "sg2src-a52-kikkawa-oda-library-fukumitsu-20261121"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://www.kankou-shimane.com/destination/20554",
+        "https://www.city.oda.lg.jp/125/126/10576"
+      ],
+      "point": [
+        132.3466875,
+        35.0683125
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://www.kankou-shimane.com/destination/20554",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "城跡の石碑・山道であり、踏み分け道や草地に注意。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③550 元ID=sg2site-a52-kikkawa-fukumitsu-castle-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 389W+8M（復元完全コード=8Q7J389W+8M、WGS84情報点中心=35.0683125,132.3466875、約14mコード格子）。ユーザー観察=案内看板あり。城跡の石碑・山道であり、踏み分け道や草地に注意。③旧GPS=35.06852,132.346751と位置コードの距離約24m、今回は案内看板/顕彰碑を示すユーザー指定の情報点へ変更する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=32205制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置"
     },
     {
       "id": "sg2site-a53-oda-fujisawa-castle-20261121",
@@ -2248,8 +2438,8 @@
     {
       "id": "sg2site-a53-oda-kidayu-castle-20261121",
       "siteRow": 552,
-      "approvalRow": 3991,
-      "approvalVersion": "v1",
+      "approvalRow": 4495,
+      "approvalVersion": "v2",
       "name": "木田余城跡（小田氏治が再起を図った城）",
       "personIds": [
         "sg-added-oda-ujiharu-20261119"
@@ -2258,19 +2448,29 @@
       "municipalityCodes": [
         "08203"
       ],
-      "bSiteStatus": "自治体確認済",
-      "rights": "自治体確認済・権利OK",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "【B・GATE-110S-17R-20261122・③552最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③552 元ID=sg2site-a53-oda-kidayu-castle-20261121。最新B判定=公開情報ピン可・赤。ユーザー提供Plus Code 36R7+RJ（復元完全コード=8R8236R7+RJ、WGS84情報点中心=36.0920625,140.2140625、約14mコード格子）。ユーザー観察=JR線路内の城址碑ではなく公道側の説明板位置。城址碑はJR留置線内立入不可。赤い史跡情報点は道路沿いの説明板であり線路への道順は出さない。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=08203制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。線路内の史跡標柱と公開説明板は別、公開ピンは線路外の説明板位置だけ。位置・案内根拠=https://www.vr-ibaraki.jp/sightseeing-spots/ibaraki-tsuchiura-360vr-tour.html。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】茨城県土浦市木田余字中城・旧木田余城跡。現在のJR車両基地・水田等、立入禁止/私有地を含む。安全な公道参照点をBが調査。",
       "textSha256": "348db23559d459868a8bff72c9ed7a17910e27638f9168362766dad99dde0163",
       "sourceIds": [
         "sg2src-a53-oda-tsuchiura-kidayu-2022-20261121"
       ],
-      "reason": "GPS未設定または公表不可",
-      "gpsHeldInCanonical": false,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://www.city.tsuchiura.lg.jp/data/doc/1651037012_doc_159_0.pdf"
+      ],
+      "point": [
+        140.2140625,
+        36.0920625
+      ],
+      "accessColor": "red",
+      "positionEvidenceUrl": "https://www.vr-ibaraki.jp/sightseeing-spots/ibaraki-tsuchiura-360vr-tour.html",
+      "officialInfoUrl": null,
+      "codhAttributionRequired": false,
+      "visitorNotice": "城址碑はJR留置線内立入不可。赤い史跡情報点は道路沿いの説明板であり線路への道順は出さない。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③552 元ID=sg2site-a53-oda-kidayu-castle-20261121。最新B判定=公開情報ピン可・赤。ユーザー提供Plus Code 36R7+RJ（復元完全コード=8R8236R7+RJ、WGS84情報点中心=36.0920625,140.2140625、約14mコード格子）。ユーザー観察=JR線路内の城址碑ではなく公道側の説明板位置。城址碑はJR留置線内立入不可。赤い史跡情報点は道路沿いの説明板であり線路への道順は出さない。③旧I/J空欄から位置コードを公表案内点として登録する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=08203制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。線路内の史跡標柱と公開説"
     },
     {
       "id": "sg2site-a54-ando-pushiko-tegata-20261121",
@@ -2359,8 +2559,8 @@
     {
       "id": "sg2site-a55-tozawa-numadate-castle-20261121",
       "siteRow": 557,
-      "approvalRow": 3994,
-      "approvalVersion": "v1",
+      "approvalRow": 4488,
+      "approvalVersion": "v2",
       "name": "沼館城跡（小野寺氏の拠点）",
       "personIds": [
         "sg-added-tozawa-moriyasu-20261119"
@@ -2370,20 +2570,31 @@
         "05203"
       ],
       "bSiteStatus": "地点確認済",
-      "rights": "自治体確認済・権利OK",
+      "rights": "地点確認済・権利OK",
       "license": "条件付き",
-      "decision": "NO_PIN",
-      "bEvidence": "B最終判定=ピンなし獲得可",
+      "decision": "PIN_OK",
+      "bEvidence": "【B案内位置再審査・第2回2026-11-24】 ③557 元ID=sg2site-a55-tozawa-numadate-castle-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 7CWH+R3（復元完全コード=8RF27CWH+R3、WGS84情報点中心=39.2970625,140.4276875、約14mコード格子）。ユーザー観察=案内看板あり。蔵光院と旧城跡の関係を公的資料で確認、寺院の非公開区画には立ち入らない。③旧GPS=39.296454,140.426233と位置コードの距離約142m、今回は案内看板/顕彰碑を示すユーザー指定の情報点へ変更する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=05203制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数、既得を変更しない。位置・案内根拠=https://www.city.yokote.lg.jp/kanko/1004049/1004552.html。既存の歴史地名座標にCODH由来部分があれば『日本歴史地名大系』施設・地点項目データセット（CODH作成）CC BY 4.0の帰属を表示、ユーザーPlus Code点について写真・地図タイル転載はしない。⑥史跡承認v1は旧ピンなし版であり、統合Aが元ID・本文/出典/取得条件を保護して⑥v2を別行安全追記→本人最新版F承認→C Phase1配信QA。旧F/G・C本番・他人物GPSは変更しない。【旧③F記録】秋田県横手市雄物川町沼館・沼館城跡（蔵光院付近）。現寺院境内の公開範囲や出入条件はB確認。",
       "textSha256": "94a0588cda9e25dbf43b678df49ed8b7e4649f21714029546c060926f53e1583",
       "sourceIds": [
         "sg2src-a55-tozawa-yokote-numadate-20261121",
         "sg2src-a55-tozawa-daisen-naraoka-20261121"
       ],
-      "reason": "B最終判定によるピンなし取得",
-      "gpsHeldInCanonical": true,
-      "noNewLocationOrAccessRoute": true,
-      "sourceUrls": [],
-      "relatedOnly": true
+      "sourceUrls": [
+        "https://www.city.yokote.lg.jp/gosannen/1001609/1003579.html",
+        "https://www.city.daisen.lg.jp/uploads/contents/archive_0000001614_00/nakaokajyo_pamph.pdf"
+      ],
+      "relatedOnly": true,
+      "point": [
+        140.4276875,
+        39.2970625
+      ],
+      "accessColor": "yellow",
+      "positionEvidenceUrl": "https://www.city.yokote.lg.jp/kanko/1004049/1004552.html",
+      "officialInfoUrl": "https://www.city.yokote.lg.jp/kanko/1004049/1004552.html",
+      "codhAttributionRequired": false,
+      "visitorNotice": "蔵光院と旧城跡の関係を公的資料で確認、寺院の非公開区画には立ち入らない。訪問時は現地の案内に従い、許可のない敷地に入らないでください。このピンは公表史跡の情報参照点であり、入口・通行可能な経路や立入許可を保証しません。",
+      "bReviewedAt": "2026-11-24",
+      "bPositionEvidence": "【B案内位置再審査・第2回2026-11-24】 ③557 元ID=sg2site-a55-tozawa-numadate-castle-20261121。最新B判定=公開情報ピン可・黄。ユーザー提供Plus Code 7CWH+R3（復元完全コード=8RF27CWH+R3、WGS84情報点中心=39.2970625,140.4276875、約14mコード格子）。ユーザー観察=案内看板あり。蔵光院と旧城跡の関係を公的資料で確認、寺院の非公開区画には立ち入らない。③旧GPS=39.296454,140.426233と位置コードの距離約142m、今回は案内看板/顕彰碑を示すユーザー指定の情報点へ変更する。 登城口・史跡全域・史実当時の本人立位置ではなく、掲示された歴史情報点のみ。赤ピンは学校・線路・私有地・山道危険への注意表示であり、現地接近・立入りの推奨ではない。自治体H=05203制覇で史跡を一度取得、100m近接不要。歴史本文C・元史跡ID G・⑤出典 K/L・④経歴対応・経歴カード数"
     },
     {
       "id": "sg2site-a56-sogo-nakatomigawa-battle-20261121",
