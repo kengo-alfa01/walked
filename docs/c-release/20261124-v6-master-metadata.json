@@ -5968,22 +5968,22 @@
       "municipalityCodes": [
         "24443"
       ],
-      "lat": "34.407219",
-      "lon": "136.418501",
+      "lat": "34.4061875",
+      "lon": "136.4188125",
       "license": "条件付き",
       "adoption": "採用候補"
     },
     {
       "id": "sg2site-a5-kita-douzuka-20261121",
       "city": "三重県多気郡大台町",
-      "accuracy": "市区町村確認・地点不明",
-      "B": "自治体確認済",
+      "accuracy": "実地点確認済",
+      "B": "地点確認済",
       "address": "三重県多気郡大台町上三瀬・三瀬館跡南方の高地（胴塚、独立した公開情報点はB未設定）",
       "municipalityCodes": [
         "24443"
       ],
-      "lat": null,
-      "lon": null,
+      "lat": "34.4055625",
+      "lon": "136.4194375",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -6018,14 +6018,14 @@
     {
       "id": "sg2site-a6-nanbu-nagau-20261121",
       "city": "秋田県鹿角市",
-      "accuracy": "市区町村確認・地点不明",
-      "B": "自治体確認済",
+      "accuracy": "実地点確認済",
+      "B": "地点確認済",
       "address": "秋田県鹿角市八幡平字長牛・カラメ田・指鳥の長牛館（県埋蔵文化財包蔵地、敷地は民有・畑地山林）",
       "municipalityCodes": [
         "05209"
       ],
-      "lat": null,
-      "lon": null,
+      "lat": "40.1156875",
+      "lon": "140.7678125",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -6088,14 +6088,14 @@
     {
       "id": "sg2site-a9-masanobu-ueno-castle-20261121",
       "city": "愛知県豊田市",
-      "accuracy": "市区町村確認・地点不明",
-      "B": "自治体確認済",
+      "accuracy": "実地点確認済",
+      "B": "地点確認済",
       "address": "愛知県豊田市上郷町薮間・上野上村城跡（酒井忠尚の居城、豊田市観光協会公表の史跡。公開用の安全な代表点はB位置審査前）",
       "municipalityCodes": [
         "23211"
       ],
-      "lat": null,
-      "lon": null,
+      "lat": "35.0110625",
+      "lon": "137.1373125",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -6347,8 +6347,8 @@
       "municipalityCodes": [
         "41210"
       ],
-      "lat": "33.34405",
-      "lon": "130.353631",
+      "lat": "33.3448125",
+      "lon": "130.3529375",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -6369,14 +6369,14 @@
     {
       "id": "sg2site-a30-takanobu-kamachi-108-memorial-20261121",
       "city": "福岡県柳川市",
-      "accuracy": "市区町村確認・地点不明",
-      "B": "自治体確認済",
+      "accuracy": "実地点確認済",
+      "B": "地点確認済",
       "address": "福岡県柳川市大和町塩塚字下塩塚・宗樹寺周辺の蒲池氏百八人塚（一般の参拝位置・私有墓域はB審査）",
       "municipalityCodes": [
         "40207"
       ],
-      "lat": null,
-      "lon": null,
+      "lat": "33.1401875",
+      "lon": "130.4229375",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -6677,14 +6677,14 @@
     {
       "id": "sg2site-a40-yoshimoto-azukizaka-20261121",
       "city": "愛知県岡崎市",
-      "accuracy": "市区町村確認・地点不明",
-      "B": "自治体確認済",
+      "accuracy": "実地点確認済",
+      "B": "地点確認済",
       "address": "愛知県岡崎市戸崎町字牛転・岡崎市指定史跡小豆坂古戦場跡（通常見学可と市公式公表）",
       "municipalityCodes": [
         "23202"
       ],
-      "lat": null,
-      "lon": null,
+      "lat": "34.9303125",
+      "lon": "137.1804375",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -6733,14 +6733,14 @@
     {
       "id": "sg2site-a42-murakami-genshoji-grave-20261121",
       "city": "山口県大島郡周防大島町",
-      "accuracy": "市区町村確認・地点不明",
-      "B": "自治体確認済",
+      "accuracy": "実地点確認済",
+      "B": "地点確認済",
       "address": "山口県大島郡周防大島町内入・元正寺墓地、村上武吉夫妻宝篋印塔二基（墓域管理・公的参拝点/私道はB確認）",
       "municipalityCodes": [
         "35305"
       ],
-      "lat": null,
-      "lon": null,
+      "lat": "33.9240625",
+      "lon": "132.3983125",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -6837,8 +6837,8 @@
       "municipalityCodes": [
         "36208"
       ],
-      "lat": "34.044953",
-      "lon": "133.969899",
+      "lat": "34.0479375",
+      "lon": "133.9673125",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -6916,14 +6916,14 @@
     {
       "id": "sg2site-a46-yoshihisa-maizuru-20261121",
       "city": "鹿児島県霧島市",
-      "accuracy": "市区町村確認・地点不明",
-      "B": "自治体確認済",
+      "accuracy": "実地点確認済",
+      "B": "地点確認済",
       "address": "鹿児島県霧島市国分中央2丁目・国分小学校/県立国分高校周辺、舞鶴城跡（学校敷地内立入禁止のため公道からの情報点はB審査）",
       "municipalityCodes": [
         "46218"
       ],
-      "lat": null,
-      "lon": null,
+      "lat": "31.7405625",
+      "lon": "130.7734375",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -7056,14 +7056,14 @@
     {
       "id": "sg2site-a51-yamana-hitoi-toge-tomb-20261121",
       "city": "兵庫県美方郡香美町",
-      "accuracy": "市区町村確認・地点不明",
-      "B": "自治体確認済",
+      "accuracy": "実地点確認済",
+      "B": "地点確認済",
       "address": "兵庫県美方郡香美町村岡区萩山・町指定史跡『村岡藩主山名氏墓所』の一部、一二峠御廟（他の壺渓・桜山御廟とは異なる）",
       "municipalityCodes": [
         "28585"
       ],
-      "lat": null,
-      "lon": null,
+      "lat": "35.4625625",
+      "lon": "134.5658125",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -7076,8 +7076,8 @@
       "municipalityCodes": [
         "32205"
       ],
-      "lat": "35.06852",
-      "lon": "132.346751",
+      "lat": "35.0683125",
+      "lon": "132.3466875",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -7098,14 +7098,14 @@
     {
       "id": "sg2site-a53-oda-kidayu-castle-20261121",
       "city": "茨城県土浦市",
-      "accuracy": "市区町村確認・地点不明",
-      "B": "自治体確認済",
+      "accuracy": "実地点確認済",
+      "B": "地点確認済",
       "address": "茨城県土浦市木田余字中城・旧木田余城跡。現在のJR車両基地・水田等、立入禁止/私有地を含む。安全な公道参照点をBが調査。",
       "municipalityCodes": [
         "08203"
       ],
-      "lat": null,
-      "lon": null,
+      "lat": "36.0920625",
+      "lon": "140.2140625",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -7160,8 +7160,8 @@
       "municipalityCodes": [
         "05203"
       ],
-      "lat": "39.296454",
-      "lon": "140.426233",
+      "lat": "39.2970625",
+      "lon": "140.4276875",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -7315,8 +7315,8 @@
       "municipalityCodes": [
         "10202"
       ],
-      "lat": "36.384186",
-      "lon": "138.890732",
+      "lat": "36.3850625",
+      "lon": "138.8908125",
       "license": "条件付き",
       "adoption": "採用候補"
     },
@@ -19028,5 +19028,11 @@
     "sg2src-a6-nobutora-kawarabe-go-20261123": "https://kotobank.jp/word/河原部郷-3057594",
     "sg2src-a6-satake-mahoron-2016-20261123": "https://sitereports.nabunken.go.jp/files/attach/38/38739/86296_1_%E7%A6%8F%E5%B3%B6%E7%9C%8C%E6%96%87%E5%8C%96%E8%B2%A1%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E7%99%BD%E6%B2%B3%E9%A4%A8%E7%A0%94%E7%A9%B6%E7%B4%80%E8%A6%81.pdf",
     "sg2src-a-ando-aomori-minato-genealogy-1554-20261123": "https://www2.i-repository.net/il/meta_pub/G0000004txt_Chus2-1053-000-a"
+  },
+  "pinLocationOverlay20261124": {
+    "BFinalDecisionCount": 30,
+    "phase1": 19,
+    "phase2": 11,
+    "currentGpsVersion": "③史跡 I/J + ⑥公開最終承認 E"
   }
 }
