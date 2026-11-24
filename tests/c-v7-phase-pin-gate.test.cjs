@@ -46,6 +46,19 @@ test('all 70 latest B site decisions are fixed and source-linked, including 16 h
   }
  }
 });
+test('16 approved related-only site IDs never gain phantom history links',()=>{
+ const flagged=audit.sites.filter(x=>x.relatedOnly===true);
+ assert.equal(flagged.length,16);
+ assert.equal(audit.counts.independentRelatedSites,16);
+ for(const rec of flagged){
+  assert(rec.personIds.length>0);
+  for(const [,doc] of stages){
+   const site=doc.sites.find(x=>x.siteId===rec.id);
+   assert.equal(site.relatedOnly,true,'Missing related-only flag '+rec.id);
+   assert(!doc.relations.some(r=>r.siteId===rec.id),'Made-up history link '+rec.id);
+  }
+ }
+});
 for(const [phase,data] of stages){
  test(phase+': 35 independently approved new pins, 35 site-only, preserve all 419 baseline pins',()=>{
   const catalog=core.validate(data,known,sha);
@@ -88,6 +101,25 @@ for(const [phase,data] of stages){
   }
   assert.equal(data.histories.length,phase==='P1'?1421:1591);
   assert.equal(data.relations.length,phase==='P1'?791:871);
+ });
+ test(phase+': independently collected related-only sites do not mint event cards or bypass story unlock',()=>{
+  const catalog=core.validate(data,known,sha);
+  const related= audit.sites.filter(x=>x.relatedOnly===true);
+  for(const rec of related){
+   const site=catalog.sites.get(rec.id);
+   assert(site,'related-only canonical site missing '+rec.id);
+   const visited={};
+   for(const c of site.codes)visited[c]={first:'2026-11-24'};
+   const before=core.collectedRelatedSites(catalog,{},rec.personIds[0]);
+   assert(!before.some(x=>x.siteId===rec.id),'Unvisited site revealed '+rec.id);
+   const after=core.collectedRelatedSites(catalog,visited,rec.personIds[0]);
+   assert(after.some(x=>x.siteId===rec.id),'Previously visited site not collected '+rec.id);
+   assert(after.find(x=>x.siteId===rec.id).visitedMunicipalityCodes.length>0);
+   assert(!data.relations.some(r=>r.siteId===rec.id),'Related-only site has extra event relation '+rec.id);
+   const awards=core.award(catalog,visited,{},[]);
+   for(const h of awards.added)assert(catalog.histories.has(h),'Unknown synthetic history ID '+h);
+   assert(!core.canUnlockStory(catalog,rec.personIds[0],{},sha),'Independent site unlocks biography '+rec.id);
+  }
  });
  test(phase+': public position and B color are tamper-evident',()=>{
   const modified=structuredClone(data);
