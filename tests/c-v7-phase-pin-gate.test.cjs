@@ -22,10 +22,10 @@ const oldPins=base.sites.filter(s=>s.publicPin);
 test('all 70 latest B site decisions are fixed and source-linked, including 16 held GPS',()=>{
  assert.equal(audit.sourceSpreadsheetId,'1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw');
  assert.equal(audit.counts.total,70);
- assert.equal(approved.length,35);
- assert.equal(withheld.length,35);
- assert.equal(withheld.filter(x=>x.gpsHeldInCanonical).length,16);
- assert.equal(withheld.filter(x=>!x.gpsHeldInCanonical).length,19);
+ assert.equal(approved.length,54);
+ assert.equal(withheld.length,16);
+ assert.equal(withheld.filter(x=>x.gpsHeldInCanonical).length,4);
+ assert.equal(withheld.filter(x=>!x.gpsHeldInCanonical).length,12);
  assert.equal(oldPins.length,419);
  assert.equal(new Set(audit.sites.map(x=>x.id)).size,70);
  for(const rec of audit.sites){
@@ -60,13 +60,13 @@ test('16 approved related-only site IDs never gain phantom history links',()=>{
   }
  }
 });
-test('Phase2 33 approved location pins include B-agreed Hachijo red info pin; 17 sites remain no-pin',()=>{
+test('Phase2 44 approved location pins include B-agreed Hachijo red info pin; 6 sites remain no-pin',()=>{
  assert.equal(phase2Audit.counts.total,50);
- assert.deepEqual([phase2Audit.counts.approvedPins,phase2Audit.counts.noPin,phase2Audit.counts.conditionalPrivateHold],[33,17,0]);
+ assert.deepEqual([phase2Audit.counts.approvedPins,phase2Audit.counts.noPin,phase2Audit.counts.conditionalPrivateHold],[44,6,0]);
  assert.equal(phase2Audit.counts.recoveredBDecisions,10);
  assert.equal(phase2Audit.counts.independentRelatedSites,8);
  const held=phase2Audit.sites.filter(x=>x.decision!=='PIN_OK');
- assert.equal(held.length,17);
+ assert.equal(held.length,6);
  for(const x of phase2Audit.sites){
   assert.equal(x.sourceIds.length>0,true);
   assert(/^[0-9a-f]{64}$/.test(x.textSha256));
@@ -93,10 +93,10 @@ test('Phase2 33 approved location pins include B-agreed Hachijo red info pin; 17
  }
 });
 for(const [phase,data] of stages){
- test(phase+': exactly 35 Phase1 and 33 Phase2 new pins, all 419 baseline locations preserved',()=>{
+ test(phase+': exactly 54 Phase1 and 44 Phase2 new pins, all 419 baseline locations preserved',()=>{
   const catalog=core.validate(data,known,sha);
   assert.equal(catalog.people.size,phase==='P1'?74:88);
-  assert.equal(data.sites.filter(s=>s.publicPin).length,phase==='P1'?454:487);
+  assert.equal(data.sites.filter(s=>s.publicPin).length,phase==='P1'?473:517);
   const siteMap=new Map(data.sites.map(s=>[s.siteId,s]));
   for(const rec of approved){
    const s=siteMap.get(rec.id);
@@ -130,7 +130,7 @@ for(const [phase,data] of stages){
   if(phase==='P1'){
    for(const id of phase2Ids)assert(!siteMap.has(id),'Phase2-only site leaked to Phase1 '+id);
   }else{
-   assert.equal(phase2Audit.sites.filter(x=>x.decision==='PIN_OK').length,33);
+   assert.equal(phase2Audit.sites.filter(x=>x.decision==='PIN_OK').length,44);
    assert.equal(phase2Audit.sites.filter(x=>x.relatedOnly===true).length,8);
    const priv=siteMap.get('sg2site-a-hachijo-hideie-residence-20261123');
    assert(priv&&priv.publicPin===true,'B-agreed Hachijo public historical pin missing');
