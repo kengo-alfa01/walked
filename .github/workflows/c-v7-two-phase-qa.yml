@@ -7,6 +7,7 @@ on:
       - 'tests/c-v7-phase-pin-gate.test.cjs'
       - 'docs/c-release/20261124-v7-phase1-pin-review.json'
       - 'sengoku-pin-display.js'
+      - 'index.html'
       - '.github/workflows/c-v7-two-phase-qa.yml'
       - 'scripts/build-c-v6-candidate.cjs'
       - 'sengoku-v2-core.js'
@@ -20,6 +21,7 @@ on:
       - 'tests/c-v7-phase-pin-gate.test.cjs'
       - 'docs/c-release/20261124-v7-phase1-pin-review.json'
       - 'sengoku-pin-display.js'
+      - 'index.html'
       - '.github/workflows/c-v7-two-phase-qa.yml'
       - 'scripts/build-c-v6-candidate.cjs'
       - 'sengoku-v2-core.js'
@@ -46,6 +48,8 @@ jobs:
         run: node scripts/build-c-v7-phases.cjs
       - name: Validate all 70 Phase1 B decisions, 35 new pins, 35 withheld and old 419 protected
         run: node --test tests/c-v7-phase-pin-gate.test.cjs
+      - name: Check three-person original model and 74-person live release regressions
+        run: node --test tests/sengoku-v2.test.cjs tests/c-20261120-new9-release.test.cjs
       - name: Confirm original live ledger is unchanged
         run: node scripts/export-c-release-ledger.cjs --check
       - name: Publish test-only candidate artifacts
