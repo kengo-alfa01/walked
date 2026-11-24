@@ -253,8 +253,8 @@ for(const [platform,browserType,options] of [
     assert.match(hachijoText,/公表資料|見学案内|公式案内|hachijo|八丈/,'Tourism/official source label must remain accessible');
 
    }
-   // A separate B-approved related site must be acquired from a municipal visit
-   // even though no ④ direct event-card link or public GPS exists.
+   // A B-approved related-only site is acquired through municipal visits, independently of the B-approved public info pin.
+   // A public red information pin must never invent an event-card link or route to restricted land.
    const relatedCount=await page.evaluate(()=>{
     const pid='sg-added-nanbu-harumasa-20261114';
     return {
@@ -266,8 +266,10 @@ for(const [platform,browserType,options] of [
    });
    assert.equal(relatedCount.visited,true);
    assert(relatedCount.hits.includes('sg2site-a6-nanbu-nagau-20261121'));
-   assert.equal(relatedCount.relatedSite.publicPin,false);
-   assert.equal(relatedCount.relatedSite.point,null);
+   assert.equal(relatedCount.relatedSite.publicPin,true,'B approved 長牛館 red informational pin must be published');
+   assert.deepEqual(relatedCount.relatedSite.point,[140.7678125,40.1156875]);
+   assert.equal(relatedCount.relatedSite.pinReview.accessStatus,'red');
+   assert.equal(SengokuV2.pinDetails(relatedCount.relatedSite).noRouting,true);
    // Clicking a character with related sites must show them *after* the
    // history and biography sections, without changing event-card counts.
    await page.locator('#sengokuPinSheet .sps-close').click();
