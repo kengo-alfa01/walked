@@ -1,0 +1,62 @@
+name: C v8 earned chronology and pin halo consistency
+on:
+  push:
+    branches: ['fix/c-v8-earned-visual-20261124']
+  pull_request:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'sengoku-v2-core.js'
+      - 'tests/c-v8-earned-halo-consistency.test.cjs'
+      - 'tests/c-v8-earned-visual.browser.cjs'
+      - '.github/workflows/c-v8-earned-visual-qa.yml'
+permissions:
+  contents: read
+jobs:
+  node-regression:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: JavaScript syntax and approved B relationships
+        run: |
+          node --check sengoku-v2-core.js
+          node --check tests/c-v8-earned-halo-consistency.test.cjs
+          node --test tests/c-v8-earned-halo-consistency.test.cjs
+          node scripts/export-c-release-ledger.cjs --check
+      - name: Verify pre-existing Phase1/Phase2 pin counts
+        run: |
+          node --test tests/c-v8-phase2-release.test.cjs 2>/dev/null || test ! -f tests/c-v8-phase2-release.test.cjs
+  real-browser:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned browser assets
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Prepare municipality geometry
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Reproduce both visual bugs on iPhone WebKit and PC Chromium
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/c-v8-earned-visual-http.log 2>&1 &
+          sleep 2
+          node --test tests/c-v8-earned-visual.browser.cjs
+      - name: Keep QA screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: c-v8-earned-visual-screenshots
+          path: .qa-screenshots/*.png
+          if-no-files-found: ignore
+          retention-days: 14
