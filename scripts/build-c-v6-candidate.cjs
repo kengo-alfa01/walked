@@ -82,6 +82,9 @@ for(const a of freeze.approved.filter(x=>x.kind==='史跡')){
   siteId:a.id,publicPin:false,point:null,pinApproval:null,pinReview:null,
   locationReviewed:true,rightsReviewed:true,bStatus:'合格'
  };
+ // An old approved pin retains its own historical ⑥ location/body approval;
+ // later ⑥ description changes cannot rewrite the original pin approval hash.
+ if(old?.publicPin&&!old.pinApprovalText)site.pinApprovalText=old.description;
  site.name=a.title;site.description=a.text;site.personIds=unique([...(old?.personIds||[]),...ids]);
  site.approvedPersonIds=ids;site.municipalityCodes=m.municipalityCodes;
  site.municipalityCode=m.municipalityCodes[0];site.locationAccuracy=m.accuracy;
