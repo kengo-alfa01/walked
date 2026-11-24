@@ -38,13 +38,13 @@ const published=new Map(csv.filter(r=>r[0]).map(r=>[r[0]+'|'+r[1],r]));
 function checkManifest(){
  assert.equal(frozen.schema,'nmf-c-v6-frozen-approved-difference-v1');
  assert.equal(frozen.status,'PREPUBLISH_ONLY_NOT_LIVE');
- assert.equal(frozen.approvedDiffCount,764);
- assert.equal(frozen.items.length,764);
+ assert.equal(frozen.approvedDiffCount,765);
+ assert.equal(frozen.items.length,765);
  assert.deepEqual(frozen.kinds,{史跡:195,経歴:464,完成版ストーリー:57,人物紹介:48});
- assert.equal(frozen.sourceReferenceCount,2807);
+ assert.equal(frozen.sourceReferenceCount,2809);
  assert.equal(published.size,1835);
  const unique=new Set(keys(frozen.items));
- assert.equal(unique.size,764,'承認IDと種別の重複');
+ assert.equal(unique.size,765,'承認IDと種別の重複');
  const personIds=new Set();
  for(const item of frozen.items){
   assert(Number.isInteger(item.row)&&item.row>=2);
@@ -53,8 +53,8 @@ function checkManifest(){
   assert(Array.isArray(item.personIds)&&item.personIds.length>0);
   assert(Array.isArray(item.sourceIds)&&item.sourceIds.length>0);
   assert(['位置不要・権利OK','自治体確認済・権利OK','地点確認済・権利OK'].includes(item.rights));
-  assert(![4041,4466].includes(item.row));
-  assert.notEqual(item.id,'sg2hist-a54-ando-succession-1553-54-20261121');
+  assert(item.row!==4041,'旧⑥4041 v2はC禁止');
+  if(item.id==='sg2hist-a54-ando-succession-1553-54-20261121')assert.equal(item.row,4466,'安東愛季は新版⑥4466 v3のみ承認');
   assert(item.kind==='人物紹介'||item.kind==='完成版ストーリー'||item.kind==='経歴'||item.kind==='史跡');
   const pub=published.get(item.kind+'|'+item.id);
   assert(!pub||(Number(pub[3])!==item.row||pub[4]!==item.version),'本番の版と差分が同一になっている');
@@ -104,7 +104,7 @@ function checkCandidate(doc,new14){
  }
  for(const hid of frozen.holds.retiredHistoryIds)assert(!doc.histories.some(h=>h.historyId===hid),'旧統合カードが有効 '+hid);
  for(const key of frozen.holds.retiredRelationKeys)assert(!doc.relations.some(r=>r.historyId+'|'+r.siteId===key),'旧B対象外の取得関係が有効 '+key);
- assert(!doc.histories.some(h=>h.historyId==='sg2hist-a54-ando-succession-1553-54-20261121'),'安東愛季の根拠保留が混入');
+ assert.equal(doc.histories.find(h=>h.historyId==='sg2hist-a54-ando-succession-1553-54-20261121')?.approval.sheetRow,4466,'安東愛季新版以外の混入');
  assert(!(doc.retiredHistories||[]).some(r=>r.history&&r.history.text),'廃止カードの全文を本番JSONに再収録しない');
  const oldPin=new Map(source.sites.filter(s=>s.publicPin).map(s=>[s.siteId,s.point]));
  for(const [sid,coords]of oldPin){
@@ -120,7 +120,7 @@ function checkCandidate(doc,new14){
  const known=new Set(read('data/title-registry.json').areas.map(a=>a.code));
  const catalog=core.validate(doc,known,sha);
  assert.equal(catalog.people.size,88);
- console.log(JSON.stringify({phase:'C_V6_PREPUBLISH',status:'PASS_PENDING_SEPARATE_RELEASE_APPROVAL',approvedRows:764,people:catalog.people.size,histories:catalog.histories.size,sites:catalog.sites.size,relations:doc.relations.length,publicPins:[...catalog.sites.values()].filter(s=>s.publicPin).length},null,2));
+ console.log(JSON.stringify({phase:'C_V6_PREPUBLISH',status:'PASS_PENDING_SEPARATE_RELEASE_APPROVAL',approvedRows:765,people:catalog.people.size,histories:catalog.histories.size,sites:catalog.sites.size,relations:doc.relations.length,publicPins:[...catalog.sites.values()].filter(s=>s.publicPin).length},null,2));
 }
 const new14=checkManifest();
 if(process.argv[2]==='--candidate'){
@@ -128,5 +128,5 @@ if(process.argv[2]==='--candidate'){
  const candidate=JSON.parse(fs.readFileSync(path.resolve(process.argv[3]),'utf8'));
  checkCandidate(candidate,new14);
 }else if(process.argv.length===2||process.argv[2]==='--check-manifest'){
- console.log(JSON.stringify({phase:'C_V6_PREPUBLISH',status:'MANIFEST_PASS_RELEASE_NOT_BUILT',approvedRows:764,sourceReferences:2807,missingFromLive:764,newPeopleApproved:14,liveBaseline:1835},null,2));
+ console.log(JSON.stringify({phase:'C_V6_PREPUBLISH',status:'MANIFEST_PASS_RELEASE_NOT_BUILT',approvedRows:765,sourceReferences:2809,missingFromLive:765,newPeopleApproved:14,liveBaseline:1835},null,2));
 }else{throw Error('Unknown option: '+process.argv[2])}
