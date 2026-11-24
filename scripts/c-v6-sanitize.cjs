@@ -24,10 +24,13 @@ function sanitize(input){
  // The B-reviewed ④ now rejects these two direct acquisition links. Keep
  // their approved history bodies/IDs, but never grant them from the old sites.
  // V6 core explicitly allows ONLY these two history IDs to become nonplace.
- const unlinked=new Set([...removedRelations].map(k=>k.split('|')[0]));
- for(const h of doc.histories)if(unlinked.has(h.historyId))h.kind='nonplace';
+ const supersededHistoryIds=new Set([...removedRelations].map(k=>k.split('|')[0]));
  const current=new Set(doc.histories.map(h=>h.historyId));
  doc.relations=doc.relations.filter(r=>current.has(r.historyId)&&!removedRelations.has(r.historyId+'|'+r.siteId));
+ // Preserve another B-approved link even if the old relation was invalidated.
+ const retainedLinks=new Set(doc.relations.map(r=>r.historyId));
+ for(const h of doc.histories)if(supersededHistoryIds.has(h.historyId)&&!retainedLinks.has(h.historyId))
+  h.kind='nonplace';
  for(const id of retired)if(doc.relations.some(r=>r.historyId===id))throw Error('廃止カードの関係が残っています: '+id);
  for(const rel of removedRelations)if(doc.relations.some(r=>r.historyId+'|'+r.siteId===rel))throw Error('廃止関係が残っています: '+rel);
  // Old full-text retirement records belong in the audit archive, never
