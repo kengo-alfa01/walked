@@ -4,14 +4,12 @@ on:
     branches: [c/pin-display-approved16-20261122]
   pull_request:
     branches: [main]
+    # Historical fixture only: active Phase1/2 runtime is verified by C v8 release QA.
     paths:
-      - index.html
-      - sengoku-pin-display.js
-      - sengoku-pin-approved-v2.js
-      - sengoku/v2/approved-pin-display-20261122-v2.json
-      - tests/c-approved16-pin-display-20261122.test.cjs
-      - tests/c-approved16-pin-browser.smoke.cjs
-      - .github/workflows/c-approved16-pin-display.yml
+      - 'sengoku-pin-approved-v2.js'
+      - 'sengoku/v2/approved-pin-display-20261122-v2.json'
+      - 'tests/c-approved16-pin-display-20261122.test.cjs'
+      - 'tests/c-approved16-pin-browser.smoke.cjs'
   workflow_dispatch:
 permissions:
   contents: read
