@@ -6,6 +6,7 @@ on:
       - 'tests/c-v7-phase-browser.smoke.cjs'
       - '.github/workflows/c-v7-two-phase-qa.yml'
       - 'scripts/build-c-v6-candidate.cjs'
+      - 'sengoku-v2-core.js'
       - 'docs/c-release/20261124-v6-approved-diff.json'
   push:
     branches:
@@ -15,6 +16,7 @@ on:
       - 'tests/c-v7-phase-browser.smoke.cjs'
       - '.github/workflows/c-v7-two-phase-qa.yml'
       - 'scripts/build-c-v6-candidate.cjs'
+      - 'sengoku-v2-core.js'
       - 'docs/c-release/20261124-v6-approved-diff.json'
   workflow_dispatch:
 permissions:
