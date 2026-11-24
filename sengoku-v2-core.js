@@ -1029,6 +1029,20 @@
     const visitedSet=visitedCodes(visited);
     return [...eligible].filter(code=>visitedSet.has(code)).sort();
   }
+  // Related historical sites are collectible from a previously visited
+  // approved municipality, even when B explicitly denied a map pin or a
+  // history-card link. They never issue a fictitious event or unlock a story.
+  function collectedRelatedSites(index,visited,personId){
+    if(!index?.people?.has(personId))return [];
+    const seen=visitedCodes(visited),items=[];
+    for(const site of index.sites.values()){
+      if(site.relatedOnly!==true)continue;
+      if(!(site.approvedPersonIds||site.personIds||[]).includes(personId))continue;
+      const matched=(site.codes||[]).filter(code=>seen.has(code));
+      if(matched.length)items.push({siteId:site.siteId,site,visitedMunicipalityCodes:matched});
+    }
+    return items.sort((a,b)=>a.siteId.localeCompare(b.siteId));
+  }
   function acquired(index,found,personId){
     let count=0;
     if(!index)return count;
@@ -1086,5 +1100,5 @@
       noRouting:p.accessStatus==='red'
     };
   }
-  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,earnedMunicipalities,validate,award,acquired,canUnlockStory,pinPresentation,pinDetails};
+  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,earnedMunicipalities,validate,award,acquired,collectedRelatedSites,canUnlockStory,pinPresentation,pinDetails};
 });
