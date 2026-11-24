@@ -15,6 +15,7 @@ const sha=s=>crypto.createHash('sha256').update(s,'utf8').digest('hex');
 const base=read('sengoku/v2/approved-c-20261120-new9-80.json');
 const full=read('sengoku/v2/approved-c-20261124-v6-staging.json');
 const frozen=read('docs/c-release/20261124-v6-approved-diff.json');
+const pinAudit=read('docs/c-release/20261124-v7-phase1-pin-review.json');
 const oldIds=new Set(base.people.map(p=>p.personId));
 const addedIds=new Set(full.people.map(p=>p.personId).filter(id=>!oldIds.has(id)));
 const known=new Set(read('data/title-registry.json').areas.map(x=>x.code));
@@ -71,12 +72,85 @@ for(const p of phase1.people){
 }
 const phase2=structuredClone(full);
 phase2.version='v2-approved-c-20261124-p2-88-staging';
+// The 70 independent B site decisions take priority over the presence of GPS.
+// Only the 35 explicitly B-permitted + individually ⑥-approved public positions
+// can be made into pins; 16 GPS-held non-pins and 19 missing-GPS non-pins
+// MUST remain private to ③ (never copied into a player JSON).
+assert.equal(pinAudit.schema,'nmf-c-v7-phase1-pin-review-v1');
+assert.deepEqual([pinAudit.counts.total,pinAudit.counts.yes,pinAudit.counts.no],[70,35,35]);
+const p1Sites=new Set(groups.P1.filter(x=>x.kind==='史跡').map(x=>x.id));
+const bSites=new Set(base.sites.map(x=>x.siteId));
+const listed=new Set();
+for(const a of pinAudit.sites){
+ assert(!listed.has(a.id)&&p1Sites.has(a.id)&&!bSites.has(a.id),'PIN audit scope '+a.id);
+ listed.add(a.id);
+}
+const codhCredits=Object.freeze([
+ {label:'『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）',url:'https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja'},
+ {label:'CC BY 4.0 利用条件',url:'https://creativecommons.org/licenses/by/4.0/deed.ja'}
+]);
+function activatePhase1Pins(doc){
+ const byId=new Map(doc.sites.map(s=>[s.siteId,s]));
+ let newPins=0,heldGPS=0,missingGPS=0;
+ for(const rec of pinAudit.sites){
+  const s=byId.get(rec.id);
+  assert(s,'P1 canonical site missing from candidate '+rec.id);
+  assert.equal(s.approval.sheetRow,rec.approvalRow,'⑥ site row mismatch '+rec.id);
+  assert.equal(s.approval.version,rec.approvalVersion,'⑥ version mismatch '+rec.id);
+  assert.equal(s.approval.sha256,rec.textSha256,'⑥ body SHA mismatch '+rec.id);
+  assert.deepEqual(s.approvedPersonIds,rec.personIds,'⑥ site owners mismatch '+rec.id);
+  assert.equal(s.publicPin,false,'Source candidate already has unsafe new pin '+rec.id);
+  assert.equal(s.point,null,'Source candidate exposed a non-approved coordinate '+rec.id);
+  if(rec.decision==='NO_PIN'){
+   assert(!rec.point&&!rec.accessColor&&!rec.positionEvidenceUrl,'Held GPS leaked into player fixture '+rec.id);
+   rec.gpsHeldInCanonical?heldGPS++:missingGPS++;
+   continue;
+  }
+  assert.equal(rec.decision,'PIN_OK');
+  assert.equal(rec.license,'条件付き');
+  assert.equal(rec.rights,'地点確認済・権利OK');
+  assert.equal(s.approval.rights,rec.rights);
+  assert(Array.isArray(rec.point)&&rec.point.length===2&&rec.point.every(Number.isFinite));
+  assert(['green','yellow','red'].includes(rec.accessColor));
+  assert(/^\d{4}-\d{2}-\d{2}$/.test(rec.bReviewedAt||''));
+  assert(typeof rec.visitorNotice==='string'&&rec.visitorNotice.length>=15);
+  assert(!/[⑥④]|管理用|史料を転載/.test(rec.visitorNotice),'Administrative text must not appear in the user warning '+rec.id);
+  const refs=rec.codhAttributionRequired?structuredClone(codhCredits):[];
+  if(rec.officialInfoUrl)refs.push({label:'史跡の公表資料・案内',url:rec.officialInfoUrl});
+  else if(!refs.length&&rec.positionEvidenceUrl)refs.push({label:'史跡位置の確認資料',url:rec.positionEvidenceUrl});
+  assert(refs.length>0,'Missing site attribution '+rec.id);
+  s.publicPin=true;
+  s.point=[...rec.point];
+  s.pinPersonIds=[...rec.personIds];
+  s.pinApproval=structuredClone(s.approval);
+  s.pinReview={
+   decision:'可',sourceSheetRow:rec.siteRow,
+   municipality:rec.municipality,
+   locationKind:'B確認済みの史跡歴史情報参照点（安全な入口・移動経路ではありません）',
+   accessStatus:rec.accessColor,
+   restriction:rec.visitorNotice,
+   checkedAt:rec.bReviewedAt,
+   officialInfoUrl:rec.officialInfoUrl||null,
+   positionEvidenceUrl:rec.positionEvidenceUrl||null,
+   positionSourceIds:[...rec.sourceIds],
+   attributions:refs,
+   approvedE:'⑥'+rec.approvalRow+' '+rec.approvalVersion+'／③'+rec.siteRow+
+    ' B公開ピン可・位置と見学色を別承認済み'
+  };
+  newPins++;
+ }
+ assert.equal(newPins,35);assert.equal(heldGPS,16);assert.equal(missingGPS,19);
+ return {newPins,heldGPS,missingGPS};
+}
 for(const [phase,doc] of [['P1',phase1],['P2',phase2]]){
+ const pinGate=activatePhase1Pins(doc);
  doc.notes={...doc.notes,cRelease:{...doc.notes?.cRelease,
   v7:{phase,production:false,status:'STAGING_ONLY',
    p1ApprovalCount:517,p2ApprovalCount:248,
    includedApprovalRows:(phase==='P1'?groups.P1:frozen.items).map(i=>i.row),
-   blockedNewPins:120,reason:'new pin location/safety and real-device QA pending'}}};
+   newlyApprovedPins:pinGate.newPins,heldP1Pins:pinGate.heldGPS+pinGate.missingGPS,
+   blockedNewPins:phase==='P1'?35:85,
+   reason:'Phase1 B/⑥-approved 35 new pins staged; rest withheld; Pages/browser publication pending'}}};
  delete doc.notes.cRelease.v6;
  const index=core.validate(doc,known,sha);
  assert.equal(index.people.size,phase==='P1'?74:88,'Person count');
@@ -100,7 +174,8 @@ for(const [phase,doc] of [['P1',phase1],['P2',phase2]]){
    'Phase2 approval incorrectly activated in Phase1 '+i.kind+'|'+i.id);
  }
  const pins=doc.sites.filter(s=>s.publicPin);
- assert.equal(pins.length,419,'No new pin until per-pin safety approval');
+ assert.equal(pins.length,454,'35 B/⑥-approved pins plus original 419 are required');
+ assert.equal(pins.filter(s=>!bSites.has(s.siteId)).length,35);
  const bySite=new Map(doc.sites.map(s=>[s.siteId,s]));
  for(const old of base.sites.filter(s=>s.publicPin)){
   const s=bySite.get(old.siteId);
@@ -128,7 +203,9 @@ const report={schema:'nmf-c-v7-two-phase-staging-v1',
  sourceFrozenCount:frozen.items.length,
  phases:{P1:{people:74,approvedDiff:517,rows:groups.P1.map(i=>i.row)},
   P2:{newPeople:14,newApprovedDiff:248,combinedPeople:88,rows:groups.P2.map(i=>i.row)}},
- newSitePins:{eligibleForPinReview:93,withoutGPS:27,currentlyNewPublicPins:0},
+ newSitePins:{phase1Audited:70,phase1BApprovedPins:35,phase1Withheld:35,
+  phase1WithheldGPS:16,phase1MissingGPS:19,phase2Unreviewed:50,
+  stagedNewPublicPins:35,liveNewPublicPins:0},
  releaseGate:'NO-GO until location/safety provenance, browser QA and explicit release approval'};
 write('docs/c-release/20261124-v7-phases-staging-qa.json',report);
 console.log('C_V7_SPLIT_PASS '+JSON.stringify({phase1Diff:517,phase2Diff:248,total:765,
