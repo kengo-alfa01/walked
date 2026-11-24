@@ -48,7 +48,7 @@
 - Phase2の既存④直接獲得リンクを持たない史跡8件は、⑥史跡単独収集の承認に従い`relatedOnly`扱いとする。自治体制覇により「関連史跡」欄へ表示し、経歴カードは捏造せず、完成版ストーリーの解除に加算しない。
 - 監査証跡：[新しいPhase2位置判定の固定JSON](https://github.com/kengo-alfa01/walked/blob/c/v6-preflight-20261124/docs/c-release/20261124-v7-phase2-pin-reconciled.json)。旧プレ監査JSONも「誤分類があった履歴」として保存する。**非公開・保留18件の内部GPSは監査用公開JSONにも配信候補にも載せない**。
 - 八丈町の2026年2月災害復興計画には「宇喜多秀家居住跡」の案内看板破損が記載されている（https://www.town.hachijo.tokyo.jp/kakuka/kikaku_zaisei/pdf/drp.pdf）。2026年9月の現地見学記録は存在するが、敷地内の恒常的立入許可・安全な公道側案内点の確証ではない。現所有者の生活空間や私有地の経路案内はしない。
-- C公開前のモデル検証：Phase1 74人物/1421経歴/506史跡/454ピン、Phase2 88人物/1591経歴/556史跡/486ピン、位置改ざん検知・退役/旧取得互換・非公開GPS隔離をPASS。実ブラウザは最新CI完了結果を別途追記。
+- C公開前のモデル検証：Phase1 74人物/1421経歴/506史跡/454ピン、Phase2 88人物/1591経歴/556史跡/486ピン、位置改ざん検知・退役/旧取得互換・非公開GPS隔離をPASS。[最新CI](https://github.com/kengo-alfa01/walked/actions/runs/45319315117)では**モデル9/9・旧版互換29/29・iPhone WebKit／PC ChromiumのPhase1/2実ブラウザ4/4をすべてPASS**。ただし現実の端末実機と本番Pagesの公開後検収は未実施。
 - **main・Pages・本番CSVは変更しない。公開はPhase1の別PR/配信実測を先に、Phase2はそのあと別判断**。
 
 ## 公開前に必須の残ゲート
