@@ -1044,6 +1044,35 @@
     }
     return items.sort((a,b)=>a.siteId.localeCompare(b.siteId));
   }
+  // A card may have been earned while its ONLY B-approved site was a non-pin.
+  // Upgrading that approved site to an information pin must not turn its
+  // already-earned halo white merely because the old saved award has no siteId
+  // or the original visit code is no longer in the current map cache.
+  // Multi-site histories remain strict: only a saved siteId or a genuinely
+  // visited eligible municipality can make EACH distinct site black.
+  function acquiredPinSiteIds(index,visited,found){
+    const result=new Set();
+    if(!index?.sites||!index?.histories||!index?.linkSites)return result;
+    const seen=visitedCodes(visited),owned=found||{};
+    for(const [historyId,siteIds] of index.linkSites){
+      if(index.histories.get(historyId)?.kind!=='place'||!own(owned,historyId))continue;
+      const savedSiteId=owned[historyId]?.siteId;
+      const uniqueLink=siteIds.size===1;
+      for(const siteId of siteIds){
+        const site=index.sites.get(siteId);
+        if(site?.publicPin!==true||!Array.isArray(site.point))continue;
+        if(savedSiteId===siteId||site.codes.some(code=>seen.has(code))||uniqueLink)
+          result.add(siteId);
+      }
+    }
+    // Related-only collectible sites are independent from an event card;
+    // their published pin turns black only after the approved area is visited.
+    for(const site of index.sites.values()){
+      if(site.publicPin===true&&site.relatedOnly===true&&site.codes.some(code=>seen.has(code)))
+        result.add(site.siteId);
+    }
+    return result;
+  }
   function acquired(index,found,personId){
     let count=0;
     if(!index)return count;
@@ -1101,5 +1130,5 @@
       noRouting:p.accessStatus==='red'
     };
   }
-  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,earnedMunicipalities,validate,award,acquired,collectedRelatedSites,canUnlockStory,pinPresentation,pinDetails};
+  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,earnedMunicipalities,validate,award,acquired,collectedRelatedSites,acquiredPinSiteIds,canUnlockStory,pinPresentation,pinDetails};
 });
