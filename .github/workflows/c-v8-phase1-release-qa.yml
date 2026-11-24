@@ -1,14 +1,12 @@
 name: C v8 Phase1 production PR QA
 on:
   pull_request:
+    # Phase1 historical release regressions only; Phase2 has its own active release tests.
     paths:
-      - 'index.html'
       - 'sengoku-v2-core.js'
       - 'sengoku-pin-display.js'
       - 'sengoku/v2/approved-c-20261124-p1-74.json'
-      - 'data/c-release/**'
       - 'tests/c-v8-phase1-release.browser.cjs'
-      - '.github/workflows/c-v8-phase1-release-qa.yml'
   push:
     branches: ['release/c-phase1-minimal-20261124']
 
