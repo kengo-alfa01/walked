@@ -5,13 +5,11 @@ on:
     paths:
       - tests/c-hide-retired-card-count.test.cjs
       - tests/c-hide-retired-card-count.browser.cjs
-      - .github/workflows/c-hide-retired-card-count.yml
   pull_request:
     branches: [main]
     paths:
       - tests/c-hide-retired-card-count.test.cjs
       - tests/c-hide-retired-card-count.browser.cjs
-      - .github/workflows/c-hide-retired-card-count.yml
   workflow_dispatch:
 permissions:
   contents: read
