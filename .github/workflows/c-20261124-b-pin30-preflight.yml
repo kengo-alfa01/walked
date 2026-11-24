@@ -1,0 +1,31 @@
+name: C - 2026-11-24 B pin30 preflight
+
+on:
+  push:
+    branches:
+      - 'c/20261124-authoritative-b-pin30-v8'
+    paths:
+      - 'sengoku-v2-core.js'
+      - 'docs/c-release/20261124-b-pin30-preflight.json'
+      - 'tests/c-20261124-b-pin30-preflight.cjs'
+      - '.github/workflows/c-20261124-b-pin30-preflight.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-b-approved-pins:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax check
+        run: |
+          node --check sengoku-v2-core.js
+          node --check tests/c-20261124-b-pin30-preflight.cjs
+      - name: Check B decisions and backward compatibility
+        run: node tests/c-20261124-b-pin30-preflight.cjs
