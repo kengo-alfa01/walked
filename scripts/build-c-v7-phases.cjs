@@ -16,6 +16,7 @@ const base=read('sengoku/v2/approved-c-20261120-new9-80.json');
 const full=read('sengoku/v2/approved-c-20261124-v6-staging.json');
 const frozen=read('docs/c-release/20261124-v6-approved-diff.json');
 const pinAudit=read('docs/c-release/20261124-v7-phase1-pin-review.json');
+const phase2PinAudit=read('docs/c-release/20261124-v7-phase2-pin-reconciled.json');
 const oldIds=new Set(base.people.map(p=>p.personId));
 const addedIds=new Set(full.people.map(p=>p.personId).filter(id=>!oldIds.has(id)));
 const known=new Set(read('data/title-registry.json').areas.map(x=>x.code));
@@ -147,15 +148,89 @@ function activatePhase1Pins(doc){
  assert.equal(newPins,35);assert.equal(heldGPS,16);assert.equal(missingGPS,19);
  return {newPins,heldGPS,missingGPS};
 }
+// Phase2 is separate from Phase1 and MUST NOT add its 32 new pins to the
+// Phase1-only file. A private residence with conditional B history is a
+// non-pin until a safe public reference point is independently verified.
+assert.equal(phase2PinAudit.schema,'nmf-c-v7-phase2-pin-reconciled-v1');
+assert.deepEqual([phase2PinAudit.counts.total,phase2PinAudit.counts.approvedPins,
+ phase2PinAudit.counts.noPin,phase2PinAudit.counts.conditionalPrivateHold],[50,32,17,1]);
+const phase2SiteIds=new Set(groups.P2.filter(x=>x.kind==='史跡').map(x=>x.id));
+function activatePhase2Pins(doc){
+ const byId=new Map(doc.sites.map(s=>[s.siteId,s]));
+ let added=0,without=0,privateHeld=0,standalone=0;
+ const once=new Set();
+ for(const rec of phase2PinAudit.sites){
+  assert(!once.has(rec.id)&&phase2SiteIds.has(rec.id)&&!bSites.has(rec.id)&&!p1Sites.has(rec.id),
+   'Phase2 audit scope '+rec.id);once.add(rec.id);
+  const s=byId.get(rec.id);
+  assert(s,'Phase2 site missing '+rec.id);
+  assert.equal(s.approval.sheetRow,rec.approvalRow,'Phase2 ⑥ row mismatch '+rec.id);
+  assert.equal(s.approval.version,rec.approvalVersion,'Phase2 ⑥ version mismatch '+rec.id);
+  assert.equal(s.approval.sha256,rec.textSha256,'Phase2 ⑥ SHA mismatch '+rec.id);
+  assert.deepEqual(s.approvedPersonIds,rec.personIds,'Phase2 owner set mismatch '+rec.id);
+  assert.equal(s.publicPin,false,'Phase2 source has a premature pin '+rec.id);
+  assert.equal(s.point,null,'Phase2 source leaked private GPS '+rec.id);
+  if(rec.relatedOnly===true){
+   assert(!doc.relations.some(r=>r.siteId===rec.id),'Related-only Phase2 site has an invented history link '+rec.id);
+   s.relatedOnly=true;standalone++;
+  }
+  if(rec.decision!=='PIN_OK'){
+   assert(!rec.point&&!rec.accessColor&&!rec.positionEvidenceUrl,
+    'Phase2 private or withheld location leaked in audit '+rec.id);
+   assert(rec.gpsOmitted,'Phase2 withheld location not flagged '+rec.id);
+   if(rec.decision==='NO_PIN')without++;
+   else if(rec.decision==='HOLD_CONDITIONAL_PRIVATE_SITE')privateHeld++;
+   else throw Error('Unrecognized Phase2 location decision '+rec.id);
+   continue;
+  }
+  assert.equal(rec.rights,'地点確認済・権利OK');
+  assert.equal(rec.bSiteStatus,'地点確認済');
+  assert.equal(rec.license,'条件付き');
+  assert(Array.isArray(rec.point)&&rec.point.length===2&&rec.point.every(Number.isFinite));
+  assert(['green','yellow','red'].includes(rec.accessColor));
+  assert(/^\d{4}-\d{2}-\d{2}$/.test(rec.bReviewDate||''));
+  assert(rec.approvedEHasMatchingCoordinate,'⑥ E did not match approved B GPS '+rec.id);
+  assert(typeof rec.visitorNotice==='string'&&rec.visitorNotice.length>=20);
+  assert(Array.isArray(rec.sourceUrls)&&rec.sourceUrls.length>0);
+  const credits=rec.codhAttributionRequired?structuredClone(codhCredits):[];
+  if(rec.officialInfoUrl)credits.push({label:'史跡の公表資料・公式案内',url:rec.officialInfoUrl});
+  else if(!credits.length&&rec.positionEvidenceUrl)credits.push({
+   label:'史跡位置の根拠資料',url:rec.positionEvidenceUrl});
+  assert(credits.length>0,'Phase2 source/license credit missing '+rec.id);
+  s.publicPin=true;
+  s.point=[...rec.point];
+  s.pinPersonIds=[...rec.personIds];
+  s.pinApproval=structuredClone(s.approval);
+  s.pinReview={
+   decision:'可',sourceSheetRow:rec.siteRow,municipality:rec.municipality,
+   locationKind:'B公表史跡・歴史情報参照点（現地入口・通行経路を示すものではありません）',
+   accessStatus:rec.accessColor,
+   restriction:rec.visitorNotice,
+   checkedAt:rec.bReviewDate,
+   officialInfoUrl:rec.officialInfoUrl||null,
+   positionEvidenceUrl:rec.positionEvidenceUrl||null,
+   positionSourceIds:[...rec.sourceIds],
+   attributions:credits,
+   approvedE:'⑥'+rec.approvalRow+' '+rec.approvalVersion+'／③'+rec.siteRow+
+    ' B既存「公開位置可」または公開ピン可・最新版⑥の公開位置と見学色を照合済み'
+  };
+  added++;
+ }
+ assert.equal(once.size,50);
+ assert.deepEqual([added,without,privateHeld,standalone],[32,17,1,8]);
+ return {added,without,privateHeld,standalone};
+}
 for(const [phase,doc] of [['P1',phase1],['P2',phase2]]){
  const pinGate=activatePhase1Pins(doc);
+ const phase2Gate=phase==='P2'?activatePhase2Pins(doc):{added:0,without:0,privateHeld:0,standalone:0};
  doc.notes={...doc.notes,cRelease:{...doc.notes?.cRelease,
   v7:{phase,production:false,status:'STAGING_ONLY',
    p1ApprovalCount:517,p2ApprovalCount:248,
    includedApprovalRows:(phase==='P1'?groups.P1:frozen.items).map(i=>i.row),
-   newlyApprovedPins:pinGate.newPins,heldP1Pins:pinGate.heldGPS+pinGate.missingGPS,
-   blockedNewPins:phase==='P1'?35:85,
-   reason:'Phase1 B/⑥-approved 35 new pins staged; rest withheld; Pages/browser publication pending'}}};
+   newlyApprovedPins:pinGate.newPins+phase2Gate.added,heldP1Pins:pinGate.heldGPS+pinGate.missingGPS,
+   phase2NewPins:phase2Gate.added,phase2NoPin:phase2Gate.without,phase2PrivateHeld:phase2Gate.privateHeld,
+   blockedNewPins:phase==='P1'?35:53,
+   reason:'Phase1 35 pins; Phase2 independently adds 32 pinned and withholds 18 incl 1 private residential site. Pages not published'}}};
  delete doc.notes.cRelease.v6;
  const index=core.validate(doc,known,sha);
  assert.equal(index.people.size,phase==='P1'?74:88,'Person count');
@@ -179,8 +254,8 @@ for(const [phase,doc] of [['P1',phase1],['P2',phase2]]){
    'Phase2 approval incorrectly activated in Phase1 '+i.kind+'|'+i.id);
  }
  const pins=doc.sites.filter(s=>s.publicPin);
- assert.equal(pins.length,454,'35 B/⑥-approved pins plus original 419 are required');
- assert.equal(pins.filter(s=>!bSites.has(s.siteId)).length,35);
+ assert.equal(pins.length,phase==='P1'?454:486,'Phase1 419+35, Phase2 419+35+32 pinned');
+ assert.equal(pins.filter(s=>!bSites.has(s.siteId)).length,phase==='P1'?35:67);
  const bySite=new Map(doc.sites.map(s=>[s.siteId,s]));
  for(const old of base.sites.filter(s=>s.publicPin)){
   const s=bySite.get(old.siteId);
@@ -209,8 +284,9 @@ const report={schema:'nmf-c-v7-two-phase-staging-v1',
  phases:{P1:{people:74,approvedDiff:517,rows:groups.P1.map(i=>i.row)},
   P2:{newPeople:14,newApprovedDiff:248,combinedPeople:88,rows:groups.P2.map(i=>i.row)}},
  newSitePins:{phase1Audited:70,phase1BApprovedPins:35,phase1Withheld:35,
-  phase1WithheldGPS:16,phase1MissingGPS:19,phase2Unreviewed:50,
-  stagedNewPublicPins:35,liveNewPublicPins:0},
+  phase1WithheldGPS:16,phase1MissingGPS:19,phase2Audited:50,phase2BApprovedPins:32,
+  phase2ExplicitNoPin:17,phase2ConditionalPrivateHold:1,
+  stagedPhase1Pins:35,stagedPhase2NewPins:32,liveNewPublicPins:0},
  releaseGate:'NO-GO until location/safety provenance, browser QA and explicit release approval'};
 write('docs/c-release/20261124-v7-phases-staging-qa.json',report);
 console.log('C_V7_SPLIT_PASS '+JSON.stringify({phase1Diff:517,phase2Diff:248,total:765,
