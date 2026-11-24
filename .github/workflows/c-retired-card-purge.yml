@@ -3,7 +3,6 @@ on:
   push:
     branches: [c/purge-retired-sengoku-card-records-20261122, main]
     paths:
-      - index.html
       - sengoku-card-cleanup.js
       - tests/c-hide-retired-card-count*
       - tests/app-integration.test.cjs
@@ -13,7 +12,6 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - index.html
       - sengoku-card-cleanup.js
       - tests/c-hide-retired-card-count*
       - tests/app-integration.test.cjs
