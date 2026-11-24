@@ -27,10 +27,20 @@
 - `sengoku-v2-core.js` は74人Phase 1でも、**④の独立B合格・直接関係がある場合に限って**⑥位置不要経歴の自治体取得を許可する。旧74人本番の判定は変更しない。
 - `tests/c-v7-phase-browser.smoke.cjs`：Phase 1とPhase 2それぞれでPC Chromium、iPhone WebKitを実ブラウザで起動、図鑑表示・新人物混入の有無・419既存ピンのタップ・旧取得データ浄化・横はみ出しを検証。
 - `.github/workflows/c-v7-two-phase-qa.yml`：両Phaseの候補生成と端末実機相当ブラウザQA。候補JSONはCI artifact専用、`index.html`、main、GitHub Pages、本番CSVには触れない。
-- [分割候補・ブラウザQA（全成功）](https://github.com/kengo-alfa01/walked/actions/runs/45307420769)：Phaseモデル合格、Phase 1×iPhone WebKit／PC Chromium、Phase 2×iPhone WebKit／PC Chromiumの**4/4件PASS**。既存419公開ピンのタップ、保存済み有効カードの保持、廃止/未知カード除外、横はみ出しなしを自動検証。CI artifact `c-v7-phase1-phase2-staging-not-live` は公開JSONではない。**端末実物・新120史跡の現地/位置安全審査とPages本番配信は別ゲート**。
+- [分割候補・ブラウザQA（全成功）](https://github.com/kengo-alfa01/walked/actions/runs/45307420769)：Phaseモデル合格、Phase 1×iPhone WebKit／PC Chromium、Phase 2×iPhone WebKit／PC Chromiumの**4/4件PASS**。既存419公開ピンのタップ、保存済み有効カードの保持、廃止/未知カード除外、横はみ出しなしを自動検証。CI artifact `c-v7-phase1-phase2-staging-not-live` は公開JSONではない。**端末実物・Phase 2新50史跡の位置安全審査とPages本番配信は別ゲート**。
+
+## 2026-11-24 追加作業｜Phase 1新70史跡の全件B/⑥確認・新ピン実装
+- 正本③・⑥最新版を元IDで照合し、70/70史跡F公開OK・H品質合格・J C候補・P本文一致。**Bの公開ピン可35件（赤10・黄16・緑9）、ピンなし35件（内部GPSあり16、GPS空欄19）**。表示可35件の③I/J⇔⑥Eの座標・見学色・⑥承認行と版が一致。
+- 独立B位置監査マニフェスト：docs/c-release/20261124-v7-phase1-pin-review.json。NO_PIN 35件の位置・経路・見学色は公開JSONに転記しない。内部GPSあり16件も非公開。
+- 非本番ステージングは**既存419ピン＋新規35ピン＝454ピン**。Phase 2の新50史跡のピンはまだ有効化していない。旧419ピン位置、安全、本文元IDは全件保全。
+- 出典・見学注意：新35ピンのB・⑥承認済みの見学注意を表示。位置出典を利用したものは CODH/CC BY 4.0 の帰属リンクを表示。位置の公表は立入許可ではない。
+- 16件の経歴カードを持たない独立「関連史跡」は⑥で史跡単独取得・代表墓所・関連史跡として明示されたもののみ。自治体訪問から取得済み関連史跡を人物の生涯/完成版ストーリーの後ろに表示。架空の歴史経歴を作らず、カード数/通史解除条件には算入しない。経歴カード0枚で関連史跡だけを収集した人物も独立の収集として閲覧できるようにするが「獲得人物」には誤計上しない。
+- 静的/ブラウザ回帰：70件の仕分け、35新ピンのGPS・色の改ざん検知、非公開GPS16件の隔離、履歴保全、16関連史跡の過去訪問による取得、新ピンのiPhone/PC実タップと出典ライセンス表示をQAする。
+- [位置ピン検証済みCI](https://github.com/kengo-alfa01/walked/actions/runs/45313632639)：モデルと新ピン実ブラウザ4/4 PASS。関連史跡追加分の完全なCI成功は別途実測で確認する。**いずれのQAもGitHub Pagesの本番公開を意味しない**。
+- 本番のmain/index公開JSON参照・Pages・C公開CSV・⑥F/G・既得カードは変更なし。本番419ピンを維持。
 
 ## 公開前に必須の残ゲート
-1. Phase 1の新70史跡・Phase 2の新50史跡について、GPSあり51/42件は独立B位置・見学色・第三者施設への誤誘導回避・公的根拠・帰属表示・⑥位置版を個別照合する。GPSなし19/8件は、ピンなし説明・取得条件を安全に統一する。
+1. Phase 1新70史跡はBの35新ピン・35ピンなしの位置判定と⑥承認照合を候補に実装。Phase 2新50史跡のGPSあり42・空欄8を独立B位置・出典・本人⑥位置版で追加監査する。GPSだけで公開許可せず、本番移行は別の最終判定とする。
 2. PhaseごとにPC/iPhoneの新人物画面、現行/新しい経歴、取得済み更新、旧版消去・保存復元、画面リンク、全419既存ピン、必要な安全・CODH/CC BY帰属を検証する。
 3. Phase 1に対する本人の公開指示とC QAを満たしたときだけ、Phase 1専用PRでmain/indexを更新。新しいGitHub Pages配信版とCSV/JSONのバイト列・SHA一致、表示・実取得、C実測台帳を**実測後**更新する。
 4. Phase 1の配信結果を保全し、Phase 2について同様のゲートを独立に実施。Phase 1未検収ならPhase 2を先行公開しない。
