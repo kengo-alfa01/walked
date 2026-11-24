@@ -109,7 +109,9 @@ for(const r of master.relations){
 }
 p.relations=links;
 // Recalculate current place/non-place classification based on full B-approved ④.
-const placeIds=new Set(links.map(x=>x.historyId));
+// Preserve six separately B-approved municipality-award fallbacks even when their
+// review site has no separately published ⑥ site prose or GPS pin.
+const placeIds=new Set([...links.map(x=>x.historyId),...(p.municipalityAwards||[]).map(a=>a.historyId)]);
 for(const h of p.histories)h.kind=placeIds.has(h.historyId)?'place':'nonplace';
 const pinnedIds=new Set(base.sites.filter(x=>x.publicPin).map(x=>x.siteId));
 for(const s of p.sites){if(pinnedIds.has(s.siteId)&&(!s.publicPin||!s.point))throw Error('既存ピン破壊 '+s.siteId)}
