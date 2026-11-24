@@ -947,7 +947,7 @@
       const new9MunicipalHistory=(doc.version==='v2-approved-c-20261120-new9-80'||doc.version.startsWith('v2-approved-c-20261124-')||personMap.size===88)&&C20261120_9_LINKED_HISTORIES.has(h.historyId);
       // An approved 88-person package may use a municipality acquisition for a
       // location-free ⑥ prose record only when it has a separately B-approved ④ link.
-      const cV6QualifiedPlace=personMap.size===88&&doc.relations.some(r=>r.historyId===h.historyId&&r.personId===h.personId&&r.bStatus==='合格'&&r.linkDecision==='関係上対象'&&['本人直接','出来事直接（史料）','出来事直接（公的伝承）'].includes(r.classification));
+      const cV6QualifiedPlace=(personMap.size===88||doc.version.startsWith('v2-approved-c-20261124-p1-'))&&doc.relations.some(r=>r.historyId===h.historyId&&r.personId===h.personId&&r.bStatus==='合格'&&r.linkDecision==='関係上対象'&&['本人直接','出来事直接（史料）','出来事直接（公的伝承）'].includes(r.classification));
       check((h.kind==='place'&&(['自治体確認済・権利OK','地点確認済・権利OK'].includes(h.approval.rights)||((new9MunicipalHistory||cV6QualifiedPlace)&&h.approval.rights==='位置不要・権利OK')))||(h.kind==='nonplace'&&(h.approval.rights==='位置不要・権利OK'||(doc.version.startsWith('v2-approved-c-20261124-')&&h.approval.rights==='自治体確認済・権利OK'&&(['sg2hist-tadakatsu-1610-death','sg2hist-masanobu-1563-ikko'].includes(h.historyId)||C20261124_NO_AWARD_HISTORY_IDS.has(h.historyId))&&!doc.relations.some(r=>r.historyId===h.historyId)))),'経歴の場所区分と権利承認が一致しません: '+h.historyId+' kind='+h.kind+' rights='+h.approval.rights);
       check(Array.isArray(h.sourceUrls)&&h.sourceUrls.every(x=>typeof x==='string'&&/^https:\/\//.test(x)),'経歴出典URL不正');
       historyMap.set(h.historyId,h);
