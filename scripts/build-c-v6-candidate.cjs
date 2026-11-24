@@ -113,6 +113,14 @@ for(const award of p.municipalityAwards||[]){
  const h=historyMap.get(award.historyId);if(h){award.approvalRow=h.approval.sheetRow;award.approvalVersion=h.approval.version}
 }
 // Prevent historical text in retiredHistories, and recalc the exact playable set.
+// The safe-retirement pass expects the candidate's unlock metadata to exist.
+for(const person of p.people){
+ const histories=p.histories.filter(h=>h.personId===person.personId);
+ if(!person.story)throw Error('完成版ストーリー未収録 '+person.personId);
+ person.story.unlock={requiredHistoryCount:histories.length,
+ requiredPlaceHistoryCount:histories.filter(h=>h.kind==='place').length,
+ historyIdsSHA256:hash(histories.map(h=>h.historyId).sort().join('\\n'))};
+}
 const safe=sanitize(p);
 for(const person of safe.people){
  const histories=safe.histories.filter(h=>h.personId===person.personId);
