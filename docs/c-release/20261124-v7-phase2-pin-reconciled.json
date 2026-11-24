@@ -4,15 +4,16 @@
   "asOf": "2026-11-24",
   "release": "STAGING_ONLY_NOT_LIVE",
   "supersedes": "docs/c-release/20261124-v7-phase2-pin-preaudit.json",
-  "notes": "Ten preexisting B '公開位置可' decisions recovered. A conditional privately owned site remains held from public GPS pending safe public historical reference point.",
+  "notes": "33 existing B-authorized public-information pins including the separately B-conditional, user-⑥ approved Hachijo red information pin; 17 no-pin records. No route/access permission is implied.",
   "counts": {
     "total": 50,
-    "approvedPins": 32,
+    "approvedPins": 33,
     "previousExplicitPins": 22,
     "recoveredBDecisions": 10,
     "noPin": 17,
-    "conditionalPrivateHold": 1,
-    "independentRelatedSites": 8
+    "conditionalPrivateHold": 0,
+    "independentRelatedSites": 8,
+    "conditionalBRedPinAccepted": 1
   },
   "sites": [
     {
@@ -1816,9 +1817,9 @@
       "municipalityCodes": [
         "13401"
       ],
-      "decision": "HOLD_CONDITIONAL_PRIVATE_SITE",
+      "decision": "PIN_OK",
       "internalGpsRecorded": true,
-      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bEvidence": "【B限定独立再審査2026-11-23｜③575｜公開案内ピン条件付き合格】公開史跡情報点として赤ピン可。③F列（最新）は『赤の情報ピンとして公開可』。⑥4446 v1 F公開OK／E公表参照点WGS84=33.1044375,139.7894375・赤に一致。",
       "bSiteStatus": "地点確認済",
       "rights": "地点確認済・権利OK",
       "license": "条件付き",
@@ -1830,14 +1831,26 @@
         "sg2src-a-hachijo-visit-2026-20261123"
       ],
       "approvedEHasMatchingCoordinate": true,
-      "gpsOmitted": true,
-      "specificNextGate": "Bが安全な公開案内点を特定した場合のみ再開。個人宅・生活区画や敷地入口の精密GPSは配信禁止",
+      "gpsOmitted": false,
       "bReviewDate": "2026-11-23",
-      "reason": "B条件付き合格だが現居住敷地の安全な公表位置と恒常的立入条件は未確定。八丈町2026-02災害復興計画に現地案内板破損。",
-      "holdEvidenceUrls": [
-        "https://www.town.hachijo.tokyo.jp/kakuka/kikaku_zaisei/pdf/drp.pdf",
-        "https://www.hachijo.gr.jp/okago/"
-      ]
+      "point": [
+        139.7894375,
+        33.1044375
+      ],
+      "accessColor": "red",
+      "positionKind": "八丈島観光協会が公表する歴史スポットの情報参照点。ユーザー指定PlusCode中心で、個人宅入口・敷地内部・見学ルートではない",
+      "reconciledFrom": "本人確認：Bとは『観光案内に載る公開史跡として赤の公開ピン』で合意済み。Cの独自保留は撤回し、入口・私的生活区画に近づける誘導を禁止",
+      "codhAttributionRequired": false,
+      "sourceUrls": [
+        "https://www.hachijo.gr.jp/okago",
+        "https://ameblo.jp/team8jo/entry-12101147415.html",
+        "https://map.yahoo.co.jp/v3/place/CN2nNRRFBf6",
+        "https://note.com/art_guide_mugen/n/nef6efdc5e6df"
+      ],
+      "positionEvidenceUrl": "https://map.yahoo.co.jp/v3/place/CN2nNRRFBf6",
+      "officialInfoUrl": "https://www.hachijo.gr.jp/okago",
+      "visitorNotice": "八丈島観光協会が案内する宇喜多秀家住居跡の歴史情報点です。赤ピンは所在地の案内のみです。現在の住居や庭・駐車場など私的生活区画への立入り、所有者の許可のない見学・撮影、接近や経路案内を勧めません。現地掲示・管理者の案内に従ってください。市区町村制覇で取得でき、100m以内への接近は不要です。"
     }
-  ]
+  ],
+  "reconciliationNote": "The user's explicit correction applies the preexisting conditional B approval for ③575 and the matching published-tourism historical reference location already approved at ⑥4446 v1. This is not a new B fact finding or a bypass of permission to enter private property."
 }
