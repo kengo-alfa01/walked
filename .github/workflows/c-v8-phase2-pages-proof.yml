@@ -1,0 +1,93 @@
+name: C v8 Phase2 GitHub Pages byte-for-byte proof
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'sengoku/v2/approved-c-20261124-p2-88.json'
+      - 'data/c-release/records.csv'
+      - 'data/c-release/status.csv'
+      - '.github/workflows/c-v8-phase2-pages-proof.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  phase2-live-pages-proof:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check Phase2 is the active C release
+        id: phase
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -q '^v2-approved-c-20261124-p2-88,' data/c-release/status.csv; then
+            echo 'enabled=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'enabled=false' >> "$GITHUB_OUTPUT"
+            echo 'Phase2 is not active; skip this historical byte proof.'
+          fi
+      - name: Byte compare live GitHub Pages and current main
+        if: steps.phase.outputs.enabled == 'true'
+        shell: bash
+        env:
+          RELEASE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          node scripts/export-c-release-ledger.cjs --check
+          grep -Fq "fetch('./sengoku/v2/approved-c-20261124-p2-88.json'" index.html
+          base='https://kengo-alfa01.github.io/walked'
+          files=(
+            'index.html'
+            'sengoku/v2/approved-c-20261124-p2-88.json'
+            'data/c-release/records.csv'
+            'data/c-release/status.csv'
+          )
+          mkdir -p /tmp/c-phase2-pages-proof
+          ok=0
+          for attempt in $(seq 1 24); do
+            pass=1
+            for file in "${files[@]}"; do
+              mkdir -p "/tmp/c-phase2-pages-proof/$(dirname "$file")"
+              if ! curl --fail --location --silent --show-error --max-time 30 --retry 2 --retry-delay 2 -H 'Cache-Control: no-cache' "$base/$file?v=$RELEASE_SHA" -o "/tmp/c-phase2-pages-proof/$file"; then
+                pass=0
+                break
+              fi
+              if ! cmp -s "$file" "/tmp/c-phase2-pages-proof/$file"; then
+                pass=0
+                break
+              fi
+            done
+            if [[ "$pass" == 1 ]]; then ok=1; break; fi
+            sleep 8
+          done
+          if [[ "$ok" != 1 ]]; then
+            echo 'Phase2 Pages bytes differ from main; publication is NOT verified.' >&2
+            exit 1
+          fi
+          printf '## Phase2 Pages production PASS\nCommit %s\n' "$RELEASE_SHA" >> "$GITHUB_STEP_SUMMARY"
+          for file in "${files[@]}"; do
+            printf '%s ' "$file" >> "$GITHUB_STEP_SUMMARY"
+            sha256sum "$file" >> "$GITHUB_STEP_SUMMARY"
+          done
+      - name: Validate published 88-person 517-pin schema and Phase1 continuity
+        if: steps.phase.outputs.enabled == 'true'
+        shell: bash
+        run: |
+          node - <<'NODE'
+          const fs=require('fs'),assert=require('assert/strict');
+          const d=JSON.parse(fs.readFileSync('/tmp/c-phase2-pages-proof/sengoku/v2/approved-c-20261124-p2-88.json'));
+          const p1=JSON.parse(fs.readFileSync('sengoku/v2/approved-c-20261124-p1-74.json'));
+          assert.equal(d.version,'v2-approved-c-20261124-p2-88');
+          assert.deepEqual([d.people.length,d.histories.length,d.sites.length,d.sites.filter(x=>x.publicPin).length],[88,1591,556,517]);
+          assert.equal(d.people.filter(p=>!p1.people.some(x=>x.personId===p.personId)).length,14);
+          assert.equal(d.sites.filter(s=>s.siteId==='sg2site-a34-naoie-otogo-20261121'&&s.publicPin).length,1);
+          const h=d.sites.find(s=>s.siteId==='sg2site-a-hachijo-hideie-residence-20261123');
+          assert(h&&h.publicPin&&h.pinReview.accessStatus==='red');
+          console.log('PHASE2_GITHUB_PAGES_88_PEOPLE_517_PINS_PASS');
+          NODE
