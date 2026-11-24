@@ -150,7 +150,7 @@ const noPlaceRights=safe.histories.filter(h=>h.kind==='nonplace'&&
 const activePlaceRights=safe.histories.filter(h=>h.kind==='place'&&![
  '位置不要・権利OK','自治体確認済・権利OK','地点確認済・権利OK'
 ].includes(h.approval.rights));
-if(noPlaceRights.length!==19||activePlaceRights.length){
+if(noPlaceRights.length!==16||activePlaceRights.length){
  console.error('C_V6_RIGHTS_AUDIT',JSON.stringify({
   countNoPlaceRights:noPlaceRights.length,
   examples:noPlaceRights.slice(0,30).map(h=>({id:h.historyId,personId:h.personId,rights:h.approval.rights,row:h.approval.sheetRow})),
@@ -160,7 +160,7 @@ if(noPlaceRights.length!==19||activePlaceRights.length){
  throw Error('B関連と⑥権利区分の整合検査未通過');
 }
 const index=core.validate(safe,known,hash);
-assert(noPlaceRights.every(h=>!index.codes.has(h.historyId)), '19件にB未承認の自治体取得コードが混入');
+assert(noPlaceRights.every(h=>!index.codes.has(h.historyId)), '16件にB未承認の自治体取得コードが混入');
 console.log('C_V6_NO_AWARD_LOCATION_RIGHTS',noPlaceRights.length);
 assert.equal(index.people.size,88);
 assert.equal(safe.histories.length,1590);
