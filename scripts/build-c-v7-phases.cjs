@@ -78,6 +78,7 @@ phase2.version='v2-approved-c-20261124-p2-88-staging';
 // MUST remain private to ③ (never copied into a player JSON).
 assert.equal(pinAudit.schema,'nmf-c-v7-phase1-pin-review-v1');
 assert.deepEqual([pinAudit.counts.total,pinAudit.counts.yes,pinAudit.counts.no],[70,35,35]);
+assert.equal(pinAudit.counts.independentRelatedSites,16);
 const p1Sites=new Set(groups.P1.filter(x=>x.kind==='史跡').map(x=>x.id));
 const bSites=new Set(base.sites.map(x=>x.siteId));
 const listed=new Set();
@@ -99,6 +100,10 @@ function activatePhase1Pins(doc){
   assert.equal(s.approval.version,rec.approvalVersion,'⑥ version mismatch '+rec.id);
   assert.equal(s.approval.sha256,rec.textSha256,'⑥ body SHA mismatch '+rec.id);
   assert.deepEqual(s.approvedPersonIds,rec.personIds,'⑥ site owners mismatch '+rec.id);
+  if(rec.relatedOnly===true){
+   assert(!doc.relations.some(r=>r.siteId===rec.id),'Unapproved ④ link cannot acquire a related-only site '+rec.id);
+   s.relatedOnly=true;
+  }
   assert.equal(s.publicPin,false,'Source candidate already has unsafe new pin '+rec.id);
   assert.equal(s.point,null,'Source candidate exposed a non-approved coordinate '+rec.id);
   if(rec.decision==='NO_PIN'){
