@@ -1,0 +1,77 @@
+name: C v7 separate Phase1/Phase2 staging QA
+on:
+  pull_request:
+    paths:
+      - 'scripts/build-c-v7-phases.cjs'
+      - 'tests/c-v7-phase-browser.smoke.cjs'
+      - '.github/workflows/c-v7-two-phase-qa.yml'
+      - 'scripts/build-c-v6-candidate.cjs'
+      - 'docs/c-release/20261124-v6-approved-diff.json'
+  push:
+    branches:
+      - c/v6-preflight-20261124
+    paths:
+      - 'scripts/build-c-v7-phases.cjs'
+      - 'tests/c-v7-phase-browser.smoke.cjs'
+      - '.github/workflows/c-v7-two-phase-qa.yml'
+      - 'scripts/build-c-v6-candidate.cjs'
+      - 'docs/c-release/20261124-v6-approved-diff.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  phase-model:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Freeze-check latest 765 separately approved rows
+        run: node scripts/check-c-v6-prepublish.cjs --check-manifest
+      - name: Build full source candidate (never points to Pages)
+        run: node scripts/build-c-v6-candidate.cjs
+      - name: Verify full 88-person approved candidate
+        run: node scripts/check-c-v6-prepublish.cjs --candidate sengoku/v2/approved-c-20261124-v6-staging.json
+      - name: Split into phase 1 (74 existing) and phase 2 (14 new) and recheck every SHA
+        run: node scripts/build-c-v7-phases.cjs
+      - name: Confirm original live ledger is unchanged
+        run: node scripts/export-c-release-ledger.cjs --check
+      - name: Publish test-only candidate artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: c-v7-phase1-phase2-staging-not-live
+          path: |
+            sengoku/v2/approved-c-20261124-v7-phase1-staging.json
+            sengoku/v2/approved-c-20261124-v7-phase2-staging.json
+            docs/c-release/20261124-v7-phases-staging-qa.json
+          if-no-files-found: warn
+          retention-days: 14
+
+  browser:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 30
+    needs: phase-model
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated browser QA dependencies
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Build read-only local test fixtures for both phases
+        run: |
+          node scripts/build-c-v6-candidate.cjs
+          node scripts/build-c-v7-phases.cjs
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Actual iPhone WebKit and PC Chromium verification (Phase1 and Phase2)
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/walked-v7-http.log 2>&1 &
+          sleep 2
+          node --test tests/c-v7-phase-browser.smoke.cjs
