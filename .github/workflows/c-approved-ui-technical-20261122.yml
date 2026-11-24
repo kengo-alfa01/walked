@@ -4,6 +4,11 @@ on:
     branches: [c/approved-ui-technical-20261122]
   pull_request:
     branches: [main]
+    # Historical fixture only: active Phase1/2 runtime is verified by C v8 release QA.
+    paths:
+      - 'sengoku-source-links.js'
+      - 'tests/c-approved-ui-only-20261122.test.cjs'
+      - 'tests/c-approved-ui-only-browser.smoke.cjs'
   workflow_dispatch:
 permissions:
   contents: read
