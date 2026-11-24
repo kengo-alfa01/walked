@@ -60,13 +60,13 @@ test('16 approved related-only site IDs never gain phantom history links',()=>{
   }
  }
 });
-test('Phase2 exact B approvals have 32 pinned, 17 nonpin and 1 held private residential site',()=>{
+test('Phase2 33 approved location pins include B-agreed Hachijo red info pin; 17 sites remain no-pin',()=>{
  assert.equal(phase2Audit.counts.total,50);
- assert.deepEqual([phase2Audit.counts.approvedPins,phase2Audit.counts.noPin,phase2Audit.counts.conditionalPrivateHold],[32,17,1]);
+ assert.deepEqual([phase2Audit.counts.approvedPins,phase2Audit.counts.noPin,phase2Audit.counts.conditionalPrivateHold],[33,17,0]);
  assert.equal(phase2Audit.counts.recoveredBDecisions,10);
  assert.equal(phase2Audit.counts.independentRelatedSites,8);
  const held=phase2Audit.sites.filter(x=>x.decision!=='PIN_OK');
- assert.equal(held.length,18);
+ assert.equal(held.length,17);
  for(const x of phase2Audit.sites){
   assert.equal(x.sourceIds.length>0,true);
   assert(/^[0-9a-f]{64}$/.test(x.textSha256));
@@ -88,15 +88,15 @@ test('Phase2 exact B approvals have 32 pinned, 17 nonpin and 1 held private resi
    assert(!('point'in x),'Unapproved B decision has coordinate in audit '+x.id);
    assert(!('accessColor'in x));
    assert(x.gpsOmitted);
-   if(x.decision==='HOLD_CONDITIONAL_PRIVATE_SITE')assert(x.specificNextGate.includes('配信禁止'));
+   assert.equal(x.decision,'NO_PIN');
   }
  }
 });
 for(const [phase,data] of stages){
- test(phase+': exactly 35 Phase1 and 32 Phase2 new pins, all 419 baseline locations preserved',()=>{
+ test(phase+': exactly 35 Phase1 and 33 Phase2 new pins, all 419 baseline locations preserved',()=>{
   const catalog=core.validate(data,known,sha);
   assert.equal(catalog.people.size,phase==='P1'?74:88);
-  assert.equal(data.sites.filter(s=>s.publicPin).length,phase==='P1'?454:486);
+  assert.equal(data.sites.filter(s=>s.publicPin).length,phase==='P1'?454:487);
   const siteMap=new Map(data.sites.map(s=>[s.siteId,s]));
   for(const rec of approved){
    const s=siteMap.get(rec.id);
@@ -130,11 +130,21 @@ for(const [phase,data] of stages){
   if(phase==='P1'){
    for(const id of phase2Ids)assert(!siteMap.has(id),'Phase2-only site leaked to Phase1 '+id);
   }else{
-   assert.equal(phase2Audit.sites.filter(x=>x.decision==='PIN_OK').length,32);
+   assert.equal(phase2Audit.sites.filter(x=>x.decision==='PIN_OK').length,33);
    assert.equal(phase2Audit.sites.filter(x=>x.relatedOnly===true).length,8);
    const priv=siteMap.get('sg2site-a-hachijo-hideie-residence-20261123');
-   assert(priv&&!priv.publicPin&&priv.point===null&&priv.pinApproval===null,
-    'Private residence cannot have a new public GPS pin');
+   assert(priv&&priv.publicPin===true,'B-agreed Hachijo public historical pin missing');
+   assert.deepEqual(priv.point,[139.7894375,33.1044375]);
+   assert.equal(priv.pinApproval.sheetRow,4446);
+   assert.equal(priv.pinApproval.version,'v1');
+   assert.equal(priv.pinReview.accessStatus,'red');
+   assert.equal(priv.pinReview.sourceSheetRow,575);
+   assert.match(priv.pinReview.restriction,/所有者の許可のない見学・撮影/);
+   assert.match(priv.pinReview.restriction,/100m以内への接近は不要/);
+   assert(priv.pinReview.attributions.some(x=>x.url.includes('hachijo.gr.jp/okago')));
+   assert.equal(core.pinDetails(priv).noRouting,true,'Red location must not recommend routing');
+   assert.equal(catalog.codes.get('sg2hist-new14-ukita-hideie-1606-1-20261120')?.has('13401'),true,
+    'Hachijo visit must award its existing approved 1606 history');
   }
   for(const s of oldPins){
    const now=siteMap.get(s.siteId);
