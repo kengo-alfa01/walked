@@ -1,0 +1,1521 @@
+{
+  "schema": "nmf-c-v7-phase2-pin-preaudit-v1",
+  "asOf": "2026-11-24",
+  "sourceSpreadsheetId": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
+  "release": "STAGING_REVIEW_ONLY_NOT_PUBLISHED",
+  "notes": "Only 22 explicitly B permitted pins have location fields. Remaining 28 sites never export GPS in the game payload.",
+  "counts": {
+    "total": 50,
+    "explicitPinOK": 22,
+    "explicitNoPin": 17,
+    "needsBPinDecision": 11,
+    "noPinInternalGps": 9,
+    "noPinGpsBlank": 8,
+    "BUnclearEApprovedGps": 11,
+    "pinColors": {
+      "yellow": 9,
+      "green": 9,
+      "red": 4
+    }
+  },
+  "sites": [
+    {
+      "id": "sg2site-new14-asakura-final-20261120",
+      "name": "朝倉義景墓所・六坊賢松寺伝承地",
+      "siteRow": 455,
+      "approvalRow": 4436,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0062"
+      ],
+      "municipality": "福井県大野市",
+      "municipalityCodes": [
+        "18205"
+      ],
+      "decision": "NEEDS_B_PIN_DECISION",
+      "internalGpsRecorded": true,
+      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "6b7f3447f83de57b6def3e53e59ab04b04d0ab210026c10a1a9928809ee4979e",
+      "sourceIds": [
+        "sg2src-new14-asakura-chron-20261120",
+        "sg2src-new14-asakura-grave-20261120",
+        "sg2src-b23loc-site455-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "specificNextGate": "③NへB独立の公開ピン可/非公開・公開位置種別・色・安全根拠・確認日を確定。既存⑥Eとの同版一致は必要。"
+    },
+    {
+      "id": "sg2site-new14-gamou-matsusaka-20261120",
+      "name": "松坂城跡（蒲生氏郷の1588年築城）",
+      "siteRow": 456,
+      "approvalRow": 4437,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0680"
+      ],
+      "municipality": "三重県松阪市",
+      "municipalityCodes": [
+        "24204"
+      ],
+      "decision": "NEEDS_B_PIN_DECISION",
+      "internalGpsRecorded": true,
+      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "2d2b21245aaa7aa5605e27489592c6df16ed41b9bda3b151b6bfd8877f34eddd",
+      "sourceIds": [
+        "sg2src-new14-gamou-matsusaka-20261120",
+        "sg2src-new14-gamou-hino-20261120",
+        "sg2src-b23loc-site456-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "specificNextGate": "③NへB独立の公開ピン可/非公開・公開位置種別・色・安全根拠・確認日を確定。既存⑥Eとの同版一致は必要。"
+    },
+    {
+      "id": "sg2site-new14-gamou-hino-20261120",
+      "name": "中野城（日野城）跡（蒲生氏郷の出身地）",
+      "siteRow": 457,
+      "approvalRow": 4438,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0680"
+      ],
+      "municipality": "滋賀県蒲生郡日野町",
+      "municipalityCodes": [
+        "25383"
+      ],
+      "decision": "NEEDS_B_PIN_DECISION",
+      "internalGpsRecorded": true,
+      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "ca5d9ca9a78b67eea6f68848d089721e20e43525dd4f513cfc52005f031ddde8",
+      "sourceIds": [
+        "sg2src-new14-gamou-hino2-20261120",
+        "sg2src-new14-gamou-hino-20261120",
+        "sg2src-b23loc-site457-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "specificNextGate": "③NへB独立の公開ピン可/非公開・公開位置種別・色・安全根拠・確認日を確定。既存⑥Eとの同版一致は必要。"
+    },
+    {
+      "id": "sg2site-new14-yamanaka-ai-20261120",
+      "name": "山中鹿介墓（阿井の渡し付近の供養塔）",
+      "siteRow": 458,
+      "approvalRow": 4439,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-596de9e9d2c2"
+      ],
+      "municipality": "岡山県高梁市",
+      "municipalityCodes": [
+        "33209"
+      ],
+      "decision": "NEEDS_B_PIN_DECISION",
+      "internalGpsRecorded": true,
+      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "548e1fe4b9d6809284c2b35e1d974727d776ed48bebabcc1aea02181d82cc9d7",
+      "sourceIds": [
+        "sg2src-new14-yamanaka-takahashi-20261120",
+        "sg2src-b23loc-site458-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "specificNextGate": "③NへB独立の公開ピン可/非公開・公開位置種別・色・安全根拠・確認日を確定。既存⑥Eとの同版一致は必要。"
+    },
+    {
+      "id": "sg2site-new14-ukita-okayama-20261120",
+      "name": "岡山城跡（宇喜多直家・秀家の居城）",
+      "siteRow": 459,
+      "approvalRow": 4440,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0344",
+        "sg-master-0345"
+      ],
+      "municipality": "岡山県岡山市北区",
+      "municipalityCodes": [
+        "33101"
+      ],
+      "decision": "NEEDS_B_PIN_DECISION",
+      "internalGpsRecorded": true,
+      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "a753257d750c0169af6133afe1733b2facdfbbfff79e7ee11ddd1e441517c5c4",
+      "sourceIds": [
+        "sg2src-new14-ukita-okayama-20261120",
+        "sg2src-new14-ukita-cultural-20261120",
+        "sg2src-new14-ukita-castle-20261120",
+        "sg2src-b23loc-site459-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "specificNextGate": "③NへB独立の公開ピン可/非公開・公開位置種別・色・安全根拠・確認日を確定。既存⑥Eとの同版一致は必要。"
+    },
+    {
+      "id": "sg2site-new14-murakami-noshima-20261120",
+      "name": "能島城跡（能島村上海賊の本拠）",
+      "siteRow": 460,
+      "approvalRow": 4441,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-1996"
+      ],
+      "municipality": "愛媛県今治市",
+      "municipalityCodes": [
+        "38202"
+      ],
+      "decision": "NEEDS_B_PIN_DECISION",
+      "internalGpsRecorded": true,
+      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "f08f0befc390cfdd42f2850532f3caafc2a93f9848730e3482c6d841ca6dc410",
+      "sourceIds": [
+        "sg2src-new14-murakami-noshima-20261120",
+        "sg2src-new14-murakami-ehime-20261120",
+        "sg2src-b23loc-site460-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "specificNextGate": "③NへB独立の公開ピン可/非公開・公開位置種別・色・安全根拠・確認日を確定。既存⑥Eとの同版一致は必要。"
+    },
+    {
+      "id": "sg2site-new14-ishida-sawayama-20261120",
+      "name": "佐和山城跡（石田三成の居城）",
+      "siteRow": 461,
+      "approvalRow": 4442,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "滋賀県彦根市",
+      "municipalityCodes": [
+        "25202"
+      ],
+      "decision": "NEEDS_B_PIN_DECISION",
+      "internalGpsRecorded": true,
+      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "23ad59a5ca214cb88d6886a0cb7f63776b23eba6e4c65b4e1fae22159c3b37cb",
+      "sourceIds": [
+        "sg2src-new14-ishida-sawayama-20261120",
+        "sg2src-new14-ishida-kyoto-20261120",
+        "sg2src-b23loc-site461-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "specificNextGate": "③NへB独立の公開ピン可/非公開・公開位置種別・色・安全根拠・確認日を確定。既存⑥Eとの同版一致は必要。"
+    },
+    {
+      "id": "sg2site-new14-ishida-sekigahara-20261120",
+      "name": "石田三成陣跡（関ヶ原・笹尾山）",
+      "siteRow": 462,
+      "approvalRow": 4443,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "岐阜県不破郡関ケ原町",
+      "municipalityCodes": [
+        "21362"
+      ],
+      "decision": "NEEDS_B_PIN_DECISION",
+      "internalGpsRecorded": true,
+      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "f262ae90de52367f30cad13d621335be8ff60669e55b489f3f806b42000957a1",
+      "sourceIds": [
+        "sg2src-new14-ishida-battle-20261120",
+        "sg2src-b23loc-site462-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "specificNextGate": "③NへB独立の公開ピン可/非公開・公開位置種別・色・安全根拠・確認日を確定。既存⑥Eとの同版一致は必要。"
+    },
+    {
+      "id": "sg2site-new14-ukita-sekigahara-20261120",
+      "name": "宇喜多秀家陣跡（関ヶ原）",
+      "siteRow": 463,
+      "approvalRow": 4444,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0345"
+      ],
+      "municipality": "岐阜県不破郡関ケ原町",
+      "municipalityCodes": [
+        "21362"
+      ],
+      "decision": "NEEDS_B_PIN_DECISION",
+      "internalGpsRecorded": true,
+      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "5a1e5f519b2a1e4225540fe6faf76292401028fcfc61e82b1c56990a57cfb277",
+      "sourceIds": [
+        "sg2src-new14-ukita-sekigahara-20261120",
+        "sg2src-b23loc-site463-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "specificNextGate": "③NへB独立の公開ピン可/非公開・公開位置種別・色・安全根拠・確認日を確定。既存⑥Eとの同版一致は必要。"
+    },
+    {
+      "id": "sg2site-new14-ashina-mukaihaguro-20261120",
+      "name": "向羽黒山城跡（蘆名盛氏の築城）",
+      "siteRow": 464,
+      "approvalRow": 4445,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-ashina-moriuji-20261120"
+      ],
+      "municipality": "福島県大沼郡会津美里町",
+      "municipalityCodes": [
+        "07447"
+      ],
+      "decision": "NEEDS_B_PIN_DECISION",
+      "internalGpsRecorded": true,
+      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "7fb005839a07f7cb0f1f893eda9e47defbec028997fb3b64ee6f7534301edbb5",
+      "sourceIds": [
+        "sg2src-new14-ashina-aizumisato-20261120",
+        "sg2src-b23loc-site464-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "specificNextGate": "③NへB独立の公開ピン可/非公開・公開位置種別・色・安全根拠・確認日を確定。既存⑥Eとの同版一致は必要。"
+    },
+    {
+      "id": "sg2site-a29-yamanaka-wakasa-onigajo-20261121",
+      "name": "若桜鬼ヶ城跡（1575年山中鹿介攻防）",
+      "siteRow": 497,
+      "approvalRow": 3979,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-596de9e9d2c2"
+      ],
+      "municipality": "鳥取県八頭郡若桜町",
+      "municipalityCodes": [
+        "31325"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③497最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "ac66135a79fbdf4548a8fc2b47be5ed7e804c5701b13f280d47d5ca16db86655",
+      "sourceIds": [
+        "sg2src-a29-yamanaka-wakasa-town-castle-20261121",
+        "sg2src-a29-yamanaka-wakasa-leaflet-20261121",
+        "sg2src-a29-yamanaka-wakasa-tourism-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        134.39852,
+        35.336976
+      ],
+      "accessColor": "red",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a34-naoie-toishi-20261121",
+      "name": "砥石城跡（備前宇喜多氏ゆかり・直家生誕伝承地）",
+      "siteRow": 505,
+      "approvalRow": 3909,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県瀬戸内市",
+      "municipalityCodes": [
+        "33212"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③505最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "dd8d763add822d692cbdaea33f526a2730f5926492531bc86bf9a037b8727997",
+      "sourceIds": [
+        "sg2src-a34-naoie-setouchi-toishi-20261121",
+        "sg2src-new14-ukita-okayama-20261120",
+        "sg2src-a34-naoie-okayama-kameyama-excavation-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        134.084617,
+        34.646483
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a34-naoie-otogo-20261121",
+      "name": "乙子城跡（直家最初期の居城）",
+      "siteRow": 506,
+      "approvalRow": 3910,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県岡山市東区",
+      "municipalityCodes": [
+        "33103"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③506最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "地点確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "8f09fc6a7ca5ae45ef317dda0873676feef21125385d7cbc9e4c6c8402b26a33",
+      "sourceIds": [
+        "sg2src-a34-naoie-okayama-hisho-20261121",
+        "sg2src-a34-naoie-okayama-kameyama-excavation-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a34-naoie-shinjoyama-20261121",
+      "name": "新庄山城跡（宇喜多直家が内陸へ進む拠点）",
+      "siteRow": 507,
+      "approvalRow": 3911,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県岡山市東区",
+      "municipalityCodes": [
+        "33103"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③507最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "地点確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "1bb518edc3972f120003927468ff50e13e91278c6fd0448bcbde189c3c633a38",
+      "sourceIds": [
+        "sg2src-a34-naoie-okayama-hisho-20261121",
+        "sg2src-a34-naoie-okayama-kameyama-excavation-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a34-naoie-kameyama-bizen-20261121",
+      "name": "亀山城跡（備前沼城・宇喜多直家の居城）",
+      "siteRow": 508,
+      "approvalRow": 3912,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県岡山市東区",
+      "municipalityCodes": [
+        "33103"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③508最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "地点確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "2db931635a065bd5994d960ffb5a1b96bb0f68ca560d6a0cf79192a8e5f05d0a",
+      "sourceIds": [
+        "sg2src-a34-naoie-okayama-kameyama-designation-20261121",
+        "sg2src-a34-naoie-okayama-castles-20261121",
+        "sg2src-a34-naoie-okayama-kameyama-excavation-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a34-naoie-meizenji-20261121",
+      "name": "明禅寺城跡（1567年宇喜多・三村合戦）",
+      "siteRow": 509,
+      "approvalRow": 3913,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県岡山市中区",
+      "municipalityCodes": [
+        "33102"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③509最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "地点確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "a257f98893a8dfc68d9516b4ac1a1c8637725a19261303b2d4ce56675fb6f0de",
+      "sourceIds": [
+        "sg2src-a34-naoie-okayama-meizenji-20261121",
+        "sg2src-a34-naoie-okayama-mimura-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a34-naoie-kanagawa-20261121",
+      "name": "金川城跡（1568年宇喜多直家の攻略）",
+      "siteRow": 510,
+      "approvalRow": 3914,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県岡山市北区",
+      "municipalityCodes": [
+        "33101"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③510最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "地点確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "b60d908d4ecdb5f646578a39d877c81896e79e0c882ba2a5b147a816c5fff504",
+      "sourceIds": [
+        "sg2src-a34-naoie-okayama-kanagawa-20261121",
+        "sg2src-a34-naoie-okayama-kanagawa-designated-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a34-naoie-tenjinyama-bizen-20261121",
+      "name": "天神山城跡（備前浦上宗景の本拠）",
+      "siteRow": 511,
+      "approvalRow": 3915,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0344"
+      ],
+      "municipality": "岡山県和気郡和気町",
+      "municipalityCodes": [
+        "33346"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③511最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "地点確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "76a5f84f2e09a89795aa5fa731b71f63292a6fea91d120761ef5e3f48c833f55",
+      "sourceIds": [
+        "sg2src-a34-naoie-pref-tenjinyama-20261121",
+        "sg2src-a34-naoie-bizen-uragami-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a35-hideie-hachijo-grave-20261121",
+      "name": "宇喜多秀家墓（八丈島・東京都指定旧跡）",
+      "siteRow": 512,
+      "approvalRow": 3964,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0345"
+      ],
+      "municipality": "東京都八丈町",
+      "municipalityCodes": [
+        "13401"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "史跡B位置判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "9d0f1053f9bc1ab206de66ca09b68ab17e0ae9141c5094b0c2364d89da570937",
+      "sourceIds": [
+        "sg2src-a35-hideie-hachijo-town-grave-20261121",
+        "sg2src-a35-hideie-okayama-tokyo-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.789564,
+        33.104892
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a39-gamou-matsugashima-20261121",
+      "name": "松ヶ島城跡（蒲生氏郷の1584年伊勢拠点）",
+      "siteRow": 517,
+      "approvalRow": 3917,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0680"
+      ],
+      "municipality": "三重県松阪市",
+      "municipalityCodes": [
+        "24204"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③517最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "地点確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "fabb6b21f1f2b08a49b35aed132d6a7611354a887d5e1ea000d3b4f80a1f0bf6",
+      "sourceIds": [
+        "sg2src-a39-gamou-matsusaka-matsugashima-20261121",
+        "sg2src-a39-gamou-mie-matsugashima-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a39-gamou-rinkaku-20261121",
+      "name": "茶室麟閣（蒲生氏郷と千少庵）",
+      "siteRow": 518,
+      "approvalRow": 3918,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0680"
+      ],
+      "municipality": "福島県会津若松市",
+      "municipalityCodes": [
+        "07202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③518最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "10d535c3c8aa8894a86c04fae79388d9b0dbe7f40d0e545702a866deebd7d826",
+      "sourceIds": [
+        "sg2src-a39-gamou-fukushima-rinkaku-20261121",
+        "sg2src-a39-gamou-omotesenke-shoan-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.93093,
+        37.486778
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a39-gamou-kotokuji-20261121",
+      "name": "興徳寺・蒲生氏郷五輪塔（分骨供養墓）",
+      "siteRow": 519,
+      "approvalRow": 3956,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0680"
+      ],
+      "municipality": "福島県会津若松市",
+      "municipalityCodes": [
+        "07202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "B最終判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "41d4619c9f5b521c9dcd4e63f38f61ce1952e7b76eb1d3f0d94b14360ee0a6ef",
+      "sourceIds": [
+        "sg2src-a39-gamou-aizuwakamatsu-gorin-20261121",
+        "sg2src-a39-gamou-aizu-kotokuji-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.92868,
+        37.495937
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a40-yoshimoto-zentokuji-20261121",
+      "name": "善得寺跡（今川義元幼年の修行寺）",
+      "siteRow": 520,
+      "approvalRow": 3919,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0301"
+      ],
+      "municipality": "静岡県富士市",
+      "municipalityCodes": [
+        "22210"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③520最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "16564dba20a860ff74efc2ccf5758f3f27098b1815c29ab31c47cb90b6c9b97a",
+      "sourceIds": [
+        "sg2src-a40-yoshimoto-fuji-zentoku-20261121",
+        "sg2src-new14-imagawa-museum-20261120"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        138.696257,
+        35.168798
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a40-yoshimoto-hanakurajo-20261121",
+      "name": "葉梨城（花倉城）跡（1536年花蔵の乱）",
+      "siteRow": 521,
+      "approvalRow": 3920,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0301"
+      ],
+      "municipality": "静岡県藤枝市",
+      "municipalityCodes": [
+        "22214"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③521最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "d2bfb60ec07a3ea7698167186cac9873f4466cb271b243a3c35bad911f7ac965",
+      "sourceIds": [
+        "sg2src-a40-yoshimoto-fujieda-hanakura-20261121",
+        "sg2src-new14-imagawa-museum-20261120"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        138.22255,
+        34.91573
+      ],
+      "accessColor": "red",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a40-yoshimoto-azukizaka-20261121",
+      "name": "小豆坂古戦場跡（1548年今川・織田の戦い）",
+      "siteRow": 522,
+      "approvalRow": 3921,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0301"
+      ],
+      "municipality": "愛知県岡崎市",
+      "municipalityCodes": [
+        "23202"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③522最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "840946ba9aeeb60da05c61a985bfaf474d1c50e2d6702ef15ab14064dc7177fb",
+      "sourceIds": [
+        "sg2src-a40-yoshimoto-okazaki-azukizaka-20261121",
+        "sg2src-a40-yoshimoto-toyota-1548-azuki-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a40-yoshimoto-ansho-20261121",
+      "name": "安祥城址（1549年今川・松平軍の攻城）",
+      "siteRow": 523,
+      "approvalRow": 3922,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0301"
+      ],
+      "municipality": "愛知県安城市",
+      "municipalityCodes": [
+        "23212"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③523最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "e9b41eb5c2de7e8b9ffc570e592ccf756287991570c6bee926406cdca0430308",
+      "sourceIds": [
+        "sg2src-a40-yoshimoto-anjo-ansho-20261121",
+        "sg2src-a40-yoshimoto-anjo-takenobu-1549-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a40-yoshimoto-daishoji-20261121",
+      "name": "大聖寺・今川義元胴塚（桶狭間後の供養墓）",
+      "siteRow": 524,
+      "approvalRow": 3957,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0301"
+      ],
+      "municipality": "愛知県豊川市",
+      "municipalityCodes": [
+        "23207"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "B最終判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "dab357b8b98c6113b3e70bae4e9b9f0110efde97d219cd974fec6bc64a9c1a0d",
+      "sourceIds": [
+        "sg2src-a40-yoshimoto-toyokawa-daishoji-20261121",
+        "sg2src-a40-yoshimoto-jodo-daishoji-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        137.384506,
+        34.810654
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a42-murakami-genshoji-grave-20261121",
+      "name": "元正寺・村上武吉夫妻宝篋印塔（周防大島）",
+      "siteRow": 526,
+      "approvalRow": 3972,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-1996"
+      ],
+      "municipality": "山口県大島郡周防大島町",
+      "municipalityCodes": [
+        "35305"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "史跡B位置判定=ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "78f18a17e6f354fed06353f30873dd90ecd85c684d744ee673a243ca167505cb",
+      "sourceIds": [
+        "sg2src-a42-murakami-suou-tourism-20261121",
+        "sg2src-a42-murakami-ehime-bio-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a43-ishida-birthplace-monument-20261121",
+      "name": "石田三成出生地碑（近江石田村）",
+      "siteRow": 527,
+      "approvalRow": 3923,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "滋賀県長浜市",
+      "municipalityCodes": [
+        "25203"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③527最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "32f5c8e6a3d399c44d51b9570c676c5d365246c1f81f0c76ec0e3e5326b292b9",
+      "sourceIds": [
+        "sg2src-a43-ishida-nagahama-exhibit-20261121",
+        "sg2src-a43-ishida-shiga-birthplace-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        136.320936,
+        35.38642
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a43-ishida-kannonji-tradition-20261121",
+      "name": "大原観音寺（石田三成・三献の茶伝承地）",
+      "siteRow": 528,
+      "approvalRow": 3958,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "滋賀県米原市",
+      "municipalityCodes": [
+        "25214"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "B最終判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "2d62547902bf09c22779e60d80ca830ffabb6429a55808745018fb7520e3c57f",
+      "sourceIds": [
+        "sg2src-a43-ishida-nagahama-sengoku-20261121",
+        "sg2src-a43-ishida-maibara-kannon-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        136.337833,
+        35.389306
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a43-ishida-sangenin-20261121",
+      "name": "三玄院（石田三成の創建ゆかり・墓所）",
+      "siteRow": 529,
+      "approvalRow": 3924,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "京都府京都市北区",
+      "municipalityCodes": [
+        "26101"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③529最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "dbc54d7be9aecddbef257c49a493df10e60d7c95195f7b3eaaeb2d2c78efb7d4",
+      "sourceIds": [
+        "sg2src-a43-ishida-kyoto-sangenin-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        135.745862,
+        35.043284
+      ],
+      "accessColor": "red",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a43-ishida-oshi-20261121",
+      "name": "忍城跡（1590年石田三成の水攻め）",
+      "siteRow": 530,
+      "approvalRow": 3925,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "埼玉県行田市",
+      "municipalityCodes": [
+        "11206"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③530最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "01eb854ec8287779c9ca4389f42654d2158c45ff61db5fbc02c5dae44d114716",
+      "sourceIds": [
+        "sg2src-a43-ishida-gyoda-oshi-castle-20261121",
+        "sg2src-a43-ishida-gyoda-ishidazutsumi-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.454862,
+        36.136906
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a43-ishida-levee-20261121",
+      "name": "石田堤（1590年忍城水攻めの遺構）",
+      "siteRow": 531,
+      "approvalRow": 3926,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "埼玉県行田市",
+      "municipalityCodes": [
+        "11206"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③531最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "b8d4d2314ea28220b2ac5b00e1e7e661f0437418304c3a6d20b8136ef3fbff53",
+      "sourceIds": [
+        "sg2src-a43-ishida-gyoda-ishidazutsumi-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.47822,
+        36.1285
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a43-ishida-nagoya-camp-20261121",
+      "name": "石田三成陣跡（肥前名護屋・私有地）",
+      "siteRow": 532,
+      "approvalRow": 3927,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-37fdfb0d52c1"
+      ],
+      "municipality": "佐賀県唐津市",
+      "municipalityCodes": [
+        "41202"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③532最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "0ef17f53b5c133be68ac530a215551bb0faedeea897b57ff781a914adf42e07f",
+      "sourceIds": [
+        "sg2src-a43-ishida-saga-camp-20261121",
+        "sg2src-a43-ishida-saga-nagoya-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a45-asakura-gosho-anyo-20261121",
+      "name": "御所・安養寺跡（足利義秋の1567年滞在地）",
+      "siteRow": 536,
+      "approvalRow": 3981,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0062"
+      ],
+      "municipality": "福井県福井市",
+      "municipalityCodes": [
+        "18201"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③536最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "c8b94943ccd0dd01c8c80d340072e531a32679d4e110159dfbe064f7874619db",
+      "sourceIds": [
+        "sg2src-a45-asakura-museum-dynasty-20261121",
+        "sg2src-a45-asakura-museum-chronology-20261121",
+        "sg2src-a45-asakura-fukui-anyo-current-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a45-asakura-tonezaka-wide-20261121",
+      "name": "刀根坂古戦場関連地（柳ヶ瀬～刀根の旧北国街道）",
+      "siteRow": 537,
+      "approvalRow": 3928,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0062"
+      ],
+      "municipality": "福井県敦賀市・滋賀県長浜市",
+      "municipalityCodes": [
+        "18202",
+        "25203"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③537最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "71363c4835f4a2f3dbd74f0fa8a430d3e072e1d08b895ed1b71eb59ecf20c023",
+      "sourceIds": [
+        "sg2src-a45-asakura-fukui-history-fall-1573-20261121",
+        "sg2src-a45-asakura-fukui-pref-chron-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a57-soteki-kuzuryu-nakanogo-20261121",
+      "name": "九頭竜川・中ノ郷合戦推定地（1506年）",
+      "siteRow": 561,
+      "approvalRow": 3939,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-asakura-soteki-20261120"
+      ],
+      "municipality": "福井県福井市",
+      "municipalityCodes": [
+        "18201"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③561最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "5c0942c8204479ad6baf564673bc6436af68a0780597eaf41db2543d82225764",
+      "sourceIds": [
+        "sg2src-a57-soteki-fukui-kuzuryu-nakanogo-20261121",
+        "sg2src-new14-soteki-kuzuryu-20261120"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a58-katakura-kessanji-1608-20261121",
+      "name": "傑山寺（片倉景綱が創建した菩提寺）",
+      "siteRow": 563,
+      "approvalRow": 3940,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-katakura-kagetsuna-20261120"
+      ],
+      "municipality": "宮城県白石市",
+      "municipalityCodes": [
+        "04206"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③563最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "be865a74ca28e08e154c663e952bd47734210c8f686010202e1a6a23275a4f94",
+      "sourceIds": [
+        "sg2src-a58-katakura-shiroishi-kessanji-20261121",
+        "sg2src-a58-katakura-kessanji-chron-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        140.617058,
+        37.995115
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a58-katakura-mausoleum-1680-20261121",
+      "name": "片倉家御廟所（1680年の改葬先・愛宕山）",
+      "siteRow": 564,
+      "approvalRow": 3941,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-katakura-kagetsuna-20261120"
+      ],
+      "municipality": "宮城県白石市",
+      "municipalityCodes": [
+        "04206"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③564最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "e04c0634211c98f33fb43a856db0090365981a2c9af2badbca26d8109e64fb2f",
+      "sourceIds": [
+        "sg2src-a58-katakura-shiroishi-mausoleum-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        140.590758,
+        38.001735
+      ],
+      "accessColor": "red",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a59-ashina-nakaji-battle-20261121",
+      "name": "中地合戦推定地（1550年・蘆名と田村の戦い）",
+      "siteRow": 565,
+      "approvalRow": 3995,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-ashina-moriuji-20261120"
+      ],
+      "municipality": "福島県郡山市",
+      "municipalityCodes": [
+        "07203"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③565最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "57d6e1266b19f1d43fe5392ffe1d6d0c461d5a8564226b266d2b16206c78ca86",
+      "sourceIds": [
+        "sg2src-a59-ashina-asaka-study-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a59-ashina-hanamigamori-20261121",
+      "name": "花見ヶ森廟所（蘆名盛氏・盛興・盛隆の墓）",
+      "siteRow": 566,
+      "approvalRow": 3942,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-ashina-moriuji-20261120"
+      ],
+      "municipality": "福島県会津若松市",
+      "municipalityCodes": [
+        "07202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③566最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "a76ca6c76f0dd441f5c213b4b988c17f97c89d692a002a85930dd19708319b3b",
+      "sourceIds": [
+        "sg2src-a59-ashina-hanamigamori-20261121",
+        "sg2src-a59-ashina-dictionaries-rank-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.944047,
+        37.485178
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a59-ashina-soeiji-20261121",
+      "name": "宗英寺（蘆名盛氏の木像を伝える寺）",
+      "siteRow": 567,
+      "approvalRow": 3978,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-ashina-moriuji-20261120"
+      ],
+      "municipality": "福島県会津若松市",
+      "municipalityCodes": [
+        "07202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "B最終判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "6befc93cc702713120ee993d0e62908906754290088a296f45b786e685515d61",
+      "sourceIds": [
+        "sg2src-a59-ashina-soeiji-historical-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        139.94458,
+        37.488342
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a60-nagano-chojunji-20261121",
+      "name": "長純寺（長野業政が再建した菩提寺）",
+      "siteRow": 568,
+      "approvalRow": 3996,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-nagano-narimasa-20261120"
+      ],
+      "municipality": "群馬県高崎市",
+      "municipalityCodes": [
+        "10202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③568最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "6431a80de6d746167609faa646fec2e070db446c529ea503998b58b96e101dc2",
+      "sourceIds": [
+        "sg2src-a60-nagano-chojunji-statue-20261121",
+        "sg2src-a60-nagano-city-quiz-1557-20261121",
+        "sg2src-a60-nagano-chojunji-archives-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        138.941406,
+        36.398724
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a60-nagano-haruna-shrine-20261121",
+      "name": "榛名神社（1535年の祭礼制札伝来地）",
+      "siteRow": 569,
+      "approvalRow": 3962,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-nagano-narimasa-20261120"
+      ],
+      "municipality": "群馬県高崎市",
+      "municipalityCodes": [
+        "10202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "B最終判定=公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "1612867379348313a7216bf9791efac9824d98dadfde935deeefea090425bfe4",
+      "sourceIds": [
+        "sg2src-a60-nagano-haruna-document-20261121",
+        "sg2src-a60-nagano-haruna-shrine-20261121",
+        "sg2src-a60-nagano-harunachoshi-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        138.844771,
+        36.451153
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a60-nagano-chonenji-graves-20261121",
+      "name": "長年寺長野氏の墓（累代の五輪塔）",
+      "siteRow": 570,
+      "approvalRow": 3943,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-nagano-narimasa-20261120"
+      ],
+      "municipality": "群馬県高崎市",
+      "municipalityCodes": [
+        "10202"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③570最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "地点確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "9f11f402ed1da86b62ee7db66b8f22cdcd3cc230df120c7c852ef85f1b3d94da",
+      "sourceIds": [
+        "sg2src-a60-nagano-chonenji-graves-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a61-sogo-kishiwada-1558-20261121",
+      "name": "岸和田城跡（十河一存の和泉支配）",
+      "siteRow": 571,
+      "approvalRow": 3982,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-sogo-kazumasa-20261120"
+      ],
+      "municipality": "大阪府岸和田市",
+      "municipalityCodes": [
+        "27202"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③571最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "a9be4b1ea9839f280b3f8a3b76e718188db44e29a91d3226fdfbde757c70ebb0",
+      "sourceIds": [
+        "sg2src-a61-sogo-kishiwada-castle-1558-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        135.370786,
+        34.45876
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a61-sogo-kanshinji-1560-20261121",
+      "name": "観心寺（1560年十河一存禁制の伝来地）",
+      "siteRow": 572,
+      "approvalRow": 3944,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-sogo-kazumasa-20261120"
+      ],
+      "municipality": "大阪府河内長野市",
+      "municipalityCodes": [
+        "27216"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③572最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "24b18481f71487610e6ec82972c1a24ee31048cb3e4c1f2e55257a36a7d32551",
+      "sourceIds": [
+        "sg2src-a61-sogo-kawachinagano-kanshinji-1560-20261121",
+        "sg2src-a61-sogo-tondabayashi-1560-temple-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        135.60112,
+        34.436787
+      ],
+      "accessColor": "yellow",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a61-sogo-rikyu-hachimangu-1549-20261121",
+      "name": "離宮八幡宮（1549年十河一存禁制が伝わる社）",
+      "siteRow": 573,
+      "approvalRow": 3945,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-sogo-kazumasa-20261120"
+      ],
+      "municipality": "京都府乙訓郡大山崎町",
+      "municipalityCodes": [
+        "26303"
+      ],
+      "decision": "PIN_OK",
+      "internalGpsRecorded": true,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③573最終位置/取得判定・2026-11-22】公開ピン可",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "475ae4b1cf6c09b13b41ac9f5b4517f31dbdac81ce8b8970ae188d3a61d5092e",
+      "sourceIds": [
+        "sg2src-a61-sogo-bunka-rikyu-documents-20261121",
+        "sg2src-a61-sogo-oyamazaki-prohibition-1549-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "point": [
+        135.679581,
+        34.891644
+      ],
+      "accessColor": "green",
+      "bReviewDate": "2026-11-22"
+    },
+    {
+      "id": "sg2site-a61-sogo-graves-takamatsu-20261121",
+      "name": "十河一存・存保・千松丸墓所（十川東町）",
+      "siteRow": 574,
+      "approvalRow": 3997,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-added-new14-sogo-kazumasa-20261120"
+      ],
+      "municipality": "香川県高松市",
+      "municipalityCodes": [
+        "37201"
+      ],
+      "decision": "NO_PIN",
+      "internalGpsRecorded": false,
+      "bEvidence": "【B・GATE-110S-17R-20261122・③574最終位置/取得判定・2026-11-22】ピンなし獲得可",
+      "bSiteStatus": "自治体確認済",
+      "rights": "自治体確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "a5304bc5e4044ae09b78464813d01f31ec320b63d1d9d0442118ee3c0540c02a",
+      "sourceIds": [
+        "sg2src-a61-sogo-takamatsu-graves-2014-20261121",
+        "sg2src-a61-sogo-takamatsu-castle-20261121"
+      ],
+      "approvedEHasMatchingCoordinate": false,
+      "gpsOmitted": true,
+      "noRouting": true
+    },
+    {
+      "id": "sg2site-a-hachijo-hideie-residence-20261123",
+      "name": "宇喜多秀家住居跡（八丈島・大賀郷）",
+      "siteRow": 575,
+      "approvalRow": 4446,
+      "approvalVersion": "v1",
+      "personIds": [
+        "sg-master-0345"
+      ],
+      "municipality": "東京都八丈町",
+      "municipalityCodes": [
+        "13401"
+      ],
+      "decision": "NEEDS_B_PIN_DECISION",
+      "internalGpsRecorded": true,
+      "bEvidence": "③B位置審査済みだが公開ピン可否の明示判定が未確認",
+      "bSiteStatus": "地点確認済",
+      "rights": "地点確認済・権利OK",
+      "license": "条件付き",
+      "textSha256": "4a816df6679cf35ce3e8b245dce92968e1568c9798593f6eabb9e8a26ef79084",
+      "sourceIds": [
+        "sg2src-a-hachijo-tourism-hideie-residence-20261123",
+        "sg2src-a-hachijo-tourism-welcome-20261123",
+        "sg2src-a-hachijo-yahoo-poi-20261123",
+        "sg2src-a-hachijo-visit-2026-20261123"
+      ],
+      "approvedEHasMatchingCoordinate": true,
+      "gpsOmitted": true,
+      "specificNextGate": "③NへB独立の公開ピン可/非公開・公開位置種別・色・安全根拠・確認日を確定。既存⑥Eとの同版一致は必要。"
+    }
+  ]
+}
