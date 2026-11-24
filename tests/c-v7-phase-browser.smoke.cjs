@@ -75,26 +75,40 @@ for(const [platform,browserType,options] of [
    assert.equal(state.unknownCard,false);
    assert.equal(state.overflow,false);
    assert.equal(state.noGpsMisrepresented,false);
-   // Real touch or mouse event on an already-approved pin.
-   await page.evaluate(()=>{
-    const mark=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes('阿蘇神社'));
-    if(!mark)throw Error('Existing vetted Aso marker missing');
-    map.setView(mark.getLatLng(),13,{animate:false});
-   });
+   // Real touch or mouse event on an existing B-approved public pin.
+   // On desktop the map is resized when the collection panel opens; invalidate
+   // *before* and after focus, then wait for the Leaflet SVG to be laid out.
+   const focusName=options.hasTouch?'阿蘇神社':'今治城跡';
    await page.locator('#map').scrollIntoViewIfNeeded();
-   await page.waitForTimeout(500);
-   const center=await page.evaluate(()=>{
+   await page.evaluate(name=>{
     map.invalidateSize();
-    const m=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes('阿蘇神社'));
+    const mark=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
+    if(!mark)throw Error('Existing vetted pin missing: '+name);
+    map.setView(mark.getLatLng(),13,{animate:false});
+   },focusName);
+   await page.waitForTimeout(450);
+   await page.evaluate(name=>{
+    map.invalidateSize();
+    const mark=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
+    map.setView(mark.getLatLng(),13,{animate:false});
+    mark.getElement()?.setAttribute('data-c-v7-focus','yes');
+   },focusName);
+   await page.waitForFunction(name=>{
+    const m=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
+    const e=m?.getElement(),r=e?.getBoundingClientRect();
+    return !!r&&r.width>0&&r.height>0&&map.getBounds().contains(m.getLatLng());
+   },focusName,{timeout:12000});
+   const center=await page.evaluate(name=>{
+    const m=sengokuPins.getLayers().find(m=>m.getPopup()?.getContent()?.textContent?.includes(name));
     const r=m?.getElement()?.getBoundingClientRect();
-    if(!r||r.width<=0||r.height<=0)throw Error('Pin SVG is not visible');
+    if(!r||r.width<=0||r.height<=0)throw Error('Pin SVG is not visible: '+name);
     return{x:r.left+r.width/2,y:r.top+r.height/2};
-   });
+   },focusName);
    if(options.hasTouch)await page.touchscreen.tap(center.x,center.y);
    else await page.mouse.click(center.x,center.y);
    await page.waitForTimeout(250);
    const popup=await page.evaluate(()=>document.querySelector('#sengokuPinSheet .sps-scroll')?.textContent||'');
-   assert.match(popup,/阿蘇神社/,'Actual tap/click must show historical pin text');
+   assert.match(popup,new RegExp(focusName),'Actual tap/click must show historical pin text');
    assert.deepEqual(errors,[],'Browser execution must have no page errors');
    console.log('C_V7_BROWSER_PASS '+JSON.stringify({phase,platform,...state,popup:popup.slice(0,80)}));
   }finally{await browser.close();}
