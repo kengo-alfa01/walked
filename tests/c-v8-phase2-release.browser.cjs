@@ -41,7 +41,7 @@ for(const [label,browserType,opts] of [
      pins:sengokuPins.getLayers().length,visible:p1?.publicPin,
      p1Point:p1?.point,p1Access:p1?.pinReview?.accessStatus,
      redNoRouting:red?SengokuV2.pinDetails(red).noRouting:null,
-     restoredPin:restored?.publicPin,restoredPoint:restored?.point,blockedOldSite:sengokuV2Catalog.sites.has('sg2site-a-katsuyori-tano-20261111'),
+     restoredPin:restored?.publicPin,restoredPoint:restored?.point,blockedOldSite:sengokuV2Catalog.sites.has('sg2site-a-katsuyori-tano-20261111'),blockedKatsuyoriHistory:sengokuV2Catalog.histories.has('sg2hist-katsuyori-1582-death'),
      phase2SitePresent:sengokuV2Catalog.sites.has('sg2site-a34-naoie-otogo-20261121'),
      phase2PersonPresent:sengokuV2Catalog.people.has('sg-master-0344'),
      phase2SitePublic:sengokuV2Catalog.sites.get('sg2site-a34-naoie-otogo-20261121')?.publicPin,
@@ -55,7 +55,7 @@ for(const [label,browserType,opts] of [
    assert.deepEqual([actual.people,actual.pins],[88,521]);
    assert.equal(actual.visible,true);assert.deepEqual(actual.p1Point,[136.4188125,34.4061875]);
    assert.equal(actual.p1Access,'yellow');assert.equal(actual.redNoRouting,true);
-   assert.equal(actual.restoredPin,true);assert.deepEqual(actual.restoredPoint,[138.583466,35.281353]);assert.equal(actual.blockedOldSite,false);
+   assert.equal(actual.restoredPin,true);assert.deepEqual(actual.restoredPoint,[138.583466,35.281353]);assert.equal(actual.blockedOldSite,false);assert.equal(actual.blockedKatsuyoriHistory,false);
    assert.equal(actual.phase2SitePresent,true);assert.equal(actual.phase2PersonPresent,true);
    assert.equal(actual.phase2SitePublic,true);
    assert.deepEqual(actual.phase2SitePoint,[134.039537,34.630544]);
