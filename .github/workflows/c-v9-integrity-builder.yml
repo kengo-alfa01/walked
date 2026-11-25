@@ -44,6 +44,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add sengoku-v2-core.js sengoku/v2/approved-c-20261124-p2-88.json data/c-release/records.csv data/c-release/status.csv
           git diff --cached --check
+          if git diff --cached --quiet; then echo 'C v9 already up to date'; exit 0; fi
           git diff --cached --stat
           git commit -m "fix(C v9): gate four blocked approvals and publish four B-approved pins"
           git push origin HEAD:c/v9-public-integrity-20261125
