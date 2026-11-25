@@ -38,16 +38,16 @@ jobs:
           const codes=new Set(get('data/title-registry.json').areas.map(x=>x.code));
           const sha=s=>crypto.createHash('sha256').update(s).digest('hex');
           assert.equal(p1.version,'v2-approved-c-20261124-p1-74');
-          assert.equal(p2.version,'v2-approved-c-20261124-p2-88-v9');
+          assert.equal(p2.version,'v2-approved-c-20261124-p2-88-v10');
           assert.deepEqual([p1.people.length,p1.histories.length,p1.sites.length,p1.sites.filter(x=>x.publicPin).length],[74,1421,506,473]);
-          assert.deepEqual([p2.people.length,p2.histories.length,p2.sites.length,p2.relations.length,p2.sites.filter(x=>x.publicPin).length],[88,1589,553,868,521]);
+          assert.deepEqual([p2.people.length,p2.histories.length,p2.sites.length,p2.relations.length,p2.sites.filter(x=>x.publicPin).length],[88,1590,554,869,522]);
           const c=core.validate(p2,codes,sha);
           assert.equal(c.people.size,88);
           const persons=new Set(p1.people.map(x=>x.personId));
           assert.equal(p2.people.filter(x=>!persons.has(x.personId)).length,14);
           const sites=new Map(p2.sites.map(s=>[s.siteId,s]));
-          const blockedSites=new Set(['sg2site-a-joun-body-mound-20261111','sg2site-a-katsuyori-tano-20261111','sg2site-a-nobutora-kawada-old-20261111']);
-          const approvedNewPins=new Set(['sg2site-a-miy-koshimizu-20261114','sg2site-a28-murakami-shioda-20261121','sg2site-a28-murakami-nechi-20261121','sg2site-a27-ujitsuna-taisekiji-1537-20261121']);
+          const blockedSites=new Set(['sg2site-a-joun-body-mound-20261111','sg2site-a-nobutora-kawada-old-20261111']);
+          const approvedNewPins=new Set(['sg2site-a-katsuyori-tano-20261111','sg2site-a-miy-koshimizu-20261114','sg2site-a28-murakami-shioda-20261121','sg2site-a28-murakami-nechi-20261121','sg2site-a27-ujitsuna-taisekiji-1537-20261121']);
           for(const site of p1.sites){
             const after=sites.get(site.siteId);
             if(blockedSites.has(site.siteId)){assert(!after,'C禁止史跡が残存: '+site.siteId);continue;}
@@ -59,14 +59,14 @@ jobs:
               assert.deepEqual(after.pinReview,site.pinReview,'Phase1 B safety changed: '+site.siteId);
             }
           }
-          assert(!p2.histories.some(x=>x.historyId==='sg2hist-nobutora-kofu-founding'||x.historyId==='sg2hist-katsuyori-1582-death'));
+          assert(!p2.histories.some(x=>x.historyId==='sg2hist-nobutora-kofu-founding'));
           assert.equal(p2.notes.cRelease.v8.newPhase2Records,248);
           assert.equal(p2.notes.cRelease.v8.newPhase2Pins,44);
           assert.equal(p2.retiredHistories.length,0);
           assert(!p2.histories.some(h=>h.approval.sheetRow===4041));
           const hachijo=sites.get('sg2site-a-hachijo-hideie-residence-20261123');
           assert(hachijo&&hachijo.pinReview.accessStatus==='red'&&core.pinDetails(hachijo).noRouting);
-          console.log('PHASE2_RELEASE_PASS 88 people / 1589 histories / 553 sites / 521 pins; Phase1 unchanged');
+          console.log('PHASE2_RELEASE_PASS 88 people / 1590 histories / 554 sites / 522 pins; Phase1 unchanged');
           NODE
       - name: Prepare deterministic municipality and map dependencies
         run: |

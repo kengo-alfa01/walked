@@ -32,7 +32,7 @@ for(const [label,browserType,opts] of [
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
    await page.waitForFunction(()=>typeof sengokuV2Catalog!=='undefined'&&sengokuV2Catalog?.people?.size===88,{timeout:45000});
    await page.locator('[data-collection-mode="sengoku"]').click();
-   await page.waitForFunction(()=>sengokuPins.getLayers().length===521,{timeout:20000});
+   await page.waitForFunction(()=>sengokuPins.getLayers().length===522,{timeout:20000});
    const actual=await page.evaluate(()=>{
     const p1=sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121');
     const restored=sengokuV2Catalog.sites.get('sg2site-a27-ujitsuna-taisekiji-1537-20261121');
@@ -51,11 +51,11 @@ for(const [label,browserType,opts] of [
      retiredOldHistory:!!sengokuFound['sg2hist-hanbei-nagashino-1575'],
      overflow:document.documentElement.scrollWidth>window.innerWidth+4};
    });
-   assert.equal(actual.version,'v2-approved-c-20261124-p2-88-v9');
-   assert.deepEqual([actual.people,actual.pins],[88,521]);
+   assert.equal(actual.version,'v2-approved-c-20261124-p2-88-v10');
+   assert.deepEqual([actual.people,actual.pins],[88,522]);
    assert.equal(actual.visible,true);assert.deepEqual(actual.p1Point,[136.4188125,34.4061875]);
    assert.equal(actual.p1Access,'yellow');assert.equal(actual.redNoRouting,true);
-   assert.equal(actual.restoredPin,true);assert.deepEqual(actual.restoredPoint,[138.583466,35.281353]);assert.equal(actual.blockedOldSite,false);assert.equal(actual.blockedKatsuyoriHistory,false);
+   assert.equal(actual.restoredPin,true);assert.deepEqual(actual.restoredPoint,[138.583466,35.281353]);assert.equal(actual.blockedOldSite,true);assert.equal(actual.blockedKatsuyoriHistory,true);
    assert.equal(actual.phase2SitePresent,true);assert.equal(actual.phase2PersonPresent,true);
    assert.equal(actual.phase2SitePublic,true);
    assert.deepEqual(actual.phase2SitePoint,[134.039537,34.630544]);
@@ -64,7 +64,7 @@ for(const [label,browserType,opts] of [
    assert.equal(actual.overflow,false);assert.deepEqual(errors,[]);
    assert.equal(seen.length,1,'Must load release data exactly once');
    assert.equal(seen[0].status,200);
-   console.log('P1_BROWSER_RELEASE_PASS '+label+' '+JSON.stringify({version:actual.version,people:88,pins:521}));
+   console.log('P1_BROWSER_RELEASE_PASS '+label+' '+JSON.stringify({version:actual.version,people:88,pins:522}));
   }finally{await browser.close();}
  });
 }

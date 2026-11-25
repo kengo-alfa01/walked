@@ -16,9 +16,9 @@ const komakiSite='sg2site-nobu-komakiyama';
 const nagakuteSite='sg2site-ieyasu-nagakute';
 const saved=historyId=>({[historyId]:{at:'2026-11-20T12:00:00Z',basis:'old-approved-release'}});
 
-test('B-approved 88-person published JSON remains valid with 521 pins',()=>{
+test('B-approved 88-person published JSON remains valid with 522 pins',()=>{
  assert.equal(catalog.people.size,88);
- assert.equal([...catalog.sites.values()].filter(x=>x.publicPin).length,521);
+ assert.equal([...catalog.sites.values()].filter(x=>x.publicPin).length,522);
  assert.equal(catalog.histories.get(oyamaHistoryId)?.personId,'sg-fc948f16832f');
  assert.deepEqual([...catalog.linkSites.get(oyamaHistoryId)],[oyamaSiteId]);
  assert.equal(catalog.sites.get(oyamaSiteId)?.publicPin,true);
