@@ -6,18 +6,25 @@ on:
     paths:
       - scripts/c-v9-public-integrity-fix.cjs
       - .github/workflows/c-v9-integrity-builder.yml
+  pull_request:
+    branches: [main]
+    paths:
+      - scripts/c-v9-public-integrity-fix.cjs
+      - .github/workflows/c-v9-integrity-builder.yml
 
 permissions:
   contents: write
 
 jobs:
   validate-then-commit:
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-24.04
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+          ref: ${{ github.head_ref || github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
