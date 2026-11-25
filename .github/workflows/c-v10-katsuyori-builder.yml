@@ -6,14 +6,23 @@ on:
       - 'scripts/c-v10-katsuyori-release.cjs'
       - 'docs/c-release/20261125-katsuyori-approved-v10.json'
       - '.github/workflows/c-v10-katsuyori-builder.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/c-v10-katsuyori-release.cjs'
+      - 'docs/c-release/20261125-katsuyori-approved-v10.json'
+      - '.github/workflows/c-v10-katsuyori-builder.yml'
 permissions:
   contents: write
 jobs:
   build-only-approved:
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-24.04
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
