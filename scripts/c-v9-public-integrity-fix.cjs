@@ -8,6 +8,7 @@ assert.equal(original.version,'v2-approved-c-20261124-p2-88');
 assert.deepEqual([original.people.length,original.histories.length,original.sites.length,original.relations.length,original.sites.filter(x=>x.publicPin).length],[88,1591,556,871,517]);
 const blocked=new Set([
  'sg2hist-nobutora-kofu-founding',
+ 'sg2hist-katsuyori-1582-death',
  'sg2site-a-joun-body-mound-20261111',
  'sg2site-a-katsuyori-tano-20261111',
  'sg2site-a-nobutora-kawada-old-20261111'
@@ -29,6 +30,14 @@ assert.deepEqual([own.length,own.filter(h=>h.kind==='place').length],[29,7]);
 nobutora.story.unlock.requiredHistoryCount=own.length;
 nobutora.story.unlock.requiredPlaceHistoryCount=own.filter(h=>h.kind==='place').length;
 nobutora.story.unlock.historyIdsSHA256=crypto.createHash('sha256').update(own.map(h=>h.historyId).sort().join('\n')).digest('hex');
+const katsuyori=original.people.find(p=>p.personId==='sg-e00b2631eded');
+assert(katsuyori,'Katsuyori is required for approved-history dependency check');
+const katsuyoriHistories=original.histories.filter(h=>h.personId===katsuyori.personId);
+const katsuyoriUnlock=katsuyori.story.unlock;
+assert.equal(katsuyoriHistories.length+1,katsuyoriUnlock.requiredHistoryCount);
+katsuyoriUnlock.requiredHistoryCount=katsuyoriHistories.length;
+katsuyoriUnlock.requiredPlaceHistoryCount=katsuyoriHistories.filter(h=>h.kind==='place').length;
+katsuyoriUnlock.historyIdsSHA256=crypto.createHash('sha256').update(katsuyoriHistories.map(h=>h.historyId).sort().join('\n')).digest('hex');
 for(const p of pins){
  const site=original.sites.find(s=>s.siteId===p.id);
  assert(site,'Missing site '+p.id);
@@ -56,10 +65,10 @@ for(const p of pins){
 }
 original.version='v2-approved-c-20261124-p2-88-v9';
 original.notes.cRelease.v9={
- date:'2026-11-25',description:'C禁止の旧承認データ4件削除、B/⑥公開位置承認済み4ピン復旧',
+ date:'2026-11-25',description:'C禁止の旧承認データ4件を削除、取得関係のない勝頼経歴1件を条件付き保留、B/⑥公開位置承認済み4ピン復旧',
  existingUsersAndApprovedTextUnchanged:true,noChangesToBDecisions:true,priorRelease:'v2-approved-c-20261124-p2-88'
 };
-assert.deepEqual([original.people.length,original.histories.length,original.sites.length,original.relations.length,original.sites.filter(s=>s.publicPin).length],[88,1590,553,868,521]);
+assert.deepEqual([original.people.length,original.histories.length,original.sites.length,original.relations.length,original.sites.filter(s=>s.publicPin).length],[88,1589,553,868,521]);
 const corepath='sengoku-v2-core.js',coreOriginal=fs.readFileSync(corepath,'utf8');
 const marker='const C20261124_V7_PHASE1_PIN_META=Object.freeze({';
 assert(coreOriginal.includes(marker));
@@ -70,7 +79,7 @@ const core=require('../sengoku-v2-core.js');
 const registry=JSON.parse(fs.readFileSync('data/title-registry.json','utf8'));
 const sha=s=>crypto.createHash('sha256').update(s,'utf8').digest('hex');
 const checked=core.validate(original,new Set(registry.areas.map(x=>x.code)),sha);
-assert.deepEqual([checked.people.size,checked.histories.size,checked.sites.size],[88,1590,553]);
+assert.deepEqual([checked.people.size,checked.histories.size,checked.sites.size],[88,1589,553]);
 const out=JSON.stringify(original,null,2)+'\n';
 for(const id of blocked)assert(!out.includes('"'+id+'"'),'Blocked ID remains '+id);
 fs.writeFileSync(path,out);
