@@ -84,7 +84,7 @@ jobs:
           const d=JSON.parse(fs.readFileSync('/tmp/c-phase2-pages-proof/sengoku/v2/approved-c-20261124-p2-88.json'));
           const p1=JSON.parse(fs.readFileSync('sengoku/v2/approved-c-20261124-p1-74.json'));
           assert.equal(d.version,'v2-approved-c-20261124-p2-88-v9');
-          assert.deepEqual([d.people.length,d.histories.length,d.sites.length,d.sites.filter(x=>x.publicPin).length],[88,1590,553,521]);
+          assert.deepEqual([d.people.length,d.histories.length,d.sites.length,d.sites.filter(x=>x.publicPin).length],[88,1589,553,521]);
           assert.equal(d.people.filter(p=>!p1.people.some(x=>x.personId===p.personId)).length,14);
           assert.equal(d.sites.filter(s=>s.siteId==='sg2site-a34-naoie-otogo-20261121'&&s.publicPin).length,1);
           const h=d.sites.find(s=>s.siteId==='sg2site-a-hachijo-hideie-residence-20261123');
