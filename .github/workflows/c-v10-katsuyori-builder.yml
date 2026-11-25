@@ -1,0 +1,61 @@
+name: C v10 Katsuyori isolated approved build
+on:
+  push:
+    branches: [c/katsuyori-tano-v10-20261125]
+    paths:
+      - 'scripts/c-v10-katsuyori-release.cjs'
+      - 'docs/c-release/20261125-katsuyori-approved-v10.json'
+      - '.github/workflows/c-v10-katsuyori-builder.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/c-v10-katsuyori-release.cjs'
+      - 'docs/c-release/20261125-katsuyori-approved-v10.json'
+      - '.github/workflows/c-v10-katsuyori-builder.yml'
+concurrency:
+  group: c-v10-katsuyori-builder
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  build-only-approved:
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate only approved Katsuyori delta
+        run: |
+          if grep -q '"version": "v2-approved-c-20261124-p2-88-v10"' sengoku/v2/approved-c-20261124-p2-88.json; then echo 'Already generated; validate again'; else node scripts/c-v10-katsuyori-release.cjs; fi
+          node scripts/export-c-release-ledger.cjs
+          node --test tests/c-v10-katsuyori-release.test.cjs tests/c-v9-public-integrity.test.cjs tests/c-v8-earned-halo-consistency.test.cjs
+          node scripts/export-c-release-ledger.cjs --check
+      - name: Verify all pre-existing records unchanged except Katsuyori story unlock
+        run: |
+          git show d11bfe4263389935184a1ea9f2ed2f0c42eb2e97:sengoku/v2/approved-c-20261124-p2-88.json >/tmp/base.json
+          node - <<'NODE'
+          const fs=require('fs'),a=require('assert/strict');
+          const before=JSON.parse(fs.readFileSync('/tmp/base.json')),after=JSON.parse(fs.readFileSync('sengoku/v2/approved-c-20261124-p2-88.json'));
+          const m=JSON.parse(fs.readFileSync('docs/c-release/20261125-katsuyori-approved-v10.json'));
+          for(const [k,key,val] of [['histories','historyId',m.history.historyId],['sites','siteId',m.site.siteId],['relations','historyId',m.history.historyId],['municipalityAwards','historyId',m.history.historyId]])a.deepEqual(after[k].filter(x=>x[key]!==val),before[k]);
+          a.deepEqual(after.people.filter(x=>x.personId!==m.history.personId),before.people.filter(x=>x.personId!==m.history.personId));
+          const p=after.people.find(x=>x.personId===m.history.personId);p.story.unlock=before.people.find(x=>x.personId===m.history.personId).story.unlock;
+          a.deepEqual(after.people,before.people);
+          a.deepEqual(after.retiredHistories,before.retiredHistories);
+          console.log('EXACT_DELTA_PASS');
+          NODE
+      - name: Commit validated candidate, not main
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add sengoku/v2/approved-c-20261124-p2-88.json data/c-release/records.csv data/c-release/status.csv
+          git diff --cached --check
+          if git diff --cached --quiet; then echo 'Already committed'; exit 0; fi
+          git commit -m "feat(C v10): restore approved Katsuyori Tano pin and death card"
+          git push origin HEAD:c/katsuyori-tano-v10-20261125

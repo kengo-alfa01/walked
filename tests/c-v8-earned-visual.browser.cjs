@@ -38,7 +38,7 @@ for(const [platform,browserType,options] of [
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
    await page.waitForFunction(()=>typeof sengokuV2Catalog!=='undefined'&&sengokuV2Catalog?.people?.size===88,null,{timeout:45000});
    await page.locator('[data-collection-mode="sengoku"]').click();
-   await page.waitForFunction(()=>sengokuPins.getLayers().length===521,null,{timeout:25000});
+   await page.waitForFunction(()=>sengokuPins.getLayers().length===522,null,{timeout:25000});
    const pins=await page.evaluate(([oyama,komaki,nagakute,history])=>{
     const at=(siteId)=>{
      const site=sengokuV2Catalog.sites.get(siteId);
@@ -49,7 +49,7 @@ for(const [platform,browserType,options] of [
       visitedOyama:SengokuV2.visitedCodes(state.visited).has('09208'),
       oyama:at(oyama),komaki:at(komaki),nagakute:at(nagakute)};
    },[oyama,komaki,nagakute,oyamaHistory]);
-   assert.equal(pins.count,521);assert.equal(pins.storedCard,true);
+   assert.equal(pins.count,522);assert.equal(pins.storedCard,true);
    assert.equal(pins.visitedOyama,false,'fixture must reproduce missing municipality cache');
    assert.equal(pins.oyama.publicPin,true);
    assert.equal(pins.oyama.haloColor,'#151515','acquired Oyama card must have a black pin halo');
@@ -78,7 +78,7 @@ for(const [platform,browserType,options] of [
    const directory=path.join(root,'.qa-screenshots');fs.mkdirSync(directory,{recursive:true});
    const file=path.join(directory,'c-v8-earned-visual-'+platform.replace(/[^A-Za-z]+/g,'-').toLowerCase()+'.png');
    await page.screenshot({path:file,fullPage:false});
-   console.log('EARNED_VISUAL_QA_PASS '+JSON.stringify({platform,oyamaHalo:pins.oyama.haloColor,tieUnearned:timeline.unearned.length,unearnedBackground:timeline.unearned[0].background,release:'p2-88-v9/521'}));
+   console.log('EARNED_VISUAL_QA_PASS '+JSON.stringify({platform,oyamaHalo:pins.oyama.haloColor,tieUnearned:timeline.unearned.length,unearnedBackground:timeline.unearned[0].background,release:'p2-88-v10/522'}));
   }finally{await browser.close();}
  });
 }

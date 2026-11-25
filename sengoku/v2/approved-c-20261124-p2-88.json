@@ -1,7 +1,7 @@
 {
   "schemaVersion": "walked.sengoku.v2.approved.v1",
   "sourceSpreadsheetId": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
-  "version": "v2-approved-c-20261124-p2-88-v9",
+  "version": "v2-approved-c-20261124-p2-88-v10",
   "people": [
     {
       "personId": "sg-6eaf66c3d7c8",
@@ -1631,9 +1631,9 @@
           "sourceId": null
         },
         "unlock": {
-          "requiredHistoryCount": 24,
-          "requiredPlaceHistoryCount": 15,
-          "historyIdsSHA256": "ed160e5d9b3586b11eab80865920691adf5e235ec1261eed0011fdeb91e7dfec"
+          "requiredHistoryCount": 25,
+          "requiredPlaceHistoryCount": 16,
+          "historyIdsSHA256": "651b5be3d4498c14517dc114263f220bd395354dcb6f56a636dcedc3b3fc0875"
         }
       }
     },
@@ -55755,6 +55755,43 @@
       },
       "displayOrder": 10,
       "kind": "place"
+    },
+    {
+      "historyId": "sg2hist-katsuyori-1582-death",
+      "personId": "sg-e00b2631eded",
+      "kind": "place",
+      "title": "甲斐田野で自害し武田宗家が滅亡する",
+      "yearText": "天正10年（1582）旧暦3月11日",
+      "eventYear": 1582,
+      "eventYearEnd": null,
+      "text": "1582年3月11日、武田勝頼は甲斐田野で織田方の追撃を受け、北条夫人や嫡男信勝らとともに自害した。数え37歳とされる。武田家の甲斐本宗家はここで滅び、後に田野には勝頼らを弔う景徳院が建立された。",
+      "sourceIds": [
+        "sg2src-a-katsuyori-museum-20261111",
+        "sg2src-a-katsuyori-nirasaki-20261111",
+        "sg2src-a-katsuyori-koshu-20261111",
+        "sg2src-a-katsuyori-yamanashigrave-20261111"
+      ],
+      "sourceUrls": [
+        "https://www.museum-kai.net/museum_home/63/article%2C100",
+        "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/3/1344.html",
+        "https://www.city.koshu.yamanashi.jp/docs/2017051600118/",
+        "https://www.pref.yamanashi.jp/maizou-bnk/topics/301-400/0322.html"
+      ],
+      "approval": {
+        "sheetRow": 4020,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "1311707bfdcf8571b48eee818fc0456032620e9196f5b62bc92a933c12fa69f6",
+        "kind": "経歴",
+        "personId": "sg-e00b2631eded",
+        "sourceId": "sg2hist-katsuyori-1582-death"
+      },
+      "sourceOrder": 869,
+      "displayOrder": 50
     }
   ],
   "sites": [
@@ -99688,6 +99725,90 @@
         "personId": "sg-24684888730a",
         "sourceId": "sg2site-a44-miyoshi-eguchi-battle-castle-20261121"
       }
+    },
+    {
+      "siteId": "sg2site-a-katsuyori-tano-20261111",
+      "name": "田野・武田勝頼終焉の地（1582年）",
+      "description": "甲斐の田野は、武田勝頼が最後を迎えた地として知られる。1582年旧暦3月11日、織田方の追撃を受けた勝頼は、北条夫人と嫡男信勝らとともにこの地で死去した。周辺に伝わる古戦場や顕彰碑は、武田家最後の日を今日に伝えている。",
+      "personIds": [
+        "sg-e00b2631eded"
+      ],
+      "municipalityCodes": [
+        "19213"
+      ],
+      "municipalityCode": "19213",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        138.8025625,
+        35.6409375
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-a-katsuyori-koshu-20261111",
+        "sg2src-a-katsuyori-yamanashigrave-20261111",
+        "sg2src-a-katsuyori-koshu-tourism-20261111",
+        "sg2src-a-katsuyori-seigaishi-koshu-20261125"
+      ],
+      "sourceUrls": [
+        "https://www.city.koshu.yamanashi.jp/docs/2017051600118/",
+        "https://www.pref.yamanashi.jp/maizou-bnk/topics/301-400/0322.html",
+        "https://www.koshu-kankou.jp/soshiki/1/holyland.html",
+        "https://www.koshu-kankou.jp/map/m4941.html"
+      ],
+      "approval": {
+        "sheetRow": 4496,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "73746c7b38e5e8f6719f783acdc9bded54c468f97d00df7e25dc0f258f38133d",
+        "kind": "史跡",
+        "personId": "sg-e00b2631eded",
+        "sourceId": "sg2site-a-katsuyori-tano-20261111"
+      },
+      "approvedPersonIds": [
+        "sg-e00b2631eded"
+      ],
+      "pinPersonIds": [
+        "sg-e00b2631eded"
+      ],
+      "pinReview": {
+        "sourceSheetRow": 332,
+        "decision": "可",
+        "municipality": "山梨県甲州市",
+        "locationKind": "生害石の伝承情報参照点（ユーザー指定Plus Code 8Q7WJRR3+92・約14m格子中心）",
+        "accessStatus": "yellow",
+        "restriction": "寺院の一般参拝可能範囲から現地案内に従ってください。墓域・堂内・管理区域・私有地へ無断で立ち入らないでください。生害石の精密測量点・1582年当日の厳密な自害位置・入口・安全経路を示すものではありません。獲得は甲州市制覇で、100m接近は不要です。",
+        "checkedAt": "2026-11-25",
+        "officialInfoUrl": "https://www.koshu-kankou.jp/map/m4941.html",
+        "positionEvidenceUrl": null,
+        "positionSourceIds": [
+          "sg2src-a-katsuyori-koshu-20261111",
+          "sg2src-a-katsuyori-yamanashigrave-20261111",
+          "sg2src-a-katsuyori-koshu-tourism-20261111",
+          "sg2src-a-katsuyori-seigaishi-koshu-20261125"
+        ],
+        "approvedE": "【史跡の公開情報ピン】\n田野・武田勝頼終焉の地（1582年）（山梨県甲州市／自治体コード19213）\n見学色：黄。公開参照位置：北緯35.6409375、東経138.8025625。\n景徳院境内の「生害石」を示す伝承情報点です。ユーザー指定Plus Code「JRR3+92」（完全コード8Q7WJRR3+92）の約14m格子中心であり、生害石そのものの精密測量点でも、1582年に勝頼が自害した厳密な地点でもありません。\n【見学上の注意】\n寺院の一般参拝可能範囲から現地案内に従ってご覧ください。墓域・堂内・管理区域・私有地への無断立入りはしないでください。このピンは安全な入口・経路・立入許可を保証しません。\n【史跡の獲得】\n甲州市（19213）を制覇すると、この史跡を一度だけ収集します。現地ピンへの100m接近は不要です。\n【経歴カードとの関係】\n武田勝頼の1582年死去経歴は既存の本人直接関係に基づき、同じカードを重複発行しません。景徳院の墓所と鳥居畑古戦場は別史跡として扱います。",
+        "positionSource": "ユーザー指定Plus Code 8Q7WJRR3+92（B独立復元）"
+      },
+      "pinApproval": {
+        "sheetRow": 4496,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "73746c7b38e5e8f6719f783acdc9bded54c468f97d00df7e25dc0f258f38133d",
+        "kind": "史跡",
+        "personId": "sg-e00b2631eded",
+        "sourceId": "sg2site-a-katsuyori-tano-20261111"
+      }
     }
   ],
   "relations": [
@@ -113977,6 +114098,22 @@
         "https://map.yahoo.co.jp/v3/place/CN2nNRRFBf6",
         "https://note.com/art_guide_mugen/n/nef6efdc5e6df"
       ]
+    },
+    {
+      "personId": "sg-e00b2631eded",
+      "historyId": "sg2hist-katsuyori-1582-death",
+      "siteId": "sg2site-a-katsuyori-tano-20261111",
+      "classification": "本人直接",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-katsuyori-koshu-20261111",
+        "sg2src-a-katsuyori-yamanashigrave-20261111"
+      ],
+      "sourceUrls": [
+        "https://www.city.koshu.yamanashi.jp/docs/2017051600118/",
+        "https://www.pref.yamanashi.jp/maizou-bnk/topics/301-400/0322.html"
+      ]
     }
   ],
   "retiredHistories": [],
@@ -115037,6 +115174,11 @@
         "existingUsersAndApprovedTextUnchanged": true,
         "noChangesToBDecisions": true,
         "priorRelease": "v2-approved-c-20261124-p2-88"
+      },
+      "v10": {
+        "date": "2026-11-25",
+        "description": "Only approved Katsuyori site 4496 v3, history 4020 v2, direct ④608 and grave OR exception 38; preserve all others",
+        "priorRelease": "v2-approved-c-20261124-p2-88-v9"
       }
     }
   },
@@ -115154,6 +115296,25 @@
       "approvalVersion": "v3",
       "processId": "CR20261119-006",
       "historySheetRow": 1165
+    },
+    {
+      "historyId": "sg2hist-katsuyori-1582-death",
+      "personId": "sg-e00b2631eded",
+      "municipalityCode": "19213",
+      "graveReviewSheetRow": 38,
+      "relatedSiteId": "sg2site-a-katsuyori-keitokuin-20261111",
+      "classification": "墓所特例",
+      "bStatus": "墓所として合格",
+      "linkDecision": "墓所OR承認済",
+      "approvalRow": 4020,
+      "approvalVersion": "v2",
+      "graveSiteApprovalRow": 4149,
+      "graveSiteApprovalVersion": "v4",
+      "historySheetRow": 869,
+      "sourceIds": [
+        "sg2src-a-katsuyori-koshu-20261111",
+        "sg2src-a-katsuyori-yamanashigrave-20261111"
+      ]
     }
   ]
 }

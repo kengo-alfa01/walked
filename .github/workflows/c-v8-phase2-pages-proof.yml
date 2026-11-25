@@ -26,7 +26,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if grep -q '^v2-approved-c-20261124-p2-88-v9,' data/c-release/status.csv; then
+          if grep -q '^v2-approved-c-20261124-p2-88-v10,' data/c-release/status.csv; then
             echo 'enabled=true' >> "$GITHUB_OUTPUT"
           else
             echo 'enabled=false' >> "$GITHUB_OUTPUT"
@@ -44,6 +44,7 @@ jobs:
           base='https://kengo-alfa01.github.io/walked'
           files=(
             'index.html'
+            'sengoku-v2-core.js'
             'sengoku/v2/approved-c-20261124-p2-88.json'
             'data/c-release/records.csv'
             'data/c-release/status.csv'
@@ -75,7 +76,7 @@ jobs:
             printf '%s ' "$file" >> "$GITHUB_STEP_SUMMARY"
             sha256sum "$file" >> "$GITHUB_STEP_SUMMARY"
           done
-      - name: Validate published 88-person 517-pin schema and Phase1 continuity
+      - name: Validate published 88-person 522-pin schema and Phase1 continuity
         if: steps.phase.outputs.enabled == 'true'
         shell: bash
         run: |
@@ -83,11 +84,11 @@ jobs:
           const fs=require('fs'),assert=require('assert/strict');
           const d=JSON.parse(fs.readFileSync('/tmp/c-phase2-pages-proof/sengoku/v2/approved-c-20261124-p2-88.json'));
           const p1=JSON.parse(fs.readFileSync('sengoku/v2/approved-c-20261124-p1-74.json'));
-          assert.equal(d.version,'v2-approved-c-20261124-p2-88-v9');
-          assert.deepEqual([d.people.length,d.histories.length,d.sites.length,d.sites.filter(x=>x.publicPin).length],[88,1589,553,521]);
+          assert.equal(d.version,'v2-approved-c-20261124-p2-88-v10');
+          assert.deepEqual([d.people.length,d.histories.length,d.sites.length,d.sites.filter(x=>x.publicPin).length],[88,1590,554,522]);
           assert.equal(d.people.filter(p=>!p1.people.some(x=>x.personId===p.personId)).length,14);
           assert.equal(d.sites.filter(s=>s.siteId==='sg2site-a34-naoie-otogo-20261121'&&s.publicPin).length,1);
           const h=d.sites.find(s=>s.siteId==='sg2site-a-hachijo-hideie-residence-20261123');
           assert(h&&h.publicPin&&h.pinReview.accessStatus==='red');
-          console.log('PHASE2_GITHUB_PAGES_88_PEOPLE_521_PINS_PASS');
+          console.log('PHASE2_GITHUB_PAGES_88_PEOPLE_522_PINS_PASS');
           NODE

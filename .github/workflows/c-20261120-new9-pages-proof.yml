@@ -18,7 +18,16 @@ jobs:
     timeout-minutes: 18
     steps:
       - uses: actions/checkout@v4
+      - name: Check if historical new9 release is active
+        id: release
+        run: |
+          if grep -q '^v2-approved-c-20261120-new9-80,' data/c-release/status.csv; then
+            echo 'active=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'active=false' >> "$GITHUB_OUTPUT"
+          fi
       - name: Compare actual GitHub Pages file bytes against merged main
+        if: steps.release.outputs.active == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -42,4 +51,5 @@ jobs:
             sleep 8
           done
       - name: Check live JSON exact ⑥ and status/records ledgers
+        if: steps.release.outputs.active == 'true'
         run: node scripts/verify-c-20261120-live.cjs
