@@ -4,6 +4,16 @@
 const fs=require('node:fs'),crypto=require('node:crypto'),assert=require('node:assert/strict');
 const path='sengoku/v2/approved-c-20261124-p2-88.json';
 const original=JSON.parse(fs.readFileSync(path,'utf8'));
+if(original.version==='v2-approved-c-20261124-p2-88-v9'){
+ const core=require('../sengoku-v2-core.js');
+ const registry=JSON.parse(fs.readFileSync('data/title-registry.json','utf8'));
+ const sha=v=>crypto.createHash('sha256').update(v).digest('hex');
+ const check=core.validate(original,new Set(registry.areas.map(v=>v.code)),sha);
+ assert.deepEqual([check.people.size,check.histories.size,check.sites.size,
+   original.relations.length,original.sites.filter(v=>v.publicPin).length],[88,1589,553,868,521]);
+ console.log('C_V9_ALREADY_VALIDATED; avoiding repeat writes');
+ process.exit(0);
+}
 assert.equal(original.version,'v2-approved-c-20261124-p2-88');
 assert.deepEqual([original.people.length,original.histories.length,original.sites.length,original.relations.length,original.sites.filter(x=>x.publicPin).length],[88,1591,556,871,517]);
 const blocked=new Set([
