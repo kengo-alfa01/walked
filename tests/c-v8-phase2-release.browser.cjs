@@ -32,16 +32,16 @@ for(const [label,browserType,opts] of [
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
    await page.waitForFunction(()=>typeof sengokuV2Catalog!=='undefined'&&sengokuV2Catalog?.people?.size===88,{timeout:45000});
    await page.locator('[data-collection-mode="sengoku"]').click();
-   await page.waitForFunction(()=>sengokuPins.getLayers().length===517,{timeout:20000});
+   await page.waitForFunction(()=>sengokuPins.getLayers().length===521,{timeout:20000});
    const actual=await page.evaluate(()=>{
     const p1=sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121');
-    const blocked=sengokuV2Catalog.sites.get('sg2site-a27-ujitsuna-taisekiji-1537-20261121');
+    const restored=sengokuV2Catalog.sites.get('sg2site-a27-ujitsuna-taisekiji-1537-20261121');
     const red=sengokuV2Catalog.sites.get('sg2site-a6-nanbu-nagau-20261121');
     return {version:sengokuV2Catalog.version,people:sengokuV2Catalog.people.size,
      pins:sengokuPins.getLayers().length,visible:p1?.publicPin,
      p1Point:p1?.point,p1Access:p1?.pinReview?.accessStatus,
      redNoRouting:red?SengokuV2.pinDetails(red).noRouting:null,
-     withheld:blocked?.publicPin,withheldPoint:blocked?.point,
+     restoredPin:restored?.publicPin,restoredPoint:restored?.point,blockedOldSite:sengokuV2Catalog.sites.has('sg2site-a-katsuyori-tano-20261111'),blockedKatsuyoriHistory:sengokuV2Catalog.histories.has('sg2hist-katsuyori-1582-death'),
      phase2SitePresent:sengokuV2Catalog.sites.has('sg2site-a34-naoie-otogo-20261121'),
      phase2PersonPresent:sengokuV2Catalog.people.has('sg-master-0344'),
      phase2SitePublic:sengokuV2Catalog.sites.get('sg2site-a34-naoie-otogo-20261121')?.publicPin,
@@ -51,11 +51,11 @@ for(const [label,browserType,opts] of [
      retiredOldHistory:!!sengokuFound['sg2hist-hanbei-nagashino-1575'],
      overflow:document.documentElement.scrollWidth>window.innerWidth+4};
    });
-   assert.equal(actual.version,'v2-approved-c-20261124-p2-88');
-   assert.deepEqual([actual.people,actual.pins],[88,517]);
+   assert.equal(actual.version,'v2-approved-c-20261124-p2-88-v9');
+   assert.deepEqual([actual.people,actual.pins],[88,521]);
    assert.equal(actual.visible,true);assert.deepEqual(actual.p1Point,[136.4188125,34.4061875]);
    assert.equal(actual.p1Access,'yellow');assert.equal(actual.redNoRouting,true);
-   assert.equal(actual.withheld,false);assert.equal(actual.withheldPoint,null);
+   assert.equal(actual.restoredPin,true);assert.deepEqual(actual.restoredPoint,[138.583466,35.281353]);assert.equal(actual.blockedOldSite,false);assert.equal(actual.blockedKatsuyoriHistory,false);
    assert.equal(actual.phase2SitePresent,true);assert.equal(actual.phase2PersonPresent,true);
    assert.equal(actual.phase2SitePublic,true);
    assert.deepEqual(actual.phase2SitePoint,[134.039537,34.630544]);
@@ -64,7 +64,7 @@ for(const [label,browserType,opts] of [
    assert.equal(actual.overflow,false);assert.deepEqual(errors,[]);
    assert.equal(seen.length,1,'Must load release data exactly once');
    assert.equal(seen[0].status,200);
-   console.log('P1_BROWSER_RELEASE_PASS '+label+' '+JSON.stringify({version:actual.version,people:88,pins:517}));
+   console.log('P1_BROWSER_RELEASE_PASS '+label+' '+JSON.stringify({version:actual.version,people:88,pins:521}));
   }finally{await browser.close();}
  });
 }

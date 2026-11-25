@@ -1,0 +1,50 @@
+name: C v9 build verified correction on isolated branch
+on:
+  push:
+    branches:
+      - c/v9-public-integrity-20261125
+    paths:
+      - scripts/c-v9-public-integrity-fix.cjs
+      - .github/workflows/c-v9-integrity-builder.yml
+  pull_request:
+    branches: [main]
+    paths:
+      - scripts/c-v9-public-integrity-fix.cjs
+      - .github/workflows/c-v9-integrity-builder.yml
+
+permissions:
+  contents: write
+
+jobs:
+  validate-then-commit:
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          ref: ${{ github.head_ref || github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply only ⑥/B-authorized corrections
+        run: node scripts/c-v9-public-integrity-fix.cjs
+      - name: Regenerate real source SHA and exact CSV ledger
+        run: node scripts/export-c-release-ledger.cjs
+      - name: Independently validate active JSON, gated IDs, pins and ledger
+        run: |
+          node --test tests/c-v9-public-integrity.test.cjs
+          node scripts/export-c-release-ledger.cjs --check
+      - name: Commit verified files onto isolated QA branch, not main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sengoku-v2-core.js sengoku/v2/approved-c-20261124-p2-88.json data/c-release/records.csv data/c-release/status.csv
+          git diff --cached --check
+          if git diff --cached --quiet; then echo 'C v9 already up to date'; exit 0; fi
+          git diff --cached --stat
+          git commit -m "fix(C v9): gate four blocked approvals and publish four B-approved pins"
+          git push origin HEAD:c/v9-public-integrity-20261125

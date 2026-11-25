@@ -1,6 +1,6 @@
 'use strict';
-// Production-pointer smoke: do not intercept Sengoku JSON. Verify the page loads
-// the exact Phase1 release artifact from its real path and never exposes Phase2.
+// Legacy Phase1 continuity: verify previously approved pins and earned cards survive
+// the currently active Phase2-v9 production pointer. The immutable Phase1 JSON is separately validated.
 const {test}=require('node:test');
 const assert=require('node:assert/strict');
 const path=require('node:path');
@@ -11,12 +11,12 @@ for(const [label,browserType,opts] of [
  ['iPhone WebKit',webkit,{viewport:{width:390,height:844},isMobile:true,hasTouch:true,deviceScaleFactor:3}],
  ['Desktop Chromium',chromium,{viewport:{width:1332,height:717}}]
 ]){
- test('Phase1 actual release pointer '+label,{timeout:140000},async()=>{
+ test('Phase1 legacy continuity in current C v9 release '+label,{timeout:140000},async()=>{
   const browser=await browserType.launch({headless:true});
   const ctx=await browser.newContext(opts),page=await ctx.newPage();
   const errors=[],seen=[];
   page.on('pageerror',e=>errors.push(e.message));
-  page.on('response',r=>{if(r.url().includes('approved-c-20261124-p1-74.json'))seen.push({status:r.status(),url:r.url()});});
+  page.on('response',r=>{if(r.url().includes('approved-c-20261124-p2-88.json'))seen.push({status:r.status(),url:r.url()});});
   await page.route('**/municipalities.topojson',r=>r.fulfill({path:path.join(root,'.qa-assets/municipalities.topojson'),contentType:'application/json'}));
   await page.route('**/topojson-client@3/dist/topojson-client.min.js',r=>r.fulfill({path:path.join(root,'.qa-assets/topojson-client.min.js'),contentType:'application/javascript'}));
   await page.route('**/leaflet@1.9.4/dist/leaflet.js',r=>r.fulfill({path:path.join(root,'node_modules/leaflet/dist/leaflet.js'),contentType:'application/javascript'}));
@@ -30,35 +30,35 @@ for(const [label,browserType,opts] of [
   });
   try{
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
-   await page.waitForFunction(()=>typeof sengokuV2Catalog!=='undefined'&&sengokuV2Catalog?.people?.size===74,{timeout:45000});
+   await page.waitForFunction(()=>typeof sengokuV2Catalog!=='undefined'&&sengokuV2Catalog?.people?.size===88,{timeout:45000});
    await page.locator('[data-collection-mode="sengoku"]').click();
-   await page.waitForFunction(()=>sengokuPins.getLayers().length===473,{timeout:20000});
+   await page.waitForFunction(()=>sengokuPins.getLayers().length===521,{timeout:20000});
    const actual=await page.evaluate(()=>{
     const p1=sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121');
-    const blocked=sengokuV2Catalog.sites.get('sg2site-a27-ujitsuna-taisekiji-1537-20261121');
+    const restored=sengokuV2Catalog.sites.get('sg2site-a27-ujitsuna-taisekiji-1537-20261121');
     const red=sengokuV2Catalog.sites.get('sg2site-a6-nanbu-nagau-20261121');
     return {version:sengokuV2Catalog.version,people:sengokuV2Catalog.people.size,
      pins:sengokuPins.getLayers().length,visible:p1?.publicPin,
      p1Point:p1?.point,p1Access:p1?.pinReview?.accessStatus,
      redNoRouting:red?SengokuV2.pinDetails(red).noRouting:null,
-     withheld:blocked?.publicPin,withheldPoint:blocked?.point,
+     restored:restored?.publicPin,restoredPoint:restored?.point,
      phase2SitePresent:sengokuV2Catalog.sites.has('sg2site-a34-naoie-otogo-20261121'),
      phase2PersonPresent:sengokuV2Catalog.people.has('sg-master-0344'),
      validOldHistory:!!sengokuFound['sg2hist-nobu-1534-birth'],
      retiredOldHistory:!!sengokuFound['sg2hist-hanbei-nagashino-1575'],
      overflow:document.documentElement.scrollWidth>window.innerWidth+4};
    });
-   assert.equal(actual.version,'v2-approved-c-20261124-p1-74');
-   assert.deepEqual([actual.people,actual.pins],[74,473]);
+   assert.equal(actual.version,'v2-approved-c-20261124-p2-88-v9');
+   assert.deepEqual([actual.people,actual.pins],[88,521]);
    assert.equal(actual.visible,true);assert.deepEqual(actual.p1Point,[136.4188125,34.4061875]);
    assert.equal(actual.p1Access,'yellow');assert.equal(actual.redNoRouting,true);
-   assert.equal(actual.withheld,false);assert.equal(actual.withheldPoint,null);
-   assert.equal(actual.phase2SitePresent,false);assert.equal(actual.phase2PersonPresent,false);
+   assert.equal(actual.restored,true);assert.deepEqual(actual.restoredPoint,[138.583466,35.281353]);
+   assert.equal(actual.phase2SitePresent,true);assert.equal(actual.phase2PersonPresent,true);
    assert.equal(actual.validOldHistory,true);assert.equal(actual.retiredOldHistory,false);
    assert.equal(actual.overflow,false);assert.deepEqual(errors,[]);
    assert.equal(seen.length,1,'Must load release data exactly once');
    assert.equal(seen[0].status,200);
-   console.log('P1_BROWSER_RELEASE_PASS '+label+' '+JSON.stringify({version:actual.version,people:74,pins:473}));
+   console.log('P1_BROWSER_RELEASE_PASS '+label+' '+JSON.stringify({version:actual.version,people:88,pins:521}));
   }finally{await browser.close();}
  });
 }

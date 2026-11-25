@@ -1,7 +1,7 @@
 {
   "schemaVersion": "walked.sengoku.v2.approved.v1",
   "sourceSpreadsheetId": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
-  "version": "v2-approved-c-20261124-p2-88",
+  "version": "v2-approved-c-20261124-p2-88-v9",
   "people": [
     {
       "personId": "sg-6eaf66c3d7c8",
@@ -1631,9 +1631,9 @@
           "sourceId": null
         },
         "unlock": {
-          "requiredHistoryCount": 25,
-          "requiredPlaceHistoryCount": 16,
-          "historyIdsSHA256": "651b5be3d4498c14517dc114263f220bd395354dcb6f56a636dcedc3b3fc0875"
+          "requiredHistoryCount": 24,
+          "requiredPlaceHistoryCount": 15,
+          "historyIdsSHA256": "ed160e5d9b3586b11eab80865920691adf5e235ec1261eed0011fdeb91e7dfec"
         }
       }
     },
@@ -1717,9 +1717,9 @@
           "sourceId": null
         },
         "unlock": {
-          "requiredHistoryCount": 30,
-          "requiredPlaceHistoryCount": 8,
-          "historyIdsSHA256": "403220b65604472c3be1c5691281b75f9239d1dd808f7cf81badd6775c776cea"
+          "requiredHistoryCount": 29,
+          "requiredPlaceHistoryCount": 7,
+          "historyIdsSHA256": "df360559bfb1826ca525c2123f57995b9144c45851c30ed0d4d7fc4786111587"
         }
       }
     },
@@ -31499,43 +31499,6 @@
       "displayOrder": 40
     },
     {
-      "historyId": "sg2hist-katsuyori-1582-death",
-      "personId": "sg-e00b2631eded",
-      "kind": "place",
-      "title": "甲斐田野で自害し武田宗家が滅亡する",
-      "yearText": "天正10年（1582）旧暦3月11日",
-      "eventYear": 1582,
-      "eventYearEnd": null,
-      "text": "1582年3月11日、武田勝頼は甲斐田野で織田方の追撃を受け、北条夫人や嫡男信勝らとともに自害した。数え37歳とされる。武田家の甲斐本宗家はここで滅び、後に田野には勝頼らを弔う景徳院が建立された。",
-      "sourceIds": [
-        "sg2src-a-katsuyori-museum-20261111",
-        "sg2src-a-katsuyori-nirasaki-20261111",
-        "sg2src-a-katsuyori-koshu-20261111",
-        "sg2src-a-katsuyori-yamanashigrave-20261111"
-      ],
-      "sourceUrls": [
-        "https://www.museum-kai.net/museum_home/63/article%2C100",
-        "https://www.city.nirasaki.lg.jp/soshikiichiran/kyoikuka/bunkazaitanto/1_1/3/1344.html",
-        "https://www.city.koshu.yamanashi.jp/docs/2017051600118/",
-        "https://www.pref.yamanashi.jp/maizou-bnk/topics/301-400/0322.html"
-      ],
-      "approval": {
-        "sheetRow": 4020,
-        "version": "v2",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "自治体確認済・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "1311707bfdcf8571b48eee818fc0456032620e9196f5b62bc92a933c12fa69f6",
-        "kind": "経歴",
-        "personId": "sg-e00b2631eded",
-        "sourceId": "sg2hist-katsuyori-1582-death"
-      },
-      "sourceOrder": 869,
-      "displayOrder": 50
-    },
-    {
       "historyId": "sg2hist-nobutora-birth",
       "personId": "sg-98514cee0056",
       "kind": "nonplace",
@@ -31765,41 +31728,6 @@
       },
       "displayOrder": 20,
       "sourceOrder": 876
-    },
-    {
-      "historyId": "sg2hist-nobutora-kofu-founding",
-      "personId": "sg-98514cee0056",
-      "kind": "place",
-      "title": "川田館から躑躅ヶ崎館へ移り甲府を開く",
-      "yearText": "永正16年（1519）",
-      "eventYear": 1519,
-      "eventYearEnd": null,
-      "text": "1519年、信直は石和に近い川田の居館を離れ、躑躅ヶ崎に新たな館を築いた。家臣や商人を集め、甲斐の新しい府中となる町を整えた。のちの甲府の始まりである。",
-      "sourceIds": [
-        "sg2src-a-nobutora-kofu-chron-20261111",
-        "sg2src-a-nobutora-yamanashi-yakata-20261111",
-        "sg2src-a-nobutora-koshu-city-20261111"
-      ],
-      "sourceUrls": [
-        "https://www.city.kofu.lg.jp/k003/p005482.html",
-        "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html",
-        "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_1shou.pdf"
-      ],
-      "approval": {
-        "sheetRow": 1814,
-        "version": "v1",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "自治体確認済・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "95e17fd837efd8c5af77a6aa177ebbf81e19e243d17245daf46db32b16103f56",
-        "kind": "経歴",
-        "personId": "sg-98514cee0056",
-        "sourceId": "sg2hist-nobutora-kofu-founding"
-      },
-      "sourceOrder": 877,
-      "displayOrder": null
     },
     {
       "historyId": "sg2hist-nobutora-nobutora-name",
@@ -80708,48 +80636,6 @@
       "pinApprovalText": "岩屋城は四王寺山中腹の山城で、大友家臣高橋紹運が城主を務めた。1586年7月に島津勢の攻撃を受け、紹運は城兵とともに抗戦して7月27日の落城時に死去した。現城跡は歴史の舞台であり、個人の最期の部屋を特定するものではない。"
     },
     {
-      "siteId": "sg2site-a-joun-body-mound-20261111",
-      "name": "高橋紹運墓（胴塚・岩屋城二の丸付近）",
-      "description": "岩屋城で1586年に死去した高橋紹運を弔う胴塚。現在の墓域は江戸時代以降に整えられ、1794年には追悼の式と修理が行われた。戦いの史跡に隣接するが、紹運が死去した城内の部屋や埋葬当日の地点とは別に考える必要がある。",
-      "personIds": [
-        "sg-05d4ad2ca192"
-      ],
-      "municipalityCodes": [
-        "40221"
-      ],
-      "municipalityCode": "40221",
-      "locationReviewed": true,
-      "rightsReviewed": true,
-      "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
-      "locationAccuracy": "市区町村確認・地点不明",
-      "sourceIds": [
-        "sg2src-a-joun-dazaifu-mound-20261111",
-        "sg2src-a-joun-dazaifu-castle-20261111"
-      ],
-      "sourceUrls": [
-        "https://www.city.dazaifu.lg.jp/site/bunkazai/15082.html",
-        "https://www.city.dazaifu.lg.jp/site/kanko/12002.html"
-      ],
-      "approval": {
-        "sheetRow": 1922,
-        "version": "v1",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "自治体確認済・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "57c2929482cd8d0fe2ab204c4fc3c87ba3f95e1899373d001649e4fbe859f980",
-        "kind": "史跡",
-        "personId": "sg-05d4ad2ca192",
-        "sourceId": "sg2site-a-joun-body-mound-20261111"
-      },
-      "approvedPersonIds": [
-        "sg-05d4ad2ca192"
-      ]
-    },
-    {
       "siteId": "sg2site-a-joun-head-mound-20261111",
       "name": "高橋紹運首塚伝承地（二日市北）",
       "description": "1586年、岩屋城で島津軍と戦って命を落とした高橋紹運。その首を島津方が首実検したのち埋めたと伝える塚が、筑紫野市二日市北に残る。貝原益軒の『筑前国続風土記』にも記されたこの地は、紹運の最期を後世の人々が語り継いできた場所である。",
@@ -81258,50 +81144,6 @@
       "pinApprovalText": "1581年、武田勝頼が武田氏の新たな拠点として築いた国指定史跡。旧暦12月24日には躑躅ヶ崎館からここに移り、翌1582年3月3日、織田・徳川軍侵攻を前に城を焼いて退いた。土塁・堀などが残る。"
     },
     {
-      "siteId": "sg2site-a-katsuyori-tano-20261111",
-      "name": "田野・武田勝頼終焉の地（1582年）",
-      "description": "1582年3月11日、武田勝頼が妻の北条夫人、嫡男信勝らとともに最期を遂げた田野地区。戦闘・自害の場所は伝承地点として複数の石碑・史跡が残るが、当日の部屋や一歩目の位置を一点に確定することはできない。",
-      "personIds": [
-        "sg-e00b2631eded"
-      ],
-      "municipalityCodes": [
-        "19213"
-      ],
-      "municipalityCode": "19213",
-      "locationReviewed": true,
-      "rightsReviewed": true,
-      "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
-      "locationAccuracy": "市区町村確認・地点不明",
-      "sourceIds": [
-        "sg2src-a-katsuyori-koshu-20261111",
-        "sg2src-a-katsuyori-yamanashigrave-20261111",
-        "sg2src-a-katsuyori-koshu-tourism-20261111"
-      ],
-      "sourceUrls": [
-        "https://www.city.koshu.yamanashi.jp/docs/2017051600118/",
-        "https://www.pref.yamanashi.jp/maizou-bnk/topics/301-400/0322.html",
-        "https://www.koshu-kankou.jp/soshiki/1/holyland.html"
-      ],
-      "approval": {
-        "sheetRow": 1931,
-        "version": "v1",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "自治体確認済・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "58922d98bf9ce637c139acbafab7324ca3cca9aa677be15855e52b5793f44c53",
-        "kind": "史跡",
-        "personId": "sg-e00b2631eded",
-        "sourceId": "sg2site-a-katsuyori-tano-20261111"
-      },
-      "approvedPersonIds": [
-        "sg-e00b2631eded"
-      ]
-    },
-    {
       "siteId": "sg2site-a-katsuyori-keitokuin-20261111",
       "name": "景徳院（武田勝頼の墓所）",
       "description": "景徳院は、1582年に田野で死去した武田勝頼と北条夫人、嫡男信勝を弔う寺である。武田家の滅亡後、徳川家康の命で建立されたと伝えられ、境内に勝頼らの墓が残る。武田家の最期を後世の人々がどう悼んできたかを物語る場所である。",
@@ -81376,48 +81218,6 @@
       "pinApprovalText": "1582年3月11日に田野で死去した武田勝頼、北条夫人、嫡男信勝を弔うため、後に徳川家康の命で建立された寺院。境内には勝頼らの墓塔があり、現存する主要墓石は後世の造立である。死去当日の居室ではない。",
       "approvedPersonIds": [
         "sg-e00b2631eded"
-      ]
-    },
-    {
-      "siteId": "sg2site-a-nobutora-kawada-old-20261111",
-      "name": "川田館跡（信虎の旧本拠・推定地）",
-      "description": "信虎が1519年に躑躅ヶ崎へ移る以前、武田氏が石和近くに構えていた川田の守護館の推定跡。武田家が甲斐をまとめる前の政治拠点であった。",
-      "personIds": [
-        "sg-98514cee0056"
-      ],
-      "municipalityCodes": [
-        "19201"
-      ],
-      "municipalityCode": "19201",
-      "locationReviewed": true,
-      "rightsReviewed": true,
-      "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
-      "locationAccuracy": "市区町村確認・地点不明",
-      "sourceIds": [
-        "sg2src-a-nobutora-kofu-chron-20261111",
-        "sg2src-a-nobutora-yamanashi-yakata-20261111"
-      ],
-      "sourceUrls": [
-        "https://www.city.kofu.lg.jp/k003/p005482.html",
-        "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html"
-      ],
-      "approval": {
-        "sheetRow": 1933,
-        "version": "v1",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "自治体確認済・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "efc1a3146dcbda46f5dea5534fd3cbc76cd614d4fbe18c965d32143150711ffd",
-        "kind": "史跡",
-        "personId": "sg-98514cee0056",
-        "sourceId": "sg2site-a-nobutora-kawada-old-20261111"
-      },
-      "approvedPersonIds": [
-        "sg-98514cee0056"
       ]
     },
     {
@@ -83889,8 +83689,11 @@
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
-      "publicPin": false,
-      "point": null,
+      "publicPin": true,
+      "point": [
+        135.336812,
+        34.745646
+      ],
       "locationAccuracy": "実地点確認済",
       "sourceIds": [
         "sg2src-a-miy-koshimizu-nishinomiya-20261114",
@@ -83922,7 +83725,57 @@
       },
       "approvedPersonIds": [
         "sg-24684888730a"
-      ]
+      ],
+      "pinApproval": {
+        "sheetRow": 3681,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "59d1fe411e5deae205ec358d3093ed5ff27509bc639705e191f9545fe59d36e9",
+        "kind": "史跡",
+        "personId": "sg-24684888730a",
+        "sourceId": "sg2site-a-miy-koshimizu-20261114"
+      },
+      "pinPersonIds": [
+        "sg-24684888730a"
+      ],
+      "pinReview": {
+        "sourceSheetRow": 424,
+        "decision": "可",
+        "municipality": "兵庫県西宮市",
+        "locationKind": "B公表史跡・歴史情報参照点（入口・経路ではありません）",
+        "accessStatus": "red",
+        "restriction": "大社小学校の校地や近隣の私有地には立ち入らないでください。CODHの歴史地名参照点であり、城址碑の厳密な位置や入口・安全な通路を示すものではありません。",
+        "checkedAt": "2026-11-20",
+        "officialInfoUrl": "https://www.nishi.or.jp/shisei/sankaku/community/community/taisyachiiki.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/29/290000072700.html",
+        "positionSourceIds": [
+          "sg2src-a-miy-koshimizu-nishinomiya-20261114",
+          "sg2src-a-miy-koshimizu-jr-20261114",
+          "sg2src-a1-miy-koshimizu-shijonawate2021-20261116",
+          "sg2src-a1-miy-koshimizu-codh-poi-20261116",
+          "sg2src-b-20261120-koshimizu-red-school-codh",
+          "sg2src-new9-b-codh-poi-20261120"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          },
+          {
+            "label": "公式見学案内",
+            "url": "https://www.nishi.or.jp/shisei/sankaku/community/community/taisyachiiki.html"
+          }
+        ],
+        "approvedE": "⑥3681 v2・③424 B公開位置版照合。大社小学校の校地や近隣の私有地には立ち入らないでください。CODHの歴史地名参照点であり、城址碑の厳密な位置や入口・安全な通路を示すものではありません。"
+      }
     },
     {
       "siteId": "sg2site-a-miy-akutagawa-20261114",
@@ -91920,10 +91773,54 @@
     },
     {
       "siteId": "sg2site-a28-murakami-shioda-20261121",
-      "publicPin": false,
-      "point": null,
-      "pinApproval": null,
-      "pinReview": null,
+      "publicPin": true,
+      "point": [
+        138.19609,
+        36.339715
+      ],
+      "pinApproval": {
+        "sheetRow": 3904,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "96b0c01816e3d24229d5c51d0a5f1bb14ef67597e85e9acf48af7d3a4b5cd485",
+        "kind": "史跡",
+        "personId": "sg-master-2001",
+        "sourceId": "sg2site-a28-murakami-shioda-20261121"
+      },
+      "pinReview": {
+        "sourceSheetRow": 495,
+        "decision": "可",
+        "municipality": "長野県上田市",
+        "locationKind": "B公表史跡・歴史情報参照点（入口・経路ではありません）",
+        "accessStatus": "green",
+        "restriction": "一般に案内された散策区域を利用してください。周辺住宅・畑・私有地には立ち入らず、史跡の情報点を安全な通行経路や入口とみなさないでください。",
+        "checkedAt": "2026-11-22",
+        "officialInfoUrl": "https://ueda-kanko.or.jp/spot/shiodacastle/",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000093600.html",
+        "positionSourceIds": [
+          "sg2src-a28-murakami-nagano-shishi-1553-20261121",
+          "sg2src-a28-murakami-ueda-shioda-1553-20261121"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          },
+          {
+            "label": "公式見学案内",
+            "url": "https://ueda-kanko.or.jp/spot/shiodacastle/"
+          }
+        ],
+        "approvedE": "⑥3904 v1・③495 B公開位置版照合。一般に案内された散策区域を利用してください。周辺住宅・畑・私有地には立ち入らず、史跡の情報点を安全な通行経路や入口とみなさないでください。"
+      },
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
@@ -91960,14 +91857,61 @@
         "kind": "史跡",
         "personId": "sg-master-2001",
         "sourceId": "sg2site-a28-murakami-shioda-20261121"
-      }
+      },
+      "pinPersonIds": [
+        "sg-master-2001"
+      ]
     },
     {
       "siteId": "sg2site-a28-murakami-nechi-20261121",
-      "publicPin": false,
-      "point": null,
-      "pinApproval": null,
-      "pinReview": null,
+      "publicPin": true,
+      "point": [
+        137.869634,
+        36.959569
+      ],
+      "pinApproval": {
+        "sheetRow": 3905,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "e57c91a71ccc607669937a9d0b5dcfb59159ab335c61edd0d7bbc18b0d494067",
+        "kind": "史跡",
+        "personId": "sg-master-2001",
+        "sourceId": "sg2site-a28-murakami-nechi-20261121"
+      },
+      "pinReview": {
+        "sourceSheetRow": 496,
+        "decision": "可",
+        "municipality": "新潟県糸魚川市",
+        "locationKind": "B公表史跡・歴史情報参照点（入口・経路ではありません）",
+        "accessStatus": "yellow",
+        "restriction": "山城には急な登りがあります。積雪・悪天候に注意し、現地の案内に従ってください。この情報点は登山口や安全な経路ではありません。",
+        "checkedAt": "2026-11-22",
+        "officialInfoUrl": "https://www.itoigawa-kanko.net/trad/nechijo/",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/15/150000023500.html",
+        "positionSourceIds": [
+          "sg2src-a28-murakami-itoigawa-nechi-20261121",
+          "sg2src-a28-murakami-tokyo-u-nechi-death-20261121"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          },
+          {
+            "label": "公式見学案内",
+            "url": "https://www.itoigawa-kanko.net/trad/nechijo/"
+          }
+        ],
+        "approvedE": "⑥3905 v1・③496 B公開位置版照合。山城には急な登りがあります。積雪・悪天候に注意し、現地の案内に従ってください。この情報点は登山口や安全な経路ではありません。"
+      },
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
@@ -92004,7 +91948,10 @@
         "kind": "史跡",
         "personId": "sg-master-2001",
         "sourceId": "sg2site-a28-murakami-nechi-20261121"
-      }
+      },
+      "pinPersonIds": [
+        "sg-master-2001"
+      ]
     },
     {
       "siteId": "sg2site-a30-takanobu-seifukuji-1559-20261121",
@@ -97726,10 +97673,56 @@
     },
     {
       "siteId": "sg2site-a27-ujitsuna-taisekiji-1537-20261121",
-      "publicPin": false,
-      "point": null,
-      "pinApproval": null,
-      "pinReview": null,
+      "publicPin": true,
+      "point": [
+        138.583466,
+        35.281353
+      ],
+      "pinApproval": {
+        "sheetRow": 3986,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "9012022a208faba657b7a12ec50b490edd62dbf4c498c402822db216ce2daa24",
+        "kind": "史跡",
+        "personId": "sg-c594233cb2b7",
+        "sourceId": "sg2site-a27-ujitsuna-taisekiji-1537-20261121"
+      },
+      "pinReview": {
+        "sourceSheetRow": 494,
+        "decision": "可",
+        "municipality": "静岡県富士宮市",
+        "locationKind": "B公表史跡・歴史情報参照点（入口・経路ではありません）",
+        "accessStatus": "red",
+        "restriction": "一般に散策できる境内と堂内・管理区画の立入制限は別です。非公開区画に入らず、公式の見学規則に従ってください。情報ピンは参拝許可や経路の保証ではありません。",
+        "checkedAt": "2026-11-22",
+        "officialInfoUrl": "https://www.nichirenshoshu.or.jp/jpn/taisekiji-faq.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000141900.html",
+        "positionSourceIds": [
+          "sg2src-a27-ujitsuna-fujinomiya-kato-pdf-1537-20261121",
+          "sg2src-a27-ujitsuna-taisekiji-official-20261121",
+          "sg2src-a27-ujitsuna-taisekiji-1717-buildings-20261121",
+          "sg2src-a27-ujitsuna-fujinomiya-tourism-taisekiji-20261121"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          },
+          {
+            "label": "公式見学案内",
+            "url": "https://www.nichirenshoshu.or.jp/jpn/taisekiji-faq.html"
+          }
+        ],
+        "approvedE": "⑥3986 v1・③494 B公開位置版照合。一般に散策できる境内と堂内・管理区画の立入制限は別です。非公開区画に入らず、公式の見学規則に従ってください。情報ピンは参拝許可や経路の保証ではありません。"
+      },
       "locationReviewed": true,
       "rightsReviewed": true,
       "bStatus": "合格",
@@ -97770,7 +97763,10 @@
         "kind": "史跡",
         "personId": "sg-c594233cb2b7",
         "sourceId": "sg2site-a27-ujitsuna-taisekiji-1537-20261121"
-      }
+      },
+      "pinPersonIds": [
+        "sg-c594233cb2b7"
+      ]
     },
     {
       "siteId": "sg2site-a33-haruhisa-yamabuki-1556-20261121",
@@ -107692,58 +107688,6 @@
       ]
     },
     {
-      "personId": "sg-e00b2631eded",
-      "historyId": "sg2hist-katsuyori-1582-death",
-      "siteId": "sg2site-a-katsuyori-tano-20261111",
-      "classification": "本人直接",
-      "bStatus": "合格",
-      "linkDecision": "関係上対象",
-      "sourceIds": [
-        "sg2src-a-katsuyori-koshu-20261111",
-        "sg2src-a-katsuyori-yamanashigrave-20261111"
-      ],
-      "sourceUrls": [
-        "https://www.city.koshu.yamanashi.jp/docs/2017051600118/",
-        "https://www.pref.yamanashi.jp/maizou-bnk/topics/301-400/0322.html"
-      ]
-    },
-    {
-      "personId": "sg-98514cee0056",
-      "historyId": "sg2hist-nobutora-kofu-founding",
-      "siteId": "sg2site-a-nobutora-kawada-old-20261111",
-      "classification": "本人直接",
-      "bStatus": "合格",
-      "linkDecision": "関係上対象",
-      "sourceIds": [
-        "sg2src-a-nobutora-kofu-chron-20261111",
-        "sg2src-a-nobutora-yamanashi-yakata-20261111",
-        "sg2src-a-nobutora-koshu-city-20261111"
-      ],
-      "sourceUrls": [
-        "https://www.city.kofu.lg.jp/k003/p005482.html",
-        "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html",
-        "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_1shou.pdf"
-      ]
-    },
-    {
-      "personId": "sg-98514cee0056",
-      "historyId": "sg2hist-nobutora-kofu-founding",
-      "siteId": "sg2site-shingen-residence",
-      "classification": "本人直接",
-      "bStatus": "合格",
-      "linkDecision": "関係上対象",
-      "sourceIds": [
-        "sg2src-a-nobutora-kofu-chron-20261111",
-        "sg2src-a-nobutora-yamanashi-yakata-20261111",
-        "sg2src-a-nobutora-koshu-city-20261111"
-      ],
-      "sourceUrls": [
-        "https://www.city.kofu.lg.jp/k003/p005482.html",
-        "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sb0003.html",
-        "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_1shou.pdf"
-      ]
-    },
-    {
       "personId": "sg-98514cee0056",
       "historyId": "sg2hist-nobutora-yogaizan",
       "siteId": "sg2site-shingen-yogaizan",
@@ -115086,6 +115030,13 @@
         "nov24Phase2Pins": 11,
         "withheldPhase2Pins": 6,
         "productionVerified": false
+      },
+      "v9": {
+        "date": "2026-11-25",
+        "description": "C禁止の旧承認データ4件を削除、取得関係のない勝頼経歴1件を条件付き保留、B/⑥公開位置承認済み4ピン復旧",
+        "existingUsersAndApprovedTextUnchanged": true,
+        "noChangesToBDecisions": true,
+        "priorRelease": "v2-approved-c-20261124-p2-88"
       }
     }
   },
