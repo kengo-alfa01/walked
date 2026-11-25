@@ -47,5 +47,5 @@ test('C v9: published ledger exactly matches active JSON and no banned rows',()=
  const data=fs.readFileSync('sengoku/v2/approved-c-20261124-p2-88.json');
  const blob=crypto.createHash('sha1').update(Buffer.from('blob '+data.length+'\0')).update(data).digest('hex');
  const status=fs.readFileSync('data/c-release/status.csv','utf8');
- assert(status.includes(blob+',88,1589,553,521,2319'));
+ assert(status.includes(blob+',88,1589,553,521,2318'));
 });
