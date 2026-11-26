@@ -1,0 +1,372 @@
+[
+  {
+    "id": "sg-4f1942dd8d61",
+    "name": "大久保忠世",
+    "group": "徳川・三河",
+    "aliases": [],
+    "verification": "needs_review",
+    "siteResearch": "not_started",
+    "source": "",
+    "notes": "",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-307b4f851434",
+    "name": "武田信廉",
+    "group": "武田・甲斐・信濃",
+    "aliases": [],
+    "verification": "needs_review",
+    "siteResearch": "not_started",
+    "source": "",
+    "notes": "",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-c654b6b73e86",
+    "name": "武田信昌",
+    "group": "武田・甲斐・信濃",
+    "aliases": [],
+    "verification": "needs_review",
+    "siteResearch": "not_started",
+    "source": "",
+    "notes": "",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-0cab63b42163",
+    "name": "小山田信茂",
+    "group": "武田・甲斐・信濃",
+    "aliases": [],
+    "verification": "needs_review",
+    "siteResearch": "not_started",
+    "source": "",
+    "notes": "",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-b3e7eb14e624",
+    "name": "上杉定正",
+    "group": "上杉・越後・北陸",
+    "aliases": [],
+    "verification": "needs_review",
+    "siteResearch": "not_started",
+    "source": "",
+    "notes": "",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-27a0e44acb89",
+    "name": "上杉朝定",
+    "group": "上杉・越後・北陸",
+    "aliases": [],
+    "verification": "needs_review",
+    "siteResearch": "not_started",
+    "source": "",
+    "notes": "",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-cc16ffc52c66",
+    "name": "長尾景春",
+    "group": "上杉・越後・北陸",
+    "aliases": [],
+    "verification": "needs_review",
+    "siteResearch": "not_started",
+    "source": "",
+    "notes": "",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-1a1371852d91",
+    "name": "北条氏堯",
+    "group": "北条・関東",
+    "aliases": [],
+    "verification": "needs_review",
+    "siteResearch": "not_started",
+    "source": "",
+    "notes": "",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-7c350c62d250",
+    "name": "太田道灌",
+    "group": "北条・関東",
+    "aliases": [],
+    "verification": "needs_review",
+    "siteResearch": "not_started",
+    "source": "",
+    "notes": "",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-aa0ce003dbd8",
+    "name": "太田資正",
+    "group": "北条・関東",
+    "aliases": [],
+    "verification": "needs_review",
+    "siteResearch": "not_started",
+    "source": "",
+    "notes": "",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-added-matsuda-yasunaga",
+    "name": "松田康長",
+    "group": "北条・関東",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.city.mishima.shizuoka.jp/page/2145.html",
+    "notes": "追加カードに対応する人物。個別史実は各カードの出典を参照。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-added-mamiya-yasutoshi",
+    "name": "間宮康俊",
+    "group": "北条・関東",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/4805.pdf",
+    "notes": "追加カードに対応する人物。個別史実は各カードの出典を参照。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-added-sanjo-lady",
+    "name": "三条夫人",
+    "group": "文化・宗教・女性",
+    "aliases": [
+      "三条の方"
+    ],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.pref.yamanashi.jp/bunka/maibun/yamanashinobunkazai_sc0010.html",
+    "notes": "甲府市円光院にゆかり。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-reviewed-1c74f86254a2",
+    "name": "太田道真",
+    "group": "北条・関東",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/010/672/2-1shou.pdf",
+    "notes": "太田道灌の父。河越城の築城に関わる。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-reviewed-60f6420feed4",
+    "name": "仙石忠政",
+    "group": "豊臣政権・関ヶ原",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "documented",
+    "source": "https://www.city.ueda.nagano.jp/site/uedajo/123940.html",
+    "notes": "破城された上田城を江戸初期に復興。戦国時代の城のその後を扱う。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-researched-095-tokugawa-yorinobu",
+    "name": "徳川頼宣",
+    "group": "徳川・紀伊",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "source_confirmed",
+    "source": "https://www.city.shizuoka.lg.jp/s6725/p009496.html",
+    "notes": "1609～1619年に駿府藩主として駿府城を居城としたことを静岡市が記載。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-researched-095-nagano-narimori",
+    "name": "長野業盛",
+    "group": "関東・上野",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "source_confirmed",
+    "source": "https://www.city.takasaki.gunma.jp/site/cultural-assets/5565.html",
+    "notes": "1566年の箕輪城落城と城主の死について高崎市が記載。自害・埋葬の細部は箕輪軍記由来の伝承。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-researched-096-sengoku-hidehisa",
+    "name": "仙石秀久",
+    "group": "豊臣・信濃",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "source_confirmed",
+    "source": "https://www.city.komoro.lg.jp/citypromotion/places/6084.html",
+    "notes": "自治体の公開資料で関連する史跡・出来事を確認。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-researched-097-iwamatsu-iezumi",
+    "name": "岩松家純",
+    "group": "関東・上野",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "source_confirmed",
+    "source": "https://www.city.ota.gunma.jp/page/4378.html",
+    "notes": "金山城築城命令について太田市の解説に記載。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-researched-097-yokose-narishige",
+    "name": "横瀬成繁（由良成繁）",
+    "group": "関東・上野",
+    "aliases": [
+      "由良成繁",
+      "横瀬成繁"
+    ],
+    "verification": "reviewed",
+    "siteResearch": "source_confirmed",
+    "source": "https://www.city.ota.gunma.jp/page/4142.html",
+    "notes": "1565年ごろ由良へ改姓。市公式年表に金山城での戦いを記載。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-researched-097-yoda-nobushige",
+    "name": "依田信蕃",
+    "group": "信濃・佐久",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "source_confirmed",
+    "source": "https://www.city.saku.nagano.jp/kanko/kanko/spot/meisho_shiseki/tomonojoseki.html",
+    "notes": "攻略年は佐久市観光解説1583年と、市の発掘調査資料に見える1582年に差があり、要調査。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-person-okabe-motonobu",
+    "name": "岡部元信",
+    "group": "戦国・城郭関連",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "reviewed",
+    "source": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/8328.html",
+    "notes": "市公式史料解説に基づき追加",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-person-suganuma-motonari",
+    "name": "菅沼元成",
+    "group": "奥三河・菅沼氏",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "reviewed",
+    "source": "https://www.city.shinshiro.lg.jp/kanko/minzokugeino/nagashinojyoato.html",
+    "notes": "新城市公式解説で1508年の長篠城築城者として記載。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-researched-098-makabe-hisamoto",
+    "name": "真壁久幹",
+    "group": "常陸・真壁氏",
+    "aliases": [
+      "夜叉真壁"
+    ],
+    "verification": "reviewed",
+    "siteResearch": "reviewed",
+    "source": "https://www.city.sakuragawa.lg.jp/temporary/page006693.html",
+    "notes": "桜川市公式「真壁氏の歴史」による。伝説や通称と文献史実を区別。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-researched-099-chiba-yoritane",
+    "name": "千葉自胤",
+    "group": "武蔵千葉氏",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "reviewed",
+    "source": "https://www.city.itabashi.tokyo.jp/bousai/kougai/taiki/1053637/1006054.html",
+    "notes": "板橋区公式解説に基づく。千葉実胤とは別人。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-person-ushigome-katsuyuki",
+    "name": "牛込勝行",
+    "group": "牛込氏",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "reviewed",
+    "source": "https://kotobank.jp/word/宗参寺-3043639",
+    "notes": "詳細はカードの出典と留保事項を参照。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-person-oba-nobuhisa",
+    "name": "大場信久",
+    "group": "世田谷吉良氏家臣",
+    "aliases": [],
+    "verification": "reviewed",
+    "siteResearch": "reviewed",
+    "source": "https://museum.bunka.go.jp/wp-content/uploads/2022/12/d00138265.html",
+    "notes": "詳細はカードの出典と留保事項を参照。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-person-kato-kagetada-uenohara",
+    "name": "加藤景忠",
+    "group": "甲斐・郡内",
+    "aliases": [
+      "加藤丹後守景忠"
+    ],
+    "verification": "reviewed",
+    "siteResearch": "verified",
+    "source": "https://www.yamanashi-jinjacho.or.jp/intro/search/detail/8089",
+    "notes": "牛倉神社の永禄9年再営の伝承に登場。甲斐国志の棟札写に関する情報も参照。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-person-takeda-nobushige-15c",
+    "name": "武田信重",
+    "group": "武田・甲斐・信濃",
+    "aliases": [
+      "甲斐守護武田信重"
+    ],
+    "verification": "reviewed",
+    "siteResearch": "verified",
+    "source": "https://kotobank.jp/word/%E6%AD%A6%E7%94%B0%E4%BF%A1%E9%87%8D%E9%A4%A8%E8%B7%A1-3057274",
+    "notes": "15世紀の甲斐守護。武田信玄の弟・武田信繁とは別人。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  },
+  {
+    "id": "sg-person-kira-yoriyasu",
+    "name": "吉良頼康",
+    "group": "吉良・世田谷",
+    "aliases": [],
+    "verification": "reviewed",
+    "source": "https://www.city.kawasaki.jp/880/page/0000000056.html",
+    "notes": "16世紀に泉澤寺を現在地へ再興した吉良氏の領主。吉良頼高とは区別する。",
+    "active": false,
+    "archiveReason": "not_selected_or_not_in_master; kept solely for legacy card references"
+  }
+]
