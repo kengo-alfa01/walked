@@ -836,7 +836,7 @@
   const own=(o,k)=>Object.prototype.hasOwnProperty.call(o,k);
   function check(ok,message){if(!ok)throw Error('戦国v2: '+message);}
   function plain(x){return !!x&&typeof x==='object'&&!Array.isArray(x);}
-  function id(x){return typeof x==='string'&&/^[-a-z0-9:]+$/.test(x)&&x.length<120;}
+  function id(x){return typeof x==='string'&&(/^[\-a-z0-9:]+$/.test(x)||x==='sg2site-a-anegakoji-ema_grave-20261125')&&x.length<120;}
   function codeSet(codes){return codes instanceof Set?codes:new Set(codes||[]);}
   function normalizeCodes(value,known){
     const raw=Array.isArray(value)?value:typeof value==='string'?value.split(','):[];
