@@ -16,7 +16,7 @@ for(const [label,browserType,opts] of [
   const ctx=await browser.newContext(opts),page=await ctx.newPage();
   const errors=[],seen=[];
   page.on('pageerror',e=>errors.push(e.message));
-  page.on('response',r=>{if(r.url().includes('approved-c-20261124-p2-88.json'))seen.push({status:r.status(),url:r.url()});});
+  page.on('response',r=>{if(r.url().includes('approved-c-20261126-new4.json'))seen.push({status:r.status(),url:r.url()});});
   await page.route('**/municipalities.topojson',r=>r.fulfill({path:path.join(root,'.qa-assets/municipalities.topojson'),contentType:'application/json'}));
   await page.route('**/topojson-client@3/dist/topojson-client.min.js',r=>r.fulfill({path:path.join(root,'.qa-assets/topojson-client.min.js'),contentType:'application/javascript'}));
   await page.route('**/leaflet@1.9.4/dist/leaflet.js',r=>r.fulfill({path:path.join(root,'node_modules/leaflet/dist/leaflet.js'),contentType:'application/javascript'}));
@@ -32,9 +32,9 @@ for(const [label,browserType,opts] of [
   });
   try{
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
-   await page.waitForFunction(()=>typeof sengokuV2Catalog!=='undefined'&&sengokuV2Catalog?.people?.size===88,{timeout:45000});
+   await page.waitForFunction(()=>typeof sengokuV2Catalog!=='undefined'&&sengokuV2Catalog?.people?.size===92,{timeout:45000});
    await page.locator('[data-collection-mode="sengoku"]').click();
-   await page.waitForFunction(()=>sengokuPins.getLayers().length===522,{timeout:20000});
+   await page.waitForFunction(()=>sengokuPins.getLayers().length===544,{timeout:20000});
    const actual=await page.evaluate(()=>{
     const p1=sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121');
     const restored=sengokuV2Catalog.sites.get('sg2site-a27-ujitsuna-taisekiji-1537-20261121');
@@ -53,8 +53,8 @@ for(const [label,browserType,opts] of [
      retiredOldHistory:!!sengokuFound['sg2hist-hanbei-nagashino-1575'],
      overflow:document.documentElement.scrollWidth>window.innerWidth+4};
    });
-   assert.equal(actual.version,'v2-approved-c-20261124-p2-88-v10');
-   assert.deepEqual([actual.people,actual.pins],[88,522]);
+   assert.equal(actual.version,'v2-approved-c-20261126-new4-v11');
+   assert.deepEqual([actual.people,actual.pins],[92,544]);
    assert.equal(actual.visible,true);assert.deepEqual(actual.p1Point,[136.4188125,34.4061875]);
    assert.equal(actual.p1Access,'yellow');assert.equal(actual.redNoRouting,true);
    assert.equal(actual.restoredPin,true);assert.deepEqual(actual.restoredPoint,[138.583466,35.281353]);assert.equal(actual.blockedOldSite,true);assert.equal(actual.blockedKatsuyoriHistory,true);
@@ -97,8 +97,30 @@ for(const [label,browserType,opts] of [
    });
    assert(acquired.owned);assert(acquired.same);assert.equal(acquired.cardCount,1);assert.match(acquired.cardText,/獲得済み/);assert.equal(acquired.halo,'#151515');assert.equal(acquired.overflow,false);assert.deepEqual(errors,[]);
    console.log('KATSUYORI_TANO_TARGET_BROWSER_PASS '+label);
+   await page.evaluate(()=>{selectedSengokuPersonId=null;refreshSengokuPins();});
+   const newCheck=await page.evaluate(()=>{
+    const newSites=[...sengokuV2Catalog.sites.values()].filter(s=>s.approval.sheetRow>=4497&&s.approval.sheetRow<=4588);
+    const at=(layer,s)=>Math.abs(layer.getLatLng().lat-s.point[1])<1e-9&&Math.abs(layer.getLatLng().lng-s.point[0])<1e-9;
+    const checks=newSites.map(s=>({id:s.siteId,ok:s.publicPin?sengokuPins.getLayers().some(l=>at(l,s)&&l.options.fillColor===SengokuV2.pinPresentation(s.pinReview.accessStatus).fill):s.point===null&&s.pinApproval===undefined}));
+    return {checks,visible:sengokuPins.getLayers().length};
+   });
+   assert.equal(newCheck.visible,544);assert.equal(newCheck.checks.length,25);assert(newCheck.checks.every(x=>x.ok));
+   const demo=await page.evaluate(()=>{
+    const pids=["sg-17496a5d9dfa","sg-master-0365","sg-added-matsumae-yoshihiro-20261125","sg-added-anegakoji-yoritsuna-20261125"];
+    const res=[];
+    for(const pid of pids){
+      const person=sengokuV2Catalog.people.get(pid),h=[...sengokuV2Catalog.histories.values()].find(h=>h.personId===pid&&h.kind==='place');
+      const code=[...sengokuV2Catalog.codes.get(h.historyId)][0];state.visited[code]={first:'2020-01-01'};reconcileSengokuVisits();
+      const first=JSON.stringify(sengokuFound[h.historyId]);reconcileSengokuVisits();showSengokuPerson({id:pid,name:person.name});
+      const detail=document.querySelector('#sengokuDetail');
+      res.push({name:person.name,owned:ownsSengokuCard(h.historyId),same:!!first&&first===JSON.stringify(sengokuFound[h.historyId]),title:detail.textContent.includes(person.name),storyPending:person.story===null?detail.textContent.includes('完成版ストーリーは公開準備中です。'):true,overflow:document.documentElement.scrollWidth>innerWidth+4});
+    }
+    return res;
+   });
+   assert.equal(demo.length,4);assert(demo.every(x=>x.owned&&x.same&&x.title&&x.storyPending&&!x.overflow));assert.deepEqual(errors,[]);
+   console.log('NEW4_BROWSER_77_PASS '+label+' '+JSON.stringify(demo));
 
-   console.log('P1_BROWSER_RELEASE_PASS '+label+' '+JSON.stringify({version:actual.version,people:88,pins:522}));
+   console.log('P1_BROWSER_RELEASE_PASS '+label+' '+JSON.stringify({version:actual.version,people:92,pins:544}));
   }finally{await browser.close();}
  });
 }

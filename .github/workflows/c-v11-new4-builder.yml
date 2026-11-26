@@ -1,0 +1,55 @@
+name: C v11 new4 isolated approved77 build and browser QA
+on:
+  push:
+    branches: [c/new4-approved77-20261126]
+    paths:
+      - 'scripts/build-c-v11-new4.cjs'
+      - 'docs/c-release/20261126-new4-approved77.json'
+      - '.github/workflows/c-v11-new4-builder.yml'
+      - 'tests/c-v11-new4*'
+      - 'sengoku-v2-core.js'
+permissions:
+  contents: write
+concurrency:
+  group: c-v11-new4
+  cancel-in-progress: false
+jobs:
+  isolated-build:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate verified candidate and exact ledger
+        run: |
+          node scripts/build-c-v11-new4.cjs
+          node scripts/export-c-release-ledger.cjs
+          node --test tests/c-v11-new4.test.cjs tests/c-v10-katsuyori-release.test.cjs tests/c-v8-earned-halo-consistency.test.cjs
+          node scripts/export-c-release-ledger.cjs --check
+      - name: Install pinned browser assets
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Prepare deterministic geometry
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Verify target and legacy PC Chromium and iPhone WebKit
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/c-new4-http.log 2>&1 &
+          sleep 2
+          node --test tests/c-v11-new4.browser.cjs
+      - name: Commit verified candidate only to staging branch
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add sengoku/v2/approved-c-20261126-new4.json data/c-release/records.csv data/c-release/status.csv
+          git diff --cached --check
+          if git diff --cached --quiet; then echo 'Already generated'; exit 0; fi
+          git commit -m "feat(C v11): stage verified 77 new-person approvals"
+          git push origin HEAD:c/new4-approved77-20261126

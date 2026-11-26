@@ -1081,7 +1081,7 @@ function showSengokuPerson(person){
  const story=document.createElement('p');
  if(SengokuV2.canUnlockStory(sengokuV2Catalog,person.id,sengokuFound,PublicationRuntime.sha256))
   story.textContent=approved.story.text;
- else{story.className='sengoku-v2-locked';story.textContent='全経歴カードを集めると解放されます。'}
+ else{story.className='sengoku-v2-locked';story.textContent=approved.story?'全経歴カードを集めると解放されます。':'完成版ストーリーは公開準備中です。';}
  section.append(story);
  // Standalone related sites appear after the lifetime and full biography.
  // They are acquired by municipality visit even when there is no ④ history
@@ -1103,6 +1103,7 @@ function showSengokuPerson(person){
    const areaNames=entry.visitedMunicipalityCodes.map(code=>titleRegistry?.areas?.find(a=>a.code===code)?.name||code);
    codes.textContent='制覇：'+areaNames.join('・')+(site.publicPin?' ／ 史跡ピン表示あり':' ／ ピンなし');
    block.append(title,label,body,codes);
+   if(site.collectionReview?.restriction){const notice=document.createElement('p');notice.className='small-note';notice.textContent='見学上の注意：'+site.collectionReview.restriction;block.append(notice);}
    SengokuSourceLinks.append(block,site.sourceUrls,document);
    section.append(block);
   }
@@ -1172,7 +1173,7 @@ async function loadSengokuChronology(reviewed){
 async function loadSengoku(){
  try{
   const [r,areas]=await Promise.all([
-   fetch('./sengoku/v2/approved-c-20261124-p2-88.json',{cache:'no-store'}),
+   fetch('./sengoku/v2/approved-c-20261126-new4.json',{cache:'no-store'}),
    fetch('./data/title-registry.json',{cache:'no-cache'})
   ]);
   if(!r.ok||!areas.ok)throw Error('承認済み戦国v2のデータを読み込めません');

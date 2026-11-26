@@ -16,7 +16,7 @@ for(const [label,browserType,opts] of [
   const ctx=await browser.newContext(opts),page=await ctx.newPage();
   const errors=[],seen=[];
   page.on('pageerror',e=>errors.push(e.message));
-  page.on('response',r=>{if(r.url().includes('approved-c-20261124-p2-88.json'))seen.push({status:r.status(),url:r.url()});});
+  page.on('response',r=>{if(r.url().includes('approved-c-20261126-new4.json'))seen.push({status:r.status(),url:r.url()});});
   await page.route('**/municipalities.topojson',r=>r.fulfill({path:path.join(root,'.qa-assets/municipalities.topojson'),contentType:'application/json'}));
   await page.route('**/topojson-client@3/dist/topojson-client.min.js',r=>r.fulfill({path:path.join(root,'.qa-assets/topojson-client.min.js'),contentType:'application/javascript'}));
   await page.route('**/leaflet@1.9.4/dist/leaflet.js',r=>r.fulfill({path:path.join(root,'node_modules/leaflet/dist/leaflet.js'),contentType:'application/javascript'}));
@@ -30,9 +30,9 @@ for(const [label,browserType,opts] of [
   });
   try{
    await page.goto(base+'/index.html',{waitUntil:'domcontentloaded'});
-   await page.waitForFunction(()=>typeof sengokuV2Catalog!=='undefined'&&sengokuV2Catalog?.people?.size===88,{timeout:45000});
+   await page.waitForFunction(()=>typeof sengokuV2Catalog!=='undefined'&&sengokuV2Catalog?.people?.size===92,{timeout:45000});
    await page.locator('[data-collection-mode="sengoku"]').click();
-   await page.waitForFunction(()=>sengokuPins.getLayers().length===522,{timeout:20000});
+   await page.waitForFunction(()=>sengokuPins.getLayers().length===544,{timeout:20000});
    const actual=await page.evaluate(()=>{
     const p1=sengokuV2Catalog.sites.get('sg2site-a5-kita-mise-yakata-20261121');
     const restored=sengokuV2Catalog.sites.get('sg2site-a27-ujitsuna-taisekiji-1537-20261121');
@@ -48,8 +48,8 @@ for(const [label,browserType,opts] of [
      retiredOldHistory:!!sengokuFound['sg2hist-hanbei-nagashino-1575'],
      overflow:document.documentElement.scrollWidth>window.innerWidth+4};
    });
-   assert.equal(actual.version,'v2-approved-c-20261124-p2-88-v10');
-   assert.deepEqual([actual.people,actual.pins],[88,522]);
+   assert.equal(actual.version,'v2-approved-c-20261126-new4-v11');
+   assert.deepEqual([actual.people,actual.pins],[92,544]);
    assert.equal(actual.visible,true);assert.deepEqual(actual.p1Point,[136.4188125,34.4061875]);
    assert.equal(actual.p1Access,'yellow');assert.equal(actual.redNoRouting,true);
    assert.equal(actual.restored,true);assert.deepEqual(actual.restoredPoint,[138.583466,35.281353]);
@@ -58,7 +58,7 @@ for(const [label,browserType,opts] of [
    assert.equal(actual.overflow,false);assert.deepEqual(errors,[]);
    assert.equal(seen.length,1,'Must load release data exactly once');
    assert.equal(seen[0].status,200);
-   console.log('P1_BROWSER_RELEASE_PASS '+label+' '+JSON.stringify({version:actual.version,people:88,pins:522}));
+   console.log('P1_BROWSER_RELEASE_PASS '+label+' '+JSON.stringify({version:actual.version,people:92,pins:544}));
   }finally{await browser.close();}
  });
 }

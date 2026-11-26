@@ -26,7 +26,7 @@ function add(kind,id,name,approval,personIds,pin){
 }
 for(const p of pkg.people){
  add('人物紹介',p.personId,p.name,p.introduction.approval,p.personId,false);
- add('完成版ストーリー',p.personId,p.name,p.story.approval,p.personId,false);
+ if(p.story) add('完成版ストーリー',p.personId,p.name,p.story.approval,p.personId,false);
 }
 for(const h of pkg.histories)add('経歴',h.historyId,h.title,h.approval,h.personId,false);
 for(const s of pkg.sites){
