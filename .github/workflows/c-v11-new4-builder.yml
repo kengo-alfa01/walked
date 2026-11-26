@@ -1,4 +1,4 @@
-name: C v11 new4 isolated approved77 build and browser QA
+name: C v11 new4 isolated approved81 build and browser QA
 on:
   push:
     branches: [c/new4-approved77-20261126]
@@ -52,5 +52,5 @@ jobs:
           git add sengoku/v2/approved-c-20261126-new4.json data/c-release/records.csv data/c-release/status.csv
           git diff --cached --check
           if git diff --cached --quiet; then echo 'Already generated'; exit 0; fi
-          git commit -m "feat(C v11): stage verified 77 new-person approvals"
+          git commit -m "feat(C v11): stage verified 81 new-person approvals"
           git push origin HEAD:c/new4-approved77-20261126

@@ -10,6 +10,6 @@ for(const p of m.people){fix(p.introduction.approval,p.introduction.text);if(p.s
 for(const h of m.histories)fix(h.approval,h.text);
 for(const s of m.sites){fix(s.approval,s.description);if(s.publicPin)s.pinApproval={...s.approval};}
 d.people.push(...m.people);d.histories.push(...m.histories);d.sites.push(...m.sites);d.relations.push(...m.relations);d.version=m.version;
-d.notes.cRelease.v11={date:'2026-11-26',description:'77 approved records; two long stories withheld; existing immutable records retained',priorRelease:m.priorVersion};
+d.notes.cRelease.v12={date:'2026-11-26',description:'81 approved records; 4 explicit inherited approvals; existing immutable records retained',priorRelease:m.priorVersion};
 const core=require('../sengoku-v2-core.js'),codes=new Set(JSON.parse(fs.readFileSync('data/title-registry.json')).areas.map(x=>x.code));core.validate(d,codes,sha);
 fs.writeFileSync('sengoku/v2/approved-c-20261126-new4.json',JSON.stringify(d,null,2)+'\n');console.log('C_V11_BUILD_PASS');

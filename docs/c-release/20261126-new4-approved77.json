@@ -1,10 +1,10 @@
 {
-  "version": "v2-approved-c-20261126-new4-v11",
+  "version": "v2-approved-c-20261126-new4-v12",
   "priorCommit": "2b7152f24ed5e701a9a81ac023d527ae047be627",
   "priorVersion": "v2-approved-c-20261124-p2-88-v10",
   "priorBlob": "05e248d9a3a23b1f8e249e1f2ea11984a3f322fa",
   "sourceSpreadsheet": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
-  "scope": "⑥4497–4588 最新C候補77のみ。main未公開。",
+  "scope": "⑥4497–4588 最新C候補81（直接77＋承認継承4）。main未公開。",
   "people": [
     {
       "personId": "sg-17496a5d9dfa",
@@ -260,7 +260,60 @@
           "https://www.town.fukushima.hokkaido.jp/%E6%A4%9C%E7%B4%A2%E7%94%A8%E3%81%AE%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B/"
         ]
       },
-      "story": null
+      "story": {
+        "text": "本州の武将たちが城と田畑を奪い合っていた時代、津軽海峡の向こうには、海の往来を力に変えて生きる一族がいた。蠣崎氏である。その家に生まれた松前慶広は、安東氏に従う領主から、天下人と直接交渉する大名へと歩んでいく。彼が家の存続を懸けたのは、戦場だけではなかった。海を行き交う船と交易を、誰が取り仕切るのかという問題だった。\n\n1548年、慶広は蠣崎季広の三男として生まれた。幼いころは新三郎とも呼ばれた。蠣崎氏は蝦夷地南部の松前大館を本拠とし、出羽の安東氏との関係のもとで勢力を保っていた。海の向こうには本州の領主たちがいる。一方、蝦夷地にはアイヌの人々が暮らし、独自の社会を営んでいた。松前の領主にとって、海を越える交易と周囲の人々との関係は、家を支える大切な基盤だった。\n\n1579年、慶広は主家の安東愛季に昆布などを献上した。その折、父季広が軍事行動を予定していることも伝えている。海の産物を贈り、家の動きを知らせる。北の海辺で暮らす一族も、出羽や津軽の武将たちが築く政治の秩序から離れてはいられなかった。\n\n1582年、慶広は父から家督を譲られた。同じ年には、父の命を受けて安東愛季の軍役にも加わっている。領地を受け継いだ当主には、主家の戦いに応じる務めもあった。その翌1583年、比内の浅利勝頼が謀殺される事件に慶広は関わり、愛季から恩賞を受けた。慶広が具体的にどのような行為をしたかは明らかでないが、その働きが主君に評価されたことは文書に残る。蠣崎家の歩みは、海の幸を贈り合う穏やかな交流だけで成り立っていたのではない。北出羽で繰り広げられた争いと、そこで失われた命も、その歴史の一部だった。\n\n1589年には北奥羽の南部信直へ鷹を贈った。昆布や鷹といった北国の産物は、遠くの武将と関係を結ぶためにも用いられた。しかし、そのころ本州では、これまでとは比べものにならない大きな変化が起きていた。豊臣秀吉が諸大名を従わせ、各地の領主が天下人のもとで新たな立場を得ようとしていたのである。\n\n1590年、慶広は前田利家らの取りなしを受けて上洛し、秀吉に謁見した。長く安東氏に従ってきた蠣崎家の当主が、自ら天下人に会う。この一歩によって、中央政権と直接結ばれる道が開けた。海峡の向こうの政治を、出羽の主家を通して知るだけの立場ではなくなりつつあった。\n\nだが、天下人と結ぶことは、その戦いにも関わることを意味した。翌1591年、九戸政実が南部氏に反抗して城に籠もると、秀吉は奥羽へ大軍を送った。慶広も豊臣方として参陣する。九戸城は包囲の末に降伏し、北奥羽の諸勢力は豊臣政権の秩序の中へ組み込まれていった。蝦夷地南部の領主にとっても、本州の新しい政治は無関係ではなかった。\n\n慶広は再び秀吉との交渉に向かう。1592年の旧暦十一月、彼が赴いたのは大坂だった。しかし秀吉は朝鮮への侵攻を指揮するため、肥前名護屋にいた。戦争のために諸大名と物資が集まる九州の地で、慶広は翌1593年正月に秀吉と会った。日本軍の侵攻が朝鮮に大きな被害をもたらす一方、その陣中では北の海をめぐる政治にも重要な決定が下されていた。\n\n慶広が得たのは、松前に出入りする船から役銭を取ることなどを認める朱印状だった。船の往来は、それまでにも蠣崎家の暮らしを支えていた。その交易を管理する権利に、今度は天下人の文書という裏付けが加わったのである。安東氏のもとにあった蠣崎家は、自ら交易を取り仕切る地位を強め、自立への大きな転機を迎えた。\n\n1596年、慶広は長男の盛広を伴って大坂へ赴き、大坂城西の丸で徳川家康に謁見した。秀吉との関係を築いた当主は、次代を担う息子とともに、徳川家とのつながりも結んでいく。1598年に秀吉が亡くなると、中央の政治は再び大きく動いた。翌1599年、慶広は蠣崎から松前へと姓を改めた。\n\n1600年には、代々の本拠だった大館からの移転に向け、新しい福山館を築く工事を始める。北の海を行き交う船と港を支える政治の拠点を整える、数年がかりの事業だった。家の名に続いて、その本拠も変わり始めていた。\n\n江戸幕府が開かれた翌1604年、慶広は徳川家康から黒印状を受ける。和人の商人が松前家の許しなくアイヌの人々と交易することは禁じられ、一方で、アイヌの人々の自由な往来を妨げたり、不当な要求をしたりすることも禁じられた。松前家の権限を認める文書には、交易に関わる人々を守るための規定も含まれていたのである。\n\nただし、松前家が認められたのは交易を管理する権利であって、アイヌの人々が暮らす蝦夷地の全域を自由に領有できるという意味ではない。交易の窓口を押さえた松前家の力が強まれば、それまでの交易をめぐる人々の関係にも変化が及ぶ。慶広が築いた仕組みの歴史は、松前家の側からだけでは語り尽くせない。\n\n1606年、福山館が完成し、慶広は政治の拠点を移した。館を中心に、その後の松前の城下町が形づくられていく。慶広が築いたのは、後世の松前城へとつながる福山館であり、幕末に完成する福山城そのものではない。\n\n1616年、慶広は生涯を閉じた。安東氏に昆布を贈っていた武将が、秀吉と家康に会い、船と交易を管理する権利を得て、家の名と本拠を改めた。その生涯は、本州の天下統一が海を隔てた北の社会にも変化をもたらした時代と重なっている。松前家は、その後も海を通じて領国を支えることになる。慶広が手にした朱印状と黒印状は、城を築くことと同じように、一族の長い歴史を形づくるものとなった。",
+        "yearText": "1548年〜1616年",
+        "approval": {
+          "sheetRow": 4532,
+          "version": "v2",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "E2E相互照合/提出内容未一致（C禁止）",
+          "sourceMatch": "一致",
+          "sha256": "GENERATE",
+          "kind": "完成版ストーリー",
+          "personId": "sg-added-matsumae-yoshihiro-20261125",
+          "sourceId": null,
+          "inheritance": {
+            "sourceVersion": "v1",
+            "sourceGateRow": 140,
+            "gateRow": 297,
+            "decision": "継承合格"
+          }
+        },
+        "sourceIds": [
+          "sg2src-a-matsumae-kotobank-20261125",
+          "sg2src-a-matsumae-matsumaeodate-20261125",
+          "sg2src-a-matsumae-hirosaki-20261125",
+          "sg2src-a-matsumae-fukushimatown-20261125",
+          "sg2src-a-matsumae-kunohe-20261125",
+          "sg2src-a-matsumae-saganagoya-20261125",
+          "sg2src-a-matsumae-cabinetred-20261125",
+          "sg2src-a-matsumae-abashiri-20261125",
+          "sg2src-a-matsumae-fukuyama-20261125",
+          "sg2src-a-matsumae-hokkaidoblack-20261125",
+          "sg2src-a-matsumae-graves-20261125",
+          "sg2src-a-matsumae-hakodate-1592-20261125",
+          "sg2src-a-matsumae-graves-bunkacho-20261125"
+        ],
+        "sourceUrls": [
+          "https://kotobank.jp/word/%E6%9D%BE%E5%89%8D%E6%85%B6%E5%BA%83-1111208",
+          "https://www.town.matsumae.hokkaido.jp/bunkazai/detail/00001634.html",
+          "https://adeac.jp/hirosaki-lib/texthtml/d110010/mp000080-110010/ht000040",
+          "https://www.town.fukushima.hokkaido.jp/%E6%A4%9C%E7%B4%A2%E7%94%A8%E3%81%AE%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B/",
+          "https://kunishitei.bunka.go.jp/heritage/detail/401/134",
+          "https://saga-museum.jp/nagoya/nagoya-castle/nagoya.html",
+          "https://www.cas.go.jp/jp/ryodo/tenjikan/contents/page-hoppou07.html",
+          "https://www.city.abashiri.hokkaido.jp/soshiki/4/6849.html",
+          "https://www.town.matsumae.hokkaido.jp/bunkazai/detail_sp/00001681.html",
+          "https://jmapps.ne.jp/hmcollection1/det.html?data_id=6915",
+          "https://www.town.matsumae.hokkaido.jp/bunkazai/detail/00001635.html",
+          "https://adeac.jp/hakodate-city/texthtml/d100010/mp000010-100010/ht030270",
+          "https://kunishitei.bunka.go.jp/heritage/detail/401/62"
+        ],
+        "unlock": null
+      }
     },
     {
       "personId": "sg-added-anegakoji-yoritsuna-20261125",
@@ -316,7 +369,66 @@
           "https://www.pref.gifu.lg.jp/page/4426.html"
         ]
       },
-      "story": null
+      "story": {
+        "text": "飛騨の山々には、一つの城から見渡せる範囲を越えて、いくつもの領主が勢力を張っていた。南の桜洞城を足場に高山へ進み、古川や北飛騨へ勢力を伸ばした三木自綱、のちの姉小路頼綱は、その飛騨をまとめるところまでたどり着く。だが、山々に囲まれた国を制しても、山の外から押し寄せる新たな天下の力には抗しきれなかった。\n\n1540年、頼綱は三木良頼の子として生まれた。光頼、のちに自綱とも名乗った。父の三木氏は南飛騨の桜洞城を拠点とする武家である。飛騨には古川の姉小路氏や北の江馬氏などが並び立ち、山間の限られた土地や、盆地を結ぶ道をめぐって争っていた。三木氏の勢力を広げるには、一つずつ周囲の領主との関係を変えていかなければならなかった。\n\n1558年ごろ、自綱は広瀬氏と協力し、高山の天神山城を守る高山外記らを攻めた。外記は討たれ、城には自綱の叔父・久綱が入ったと伝わる。桜洞城から高山盆地へ。三木家の支配は、それまでの本拠から北へ広がり始めた。\n\nその二年ほど後の1560年、父良頼は飛騨の古い国司家である姉小路氏の名跡を継いだ。良頼は飛騨守を称し、自綱も左衛門佐に任ぜられる。城を攻めて勢力を広げる一方、朝廷の官位と由緒ある家名を得る。父子は武力とは異なる権威をも手にしたのである。姉小路頼綱という名には、この一族の飛騨での地位を変えていった歴史が重なっている。\n\n自綱の活動は山国の内側にとどまらなかった。1570年、京都へ赴き、将軍足利義昭のもとへ参じた武将たちに名を連ねる。公家の日記には姉小路侍従自綱の名が見える。織田信長が畿内で力を伸ばしていた時代、飛騨の武将も都の政治と結びつきを持っていたのである。\n\n一方、山を隔てた越後には上杉謙信がいた。1572年の秋には、病の父良頼に代わって自綱が謙信の陣へ参上する予定を記した書状が残る。飛騨の領主にとって、隣国との交渉も家を守るための重要な仕事だった。同年十一月、良頼は世を去り、自綱が家督を継いだ。父とともに広げてきた領地を、今度は自らの責任で維持する立場となった。\n\n翌1573年には、自綱が郡上から得た大般若経を千光寺へ寄進したという話が伝わる。寺に残るのは鎌倉時代に書き写された経巻である。戦国の武将の名は、落城や合戦の記録だけでなく、寺に伝わる文化にも刻まれていた。\n\n1575年、飛騨国司の姉小路中納言と記された人物が上洛し、信長へ栗毛の馬を贈ったことが『信長公記』に残る。この人物は、すでに父を失って家を継いでいた自綱とみられる。飛騨の山々を越えた先では、信長の勢力が広がり続けていた。地方の領主も、天下の政治の変化から離れてはいられなかった。\n\n自綱は高山の松倉城を重要な拠点とした。1579年の新宮神社の棟札には、すでに松倉城を守る願いが記されている。南の桜洞城に加え、高山にも勢力を支える城を持ったことで、三木家の活動はさらに広い範囲へ及んだ。同じ1579年には、子の宣綱が自害したとする記録も残る。城と領地を得ることと、一族の結びつきを保つことは、同じではなかった。\n\n1581年、自綱は南飛騨の久津八幡宮に拝殿を造立した。戦いの多い生涯のなかで、地域の信仰を支える建物も残したのである。その拝殿は今も、戦国時代の飛騨を伝えている。\n\n1582年、織田信長が本能寺で倒れる。飛騨では、北の高原郷に本拠を置く江馬輝盛と自綱の対立が、大きな戦いに至った。その年の秋、荒城郷の八日町で両軍が衝突する。自綱と姉小路向氏の軍勢が勝利し、江馬輝盛は討ち死にした。続いて三木方の小島時光が江馬氏の本城・高原諏訪城を攻め落とす。八日町での勝利だけでなく、味方の武将による敵の本拠攻略が、飛騨における自綱の優位を決定的なものにしていった。\n\nしかし、長年の敵を倒しても、飛騨の争いは終わらなかった。1583年には広瀬氏と協力して小鷹利の牛丸氏を退け、その後はかつて高山攻めにも協力した広瀬氏と争ったと伝わる。弟の鍋山顕綱が殺害された記録も残る。国を一つにまとめていく過程には、長く結んできた味方との対立や、一族の命が失われる内紛もあった。\n\nこのころ、自綱は子の秀綱に家督を譲り、出家したとされる。息子に城と領国を託しても、飛騨の外では天下の行方が大きく変わっていた。信長の死後、その勢力を引き継いで台頭した羽柴秀吉は、全国に支配を広げようとしていた。\n\n1585年、秀吉の命を受けた金森長近・可重の軍勢が飛騨へ攻め入った。南の桜洞城も、高山の松倉城も、三木家の支配を支える城だった。二十年以上にわたって勢力を広げてきた自綱の一族は、今度はそれらの城を守る側に立たされた。だが、金森勢の侵攻を押し返すことはできなかった。三木氏の城は落ち、自綱は降伏した。松倉城を継いでいた秀綱も逃れる途中で殺害されたと伝わる。一族は領地だけでなく、次代を担う当主も失ったのである。\n\n自綱自身は生き延びて京都へ移り、1587年に生涯を閉じた。かつて飛騨の領主として上洛し、天下人との関係を結んだ都は、最後には領国を離れて暮らす地となった。\n\n三木の家名を背負って南飛騨から出発し、姉小路の名跡を継ぎ、山国に並び立った領主たちを退けた頼綱。飛騨の城々をまとめるところまで進んだその生涯は、豊臣政権が地方の勢力を組み替える時代に終わった。桜洞や松倉の城跡、久津八幡宮に残る拝殿には、彼が築こうとした国と、失った国の歴史が刻まれている。",
+        "yearText": "1540年〜1587年",
+        "approval": {
+          "sheetRow": 4549,
+          "version": "v2",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "E2E相互照合/提出内容未一致（C禁止）",
+          "sourceMatch": "一致",
+          "sha256": "GENERATE",
+          "kind": "完成版ストーリー",
+          "personId": "sg-added-anegakoji-yoritsuna-20261125",
+          "sourceId": null,
+          "inheritance": {
+            "sourceVersion": "v1",
+            "sourceGateRow": 205,
+            "gateRow": 298,
+            "decision": "継承合格"
+          }
+        },
+        "sourceIds": [
+          "sg2src-a-anegakoji-kotobank-20261125",
+          "sg2src-a-anegakoji-geroexhibit-20261125",
+          "sg2src-a-anegakoji-takayama-20261125",
+          "sg2src-a-anegakoji-takayamaold-20261125",
+          "sg2src-a-anegakoji-hidacity-20261125",
+          "sg2src-a-anegakoji-gerochron-20261125",
+          "sg2src-a-anegakoji-newspaperkyoto-20261125",
+          "sg2src-a-anegakoji-koseiji-20261125",
+          "sg2src-a-anegakoji-matsukura-20261125",
+          "sg2src-a-anegakoji-kuzu-20261125",
+          "sg2src-a-anegakoji-battlenews-20261125",
+          "sg2src-a-anegakoji-takahara-20261125",
+          "sg2src-a-anegakoji-takaharaguide-20261125",
+          "sg2src-a-anegakoji-kotakari-20261125",
+          "sg2src-a-anegakoji-gifuimage-20261125",
+          "sg2src-a-anegakoji-nobunaga-horse1575-shinchokoki-20261125"
+        ],
+        "sourceUrls": [
+          "https://kotobank.jp/word/%E4%B8%89%E6%9C%A8%E8%87%AA%E7%B6%B1-1112723",
+          "https://www.city.gero.lg.jp/uploaded/attachment/6905.pdf",
+          "https://www.city.takayama.lg.jp/kurashi/1000021/1000119/1000846.html",
+          "https://www.city.takayama.lg.jp/kurashi/1000021/1000119/1022317/1022318.html",
+          "https://hida-bunka.jp/asset/anegakojishi/",
+          "https://sitereports.nabunken.go.jp/files/attach/30/30073/21791_1_%E6%A1%9C%E6%B4%9E%E5%9F%8E%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+          "https://www.gifu-np.co.jp/articles/-/99344",
+          "https://www.pref.gifu.lg.jp/page/6352.html",
+          "https://www.hidatakayama.or.jp/spot/detail_5817.html",
+          "https://kunishitei.bunka.go.jp/bsys/maindetails/102/1097",
+          "https://www.gifu-np.co.jp/articles/-/272212",
+          "https://www.city.hida.gifu.jp/soshiki/32/88087.html",
+          "https://www.hida-kankou.jp/spot/402",
+          "https://www.hida-kankou.jp/spot/901",
+          "https://www.pref.gifu.lg.jp/page/4426.html",
+          "https://ja.wikisource.org/wiki/%E4%BF%A1%E9%95%B7%E5%85%AC%E8%A8%98"
+        ],
+        "unlock": null
+      }
     }
   ],
   "histories": [
@@ -787,6 +899,88 @@
       "displayOrder": null
     },
     {
+      "historyId": "sg2hist-a-hirotsuna-father1549-20261125",
+      "personId": "sg-master-0365",
+      "kind": "place",
+      "title": "父尚綱が五月女坂で討たれ幼くして家を継ぐ",
+      "yearText": "天文18年（1549）旧暦9月",
+      "eventYear": 1549,
+      "eventYearEnd": null,
+      "text": "1549年、父の宇都宮尚綱は那須高資との五月女坂の戦いで戦死した。まだ幼かった伊勢寿丸（のちの広綱）は家の後継となるが、宇都宮城をめぐる争いが激しくなり、父が治めていた城にとどまることはできなくなった。",
+      "sourceIds": [
+        "sg2src-a-hirotsuna-castlechron-20261125",
+        "sg2src-a-hirotsuna-tochigiexcav-20261125",
+        "sg2src-a-hirotsuna-sotome-20261125"
+      ],
+      "sourceUrls": [
+        "https://utsunomiya-jo.jp/archive/materials/utsunomiya_pamph.pdf",
+        "https://sitereports.nabunken.go.jp/files/attach/68/68236/24674_1_%E4%B8%8B%E9%99%B0%E9%81%BA%E8%B7%A1%E2%85%A0.pdf",
+        "https://sakura-navi.net/tourism-speciality/tourist-spot/sightseeing/history/oshu-highway/"
+      ],
+      "approval": {
+        "sheetRow": 4518,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "E2E相互照合/提出内容未一致（C禁止）",
+        "sourceMatch": "一致",
+        "sha256": "GENERATE",
+        "kind": "経歴",
+        "personId": "sg-master-0365",
+        "sourceId": "sg2hist-a-hirotsuna-father1549-20261125",
+        "inheritance": {
+          "sourceVersion": "v1",
+          "sourceGateRow": 86,
+          "gateRow": 292,
+          "decision": "継承合格"
+        }
+      },
+      "sourceOrder": 1792,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-hirotsuna-flight1549-20261125",
+      "personId": "sg-master-0365",
+      "kind": "place",
+      "title": "芳賀高定に守られ真岡城へ退く",
+      "yearText": "天文18年（1549）秋以後",
+      "eventYear": 1549,
+      "eventYearEnd": null,
+      "text": "父の戦死後、伊勢寿丸は宇都宮氏の重臣・芳賀高定に守られ、真岡城へ退いた。城では芳賀氏が幼い当主を支え、宇都宮城を取り戻す機会を待った。真岡での歳月は、広綱が武将として育つまでの苦難の時期だった。",
+      "sourceIds": [
+        "sg2src-a-hirotsuna-tochigiexcav-20261125",
+        "sg2src-a-hirotsuna-mokahistory-20261125",
+        "sg2src-a-hirotsuna-mokasite-20261125"
+      ],
+      "sourceUrls": [
+        "https://sitereports.nabunken.go.jp/files/attach/68/68236/24674_1_%E4%B8%8B%E9%99%B0%E9%81%BA%E8%B7%A1%E2%85%A0.pdf",
+        "https://www.city.moka.lg.jp/kakuka/bunka/gyomu/rekishi_bunka/rekishi_bunkazai/6/862.html",
+        "https://www.city.moka.lg.jp/material/files/group/30/mokajyou.pdf"
+      ],
+      "approval": {
+        "sheetRow": 4519,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "E2E相互照合/提出内容未一致（C禁止）",
+        "sourceMatch": "一致",
+        "sha256": "GENERATE",
+        "kind": "経歴",
+        "personId": "sg-master-0365",
+        "sourceId": "sg2hist-a-hirotsuna-flight1549-20261125",
+        "inheritance": {
+          "sourceVersion": "v1",
+          "sourceGateRow": 87,
+          "gateRow": 293,
+          "decision": "継承合格"
+        }
+      },
+      "sourceOrder": 1793,
+      "displayOrder": 20
+    },
+    {
       "historyId": "sg2hist-a-hirotsuna-return1557-20261125",
       "personId": "sg-master-0365",
       "kind": "place",
@@ -921,6 +1115,41 @@
       "displayOrder": 10
     },
     {
+      "historyId": "sg2hist-a-hirotsuna-takou1572-20261125",
+      "personId": "sg-master-0365",
+      "kind": "place",
+      "title": "多功原で佐竹・宇都宮方が北条軍と戦う",
+      "yearText": "元亀3年（1572）旧暦12月頃",
+      "eventYear": 1572,
+      "eventYearEnd": null,
+      "text": "皆川氏の離反に対して広綱が佐竹義重へ援軍を求めると、北条氏政の軍が皆川方を助けに来た。1572年末、両軍は多功原で衝突し、宇都宮・佐竹方が北条勢を押し返した。城と周囲の平野は下野南部の守りをめぐる戦場となった。",
+      "sourceIds": [
+        "sg2src-a-hirotsuna-tochigischool-20261125",
+        "sg2src-a-hirotsuna-kaminokawachron-20261125",
+        "sg2src-a-hirotsuna-takousite-20261125"
+      ],
+      "sourceUrls": [
+        "https://www.tochigi-edu.ed.jp/kaminokawa/nc3/blogs/blog_entries/view/294/ecdf6ee1b74040a5af4b2f8acda0b1d9?frame_id=304",
+        "https://www.town.kaminokawa.lg.jp/0135/info-0000000917-0.html",
+        "https://www.town.kaminokawa.lg.jp/0243/info-0000000866-0.html"
+      ],
+      "approval": {
+        "sheetRow": 4586,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "GENERATE",
+        "kind": "経歴",
+        "personId": "sg-master-0365",
+        "sourceId": "sg2hist-a-hirotsuna-takou1572-20261125"
+      },
+      "sourceOrder": 1801,
+      "displayOrder": 20
+    },
+    {
       "historyId": "sg2hist-a-matsumae-birth1548-20261125",
       "personId": "sg-added-matsumae-yoshihiro-20261125",
       "kind": "nonplace",
@@ -1022,6 +1251,37 @@
       "displayOrder": null
     },
     {
+      "historyId": "sg2hist-a-matsumae-reward1583-20261125",
+      "personId": "sg-added-matsumae-yoshihiro-20261125",
+      "kind": "nonplace",
+      "title": "浅利勝頼の殺害事件で安東愛季から恩賞を受ける",
+      "yearText": "天正11年（1583）旧暦5月19日",
+      "eventYear": 1583,
+      "eventYearEnd": null,
+      "text": "1583年、北出羽の比内で浅利勝頼が謀殺された。慶広はこの事件に関わり、同年旧暦5月19日、主君の安東愛季から恩賞を受けた。海を隔てた北出羽の勢力争いにも蠣崎家が関わっていたことを伝える出来事である。",
+      "sourceIds": [
+        "sg2src-a-matsumae-hirosaki-20261125"
+      ],
+      "sourceUrls": [
+        "https://adeac.jp/hirosaki-lib/texthtml/d110010/mp000080-110010/ht000040"
+      ],
+      "approval": {
+        "sheetRow": 4579,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "GENERATE",
+        "kind": "経歴",
+        "personId": "sg-added-matsumae-yoshihiro-20261125",
+        "sourceId": "sg2hist-a-matsumae-reward1583-20261125"
+      },
+      "sourceOrder": 1807,
+      "displayOrder": null
+    },
+    {
       "historyId": "sg2hist-a-matsumae-hawk1589-20261125",
       "personId": "sg-added-matsumae-yoshihiro-20261125",
       "kind": "nonplace",
@@ -1118,6 +1378,41 @@
         "sourceId": "sg2hist-a-matsumae-kunohe1591-20261125"
       },
       "sourceOrder": 1810,
+      "displayOrder": null
+    },
+    {
+      "historyId": "sg2hist-a-matsumae-redseal1593-20261125",
+      "personId": "sg-added-matsumae-yoshihiro-20261125",
+      "kind": "place",
+      "title": "豊臣秀吉から船役徴収を認める朱印状を受ける",
+      "yearText": "文禄2年（1593）旧暦1月",
+      "eventYear": 1593,
+      "eventYearEnd": null,
+      "text": "1593年、肥前名護屋で豊臣秀吉に会った慶広は、松前に来航する船から役銭を徴収する権利を認める朱印状を得た。この朱印状は船頭や商人がアイヌの人々に不当な要求をすることも禁じていた。慶広は安東氏を介さず豊臣政権と結び、松前の海上交易を取り仕切る地位を強めた。",
+      "sourceIds": [
+        "sg2src-a-matsumae-cabinetred-20261125",
+        "sg2src-a-matsumae-fukushimatown-20261125",
+        "sg2src-a-matsumae-kotobank-20261125"
+      ],
+      "sourceUrls": [
+        "https://www.cas.go.jp/jp/ryodo/tenjikan/contents/page-hoppou07.html",
+        "https://www.town.fukushima.hokkaido.jp/%E6%A4%9C%E7%B4%A2%E7%94%A8%E3%81%AE%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B/",
+        "https://kotobank.jp/word/%E6%9D%BE%E5%89%8D%E6%85%B6%E5%BA%83-1111208"
+      ],
+      "approval": {
+        "sheetRow": 4580,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "GENERATE",
+        "kind": "経歴",
+        "personId": "sg-added-matsumae-yoshihiro-20261125",
+        "sourceId": "sg2hist-a-matsumae-redseal1593-20261125"
+      },
+      "sourceOrder": 1812,
       "displayOrder": null
     },
     {
@@ -1253,6 +1548,41 @@
       "displayOrder": null
     },
     {
+      "historyId": "sg2hist-a-matsumae-death1616-20261125",
+      "personId": "sg-added-matsumae-yoshihiro-20261125",
+      "kind": "nonplace",
+      "title": "松前藩の基礎を築いて死去する",
+      "yearText": "元和2年（1616）旧暦10月12日",
+      "eventYear": 1616,
+      "eventYearEnd": null,
+      "text": "1616年、慶広は生涯を終えた。蠣崎氏の家督を継いだ時代から、秀吉・家康との交渉を経て、松前家が交易を管理する政治のしくみを築いた人物だった。現在の松前藩主墓所には一族の歴代墓碑が残るが、墓所の形成は慶広の死後である。",
+      "sourceIds": [
+        "sg2src-a-matsumae-kotobank-20261125",
+        "sg2src-a-matsumae-graves-20261125",
+        "sg2src-a-matsumae-graves-bunkacho-20261125"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/%E6%9D%BE%E5%89%8D%E6%85%B6%E5%BA%83-1111208",
+        "https://www.town.matsumae.hokkaido.jp/bunkazai/detail/00001635.html",
+        "https://kunishitei.bunka.go.jp/heritage/detail/401/62"
+      ],
+      "approval": {
+        "sheetRow": 4587,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "GENERATE",
+        "kind": "経歴",
+        "personId": "sg-added-matsumae-yoshihiro-20261125",
+        "sourceId": "sg2hist-a-matsumae-death1616-20261125"
+      },
+      "sourceOrder": 1818,
+      "displayOrder": null
+    },
+    {
       "historyId": "sg2hist-a-anegakoji-birth1540-20261125",
       "personId": "sg-added-anegakoji-yoritsuna-20261125",
       "kind": "nonplace",
@@ -1385,6 +1715,37 @@
       "displayOrder": null
     },
     {
+      "historyId": "sg2hist-a-anegakoji-uesugi1572-20261125",
+      "personId": "sg-added-anegakoji-yoritsuna-20261125",
+      "kind": "nonplace",
+      "title": "病の父に代わり上杉謙信の陣へ参じると伝わる",
+      "yearText": "元亀3年（1572）旧暦10月",
+      "eventYear": 1572,
+      "eventYearEnd": null,
+      "text": "1572年、父良頼が病に伏していたため、子の自綱が上杉謙信の陣へ参上する予定が書状に記された。越後の上杉氏との関係を保つため、父に代わって自綱が外交の役割を担おうとしていたことがうかがえる。",
+      "sourceIds": [
+        "sg2src-a-anegakoji-gerochron-20261125"
+      ],
+      "sourceUrls": [
+        "https://sitereports.nabunken.go.jp/files/attach/30/30073/21791_1_%E6%A1%9C%E6%B4%9E%E5%9F%8E%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf"
+      ],
+      "approval": {
+        "sheetRow": 4582,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "GENERATE",
+        "kind": "経歴",
+        "personId": "sg-added-anegakoji-yoritsuna-20261125",
+        "sourceId": "sg2hist-a-anegakoji-uesugi1572-20261125"
+      },
+      "sourceOrder": 1823,
+      "displayOrder": 10
+    },
+    {
       "historyId": "sg2hist-a-anegakoji-succeed1572-20261125",
       "personId": "sg-added-anegakoji-yoritsuna-20261125",
       "kind": "place",
@@ -1446,6 +1807,41 @@
         "sourceId": "sg2hist-a-anegakoji-senkoji1573-20261125"
       },
       "sourceOrder": 1825,
+      "displayOrder": null
+    },
+    {
+      "historyId": "sg2hist-a-anegakoji-horse1575-20261125",
+      "personId": "sg-added-anegakoji-yoritsuna-20261125",
+      "kind": "nonplace",
+      "title": "織田信長へ栗毛の馬を献上する",
+      "yearText": "天正3年（1575）旧暦10月23日",
+      "eventYear": 1575,
+      "eventYearEnd": null,
+      "text": "1575年旧暦10月23日、『信長公記』には、飛騨国司の姉小路中納言卿が上洛して織田信長に栗毛の馬を献上したと記されている。父の三木良頼がすでに没していたことから、この人物は当主となった自綱とみられる。飛騨の当主と信長との関係をうかがわせる贈答である。",
+      "sourceIds": [
+        "sg2src-a-anegakoji-newspaperkyoto-20261125",
+        "sg2src-a-anegakoji-kotobank-20261125",
+        "sg2src-a-anegakoji-nobunaga-horse1575-shinchokoki-20261125"
+      ],
+      "sourceUrls": [
+        "https://www.gifu-np.co.jp/articles/-/99344",
+        "https://kotobank.jp/word/%E4%B8%89%E6%9C%A8%E8%87%AA%E7%B6%B1-1112723",
+        "https://ja.wikisource.org/wiki/%E4%BF%A1%E9%95%B7%E5%85%AC%E8%A8%98"
+      ],
+      "approval": {
+        "sheetRow": 4583,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "GENERATE",
+        "kind": "経歴",
+        "personId": "sg-added-anegakoji-yoritsuna-20261125",
+        "sourceId": "sg2hist-a-anegakoji-horse1575-20261125"
+      },
+      "sourceOrder": 1826,
       "displayOrder": null
     },
     {
@@ -1517,173 +1913,6 @@
       "displayOrder": null
     },
     {
-      "historyId": "sg2hist-a-anegakoji-internal1583-20261125",
-      "personId": "sg-added-anegakoji-yoritsuna-20261125",
-      "kind": "place",
-      "title": "牛丸・広瀬氏らを攻め飛騨の支配を固める",
-      "yearText": "天正11年（1583）旧暦9月頃",
-      "eventYear": 1583,
-      "eventYearEnd": null,
-      "text": "1583年、自綱は広瀬氏といったん協力して小鷹利の牛丸氏を倒したが、その後は広瀬氏とも争い、国府の勢力を押さえた。弟の鍋山顕綱が殺害された記録も残る。飛騨を手に入れる過程には、味方だった領主を攻める激しい内紛があった。",
-      "sourceIds": [
-        "sg2src-a-anegakoji-gerochron-20261125",
-        "sg2src-a-anegakoji-kotakari-20261125",
-        "sg2src-a-anegakoji-takayama-20261125"
-      ],
-      "sourceUrls": [
-        "https://sitereports.nabunken.go.jp/files/attach/30/30073/21791_1_%E6%A1%9C%E6%B4%9E%E5%9F%8E%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
-        "https://www.hida-kankou.jp/spot/901",
-        "https://www.city.takayama.lg.jp/kurashi/1000021/1000119/1000846.html"
-      ],
-      "approval": {
-        "sheetRow": 4561,
-        "version": "v1",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "地点確認済・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "GENERATE",
-        "kind": "経歴",
-        "personId": "sg-added-anegakoji-yoritsuna-20261125",
-        "sourceId": "sg2hist-a-anegakoji-internal1583-20261125"
-      },
-      "sourceOrder": 1832,
-      "displayOrder": 10
-    },
-    {
-      "historyId": "sg2hist-a-matsumae-reward1583-20261125",
-      "personId": "sg-added-matsumae-yoshihiro-20261125",
-      "kind": "nonplace",
-      "title": "浅利勝頼の殺害事件で安東愛季から恩賞を受ける",
-      "yearText": "天正11年（1583）旧暦5月19日",
-      "eventYear": 1583,
-      "eventYearEnd": null,
-      "text": "1583年、北出羽の比内で浅利勝頼が謀殺された。慶広はこの事件に関わり、同年旧暦5月19日、主君の安東愛季から恩賞を受けた。海を隔てた北出羽の勢力争いにも蠣崎家が関わっていたことを伝える出来事である。",
-      "sourceIds": [
-        "sg2src-a-matsumae-hirosaki-20261125"
-      ],
-      "sourceUrls": [
-        "https://adeac.jp/hirosaki-lib/texthtml/d110010/mp000080-110010/ht000040"
-      ],
-      "approval": {
-        "sheetRow": 4579,
-        "version": "v2",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "位置不要・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "GENERATE",
-        "kind": "経歴",
-        "personId": "sg-added-matsumae-yoshihiro-20261125",
-        "sourceId": "sg2hist-a-matsumae-reward1583-20261125"
-      },
-      "sourceOrder": 1807,
-      "displayOrder": null
-    },
-    {
-      "historyId": "sg2hist-a-matsumae-redseal1593-20261125",
-      "personId": "sg-added-matsumae-yoshihiro-20261125",
-      "kind": "place",
-      "title": "豊臣秀吉から船役徴収を認める朱印状を受ける",
-      "yearText": "文禄2年（1593）旧暦1月",
-      "eventYear": 1593,
-      "eventYearEnd": null,
-      "text": "1593年、肥前名護屋で豊臣秀吉に会った慶広は、松前に来航する船から役銭を徴収する権利を認める朱印状を得た。この朱印状は船頭や商人がアイヌの人々に不当な要求をすることも禁じていた。慶広は安東氏を介さず豊臣政権と結び、松前の海上交易を取り仕切る地位を強めた。",
-      "sourceIds": [
-        "sg2src-a-matsumae-cabinetred-20261125",
-        "sg2src-a-matsumae-fukushimatown-20261125",
-        "sg2src-a-matsumae-kotobank-20261125"
-      ],
-      "sourceUrls": [
-        "https://www.cas.go.jp/jp/ryodo/tenjikan/contents/page-hoppou07.html",
-        "https://www.town.fukushima.hokkaido.jp/%E6%A4%9C%E7%B4%A2%E7%94%A8%E3%81%AE%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B/",
-        "https://kotobank.jp/word/%E6%9D%BE%E5%89%8D%E6%85%B6%E5%BA%83-1111208"
-      ],
-      "approval": {
-        "sheetRow": 4580,
-        "version": "v2",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "地点確認済・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "GENERATE",
-        "kind": "経歴",
-        "personId": "sg-added-matsumae-yoshihiro-20261125",
-        "sourceId": "sg2hist-a-matsumae-redseal1593-20261125"
-      },
-      "sourceOrder": 1812,
-      "displayOrder": null
-    },
-    {
-      "historyId": "sg2hist-a-anegakoji-uesugi1572-20261125",
-      "personId": "sg-added-anegakoji-yoritsuna-20261125",
-      "kind": "nonplace",
-      "title": "病の父に代わり上杉謙信の陣へ参じると伝わる",
-      "yearText": "元亀3年（1572）旧暦10月",
-      "eventYear": 1572,
-      "eventYearEnd": null,
-      "text": "1572年、父良頼が病に伏していたため、子の自綱が上杉謙信の陣へ参上する予定が書状に記された。越後の上杉氏との関係を保つため、父に代わって自綱が外交の役割を担おうとしていたことがうかがえる。",
-      "sourceIds": [
-        "sg2src-a-anegakoji-gerochron-20261125"
-      ],
-      "sourceUrls": [
-        "https://sitereports.nabunken.go.jp/files/attach/30/30073/21791_1_%E6%A1%9C%E6%B4%9E%E5%9F%8E%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf"
-      ],
-      "approval": {
-        "sheetRow": 4582,
-        "version": "v2",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "位置不要・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "GENERATE",
-        "kind": "経歴",
-        "personId": "sg-added-anegakoji-yoritsuna-20261125",
-        "sourceId": "sg2hist-a-anegakoji-uesugi1572-20261125"
-      },
-      "sourceOrder": 1823,
-      "displayOrder": 10
-    },
-    {
-      "historyId": "sg2hist-a-anegakoji-horse1575-20261125",
-      "personId": "sg-added-anegakoji-yoritsuna-20261125",
-      "kind": "nonplace",
-      "title": "織田信長へ栗毛の馬を献上する",
-      "yearText": "天正3年（1575）旧暦10月23日",
-      "eventYear": 1575,
-      "eventYearEnd": null,
-      "text": "1575年旧暦10月23日、『信長公記』には、飛騨国司の姉小路中納言卿が上洛して織田信長に栗毛の馬を献上したと記されている。父の三木良頼がすでに没していたことから、この人物は当主となった自綱とみられる。飛騨の当主と信長との関係をうかがわせる贈答である。",
-      "sourceIds": [
-        "sg2src-a-anegakoji-newspaperkyoto-20261125",
-        "sg2src-a-anegakoji-kotobank-20261125",
-        "sg2src-a-anegakoji-nobunaga-horse1575-shinchokoki-20261125"
-      ],
-      "sourceUrls": [
-        "https://www.gifu-np.co.jp/articles/-/99344",
-        "https://kotobank.jp/word/%E4%B8%89%E6%9C%A8%E8%87%AA%E7%B6%B1-1112723",
-        "https://ja.wikisource.org/wiki/%E4%BF%A1%E9%95%B7%E5%85%AC%E8%A8%98"
-      ],
-      "approval": {
-        "sheetRow": 4583,
-        "version": "v2",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "位置不要・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "GENERATE",
-        "kind": "経歴",
-        "personId": "sg-added-anegakoji-yoritsuna-20261125",
-        "sourceId": "sg2hist-a-anegakoji-horse1575-20261125"
-      },
-      "sourceOrder": 1826,
-      "displayOrder": null
-    },
-    {
       "historyId": "sg2hist-a-anegakoji-takahara1582-20261125",
       "personId": "sg-added-anegakoji-yoritsuna-20261125",
       "kind": "place",
@@ -1719,6 +1948,41 @@
       "displayOrder": 20
     },
     {
+      "historyId": "sg2hist-a-anegakoji-internal1583-20261125",
+      "personId": "sg-added-anegakoji-yoritsuna-20261125",
+      "kind": "place",
+      "title": "牛丸・広瀬氏らを攻め飛騨の支配を固める",
+      "yearText": "天正11年（1583）旧暦9月頃",
+      "eventYear": 1583,
+      "eventYearEnd": null,
+      "text": "1583年、自綱は広瀬氏といったん協力して小鷹利の牛丸氏を倒したが、その後は広瀬氏とも争い、国府の勢力を押さえた。弟の鍋山顕綱が殺害された記録も残る。飛騨を手に入れる過程には、味方だった領主を攻める激しい内紛があった。",
+      "sourceIds": [
+        "sg2src-a-anegakoji-gerochron-20261125",
+        "sg2src-a-anegakoji-kotakari-20261125",
+        "sg2src-a-anegakoji-takayama-20261125"
+      ],
+      "sourceUrls": [
+        "https://sitereports.nabunken.go.jp/files/attach/30/30073/21791_1_%E6%A1%9C%E6%B4%9E%E5%9F%8E%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+        "https://www.hida-kankou.jp/spot/901",
+        "https://www.city.takayama.lg.jp/kurashi/1000021/1000119/1000846.html"
+      ],
+      "approval": {
+        "sheetRow": 4561,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "GENERATE",
+        "kind": "経歴",
+        "personId": "sg-added-anegakoji-yoritsuna-20261125",
+        "sourceId": "sg2hist-a-anegakoji-internal1583-20261125"
+      },
+      "sourceOrder": 1832,
+      "displayOrder": 10
+    },
+    {
       "historyId": "sg2hist-a-anegakoji-handover1583-20261125",
       "personId": "sg-added-anegakoji-yoritsuna-20261125",
       "kind": "place",
@@ -1752,76 +2016,6 @@
       },
       "sourceOrder": 1833,
       "displayOrder": 20
-    },
-    {
-      "historyId": "sg2hist-a-hirotsuna-takou1572-20261125",
-      "personId": "sg-master-0365",
-      "kind": "place",
-      "title": "多功原で佐竹・宇都宮方が北条軍と戦う",
-      "yearText": "元亀3年（1572）旧暦12月頃",
-      "eventYear": 1572,
-      "eventYearEnd": null,
-      "text": "皆川氏の離反に対して広綱が佐竹義重へ援軍を求めると、北条氏政の軍が皆川方を助けに来た。1572年末、両軍は多功原で衝突し、宇都宮・佐竹方が北条勢を押し返した。城と周囲の平野は下野南部の守りをめぐる戦場となった。",
-      "sourceIds": [
-        "sg2src-a-hirotsuna-tochigischool-20261125",
-        "sg2src-a-hirotsuna-kaminokawachron-20261125",
-        "sg2src-a-hirotsuna-takousite-20261125"
-      ],
-      "sourceUrls": [
-        "https://www.tochigi-edu.ed.jp/kaminokawa/nc3/blogs/blog_entries/view/294/ecdf6ee1b74040a5af4b2f8acda0b1d9?frame_id=304",
-        "https://www.town.kaminokawa.lg.jp/0135/info-0000000917-0.html",
-        "https://www.town.kaminokawa.lg.jp/0243/info-0000000866-0.html"
-      ],
-      "approval": {
-        "sheetRow": 4586,
-        "version": "v2",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "自治体確認済・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "GENERATE",
-        "kind": "経歴",
-        "personId": "sg-master-0365",
-        "sourceId": "sg2hist-a-hirotsuna-takou1572-20261125"
-      },
-      "sourceOrder": 1801,
-      "displayOrder": 20
-    },
-    {
-      "historyId": "sg2hist-a-matsumae-death1616-20261125",
-      "personId": "sg-added-matsumae-yoshihiro-20261125",
-      "kind": "nonplace",
-      "title": "松前藩の基礎を築いて死去する",
-      "yearText": "元和2年（1616）旧暦10月12日",
-      "eventYear": 1616,
-      "eventYearEnd": null,
-      "text": "1616年、慶広は生涯を終えた。蠣崎氏の家督を継いだ時代から、秀吉・家康との交渉を経て、松前家が交易を管理する政治のしくみを築いた人物だった。現在の松前藩主墓所には一族の歴代墓碑が残るが、墓所の形成は慶広の死後である。",
-      "sourceIds": [
-        "sg2src-a-matsumae-kotobank-20261125",
-        "sg2src-a-matsumae-graves-20261125",
-        "sg2src-a-matsumae-graves-bunkacho-20261125"
-      ],
-      "sourceUrls": [
-        "https://kotobank.jp/word/%E6%9D%BE%E5%89%8D%E6%85%B6%E5%BA%83-1111208",
-        "https://www.town.matsumae.hokkaido.jp/bunkazai/detail/00001635.html",
-        "https://kunishitei.bunka.go.jp/heritage/detail/401/62"
-      ],
-      "approval": {
-        "sheetRow": 4587,
-        "version": "v2",
-        "user": "公開OK",
-        "quality": "品質合格",
-        "rights": "位置不要・権利OK",
-        "handoff": "C候補（別途公開承認）",
-        "sourceMatch": "一致",
-        "sha256": "GENERATE",
-        "kind": "経歴",
-        "personId": "sg-added-matsumae-yoshihiro-20261125",
-        "sourceId": "sg2hist-a-matsumae-death1616-20261125"
-      },
-      "sourceOrder": 1818,
-      "displayOrder": null
     },
     {
       "historyId": "sg2hist-a-anegakoji-defeat1585-20261125",
@@ -3534,7 +3728,7 @@
       "approvedPersonIds": [
         "sg-master-0365"
       ],
-      "relatedOnly": true,
+      "relatedOnly": false,
       "pinPersonIds": [
         "sg-master-0365"
       ],
@@ -3614,7 +3808,7 @@
       "approvedPersonIds": [
         "sg-master-0365"
       ],
-      "relatedOnly": true,
+      "relatedOnly": false,
       "pinPersonIds": [
         "sg-master-0365"
       ],
@@ -4372,6 +4566,40 @@
         "https://www.city.gero.lg.jp/uploaded/attachment/6905.pdf",
         "https://sitereports.nabunken.go.jp/files/attach/30/30073/21791_1_%E6%A1%9C%E6%B4%9E%E5%9F%8E%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf"
       ]
+    },
+    {
+      "personId": "sg-master-0365",
+      "historyId": "sg2hist-a-hirotsuna-father1549-20261125",
+      "siteId": "sg2site-a-hirotsuna-sotome-20261125",
+      "classification": "出来事直接（公的伝承）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-hirotsuna-castlechron-20261125",
+        "sg2src-a-hirotsuna-sotome-20261125"
+      ],
+      "sourceUrls": [
+        "https://utsunomiya-jo.jp/archive/materials/utsunomiya_pamph.pdf",
+        "https://sakura-navi.net/tourism-speciality/tourist-spot/sightseeing/history/oshu-highway/"
+      ]
+    },
+    {
+      "personId": "sg-master-0365",
+      "historyId": "sg2hist-a-hirotsuna-flight1549-20261125",
+      "siteId": "sg2site-a-hirotsuna-moka-20261125",
+      "classification": "本人直接",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-hirotsuna-tochigiexcav-20261125",
+        "sg2src-a-hirotsuna-mokahistory-20261125",
+        "sg2src-a-hirotsuna-mokasite-20261125"
+      ],
+      "sourceUrls": [
+        "https://sitereports.nabunken.go.jp/files/attach/68/68236/24674_1_%E4%B8%8B%E9%99%B0%E9%81%BA%E8%B7%A1%E2%85%A0.pdf",
+        "https://www.city.moka.lg.jp/kakuka/bunka/gyomu/rekishi_bunka/rekishi_bunkazai/6/862.html",
+        "https://www.city.moka.lg.jp/material/files/group/30/mokajyou.pdf"
+      ]
     }
   ],
   "checks": [
@@ -4968,6 +5196,22 @@
       "expected": "PUBLIC-v1␝経歴|sg2hist-a-anegakoji-handover1583-20261125|v2␝198:5:姉小路頼綱␞20:天正11～12年（1583～1584）頃␞14:息子秀綱に家督を譲り出家する␞85:1583年の秋頃、自綱は息子の秀綱に家督を譲り、出家したと伝わる。秀綱が松倉城を継いで当主となり、自綱は第一線を譲ったものの、なお政治的な影響力を保っていたと考えられる。␞4:1583␞4:1584␞37:sg-added-anegakoji-yoritsuna-20261125␞2:20␞124:sg-added-anegakoji-yoritsuna-20261125>sg2hist-a-anegakoji-handover1583-20261125>sg2site-a-anegakoji-matsukura-20261125>21203"
     },
     {
+      "gateRow": 292,
+      "approvalRow": 4518,
+      "kind": "経歴",
+      "id": "sg2hist-a-hirotsuna-father1549-20261125",
+      "version": "v2",
+      "expected": "PUBLIC-v1␝経歴|sg2hist-a-hirotsuna-father1549-20261125|v2␝189:5:宇都宮広綱␞15:天文18年（1549）旧暦9月␞20:父尚綱が五月女坂で討たれ幼くして家を継ぐ␞101:1549年、父の宇都宮尚綱は那須高資との五月女坂の戦いで戦死した。まだ幼かった伊勢寿丸（のちの広綱）は家の後継となるが、宇都宮城をめぐる争いが激しくなり、父が治めていた城にとどまることはできなくなった。␞4:1549␞0:␞14:sg-master-0365␞2:10␞96:sg-master-0365>sg2hist-a-hirotsuna-father1549-20261125>sg2site-a-hirotsuna-sotome-20261125>09214"
+    },
+    {
+      "gateRow": 293,
+      "approvalRow": 4519,
+      "kind": "経歴",
+      "id": "sg2hist-a-hirotsuna-flight1549-20261125",
+      "version": "v2",
+      "expected": "PUBLIC-v1␝経歴|sg2hist-a-hirotsuna-flight1549-20261125|v2␝177:5:宇都宮広綱␞14:天文18年（1549）秋以後␞14:芳賀高定に守られ真岡城へ退く␞97:父の戦死後、伊勢寿丸は宇都宮氏の重臣・芳賀高定に守られ、真岡城へ退いた。城では芳賀氏が幼い当主を支え、宇都宮城を取り戻す機会を待った。真岡での歳月は、広綱が武将として育つまでの苦難の時期だった。␞4:1549␞0:␞14:sg-master-0365␞2:20␞94:sg-master-0365>sg2hist-a-hirotsuna-flight1549-20261125>sg2site-a-hirotsuna-moka-20261125>09209"
+    },
+    {
       "gateRow": 294,
       "approvalRow": 4586,
       "kind": "経歴",
@@ -4990,22 +5234,25 @@
       "id": "sg2hist-a-anegakoji-defeat1585-20261125",
       "version": "v2",
       "expected": "PUBLIC-v1␝経歴|sg2hist-a-anegakoji-defeat1585-20261125|v2␝206:5:姉小路頼綱␞16:天正13年（1585）旧暦8月頃␞18:金森長近の飛騨侵攻で城を失い降伏する␞99:1585年、豊臣秀吉の命を受けた金森長近・可重の軍勢が飛騨へ攻め入った。三木氏は桜洞城や松倉城などで抵抗したものの敗れ、領国を失った。自綱本人と子秀綱の最期は異なり、自綱は戦場で討たれず生き延びた。␞4:1585␞0:␞37:sg-added-anegakoji-yoritsuna-20261125␞0:␞246:sg-added-anegakoji-yoritsuna-20261125>sg2hist-a-anegakoji-defeat1585-20261125>sg2site-a-anegakoji-matsukura-20261125>21203\nsg-added-anegakoji-yoritsuna-20261125>sg2hist-a-anegakoji-defeat1585-20261125>sg2site-a-anegakoji-sakurabora-20261125>21220"
-    }
-  ],
-  "holds": [
-    {
-      "kind": "完成版ストーリー",
-      "id": "sg-added-matsumae-yoshihiro-20261125",
-      "approvalRow": 4532,
-      "reason": "E2E相互照合/提出内容未一致（C禁止）。本文は候補に入れない。"
     },
     {
+      "gateRow": 297,
+      "approvalRow": 4532,
+      "kind": "完成版ストーリー",
+      "id": "sg-added-matsumae-yoshihiro-20261125",
+      "version": "v2",
+      "expected": "PUBLIC-v1␝完成版ストーリー|sg-added-matsumae-yoshihiro-20261125|v2␝4:松前慶広␞2279:本州の武将たちが城と田畑を奪い合っていた時代、津軽海峡の向こうには、海の往来を力に変えて生きる一族がいた。蠣崎氏である。その家に生まれた松前慶広は、安東氏に従う領主から、天下人と直接交渉する大名へと歩んでいく。彼が家の存続を懸けたのは、戦場だけではなかった。海を行き交う船と交易を、誰が取り仕切るのかという問題だった。\n\n1548年、慶広は蠣崎季広の三男として生まれた。幼いころは新三郎とも呼ばれた。蠣崎氏は蝦夷地南部の松前大館を本拠とし、出羽の安東氏との関係のもとで勢力を保っていた。海の向こうには本州の領主たちがいる。一方、蝦夷地にはアイヌの人々が暮らし、独自の社会を営んでいた。松前の領主にとって、海を越える交易と周囲の人々との関係は、家を支える大切な基盤だった。\n\n1579年、慶広は主家の安東愛季に昆布などを献上した。その折、父季広が軍事行動を予定していることも伝えている。海の産物を贈り、家の動きを知らせる。北の海辺で暮らす一族も、出羽や津軽の武将たちが築く政治の秩序から離れてはいられなかった。\n\n1582年、慶広は父から家督を譲られた。同じ年には、父の命を受けて安東愛季の軍役にも加わっている。領地を受け継いだ当主には、主家の戦いに応じる務めもあった。その翌1583年、比内の浅利勝頼が謀殺される事件に慶広は関わり、愛季から恩賞を受けた。慶広が具体的にどのような行為をしたかは明らかでないが、その働きが主君に評価されたことは文書に残る。蠣崎家の歩みは、海の幸を贈り合う穏やかな交流だけで成り立っていたのではない。北出羽で繰り広げられた争いと、そこで失われた命も、その歴史の一部だった。\n\n1589年には北奥羽の南部信直へ鷹を贈った。昆布や鷹といった北国の産物は、遠くの武将と関係を結ぶためにも用いられた。しかし、そのころ本州では、これまでとは比べものにならない大きな変化が起きていた。豊臣秀吉が諸大名を従わせ、各地の領主が天下人のもとで新たな立場を得ようとしていたのである。\n\n1590年、慶広は前田利家らの取りなしを受けて上洛し、秀吉に謁見した。長く安東氏に従ってきた蠣崎家の当主が、自ら天下人に会う。この一歩によって、中央政権と直接結ばれる道が開けた。海峡の向こうの政治を、出羽の主家を通して知るだけの立場ではなくなりつつあった。\n\nだが、天下人と結ぶことは、その戦いにも関わることを意味した。翌1591年、九戸政実が南部氏に反抗して城に籠もると、秀吉は奥羽へ大軍を送った。慶広も豊臣方として参陣する。九戸城は包囲の末に降伏し、北奥羽の諸勢力は豊臣政権の秩序の中へ組み込まれていった。蝦夷地南部の領主にとっても、本州の新しい政治は無関係ではなかった。\n\n慶広は再び秀吉との交渉に向かう。1592年の旧暦十一月、彼が赴いたのは大坂だった。しかし秀吉は朝鮮への侵攻を指揮するため、肥前名護屋にいた。戦争のために諸大名と物資が集まる九州の地で、慶広は翌1593年正月に秀吉と会った。日本軍の侵攻が朝鮮に大きな被害をもたらす一方、その陣中では北の海をめぐる政治にも重要な決定が下されていた。\n\n慶広が得たのは、松前に出入りする船から役銭を取ることなどを認める朱印状だった。船の往来は、それまでにも蠣崎家の暮らしを支えていた。その交易を管理する権利に、今度は天下人の文書という裏付けが加わったのである。安東氏のもとにあった蠣崎家は、自ら交易を取り仕切る地位を強め、自立への大きな転機を迎えた。\n\n1596年、慶広は長男の盛広を伴って大坂へ赴き、大坂城西の丸で徳川家康に謁見した。秀吉との関係を築いた当主は、次代を担う息子とともに、徳川家とのつながりも結んでいく。1598年に秀吉が亡くなると、中央の政治は再び大きく動いた。翌1599年、慶広は蠣崎から松前へと姓を改めた。\n\n1600年には、代々の本拠だった大館からの移転に向け、新しい福山館を築く工事を始める。北の海を行き交う船と港を支える政治の拠点を整える、数年がかりの事業だった。家の名に続いて、その本拠も変わり始めていた。\n\n江戸幕府が開かれた翌1604年、慶広は徳川家康から黒印状を受ける。和人の商人が松前家の許しなくアイヌの人々と交易することは禁じられ、一方で、アイヌの人々の自由な往来を妨げたり、不当な要求をしたりすることも禁じられた。松前家の権限を認める文書には、交易に関わる人々を守るための規定も含まれていたのである。\n\nただし、松前家が認められたのは交易を管理する権利であって、アイヌの人々が暮らす蝦夷地の全域を自由に領有できるという意味ではない。交易の窓口を押さえた松前家の力が強まれば、それまでの交易をめぐる人々の関係にも変化が及ぶ。慶広が築いた仕組みの歴史は、松前家の側からだけでは語り尽くせない。\n\n1606年、福山館が完成し、慶広は政治の拠点を移した。館を中心に、その後の松前の城下町が形づくられていく。慶広が築いたのは、後世の松前城へとつながる福山館であり、幕末に完成する福山城そのものではない。\n\n1616年、慶広は生涯を閉じた。安東氏に昆布を贈っていた武将が、秀吉と家康に会い、船と交易を管理する権利を得て、家の名と本拠を改めた。その生涯は、本州の天下統一が海を隔てた北の社会にも変化をもたらした時代と重なっている。松前家は、その後も海を通じて領国を支えることになる。慶広が手にした朱印状と黒印状は、城を築くことと同じように、一族の長い歴史を形づくるものとなった。"
+    },
+    {
+      "gateRow": 298,
+      "approvalRow": 4549,
       "kind": "完成版ストーリー",
       "id": "sg-added-anegakoji-yoritsuna-20261125",
-      "approvalRow": 4549,
-      "reason": "E2E相互照合/提出内容未一致（C禁止）。本文は候補に入れない。"
+      "version": "v2",
+      "expected": "PUBLIC-v1␝完成版ストーリー|sg-added-anegakoji-yoritsuna-20261125|v2␝5:姉小路頼綱␞2234:飛騨の山々には、一つの城から見渡せる範囲を越えて、いくつもの領主が勢力を張っていた。南の桜洞城を足場に高山へ進み、古川や北飛騨へ勢力を伸ばした三木自綱、のちの姉小路頼綱は、その飛騨をまとめるところまでたどり着く。だが、山々に囲まれた国を制しても、山の外から押し寄せる新たな天下の力には抗しきれなかった。\n\n1540年、頼綱は三木良頼の子として生まれた。光頼、のちに自綱とも名乗った。父の三木氏は南飛騨の桜洞城を拠点とする武家である。飛騨には古川の姉小路氏や北の江馬氏などが並び立ち、山間の限られた土地や、盆地を結ぶ道をめぐって争っていた。三木氏の勢力を広げるには、一つずつ周囲の領主との関係を変えていかなければならなかった。\n\n1558年ごろ、自綱は広瀬氏と協力し、高山の天神山城を守る高山外記らを攻めた。外記は討たれ、城には自綱の叔父・久綱が入ったと伝わる。桜洞城から高山盆地へ。三木家の支配は、それまでの本拠から北へ広がり始めた。\n\nその二年ほど後の1560年、父良頼は飛騨の古い国司家である姉小路氏の名跡を継いだ。良頼は飛騨守を称し、自綱も左衛門佐に任ぜられる。城を攻めて勢力を広げる一方、朝廷の官位と由緒ある家名を得る。父子は武力とは異なる権威をも手にしたのである。姉小路頼綱という名には、この一族の飛騨での地位を変えていった歴史が重なっている。\n\n自綱の活動は山国の内側にとどまらなかった。1570年、京都へ赴き、将軍足利義昭のもとへ参じた武将たちに名を連ねる。公家の日記には姉小路侍従自綱の名が見える。織田信長が畿内で力を伸ばしていた時代、飛騨の武将も都の政治と結びつきを持っていたのである。\n\n一方、山を隔てた越後には上杉謙信がいた。1572年の秋には、病の父良頼に代わって自綱が謙信の陣へ参上する予定を記した書状が残る。飛騨の領主にとって、隣国との交渉も家を守るための重要な仕事だった。同年十一月、良頼は世を去り、自綱が家督を継いだ。父とともに広げてきた領地を、今度は自らの責任で維持する立場となった。\n\n翌1573年には、自綱が郡上から得た大般若経を千光寺へ寄進したという話が伝わる。寺に残るのは鎌倉時代に書き写された経巻である。戦国の武将の名は、落城や合戦の記録だけでなく、寺に伝わる文化にも刻まれていた。\n\n1575年、飛騨国司の姉小路中納言と記された人物が上洛し、信長へ栗毛の馬を贈ったことが『信長公記』に残る。この人物は、すでに父を失って家を継いでいた自綱とみられる。飛騨の山々を越えた先では、信長の勢力が広がり続けていた。地方の領主も、天下の政治の変化から離れてはいられなかった。\n\n自綱は高山の松倉城を重要な拠点とした。1579年の新宮神社の棟札には、すでに松倉城を守る願いが記されている。南の桜洞城に加え、高山にも勢力を支える城を持ったことで、三木家の活動はさらに広い範囲へ及んだ。同じ1579年には、子の宣綱が自害したとする記録も残る。城と領地を得ることと、一族の結びつきを保つことは、同じではなかった。\n\n1581年、自綱は南飛騨の久津八幡宮に拝殿を造立した。戦いの多い生涯のなかで、地域の信仰を支える建物も残したのである。その拝殿は今も、戦国時代の飛騨を伝えている。\n\n1582年、織田信長が本能寺で倒れる。飛騨では、北の高原郷に本拠を置く江馬輝盛と自綱の対立が、大きな戦いに至った。その年の秋、荒城郷の八日町で両軍が衝突する。自綱と姉小路向氏の軍勢が勝利し、江馬輝盛は討ち死にした。続いて三木方の小島時光が江馬氏の本城・高原諏訪城を攻め落とす。八日町での勝利だけでなく、味方の武将による敵の本拠攻略が、飛騨における自綱の優位を決定的なものにしていった。\n\nしかし、長年の敵を倒しても、飛騨の争いは終わらなかった。1583年には広瀬氏と協力して小鷹利の牛丸氏を退け、その後はかつて高山攻めにも協力した広瀬氏と争ったと伝わる。弟の鍋山顕綱が殺害された記録も残る。国を一つにまとめていく過程には、長く結んできた味方との対立や、一族の命が失われる内紛もあった。\n\nこのころ、自綱は子の秀綱に家督を譲り、出家したとされる。息子に城と領国を託しても、飛騨の外では天下の行方が大きく変わっていた。信長の死後、その勢力を引き継いで台頭した羽柴秀吉は、全国に支配を広げようとしていた。\n\n1585年、秀吉の命を受けた金森長近・可重の軍勢が飛騨へ攻め入った。南の桜洞城も、高山の松倉城も、三木家の支配を支える城だった。二十年以上にわたって勢力を広げてきた自綱の一族は、今度はそれらの城を守る側に立たされた。だが、金森勢の侵攻を押し返すことはできなかった。三木氏の城は落ち、自綱は降伏した。松倉城を継いでいた秀綱も逃れる途中で殺害されたと伝わる。一族は領地だけでなく、次代を担う当主も失ったのである。\n\n自綱自身は生き延びて京都へ移り、1587年に生涯を閉じた。かつて飛騨の領主として上洛し、天下人との関係を結んだ都は、最後には領国を離れて暮らす地となった。\n\n三木の家名を背負って南飛騨から出発し、姉小路の名跡を継ぎ、山国に並び立った領主たちを退けた頼綱。飛騨の城々をまとめるところまで進んだその生涯は、豊臣政権が地方の勢力を組み替える時代に終わった。桜洞や松倉の城跡、久津八幡宮に残る拝殿には、彼が築こうとした国と、失った国の歴史が刻まれている。"
     }
   ],
+  "holds": [],
   "sharedSites": [
     {
       "id": "sg2site-hideyoshi-odawara",
@@ -5492,6 +5739,18 @@
     {
       "id": "sg2src-a-anegakoji-nobunaga-horse1575-shinchokoki-20261125",
       "url": "https://ja.wikisource.org/wiki/%E4%BF%A1%E9%95%B7%E5%85%AC%E8%A8%98",
+      "status": "本文確認済",
+      "rights": "条件付き"
+    },
+    {
+      "id": "sg2src-a-matsumae-saganagoya-20261125",
+      "url": "https://saga-museum.jp/nagoya/nagoya-castle/nagoya.html",
+      "status": "本文確認済",
+      "rights": "条件付き"
+    },
+    {
+      "id": "sg2src-a-matsumae-hakodate-1592-20261125",
+      "url": "https://adeac.jp/hakodate-city/texthtml/d100010/mp000010-100010/ht030270",
       "status": "本文確認済",
       "rights": "条件付き"
     }

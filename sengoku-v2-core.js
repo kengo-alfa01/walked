@@ -850,12 +850,15 @@
     }
     return out;
   }
+  const C20261126_INHERITED=Object.freeze({"4518":{"kind":"経歴","personId":"sg-master-0365","sourceId":"sg2hist-a-hirotsuna-father1549-20261125","sourceVersion":"v1","sourceGateRow":86,"gateRow":292,"decision":"継承合格"},"4519":{"kind":"経歴","personId":"sg-master-0365","sourceId":"sg2hist-a-hirotsuna-flight1549-20261125","sourceVersion":"v1","sourceGateRow":87,"gateRow":293,"decision":"継承合格"},"4532":{"kind":"完成版ストーリー","personId":"sg-added-matsumae-yoshihiro-20261125","sourceId":null,"sourceVersion":"v1","sourceGateRow":140,"gateRow":297,"decision":"継承合格"},"4549":{"kind":"完成版ストーリー","personId":"sg-added-anegakoji-yoritsuna-20261125","sourceId":null,"sourceVersion":"v1","sourceGateRow":205,"gateRow":298,"decision":"継承合格"}});
   function approval(a,body,hash,context){
     check(plain(a)&&Number.isInteger(a.sheetRow)&&a.sheetRow>=2,'⑥承認行がありません');
     check(/^v[1-9]\d*$/.test(a.version||''),'版番号が不正です');
     check(a.kind===context.kind&&a.personId===context.personId&&a.sourceId===context.sourceId,'承認行の人物・文章種別・元IDが一致しません');
     check(a.user==='公開OK'&&a.quality==='品質合格'&&a.sourceMatch==='一致','ユーザー承認・品質・原文照合が未完了です');
-    check(a.handoff==='C候補（別途公開承認）','C受渡し判定が未完了です');
+    const inherited=C20261126_INHERITED[a.sheetRow];
+    if(inherited){const q=a.inheritance;check(a.version==='v2'&&a.handoff==='E2E相互照合/提出内容未一致（C禁止）'&&plain(q)&&a.kind===inherited.kind&&a.personId===inherited.personId&&a.sourceId===inherited.sourceId&&q.sourceVersion===inherited.sourceVersion&&q.sourceGateRow===inherited.sourceGateRow&&q.gateRow===inherited.gateRow&&q.decision===inherited.decision,'承認継承の版・旧⑥・新版ゲートが不一致');}
+    else check(!a.inheritance&&a.handoff==='C候補（別途公開承認）','C受渡し判定が未完了です');
     check(typeof body==='string'&&body.length>0,'承認本文が空です');
     check(typeof a.sha256==='string'&&/^[0-9a-f]{64}$/.test(a.sha256)&&hash(body)===a.sha256,'承認済み文章のハッシュが一致しません');
   }
@@ -866,20 +869,20 @@
     const known=codeSet(knownCodes), personMap=new Map(),siteMap=new Map(),historyMap=new Map(),linkKeys=new Set(),regionMap=new Map(),linkSites=new Map(),approvalRows=new Set(),municipalityAwards=new Map();
     function uniqueApproval(a){check(!approvalRows.has(a.sheetRow),'⑥の同じ承認行を重複流用できません');approvalRows.add(a.sheetRow);}
     for(const p of doc.people){
-      check((PEOPLE.has(p.personId)||C20261119_PEOPLE.has(p.personId)||C20261120_9_PEOPLE.has(p.personId)||C20261124_14_PEOPLE.has(p.personId)||(doc.version==='v2-approved-c-20261126-new4-v11'&&C20261126_4_PEOPLE.has(p.personId)))&&!personMap.has(p.personId)&&typeof p.name==='string','対象外・重複人物');
+      check((PEOPLE.has(p.personId)||C20261119_PEOPLE.has(p.personId)||C20261120_9_PEOPLE.has(p.personId)||C20261124_14_PEOPLE.has(p.personId)||(doc.version==='v2-approved-c-20261126-new4-v12'&&C20261126_4_PEOPLE.has(p.personId)))&&!personMap.has(p.personId)&&typeof p.name==='string','対象外・重複人物');
       for(const type of ['introduction','story']){
-        const t=p[type];if(type==='story'&&t===null&&doc.version==='v2-approved-c-20261126-new4-v11'&&C20261126_STORY_PENDING.has(p.personId))continue;if(type==='introduction'&&!t&&doc.people.length===20&&INTRO_PENDING.has(p.personId))continue;
+        const t=p[type];if(type==='story'&&t===null&&doc.version==='v2-approved-c-20261126-new4-v12'&&C20261126_STORY_PENDING.has(p.personId))continue;if(type==='introduction'&&!t&&doc.people.length===20&&INTRO_PENDING.has(p.personId))continue;
         check(plain(t),'人物紹介・通史の欠落 '+p.personId);
         approval(t.approval,t.text,sha256,{kind:type==='introduction'?'人物紹介':'完成版ストーリー',personId:p.personId,sourceId:null});
         uniqueApproval(t.approval);
         check(t.approval.rights==='位置不要・権利OK'||t.approval.rights==='自治体確認済・権利OK','権利が未確認');
       }
-      if(p.story===null){check(doc.version==='v2-approved-c-20261126-new4-v11'&&C20261126_STORY_PENDING.has(p.personId),'未承認長編の例外対象外');personMap.set(p.personId,p);continue;}
+      if(p.story===null){check(doc.version==='v2-approved-c-20261126-new4-v12'&&C20261126_STORY_PENDING.has(p.personId),'未承認長編の例外対象外');personMap.set(p.personId,p);continue;}
       const unlock=p.story.unlock;
       check(plain(unlock)&&Number.isInteger(unlock.requiredHistoryCount)&&unlock.requiredHistoryCount>0&&Number.isInteger(unlock.requiredPlaceHistoryCount)&&unlock.requiredPlaceHistoryCount>=0&&unlock.requiredPlaceHistoryCount<=unlock.requiredHistoryCount&&/^[a-f0-9]{64}$/.test(unlock.historyIdsSHA256||''),'完成版ストーリーの全経歴解放条件が不正です');
       personMap.set(p.personId,p);
     }
-    check(([3,20,43,65,74,88].includes(personMap.size)||(doc.version==='v2-approved-c-20261126-new4-v11'&&personMap.size===92)),'承認済み3・20・43・65・74・88人物以外を混入させないでください');
+    check(([3,20,43,65,74,88].includes(personMap.size)||(doc.version==='v2-approved-c-20261126-new4-v12'&&personMap.size===92)),'承認済み3・20・43・65・74・88人物以外を混入させないでください');
     if(personMap.size===65)check([...C20261119_PEOPLE].every(id=>personMap.has(id)),'C20261119の承認済み新人物が欠けています');
     if(personMap.size===74)check([...C20261119_PEOPLE,...C20261120_9_PEOPLE].every(id=>personMap.has(id)),'C20261120の承認済み9人物が欠けています');
     if(personMap.size===92)check([...PEOPLE,...C20261119_PEOPLE,...C20261120_9_PEOPLE,...C20261124_14_PEOPLE,...C20261126_4_PEOPLE].every(id=>personMap.has(id)),'承認済み92人物が欠けています');
@@ -954,7 +957,7 @@
       // An approved 88-person package may use a municipality acquisition for a
       // location-free ⑥ prose record only when it has a separately B-approved ④ link.
       const cV6QualifiedPlace=((personMap.size===88||personMap.size===92)||doc.version.startsWith('v2-approved-c-20261124-p1-'))&&doc.relations.some(r=>r.historyId===h.historyId&&r.personId===h.personId&&r.bStatus==='合格'&&r.linkDecision==='関係上対象'&&['本人直接','出来事直接（史料）','出来事直接（公的伝承）'].includes(r.classification));
-      check((h.kind==='place'&&(['自治体確認済・権利OK','地点確認済・権利OK'].includes(h.approval.rights)||((new9MunicipalHistory||cV6QualifiedPlace)&&h.approval.rights==='位置不要・権利OK')))||(h.kind==='nonplace'&&(h.approval.rights==='位置不要・権利OK'||((doc.version.startsWith('v2-approved-c-20261124-')||doc.version==='v2-approved-c-20261126-new4-v11')&&h.approval.rights==='自治体確認済・権利OK'&&(['sg2hist-tadakatsu-1610-death','sg2hist-masanobu-1563-ikko'].includes(h.historyId)||C20261124_NO_AWARD_HISTORY_IDS.has(h.historyId))&&!doc.relations.some(r=>r.historyId===h.historyId)))),'経歴の場所区分と権利承認が一致しません: '+h.historyId+' kind='+h.kind+' rights='+h.approval.rights);
+      check((h.kind==='place'&&(['自治体確認済・権利OK','地点確認済・権利OK'].includes(h.approval.rights)||((new9MunicipalHistory||cV6QualifiedPlace)&&h.approval.rights==='位置不要・権利OK')))||(h.kind==='nonplace'&&(h.approval.rights==='位置不要・権利OK'||((doc.version.startsWith('v2-approved-c-20261124-')||doc.version==='v2-approved-c-20261126-new4-v12')&&h.approval.rights==='自治体確認済・権利OK'&&(['sg2hist-tadakatsu-1610-death','sg2hist-masanobu-1563-ikko'].includes(h.historyId)||C20261124_NO_AWARD_HISTORY_IDS.has(h.historyId))&&!doc.relations.some(r=>r.historyId===h.historyId)))),'経歴の場所区分と権利承認が一致しません: '+h.historyId+' kind='+h.kind+' rights='+h.approval.rights);
       check(Array.isArray(h.sourceUrls)&&h.sourceUrls.every(x=>typeof x==='string'&&/^https:\/\//.test(x)),'経歴出典URL不正');
       historyMap.set(h.historyId,h);
     }

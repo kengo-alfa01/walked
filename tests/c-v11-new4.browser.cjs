@@ -53,7 +53,7 @@ for(const [label,browserType,opts] of [
      retiredOldHistory:!!sengokuFound['sg2hist-hanbei-nagashino-1575'],
      overflow:document.documentElement.scrollWidth>window.innerWidth+4};
    });
-   assert.equal(actual.version,'v2-approved-c-20261126-new4-v11');
+   assert.equal(actual.version,'v2-approved-c-20261126-new4-v12');
    assert.deepEqual([actual.people,actual.pins],[92,544]);
    assert.equal(actual.visible,true);assert.deepEqual(actual.p1Point,[136.4188125,34.4061875]);
    assert.equal(actual.p1Access,'yellow');assert.equal(actual.redNoRouting,true);
@@ -118,7 +118,9 @@ for(const [label,browserType,opts] of [
     return res;
    });
    assert.equal(demo.length,4);assert(demo.every(x=>x.owned&&x.same&&x.title&&x.storyPending&&!x.overflow));assert.deepEqual(errors,[]);
-   console.log('NEW4_BROWSER_77_PASS '+label+' '+JSON.stringify(demo));
+   const inheritance=await page.evaluate(()=>{const ids=['sg2hist-a-hirotsuna-father1549-20261125','sg2hist-a-hirotsuna-flight1549-20261125'];const codes=['09214','09209'];const checks=ids.map((id,i)=>{state.visited[codes[i]]={first:'2020-01-01'};reconcileSengokuVisits();const first=JSON.stringify(sengokuFound[id]);reconcileSengokuVisits();return {owned:ownsSengokuCard(id),same:first===JSON.stringify(sengokuFound[id]),version:sengokuV2Catalog.histories.get(id).approval.version,order:sengokuV2Catalog.histories.get(id).displayOrder};});const stories=['sg-added-matsumae-yoshihiro-20261125','sg-added-anegakoji-yoritsuna-20261125'].map(id=>{const p=sengokuV2Catalog.people.get(id);return {version:p.story.approval.version,hasText:p.story.text.length>2000};});return {checks,stories};});
+   assert(inheritance.checks.every((x,i)=>x.owned&&x.same&&x.version==='v2'&&x.order===(i+1)*10));assert(inheritance.stories.every(x=>x.version==='v2'&&x.hasText));
+   console.log('NEW4_BROWSER_81_PASS '+label+' '+JSON.stringify(demo));
 
    console.log('P1_BROWSER_RELEASE_PASS '+label+' '+JSON.stringify({version:actual.version,people:92,pins:544}));
   }finally{await browser.close();}
