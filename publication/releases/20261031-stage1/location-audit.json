@@ -1,0 +1,187 @@
+{
+  "boundarySHA256": "ba8e92bcb091e4afe1160bdc26868d2fb6616cc3cee138b3d973854eb7662333",
+  "boundarySource": "https://github.com/kyodo-official/japan-choropleth/blob/78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson",
+  "engine": "pinned main index.html geomContains",
+  "results": [
+    {
+      "siteId": "sg-site-odawara",
+      "municipalityCode": "14206",
+      "codeInRegistry": true,
+      "point": [
+        139.1534559,
+        35.2510296
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-hachioji",
+      "municipalityCode": "13201",
+      "codeInRegistry": true,
+      "point": [
+        139.256515,
+        35.652617
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-tsutsujigasaki",
+      "municipalityCode": "19201",
+      "codeInRegistry": true,
+      "point": [
+        138.5775,
+        35.6869
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-shinpu",
+      "municipalityCode": "19207",
+      "codeInRegistry": true,
+      "point": [
+        138.42524,
+        35.735151
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-takiyama",
+      "municipalityCode": "13201",
+      "codeInRegistry": true,
+      "point": [
+        139.328166,
+        35.701799
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-hachigata",
+      "municipalityCode": "11362",
+      "codeInRegistry": true,
+      "point": [
+        139.193361,
+        36.107315
+      ],
+      "pointInMunicipality": false
+    },
+    {
+      "siteId": "sg-site-minowa",
+      "municipalityCode": "10202",
+      "codeInRegistry": true,
+      "point": [
+        138.951932,
+        36.404195
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-yamanaka",
+      "municipalityCode": "22206",
+      "codeInRegistry": true,
+      "point": [
+        138.994284,
+        35.156622
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-kawagoe",
+      "municipalityCode": "11201",
+      "codeInRegistry": true,
+      "point": [
+        139.491683,
+        35.924396
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-ueda",
+      "municipalityCode": "20203",
+      "codeInRegistry": true,
+      "point": [
+        138.24493,
+        36.404504
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-takato",
+      "municipalityCode": "20209",
+      "codeInRegistry": true,
+      "point": [
+        138.062363,
+        35.83316
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-nrct-130000022400",
+      "municipalityCode": "13101",
+      "codeInRegistry": true,
+      "point": [
+        139.754418,
+        35.688371
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-suwahara",
+      "municipalityCode": "22209",
+      "codeInRegistry": true,
+      "point": [
+        138.119899,
+        34.81833
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-ooga",
+      "municipalityCode": "21215",
+      "codeInRegistry": true,
+      "point": [
+        136.768752,
+        35.563094
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-makabe",
+      "municipalityCode": "08231",
+      "codeInRegistry": true,
+      "point": [
+        140.107692,
+        36.27537
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-masuyama",
+      "municipalityCode": "16208",
+      "codeInRegistry": true,
+      "point": [
+        137.040835,
+        36.651316
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-gifu",
+      "municipalityCode": "21201",
+      "codeInRegistry": true,
+      "point": [
+        136.782034,
+        35.433927
+      ],
+      "pointInMunicipality": true
+    },
+    {
+      "siteId": "sg-site-takatenjin",
+      "municipalityCode": "22213",
+      "codeInRegistry": true,
+      "point": [
+        138.035571,
+        34.698262
+      ],
+      "pointInMunicipality": true
+    }
+  ]
+}

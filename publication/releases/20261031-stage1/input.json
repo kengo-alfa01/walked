@@ -1,0 +1,2414 @@
+{
+  "schemaVersion": "walked-publication-v1",
+  "version": "20261031-stage1",
+  "masterSnapshot": {
+    "spreadsheetId": "1tJN3AvRQbCuGLYEd1ann_ge81zosY33no_ps-vf6UWs",
+    "capturedAt": "2026-10-31T11:23:05.450026+00:00",
+    "sha256": "d9379bb521d9cd3b4b773f33dc296673e74a7549be9b958da77c455972132371"
+  },
+  "baseline": {
+    "commit": "1e3a66aceee0286e4509941deb6d189f62b90b41",
+    "contentHashes": {
+      "sengoku/people.json": "6658e48b8faf5edd4e4236d183c491c66e13f1e580c1d5f76329638bb544ff57",
+      "sengoku/sites.json": "ac0dbecc8fc2b5e5e40d2ad938c2bcfffe5d959642aba2fd600a6ee02c348e98",
+      "sengoku/links.json": "7371736f72997043588e40ad203f5bec039773a8cc32956f15e9affed2b4c6dd",
+      "sengoku/cards.json": "b5503b1bb59decb437fcfa8e25cb977c096ed03ea3d47d90fdc4e31896b10962",
+      "history.json": "a44335ec2deae6f651b7fabf95f84c3afacdc7e9b29eefbf18221c078648e2b4"
+    }
+  },
+  "adoptedPersonIds": [
+    "sg-004af7fd6f69",
+    "sg-025ab3a6ee3f",
+    "sg-05d4ad2ca192",
+    "sg-06350062e0e3",
+    "sg-09b6ad013f33",
+    "sg-09eb74bf4159",
+    "sg-0a11ed8a5e60",
+    "sg-0b974357bac7",
+    "sg-0c72d1fa0136",
+    "sg-0d5a2a224f5e",
+    "sg-0dde8259f8df",
+    "sg-0e4dd744efcf",
+    "sg-109ae0f4414d",
+    "sg-148daf4e23ca",
+    "sg-163274b0bfdf",
+    "sg-17496a5d9dfa",
+    "sg-17b3fc2f32ad",
+    "sg-1a91ae29cb5a",
+    "sg-1b2c65e11138",
+    "sg-1c8ecc2d1bf4",
+    "sg-1cc5e9da1135",
+    "sg-1ebd0b00f6fd",
+    "sg-22f595e1c616",
+    "sg-2366fe95caa3",
+    "sg-24684888730a",
+    "sg-248aba9a5613",
+    "sg-281d92dc2e0f",
+    "sg-29c3bc68aa37",
+    "sg-2c9b79309350",
+    "sg-2d3f90c28c8f",
+    "sg-2e7e85a2f05b",
+    "sg-2f68ae7810d0",
+    "sg-311ba3d06bd6",
+    "sg-31e0e85d7a10",
+    "sg-31e7289f7720",
+    "sg-3337ee17e64f",
+    "sg-334f0ad961e2",
+    "sg-3620f59d61f8",
+    "sg-368d313f71c3",
+    "sg-37fdfb0d52c1",
+    "sg-388af5de1320",
+    "sg-3acb18a9fa1c",
+    "sg-3e72ce5a7fa9",
+    "sg-404bb56ac651",
+    "sg-40a90e24b432",
+    "sg-40aa320a08e4",
+    "sg-4159f0d9f3b0",
+    "sg-416baa3d4e63",
+    "sg-41b3835895a3",
+    "sg-445a4d61441d",
+    "sg-451ea10bcb24",
+    "sg-46fbe5184d7a",
+    "sg-47293bb9ea88",
+    "sg-47af3a3931f8",
+    "sg-49819a572b8c",
+    "sg-49a2411798d0",
+    "sg-4a0d5b7e8da9",
+    "sg-4ae0c30e6a58",
+    "sg-4c0c12460efa",
+    "sg-4cb1a557e060",
+    "sg-4d159b56655e",
+    "sg-4e02f0802b16",
+    "sg-4f700b581dac",
+    "sg-509374345bbc",
+    "sg-532f50203751",
+    "sg-53d7309718ae",
+    "sg-556b573f620b",
+    "sg-596de9e9d2c2",
+    "sg-5b38718f87ac",
+    "sg-5c6f60a32cc4",
+    "sg-5d169413d357",
+    "sg-5e4958a3a30b",
+    "sg-60127e5bb054",
+    "sg-60dc822b9098",
+    "sg-61b29c703206",
+    "sg-61d60c6f9bfa",
+    "sg-627bbb0204ca",
+    "sg-652da2fcc84e",
+    "sg-6568a3b2fdc7",
+    "sg-65a881d7f9ee",
+    "sg-6666c05e6264",
+    "sg-6708a912a215",
+    "sg-6b9dfe775421",
+    "sg-6b9e823e7bf5",
+    "sg-6be1c9b51574",
+    "sg-6e7c2701582a",
+    "sg-6eaf66c3d7c8",
+    "sg-6f3368f015f6",
+    "sg-6f62edf23a38",
+    "sg-6f81530db175",
+    "sg-6ffcd3b19007",
+    "sg-722bae153f1b",
+    "sg-76cf3b1e8681",
+    "sg-79a4eefd8d40",
+    "sg-7a8136915c8d",
+    "sg-7a9ec141203b",
+    "sg-7f8434578e6d",
+    "sg-80596de71aa1",
+    "sg-819c365a83e4",
+    "sg-84dc0beb5301",
+    "sg-859509f2e00e",
+    "sg-875cb1f9119d",
+    "sg-8cbc980e4721",
+    "sg-8d9f0bd63c27",
+    "sg-8df0e8922f50",
+    "sg-901256a2d908",
+    "sg-9147212ab4a4",
+    "sg-94a27730e132",
+    "sg-95608981fd14",
+    "sg-96939dda0884",
+    "sg-98139e31efb2",
+    "sg-98514cee0056",
+    "sg-98ea0db11340",
+    "sg-99c33c826a83",
+    "sg-9a73db98ef28",
+    "sg-a07ea793c09c",
+    "sg-a3675bca89fb",
+    "sg-a77cd1aa75f3",
+    "sg-a7bb09927601",
+    "sg-a8cfe1245acb",
+    "sg-a94db8113d4e",
+    "sg-added-maeda-toshiie",
+    "sg-added-nishina-morinobu",
+    "sg-af4aa93fd365",
+    "sg-b1d631ef2479",
+    "sg-b3ad604d8563",
+    "sg-b62946a697c3",
+    "sg-b6d0012b215c",
+    "sg-b79c0238f50a",
+    "sg-b96d26835a13",
+    "sg-b9bb61125a1b",
+    "sg-bdc70f64e638",
+    "sg-be2cdd21282e",
+    "sg-c091a1f2c530",
+    "sg-c33de3cf7739",
+    "sg-c38d3fa71701",
+    "sg-c3abf75d711c",
+    "sg-c4238494e690",
+    "sg-c4a99f3cbb77",
+    "sg-c594233cb2b7",
+    "sg-c7f26ab56a5f",
+    "sg-c9b23a4d650b",
+    "sg-ca4fbc8a4591",
+    "sg-cb02e33e1f61",
+    "sg-cb4753dc7bdd",
+    "sg-cd881fe48736",
+    "sg-cde02aaa8036",
+    "sg-cf72a6b13a40",
+    "sg-cfb73411fab8",
+    "sg-d607fa19cdfb",
+    "sg-d6690994a793",
+    "sg-d77a83b9ede7",
+    "sg-d95e2b81c841",
+    "sg-da0119c4781d",
+    "sg-da093dc1cd41",
+    "sg-dbdaed510c02",
+    "sg-dc42c21066b7",
+    "sg-dc8c550d8769",
+    "sg-de4ba6266d5d",
+    "sg-df4ede094a85",
+    "sg-e00b2631eded",
+    "sg-e04b78ac874d",
+    "sg-e0c70881a26c",
+    "sg-e4a2694bcde6",
+    "sg-e4bdce1950ff",
+    "sg-e64d13aedffc",
+    "sg-e701cb97b4d9",
+    "sg-ea87da1feaf2",
+    "sg-eabb6aa8c477",
+    "sg-ebd50519deb3",
+    "sg-ee846a9ff8ae",
+    "sg-f0f828d32d64",
+    "sg-f2c2e2122e74",
+    "sg-f2f56875ef01",
+    "sg-f3b1781640ba",
+    "sg-f3fd8e48c7b8",
+    "sg-f43d43140ca8",
+    "sg-f47391608dbb",
+    "sg-f510c1a0d1ab",
+    "sg-f59be6be90ae",
+    "sg-f7efc358b462",
+    "sg-f8dec1480db8",
+    "sg-f91c582084bb",
+    "sg-f9bfd1ba47ba",
+    "sg-fa0a6f0c8900",
+    "sg-fa767bbaaf2c",
+    "sg-fa8d6bece07a",
+    "sg-fc948f16832f",
+    "sg-ff02145e28fa",
+    "sg-master-0001",
+    "sg-master-0005",
+    "sg-master-0012",
+    "sg-master-0018",
+    "sg-master-0020",
+    "sg-master-0031",
+    "sg-master-0034",
+    "sg-master-0039",
+    "sg-master-0040",
+    "sg-master-0044",
+    "sg-master-0051",
+    "sg-master-0052",
+    "sg-master-0053",
+    "sg-master-0060",
+    "sg-master-0062",
+    "sg-master-0064",
+    "sg-master-0068",
+    "sg-master-0077",
+    "sg-master-0080",
+    "sg-master-0081",
+    "sg-master-0095",
+    "sg-master-0113",
+    "sg-master-0114",
+    "sg-master-0117",
+    "sg-master-0119",
+    "sg-master-0123",
+    "sg-master-0139",
+    "sg-master-0144",
+    "sg-master-0145",
+    "sg-master-0146",
+    "sg-master-0147",
+    "sg-master-0148",
+    "sg-master-0149",
+    "sg-master-0154",
+    "sg-master-0162",
+    "sg-master-0163",
+    "sg-master-0180",
+    "sg-master-0182",
+    "sg-master-0183",
+    "sg-master-0184",
+    "sg-master-0185",
+    "sg-master-0186",
+    "sg-master-0189",
+    "sg-master-0190",
+    "sg-master-0192",
+    "sg-master-0193",
+    "sg-master-0195",
+    "sg-master-0196",
+    "sg-master-0198",
+    "sg-master-0205",
+    "sg-master-0208",
+    "sg-master-0213",
+    "sg-master-0237",
+    "sg-master-0251",
+    "sg-master-0261",
+    "sg-master-0266",
+    "sg-master-0268",
+    "sg-master-0270",
+    "sg-master-0271",
+    "sg-master-0272",
+    "sg-master-0274",
+    "sg-master-0279",
+    "sg-master-0280",
+    "sg-master-0281",
+    "sg-master-0283",
+    "sg-master-0284",
+    "sg-master-0285",
+    "sg-master-0299",
+    "sg-master-0301",
+    "sg-master-0309",
+    "sg-master-0311",
+    "sg-master-0312",
+    "sg-master-0313",
+    "sg-master-0344",
+    "sg-master-0345",
+    "sg-master-0350",
+    "sg-master-0353",
+    "sg-master-0362",
+    "sg-master-0364",
+    "sg-master-0365",
+    "sg-master-0378",
+    "sg-master-0388",
+    "sg-master-0402",
+    "sg-master-0405",
+    "sg-master-0407",
+    "sg-master-0438",
+    "sg-master-0440",
+    "sg-master-0441",
+    "sg-master-0442",
+    "sg-master-0445",
+    "sg-master-0480",
+    "sg-master-0485",
+    "sg-master-0493",
+    "sg-master-0496",
+    "sg-master-0497",
+    "sg-master-0499",
+    "sg-master-0504",
+    "sg-master-0505",
+    "sg-master-0506",
+    "sg-master-0508",
+    "sg-master-0515",
+    "sg-master-0522",
+    "sg-master-0527",
+    "sg-master-0538",
+    "sg-master-0556",
+    "sg-master-0559",
+    "sg-master-0572",
+    "sg-master-0575",
+    "sg-master-0577",
+    "sg-master-0589",
+    "sg-master-0590",
+    "sg-master-0604",
+    "sg-master-0609",
+    "sg-master-0611",
+    "sg-master-0620",
+    "sg-master-0628",
+    "sg-master-0639",
+    "sg-master-0642",
+    "sg-master-0651",
+    "sg-master-0652",
+    "sg-master-0654",
+    "sg-master-0671",
+    "sg-master-0672",
+    "sg-master-0680",
+    "sg-master-0685",
+    "sg-master-0693",
+    "sg-master-0696",
+    "sg-master-0697",
+    "sg-master-0717",
+    "sg-master-0722",
+    "sg-master-0723",
+    "sg-master-0734",
+    "sg-master-0735",
+    "sg-master-0736",
+    "sg-master-0739",
+    "sg-master-0749",
+    "sg-master-0751",
+    "sg-master-0752",
+    "sg-master-0753",
+    "sg-master-0756",
+    "sg-master-0759",
+    "sg-master-0761",
+    "sg-master-0763",
+    "sg-master-0765",
+    "sg-master-0767",
+    "sg-master-0768",
+    "sg-master-0770",
+    "sg-master-0779",
+    "sg-master-0780",
+    "sg-master-0796",
+    "sg-master-0810",
+    "sg-master-0817",
+    "sg-master-0820",
+    "sg-master-0824",
+    "sg-master-0825",
+    "sg-master-0826",
+    "sg-master-0836",
+    "sg-master-0837",
+    "sg-master-0838",
+    "sg-master-0839",
+    "sg-master-0840",
+    "sg-master-0856",
+    "sg-master-0883",
+    "sg-master-0891",
+    "sg-master-0892",
+    "sg-master-0904",
+    "sg-master-0908",
+    "sg-master-0918",
+    "sg-master-0922",
+    "sg-master-0923",
+    "sg-master-0926",
+    "sg-master-0929",
+    "sg-master-0937",
+    "sg-master-0940",
+    "sg-master-0942",
+    "sg-master-0944",
+    "sg-master-0945",
+    "sg-master-0946",
+    "sg-master-0957",
+    "sg-master-0965",
+    "sg-master-0970",
+    "sg-master-0972",
+    "sg-master-0990",
+    "sg-master-0992",
+    "sg-master-1000",
+    "sg-master-1002",
+    "sg-master-1031",
+    "sg-master-1032",
+    "sg-master-1034",
+    "sg-master-1037",
+    "sg-master-1045",
+    "sg-master-1051",
+    "sg-master-1090",
+    "sg-master-1091",
+    "sg-master-1096",
+    "sg-master-1101",
+    "sg-master-1103",
+    "sg-master-1114",
+    "sg-master-1119",
+    "sg-master-1120",
+    "sg-master-1121",
+    "sg-master-1128",
+    "sg-master-1150",
+    "sg-master-1154",
+    "sg-master-1157",
+    "sg-master-1171",
+    "sg-master-1172",
+    "sg-master-1174",
+    "sg-master-1176",
+    "sg-master-1195",
+    "sg-master-1196",
+    "sg-master-1197",
+    "sg-master-1200",
+    "sg-master-1245",
+    "sg-master-1246",
+    "sg-master-1249",
+    "sg-master-1250",
+    "sg-master-1251",
+    "sg-master-1262",
+    "sg-master-1277",
+    "sg-master-1280",
+    "sg-master-1282",
+    "sg-master-1284",
+    "sg-master-1287",
+    "sg-master-1305",
+    "sg-master-1309",
+    "sg-master-1312",
+    "sg-master-1318",
+    "sg-master-1321",
+    "sg-master-1323",
+    "sg-master-1326",
+    "sg-master-1336",
+    "sg-master-1337",
+    "sg-master-1355",
+    "sg-master-1363",
+    "sg-master-1379",
+    "sg-master-1380",
+    "sg-master-1384",
+    "sg-master-1386",
+    "sg-master-1396",
+    "sg-master-1401",
+    "sg-master-1402",
+    "sg-master-1405",
+    "sg-master-1409",
+    "sg-master-1410",
+    "sg-master-1412",
+    "sg-master-1414",
+    "sg-master-1417",
+    "sg-master-1419",
+    "sg-master-1425",
+    "sg-master-1429",
+    "sg-master-1444",
+    "sg-master-1448",
+    "sg-master-1449",
+    "sg-master-1450",
+    "sg-master-1452",
+    "sg-master-1457",
+    "sg-master-1469",
+    "sg-master-1471",
+    "sg-master-1486",
+    "sg-master-1487",
+    "sg-master-1502",
+    "sg-master-1503",
+    "sg-master-1504",
+    "sg-master-1505",
+    "sg-master-1507",
+    "sg-master-1510",
+    "sg-master-1516",
+    "sg-master-1534",
+    "sg-master-1540",
+    "sg-master-1541",
+    "sg-master-1543",
+    "sg-master-1545",
+    "sg-master-1546",
+    "sg-master-1547",
+    "sg-master-1550",
+    "sg-master-1557",
+    "sg-master-1558",
+    "sg-master-1564",
+    "sg-master-1595",
+    "sg-master-1606",
+    "sg-master-1614",
+    "sg-master-1617",
+    "sg-master-1618",
+    "sg-master-1619",
+    "sg-master-1620",
+    "sg-master-1621",
+    "sg-master-1623",
+    "sg-master-1624",
+    "sg-master-1625",
+    "sg-master-1626",
+    "sg-master-1631",
+    "sg-master-1638",
+    "sg-master-1640",
+    "sg-master-1649",
+    "sg-master-1650",
+    "sg-master-1651",
+    "sg-master-1653",
+    "sg-master-1660",
+    "sg-master-1662",
+    "sg-master-1666",
+    "sg-master-1673",
+    "sg-master-1674",
+    "sg-master-1684",
+    "sg-master-1685",
+    "sg-master-1686",
+    "sg-master-1688",
+    "sg-master-1689",
+    "sg-master-1690",
+    "sg-master-1696",
+    "sg-master-1704",
+    "sg-master-1705",
+    "sg-master-1709",
+    "sg-master-1712",
+    "sg-master-1720",
+    "sg-master-1725",
+    "sg-master-1733",
+    "sg-master-1734",
+    "sg-master-1736",
+    "sg-master-1737",
+    "sg-master-1740",
+    "sg-master-1752",
+    "sg-master-1760",
+    "sg-master-1762",
+    "sg-master-1765",
+    "sg-master-1766",
+    "sg-master-1769",
+    "sg-master-1772",
+    "sg-master-1773",
+    "sg-master-1780",
+    "sg-master-1781",
+    "sg-master-1787",
+    "sg-master-1788",
+    "sg-master-1790",
+    "sg-master-1791",
+    "sg-master-1792",
+    "sg-master-1793",
+    "sg-master-1796",
+    "sg-master-1797",
+    "sg-master-1798",
+    "sg-master-1799",
+    "sg-master-1820",
+    "sg-master-1821",
+    "sg-master-1822",
+    "sg-master-1824",
+    "sg-master-1825",
+    "sg-master-1828",
+    "sg-master-1829",
+    "sg-master-1835",
+    "sg-master-1837",
+    "sg-master-1840",
+    "sg-master-1841",
+    "sg-master-1843",
+    "sg-master-1845",
+    "sg-master-1847",
+    "sg-master-1849",
+    "sg-master-1868",
+    "sg-master-1874",
+    "sg-master-1875",
+    "sg-master-1876",
+    "sg-master-1879",
+    "sg-master-1882",
+    "sg-master-1886",
+    "sg-master-1887",
+    "sg-master-1889",
+    "sg-master-1891",
+    "sg-master-1893",
+    "sg-master-1894",
+    "sg-master-1903",
+    "sg-master-1906",
+    "sg-master-1926",
+    "sg-master-1928",
+    "sg-master-1930",
+    "sg-master-1931",
+    "sg-master-1934",
+    "sg-master-1935",
+    "sg-master-1936",
+    "sg-master-1943",
+    "sg-master-1944",
+    "sg-master-1945",
+    "sg-master-1955",
+    "sg-master-1966",
+    "sg-master-1968",
+    "sg-master-1969",
+    "sg-master-1970",
+    "sg-master-1990",
+    "sg-master-1993",
+    "sg-master-1995",
+    "sg-master-1996",
+    "sg-master-1997",
+    "sg-master-1999",
+    "sg-master-2000",
+    "sg-master-2001",
+    "sg-master-2009",
+    "sg-master-2011",
+    "sg-master-2013",
+    "sg-master-2014",
+    "sg-master-2016",
+    "sg-master-2033",
+    "sg-master-2034",
+    "sg-master-2035",
+    "sg-master-2038",
+    "sg-master-2050",
+    "sg-master-2051",
+    "sg-master-2053",
+    "sg-master-2054",
+    "sg-master-2085",
+    "sg-master-2090",
+    "sg-master-2092",
+    "sg-master-2094",
+    "sg-master-2095",
+    "sg-master-2103",
+    "sg-master-2104",
+    "sg-master-2105",
+    "sg-master-2106",
+    "sg-master-2115",
+    "sg-master-2122",
+    "sg-master-2123",
+    "sg-master-2124",
+    "sg-master-2125",
+    "sg-master-2169",
+    "sg-master-2179",
+    "sg-master-2180",
+    "sg-master-2181",
+    "sg-master-2190",
+    "sg-master-2191",
+    "sg-master-2193",
+    "sg-person-okudaira-nobumasa",
+    "sg-person-saito-dosan",
+    "sg-person-saito-tatsuoki",
+    "sg-person-toki-yoriaki",
+    "sg-researched-095-nakamura-kazuuji",
+    "sg-researched-096-hoshina-masamitsu",
+    "sg-researched-096-mori-tadamasa",
+    "sg-researched-096-narita-ujinaga"
+  ],
+  "people": {
+    "sg-master-0922": {
+      "id": "sg-master-0922",
+      "name": "斎藤義龍",
+      "aliases": [],
+      "verification": "identity_adopted",
+      "source": "",
+      "notes": "生涯全体の精査完了を意味しない"
+    },
+    "sg-98514cee0056": {
+      "id": "sg-98514cee0056",
+      "name": "武田信虎",
+      "group": "武田・甲斐・信濃",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-76cf3b1e8681": {
+      "id": "sg-76cf3b1e8681",
+      "name": "鳥居元忠",
+      "group": "徳川・三河",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-a7bb09927601": {
+      "id": "sg-a7bb09927601",
+      "name": "徳川家康",
+      "group": "徳川・三河",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-person-saito-dosan": {
+      "id": "sg-person-saito-dosan",
+      "name": "斎藤道三",
+      "group": "戦国・城郭関連",
+      "aliases": [],
+      "verification": "reviewed",
+      "siteResearch": "reviewed",
+      "source": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+      "notes": "市公式史料解説に基づき追加"
+    },
+    "sg-f47391608dbb": {
+      "id": "sg-f47391608dbb",
+      "name": "豊臣秀吉",
+      "group": "豊臣政権・関ヶ原",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-5d169413d357": {
+      "id": "sg-5d169413d357",
+      "name": "浅野長政",
+      "group": "豊臣政権・関ヶ原",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-4c0c12460efa": {
+      "id": "sg-4c0c12460efa",
+      "name": "武田信玄",
+      "group": "武田・甲斐・信濃",
+      "aliases": [
+        "武田晴信"
+      ],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-f8dec1480db8": {
+      "id": "sg-f8dec1480db8",
+      "name": "大久保忠隣",
+      "group": "徳川・三河",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-e701cb97b4d9": {
+      "id": "sg-e701cb97b4d9",
+      "name": "馬場信春",
+      "group": "武田・甲斐・信濃",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-c594233cb2b7": {
+      "id": "sg-c594233cb2b7",
+      "name": "北条氏綱",
+      "group": "北条・関東",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-fc948f16832f": {
+      "id": "sg-fc948f16832f",
+      "name": "北条氏照",
+      "group": "北条・関東",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-2366fe95caa3": {
+      "id": "sg-2366fe95caa3",
+      "name": "秋山信友",
+      "group": "武田・甲斐・信濃",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-e00b2631eded": {
+      "id": "sg-e00b2631eded",
+      "name": "武田勝頼",
+      "group": "武田・甲斐・信濃",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-dc8c550d8769": {
+      "id": "sg-dc8c550d8769",
+      "name": "上杉謙信",
+      "group": "上杉・越後・北陸",
+      "aliases": [],
+      "verification": "needs_review",
+      "siteResearch": "not_started",
+      "source": "",
+      "notes": ""
+    },
+    "sg-added-maeda-toshiie": {
+      "id": "sg-added-maeda-toshiie",
+      "name": "前田利家",
+      "group": "織田・豊臣・尾張",
+      "aliases": [],
+      "verification": "reviewed",
+      "siteResearch": "documented",
+      "source": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+      "notes": "追加カードに対応する人物。個別史実は各カードの出典を参照。"
+    }
+  },
+  "candidates": [
+    {
+      "reviewId": "review-112720810aac298802d8",
+      "publicationState": "調査中",
+      "personId": "sg-added-maeda-toshiie",
+      "personName": "前田利家",
+      "historyRecordId": "hist-5d5807ca49008ec3aa20",
+      "relationId": "rel-76e57739c48fd0e2a162",
+      "claimKey": "rel-sg-site-hachigata--sg-added-maeda-toshiie",
+      "site": {
+        "id": "sg-site-hachigata",
+        "name": "鉢形城跡",
+        "municipalityCode": "11362",
+        "point": [
+          139.193361,
+          36.107315
+        ],
+        "address": "埼玉県大里郡寄居町大字鉢形",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000238300.html"
+      },
+      "growthAreaId": "11362",
+      "publicText": {
+        "title": "鉢形城の包囲に加わった前田利家",
+        "summary": "1590年の小田原攻めの際、前田利家の軍勢は鉢形城を包囲する側に加わりました。"
+      },
+      "eventYear": 1590,
+      "sources": [
+        {
+          "evidenceId": "ev-pub-5b01958992caef45e31d",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/601",
+          "locator": "詳細解説・天正18年の包囲軍に前田利家を列挙する段落",
+          "access": "本文直接確認",
+          "claim": "1590年の小田原攻めの際、前田利家の軍勢は鉢形城を包囲する側に加わりました。"
+        }
+      ],
+      "rights": {
+        "text": "独自作成・原文転載なし",
+        "images": "使用なし",
+        "location": "CC BY 4.0",
+        "attribution": "史実：文化庁「国指定文化財等データベース」を参照しWALKEDが独自作成。位置情報：『日本歴史地名大系』施設・地点項目データセット（CODH作成、CC BY 4.0、doi:10.20676/00000456、https://geoshape.ex.nii.ac.jp/nrct-poi/）。代表点であり入口ではありません。"
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": true,
+          "basis": "今回本文直接確認"
+        },
+        "siteIdentity": {
+          "ok": true,
+          "basis": "上田/鉢形は既存IDと資料対応。真壁は国指定城域の重複を統合"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "出典座標は一致するが、固定した寄居町境界の外。座標/境界/コードの原因調査待ち"
+        },
+        "discovery": {
+          "ok": false,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体外のため停止"
+        },
+        "sourceLocator": {
+          "ok": true,
+          "basis": "URLと詳細解説内の確認箇所を記録"
+        },
+        "rights": {
+          "ok": true,
+          "basis": "独自の事実要約・画像なし。CODH座標はCC BY 4.0。帰属文をカード本文にも含める"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": true,
+          "basis": "対象を本文で確認した単一の事績に限定。出生地等の未解決事項を前提にしない"
+        }
+      },
+      "legacyCardIds": [],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-29a090949790bead99b9",
+      "publicationState": "調査中",
+      "personId": "sg-5d169413d357",
+      "personName": "浅野長政",
+      "historyRecordId": "hist-c6c1787d670e70b45267",
+      "relationId": "rel-3bf6f4da6f9a7b99b288",
+      "claimKey": "rel-sg-site-makabe--sg-5d169413d357",
+      "site": {
+        "id": "sg-site-makabe",
+        "name": "真壁城跡",
+        "municipalityCode": "08231",
+        "point": [
+          140.107692,
+          36.27537
+        ],
+        "address": "茨城県桜川市真壁町古城",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/08/080000241600.html"
+      },
+      "growthAreaId": "08231",
+      "publicText": {
+        "title": "浅野長政の隠居所となった真壁城",
+        "summary": "1606年、浅野長政は真壁・筑波郡内に隠居領を与えられ、真壁城を隠居所としました。"
+      },
+      "eventYear": 1606,
+      "sources": [
+        {
+          "evidenceId": "ev-pub-eb90d1d4e6fe4439f3d1",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/451",
+          "locator": "詳細解説・慶長11年の浅野長政の隠居領と隠居所を述べる段落",
+          "access": "本文直接確認",
+          "claim": "1606年、浅野長政は真壁・筑波郡内に隠居領を与えられ、真壁城を隠居所としました。"
+        }
+      ],
+      "rights": {
+        "text": "独自作成・原文転載なし",
+        "images": "使用なし",
+        "location": "CC BY 4.0",
+        "attribution": "史実：文化庁「国指定文化財等データベース」を参照しWALKEDが独自作成。位置情報：『日本歴史地名大系』施設・地点項目データセット（CODH作成、CC BY 4.0、doi:10.20676/00000456、https://geoshape.ex.nii.ac.jp/nrct-poi/）。代表点であり入口ではありません。"
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": true,
+          "basis": "今回本文直接確認"
+        },
+        "siteIdentity": {
+          "ok": true,
+          "basis": "上田/鉢形は既存IDと資料対応。真壁は国指定城域の重複を統合"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "市公式P6692は地図の誤表示を注意喚起。本丸・城域と現行代表点の厳密照合待ち（市境界内だけでは不足）"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": true,
+          "basis": "URLと詳細解説内の確認箇所を記録"
+        },
+        "rights": {
+          "ok": true,
+          "basis": "独自の事実要約・画像なし。CODH座標はCC BY 4.0。帰属文をカード本文にも含める"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": true,
+          "basis": "対象を本文で確認した単一の事績に限定。出生地等の未解決事項を前提にしない"
+        }
+      },
+      "legacyCardIds": [],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-a6721c489f5896e67fb1",
+      "publicationState": "調査中",
+      "personId": "sg-98514cee0056",
+      "personName": "武田信虎",
+      "historyRecordId": "hist-e5ec7a40e20e6e82c3ef",
+      "relationId": "rel-842e3b1d0235d4e90569",
+      "claimKey": "rel-sg-site-tsutsujigasaki--sg-98514cee0056",
+      "site": {
+        "id": "sg-site-tsutsujigasaki",
+        "name": "武田氏館跡",
+        "municipalityCode": "19201",
+        "point": [
+          138.5775,
+          35.6869
+        ],
+        "address": "山梨県甲府市",
+        "coordinateSource": "https://openhistory.wiki/ja/w/%E8%BA%91%E8%BA%85%E3%83%B6%E5%B4%8E%E9%A4%A8"
+      },
+      "growthAreaId": "19201",
+      "publicText": {
+        "title": "武田氏館跡と武田信虎（審査用）",
+        "summary": "築造・居館。（公開文未確定）"
+      },
+      "eventYear": 1519,
+      "sources": [
+        {
+          "evidenceId": "ev-4df9fe71551cf4a35cb4",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/1122",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "築造・居館。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [
+        "sg-card-0008",
+        "sg-card-0201"
+      ],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-238200fbd351ac54499d",
+      "publicationState": "公開可",
+      "personId": "sg-76cf3b1e8681",
+      "personName": "鳥居元忠",
+      "historyRecordId": "hist-687b7d0b467444708930",
+      "relationId": "rel-a5427068704bcf3ab9d1",
+      "claimKey": "rel-sg-site-ueda--sg-76cf3b1e8681",
+      "site": {
+        "id": "sg-site-ueda",
+        "name": "上田城跡",
+        "municipalityCode": "20203",
+        "point": [
+          138.24493,
+          36.404504
+        ],
+        "address": "長野県上田市二の丸",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000076900.html"
+      },
+      "growthAreaId": "20203",
+      "publicText": {
+        "title": "上田城を攻めた鳥居元忠",
+        "summary": "1585年、鳥居元忠は徳川方の将として上田城への攻撃に参加しました。真田昌幸の守る城を、この戦いで落とすことはできませんでした。"
+      },
+      "eventYear": 1585,
+      "sources": [
+        {
+          "evidenceId": "ev-pub-76f524191c493c1325bd",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/1173",
+          "locator": "詳細解説・天正13年の徳川方攻城に鳥居元忠を挙げる段落",
+          "access": "本文直接確認",
+          "claim": "1585年、鳥居元忠は徳川方の将として上田城への攻撃に参加しました。真田昌幸の守る城を、この戦いで落とすことはできませんでした。"
+        }
+      ],
+      "rights": {
+        "text": "独自作成・原文転載なし",
+        "images": "使用なし",
+        "location": "CC BY 4.0",
+        "attribution": "史実：文化庁「国指定文化財等データベース」を参照しWALKEDが独自作成。位置情報：『日本歴史地名大系』施設・地点項目データセット（CODH作成、CC BY 4.0、doi:10.20676/00000456、https://geoshape.ex.nii.ac.jp/nrct-poi/）。代表点であり入口ではありません。"
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": true,
+          "basis": "今回本文直接確認"
+        },
+        "siteIdentity": {
+          "ok": true,
+          "basis": "上田/鉢形は既存IDと資料対応。真壁は国指定城域の重複を統合"
+        },
+        "currentLocation": {
+          "ok": true,
+          "basis": "現在地・座標出典を直接照合"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": true,
+          "basis": "URLと詳細解説内の確認箇所を記録"
+        },
+        "rights": {
+          "ok": true,
+          "basis": "独自の事実要約・画像なし。CODH座標はCC BY 4.0。帰属文をカード本文にも含める"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": true,
+          "basis": "対象を本文で確認した単一の事績に限定。出生地等の未解決事項を前提にしない"
+        }
+      },
+      "legacyCardIds": [],
+      "entityStates": {
+        "history": "公開可",
+        "site": "公開可",
+        "relation": "公開可"
+      },
+      "approvedFingerprint": "6c461b9fc2f6a9555ef6eb4afa24bb04860a74f90fa67e66091d214ae35d3bef",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-0d1ad12dd533c8398ba5",
+      "publicationState": "調査中",
+      "personId": "sg-master-0922",
+      "personName": "斎藤義龍",
+      "historyRecordId": "hist-7a831fecd70c8748eadd",
+      "relationId": "rel-779b37ac68475fab2a9e",
+      "claimKey": "rel-sg-site-gifu--sg-master-0922",
+      "site": {
+        "id": "sg-site-gifu",
+        "name": "岐阜城跡",
+        "municipalityCode": "21201",
+        "point": [
+          136.782034,
+          35.433927
+        ],
+        "address": "岐阜県岐阜市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/21/210000161100.html"
+      },
+      "growthAreaId": "21201",
+      "publicText": {
+        "title": "岐阜城跡と斎藤義龍（審査用）",
+        "summary": "市の城主一覧で義龍の稲葉山城主を確認。（公開文未確定）"
+      },
+      "eventYear": null,
+      "sources": [
+        {
+          "evidenceId": "ev-683e6097eaa6496b8945",
+          "url": "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "市の城主一覧で義龍の稲葉山城主を確認。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-d0e94269c772b0396c9e",
+      "publicationState": "調査中",
+      "personId": "sg-person-saito-dosan",
+      "personName": "斎藤道三",
+      "historyRecordId": "hist-e7a4c18285bf1693094d",
+      "relationId": "rel-bc83290d97163e4fd44c",
+      "claimKey": "rel-sg-site-ooga--sg-person-saito-dosan",
+      "site": {
+        "id": "sg-site-ooga",
+        "name": "大桑城跡",
+        "municipalityCode": "21215",
+        "point": [
+          136.768752,
+          35.563094
+        ],
+        "address": "岐阜県山県市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/21/210000155000.html"
+      },
+      "growthAreaId": "21215",
+      "publicText": {
+        "title": "大桑城跡と斎藤道三（審査用）",
+        "summary": "頼芸追放に至る騒乱との関連。（公開文未確定）"
+      },
+      "eventYear": null,
+      "sources": [
+        {
+          "evidenceId": "ev-49300ead6b545b1fcbb5",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/00004243",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "頼芸追放に至る騒乱との関連。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-0e797b83724c007336e1",
+      "publicationState": "調査中",
+      "personId": "sg-e00b2631eded",
+      "personName": "武田勝頼",
+      "historyRecordId": "hist-6d5a1baed9ebd778b659",
+      "relationId": "rel-6ffa9bd2c469dc1c0c3c",
+      "claimKey": "rel-sg-site-takatenjin--sg-e00b2631eded",
+      "site": {
+        "id": "sg-site-takatenjin",
+        "name": "高天神城跡",
+        "municipalityCode": "22213",
+        "point": [
+          138.035571,
+          34.698262
+        ],
+        "address": "静岡県掛川市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000287700.html"
+      },
+      "growthAreaId": "22213",
+      "publicText": {
+        "title": "高天神城跡と武田勝頼（審査用）",
+        "summary": "1574年攻略。（公開文未確定）"
+      },
+      "eventYear": 1574,
+      "sources": [
+        {
+          "evidenceId": "ev-5911daebbb3599f5c2eb",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/1372",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "1574年攻略。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [
+        "sg-card-0264"
+      ],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-c8bd930406971078e967",
+      "publicationState": "調査中",
+      "personId": "sg-dc8c550d8769",
+      "personName": "上杉謙信",
+      "historyRecordId": "hist-8ae9312ea0c7502e0ec5",
+      "relationId": "rel-8cbcd8bd528c72ca6ba0",
+      "claimKey": "rel-sg-site-masuyama--sg-dc8c550d8769",
+      "site": {
+        "id": "sg-site-masuyama",
+        "name": "増山城跡",
+        "municipalityCode": "16208",
+        "point": [
+          137.040835,
+          36.651316
+        ],
+        "address": "富山県砺波市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/16/160000364500.html"
+      },
+      "growthAreaId": "16208",
+      "publicText": {
+        "title": "増山城跡と上杉謙信（審査用）",
+        "summary": "1576年の攻略。（公開文未確定）"
+      },
+      "eventYear": null,
+      "sources": [
+        {
+          "evidenceId": "ev-1b63174e024e65b6ac73",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/00003642",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "1576年の攻略。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-ad44b737b66f99b59a64",
+      "publicationState": "調査中",
+      "personId": "sg-f47391608dbb",
+      "personName": "豊臣秀吉",
+      "historyRecordId": "hist-8af676124287c164bd2f",
+      "relationId": "rel-000fbd8c45ff4e622e4c",
+      "claimKey": "rel-sg-site-yamanaka--sg-f47391608dbb",
+      "site": {
+        "id": "sg-site-yamanaka",
+        "name": "山中城跡",
+        "municipalityCode": "22206",
+        "point": [
+          138.994284,
+          35.156622
+        ],
+        "address": "静岡県三島市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000026000.html"
+      },
+      "growthAreaId": "22206",
+      "publicText": {
+        "title": "山中城跡と豊臣秀吉（審査用）",
+        "summary": "1590年の小田原攻めにおける麾下軍の攻城。（公開文未確定）"
+      },
+      "eventYear": 1590,
+      "sources": [
+        {
+          "evidenceId": "ev-1dc486c565ae9c40db95",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/1331",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "1590年の小田原攻めにおける麾下軍の攻城。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [
+        "sg-card-0033"
+      ],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-6e7f7fd700abf44f5156",
+      "publicationState": "調査中",
+      "personId": "sg-e701cb97b4d9",
+      "personName": "馬場信春",
+      "historyRecordId": "hist-6de7fea48587af3aba7b",
+      "relationId": "rel-3502ed2c7ca7382f898f",
+      "claimKey": "rel-sg-site-suwahara--sg-e701cb97b4d9",
+      "site": {
+        "id": "sg-site-suwahara",
+        "name": "諏訪原城跡",
+        "municipalityCode": "22209",
+        "point": [
+          138.119899,
+          34.81833
+        ],
+        "address": "静岡県島田市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000269800.html"
+      },
+      "growthAreaId": "22209",
+      "publicText": {
+        "title": "諏訪原城跡と馬場信春（審査用）",
+        "summary": "勝頼の命による築城。（公開文未確定）"
+      },
+      "eventYear": 1573,
+      "sources": [
+        {
+          "evidenceId": "ev-995f307aba9b0fdc2fa2",
+          "url": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/676939064.html",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "勝頼の命による築城。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [
+        "sg-card-0276"
+      ],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-e9b3505110d7ab03ebf5",
+      "publicationState": "調査中",
+      "personId": "sg-4c0c12460efa",
+      "personName": "武田信玄",
+      "historyRecordId": "hist-836aed61c7f2690ae47b",
+      "relationId": "rel-0d63f45ac9e2f4856cda",
+      "claimKey": "rel-sg-site-minowa--sg-4c0c12460efa",
+      "site": {
+        "id": "sg-site-minowa",
+        "name": "箕輪城跡",
+        "municipalityCode": "10202",
+        "point": [
+          138.951932,
+          36.404195
+        ],
+        "address": "群馬県高崎市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/10/100000109300.html"
+      },
+      "growthAreaId": "10202",
+      "publicText": {
+        "title": "箕輪城跡と武田信玄（審査用）",
+        "summary": "1566年の攻略者として市文化財資料が記載。（公開文未確定）"
+      },
+      "eventYear": 1566,
+      "sources": [
+        {
+          "evidenceId": "ev-93ffba4a58a60ba02bd0",
+          "url": "https://www.city.takasaki.gunma.jp/site/cultural-assets/6450.html",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "1566年の攻略者として市文化財資料が記載。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [
+        "sg-card-0241"
+      ],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-adff8d71a90c29f316eb",
+      "publicationState": "調査中",
+      "personId": "sg-added-maeda-toshiie",
+      "personName": "前田利家",
+      "historyRecordId": "hist-beba650740c1486e7c2e",
+      "relationId": "rel-63ff8c660dd058a6e3ba",
+      "claimKey": "rel-sg-site-hachioji--sg-added-maeda-toshiie",
+      "site": {
+        "id": "sg-site-hachioji",
+        "name": "八王子城跡",
+        "municipalityCode": "13201",
+        "point": [
+          139.256515,
+          35.652617
+        ],
+        "address": "東京都八王子市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000433500.html"
+      },
+      "growthAreaId": "13201",
+      "publicText": {
+        "title": "八王子城跡と前田利家（審査用）",
+        "summary": "1590年の攻城軍の指揮者として明記される。（公開文未確定）"
+      },
+      "eventYear": 1590,
+      "sources": [
+        {
+          "evidenceId": "ev-4d4cd88fa0a433003784",
+          "url": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "1590年の攻城軍の指揮者として明記される。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [
+        "sg-card-0166",
+        "sg-card-0227"
+      ],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-c88ec213ae959d3d9319",
+      "publicationState": "調査中",
+      "personId": "sg-a7bb09927601",
+      "personName": "徳川家康",
+      "historyRecordId": "hist-2b67c5ff652bac3763ee",
+      "relationId": "rel-9a73138765f4035149c0",
+      "claimKey": "rel-sg-site-shinpu--sg-a7bb09927601",
+      "site": {
+        "id": "sg-site-shinpu",
+        "name": "新府城跡",
+        "municipalityCode": "19207",
+        "point": [
+          138.42524,
+          35.735151
+        ],
+        "address": "山梨県韮崎市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/19/190000156100.html"
+      },
+      "growthAreaId": "19207",
+      "publicText": {
+        "title": "新府城跡と徳川家康（審査用）",
+        "summary": "1582年の天正壬午の戦いで本陣として再利用したことを市資料で確認。（公開文未確定）"
+      },
+      "eventYear": 1582,
+      "sources": [
+        {
+          "evidenceId": "ev-0e9834a7edc1574f86ca",
+          "url": "https://www.city.nirasaki.lg.jp/bunka_kanko_sports/bunka/3/2675.html",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "1582年の天正壬午の戦いで本陣として再利用したことを市資料で確認。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [
+        "sg-card-0124"
+      ],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-b1562d2d2e08f993e8b2",
+      "publicationState": "調査中",
+      "personId": "sg-c594233cb2b7",
+      "personName": "北条氏綱",
+      "historyRecordId": "hist-0c47ad714b5834537b0e",
+      "relationId": "rel-5f73d30645da0f095300",
+      "claimKey": "rel-sg-site-kawagoe--sg-c594233cb2b7",
+      "site": {
+        "id": "sg-site-kawagoe",
+        "name": "川越城跡",
+        "municipalityCode": "11201",
+        "point": [
+          139.491683,
+          35.924396
+        ],
+        "address": "埼玉県川越市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/11/110000103200.html"
+      },
+      "growthAreaId": "11201",
+      "publicText": {
+        "title": "川越城跡と北条氏綱（審査用）",
+        "summary": "1537年の河越攻めを市文化財解説が氏綱の行動として明記する。（公開文未確定）"
+      },
+      "eventYear": 1537,
+      "sources": [
+        {
+          "evidenceId": "ev-3dcbca4734aa46fe3764",
+          "url": "https://www.city.kawagoe.saitama.jp/kurashi/bunka/1003787/1003798/1003828/1003875/1003876.html",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "1537年の河越攻めを市文化財解説が氏綱の行動として明記する。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [
+        "sg-card-v074-002",
+        "sg-card-0217"
+      ],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-bf76f6478092faf817d3",
+      "publicationState": "調査中",
+      "personId": "sg-fc948f16832f",
+      "personName": "北条氏照",
+      "historyRecordId": "hist-cc544df35963b369a73f",
+      "relationId": "rel-675db689019cbc2e49a2",
+      "claimKey": "rel-sg-site-takiyama--sg-fc948f16832f",
+      "site": {
+        "id": "sg-site-takiyama",
+        "name": "滝山城跡",
+        "municipalityCode": "13201",
+        "point": [
+          139.328166,
+          35.701799
+        ],
+        "address": "東京都八王子市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000431400.html"
+      },
+      "growthAreaId": "13201",
+      "publicText": {
+        "title": "滝山城跡と北条氏照（審査用）",
+        "summary": "文化庁の解説は、大石定久の養子となった北条氏照が滝山城に居り、後に八王子城へ移ったと記す。（公開文未確定）"
+      },
+      "eventYear": null,
+      "sources": [
+        {
+          "evidenceId": "ev-a12d66dd21e1ea1c6cc3",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/717",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "文化庁の解説は、大石定久の養子となった北条氏照が滝山城に居り、後に八王子城へ移ったと記す。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-1bd34c8168a423457593",
+      "publicationState": "調査中",
+      "personId": "sg-a7bb09927601",
+      "personName": "徳川家康",
+      "historyRecordId": "hist-524cdd682ad8d57fa29c",
+      "relationId": "rel-dc85f81bd8bd635d032a",
+      "claimKey": "rel-sg-site-nrct-130000022400--sg-a7bb09927601",
+      "site": {
+        "id": "sg-site-nrct-130000022400",
+        "name": "江戸城跡",
+        "municipalityCode": "13101",
+        "point": [
+          139.754418,
+          35.688371
+        ],
+        "address": "東京都",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/13/130000022400.html"
+      },
+      "growthAreaId": "13101",
+      "publicText": {
+        "title": "江戸城跡と徳川家康（審査用）",
+        "summary": "文化庁は1590年に関東を領した徳川家康が江戸城を居城に定めたと説明する。（公開文未確定）"
+      },
+      "eventYear": 1590,
+      "sources": [
+        {
+          "evidenceId": "ev-7a86a0124bfcb5c6a4a8",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/723",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "文化庁は1590年に関東を領した徳川家康が江戸城を居城に定めたと説明する。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [
+        "sg-card-0116"
+      ],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-da50090eae77ea2f8b2e",
+      "publicationState": "調査中",
+      "personId": "sg-2366fe95caa3",
+      "personName": "秋山信友",
+      "historyRecordId": "hist-77b006e4b9a2b9aa7952",
+      "relationId": "rel-4593b3d3056e09af00d3",
+      "claimKey": "rel-sg-site-takato--sg-2366fe95caa3",
+      "site": {
+        "id": "sg-site-takato",
+        "name": "高遠城跡",
+        "municipalityCode": "20209",
+        "point": [
+          138.062363,
+          35.83316
+        ],
+        "address": "長野県伊那市",
+        "coordinateSource": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/20/200000136900.html"
+      },
+      "growthAreaId": "20209",
+      "publicText": {
+        "title": "高遠城跡と秋山信友（審査用）",
+        "summary": "市の保存活用計画は秋山虎繁を武田氏時代の高遠城主と記す。（公開文未確定）"
+      },
+      "eventYear": null,
+      "sources": [
+        {
+          "evidenceId": "ev-d0db19a983010c151bc4",
+          "url": "https://www.inacity.jp/shisei/kakushuplanshiryo/rekishibunka/takatojo_keikaku.files/takatojyoseki_hozonkatuyoukeikaku_03.pdf",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "市の保存活用計画は秋山虎繁を武田氏時代の高遠城主と記す。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    },
+    {
+      "reviewId": "review-122fa01f193bbbf15927",
+      "publicationState": "調査中",
+      "personId": "sg-f8dec1480db8",
+      "personName": "大久保忠隣",
+      "historyRecordId": "hist-2fda39488f2f24c20a5b",
+      "relationId": "rel-bfe10a8eb082ff3f98ee",
+      "claimKey": "rel-sg-site-odawara--sg-f8dec1480db8",
+      "site": {
+        "id": "sg-site-odawara",
+        "name": "小田原城跡",
+        "municipalityCode": "14206",
+        "point": [
+          139.1534559,
+          35.2510296
+        ],
+        "address": "神奈川県小田原市",
+        "coordinateSource": "https://mapfan.com/spots/SC3WQ%2CJ%2CB"
+      },
+      "growthAreaId": "14206",
+      "publicText": {
+        "title": "小田原城跡と大久保忠隣（審査用）",
+        "summary": "小田原市年表は1614年に小田原城主忠隣が改易されたと記す。（公開文未確定）"
+      },
+      "eventYear": null,
+      "sources": [
+        {
+          "evidenceId": "ev-776d64641e5144822531",
+          "url": "https://www.city.odawara.kanagawa.jp/about/introduction/history-1800.html",
+          "locator": "元調査の確認箇所を再確認する",
+          "access": "元調査記録を継承",
+          "claim": "小田原市年表は1614年に小田原城主忠隣が改易されたと記す。"
+        }
+      ],
+      "rights": {
+        "text": "未審査",
+        "images": "使用なし",
+        "location": "未審査",
+        "attribution": ""
+      },
+      "checks": {
+        "adoptedPerson": {
+          "ok": true,
+          "basis": "採用624名の人物IDと名簿IDを照合"
+        },
+        "historicalEvidence": {
+          "ok": false,
+          "basis": "元調査は公的資料確認済。公開対象の単一主張と確認箇所は再確認待ち"
+        },
+        "siteIdentity": {
+          "ok": false,
+          "basis": "史跡IDは現存。旧所在地・同名/親子地点の個別審査待ち"
+        },
+        "currentLocation": {
+          "ok": false,
+          "basis": "現行代表点の出典/現在の史跡範囲との対応を個別確認する"
+        },
+        "discovery": {
+          "ok": true,
+          "basis": "固定境界と実アプリgeomContainsで照合。自治体内"
+        },
+        "sourceLocator": {
+          "ok": false,
+          "basis": "URLは保全済み。確認箇所の記録が未完了"
+        },
+        "rights": {
+          "ok": false,
+          "basis": "文章の独自性・位置データの利用範囲・帰属表示を個別審査待ち"
+        },
+        "idIntegrity": {
+          "ok": true,
+          "basis": "既存人物/史跡IDを維持。新カードIDは人物・歴史・史跡・主張キーで決定し全カタログで検証"
+        },
+        "uncertainty": {
+          "ok": false,
+          "basis": "異説・複合記述・同一人物の既存カードとの事実重複を再確認"
+        }
+      },
+      "legacyCardIds": [],
+      "entityStates": {
+        "history": "調査中",
+        "site": "調査中",
+        "relation": "調査中"
+      },
+      "approvedFingerprint": "",
+      "reviewedAt": "2026-10-31T11:23:05.450026+00:00",
+      "published": false
+    }
+  ]
+}
