@@ -1,0 +1,78 @@
+name: C v12 new4 live GitHub Pages proof (81)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'sengoku/v2/approved-c-20261126-new4.json'
+      - 'data/c-release/**'
+      - '.github/workflows/c-v12-new4-pages-proof.yml'
+permissions:
+  contents: read
+jobs:
+  live-proof:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check active release and byte compare five files served by Pages
+        id: live
+        shell: bash
+        env:
+          RELEASE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          if ! grep -q '^v2-approved-c-20261126-new4-v12,' data/c-release/status.csv; then
+            echo 'enabled=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo 'enabled=true' >> "$GITHUB_OUTPUT"
+          base='https://kengo-alfa01.github.io/walked'
+          files=(index.html sengoku-v2-core.js sengoku/v2/approved-c-20261126-new4.json data/c-release/records.csv data/c-release/status.csv)
+          mkdir -p /tmp/c-v12-pages-proof
+          ok=0
+          for attempt in $(seq 1 30); do
+            pass=1
+            for file in "${files[@]}"; do
+              mkdir -p "/tmp/c-v12-pages-proof/$(dirname "$file")"
+              if ! curl --fail --location --silent --show-error --max-time 30 -H 'Cache-Control: no-cache' "$base/$file?v=$RELEASE_SHA" -o "/tmp/c-v12-pages-proof/$file"; then
+                pass=0
+                break
+              fi
+              if ! cmp -s "$file" "/tmp/c-v12-pages-proof/$file"; then
+                pass=0
+                break
+              fi
+            done
+            if [[ "$pass" == 1 ]]; then ok=1; break; fi
+            sleep 8
+          done
+          test "$ok" = 1
+          for file in "${files[@]}"; do
+            echo "LIVE_BYTES_EQUAL $file"
+            sha256sum "/tmp/c-v12-pages-proof/$file"
+            cp "/tmp/c-v12-pages-proof/$file" "$file"
+          done
+          printf 'Live Pages exact bytes PASS; commit %s\n' "$RELEASE_SHA"
+          node scripts/export-c-release-ledger.cjs --check
+          node --test tests/c-v11-new4.test.cjs tests/c-v10-katsuyori-release.test.cjs tests/c-v8-earned-halo-consistency.test.cjs
+      - name: Install pinned browser assets
+        if: steps.live.outputs.enabled == 'true'
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Prepare deterministic geometry
+        if: steps.live.outputs.enabled == 'true'
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Verify actual deployed PC Chromium and iPhone WebKit
+        if: steps.live.outputs.enabled == 'true'
+        run: |
+          sed -i 's|http://127.0.0.1:8765|https://kengo-alfa01.github.io/walked|' tests/c-v11-new4.browser.cjs
+          node --test tests/c-v11-new4.browser.cjs
+          echo C_V12_LIVE_81_PASS
