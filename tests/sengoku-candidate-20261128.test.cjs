@@ -27,6 +27,22 @@ function run({base,delta,core,pub,builder,registry,manifest,audit,html}){
  for(const x of audit.records.filter(x=>x.row>=4648&&x.row<=4653)){const s=idx.sites.get(x.recordId);check(s.relatedOnly===true&&core.relatedSites(idx,{},x.personId,{}).some(y=>y.siteId===s.siteId&&!y.acquired),'approved related '+x.row);}
  for(const s of idx.sites.values())if(s.publicPin===false)check(s.point===null&&!s.pinReview,'no pin '+s.siteId);
  for(const entry of manifest.excluded)check(idx.sites.get(entry.siteId).relatedOnly!==true,'excluded related '+entry.siteId);
+ const start=html.indexOf('function refreshSengokuPins(){'),end=html.indexOf('// Only B-approved acquisition relationships',start);
+ check(start>=0&&end>start,'person filter source');
+ function pinRows(pid,visited){
+  const rows=[],env={sengokuPinHalos:{clearLayers(){}},sengokuPins:{clearLayers(){}},sengokuV2Catalog:idx,activeCollectionMode:'sengoku',sitePinSheet:{close(){},isOpen(){return false}},selectedSengokuPersonId:pid,SengokuV2:core,state:{visited},sengokuFound:{},L:{circleMarker(point,opts){return {addTo(){if(opts.radius===7)rows.push(point);return this},bindPopup(){return this},off(){return this},on(){return this}}}},sengokuPinRenderer:{},sengokuPinPopup(){},SengokuPinDisplay:{statusFor:s=>s.pinReview.accessStatus},SengokuPinApprovedV2:{}};
+  Function(...Object.keys(env),html.slice(start,end)+'\\nrefreshSengokuPins();'.replace('\\n','\n'))(...Object.values(env));
+  return rows;
+ }
+ for(const ref of audit.references.filter(r=>r.kind==='史跡')){
+  const s=idx.sites.get(ref.recordId);check(s.approval.sheetRow===ref.referenceApprovalRow,'shared approved '+ref.gateRow);
+  const links=[...idx.linkSites].filter(([hid,ids])=>ids.has(s.siteId)&&idx.histories.get(hid)?.personId===ref.personId);
+  const special=[...idx.municipalityAwards.values()].filter(a=>a.classification==='墓所特例'&&a.relatedSiteId===s.siteId&&a.personId===ref.personId);
+  check(links.length+special.length>0,'shared relationship '+ref.gateRow);
+  if(s.publicPin)check(pinRows(ref.personId,{}).some(([lat,lng])=>lat===s.point[1]&&lng===s.point[0]),'shared person pin '+ref.gateRow);
+ }
+ const frameStart=html.indexOf('function hasPublishedSengokuPin(history){'),frameEnd=html.indexOf('// Popup contents',frameStart);
+ check(Function('sengokuV2Catalog','history',html.slice(frameStart,frameEnd)+'\nreturn hasPublishedSengokuPin(history);')(idx,idx.histories.get(death))===true,'grave card published pin frame');
  let tampered=JSON.parse(JSON.stringify(delta));tampered.histories[0].text+='改変';try{builder.apply(base,tampered,pub.sha256);check(false,'tamper rejected')}catch{check(true,'tamper rejected')}
  for(const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g))if(!/\bsrc=/.test(m[1])&&(!/\btype=/.test(m[1])||/javascript/.test(m[1])))Function(m[2]);
  check(html.includes('SengokuCandidateDelta.apply(base,delta,PublicationRuntime.sha256)')&&html.includes('c-20261128-approved-delta.json'),'candidate wired');
