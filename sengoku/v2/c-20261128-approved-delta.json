@@ -1,0 +1,4596 @@
+{
+  "schema": "walked.sengoku.v2.candidate-delta.v1",
+  "baseVersion": "v2-approved-c-20261126-new4-v12",
+  "baseSHA256": "f5eca8af5f054d41c4a17c13cafe9eea310996845ea969dde31bd0333d888bfb",
+  "version": "v2-approved-c-20261128-cv3-94",
+  "people": [
+    {
+      "personId": "sg-added-kono-michinobu-20261126",
+      "name": "河野通宣",
+      "introduction": {
+        "text": "戦国期中頃の伊予河野氏当主。晴通没後に家督を継いだとされ、家臣の所領調整や寺社の保護、将軍足利義輝との外交にあたった。1568年頃、病を理由に牛福丸（後の河野通直）へ家督を譲った。生没年・系譜には異説がある。",
+        "yearText": null,
+        "approval": {
+          "sheetRow": 4589,
+          "version": "v1",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "af0574effd1af8083cc5170d53d6bb0d9337673fa697037bf4bc01ad94a41f7b",
+          "kind": "人物紹介",
+          "personId": "sg-added-kono-michinobu-20261126",
+          "sourceId": null
+        },
+        "sourceIds": [
+          "sg2src-a-kono-person-20261126",
+          "sg2src-a-kono-clan-20261126",
+          "sg2src-a-kono-chron-20261126",
+          "sg2src-a-kono-ndldip-20261126",
+          "sg2src-a-kono-surround-20261126"
+        ],
+        "sourceUrls": [
+          "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/57/view/7503",
+          "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7847",
+          "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+          "https://crd.ndl.go.jp/reference/entry/index.php?id=1000226245&page=ref_view",
+          "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7857"
+        ]
+      },
+      "story": {
+        "text": "城を受け継ぐことと、国を治めることは同じではなかった。\n\n瀬戸内海に面する伊予には、海を越えて諸勢力と結ぶ武家があり、領内にもそれぞれの土地を支配する有力な家臣がいた。湯築城を本拠とする河野氏にとって、そうした人々をまとめることは、外敵を退けるのと同じほど重要だった。その難しい時代に河野家を率いたのが、宗三郎、のちの左京大夫通宣である。\n\n通宣は伊予の河野氏に生まれたが、生年は伝わっていない。1543年、兄と伝わる河野晴通が亡くなり、その前後の1543～44年ごろ、幼い通宣が家督を継いだとされる。先代の弾正少弼通直もなお政治に関わり、若い当主を後見した。受け継いだのは城と所領ばかりではない。家臣たちの利害が入り組んだ領国だった。\n\n通宣の治世を伝える史料には、土地を与え、権利を認める文書が数多く残されている。1550年、友近与一左衛門に寅菊作職内の土地を与えた。1552年には粟井郷の段役職を安堵し、二神衆に鴨部郷の新田の一部を与えるなど、家臣の所領や役職を調整する。同じころ、先代の通直も知行に関する文書を発給していた。複数の有力者が政治に関わる河野家では、誰がどの土地から収益を得られるのか、どの権利を認められるのかが、家中の秩序を左右していた。\n\nしかし、文書で秩序を定めても、争いがなくなるわけではない。1553年、大野氏と戒能氏の対立は花山城をめぐる事件へと発展した。同じ年、通宣は河野氏ゆかりの善応寺の権利を安堵している。家臣同士の対立に揺れるなかでも、地域の寺院との関係を保つ政務は続いていた。\n\n翌1554年には和田通興をめぐって争いが起こった。通宣は家臣の平岡房実に岩伽羅城をめぐる争いへの対応を命じたと伝わる。外から大軍が攻めてくるのを待つまでもなく、領国の内側に戦いの火種があったのである。同年十月には仙遊寺の住持職に関する文書を出した。家臣を統制することも、寺院の運営に関わることも、当主にとっては国を治める仕事だった。\n\n1555年、通宣は正岡重辰に祭祀を支える田地の権利を認めた。その年の秋、海の向こうの厳島で毛利元就が陶晴賢を破る。瀬戸内の勢力関係は変わり、村上氏など伊予の海上勢力と毛利氏との結びつきも深まっていく。伊予の領主は四国の内側だけを見ていては国を保てなかった。その年の暮れ、通宣は五明の崇福寺に禁制を出している。\n\n1557年には観念寺の寺領を安堵した。翌1558年、大三島の三島宮、現在の大山祇神社に関わる争いにも裁決を下す。籠物をめぐって、大祝安忠と神大夫の間に訴えが起こったのである。祭祀を担う人々の間の争いを裁くことは、所領を与えたり寺院を保護したりする仕事とはまた違う、領主としての権限の行使だった。\n\n1559年には伊予郡の長円寺の境内の範囲を定め、同じ月には友近氏の桑原郷内の作職などを安堵した。九年前に土地を与えた家臣との関係は、領国を取り巻く情勢が変わるなかでも続いていた。誰がどの土地を治め、そこからどのような収益を得るのか。通宣が日々向き合ったのは、城の外に広がる領国の具体的な問題だった。\n\nやがて左京大夫の名で幕府との外交に関わる通宣に、中国地方の争いをめぐる役割が求められた。1561年、将軍足利義輝は毛利氏と尼子氏の講和を進めるため、通宣や村上元吉らに仲立ちを求めたと記録されている。海を隔てて向かい合う大きな勢力の争いに、伊予の領主も関わることになった。\n\nだが、諸大名の間を取り持とうとした将軍自身も、畿内の争いから自由ではなかった。1562年、義輝を慰問するため、通宣は石清水八幡宮へ使者を送ったとされる。翌1563年にも毛利・尼子の講和の仲立ちを求める同趣旨の記事が残る。同年五月には伊予の宇都宮遠江守とともに、将軍に近侍する当参衆・御供衆に加わったと伝わる。遠い伊予と幕府をつないだのは、軍勢ばかりではなく、こうした使者と書状だった。\n\n1564年、通宣は仙遊寺の本堂造営にあたり、諸公役を免除した。十年前に住持職に関わる文書を出した寺院を、今度は造営の負担を軽くすることで支えた。幕府との交渉が続く間も、伊予の領主としての仕事は積み重ねられていた。\n\nしかし1565年、通宣が外交を重ねてきた将軍足利義輝が殺害された。その死を通宣に伝える旧暦五月二十六日付の書状が残る。毛利と尼子の間を取り持つよう求めた将軍も、石清水への慰問使を受ける立場だった将軍も、もういない。伊予では豊後の大友氏との緊張も続いていた。幕府を介した外交の相手が失われても、海の向こうの勢力と向き合わねばならない状況は変わらなかった。\n\n晩年には、毛利氏とつながる安芸の宍戸隆家の娘との婚姻関係が伝わる。婚姻の時期や河野家の後継をめぐる事情には異説が残るが、瀬戸内の向こう側との結びつきは、一族の将来にも関わるものだった。\n\n1568年ごろ、病を得た通宣は牛福丸に家督を譲ったとされる。後の河野通直である。交代のころには伊予で鳥坂峠の戦いも起きていた。新しい当主に引き渡されたのは、家中の利害も、他国との対立もなお残る領国だった。\n\n家督を譲った通宣は、その後に世を去った。愛媛県史では1581年没とされるが、1570年ごろとする説もあり、正確な没年は定まらない。河野氏が豊臣秀吉の四国平定に直面するのは、後継の通直の代のことである。\n\n通宣が残したのは、天下を目指す大軍の足跡ではなかった。家臣に土地を与え、寺社の権利を守り、神職の争いを裁き、海を越えて幕府と交渉した数々の文書である。城を継いだ宗三郎は、家中と領国を治める責任を担い、次の世代へ家をつないだ。一通の文書が土地の秩序を支え、一つの外交が海の向こうとの関係を結ぶ。そこにも、戦国を生きた領主の姿が残っている。",
+        "yearText": "生没年不詳（没年異説）",
+        "approval": {
+          "sheetRow": 4590,
+          "version": "v2",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "daa0a5f09cf2af97c64fe189958bcf72cf004a67e1d0127078a57893a82538d0",
+          "kind": "完成版ストーリー",
+          "personId": "sg-added-kono-michinobu-20261126",
+          "sourceId": null
+        },
+        "sourceIds": [
+          "sg2src-a-kono-person-20261126",
+          "sg2src-a-kono-clan-20261126",
+          "sg2src-a-kono-ndlfather-20261126",
+          "sg2src-a-kono-yuzuki-20261126",
+          "sg2src-a-kono-chron-20261126",
+          "sg2src-a-kono-zennoji-20261126",
+          "sg2src-a-kono-iwagara-20261126",
+          "sg2src-a-kono-senyuji-20261126",
+          "sg2src-a-kono-surround-20261126",
+          "sg2src-a-kono-citychron-20261126",
+          "sg2src-a-kono-ndldip-20261126",
+          "sg2src-a-kono-diplomacy-20261126",
+          "sg2src-a-kono-iwashimizu-20261126",
+          "sg2src-a-kono-nishio-20261126",
+          "sg2src-a-kono-batsu140-20261126",
+          "sg2src-a-kono-deathlead-20261126",
+          "sg2src-a-kono-kannenji-20261126",
+          "sg2src-a-kono-oyamazumi-20261126"
+        ],
+        "sourceUrls": [
+          "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/57/view/7503",
+          "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7847",
+          "https://crd.ndl.go.jp/reference/entry/index.php?id=1000347343&page=ref_view",
+          "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/kuni/yudukijou_ato.html",
+          "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+          "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/ken/zennoujibunsho_5kan.html",
+          "https://www.hb.pei.jp/shiro/iyo/iwagara-jyo/",
+          "https://www.city.imabari.ehime.jp/kanko/spot/?a=157",
+          "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7857",
+          "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/rekishi/muromachi-azuchi.html",
+          "https://crd.ndl.go.jp/reference/entry/index.php?id=1000226245&page=ref_view",
+          "https://online.bunka.go.jp/heritages/detail/255305",
+          "https://www.city.yawata.kyoto.jp/0000001228.html",
+          "https://ir.library.osaka-u.ac.jp/repo/ouka/all/47112/20723_Abstract.pdf",
+          "https://archives.pref.yamaguchi.lg.jp/msearch/detail_doc/32373",
+          "https://www7a.biglobe.ne.jp/echigoya/jin/KounoMichinobu~Sakyou.html",
+          "https://www.pref.ehime.jp/ehimenotakara/297.html",
+          "https://online.bunka.go.jp/heritages/detail/223328"
+        ],
+        "unlock": {
+          "requiredHistoryCount": 21,
+          "requiredPlaceHistoryCount": 7,
+          "historyIdsSHA256": "6efda6d853bdfd27902fef59ff52833d399a2610b704d4063ef3a8ba29d25f58"
+        }
+      }
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "name": "有馬晴信",
+      "introduction": {
+        "text": "肥前・日野江城を本拠としたキリシタン大名。1580年頃に洗礼を受け、天正遣欧少年使節を派遣し、沖田畷で島津軍とともに龍造寺軍を破った。宣教師保護や南蛮・朱印船貿易を進めたが、岡本大八事件で失脚し、1612年に甲斐で刑死した。",
+        "yearText": null,
+        "approval": {
+          "sheetRow": 4618,
+          "version": "v1",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "b3679001737e3e427a4ac6176cc45ccda31cf6e42bc593f8610f890b29f169c9",
+          "kind": "人物紹介",
+          "personId": "sg-added-arima-harunobu-20261127",
+          "sourceId": null
+        },
+        "sourceIds": [
+          "sg2src-a-arima-dict-20261127",
+          "sg2src-a-arima-yamakawa-20261127",
+          "sg2src-a-arima-nagasakichron-20261127",
+          "sg2src-a1-sorin-emuseum-embassy1582-20261115",
+          "sg2src-iehisa-shimabara-okitanawate-20261109",
+          "sg2src-a-arima-daihachi-20261127"
+        ],
+        "sourceUrls": [
+          "https://kotobank.jp/word/有馬晴信-28086",
+          "https://www.historist.jp/word_j_a/entry/048704/",
+          "https://www.pref.nagasaki.lg.jp/kids/histories/history.html",
+          "https://emuseum.nich.go.jp/detail?content_base_id=100816&content_part_id=0&content_pict_id=0&langId=ja",
+          "https://www.city.shimabara.lg.jp/rekishi/page2793.html",
+          "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000058569"
+        ]
+      },
+      "story": {
+        "text": "島原半島の先には、海が広がっている。海の向こうから異国の船が来る一方、陸からは肥前の大名たちが勢力を伸ばしていた。領国を守るために海の外へと関係を広げた有馬晴信は、やがて四人の少年をヨーロッパへ送り出す。その海がもたらした新しい文化と交易は有馬家の力となり、晩年には晴信の運命をも大きく変えることになる。\n\n晴信は肥前の有馬義貞の子として生まれた。生年は1567年とされるが、1561年説もある。父義貞の時代、口之津が開港し、ポルトガル船が訪れるようになっていた。兄の義純が早世すると、1571年、晴信は幼くして家を継いだとされる。1576年に父が亡くなった。この年を父の遺領を継いだ時期とする記録もある。日野江城を本拠とする有馬氏の周囲では龍造寺氏が勢力を広げ、若い当主には領国を守るという重い課題がのしかかっていた。\n\n1579年、口之津を訪れたイエズス会の巡察師ヴァリニャーノは、宣教師たちを集めて会議を開いた。1580年ごろ、晴信はヴァリニャーノから洗礼を受け、プロタジオと名乗る。受洗を1579年とする説もある。後にジョアンの名も用いた。龍造寺氏の圧迫が強まるなか、晴信は宣教師たちとの関係を深め、領内でのキリスト教の布教を保護するようになった。\n\n同じころ、ヴァリニャーノの構想によって有馬にはセミナリヨが設けられた。少年たちは聖職者となるための基礎を学び、ラテン語や西洋の音楽にも触れた。海を渡ってきたのは交易品だけではなかった。遠いヨーロッパの言葉と学問が、肥前の地で若者たちの未来を変えようとしていた。\n\n1582年、晴信は大友宗麟、大村純忠とともに、ヴァリニャーノが構想した天正遣欧少年使節を送り出した。四人の少年のうち千々石ミゲルが晴信の名代を務め、長崎を出航した。海の彼方のローマへ向かう少年たちの旅は、日本とヨーロッパを結ぶ大きな試みだった。\n\nだが、新しい信仰の広がりには光だけでなく影もあった。有馬領では従来の信仰に対する圧力が生じ、同じ1582年には加津佐の岩戸山で宣教師らが仏像を破壊したと伝わる。教会や教育を支えた領主の時代は、従来の信仰を大切にする人々にとっても大きな変化の時代だった。\n\n少年使節が遠い海を渡っている間も、島原半島の争いは続いていた。龍造寺隆信の勢力に対抗するため、晴信は大友吉統に援助を求めたものの、力を借りることができず、島津氏の援軍に頼った。\n\n1584年、龍造寺隆信の軍勢が島原半島へ迫る。晴信は島津家久の率いる援軍とともに、沖田畷で龍造寺軍を迎え撃った。旧暦三月二十四日、合戦は有馬・島津方の勝利に終わり、隆信は討死した。圧迫され続けていた有馬家は、この戦いで領国を守り抜いたのである。同じ年、イエズス会の援助を受けた晴信は、長崎近くの浦上を同会に寄進した。そこでの布教にも大きな影響を与えることになった。\n\nしかし、九州の勢力図はまた変わる。1587年、豊臣秀吉が九州平定を進めると、晴信は豊臣方に加わり、有馬領を安堵された。その一方で、秀吉は伴天連追放令を出す。領地を保つことができても、これまで支えてきたキリスト教の活動には制約が加わった。晴信はなお宣教師や教育機関を領内に受け入れた。翌1588年には、かつて晴信が寄進した浦上も長崎などとともに秀吉に没収され、教会領をめぐる政治は新たな局面を迎えた。\n\n1590年、晴信は日野江城の内部の建物を改築したと伝わる。遠い海を渡った少年使節も同じ年に日本へ帰国した。使節が持ち帰った印刷機は加津佐に運ばれ、イエズス会は活版印刷による出版を進めた。晴信の保護のもとで続けられた教育と出版は、海外で学んだ文化を日本に根づかせる仕事でもあった。\n\nところが、天下人の命令は再び海を越える戦いへと向かう。1591年、晴信は松浦鎮信らによる壱岐の勝本城の築城を支援した。秀吉による朝鮮侵攻のための拠点である。翌1592年から1598年にかけての文禄・慶長の役では、小西行長らの軍に従った。日本軍の侵攻は朝鮮の人々や土地に大きな被害をもたらした。海を通じて異国の文化を受け入れてきた晴信も、豊臣政権の軍役によって、海の向こうへの侵攻に関わることになったのである。\n\n戦役後、晴信は日野江城とは別に、防御に適した新しい原城の整備を進めた。1600年、関ヶ原をめぐる争いでは徳川方に属し、九州で小西行長方の領地を攻める軍事行動に有馬勢も加わる。政権が交代しても、有馬家は領国を保った。\n\n1601年ごろには、長崎へ移っていたセミナリヨが有馬へ戻る際、新たな邸宅のために用意していた場所を提供したと伝わる。1604年には晴信の新城の完成も報告された。原城に残る石垣や、発掘で見つかった花十字紋の瓦は、城づくりとキリシタン文化が重なった時代を伝えている。\n\n徳川政権下でも晴信は海上交易に力を注いだ。1605年以降、朱印状を得て東南アジアへ商船を送り出す。だが、その船の乗員が帰路のマカオで紛争に巻き込まれ、命を奪われる事件が起きた。海外に伸ばした交易の道には、大きな危険も伴っていた。\n\n1609年、幕府の意向を受けた晴信は台湾の地理や物産、交易の可能性を調べるための指示を出した。一方、マカオの事件を受け、家康の了解を得て長崎に来航したポルトガル船に対処する。慶長14年（1609年）の旧暦十二月、現在の暦では1610年一月、戦いの末にその船は沈没した。日葡貿易にも影響を及ぼした事件だった。1610年の台湾調査に関わる掟書には、晴信が家臣の谷川角兵衛へ航海中の規約を示したことが伝わる。貿易をめぐる幕府の政策と海外の勢力との対立が、晴信の晩年の政治に深く関わっていた。\n\nポルトガル船事件の後、晴信は失った旧領の回復を求め、本多正純の近臣・岡本大八に取り次ぎを頼んだ。だが、大八は晴信を欺いて金品を受け取っていた。1612年、その詐取が発覚し、幕府による審問に至る。旧領を取り戻すための交渉は、逆に長く守ってきた領国を失う結果となった。\n\n同年春、大八は処刑され、晴信も所領を没収された。旧領は子の直純に与えられ、晴信自身は甲斐へ配流される。そして1612年、幕府の命により甲斐で刑死した。切腹を拒み斬首されたという伝承も残るが、最期の経緯には異説がある。\n\nかつて少年たちを遠い海の向こうへ送り出した大名は、最後には海から離れた甲斐の地で生涯を閉じた。沖田畷で守った領国も、新たな政権のもとで失った。それでも、彼が支えた教育と日欧の文化交流は、有馬晴信が生きた戦国の時代を今に伝えている。",
+        "yearText": "生年諸説〜1612年",
+        "approval": {
+          "sheetRow": 4654,
+          "version": "v1",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "4d208b4b66fea19a7ccfd1ef7be5475407ab6b0c1928c4d5563329dd7283dd36",
+          "kind": "完成版ストーリー",
+          "personId": "sg-added-arima-harunobu-20261127",
+          "sourceId": null
+        },
+        "sourceIds": [
+          "sg2src-a-arima-dict-20261127",
+          "sg2src-a-arima-yamakawa-20261127",
+          "sg2src-a-arima-koshu-20261127",
+          "sg2src-a-arima-hinoe-20261127",
+          "sg2src-a-arima-nagasakichron-20261127",
+          "sg2src-a-arima-religion-20261127",
+          "sg2src-a-arima-kuchinotsu-20261127",
+          "sg2src-a-arima-seminario-20261127",
+          "sg2src-a-arima-semisite-20261127",
+          "sg2src-a1-sorin-emuseum-embassy1582-20261115",
+          "sg2src-a-sorin-03-20261114",
+          "sg2src-a-arima-citychron-20261127",
+          "sg2src-a-arima-otomo-20261127",
+          "sg2src-iehisa-shimabara-okitanawate-20261109",
+          "sg2src-iehisa-mlit-okitanawate-20261109",
+          "sg2src-a-arima-ndlpul-20261127",
+          "sg2src-a-arima-kirishitan5-20261127",
+          "sg2src-a-arima-katsumoto-20261127",
+          "sg2src-a-arima-katsumotodb-20261127",
+          "sg2src-a-arima-hara-20261127",
+          "sg2src-a-arima-haraexc-20261127",
+          "sg2src-a-arima-kirishitan2-20261127",
+          "sg2src-a-arima-uto-20261127",
+          "sg2src-a-arima-cbc-20261127",
+          "sg2src-a-arima-redseal-20261127",
+          "sg2src-a-arima-taiwan-20261127",
+          "sg2src-a-arima-graca-20261127",
+          "sg2src-a-arima-daihachi-20261127",
+          "sg2src-a-arima-yamanashilib-20261127",
+          "sg2src-a-arima-arimafoundation-20261127"
+        ],
+        "sourceUrls": [
+          "https://kotobank.jp/word/有馬晴信-28086",
+          "https://www.historist.jp/word_j_a/entry/048704/",
+          "https://www.city.koshu.yamanashi.jp/docs/2020120700053/file_contents/2020120700053_rekisi_bunka_files_20150608_kamijouhoukokudai37gou.pdf",
+          "https://www.city.minamishimabara.lg.jp/sekaiisan/kiji0034924/index.html",
+          "https://www.pref.nagasaki.lg.jp/kids/histories/history.html",
+          "https://www.nagasaki-tabinet.com/feature/shin-kirishitan/2",
+          "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034731/index.html",
+          "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034734/index.html",
+          "https://himawari-kankou.jp/learn/000534.php",
+          "https://emuseum.nich.go.jp/detail?content_base_id=100816&content_part_id=0&content_pict_id=0&langId=ja",
+          "https://rmda.kulib.kyoto-u.ac.jp/item/rb00007683/explanation/tensho",
+          "https://www.city.nagasaki.lg.jp/page/2255.html",
+          "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000138703",
+          "https://www.city.shimabara.lg.jp/rekishi/page2793.html",
+          "https://www.mlit.go.jp/tagengo-db/R2-00440.html",
+          "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000328133",
+          "https://christian-nagasaki.jp/stories/5.html",
+          "https://www.pref.nagasaki.jp/bunkadb/index.php/view/532",
+          "https://jmapps.ne.jp/nagasaki_maibun_iseki/det.html?data_id=268",
+          "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034923/",
+          "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0031574/index.html",
+          "https://christian-nagasaki.jp/stories/2.html",
+          "https://www.touken-world.jp/history/history-important-word/arima-harunobu/",
+          "https://www.cbcj.catholic.jp/2020/01/27/20027/",
+          "https://nagasaki-u.repo.nii.ac.jp/record/12378/files/toasia00_30_02.pdf",
+          "https://collections.culture.tw/Object?RNO=QUgwMDEzMzYtMDAx&SYSUID=13",
+          "https://www.historist.jp/word_j_no/entry/036263/",
+          "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000058569",
+          "https://crd.ndl.go.jp/reference/entry/index.php?id=1000098938&page=ref_view",
+          "https://maruoka-af.jp/pg11.html"
+        ],
+        "unlock": {
+          "requiredHistoryCount": 20,
+          "requiredPlaceHistoryCount": 10,
+          "historyIdsSHA256": "ff3fa41aa51a0b445de2cf47c4678cd06f62d164fddc8fd82b55faa667387746"
+        }
+      }
+    },
+    {
+      "personId": "sg-6eaf66c3d7c8",
+      "name": "織田信長",
+      "introduction": {
+        "text": "尾張から勢力を広げた戦国大名。桶狭間で今川義元を破り、美濃を攻略して足利義昭を擁して上洛した。安土城を築き、城下町の楽市楽座などを進めた一方、各地で激しい戦争を続けた。全国統一に至る前の1582年、本能寺の変で死去した。",
+        "yearText": "1534–1582年",
+        "approval": {
+          "sheetRow": 4,
+          "version": "v1",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "a2d12c5864918bcfc8aec8c38cd2a79e2b95a648c0b38ad861e6da1082a2b91e",
+          "kind": "人物紹介",
+          "personId": "sg-6eaf66c3d7c8",
+          "sourceId": null
+        }
+      },
+      "story": {
+        "text": "尾張一国が、初めから信長に与えられていたわけではない。\n\n1534年、織田信秀の子として生まれた吉法師。元服して信長を名乗り、父の死後に家督を継いだものの、尾張は同じ織田一族の争いに割れていた。美濃の斎藤道三の娘を迎えて同盟を結んでも、敵は家の内側にいた。1556年、稲生で弟・信勝方を破り、1559年頃には尾張の主要部を掌握する。国主への道は、身内との戦いから始まった。\n\n1560年、尾張に未曽有の危機が迫る。駿河・遠江・三河に勢力を広げた今川義元が、大軍を率いて侵攻してきたのである。その兵力は約2万5千とも伝わる。対する信長の軍勢はわずか数千。まともに戦えば、勝利など望むべくもないほどの戦力差だった。\n\n織田方の砦は次々と攻め落とされ、今川軍が尾張へ迫る。だが、信長は籠城を選ばず、兵を率いて出陣した。大軍のすべてを相手にするのではない。狙うは敵の総大将、今川義元だった。\n\n桶狭間。信長の軍勢は今川軍本隊を突き、混戦の中で義元を討ち取った。\n\n誰がこの結末を予想しただろうか。滅亡の危機にあった小大名が、戦国屈指の大勢力を打ち破ったのである。奇跡とも呼びたくなる逆転劇だった。この一戦が、信長の運命を、そして戦国の勢力図を変えた。\n\nだが、桶狭間の勝利は天下への入口にすぎなかった。\n\n信長は三河の松平元康、のちの徳川家康と同盟し、小牧山に城と町を築いた。1565年には犬山城を攻略し、1567年には美濃の稲葉山城を奪取。本拠を岐阜と改め、「天下布武」の印を掲げる。もはや尾張一国の主では終わらぬ勢いだった。\n\n1568年、足利義昭を擁して上洛し、将軍就任を支える。翌年には伊勢の北畠氏を攻めて和睦した。しかし勢力を広げるほど、敵も増えていく。\n\n1570年、朝倉攻めのさなか、妹お市の夫・浅井長政が敵に回った。信長は金ヶ崎から撤退を余儀なくされる。姉川で徳川勢とともに勝利しても、戦乱は終わらない。\n\n1571年には比叡山延暦寺を焼き討ちにし、1573年には自ら擁立した足利義昭を京都から追放。続いて朝倉氏と浅井氏を滅ぼした。翌年には長島一向一揆を攻め滅ぼし、多数の人々が犠牲となった。信長の覇業は、激しい戦火と無縁ではなかった。\n\n1575年、長篠・設楽原で徳川家康とともに武田勝頼の軍勢を破る。嫡男・信忠に家督を譲りながら、信長自身は政治と軍事の主導権を握り続けた。\n\n1576年からは近江に壮麗な安土城を築き、城下には楽市楽座の掟を定めて商業を育てた。1579年には天主へ移り住む。しかし家臣・荒木村重の離反や石山本願寺との長い戦争も続いていた。1580年に本願寺と和議を結び、翌年には京都で華やかな馬揃えを催す一方、伊賀には大軍を送り込んだ。信長の支配は、剣と政治の両輪によって築かれていった。\n\nそして1582年。織田の勢力は、かつて誰も想像しなかった広がりを見せていた。\n\n畿内の主導権を握った信長は、各方面に有力な武将を送り込んでいた。西では羽柴秀吉が中国地方の毛利氏を攻め、北では柴田勝家が上杉氏を圧迫する。東では信忠らが宿敵・武田氏を滅ぼし、滝川一益が関東へ進出した。さらに四国への出兵も準備されていた。\n\nかつて尾張の一角で一族と争っていた男が、今や日本各地の戦局を動かしている。\n\nなお毛利も上杉も、各地の大名も残っていた。それでも天下統一は、もはや遠い夢物語ではなかった。あと一歩。その巨大な事業を自らの手で完成させる日が、目前に迫っているかに見えた。\n\nだが、運命はその一歩を許さなかった。\n\n旧暦6月2日。中国地方への出陣を控え、わずかな供回りとともに京都・本能寺に宿泊していた信長を、家臣・明智光秀の軍勢が襲った。\n\nかつて桶狭間で圧倒的な大軍を打ち破った男が、天下を目前にして、敵国の軍ではなく自らの家臣に討たれる。\n\n燃え上がる本能寺で、信長は49年の生涯を閉じた。\n\nその死によって、織田の天下は大きく揺らいだ。信長が夢見た統一を誰が成し遂げるのか。歴史は、残された者たちの手へと移っていった。",
+        "yearText": "1534–1582年",
+        "approval": {
+          "sheetRow": 2264,
+          "version": "v3",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "307eda209f5090273c56a555707849b79da5537af624d09aa4bc0df5d4d0508b",
+          "kind": "完成版ストーリー",
+          "personId": "sg-6eaf66c3d7c8",
+          "sourceId": null
+        },
+        "unlock": {
+          "requiredHistoryCount": 32,
+          "requiredPlaceHistoryCount": 23,
+          "historyIdsSHA256": "fb24474773fb9af2144bf9ade85790ea929b0818aeff5c646f38860167f3ae6f"
+        }
+      }
+    },
+    {
+      "personId": "sg-29c3bc68aa37",
+      "name": "里見義堯",
+      "introduction": {
+        "text": "安房・上総の戦国大名。父を討たれた里見家の内乱を経て、1534年の犬掛の戦いで主導権を握った。北条氏と対立し、1538年の国府台では敗北。久留里城を本拠に上杉謙信と連携し、房総で勢力を伸ばした。1574年没。",
+        "yearText": "1507–1574年",
+        "approval": {
+          "sheetRow": 181,
+          "version": "v1",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "a27ee573b9f02788f850bcce18f1d47ca43b5b8b2795c5471c0bd135177d9d3c",
+          "kind": "人物紹介",
+          "personId": "sg-29c3bc68aa37",
+          "sourceId": null
+        }
+      },
+      "story": {
+        "text": "父を殺したのは、敵国の武将ではなかった。同じ里見一族の当主だった。\n\n里見義堯。父の死によって家を追われ、敵の力を借りて家督を奪い返した男は、やがてその恩人と戦い続けることになる。味方と敵が幾度も入れ替わる戦国の房総で、義堯が守ろうとしたものは、里見という家の生き残りだった。\n\n1507年、義堯は安房の里見実堯の子として生まれた。房総半島では里見一族だけでなく、真里谷武田氏、千葉氏、そして海を隔てた小田原の北条氏が勢力を争っていた。安房の主であっても、城門の外だけを警戒すればよい時代ではない。家の中にも、次の当主をめぐる争いが潜んでいた。\n\n1533年、その争いが血を流す。里見家の当主・義豊が、叔父にあたる実堯と重臣・正木通綱を殺害したのである。父を失った義堯は安房を離れ、上総の百首城へ逃れた。そこは真里谷武田信隆の勢力下にある城だった。義堯は信隆の支援を受け、義豊と対立する北条氏綱にも援軍を求める。\n\n父を殺された息子が、敵対する他家の軍勢を借りて故郷へ戻ろうとしている。その選択が、やがて房総の長い戦乱の始まりとなった。\n\n義堯方は安房へ反攻し、翌1534年、義豊も再び軍を進めてきた。旧暦四月六日、犬掛。里見一族同士が相まみえた戦いで義豊は敗れ、討たれた。義堯は里見家の主導権を手にする。父の死によって追われた男が、今度は一族の当主として安房に立ったのである。\n\nしかし、これで敵が消えたわけではなかった。\n\n義堯を助けた北条氏は、すでに相模から武蔵へ勢力を広げる大大名となっていた。義堯は1535年、北条氏綱の河越方面への出兵に加勢し、翌年には鎌倉・鶴岡八幡宮の再建へ材木を送った。海を渡る軍勢も材木も、安房が関東の争いと深く結びついていることを示していた。\n\nだが1537年、同盟の向きが変わる。かつて義堯を迎えた真里谷武田信隆は北条氏の支援を受け、義堯は小弓公方・足利義明の側についた。義堯は北条氏と決別し、百首城や峯上城を攻める。\n\nかつて逃げ込んだ百首城が、今度は攻めるべき敵の城となった。\n\n恩を受けた相手といつまでも同じ道を歩めるとは限らない。義堯にとって、安房を守り上総へ進む道は、かつての味方との戦いでもあった。\n\n翌1538年、関東の勢力図が大きく揺れる。下総・国府台で、義堯が支えた小弓公方・足利義明の勢力が北条氏綱方に敗れ、義明は討死した。里見方も後退を余儀なくされ、義堯は安房へ退いた。父の仇を討つために手を借りた北条氏が、今や房総を脅かす最大の敵となったのである。\n\n敗れてなお、義堯は安房に閉じこもらなかった。\n\n1544年、家臣の正木時茂に命じて上総東部の大多喜城を攻略させる。翌年頃からは久留里城を新たな本拠に据え、安房から上総へ勢力を広げた。山間に築かれた久留里は、内陸と東京湾へ通じる道を押さえる要地だった。海からも陸からも攻め寄せる北条氏に対抗するため、義堯は城と家臣を結び、房総に領国を築いていった。\n\nだが、北条の力は強大だった。1560年、北条氏康の軍勢が久留里城を包囲する。里見の本拠が敵の手に落ちれば、義堯が二十年以上かけて築いたものが崩れかねない。\n\n義堯は遠く越後の長尾景虎、後の上杉謙信に援軍を求めた。\n\n房総の山城を守るため、越後の武将に関東への出陣を請う。戦国の同盟とは、紙に書いた約束だけではない。国を越えて兵が動いて初めて、包囲された城の命運を変えることができる。景虎が関東へ進むと北条軍は包囲を解き、久留里城は持ちこたえた。\n\n1561年、景虎は小田原城へ迫り、義堯の子・義弘も軍を率いて鎌倉方面へ進んだ。義堯がつないだ同盟のもとで、次の世代が戦場へ出るようになっていた。しかし小田原城は落ちず、北条氏との決着はつかなかった。\n\nそして1564年、再び国府台で大きな敗北が訪れる。\n\n今度の前線を率いたのは義堯ではなく、子の義弘だった。義弘の軍勢は北条氏康方に敗れ、北条軍は上総へ攻め込む。久留里城も一時里見方の手を離れた。父の代から築いた領国が、またも崩れ始める。義堯がかつて一族から奪い返した家は、今度は外からの大軍に脅かされていた。\n\nだが里見家は、ここでも終わらなかった。\n\n1567年、義弘らは上総・三舟山で北条軍を破り、失われた上総の支配を回復する。国府台で敗れた息子が、三年後には北条方を押し返したのである。それは義堯一人の武功ではない。父が築いた家臣団と領国を、子が戦って守り直した勝利だった。\n\n1574年、義堯は生涯を閉じた。北条氏との長い争いが、なお続くなかでの死だった。里見家が北条氏との和睦に至るのは、義堯の死から三年後のことである。\n\n父を殺したのは同じ一族の当主だった。父の仇を討つために頼った北条氏は、やがて生涯を懸けて争う相手となった。敗れて城を失っても、遠国の味方を求め、家臣を動かし、息子へ戦う力を渡した。\n\n里見義堯が残したのは、敵を一度破った勝利の記憶だけではない。安房から上総へ広がる、簡単には滅びない里見の領国だった。味方が敵になり、城を失ってもなお家を守り抜く。その執念が、房総の戦国に里見の名を刻んだのである。",
+        "yearText": "1507–1574年",
+        "approval": {
+          "sheetRow": 2328,
+          "version": "v3",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "e84c72305cf04943ea7a5b0ca7fe73eb1fd7e1432720081305ee39db29f204c7",
+          "kind": "完成版ストーリー",
+          "personId": "sg-29c3bc68aa37",
+          "sourceId": null
+        },
+        "unlock": {
+          "requiredHistoryCount": 13,
+          "requiredPlaceHistoryCount": 8,
+          "historyIdsSHA256": "7213161d2c7c18a83b713cd6940c56a246a4de8e8535b3fc4e9d32665f31e06c"
+        }
+      }
+    },
+    {
+      "personId": "sg-f47391608dbb",
+      "name": "豊臣秀吉",
+      "introduction": {
+        "text": "尾張中村の出身で、織田信長の家臣から天下人へと上りつめた武将。山崎・賤ヶ岳の戦いを経て関白となり、九州・関東・奥羽の大名を従えた。検地や刀狩で国内の支配を整えた一方、晩年には朝鮮への侵攻を命じ、1598年に伏見城で死去した。",
+        "yearText": "1536/1537–1598年",
+        "approval": {
+          "sheetRow": 5,
+          "version": "v1",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "93436c0de7f7d6b8d5b70a069c06a55cb11e43f465cf83fbe5015c0a2543af96",
+          "kind": "人物紹介",
+          "personId": "sg-f47391608dbb",
+          "sourceId": null
+        }
+      },
+      "story": {
+        "text": "天下を手にする男が、名門の嫡男として生まれるとは限らない。\n\n16世紀前半、尾張国中村に生まれたと伝わる豊臣秀吉。生年さえ1536年と1537年の説があり、少年時代の足取りも定かではない。後に木下藤吉郎と名乗るこの男が、やがて日本中の大名を従えることになろうとは、誰が想像しただろうか。\n\n織田信長に仕えた秀吉は、戦乱の中で頭角を現していく。1565年には木下藤吉郎の名が文書に現れ、1573年、浅井氏の滅亡後には北近江に領地を与えられた。琵琶湖畔の長浜に城と町を築き、羽柴秀吉として家臣を率いる。かつては自らの城すら持たなかった男が、一国を動かす武将への道を歩み始めた。\n\n1577年、信長は秀吉に中国地方の攻略を託す。毛利氏を相手にした戦いは、華やかな野戦ばかりではなかった。三木城を長く囲み、鳥取城では兵糧を断って開城に追い込む。城内の人々を飢えに苦しませたその戦法は、秀吉の冷徹な一面を物語る。戦に勝つためなら、敵の力を正面から受け止めるだけが道ではなかった。\n\nそして1582年。秀吉は備中高松城を水攻めにしていた。\n\nその陣中に、信じ難い知らせが届く。主君・織田信長が、家臣の明智光秀に討たれたというのである。\n\n信長の死は、秀吉にとって仕えてきた主を失う大事件であると同時に、織田家の運命が一変する転機でもあった。\n\n秀吉は毛利氏との和議をまとめると、軍勢を率いて東へ引き返した。世にいう中国大返しである。長い攻城戦を続けていた軍が、今度は畿内へ向けて進む。秀吉は山崎で明智光秀を破り、主君の仇を討った。\n\nだが、その勝利が意味したものは仇討ちだけではなかった。信長亡き後、織田家の主導権を誰が握るのか。天下をめぐる新たな争いの中心に、秀吉が躍り出たのである。\n\n1583年、織田家の重臣・柴田勝家と賤ヶ岳で激突し、これを破る。続いて大坂城の築城を始め、全国を動かす拠点を手にした。\n\nしかし、なお手強い相手がいた。徳川家康である。1584年の小牧・長久手では秀吉方の別働隊が敗れ、武力だけで家康を屈服させることはできなかった。\n\nここで秀吉は、別の道も選ぶ。織田信雄との和睦で戦いを収めた後、1585年には紀州の根来寺勢を制圧し、弟・秀長らの軍勢を四国へ送り込んだ。四国で戦いが続く同年七月、秀吉は関白に就任する。その後、長宗我部元親が降伏し、四国の領地が再編された。\n\n名門の生まれでもなかった男が、ついに朝廷の権威を背負って全国の大名に号令する立場となったのである。\n\nしかし、家康はなお容易には従わなかった。翌1586年、秀吉は妹の旭姫を家康に嫁がせ、母の大政所も岡崎へ送って関係を固めた。秀吉が豊臣の姓を得た同じ年の秋、ついに家康は大坂で秀吉への臣従を示した。\n\n敵を討ち滅ぼすだけが天下を取る道ではない。戦い、和睦し、縁組を結び、時には相手の面目を保ちながら従わせる。秀吉は武力と政治を巧みに使い分けて、勢力を広げていった。\n\n1587年、秀吉は大軍を率いて九州へ進み、島津氏を降伏させた。同じ年には伴天連追放令を出す一方、京都では北野大茶湯を催す。聚楽第には大名たちが集まり、1588年には後陽成天皇を迎えた。検地によって土地と年貢を掌握し、刀狩によって農民の武器を規制する。戦国の世を治めるための仕組みそのものが、秀吉の手で変わり始めていた。\n\nそして1590年、天下統一への最後の大きな戦いが始まる。\n\n関東の雄・北条氏が籠もる小田原城を、豊臣の大軍が包囲した。秀吉は城を見下ろす石垣山に大規模な城を築き、圧倒的な動員力を見せつける。北条氏は降伏し、秀吉はさらに奥羽へ進んで諸大名の領地を再編した。家康を関東へ移し、翌年には東北で反抗する九戸氏らの鎮圧も命じた。\n\n尾張の一角から身を起こした男が、ついに日本全国を支配する天下人となった。\n\n信長が果たせなかった事業を、秀吉は成し遂げたのである。\n\nしかし、天下を手に入れたことは、戦乱の終わりを意味しなかった。\n\n1591年、京都に御土居を築かせ、関白を甥の秀次に譲って太閤となる。翌1592年には朝鮮への侵攻を命じ、肥前名護屋から軍を指揮した。戦火は海を越え、朝鮮の人々を巻き込み、明の参戦によって長い戦争へと変わっていく。\n\n1593年、実子・秀頼が誕生する。それまで後継者だった秀次との関係は悪化し、1595年、秀次は謀反の疑いをかけられて高野山で切腹した。妻子らも処刑され、京都の聚楽第まで破却された。謀反の実態は確定していないが、豊臣家の内側で起きた惨劇は消えることがない。\n\n1596年の大地震で伏見の城が倒壊すると、秀吉は木幡山に城を築き直した。翌1597年には朝鮮への再出兵を命じる。天下統一のための戦争は終わったはずなのに、海の向こうではなお多くの命が失われていた。\n\n1598年春、秀吉は京都の醍醐寺で盛大な花見を催した。北政所、淀殿、幼い秀頼らが集まる華やかな宴。かつて尾張から身を起こした男の栄華を、満開の桜が彩っていた。\n\nだが、その年の旧暦8月18日、秀吉は伏見城で生涯を終える。\n\n天下は手に入れた。大坂には壮大な城があり、全国には従う大名がいた。しかし朝鮮での戦争は終わらず、後継者の秀頼はまだ幼い。\n\n信長の死によって開かれた天下への道を、誰よりも速く駆け上がった秀吉。人を動かし、敵を従わせ、戦国の仕組みさえ作り替えた男が最後に残したのは、強大でありながら、その主を失えば揺らぎかねない豊臣の天下だった。\n\nその栄華を、次の時代まで守り抜くことができるのか。\n\n天下人の死は、新たな争いの始まりでもあった。",
+        "yearText": "1536/1537–1598年",
+        "approval": {
+          "sheetRow": 2737,
+          "version": "v5",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "自治体確認済・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "1edf70fc20f2d3e74dd5ad9735d3df2139d414e4a4d6e0d7cc2927064eacae50",
+          "kind": "完成版ストーリー",
+          "personId": "sg-f47391608dbb",
+          "sourceId": null
+        },
+        "unlock": {
+          "requiredHistoryCount": 39,
+          "requiredPlaceHistoryCount": 28,
+          "historyIdsSHA256": "7597feef53d2664a6f7b872e973a81ea75b8642b54c4af41d09c313fac4daeb7"
+        }
+      }
+    },
+    {
+      "personId": "sg-17496a5d9dfa",
+      "name": "里見義弘",
+      "introduction": {
+        "text": "安房・上総を治めた里見義堯の子。佐貫を拠点に北条氏と争い、1564年の第二次国府台合戦で敗れたが、1567年の三舟山合戦で勢力を回復した。上杉・武田氏との外交も展開し、1577年には北条氏政と和睦。翌年に没し、里見家には後継争いが残った。",
+        "yearText": null,
+        "approval": {
+          "sheetRow": 4497,
+          "version": "v1",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "8ce4c32980d9554b49900e16e184137e308db57b9856fd365336498c32293a95",
+          "kind": "人物紹介",
+          "personId": "sg-17496a5d9dfa",
+          "sourceId": null
+        },
+        "sourceIds": [
+          "sg2src-a-yoshihiro-bio-20261125",
+          "sg2src-a-yoshihiro-war-20261125",
+          "sg2src-a-yoshihiro-chron-20261125",
+          "sg2src-a-yoshihiro-hachi-20261125",
+          "sg2src-a-yoshihiro-ichi-20261125",
+          "sg2src-a-yoshihiro-kimi-20261125",
+          "sg2src-a-yoshihiro-futtsu-20261125",
+          "sg2src-a-yoshihiro-sakura-20261125",
+          "sg2src-a-yoshihiro-okamoto-20261125",
+          "sg2src-a-yoshihiro-birth-20261125",
+          "sg2src-a-yoshihiro-local-20261125",
+          "sg2src-a-yoshihiro-enmeiji-20261125"
+        ],
+        "sourceUrls": [
+          "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_3/k4shou_3min.html",
+          "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_2/k4shou_2min.html",
+          "https://tateyama-field-museum.jp/archives/7296",
+          "https://www.city.tateyama.chiba.jp/syougaigaku/page100234.html",
+          "https://www.city.ichikawa.lg.jp/page/7810.html",
+          "https://www.city.kimitsu.lg.jp/site/kanko/501.html",
+          "https://www.city.futtsu.lg.jp/0000000553.html",
+          "https://www.archives.city.sakura.lg.jp/ja/Content/Detail/B-BO-0013",
+          "https://www.city.minamiboso.chiba.jp/0000012963.html",
+          "https://kotobank.jp/word/%E9%87%8C%E8%A6%8B%E7%BE%A9%E5%BC%98-69374",
+          "https://nippon.zaidan.info/seikabutsu/2005/00354/contents/0044.htm",
+          "https://www.pref.chiba.lg.jp/kyouiku/bunkazai/bunkazai/p181-005.html"
+        ]
+      },
+      "story": {
+        "text": "海は、敵を防ぐ堀であり、敵へ向かう道でもあった。安房・上総から東京湾の向こうには、相模の小田原北条氏がいる。房総へ攻め込む北条勢を押し返すため、時には海を越えて敵の領地へ兵を送り、時には遠い越後や甲斐の大名へ助けを求めた。その長い戦いの中で里見家を率いたのが、里見義弘だった。\n\n義弘は、安房から上総へ勢力を広げた里見義堯の子として生まれた。1525年生まれとする説がある一方、1530年説も残り、正確な年は定まらない。父の義堯は里見家の内紛を経て当主となり、北条氏と争いながら房総に足場を築いていた。義弘が受け継ぐのは、一族の名だけではない。海辺の城々と、それらを守る武士たちの暮らしでもあった。\n\n1539年、義弘は安房の鶴谷八幡宮で元服したと伝わる。その前年、下総の国府台では小弓公方・足利義明が討たれ、遺児たちは里見家を頼って房総へ逃れてきた。関東の名門足利氏の人々が、若い義弘の身近にいたのである。里見家が守ろうとしたのは、自らの土地だけではなかった。北条氏と対立する人々が身を寄せる場所でもあった。\n\n1556年、義弘は軍勢を率いて東京湾を渡り、相模の三浦半島へ攻め込んだ。北条氏は小田原を本拠に房総へ勢力を伸ばし、里見氏は海上の道を使ってその背後を脅かす。海を挟んだ二つの家の戦いは、もはや安房の城を守るだけでは終わらなかった。このころ、かつて鎌倉の太平寺で尼僧だった青岳尼を妻に迎えたとも伝わる。小弓公方の娘とされる女性との縁は、義弘を足利氏とさらに深く結びつけたが、婚姻の正確な年は分からない。\n\n1560年、北条氏康は上総の久留里城を圧迫した。父義堯は越後の長尾景虎、後の上杉謙信に助けを求める。翌1561年、景虎の大軍が小田原城を囲むと、義弘も里見方の将として加わり、その後は鎌倉にも入った。だが、巨大な小田原城は落ちなかった。北条を倒すという一つの目的の下で軍勢は集まっても、戦いの決着まで共に進めるとは限らない。\n\n1562年、北条方に古河城を追われた足利藤氏らが房総へ逃れると、義弘は父とともに保護に当たった。刀と城による争いの背後では、誰を正統な公方と認めるかという関東の政治も動いていた。里見氏が足利一族を支えることは、北条氏に対抗する旗を保つことにもつながっていた。\n\nしかし1564年、下総の国府台で義弘の軍勢は北条氏康方と激突し、敗れた。多くの将兵を失い、北条軍は上総へなだれ込む。里見方の城や味方だった領主も揺らぎ、北条へ転じる者が現れた。義弘にとって、海を越えて広げた戦いは、今度は自らの領国を脅かすものとなった。勝って土地を得る以前に、父とともに築いた上総を守れるかが問われたのである。\n\n敗戦の後も義弘は引き下がらなかった。1565年には上杉謙信へ再び関東への出兵を求め、1566年には上杉勢とともに下総の臼井城を攻めた。義弘は五百騎を率いたと伝わるが、城を守る原氏らの抵抗は固く、連合軍は退く。味方の軍勢を集めても、目の前の城が落ちるとは限らない。国府台の敗北を埋める勝利は、なお遠かった。\n\n翌1567年、北条方の軍勢が上総の佐貫城へ迫り、三舟山に陣を置いた。山上を押さえたのは北条方であり、そこが義弘の本陣だったわけではない。義弘の里見勢はこれを迎え撃ち、ついに北条軍を破る。国府台で失いかけた上総の主導権を、戦場で取り戻したのである。城を奪われ、同盟相手に援軍を求め、臼井では退いた。その先にようやく訪れた三舟山の勝利は、房総の勢力図を再び変えた。\n\nだが、勝利だけで北条氏との争いを終わらせることはできない。1569年、北条氏康が長年の敵だった上杉謙信との和睦へ動くと、義弘は甲斐の武田信玄と結んだ。かつて助けを求めた越後の大名も、相手の都合によって北条と手を結ぶ。義弘は房総から離れた国々の関係まで見渡し、味方を選び直さねばならなかった。外交もまた、海を越えて続く戦いだった。\n\n1572年、義弘は鶴谷八幡宮の修築を進めた。残された棟札には義継と梅王丸の名も見え、里見家の次代をめぐる事情を伝えている。ただし、そこに二人の名が記されたことだけで、後継が一人に決まったとはいえない。戦場の外でも、家を誰に託すかという問題が静かに大きくなっていた。\n\n1574年、父の義堯が亡くなる。義弘はそれ以前から軍勢を率いていたが、上総の佐貫を拠点に里見家の支配を担う責任はいっそう重くなった。一方、安房では義頼が独自に勢力を保っていた。北条氏と向き合う外の戦いと、領国をどのように分けて治めるかという内の問題が、里見家を挟み込んでいた。\n\n1577年、北条氏政が再び上総へ進む中、義弘はついに和睦を結ぶ。国府台で敗れ、三舟山で勝ち、上杉や武田と結んだ長い抗争に、一つの区切りが訪れた。すべての争いが消えたわけではない。それでも、城を奪い合うだけでは守れない家と領地を残すため、敵と手を結ぶ道を選んだのである。\n\n和睦の翌1578年旧暦五月二十日、義弘は佐貫で生涯を閉じた。梅王丸は義弘の用いた鳳凰の印判と西上総の領地を継いだが、安房を治める義頼との対立は解けなかった。北条氏との戦いを収めた後、里見家は今度は後継をめぐる争いに直面する。生き残った土地を、次の世代へ一つの家として渡すことは、敵軍を破るのと同じほど難しかった。\n\n義弘は海を渡って攻め、敗れて上総を失いかけ、三舟山で立ち直り、最後には北条氏との和睦を選んだ。勝つことだけが領主の務めではない。敗北のあとにどう踏みとどまり、何を守り、誰に未来を託すのか。房総の海と城々には、その選択を繰り返した里見義弘の生涯が刻まれている。",
+        "yearText": "生年諸説〜1578年",
+        "approval": {
+          "sheetRow": 4498,
+          "version": "v1",
+          "user": "公開OK",
+          "quality": "品質合格",
+          "rights": "位置不要・権利OK",
+          "handoff": "C候補（別途公開承認）",
+          "sourceMatch": "一致",
+          "sha256": "389de2e0cc09b9099798ec43050ef3190d44b6be74d7df9b04908fe31d158e49",
+          "kind": "完成版ストーリー",
+          "personId": "sg-17496a5d9dfa",
+          "sourceId": null
+        },
+        "sourceIds": [
+          "sg2src-a-yoshihiro-bio-20261125",
+          "sg2src-a-yoshihiro-birth-20261125",
+          "sg2src-a-yoshihiro-chron-20261125",
+          "sg2src-a-yoshihiro-enmeiji-20261125",
+          "sg2src-a-yoshihiro-futtsu-20261125",
+          "sg2src-a-yoshihiro-hachi-20261125",
+          "sg2src-a-yoshihiro-ichi-20261125",
+          "sg2src-a-yoshihiro-kimi-20261125",
+          "sg2src-a-yoshihiro-local-20261125",
+          "sg2src-a-yoshihiro-sakura-20261125",
+          "sg2src-a-yoshihiro-war-20261125"
+        ],
+        "sourceUrls": [
+          "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_3/k4shou_3min.html",
+          "https://kotobank.jp/word/%E9%87%8C%E8%A6%8B%E7%BE%A9%E5%BC%98-69374",
+          "https://tateyama-field-museum.jp/archives/7296",
+          "https://www.pref.chiba.lg.jp/kyouiku/bunkazai/bunkazai/p181-005.html",
+          "https://www.city.futtsu.lg.jp/0000000553.html",
+          "https://www.city.tateyama.chiba.jp/syougaigaku/page100234.html",
+          "https://www.city.ichikawa.lg.jp/page/7810.html",
+          "https://www.city.kimitsu.lg.jp/site/kanko/501.html",
+          "https://nippon.zaidan.info/seikabutsu/2005/00354/contents/0044.htm",
+          "https://www.archives.city.sakura.lg.jp/ja/Content/Detail/B-BO-0013",
+          "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_2/k4shou_2min.html"
+        ],
+        "unlock": {
+          "requiredHistoryCount": 15,
+          "requiredPlaceHistoryCount": 8,
+          "historyIdsSHA256": "f5b3edc18890cd725783d8509e0cfb21082a948048b258a3c68a8027b199a024"
+        }
+      }
+    }
+  ],
+  "histories": [
+    {
+      "historyId": "sg2hist-a-kono-birth-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "伊予河野氏に生まれる",
+      "yearText": "生年不詳",
+      "eventYear": null,
+      "eventYearEnd": null,
+      "text": "伊予の河野氏に生まれ、宗三郎と名乗った。河野氏は瀬戸内海に面する伊予を治めてきた武家で、通宣はやがて家中を率いる立場となる。生年は伝わっていない。",
+      "approval": {
+        "sheetRow": 4591,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "a7da053d03fb058d423e57f0df8cd3b15cfce983ae9167a8c43a630bfb7466db",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-birth-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-person-20261126",
+        "sg2src-a-kono-clan-20261126",
+        "sg2src-a-kono-ndlfather-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/57/view/7503",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7847",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000347343&page=ref_view"
+      ],
+      "sourceOrder": 1836,
+      "displayOrder": null
+    },
+    {
+      "historyId": "sg2hist-a-kono-succession-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "晴通没後、河野氏の家督を継ぐ",
+      "yearText": "天文12～13年（1543～1544）頃",
+      "eventYear": 1543,
+      "eventYearEnd": 1544,
+      "text": "兄と伝わる晴通の死後、河野氏を率いる立場となった。河野家では先代の通直も政治に関与しており、家督継承後も家中の意思統一が重要な課題となった。",
+      "approval": {
+        "sheetRow": 4592,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "0274e65945e1bb8b1154611f762b80a2fdb76b4c98ced18c95da1d158d9de91b",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-succession-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-person-20261126",
+        "sg2src-a-kono-clan-20261126",
+        "sg2src-a-kono-ndlfather-20261126",
+        "sg2src-a-kono-yuzuki-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/57/view/7503",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7847",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000347343&page=ref_view",
+        "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/kuni/yudukijou_ato.html"
+      ],
+      "sourceOrder": 1837,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-land1550-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "友近氏に寅菊作職内の土地を与える",
+      "yearText": "天文19年（1550）12月18日（旧暦）",
+      "eventYear": 1550,
+      "eventYearEnd": null,
+      "text": "1550年、通宣は友近与一左衛門に寅菊作職内の土地を与えた。1559年にも友近氏の桑原郷内の作職などを安堵しており、所領や収益に関わる権利を継続して保障した。",
+      "approval": {
+        "sheetRow": 4593,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "cae98035d9794d432c322b07ae6006d13d76e57bd8541d82bfba697c386071fe",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-land1550-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-batsu140-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://archives.pref.yamaguchi.lg.jp/msearch/detail_doc/32373"
+      ],
+      "sourceOrder": 1838,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-land1552-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "家臣の所領・役職を調整する",
+      "yearText": "天文21年（1552）8～11月（旧暦）",
+      "eventYear": 1552,
+      "eventYearEnd": null,
+      "text": "粟井郷の段役職や鴨部郷の新田などをめぐる文書を発給した。同時期には先代の通直も知行に関する文書を出しており、河野家の統治が一人の当主だけで完結していなかったことがうかがえる。",
+      "approval": {
+        "sheetRow": 4594,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "1d32e0bf20f246466756ea46fda80383325af1f13e910350837ba102dd0b6ed0",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-land1552-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-ndlfather-20261126",
+        "sg2src-a-kono-clan-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000347343&page=ref_view",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7847"
+      ],
+      "sourceOrder": 1839,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-zennoji1553-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "place",
+      "title": "善応寺の権利を安堵する",
+      "yearText": "天文22年（1553）10月6日（旧暦）",
+      "eventYear": 1553,
+      "eventYearEnd": null,
+      "text": "河野氏にゆかりの深い善応寺に対して安堵の文書を出した。河野氏は寺院の権利を保護することで、地域に根づく宗教施設との関係を保った。",
+      "approval": {
+        "sheetRow": 4595,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "262268dae4669901295a870f4611b89a05ff8354f3e2441aa794899d2a6d63ee",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-zennoji1553-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-zennoji-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/ken/zennoujibunsho_5kan.html"
+      ],
+      "sourceOrder": 1841,
+      "displayOrder": 20
+    },
+    {
+      "historyId": "sg2hist-a-kono-iwagara1554-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "place",
+      "title": "平岡房実に命じ、和田氏の反抗に対応する",
+      "yearText": "天文23年（1554）9月（旧暦）",
+      "eventYear": 1554,
+      "eventYearEnd": null,
+      "text": "和田通興をめぐる争いに際し、通宣は家臣の平岡房実に対応を命じたと伝わる。岩伽羅城を舞台にしたこの事件は、領国内の有力者をまとめる難しさを示している。",
+      "approval": {
+        "sheetRow": 4596,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "84191d5d6c3b7bfea61efae10d6095c13bad204e0c17fef9f9339427858380fe",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-iwagara1554-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-clan-20261126",
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-iwagara-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7847",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.hb.pei.jp/shiro/iyo/iwagara-jyo/"
+      ],
+      "sourceOrder": 1842,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-senyu1554-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "place",
+      "title": "仙遊寺の住持職に関する文書を出す",
+      "yearText": "天文23年（1554）10月23日（旧暦）",
+      "eventYear": 1554,
+      "eventYearEnd": null,
+      "text": "今治の仙遊寺の住持職について文書を発給した。通宣の活動は軍事や知行の配分に限られず、領国内の寺院の運営にも及んでいた。",
+      "approval": {
+        "sheetRow": 4597,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "97fef32a967fac9eb444b860db53a3176ca45f8e7cb665d29a780242482bfae0",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-senyu1554-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-senyuji-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.city.imabari.ehime.jp/kanko/spot/?a=157"
+      ],
+      "sourceOrder": 1843,
+      "displayOrder": 20
+    },
+    {
+      "historyId": "sg2hist-a-kono-ritual1555-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "正岡氏の祭田に関する権利を認める",
+      "yearText": "天文24年（1555）5月23日（旧暦）",
+      "eventYear": 1555,
+      "eventYearEnd": null,
+      "text": "正岡重辰に祭田に関する権利を認める文書を出した。地域の祭祀を支える土地の扱いも、河野家の領国支配に関わる仕事だった。",
+      "approval": {
+        "sheetRow": 4598,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "7ef04402050d3b0a6c630c368ce8aada343b34bea3a53a7974e61fcc17787b9b",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-ritual1555-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389"
+      ],
+      "sourceOrder": 1844,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-sofuku1555-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "五明の崇福寺に禁制を出す",
+      "yearText": "弘治元年（1555）12月6日（旧暦）",
+      "eventYear": 1555,
+      "eventYearEnd": null,
+      "text": "五明の崇福寺に禁制を発給した。戦国期の領主が寺院の秩序や権利を守るために文書を用いた例の一つである。",
+      "approval": {
+        "sheetRow": 4599,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "5e8881f9aa6c9e5370d4fb8ba6c57d50711c58891cb9ec97f426468a31d11bd7",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-sofuku1555-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389"
+      ],
+      "sourceOrder": 1846,
+      "displayOrder": 30
+    },
+    {
+      "historyId": "sg2hist-a-kono-kannenji1557-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "place",
+      "title": "観念寺の寺領を安堵する",
+      "yearText": "弘治3年（1557）旧暦8月17日",
+      "eventYear": 1557,
+      "eventYearEnd": null,
+      "text": "1557年、通宣は観念寺の寺領を認める文書を出した。観念寺は越智氏ゆかりの寺院であり、通宣が伊予の寺院とその所領を保護していたことを示す記録である。",
+      "approval": {
+        "sheetRow": 4600,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "d74da5c496ed57815fbc7213ec40e80ea05acf46b6ff0af94fd4b1410d021da7",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-kannenji1557-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-kannenji-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.pref.ehime.jp/ehimenotakara/297.html"
+      ],
+      "sourceOrder": 1861,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-oyamazumi1558-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "place",
+      "title": "三島宮の神職間の争いを裁く",
+      "yearText": "弘治4年（1558）旧暦2月12日",
+      "eventYear": 1558,
+      "eventYearEnd": null,
+      "text": "1558年、大三島の三島宮で、籠物をめぐって大祝安忠と神大夫の間に争いが起きた。通宣はこの争いを裁決した。寺社の保護だけでなく、祭祀を担う人々の争いにも領主として関わっていたことがわかる。",
+      "approval": {
+        "sheetRow": 4601,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "192e5a403b55d3acb2d2b92ab0600826383669720d611a15ef67af336f3e9d6d",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-oyamazumi1558-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-oyamazumi-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://online.bunka.go.jp/heritages/detail/223328"
+      ],
+      "sourceOrder": 1862,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-chouenji1559-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "長円寺の境内の範囲を定める",
+      "yearText": "永禄2年（1559）旧暦10月7日",
+      "eventYear": 1559,
+      "eventYearEnd": null,
+      "text": "1559年、通宣は伊予郡の長円寺（薬師寺）の境内の範囲を定めたと記録されている。寺院の敷地をめぐる秩序を整えることも、領国の統治の一部であった。",
+      "approval": {
+        "sheetRow": 4602,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "3d573624e9f9039937e1e8f9cdb6c366ea72fe237486469cb646838760f6d3b2",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-chouenji1559-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389"
+      ],
+      "sourceOrder": 1863,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-rank-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "左京大夫の名で外交に関わる",
+      "yearText": "永禄3～5年（1560～1562）頃",
+      "eventYear": 1560,
+      "eventYearEnd": 1562,
+      "text": "通宣は左京大夫として知られるようになり、幕府との交渉を行った。伊予の領主としての地位を保つうえで、中央の政治との関係も重要だった。",
+      "approval": {
+        "sheetRow": 4603,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "c1ce474bf3289f191b1c290ea4cb3869dbd978bf06c3e069d5b1668a6f4731ab",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-rank-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-person-20261126",
+        "sg2src-a-kono-surround-20261126",
+        "sg2src-a-kono-citychron-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/57/view/7503",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7857",
+        "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/rekishi/muromachi-azuchi.html"
+      ],
+      "sourceOrder": 1848,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-mediation-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "毛利・尼子両氏の講和の仲立ちを求められる",
+      "yearText": "永禄4年（1561）旧暦3月23日とする記録（1563年にも記録）",
+      "eventYear": 1561,
+      "eventYearEnd": null,
+      "text": "将軍足利義輝は、毛利氏と尼子氏の講和を進めるため、通宣や村上元吉らに仲立ちを求めた。1561年の記録のほか1563年にも同趣旨の記事があり、瀬戸内の領主たちが中国地方の争いをめぐる幕府外交にも関わっていたことがわかる。",
+      "approval": {
+        "sheetRow": 4604,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "25b51a69bec99eb38d72f71497db26d568bf2addded52f454e1ce93712c84700",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-mediation-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-ndldip-20261126",
+        "sg2src-a-kono-ndlfather-20261126",
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-surround-20261126",
+        "sg2src-a-kono-diplomacy-20261126"
+      ],
+      "sourceUrls": [
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000226245&page=ref_view",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000347343&page=ref_view",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7857",
+        "https://online.bunka.go.jp/heritages/detail/255305"
+      ],
+      "sourceOrder": 1849,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-envoy1562-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "place",
+      "title": "石清水八幡宮へ慰問の使者を送る",
+      "yearText": "永禄5年（1562）5月11日（旧暦）",
+      "eventYear": 1562,
+      "eventYearEnd": null,
+      "text": "将軍義輝を慰問するため、石清水八幡宮に使者を送ったとされる。伊予に拠点を置きながら、使者や書状によって京都周辺の政治情勢と関係を保っていた。",
+      "approval": {
+        "sheetRow": 4605,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "0a6fb464de664f96b0b9ff0edbd1ac38ef443c40fc6306a724cf7c9dc2510c76",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-envoy1562-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-ndldip-20261126",
+        "sg2src-a-kono-iwashimizu-20261126"
+      ],
+      "sourceUrls": [
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000226245&page=ref_view",
+        "https://www.city.yawata.kyoto.jp/0000001228.html"
+      ],
+      "sourceOrder": 1850,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-court1563-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "幕府の当参衆・御供衆に列する",
+      "yearText": "永禄6年（1563）5月（旧暦）",
+      "eventYear": 1563,
+      "eventYearEnd": null,
+      "text": "通宣は宇都宮遠江守とともに、将軍に近侍する当参衆・御供衆に加わったと伝わる。伊予の有力領主が幕府と結んだ関係を示す出来事である。",
+      "approval": {
+        "sheetRow": 4606,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "8b5998b18aad0f55107a5d14829a46324e14338126cf7805d27d84b8718a686d",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-court1563-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-surround-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7857"
+      ],
+      "sourceOrder": 1851,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-senyu1564-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "place",
+      "title": "仙遊寺の本堂造営を支援する",
+      "yearText": "永禄7年（1564）2月23日（旧暦）",
+      "eventYear": 1564,
+      "eventYearEnd": null,
+      "text": "仙遊寺の本堂造営にあたり、諸公役を免除する文書を発給した。寺院の建設を支えるために負担を軽くする政策は、通宣の寺社保護の具体的な一面を伝えている。",
+      "approval": {
+        "sheetRow": 4607,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "88c7fd1647699871d14ffbec62a40490cb3c00931f75742b5b2ca163edfdff2a",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-senyu1564-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-senyuji-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.city.imabari.ehime.jp/kanko/spot/?a=157"
+      ],
+      "sourceOrder": 1852,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-yoshiteru1565-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "足利義輝の死の報せを受ける",
+      "yearText": "永禄8年（1565）5月26日（旧暦）",
+      "eventYear": 1565,
+      "eventYearEnd": null,
+      "text": "将軍足利義輝が殺害された後、通宣にその報せが伝えられた。幕府と交渉を重ねてきた通宣にとって、中央の政治の変化は伊予の外交にも関わるものだった。",
+      "approval": {
+        "sheetRow": 4608,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "9f48e0d89f6cb67e801b024ac92d8c2eb87b68117a9884effdd75dbf77e1cc8a",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-yoshiteru1565-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-ndldip-20261126",
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-surround-20261126"
+      ],
+      "sourceUrls": [
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000226245&page=ref_view",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7857"
+      ],
+      "sourceOrder": 1853,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-shishido-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "宍戸氏との婚姻関係を結んだと伝わる",
+      "yearText": "永禄10～11年（1567～1568）頃とする説",
+      "eventYear": 1567,
+      "eventYearEnd": 1568,
+      "text": "安芸の宍戸隆家の娘との婚姻関係が伝わる。毛利氏とつながりのある宍戸家との関係は、河野家の継承と瀬戸内の政治を考える手がかりとなる。",
+      "approval": {
+        "sheetRow": 4609,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "29e0f0649c540a46e28b0b6bbf91f6700d230493a98836d3a8391b26dee0e432",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-shishido-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-person-20261126",
+        "sg2src-a-kono-nishio-20261126",
+        "sg2src-a-kono-surround-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/57/view/7503",
+        "https://ir.library.osaka-u.ac.jp/repo/ouka/all/47112/20723_Abstract.pdf",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7857"
+      ],
+      "sourceOrder": 1856,
+      "displayOrder": 20
+    },
+    {
+      "historyId": "sg2hist-a-kono-retire-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "病を理由に牛福丸へ家督を譲る",
+      "yearText": "永禄11年（1568）2月（旧暦）頃",
+      "eventYear": 1568,
+      "eventYearEnd": null,
+      "text": "病を得た通宣は、牛福丸を後継として家督を譲ったとされる。牛福丸は後の河野通直であり、通宣とは別人である。河野氏の政治は新たな当主のもとへ移っていった。",
+      "approval": {
+        "sheetRow": 4610,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "ac91ba59cb233d8bb850d41a0a39c5d3804ebd07b2e281a58de53a3ea1852eb2",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-retire-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-person-20261126",
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-surround-20261126",
+        "sg2src-a-kono-nishio-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/57/view/7503",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7857",
+        "https://ir.library.osaka-u.ac.jp/repo/ouka/all/47112/20723_Abstract.pdf"
+      ],
+      "sourceOrder": 1857,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-kono-death-20261126",
+      "personId": "sg-added-kono-michinobu-20261126",
+      "kind": "nonplace",
+      "title": "家督を譲った後、世を去る",
+      "yearText": "没年不詳（1570年頃説・1581年説）",
+      "eventYear": null,
+      "eventYearEnd": null,
+      "text": "1568年頃、病のため家督を後継の通直に譲った通宣は、その後、世を去った。没年は1581年とする記録のほか1570年頃とする説もあり、定かではない。家臣団の統制や寺社の保護、幕府との外交を担った当主だった。",
+      "approval": {
+        "sheetRow": 4617,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "16ff2348fbba6e1560780f06ba9ae0001172ce4c8ababcb0bc6f03bd4ade7709",
+        "kind": "経歴",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2hist-a-kono-death-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-person-20261126",
+        "sg2src-a-kono-deathlead-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/57/view/7503",
+        "https://www7a.biglobe.ne.jp/echigoya/jin/KounoMichinobu~Sakyou.html"
+      ],
+      "sourceOrder": 1860,
+      "displayOrder": null
+    },
+    {
+      "historyId": "sg2hist-a-arima-birth-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "nonplace",
+      "title": "肥前有馬氏に生まれる",
+      "yearText": "永禄10年（1567）説／1561年説",
+      "eventYear": 1567,
+      "eventYearEnd": null,
+      "text": "肥前の島原半島を治める有馬義貞の子として生まれた。生年は1567年とする説のほか1561年説もある。海上貿易とキリスト教が広がり始めた有馬領で、のちに一族の当主となる。",
+      "approval": {
+        "sheetRow": 4619,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "6d9cd427217dbac46a50116740c151cf8e6a671b7a6f01ec0b73edbf7b66d3ae",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-birth-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-yamakawa-20261127"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.historist.jp/word_j_a/entry/048704/"
+      ],
+      "sourceOrder": 1864,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-baptism-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "nonplace",
+      "title": "洗礼を受け、キリシタン大名となる",
+      "yearText": "天正8年（1580）頃（1579年説あり）",
+      "eventYear": 1580,
+      "eventYearEnd": null,
+      "text": "龍造寺氏の圧迫が強まるなか、晴信はヴァリニャーノから洗礼を受け、プロタジオと名乗った。イエズス会との関係を深め、領内のキリスト教布教を保護するようになった。",
+      "approval": {
+        "sheetRow": 4620,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "aa50d220fb009925c36853b2529cd195cacde3f3e6dfdcc60ae8b0ebec662dec",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-baptism-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-nagasakichron-20261127",
+        "sg2src-a-arima-religion-20261127",
+        "sg2src-a-arima-kuchinotsu-20261127"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.pref.nagasaki.lg.jp/kids/histories/history.html",
+        "https://www.nagasaki-tabinet.com/feature/shin-kirishitan/2",
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034731/index.html"
+      ],
+      "sourceOrder": 1868,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-shimazu-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "nonplace",
+      "title": "島津氏に援軍を求める",
+      "yearText": "天正10～12年（1582～1584）頃",
+      "eventYear": 1582,
+      "eventYearEnd": 1584,
+      "text": "龍造寺氏の勢力が島原半島へ迫るなか、晴信は大友吉統から援軍を得られず、島津氏の助けを求めた。島津との連携によって、領国を守るための軍事的な支えを得た。",
+      "approval": {
+        "sheetRow": 4621,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "508b40b4c11813eb0929f631a60c083c18d488ae92df1c8ae4f2f1cc17ca2c56",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-shimazu-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-otomo-20261127",
+        "sg2src-iehisa-shimabara-okitanawate-20261109"
+      ],
+      "sourceUrls": [
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000138703",
+        "https://www.city.shimabara.lg.jp/rekishi/page2793.html"
+      ],
+      "sourceOrder": 1872,
+      "displayOrder": 20
+    },
+    {
+      "historyId": "sg2hist-a-arima-korea-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "nonplace",
+      "title": "文禄・慶長の役に従軍する",
+      "yearText": "文禄元～慶長3年（1592～1598）",
+      "eventYear": 1592,
+      "eventYearEnd": 1598,
+      "text": "豊臣秀吉の朝鮮出兵にあたり、晴信は小西行長らの軍に従った。朝鮮半島への軍事行動を通じ、豊臣政権下の大名として軍役を担った。",
+      "approval": {
+        "sheetRow": 4622,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "7998b79a2d068909552b9f064f01b9ef57a7f7ecbc68f164680e5e0802bb6c4a",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-korea-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-dict-20261127"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/有馬晴信-28086"
+      ],
+      "sourceOrder": 1881,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-sekigahara-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "nonplace",
+      "title": "関ヶ原の戦いに際して東軍に属する",
+      "yearText": "慶長5年（1600）",
+      "eventYear": 1600,
+      "eventYearEnd": null,
+      "text": "豊臣秀吉の死後、晴信は徳川方に属した。九州で小西行長方の領地を攻める軍事行動に有馬勢が加わり、戦後も有馬領を保った。",
+      "approval": {
+        "sheetRow": 4623,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "7dbe51063dce337926f50a9b851eaa1b4a88a8c5d1c122a1601d55cd1568db7b",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-sekigahara-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-yamakawa-20261127",
+        "sg2src-a-arima-uto-20261127"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.historist.jp/word_j_a/entry/048704/",
+        "https://www.touken-world.jp/history/history-important-word/arima-harunobu/"
+      ],
+      "sourceOrder": 1883,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-trade-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "nonplace",
+      "title": "朱印船貿易を進める",
+      "yearText": "慶長10～13年（1605～1608）",
+      "eventYear": 1605,
+      "eventYearEnd": 1608,
+      "text": "徳川政権の朱印状を得て、晴信は東南アジアへ商船を送り出した。海外との貿易を進め、有馬氏の活動範囲を海の向こうに広げた。",
+      "approval": {
+        "sheetRow": 4624,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "cd60e8835f1776ca8fb629c8b63477f733c066d44d99f0b4c9a3e42463f1ed1c",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-trade-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-redseal-20261127",
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-yamakawa-20261127",
+        "sg2src-a-arima-kuchinotsu-20261127"
+      ],
+      "sourceUrls": [
+        "https://nagasaki-u.repo.nii.ac.jp/record/12378/files/toasia00_30_02.pdf",
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.historist.jp/word_j_a/entry/048704/",
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034731/index.html"
+      ],
+      "sourceOrder": 1885,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-taiwan-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "nonplace",
+      "title": "台湾の調査と交易に向けて掟書を出す",
+      "yearText": "慶長14～15年（1609～1610）",
+      "eventYear": 1609,
+      "eventYearEnd": 1610,
+      "text": "幕府の意向を受けた晴信は、台湾の地理や物産、交易の可能性を調査するための指示を出した。翌1610年の掟書にも、家臣谷川角兵衛へ航海中の規約を示したことが伝わる。晴信は海の交易をめぐる幕府の政策にも関わっていた。",
+      "approval": {
+        "sheetRow": 4625,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "46945d27b0e8561dc1da03b107596c674e2941460a7c148cd338b3a495c2225d",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-taiwan-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-taiwan-20261127",
+        "sg2src-a-arima-redseal-20261127"
+      ],
+      "sourceUrls": [
+        "https://collections.culture.tw/Object?RNO=QUgwMDEzMzYtMDAx&SYSUID=13",
+        "https://nagasaki-u.repo.nii.ac.jp/record/12378/files/toasia00_30_02.pdf"
+      ],
+      "sourceOrder": 1887,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-daihachi-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "nonplace",
+      "title": "旧領回復をめぐる岡本大八の詐取が発覚する",
+      "yearText": "慶長17年（1612）旧暦2月23日頃",
+      "eventYear": 1612,
+      "eventYearEnd": null,
+      "text": "晴信はポルトガル船事件後、失った旧領の回復を望み、本多正純の近臣岡本大八に取り次ぎを求めた。しかし、大八が晴信を欺いて金品を受け取ったことが発覚し、幕府による対決の場が設けられた。",
+      "approval": {
+        "sheetRow": 4626,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "528e9c41f5c49ae4e3f888900430debdae5e9dc8a0eaffe8e2f72a7fcfb5d09b",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-daihachi-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-daihachi-20261127",
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-graca-20261127"
+      ],
+      "sourceUrls": [
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000058569",
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.historist.jp/word_j_no/entry/036263/"
+      ],
+      "sourceOrder": 1889,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-succession-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "nonplace",
+      "title": "兄の死後、若くして家督を継ぐ",
+      "yearText": "元亀2年（1571）",
+      "eventYear": 1571,
+      "eventYearEnd": null,
+      "text": "兄の義純が早世したため、晴信は若くして有馬氏を継いだ。日野江城を本拠とする家の領国は龍造寺氏らに圧迫されており、当主となった晴信には周囲の大名との関係を保つことが重要だった。",
+      "approval": {
+        "sheetRow": 4629,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "667d52efe85f1dcfad463b434d0f7dc2f4848ce3cab1ea0dbf252818aeea9c3a",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-succession-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-yamakawa-20261127",
+        "sg2src-a-arima-koshu-20261127",
+        "sg2src-a-arima-hinoe-20261127"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.historist.jp/word_j_a/entry/048704/",
+        "https://www.city.koshu.yamanashi.jp/docs/2020120700053/file_contents/2020120700053_rekisi_bunka_files_20150608_kamijouhoukokudai37gou.pdf",
+        "https://www.city.minamishimabara.lg.jp/sekaiisan/kiji0034924/index.html"
+      ],
+      "sourceOrder": 1865,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-hinoe1590-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "place",
+      "title": "日野江城の建物を改築する",
+      "yearText": "天正18年（1590）",
+      "eventYear": 1590,
+      "eventYearEnd": null,
+      "text": "晴信は日野江城で石垣や階段を造り、1590年には内部の建物を改築したとイエズス会の報告が伝える。城は政治の中心であると同時に、海外との交流を背景とする有馬氏の文化を映す場所だった。",
+      "approval": {
+        "sheetRow": 4630,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "6660e9f2ebb749345ac4fda081f4eebda563520f80fd11cedbe47a4a4e54cbb7",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-hinoe1590-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-hinoe-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.city.minamishimabara.lg.jp/sekaiisan/kiji0034924/index.html"
+      ],
+      "sourceOrder": 1878,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-katsumoto-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "place",
+      "title": "壱岐の勝本城築城を支援する",
+      "yearText": "天正19年（1591）",
+      "eventYear": 1591,
+      "eventYearEnd": null,
+      "text": "秀吉は朝鮮への出兵に備え、壱岐に兵站拠点を築かせた。松浦鎮信が中心となった勝本城の築城に晴信も協力し、城は1591年末に完成した。",
+      "approval": {
+        "sheetRow": 4631,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "bc7b73fc9cba4ca21e9f2fbe46564f847413fecf96a9b42c47c0fa2d7fc6e633",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-katsumoto-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-katsumoto-20261127",
+        "sg2src-a-arima-katsumotodb-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.pref.nagasaki.jp/bunkadb/index.php/view/532",
+        "https://jmapps.ne.jp/nagasaki_maibun_iseki/det.html?data_id=268"
+      ],
+      "sourceOrder": 1880,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-death-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "nonplace",
+      "title": "甲斐で刑死する",
+      "yearText": "慶長17年（1612）旧暦5月6日説",
+      "eventYear": 1612,
+      "eventYearEnd": null,
+      "text": "甲斐国に配流された晴信は、1612年に幕府の命により世を去った。キリシタンとして切腹を拒み斬首されたとする伝承があり、刑死の方法には異なる記述も残る。日欧交流を支えた大名の生涯は、旧領回復をめぐる事件によって幕を閉じた。",
+      "approval": {
+        "sheetRow": 4632,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "位置不要・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "887ff4b1539e1a080c5b12b116c0b7b3753171bf31196179d07499eef56553c1",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-death-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-yamakawa-20261127",
+        "sg2src-a-arima-koshu-20261127",
+        "sg2src-a-arima-yamanashilib-20261127",
+        "sg2src-a-arima-arimafoundation-20261127"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.historist.jp/word_j_a/entry/048704/",
+        "https://www.city.koshu.yamanashi.jp/docs/2020120700053/file_contents/2020120700053_rekisi_bunka_files_20150608_kamijouhoukokudai37gou.pdf",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000098938&page=ref_view",
+        "https://maruoka-af.jp/pg11.html"
+      ],
+      "sourceOrder": 1891,
+      "displayOrder": 30
+    },
+    {
+      "historyId": "sg2hist-a-arima-urakami-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "place",
+      "title": "浦上をイエズス会に寄進する",
+      "yearText": "天正12年（1584）",
+      "eventYear": 1584,
+      "eventYearEnd": null,
+      "text": "晴信はイエズス会の援助を受け、沖田畷の勝利後、長崎に近い浦上を同会に寄進した。教会領は広がり、浦上でのキリスト教布教に大きな影響を与えた。",
+      "approval": {
+        "sheetRow": 4634,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "e16488c2ee7b9e210ac1d00ed5989d688cc842feff14d843968757c20eca3111",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-urakami-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-citychron-20261127",
+        "sg2src-a-arima-nagasakichron-20261127",
+        "sg2src-a-arima-ndlpul-20261127"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.city.nagasaki.lg.jp/page/2255.html",
+        "https://www.pref.nagasaki.lg.jp/kids/histories/history.html",
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000328133"
+      ],
+      "sourceOrder": 1874,
+      "displayOrder": 20
+    },
+    {
+      "historyId": "sg2hist-a-arima-school1580-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "place",
+      "title": "有馬のセミナリヨ設立を支える",
+      "yearText": "天正8年（1580）",
+      "eventYear": 1580,
+      "eventYearEnd": null,
+      "text": "巡察師ヴァリニャーノの構想により、晴信が治める有馬にセミナリヨが設けられた。少年たちは聖職者になるための基礎に加え、ラテン語や音楽など西洋式の教育を受けた。有馬は日欧文化交流の重要な拠点となった。",
+      "approval": {
+        "sheetRow": 4637,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "e492abf7c8ee9174fd136391dda121110f7cc9618a236615e333a38a730a2ffa",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-school1580-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-seminario-20261127",
+        "sg2src-a-arima-semisite-20261127",
+        "sg2src-a-arima-nagasakichron-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034734/index.html",
+        "https://himawari-kankou.jp/learn/000534.php",
+        "https://www.pref.nagasaki.lg.jp/kids/histories/history.html"
+      ],
+      "sourceOrder": 1869,
+      "displayOrder": 20
+    },
+    {
+      "historyId": "sg2hist-a-arima-school1601-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "place",
+      "title": "セミナリヨのために邸宅を提供する",
+      "yearText": "慶長6年（1601）頃",
+      "eventYear": 1601,
+      "eventYearEnd": null,
+      "text": "長崎へ移っていたセミナリヨが有馬に戻る際、晴信は新たな邸宅のために用意していた場所を提供したと伝わる。教育機関と教会が再び有馬で活動できるようになった。",
+      "approval": {
+        "sheetRow": 4638,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "2998144e180e9bf97bcb27ea2b2d9a74bd06bd1966132bb5ffc2523072c31ca4",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-school1601-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-kirishitan2-20261127",
+        "sg2src-a-arima-cbc-20261127",
+        "sg2src-a-arima-seminario-20261127",
+        "sg2src-a-arima-semisite-20261127"
+      ],
+      "sourceUrls": [
+        "https://christian-nagasaki.jp/stories/2.html",
+        "https://www.cbcj.catholic.jp/2020/01/27/20027/",
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034734/index.html",
+        "https://himawari-kankou.jp/learn/000534.php"
+      ],
+      "sourceOrder": 1884,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-protect-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "place",
+      "title": "伴天連追放令のもとでも宣教師を保護する",
+      "yearText": "天正15年（1587）以降",
+      "eventYear": 1587,
+      "eventYearEnd": null,
+      "text": "秀吉が宣教師追放令を出した後も、晴信は宣教師や教育機関を領内に受け入れた。キリスト教の活動が制約される時代に、有馬領は宣教や教育を続けるための重要な拠点になった。",
+      "approval": {
+        "sheetRow": 4639,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "9eed9d87eb744fabb39d9751dabbe972a0f688ef27622c402ba8ecbbf9c49a4d",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-protect-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-yamakawa-20261127",
+        "sg2src-a-arima-kirishitan5-20261127",
+        "sg2src-a-arima-seminario-20261127"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.historist.jp/word_j_a/entry/048704/",
+        "https://christian-nagasaki.jp/stories/5.html",
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034734/index.html"
+      ],
+      "sourceOrder": 1876,
+      "displayOrder": 20
+    },
+    {
+      "historyId": "sg2hist-a-arima-embassy1582-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "place",
+      "title": "天正遣欧少年使節を派遣する",
+      "yearText": "天正10年（1582）旧暦1月18日出航",
+      "eventYear": 1582,
+      "eventYearEnd": null,
+      "text": "晴信は大友宗麟、大村純忠とともに、ヴァリニャーノの構想で四人の少年をローマ教皇のもとへ送り出した。千々石ミゲルは晴信の名代を務めた。使節団は長崎を出航し、ヨーロッパで日本の存在を伝えることになる。",
+      "approval": {
+        "sheetRow": 4644,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "4de468e160a1feea1d791b09705d64294d3cbee9fce0d96344913d1239c8119d",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-embassy1582-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a1-sorin-emuseum-embassy1582-20261115",
+        "sg2src-a-sorin-03-20261114",
+        "sg2src-a-arima-citychron-20261127",
+        "sg2src-a-arima-seminario-20261127"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://emuseum.nich.go.jp/detail?content_base_id=100816&content_part_id=0&content_pict_id=0&langId=ja",
+        "https://rmda.kulib.kyoto-u.ac.jp/item/rb00007683/explanation/tensho",
+        "https://www.city.nagasaki.lg.jp/page/2255.html",
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034734/index.html"
+      ],
+      "sourceOrder": 1871,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-hideyoshi-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "place",
+      "title": "豊臣秀吉に従い、有馬領を安堵される",
+      "yearText": "天正15年（1587）",
+      "eventYear": 1587,
+      "eventYearEnd": null,
+      "text": "豊臣秀吉が九州平定を進めると、晴信は豊臣方に加わった。島津氏が降伏した後の九州国分で有馬領を認められ、日野江城を拠点とする大名の地位を保った。",
+      "approval": {
+        "sheetRow": 4645,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "c57cd73b4519c0548d09d99a46535f9167d5015afc989aec761fb7a457a87fc0",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-hideyoshi-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-yamakawa-20261127",
+        "sg2src-a-arima-otomo-20261127",
+        "sg2src-a-arima-kirishitan5-20261127"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.historist.jp/word_j_a/entry/048704/",
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000138703",
+        "https://christian-nagasaki.jp/stories/5.html"
+      ],
+      "sourceOrder": 1875,
+      "displayOrder": 10
+    },
+    {
+      "historyId": "sg2hist-a-arima-graca-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "place",
+      "title": "長崎でポルトガル船事件に関わる",
+      "yearText": "慶長14年（1609）旧暦12月（現行暦1610年1月）",
+      "eventYear": 1609,
+      "eventYearEnd": null,
+      "text": "マカオで自らの朱印船の乗員が犠牲になったことを受け、晴信は徳川家康の了解を得て長崎に来航したポルトガル船に対処した。船は戦いの末に沈没し、日葡貿易にも影響を及ぼした。",
+      "approval": {
+        "sheetRow": 4646,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "83e1f2900e63c27898c28fe50d2c99e7d50753f00503d9a115c20e998e667395",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-graca-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-graca-20261127",
+        "sg2src-a-arima-redseal-20261127",
+        "sg2src-a-arima-dict-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.historist.jp/word_j_no/entry/036263/",
+        "https://nagasaki-u.repo.nii.ac.jp/record/12378/files/toasia00_30_02.pdf",
+        "https://kotobank.jp/word/有馬晴信-28086"
+      ],
+      "sourceOrder": 1888,
+      "displayOrder": 20
+    },
+    {
+      "historyId": "sg2hist-a-arima-exile-20261127",
+      "personId": "sg-added-arima-harunobu-20261127",
+      "kind": "place",
+      "title": "所領を没収され、甲斐へ配流される",
+      "yearText": "慶長17年（1612）旧暦3月21～22日",
+      "eventYear": 1612,
+      "eventYearEnd": null,
+      "text": "幕府は岡本大八を処刑し、晴信の所領を収めた。旧領は子の直純に与えられ、晴信は甲斐国へ配流された。長く島原半島を治めた当主は、領国を離れて謫居することになった。",
+      "approval": {
+        "sheetRow": 4647,
+        "version": "v4",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "0d81f52e5d6e099ac273d63225ddf9b1ca3c87053d2cdd4cbd4fdeffe0e9fc61",
+        "kind": "経歴",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2hist-a-arima-exile-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-daihachi-20261127",
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-koshu-20261127",
+        "sg2src-a-arima-yamanashilib-20261127"
+      ],
+      "sourceUrls": [
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000058569",
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.city.koshu.yamanashi.jp/docs/2020120700053/file_contents/2020120700053_rekisi_bunka_files_20150608_kamijouhoukokudai37gou.pdf",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000098938&page=ref_view"
+      ],
+      "sourceOrder": 1890,
+      "displayOrder": 20
+    },
+    {
+      "historyId": "sg2hist-nobu-1582-koshu",
+      "personId": "sg-6eaf66c3d7c8",
+      "kind": "place",
+      "title": "甲州征伐で武田氏を滅ぼし、戦後処理を経て帰還する",
+      "yearText": "天正10年（1582）3～4月",
+      "eventYear": 1582,
+      "eventYearEnd": null,
+      "text": "1582年、織田信忠を中心とする先行軍が武田勝頼の領国へ攻め込んだ。勝頼は天目山で自害して戦国大名としての武田氏は滅亡し、信長は後から甲州に入り、甲斐・駿河などの戦後処理を進めた。帰途、家康の案内で富士山麓を巡り、旧暦4月12日には浅間大社の境内に設けられた宿所に泊まってから安土へ戻った。この勝利で織田勢力は東方へ大きく広がったが、信長は約二か月後に本能寺の変を迎える。",
+      "sourceIds": [
+        "sg2src-nobu-fujinomiya-koshu",
+        "sg2src-nobu-archives-nagashino",
+        "sg2src-nobu-gifu-nobutada-succession",
+        "sg2src-b-pin-newrule-22-20261107"
+      ],
+      "sourceUrls": [
+        "https://www.city.fujinomiya.lg.jp/3010400000/p003592.html",
+        "https://www.archives.go.jp/exhibition/digital/ieyasu/contents1_06/",
+        "https://www.city.gifu.lg.jp/kankoubunka/kankou/1013051/1005097/1034742/1034737.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000135900.html"
+      ],
+      "approval": {
+        "sheetRow": 4655,
+        "version": "v4",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "7b9786f79a0279b0c5e5a8fe77765b8ea2aaa0e69e6abcdadd5bb6433ad292bc",
+        "kind": "経歴",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2hist-nobu-1582-koshu"
+      },
+      "displayOrder": 10,
+      "sourceOrder": 32
+    },
+    {
+      "historyId": "sg2hist-yoshitaka-1533-feud",
+      "personId": "sg-29c3bc68aa37",
+      "kind": "place",
+      "title": "父・実堯を失い、里見家の内乱で挙兵・反撃する",
+      "yearText": "天文2年（1533）7月～秋",
+      "eventYear": 1533,
+      "eventYearEnd": null,
+      "text": "1533年、里見家当主の義豊が、義堯の父・実堯と重臣の正木通綱を殺害した。父を失った義堯は上総の百首城に身を寄せ、真里谷武田信隆の支援を受ける一方、北条氏綱にも援軍を求めた。義堯方は反撃に転じ、秋には滝田城を奪って安房で優勢となる。しかし上総へ逃れた義豊はまだ抵抗を続け、翌年の犬掛で両者は決戦を迎える。",
+      "sourceIds": [
+        "sg2src-satomi-feud",
+        "sg2src-satomi-chron",
+        "sg2src-satomi-tateyama-hyakushu-1537",
+        "sg2src-satomi-sites",
+        "sg2src-b-user-plus-77-20261108"
+      ],
+      "sourceUrls": [
+        "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_2shou/k2shou_4/k2shou_4min.html",
+        "https://tateyama-field-museum.jp/archives/7296",
+        "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_1/k4shou_1min.html",
+        "https://tateyama-field-museum.jp/archives/3628",
+        "https://www.cm-boso.com/gojoin3.html"
+      ],
+      "approval": {
+        "sheetRow": 4657,
+        "version": "v4",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "935ff9af640c8d3bf33a23e32dc03b24205f82afb064d5180c66e28e2674ae72",
+        "kind": "経歴",
+        "personId": "sg-29c3bc68aa37",
+        "sourceId": "sg2hist-yoshitaka-1533-feud"
+      },
+      "sourceOrder": 128,
+      "displayOrder": null
+    },
+    {
+      "historyId": "sg2hist-a-hideyoshi-yamazaki-castle1582-20261128",
+      "personId": "sg-f47391608dbb",
+      "kind": "place",
+      "title": "山崎城を築き、畿内の交通の要衝を押さえる",
+      "yearText": "天正10年（1582）山崎合戦後",
+      "eventYear": 1582,
+      "eventYearEnd": null,
+      "text": "1582年、山崎の戦いに勝利した羽柴秀吉は、清洲会議の後、天王山の既存城郭を基に山崎城の築城に着手した。山崎は京都と大坂の間にあり、桂川・木津川・宇治川が合流する地域を見渡せる交通の要衝だった。秀吉はここに拠点を構え、次の勢力拡大へ踏み出した。城は1584年に破却された。",
+      "approval": {
+        "sheetRow": 4659,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "13cff08a419987178cafe5e7e4a399c81e98a7cf5d0c8f38ec776fe118021127",
+        "kind": "経歴",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2hist-a-hideyoshi-yamazaki-castle1582-20261128"
+      },
+      "sourceIds": [
+        "sg2src-hideyoshi-kyoto-yamazaki",
+        "sg2src-hideyoshi-oyamazaki-castle",
+        "sg2src-hideyoshi-oyamazaki-battle",
+        "sg2src-a-collection-yamazaki-castle-kyoto-20261128",
+        "sg2src-a-col-kenchi-order-ndl-20261128",
+        "sg2src-a-col-yamazaki-kenchi-nagaokakyo-20261128"
+      ],
+      "sourceUrls": [
+        "https://www.pref.kyoto.jp/kyotoyamashirokanko/history/index.html",
+        "https://www.town.oyamazaki.kyoto.jp/kanko/kankospot/2520.html",
+        "https://www.town.oyamazaki.kyoto.jp/kanko/kankospot/2523.html",
+        "https://www.kyoto-be.ne.jp/bunkazai/cms/?p=2270",
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000190894",
+        "https://www.city.nagaokakyo.lg.jp/0000000966.html"
+      ],
+      "sourceOrder": 1893,
+      "displayOrder": 40
+    },
+    {
+      "historyId": "sg2hist-a-yoshihiro-mifune1567-20261125",
+      "personId": "sg-17496a5d9dfa",
+      "kind": "place",
+      "title": "三舟山合戦で北条方を破る",
+      "yearText": "永禄10年（1567）旧暦8月",
+      "eventYear": 1567,
+      "eventYearEnd": null,
+      "text": "1567年、北条方の軍勢が里見氏の佐貫城に迫り、三舟山に陣を置いた。義弘の里見軍はこれを迎え撃って勝利し、国府台敗戦後に弱まった上総での勢力を回復する。三舟山上の陣跡は北条方のもので、里見方の本陣ではない。",
+      "approval": {
+        "sheetRow": 4661,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "323ca9813a22724073a53b901b4b519da52cdeb87d286e1ad132fd8132c9f440",
+        "kind": "経歴",
+        "personId": "sg-17496a5d9dfa",
+        "sourceId": "sg2hist-a-yoshihiro-mifune1567-20261125"
+      },
+      "sourceIds": [
+        "sg2src-a-yoshihiro-chron-20261125",
+        "sg2src-a-yoshihiro-war-20261125",
+        "sg2src-a-yoshihiro-kimi-20261125",
+        "sg2src-a-yoshihiro-futtsu-20261125"
+      ],
+      "sourceUrls": [
+        "https://tateyama-field-museum.jp/archives/7296",
+        "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_2/k4shou_2min.html",
+        "https://www.city.kimitsu.lg.jp/site/kanko/501.html",
+        "https://www.city.futtsu.lg.jp/0000000553.html"
+      ],
+      "sourceOrder": 1784,
+      "displayOrder": null
+    },
+    {
+      "historyId": "sg2hist-a-yoshihiro-death1578-20261125",
+      "personId": "sg-17496a5d9dfa",
+      "kind": "place",
+      "title": "佐貫で死去し後継争いの火種を残す",
+      "yearText": "天正6年（1578）旧暦5月20日",
+      "eventYear": 1578,
+      "eventYearEnd": null,
+      "text": "1578年、義弘は上総の佐貫で世を去った。梅王丸は父が用いた鳳凰の家印を継ぎ、西上総の領地を相続して里見家の後継者となった。一方、安房を治めていた義頼との対立は解決せず、義弘の死後、両者を支える勢力の間で家督をめぐる争いが激しくなっていった。",
+      "approval": {
+        "sheetRow": 4662,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "b6dc92865fbb54a06d8e58dc4ae365298b02849542d388b90541a7a17225e50c",
+        "kind": "経歴",
+        "personId": "sg-17496a5d9dfa",
+        "sourceId": "sg2hist-a-yoshihiro-death1578-20261125"
+      },
+      "sourceIds": [
+        "sg2src-a-yoshihiro-bio-20261125",
+        "sg2src-a-yoshihiro-chron-20261125",
+        "sg2src-a-yoshihiro-birth-20261125",
+        "sg2src-a-yoshihiro-enmeiji-20261125",
+        "sg2src-a-yoshihiro-tomiura-burial-20261128",
+        "sg2src-a-yoshihiro-enmeiji-board-20261128"
+      ],
+      "sourceUrls": [
+        "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_4shou/k4shou_3/k4shou_3min.html",
+        "https://tateyama-field-museum.jp/archives/7296",
+        "https://kotobank.jp/word/%E9%87%8C%E8%A6%8B%E7%BE%A9%E5%BC%98-69374",
+        "https://www.pref.chiba.lg.jp/kyouiku/bunkazai/bunkazai/p181-005.html",
+        "https://nippon.zaidan.info/seikabutsu/2005/00354/contents/0038.htm",
+        "https://www5d.biglobe.ne.jp/~kabataf/kantoujisin_ishibumi/chiba_minamibousou/minamibousou1.htm"
+      ],
+      "sourceOrder": 1790,
+      "displayOrder": null
+    }
+  ],
+  "sites": [
+    {
+      "siteId": "sg2site-a-kono-zennoji-20261126",
+      "name": "善応寺（河野氏ゆかりの寺院）",
+      "description": "河野氏にゆかりの深い寺院で、歴代河野氏などの文書が伝わる。通宣による安堵の記録も県史年表にみえる。",
+      "personIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "municipalityCodes": [
+        "38201"
+      ],
+      "municipalityCode": "38201",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        132.793079,
+        33.948894
+      ],
+      "locationAccuracy": "実地点確認済",
+      "approval": {
+        "sheetRow": 4611,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "afdd94efd41e22c48812a1ba4b76f6435fae4bcff61cf33d6ba3c428dd0b0c30",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-zennoji-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-zennoji-20261126",
+        "sg2src-a-kono-chron-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/ken/zennoujibunsho_5kan.html",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389"
+      ],
+      "approvedPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinApproval": {
+        "sheetRow": 4611,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "afdd94efd41e22c48812a1ba4b76f6435fae4bcff61cf33d6ba3c428dd0b0c30",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-zennoji-20261126"
+      },
+      "pinReview": {
+        "sourceSheetRow": 601,
+        "decision": "可",
+        "municipality": "愛媛県松山市",
+        "locationKind": "公表史跡POI",
+        "accessStatus": "green",
+        "restriction": "寺の一般参拝区画。中世伽藍・本人所在・墓所を保証しない。",
+        "checkedAt": "2026-11-26",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/39/390000106500.html",
+        "positionSourceIds": [
+          "sg2src-a-kono-zennoji-20261126",
+          "sg2src-a-kono-chron-20261126"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/39/390000106500.html"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：愛媛県松山市［38201］。\n公開参照点：北緯33.948894、東経132.793079。見学色：緑。位置種別：公表史跡POI。\n【見学・利用上の注意】寺の一般参拝区画。中世伽藍・本人所在・墓所を保証しない。\n現地の掲示・管理者の指示を優先し、許可された範囲のみ見学してください。表示位置は歴史情報参照点で、入口・立入許可・安全な経路を保証しません。\n【位置情報の利用条件】条件付き（CODH CC BY 4.0、doi:10.20676/00000456 帰属表示、原文画像等無断転載不可）\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-kono-iwagara-20261126",
+      "name": "岩伽羅城跡（和田氏の城）",
+      "description": "和田氏の城とされ、天文23年の河野家中の争いに関する記録に登場する。平岡房実による対応と通宣の関与については伝承・史料の照合を要する。",
+      "personIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "municipalityCodes": [
+        "38215"
+      ],
+      "municipalityCode": "38215",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        132.883685,
+        33.838182
+      ],
+      "locationAccuracy": "実地点確認済",
+      "approval": {
+        "sheetRow": 4612,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "564417fff3f53c0064c2db615d4e747cc53d1bc01f307b276d29d999e6a4e7f8",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-iwagara-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-clan-20261126",
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-iwagara-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7847",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.hb.pei.jp/shiro/iyo/iwagara-jyo/"
+      ],
+      "approvedPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinApproval": {
+        "sheetRow": 4612,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "564417fff3f53c0064c2db615d4e747cc53d1bc01f307b276d29d999e6a4e7f8",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-iwagara-20261126"
+      },
+      "pinReview": {
+        "sourceSheetRow": 602,
+        "decision": "可",
+        "municipality": "愛媛県東温市",
+        "locationKind": "公表史跡POI",
+        "accessStatus": "yellow",
+        "restriction": "公表城跡情報点で入口ではない。急斜面・崖・未舗装・閉鎖区域、私有地立入禁止。市報告書PDF本体未取得。",
+        "checkedAt": "2026-11-26",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/39/390000111700.html",
+        "positionSourceIds": [
+          "sg2src-a-kono-clan-20261126",
+          "sg2src-a-kono-chron-20261126",
+          "sg2src-a-kono-iwagara-20261126"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/39/390000111700.html"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：愛媛県東温市［38215］。\n公開参照点：北緯33.838182、東経132.883685。見学色：黄。位置種別：公表史跡POI。\n【見学・利用上の注意】公表城跡情報点で入口ではない。急斜面・崖・未舗装・閉鎖区域、私有地立入禁止。市報告書PDF本体未取得。\n現地の掲示・管理者の指示を優先し、許可された範囲のみ見学してください。表示位置は歴史情報参照点で、入口・立入許可・安全な経路を保証しません。\n【位置情報の利用条件】条件付き（CODH CC BY 4.0、doi:10.20676/00000456 帰属表示、原文画像等無断転載不可）\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-kono-senyuji-20261126",
+      "name": "仙遊寺（河野通宣の寺社政策）",
+      "description": "河野通宣の住持職に関する文書と、本堂造営に際した諸公役免除の記録が伝わる寺院。戦国期の寺社保護を知る手がかりとなる。",
+      "personIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "municipalityCodes": [
+        "38202"
+      ],
+      "municipalityCode": "38202",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        132.977532,
+        34.013435
+      ],
+      "locationAccuracy": "実地点確認済",
+      "approval": {
+        "sheetRow": 4613,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "33d1444d391b151eeec0e88dc577f8ec8da9c29c3689b648be63caa0b978aa6c",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-senyuji-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-senyuji-20261126",
+        "sg2src-a-kono-chron-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.city.imabari.ehime.jp/kanko/spot/?a=157",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389"
+      ],
+      "approvedPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinApproval": {
+        "sheetRow": 4613,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "33d1444d391b151eeec0e88dc577f8ec8da9c29c3689b648be63caa0b978aa6c",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-senyuji-20261126"
+      },
+      "pinReview": {
+        "sourceSheetRow": 603,
+        "decision": "可",
+        "municipality": "愛媛県今治市",
+        "locationKind": "公表史跡POI",
+        "accessStatus": "green",
+        "restriction": "一般参拝区域、現地道路・寺院規則優先。中世本堂・本人訪問地点ではない。",
+        "checkedAt": "2026-11-26",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/39/390000070100.html",
+        "positionSourceIds": [
+          "sg2src-a-kono-senyuji-20261126",
+          "sg2src-a-kono-chron-20261126"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/39/390000070100.html"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：愛媛県今治市［38202］。\n公開参照点：北緯34.013435、東経132.977532。見学色：緑。位置種別：公表史跡POI。\n【見学・利用上の注意】一般参拝区域、現地道路・寺院規則優先。中世本堂・本人訪問地点ではない。\n現地の掲示・管理者の指示を優先し、許可された範囲のみ見学してください。表示位置は歴史情報参照点で、入口・立入許可・安全な経路を保証しません。\n【位置情報の利用条件】条件付き（CODH CC BY 4.0、doi:10.20676/00000456 帰属表示、原文画像等無断転載不可）\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-kono-iwashimizu-20261126",
+      "name": "石清水八幡宮境内（足利義輝への慰問使関係）",
+      "description": "永禄5年、通宣が将軍義輝のため慰問使を派遣したとする記録に関係する。通宣本人の訪問を示す史料ではない。",
+      "personIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "municipalityCodes": [
+        "26210"
+      ],
+      "municipalityCode": "26210",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        135.699585,
+        34.879768
+      ],
+      "locationAccuracy": "実地点確認済",
+      "approval": {
+        "sheetRow": 4614,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "33b432eab2f413b41689760d2c89e7763e9e6b1a16a60df5c61abfc289cdeef5",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-iwashimizu-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-iwashimizu-20261126",
+        "sg2src-a-kono-ndldip-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.city.yawata.kyoto.jp/0000001228.html",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000226245&page=ref_view"
+      ],
+      "approvedPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinApproval": {
+        "sheetRow": 4614,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "33b432eab2f413b41689760d2c89e7763e9e6b1a16a60df5c61abfc289cdeef5",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-iwashimizu-20261126"
+      },
+      "pinReview": {
+        "sourceSheetRow": 604,
+        "decision": "可",
+        "municipality": "京都府八幡市",
+        "locationKind": "公表史跡POI",
+        "accessStatus": "green",
+        "restriction": "通常公開参拝区画。本人参詣・義輝の滞在建物一点を特定しない。",
+        "checkedAt": "2026-11-26",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/26/260000048200.html",
+        "positionSourceIds": [
+          "sg2src-a-kono-iwashimizu-20261126",
+          "sg2src-a-kono-ndldip-20261126"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/26/260000048200.html"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：京都府八幡市［26210］。\n公開参照点：北緯34.879768、東経135.699585。見学色：緑。位置種別：公表史跡POI。\n【見学・利用上の注意】通常公開参拝区画。本人参詣・義輝の滞在建物一点を特定しない。\n現地の掲示・管理者の指示を優先し、許可された範囲のみ見学してください。表示位置は歴史情報参照点で、入口・立入許可・安全な経路を保証しません。\n【位置情報の利用条件】条件付き（CODH CC BY 4.0、doi:10.20676/00000456 帰属表示、原文画像等無断転載不可）\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-kono-kannenji-20261126",
+      "name": "観念寺（1557年寺領安堵）",
+      "description": "越智氏ゆかりの寺院で、多くの中世文書を所蔵する。1557年には通宣が同寺の寺領を安堵した記録が伝わる。",
+      "personIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "municipalityCodes": [
+        "38206"
+      ],
+      "municipalityCode": "38206",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        133.035492,
+        33.929977
+      ],
+      "locationAccuracy": "実地点確認済",
+      "approval": {
+        "sheetRow": 4615,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "e88d711a97ea673f4197e8681b485f816587117817cd8803034038888a3c563d",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-kannenji-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-kannenji-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.pref.ehime.jp/ehimenotakara/297.html"
+      ],
+      "approvedPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinApproval": {
+        "sheetRow": 4615,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "e88d711a97ea673f4197e8681b485f816587117817cd8803034038888a3c563d",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-kannenji-20261126"
+      },
+      "pinReview": {
+        "sourceSheetRow": 606,
+        "decision": "可",
+        "municipality": "愛媛県西条市",
+        "locationKind": "公表史跡POI",
+        "accessStatus": "yellow",
+        "restriction": "市とCODHの同一住所。観光物産協会は文化財を紹介。堂内・文書の公開範囲/時間未確認につき安全側の黄、公開許可区域のみ。墓域・管理区域・非公開区画に入らない。本人所在・入口とは別。",
+        "checkedAt": "2026-11-26",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/39/390000061200.html",
+        "positionSourceIds": [
+          "sg2src-a-kono-chron-20261126",
+          "sg2src-a-kono-kannenji-20261126"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/39/390000061200.html"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：愛媛県西条市［38206］。\n公開参照点：北緯33.929977、東経133.035492。見学色：黄。位置種別：公表史跡POI。\n【見学・利用上の注意】市とCODHの同一住所。観光物産協会は文化財を紹介。堂内・文書の公開範囲/時間未確認につき安全側の黄、公開許可区域のみ。墓域・管理区域・非公開区画に入らない。本人所在・入口とは別。\n現地の掲示・管理者の指示を優先し、許可された範囲のみ見学してください。表示位置は歴史情報参照点で、入口・立入許可・安全な経路を保証しません。\n【位置情報の利用条件】CODH CC BY 4.0、doi:10.20676/00000456 帰属表示、写真・原文・地図転載不可\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-kono-oyamazumi-20261126",
+      "name": "大山祇神社（三島宮の裁決）",
+      "description": "大三島の伊予一宮で、三島家に伝来した文書が残る。1558年、三島宮の神職間の争いについて通宣が裁決したと記録されている。",
+      "personIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "municipalityCodes": [
+        "38202"
+      ],
+      "municipalityCode": "38202",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        133.00518,
+        34.24812
+      ],
+      "locationAccuracy": "実地点確認済",
+      "approval": {
+        "sheetRow": 4616,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "b15ea8600f287c258f5b7d233dfc30032c122943a7cfc20092451394b49b7e1b",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-oyamazumi-20261126"
+      },
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-oyamazumi-20261126",
+        "sg2src-a-kono-oyamazumicity-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://online.bunka.go.jp/heritages/detail/223328",
+        "https://www.city.imabari.ehime.jp/kanko/spot/?a=226"
+      ],
+      "approvedPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinPersonIds": [
+        "sg-added-kono-michinobu-20261126"
+      ],
+      "pinApproval": {
+        "sheetRow": 4616,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "b15ea8600f287c258f5b7d233dfc30032c122943a7cfc20092451394b49b7e1b",
+        "kind": "史跡",
+        "personId": "sg-added-kono-michinobu-20261126",
+        "sourceId": "sg2site-a-kono-oyamazumi-20261126"
+      },
+      "pinReview": {
+        "sourceSheetRow": 607,
+        "decision": "可",
+        "municipality": "愛媛県今治市",
+        "locationKind": "公表史跡POI",
+        "accessStatus": "green",
+        "restriction": "市公式案内の地図リンクに明示された地点。別宮町の同名神社を除外。参拝公開区域のみ、立入禁止神域・祭祀・宝物館は施設規則優先。本人所在・裁決地点ではない。",
+        "checkedAt": "2026-11-26",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://www.city.imabari.ehime.jp/kanko/spot/?a=226",
+        "positionSourceIds": [
+          "sg2src-a-kono-chron-20261126",
+          "sg2src-a-kono-oyamazumi-20261126",
+          "sg2src-a-kono-oyamazumicity-20261126"
+        ],
+        "attributions": [
+          {
+            "label": "位置情報根拠",
+            "url": "https://www.city.imabari.ehime.jp/kanko/spot/?a=226"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：愛媛県今治市［38202］。\n公開参照点：北緯34.24812、東経133.00518。見学色：緑。位置種別：公表史跡POI。\n【見学・利用上の注意】市公式案内の地図リンクに明示された地点。別宮町の同名神社を除外。参拝公開区域のみ、立入禁止神域・祭祀・宝物館は施設規則優先。本人所在・裁決地点ではない。\n現地の掲示・管理者の指示を優先し、許可された範囲のみ見学してください。表示位置は歴史情報参照点で、入口・立入許可・安全な経路を保証しません。\n【位置情報の利用条件】市公式案内リンクの公表座標事実を利用、Google地図画像等は転載しない\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-arima-hinoe-20261127",
+      "name": "日野江城跡（有馬晴信の本拠）",
+      "description": "日野江城は肥前有馬氏が代々拠った城で、晴信の治世に石垣や階段が整備され、1590年には内部の建物が改築された。出土遺物や宣教師の報告は、海外との交流を背景とした有馬氏の文化を伝える。",
+      "personIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "municipalityCodes": [
+        "42214"
+      ],
+      "municipalityCode": "42214",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        130.25286,
+        32.659933
+      ],
+      "locationAccuracy": "実地点確認済",
+      "approval": {
+        "sheetRow": 4627,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "0cae6c4bc61e737d21d78e94e8b45c21fe10bb9266c1d1693f26d4e684734a20",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-hinoe-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-hinoe-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.city.minamishimabara.lg.jp/sekaiisan/kiji0034924/index.html"
+      ],
+      "approvedPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinApproval": {
+        "sheetRow": 4627,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "0cae6c4bc61e737d21d78e94e8b45c21fe10bb9266c1d1693f26d4e684734a20",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-hinoe-20261127"
+      },
+      "pinReview": {
+        "sourceSheetRow": 608,
+        "decision": "可",
+        "municipality": "長崎県南島原市",
+        "locationKind": "公表史跡POI（歴史情報点）",
+        "accessStatus": "green",
+        "restriction": "公開範囲のみ。斜面や石垣への無理な接近は禁止。本人居室・登城口の位置ではない。",
+        "checkedAt": "2026-11-27",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/43/430000110700.html",
+        "positionSourceIds": [
+          "sg2src-a-arima-hinoe-20261127"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/43/430000110700.html"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：長崎県南島原市［42214］。\n公開参照点：北緯32.659933、東経130.25286。見学色：緑。位置種別：公表史跡POI（歴史情報点）。\n【見学・利用上の注意】公開範囲のみ。斜面や石垣への無理な接近は禁止。本人居室・登城口の位置ではない。\n現地の掲示・管理者の指示を優先し、許可された範囲のみ見学してください。表示位置は歴史情報参照点で、入口・立入許可・安全な経路を保証しません。\n【位置情報の利用条件】『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。数値・独自叙述のみ。\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-arima-katsumoto-20261127",
+      "name": "勝本城跡（1591年朝鮮出兵兵站拠点）",
+      "description": "勝本港を見下ろす山に築かれた城で、豊臣秀吉の朝鮮出兵の兵站拠点となった。1591年、松浦鎮信を中心とする築城を有馬晴信らが支援した。",
+      "personIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "municipalityCodes": [
+        "42210"
+      ],
+      "municipalityCode": "42210",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        129.693611,
+        33.845833
+      ],
+      "locationAccuracy": "実地点確認済",
+      "approval": {
+        "sheetRow": 4628,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "877deb3788e35baa3461c335aedcd939d51e4c36481eacb3c9d3d31458a6b994",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-katsumoto-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-katsumoto-20261127",
+        "sg2src-a-arima-katsumotodb-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.pref.nagasaki.jp/bunkadb/index.php/view/532",
+        "https://jmapps.ne.jp/nagasaki_maibun_iseki/det.html?data_id=268"
+      ],
+      "approvedPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinApproval": {
+        "sheetRow": 4628,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "877deb3788e35baa3461c335aedcd939d51e4c36481eacb3c9d3d31458a6b994",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-katsumoto-20261127"
+      },
+      "pinReview": {
+        "sourceSheetRow": 615,
+        "decision": "可",
+        "municipality": "長崎県壱岐市",
+        "locationKind": "公表史跡POI（歴史情報点）",
+        "accessStatus": "green",
+        "restriction": "公開公園の範囲で見学。石垣・斜面等へ接近しない。本人の作業区画ではない。",
+        "checkedAt": "2026-11-27",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://jmapps.ne.jp/nagasaki_maibun_iseki/det.html?data_id=268",
+        "positionSourceIds": [
+          "sg2src-a-arima-katsumoto-20261127",
+          "sg2src-a-arima-katsumotodb-20261127"
+        ],
+        "attributions": [
+          {
+            "label": "位置情報根拠",
+            "url": "https://jmapps.ne.jp/nagasaki_maibun_iseki/det.html?data_id=268"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：長崎県壱岐市［42210］。\n公開参照点：北緯33.845833、東経129.693611。見学色：緑。位置種別：公表史跡POI（歴史情報点）。\n【見学・利用上の注意】公開公園の範囲で見学。石垣・斜面等へ接近しない。本人の作業区画ではない。\n現地の掲示・管理者の指示を優先し、許可された範囲のみ見学してください。表示位置は歴史情報参照点で、入口・立入許可・安全な経路を保証しません。\n【位置情報の利用条件】長崎県埋蔵文化財遺跡DB ID268の公表地理数値・独自叙述のみ。DB画像・文章・地図の複製不可。\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-arima-urakami-20261127",
+      "name": "旧浦上村（1584年イエズス会領の歴史地域）",
+      "description": "1584年、晴信は長崎に近い浦上をイエズス会へ寄進した。浦上はキリスト教の布教が進む地域となったが、1588年には他の教会領とともに秀吉の直轄領となった。",
+      "personIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "municipalityCodes": [
+        "42201"
+      ],
+      "municipalityCode": "42201",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        129.8609,
+        32.79293
+      ],
+      "locationAccuracy": "市区町村確認・地点不明",
+      "approval": {
+        "sheetRow": 4633,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "b0c6d6b654e70d6803382729b846a193b7fa79d90935c2c41bd3c85cdda4eaf5",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-urakami-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-citychron-20261127",
+        "sg2src-a-arima-ndlpul-20261127",
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-pin-urakami-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.city.nagasaki.lg.jp/page/2255.html",
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000328133",
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://geoshape.ex.nii.ac.jp/nrct/resource/43/430000037600.html"
+      ],
+      "approvedPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinApproval": {
+        "sheetRow": 4633,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "b0c6d6b654e70d6803382729b846a193b7fa79d90935c2c41bd3c85cdda4eaf5",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-urakami-20261127"
+      },
+      "pinReview": {
+        "sourceSheetRow": 613,
+        "decision": "可",
+        "municipality": "長崎県長崎市",
+        "locationKind": "公表史跡POI（歴史情報点）",
+        "accessStatus": "yellow",
+        "restriction": "旧浦上村の歴史地域代表点。1584年の村境・発給点・現在の天主堂ではない。特定住宅や現施設への訪問、経路誘導は行わない。",
+        "checkedAt": "2026-11-27",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct/resource/43/430000037600.html",
+        "positionSourceIds": [
+          "sg2src-a-arima-citychron-20261127",
+          "sg2src-a-arima-ndlpul-20261127",
+          "sg2src-a-arima-dict-20261127",
+          "sg2src-a-arima-pin-urakami-20261127"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』地名項目データセット（CODH作成） doi:10.20676/00000448（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct/resource/43/430000037600.html"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：長崎県長崎市［42201］。\n公開参照点：北緯32.79293、東経129.8609。見学色：黄。位置種別：公表史跡POI（歴史情報点）。\n【見学・利用上の注意】旧浦上村の歴史地域代表点。1584年の村境・発給点・現在の天主堂ではない。特定住宅や現施設への訪問、経路誘導は行わない。\n現地の掲示・管理者の指示を優先し、許可された範囲のみ見学してください。表示位置は歴史情報参照点で、入口・立入許可・安全な経路を保証しません。\n【位置情報の利用条件】『日本歴史地名大系』地名項目データセット（CODH作成）doi:10.20676/00000448（CC BY 4.0）帰属表示。\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-arima-seminario-20261127",
+      "name": "有馬セミナリヨ跡（推定地・案内点）",
+      "description": "1580年、晴信の庇護のもとに有馬でセミナリヨが設けられ、少年使節の四人も学んだ。教育機関は移転を重ね、1601年には再び有馬に戻った。現在の案内点はこの教育と交流の歴史を伝えている。",
+      "personIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "municipalityCodes": [
+        "42214"
+      ],
+      "municipalityCode": "42214",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": false,
+      "point": null,
+      "locationAccuracy": "市区町村確認・地点不明",
+      "approval": {
+        "sheetRow": 4635,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "7f127fe1845f39ea14cf22a75281a59cb487b7c8dc84a88b913c0ebbc4c95ba0",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-seminario-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-seminario-20261127",
+        "sg2src-a-arima-semisite-20261127",
+        "sg2src-a-arima-cbc-20261127",
+        "sg2src-a-arima-pin-semicodh-20261127",
+        "sg2src-a-arima-pin-semicity-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034734/index.html",
+        "https://himawari-kankou.jp/learn/000534.php",
+        "https://www.cbcj.catholic.jp/2020/01/27/20027/",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/43/430000111400.html",
+        "https://minamishimabara.love/point/detail/111/"
+      ],
+      "approvedPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "collectionReview": {
+        "decision": "ピンなし獲得可",
+        "restriction": "適法な公表座標未確定。推定校地・記念碑・別校地（八良尾）を区別。住宅・私的区画・別施設への接近を促さない。",
+        "approvedE": "【史跡の公開位置・収集】\n所在地：長崎県南島原市［42214］。\n公開位置：座標なし（ピンなし自治体獲得可）。見学色は確定対象外。\n【見学・利用上の注意】適法な公表座標未確定。推定校地・記念碑・別校地（八良尾）を区別。住宅・私的区画・別施設への接近を促さない。\n【位置情報の利用条件】公表史実の独自叙述のみ。写真・地図・本文転載不可。\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-arima-kazusa-20261127",
+      "name": "加津佐コレジヨ・セミナリヨ跡（推定地）",
+      "description": "有馬領の加津佐ではキリシタン教育が行われ、天正遣欧少年使節が持ち帰った印刷機が運び込まれた。ここでの教育・出版活動は晴信の宣教師保護が支えた文化交流の一端である。",
+      "personIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "municipalityCodes": [
+        "42214"
+      ],
+      "municipalityCode": "42214",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": false,
+      "point": null,
+      "locationAccuracy": "市区町村確認・地点非公開",
+      "approval": {
+        "sheetRow": 4636,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "680190b7ed2d7a2d6eaa00f812d3a3158defdb7f0c7524cefe88084d7bffea4f",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-kazusa-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-kazusa-20261127",
+        "sg2src-a-arima-seminario-20261127",
+        "sg2src-a-arima-kirishitan5-20261127",
+        "sg2src-a-arima-pin-kazusaroute-20261127"
+      ],
+      "sourceUrls": [
+        "https://himawari-kankou.jp/learn/000542.php",
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034734/index.html",
+        "https://christian-nagasaki.jp/stories/5.html",
+        "https://oratio.jp/p_burari/kazusaninokorukirishitannoasiato"
+      ],
+      "approvedPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "collectionReview": {
+        "decision": "ピンなし獲得可",
+        "restriction": "適法な公表座標未確定。推定校地と公道側案内板を区別。私有地・住宅への立入を求めない。",
+        "approvedE": "【史跡の公開位置・収集】\n所在地：長崎県南島原市［42214］。\n公開位置：座標なし（ピンなし自治体獲得可）。見学色は確定対象外。\n【見学・利用上の注意】適法な公表座標未確定。推定校地と公道側案内板を区別。私有地・住宅への立入を求めない。\n【位置情報の利用条件】公表史実の独自叙述のみ。写真・地図・本文転載不可。\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-arima-kuchino-20261127",
+      "name": "南蛮船来航の地（口之津・開田公園）",
+      "description": "口之津は有馬義貞の代に南蛮貿易港として開かれ、ポルトガル船が来航した。晴信の治世にも宣教師が活動し、1579年にはヴァリニャーノがこの地で会議を開催した。現在の県指定史跡は当時の交流の歴史を伝える。",
+      "personIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "municipalityCodes": [
+        "42214"
+      ],
+      "municipalityCode": "42214",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        130.1826393,
+        32.6122961
+      ],
+      "locationAccuracy": "市区町村確認・地点非公開",
+      "approval": {
+        "sheetRow": 4640,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "ea169de527b6df72682985e5c0e74bfc1aa892564f84ce8db1f0817be6975981",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-kuchino-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-kuchinotsu-20261127",
+        "sg2src-a-arima-kuchinopref-20261127",
+        "sg2src-a-arima-pin-kuchipark-20261127",
+        "sg2src-a-arima-kuchipark-csv-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034731/index.html",
+        "https://www.pref.nagasaki.jp/bunkadb/index.php/view/247",
+        "https://himawari-kankou.jp/learn/000532.php",
+        "https://data.bodik.jp/organization/422142"
+      ],
+      "approvedPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinApproval": {
+        "sheetRow": 4640,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "ea169de527b6df72682985e5c0e74bfc1aa892564f84ce8db1f0817be6975981",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-kuchino-20261127"
+      },
+      "pinReview": {
+        "sourceSheetRow": 610,
+        "decision": "可",
+        "municipality": "長崎県南島原市",
+        "locationKind": "公表史跡POI（歴史情報点）",
+        "accessStatus": "green",
+        "restriction": "来航記念碑を含む公開公園の代表点。碑そのもの・旧上陸地点・私人区画の位置ではない。現地案内を優先。",
+        "checkedAt": "2026-11-27",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://data.bodik.jp/organization/422142",
+        "positionSourceIds": [
+          "sg2src-a-arima-kuchinotsu-20261127",
+          "sg2src-a-arima-kuchinopref-20261127",
+          "sg2src-a-arima-pin-kuchipark-20261127",
+          "sg2src-a-arima-kuchipark-csv-20261127"
+        ],
+        "attributions": [
+          {
+            "label": "南島原市『公共施設一覧』BODIK・422142_public_facility.csv NO257（2026-11-27確認、CC BY 4.0・条件付き）",
+            "url": "https://data.bodik.jp/organization/422142"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：長崎県南島原市［42214］。\n公開参照点：北緯32.6122961、東経130.1826393。見学色：緑。位置種別：公表史跡POI（歴史情報点）。\n【見学・利用上の注意】来航記念碑を含む公開公園の代表点。碑そのもの・旧上陸地点・私人区画の位置ではない。現地案内を優先。\n【位置情報の利用条件】南島原市『公共施設一覧』、BODIK https://data.bodik.jp/organization/422142、422142_public_facility.csv NO257、2026-11-27確認。CC BY 4.0の二次利用表示に基づく条件付き採用（原カタログ個別ページ直接未取得、例外判明時再審査）。WGS84相当。画像・地図転載なし。\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-arima-nagasaki-20261127",
+      "name": "長崎港（遣欧使節出航・南蛮貿易の歴史地域）",
+      "description": "1582年、晴信らが送り出した少年使節は長崎から海を渡った。慶長期には朱印船貿易をめぐる紛争が長崎港でのポルトガル船事件につながった。長崎港は日欧交流の発展と対立の双方を伝える場所である。",
+      "personIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "municipalityCodes": [
+        "42201"
+      ],
+      "municipalityCode": "42201",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        129.873662,
+        32.744507
+      ],
+      "locationAccuracy": "市区町村確認・地点不明",
+      "approval": {
+        "sheetRow": 4641,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "109a95f55a8a37081cb595f82c0561650c88256cf64fe676a57650e7cac12997",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-nagasaki-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-citychron-20261127",
+        "sg2src-a1-sorin-emuseum-embassy1582-20261115",
+        "sg2src-a-sorin-03-20261114",
+        "sg2src-a-arima-graca-20261127",
+        "sg2src-a-arima-pin-portguide-20261127",
+        "sg2src-a-arima-ohato-codh-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.city.nagasaki.lg.jp/page/2255.html",
+        "https://emuseum.nich.go.jp/detail?content_base_id=100816&content_part_id=0&content_pict_id=0&langId=ja",
+        "https://rmda.kulib.kyoto-u.ac.jp/item/rb00007683/explanation/tensho",
+        "https://www.historist.jp/word_j_no/entry/036263/",
+        "https://www.mlit.go.jp/kankocho/cruise/jp/detail/058/index.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/43/430000018700.html"
+      ],
+      "approvedPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinApproval": {
+        "sheetRow": 4641,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "109a95f55a8a37081cb595f82c0561650c88256cf64fe676a57650e7cac12997",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-nagasaki-20261127"
+      },
+      "pinReview": {
+        "sourceSheetRow": 612,
+        "decision": "可",
+        "municipality": "長崎県長崎市",
+        "locationKind": "公表史跡POI（歴史情報点）",
+        "accessStatus": "yellow",
+        "restriction": "大波止跡を用いた歴史港域の情報参照点。1582年出航地点・1609年旧暦船事件の沈没点ではない。水域や施設への接近・経路誘導なし。",
+        "checkedAt": "2026-11-27",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/43/430000018700.html",
+        "positionSourceIds": [
+          "sg2src-a-arima-citychron-20261127",
+          "sg2src-a1-sorin-emuseum-embassy1582-20261115",
+          "sg2src-a-sorin-03-20261114",
+          "sg2src-a-arima-graca-20261127",
+          "sg2src-a-arima-pin-portguide-20261127",
+          "sg2src-a-arima-ohato-codh-20261127"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/43/430000018700.html"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：長崎県長崎市［42201］。\n公開参照点：北緯32.744507、東経129.873662。見学色：黄。位置種別：公表史跡POI（歴史情報点）。\n【見学・利用上の注意】大波止跡を用いた歴史港域の情報参照点。1582年出航地点・1609年旧暦船事件の沈没点ではない。水域や施設への接近・経路誘導なし。\n【位置情報の利用条件】『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。位置取得元：大波止跡430000018700。世界測地系相当、測地系の明文未取得。\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-arima-kora-20261127",
+      "name": "高良山（秀吉九州平定期の陣の伝承地域）",
+      "description": "九州平定の折、晴信が高良山の秀吉の陣に参じたという記述がある。晴信が豊臣方に従い、領国の存続を図った時期に関係する歴史地域である。",
+      "personIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "municipalityCodes": [
+        "40203"
+      ],
+      "municipalityCode": "40203",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        130.562833,
+        33.304952
+      ],
+      "locationAccuracy": "市区町村確認・地点不明",
+      "approval": {
+        "sheetRow": 4642,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "5325ec3106de8f279db45712b8445556d0dab36a44cd8068ac67a08027bd95db",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-kora-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-otomo-20261127",
+        "sg2src-a-arima-pin-koracity-20261127",
+        "sg2src-a-arima-pin-koracodh-20261127",
+        "sg2src-a-arima-kora-visit2026-20261127"
+      ],
+      "sourceUrls": [
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000138703",
+        "https://www.city.kurume.fukuoka.jp/1080kankou/2015bunkazai/3050kurumeshishi/files/sengoku3.pdf",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/41/",
+        "https://www.city.kurume.fukuoka.jp/cgi-bin/event_info/event_search.php"
+      ],
+      "approvedPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "pinApproval": {
+        "sheetRow": 4642,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "5325ec3106de8f279db45712b8445556d0dab36a44cd8068ac67a08027bd95db",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-kora-20261127"
+      },
+      "pinReview": {
+        "sourceSheetRow": 614,
+        "decision": "可",
+        "municipality": "福岡県久留米市",
+        "locationKind": "公表史跡POI（歴史情報点）",
+        "accessStatus": "yellow",
+        "restriction": "高良山地域の歴史地名参照点。単一城郭・秀吉陣所・晴信の本人所在点ではない。現地掲示を優先し、立入禁止区画・斜面・堀への進入なし。申込制催事予定は自由見学の保証ではない。",
+        "checkedAt": "2026-11-27",
+        "officialInfoUrl": null,
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/41/index.html",
+        "positionSourceIds": [
+          "sg2src-a-arima-otomo-20261127",
+          "sg2src-a-arima-pin-koracity-20261127",
+          "sg2src-a-arima-pin-koracodh-20261127",
+          "sg2src-a-arima-kora-visit2026-20261127"
+        ],
+        "attributions": [
+          {
+            "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+            "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/41/index.html"
+          },
+          {
+            "label": "CC BY 4.0 利用条件",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+          }
+        ],
+        "approvedE": "【史跡の公開位置・収集】\n所在地：福岡県久留米市［40203］。\n公開参照点：北緯33.304952、東経130.562833。見学色：黄。位置種別：公表史跡POI（歴史情報点）。\n【見学・利用上の注意】高良山地域の歴史地名参照点。単一城郭・秀吉陣所・晴信の本人所在点ではない。現地掲示を優先し、立入禁止区画・斜面・堀への進入なし。申込制催事予定は自由見学の保証ではない。\n【位置情報の利用条件】『日本歴史地名大系』施設・地点項目データセット（CODH作成）doi:10.20676/00000456（CC BY 4.0）。福岡県一覧402～404の同値3城。世界測地系相当、測地系の明文未取得。\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-a-arima-exile-20261127",
+      "name": "有馬晴信謫居の跡（初鹿野・丸林）",
+      "description": "岡本大八事件により甲斐に配流された晴信が謫居したと伝わる地。1612年、晴信はこの地域で生涯を終えた。肥前のキリシタン大名の最期を伝える史跡である。",
+      "personIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "municipalityCodes": [
+        "19213"
+      ],
+      "municipalityCode": "19213",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": false,
+      "point": null,
+      "locationAccuracy": "市区町村確認・地点非公開",
+      "approval": {
+        "sheetRow": 4643,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "08e5034916aca054b273fae3f3e8a66087f1fe87e00d7a61376dafd31497fdf6",
+        "kind": "史跡",
+        "personId": "sg-added-arima-harunobu-20261127",
+        "sourceId": "sg2site-a-arima-exile-20261127"
+      },
+      "sourceIds": [
+        "sg2src-a-arima-koshu-20261127",
+        "sg2src-a-arima-koshuassets-20261127",
+        "sg2src-a-arima-yamanashilib-20261127",
+        "sg2src-a-arima-arimafoundation-20261127",
+        "sg2src-a-arima-pin-exile-20261127",
+        "sg2src-a-arima-koshu-bunkazai-csv-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.city.koshu.yamanashi.jp/docs/2020120700053/file_contents/2020120700053_rekisi_bunka_files_20150608_kamijouhoukokudai37gou.pdf",
+        "https://www.city.koshu.yamanashi.jp/docs/2020101400057/file_contents/2020101400057_rekisi_bunka_files_20170412_koushuushirekishitekifuuchiijikoujoukeikaku_shiryouhen.pdf",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000098938&page=ref_view",
+        "https://maruoka-af.jp/pg11.html",
+        "https://www.city.koshu.yamanashi.jp/docs/2020052700107/file_contents/shiteibunkazai.pdf",
+        "https://www.city.koshu.yamanashi.jp/docs/2026082800046/"
+      ],
+      "approvedPersonIds": [
+        "sg-added-arima-harunobu-20261127"
+      ],
+      "collectionReview": {
+        "decision": "ピンなし獲得可",
+        "restriction": "市指定謫居伝承地。適法な公表座標なし。実刑場・実墓・私的区画・公開標識を区別し、推測ピンなし。",
+        "approvedE": "【史跡の公開位置・収集】\n所在地：山梨県甲州市［19213］。\n公開位置：座標なし（ピンなし自治体獲得可）。見学色は確定対象外。\n【見学・利用上の注意】市指定謫居伝承地。適法な公表座標なし。実刑場・実墓・私的区画・公開標識を区別し、推測ピンなし。\n【位置情報の利用条件】甲州市『文化財一覧』bunkazai.csv 第288行、https://www.city.koshu.yamanashi.jp/docs/2026082800046/（CC BY 4.0）。自治体根拠のみ、位置数値なし。\n史跡は対象自治体の制覇で一度だけ収集。100m接近は不要。人物経歴の獲得は④のB合格関係と別の公開承認に従います。"
+      }
+    },
+    {
+      "siteId": "sg2site-kanbei-aga",
+      "name": "英賀城跡（三木氏の居城・1580年落城）",
+      "description": "播磨の三木氏が拠った英賀城の跡。河口に広がる港町を守る水城として栄えたが、1580年に羽柴秀吉の軍勢によって落城した。今も本丸跡の碑や土塁が、当時の城の歴史を伝えている。",
+      "personIds": [
+        "sg-master-0817"
+      ],
+      "municipalityCodes": [
+        "28201"
+      ],
+      "municipalityCode": "28201",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        134.6469375,
+        34.8026875
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-kanbei-himeji-aga",
+        "sg2src-kanbei-himeji-life",
+        "sg2src-kanbei-himeji-aga-harbor",
+        "sg2src-b-plus-145-20261108"
+      ],
+      "sourceUrls": [
+        "https://www.limonbus.com/tabitabi/hyogo/tourism/650/",
+        "https://www.city.himeji.lg.jp/kanko/cmsfiles/contents/0000005/5242/kanbei_web.pdf",
+        "https://www.himeji-kanko.jp/fc/article.php?eid=00117",
+        "https://shirobito.jp/castle/1979"
+      ],
+      "approval": {
+        "sheetRow": 4648,
+        "version": "v3",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "5fc3e56c4b088556f387eb9042c2178a4ce07585cca870824092106072a12970",
+        "kind": "史跡",
+        "personId": "sg-master-0817",
+        "sourceId": "sg2site-kanbei-aga"
+      },
+      "pinApproval": {
+        "sheetRow": 2011,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "5fc3e56c4b088556f387eb9042c2178a4ce07585cca870824092106072a12970",
+        "kind": "史跡",
+        "personId": "sg-master-0817",
+        "sourceId": "sg2site-kanbei-aga"
+      },
+      "pinPersonIds": [
+        "sg-master-0817"
+      ],
+      "pinReview": {
+        "sourceSheetRow": 145,
+        "decision": "可",
+        "locationKind": "英賀城本丸之跡碑（街路沿いの公開記念碑）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-08",
+        "municipality": "兵庫県姫路市",
+        "officialInfoUrl": "https://rekihaku.pref.hyogo.lg.jp/castle/himeji-chronology/",
+        "positionEvidenceUrl": "https://www.himeji-kanko.jp/fc/article.php?eid=00117",
+        "positionSourceIds": [
+          "sg2src-kanbei-himeji-aga",
+          "sg2src-kanbei-himeji-life",
+          "sg2src-kanbei-himeji-aga-harbor",
+          "sg2src-b-plus-145-20261108"
+        ]
+      },
+      "approvedPersonIds": [
+        "sg-master-0817"
+      ],
+      "relatedOnly": true,
+      "relatedPersonIds": [
+        "sg-master-0817"
+      ]
+    },
+    {
+      "siteId": "sg2site-motochika-grave",
+      "name": "長宗我部元親墓（天甫寺山）",
+      "description": "長宗我部元親が眠る土佐長浜・天甫寺山の墓所。元親は1599年、伏見の屋敷で病没し、京都で火葬された後、遺骨が故郷へ運ばれてここに葬られた。岡豊城から土佐を統一し、四国へ勢力を伸ばしたものの豊臣秀吉に降り、戸次川では長男・信親を失った。その波乱の生涯を弔う墓所は高知県の史跡となっている。ここは元親が亡くなった伏見の屋敷とは異なる場所である。",
+      "personIds": [
+        "sg-281d92dc2e0f"
+      ],
+      "approvedPersonIds": [
+        "sg-281d92dc2e0f"
+      ],
+      "municipalityCodes": [
+        "39201"
+      ],
+      "municipalityCode": "39201",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        133.553047,
+        33.497387
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-motochika-kochi-grave",
+        "sg2src-motochika-kochi-pref-grave",
+        "sg2src-motochika-kochi-grave-chron",
+        "sg2src-b-pin-motochika-215-20261108"
+      ],
+      "sourceUrls": [
+        "https://www.city.kochi.kochi.jp/site/kanko/motochikanohaka.html",
+        "https://www.kochinet.ed.jp/bunkazai/details/410-2/410-2-05.htm",
+        "https://www.city.kochi.kochi.jp/soshiki/90/cas-pref-2400500.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/40/400000122100.html"
+      ],
+      "approval": {
+        "sheetRow": 4649,
+        "version": "v4",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "0d8f5a81d48b25c1b645feefa36ca25988b609b32540aaaeab20b50e9ccb45fa",
+        "kind": "史跡",
+        "personId": "sg-281d92dc2e0f",
+        "sourceId": "sg2site-motochika-grave"
+      },
+      "pinApproval": {
+        "sheetRow": 1700,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "79836db2835a12cffbe59891e88025a392a5c37d31927f81be1c4cc134405e5b",
+        "kind": "史跡",
+        "personId": "sg-281d92dc2e0f",
+        "sourceId": "sg2site-motochika-grave"
+      },
+      "pinReview": {
+        "decision": "可",
+        "accessStatus": "green",
+        "sourceSheetRow": 215,
+        "municipality": "高知県高知市",
+        "locationKind": "史跡現地（高知市長浜・天甫寺山の元親墓の歴史地名位置参照点）",
+        "checkedAt": "2026-11-08",
+        "restriction": "位置資料：『日本歴史地名大系』施設・地点項目データセット（CODH作成、CC BY 4.0、doi:10.20676/00000456）。",
+        "officialInfoUrl": "https://www.city.kochi.kochi.jp/site/kanko/motochikanohaka.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/40/400000122100.html",
+        "positionSourceIds": [
+          "sg2src-motochika-kochi-grave",
+          "sg2src-motochika-kochi-pref-grave",
+          "sg2src-motochika-kochi-grave-chron",
+          "sg2src-b-pin-motochika-215-20261108"
+        ]
+      },
+      "pinApprovalText": "1599年、伏見の屋敷で亡くなった長宗我部元親の墓所。遺骨は故郷の土佐へ運ばれ、長浜の天甫寺山に葬られた。山の斜面には元親をしのぶ墓石が残り、高知県の史跡に指定されている。",
+      "relatedOnly": true,
+      "relatedPersonIds": [
+        "sg-281d92dc2e0f"
+      ]
+    },
+    {
+      "siteId": "sg2site-tadakatsu-jodoji",
+      "name": "浄土寺・本多忠勝本廟（桑名の墓所）",
+      "description": "1610年、伊勢桑名で亡くなった徳川家康の重臣・本多忠勝が葬られた浄土寺。忠勝は家康に仕えて多くの戦場を経験し、後に大多喜と桑名の城主となった。桑名の城下町づくりに関わった武将を弔う本廟が今も伝わる。大多喜に自ら開いた良信寺（後の良玄寺）とは別の寺で、ここは忠勝の埋葬・追善の地である。",
+      "personIds": [
+        "sg-af4aa93fd365"
+      ],
+      "municipalityCodes": [
+        "24205"
+      ],
+      "municipalityCode": "24205",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        136.693176,
+        35.067902
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-tadakatsu-mieTomb",
+        "sg2src-tadakatsu-mieGeo",
+        "sg2src-tadakatsu-birth",
+        "sg2src-b-pin-tadakatsu-jodoji-20261108"
+      ],
+      "sourceUrls": [
+        "https://www.bunka.pref.mie.lg.jp/Miebunka/detail?cls=mica_col04&pkey=0000000004",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/24/240000033000.html",
+        "https://www.city.okazaki.lg.jp/bunka/torikumi_bunka/1004568/1004592/1004726/1004739.html"
+      ],
+      "approval": {
+        "sheetRow": 4650,
+        "version": "v4",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "660f35d76c253e798efa964dfc5b57514c4bde6eefdb8d7e77b9e697a140245f",
+        "kind": "史跡",
+        "personId": "sg-af4aa93fd365",
+        "sourceId": "sg2site-tadakatsu-jodoji"
+      },
+      "pinApproval": {
+        "sheetRow": 2047,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "acddd417ab70b2db7bb71e30c89094d40e0bdb50e4fb83e77f8546651d7d76b0",
+        "kind": "史跡",
+        "personId": "sg-af4aa93fd365",
+        "sourceId": "sg2site-tadakatsu-jodoji"
+      },
+      "pinReview": {
+        "sourceSheetRow": 280,
+        "decision": "可",
+        "locationKind": "浄土寺の公開寺院参照点",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-09",
+        "municipality": "三重県桑名市",
+        "officialInfoUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/24/240000033000.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/24/240000033000.html",
+        "positionSourceIds": [
+          "sg2src-tadakatsu-mieTomb",
+          "sg2src-tadakatsu-mieGeo",
+          "sg2src-tadakatsu-birth",
+          "sg2src-b-pin-tadakatsu-jodoji-20261108"
+        ]
+      },
+      "pinPersonIds": [
+        "sg-af4aa93fd365"
+      ],
+      "pinApprovalText": "1610年に桑名で亡くなった本多忠勝が葬られた本廟のある寺。浄土寺は城下町の整備に伴って現在地へ移され、本多家の菩提寺となった。忠勝の最期と後世の供養を伝えている。",
+      "approvedPersonIds": [
+        "sg-af4aa93fd365"
+      ],
+      "relatedOnly": true,
+      "relatedPersonIds": [
+        "sg-af4aa93fd365"
+      ]
+    },
+    {
+      "siteId": "sg2site-sakon-seiryoji",
+      "name": "清凉寺（島左近屋敷跡の伝承地）",
+      "description": "石田三成の佐和山城下で、重臣・島左近の屋敷があったと伝わる清凉寺の旧地。三成が琵琶湖を望む佐和山城を拠点としたころ、左近も家臣として領地の政務や外交に携わった。現在の清凉寺はのちに井伊家の菩提寺として建てられた寺院で、左近が仕えた豊臣方の城下町の記憶を今に伝える。",
+      "personIds": [
+        "sg-master-1045"
+      ],
+      "municipalityCodes": [
+        "25202"
+      ],
+      "municipalityCode": "25202",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        136.267487,
+        35.280018
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-sakon-hikone-residence",
+        "sg2src-sakon-hikone-castle",
+        "sg2src-b-rule-new-seiryoji-20261108"
+      ],
+      "sourceUrls": [
+        "https://www.hikoneshi.com/sightseeing/article/ishidamitsunari-yashikiato",
+        "https://www.city.hikone.lg.jp/kanko/rekishi/9/6/7608.html",
+        "https://www.biwako-visitors.jp/spot/detail/557/"
+      ],
+      "approval": {
+        "sheetRow": 4651,
+        "version": "v4",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "6fa864ae7db6fc3c2178fe49072e64fd29a2872de4e7dded0864eff1eb780298",
+        "kind": "史跡",
+        "personId": "sg-master-1045",
+        "sourceId": "sg2site-sakon-seiryoji"
+      },
+      "pinApproval": {
+        "sheetRow": 2058,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "fa9eec4aef6ec2863ed99f1e039592bf30ae7a1f835a86db59d22c02e1b29937",
+        "kind": "史跡",
+        "personId": "sg-master-1045",
+        "sourceId": "sg2site-sakon-seiryoji"
+      },
+      "pinReview": {
+        "sourceSheetRow": 291,
+        "decision": "可",
+        "locationKind": "寺院所在地・公的伝承地の歴史地名参照点",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-08",
+        "municipality": "滋賀県彦根市",
+        "officialInfoUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/25/250000282700.html。CODH",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/25/250000282700.html。CODH",
+        "positionSourceIds": [
+          "sg2src-sakon-hikone-residence",
+          "sg2src-sakon-hikone-castle",
+          "sg2src-b-rule-new-seiryoji-20261108"
+        ]
+      },
+      "pinPersonIds": [
+        "sg-master-1045"
+      ],
+      "pinApprovalText": "石田三成の佐和山城下で、重臣・島左近の屋敷があったと伝わる場所。現在は井伊家ゆかりの清凉寺が建ち、佐和山の城下町に暮らした武士たちの歴史をしのばせる。現在の寺の建物は左近の屋敷そのものではない。",
+      "approvedPersonIds": [
+        "sg-master-1045"
+      ],
+      "relatedOnly": true,
+      "relatedPersonIds": [
+        "sg-master-1045"
+      ]
+    },
+    {
+      "siteId": "sg2site-a-dosetsu-baigakuji-20261111",
+      "name": "梅岳寺（立花道雪墓・旧花谷山神宮寺）",
+      "description": "立花山の麓にある梅岳寺は、戸次道雪と一族をしのぶ寺である。旧花谷山神宮寺は1575年に道雪の母を弔って梅岳寺と呼ばれるようになり、1585年に筑後北野の陣で病没した道雪もここに葬られたと伝わる。境内には母や家臣・薦野増時の墓も残り、立花家に仕えた人々の歴史を伝えている。",
+      "personIds": [
+        "sg-fa767bbaaf2c"
+      ],
+      "municipalityCodes": [
+        "40345"
+      ],
+      "municipalityCode": "40345",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        130.471558,
+        33.686947
+      ],
+      "locationAccuracy": "市区町村確認・地点不明",
+      "sourceIds": [
+        "sg2src-a-dosetsu-temple-20261111",
+        "sg2src-a-dosetsu-town-temple-20261111",
+        "sg2src-a-dosetsu-shingu-20261111"
+      ],
+      "sourceUrls": [
+        "https://shingu-navi.jp/history/219/",
+        "https://www.town.shingu.fukuoka.jp/kanko_bunka/kanko/4/2301.html",
+        "https://www.town.shingu.fukuoka.jp/kanko_bunka/kanko/4/2304.html"
+      ],
+      "approval": {
+        "sheetRow": 4652,
+        "version": "v4",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "d56976ea7273513bb11c649c8d6802ea679b13bb77ea2a3e31f5d94bcdbbb396",
+        "kind": "史跡",
+        "personId": "sg-fa767bbaaf2c",
+        "sourceId": "sg2site-a-dosetsu-baigakuji-20261111"
+      },
+      "pinApproval": {
+        "sheetRow": 2093,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "3c7536dca8304cfbf921e439c64ac9d249eb50dabe404bf55cf1ada6110d40e0",
+        "kind": "史跡",
+        "personId": "sg-fa767bbaaf2c",
+        "sourceId": "sg2site-a-dosetsu-baigakuji-20261111"
+      },
+      "pinPersonIds": [
+        "sg-fa767bbaaf2c"
+      ],
+      "pinReview": {
+        "sourceSheetRow": 347,
+        "decision": "可",
+        "locationKind": "歴史地名／現史跡の公表情報点",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-12",
+        "municipality": "福岡県糟屋郡新宮町",
+        "officialInfoUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/41/410000130200.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/41/410000130200.html",
+        "positionSourceIds": [
+          "sg2src-a-dosetsu-temple-20261111",
+          "sg2src-a-dosetsu-town-temple-20261111",
+          "sg2src-a-dosetsu-shingu-20261111"
+        ]
+      },
+      "approvedPersonIds": [
+        "sg-fa767bbaaf2c"
+      ],
+      "pinApprovalText": "立花山麓の寺院。旧花谷山神宮寺は1575年道雪の母の葬送に伴い梅岳寺となり、1585年に筑後北野で死去した道雪の遺骸がここに葬られた。道雪の母と薦野増時の墓も残り、柳川の福厳寺とは異なる現代地点である。",
+      "relatedOnly": true,
+      "relatedPersonIds": [
+        "sg-fa767bbaaf2c"
+      ]
+    },
+    {
+      "siteId": "sg2site-a-yoshitaka-tsukiyama-20261113",
+      "name": "築山館跡（大内氏の山口別邸）",
+      "description": "築山館は大内教弘が築いたと伝わる大内氏の別邸跡で、山口の大内文化を伝える。1605年、毛利輝元は別の場所で大内義隆らの霊を祀ったとされ、その社は1870年にこの別邸跡へ移された。現在の築山神社は義隆を後世にしのぶゆかりの地である。義隆自身がこの場所で暮らしたり儀式を行ったりした具体的な事実は確定していない。",
+      "personIds": [
+        "sg-bdc70f64e638"
+      ],
+      "municipalityCodes": [
+        "35203"
+      ],
+      "municipalityCode": "35203",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        131.478149,
+        34.1854
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-a-yoshitaka-yamaguchi-20261113",
+        "sg2src-b-pin-unified-392-20261114",
+        "sg2src-a-collection-tsukiyama-shrine-20261128"
+      ],
+      "sourceUrls": [
+        "https://www.city.yamaguchi.lg.jp/rs/rekibunshigen/r1062.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/36/360000098700.html",
+        "https://www.city.yamaguchi.lg.jp/rs/rekibunshigen/r1284.html"
+      ],
+      "approval": {
+        "sheetRow": 4653,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "0ce7b6d87fa4968c47abfbcc785e1fe2f71405295762a4d0c96e79d5dc1f8999",
+        "kind": "史跡",
+        "personId": "sg-bdc70f64e638",
+        "sourceId": "sg2site-a-yoshitaka-tsukiyama-20261113"
+      },
+      "approvedPersonIds": [
+        "sg-bdc70f64e638"
+      ],
+      "pinApproval": {
+        "sheetRow": 2196,
+        "version": "v1",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "054a840fe46fbb6bcc55ae84d36596341ee2eaa9b863617ac93e66b01757f74d",
+        "kind": "史跡",
+        "personId": "sg-bdc70f64e638",
+        "sourceId": "sg2site-a-yoshitaka-tsukiyama-20261113"
+      },
+      "pinPersonIds": [
+        "sg-bdc70f64e638"
+      ],
+      "pinReview": {
+        "decision": "可",
+        "accessStatus": "yellow",
+        "sourceSheetRow": 392,
+        "municipality": "山口県山口市",
+        "locationKind": "B確認済みの史跡歴史情報参照点（安全な入口ではありません）",
+        "checkedAt": "2026-11-19",
+        "restriction": "一部区域に立入制限があります。見学可能範囲と現地の案内に従ってください。 史跡に関する歴史情報の参照点です。人物が実際に立った場所や安全な入口・見学経路を示すものではありません。現地の案内と立入制限に従ってください。",
+        "officialInfoUrl": "https://www.city.yamaguchi.lg.jp/rs/rekibunshigen/r1062.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/36/360000098700.html",
+        "positionSourceIds": [
+          "sg2src-a-yoshitaka-yamaguchi-20261113",
+          "sg2src-b-pin-unified-392-20261114"
+        ],
+        "approvedE": "【位置公開版・③392】B地点確認済（2026-11-14）。WGS84：34.1854, 131.478149（公表情報参照点）。見学区分：黄。独立の獲得経歴リンクは未確定（④の別審査対象）。公表地点は歴史上の本人所在・内部入場許可・登城路・安全なアクセスを保証しない。画像/地図タイル/説明原文は転載せず、事実と座標のみ参照。",
+        "pinProcessId": "CR20261119-043"
+      },
+      "pinOwnerEvidence": {
+        "approvalRow": 2196,
+        "personIds": [
+          "sg-bdc70f64e638"
+        ]
+      },
+      "pinApprovalText": "大内教弘が築いたと伝わる築山館の別邸跡で、大内氏が政治や文化の活動を行った山口の史跡。現在は八坂神社・築山神社の区域を含む。義隆個人の具体的な儀式地点は資料上未確定。",
+      "relatedOnly": true,
+      "relatedPersonIds": [
+        "sg-bdc70f64e638"
+      ]
+    },
+    {
+      "siteId": "sg2site-nobu-fujisan-hongu-sengen",
+      "name": "富士山本宮浅間大社（信長宿泊地）",
+      "description": "1582年、武田氏を滅ぼした信長が安土へ帰る途中、徳川家康の歓待を受けて立ち寄った富士山本宮浅間大社。旧暦4月12日、信長は富士山麓を巡り、境内に家康が用意した宿舎で一夜を過ごしたと『信長公記』に記される。東方での勝利を終えた信長が見た富士山と、二か月後の本能寺の変との落差を伝えるゆかりの地である。",
+      "personIds": [
+        "sg-6eaf66c3d7c8"
+      ],
+      "municipalityCodes": [
+        "22207"
+      ],
+      "municipalityCode": "22207",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        138.610535,
+        35.225037
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-nobu-fujinomiya-koshu",
+        "sg2src-b-pin-newrule-22-20261107"
+      ],
+      "sourceUrls": [
+        "https://www.city.fujinomiya.lg.jp/3010400000/p003592.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000135900.html"
+      ],
+      "approval": {
+        "sheetRow": 4656,
+        "version": "v4",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "a9c9603f2a4a4e7a67cf2ac5315b11ecc5a975c9b05c5d7fbca15c9698b60274",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-fujisan-hongu-sengen"
+      },
+      "pinApproval": {
+        "sheetRow": 477,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "d8b2ee64213a0800b46746afe785cae17c2f600b12bfd031f46340194064b979",
+        "kind": "史跡",
+        "personId": "sg-6eaf66c3d7c8",
+        "sourceId": "sg2site-nobu-fujisan-hongu-sengen"
+      },
+      "pinReview": {
+        "sourceSheetRow": 22,
+        "decision": "可",
+        "locationKind": "史跡現地（富士山本宮浅間大社・公開社殿境内の位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "静岡県富士宮市",
+        "officialInfoUrl": "https://www.city.fujinomiya.lg.jp/kankou/llti2b00000017uf.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000135900.html",
+        "positionSourceIds": [
+          "sg2src-nobu-fujinomiya-koshu",
+          "sg2src-b-pin-newrule-22-20261107"
+        ]
+      },
+      "pinApprovalText": "1582年、武田氏との戦いを終えた信長は、帰途の旧暦4月12日に大宮へ立ち寄り、徳川家康が神社の境内に用意した宿舎に泊まった。当時の宿舎は現在の社殿とは異なる。",
+      "approvedPersonIds": [
+        "sg-6eaf66c3d7c8"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-takita",
+      "name": "滝田城跡（天文内乱後の居城）",
+      "description": "安房の内陸交通を押さえる滝田城の跡。1533年、里見家の内乱で父を殺された義堯方が攻勢に転じ、秋には義豊方の滝田城を奪った。義豊は上総へ逃れ、義堯は一時この城を拠点としたが、翌1534年の犬掛合戦まで争いは続いた。家中の勢力争いと房総での領国争奪の舞台となった城である。",
+      "personIds": [
+        "sg-29c3bc68aa37"
+      ],
+      "municipalityCodes": [
+        "12234"
+      ],
+      "municipalityCode": "12234",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        139.8933125,
+        35.0626875
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-satomi-sites",
+        "sg2src-satomi-feud",
+        "sg2src-b-user-plus-77-20261108"
+      ],
+      "sourceUrls": [
+        "https://tateyama-field-museum.jp/archives/3628",
+        "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_2shou/k2shou_4/k2shou_4min.html",
+        "https://www.cm-boso.com/gojoin3.html"
+      ],
+      "approval": {
+        "sheetRow": 4658,
+        "version": "v4",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "9d482366aa62a3d6a90ecd6bf466e0f4d3e8bec48900c138bc6ee1ab9e7d7b12",
+        "kind": "史跡",
+        "personId": "sg-29c3bc68aa37",
+        "sourceId": "sg2site-satomi-takita"
+      },
+      "pinApproval": {
+        "sheetRow": 1581,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "d690b48a7fb9c9a189d94cc996271fa0ae03252c733e48caf6ab108ba23bce37",
+        "kind": "史跡",
+        "personId": "sg-29c3bc68aa37",
+        "sourceId": "sg2site-satomi-takita"
+      },
+      "pinReview": {
+        "decision": "可",
+        "accessStatus": "yellow",
+        "sourceSheetRow": 77,
+        "municipality": "千葉県南房総市",
+        "locationKind": "南房総市上滝田の公開山城・滝田城址POI参照点",
+        "checkedAt": "2026-11-08",
+        "restriction": "一部に立入制限があります。規制区域に入らず現地の掲示と係員の指示を優先してください。",
+        "officialInfoUrl": "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_2shou/k2shou_4/k2shou_4min.html",
+        "positionEvidenceUrl": "https://tateyama-field-museum.jp/archives/3628",
+        "positionSourceIds": [
+          "sg2src-satomi-sites",
+          "sg2src-satomi-feud",
+          "sg2src-b-user-plus-77-20261108"
+        ]
+      },
+      "pinApprovalText": "1533年の里見家内乱で義堯方が安房の主導権を握った後、義堯がしばらく在城した滝田城の跡。安房内陸の交通を押さえる要地にあった。",
+      "approvedPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    },
+    {
+      "siteId": "sg2site-hideyoshi-yamazaki-castle",
+      "name": "山崎城跡（天王山山頂）",
+      "description": "1582年の山崎の戦いで明智光秀を破った後、秀吉が天王山の山頂に築いた山崎城の跡。井戸や土塁の遺構が残り、勝利後に京都への西の入口を押さえたことを物語る。戦闘そのものは山の東側や淀川沿いにも及び、山頂の城は合戦後の拠点だった。",
+      "personIds": [
+        "sg-f47391608dbb"
+      ],
+      "municipalityCodes": [
+        "26303"
+      ],
+      "municipalityCode": "26303",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        135.676282,
+        34.901786
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-hideyoshi-kyoto-yamazaki",
+        "sg2src-hideyoshi-oyamazaki-castle",
+        "sg2src-hideyoshi-oyamazaki-battle",
+        "sg2src-b-pin-newrule-45-20261107"
+      ],
+      "sourceUrls": [
+        "https://www.pref.kyoto.jp/kyotoyamashirokanko/history/index.html",
+        "https://www.town.oyamazaki.kyoto.jp/kanko/kankospot/2520.html",
+        "https://www.town.oyamazaki.kyoto.jp/kanko/kankospot/2523.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/26/260000078000.html"
+      ],
+      "approval": {
+        "sheetRow": 4660,
+        "version": "v4",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "4a22b34f03294c5c432c67fdcc2f729e6871636c2fa4187053316deffadb0d18",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-yamazaki-castle"
+      },
+      "pinApproval": {
+        "sheetRow": 494,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "自治体確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "751b80391c08bada4893ee43385ab1e0d5b75210e772dcc4111bbb16b5dcae2e",
+        "kind": "史跡",
+        "personId": "sg-f47391608dbb",
+        "sourceId": "sg2site-hideyoshi-yamazaki-castle"
+      },
+      "pinReview": {
+        "sourceSheetRow": 45,
+        "decision": "可",
+        "locationKind": "史跡現地（山崎城跡・天王山の歴史地名位置参照点）",
+        "accessStatus": "green",
+        "restriction": "",
+        "checkedAt": "2026-11-07",
+        "municipality": "京都府乙訓郡大山崎町",
+        "officialInfoUrl": "https://www.town.oyamazaki.kyoto.jp/kanko/kankospot/2520.html",
+        "positionEvidenceUrl": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/26/260000078000.html",
+        "positionSourceIds": [
+          "sg2src-hideyoshi-kyoto-yamazaki",
+          "sg2src-hideyoshi-oyamazaki-castle",
+          "sg2src-hideyoshi-oyamazaki-battle",
+          "sg2src-b-pin-newrule-45-20261107"
+        ]
+      },
+      "pinApprovalText": "1582年の山崎の戦いで明智光秀を破った後、秀吉が天王山の山頂に築いた城跡。現在も井戸や土塁などの遺構が残る。実際の決戦は山の東側や淀川沿いでも行われた。",
+      "approvedPersonIds": [
+        "sg-f47391608dbb"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-mifune-hojo",
+      "name": "三舟山陣跡（北条方の陣）",
+      "description": "1567年の三舟山合戦に関係する山上の陣跡。北条方が陣を置いたと伝わる場所で、里見軍は富津市側から対抗し勝利した。現地の陣跡は里見義堯・義弘の本陣ではない。",
+      "personIds": [
+        "sg-29c3bc68aa37",
+        "sg-17496a5d9dfa"
+      ],
+      "municipalityCodes": [
+        "12225"
+      ],
+      "municipalityCode": "12225",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        139.894332,
+        35.30034
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-satomi-mifune",
+        "sg2src-satomi-mifune26"
+      ],
+      "sourceUrls": [
+        "https://www.city.kimitsu.lg.jp/site/kanko/501.html",
+        "https://www.city.kimitsu.lg.jp/site/kanko/2219.html"
+      ],
+      "approval": {
+        "sheetRow": 1586,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "476e350290a89273d19453f8d2b3e7a61bca2e0bb92991038eda0157d500234d",
+        "kind": "史跡",
+        "personId": "sg-29c3bc68aa37",
+        "sourceId": "sg2site-satomi-mifune-hojo"
+      },
+      "pinApproval": {
+        "sheetRow": 1586,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "476e350290a89273d19453f8d2b3e7a61bca2e0bb92991038eda0157d500234d",
+        "kind": "史跡",
+        "personId": "sg-29c3bc68aa37",
+        "sourceId": "sg2site-satomi-mifune-hojo"
+      },
+      "pinReview": {
+        "decision": "可",
+        "accessStatus": "green",
+        "sourceSheetRow": 82,
+        "municipality": "千葉県君津市",
+        "locationKind": "公的伝承地（三舟山山頂の公開散策路周辺・北条方陣跡の地理参照点）",
+        "checkedAt": "2026-11-08",
+        "restriction": "",
+        "officialInfoUrl": "https://www.city.kimitsu.lg.jp/site/kanko/501.html",
+        "positionEvidenceUrl": "https://www.city.kimitsu.lg.jp/site/kanko/501.html",
+        "positionSourceIds": [
+          "sg2src-satomi-mifune",
+          "sg2src-satomi-mifune26",
+          "sg2src-b-pin-mifune-20261108"
+        ]
+      },
+      "approvedPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    },
+    {
+      "siteId": "sg2site-satomi-enmeiji",
+      "name": "延命寺（後期里見氏の菩提寺）",
+      "description": "里見義堯の父・実堯の法名にちなむ寺院。義堯ら後期里見氏の菩提寺として知られ、一族の墓所や関係する古文書を伝えている。",
+      "personIds": [
+        "sg-29c3bc68aa37",
+        "sg-17496a5d9dfa"
+      ],
+      "municipalityCodes": [
+        "12234"
+      ],
+      "municipalityCode": "12234",
+      "locationReviewed": true,
+      "rightsReviewed": true,
+      "bStatus": "合格",
+      "publicPin": true,
+      "point": [
+        139.9001778,
+        35.01754167
+      ],
+      "locationAccuracy": "実地点確認済",
+      "sourceIds": [
+        "sg2src-satomi-sites",
+        "sg2src-satomi-kimitsu",
+        "sg2src-b-pin-enmeiji-20261108"
+      ],
+      "sourceUrls": [
+        "https://tateyama-field-museum.jp/archives/3628",
+        "https://www.city.kimitsu.lg.jp/uploaded/attachment/50088.pdf",
+        "https://www.mboso-etoko.jp/mboso_map/detail.php?poi=51"
+      ],
+      "approval": {
+        "sheetRow": 1587,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "9520df8cc603a8ab45cee2d289945ad134a9905571acc212d412bff78d9d36f9",
+        "kind": "史跡",
+        "personId": "sg-29c3bc68aa37",
+        "sourceId": "sg2site-satomi-enmeiji"
+      },
+      "pinApproval": {
+        "sheetRow": 1587,
+        "version": "v2",
+        "user": "公開OK",
+        "quality": "品質合格",
+        "rights": "地点確認済・権利OK",
+        "handoff": "C候補（別途公開承認）",
+        "sourceMatch": "一致",
+        "sha256": "9520df8cc603a8ab45cee2d289945ad134a9905571acc212d412bff78d9d36f9",
+        "kind": "史跡",
+        "personId": "sg-29c3bc68aa37",
+        "sourceId": "sg2site-satomi-enmeiji"
+      },
+      "pinReview": {
+        "decision": "可",
+        "accessStatus": "green",
+        "sourceSheetRow": 83,
+        "municipality": "千葉県南房総市",
+        "locationKind": "公式案内地点（南房総市本織2014-1・現延命寺の公式観光地図参照点）",
+        "checkedAt": "2026-11-08",
+        "restriction": "",
+        "officialInfoUrl": "https://www.city.kimitsu.lg.jp/uploaded/attachment/50088.pdf",
+        "positionEvidenceUrl": "https://tateyama-field-museum.jp/archives/3628",
+        "positionSourceIds": [
+          "sg2src-satomi-sites",
+          "sg2src-satomi-kimitsu",
+          "sg2src-b-pin-enmeiji-20261108"
+        ]
+      },
+      "approvedPersonIds": [
+        "sg-29c3bc68aa37"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "personId": "sg-17496a5d9dfa",
+      "historyId": "sg2hist-a-yoshihiro-mifune1567-20261125",
+      "siteId": "sg2site-satomi-mifune-hojo",
+      "classification": "出来事直接（公的伝承）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-yoshihiro-kimi-20261125",
+        "sg2src-a-yoshihiro-chron-20261125"
+      ],
+      "sourceUrls": [
+        "https://www.city.kimitsu.lg.jp/site/kanko/501.html",
+        "https://tateyama-field-museum.jp/archives/7296"
+      ]
+    },
+    {
+      "personId": "sg-added-kono-michinobu-20261126",
+      "historyId": "sg2hist-a-kono-zennoji1553-20261126",
+      "siteId": "sg2site-a-kono-zennoji-20261126",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-zennoji-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/ken/zennoujibunsho_5kan.html"
+      ]
+    },
+    {
+      "personId": "sg-added-kono-michinobu-20261126",
+      "historyId": "sg2hist-a-kono-iwagara1554-20261126",
+      "siteId": "sg2site-a-kono-iwagara-20261126",
+      "classification": "出来事直接（公的伝承）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-clan-20261126",
+        "sg2src-a-kono-iwagara-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/62/view/7847",
+        "https://www.hb.pei.jp/shiro/iyo/iwagara-jyo/"
+      ]
+    },
+    {
+      "personId": "sg-added-kono-michinobu-20261126",
+      "historyId": "sg2hist-a-kono-senyu1554-20261126",
+      "siteId": "sg2site-a-kono-senyuji-20261126",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-senyuji-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.city.imabari.ehime.jp/kanko/spot/?a=157"
+      ]
+    },
+    {
+      "personId": "sg-added-kono-michinobu-20261126",
+      "historyId": "sg2hist-a-kono-senyu1564-20261126",
+      "siteId": "sg2site-a-kono-senyuji-20261126",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-senyuji-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.city.imabari.ehime.jp/kanko/spot/?a=157"
+      ]
+    },
+    {
+      "personId": "sg-added-kono-michinobu-20261126",
+      "historyId": "sg2hist-a-kono-envoy1562-20261126",
+      "siteId": "sg2site-a-kono-iwashimizu-20261126",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-kono-ndldip-20261126",
+        "sg2src-a-kono-iwashimizu-20261126"
+      ],
+      "sourceUrls": [
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000226245&page=ref_view",
+        "https://www.city.yawata.kyoto.jp/0000001228.html"
+      ]
+    },
+    {
+      "personId": "sg-added-kono-michinobu-20261126",
+      "historyId": "sg2hist-a-kono-kannenji1557-20261126",
+      "siteId": "sg2site-a-kono-kannenji-20261126",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-kannenji-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://www.pref.ehime.jp/ehimenotakara/297.html"
+      ]
+    },
+    {
+      "personId": "sg-added-kono-michinobu-20261126",
+      "historyId": "sg2hist-a-kono-oyamazumi1558-20261126",
+      "siteId": "sg2site-a-kono-oyamazumi-20261126",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-kono-chron-20261126",
+        "sg2src-a-kono-oyamazumi-20261126"
+      ],
+      "sourceUrls": [
+        "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/67/view/8389",
+        "https://online.bunka.go.jp/heritages/detail/223328"
+      ]
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "historyId": "sg2hist-a-arima-school1580-20261127",
+      "siteId": "sg2site-a-arima-seminario-20261127",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-arima-seminario-20261127",
+        "sg2src-a-arima-semisite-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034734/index.html",
+        "https://himawari-kankou.jp/learn/000534.php"
+      ]
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "historyId": "sg2hist-a-arima-embassy1582-20261127",
+      "siteId": "sg2site-a-arima-nagasaki-20261127",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a1-sorin-emuseum-embassy1582-20261115",
+        "sg2src-a-arima-citychron-20261127"
+      ],
+      "sourceUrls": [
+        "https://emuseum.nich.go.jp/detail?content_base_id=100816&content_part_id=0&content_pict_id=0&langId=ja",
+        "https://www.city.nagasaki.lg.jp/page/2255.html"
+      ]
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "historyId": "sg2hist-a-arima-urakami-20261127",
+      "siteId": "sg2site-a-arima-urakami-20261127",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-arima-dict-20261127",
+        "sg2src-a-arima-citychron-20261127",
+        "sg2src-a-arima-ndlpul-20261127"
+      ],
+      "sourceUrls": [
+        "https://kotobank.jp/word/有馬晴信-28086",
+        "https://www.city.nagasaki.lg.jp/page/2255.html",
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000328133"
+      ]
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "historyId": "sg2hist-a-arima-hideyoshi-20261127",
+      "siteId": "sg2site-a-arima-kora-20261127",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-arima-otomo-20261127"
+      ],
+      "sourceUrls": [
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000138703"
+      ]
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "historyId": "sg2hist-a-arima-protect-20261127",
+      "siteId": "sg2site-a-arima-kazusa-20261127",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-arima-kirishitan5-20261127",
+        "sg2src-a-arima-kazusa-20261127",
+        "sg2src-a-arima-seminario-20261127"
+      ],
+      "sourceUrls": [
+        "https://christian-nagasaki.jp/stories/5.html",
+        "https://himawari-kankou.jp/learn/000542.php",
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034734/index.html"
+      ]
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "historyId": "sg2hist-a-arima-protect-20261127",
+      "siteId": "sg2site-a-arima-seminario-20261127",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-arima-seminario-20261127",
+        "sg2src-a-arima-kirishitan5-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.city.minamishimabara.lg.jp/kyouiku/kiji0034734/index.html",
+        "https://christian-nagasaki.jp/stories/5.html"
+      ]
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "historyId": "sg2hist-a-arima-hinoe1590-20261127",
+      "siteId": "sg2site-a-arima-hinoe-20261127",
+      "classification": "本人直接",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-arima-hinoe-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.city.minamishimabara.lg.jp/sekaiisan/kiji0034924/index.html"
+      ]
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "historyId": "sg2hist-a-arima-katsumoto-20261127",
+      "siteId": "sg2site-a-arima-katsumoto-20261127",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-arima-katsumoto-20261127",
+        "sg2src-a-arima-katsumotodb-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.pref.nagasaki.jp/bunkadb/index.php/view/532",
+        "https://jmapps.ne.jp/nagasaki_maibun_iseki/det.html?data_id=268"
+      ]
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "historyId": "sg2hist-a-arima-school1601-20261127",
+      "siteId": "sg2site-a-arima-seminario-20261127",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-arima-kirishitan2-20261127",
+        "sg2src-a-arima-cbc-20261127",
+        "sg2src-a-arima-semisite-20261127"
+      ],
+      "sourceUrls": [
+        "https://christian-nagasaki.jp/stories/2.html",
+        "https://www.cbcj.catholic.jp/2020/01/27/20027/",
+        "https://himawari-kankou.jp/learn/000534.php"
+      ]
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "historyId": "sg2hist-a-arima-graca-20261127",
+      "siteId": "sg2site-a-arima-nagasaki-20261127",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-arima-graca-20261127",
+        "sg2src-a-arima-citychron-20261127"
+      ],
+      "sourceUrls": [
+        "https://www.historist.jp/word_j_no/entry/036263/",
+        "https://www.city.nagasaki.lg.jp/page/2255.html"
+      ]
+    },
+    {
+      "personId": "sg-added-arima-harunobu-20261127",
+      "historyId": "sg2hist-a-arima-exile-20261127",
+      "siteId": "sg2site-a-arima-exile-20261127",
+      "classification": "出来事直接（公的伝承）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-a-arima-daihachi-20261127",
+        "sg2src-a-arima-koshu-20261127",
+        "sg2src-a-arima-yamanashilib-20261127"
+      ],
+      "sourceUrls": [
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000058569",
+        "https://www.city.koshu.yamanashi.jp/docs/2020120700053/file_contents/2020120700053_rekisi_bunka_files_20150608_kamijouhoukokudai37gou.pdf",
+        "https://crd.ndl.go.jp/reference/entry/index.php?id=1000098938&page=ref_view"
+      ]
+    },
+    {
+      "personId": "sg-f47391608dbb",
+      "historyId": "sg2hist-a-hideyoshi-yamazaki-castle1582-20261128",
+      "siteId": "sg2site-hideyoshi-yamazaki-castle",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-hideyoshi-kyoto-yamazaki",
+        "sg2src-hideyoshi-oyamazaki-castle",
+        "sg2src-hideyoshi-oyamazaki-battle",
+        "sg2src-a-collection-yamazaki-castle-kyoto-20261128",
+        "sg2src-a-col-kenchi-order-ndl-20261128",
+        "sg2src-a-col-yamazaki-kenchi-nagaokakyo-20261128"
+      ],
+      "sourceUrls": [
+        "https://www.pref.kyoto.jp/kyotoyamashirokanko/history/index.html",
+        "https://www.town.oyamazaki.kyoto.jp/kanko/kankospot/2520.html",
+        "https://www.town.oyamazaki.kyoto.jp/kanko/kankospot/2523.html",
+        "https://www.kyoto-be.ne.jp/bunkazai/cms/?p=2270",
+        "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000190894",
+        "https://www.city.nagaokakyo.lg.jp/0000000966.html"
+      ]
+    },
+    {
+      "personId": "sg-6eaf66c3d7c8",
+      "historyId": "sg2hist-nobu-1582-koshu",
+      "siteId": "sg2site-nobu-fujisan-hongu-sengen",
+      "classification": "本人直接",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-nobu-fujinomiya-koshu",
+        "sg2src-b-pin-newrule-22-20261107"
+      ],
+      "sourceUrls": [
+        "https://www.city.fujinomiya.lg.jp/3010400000/p003592.html",
+        "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/22/220000135900.html"
+      ]
+    },
+    {
+      "personId": "sg-29c3bc68aa37",
+      "historyId": "sg2hist-yoshitaka-1533-feud",
+      "siteId": "sg2site-satomi-takita",
+      "classification": "出来事直接（史料）",
+      "bStatus": "合格",
+      "linkDecision": "関係上対象",
+      "sourceIds": [
+        "sg2src-satomi-feud",
+        "sg2src-satomi-sites",
+        "sg2src-b-user-plus-77-20261108"
+      ],
+      "sourceUrls": [
+        "https://www.city.tateyama.chiba.jp/satomi/kanzenban/kan_2shou/k2shou_4/k2shou_4min.html",
+        "https://tateyama-field-museum.jp/archives/3628",
+        "https://www.cm-boso.com/gojoin3.html"
+      ]
+    }
+  ],
+  "municipalityAwards": [
+    {
+      "historyId": "sg2hist-a-yoshihiro-death1578-20261125",
+      "personId": "sg-17496a5d9dfa",
+      "municipalityCode": "12234",
+      "graveReviewSheetRow": 103,
+      "relatedSiteId": "sg2site-satomi-enmeiji",
+      "classification": "墓所特例",
+      "bStatus": "墓所として合格",
+      "linkDecision": "墓所OR承認済",
+      "approvalRow": 4662,
+      "approvalVersion": "v2",
+      "graveSiteApprovalRow": 1587,
+      "graveSiteApprovalVersion": "v2",
+      "historySheetRow": 1790,
+      "sourceIds": [
+        "sg2src-a-yoshihiro-bio-20261125",
+        "sg2src-a-yoshihiro-chron-20261125",
+        "sg2src-a-yoshihiro-birth-20261125",
+        "sg2src-a-yoshihiro-enmeiji-20261125",
+        "sg2src-a-yoshihiro-tomiura-burial-20261128",
+        "sg2src-a-yoshihiro-enmeiji-board-20261128"
+      ],
+      "exceptionId": "TOMB-YOSHIHIRO-B-20261125"
+    }
+  ]
+}
