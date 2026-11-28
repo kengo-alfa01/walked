@@ -13,6 +13,9 @@
   const C20261120_9_PEOPLE=new Set(["sg-added-aso-koremasa-20261119","sg-added-sagara-yoshihi-20261119","sg-added-yamana-toyokuni-20261119","sg-added-kikkawa-tsuneie-20261119","sg-added-oda-ujiharu-20261119","sg-added-ando-chikasue-20261119","sg-added-tozawa-moriyasu-20261119","sg-added-sogo-masayasu-20261119","sg-40aa320a08e4"]);
   // C v6 readiness: the next 14 people are individually approved in ⑥4452–4465.
   // Explicit IDs only; adding these does NOT authorize a publication by itself.
+  const C20261128_VERSION="v2-approved-c-20261128-cv3-94";
+  const C20261128_PEOPLE=new Set(["sg-added-kono-michinobu-20261126","sg-added-arima-harunobu-20261127"]);
+  const C20261128_PIN_META=Object.freeze({"sg2site-a-kono-zennoji-20261126":[4611,601,132.793079,33.948894,"green","2026-11-26","v1"],"sg2site-a-kono-iwagara-20261126":[4612,602,132.883685,33.838182,"yellow","2026-11-26","v1"],"sg2site-a-kono-senyuji-20261126":[4613,603,132.977532,34.013435,"green","2026-11-26","v1"],"sg2site-a-kono-iwashimizu-20261126":[4614,604,135.699585,34.879768,"green","2026-11-26","v1"],"sg2site-a-kono-kannenji-20261126":[4615,606,133.035492,33.929977,"yellow","2026-11-26","v1"],"sg2site-a-kono-oyamazumi-20261126":[4616,607,133.00518,34.24812,"green","2026-11-26","v1"],"sg2site-a-arima-hinoe-20261127":[4627,608,130.25286,32.659933,"green","2026-11-27","v1"],"sg2site-a-arima-katsumoto-20261127":[4628,615,129.693611,33.845833,"green","2026-11-27","v1"],"sg2site-a-arima-urakami-20261127":[4633,613,129.8609,32.79293,"yellow","2026-11-27","v2"],"sg2site-a-arima-kuchino-20261127":[4640,610,130.1826393,32.6122961,"green","2026-11-27","v3"],"sg2site-a-arima-nagasaki-20261127":[4641,612,129.873662,32.744507,"yellow","2026-11-27","v3"],"sg2site-a-arima-kora-20261127":[4642,614,130.562833,33.304952,"yellow","2026-11-27","v3"]});
   const C20261126_4_PEOPLE=new Set(["sg-17496a5d9dfa","sg-master-0365","sg-added-matsumae-yoshihiro-20261125","sg-added-anegakoji-yoritsuna-20261125"]);
   const C20261126_STORY_PENDING=new Set(["sg-added-matsumae-yoshihiro-20261125","sg-added-anegakoji-yoritsuna-20261125"]);
   const C20261124_14_PEOPLE=new Set(["sg-596de9e9d2c2","sg-79a4eefd8d40","sg-master-0344","sg-master-0345","sg-master-0680","sg-master-0301","sg-master-1996","sg-37fdfb0d52c1","sg-master-0062","sg-added-new14-asakura-soteki-20261120","sg-added-new14-katakura-kagetsuna-20261120","sg-added-new14-ashina-moriuji-20261120","sg-added-new14-nagano-narimasa-20261120","sg-added-new14-sogo-kazumasa-20261120"]);
@@ -869,22 +872,23 @@
     const known=codeSet(knownCodes), personMap=new Map(),siteMap=new Map(),historyMap=new Map(),linkKeys=new Set(),regionMap=new Map(),linkSites=new Map(),approvalRows=new Set(),municipalityAwards=new Map();
     function uniqueApproval(a){check(!approvalRows.has(a.sheetRow),'⑥の同じ承認行を重複流用できません');approvalRows.add(a.sheetRow);}
     for(const p of doc.people){
-      check((PEOPLE.has(p.personId)||C20261119_PEOPLE.has(p.personId)||C20261120_9_PEOPLE.has(p.personId)||C20261124_14_PEOPLE.has(p.personId)||(doc.version==='v2-approved-c-20261126-new4-v12'&&C20261126_4_PEOPLE.has(p.personId)))&&!personMap.has(p.personId)&&typeof p.name==='string','対象外・重複人物');
+      check((PEOPLE.has(p.personId)||C20261119_PEOPLE.has(p.personId)||C20261120_9_PEOPLE.has(p.personId)||C20261124_14_PEOPLE.has(p.personId)||((doc.version==='v2-approved-c-20261126-new4-v12'||doc.version===C20261128_VERSION)&&C20261126_4_PEOPLE.has(p.personId))||(doc.version===C20261128_VERSION&&C20261128_PEOPLE.has(p.personId)))&&!personMap.has(p.personId)&&typeof p.name==='string','対象外・重複人物');
       for(const type of ['introduction','story']){
-        const t=p[type];if(type==='story'&&t===null&&doc.version==='v2-approved-c-20261126-new4-v12'&&C20261126_STORY_PENDING.has(p.personId))continue;if(type==='introduction'&&!t&&doc.people.length===20&&INTRO_PENDING.has(p.personId))continue;
+        const t=p[type];if(type==='story'&&t===null&&(doc.version==='v2-approved-c-20261126-new4-v12'||doc.version===C20261128_VERSION)&&C20261126_STORY_PENDING.has(p.personId))continue;if(type==='introduction'&&!t&&doc.people.length===20&&INTRO_PENDING.has(p.personId))continue;
         check(plain(t),'人物紹介・通史の欠落 '+p.personId);
         approval(t.approval,t.text,sha256,{kind:type==='introduction'?'人物紹介':'完成版ストーリー',personId:p.personId,sourceId:null});
         uniqueApproval(t.approval);
         check(t.approval.rights==='位置不要・権利OK'||t.approval.rights==='自治体確認済・権利OK','権利が未確認');
       }
-      if(p.story===null){check(doc.version==='v2-approved-c-20261126-new4-v12'&&C20261126_STORY_PENDING.has(p.personId),'未承認長編の例外対象外');personMap.set(p.personId,p);continue;}
+      if(p.story===null){check((doc.version==='v2-approved-c-20261126-new4-v12'||doc.version===C20261128_VERSION)&&C20261126_STORY_PENDING.has(p.personId),'未承認長編の例外対象外');personMap.set(p.personId,p);continue;}
       const unlock=p.story.unlock;
       check(plain(unlock)&&Number.isInteger(unlock.requiredHistoryCount)&&unlock.requiredHistoryCount>0&&Number.isInteger(unlock.requiredPlaceHistoryCount)&&unlock.requiredPlaceHistoryCount>=0&&unlock.requiredPlaceHistoryCount<=unlock.requiredHistoryCount&&/^[a-f0-9]{64}$/.test(unlock.historyIdsSHA256||''),'完成版ストーリーの全経歴解放条件が不正です');
       personMap.set(p.personId,p);
     }
-    check(([3,20,43,65,74,88].includes(personMap.size)||(doc.version==='v2-approved-c-20261126-new4-v12'&&personMap.size===92)),'承認済み3・20・43・65・74・88人物以外を混入させないでください');
+    check(([3,20,43,65,74,88].includes(personMap.size)||((doc.version==='v2-approved-c-20261126-new4-v12'||doc.version===C20261128_VERSION)&&personMap.size===92)||(doc.version===C20261128_VERSION&&personMap.size===94)),'承認済み3・20・43・65・74・88人物以外を混入させないでください');
     if(personMap.size===65)check([...C20261119_PEOPLE].every(id=>personMap.has(id)),'C20261119の承認済み新人物が欠けています');
     if(personMap.size===74)check([...C20261119_PEOPLE,...C20261120_9_PEOPLE].every(id=>personMap.has(id)),'C20261120の承認済み9人物が欠けています');
+    if(doc.version===C20261128_VERSION)check(personMap.size===94&&[...PEOPLE,...C20261119_PEOPLE,...C20261120_9_PEOPLE,...C20261124_14_PEOPLE,...C20261126_4_PEOPLE,...C20261128_PEOPLE].every(id=>personMap.has(id)),'承認済み94人物が欠けています');
     if(personMap.size===92)check([...PEOPLE,...C20261119_PEOPLE,...C20261120_9_PEOPLE,...C20261124_14_PEOPLE,...C20261126_4_PEOPLE].every(id=>personMap.has(id)),'承認済み92人物が欠けています');
     if(personMap.size===88)check([...PEOPLE,...C20261119_PEOPLE,...C20261120_9_PEOPLE,...C20261124_14_PEOPLE].every(id=>personMap.has(id)),'C v6の既存74人物と承認済み新14人物がそろっていません');
     for(const s of doc.sites){
@@ -928,11 +932,11 @@
         else check(s.pinApproval.version===s.approval.version&&s.pinApproval.sha256===s.approval.sha256&&
           s.pinApproval.personId===s.approval.personId&&s.pinApproval.sourceId===s.approval.sourceId,
           '史跡本文と位置版が同一⑥承認行の場合の根拠が一致しません');
-        check(['v1','v2','v3','v4','v5'].includes(s.pinApproval.version)&&s.pinApproval.sheetRow===(C20261124_V7_PHASE2_PIN_META[s.siteId]||C20261124_V7_PHASE1_PIN_META[s.siteId]||C20261120_9_PIN_META[s.siteId]||C20261119_57_PIN_META[s.siteId]||PIN_APPROVED_META[s.siteId]||C20261119_PIN_META[s.siteId])?.[0],'位置版v2と史跡IDの⑥承認行が一致しません');
+        check(['v1','v2','v3','v4','v5'].includes(s.pinApproval.version)&&s.pinApproval.sheetRow===(C20261128_PIN_META[s.siteId]||C20261124_V7_PHASE2_PIN_META[s.siteId]||C20261124_V7_PHASE1_PIN_META[s.siteId]||C20261120_9_PIN_META[s.siteId]||C20261119_57_PIN_META[s.siteId]||PIN_APPROVED_META[s.siteId]||C20261119_PIN_META[s.siteId])?.[0],'位置版v2と史跡IDの⑥承認行が一致しません');
         check(['自治体確認済・権利OK','地点確認済・権利OK'].includes(s.pinApproval.rights),'位置版の権利・所在地確認が未承認');
         const p=s.pinReview;
         check(plain(p)&&p.decision==='可'&&['green','yellow','red'].includes(p.accessStatus),'Bの最新公開ピン・見学区分が未確認');
-        const expected=(C20261124_V7_PHASE2_PIN_META[s.siteId]||C20261124_V7_PHASE1_PIN_META[s.siteId]||C20261120_9_PIN_META[s.siteId]||C20261119_57_PIN_META[s.siteId]||PIN_APPROVED_META[s.siteId]||C20261119_PIN_META[s.siteId]);
+        const expected=(C20261128_PIN_META[s.siteId]||C20261124_V7_PHASE2_PIN_META[s.siteId]||C20261124_V7_PHASE1_PIN_META[s.siteId]||C20261120_9_PIN_META[s.siteId]||C20261119_57_PIN_META[s.siteId]||PIN_APPROVED_META[s.siteId]||C20261119_PIN_META[s.siteId]);
         check(!!expected&&p.sourceSheetRow===expected[1]&&s.point[0]===expected[2]&&s.point[1]===expected[3]&&p.accessStatus===expected[4]&&p.checkedAt===expected[5]&&s.pinApproval.version===(expected[6]||'v2'),'⑥位置版と③最新B記録の座標・見学区分が一致しません');
         check(typeof p.locationKind==='string'&&p.locationKind.length>0&&p.locationKind!=='未設定','表示位置の種別が未確認');
         check(typeof p.municipality==='string'&&p.municipality.length>0&&Number.isInteger(p.sourceSheetRow)&&p.sourceSheetRow>=2,'③史跡の参照行・市区町村がありません');
@@ -953,11 +957,11 @@
       uniqueApproval(h.approval);
       // This release has ⑥-approved location-free prose, independently linked to B-qualified ④ sites.
       // The original ⑥ I is preserved: municipality acquisition is from ④, not a new text-location approval.
-      const new9MunicipalHistory=(doc.version==='v2-approved-c-20261120-new9-80'||doc.version.startsWith('v2-approved-c-20261124-')||personMap.size===88||personMap.size===92)&&C20261120_9_LINKED_HISTORIES.has(h.historyId);
+      const new9MunicipalHistory=(doc.version==='v2-approved-c-20261120-new9-80'||doc.version.startsWith('v2-approved-c-20261124-')||personMap.size===88||personMap.size===92||personMap.size===94)&&C20261120_9_LINKED_HISTORIES.has(h.historyId);
       // An approved 88-person package may use a municipality acquisition for a
       // location-free ⑥ prose record only when it has a separately B-approved ④ link.
-      const cV6QualifiedPlace=((personMap.size===88||personMap.size===92)||doc.version.startsWith('v2-approved-c-20261124-p1-'))&&doc.relations.some(r=>r.historyId===h.historyId&&r.personId===h.personId&&r.bStatus==='合格'&&r.linkDecision==='関係上対象'&&['本人直接','出来事直接（史料）','出来事直接（公的伝承）'].includes(r.classification));
-      check((h.kind==='place'&&(['自治体確認済・権利OK','地点確認済・権利OK'].includes(h.approval.rights)||((new9MunicipalHistory||cV6QualifiedPlace)&&h.approval.rights==='位置不要・権利OK')))||(h.kind==='nonplace'&&(h.approval.rights==='位置不要・権利OK'||((doc.version.startsWith('v2-approved-c-20261124-')||doc.version==='v2-approved-c-20261126-new4-v12')&&h.approval.rights==='自治体確認済・権利OK'&&(['sg2hist-tadakatsu-1610-death','sg2hist-masanobu-1563-ikko'].includes(h.historyId)||C20261124_NO_AWARD_HISTORY_IDS.has(h.historyId))&&!doc.relations.some(r=>r.historyId===h.historyId)))),'経歴の場所区分と権利承認が一致しません: '+h.historyId+' kind='+h.kind+' rights='+h.approval.rights);
+      const cV6QualifiedPlace=((personMap.size===88||personMap.size===92||personMap.size===94)||doc.version.startsWith('v2-approved-c-20261124-p1-'))&&doc.relations.some(r=>r.historyId===h.historyId&&r.personId===h.personId&&r.bStatus==='合格'&&r.linkDecision==='関係上対象'&&['本人直接','出来事直接（史料）','出来事直接（公的伝承）'].includes(r.classification));
+      check((h.kind==='place'&&(['自治体確認済・権利OK','地点確認済・権利OK'].includes(h.approval.rights)||((new9MunicipalHistory||cV6QualifiedPlace)&&h.approval.rights==='位置不要・権利OK')))||(h.kind==='nonplace'&&(h.approval.rights==='位置不要・権利OK'||((doc.version.startsWith('v2-approved-c-20261124-')||(doc.version==='v2-approved-c-20261126-new4-v12'||doc.version===C20261128_VERSION))&&h.approval.rights==='自治体確認済・権利OK'&&(['sg2hist-tadakatsu-1610-death','sg2hist-masanobu-1563-ikko'].includes(h.historyId)||C20261124_NO_AWARD_HISTORY_IDS.has(h.historyId))&&!doc.relations.some(r=>r.historyId===h.historyId)))),'経歴の場所区分と権利承認が一致しません: '+h.historyId+' kind='+h.kind+' rights='+h.approval.rights);
       check(Array.isArray(h.sourceUrls)&&h.sourceUrls.every(x=>typeof x==='string'&&/^https:\/\//.test(x)),'経歴出典URL不正');
       historyMap.set(h.historyId,h);
     }
@@ -982,6 +986,12 @@
       // The independently approved grave exception is not an ordinary ④ historical link.
       if(a?.classification==='墓所特例'){
         const h=historyMap.get(a.historyId),s=siteMap.get(a.relatedSiteId);
+        if(a.historyId==='sg2hist-a-yoshihiro-death1578-20261125'){
+          check(doc.version===C20261128_VERSION&&a.personId==='sg-17496a5d9dfa'&&a.relatedSiteId==='sg2site-satomi-enmeiji'&&a.municipalityCode==='12234'&&a.graveReviewSheetRow===103&&a.exceptionId==='TOMB-YOSHIHIRO-B-20261125'&&a.bStatus==='墓所として合格'&&a.linkDecision==='墓所OR承認済'&&a.approvalRow===4662&&a.approvalVersion==='v2'&&a.graveSiteApprovalRow===1587&&a.graveSiteApprovalVersion==='v2'&&h?.personId===a.personId&&h.kind==='place'&&h.approval.sheetRow===4662&&h.approval.version==='v2'&&s?.approval.sheetRow===1587&&s.approval.version==='v2'&&s.personIds.includes(a.personId)&&s.codes.includes('12234')&&!municipalityAwards.has(a.historyId)&&!linkSites.has(a.historyId),'義弘墓所特例未承認');
+          if(!regionMap.has(a.historyId))regionMap.set(a.historyId,new Set());
+          regionMap.get(a.historyId).add(normalizeCodes([a.municipalityCode],known)[0]);
+          municipalityAwards.set(a.historyId,a);continue;
+        }
         check(a.historyId==='sg2hist-katsuyori-1582-death'&&a.personId==='sg-e00b2631eded'&&a.relatedSiteId==='sg2site-a-katsuyori-keitokuin-20261111'&&a.municipalityCode==='19213'&&a.graveReviewSheetRow===38&&a.bStatus==='墓所として合格'&&a.linkDecision==='墓所OR承認済'&&a.approvalRow===4020&&a.approvalVersion==='v2'&&a.graveSiteApprovalRow===4149&&a.graveSiteApprovalVersion==='v4'&&h?.personId===a.personId&&h.kind==='place'&&h.approval.sheetRow===4020&&h.approval.version==='v2'&&s?.approval.sheetRow===4149&&s.approval.version==='v4'&&s.personIds.includes(a.personId)&&s.codes.includes('19213')&&!municipalityAwards.has(a.historyId)&&linkSites.get(a.historyId)?.has('sg2site-a-katsuyori-tano-20261111'),'未承認の墓所特例');
         const [code]=normalizeCodes([a.municipalityCode],known);
         regionMap.get(a.historyId).add(code);
