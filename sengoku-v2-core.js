@@ -1047,46 +1047,62 @@
     const visitedSet=visitedCodes(visited);
     return [...eligible].filter(code=>visitedSet.has(code)).sort();
   }
-  // Related historical sites are collectible from a previously visited
-  // approved municipality, even when B explicitly denied a map pin or a
-  // history-card link. They never issue a fictitious event or unlock a story.
-  function collectedRelatedSites(index,visited,personId){
+  // Site ownership is derived from the validated ③/⑥ catalogue and visits.
+  // It is independent of ④ card links, public GPS, and relatedOnly.
+  // No synthetic visit, acquisition date, card, or storage key is created.
+  function acquiredSiteIds(index,visited,found){
+    const result=new Set();
+    if(!index?.sites)return result;
+    const seen=visitedCodes(visited);
+    for(const site of index.sites.values()){
+      if(site.codes.some(code=>seen.has(code)))result.add(site.siteId);
+    }
+    // Legacy evidence: a saved card explicitly identifies its approved
+    // acquisition site. An alternate municipality-only award must not
+    // turn a different site black, and a stale/unrelated ID is not evidence.
+    for(const [historyId,record] of Object.entries(found||{})){
+      if(index.histories?.get(historyId)?.kind!=='place')continue;
+      const links=index.linkSites?.get(historyId);
+      if(!links?.size)continue;
+      const saved=record?.siteId;
+      if(saved&&links.has(saved)&&index.sites.has(saved)){
+        result.add(saved);continue;
+      }
+      // A same-release, single-link legacy record without a site ID can
+      // identify the site only if there is no alternative award route.
+      // Do not infer a historical acquisition from today's unique link
+      // when the saved release is unknown or different.
+      if(!saved&&record?.basis===index.version&&links.size===1&&
+         !index.municipalityAwards?.has(historyId)){
+        const siteId=[...links][0],site=index.sites.get(siteId);
+        const eligible=index.codes?.get(historyId);
+        if(site&&eligible&&eligible.size===site.codes.length&&
+           site.codes.every(code=>eligible.has(code)))result.add(siteId);
+      }
+    }
+    return result;
+  }
+  // relatedOnly remains a presentation classification, not an acquisition
+  // gate. Do not promote unclassified sites or infer new person attributions.
+  function relatedSites(index,visited,personId,found,ownedIds){
     if(!index?.people?.has(personId))return [];
-    const seen=visitedCodes(visited),items=[];
+    const seen=visitedCodes(visited),owned=ownedIds||acquiredSiteIds(index,visited,found),items=[];
     for(const site of index.sites.values()){
       if(site.relatedOnly!==true)continue;
       if(!(site.approvedPersonIds||site.personIds||[]).includes(personId))continue;
-      const matched=(site.codes||[]).filter(code=>seen.has(code));
-      if(matched.length)items.push({siteId:site.siteId,site,visitedMunicipalityCodes:matched});
+      const matched=site.codes.filter(code=>seen.has(code));
+      items.push({siteId:site.siteId,site,acquired:owned.has(site.siteId),visitedMunicipalityCodes:matched});
     }
     return items.sort((a,b)=>a.siteId.localeCompare(b.siteId));
   }
-  // A card may have been earned while its ONLY B-approved site was a non-pin.
-  // Upgrading that approved site to an information pin must not turn its
-  // already-earned halo white merely because the old saved award has no siteId
-  // or the original visit code is no longer in the current map cache.
-  // Multi-site histories remain strict: only a saved siteId or a genuinely
-  // visited eligible municipality can make EACH distinct site black.
+  function collectedRelatedSites(index,visited,personId,found,ownedIds){
+    return relatedSites(index,visited,personId,found,ownedIds).filter(entry=>entry.acquired);
+  }
   function acquiredPinSiteIds(index,visited,found){
-    const result=new Set();
-    if(!index?.sites||!index?.histories||!index?.linkSites)return result;
-    const seen=visitedCodes(visited),owned=found||{};
-    for(const [historyId,siteIds] of index.linkSites){
-      if(index.histories.get(historyId)?.kind!=='place'||!own(owned,historyId))continue;
-      const savedSiteId=owned[historyId]?.siteId;
-      const uniqueLink=siteIds.size===1;
-      for(const siteId of siteIds){
-        const site=index.sites.get(siteId);
-        if(site?.publicPin!==true||!Array.isArray(site.point))continue;
-        if(savedSiteId===siteId||site.codes.some(code=>seen.has(code))||uniqueLink)
-          result.add(siteId);
-      }
-    }
-    // Related-only collectible sites are independent from an event card;
-    // their published pin turns black only after the approved area is visited.
-    for(const site of index.sites.values()){
-      if(site.publicPin===true&&site.relatedOnly===true&&site.codes.some(code=>seen.has(code)))
-        result.add(site.siteId);
+    const result=acquiredSiteIds(index,visited,found);
+    for(const siteId of result){
+      const site=index.sites.get(siteId);
+      if(site.publicPin!==true||!Array.isArray(site.point))result.delete(siteId);
     }
     return result;
   }
@@ -1147,5 +1163,5 @@
       noRouting:p.accessStatus==='red'
     };
   }
-  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,earnedMunicipalities,validate,award,acquired,collectedRelatedSites,acquiredPinSiteIds,canUnlockStory,pinPresentation,pinDetails};
+  return {SCHEMA,SOURCE,PEOPLE,normalizeCodes,municipalityFromKey,visitedCodes,earnedMunicipalities,validate,award,acquired,acquiredSiteIds,relatedSites,collectedRelatedSites,acquiredPinSiteIds,canUnlockStory,pinPresentation,pinDetails};
 });
