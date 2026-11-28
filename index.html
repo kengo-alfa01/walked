@@ -1186,14 +1186,13 @@ async function loadSengokuChronology(reviewed){
 }
 async function loadSengoku(){
  try{
-  const [r,areas,patch]=await Promise.all([
-   fetch('./sengoku/v2/approved-c-20261126-new4.json',{cache:'no-store'}),
-   fetch('./data/title-registry.json',{cache:'no-cache'}),
-   fetch('./sengoku/v2/c-20261128-approved-delta.json',{cache:'no-store'})
+  const [r,areas]=await Promise.all([
+   fetch('./sengoku/v2/approved-c-20261128-cv3-94.json',{cache:'no-store'}),
+   fetch('./data/title-registry.json',{cache:'no-cache'})
   ]);
-  if(!r.ok||!areas.ok||!patch.ok)throw Error('承認済み戦国v2のデータを読み込めません');
-  const base=await r.json(),registry=await areas.json(),delta=await patch.json();
-  const doc=SengokuCandidateDelta.apply(base,delta,PublicationRuntime.sha256);
+  if(!r.ok||!areas.ok)throw Error('承認済み戦国v2のデータを読み込めません');
+  const doc=await r.json(),registry=await areas.json();
+  if(doc.version!==SengokuCandidateDelta.VERSION||PublicationRuntime.sha256(JSON.stringify(doc))!=='624d3f123613c4d7ec661790df7ef88b8a2287d6eb435bcac569b103b13048be')throw Error('C候補の統合版・ハッシュが一致しません');
   if(!Array.isArray(registry.areas))throw Error('自治体コード一覧が不正です');
   const baseReviewed=SengokuV2.validate(doc,new Set(registry.areas.map(a=>a.code)),PublicationRuntime.sha256);
   // Invalid or missing UI-only classification must not block the base catalogue,
