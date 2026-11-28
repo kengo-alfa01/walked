@@ -1,0 +1,32 @@
+{
+  "schema": "C-v13-independent-review-v1",
+  "date": "2026-11-28 JST",
+  "candidateCommit": "a68a7f7f293f7a0b6744ff8b03a07838f14394c8",
+  "baseCommit": "fe6e16471508b6545e6d54f31e98cbb38b01941c",
+  "deltaBlob": "fcaf21259b576d3c61ab7d212aee89c986e99740",
+  "inputAuditBlob": "3a07048f87e9284c7761640dbf29669590c712c7",
+  "priorIndependentAudit": "d45d8145afcf1b033c75e1464dd062704cc9e134",
+  "liveSpreadsheet": "1KirrKgmmK6j9boIzsOGlGqFAGVK7t8K5yoDvWsxfSsw",
+  "approvalRows": "4589:4662",
+  "actualChecks": 800,
+  "approvalRowsPassed": 74,
+  "approvalRowsFailed": 0,
+  "otherOriginalRowsRead": 12,
+  "sourceRowsChecked": 111,
+  "sourceRowsMatched": 111,
+  "sourceUrlSetMismatches": 0,
+  "priorBranchModelQA": {
+    "candidateChecks": 676016,
+    "issues": 0,
+    "sharedPersonPinChecks": 10,
+    "limits": "previous branch mock DOM and model only"
+  },
+  "plannedSinglePackage": {
+    "people": 94,
+    "histories": 1682,
+    "sites": 594,
+    "pins": 556,
+    "ledgerRowsExpected": 2464
+  },
+  "gate": "NO-GO until materialized candidate, real browser QA, explicit production instruction, actual deployed bytes and ledger verification; no change to ⑥ or B; no Y/X completion claims"
+}
