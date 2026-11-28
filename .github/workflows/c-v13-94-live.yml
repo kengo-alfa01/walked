@@ -1,0 +1,77 @@
+name: C v13 live 94-person Pages proof
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'sengoku/v2/approved-c-20261128-cv3-94.json'
+      - 'data/c-release/**'
+      - '.github/workflows/c-v13-94-live.yml'
+permissions:
+  contents: read
+concurrency:
+  group: c-v13-live
+  cancel-in-progress: false
+jobs:
+  proof:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check live Pages bytes for exact published package and runtime
+        id: live
+        shell: bash
+        env:
+          RELEASE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          if ! grep -q '^v2-approved-c-20261128-cv3-94,' data/c-release/status.csv; then
+            echo 'enabled=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo 'enabled=true' >> "$GITHUB_OUTPUT"
+          base='https://kengo-alfa01.github.io/walked'
+          files=(index.html sengoku-v2-core.js sengoku-pin-display.js sengoku-pin-sheet.js sengoku-pin-sheet.css sengoku-pin-approved-v2.js publication-runtime.js walked-core.js sengoku-source-links.js sengoku-card-cleanup.js sengoku-chronology.js sengoku/v2/candidate-delta-20261128.js sengoku/v2/related-site-presentation-cv3.js sengoku/v2/approved-c-20261128-cv3-94.json data/title-registry.json data/c-release/records.csv data/c-release/status.csv)
+          mkdir -p /tmp/c-v13-pages
+          ok=0
+          for attempt in $(seq 1 35); do
+            pass=1
+            for file in "${files[@]}"; do
+              mkdir -p "/tmp/c-v13-pages/$(dirname "$file")"
+              if ! curl --fail --location --silent --show-error --max-time 30 -H 'Cache-Control: no-cache' "$base/$file?v=$RELEASE_SHA" -o "/tmp/c-v13-pages/$file"; then pass=0; break; fi
+              if ! cmp -s "$file" "/tmp/c-v13-pages/$file"; then pass=0; break; fi
+            done
+            if [[ "$pass" == 1 ]]; then ok=1; break; fi
+            sleep 8
+          done
+          test "$ok" = 1
+          for file in "${files[@]}"; do
+            echo "LIVE_BYTES_EQUAL $file"
+            sha256sum "/tmp/c-v13-pages/$file"
+            cp "/tmp/c-v13-pages/$file" "$file"
+          done
+          node scripts/export-c-release-ledger.cjs --check
+          cat data/c-release/status.csv
+          node -e "const fs=require('fs'),x=JSON.parse(fs.readFileSync('sengoku/v2/approved-c-20261128-cv3-94.json')),c=require('./sengoku-v2-core.js'),p=require('./publication-runtime.js'),r=require('./data/title-registry.json'),a=require('./sengoku/v2/c-20261128-approved-input-audit.json');const i=c.validate(x,new Set(r.areas.map(z=>z.code)),p.sha256);for(const t of a.records){const z=t.kind==='史跡'?i.sites.get(t.recordId):t.kind==='経歴'?i.histories.get(t.recordId):i.people.get(t.personId)[t.kind==='人物紹介'?'introduction':'story'];if(z.approval.sheetRow!==t.row||z.approval.version!==t.approval.version||(z.description||z.text)!==t.body)throw Error('live approved record '+t.row)}console.log('C_V13_LIVE_74_APPROVALS_PASS')"
+      - name: Install pinned browser dependencies
+        if: steps.live.outputs.enabled == 'true'
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Prepare deterministic geometry
+        if: steps.live.outputs.enabled == 'true'
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: Actual PC Chromium and iPhone WebKit production page
+        if: steps.live.outputs.enabled == 'true'
+        run: |
+          sed -i 's|http://127.0.0.1:8765|https://kengo-alfa01.github.io/walked|' tests/c-v13-94.browser.cjs
+          node --test tests/c-v13-94.browser.cjs
+          echo C_V13_LIVE_BROWSER_PASS
