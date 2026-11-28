@@ -17,7 +17,7 @@
     "totalCards": 1638
   },
   "candidate": {
-    "checks": 675984,
+    "checks": 676016,
     "issues": [],
     "people": 94,
     "histories": 1682,
@@ -55,12 +55,12 @@
     "publication-runtime.js": "58222ba8db89d4b26a2f3467615214bd5f0b15ad",
     "walked-core.js": "c84a78eb63680081769bf8b9a1e1c3b27e35bdb7",
     "data/title-registry.json": "90e237f00cae62a8fefe634cdef943495b7dab64",
-    "index.html": "ed337a16e236ecea7a8f1a09cb6ffaedfb40330b",
+    "index.html": "8c7e0ea9526ee6e1fe6c0743b21d7456fe2db88d",
     "sengoku/v2/related-site-presentation-cv3.js": "46c0130cf7cd78ce718e5b00437fe5d57435f034",
     "sengoku-pin-display.js": "58f6431d754c319468df7e00de27009dd85ef9d7",
     "sengoku-pin-approved-v2.js": "215beaa0131c54600986ef02545c0fe7745b5a09",
     "tests/sengoku-site-collection-cv3.test.cjs": "4fd3c913a2cd3e3a7de63dff98e1d9793febb56c",
-    "tests/sengoku-candidate-20261128.test.cjs": "3d735236fe832f2b3f142ba28da9f18a8f81b315",
+    "tests/sengoku-candidate-20261128.test.cjs": "49c3cd3bfcaf08d8f1b1e18dc66260bfc245d94c",
     "sengoku/v2/candidate-delta-20261128.js": "1c6dad929bc0f1939606e7e5841ef0453b96610c",
     "sengoku/v2/c-20261128-approved-delta.json": "fcaf21259b576d3c61ab7d212aee89c986e99740",
     "sengoku/v2/c-20261128-approved-input-audit.json": "3a07048f87e9284c7761640dbf29669590c712c7"
@@ -69,5 +69,7 @@
     "V8による保存済みテストコード実行。URLとDOMは模擬。",
     "実ブラウザ・GitHub Pages本番・実端末QAは未実施。",
     "⑥F/Gと新規人物工程ゲートの本番証拠X/Yは未変更。"
-  ]
+  ],
+  "sharedPersonPinChecks": 10,
+  "sharedPersonPinIssues": []
 }
