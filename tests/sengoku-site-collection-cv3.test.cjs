@@ -13,7 +13,7 @@ function run({before,after,pub,walk,doc,registry,html,manifest}){
   ok(sites.length===579&&sites.filter(s=>s.publicPin).length===544,'fixed snapshot size');
   const basePending=[...baseIdx.sites.values()].filter(s=>!linked.has(s.siteId)&&s.relatedOnly!==true);
   ok(basePending.length===73&&basePending.filter(s=>s.publicPin).length===69,'fixed original classification queue');
-  ok(pending.length===72&&pending.filter(s=>s.publicPin).length===68,'one reviewed presentation applied');
+  ok(manifest.entries.length===60&&pending.length===13&&manifest.excluded.length===3&&manifest.pending.length===10,'60 reviewed presentations applied, 3 exclusions, 10 version gates');
   ok(idx.histories===baseIdx.histories&&idx.linkSites===baseIdx.linkSites&&idx.codes===baseIdx.codes&&idx.municipalityAwards===baseIdx.municipalityAwards,'card rule maps unchanged');
   const target='sg2site-hideyoshi-birth-memorial', person='sg-f47391608dbb', birth='sg2hist-hideyoshi-birth-1536-1537', nakamura={'23105':rec};
   const baseSite=baseIdx.sites.get(target),projected=idx.sites.get(target);
@@ -28,10 +28,24 @@ function run({before,after,pub,walk,doc,registry,html,manifest}){
   const relatedAfter=after.relatedSites(idx,nakamura,person,{}).find(x=>x.siteId===target);
   ok(relatedBefore?.acquired===false&&relatedAfter?.acquired===true,'memorial related before/after');
   ok([...idx.people.keys()].filter(pid=>pid!==person).every(pid=>!after.relatedSites(idx,nakamura,pid,{}).some(x=>x.siteId===target)),'no new person attribution');
-  for(const change of [m=>{m.catalogVersion='old'},m=>{m.entries[0].personIds=['not-approved']},m=>{m.entries[0].approvalVersion='v2'},m=>{m.entries[0].municipalityCodes=['41201']},m=>{m.entries[0].relations[0].linkDecision='関係上対象'},m=>{m.entries.push(m.entries[0])}]){
+  for(const change of [m=>{m.catalogVersion='old'},m=>{m.entries[0].personIds=['not-approved']},m=>{m.entries[0].approvalVersion='v2'},m=>{m.entries[0].municipalityCodes=['41201']},m=>{m.entries[0].review='関連表示保留・対象外'},m=>{m.entries.push(m.entries[0])}]){
     const bad=JSON.parse(JSON.stringify(manifest));change(bad);
     let rejected=false;try{after.withRelatedSitePresentation(baseIdx,bad)}catch(e){rejected=true}
     ok(rejected,'invalid or duplicate overlay rejected');
+  }
+  for(const item of manifest.entries){
+    const s=idx.sites.get(item.siteId),base=baseIdx.sites.get(item.siteId);
+    const stripped={...s};delete stripped.relatedOnly;delete stripped.relatedPersonIds;
+    eq(stripped,base,'related UI only '+item.siteId);
+    for(const pid of item.personIds){
+      const u=after.relatedSites(idx,{},pid,{}).filter(x=>x.siteId===s.siteId);
+      ok(u.length===1&&!u[0].acquired,'approved unearned related '+s.siteId);
+      for(const code of s.codes)ok(after.relatedSites(idx,{[code]:rec},pid,{}).find(x=>x.siteId===s.siteId)?.acquired===true,'approved OR related '+s.siteId+' '+code);
+    }
+  }
+  for(const item of manifest.excluded.concat(manifest.pending)){
+    ok(idx.sites.get(item.siteId).relatedOnly!==true,'no automatic related display '+item.siteId);
+    for(const code of idx.sites.get(item.siteId).codes)ok(after.acquiredSiteIds(idx,{[code]:rec},{}).has(item.siteId),'independent site despite excluded/pending '+item.siteId);
   }
   ok(after.acquiredSiteIds(idx,{},{}).size===0,'empty ownership');
   ok(after.acquiredSiteIds(idx,allVisits,{}).size===579,'all site IDs acquired once');
