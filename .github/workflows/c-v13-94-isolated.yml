@@ -6,6 +6,7 @@ on:
       - '.github/workflows/c-v13-94-isolated.yml'
       - 'scripts/materialize-c-v13-94.cjs'
       - 'tests/c-v13-94.browser.cjs'
+      - 'sengoku-pin-display.js'
 permissions:
   contents: write
 concurrency:
