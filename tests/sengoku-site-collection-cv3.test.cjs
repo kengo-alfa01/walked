@@ -1,7 +1,7 @@
 // Reproducible branch-only regression; run from repo root:
 // node tests/sengoku-site-collection-cv3.test.cjs
 'use strict';
-function run({before,after,pub,walk,doc,registry,html,manifest}){
+function run({before,after,pub,walk,doc,registry,html,manifest,pinDisplay,pinRegistry}){
   const known=new Set(registry.areas.map(a=>a.code)), old=before.validate(doc,known,pub.sha256), baseIdx=after.validate(doc,known,pub.sha256), idx=after.withRelatedSitePresentation(baseIdx,manifest);
   const at='2026-11-28T00:00:00.000Z', rec={first:at,last:at,source:'QA'}, issues=[], bySite=new Map();
   let checks=0,cardCases=0,storyCases=0,haloCases=0;
@@ -118,7 +118,7 @@ function run({before,after,pub,walk,doc,registry,html,manifest}){
     const halos=[],centers=[];
     const layer=target=>({target,clearLayers(){target.length=0;}});
     const L={circleMarker(point,options){return {bindPopup(){return this},off(){return this},on(){return this},addTo(group){group.target.push({point,options});return this}}},DomEvent:{}};
-    const env={sengokuPinHalos:layer(halos),sengokuPins:layer(centers),sengokuV2Catalog:idx,activeCollectionMode:'sengoku',sitePinSheet:{isOpen:()=>false,close(){}},selectedSengokuPersonId:null,SengokuV2:after,state:{visited},sengokuFound:{},L,sengokuPinRenderer:{},SengokuPinDisplay:{statusFor:s=>s.pinReview.accessStatus},SengokuPinApprovedV2:{},sengokuPinPopup:()=>null};
+    const env={sengokuPinHalos:layer(halos),sengokuPins:layer(centers),sengokuV2Catalog:idx,activeCollectionMode:'sengoku',sitePinSheet:{isOpen:()=>false,close(){}},selectedSengokuPersonId:null,SengokuV2:after,state:{visited},sengokuFound:{},L,sengokuPinRenderer:{},SengokuPinDisplay:pinDisplay,SengokuPinApprovedV2:pinRegistry,sengokuPinPopup:()=>null};
     Function(...Object.keys(env),html.slice(start,end)+'\nrefreshSengokuPins();')(...Object.values(env));
     return {halos,centers};
   }
@@ -127,8 +127,14 @@ function run({before,after,pub,walk,doc,registry,html,manifest}){
   for(let k=0;k<published.length;k++){
     const s=published[k],expected=s.codes.includes('41201')?'#151515':'#ffffff';
     ok(white.halos[k]?.options.fillColor==='#ffffff'&&black.halos[k]?.options.fillColor===expected&&fullPins.halos[k]?.options.fillColor==='#151515','rendered halo '+s.siteId);
-    ok(white.centers[k]?.options.fillColor===before.pinPresentation(s.pinReview.accessStatus).fill&&white.centers[k]?.options.fillColor===black.centers[k]?.options.fillColor&&white.centers[k]?.options.fillColor===fullPins.centers[k]?.options.fillColor,'unchanged B center '+s.siteId);
+    ok(white.centers[k]?.options.fillColor===before.pinPresentation(pinDisplay.statusFor(s,pinRegistry)).fill&&white.centers[k]?.options.fillColor===black.centers[k]?.options.fillColor&&white.centers[k]?.options.fillColor===fullPins.centers[k]?.options.fillColor,'unchanged B center '+s.siteId);
     haloCases++;
+  }
+  for(const id of ['sg2site-new9-sweep-sagara-furufumoto-20261120','sg2site-new9-sweep-yamana-fuse-20261120']){
+    const s=idx.sites.get(id),i=published.findIndex(x=>x.siteId===id),r=pinDisplay.approvedDisplay(s,pinRegistry);
+    ok(s.pinReview.accessStatus==='red'&&r?.accessStatus==='yellow'&&white.centers[i].options.fillColor===after.pinPresentation('yellow').fill,'approved safety revision '+id);
+    ok(r?.officialInfoUrl===null&&r.attributions.length===2&&r.notice,'approved caution and attribution '+id);
+    ok(pinDisplay.approvedDisplay({...s,point:[0,0]},pinRegistry)===null,'reject changed point '+id);
   }
   // Execute the actual approved related-site UI block, not a rewritten imitation.
   const rs=html.indexOf(' const relatedSites=relatedSengokuSites(person.id);'),re=html.indexOf('\n detail.append(section);',rs);
@@ -156,7 +162,7 @@ if(require.main===module){
  const read=p=>fs.readFileSync(path.join(root,p),'utf8');
  const moduleFromSource=s=>{const m={exports:{}};Function('module','exports',s)(m,m.exports);return m.exports;};
  const old=cp.execFileSync('git',['show','fe6e16471508b6545e6d54f31e98cbb38b01941c:sengoku-v2-core.js'],{cwd:root,encoding:'utf8',maxBuffer:10*1024*1024});
- const result=run({before:moduleFromSource(old),after:require('../sengoku-v2-core.js'),pub:require('../publication-runtime.js'),walk:require('../walked-core.js'),doc:JSON.parse(read('sengoku/v2/approved-c-20261126-new4.json')),registry:JSON.parse(read('data/title-registry.json')),html:read('index.html'),manifest:require('../sengoku/v2/related-site-presentation-cv3.js')});
+ const result=run({before:moduleFromSource(old),after:require('../sengoku-v2-core.js'),pub:require('../publication-runtime.js'),walk:require('../walked-core.js'),doc:JSON.parse(read('sengoku/v2/approved-c-20261126-new4.json')),registry:JSON.parse(read('data/title-registry.json')),html:read('index.html'),manifest:require('../sengoku/v2/related-site-presentation-cv3.js'),pinDisplay:require('../sengoku-pin-display.js'),pinRegistry:require('../sengoku-pin-approved-v2.js')});
  console.log(JSON.stringify(result,null,2));
  if(result.issues.length||result.siteInconsistencies.length)process.exitCode=1;
 }
