@@ -1,8 +1,8 @@
 // Reproducible branch-only regression; run from repo root:
 // node tests/sengoku-site-collection-cv3.test.cjs
 'use strict';
-function run({before,after,pub,walk,doc,registry,html}){
-  const known=new Set(registry.areas.map(a=>a.code)), old=before.validate(doc,known,pub.sha256), idx=after.validate(doc,known,pub.sha256);
+function run({before,after,pub,walk,doc,registry,html,manifest}){
+  const known=new Set(registry.areas.map(a=>a.code)), old=before.validate(doc,known,pub.sha256), baseIdx=after.validate(doc,known,pub.sha256), idx=after.withRelatedSitePresentation(baseIdx,manifest);
   const at='2026-11-28T00:00:00.000Z', rec={first:at,last:at,source:'QA'}, issues=[], bySite=new Map();
   let checks=0,cardCases=0,storyCases=0,haloCases=0;
   function ok(value,label){checks++;if(!value)issues.push(label);}
@@ -11,7 +11,28 @@ function run({before,after,pub,walk,doc,registry,html}){
   const allVisits=Object.fromEntries(codes.map(code=>[code,rec]));
   const linked=new Set(doc.relations.map(r=>r.siteId)), pending=sites.filter(s=>!linked.has(s.siteId)&&s.relatedOnly!==true);
   ok(sites.length===579&&sites.filter(s=>s.publicPin).length===544,'fixed snapshot size');
-  ok(pending.length===73&&pending.filter(s=>s.publicPin).length===69,'fixed classification queue');
+  const basePending=[...baseIdx.sites.values()].filter(s=>!linked.has(s.siteId)&&s.relatedOnly!==true);
+  ok(basePending.length===73&&basePending.filter(s=>s.publicPin).length===69,'fixed original classification queue');
+  ok(pending.length===72&&pending.filter(s=>s.publicPin).length===68,'one reviewed presentation applied');
+  ok(idx.histories===baseIdx.histories&&idx.linkSites===baseIdx.linkSites&&idx.codes===baseIdx.codes&&idx.municipalityAwards===baseIdx.municipalityAwards,'card rule maps unchanged');
+  const target='sg2site-hideyoshi-birth-memorial', person='sg-f47391608dbb', birth='sg2hist-hideyoshi-birth-1536-1537', nakamura={'23105':rec};
+  const baseSite=baseIdx.sites.get(target),projected=idx.sites.get(target);
+  ok(baseSite.relatedOnly!==true&&projected.relatedOnly===true,'approved overlay is nonmutating');
+  const reverted={...projected};delete reverted.relatedOnly;delete reverted.relatedPersonIds;
+  eq(reverted,baseSite,'only related presentation changes');
+  ok(baseSite.approval.sheetRow===2853&&baseSite.approval.version==='v3'&&baseSite.pinApproval.sheetRow===479&&baseSite.pinReview.accessStatus==='green','unchanged approval and B access');
+  ok(!after.acquiredPinSiteIds(idx,{},{}).has(target)&&after.acquiredPinSiteIds(idx,nakamura,{}).has(target),'Hideyoshi memorial halo before/after');
+  ok(idx.histories.get(birth).kind==='nonplace'&&!idx.codes.has(birth)&&!idx.linkSites.has(birth)&&!linked.has(target)&&!doc.municipalityAwards.some(a=>a.relatedSiteId===target),'birth stays nonplace and memorial has no card link');
+  eq(after.award(idx,nakamura,{},[],at),before.award(old,nakamura,{},[],at),'Nakamura cards unchanged');
+  const relatedBefore=after.relatedSites(idx,{},person,{}).find(x=>x.siteId===target);
+  const relatedAfter=after.relatedSites(idx,nakamura,person,{}).find(x=>x.siteId===target);
+  ok(relatedBefore?.acquired===false&&relatedAfter?.acquired===true,'memorial related before/after');
+  ok([...idx.people.keys()].filter(pid=>pid!==person).every(pid=>!after.relatedSites(idx,nakamura,pid,{}).some(x=>x.siteId===target)),'no new person attribution');
+  for(const change of [m=>{m.catalogVersion='old'},m=>{m.entries[0].personIds=['not-approved']},m=>{m.entries[0].approvalVersion='v2'},m=>{m.entries[0].municipalityCodes=['41201']},m=>{m.entries[0].relations[0].linkDecision='関係上対象'},m=>{m.entries.push(m.entries[0])}]){
+    const bad=JSON.parse(JSON.stringify(manifest));change(bad);
+    let rejected=false;try{after.withRelatedSitePresentation(baseIdx,bad)}catch(e){rejected=true}
+    ok(rejected,'invalid or duplicate overlay rejected');
+  }
   ok(after.acquiredSiteIds(idx,{},{}).size===0,'empty ownership');
   ok(after.acquiredSiteIds(idx,allVisits,{}).size===579,'all site IDs acquired once');
   ok(after.acquiredPinSiteIds(idx,allVisits,{}).size===544,'all pins acquired');
@@ -44,7 +65,7 @@ function run({before,after,pub,walk,doc,registry,html}){
       eq(after.canUnlockStory(idx,pid,found,pub.sha256),before.canUnlockStory(old,pid,found,pub.sha256),'story '+pid);storyCases++;
     }
     const related=after.relatedSites(idx,{},pid,{});
-    eq(related.map(x=>x.siteId),sites.filter(s=>s.relatedOnly===true&&(s.approvedPersonIds||s.personIds).includes(pid)).map(s=>s.siteId).sort(),'approved related membership '+pid);
+    eq(related.map(x=>x.siteId),sites.filter(s=>s.relatedOnly===true&&(s.relatedPersonIds||s.approvedPersonIds||s.personIds).includes(pid)).map(s=>s.siteId).sort(),'approved related membership '+pid);
     ok(related.every(x=>!x.acquired),'related before '+pid);
     ok(after.relatedSites(idx,allVisits,pid,{}).every(x=>x.acquired),'related after '+pid);
   }
@@ -109,6 +130,10 @@ function run({before,after,pub,walk,doc,registry,html}){
     eq(a.map(x=>x.dataset.siteId),b.map(x=>x.dataset.siteId),'related list remains stable '+pid);
     ok(a.every(x=>x.children.some(n=>n.textContent==='未獲得'))&&b.every(x=>x.children.some(n=>n.textContent==='史跡獲得済み')),'related UI labels '+pid);
   }
+  const memorialIndex=published.findIndex(s=>s.siteId===target),nakaPins=renderPins(nakamura);
+  ok(white.halos[memorialIndex]?.options.fillColor==='#ffffff'&&nakaPins.halos[memorialIndex]?.options.fillColor==='#151515'&&white.centers[memorialIndex]?.options.fillColor===nakaPins.centers[memorialIndex]?.options.fillColor,'Hideyoshi memorial actual halo renderer');
+  const memorialBefore=renderRelated(person,{}).filter(x=>x.dataset.siteId===target),memorialAfter=renderRelated(person,nakamura).filter(x=>x.dataset.siteId===target);
+  ok(memorialBefore.length===1&&memorialBefore[0].children.some(n=>n.textContent==='未獲得')&&memorialAfter.length===1&&memorialAfter[0].children.some(n=>n.textContent==='史跡獲得済み'),'Hideyoshi memorial actual related UI');
   return {checks,issues,siteInconsistencies:[...bySite],municipalityCases:codes.length,cardCases,storyCases,haloCases,relatedSites:sites.filter(s=>s.relatedOnly===true).length,sharedSites:shared.length,unpinnedSites:noPins.length,sagaCards:sagaCards.added.length,totalCards:full.added.length};
 }
 if(require.main===module){
@@ -117,7 +142,7 @@ if(require.main===module){
  const read=p=>fs.readFileSync(path.join(root,p),'utf8');
  const moduleFromSource=s=>{const m={exports:{}};Function('module','exports',s)(m,m.exports);return m.exports;};
  const old=cp.execFileSync('git',['show','fe6e16471508b6545e6d54f31e98cbb38b01941c:sengoku-v2-core.js'],{cwd:root,encoding:'utf8',maxBuffer:10*1024*1024});
- const result=run({before:moduleFromSource(old),after:require('../sengoku-v2-core.js'),pub:require('../publication-runtime.js'),walk:require('../walked-core.js'),doc:JSON.parse(read('sengoku/v2/approved-c-20261126-new4.json')),registry:JSON.parse(read('data/title-registry.json')),html:read('index.html')});
+ const result=run({before:moduleFromSource(old),after:require('../sengoku-v2-core.js'),pub:require('../publication-runtime.js'),walk:require('../walked-core.js'),doc:JSON.parse(read('sengoku/v2/approved-c-20261126-new4.json')),registry:JSON.parse(read('data/title-registry.json')),html:read('index.html'),manifest:require('../sengoku/v2/related-site-presentation-cv3.js')});
  console.log(JSON.stringify(result,null,2));
  if(result.issues.length||result.siteInconsistencies.length)process.exitCode=1;
 }
