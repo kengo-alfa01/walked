@@ -1,0 +1,64 @@
+name: C v13 actual live record normalization
+on:
+  push:
+    branches: [c/v13-release-qa-20261128]
+    paths:
+      - '.github/workflows/c-v13-normalize-live.yml'
+permissions:
+  contents: read
+jobs:
+  live-normalization:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Independently acquire deployed JSON and normalize actual records
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/c-v13-normalize
+          url='https://kengo-alfa01.github.io/walked/sengoku/v2/approved-c-20261128-cv3-94.json'
+          curl -fLsS --retry 3 --max-time 45 -H 'Cache-Control: no-cache' "$url?v=2ae4ece9678bda71635aaa960acd2b1ea127e5ec" -o /tmp/c-v13-normalize/live.json
+          cmp -s /tmp/c-v13-normalize/live.json sengoku/v2/approved-c-20261128-cv3-94.json
+          node <<'NODE'
+          const fs=require('fs'),crypto=require('crypto'),assert=require('assert/strict');
+          const bytes=fs.readFileSync('/tmp/c-v13-normalize/live.json');
+          const sha=crypto.createHash('sha1').update(Buffer.concat([Buffer.from('blob '+bytes.length+'\0'),bytes])).digest('hex');
+          assert.equal(sha,'6a2f3e3163d1545e11eb359aeda69f8a213d5fd6');
+          const d=JSON.parse(bytes),audit=require('./sengoku/v2/c-20261128-approved-input-audit.json');
+          assert.equal(d.version,'v2-approved-c-20261128-cv3-94');
+          const people=new Map(d.people.map(x=>[x.personId,x])),histories=new Map(d.histories.map(x=>[x.historyId,x])),sites=new Map(d.sites.map(x=>[x.siteId,x]));
+          const text=x=>String(x??''),ser=a=>a.map(x=>{const s=text(x);return s.length+':'+s}).join('␞');
+          // Two separately reviewed source IDs have fixed v1 release provenance (gate 584/585).
+          const sourceVersion=new Map([['sg2src-a-yoshihiro-tomiura-burial-20261128','v1'],['sg2src-a-yoshihiro-enmeiji-board-20261128','v1']]);
+          function normalize(kind,id,pid){
+            const p=people.get(pid),x=kind==='史跡'?sites.get(id):kind==='経歴'?histories.get(id):p[kind==='人物紹介'?'introduction':'story'];
+            assert(x&&x.approval.kind===kind);
+            let body;
+            if(kind==='人物紹介'||kind==='完成版ストーリー')body=ser([p.name,x.text]);
+            else if(kind==='経歴'){
+              const rel=d.relations.filter(r=>r.historyId===id&&r.personId===pid).map(r=>{const s=sites.get(r.siteId);assert(s&&r.bStatus==='合格'&&r.linkDecision==='関係上対象');return [r.personId,r.historyId,r.siteId,(s.municipalityCodes?.length?s.municipalityCodes:[s.municipalityCode]).join(',')].join('>')});
+              const awards=d.municipalityAwards.filter(a=>a.historyId===id);
+              for(const a of awards){assert.equal(a.classification,'墓所特例');assert.equal(a.exceptionId,'TOMB-YOSHIHIRO-B-20261125');assert.equal(a.approvalRow,x.approval.sheetRow);assert.equal(a.approvalVersion,x.approval.version);const sources=[...sourceVersion].map(([s,v])=>{assert(a.sourceIds.includes(s));return s+'@'+v});rel.push(['墓所特例OR',a.exceptionId,a.personId,a.historyId,a.relatedSiteId,a.municipalityCode,a.approvalVersion,...sources].join('|'))}
+              body=ser([ser([p.name,x.yearText,x.title,x.text,x.eventYear,x.eventYearEnd,x.personId,x.displayOrder]),rel.sort().join('\n')]);
+            }else{
+              const pin=x.publicPin===true,code=x.municipalityCode,or=(x.municipalityCodes?.length?x.municipalityCodes:[code]).join(',');
+              if(!pin)assert.equal(x.point,null);
+              const color=pin?({green:'緑',yellow:'黄',red:'赤'})[x.pinReview.accessStatus]:'未確定（ピンなし）';
+              body=ser([x.name,x.description,code,or,pin?x.point[1]:'',pin?x.point[0]:'',pin?'公開ピン可':'ピンなし獲得可',color]);
+            }
+            return {approvalRow:x.approval.sheetRow,version:x.approval.version,id,kind,personId:pid,packet:'PUBLIC-v1␝'+kind+'|'+id+'|'+x.approval.version+'␝'+body};
+          }
+          let count=0;
+          for(const r of audit.records.filter(r=>r.gateRow)){
+            const id=r.recordId||r.personId,q=normalize(r.kind,id,r.personId);
+            assert.equal(q.approvalRow,r.row);assert.equal(q.version,r.approval.version);
+            console.log('C_PUBLIC_RECORD '+JSON.stringify({gateRow:r.gateRow,...q}));count++;
+          }
+          for(const r of audit.references){
+            const q=normalize(r.kind,r.recordId,r.personId);
+            assert.equal(q.approvalRow,r.referenceApprovalRow);assert.equal(q.version,r.baseVersion);
+            console.log('C_PUBLIC_RECORD '+JSON.stringify({gateRow:r.gateRow,reference:r.gateResult,...q}));count++;
+          }
+          assert.equal(count,76);console.log('C_PUBLIC_NORMALIZATION_PASS '+count+' '+sha);
+          NODE
