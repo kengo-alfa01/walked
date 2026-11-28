@@ -100,7 +100,7 @@
   }
   const note=document.createElement('p');note.className='pin-caution';
   const isRestricted=statusFor(site,registry)==='red';
-  note.textContent=d.guidance+(isRestricted?' 立入制限のある場所への接近・経路案内は行いません。':'');
+  note.textContent='史跡は対象自治体の制覇で収集できます。100m接近は不要です。 '+d.guidance+(isRestricted?' 立入制限のある場所への接近・経路案内は行いません。':'');
   popup.append(note);
   return popup;
  }
