@@ -6,18 +6,9 @@
   "scope": "62 direct new-person approvals checked from source; additional 12 approvals identified but not independently projected; 14 prior C gate rows ledger-only.",
   "summary": {
     "newGate": 62,
-    "sourceGatePass": 61,
-    "holds": 1,
-    "issues": [
-      {
-        "row": 4662,
-        "id": "sg2hist-a-yoshihiro-death1578-20261125",
-        "errors": [
-          "tomb separate approval",
-          "independent ①②③④+⑥ original packet != AO"
-        ]
-      }
-    ],
+    "sourceGatePass": 62,
+    "holds": 0,
+    "issues": [],
     "otherApprovalRows": 12,
     "otherApprovalPass": 12,
     "priorGateLedgerChecks": 14,
@@ -2054,7 +2045,7 @@
         "sg2src-a-yoshihiro-tomiura-burial-20261128",
         "sg2src-a-yoshihiro-enmeiji-board-20261128"
       ],
-      "normalizedFromOriginal": "PUBLIC-v1␝経歴|sg2hist-a-yoshihiro-death1578-20261125|v2␝205:4:里見義弘␞17:天正6年（1578）旧暦5月20日␞16:佐貫で死去し後継争いの火種を残す␞121:1578年、義弘は上総の佐貫で世を去った。梅王丸は父が用いた鳳凰の家印を継ぎ、西上総の領地を相続して里見家の後継者となった。一方、安房を治めていた義頼との対立は解決せず、義弘の死後、両者を支える勢力の間で家督をめぐる争いが激しくなっていった。␞4:1578␞0:␞15:sg-17496a5d9dfa␞0:␞201:墓所特例OR|TOMB-YOSHIHIRO-B-20261125|sg-17496a5d9dfa|sg2hist-a-yoshihiro-death1578-20261125|延命寺（後期里見氏の菩提寺）|里見義弘|v2|sg2src-a-yoshihiro-tomiura-burial-20261128@v1|sg2src-a-yoshihiro-enmeiji-board-20261128@v1",
+      "normalizedFromOriginal": "PUBLIC-v1␝経歴|sg2hist-a-yoshihiro-death1578-20261125|v2␝205:4:里見義弘␞17:天正6年（1578）旧暦5月20日␞16:佐貫で死去し後継争いの火種を残す␞121:1578年、義弘は上総の佐貫で世を去った。梅王丸は父が用いた鳳凰の家印を継ぎ、西上総の領地を相続して里見家の後継者となった。一方、安房を治めていた義頼との対立は解決せず、義弘の死後、両者を支える勢力の間で家督をめぐる争いが激しくなっていった。␞4:1578␞0:␞15:sg-17496a5d9dfa␞0:␞210:墓所特例OR|TOMB-YOSHIHIRO-B-20261125|sg-17496a5d9dfa|sg2hist-a-yoshihiro-death1578-20261125|sg2site-satomi-enmeiji|12234|v2|sg2src-a-yoshihiro-tomiura-burial-20261128@v1|sg2src-a-yoshihiro-enmeiji-board-20261128@v1",
       "projection": {
         "title": "佐貫で死去し後継争いの火種を残す",
         "yearText": "天正6年（1578）旧暦5月20日",
@@ -2066,8 +2057,8 @@
         "relations": [],
         "tombOR": {
           "key": "TOMB-YOSHIHIRO-B-20261125",
-          "siteId": "延命寺（後期里見氏の菩提寺）",
-          "municipalityCode": "里見義弘",
+          "siteId": "sg2site-satomi-enmeiji",
+          "municipalityCode": "12234",
           "sourceIds": [
             "sg2src-a-yoshihiro-tomiura-burial-20261128",
             "sg2src-a-yoshihiro-enmeiji-board-20261128"
@@ -2075,10 +2066,18 @@
         },
         "approvedE": "【墓所特例による死去経歴の獲得】\n延命寺（後期里見氏の菩提寺）［史跡ID：sg2site-satomi-enmeiji／千葉県南房総市［12234］］\nB審査済み特例 TOMB-YOSHIHIRO-B-20261125／経歴v2\n南房総市を制覇したとき、同一死去経歴IDにつき一度だけ獲得。ピン接近不要。死去地は上総の佐貫であり、延命寺は墓所。通常④1167は対象外のまま。従来の承認済み獲得先・既得は保持し、今回の新規取得自治体は12234のみ。別の埋葬カードは発行しない。"
       },
-      "errors": [
-        "tomb separate approval",
-        "independent ①②③④+⑥ original packet != AO"
-      ]
+      "errors": [],
+      "tombAudit": {
+        "approvalRow": 4662,
+        "tombRegisterRow": 103,
+        "historyRow": 1790,
+        "siteRow": 83,
+        "ordinaryRelationRow": 1167,
+        "ordinaryRelationDecision": "関係上対象外",
+        "status": "未実装",
+        "effective": "未発効",
+        "independentMatch": true
+      }
     }
   ],
   "sourceChecks": [
