@@ -1086,7 +1086,7 @@
   // This can change only the related-site presentation, not the source
   // catalogue, card links, place codes, approval payloads or access status.
   function withRelatedSitePresentation(index,manifest){
-    check(index?.sites&&manifest?.schema==='walked.sengoku.v2.related-presentation.v1'&&
+    check(index?.sites&&manifest?.schema==='walked.sengoku.v2.related-presentation.v2'&&
       manifest.sourceSpreadsheetId===SOURCE&&manifest.catalogVersion===index.version&&Array.isArray(manifest.entries),'関連史跡表示の承認版が一致しません');
     const sites=new Map(index.sites),seen=new Set();
     const sameSet=(a,b)=>Array.isArray(a)&&Array.isArray(b)&&a.length===b.length&&new Set(a).size===a.length&&a.every(v=>b.includes(v));
@@ -1094,18 +1094,17 @@
       const site=sites.get(item?.siteId),approval=site?.approval;
       check(site&&!seen.has(item.siteId)&&site.relatedOnly!==true&&site.bStatus==='合格'&&site.locationReviewed===true&&site.rightsReviewed===true,'関連史跡表示の史跡ID・B審査が不正');
       seen.add(item.siteId);
-      check(item.classification==='関連史跡として掲載'&&item.review==='不要（既B間接合格・墓所合格の範囲）'&&item.reapproval==='不要（UIのみ）'&&Number.isInteger(item.ledgerRow)&&item.ledgerRow>=2&&Number.isInteger(item.siteSheetRow)&&item.siteSheetRow>=2,'関連史跡のA分類・B/⑥ゲートが未確認');
+      check(item.classification==='関連史跡として掲載'&&item.review==='関連表示可・現行承認範囲'&&item.reapproval==='新⑥不要'&&item.aAccepted===true&&/^2026-11-28 B v\d+/.test(item.bReviewedAt||'')&&Number.isInteger(item.ledgerRow)&&item.ledgerRow>=2&&Number.isInteger(item.siteSheetRow)&&item.siteSheetRow>=2,'関連史跡のA分類・B/⑥ゲートが未確認');
       check(approval?.user==='公開OK'&&approval.sourceMatch==='一致'&&approval.quality==='品質合格'&&approval.sourceId===site.siteId&&approval.sheetRow===item.approvalRow&&approval.version===item.approvalVersion&&approval.sha256===item.approvalSHA256&&sameSet(site.codes,item.municipalityCodes),'関連史跡の本文版・自治体が不一致');
       const owners=site.approvedPersonIds||site.personIds||[];
       const approvalOwners=String(approval.personId||'').split('\n').filter(Boolean);
       check(Array.isArray(item.personIds)&&item.personIds.length>0&&new Set(item.personIds).size===item.personIds.length&&item.personIds.every(pid=>owners.includes(pid)&&approvalOwners.includes(pid)&&index.people.has(pid)),'未承認の人物への関連表示');
-      check(Array.isArray(item.relations)&&item.relations.length===item.personIds.length,'関連史跡のB根拠が不足');
-      for(const pid of item.personIds){
-        const matches=item.relations.filter(r=>r.personId===pid),r=matches[0];
-        check(matches.length===1&&Number.isInteger(r.sheetRow)&&r.sheetRow>=2&&r.classification==='間接関連'&&r.bStatus==='合格'&&r.linkDecision==='関係上対象外'&&index.histories.get(r.historyId)?.personId===pid,'④間接関連のB根拠が不一致');
-        check(![...index.linkSites].some(([hid,ids])=>index.histories.get(hid)?.personId===pid&&ids.has(site.siteId))&&
-          ![...index.municipalityAwards.values()].some(a=>a.personId===pid&&a.relatedSiteId===site.siteId),'直接獲得関係がある史跡は別審査');
-      }
+      // B's independent related-display decision is distinct from the old
+      // ④ card-link verdict (including rejected histories). Preserve ④ and
+      // already approved exceptional awards; never infer new owners.
+      check(typeof item.relationEvidence==='string'&&item.relationEvidence.length>0,'関連表示のB根拠が不足');
+      for(const pid of item.personIds)
+        check(![...index.linkSites].some(([hid,ids])=>index.histories.get(hid)?.personId===pid&&ids.has(site.siteId)),'直接獲得関係がある史跡は別審査');
       sites.set(site.siteId,{...site,relatedOnly:true,relatedPersonIds:[...item.personIds]});
     }
     return {...index,sites};
