@@ -829,8 +829,10 @@ function relatedSengokuSites(personId){
 // A 'place' history with no approved coordinates remains a normal chronology entry.
 function hasPublishedSengokuPin(history){
  if(history.kind!=='place'||!sengokuV2Catalog)return false;
- const siteIds=sengokuV2Catalog.linkSites.get(history.historyId);
- return !!siteIds&&[...siteIds].some(siteId=>{
+ const siteIds=new Set(sengokuV2Catalog.linkSites.get(history.historyId)||[]);
+ const grave=sengokuV2Catalog.municipalityAwards.get(history.historyId);
+ if(grave?.classification==='墓所特例')siteIds.add(grave.relatedSiteId);
+ return [...siteIds].some(siteId=>{
   const site=sengokuV2Catalog.sites.get(siteId);
   return site?.publicPin===true&&Array.isArray(site.point)&&site.point.length===2;
  });
@@ -854,7 +856,8 @@ function refreshSengokuPins(){
  for(const site of sengokuV2Catalog.sites.values()){
   if(!site.publicPin||!Array.isArray(site.point)||rendered.has(site.siteId))continue;
   if(selectedSengokuPersonId&&!(site.pinPersonIds||site.personIds).includes(selectedSengokuPersonId)&&
-       ![...sengokuV2Catalog.linkSites].some(([hid,sids])=>sids.has(site.siteId)&&sengokuV2Catalog.histories.get(hid)?.personId===selectedSengokuPersonId))continue;
+       ![...sengokuV2Catalog.linkSites].some(([hid,sids])=>sids.has(site.siteId)&&sengokuV2Catalog.histories.get(hid)?.personId===selectedSengokuPersonId)&&
+       ![...sengokuV2Catalog.municipalityAwards.values()].some(a=>a.classification==='墓所特例'&&a.relatedSiteId===site.siteId&&a.personId===selectedSengokuPersonId))continue;
   rendered.add(site.siteId);visibleSites.push(site);
  }
  if(sitePinSheet.isOpen()&&!visibleSites.some(site=>site.siteId===sitePinSheet.activeSiteId))sitePinSheet.close();
@@ -912,6 +915,8 @@ function unpinnedMunicipalityCodes(personId){
  for(const [historyId,placeCodes] of sengokuV2Catalog.codes){
   if(sengokuV2Catalog.histories.get(historyId)?.personId!==personId||
     sengokuV2Catalog.linkSites.has(historyId))continue;
+  const grave=sengokuV2Catalog.municipalityAwards.get(historyId);
+  if(grave?.classification==='墓所特例'&&sengokuV2Catalog.sites.get(grave.relatedSiteId)?.publicPin===true)continue;
   for(const code of placeCodes)codes.add(code);
  }
  return codes;
