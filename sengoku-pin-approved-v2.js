@@ -1,4 +1,4 @@
-/* ⑥F user-approved 16 pin display versions, B-reviewed, no unapproved candidates. */
+/* ⑥F user-approved 18 pin display versions, B-reviewed, no unapproved candidates. */
 (function(root,factory){
  const data=factory();
  if(typeof module==='object'&&module.exports)module.exports=data;
@@ -543,6 +543,74 @@
       "sourceId": "sg2site-a-murakami-katsurao-20261114",
       "version": "v2",
       "sheetRow": 3701,
+      "user": "公開OK",
+      "quality": "品質合格",
+      "rights": "地点確認済・権利OK",
+      "sourceMatch": "一致",
+      "bReview": "B合格"
+    }
+  },
+  "sg2site-new9-sweep-sagara-furufumoto-20261120": {
+    "siteId": "sg2site-new9-sweep-sagara-furufumoto-20261120",
+    "historyText": "八代の山麓に残る古麓城の城館群。相良晴広や義陽が八代・球磨・芦北を治めた戦国時代、この一帯は相良氏の重要な本拠だった。鷹峯城や新城など複数の城からなり、海につながる八代と内陸の人吉を結ぶ役割を果たしていた。のちの麦島城や近世八代城とは別の、戦国時代の歴史を伝える史跡である。",
+    "notice": "古麓城跡は鷹峯城・新城など複数の曲輪や堀切からなる丘陵城跡です。林地の斜面や私有地を見学路とせず、公開範囲は八代市・管理者の案内に従ってください。ピンは登山口ではありません。",
+    "officialInfoUrl": null,
+    "attributions": [
+      {
+        "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+        "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+      },
+      {
+        "label": "CC BY 4.0 利用条件",
+        "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+      }
+    ],
+    "accessStatus": "yellow",
+    "checkedAt": "2026-11-23",
+    "positionSourceSheetRow": 446,
+    "expectedPoint": [
+      130.634169,
+      32.487006
+    ],
+    "approval": {
+      "kind": "史跡",
+      "sourceId": "sg2site-new9-sweep-sagara-furufumoto-20261120",
+      "version": "v2",
+      "sheetRow": 4046,
+      "user": "公開OK",
+      "quality": "品質合格",
+      "rights": "地点確認済・権利OK",
+      "sourceMatch": "一致",
+      "bReview": "B合格"
+    }
+  },
+  "sg2site-new9-sweep-yamana-fuse-20261120": {
+    "siteId": "sg2site-new9-sweep-yamana-fuse-20261120",
+    "historyText": "因幡の山名氏は、湖山池を望む布勢天神山城を守護所としてきた。16世紀半ばには家臣の武田高信が勢力を伸ばし、山名豊数らと争った。やがて1573年に豊国が鳥取城を取り戻すと、因幡の政治の中心も移る。城跡は、山名氏が長く領国を治めた山城の歴史を伝えている。",
+    "notice": "県指定史跡の天神山城跡は湖山池東岸の低い丘陵に位置します。学校などの管理区域には立ち入らず、通行条件は現地掲示に従ってください。この地点は見学入口ではありません。",
+    "officialInfoUrl": null,
+    "attributions": [
+      {
+        "label": "『日本歴史地名大系』施設・地点項目データセット（CODH作成） doi:10.20676/00000456（CC BY 4.0）",
+        "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/index.html.ja"
+      },
+      {
+        "label": "CC BY 4.0 利用条件",
+        "url": "https://creativecommons.org/licenses/by/4.0/deed.ja"
+      }
+    ],
+    "accessStatus": "yellow",
+    "checkedAt": "2026-11-23",
+    "positionSourceSheetRow": 448,
+    "expectedPoint": [
+      134.176461,
+      35.509373
+    ],
+    "approval": {
+      "kind": "史跡",
+      "sourceId": "sg2site-new9-sweep-yamana-fuse-20261120",
+      "version": "v2",
+      "sheetRow": 4047,
       "user": "公開OK",
       "quality": "品質合格",
       "rights": "地点確認済・権利OK",
