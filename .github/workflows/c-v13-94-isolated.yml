@@ -1,0 +1,68 @@
+name: C v13 94-person isolated release and actual browser QA
+on:
+  push:
+    branches: [c/v13-release-qa-20261128]
+    paths:
+      - '.github/workflows/c-v13-94-isolated.yml'
+      - 'scripts/materialize-c-v13-94.cjs'
+      - 'tests/c-v13-94.browser.cjs'
+permissions:
+  contents: write
+concurrency:
+  group: c-v13-94-isolated
+  cancel-in-progress: false
+jobs:
+  candidate:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Exact baseline and approved delta regression
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          test "$(git branch --show-current)" = 'c/v13-release-qa-20261128'
+          node tests/sengoku-site-collection-cv3.test.cjs
+          # The original delta-wire test checks the staging loader before consolidation.
+          if grep -q 'SengokuCandidateDelta.apply(base,delta,PublicationRuntime.sha256)' index.html; then
+            node tests/sengoku-candidate-20261128.test.cjs
+          else
+            git show a68a7f7f293f7a0b6744ff8b03a07838f14394c8:index.html > /tmp/c-v13-staged-index.html
+            cp index.html /tmp/c-v13-current-index.html
+            cp /tmp/c-v13-staged-index.html index.html
+            node tests/sengoku-candidate-20261128.test.cjs
+            cp /tmp/c-v13-current-index.html index.html
+          fi
+      - name: Consolidate approved JSON and export actual release ledger
+        run: |
+          node scripts/materialize-c-v13-94.cjs
+          node scripts/export-c-release-ledger.cjs
+          node scripts/export-c-release-ledger.cjs --check
+          node -e "const fs=require('fs'),a=fs.readFileSync('data/c-release/status.csv','utf8').trim().split('\\n').at(-1).split(',');if(a[0]!=='v2-approved-c-20261128-cv3-94'||a.slice(-5).join(',')!=='94,1682,594,556,2464')throw Error('ledger totals: '+a.join(','));console.log('C_V13_LEDGER_MATCH',a.join(','))"
+      - name: Install pinned browser assets
+        run: npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.1 leaflet@1.9.4 topojson-client@3.1.0
+      - name: Prepare deterministic geometry
+        run: |
+          mkdir -p .qa-assets
+          curl --fail --location --retry 4 --retry-delay 2 --silent --show-error 'https://cdn.jsdelivr.net/gh/kyodo-official/japan-choropleth@78f20994bcdd7afbbbf8bf0b8aeb88b9e314a713/data/topojson/municipalities.topojson' --output .qa-assets/municipalities.topojson
+          cp node_modules/topojson-client/dist/topojson-client.min.js .qa-assets/topojson-client.min.js
+      - name: PC Chromium and iPhone WebKit actual local HTTP release QA
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/c-v13-http.log 2>&1 &
+          sleep 2
+          node --test tests/c-v13-94.browser.cjs
+      - name: Commit verified candidate to QA branch ONLY
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add index.html sengoku/v2/approved-c-20261128-cv3-94.json data/c-release/records.csv data/c-release/status.csv
+          git diff --cached --check
+          if git diff --cached --quiet; then echo 'Already materialized and verified'; exit 0; fi
+          git commit -m "C v13: isolated approved 94-person JSON and matching ledger; browser QA passed"
+          git push origin HEAD:refs/heads/c/v13-release-qa-20261128
