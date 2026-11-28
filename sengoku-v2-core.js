@@ -1073,8 +1073,9 @@
     for(const [historyId,record] of Object.entries(found||{})){
       if(index.histories?.get(historyId)?.kind!=='place')continue;
       const links=index.linkSites?.get(historyId);
+      const saved=record?.siteId,grave=index.municipalityAwards?.get(historyId);
+      if(saved&&grave?.classification==='墓所特例'&&grave.relatedSiteId===saved&&index.sites.has(saved)){result.add(saved);continue;}
       if(!links?.size)continue;
-      const saved=record?.siteId;
       if(saved&&links.has(saved)&&index.sites.has(saved)){
         result.add(saved);continue;
       }
@@ -1155,7 +1156,9 @@
       if(h.kind!=='place'||own(next,h.historyId))continue;
       if(![...(index.codes.get(h.historyId)||[])].some(c=>seen.has(c)))continue;
       const site=[...(index.linkSites.get(h.historyId)||[])].map(sid=>index.sites.get(sid)).find(s=>s.codes.some(c=>seen.has(c)));
-      next[h.historyId]={at:when,siteId:site?.siteId||'',basis:index.version};added.push(h.historyId);personUnlocked.add(h.personId);
+      const grave=index.municipalityAwards?.get(h.historyId);
+      const graveSite=h.historyId==='sg2hist-a-yoshihiro-death1578-20261125'&&grave?.classification==='墓所特例'&&seen.has(grave.municipalityCode)?grave.relatedSiteId:'';
+      next[h.historyId]={at:when,siteId:site?.siteId||graveSite||'',basis:index.version};added.push(h.historyId);personUnlocked.add(h.personId);
     }
     for(const h of index.histories.values()){
       if(h.kind!=='nonplace'||own(next,h.historyId)||!personUnlocked.has(h.personId))continue;
